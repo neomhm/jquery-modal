@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. The Compose UI supplies the real Material 3 theme;
+         this keeps the pre-Compose splash consistent with the brand. -->
+    <style name="Theme.GeekomSales" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#0B1220</item>
+        <item name="android:windowBackground">#0B1220</item>
+    </style>
+</resources>
