@@ -142,6 +142,67 @@ def ce(logits, target):
                            reduction="sum") / count
 
 
+# torch 2.4 has only the CUDA name of this error; later versions have both
+OUT_OF_MEMORY = getattr(torch, "OutOfMemoryError",
+                        torch.cuda.OutOfMemoryError)
+
+
+def forward_backward(net, opt, scaler, dtype, device, rows, state, log):
+    """Loss and gradients of one batch:
+    CE(tokens) + 0.3 x CE(document type) + 0.1 x CE(language).
+    On an out-of-memory error the batch is cut into 2, 4, 8 ... parts
+    whose gradients add up to exactly the same result (as in 9.5: never
+    crash); the number of parts is kept for the rest of the run.
+    Returns the loss as a tensor (reading it as a number makes a GPU
+    wait, so the caller does that only now and then)."""
+    # the counts of the WHOLE batch, so that the parts add up exactly
+    n_tok = max(1, sum(int((r[1] != -100).sum()) for r in rows))
+    n_doc = max(1, sum(1 for r in rows if r[2] != -100))
+    n_lang = max(1, sum(1 for r in rows if r[3] != -100))
+    while True:
+        parts = min(state.get("parts", 1), len(rows))
+        size = math.ceil(len(rows) / parts)
+        opt.zero_grad(set_to_none=True)
+        total = None
+        try:
+            for k in range(0, len(rows), size):
+                ids, keep, labels, doc, lang = to_tensors(rows[k:k + size],
+                                                          device)
+                with torch.autocast(device_type=device.type, dtype=dtype,
+                                    enabled=dtype is not None):
+                    h = net(ids, keep)
+                    tok_logits = net.token_logits(h).float()
+                    doc_logits = net.doc_logits(h, keep).float()
+                    lang_logits = net.lang_logits(h, keep).float()
+                loss = ce_sum(tok_logits.reshape(-1, tok_logits.shape[-1]),
+                              labels.reshape(-1)) / n_tok + \
+                    0.3 * ce_sum(doc_logits, doc) / n_doc + \
+                    0.1 * ce_sum(lang_logits, lang) / n_lang
+                if scaler:
+                    scaler.scale(loss).backward()
+                else:
+                    loss.backward()
+                part = loss.detach()
+                total = part if total is None else total + part
+            return total
+        except OUT_OF_MEMORY:
+            opt.zero_grad(set_to_none=True)
+            if device.type == "cuda":
+                torch.cuda.empty_cache()
+            if parts >= len(rows):
+                raise
+            state["parts"] = parts * 2
+            log("out of memory: each batch now in %d parts" %
+                state["parts"])
+
+
+def ce_sum(logits, target):
+    """Summed cross-entropy over the targets that are not -100 (0 when
+    there are none)."""
+    return F.cross_entropy(logits, target, ignore_index=-100,
+                           reduction="sum")
+
+
 # ---------------------------------------------------------------------
 #  evaluation through the real decoding path
 # ---------------------------------------------------------------------
@@ -271,22 +332,10 @@ def train_loop(preset, net, opt, scaler, dtype, device, train, lengths,
                               rng)
                 rows.append((a, b, int(train["doc"][i]),
                              int(train["lang"][i])))
-        ids, keep, labels, doc, lang = to_tensors(rows, device)
-        with torch.autocast(device_type=device.type, dtype=dtype,
-                            enabled=dtype is not None):
-            h = net(ids, keep)
-            tok_logits = net.token_logits(h).float()
-            doc_logits = net.doc_logits(h, keep).float()
-            lang_logits = net.lang_logits(h, keep).float()
-        loss = ce(tok_logits.reshape(-1, tok_logits.shape[-1]),
-                  labels.reshape(-1)) + 0.3 * ce(doc_logits, doc) + \
-            0.1 * ce(lang_logits, lang)
-        opt.zero_grad(set_to_none=True)
+        loss = forward_backward(net, opt, scaler, dtype, device, rows, state,
+                                log)
         if scaler:
-            scaler.scale(loss).backward()
             scaler.unscale_(opt)
-        else:
-            loss.backward()
         torch.nn.utils.clip_grad_norm_(net.parameters(), 1.0)
         if scaler:
             scaler.step(opt)

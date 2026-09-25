@@ -250,6 +250,23 @@ section.
   qualifier (about / more than / under / range); the true address may be
   written in any of its forms (one line, several lines); the true revenue
   is the most recent year that really appears in the folder.
+* **Evaluation time in pretraining.** The masked-accuracy measurements
+  (at step 1 and every 200 steps) are left out of the time cap and of
+  the timing of the first 20 steps, as section 8 says. The first pilot
+  run still counted them (the fix came while it was pretraining): it
+  measured 4.44 s per step, about 0.5 s too much, and planned 810 steps
+  instead of about 900. Improvement rounds use the fixed code, so they
+  pretrain a little longer than the first pilot run; the round log says
+  so.
+* **Out of memory in fine-tuning.** Section 12 takes its optimizer and
+  precision rules from 9.5, which says never to crash on an out-of-memory
+  error. Fine-tuning therefore cuts a batch into 2, 4, 8 ... parts on
+  such an error and adds up their gradients; the loss of each part is
+  divided by the counts of the whole batch, so the result is the same as
+  one pass (checked: equal losses, gradients within 4e-7 for 1, 3 and 14
+  parts). Pretraining raises the error instead of looping forever when
+  its micro-batch is already 1. Both use `torch.cuda.OutOfMemoryError`
+  when `torch.OutOfMemoryError` does not exist (torch 2.4).
 * **Devices.** Calibration and evaluation run on the GPU when there is
   one (the whole evaluation of the full preset would take hours on a
   CPU); the speed measurement of section 17 always runs on the CPU.

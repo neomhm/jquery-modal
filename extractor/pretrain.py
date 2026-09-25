@@ -42,6 +42,11 @@ CHECKPOINT_EVERY = 15 * 60          # seconds
 LOG_EVERY = 200                     # steps
 
 
+# torch 2.4 has only the CUDA name of this error; later versions have both
+OUT_OF_MEMORY = getattr(torch, "OutOfMemoryError",
+                        torch.cuda.OutOfMemoryError)
+
+
 def device_and_precision():
     if torch.cuda.is_available():
         torch.backends.cuda.matmul.allow_tf32 = True
@@ -219,15 +224,22 @@ def run(preset, log=print):
 
     net.train()
     last_ckpt = time.time()
+    # state["seconds"] is training time only: the time spent measuring
+    # the masked accuracy does not count towards the cap (section 8)
     began = time.time() - state["seconds"]
+    eval_seconds = 0.0
     cap = (settings.get("minutes") or 0) * 60
     timing_start = None
+
+    def elapsed():
+        return time.time() - began - eval_seconds
+
     while True:
         step = state["step"]
         total = state["total"]
         if total is not None and step >= total:
             break
-        if cap and time.time() - began >= cap:
+        if cap and elapsed() >= cap:
             log("time cap reached at step %d" % step)
             break
         batch, seq_len = shape_for(step, total)
@@ -260,10 +272,12 @@ def run(preset, log=print):
                 scaler.update()
             else:
                 opt.step()
-        except torch.OutOfMemoryError:
+        except OUT_OF_MEMORY:
             opt.zero_grad(set_to_none=True)
             if device.type == "cuda":
                 torch.cuda.empty_cache()
+            if micro == 1:
+                raise                  # nothing smaller to try
             state["micro"] = max(1, micro // 2)
             log("out of memory: micro-batch %d -> %d" % (micro,
                                                           state["micro"]))
@@ -271,9 +285,9 @@ def run(preset, log=print):
         state["step"] = step + 1
         # ---- the step count from the time cap (section 8)
         if step == 0:
-            timing_start = time.time()
+            timing_start = elapsed()
         if state["total"] is None and state["step"] == 21:
-            per_step = (time.time() - timing_start) / 20
+            per_step = (elapsed() - timing_start) / 20
             limit = settings.get("steps") or 10 ** 9
             by_time = int(cap / per_step) if cap else limit
             state["total"] = max(21, min(limit, by_time))
@@ -282,24 +296,26 @@ def run(preset, log=print):
             log("%.2f s per step -> %d steps (warm-up %d)" % (
                 per_step, state["total"], state["warmup"]))
         if state["step"] % LOG_EVERY == 0 or state["step"] == 1:
+            t0 = time.time()
             acc, eval_loss = masked_accuracy(net, sources, seq_len, device,
                                              dtype, vocab)
+            eval_seconds += time.time() - t0
             entry = {"step": state["step"], "loss": round(loss_total, 4),
                      "eval_loss": round(eval_loss, 4),
                      "masked_accuracy": round(acc, 4), "lr": lr,
-                     "minutes": round((time.time() - began) / 60, 1)}
+                     "minutes": round(elapsed() / 60, 1)}
             state["log"].append(entry)
             log("step %(step)d loss %(loss).3f eval %(eval_loss).3f "
                 "masked acc %(masked_accuracy).3f" % entry)
         if time.time() - last_ckpt > CHECKPOINT_EVERY:
-            state["seconds"] = time.time() - began
+            state["seconds"] = elapsed()
             save(ckpt_path, net, opt, state, tokenizer_json, preset)
             last_ckpt = time.time()
+    state["seconds"] = elapsed()
     acc, eval_loss = masked_accuracy(net, sources, shape_for(0, None)[1],
                                      device, dtype, vocab)
     state["final_masked_accuracy"] = round(acc, 4)
     state["final_eval_loss"] = round(eval_loss, 4)
-    state["seconds"] = time.time() - began
     state["done"] = True
     state["wiki"] = sources.use_wiki
     save(ckpt_path, net, opt, state, tokenizer_json, preset)
