@@ -296,8 +296,58 @@ section.
 
 ## Improvement rounds
 
-(Filled in after each round: what was seen on val / dev_heldout, with
-counts; what was changed; dev_heldout before and after.)
+**None were run: the first pilot run already met the stop rule of
+section 23** (pilot: dev_heldout >= 0.85). Its dev-only evaluation gave
+strict micro-F1 (accepted spans, after calibration) **0.9537 on
+dev_heldout** and 0.9750 on val; dev_heldout folder level 0.870 on the
+required fields, 0.980 on the business name, 0 invented values. The full
+evaluation was then run once (`build.py pilot --from evaluate`).
+
+The error analysis of section 23 was still done, on val and dev_heldout
+only (`runs/pilot/errors_dev.jsonl`), for the report and for whoever
+builds the next data version. What was seen:
+
+* **10,502 errors** (dev_heldout 8,277, val 2,225): missed 7,117,
+  spurious 1,601, boundary 1,384, wrong label 228, role swap 172. By
+  label: C_NAME 2,353, SERVICE 2,261, S_NAME 1,298, PRICE 587, S_PERSON
+  545, ACTIVITY 520, LINE_TOTAL 490, FOUNDED 348, STAFF 284, CAPITAL 270.
+  110 examples from the largest groups were read one by one.
+* **Held-out layouts and phrasings are the main source.** On dev_heldout,
+  chunks from training layouts score F1 0.963 and chunks from the 12
+  held-out (D) layouts 0.948, but four layouts are far lower:
+  `brochure.B06` (D) 0.565 (1,640 of 2,836 spans missed: client
+  references, founding dates, activity statements written in held-out
+  phrasings such as "服务对象包括…等企事业单位", "Dal 2004 a oggi",
+  "Мы открылись в 2024 году"), `staff_list.S02` (D) 0.581,
+  `financials.F02` (D) 0.620 (share capital rows read as REVENUE; 341
+  spurious LINE_TOTAL and 165 spurious REVENUE_YEAR, some on pieces of
+  numbers such as "202" of "2025") and `brochure.B09` (a training layout,
+  whose dev_heldout chunks carry held-out phrasings) 0.626.
+* **The precision rule of the thresholds turns uncertain right answers
+  into misses:** C_NAME needs a score of 0.95, STAFF and S_PERSON 0.90,
+  S_NAME and FOUNDED 0.85 to reach 97% precision on dev_heldout; on val
+  (seen layouts and phrasings) 1,702 of the 2,225 errors are misses.
+* **Data problems noticed (not fixed, since no round was run):**
+  1. product names that contain commas ("Whole milk, 2 L", "Object
+     storage, 1 TB") are also used in comma-separated lists in running
+     text, where their boundaries are ambiguous even for a person;
+  2. a counterparty that is a sole trader named after its owner is
+     `C_NAME` (R8/R9), a private customer is `O`, and some documents
+     show the first without any business cue (no registration number,
+     no trade word), so the two cannot be told apart from the text;
+  3. Japanese and Korean company names built from a full city and ward
+     ("仙台市宮城野区ペイント", "안산시 상록구헬스"), which real names
+     do not do (Chinese names with the city, "上海市…有限公司", are
+     normal);
+  4. a legal form repeated after a name that already has it
+     ("合发印务有限公司（有限公司）");
+  5. in `invoice.L09`, the payment-terms cell of non-English invoices
+     shows a bare number of days that does not match the due date.
+* **What a next round should change** (for example if the full build
+  misses gate line 4 on FOUNDED, STAFF, ACTIVITY or C_NAME): more
+  training phrasings for client references, founding dates, activity
+  statements and staff counts in every language; more forms of balance
+  sheets and income statements; the five data problems above.
 
 ## Suggestions (for FIXED sections - not applied)
 
