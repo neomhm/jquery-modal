@@ -493,7 +493,7 @@ builds the next data version. What was seen:
 
 ## 8. Deviations and decisions
 
-Every decision is in `DECISIONS.md`, by topic: Environment, Language data (section 10.2), Names and addresses: the Faker rule (section 10.3), Generator (section 10), Normalizer and verifier (section 14), Test discipline, Profile builder (section 15), Build pipeline (sections 7-9, 12, 13, 17, 21), Improvement rounds, Diagnosis - pilot, Suggestions (for FIXED sections - not applied).
+Every decision is in `DECISIONS.md`, by topic: Environment, Language data (section 10.2), Names and addresses: the Faker rule (section 10.3), Generator (section 10), Normalizer and verifier (section 14), Test discipline, Profile builder (section 15), Build pipeline (sections 7-9, 12, 13, 17, 21), Improvement rounds, Diagnosis - pilot, Delivery, Suggestions (for FIXED sections - not applied).
 
 ## 9. Known limits
 
@@ -555,3 +555,31 @@ py profile.py "C:\Users\Laurent\new model\documents.db"
 ```powershell
 py build.py full --from evaluate
 ```
+
+### Delivery
+
+* The files were sent with this environment's file-delivery tool, which
+  takes at most 30 MiB per file. `extractor-pilot.pt` (48.6 MB) is over
+  that limit, so it was sent in two halves, `extractor-pilot.pt.part1` and
+  `extractor-pilot.pt.part2`. Joined, they are byte for byte the evaluated
+  file; its SHA-256 is
+  `B2C03128D622A2C3A2E1FC37BD9A450FE59D223A1AE842D2A7C147C48878323E`.
+  To join them, put both halves in `C:\Users\Laurent\new model\extractor`
+  and run, in PowerShell:
+
+```powershell
+cd "C:\Users\Laurent\new model\extractor"
+```
+
+```powershell
+cmd /c copy /b extractor-pilot.pt.part1+extractor-pilot.pt.part2 extractor-pilot.pt
+```
+
+```powershell
+(Get-FileHash extractor-pilot.pt).Hash
+```
+
+  The last command must print the SHA-256 above; the two halves can then
+  be deleted.
+* No folder `C:\Users\Laurent\new model` was connected to this session,
+  so nothing was written there.

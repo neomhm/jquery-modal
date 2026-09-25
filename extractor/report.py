@@ -432,6 +432,11 @@ py profile.py "C:\\Users\\Laurent\\new model\\documents.db"
 ```powershell
 py build.py full --from evaluate
 ```""")
+    # how the files reached Laurent (for example a model file sent in
+    # parts), written in DECISIONS.md
+    m = re.search(r"## Delivery\n(.*?)(\n## |\Z)", dec, re.S)
+    if m:
+        parts.append("### Delivery\n\n" + m.group(1).strip())
     path = HERE / "REPORT.md"
     path.write_text("\n\n".join(parts) + "\n", encoding="utf-8")
     log("REPORT.md written")

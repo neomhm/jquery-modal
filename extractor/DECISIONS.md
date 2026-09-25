@@ -389,6 +389,34 @@ would fail with it; the report marks them FAIL. What the numbers say
   real documents will be harder than the synthetic test sets; labelled
   real chunks in `real_eval/` will measure it properly.
 
+## Delivery
+
+* The files were sent with this environment's file-delivery tool, which
+  takes at most 30 MiB per file. `extractor-pilot.pt` (48.6 MB) is over
+  that limit, so it was sent in two halves, `extractor-pilot.pt.part1` and
+  `extractor-pilot.pt.part2`. Joined, they are byte for byte the evaluated
+  file; its SHA-256 is
+  `B2C03128D622A2C3A2E1FC37BD9A450FE59D223A1AE842D2A7C147C48878323E`.
+  To join them, put both halves in `C:\Users\Laurent\new model\extractor`
+  and run, in PowerShell:
+
+```powershell
+cd "C:\Users\Laurent\new model\extractor"
+```
+
+```powershell
+cmd /c copy /b extractor-pilot.pt.part1+extractor-pilot.pt.part2 extractor-pilot.pt
+```
+
+```powershell
+(Get-FileHash extractor-pilot.pt).Hash
+```
+
+  The last command must print the SHA-256 above; the two halves can then
+  be deleted.
+* No folder `C:\Users\Laurent\new model` was connected to this session,
+  so nothing was written there.
+
 ## Suggestions (for FIXED sections - not applied)
 
 * none yet

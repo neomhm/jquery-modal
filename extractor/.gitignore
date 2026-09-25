@@ -6,3 +6,4 @@
 __pycache__/
 *.pyc
 *.zip
+extractor-pilot.pt.part*
