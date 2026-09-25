@@ -258,13 +258,20 @@ def load_split(preset, split):
     path = config.runs_dir(preset) / "pack" / ("ft_%s.npz" % split)
     if not path.exists():
         return None
-    z = np.load(path)
-    starts = z["starts"]
-    ids = [z["ids"][starts[i]:starts[i + 1]] for i in range(len(starts) - 1)]
-    labels = [z["labels"][starts[i]:starts[i + 1]]
+    # Read each array ONCE: every z["..."] reads and unpacks the whole
+    # array again, and a slice keeps its whole array alive - slicing
+    # z["ids"] per chunk would hold one full copy per chunk in memory.
+    with np.load(path) as z:
+        starts = z["starts"]
+        all_ids = z["ids"]
+        all_labels = z["labels"]
+        doc, lang = z["doc"], z["lang"]
+        chunk_ids = list(z["chunk_ids"])
+    ids = [all_ids[starts[i]:starts[i + 1]] for i in range(len(starts) - 1)]
+    labels = [all_labels[starts[i]:starts[i + 1]]
               for i in range(len(starts) - 1)]
-    return {"ids": ids, "labels": labels, "doc": z["doc"],
-            "lang": z["lang"], "chunk_ids": list(z["chunk_ids"])}
+    return {"ids": ids, "labels": labels, "doc": doc, "lang": lang,
+            "chunk_ids": chunk_ids}
 
 
 if __name__ == "__main__":

@@ -258,6 +258,12 @@ section.
   the smoke model), not that of the evaluation holding every split in
   memory (8 GB). The peak is read with `resource` on Linux and macOS and
   with `GetProcessMemoryInfo` on Windows, where `resource` does not exist.
+* **Loading the packed fine-tuning data** reads each array of the `.npz`
+  once. The first version sliced `z["ids"]` chunk by chunk; with `.npz`
+  files every such access unpacks the whole array again and each slice
+  keeps its copy alive, so the smoke train split took 7.4 GB (37 MB now)
+  and the pilot's would not have fitted in any memory. Found before the
+  pilot's fine-tuning started, by measuring a smoke run.
 * **The time-capped stages time their first 20 steps.** Anything else
   running on the machine at that moment lowers the step count of the
   whole stage. It happened once here: a test run during the pilot's
