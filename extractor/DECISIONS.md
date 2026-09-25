@@ -255,9 +255,10 @@ section.
   the timing of the first 20 steps, as section 8 says. The first pilot
   run still counted them (the fix came while it was pretraining): it
   measured 4.44 s per step, about 0.5 s too much, and planned 810 steps
-  instead of about 900. Improvement rounds use the fixed code, so they
-  pretrain a little longer than the first pilot run; the round log says
-  so.
+  instead of about 900 (it ran all 810 in 58.2 minutes). Its fine-tuning,
+  calibration and evaluation ran with the code of this package; only its
+  pretraining ran the earlier accounting. Any later run uses the fixed
+  code and so pretrains a little longer.
 * **Out of memory in fine-tuning.** Section 12 takes its optimizer and
   precision rules from 9.5, which says never to crash on an out-of-memory
   error. Fine-tuning therefore cuts a batch into 2, 4, 8 ... parts on
