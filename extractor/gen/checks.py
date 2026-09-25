@@ -418,8 +418,10 @@ def run(preset, log=print):
         rep.result("5 normalize() == truth (country)", rate >= 0.99,
                    "%.2f%% of %d" % (100 * rate, total))
         ok2, total2 = check_normalize(everything, False)
-        log("      normalize() with the language only: %.2f%% of %d" %
-            (100 * ok2 / max(1, total2), total2))
+        line = "      normalize() with the language only: %.2f%% of %d" % (
+            100 * ok2 / max(1, total2), total2)
+        log(line)
+        rep.lines.append(line)
         if failures:
             path = data_dir / "normalize_failures.jsonl"
             with open(path, "w", encoding="utf-8") as f:

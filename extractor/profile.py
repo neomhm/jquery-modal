@@ -26,17 +26,36 @@ the database, then prints a readable table.
 """
 import argparse
 import datetime
+import importlib.util
 import json
 import pathlib
 import re
 import sqlite3
 import sys
+import sysconfig
 import unicodedata
 
 import config
 import normalize as N
 
 HERE = pathlib.Path(__file__).resolve().parent
+
+
+def _standard_profile():
+    """Python's standard library has a module called 'profile' too, and
+    cProfile (which PyTorch may import) needs it. Because this file has
+    the same name, it would be found first: so we load the standard one
+    from the standard library folder and hand cProfile what it uses."""
+    path = pathlib.Path(sysconfig.get_paths()["stdlib"]) / "profile.py"
+    spec = importlib.util.spec_from_file_location("_standard_profile", path)
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+_std = _standard_profile()
+run, runctx, Profile, _Utils = _std.run, _std.runctx, _std.Profile, \
+    _std._Utils
 
 REQUIRED = ["business_name", "address", "activity", "services",
             "legal_form", "reg_id", "contact", "founded", "staff",
@@ -727,6 +746,8 @@ def build(db, model=None, log=print):
         rec["trading_name"] = trading.value()["text"] if trading else \
             strip_legal_form(legal.value()["text"])
         rec["trading_name_derived"] = trading is None
+        rec["trading_sources"] = trading.sources() if trading else \
+            legal.sources()
     fields["business_name"] = rec
     # ---- the other fields
     rules = [
@@ -969,10 +990,9 @@ def check_invariant(profile, db):
         elif isinstance(v, dict):
             check_value(name, v, f["sources"])
         if name == "business_name" and f.get("value"):
-            for key in ("legal_name", "trading_name"):
-                check_value(name, {"text": f.get(key)}, f["sources"] + [
-                    s for a in f.get("alternatives", [])
-                    for s in a["sources"]])
+            check_value(name, {"text": f.get("legal_name")}, f["sources"])
+            check_value(name, {"text": f.get("trading_name")},
+                        f.get("trading_sources", []))
     return problems
 
 
