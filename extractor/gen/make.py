@@ -317,7 +317,8 @@ def pick_layout(rng, plan, loc, rules, split):
     from gen.layouts.common import REGISTRY
     kind = plan["kind"]
     cands = []
-    for lid, info in sorted(REGISTRY.items()):
+    unfit_heldout = False           # a held-out layout exists, but not
+    for lid, info in sorted(REGISTRY.items()):     # for this business
         if info["doc_type"] != plan["type"] or info["kind"] != kind:
             continue
         group = H.layout_group(lid)
@@ -329,6 +330,8 @@ def pick_layout(rng, plan, loc, rules, split):
             S = plan.get("S")
             if info.get("companies_only") and S is not None and \
                     S.cls not in ("company", "other"):
+                if group == rules.get("force_layout"):
+                    unfit_heldout = True
                 continue
         if group not in rules["allowed"]:
             continue
@@ -343,6 +346,11 @@ def pick_layout(rng, plan, loc, rules, split):
             # invoice layout, so the document still has its held-out item
             plan["kind"] = "invoice"
             return pick_layout(rng, plan, loc, rules, split)
+        if not forced and unfit_heldout:
+            # the country's held-out registration layout is for companies
+            # only: a sole trader gets no registration document here,
+            # rather than a document without any held-out item
+            return None
         if forced:
             cands = forced
     elif split == "test_locale":

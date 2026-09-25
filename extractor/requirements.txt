@@ -1,0 +1,6 @@
+tokenizers>=0.20
+faker>=30
+phonenumbers
+numpy
+datasets
+hijridate

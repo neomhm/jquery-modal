@@ -182,9 +182,11 @@ def write(log=print):
                    "MEGA9 /train card.")
     parts.append("## 1. Summary\n\n" + "  \n".join(summary))
     # 2. environment
-    rows = [[k, env.get(k)] for k in ("os", "python", "torch", "device",
-                                       "backend", "cpu_count", "ram_gb",
-                                       "free_disk_gb", "wiki_reachable")]
+    rows = [[k, env.get(k)] for k in ("os", "python", "torch", "backend",
+                                       "gpu", "device_name",
+                                       "device_memory_gb", "cpu_count",
+                                       "ram_gb", "free_disk_gb",
+                                       "wiki_reachable")]
     wiki = []
     for p in runs:
         stats = read_json(config.corpus_dir(p) / "corpus_stats.json") or {}

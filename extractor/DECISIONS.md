@@ -111,6 +111,13 @@ section.
   one, and held-out sentence templates whenever one fits. A receipt or
   credit note, which has no held-out layout of its own, then uses a
   held-out invoice layout.
+* **A held-out registration layout made for companies only** (the
+  Australian ASIC extract is held out; a sole trader has none): in a
+  held-out folder that must use held-out items, such a business gets no
+  registration document rather than one without any held-out item. Found
+  when the pilot's generator check failed on 1 of 300 test_heldout
+  folders; diagnosed and fixed on dev_heldout folders only (the same rule
+  with D items), without looking at any test_heldout content.
 * **test_locale:** clients and suppliers of a business in a held-out
   locale may come from that same locale. The rule "no client or supplier
   is drawn from a held-out locale" is applied to every other split (it is
@@ -208,6 +215,51 @@ section.
   section 17 right; the misses are OCR-noised texts. So the profile
   builder itself costs almost nothing; the folder-level score measures
   the model.
+
+## Build pipeline (sections 7-9, 12, 13, 17, 21)
+
+* **Files not in the layout of section 20:** `report.py` (the report
+  stage, split from `build.py` to keep that file readable) and
+  `gold.py` (the loader of the hand-written and real_eval format, section
+  20). `gen/checks.py`, `gen/faker_check.py` and `gen/holdout.py` belong
+  to the generator.
+* **`profile.py` and the standard library.** Python has a standard
+  module called `profile`, which `cProfile` imports (PyTorch loads
+  cProfile when an optimizer is made). The required file name hides it,
+  so `profile.py` loads the standard module from the standard-library
+  folder and hands on the three names cProfile uses (`run`, `runctx`,
+  `_Utils`).
+* **`corpus.py` runs as its own process** and leaves with `os._exit()`:
+  the `datasets` library can crash when Python shuts down after
+  streaming (seen here). Files are closed before.
+* **Pretraining:** the learning rate of the first 20 steps (the ones that
+  are timed to set the step count of the time cap) uses a warm-up of 50
+  steps; after that the warm-up is max(50, 3% of the steps). The held-out
+  1% of Wikipedia paragraphs is chosen by a hash of the text.
+* **Fine-tuning:** "buckets of 100 x batch" is read as 100 times the
+  number of chunks that fit in one token budget on average. Wikipedia
+  batches use windows of 512 tokens. An epoch counts both kinds of
+  batches (so 10% of an epoch's steps are Wikipedia).
+* **Calibration:** the temperature is fitted on the true token labels of
+  dev_heldout, using the first max_len tokens of the few chunks that are
+  longer.
+* **Evaluation definitions:** a relaxed match is the same label with an
+  overlap of at least half of the longer span; T4 role accuracy is
+  counted on the spans found with the right boundaries; the folder-level
+  staff count is right when it agrees with the true number given its
+  qualifier (about / more than / under / range); the true address may be
+  written in any of its forms (one line, several lines); the true revenue
+  is the most recent year that really appears in the folder.
+* **Work in progress was committed and pushed to the branch
+  `claude/attached-instructions-vz6bdr` of the repository this session
+  works in**, which is how this environment delivers work to its user.
+  Nothing else left the environment (Wikipedia and pip packages were
+  downloaded, as allowed).
+
+## Improvement rounds
+
+(Filled in after each round: what was seen on val / dev_heldout, with
+counts; what was changed; dev_heldout before and after.)
 
 ## Suggestions (for FIXED sections - not applied)
 

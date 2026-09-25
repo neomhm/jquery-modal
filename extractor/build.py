@@ -97,12 +97,13 @@ def stage_check(preset, args, log):
     still = [p for p in env.get("missing_required", []) if p != "torch"]
     if still:
         raise RuntimeError("missing packages: %s" % ", ".join(still))
-    if preset == "full" and env.get("device") == "cpu" and not args.force:
+    if preset == "full" and not env.get("gpu") and not args.force:
         raise RuntimeError("the full preset needs a GPU with >= 12 GB; use "
                            "'py build.py pilot', or --force to run it on "
                            "the CPU anyway (days)")
-    return {"device": env.get("device"), "wiki_reachable":
-            env.get("wiki_reachable"), "torch": env.get("torch")}
+    return {"backend": env.get("backend"), "gpu": env.get("device_name"),
+            "wiki_reachable": env.get("wiki_reachable"),
+            "torch": env.get("torch")}
 
 
 def stage_corpus(preset, args, log):
