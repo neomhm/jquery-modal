@@ -932,6 +932,8 @@ def normalize_legal_form(text, lang=None, country=None):
     if not hits:
         return {"ok": False, "kind": "legal_form", "reason": "unknown_form"}
     pick = [h for h in hits if h[0] == country] if country else []
+    if pick and lang:                   # CA: "inc." in English or French
+        pick = [h for h in pick if h[3] == lang] or pick
     if not pick and lang:
         pick = [h for h in hits if h[3] == lang]
     pick = pick or hits

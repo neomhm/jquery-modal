@@ -30,6 +30,7 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 import config                                            # noqa: E402
+import normalize as N                                    # noqa: E402
 from gen import business as B                            # noqa: E402
 from gen import data as D                                # noqa: E402
 from gen import holdout as H                             # noqa: E402
@@ -624,6 +625,7 @@ def make_folder(split, index, traps_mode=False, locale=None, lang=None,
                                                     10), REF)})
     folder_id = "%s-%06d" % (split, index)
     chunks, docs_info, per_doc = [], [], []
+    names_used = set()
     seen = new_seen()
     for k, plan in enumerate(plans):
         built = build_document(rng, biz, plan, rules, split, index)
@@ -631,8 +633,13 @@ def make_folder(split, index, traps_mode=False, locale=None, lang=None,
             continue
         doc, ctx = built["doc"], built["ctx"]
         doc_id = "%s-%02d" % (folder_id, k)
-        name = file_name(rng, doc, plan, rng.randint(1, 999)) + \
-            EXT[built["fmt"]]
+        name = file_name(rng, doc, plan, rng.randint(1, 999))
+        base, n = name, 2
+        while name + EXT[built["fmt"]] in names_used:   # unique in a folder
+            name = "%s (%d)" % (base, n)
+            n += 1
+        name += EXT[built["fmt"]]
+        names_used.add(name)
         by_business = plan.get("S") is biz
         business_is_c = plan.get("C") is biz
         for ordinal, (page, kind, text, spans, cut, traps) in enumerate(
@@ -697,7 +704,7 @@ def new_seen():
             "staff": None, "revenue": {}, "capital": None,
             "legal_form": None, "act_code": None, "certs": set(),
             "hours": set(), "managers": set(), "addresses": set(),
-            "private_docs": set()}
+            "private_docs": set(), "rev_years": set()}
 
 
 def record_seen(seen, spans, text, truth_map, by_business, plan):
@@ -744,6 +751,8 @@ def record_seen(seen, spans, text, truth_map, by_business, plan):
                 seen["capital"] = t
             elif label == "REVENUE":
                 seen["revenue_seen"] = True
+            elif label == "REVENUE_YEAR" and t:
+                seen["rev_years"].add(t["year"])
         else:                                 # the business is C here
             if label == "C_REG_ID" and t:
                 seen["reg"][t["compact"]] = t["type"]
@@ -756,7 +765,10 @@ def folder_truth(biz, seen, docs_info, folder_id, split, loc_code,
     """The truth record of a folder (10.8), after generation: a fact is
     'found' only if it really appeared in a document of the business."""
     lab = seen["labels"]
-    y = max(biz.revenue) if biz.revenue else None
+    # the most recent revenue year that really appeared (an older
+    # statement may be the only one in the folder)
+    shown = sorted(y for y in seen["rev_years"] if y in biz.revenue)
+    y = shown[-1] if shown else (max(biz.revenue) if biz.revenue else None)
     private_docs = sum(1 for d in docs_info if d.get("private_customer"))
     org_clients = sorted(seen["clients"])
     found = {
@@ -764,14 +776,18 @@ def folder_truth(biz, seen, docs_info, folder_id, split, loc_code,
         "address": "S_ADDRESS" in lab,
         "activity": "ACTIVITY" in lab,
         "services": "SERVICE" in lab,
-        "legal_form": "LEGAL_FORM" in lab or (biz.form["attach"] and
-                                              biz.legal != biz.core),
+        "legal_form": "LEGAL_FORM" in lab or any(
+            N.parse_legal_form(name, biz.country) for name in
+            seen["names"]),
         "reg_id": bool(seen["reg"]),
         "contact": "S_PHONE" in lab or "S_EMAIL" in lab,
         "founded": "FOUNDED" in lab,
         "staff": "STAFF" in lab,
         "revenue": "REVENUE" in lab,
         "clients": bool(org_clients) or private_docs >= 3,
+        "activity_code": "ACTIVITY_CODE" in lab,
+        "capital": "CAPITAL" in lab,
+        "manager": "S_PERSON" in lab,
     }
     current_address = biz.address["one"]
     truth = {
@@ -781,6 +797,8 @@ def folder_truth(biz, seen, docs_info, folder_id, split, loc_code,
         "legal_name": biz.legal, "trading_name": biz.trading,
         "legal_form": {"code": biz.form["code"], "class": biz.cls},
         "address": current_address,
+        "address_variants": [biz.address["one"],
+                             "\n".join(biz.address["lines"])],
         "addresses_seen": sorted(seen["addresses"]),
         "reg_ids": [{"compact": c, "type": t}
                     for c, t in sorted(seen["reg"].items())],

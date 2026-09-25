@@ -154,7 +154,60 @@ section.
   test_heldout span (a date in upper case, from a generator bug). No
   model output was involved; the bug was fixed in the generator.
 * The handwritten set was written by two writers who never opened
-  `gen/`, so it is independent of the generator's templates.
+  `gen/`, so it is independent of the generator's templates. 100 chunks
+  (10 per language), 1,531 spans, every doc-type minimum of Phase 1c met,
+  every special style present (forwarded e-mail chains, web pages with
+  menus / cookie banners / footers, chat messages, typed handwritten
+  notes, invoices in an unusual order). Before freezing, one labelling
+  choice was made consistent across the two writers: in a letter from a
+  bank (no S, rule R5) the date is O (rule R6), as in the generator; two
+  DOC_DATE labels were removed (hw-it-10, hw-ko-10). A financial
+  statement keeps its facts even when a table fragment does not name the
+  company, because the document's S exists (hw-ja-09).
+* **Frozen** (never edited after this point; sha256):
+  * `handwritten/ar.jsonl` 3f2904045c0a6f8876979f8d7d4292bdcc6069c198260b5983b045d1b4b4aec1
+  * `handwritten/en.jsonl` ad4dd76fe906c73fe629efcf12323faa3d6450a8689fbe24a13a5ee9df5bb87d
+  * `handwritten/es.jsonl` 66fb0c1d2ecf26860985d25f61d41bccfad57b3532a062d0335809f622b86eb0
+  * `handwritten/fr.jsonl` cec9e030c9c3543984e9f96ecab49fa1d89e8bc39b0f8e82782ecbb17ed44be0
+  * `handwritten/hi.jsonl` 0aacb872e5734e16b875669d9e6dcde83fe8209fa6d329b0e58e8f2d225469ea
+  * `handwritten/it.jsonl` 4d8342a3fcef368794b3917cd6b3f665a3bcf01228478b76f33f19bb9b03a72d
+  * `handwritten/ja.jsonl` 680eecec7c9a55233d20d539e141e9445418a21decb59c0848de6fbbe3a28fe1
+  * `handwritten/ko.jsonl` 186318b872707eca605fedc2adf7e960ada45bce1e49830499434b88369073da
+  * `handwritten/ru.jsonl` b58d47c4fe2f0458f489cd765332c0516c71f15a86536bc50e8c95f35166f897
+  * `handwritten/zh.jsonl` 55ecf04d72c090b68157e7bf279918f47d751111cee4eb5a5cbb24b706b7d085
+
+## Profile builder (section 15)
+
+* **Two extra rules for joining names** (15.3 is not a FIXED section and
+  invites extension). (1) A document has one S (rule R5), so every
+  S_NAME of one file is the same organisation: a brochure that names both
+  the trading name and the legal name joins them. (2) Two subjects that
+  share a registration number, a phone number, an e-mail address or a web
+  site are one organisation (a sole trader whose invoices show his own
+  name and whose brochure shows his trade name). Without these, a
+  business whose trading name shares no word with its legal name was
+  split in two, and half of its documents were read as someone else's.
+* **Authorship (15.5), one extra case:** a file with no S_NAME that shows
+  one of the business's identifiers is by the business.
+* **C_ facts of the business** are taken from files by others *and* from
+  files with no S at all (letters from a bank or a tax office, where the
+  business is C_).
+* **Country vote (15.6):** every piece of evidence votes only when it
+  points to one country among the countries of the folder's language
+  (a number that fits the formats of two countries does not vote);
+  country names count as whole words ("Cartagena de Indias" is not
+  India); a bare "$" does not vote for the US; only the business's own
+  facts vote.
+* **Registration numbers** that fit no format of the voted country, or
+  fail their check digit (an OCR slip), are listed as alternatives, not
+  as values.
+* **Legal forms written the same in two codes of one country** (Canada's
+  "inc." in English and in French) are resolved by the language.
+* **Measured with perfect spans** (the true spans fed through
+  extract_db → verify → profile, 300 val folders): 99.7% of the fields of
+  section 17 right; the misses are OCR-noised texts. So the profile
+  builder itself costs almost nothing; the folder-level score measures
+  the model.
 
 ## Suggestions (for FIXED sections - not applied)
 
