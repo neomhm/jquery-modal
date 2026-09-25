@@ -1,0 +1,214 @@
+{
+  "activity": [
+    {
+      "id": "activity.en.19",
+      "text": "Active since {FOUNDED} in the field of {ACTIVITY}."
+    },
+    {
+      "id": "activity.en.21",
+      "text": "Registered business activity: {ACTIVITY}"
+    },
+    {
+      "id": "activity.en.22",
+      "text": "Our business in a nutshell: {ACTIVITY}."
+    }
+  ],
+  "founded": [
+    {
+      "id": "founded.en.13",
+      "text": "Year of establishment: {FOUNDED}"
+    },
+    {
+      "id": "founded.en.22",
+      "text": "Incorporated in {FOUNDED}"
+    },
+    {
+      "id": "founded.en.23",
+      "text": "Established {FOUNDED:date}"
+    }
+  ],
+  "staff": [
+    {
+      "id": "staff.en.06",
+      "text": "We currently have {STAFF} {staff_noun}."
+    },
+    {
+      "id": "staff.en.20",
+      "text": "Manpower: {STAFF}"
+    },
+    {
+      "id": "staff.en.28",
+      "text": "No. of staff: {STAFF}"
+    }
+  ],
+  "revenue": [
+    {
+      "id": "revenue.en.05",
+      "text": "{S_NAME} achieved a turnover of {REVENUE} in {REVENUE_YEAR}."
+    },
+    {
+      "id": "revenue.en.07",
+      "text": "Revenue grew from {REVENUE_PREV} in {REVENUE_YEAR_PREV} to {REVENUE} in {REVENUE_YEAR}."
+    },
+    {
+      "id": "revenue.en.10",
+      "text": "Total revenue for {REVENUE_YEAR} came to {REVENUE}, compared with {REVENUE_PREV} the year before."
+    }
+  ],
+  "services_intro": [
+    {
+      "id": "services_intro.en.03",
+      "text": "Services include {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.en.16",
+      "text": "Also available: {SERVICE}."
+    },
+    {
+      "id": "services_intro.en.26",
+      "text": "Our offer at a glance: {SERVICE_LIST}."
+    }
+  ],
+  "clients": [
+    {
+      "id": "clients.en.05",
+      "text": "References: {C_NAME_LIST}"
+    },
+    {
+      "id": "clients.en.09",
+      "text": "{C_NAME} has relied on us for many years."
+    },
+    {
+      "id": "clients.en.18",
+      "text": "Past clients include {C_NAME_LIST}."
+    }
+  ],
+  "hours": [
+    {
+      "id": "hours.en.09",
+      "text": "Hours: {HOURS}"
+    },
+    {
+      "id": "hours.en.23",
+      "text": "Our opening hours are {HOURS:prose}."
+    },
+    {
+      "id": "hours.en.28",
+      "text": "We are available by phone and in person {HOURS:prose}."
+    }
+  ],
+  "certifications": [
+    {
+      "id": "certifications.en.03",
+      "text": "Accredited: {CERT}"
+    },
+    {
+      "id": "certifications.en.05",
+      "text": "We are proud to hold {CERT}."
+    },
+    {
+      "id": "certifications.en.08",
+      "text": "Quality you can trust: {CERT}."
+    }
+  ],
+  "location": [
+    {
+      "id": "location.en.01",
+      "text": "Address: {S_ADDRESS}"
+    },
+    {
+      "id": "location.en.22",
+      "text": "WhatsApp: {S_PHONE}"
+    },
+    {
+      "id": "location.en.29",
+      "text": "Customer care: {S_PHONE}"
+    }
+  ],
+  "capital": [
+    {
+      "id": "capital.en.06",
+      "text": "{S_NAME} has a fully paid-up share capital of {CAPITAL}."
+    },
+    {
+      "id": "capital.en.09",
+      "text": "Share capital – {CAPITAL}, fully subscribed and paid"
+    },
+    {
+      "id": "capital.en.10",
+      "text": "With a paid-up capital of {CAPITAL}, the company is well placed to take on large contracts."
+    }
+  ],
+  "legal_form": [
+    {
+      "id": "legal_form.en.12",
+      "text": "{S_NAME} is a registered business (legal form: {LEGAL_FORM})."
+    },
+    {
+      "id": "legal_form.en.14",
+      "text": "Nature of entity: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.en.18",
+      "text": "Legal structure – {LEGAL_FORM}"
+    }
+  ],
+  "traps": [
+    {
+      "id": "trap.en.06",
+      "trap": "T1",
+      "text": "Our monthly sales now regularly exceed {amount}."
+    },
+    {
+      "id": "trap.en.19",
+      "trap": "T5",
+      "text": "Customers often compare us with {competitor} – and stay with us for the service."
+    },
+    {
+      "id": "trap.en.30",
+      "trap": "T7",
+      "text": "The building dates from {year} and has been carefully restored."
+    },
+    {
+      "id": "trap.en.40",
+      "trap": "T8",
+      "text": "{n_years} in business and still going strong."
+    },
+    {
+      "id": "trap.en.49",
+      "trap": "T11",
+      "text": "Sales enquiries: {person} – {position}"
+    },
+    {
+      "id": "trap.en.51",
+      "trap": "T13",
+      "text": "We supply {C_NAME} and source our raw materials from {supplier}."
+    }
+  ],
+  "filler": [
+    {
+      "id": "filler.en.05",
+      "text": "No job is too big or too small."
+    },
+    {
+      "id": "filler.en.08",
+      "text": "Every customer is treated with the same care and respect."
+    },
+    {
+      "id": "filler.en.11",
+      "text": "We are committed to reducing our environmental impact."
+    },
+    {
+      "id": "filler.en.13",
+      "text": "We keep our promises and deliver on time."
+    },
+    {
+      "id": "filler.en.14",
+      "text": "Your feedback helps us improve."
+    },
+    {
+      "id": "filler.en.29",
+      "text": "We are a local business and proud of it."
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "activity": [
+    {
+      "id": "activity.ja.09",
+      "text": "創業以来、{ACTIVITY}一筋に歩んでまいりました。"
+    },
+    {
+      "id": "activity.ja.14",
+      "text": "業種：{ACTIVITY}"
+    },
+    {
+      "id": "activity.ja.20",
+      "text": "当社の事業は、{ACTIVITY}を柱としています。"
+    }
+  ],
+  "founded": [
+    {
+      "id": "founded.ja.04",
+      "text": "設立　{FOUNDED:month}"
+    },
+    {
+      "id": "founded.ja.08",
+      "text": "{FOUNDED:date}、{S_NAME}は{city}にて産声を上げました。"
+    },
+    {
+      "id": "founded.ja.23",
+      "text": "創業は{FOUNDED}。以来、一貫して{ACTIVITY}に取り組んでまいりました。"
+    }
+  ],
+  "staff": [
+    {
+      "id": "staff.ja.07",
+      "text": "{STAFF}の従業員が、日々お客様のために力を尽くしています。"
+    },
+    {
+      "id": "staff.ja.10",
+      "text": "社員{STAFF}（パート・アルバイトを含む）"
+    },
+    {
+      "id": "staff.ja.28",
+      "text": "正社員を中心とした{STAFF}の組織です。"
+    }
+  ],
+  "revenue": [
+    {
+      "id": "revenue.ja.07",
+      "text": "{S_NAME}の{REVENUE_YEAR}の売上高は、前年を上回る{REVENUE}でした。"
+    },
+    {
+      "id": "revenue.ja.25",
+      "text": "{REVENUE_YEAR}の売上高：{REVENUE}（前年度：{REVENUE_PREV}）"
+    },
+    {
+      "id": "revenue.ja.27",
+      "text": "{REVENUE_YEAR}は売上高{REVENUE}と、増収を確保しました。"
+    }
+  ],
+  "services_intro": [
+    {
+      "id": "services_intro.ja.06",
+      "text": "{SERVICE}のご依頼は、お電話またはメールにて承ります。"
+    },
+    {
+      "id": "services_intro.ja.09",
+      "text": "私たちは{SERVICE_LIST}を中心に、幅広いニーズにお応えします。"
+    },
+    {
+      "id": "services_intro.ja.12",
+      "text": "{SERVICE}なら、実績豊富な当社にお任せください。"
+    }
+  ],
+  "clients": [
+    {
+      "id": "clients.ja.02",
+      "text": "主な取引先　{C_NAME_LIST}"
+    },
+    {
+      "id": "clients.ja.24",
+      "text": "{year}には{C_NAME}様から大型案件を受注いたしました。"
+    },
+    {
+      "id": "clients.ja.27",
+      "text": "{C_NAME_LIST}の各社様に、当社の商品・サービスをご愛用いただいております。"
+    }
+  ],
+  "hours": [
+    {
+      "id": "hours.ja.07",
+      "text": "お電話でのお問い合わせは、{HOURS:prose}受け付けております。"
+    },
+    {
+      "id": "hours.ja.16",
+      "text": "サポートセンター　{HOURS}"
+    },
+    {
+      "id": "hours.ja.18",
+      "text": "{HOURS:prose}、通常どおり営業いたします。"
+    }
+  ],
+  "certifications": [
+    {
+      "id": "certifications.ja.04",
+      "text": "当社は{CERT}の認証を取得しております。"
+    },
+    {
+      "id": "certifications.ja.21",
+      "text": "認証（Certifications）：{CERT_LIST}"
+    },
+    {
+      "id": "certifications.ja.22",
+      "text": "全拠点で{CERT}の認証を取得済みです。"
+    }
+  ],
+  "location": [
+    {
+      "id": "location.ja.13",
+      "text": "ご予約専用ダイヤル：{S_PHONE}"
+    },
+    {
+      "id": "location.ja.17",
+      "text": "当社は{S_ADDRESS}に事務所を構えております。"
+    },
+    {
+      "id": "location.ja.18",
+      "text": "お問い合わせ先：{S_NAME}　TEL：{S_PHONE}　E-mail：{S_EMAIL}"
+    }
+  ],
+  "capital": [
+    {
+      "id": "capital.ja.07",
+      "text": "当社は資本金{CAPITAL}の{LEGAL_FORM}です。"
+    },
+    {
+      "id": "capital.ja.08",
+      "text": "{year}に増資を行い、資本金は{CAPITAL}となりました。"
+    },
+    {
+      "id": "capital.ja.11",
+      "text": "資本金{CAPITAL}、従業員数{STAFF}の企業です。"
+    }
+  ],
+  "legal_form": [
+    {
+      "id": "legal_form.ja.05",
+      "text": "当社の法人形態は{LEGAL_FORM}です。"
+    },
+    {
+      "id": "legal_form.ja.21",
+      "text": "組織形態は{LEGAL_FORM}、代表者は{S_PERSON}です。"
+    },
+    {
+      "id": "legal_form.ja.24",
+      "text": "【組織形態】{LEGAL_FORM}"
+    }
+  ],
+  "traps": [
+    {
+      "id": "trap.ja.06",
+      "trap": "T1",
+      "text": "今期の設備投資額は{amount}を予定しています。"
+    },
+    {
+      "id": "trap.ja.16",
+      "trap": "T5",
+      "text": "{year}に{partner}と業務提携を結び、サービスの幅を広げました。"
+    },
+    {
+      "id": "trap.ja.25",
+      "trap": "T7",
+      "text": "{year}に{CERT}の認証を取得しました。"
+    },
+    {
+      "id": "trap.ja.35",
+      "trap": "T8",
+      "text": "これまでに{n_clients}以上のお客様にご利用いただきました。"
+    },
+    {
+      "id": "trap.ja.47",
+      "trap": "T11",
+      "text": "ご不明な点は、担当の{person}までお問い合わせください。"
+    },
+    {
+      "id": "trap.ja.57",
+      "trap": "T13",
+      "text": "{partner}との協業により、{C_NAME}様向けのシステムを構築しました。"
+    }
+  ],
+  "filler": [
+    {
+      "id": "filler.ja.03",
+      "text": "ご不明な点がございましたら、お気軽にお問い合わせください。"
+    },
+    {
+      "id": "filler.ja.16",
+      "text": "品質管理には細心の注意を払っております。"
+    },
+    {
+      "id": "filler.ja.39",
+      "text": "詳しい地図は下記をご覧ください。"
+    },
+    {
+      "id": "filler.ja.45",
+      "text": "本メールは送信専用のアドレスから配信しております。"
+    },
+    {
+      "id": "filler.ja.48",
+      "text": "ご注文内容に誤りがないか、今一度ご確認ください。"
+    }
+  ]
+}

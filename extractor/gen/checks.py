@@ -50,6 +50,18 @@ class Report:
 # ---------------------------------------------------------------------
 #  1. spans
 # ---------------------------------------------------------------------
+# splits whose individual examples must never be read (section 11)
+PROTECTED = {"test_heldout", "test_locale", "test_seen"}
+
+
+def example(c, text):
+    """An example for a message - or only its id's split for protected
+    splits, whose content must never be shown."""
+    if c["split"] in PROTECTED:
+        return "(%s example hidden)" % c["split"]
+    return text
+
+
 def check_spans(chunks):
     """0 <= start < end <= len(text), no whitespace at the edges, a label
     of the schema, no overlap. Returns a list of problems."""
@@ -59,7 +71,7 @@ def check_spans(chunks):
         text = c["text"]
         last_end = -1
         for s, e, label in sorted(c["spans"]):
-            where = "%s [%d:%d] %s" % (c["id"], s, e, label)
+            where = example(c, "%s [%d:%d] %s" % (c["id"], s, e, label))
             if not (0 <= s < e <= len(text)):
                 problems.append("bounds " + where)
                 continue
@@ -67,13 +79,15 @@ def check_spans(chunks):
                 problems.append("label " + where)
             piece = text[s:e]
             if piece != piece.strip():
-                problems.append("whitespace %s %r" % (where, piece))
+                problems.append("whitespace %s %s" % (where, example(
+                    c, repr(piece))))
             if s < last_end:
                 problems.append("overlap " + where)
             last_end = max(last_end, e)
         for s, e in c.get("cut", []):
             if not (0 <= s < e <= len(text)):
-                problems.append("cut bounds %s [%d:%d]" % (c["id"], s, e))
+                problems.append(example(c, "cut bounds %s [%d:%d]" % (
+                    c["id"], s, e)))
     return problems
 
 
@@ -89,8 +103,8 @@ def check_truth(chunks):
             if label in config.KIND_OF_LABEL:
                 total += 1
                 if str(i) not in c["truth"]:
-                    missing.append("%s %s %r" % (c["id"], label,
-                                                 c["text"][s:e]))
+                    missing.append(example(c, "%s %s %r" % (
+                        c["id"], label, c["text"][s:e])))
     return missing, total
 
 
@@ -139,14 +153,17 @@ def trap_rates(chunks):
         d = docs[c["doc"]]
         d["traps"].update(c["traps"])
         d["type"] = c["doc_type"]
+        d["layout"] = c["layout"]
         d["country"] = c["locale"].split("-")[1]
         d["chunks"] += 1
         by_type_chunks[c["doc_type"]].append(set(c["traps"]))
 
-    def doc_share(trap, types, countries=None, exclude=None):
+    def doc_share(trap, types, countries=None, exclude=None,
+                  invoices_only=False):
         pool = [d for d in docs.values() if d["type"] in types and
                 (countries is None or d["country"] in countries) and
-                (exclude is None or d["country"] not in exclude)]
+                (exclude is None or d["country"] not in exclude) and
+                (not invoices_only or d["layout"].startswith("invoice."))]
         if not pool:
             return None
         return sum(1 for d in pool if trap in d["traps"]) / len(pool)
@@ -158,22 +175,26 @@ def trap_rates(chunks):
         return sum(1 for t in pool if trap in t) / len(pool)
 
     inv = ["invoice"]
+    # "every invoice": real invoices (a till receipt or a credit note has
+    # no due date and is not an invoice)
     out = {
-        "T1 invoices": (doc_share("T1", inv), 0.97),
+        "T1 invoices": (doc_share("T1", inv, invoices_only=True), 0.97),
         "T1 brochure+financial chunks": (
             chunk_share("T1", ["brochure", "financials"]), 0.10),
         "T2 financial statements": (doc_share("T2", ["financials"]), 0.97),
         "T3 financial statements": (doc_share("T3", ["financials"]), 0.60),
         "T4 invoices": (doc_share("T4", inv), 0.20),
         "T5 brochure chunks": (chunk_share("T5", ["brochure"]), 0.15),
-        "T6 invoices": (doc_share("T6", inv), 0.97),
+        "T6 invoices": (doc_share("T6", inv, invoices_only=True), 0.97),
         "T7 brochure chunks": (chunk_share("T7", ["brochure"]), 0.20),
         "T8 brochure chunks": (chunk_share("T8", ["brochure"]), 0.20),
         "T9 invoices": (doc_share("T9", inv), 0.30),
         "T10 invoices (listed countries)": (
-            doc_share("T10", inv, countries=TRAP_T10_COUNTRIES), 0.30),
+            doc_share("T10", inv, countries=TRAP_T10_COUNTRIES,
+                      invoices_only=True), 0.30),
         "T10 invoices (elsewhere)": (
-            doc_share("T10", inv, exclude=TRAP_T10_COUNTRIES), 0.10),
+            doc_share("T10", inv, exclude=TRAP_T10_COUNTRIES,
+                      invoices_only=True), 0.10),
         "T11 letters+brochures": (doc_share("T11", ["letter", "brochure"]),
                                   0.20),
         "T12 chunks": (sum(1 for c in chunks if not c["spans"]) /
@@ -181,7 +202,8 @@ def trap_rates(chunks):
         "T13 brochure chunks": (chunk_share("T13", ["brochure"]), 0.10),
         "T14 registration+financials": (
             doc_share("T14", ["registration", "financials"]), 0.97),
-        "T15 invoices": (doc_share("T15", inv), 0.97),
+        "T15 invoices": (doc_share("T15", inv, invoices_only=True),
+                         0.97),
     }
     return out
 
@@ -236,7 +258,8 @@ def check_normalize(chunks, with_country=True, failures=None):
             total += 1
             if same_value(kind, got, want):
                 ok += 1
-            elif failures is not None and len(failures) < 200:
+            elif failures is not None and len(failures) < 200 and \
+                    c["split"] not in PROTECTED:
                 failures.append((c["id"], label, c["text"][s:e], want, got))
     return ok, total
 
@@ -258,8 +281,8 @@ def check_holdout(split, chunks, folders):
                 groups.add(H.group_of(key, tid))
         if split in ("train", "val", "test_seen", "traps"):
             if groups & {"D", "T"}:
-                problems.append("%s uses %s" % (c["id"], groups & {"D",
-                                                                   "T"}))
+                problems.append("%s uses %s" % (c["id"], sorted(
+                    groups & {"D", "T"})))
         if split == "dev_heldout" and "T" in groups:
             problems.append("%s uses a T item" % c["id"])
         if split == "test_heldout" and "D" in groups:
@@ -300,21 +323,28 @@ def check_heldout_content(split, chunks, folders):
             types_with[key].add(
                 tuple(info.get("locales") or []) if key == "registration"
                 else None)
-    by_folder = collections.defaultdict(dict)
+    by_folder = collections.defaultdict(lambda: collections.defaultdict(
+        list))
     for c in chunks:
-        by_folder[c["folder"]][c["doc"]] = c
+        by_folder[c["folder"]][c["doc"]].append(c)
     bad = 0
     for f in folders:
         if H.activity_group(D.activity(f["activity_id"])) == want:
             continue
-        for doc_id, c in by_folder.get(f["folder"], {}).items():
+        for doc_id, cs in by_folder.get(f["folder"], {}).items():
+            c = cs[0]
             t = c["doc_type"]
             if t not in types_with:
                 continue
             if t == "registration" and not any(
                     c["locale"] in locs for locs in types_with[t] if locs):
                 continue          # no held-out layout for this country
-            if H.layout_group(c["layout"]) != want:
+            key = D.locale(c["locale"])["data"]
+            groups = {H.layout_group(c["layout"])}
+            for x in cs:
+                groups |= {H.group_of(key, tid) for tid in x["templates"]
+                           if tid.count(".") >= 2}
+            if want not in groups:
                 bad += 1
                 break
     return bad, len(folders)

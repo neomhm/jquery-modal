@@ -493,6 +493,13 @@ def month_tables():
                     key = _month_key(name)
                     if key and not re.fullmatch(r"\d+\D?", key):
                         table.setdefault(key, k + 1)
+                        # the same name typed without accents (décembre)
+                        bare = "".join(
+                            ch for ch in unicodedata.normalize("NFD", key)
+                            if not unicodedata.combining(ch))
+                        if form != "hijri" and re.fullmatch(r"[a-z.]+",
+                                                            bare):
+                            table.setdefault(bare, k + 1)
     return greg, hijri
 
 
@@ -559,8 +566,8 @@ def _parse_date(text, lang, country):
                      "japanese_era")
     # Minguo (Taiwan)
     minguo = re.search(r"民[國国]", t) is not None
-    m = re.search(r"(?:民[國国])?\s*(\d{1,3})\s*年(?:\s*(\d{1,2})\s*月)?"
-                  r"(?:\s*(\d{1,2})\s*日)?", t)
+    m = re.search(r"(?:民[國国])?\s*(?<!\d)(\d{1,3})\s*年"
+                  r"(?:\s*(\d{1,2})\s*月)?(?:\s*(\d{1,2})\s*日)?", t)
     if m and (minguo or (country == "TW" and int(m.group(1)) < 200)):
         return _date(1911 + int(m.group(1)),
                      int(m.group(2)) if m.group(2) else None,
@@ -809,8 +816,9 @@ def normalize_url(text, lang=None, country=None):
 #  registration numbers
 # =====================================================================
 def compact_id(text):
-    return re.sub(r"[^0-9A-Za-z]", "", unicodedata.normalize(
-        "NFKC", text or "")).upper()
+    """Letters and digits only, upper-case, digits of every script in
+    ASCII ('٤٠٣٠ ٠٣٢١٨٨' -> '4030032188')."""
+    return re.sub(r"[^0-9A-Za-z]", "", ascii_digits(text)[0]).upper()
 
 
 # the pattern of each type, on the compact form

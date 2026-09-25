@@ -1,453 +1,1964 @@
 {
   "lang": "zh",
   "activity": [
-    {"id": "activity.zh.01", "text": "主要業務：{ACTIVITY}"},
-    {"id": "activity.zh.02", "countries": ["TW"], "text": "營業項目：{ACTIVITY}"},
-    {"id": "activity.zh.03", "countries": ["HK"], "text": "業務性質：{ACTIVITY}"},
-    {"id": "activity.zh.04", "countries": ["HK"], "text": "業務性質 Nature of Business：{ACTIVITY}"},
-    {"id": "activity.zh.05", "text": "經營項目：{ACTIVITY}"},
-    {"id": "activity.zh.06", "text": "{S_NAME}主要經營{ACTIVITY}，服務範圍涵蓋{city}及周邊地區。"},
-    {"id": "activity.zh.07", "text": "本公司專營{ACTIVITY}，秉持誠信與專業，深獲客戶肯定。"},
-    {"id": "activity.zh.08", "text": "{S_NAME}｜{ACTIVITY}"},
-    {"id": "activity.zh.09", "countries": ["TW"], "text": "我們以{ACTIVITY}起家，一步一腳印累積好口碑。"},
-    {"id": "activity.zh.10", "countries": ["TW"], "text": "{S_NAME}是{city}在地的{ACTIVITY}業者，堅持用心做好每一件事。"},
-    {"id": "activity.zh.11", "text": "核心業務：{ACTIVITY}"},
-    {"id": "activity.zh.12", "text": "在{ACTIVITY}這一行，我們始終把品質放在第一位。"},
-    {"id": "activity.zh.13", "text": "公司主要從事{ACTIVITY}相關業務，始終堅持品質與誠信。"},
-    {"id": "activity.zh.14", "text": "{S_NAME}多年來專注經營{ACTIVITY}，用心做好每一個細節。"},
-    {"id": "activity.zh.15", "countries": ["HK"], "text": "本行主營{ACTIVITY}，客戶遍佈港九新界。"},
-    {"id": "activity.zh.16", "text": "業務範圍：{ACTIVITY}"},
-    {"id": "activity.zh.17", "text": "我們的本業是{ACTIVITY}，多年來累積了豐富的實務經驗。"},
-    {"id": "activity.zh.18", "text": "{S_NAME}——專業{ACTIVITY}"},
-    {"id": "activity.zh.19", "countries": ["TW"], "text": "所營事業：{ACTIVITY}；除許可業務外，得經營法令非禁止或限制之業務。"},
-    {"id": "activity.zh.20", "text": "{S_NAME}的主要業務為{ACTIVITY}，並持續拓展相關新業務。"},
-    {"id": "activity.zh.21", "text": "我們的團隊長期從事{ACTIVITY}相關工作，熟悉業界各項規範與需求。"},
-    {"id": "activity.zh.22", "text": "自創立以來，{S_NAME}一直以{ACTIVITY}為核心，穩健發展。"},
-    {"id": "activity.zh.23", "countries": ["HK"], "text": "業務範疇 Our Business：{ACTIVITY}"},
-    {"id": "activity.zh.24", "text": "主要經營{ACTIVITY}，兼營相關產品批發零售。"},
-    {"id": "activity.zh.25", "text": "本公司是一家以{ACTIVITY}為主的中小企業，重視品質與效率。"},
-    {"id": "activity.zh.26", "text": "專業{ACTIVITY}，值得您信賴。"},
-    {"id": "activity.zh.27", "text": "公司簡介：{S_NAME}成立多年，主要經營{ACTIVITY}。"},
-    {"id": "activity.zh.28", "countries": ["HK"], "text": "主要業務為{ACTIVITY}，亦承接各類大型project。"}
+    {
+      "id": "activity.zh.01",
+      "text": "主要業務：{ACTIVITY}"
+    },
+    {
+      "id": "activity.zh.03",
+      "countries": [
+        "HK"
+      ],
+      "text": "業務性質：{ACTIVITY}"
+    },
+    {
+      "id": "activity.zh.04",
+      "countries": [
+        "HK"
+      ],
+      "text": "業務性質 Nature of Business：{ACTIVITY}"
+    },
+    {
+      "id": "activity.zh.06",
+      "text": "{S_NAME}主要經營{ACTIVITY}，服務範圍涵蓋{city}及周邊地區。"
+    },
+    {
+      "id": "activity.zh.07",
+      "text": "本公司專營{ACTIVITY}，秉持誠信與專業，深獲客戶肯定。"
+    },
+    {
+      "id": "activity.zh.08",
+      "text": "{S_NAME}｜{ACTIVITY}"
+    },
+    {
+      "id": "activity.zh.09",
+      "countries": [
+        "TW"
+      ],
+      "text": "我們以{ACTIVITY}起家，一步一腳印累積好口碑。"
+    },
+    {
+      "id": "activity.zh.10",
+      "countries": [
+        "TW"
+      ],
+      "text": "{S_NAME}是{city}在地的{ACTIVITY}業者，堅持用心做好每一件事。"
+    },
+    {
+      "id": "activity.zh.11",
+      "text": "核心業務：{ACTIVITY}"
+    },
+    {
+      "id": "activity.zh.12",
+      "text": "在{ACTIVITY}這一行，我們始終把品質放在第一位。"
+    },
+    {
+      "id": "activity.zh.13",
+      "text": "公司主要從事{ACTIVITY}相關業務，始終堅持品質與誠信。"
+    },
+    {
+      "id": "activity.zh.14",
+      "text": "{S_NAME}多年來專注經營{ACTIVITY}，用心做好每一個細節。"
+    },
+    {
+      "id": "activity.zh.15",
+      "countries": [
+        "HK"
+      ],
+      "text": "本行主營{ACTIVITY}，客戶遍佈港九新界。"
+    },
+    {
+      "id": "activity.zh.16",
+      "text": "業務範圍：{ACTIVITY}"
+    },
+    {
+      "id": "activity.zh.17",
+      "text": "我們的本業是{ACTIVITY}，多年來累積了豐富的實務經驗。"
+    },
+    {
+      "id": "activity.zh.19",
+      "countries": [
+        "TW"
+      ],
+      "text": "所營事業：{ACTIVITY}；除許可業務外，得經營法令非禁止或限制之業務。"
+    },
+    {
+      "id": "activity.zh.20",
+      "text": "{S_NAME}的主要業務為{ACTIVITY}，並持續拓展相關新業務。"
+    },
+    {
+      "id": "activity.zh.21",
+      "text": "我們的團隊長期從事{ACTIVITY}相關工作，熟悉業界各項規範與需求。"
+    },
+    {
+      "id": "activity.zh.22",
+      "text": "自創立以來，{S_NAME}一直以{ACTIVITY}為核心，穩健發展。"
+    },
+    {
+      "id": "activity.zh.23",
+      "countries": [
+        "HK"
+      ],
+      "text": "業務範疇 Our Business：{ACTIVITY}"
+    },
+    {
+      "id": "activity.zh.24",
+      "text": "主要經營{ACTIVITY}，兼營相關產品批發零售。"
+    },
+    {
+      "id": "activity.zh.25",
+      "text": "本公司是一家以{ACTIVITY}為主的中小企業，重視品質與效率。"
+    },
+    {
+      "id": "activity.zh.26",
+      "text": "專業{ACTIVITY}，值得您信賴。"
+    },
+    {
+      "id": "activity.zh.27",
+      "text": "公司簡介：{S_NAME}成立多年，主要經營{ACTIVITY}。"
+    },
+    {
+      "id": "activity.zh.28",
+      "countries": [
+        "HK"
+      ],
+      "text": "主要業務為{ACTIVITY}，亦承接各類大型project。"
+    }
   ],
   "founded": [
-    {"id": "founded.zh.01", "text": "成立時間：{FOUNDED}"},
-    {"id": "founded.zh.02", "text": "設立日期：{FOUNDED:date}"},
-    {"id": "founded.zh.03", "countries": ["TW"], "text": "核准設立日期：{FOUNDED:date}"},
-    {"id": "founded.zh.04", "countries": ["HK"], "text": "成立日期 Date of Incorporation：{FOUNDED:date}"},
-    {"id": "founded.zh.05", "text": "{S_NAME}成立於{FOUNDED}，總部設於{city}。"},
-    {"id": "founded.zh.06", "text": "本公司創立於{FOUNDED}，一路走來始終堅持品質至上。"},
-    {"id": "founded.zh.07", "text": "自{FOUNDED}創業至今，我們始終以客戶需求為優先。"},
-    {"id": "founded.zh.08", "text": "{FOUNDED}，{S_NAME}在{city}正式成立。"},
-    {"id": "founded.zh.09", "countries": ["HK"], "text": "始創於{FOUNDED}的{S_NAME}，多年來深得客戶信賴。"},
-    {"id": "founded.zh.10", "countries": ["TW"], "text": "{S_NAME}於{FOUNDED:month}開業，從此展開服務在地的旅程。"},
-    {"id": "founded.zh.11", "text": "創立年份：{FOUNDED}"},
-    {"id": "founded.zh.12", "countries": ["HK"], "text": "公司於{FOUNDED:date}在香港註冊成立。"},
-    {"id": "founded.zh.13", "text": "我們從{FOUNDED}開始營業，至今累積了一群忠實的老顧客。"},
-    {"id": "founded.zh.14", "text": "早在{FOUNDED}，創辦團隊便在{city}踏出了第一步。"},
-    {"id": "founded.zh.15", "countries": ["TW"], "text": "{S_NAME}（成立於{FOUNDED}）是一家深耕在地的企業。"},
-    {"id": "founded.zh.16", "countries": ["HK"], "text": "本行創辦於{FOUNDED}，一直秉承誠信為本的宗旨。"},
-    {"id": "founded.zh.17", "text": "{FOUNDED}：公司成立"},
-    {"id": "founded.zh.18", "text": "開業日期：{FOUNDED:date}"},
-    {"id": "founded.zh.19", "countries": ["HK"], "text": "開業日期 Date of Commencement：{FOUNDED:date}"},
-    {"id": "founded.zh.20", "text": "我們的故事始於{FOUNDED}。"},
-    {"id": "founded.zh.21", "text": "公司成立於{FOUNDED:month}，由幾位志同道合的夥伴共同創辦。"},
-    {"id": "founded.zh.22", "text": "自{FOUNDED}以來，{S_NAME}始終秉持「用心服務」的理念。"},
-    {"id": "founded.zh.23", "countries": ["TW"], "text": "{S_NAME}於{FOUNDED}依法設立登記，是{city}地區的在地企業。"},
-    {"id": "founded.zh.24", "text": "從{FOUNDED}的小規模經營起步，逐步發展成今日的規模。"},
-    {"id": "founded.zh.25", "text": "創立於{FOUNDED}，至今仍堅持最初的服務精神。"},
-    {"id": "founded.zh.26", "countries": ["TW"], "text": "設立登記日期：{FOUNDED:date}"},
-    {"id": "founded.zh.27", "text": "{FOUNDED:month}，{S_NAME}正式開始營運。"},
-    {"id": "founded.zh.28", "countries": ["HK"], "text": "成立年份 Year Established：{FOUNDED}"}
+    {
+      "id": "founded.zh.01",
+      "text": "成立時間：{FOUNDED}"
+    },
+    {
+      "id": "founded.zh.02",
+      "text": "設立日期：{FOUNDED:date}"
+    },
+    {
+      "id": "founded.zh.03",
+      "countries": [
+        "TW"
+      ],
+      "text": "核准設立日期：{FOUNDED:date}"
+    },
+    {
+      "id": "founded.zh.04",
+      "countries": [
+        "HK"
+      ],
+      "text": "成立日期 Date of Incorporation：{FOUNDED:date}"
+    },
+    {
+      "id": "founded.zh.05",
+      "text": "{S_NAME}成立於{FOUNDED}，總部設於{city}。"
+    },
+    {
+      "id": "founded.zh.06",
+      "text": "本公司創立於{FOUNDED}，一路走來始終堅持品質至上。"
+    },
+    {
+      "id": "founded.zh.07",
+      "text": "自{FOUNDED}創業至今，我們始終以客戶需求為優先。"
+    },
+    {
+      "id": "founded.zh.08",
+      "text": "{FOUNDED}，{S_NAME}在{city}正式成立。"
+    },
+    {
+      "id": "founded.zh.09",
+      "countries": [
+        "HK"
+      ],
+      "text": "始創於{FOUNDED}的{S_NAME}，多年來深得客戶信賴。"
+    },
+    {
+      "id": "founded.zh.12",
+      "countries": [
+        "HK"
+      ],
+      "text": "公司於{FOUNDED:date}在香港註冊成立。"
+    },
+    {
+      "id": "founded.zh.13",
+      "text": "我們從{FOUNDED}開始營業，至今累積了一群忠實的老顧客。"
+    },
+    {
+      "id": "founded.zh.14",
+      "text": "早在{FOUNDED}，創辦團隊便在{city}踏出了第一步。"
+    },
+    {
+      "id": "founded.zh.15",
+      "countries": [
+        "TW"
+      ],
+      "text": "{S_NAME}（成立於{FOUNDED}）是一家深耕在地的企業。"
+    },
+    {
+      "id": "founded.zh.16",
+      "countries": [
+        "HK"
+      ],
+      "text": "本行創辦於{FOUNDED}，一直秉承誠信為本的宗旨。"
+    },
+    {
+      "id": "founded.zh.17",
+      "text": "{FOUNDED}：公司成立"
+    },
+    {
+      "id": "founded.zh.18",
+      "text": "開業日期：{FOUNDED:date}"
+    },
+    {
+      "id": "founded.zh.19",
+      "countries": [
+        "HK"
+      ],
+      "text": "開業日期 Date of Commencement：{FOUNDED:date}"
+    },
+    {
+      "id": "founded.zh.20",
+      "text": "我們的故事始於{FOUNDED}。"
+    },
+    {
+      "id": "founded.zh.21",
+      "text": "公司成立於{FOUNDED:month}，由幾位志同道合的夥伴共同創辦。"
+    },
+    {
+      "id": "founded.zh.22",
+      "text": "自{FOUNDED}以來，{S_NAME}始終秉持「用心服務」的理念。"
+    },
+    {
+      "id": "founded.zh.23",
+      "countries": [
+        "TW"
+      ],
+      "text": "{S_NAME}於{FOUNDED}依法設立登記，是{city}地區的在地企業。"
+    },
+    {
+      "id": "founded.zh.25",
+      "text": "創立於{FOUNDED}，至今仍堅持最初的服務精神。"
+    },
+    {
+      "id": "founded.zh.26",
+      "countries": [
+        "TW"
+      ],
+      "text": "設立登記日期：{FOUNDED:date}"
+    },
+    {
+      "id": "founded.zh.27",
+      "text": "{FOUNDED:month}，{S_NAME}正式開始營運。"
+    },
+    {
+      "id": "founded.zh.28",
+      "countries": [
+        "HK"
+      ],
+      "text": "成立年份 Year Established：{FOUNDED}"
+    }
   ],
   "staff": [
-    {"id": "staff.zh.01", "text": "員工人數：{STAFF}"},
-    {"id": "staff.zh.02", "text": "員工數：{STAFF}"},
-    {"id": "staff.zh.03", "countries": ["HK"], "text": "僱員人數：{STAFF}"},
-    {"id": "staff.zh.04", "countries": ["HK"], "text": "僱員人數 No. of Employees：{STAFF}"},
-    {"id": "staff.zh.05", "text": "本公司現有員工{STAFF}，均具備專業技能。"},
-    {"id": "staff.zh.06", "text": "目前團隊成員共{STAFF}，每一位都經過完整訓練。"},
-    {"id": "staff.zh.07", "text": "{S_NAME}目前擁有員工{STAFF}。"},
-    {"id": "staff.zh.08", "countries": ["TW"], "text": "全公司正職員工{STAFF}，另有兼職人員協助。"},
-    {"id": "staff.zh.09", "text": "公司規模：員工{STAFF}"},
-    {"id": "staff.zh.10", "countries": ["HK"], "text": "現聘有全職員工{STAFF}。"},
-    {"id": "staff.zh.11", "text": "旗下員工{STAFF}，皆受過專業訓練。"},
-    {"id": "staff.zh.12", "text": "員工總數：{STAFF}（含兼職）"},
-    {"id": "staff.zh.13", "text": "目前在職員工共{STAFF}。"},
-    {"id": "staff.zh.14", "text": "人員規模：{STAFF}"},
-    {"id": "staff.zh.15", "text": "團隊人數：{STAFF}"},
-    {"id": "staff.zh.16", "text": "截至目前，公司員工已增加至{STAFF}。"},
-    {"id": "staff.zh.17", "text": "員工{STAFF}，年營業額{REVENUE}。"},
-    {"id": "staff.zh.18", "text": "我們擁有員工{STAFF}，每一位都以客戶滿意為目標。"},
-    {"id": "staff.zh.19", "countries": ["HK"], "text": "現時公司共有員工{STAFF}。"},
-    {"id": "staff.zh.20", "countries": ["TW"], "text": "公司員工{STAFF}，多數持有相關專業證照。"},
-    {"id": "staff.zh.21", "text": "{S_NAME}的專業團隊成員共{STAFF}，隨時為您服務。"},
-    {"id": "staff.zh.22", "countries": ["TW"], "text": "從業人員：{STAFF}"},
-    {"id": "staff.zh.23", "countries": ["HK"], "text": "職員人數：{STAFF}"},
-    {"id": "staff.zh.24", "countries": ["TW"], "text": "本公司編制員工{STAFF}。"},
-    {"id": "staff.zh.25", "countries": ["TW"], "text": "公司現有同仁{STAFF}，平均年齡約三十五歲。"},
-    {"id": "staff.zh.26", "text": "經過多年發展，員工人數已由創業初期的寥寥數人成長至{STAFF}。"}
+    {
+      "id": "staff.zh.01",
+      "text": "員工人數：{STAFF}"
+    },
+    {
+      "id": "staff.zh.02",
+      "text": "員工數：{STAFF}"
+    },
+    {
+      "id": "staff.zh.03",
+      "countries": [
+        "HK"
+      ],
+      "text": "僱員人數：{STAFF}"
+    },
+    {
+      "id": "staff.zh.04",
+      "countries": [
+        "HK"
+      ],
+      "text": "僱員人數 No. of Employees：{STAFF}"
+    },
+    {
+      "id": "staff.zh.05",
+      "text": "本公司現有員工{STAFF}，均具備專業技能。"
+    },
+    {
+      "id": "staff.zh.06",
+      "text": "目前團隊成員共{STAFF}，每一位都經過完整訓練。"
+    },
+    {
+      "id": "staff.zh.07",
+      "text": "{S_NAME}目前擁有員工{STAFF}。"
+    },
+    {
+      "id": "staff.zh.09",
+      "text": "公司規模：員工{STAFF}"
+    },
+    {
+      "id": "staff.zh.10",
+      "countries": [
+        "HK"
+      ],
+      "text": "現聘有全職員工{STAFF}。"
+    },
+    {
+      "id": "staff.zh.11",
+      "text": "旗下員工{STAFF}，皆受過專業訓練。"
+    },
+    {
+      "id": "staff.zh.12",
+      "text": "員工總數：{STAFF}（含兼職）"
+    },
+    {
+      "id": "staff.zh.14",
+      "text": "人員規模：{STAFF}"
+    },
+    {
+      "id": "staff.zh.15",
+      "text": "團隊人數：{STAFF}"
+    },
+    {
+      "id": "staff.zh.16",
+      "text": "截至目前，公司員工已增加至{STAFF}。"
+    },
+    {
+      "id": "staff.zh.17",
+      "text": "員工{STAFF}，年營業額{REVENUE}。"
+    },
+    {
+      "id": "staff.zh.18",
+      "text": "我們擁有員工{STAFF}，每一位都以客戶滿意為目標。"
+    },
+    {
+      "id": "staff.zh.19",
+      "countries": [
+        "HK"
+      ],
+      "text": "現時公司共有員工{STAFF}。"
+    },
+    {
+      "id": "staff.zh.20",
+      "countries": [
+        "TW"
+      ],
+      "text": "公司員工{STAFF}，多數持有相關專業證照。"
+    },
+    {
+      "id": "staff.zh.22",
+      "countries": [
+        "TW"
+      ],
+      "text": "從業人員：{STAFF}"
+    },
+    {
+      "id": "staff.zh.23",
+      "countries": [
+        "HK"
+      ],
+      "text": "職員人數：{STAFF}"
+    },
+    {
+      "id": "staff.zh.24",
+      "countries": [
+        "TW"
+      ],
+      "text": "本公司編制員工{STAFF}。"
+    },
+    {
+      "id": "staff.zh.25",
+      "countries": [
+        "TW"
+      ],
+      "text": "公司現有同仁{STAFF}，平均年齡約三十五歲。"
+    },
+    {
+      "id": "staff.zh.26",
+      "text": "經過多年發展，員工人數已由創業初期的寥寥數人成長至{STAFF}。"
+    }
   ],
   "revenue": [
-    {"id": "revenue.zh.01", "text": "年營業額：{REVENUE}"},
-    {"id": "revenue.zh.02", "text": "營業額（{REVENUE_YEAR}）：{REVENUE}"},
-    {"id": "revenue.zh.03", "countries": ["TW"], "text": "{REVENUE_YEAR}營收：{REVENUE}"},
-    {"id": "revenue.zh.04", "text": "{S_NAME}在{REVENUE_YEAR}的全年營業額為{REVENUE}。"},
-    {"id": "revenue.zh.05", "text": "本公司{REVENUE_YEAR}營業額為{REVENUE}，{REVENUE_YEAR_PREV}則為{REVENUE_PREV}。"},
-    {"id": "revenue.zh.06", "countries": ["TW"], "text": "年營收規模約{REVENUE}。"},
-    {"id": "revenue.zh.07", "countries": ["HK"], "text": "營業額 Turnover：{REVENUE}"},
-    {"id": "revenue.zh.08", "text": "全年營業額：{REVENUE}（{REVENUE_YEAR}）"},
-    {"id": "revenue.zh.09", "text": "公司年營業額已突破{REVENUE}。"},
-    {"id": "revenue.zh.10", "text": "近年業績穩定成長，{REVENUE_YEAR}營業額達到{REVENUE}。"},
-    {"id": "revenue.zh.11", "text": "{REVENUE_YEAR_PREV}營業額{REVENUE_PREV}，{REVENUE_YEAR}成長至{REVENUE}。"},
-    {"id": "revenue.zh.12", "text": "營收：{REVENUE}"},
-    {"id": "revenue.zh.13", "text": "年度營業額：{REVENUE}"},
-    {"id": "revenue.zh.14", "countries": ["HK"], "text": "財政年度：{REVENUE_YEAR}｜營業額：{REVENUE}"},
-    {"id": "revenue.zh.15", "text": "年銷售額逾{REVENUE}。"},
-    {"id": "revenue.zh.16", "text": "{S_NAME}的年營業額約為{REVENUE}，在同業中名列前茅。"},
-    {"id": "revenue.zh.17", "countries": ["TW"], "text": "營業收入（{REVENUE_YEAR}）：{REVENUE}"},
-    {"id": "revenue.zh.18", "countries": ["TW"], "text": "{REVENUE_YEAR}營業收入淨額為{REVENUE}。"},
-    {"id": "revenue.zh.19", "text": "本公司最近一年度營業額為{REVENUE}。"},
-    {"id": "revenue.zh.20", "countries": ["HK"], "text": "年營業額 Annual Turnover：{REVENUE}"},
-    {"id": "revenue.zh.21", "text": "過去一年，公司營業額達{REVENUE}，再創新高。"},
-    {"id": "revenue.zh.22", "text": "營業額由{REVENUE_YEAR_PREV}的{REVENUE_PREV}增至{REVENUE_YEAR}的{REVENUE}。"},
-    {"id": "revenue.zh.23", "text": "去年全年營收為{REVENUE}，較前一年穩定成長。"},
-    {"id": "revenue.zh.24", "text": "{REVENUE_YEAR}全年營業額：{REVENUE}；{REVENUE_YEAR_PREV}：{REVENUE_PREV}"},
-    {"id": "revenue.zh.25", "text": "公司規模：年營業額{REVENUE}，員工{STAFF}。"},
-    {"id": "revenue.zh.26", "countries": ["HK"], "text": "本行於{REVENUE_YEAR}錄得營業額{REVENUE}。"}
+    {
+      "id": "revenue.zh.01",
+      "text": "年營業額：{REVENUE}"
+    },
+    {
+      "id": "revenue.zh.02",
+      "text": "營業額（{REVENUE_YEAR}）：{REVENUE}"
+    },
+    {
+      "id": "revenue.zh.03",
+      "countries": [
+        "TW"
+      ],
+      "text": "{REVENUE_YEAR}營收：{REVENUE}"
+    },
+    {
+      "id": "revenue.zh.04",
+      "text": "{S_NAME}在{REVENUE_YEAR}的全年營業額為{REVENUE}。"
+    },
+    {
+      "id": "revenue.zh.05",
+      "text": "本公司{REVENUE_YEAR}營業額為{REVENUE}，{REVENUE_YEAR_PREV}則為{REVENUE_PREV}。"
+    },
+    {
+      "id": "revenue.zh.06",
+      "countries": [
+        "TW"
+      ],
+      "text": "年營收規模約{REVENUE}。"
+    },
+    {
+      "id": "revenue.zh.07",
+      "countries": [
+        "HK"
+      ],
+      "text": "營業額 Turnover：{REVENUE}"
+    },
+    {
+      "id": "revenue.zh.08",
+      "text": "全年營業額：{REVENUE}（{REVENUE_YEAR}）"
+    },
+    {
+      "id": "revenue.zh.09",
+      "text": "公司年營業額已突破{REVENUE}。"
+    },
+    {
+      "id": "revenue.zh.10",
+      "text": "近年業績穩定成長，{REVENUE_YEAR}營業額達到{REVENUE}。"
+    },
+    {
+      "id": "revenue.zh.11",
+      "text": "{REVENUE_YEAR_PREV}營業額{REVENUE_PREV}，{REVENUE_YEAR}成長至{REVENUE}。"
+    },
+    {
+      "id": "revenue.zh.12",
+      "text": "營收：{REVENUE}"
+    },
+    {
+      "id": "revenue.zh.14",
+      "countries": [
+        "HK"
+      ],
+      "text": "財政年度：{REVENUE_YEAR}｜營業額：{REVENUE}"
+    },
+    {
+      "id": "revenue.zh.15",
+      "text": "年銷售額逾{REVENUE}。"
+    },
+    {
+      "id": "revenue.zh.16",
+      "text": "{S_NAME}的年營業額約為{REVENUE}，在同業中名列前茅。"
+    },
+    {
+      "id": "revenue.zh.17",
+      "countries": [
+        "TW"
+      ],
+      "text": "營業收入（{REVENUE_YEAR}）：{REVENUE}"
+    },
+    {
+      "id": "revenue.zh.19",
+      "text": "本公司最近一年度營業額為{REVENUE}。"
+    },
+    {
+      "id": "revenue.zh.20",
+      "countries": [
+        "HK"
+      ],
+      "text": "年營業額 Annual Turnover：{REVENUE}"
+    },
+    {
+      "id": "revenue.zh.21",
+      "text": "過去一年，公司營業額達{REVENUE}，再創新高。"
+    },
+    {
+      "id": "revenue.zh.23",
+      "text": "去年全年營收為{REVENUE}，較前一年穩定成長。"
+    },
+    {
+      "id": "revenue.zh.24",
+      "text": "{REVENUE_YEAR}全年營業額：{REVENUE}；{REVENUE_YEAR_PREV}：{REVENUE_PREV}"
+    },
+    {
+      "id": "revenue.zh.25",
+      "text": "公司規模：年營業額{REVENUE}，員工{STAFF}。"
+    },
+    {
+      "id": "revenue.zh.26",
+      "countries": [
+        "HK"
+      ],
+      "text": "本行於{REVENUE_YEAR}錄得營業額{REVENUE}。"
+    }
   ],
   "services_intro": [
-    {"id": "services_intro.zh.01", "text": "服務項目：{SERVICE_LIST}"},
-    {"id": "services_intro.zh.02", "text": "產品與服務：{SERVICE_LIST}"},
-    {"id": "services_intro.zh.03", "text": "我們提供{SERVICE_LIST}等項目。"},
-    {"id": "services_intro.zh.04", "text": "本公司主要提供{SERVICE_LIST}。"},
-    {"id": "services_intro.zh.05", "text": "熱門推薦：{SERVICE}"},
-    {"id": "services_intro.zh.06", "text": "招牌項目：{SERVICE}"},
-    {"id": "services_intro.zh.07", "text": "我們的{SERVICE}深受顧客喜愛。"},
-    {"id": "services_intro.zh.08", "countries": ["TW"], "text": "除了{SERVICE}之外，我們也可依需求提供客製化方案。"},
-    {"id": "services_intro.zh.09", "text": "本月主打：{SERVICE}，歡迎把握機會。"},
-    {"id": "services_intro.zh.10", "text": "產品及服務涵蓋{SERVICE_LIST}，一次滿足您的需求。"},
-    {"id": "services_intro.zh.11", "text": "{S_NAME}專業提供{SERVICE}。"},
-    {"id": "services_intro.zh.12", "countries": ["TW"], "text": "歡迎洽詢{SERVICE}相關事宜。"},
-    {"id": "services_intro.zh.13", "text": "我們的服務：{SERVICE_LIST}"},
-    {"id": "services_intro.zh.14", "text": "全新推出{SERVICE}，歡迎來電洽詢。"},
-    {"id": "services_intro.zh.15", "countries": ["HK"], "text": "一站式服務 One-stop Solution：{SERVICE_LIST}"},
-    {"id": "services_intro.zh.16", "text": "如需{SERVICE}，歡迎與我們聯絡。"},
-    {"id": "services_intro.zh.17", "countries": ["HK"], "text": "服務內容 Our Services：{SERVICE_LIST}"},
-    {"id": "services_intro.zh.18", "text": "我們的核心項目包括{SERVICE_LIST}。"},
-    {"id": "services_intro.zh.19", "text": "{SERVICE}：價格實惠，品質有保障。"},
-    {"id": "services_intro.zh.20", "text": "項目一覽：{SERVICE_LIST}"},
-    {"id": "services_intro.zh.21", "countries": ["HK"], "text": "除{SERVICE}外，亦可按客戶需要度身訂造方案。"},
-    {"id": "services_intro.zh.22", "text": "最受歡迎的項目是{SERVICE}。"},
-    {"id": "services_intro.zh.23", "text": "提供項目：{SERVICE_LIST}"},
-    {"id": "services_intro.zh.24", "countries": ["HK"], "text": "{S_NAME}的服務範疇包括{SERVICE_LIST}。"},
-    {"id": "services_intro.zh.25", "text": "我們亦承接{SERVICE}訂單，歡迎企業洽談。"},
-    {"id": "services_intro.zh.26", "text": "本季推薦：{SERVICE}，限時優惠中。"},
-    {"id": "services_intro.zh.27", "text": "主要產品／服務：{SERVICE_LIST}"},
-    {"id": "services_intro.zh.28", "countries": ["HK"], "text": "如欲查詢{SERVICE}詳情，歡迎致電或WhatsApp我們。"}
+    {
+      "id": "services_intro.zh.01",
+      "text": "服務項目：{SERVICE_LIST}"
+    },
+    {
+      "id": "services_intro.zh.02",
+      "text": "產品與服務：{SERVICE_LIST}"
+    },
+    {
+      "id": "services_intro.zh.04",
+      "text": "本公司主要提供{SERVICE_LIST}。"
+    },
+    {
+      "id": "services_intro.zh.05",
+      "text": "熱門推薦：{SERVICE}"
+    },
+    {
+      "id": "services_intro.zh.06",
+      "text": "招牌項目：{SERVICE}"
+    },
+    {
+      "id": "services_intro.zh.08",
+      "countries": [
+        "TW"
+      ],
+      "text": "除了{SERVICE}之外，我們也可依需求提供客製化方案。"
+    },
+    {
+      "id": "services_intro.zh.09",
+      "text": "本月主打：{SERVICE}，歡迎把握機會。"
+    },
+    {
+      "id": "services_intro.zh.10",
+      "text": "產品及服務涵蓋{SERVICE_LIST}，一次滿足您的需求。"
+    },
+    {
+      "id": "services_intro.zh.11",
+      "text": "{S_NAME}專業提供{SERVICE}。"
+    },
+    {
+      "id": "services_intro.zh.12",
+      "countries": [
+        "TW"
+      ],
+      "text": "歡迎洽詢{SERVICE}相關事宜。"
+    },
+    {
+      "id": "services_intro.zh.13",
+      "text": "我們的服務：{SERVICE_LIST}"
+    },
+    {
+      "id": "services_intro.zh.14",
+      "text": "全新推出{SERVICE}，歡迎來電洽詢。"
+    },
+    {
+      "id": "services_intro.zh.15",
+      "countries": [
+        "HK"
+      ],
+      "text": "一站式服務 One-stop Solution：{SERVICE_LIST}"
+    },
+    {
+      "id": "services_intro.zh.16",
+      "text": "如需{SERVICE}，歡迎與我們聯絡。"
+    },
+    {
+      "id": "services_intro.zh.17",
+      "countries": [
+        "HK"
+      ],
+      "text": "服務內容 Our Services：{SERVICE_LIST}"
+    },
+    {
+      "id": "services_intro.zh.18",
+      "text": "我們的核心項目包括{SERVICE_LIST}。"
+    },
+    {
+      "id": "services_intro.zh.19",
+      "text": "{SERVICE}：價格實惠，品質有保障。"
+    },
+    {
+      "id": "services_intro.zh.20",
+      "text": "項目一覽：{SERVICE_LIST}"
+    },
+    {
+      "id": "services_intro.zh.21",
+      "countries": [
+        "HK"
+      ],
+      "text": "除{SERVICE}外，亦可按客戶需要度身訂造方案。"
+    },
+    {
+      "id": "services_intro.zh.22",
+      "text": "最受歡迎的項目是{SERVICE}。"
+    },
+    {
+      "id": "services_intro.zh.23",
+      "text": "提供項目：{SERVICE_LIST}"
+    },
+    {
+      "id": "services_intro.zh.24",
+      "countries": [
+        "HK"
+      ],
+      "text": "{S_NAME}的服務範疇包括{SERVICE_LIST}。"
+    },
+    {
+      "id": "services_intro.zh.25",
+      "text": "我們亦承接{SERVICE}訂單，歡迎企業洽談。"
+    },
+    {
+      "id": "services_intro.zh.26",
+      "text": "本季推薦：{SERVICE}，限時優惠中。"
+    },
+    {
+      "id": "services_intro.zh.28",
+      "countries": [
+        "HK"
+      ],
+      "text": "如欲查詢{SERVICE}詳情，歡迎致電或WhatsApp我們。"
+    }
   ],
   "clients": [
-    {"id": "clients.zh.01", "text": "主要客戶：{C_NAME_LIST}"},
-    {"id": "clients.zh.02", "text": "合作客戶：{C_NAME_LIST}"},
-    {"id": "clients.zh.03", "countries": ["TW"], "text": "服務實績：{C_NAME_LIST}"},
-    {"id": "clients.zh.04", "countries": ["TW"], "text": "我們的客戶包括{C_NAME_LIST}等單位。"},
-    {"id": "clients.zh.05", "text": "長期服務{C_NAME_LIST}等客戶。"},
-    {"id": "clients.zh.06", "text": "承蒙{C_NAME_LIST}等客戶長期支持，特此致謝。"},
-    {"id": "clients.zh.07", "text": "{C_NAME}是我們合作多年的老客戶。"},
-    {"id": "clients.zh.08", "countries": ["TW"], "text": "近期完成{C_NAME}委託的專案，獲得高度肯定。"},
-    {"id": "clients.zh.09", "text": "我們曾為{C_NAME_LIST}提供服務。"},
-    {"id": "clients.zh.10", "countries": ["HK"], "text": "客戶名單 Client List：{C_NAME_LIST}"},
-    {"id": "clients.zh.11", "text": "本公司的服務獲得{C_NAME_LIST}等客戶一致好評。"},
-    {"id": "clients.zh.12", "text": "部分合作客戶：{C_NAME_LIST}"},
-    {"id": "clients.zh.13", "countries": ["TW"], "text": "本公司為{C_NAME}長期配合廠商。"},
-    {"id": "clients.zh.14", "text": "{C_NAME}與{C_NAME}均為本公司長期客戶。"},
-    {"id": "clients.zh.15", "text": "去年起，{C_NAME}正式成為我們的客戶。"},
-    {"id": "clients.zh.16", "text": "我們與{C_NAME}簽訂年度服務合約。"},
-    {"id": "clients.zh.17", "text": "信賴我們的客戶：{C_NAME_LIST}"},
-    {"id": "clients.zh.18", "text": "曾服務之客戶包括{C_NAME_LIST}。"},
-    {"id": "clients.zh.19", "countries": ["HK"], "text": "本行客戶遍及各行各業，包括{C_NAME_LIST}等機構。"},
-    {"id": "clients.zh.20", "text": "客戶實績（部分列舉）：{C_NAME_LIST}"},
-    {"id": "clients.zh.21", "text": "感謝{C_NAME}對本公司的信任與支持。"},
-    {"id": "clients.zh.22", "text": "我們的代表客戶有{C_NAME_LIST}等。"},
-    {"id": "clients.zh.23", "text": "為{C_NAME}量身規劃的方案，成效備受肯定。"},
-    {"id": "clients.zh.24", "countries": ["HK"], "text": "受{C_NAME}委託，我們去年完成了一項大型項目。"},
-    {"id": "clients.zh.25", "text": "重要客戶：{C_NAME}、{C_NAME}"},
-    {"id": "clients.zh.26", "countries": ["HK"], "text": "我們的clients包括{C_NAME_LIST}。"}
+    {
+      "id": "clients.zh.01",
+      "text": "主要客戶：{C_NAME_LIST}"
+    },
+    {
+      "id": "clients.zh.02",
+      "text": "合作客戶：{C_NAME_LIST}"
+    },
+    {
+      "id": "clients.zh.03",
+      "countries": [
+        "TW"
+      ],
+      "text": "服務實績：{C_NAME_LIST}"
+    },
+    {
+      "id": "clients.zh.04",
+      "countries": [
+        "TW"
+      ],
+      "text": "我們的客戶包括{C_NAME_LIST}等單位。"
+    },
+    {
+      "id": "clients.zh.05",
+      "text": "長期服務{C_NAME_LIST}等客戶。"
+    },
+    {
+      "id": "clients.zh.06",
+      "text": "承蒙{C_NAME_LIST}等客戶長期支持，特此致謝。"
+    },
+    {
+      "id": "clients.zh.07",
+      "text": "{C_NAME}是我們合作多年的老客戶。"
+    },
+    {
+      "id": "clients.zh.09",
+      "text": "我們曾為{C_NAME_LIST}提供服務。"
+    },
+    {
+      "id": "clients.zh.10",
+      "countries": [
+        "HK"
+      ],
+      "text": "客戶名單 Client List：{C_NAME_LIST}"
+    },
+    {
+      "id": "clients.zh.11",
+      "text": "本公司的服務獲得{C_NAME_LIST}等客戶一致好評。"
+    },
+    {
+      "id": "clients.zh.12",
+      "text": "部分合作客戶：{C_NAME_LIST}"
+    },
+    {
+      "id": "clients.zh.13",
+      "countries": [
+        "TW"
+      ],
+      "text": "本公司為{C_NAME}長期配合廠商。"
+    },
+    {
+      "id": "clients.zh.14",
+      "text": "{C_NAME}與{C_NAME}均為本公司長期客戶。"
+    },
+    {
+      "id": "clients.zh.15",
+      "text": "去年起，{C_NAME}正式成為我們的客戶。"
+    },
+    {
+      "id": "clients.zh.17",
+      "text": "信賴我們的客戶：{C_NAME_LIST}"
+    },
+    {
+      "id": "clients.zh.19",
+      "countries": [
+        "HK"
+      ],
+      "text": "本行客戶遍及各行各業，包括{C_NAME_LIST}等機構。"
+    },
+    {
+      "id": "clients.zh.20",
+      "text": "客戶實績（部分列舉）：{C_NAME_LIST}"
+    },
+    {
+      "id": "clients.zh.21",
+      "text": "感謝{C_NAME}對本公司的信任與支持。"
+    },
+    {
+      "id": "clients.zh.22",
+      "text": "我們的代表客戶有{C_NAME_LIST}等。"
+    },
+    {
+      "id": "clients.zh.23",
+      "text": "為{C_NAME}量身規劃的方案，成效備受肯定。"
+    },
+    {
+      "id": "clients.zh.24",
+      "countries": [
+        "HK"
+      ],
+      "text": "受{C_NAME}委託，我們去年完成了一項大型項目。"
+    },
+    {
+      "id": "clients.zh.25",
+      "text": "重要客戶：{C_NAME}、{C_NAME}"
+    },
+    {
+      "id": "clients.zh.26",
+      "countries": [
+        "HK"
+      ],
+      "text": "我們的clients包括{C_NAME_LIST}。"
+    }
   ],
   "hours": [
-    {"id": "hours.zh.01", "text": "營業時間：{HOURS}"},
-    {"id": "hours.zh.02", "countries": ["HK"], "text": "營業時間 Opening Hours：{HOURS}"},
-    {"id": "hours.zh.03", "text": "服務時間：{HOURS}"},
-    {"id": "hours.zh.04", "text": "我們的營業時間為{HOURS:prose}。"},
-    {"id": "hours.zh.05", "text": "本公司營業時間為{HOURS:prose}，歡迎蒞臨。"},
-    {"id": "hours.zh.06", "text": "服務時間為{HOURS:prose}，期間均有專人為您服務。"},
-    {"id": "hours.zh.07", "text": "開放時間：{HOURS}"},
-    {"id": "hours.zh.08", "text": "辦公時間：{HOURS}"},
-    {"id": "hours.zh.09", "text": "客服時間：{HOURS}"},
-    {"id": "hours.zh.10", "countries": ["TW"], "text": "營業時間為{HOURS}，國定假日另行公告。"},
-    {"id": "hours.zh.11", "countries": ["HK"], "text": "Office Hours 辦公時間：{HOURS}"},
-    {"id": "hours.zh.12", "text": "營業時間是{HOURS:prose}，歡迎預約。"},
-    {"id": "hours.zh.13", "text": "歡迎來電或親臨洽詢，營業時間為{HOURS:prose}。"},
-    {"id": "hours.zh.14", "text": "營業時段：{HOURS}"},
-    {"id": "hours.zh.15", "countries": ["HK"], "text": "本行營業時間：{HOURS}；公眾假期營業安排另行通告。"},
-    {"id": "hours.zh.16", "text": "營業時間如下：{HOURS}"},
-    {"id": "hours.zh.17", "text": "時間：{HOURS}"},
-    {"id": "hours.zh.18", "text": "營業日及時間：{HOURS}"},
-    {"id": "hours.zh.19", "text": "電話預約時間：{HOURS}"},
-    {"id": "hours.zh.20", "countries": ["TW"], "text": "門市營業時間為{HOURS:prose}，歡迎參觀選購。"},
-    {"id": "hours.zh.21", "text": "{S_NAME}營業時間：{HOURS}"},
-    {"id": "hours.zh.22", "countries": ["HK"], "text": "營業時間 Business Hours：{HOURS}"},
-    {"id": "hours.zh.23", "text": "現場服務時間為{HOURS:prose}，其他時段請先預約。"},
-    {"id": "hours.zh.24", "countries": ["HK"], "text": "客戶服務熱線服務時間：{HOURS}"},
-    {"id": "hours.zh.25", "text": "如需協助，歡迎來電{S_PHONE}，服務時間為{HOURS:prose}。"},
-    {"id": "hours.zh.26", "countries": ["TW"], "text": "營業時間：{HOURS}（如遇颱風停班，依政府公告調整）"},
-    {"id": "hours.zh.27", "countries": ["HK"], "text": "開放時間：{HOURS}（八號風球或黑色暴雨警告生效期間暫停開放）"}
+    {
+      "id": "hours.zh.01",
+      "text": "營業時間：{HOURS}"
+    },
+    {
+      "id": "hours.zh.02",
+      "countries": [
+        "HK"
+      ],
+      "text": "營業時間 Opening Hours：{HOURS}"
+    },
+    {
+      "id": "hours.zh.03",
+      "text": "服務時間：{HOURS}"
+    },
+    {
+      "id": "hours.zh.04",
+      "text": "我們的營業時間為{HOURS:prose}。"
+    },
+    {
+      "id": "hours.zh.06",
+      "text": "服務時間為{HOURS:prose}，期間均有專人為您服務。"
+    },
+    {
+      "id": "hours.zh.07",
+      "text": "開放時間：{HOURS}"
+    },
+    {
+      "id": "hours.zh.08",
+      "text": "辦公時間：{HOURS}"
+    },
+    {
+      "id": "hours.zh.09",
+      "text": "客服時間：{HOURS}"
+    },
+    {
+      "id": "hours.zh.10",
+      "countries": [
+        "TW"
+      ],
+      "text": "營業時間為{HOURS}，國定假日另行公告。"
+    },
+    {
+      "id": "hours.zh.11",
+      "countries": [
+        "HK"
+      ],
+      "text": "Office Hours 辦公時間：{HOURS}"
+    },
+    {
+      "id": "hours.zh.12",
+      "text": "營業時間是{HOURS:prose}，歡迎預約。"
+    },
+    {
+      "id": "hours.zh.13",
+      "text": "歡迎來電或親臨洽詢，營業時間為{HOURS:prose}。"
+    },
+    {
+      "id": "hours.zh.15",
+      "countries": [
+        "HK"
+      ],
+      "text": "本行營業時間：{HOURS}；公眾假期營業安排另行通告。"
+    },
+    {
+      "id": "hours.zh.16",
+      "text": "營業時間如下：{HOURS}"
+    },
+    {
+      "id": "hours.zh.17",
+      "text": "時間：{HOURS}"
+    },
+    {
+      "id": "hours.zh.18",
+      "text": "營業日及時間：{HOURS}"
+    },
+    {
+      "id": "hours.zh.19",
+      "text": "電話預約時間：{HOURS}"
+    },
+    {
+      "id": "hours.zh.20",
+      "countries": [
+        "TW"
+      ],
+      "text": "門市營業時間為{HOURS:prose}，歡迎參觀選購。"
+    },
+    {
+      "id": "hours.zh.21",
+      "text": "{S_NAME}營業時間：{HOURS}"
+    },
+    {
+      "id": "hours.zh.22",
+      "countries": [
+        "HK"
+      ],
+      "text": "營業時間 Business Hours：{HOURS}"
+    },
+    {
+      "id": "hours.zh.23",
+      "text": "現場服務時間為{HOURS:prose}，其他時段請先預約。"
+    },
+    {
+      "id": "hours.zh.24",
+      "countries": [
+        "HK"
+      ],
+      "text": "客戶服務熱線服務時間：{HOURS}"
+    },
+    {
+      "id": "hours.zh.26",
+      "countries": [
+        "TW"
+      ],
+      "text": "營業時間：{HOURS}（如遇颱風停班，依政府公告調整）"
+    },
+    {
+      "id": "hours.zh.27",
+      "countries": [
+        "HK"
+      ],
+      "text": "開放時間：{HOURS}（八號風球或黑色暴雨警告生效期間暫停開放）"
+    }
   ],
   "certifications": [
-    {"id": "certifications.zh.01", "text": "認證：{CERT_LIST}"},
-    {"id": "certifications.zh.02", "text": "榮譽與認證：{CERT_LIST}"},
-    {"id": "certifications.zh.03", "countries": ["HK"], "text": "資格及認證 Accreditations：{CERT_LIST}"},
-    {"id": "certifications.zh.04", "text": "獲獎及認證：{CERT_LIST}"},
-    {"id": "certifications.zh.05", "text": "專業資格：{CERT_LIST}"},
-    {"id": "certifications.zh.06", "text": "相關認證：{CERT}"},
-    {"id": "certifications.zh.07", "text": "所獲認證、獎項及會員資格：{CERT_LIST}"},
-    {"id": "certifications.zh.08", "text": "{S_NAME}擁有{CERT_LIST}等資格與榮譽。"},
-    {"id": "certifications.zh.09", "text": "本公司的資歷包括{CERT_LIST}。"},
-    {"id": "certifications.zh.10", "text": "{CERT}——這是客戶選擇我們的理由之一。"},
-    {"id": "certifications.zh.11", "text": "我們引以為傲的是：{CERT}。"},
-    {"id": "certifications.zh.12", "countries": ["TW"], "text": "證照與認證：{CERT_LIST}"},
-    {"id": "certifications.zh.13", "countries": ["HK"], "text": "Certifications 認證：{CERT_LIST}"},
-    {"id": "certifications.zh.14", "text": "品質與信譽的證明：{CERT_LIST}"},
-    {"id": "certifications.zh.15", "countries": ["TW"], "text": "證照／標章／獎項：{CERT_LIST}"},
-    {"id": "certifications.zh.16", "text": "我們很榮幸擁有{CERT}資格，服務品質備受肯定。"},
-    {"id": "certifications.zh.17", "text": "{S_NAME}陸續取得{CERT_LIST}等資格。"},
-    {"id": "certifications.zh.18", "text": "持有資格：{CERT_LIST}"},
-    {"id": "certifications.zh.19", "countries": ["HK"], "text": "本行具備{CERT}資格，服務質素有保證。"},
-    {"id": "certifications.zh.20", "text": "我們的專業獲得認可：{CERT_LIST}"},
-    {"id": "certifications.zh.21", "text": "榮譽紀錄：{CERT_LIST}"},
-    {"id": "certifications.zh.22", "countries": ["TW"], "text": "相關證照與資格：{CERT}"},
-    {"id": "certifications.zh.23", "text": "{S_NAME}的認證與榮譽包括{CERT_LIST}。"},
-    {"id": "certifications.zh.24", "countries": ["HK"], "text": "Awards & Accreditations 獎項及認證：{CERT_LIST}"},
-    {"id": "certifications.zh.25", "text": "本公司取得{CERT}資格，讓客戶更加安心。"},
-    {"id": "certifications.zh.26", "text": "資格／認證：{CERT}"}
+    {
+      "id": "certifications.zh.01",
+      "text": "認證：{CERT_LIST}"
+    },
+    {
+      "id": "certifications.zh.02",
+      "text": "榮譽與認證：{CERT_LIST}"
+    },
+    {
+      "id": "certifications.zh.04",
+      "text": "獲獎及認證：{CERT_LIST}"
+    },
+    {
+      "id": "certifications.zh.05",
+      "text": "專業資格：{CERT_LIST}"
+    },
+    {
+      "id": "certifications.zh.07",
+      "text": "所獲認證、獎項及會員資格：{CERT_LIST}"
+    },
+    {
+      "id": "certifications.zh.09",
+      "text": "本公司的資歷包括{CERT_LIST}。"
+    },
+    {
+      "id": "certifications.zh.10",
+      "text": "{CERT}——這是客戶選擇我們的理由之一。"
+    },
+    {
+      "id": "certifications.zh.11",
+      "text": "我們引以為傲的是：{CERT}。"
+    },
+    {
+      "id": "certifications.zh.12",
+      "countries": [
+        "TW"
+      ],
+      "text": "證照與認證：{CERT_LIST}"
+    },
+    {
+      "id": "certifications.zh.13",
+      "countries": [
+        "HK"
+      ],
+      "text": "Certifications 認證：{CERT_LIST}"
+    },
+    {
+      "id": "certifications.zh.14",
+      "text": "品質與信譽的證明：{CERT_LIST}"
+    },
+    {
+      "id": "certifications.zh.15",
+      "countries": [
+        "TW"
+      ],
+      "text": "證照／標章／獎項：{CERT_LIST}"
+    },
+    {
+      "id": "certifications.zh.16",
+      "text": "我們很榮幸擁有{CERT}資格，服務品質備受肯定。"
+    },
+    {
+      "id": "certifications.zh.17",
+      "text": "{S_NAME}陸續取得{CERT_LIST}等資格。"
+    },
+    {
+      "id": "certifications.zh.18",
+      "text": "持有資格：{CERT_LIST}"
+    },
+    {
+      "id": "certifications.zh.19",
+      "countries": [
+        "HK"
+      ],
+      "text": "本行具備{CERT}資格，服務質素有保證。"
+    },
+    {
+      "id": "certifications.zh.20",
+      "text": "我們的專業獲得認可：{CERT_LIST}"
+    },
+    {
+      "id": "certifications.zh.21",
+      "text": "榮譽紀錄：{CERT_LIST}"
+    },
+    {
+      "id": "certifications.zh.22",
+      "countries": [
+        "TW"
+      ],
+      "text": "相關證照與資格：{CERT}"
+    },
+    {
+      "id": "certifications.zh.23",
+      "text": "{S_NAME}的認證與榮譽包括{CERT_LIST}。"
+    },
+    {
+      "id": "certifications.zh.24",
+      "countries": [
+        "HK"
+      ],
+      "text": "Awards & Accreditations 獎項及認證：{CERT_LIST}"
+    },
+    {
+      "id": "certifications.zh.25",
+      "text": "本公司取得{CERT}資格，讓客戶更加安心。"
+    },
+    {
+      "id": "certifications.zh.26",
+      "text": "資格／認證：{CERT}"
+    }
   ],
   "location": [
-    {"id": "location.zh.01", "text": "地址：{S_ADDRESS}"},
-    {"id": "location.zh.02", "text": "公司地址：{S_ADDRESS}"},
-    {"id": "location.zh.03", "text": "電話：{S_PHONE}"},
-    {"id": "location.zh.04", "text": "聯絡電話：{S_PHONE}"},
-    {"id": "location.zh.05", "countries": ["TW"], "text": "客服專線：{S_PHONE}"},
-    {"id": "location.zh.06", "text": "E-mail：{S_EMAIL}"},
-    {"id": "location.zh.07", "text": "電子郵件：{S_EMAIL}"},
-    {"id": "location.zh.08", "countries": ["HK"], "text": "電郵：{S_EMAIL}"},
-    {"id": "location.zh.09", "text": "網址：{S_URL}"},
-    {"id": "location.zh.10", "text": "官方網站：{S_URL}"},
-    {"id": "location.zh.11", "countries": ["HK"], "text": "地址 Address：{S_ADDRESS}"},
-    {"id": "location.zh.12", "countries": ["HK"], "text": "電話 Tel：{S_PHONE}｜電郵 Email：{S_EMAIL}"},
-    {"id": "location.zh.13", "text": "本公司位於{S_ADDRESS}，交通便利。"},
-    {"id": "location.zh.14", "text": "歡迎蒞臨：{S_ADDRESS}"},
-    {"id": "location.zh.15", "countries": ["TW"], "text": "如有任何疑問，歡迎來電{S_PHONE}洽詢。"},
-    {"id": "location.zh.16", "countries": ["HK"], "text": "如有任何查詢，請致電{S_PHONE}或電郵至{S_EMAIL}。"},
-    {"id": "location.zh.17", "countries": ["TW"], "text": "更多資訊請上官網{S_URL}查詢。"},
-    {"id": "location.zh.18", "countries": ["TW"], "text": "營業地址：{S_ADDRESS}"},
-    {"id": "location.zh.19", "text": "通訊地址：{S_ADDRESS}"},
-    {"id": "location.zh.20", "text": "總公司：{S_ADDRESS}；電話：{S_PHONE}"},
-    {"id": "location.zh.21", "text": "服務專線：{S_PHONE}（{HOURS}）"},
-    {"id": "location.zh.22", "text": "來信請寄：{S_EMAIL}"},
-    {"id": "location.zh.23", "text": "詳情請瀏覽{S_URL}。"},
-    {"id": "location.zh.24", "text": "{S_NAME}｜{S_ADDRESS}｜{S_PHONE}"},
-    {"id": "location.zh.25", "text": "我們的辦公室位於{S_ADDRESS}。"},
-    {"id": "location.zh.26", "countries": ["HK"], "text": "寫字樓地址：{S_ADDRESS}"},
-    {"id": "location.zh.27", "countries": ["HK"], "text": "WhatsApp／電話：{S_PHONE}"},
-    {"id": "location.zh.28", "countries": ["TW"], "text": "電子信箱：{S_EMAIL}"},
-    {"id": "location.zh.29", "countries": ["HK"], "text": "Hotline：{S_PHONE}"},
-    {"id": "location.zh.30", "text": "線上預約：{S_URL}"}
+    {
+      "id": "location.zh.01",
+      "text": "地址：{S_ADDRESS}"
+    },
+    {
+      "id": "location.zh.02",
+      "text": "公司地址：{S_ADDRESS}"
+    },
+    {
+      "id": "location.zh.03",
+      "text": "電話：{S_PHONE}"
+    },
+    {
+      "id": "location.zh.04",
+      "text": "聯絡電話：{S_PHONE}"
+    },
+    {
+      "id": "location.zh.05",
+      "countries": [
+        "TW"
+      ],
+      "text": "客服專線：{S_PHONE}"
+    },
+    {
+      "id": "location.zh.06",
+      "text": "E-mail：{S_EMAIL}"
+    },
+    {
+      "id": "location.zh.07",
+      "text": "電子郵件：{S_EMAIL}"
+    },
+    {
+      "id": "location.zh.09",
+      "text": "網址：{S_URL}"
+    },
+    {
+      "id": "location.zh.10",
+      "text": "官方網站：{S_URL}"
+    },
+    {
+      "id": "location.zh.11",
+      "countries": [
+        "HK"
+      ],
+      "text": "地址 Address：{S_ADDRESS}"
+    },
+    {
+      "id": "location.zh.13",
+      "text": "本公司位於{S_ADDRESS}，交通便利。"
+    },
+    {
+      "id": "location.zh.14",
+      "text": "歡迎蒞臨：{S_ADDRESS}"
+    },
+    {
+      "id": "location.zh.15",
+      "countries": [
+        "TW"
+      ],
+      "text": "如有任何疑問，歡迎來電{S_PHONE}洽詢。"
+    },
+    {
+      "id": "location.zh.16",
+      "countries": [
+        "HK"
+      ],
+      "text": "如有任何查詢，請致電{S_PHONE}或電郵至{S_EMAIL}。"
+    },
+    {
+      "id": "location.zh.17",
+      "countries": [
+        "TW"
+      ],
+      "text": "更多資訊請上官網{S_URL}查詢。"
+    },
+    {
+      "id": "location.zh.18",
+      "countries": [
+        "TW"
+      ],
+      "text": "營業地址：{S_ADDRESS}"
+    },
+    {
+      "id": "location.zh.19",
+      "text": "通訊地址：{S_ADDRESS}"
+    },
+    {
+      "id": "location.zh.20",
+      "text": "總公司：{S_ADDRESS}；電話：{S_PHONE}"
+    },
+    {
+      "id": "location.zh.21",
+      "text": "服務專線：{S_PHONE}（{HOURS}）"
+    },
+    {
+      "id": "location.zh.22",
+      "text": "來信請寄：{S_EMAIL}"
+    },
+    {
+      "id": "location.zh.23",
+      "text": "詳情請瀏覽{S_URL}。"
+    },
+    {
+      "id": "location.zh.24",
+      "text": "{S_NAME}｜{S_ADDRESS}｜{S_PHONE}"
+    },
+    {
+      "id": "location.zh.25",
+      "text": "我們的辦公室位於{S_ADDRESS}。"
+    },
+    {
+      "id": "location.zh.26",
+      "countries": [
+        "HK"
+      ],
+      "text": "寫字樓地址：{S_ADDRESS}"
+    },
+    {
+      "id": "location.zh.27",
+      "countries": [
+        "HK"
+      ],
+      "text": "WhatsApp／電話：{S_PHONE}"
+    },
+    {
+      "id": "location.zh.28",
+      "countries": [
+        "TW"
+      ],
+      "text": "電子信箱：{S_EMAIL}"
+    },
+    {
+      "id": "location.zh.29",
+      "countries": [
+        "HK"
+      ],
+      "text": "Hotline：{S_PHONE}"
+    }
   ],
   "capital": [
-    {"id": "capital.zh.01", "countries": ["TW"], "text": "資本額：{CAPITAL}"},
-    {"id": "capital.zh.02", "countries": ["TW"], "text": "實收資本額：{CAPITAL}"},
-    {"id": "capital.zh.03", "countries": ["TW"], "text": "資本總額：{CAPITAL}"},
-    {"id": "capital.zh.04", "countries": ["HK"], "text": "股本：{CAPITAL}"},
-    {"id": "capital.zh.05", "countries": ["HK"], "text": "已發行股本：{CAPITAL}"},
-    {"id": "capital.zh.06", "text": "本公司資本額{CAPITAL}，財務結構穩健。"},
-    {"id": "capital.zh.07", "countries": ["TW"], "text": "{S_NAME}實收資本額為{CAPITAL}。"},
-    {"id": "capital.zh.08", "text": "資本額 Capital：{CAPITAL}"},
-    {"id": "capital.zh.09", "countries": ["HK"], "text": "已繳足股本：{CAPITAL}"},
-    {"id": "capital.zh.10", "countries": ["HK"], "text": "繳足股本 Paid-up Capital：{CAPITAL}"},
-    {"id": "capital.zh.11", "text": "本公司屬{LEGAL_FORM}組織，資本額{CAPITAL}。"},
-    {"id": "capital.zh.12", "text": "成立初期資本有限，歷經多次增資，現已達{CAPITAL}。"},
-    {"id": "capital.zh.13", "text": "現有資本額{CAPITAL}。"},
-    {"id": "capital.zh.14", "countries": ["TW"], "text": "登記資本額：{CAPITAL}"},
-    {"id": "capital.zh.15", "countries": ["HK"], "text": "股本總額：{CAPITAL}"},
-    {"id": "capital.zh.16", "text": "公司資本：{CAPITAL}"},
-    {"id": "capital.zh.17", "text": "{S_NAME}（資本額{CAPITAL}）"},
-    {"id": "capital.zh.18", "text": "公司以{CAPITAL}資本額設立。"},
-    {"id": "capital.zh.19", "text": "資本額{CAPITAL}，員工{STAFF}。"},
-    {"id": "capital.zh.20", "countries": ["TW"], "text": "本公司資本雄厚，實收資本額達{CAPITAL}。"},
-    {"id": "capital.zh.21", "text": "增資後資本額為{CAPITAL}。"},
-    {"id": "capital.zh.22", "countries": ["TW"], "text": "本公司資本總額定為{CAPITAL}，分為若干股，每股金額新臺幣壹拾元，得分次發行。"},
-    {"id": "capital.zh.23", "countries": ["HK"], "text": "公司之已發行股本為{CAPITAL}，全數由股東以現金繳足。"},
-    {"id": "capital.zh.24", "text": "資本額：{CAPITAL}｜{S_REG_ID}"},
-    {"id": "capital.zh.25", "countries": ["HK"], "text": "Share Capital 股本：{CAPITAL}"},
-    {"id": "capital.zh.26", "text": "公司資本為{CAPITAL}，已由股東全數繳足。"},
-    {"id": "capital.zh.27", "text": "{S_NAME}的資本規模為{CAPITAL}。"}
+    {
+      "id": "capital.zh.02",
+      "countries": [
+        "TW"
+      ],
+      "text": "實收資本額：{CAPITAL}"
+    },
+    {
+      "id": "capital.zh.03",
+      "countries": [
+        "TW"
+      ],
+      "text": "資本總額：{CAPITAL}"
+    },
+    {
+      "id": "capital.zh.04",
+      "countries": [
+        "HK"
+      ],
+      "text": "股本：{CAPITAL}"
+    },
+    {
+      "id": "capital.zh.05",
+      "countries": [
+        "HK"
+      ],
+      "text": "已發行股本：{CAPITAL}"
+    },
+    {
+      "id": "capital.zh.06",
+      "text": "本公司資本額{CAPITAL}，財務結構穩健。"
+    },
+    {
+      "id": "capital.zh.08",
+      "text": "資本額 Capital：{CAPITAL}"
+    },
+    {
+      "id": "capital.zh.09",
+      "countries": [
+        "HK"
+      ],
+      "text": "已繳足股本：{CAPITAL}"
+    },
+    {
+      "id": "capital.zh.10",
+      "countries": [
+        "HK"
+      ],
+      "text": "繳足股本 Paid-up Capital：{CAPITAL}"
+    },
+    {
+      "id": "capital.zh.11",
+      "text": "本公司屬{LEGAL_FORM}組織，資本額{CAPITAL}。"
+    },
+    {
+      "id": "capital.zh.12",
+      "text": "成立初期資本有限，歷經多次增資，現已達{CAPITAL}。"
+    },
+    {
+      "id": "capital.zh.13",
+      "text": "現有資本額{CAPITAL}。"
+    },
+    {
+      "id": "capital.zh.14",
+      "countries": [
+        "TW"
+      ],
+      "text": "登記資本額：{CAPITAL}"
+    },
+    {
+      "id": "capital.zh.15",
+      "countries": [
+        "HK"
+      ],
+      "text": "股本總額：{CAPITAL}"
+    },
+    {
+      "id": "capital.zh.16",
+      "text": "公司資本：{CAPITAL}"
+    },
+    {
+      "id": "capital.zh.17",
+      "text": "{S_NAME}（資本額{CAPITAL}）"
+    },
+    {
+      "id": "capital.zh.18",
+      "text": "公司以{CAPITAL}資本額設立。"
+    },
+    {
+      "id": "capital.zh.20",
+      "countries": [
+        "TW"
+      ],
+      "text": "本公司資本雄厚，實收資本額達{CAPITAL}。"
+    },
+    {
+      "id": "capital.zh.21",
+      "text": "增資後資本額為{CAPITAL}。"
+    },
+    {
+      "id": "capital.zh.22",
+      "countries": [
+        "TW"
+      ],
+      "text": "本公司資本總額定為{CAPITAL}，分為若干股，每股金額新臺幣壹拾元，得分次發行。"
+    },
+    {
+      "id": "capital.zh.23",
+      "countries": [
+        "HK"
+      ],
+      "text": "公司之已發行股本為{CAPITAL}，全數由股東以現金繳足。"
+    },
+    {
+      "id": "capital.zh.24",
+      "text": "資本額：{CAPITAL}｜{S_REG_ID}"
+    },
+    {
+      "id": "capital.zh.25",
+      "countries": [
+        "HK"
+      ],
+      "text": "Share Capital 股本：{CAPITAL}"
+    },
+    {
+      "id": "capital.zh.26",
+      "text": "公司資本為{CAPITAL}，已由股東全數繳足。"
+    },
+    {
+      "id": "capital.zh.27",
+      "text": "{S_NAME}的資本規模為{CAPITAL}。"
+    }
   ],
   "legal_form": [
-    {"id": "legal_form.zh.01", "text": "公司類型：{LEGAL_FORM}"},
-    {"id": "legal_form.zh.02", "countries": ["TW"], "text": "組織型態：{LEGAL_FORM}"},
-    {"id": "legal_form.zh.03", "text": "組織類型：{LEGAL_FORM}"},
-    {"id": "legal_form.zh.04", "countries": ["HK"], "text": "法律地位：{LEGAL_FORM}"},
-    {"id": "legal_form.zh.05", "countries": ["HK"], "text": "公司類別 Company Type：{LEGAL_FORM}"},
-    {"id": "legal_form.zh.06", "countries": ["TW"], "text": "本公司組織型態為{LEGAL_FORM}。"},
-    {"id": "legal_form.zh.07", "text": "目前以{LEGAL_FORM}形式經營。"},
-    {"id": "legal_form.zh.08", "text": "企業組織：{LEGAL_FORM}"},
-    {"id": "legal_form.zh.09", "text": "{LEGAL_FORM}，資本額{CAPITAL}"},
-    {"id": "legal_form.zh.10", "text": "公司於{FOUNDED}登記為{LEGAL_FORM}。"},
-    {"id": "legal_form.zh.11", "text": "經營型態：{LEGAL_FORM}"},
-    {"id": "legal_form.zh.12", "countries": ["HK"], "text": "業務結構 Business Structure：{LEGAL_FORM}"},
-    {"id": "legal_form.zh.13", "countries": ["HK"], "text": "本行以{LEGAL_FORM}方式營運。"},
-    {"id": "legal_form.zh.14", "text": "登記型態：{LEGAL_FORM}"},
-    {"id": "legal_form.zh.15", "text": "{S_NAME}屬{LEGAL_FORM}，{manager_title}為{S_PERSON}。"},
-    {"id": "legal_form.zh.16", "text": "公司性質：{LEGAL_FORM}"},
-    {"id": "legal_form.zh.17", "countries": ["TW"], "text": "本公司係{LEGAL_FORM}組織。"},
-    {"id": "legal_form.zh.18", "text": "類別：{LEGAL_FORM}"},
-    {"id": "legal_form.zh.19", "countries": ["HK"], "text": "Legal Status 法律地位：{LEGAL_FORM}"},
-    {"id": "legal_form.zh.20", "countries": ["TW"], "text": "組織別：{LEGAL_FORM}"},
-    {"id": "legal_form.zh.21", "text": "企業類別：{LEGAL_FORM}"},
-    {"id": "legal_form.zh.22", "countries": ["TW"], "text": "本公司依法登記，組織型態為{LEGAL_FORM}，{S_REG_ID}。"},
-    {"id": "legal_form.zh.23", "countries": ["TW"], "text": "商號組織：{LEGAL_FORM}"},
-    {"id": "legal_form.zh.24", "countries": ["HK"], "text": "業務形式：{LEGAL_FORM}"},
-    {"id": "legal_form.zh.25", "countries": ["TW"], "text": "經營形式：{LEGAL_FORM}；負責人：{S_PERSON}"},
-    {"id": "legal_form.zh.26", "text": "{S_NAME}的組織形式為{LEGAL_FORM}。"},
-    {"id": "legal_form.zh.27", "text": "本公司以{LEGAL_FORM}形式登記成立。"}
+    {
+      "id": "legal_form.zh.01",
+      "text": "公司類型：{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.zh.02",
+      "countries": [
+        "TW"
+      ],
+      "text": "組織型態：{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.zh.03",
+      "text": "組織類型：{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.zh.04",
+      "countries": [
+        "HK"
+      ],
+      "text": "法律地位：{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.zh.05",
+      "countries": [
+        "HK"
+      ],
+      "text": "公司類別 Company Type：{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.zh.06",
+      "countries": [
+        "TW"
+      ],
+      "text": "本公司組織型態為{LEGAL_FORM}。"
+    },
+    {
+      "id": "legal_form.zh.08",
+      "text": "企業組織：{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.zh.09",
+      "text": "{LEGAL_FORM}，資本額{CAPITAL}"
+    },
+    {
+      "id": "legal_form.zh.10",
+      "text": "公司於{FOUNDED}登記為{LEGAL_FORM}。"
+    },
+    {
+      "id": "legal_form.zh.11",
+      "text": "經營型態：{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.zh.12",
+      "countries": [
+        "HK"
+      ],
+      "text": "業務結構 Business Structure：{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.zh.14",
+      "text": "登記型態：{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.zh.15",
+      "text": "{S_NAME}屬{LEGAL_FORM}，{manager_title}為{S_PERSON}。"
+    },
+    {
+      "id": "legal_form.zh.16",
+      "text": "公司性質：{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.zh.18",
+      "text": "類別：{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.zh.19",
+      "countries": [
+        "HK"
+      ],
+      "text": "Legal Status 法律地位：{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.zh.20",
+      "countries": [
+        "TW"
+      ],
+      "text": "組織別：{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.zh.21",
+      "text": "企業類別：{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.zh.22",
+      "countries": [
+        "TW"
+      ],
+      "text": "本公司依法登記，組織型態為{LEGAL_FORM}，{S_REG_ID}。"
+    },
+    {
+      "id": "legal_form.zh.23",
+      "countries": [
+        "TW"
+      ],
+      "text": "商號組織：{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.zh.24",
+      "countries": [
+        "HK"
+      ],
+      "text": "業務形式：{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.zh.25",
+      "countries": [
+        "TW"
+      ],
+      "text": "經營形式：{LEGAL_FORM}；負責人：{S_PERSON}"
+    },
+    {
+      "id": "legal_form.zh.26",
+      "text": "{S_NAME}的組織形式為{LEGAL_FORM}。"
+    },
+    {
+      "id": "legal_form.zh.27",
+      "text": "本公司以{LEGAL_FORM}形式登記成立。"
+    }
   ],
   "traps": [
-    {"id": "trap.zh.01", "trap": "T1", "text": "去年承接的單筆最大訂單，總金額高達{amount}。"},
-    {"id": "trap.zh.02", "trap": "T1", "text": "本案工程合約總價{amount}，是公司創立以來規模最大的案件。"},
-    {"id": "trap.zh.03", "trap": "T1", "text": "上個月營業額衝上{amount}，創下單月新高紀錄。"},
-    {"id": "trap.zh.04", "trap": "T1", "text": "本年度稅後淨利為{amount}，較前一年度略有成長。"},
-    {"id": "trap.zh.05", "trap": "T1", "text": "今年第一季營收約{amount}，表現符合預期。"},
-    {"id": "trap.zh.06", "trap": "T1", "text": "公司今年投入{amount}添購新設備，全面提升服務效率。"},
-    {"id": "trap.zh.07", "trap": "T1", "text": "與{C_NAME}簽訂的三年期合約，總金額約{amount}。"},
-    {"id": "trap.zh.08", "trap": "T1", "text": "資產總額{amount}，負債比率維持在健康水準。"},
-    {"id": "trap.zh.09", "trap": "T1", "countries": ["TW"], "text": "本次得標案件的決標金額為{amount}，為今年最大的一筆合約。"},
-    {"id": "trap.zh.10", "trap": "T1", "countries": ["HK"], "text": "本行最大宗單筆交易金額逾{amount}，創下行內紀錄。"},
-    {"id": "trap.zh.11", "trap": "T5", "text": "本公司主要往來銀行為{bank}。"},
-    {"id": "trap.zh.12", "trap": "T5", "text": "原物料均由{supplier}穩定供應，品質有保障。"},
-    {"id": "trap.zh.13", "trap": "T5", "text": "我們與{partner}建立策略聯盟，共同開拓市場。"},
-    {"id": "trap.zh.14", "trap": "T5", "text": "{competitor}近期大幅調漲價格，本公司則維持原價。"},
-    {"id": "trap.zh.15", "trap": "T5", "text": "物流配送委由{partner}負責，確保準時送達。"},
-    {"id": "trap.zh.16", "trap": "T5", "text": "本公司為{supplier}在{city}的授權經銷商。"},
-    {"id": "trap.zh.17", "trap": "T5", "text": "我們的老客戶{C_NAME}創立於{client_founded}，雙方已合作多年。"},
-    {"id": "trap.zh.18", "trap": "T5", "text": "承蒙{bank}提供融資協助，新據點得以順利啟用。"},
-    {"id": "trap.zh.19", "trap": "T5", "text": "與{competitor}相比，我們的交期更短、服務更有彈性。"},
-    {"id": "trap.zh.20", "trap": "T5", "text": "該客戶自{client_founded}成立至今，一直是我們最重要的合作對象之一。"},
-    {"id": "trap.zh.21", "trap": "T7", "text": "本公司於{year}遷至現址，空間更加寬敞舒適。"},
-    {"id": "trap.zh.22", "trap": "T7", "text": "{year}完成全面整修，以全新面貌迎接顧客。"},
-    {"id": "trap.zh.23", "trap": "T7", "text": "{year}取得{CERT}資格，品質再獲肯定。"},
-    {"id": "trap.zh.24", "trap": "T7", "text": "店面於{year}重新裝潢後盛大開幕。"},
-    {"id": "trap.zh.25", "trap": "T7", "text": "本報價適用至{year}，逾期請重新詢價。"},
-    {"id": "trap.zh.26", "trap": "T7", "text": "{year}起，我們導入全新的線上預約系統。"},
-    {"id": "trap.zh.27", "trap": "T7", "text": "{year}曾獲市政府公開表揚。"},
-    {"id": "trap.zh.28", "trap": "T7", "text": "公司於{year}完成品牌識別全面改版。"},
-    {"id": "trap.zh.29", "trap": "T7", "text": "本公司車隊均為{year}以後出廠的車款。"},
-    {"id": "trap.zh.30", "trap": "T7", "countries": ["HK"], "text": "寫字樓於{year}完成翻新工程，環境煥然一新。"},
-    {"id": "trap.zh.31", "trap": "T8", "text": "我們擁有{n_years}的專業經驗。"},
-    {"id": "trap.zh.32", "trap": "T8", "text": "至今已服務超過{n_clients}。"},
-    {"id": "trap.zh.33", "trap": "T8", "countries": ["TW"], "text": "目前全臺共有{n_shops}，服務更便利。"},
-    {"id": "trap.zh.34", "trap": "T8", "text": "擁有自有車隊，共{n_vehicles}，可彈性調度。"},
-    {"id": "trap.zh.35", "trap": "T8", "text": "現有{n_products}供客戶選擇。"},
-    {"id": "trap.zh.36", "trap": "T8", "text": "累積完成{n_projects}，經驗豐富。"},
-    {"id": "trap.zh.37", "trap": "T8", "text": "團隊成員平均擁有{n_years}以上的業界資歷。"},
-    {"id": "trap.zh.38", "trap": "T8", "text": "每年服務{n_clients}，好評不斷。"},
-    {"id": "trap.zh.39", "trap": "T8", "countries": ["HK"], "text": "全港設有{n_shops}，方便客戶就近光顧。"},
-    {"id": "trap.zh.40", "trap": "T8", "text": "創辦人投入業界已有{n_years}。"},
-    {"id": "trap.zh.41", "trap": "T11", "text": "如需報價，請洽{position}{person}。"},
-    {"id": "trap.zh.42", "trap": "T11", "countries": ["TW"], "text": "本案聯絡窗口：{person}（{position}）"},
-    {"id": "trap.zh.43", "trap": "T11", "text": "{person}擔任本公司{position}已逾十年，深受客戶信賴。"},
-    {"id": "trap.zh.44", "trap": "T11", "text": "{position}{person}代表公司出席簽約儀式。"},
-    {"id": "trap.zh.45", "trap": "T11", "text": "新任{position}{person}將於下月正式到職。"},
-    {"id": "trap.zh.46", "trap": "T11", "text": "本報價單承辦人：{person}"},
-    {"id": "trap.zh.47", "trap": "T11", "countries": ["HK"], "text": "如有任何查詢，請聯絡我們的{position}{person}。"},
-    {"id": "trap.zh.48", "trap": "T11", "text": "文件請寄交{position}{person}收。"},
-    {"id": "trap.zh.49", "trap": "T11", "text": "帳務相關問題由{position}{person}負責回覆。"},
-    {"id": "trap.zh.50", "trap": "T11", "text": "由{person}（{position}）帶領的團隊負責客戶服務。"},
-    {"id": "trap.zh.51", "trap": "T13", "text": "我們與{partner}攜手合作，為{C_NAME}完成整體規劃。"},
-    {"id": "trap.zh.52", "trap": "T13", "text": "我們採用{supplier}提供的材料，長期服務{C_NAME}等客戶。"},
-    {"id": "trap.zh.53", "trap": "T13", "text": "合作夥伴：{partner}；主要客戶：{C_NAME_LIST}"},
-    {"id": "trap.zh.54", "trap": "T13", "text": "{C_NAME}的專案由本公司主導，並由{partner}協助執行。"},
-    {"id": "trap.zh.55", "trap": "T13", "text": "透過{partner}的引薦，我們開始為{C_NAME}提供服務。"},
-    {"id": "trap.zh.56", "trap": "T13", "text": "本公司設備皆購自{supplier}，服務對象包括{C_NAME_LIST}。"},
-    {"id": "trap.zh.57", "trap": "T13", "text": "除了服務{C_NAME}等客戶之外，我們也與{partner}維持良好的合作關係。"},
-    {"id": "trap.zh.58", "trap": "T13", "text": "供應商：{supplier}｜客戶：{C_NAME_LIST}"},
-    {"id": "trap.zh.59", "trap": "T13", "text": "為滿足{C_NAME}的需求，我們特別向{supplier}訂購專用材料。"},
-    {"id": "trap.zh.60", "trap": "T13", "countries": ["HK"], "text": "我們的客戶包括{C_NAME_LIST}，策略夥伴則有{partner}。"}
+    {
+      "id": "trap.zh.01",
+      "trap": "T1",
+      "text": "去年承接的單筆最大訂單，總金額高達{amount}。"
+    },
+    {
+      "id": "trap.zh.02",
+      "trap": "T1",
+      "text": "本案工程合約總價{amount}，是公司創立以來規模最大的案件。"
+    },
+    {
+      "id": "trap.zh.03",
+      "trap": "T1",
+      "text": "上個月營業額衝上{amount}，創下單月新高紀錄。"
+    },
+    {
+      "id": "trap.zh.04",
+      "trap": "T1",
+      "text": "本年度稅後淨利為{amount}，較前一年度略有成長。"
+    },
+    {
+      "id": "trap.zh.06",
+      "trap": "T1",
+      "text": "公司今年投入{amount}添購新設備，全面提升服務效率。"
+    },
+    {
+      "id": "trap.zh.07",
+      "trap": "T1",
+      "text": "與{C_NAME}簽訂的三年期合約，總金額約{amount}。"
+    },
+    {
+      "id": "trap.zh.08",
+      "trap": "T1",
+      "text": "資產總額{amount}，負債比率維持在健康水準。"
+    },
+    {
+      "id": "trap.zh.09",
+      "trap": "T1",
+      "countries": [
+        "TW"
+      ],
+      "text": "本次得標案件的決標金額為{amount}，為今年最大的一筆合約。"
+    },
+    {
+      "id": "trap.zh.10",
+      "trap": "T1",
+      "countries": [
+        "HK"
+      ],
+      "text": "本行最大宗單筆交易金額逾{amount}，創下行內紀錄。"
+    },
+    {
+      "id": "trap.zh.11",
+      "trap": "T5",
+      "text": "本公司主要往來銀行為{bank}。"
+    },
+    {
+      "id": "trap.zh.12",
+      "trap": "T5",
+      "text": "原物料均由{supplier}穩定供應，品質有保障。"
+    },
+    {
+      "id": "trap.zh.13",
+      "trap": "T5",
+      "text": "我們與{partner}建立策略聯盟，共同開拓市場。"
+    },
+    {
+      "id": "trap.zh.14",
+      "trap": "T5",
+      "text": "{competitor}近期大幅調漲價格，本公司則維持原價。"
+    },
+    {
+      "id": "trap.zh.15",
+      "trap": "T5",
+      "text": "物流配送委由{partner}負責，確保準時送達。"
+    },
+    {
+      "id": "trap.zh.17",
+      "trap": "T5",
+      "text": "我們的老客戶{C_NAME}創立於{client_founded}，雙方已合作多年。"
+    },
+    {
+      "id": "trap.zh.18",
+      "trap": "T5",
+      "text": "承蒙{bank}提供融資協助，新據點得以順利啟用。"
+    },
+    {
+      "id": "trap.zh.19",
+      "trap": "T5",
+      "text": "與{competitor}相比，我們的交期更短、服務更有彈性。"
+    },
+    {
+      "id": "trap.zh.20",
+      "trap": "T5",
+      "text": "該客戶自{client_founded}成立至今，一直是我們最重要的合作對象之一。"
+    },
+    {
+      "id": "trap.zh.21",
+      "trap": "T7",
+      "text": "本公司於{year}遷至現址，空間更加寬敞舒適。"
+    },
+    {
+      "id": "trap.zh.22",
+      "trap": "T7",
+      "text": "{year}完成全面整修，以全新面貌迎接顧客。"
+    },
+    {
+      "id": "trap.zh.23",
+      "trap": "T7",
+      "text": "{year}取得{CERT}資格，品質再獲肯定。"
+    },
+    {
+      "id": "trap.zh.24",
+      "trap": "T7",
+      "text": "店面於{year}重新裝潢後盛大開幕。"
+    },
+    {
+      "id": "trap.zh.25",
+      "trap": "T7",
+      "text": "本報價適用至{year}，逾期請重新詢價。"
+    },
+    {
+      "id": "trap.zh.26",
+      "trap": "T7",
+      "text": "{year}起，我們導入全新的線上預約系統。"
+    },
+    {
+      "id": "trap.zh.27",
+      "trap": "T7",
+      "text": "{year}曾獲市政府公開表揚。"
+    },
+    {
+      "id": "trap.zh.28",
+      "trap": "T7",
+      "text": "公司於{year}完成品牌識別全面改版。"
+    },
+    {
+      "id": "trap.zh.30",
+      "trap": "T7",
+      "countries": [
+        "HK"
+      ],
+      "text": "寫字樓於{year}完成翻新工程，環境煥然一新。"
+    },
+    {
+      "id": "trap.zh.31",
+      "trap": "T8",
+      "text": "我們擁有{n_years}的專業經驗。"
+    },
+    {
+      "id": "trap.zh.32",
+      "trap": "T8",
+      "text": "至今已服務超過{n_clients}。"
+    },
+    {
+      "id": "trap.zh.33",
+      "trap": "T8",
+      "countries": [
+        "TW"
+      ],
+      "text": "目前全臺共有{n_shops}，服務更便利。"
+    },
+    {
+      "id": "trap.zh.35",
+      "trap": "T8",
+      "text": "現有{n_products}供客戶選擇。"
+    },
+    {
+      "id": "trap.zh.36",
+      "trap": "T8",
+      "text": "累積完成{n_projects}，經驗豐富。"
+    },
+    {
+      "id": "trap.zh.37",
+      "trap": "T8",
+      "text": "團隊成員平均擁有{n_years}以上的業界資歷。"
+    },
+    {
+      "id": "trap.zh.38",
+      "trap": "T8",
+      "text": "每年服務{n_clients}，好評不斷。"
+    },
+    {
+      "id": "trap.zh.39",
+      "trap": "T8",
+      "countries": [
+        "HK"
+      ],
+      "text": "全港設有{n_shops}，方便客戶就近光顧。"
+    },
+    {
+      "id": "trap.zh.40",
+      "trap": "T8",
+      "text": "創辦人投入業界已有{n_years}。"
+    },
+    {
+      "id": "trap.zh.42",
+      "trap": "T11",
+      "countries": [
+        "TW"
+      ],
+      "text": "本案聯絡窗口：{person}（{position}）"
+    },
+    {
+      "id": "trap.zh.43",
+      "trap": "T11",
+      "text": "{person}擔任本公司{position}已逾十年，深受客戶信賴。"
+    },
+    {
+      "id": "trap.zh.44",
+      "trap": "T11",
+      "text": "{position}{person}代表公司出席簽約儀式。"
+    },
+    {
+      "id": "trap.zh.45",
+      "trap": "T11",
+      "text": "新任{position}{person}將於下月正式到職。"
+    },
+    {
+      "id": "trap.zh.46",
+      "trap": "T11",
+      "text": "本報價單承辦人：{person}"
+    },
+    {
+      "id": "trap.zh.47",
+      "trap": "T11",
+      "countries": [
+        "HK"
+      ],
+      "text": "如有任何查詢，請聯絡我們的{position}{person}。"
+    },
+    {
+      "id": "trap.zh.48",
+      "trap": "T11",
+      "text": "文件請寄交{position}{person}收。"
+    },
+    {
+      "id": "trap.zh.49",
+      "trap": "T11",
+      "text": "帳務相關問題由{position}{person}負責回覆。"
+    },
+    {
+      "id": "trap.zh.50",
+      "trap": "T11",
+      "text": "由{person}（{position}）帶領的團隊負責客戶服務。"
+    },
+    {
+      "id": "trap.zh.51",
+      "trap": "T13",
+      "text": "我們與{partner}攜手合作，為{C_NAME}完成整體規劃。"
+    },
+    {
+      "id": "trap.zh.52",
+      "trap": "T13",
+      "text": "我們採用{supplier}提供的材料，長期服務{C_NAME}等客戶。"
+    },
+    {
+      "id": "trap.zh.53",
+      "trap": "T13",
+      "text": "合作夥伴：{partner}；主要客戶：{C_NAME_LIST}"
+    },
+    {
+      "id": "trap.zh.54",
+      "trap": "T13",
+      "text": "{C_NAME}的專案由本公司主導，並由{partner}協助執行。"
+    },
+    {
+      "id": "trap.zh.56",
+      "trap": "T13",
+      "text": "本公司設備皆購自{supplier}，服務對象包括{C_NAME_LIST}。"
+    },
+    {
+      "id": "trap.zh.57",
+      "trap": "T13",
+      "text": "除了服務{C_NAME}等客戶之外，我們也與{partner}維持良好的合作關係。"
+    },
+    {
+      "id": "trap.zh.58",
+      "trap": "T13",
+      "text": "供應商：{supplier}｜客戶：{C_NAME_LIST}"
+    },
+    {
+      "id": "trap.zh.59",
+      "trap": "T13",
+      "text": "為滿足{C_NAME}的需求，我們特別向{supplier}訂購專用材料。"
+    },
+    {
+      "id": "trap.zh.60",
+      "trap": "T13",
+      "countries": [
+        "HK"
+      ],
+      "text": "我們的客戶包括{C_NAME_LIST}，策略夥伴則有{partner}。"
+    }
   ],
   "filler": [
-    {"id": "filler.zh.01", "text": "我們相信，細節決定品質。"},
-    {"id": "filler.zh.02", "text": "感謝您一直以來的支持與愛護。"},
-    {"id": "filler.zh.03", "text": "如有任何需求，歡迎隨時與我們聯繫。"},
-    {"id": "filler.zh.04", "text": "本公司秉持誠信、專業、創新的經營理念。"},
-    {"id": "filler.zh.05", "text": "客戶的滿意是我們最大的動力。"},
-    {"id": "filler.zh.06", "text": "我們重視每一位顧客的意見與回饋。"},
-    {"id": "filler.zh.07", "text": "所有價格以現場報價為準。"},
-    {"id": "filler.zh.08", "text": "為維持服務品質，建議您事先預約。"},
-    {"id": "filler.zh.09", "text": "我們持續精進技術，只為提供更好的服務。"},
-    {"id": "filler.zh.10", "text": "歡迎企業客戶洽談長期合作。"},
-    {"id": "filler.zh.11", "text": "每一件作品都經過嚴格的品質檢驗。"},
-    {"id": "filler.zh.12", "text": "我們堅持使用安全、環保的材料。"},
-    {"id": "filler.zh.13", "text": "本網站內容如有更新，恕不另行通知。"},
-    {"id": "filler.zh.14", "text": "請於預約時間前十分鐘抵達。"},
-    {"id": "filler.zh.15", "countries": ["TW"], "text": "如遇颱風等天然災害，是否營業將另行公告。"},
-    {"id": "filler.zh.16", "text": "本公司保留修改活動內容之權利。"},
-    {"id": "filler.zh.17", "text": "專業、效率、誠信，是我們對每位客戶的承諾。"},
-    {"id": "filler.zh.18", "text": "團隊定期參加專業培訓，持續提升服務水準。"},
-    {"id": "filler.zh.19", "text": "請妥善保留收據，作為退換貨憑證。"},
-    {"id": "filler.zh.20", "countries": ["TW"], "text": "付款方式包括現金、信用卡及銀行轉帳。"},
-    {"id": "filler.zh.21", "text": "我們致力於打造友善、舒適的環境。"},
-    {"id": "filler.zh.22", "text": "商品如有任何問題，請於收到後七日內與我們聯絡。"},
-    {"id": "filler.zh.23", "countries": ["TW"], "text": "本公司鄰近捷運站，交通十分便利。"},
-    {"id": "filler.zh.24", "countries": ["HK"], "text": "鄰近港鐵站，步行約五分鐘即達。"},
-    {"id": "filler.zh.25", "text": "附近設有公有停車場，開車前來也很方便。"},
-    {"id": "filler.zh.26", "text": "本活動名額有限，額滿為止。"},
-    {"id": "filler.zh.27", "text": "我們期待與您攜手，共創雙贏。"},
-    {"id": "filler.zh.28", "text": "每一位顧客都是我們最重要的夥伴。"},
-    {"id": "filler.zh.29", "text": "產品圖片僅供參考，實際以收到的商品為準。"},
-    {"id": "filler.zh.30", "text": "本公司不定期舉辦講座與交流活動。"},
-    {"id": "filler.zh.31", "countries": ["TW"], "text": "如需打統編，請於結帳時告知。"},
-    {"id": "filler.zh.32", "text": "施工期間造成的不便，敬請見諒。"},
-    {"id": "filler.zh.33", "text": "我們會在收到您的訊息後盡快回覆。"},
-    {"id": "filler.zh.34", "text": "歡迎追蹤我們的社群專頁，掌握最新消息。"},
-    {"id": "filler.zh.35", "text": "{city}地區訂購滿額即享免運優惠。"},
-    {"id": "filler.zh.36", "text": "本季新品陸續上架，敬請期待。"},
-    {"id": "filler.zh.37", "text": "我們的目標是成為客戶最信賴的夥伴。"},
-    {"id": "filler.zh.38", "text": "若需更改預約，請提前一天通知。"},
-    {"id": "filler.zh.39", "text": "本公司全面禁菸，敬請配合。"},
-    {"id": "filler.zh.40", "text": "所有方案皆可依需求彈性調整。"},
-    {"id": "filler.zh.41", "text": "服務流程：諮詢、評估、報價、執行、驗收。"},
-    {"id": "filler.zh.42", "text": "我們以透明的價格與專業的態度贏得口碑。"},
-    {"id": "filler.zh.43", "text": "如有特殊需求，請事先告知。"},
-    {"id": "filler.zh.44", "text": "節能減碳，從我們做起。"},
-    {"id": "filler.zh.45", "text": "售後服務是我們最重視的環節之一。"},
-    {"id": "filler.zh.46", "text": "自{date}起將實施新的收費標準，詳情請洽服務人員。"},
-    {"id": "filler.zh.47", "countries": ["HK"], "text": "如有查詢，歡迎透過WhatsApp與我們聯絡。"},
-    {"id": "filler.zh.48", "countries": ["HK"], "text": "本公司接受支票、轉數快及信用卡付款。"},
-    {"id": "filler.zh.49", "countries": ["HK"], "text": "多謝各位客戶一直以來的支持。"},
-    {"id": "filler.zh.50", "text": "產品已外銷至{n_countries}，品質深受國際肯定。"}
+    {
+      "id": "filler.zh.01",
+      "text": "我們相信，細節決定品質。"
+    },
+    {
+      "id": "filler.zh.03",
+      "text": "如有任何需求，歡迎隨時與我們聯繫。"
+    },
+    {
+      "id": "filler.zh.04",
+      "text": "本公司秉持誠信、專業、創新的經營理念。"
+    },
+    {
+      "id": "filler.zh.05",
+      "text": "客戶的滿意是我們最大的動力。"
+    },
+    {
+      "id": "filler.zh.06",
+      "text": "我們重視每一位顧客的意見與回饋。"
+    },
+    {
+      "id": "filler.zh.07",
+      "text": "所有價格以現場報價為準。"
+    },
+    {
+      "id": "filler.zh.08",
+      "text": "為維持服務品質，建議您事先預約。"
+    },
+    {
+      "id": "filler.zh.09",
+      "text": "我們持續精進技術，只為提供更好的服務。"
+    },
+    {
+      "id": "filler.zh.10",
+      "text": "歡迎企業客戶洽談長期合作。"
+    },
+    {
+      "id": "filler.zh.11",
+      "text": "每一件作品都經過嚴格的品質檢驗。"
+    },
+    {
+      "id": "filler.zh.12",
+      "text": "我們堅持使用安全、環保的材料。"
+    },
+    {
+      "id": "filler.zh.13",
+      "text": "本網站內容如有更新，恕不另行通知。"
+    },
+    {
+      "id": "filler.zh.14",
+      "text": "請於預約時間前十分鐘抵達。"
+    },
+    {
+      "id": "filler.zh.15",
+      "countries": [
+        "TW"
+      ],
+      "text": "如遇颱風等天然災害，是否營業將另行公告。"
+    },
+    {
+      "id": "filler.zh.16",
+      "text": "本公司保留修改活動內容之權利。"
+    },
+    {
+      "id": "filler.zh.17",
+      "text": "專業、效率、誠信，是我們對每位客戶的承諾。"
+    },
+    {
+      "id": "filler.zh.18",
+      "text": "團隊定期參加專業培訓，持續提升服務水準。"
+    },
+    {
+      "id": "filler.zh.19",
+      "text": "請妥善保留收據，作為退換貨憑證。"
+    },
+    {
+      "id": "filler.zh.21",
+      "text": "我們致力於打造友善、舒適的環境。"
+    },
+    {
+      "id": "filler.zh.22",
+      "text": "商品如有任何問題，請於收到後七日內與我們聯絡。"
+    },
+    {
+      "id": "filler.zh.23",
+      "countries": [
+        "TW"
+      ],
+      "text": "本公司鄰近捷運站，交通十分便利。"
+    },
+    {
+      "id": "filler.zh.24",
+      "countries": [
+        "HK"
+      ],
+      "text": "鄰近港鐵站，步行約五分鐘即達。"
+    },
+    {
+      "id": "filler.zh.25",
+      "text": "附近設有公有停車場，開車前來也很方便。"
+    },
+    {
+      "id": "filler.zh.26",
+      "text": "本活動名額有限，額滿為止。"
+    },
+    {
+      "id": "filler.zh.27",
+      "text": "我們期待與您攜手，共創雙贏。"
+    },
+    {
+      "id": "filler.zh.30",
+      "text": "本公司不定期舉辦講座與交流活動。"
+    },
+    {
+      "id": "filler.zh.31",
+      "countries": [
+        "TW"
+      ],
+      "text": "如需打統編，請於結帳時告知。"
+    },
+    {
+      "id": "filler.zh.32",
+      "text": "施工期間造成的不便，敬請見諒。"
+    },
+    {
+      "id": "filler.zh.33",
+      "text": "我們會在收到您的訊息後盡快回覆。"
+    },
+    {
+      "id": "filler.zh.34",
+      "text": "歡迎追蹤我們的社群專頁，掌握最新消息。"
+    },
+    {
+      "id": "filler.zh.35",
+      "text": "{city}地區訂購滿額即享免運優惠。"
+    },
+    {
+      "id": "filler.zh.36",
+      "text": "本季新品陸續上架，敬請期待。"
+    },
+    {
+      "id": "filler.zh.37",
+      "text": "我們的目標是成為客戶最信賴的夥伴。"
+    },
+    {
+      "id": "filler.zh.38",
+      "text": "若需更改預約，請提前一天通知。"
+    },
+    {
+      "id": "filler.zh.39",
+      "text": "本公司全面禁菸，敬請配合。"
+    },
+    {
+      "id": "filler.zh.40",
+      "text": "所有方案皆可依需求彈性調整。"
+    },
+    {
+      "id": "filler.zh.41",
+      "text": "服務流程：諮詢、評估、報價、執行、驗收。"
+    },
+    {
+      "id": "filler.zh.43",
+      "text": "如有特殊需求，請事先告知。"
+    },
+    {
+      "id": "filler.zh.44",
+      "text": "節能減碳，從我們做起。"
+    },
+    {
+      "id": "filler.zh.45",
+      "text": "售後服務是我們最重視的環節之一。"
+    },
+    {
+      "id": "filler.zh.46",
+      "text": "自{date}起將實施新的收費標準，詳情請洽服務人員。"
+    },
+    {
+      "id": "filler.zh.47",
+      "countries": [
+        "HK"
+      ],
+      "text": "如有查詢，歡迎透過WhatsApp與我們聯絡。"
+    },
+    {
+      "id": "filler.zh.48",
+      "countries": [
+        "HK"
+      ],
+      "text": "本公司接受支票、轉數快及信用卡付款。"
+    },
+    {
+      "id": "filler.zh.49",
+      "countries": [
+        "HK"
+      ],
+      "text": "多謝各位客戶一直以來的支持。"
+    },
+    {
+      "id": "filler.zh.50",
+      "text": "產品已外銷至{n_countries}，品質深受國際肯定。"
+    }
   ],
   "legal_footer": [
-    {"id": "footer.zh.01", "countries": ["TW"], "text": "{S_NAME:legal}｜{S_REG_ID}｜地址：{S_ADDRESS}｜電話：{S_PHONE}"},
-    {"id": "footer.zh.02", "countries": ["TW"], "text": "{S_NAME:legal}，資本額{CAPITAL}，{S_REG_ID}，營業地址：{S_ADDRESS}"},
-    {"id": "footer.zh.03", "countries": ["TW"], "text": "營業人名稱：{S_NAME:legal}；{S_REG_ID}；營業地址：{S_ADDRESS}"},
-    {"id": "footer.zh.04", "countries": ["TW"], "text": "{S_NAME}｜組織型態：{LEGAL_FORM}｜實收資本額：{CAPITAL}｜{S_REG_ID}｜{ACTIVITY_CODE}"},
-    {"id": "footer.zh.05", "countries": ["TW"], "text": "{S_NAME:legal}版權所有｜客服專線：{S_PHONE}｜{S_EMAIL}｜{S_URL}"},
-    {"id": "footer.zh.06", "countries": ["TW"], "text": "本單據由{S_NAME:legal}開立，{S_REG_ID}，如有疑問請洽{S_PHONE}。"},
-    {"id": "footer.zh.07", "countries": ["HK"], "text": "{S_NAME:legal}（{LEGAL_FORM}，於香港註冊）｜{S_REG_ID}"},
-    {"id": "footer.zh.08", "countries": ["HK"], "text": "{S_NAME:legal}｜地址 Address：{S_ADDRESS}｜電話 Tel：{S_PHONE}｜電郵 Email：{S_EMAIL}"},
-    {"id": "footer.zh.09", "countries": ["HK"], "text": "{S_NAME:legal}｜{S_REG_ID}｜網址 Website：{S_URL}"},
-    {"id": "footer.zh.10", "countries": ["HK"], "text": "{S_REG_ID}｜股本：{CAPITAL}｜註冊辦事處：{S_ADDRESS}"},
-    {"id": "footer.zh.11", "countries": ["HK"], "text": "©{S_NAME:legal}版權所有，不得轉載。"},
-    {"id": "footer.zh.12", "countries": ["TW", "HK"], "text": "{S_NAME:legal}｜{S_ADDRESS}｜{S_PHONE}"}
+    {
+      "id": "footer.zh.01",
+      "countries": [
+        "TW"
+      ],
+      "text": "{S_NAME:legal}｜{S_REG_ID}｜地址：{S_ADDRESS}｜電話：{S_PHONE}"
+    },
+    {
+      "id": "footer.zh.02",
+      "countries": [
+        "TW"
+      ],
+      "text": "{S_NAME:legal}，資本額{CAPITAL}，{S_REG_ID}，營業地址：{S_ADDRESS}"
+    },
+    {
+      "id": "footer.zh.03",
+      "countries": [
+        "TW"
+      ],
+      "text": "營業人名稱：{S_NAME:legal}；{S_REG_ID}；營業地址：{S_ADDRESS}"
+    },
+    {
+      "id": "footer.zh.04",
+      "countries": [
+        "TW"
+      ],
+      "text": "{S_NAME}｜組織型態：{LEGAL_FORM}｜實收資本額：{CAPITAL}｜{S_REG_ID}｜{ACTIVITY_CODE}"
+    },
+    {
+      "id": "footer.zh.05",
+      "countries": [
+        "TW"
+      ],
+      "text": "{S_NAME:legal}版權所有｜客服專線：{S_PHONE}｜{S_EMAIL}｜{S_URL}"
+    },
+    {
+      "id": "footer.zh.06",
+      "countries": [
+        "TW"
+      ],
+      "text": "本單據由{S_NAME:legal}開立，{S_REG_ID}，如有疑問請洽{S_PHONE}。"
+    },
+    {
+      "id": "footer.zh.07",
+      "countries": [
+        "HK"
+      ],
+      "text": "{S_NAME:legal}（{LEGAL_FORM}，於香港註冊）｜{S_REG_ID}"
+    },
+    {
+      "id": "footer.zh.08",
+      "countries": [
+        "HK"
+      ],
+      "text": "{S_NAME:legal}｜地址 Address：{S_ADDRESS}｜電話 Tel：{S_PHONE}｜電郵 Email：{S_EMAIL}"
+    },
+    {
+      "id": "footer.zh.09",
+      "countries": [
+        "HK"
+      ],
+      "text": "{S_NAME:legal}｜{S_REG_ID}｜網址 Website：{S_URL}"
+    },
+    {
+      "id": "footer.zh.10",
+      "countries": [
+        "HK"
+      ],
+      "text": "{S_REG_ID}｜股本：{CAPITAL}｜註冊辦事處：{S_ADDRESS}"
+    },
+    {
+      "id": "footer.zh.11",
+      "countries": [
+        "HK"
+      ],
+      "text": "©{S_NAME:legal}版權所有，不得轉載。"
+    },
+    {
+      "id": "footer.zh.12",
+      "countries": [
+        "TW",
+        "HK"
+      ],
+      "text": "{S_NAME:legal}｜{S_ADDRESS}｜{S_PHONE}"
+    }
   ],
   "invoice_notes": {
     "payment_terms": [
@@ -500,17 +2011,55 @@
     ]
   },
   "phrases": {
-    "page_x_of_y": ["第{p}頁，共{n}頁", "第{p}頁／共{n}頁", "頁次：{p}/{n}", "Page {p} of {n}"],
-    "place_date": ["{city}，{DOC_DATE}", "{DOC_DATE}於{city}", "發文日期：{DOC_DATE}；發文地點：{city}", "日期 Date：{DOC_DATE}（{city}）"],
-    "fin_amounts_note": ["單位：{currency}", "（金額單位：{currency}）", "除另有註明外，本表金額均以{currency}列示。"],
-    "fin_period": ["{date_start}至{date_end}", "自{date_start}至{date_end}止", "由{date_start}至{date_end}期間"],
-    "price_validity": ["本價目表自{date}起生效。", "以上價格適用至{date}止。", "價目有效期至{date}，如有更改，恕不另行通知。"],
-    "signature_line": ["負責人簽章：", "客戶簽收：", "授權簽署 Authorised Signature：", "經辦人：", "公司印章及簽署："],
-    "amount_in_words_intro": ["總計新臺幣（大寫）：", "合計金額（大寫）：", "金額大寫：", "港幣（大寫）：", "總計金額（中文大寫）："]
+    "page_x_of_y": [
+      "第{p}頁，共{n}頁",
+      "第{p}頁／共{n}頁",
+      "頁次：{p}/{n}",
+      "Page {p} of {n}"
+    ],
+    "place_date": [
+      "{city}，{DOC_DATE}",
+      "{DOC_DATE}於{city}",
+      "發文日期：{DOC_DATE}；發文地點：{city}",
+      "日期 Date：{DOC_DATE}（{city}）"
+    ],
+    "fin_amounts_note": [
+      "單位：{currency}",
+      "（金額單位：{currency}）",
+      "除另有註明外，本表金額均以{currency}列示。"
+    ],
+    "fin_period": [
+      "{date_start}至{date_end}",
+      "自{date_start}至{date_end}止",
+      "由{date_start}至{date_end}期間"
+    ],
+    "price_validity": [
+      "本價目表自{date}起生效。",
+      "以上價格適用至{date}止。",
+      "價目有效期至{date}，如有更改，恕不另行通知。"
+    ],
+    "signature_line": [
+      "負責人簽章：",
+      "客戶簽收：",
+      "授權簽署 Authorised Signature：",
+      "經辦人：",
+      "公司印章及簽署："
+    ],
+    "amount_in_words_intro": [
+      "總計新臺幣（大寫）：",
+      "合計金額（大寫）：",
+      "金額大寫：",
+      "港幣（大寫）：",
+      "總計金額（中文大寫）："
+    ]
   },
   "letters": {
     "payment_reminder": {
-      "subject": ["付款提醒：發票編號{invoice_no}", "關於{date}到期款項之提醒", "有關未清付款項事宜"],
+      "subject": [
+        "付款提醒：發票編號{invoice_no}",
+        "關於{date}到期款項之提醒",
+        "有關未清付款項事宜"
+      ],
       "body": [
         "本公司於{date}開立之發票（編號{invoice_no}），金額{amount}，已屆付款期限，惟截至目前尚未收到貴公司款項。",
         "敬請貴公司財務部門協助查核，並於{n_days}日內安排付款；如已付款，請忽略本通知，並將匯款資料回傳以便對帳。",
@@ -521,7 +2070,11 @@
       ]
     },
     "quote_followup": {
-      "subject": ["報價追蹤：{SERVICE}", "關於日前提供之報價", "跟進報價事宜"],
+      "subject": [
+        "報價追蹤：{SERVICE}",
+        "關於日前提供之報價",
+        "跟進報價事宜"
+      ],
       "body": [
         "感謝貴公司日前詢價，本公司已於{date}寄送{SERVICE}之報價單，不知貴公司是否已有初步決定？",
         "若報價內容有需調整之處，例如數量、規格或時程，歡迎隨時告知，我們將盡力配合。",
@@ -532,7 +2085,11 @@
       ]
     },
     "price_change": {
-      "subject": ["價格調整通知", "自{date}起調整收費標準", "有關服務收費調整事宜"],
+      "subject": [
+        "價格調整通知",
+        "自{date}起調整收費標準",
+        "有關服務收費調整事宜"
+      ],
       "body": [
         "近年來原物料及人事成本持續上漲，本公司雖極力吸收，仍不得不調整部分價格。",
         "自{date}起，本公司各項產品及服務價格將平均調漲{percent}。",
@@ -543,7 +2100,11 @@
       ]
     },
     "appointment": {
-      "subject": ["拜訪時間確認", "會議時間通知：{date}", "確認會面安排"],
+      "subject": [
+        "拜訪時間確認",
+        "會議時間通知：{date}",
+        "確認會面安排"
+      ],
       "body": [
         "感謝貴公司撥冗，謹確認雙方會議訂於{date}舉行，時間為{time}，地點為本公司會議室（{S_ADDRESS}）。",
         "屆時將由本公司{position}{person}出席，向貴公司說明{SERVICE}之細節。",
@@ -554,7 +2115,11 @@
       ]
     },
     "closure": {
-      "subject": ["休假公告", "暫停營業通知", "公司假期安排"],
+      "subject": [
+        "休假公告",
+        "暫停營業通知",
+        "公司假期安排"
+      ],
       "body": [
         "{S_NAME}將於{date_start}至{date_end}暫停營業，並於假期結束後恢復正常營業。",
         "休假期間如有緊急需求，請來信{S_EMAIL}，我們將於上班後盡速回覆。",
@@ -565,7 +2130,11 @@
       ]
     },
     "move": {
-      "subject": ["遷址通知", "公司搬遷公告", "新辦公室地址通知"],
+      "subject": [
+        "遷址通知",
+        "公司搬遷公告",
+        "新辦公室地址通知"
+      ],
       "body": [
         "為因應業務擴展，{S_NAME}自{date}起遷至新址：{S_ADDRESS}。",
         "電話號碼維持不變，仍為{S_PHONE}。",
@@ -576,7 +2145,11 @@
       ]
     },
     "new_service": {
-      "subject": ["新服務上線：{SERVICE}", "新產品推出通知", "全新服務推介"],
+      "subject": [
+        "新服務上線：{SERVICE}",
+        "新產品推出通知",
+        "全新服務推介"
+      ],
       "body": [
         "{S_NAME}很高興宣布，自{date}起正式推出{SERVICE}。",
         "此項服務可協助貴公司節省時間與成本，歡迎{C_NAME}優先體驗。",
@@ -587,7 +2160,11 @@
       ]
     },
     "thanks": {
-      "subject": ["感謝函", "感謝您一直以來的支持", "謹致謝忱"],
+      "subject": [
+        "感謝函",
+        "感謝您一直以來的支持",
+        "謹致謝忱"
+      ],
       "body": [
         "感謝{C_NAME}過去一年來對{S_NAME}的支持與信任。",
         "承蒙貴公司惠予訂單，本公司全體同仁深表感謝。",
@@ -598,7 +2175,11 @@
       ]
     },
     "order_to_supplier": {
-      "subject": ["採購訂單{order_no}", "訂購單：{order_no}", "訂貨通知"],
+      "subject": [
+        "採購訂單{order_no}",
+        "訂購單：{order_no}",
+        "訂貨通知"
+      ],
       "body": [
         "茲向貴公司訂購下列貨品，訂單編號{order_no}，數量{quantity}，品項明細詳如附件。",
         "請於{date}前送達本公司：{S_ADDRESS}。",
@@ -610,7 +2191,11 @@
       ]
     },
     "letter_to_bank": {
-      "subject": ["申請調整授信額度", "公司登記資料變更通知", "申請開立公司往來戶口"],
+      "subject": [
+        "申請調整授信額度",
+        "公司登記資料變更通知",
+        "申請開立公司往來戶口"
+      ],
       "body": [
         "本公司{S_NAME:legal}（{S_REG_ID}）長期與{bank}往來，因業務成長，擬申請調整營運週轉金額度，檢附相關財務資料，敬請惠予審核。",
         "本公司{manager_title}已變更為{S_PERSON}，檢附變更登記文件副本，敬請更新貴行留存資料。",
@@ -621,7 +2206,11 @@
       ]
     },
     "order_from_client": {
-      "subject": ["訂購確認", "採購單{order_no}", "訂單通知（{order_no}）"],
+      "subject": [
+        "訂購確認",
+        "採購單{order_no}",
+        "訂單通知（{order_no}）"
+      ],
       "body": [
         "敝公司{S_NAME}擬依貴公司{date}之報價，訂購報價單所列品項，訂單編號{order_no}。",
         "請於{date}前交貨至{S_ADDRESS}，收貨人：{person}。",
@@ -632,7 +2221,11 @@
       ]
     },
     "complaint_from_client": {
-      "subject": ["關於交貨品質問題", "服務缺失反映", "投訴：訂單{order_no}"],
+      "subject": [
+        "關於交貨品質問題",
+        "服務缺失反映",
+        "投訴：訂單{order_no}"
+      ],
       "body": [
         "敝公司於{date}收到貴公司交付之貨品（訂單編號{order_no}），經驗收發現部分品項與規格不符。",
         "此事已影響敝公司正常營運，懇請{C_NAME}於{n_days}日內派員處理，並提出改善方案。",
@@ -643,7 +2236,11 @@
       ]
     },
     "quote_request": {
-      "subject": ["詢價函", "報價邀請", "索取報價"],
+      "subject": [
+        "詢價函",
+        "報價邀請",
+        "索取報價"
+      ],
       "body": [
         "敝公司{S_NAME}因業務需要，擬委託專業廠商提供相關服務，素仰貴公司專業，特此函請報價。",
         "需求內容：數量約{quantity}，預計於{date}前完成。",
@@ -654,7 +2251,11 @@
       ]
     },
     "supplier_offer": {
-      "subject": ["產品報價與合作提案", "最新產品型錄及優惠方案", "誠邀合作"],
+      "subject": [
+        "產品報價與合作提案",
+        "最新產品型錄及優惠方案",
+        "誠邀合作"
+      ],
       "body": [
         "{S_NAME}專營{ACTIVITY}，久仰貴公司在業界的聲譽，特此來函介紹本公司產品。",
         "本公司主力產品為{SERVICE}，品質穩定，價格具競爭力。",
@@ -666,7 +2267,11 @@
       ]
     },
     "bank_notice": {
-      "subject": ["帳戶服務異動通知", "重要通知：服務收費調整", "戶口資料更新通知"],
+      "subject": [
+        "帳戶服務異動通知",
+        "重要通知：服務收費調整",
+        "戶口資料更新通知"
+      ],
       "body": [
         "{bank}謹通知貴公司，自{date}起，本行企業帳戶之跨行匯款手續費將有所調整。",
         "貴公司（{C_NAME}，{C_REG_ID}）留存於本行之登記資料已逾期，請於{date}前檢附最新資料辦理更新。",
@@ -677,7 +2282,11 @@
       ]
     },
     "loan_offer": {
-      "subject": ["企業貸款專案說明", "中小企業融資方案", "營運週轉金貸款優惠"],
+      "subject": [
+        "企業貸款專案說明",
+        "中小企業融資方案",
+        "營運週轉金貸款優惠"
+      ],
       "body": [
         "{bank}感謝{C_NAME}長期支持，特別推出中小企業營運週轉金貸款專案。",
         "本專案最高可貸{amount}，年利率低至{percent}，還款期限最長可達{n_years}。",
@@ -688,7 +2297,11 @@
       ]
     },
     "tax_reminder": {
-      "subject": ["稅款繳納提醒", "稅務申報催告通知", "報稅提示通知"],
+      "subject": [
+        "稅款繳納提醒",
+        "稅務申報催告通知",
+        "報稅提示通知"
+      ],
       "body": [
         "{other_org}查核紀錄顯示，貴公司（{C_REG_ID}）本期應申報之稅款尚未依限申報，請於{date}前辦理。",
         "逾期申報或繳納者，將依相關法規加徵滯報金或附加費。",
@@ -699,7 +2312,11 @@
       ]
     },
     "registry_notice": {
-      "subject": ["登記事項通知", "變更登記核准通知", "登記證續期通知"],
+      "subject": [
+        "登記事項通知",
+        "變更登記核准通知",
+        "登記證續期通知"
+      ],
       "body": [
         "貴公司申請之變更登記事項，業經{other_org}核准，請查照。",
         "貴公司（{C_NAME}，{C_REG_ID}）之變更登記已於{date}完成，登記資料可於網上查閱。",

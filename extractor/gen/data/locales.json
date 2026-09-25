@@ -118,7 +118,7 @@
     5000000
    ],
    "bilingual": 0.25,
-   "amount_in_words": 0.3,
+   "amount_in_words": 0.5,
    "postcode": "\\d{5}",
    "grouping": "3",
    "fiscal": null,
@@ -266,7 +266,7 @@
     3000000
    ],
    "bilingual": 0.25,
-   "amount_in_words": 0.3,
+   "amount_in_words": 0.5,
    "postcode": "",
    "grouping": "3",
    "fiscal": null,
@@ -378,7 +378,7 @@
     5000000
    ],
    "bilingual": 0.05,
-   "amount_in_words": 0.3,
+   "amount_in_words": 0.5,
    "postcode": "\\d{5}",
    "grouping": "3",
    "fiscal": null,
@@ -505,7 +505,7 @@
     1000000
    ],
    "bilingual": 0.25,
-   "amount_in_words": 0.3,
+   "amount_in_words": 0.5,
    "postcode": "\\d{5}",
    "grouping": "3",
    "fiscal": null,
@@ -630,7 +630,7 @@
     10000000
    ],
    "bilingual": 0.05,
-   "amount_in_words": 0.3,
+   "amount_in_words": 0.5,
    "postcode": "\\d{6}",
    "grouping": "3",
    "fiscal": null,
@@ -737,7 +737,7 @@
     50000000
    ],
    "bilingual": 0.05,
-   "amount_in_words": 0.3,
+   "amount_in_words": 0.5,
    "postcode": "\\d{3}(\\d{2,3})?",
    "grouping": "3",
    "fiscal": null,
@@ -1351,7 +1351,7 @@
     10000000
    ],
    "bilingual": 0.05,
-   "amount_in_words": 0.3,
+   "amount_in_words": 0.5,
    "postcode": "\\d{6}",
    "dash_cents": 0.0,
    "code": "en-IN"
@@ -1906,7 +1906,7 @@
     100000
    ],
    "bilingual": 0.05,
-   "amount_in_words": 0.3,
+   "amount_in_words": 0.5,
    "postcode": "\\d{5}",
    "currency": "EUR",
    "currency_after": [
@@ -2497,7 +2497,7 @@
     1000000
    ],
    "bilingual": 0.25,
-   "amount_in_words": 0.3,
+   "amount_in_words": 0.5,
    "postcode": "\\d{5}",
    "grouping": "3",
    "fiscal": null,
@@ -4083,7 +4083,7 @@
     10000000
    ],
    "bilingual": 0.05,
-   "amount_in_words": 0.3,
+   "amount_in_words": 0.5,
    "postcode": "\\d{6}",
    "dash_cents": 0.0,
    "code": "hi-IN"
@@ -4403,7 +4403,7 @@
     1000000000
    ],
    "bilingual": 0.05,
-   "amount_in_words": 0.3,
+   "amount_in_words": 0.5,
    "postcode": "\\d{5}",
    "grouping": "3",
    "fiscal": null,

@@ -208,22 +208,6 @@ def circular(ctx):
     return doc
 
 
-@layout("letter.E05", "letter")
-def short_note(ctx):
-    doc = ctx.doc
-    _setup(ctx)
-    subj = _subject(ctx)
-    if subj is not None:
-        doc.add(Para(subj, prose=False))
-    doc.add(Para(_date_line(ctx), prose=False))
-    for b in _body(ctx, 1):
-        doc.add(Para(b))
-    so = _signoff(ctx)
-    if so is not None:
-        doc.add(Para(so, prose=False))
-    return doc
-
-
 @layout("letter.E06", "letter")
 def letter_with_blocks(ctx):
     """Sender at the left, recipient at the right, then the letter."""

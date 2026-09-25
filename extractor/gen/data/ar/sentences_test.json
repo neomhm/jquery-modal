@@ -1,0 +1,229 @@
+{
+  "activity": [
+    {
+      "id": "activity.ar.04",
+      "text": "نوع النشاط التجاري: {ACTIVITY}"
+    },
+    {
+      "id": "activity.ar.18",
+      "text": "تزاول الشركة نشاطها في مجال {ACTIVITY} انطلاقاً من مقرها في {city}."
+    },
+    {
+      "id": "activity.ar.19",
+      "text": "نشاطنا باختصار: {ACTIVITY}."
+    }
+  ],
+  "founded": [
+    {
+      "id": "founded.ar.06",
+      "text": "تاريخ القيد في السجل التجاري: {FOUNDED:date}"
+    },
+    {
+      "id": "founded.ar.22",
+      "text": "تأسست عام {FOUNDED}"
+    },
+    {
+      "id": "founded.ar.27",
+      "text": "خطونا خطواتنا الأولى عام {FOUNDED}، ومنذ ذلك الحين نكبر بثقتكم."
+    }
+  ],
+  "staff": [
+    {
+      "id": "staff.ar.07",
+      "text": "نعتمد على فريق مؤهل قوامه {STAFF} {staff_noun} في مختلف التخصصات."
+    },
+    {
+      "id": "staff.ar.12",
+      "text": "ارتفع عدد موظفينا إلى {STAFF} {staff_noun} بعد التوسعات الأخيرة."
+    },
+    {
+      "id": "staff.ar.21",
+      "text": "عدد العمال: {STAFF}"
+    }
+  ],
+  "revenue": [
+    {
+      "id": "revenue.ar.03",
+      "text": "بلغت إيرادات الشركة {REVENUE} خلال عام {REVENUE_YEAR}."
+    },
+    {
+      "id": "revenue.ar.19",
+      "text": "إجمالي المبيعات لعام {REVENUE_YEAR} بلغ {REVENUE}."
+    },
+    {
+      "id": "revenue.ar.23",
+      "text": "حققنا العام الماضي إيرادات بقيمة {REVENUE}، وهو أعلى رقم في تاريخ الشركة."
+    }
+  ],
+  "services_intro": [
+    {
+      "id": "services_intro.ar.07",
+      "text": "اطلب الآن: {SERVICE}"
+    },
+    {
+      "id": "services_intro.ar.16",
+      "text": "يمكنكم الآن طلب {SERVICE} عبر الهاتف أو الموقع الإلكتروني."
+    },
+    {
+      "id": "services_intro.ar.22",
+      "text": "نضع بين أيديكم {SERVICE} وفق احتياجاتكم الخاصة."
+    }
+  ],
+  "clients": [
+    {
+      "id": "clients.ar.11",
+      "text": "وقّعنا مؤخراً عقد خدمات سنوياً مع {C_NAME}."
+    },
+    {
+      "id": "clients.ar.15",
+      "text": "خدمنا على مدى السنوات الماضية جهات حكومية وخاصة، من بينها {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.ar.25",
+      "text": "يشهد على جودة عملنا عملاء مثل {C_NAME_LIST}."
+    }
+  ],
+  "hours": [
+    {
+      "id": "hours.ar.08",
+      "text": "Opening hours / ساعات العمل: {HOURS}"
+    },
+    {
+      "id": "hours.ar.10",
+      "text": "نعمل {HOURS:prose} لخدمتكم."
+    },
+    {
+      "id": "hours.ar.12",
+      "text": "نرحب بزيارتكم {HOURS:prose}."
+    }
+  ],
+  "certifications": [
+    {
+      "id": "certifications.ar.08",
+      "text": "Certifications / الشهادات: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.ar.23",
+      "text": "{S_NAME} | {CERT}"
+    },
+    {
+      "id": "certifications.ar.25",
+      "text": "تتويجاً لمسيرتنا، حصلنا على {CERT}."
+    }
+  ],
+  "location": [
+    {
+      "id": "location.ar.11",
+      "text": "تابعونا على إنستغرام: {S_URL}"
+    },
+    {
+      "id": "location.ar.16",
+      "text": "العنوان الوطني: {S_ADDRESS}"
+    },
+    {
+      "id": "location.ar.17",
+      "text": "للحجز: {S_PHONE}"
+    }
+  ],
+  "capital": [
+    {
+      "id": "capital.ar.03",
+      "text": "برأس مال قدره {CAPITAL}"
+    },
+    {
+      "id": "capital.ar.10",
+      "text": "رأس المال المصدر والمدفوع: {CAPITAL}"
+    },
+    {
+      "id": "capital.ar.20",
+      "text": "بلغ رأس مال المنشأة عند التأسيس {CAPITAL}."
+    }
+  ],
+  "legal_form": [
+    {
+      "id": "legal_form.ar.06",
+      "text": "تأسست الشركة في شكل {LEGAL_FORM} وفقاً لأحكام نظام الشركات."
+    },
+    {
+      "id": "legal_form.ar.14",
+      "text": "الشكل القانوني للمقاولة: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.ar.25",
+      "text": "الشكل القانوني للمؤسسة: {LEGAL_FORM}"
+    }
+  ],
+  "traps": [
+    {
+      "id": "trap.ar.03",
+      "trap": "T1",
+      "text": "بلغ صافي ربح الشركة خلال العام الماضي {amount}."
+    },
+    {
+      "id": "trap.ar.21",
+      "trap": "T5",
+      "text": "نتعاون مع {supplier} لضمان توفر المنتجات الأصلية على مدار العام."
+    },
+    {
+      "id": "trap.ar.22",
+      "trap": "T5",
+      "text": "تم اختيارنا شريكاً معتمداً لدى {partner} للعام الثالث على التوالي."
+    },
+    {
+      "id": "trap.ar.31",
+      "trap": "T7",
+      "text": "افتتحنا فرعنا الثاني في {city} عام {year}."
+    },
+    {
+      "id": "trap.ar.37",
+      "trap": "T7",
+      "text": "أعدنا تصميم هويتنا البصرية وشعارنا عام {year}."
+    },
+    {
+      "id": "trap.ar.44",
+      "trap": "T8",
+      "text": "أنجزنا حتى اليوم {n_projects} في مختلف المناطق."
+    },
+    {
+      "id": "trap.ar.48",
+      "trap": "T8",
+      "text": "تمتلك الشركة {n_shops}، إضافة إلى أسطول من {n_vehicles}."
+    },
+    {
+      "id": "trap.ar.58",
+      "trap": "T11",
+      "text": "المسؤول عن متابعة طلبكم: {person}، {position}"
+    },
+    {
+      "id": "trap.ar.64",
+      "trap": "T13",
+      "text": "من أبرز عملائنا {C_NAME}، فيما نعتمد على {supplier} في توريد المواد."
+    }
+  ],
+  "filler": [
+    {
+      "id": "filler.ar.04",
+      "text": "نشكركم على ثقتكم الغالية ونتطلع إلى خدمتكم مجدداً."
+    },
+    {
+      "id": "filler.ar.18",
+      "text": "يُرجى مراجعة الشروط والأحكام قبل إتمام الطلب."
+    },
+    {
+      "id": "filler.ar.31",
+      "text": "أضفنا منتجات جديدة إلى المتجر هذا الأسبوع، فلا تفوتوها."
+    },
+    {
+      "id": "filler.ar.43",
+      "text": "نستقبل طلبات التوظيف عبر قسم الموارد البشرية."
+    },
+    {
+      "id": "filler.ar.45",
+      "text": "تستغرق معالجة الطلب عادةً من يومين إلى ثلاثة أيام عمل."
+    },
+    {
+      "id": "filler.ar.50",
+      "text": "نلتزم بتطبيق الإجراءات الاحترازية حفاظاً على سلامة الجميع."
+    }
+  ]
+}

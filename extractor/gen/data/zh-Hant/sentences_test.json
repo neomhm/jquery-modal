@@ -1,0 +1,249 @@
+{
+  "activity": [
+    {
+      "id": "activity.zh.02",
+      "countries": [
+        "TW"
+      ],
+      "text": "營業項目：{ACTIVITY}"
+    },
+    {
+      "id": "activity.zh.05",
+      "text": "經營項目：{ACTIVITY}"
+    },
+    {
+      "id": "activity.zh.18",
+      "text": "{S_NAME}——專業{ACTIVITY}"
+    }
+  ],
+  "founded": [
+    {
+      "id": "founded.zh.10",
+      "countries": [
+        "TW"
+      ],
+      "text": "{S_NAME}於{FOUNDED:month}開業，從此展開服務在地的旅程。"
+    },
+    {
+      "id": "founded.zh.11",
+      "text": "創立年份：{FOUNDED}"
+    },
+    {
+      "id": "founded.zh.24",
+      "text": "從{FOUNDED}的小規模經營起步，逐步發展成今日的規模。"
+    }
+  ],
+  "staff": [
+    {
+      "id": "staff.zh.08",
+      "countries": [
+        "TW"
+      ],
+      "text": "全公司正職員工{STAFF}，另有兼職人員協助。"
+    },
+    {
+      "id": "staff.zh.13",
+      "text": "目前在職員工共{STAFF}。"
+    },
+    {
+      "id": "staff.zh.21",
+      "text": "{S_NAME}的專業團隊成員共{STAFF}，隨時為您服務。"
+    }
+  ],
+  "revenue": [
+    {
+      "id": "revenue.zh.13",
+      "text": "年度營業額：{REVENUE}"
+    },
+    {
+      "id": "revenue.zh.18",
+      "countries": [
+        "TW"
+      ],
+      "text": "{REVENUE_YEAR}營業收入淨額為{REVENUE}。"
+    },
+    {
+      "id": "revenue.zh.22",
+      "text": "營業額由{REVENUE_YEAR_PREV}的{REVENUE_PREV}增至{REVENUE_YEAR}的{REVENUE}。"
+    }
+  ],
+  "services_intro": [
+    {
+      "id": "services_intro.zh.03",
+      "text": "我們提供{SERVICE_LIST}等項目。"
+    },
+    {
+      "id": "services_intro.zh.07",
+      "text": "我們的{SERVICE}深受顧客喜愛。"
+    },
+    {
+      "id": "services_intro.zh.27",
+      "text": "主要產品／服務：{SERVICE_LIST}"
+    }
+  ],
+  "clients": [
+    {
+      "id": "clients.zh.08",
+      "countries": [
+        "TW"
+      ],
+      "text": "近期完成{C_NAME}委託的專案，獲得高度肯定。"
+    },
+    {
+      "id": "clients.zh.16",
+      "text": "我們與{C_NAME}簽訂年度服務合約。"
+    },
+    {
+      "id": "clients.zh.18",
+      "text": "曾服務之客戶包括{C_NAME_LIST}。"
+    }
+  ],
+  "hours": [
+    {
+      "id": "hours.zh.05",
+      "text": "本公司營業時間為{HOURS:prose}，歡迎蒞臨。"
+    },
+    {
+      "id": "hours.zh.14",
+      "text": "營業時段：{HOURS}"
+    },
+    {
+      "id": "hours.zh.25",
+      "text": "如需協助，歡迎來電{S_PHONE}，服務時間為{HOURS:prose}。"
+    }
+  ],
+  "certifications": [
+    {
+      "id": "certifications.zh.03",
+      "countries": [
+        "HK"
+      ],
+      "text": "資格及認證 Accreditations：{CERT_LIST}"
+    },
+    {
+      "id": "certifications.zh.06",
+      "text": "相關認證：{CERT}"
+    },
+    {
+      "id": "certifications.zh.08",
+      "text": "{S_NAME}擁有{CERT_LIST}等資格與榮譽。"
+    }
+  ],
+  "location": [
+    {
+      "id": "location.zh.08",
+      "countries": [
+        "HK"
+      ],
+      "text": "電郵：{S_EMAIL}"
+    },
+    {
+      "id": "location.zh.12",
+      "countries": [
+        "HK"
+      ],
+      "text": "電話 Tel：{S_PHONE}｜電郵 Email：{S_EMAIL}"
+    },
+    {
+      "id": "location.zh.30",
+      "text": "線上預約：{S_URL}"
+    }
+  ],
+  "capital": [
+    {
+      "id": "capital.zh.01",
+      "countries": [
+        "TW"
+      ],
+      "text": "資本額：{CAPITAL}"
+    },
+    {
+      "id": "capital.zh.07",
+      "countries": [
+        "TW"
+      ],
+      "text": "{S_NAME}實收資本額為{CAPITAL}。"
+    },
+    {
+      "id": "capital.zh.19",
+      "text": "資本額{CAPITAL}，員工{STAFF}。"
+    }
+  ],
+  "legal_form": [
+    {
+      "id": "legal_form.zh.07",
+      "text": "目前以{LEGAL_FORM}形式經營。"
+    },
+    {
+      "id": "legal_form.zh.13",
+      "countries": [
+        "HK"
+      ],
+      "text": "本行以{LEGAL_FORM}方式營運。"
+    },
+    {
+      "id": "legal_form.zh.17",
+      "countries": [
+        "TW"
+      ],
+      "text": "本公司係{LEGAL_FORM}組織。"
+    }
+  ],
+  "traps": [
+    {
+      "id": "trap.zh.05",
+      "trap": "T1",
+      "text": "今年第一季營收約{amount}，表現符合預期。"
+    },
+    {
+      "id": "trap.zh.16",
+      "trap": "T5",
+      "text": "本公司為{supplier}在{city}的授權經銷商。"
+    },
+    {
+      "id": "trap.zh.29",
+      "trap": "T7",
+      "text": "本公司車隊均為{year}以後出廠的車款。"
+    },
+    {
+      "id": "trap.zh.34",
+      "trap": "T8",
+      "text": "擁有自有車隊，共{n_vehicles}，可彈性調度。"
+    },
+    {
+      "id": "trap.zh.41",
+      "trap": "T11",
+      "text": "如需報價，請洽{position}{person}。"
+    },
+    {
+      "id": "trap.zh.55",
+      "trap": "T13",
+      "text": "透過{partner}的引薦，我們開始為{C_NAME}提供服務。"
+    }
+  ],
+  "filler": [
+    {
+      "id": "filler.zh.02",
+      "text": "感謝您一直以來的支持與愛護。"
+    },
+    {
+      "id": "filler.zh.20",
+      "countries": [
+        "TW"
+      ],
+      "text": "付款方式包括現金、信用卡及銀行轉帳。"
+    },
+    {
+      "id": "filler.zh.28",
+      "text": "每一位顧客都是我們最重要的夥伴。"
+    },
+    {
+      "id": "filler.zh.29",
+      "text": "產品圖片僅供參考，實際以收到的商品為準。"
+    },
+    {
+      "id": "filler.zh.42",
+      "text": "我們以透明的價格與專業的態度贏得口碑。"
+    }
+  ]
+}

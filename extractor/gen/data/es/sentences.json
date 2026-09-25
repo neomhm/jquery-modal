@@ -1,489 +1,1842 @@
 {
   "lang": "es",
   "activity": [
-    {"id": "activity.es.01", "text": "Actividad: {ACTIVITY}"},
-    {"id": "activity.es.02", "text": "Actividad principal: {ACTIVITY}."},
-    {"id": "activity.es.03", "text": "Objeto social: {ACTIVITY}"},
-    {"id": "activity.es.04", "text": "Giro: {ACTIVITY}"},
-    {"id": "activity.es.05", "text": "Rubro: {ACTIVITY}"},
-    {"id": "activity.es.06", "text": "Sector de actividad: {ACTIVITY}"},
-    {"id": "activity.es.07", "text": "Actividad económica principal: {ACTIVITY}"},
-    {"id": "activity.es.08", "text": "Descripción de la actividad: {ACTIVITY}"},
-    {"id": "activity.es.09", "text": "{S_NAME} es una empresa especializada en {ACTIVITY}."},
-    {"id": "activity.es.10", "text": "Nuestra especialidad: {ACTIVITY}."},
-    {"id": "activity.es.11", "text": "Lo que hacemos: {ACTIVITY}, con seriedad y sin sorpresas."},
-    {"id": "activity.es.12", "text": "{S_NAME} – {ACTIVITY} – {city}"},
-    {"id": "activity.es.13", "text": "Somos un negocio familiar de {city}. Nuestro oficio: {ACTIVITY}."},
-    {"id": "activity.es.14", "text": "En {S_NAME} lo tenemos claro: {ACTIVITY}, con el mismo cuidado que el primer día."},
-    {"id": "activity.es.15", "text": "Nuestro trabajo diario: {ACTIVITY}, siempre con la máxima exigencia de calidad."},
-    {"id": "activity.es.16", "text": "Empresa de {city} especializada en {ACTIVITY}."},
-    {"id": "activity.es.17", "text": "{S_NAME}, sinónimo de {ACTIVITY} de calidad en {city}."},
-    {"id": "activity.es.18", "text": "Quiénes somos: un equipo profesional al servicio de sus clientes. Nuestra actividad: {ACTIVITY}."},
-    {"id": "activity.es.19", "text": "Área de negocio: {ACTIVITY}"},
-    {"id": "activity.es.20", "text": "Línea de negocio: {ACTIVITY}"},
-    {"id": "activity.es.21", "text": "Actividad declarada: {ACTIVITY}"},
-    {"id": "activity.es.22", "text": "Si busca {ACTIVITY} en {city}, está en el lugar adecuado."},
-    {"id": "activity.es.23", "text": "¿Necesitas {ACTIVITY}? En {S_NAME} te lo ponemos fácil."},
-    {"id": "activity.es.24", "text": "Bienvenidos a {S_NAME}: {ACTIVITY} en {city}."},
-    {"id": "activity.es.25", "text": "Tipo de negocio: {ACTIVITY}"},
-    {"id": "activity.es.26", "text": "Lo nuestro: {ACTIVITY}. Y se nota."},
-    {"id": "activity.es.27", "text": "Con sede en {city}, {S_NAME} ({ACTIVITY}) prevé ampliar sus instalaciones el próximo año."},
-    {"id": "activity.es.28", "text": "{S_NAME} · {ACTIVITY} · Presupuestos sin compromiso"},
-    {"id": "activity.es.29", "text": "Nos dedicamos a lo que mejor sabemos hacer: {ACTIVITY}."},
-    {"id": "activity.es.30", "text": "Presentación de la empresa — actividad: {ACTIVITY}; ámbito de trabajo: {city} y alrededores."}
+    {
+      "id": "activity.es.02",
+      "text": "Actividad principal: {ACTIVITY}."
+    },
+    {
+      "id": "activity.es.03",
+      "text": "Objeto social: {ACTIVITY}"
+    },
+    {
+      "id": "activity.es.05",
+      "text": "Rubro: {ACTIVITY}"
+    },
+    {
+      "id": "activity.es.06",
+      "text": "Sector de actividad: {ACTIVITY}"
+    },
+    {
+      "id": "activity.es.07",
+      "text": "Actividad económica principal: {ACTIVITY}"
+    },
+    {
+      "id": "activity.es.08",
+      "text": "Descripción de la actividad: {ACTIVITY}"
+    },
+    {
+      "id": "activity.es.09",
+      "text": "{S_NAME} es una empresa especializada en {ACTIVITY}."
+    },
+    {
+      "id": "activity.es.10",
+      "text": "Nuestra especialidad: {ACTIVITY}."
+    },
+    {
+      "id": "activity.es.11",
+      "text": "Lo que hacemos: {ACTIVITY}, con seriedad y sin sorpresas."
+    },
+    {
+      "id": "activity.es.12",
+      "text": "{S_NAME} – {ACTIVITY} – {city}"
+    },
+    {
+      "id": "activity.es.13",
+      "text": "Somos un negocio familiar de {city}. Nuestro oficio: {ACTIVITY}."
+    },
+    {
+      "id": "activity.es.14",
+      "text": "En {S_NAME} lo tenemos claro: {ACTIVITY}, con el mismo cuidado que el primer día."
+    },
+    {
+      "id": "activity.es.15",
+      "text": "Nuestro trabajo diario: {ACTIVITY}, siempre con la máxima exigencia de calidad."
+    },
+    {
+      "id": "activity.es.16",
+      "text": "Empresa de {city} especializada en {ACTIVITY}."
+    },
+    {
+      "id": "activity.es.17",
+      "text": "{S_NAME}, sinónimo de {ACTIVITY} de calidad en {city}."
+    },
+    {
+      "id": "activity.es.18",
+      "text": "Quiénes somos: un equipo profesional al servicio de sus clientes. Nuestra actividad: {ACTIVITY}."
+    },
+    {
+      "id": "activity.es.20",
+      "text": "Línea de negocio: {ACTIVITY}"
+    },
+    {
+      "id": "activity.es.21",
+      "text": "Actividad declarada: {ACTIVITY}"
+    },
+    {
+      "id": "activity.es.22",
+      "text": "Si busca {ACTIVITY} en {city}, está en el lugar adecuado."
+    },
+    {
+      "id": "activity.es.23",
+      "text": "¿Necesitas {ACTIVITY}? En {S_NAME} te lo ponemos fácil."
+    },
+    {
+      "id": "activity.es.24",
+      "text": "Bienvenidos a {S_NAME}: {ACTIVITY} en {city}."
+    },
+    {
+      "id": "activity.es.25",
+      "text": "Tipo de negocio: {ACTIVITY}"
+    },
+    {
+      "id": "activity.es.26",
+      "text": "Lo nuestro: {ACTIVITY}. Y se nota."
+    },
+    {
+      "id": "activity.es.27",
+      "text": "Con sede en {city}, {S_NAME} ({ACTIVITY}) prevé ampliar sus instalaciones el próximo año."
+    },
+    {
+      "id": "activity.es.28",
+      "text": "{S_NAME} · {ACTIVITY} · Presupuestos sin compromiso"
+    },
+    {
+      "id": "activity.es.29",
+      "text": "Nos dedicamos a lo que mejor sabemos hacer: {ACTIVITY}."
+    },
+    {
+      "id": "activity.es.30",
+      "text": "Presentación de la empresa — actividad: {ACTIVITY}; ámbito de trabajo: {city} y alrededores."
+    }
   ],
   "founded": [
-    {"id": "founded.es.01", "text": "Año de fundación: {FOUNDED}"},
-    {"id": "founded.es.02", "text": "Fundación: {FOUNDED}"},
-    {"id": "founded.es.03", "text": "Desde {FOUNDED}"},
-    {"id": "founded.es.04", "text": "Fecha de constitución: {FOUNDED:date}"},
-    {"id": "founded.es.05", "text": "Inicio de actividades: {FOUNDED:date}"},
-    {"id": "founded.es.06", "text": "Fecha de matrícula: {FOUNDED:date}"},
-    {"id": "founded.es.07", "text": "Fecha de inicio de operaciones: {FOUNDED:date}"},
-    {"id": "founded.es.08", "text": "Empresa fundada en {FOUNDED}."},
-    {"id": "founded.es.09", "text": "{S_NAME} abrió sus puertas en {city} en {FOUNDED}, como un pequeño negocio familiar."},
-    {"id": "founded.es.10", "text": "Nuestra historia comienza en {FOUNDED}, cuando abrimos nuestro primer local en {city}."},
-    {"id": "founded.es.11", "text": "La empresa fue fundada en {FOUNDED} con una idea clara: ofrecer un servicio cercano y de confianza."},
-    {"id": "founded.es.12", "text": "Desde {FOUNDED} al servicio de nuestros clientes."},
-    {"id": "founded.es.13", "text": "La sociedad se constituyó el {FOUNDED:date} ante notario en {city}."},
-    {"id": "founded.es.14", "text": "En {FOUNDED:month} dimos nuestros primeros pasos en {city}."},
-    {"id": "founded.es.15", "text": "Abrimos en {FOUNDED:month} y desde entonces no hemos dejado de crecer."},
-    {"id": "founded.es.16", "text": "Llevamos trabajando desde {FOUNDED}; la experiencia es nuestra mejor garantía."},
-    {"id": "founded.es.17", "text": "Tradición y oficio desde {FOUNDED}."},
-    {"id": "founded.es.18", "text": "Fecha de inscripción: {FOUNDED:date}"},
-    {"id": "founded.es.19", "text": "{S_NAME}, empresa familiar fundada en {FOUNDED}, es hoy un referente en su sector."},
-    {"id": "founded.es.20", "text": "Fecha de alta: {FOUNDED:date}"},
-    {"id": "founded.es.21", "text": "Fecha de inicio de actividad: {FOUNDED:date}"},
-    {"id": "founded.es.22", "text": "En activo desde {FOUNDED:month}."},
-    {"id": "founded.es.23", "text": "Todo empezó en el año {FOUNDED}, en un pequeño local de {city}."},
-    {"id": "founded.es.24", "text": "La compañía inició su actividad en {FOUNDED} y hoy trabaja en todo el país."},
-    {"id": "founded.es.25", "text": "Fecha de apertura: {FOUNDED:date}"},
-    {"id": "founded.es.26", "text": "Mediante escritura pública de fecha {FOUNDED:date} quedó constituida la sociedad."},
-    {"id": "founded.es.27", "text": "Nuestra trayectoria arranca en {FOUNDED}."},
-    {"id": "founded.es.28", "text": "{FOUNDED}: el año en que abrimos nuestras puertas."},
-    {"id": "founded.es.29", "text": "{S_NAME} · Desde {FOUNDED}"},
-    {"id": "founded.es.30", "text": "Desde el año {FOUNDED}, la empresa ha acompañado a varias generaciones de clientes en {city}."}
+    {
+      "id": "founded.es.02",
+      "text": "Fundación: {FOUNDED}"
+    },
+    {
+      "id": "founded.es.03",
+      "text": "Desde {FOUNDED}"
+    },
+    {
+      "id": "founded.es.04",
+      "text": "Fecha de constitución: {FOUNDED:date}"
+    },
+    {
+      "id": "founded.es.05",
+      "text": "Inicio de actividades: {FOUNDED:date}"
+    },
+    {
+      "id": "founded.es.06",
+      "text": "Fecha de matrícula: {FOUNDED:date}"
+    },
+    {
+      "id": "founded.es.07",
+      "text": "Fecha de inicio de operaciones: {FOUNDED:date}"
+    },
+    {
+      "id": "founded.es.08",
+      "text": "Empresa fundada en {FOUNDED}."
+    },
+    {
+      "id": "founded.es.09",
+      "text": "{S_NAME} abrió sus puertas en {city} en {FOUNDED}, como un pequeño negocio familiar."
+    },
+    {
+      "id": "founded.es.10",
+      "text": "Nuestra historia comienza en {FOUNDED}, cuando abrimos nuestro primer local en {city}."
+    },
+    {
+      "id": "founded.es.11",
+      "text": "La empresa fue fundada en {FOUNDED} con una idea clara: ofrecer un servicio cercano y de confianza."
+    },
+    {
+      "id": "founded.es.13",
+      "text": "La sociedad se constituyó el {FOUNDED:date} ante notario en {city}."
+    },
+    {
+      "id": "founded.es.14",
+      "text": "En {FOUNDED:month} dimos nuestros primeros pasos en {city}."
+    },
+    {
+      "id": "founded.es.15",
+      "text": "Abrimos en {FOUNDED:month} y desde entonces no hemos dejado de crecer."
+    },
+    {
+      "id": "founded.es.16",
+      "text": "Llevamos trabajando desde {FOUNDED}; la experiencia es nuestra mejor garantía."
+    },
+    {
+      "id": "founded.es.17",
+      "text": "Tradición y oficio desde {FOUNDED}."
+    },
+    {
+      "id": "founded.es.18",
+      "text": "Fecha de inscripción: {FOUNDED:date}"
+    },
+    {
+      "id": "founded.es.19",
+      "text": "{S_NAME}, empresa familiar fundada en {FOUNDED}, es hoy un referente en su sector."
+    },
+    {
+      "id": "founded.es.21",
+      "text": "Fecha de inicio de actividad: {FOUNDED:date}"
+    },
+    {
+      "id": "founded.es.22",
+      "text": "En activo desde {FOUNDED:month}."
+    },
+    {
+      "id": "founded.es.23",
+      "text": "Todo empezó en el año {FOUNDED}, en un pequeño local de {city}."
+    },
+    {
+      "id": "founded.es.24",
+      "text": "La compañía inició su actividad en {FOUNDED} y hoy trabaja en todo el país."
+    },
+    {
+      "id": "founded.es.25",
+      "text": "Fecha de apertura: {FOUNDED:date}"
+    },
+    {
+      "id": "founded.es.26",
+      "text": "Mediante escritura pública de fecha {FOUNDED:date} quedó constituida la sociedad."
+    },
+    {
+      "id": "founded.es.27",
+      "text": "Nuestra trayectoria arranca en {FOUNDED}."
+    },
+    {
+      "id": "founded.es.28",
+      "text": "{FOUNDED}: el año en que abrimos nuestras puertas."
+    },
+    {
+      "id": "founded.es.29",
+      "text": "{S_NAME} · Desde {FOUNDED}"
+    },
+    {
+      "id": "founded.es.30",
+      "text": "Desde el año {FOUNDED}, la empresa ha acompañado a varias generaciones de clientes en {city}."
+    }
   ],
   "staff": [
-    {"id": "staff.es.01", "text": "Plantilla: {STAFF} {staff_noun}"},
-    {"id": "staff.es.02", "text": "Número de empleados: {STAFF}"},
-    {"id": "staff.es.03", "text": "Número de trabajadores: {STAFF}"},
-    {"id": "staff.es.04", "text": "Empleados: {STAFF}"},
-    {"id": "staff.es.05", "text": "Contamos con un equipo de {STAFF} {staff_noun}."},
-    {"id": "staff.es.06", "text": "Hoy la empresa cuenta con {STAFF} {staff_noun} y da servicio en toda la provincia."},
-    {"id": "staff.es.07", "text": "Nuestra plantilla está formada por {STAFF} {staff_noun}."},
-    {"id": "staff.es.08", "text": "Con {STAFF} {staff_noun} en plantilla, {S_NAME} atiende a clientes de toda la región."},
-    {"id": "staff.es.09", "text": "Plantilla media del ejercicio: {STAFF}"},
-    {"id": "staff.es.10", "text": "Número medio de personas empleadas en el ejercicio: {STAFF}"},
-    {"id": "staff.es.11", "text": "Colaboradores: {STAFF}"},
-    {"id": "staff.es.12", "text": "El equipo humano de {S_NAME} suma {STAFF} {staff_noun}."},
-    {"id": "staff.es.13", "text": "Tamaño de la empresa: {STAFF} {staff_noun}"},
-    {"id": "staff.es.14", "text": "Detrás de cada proyecto hay un equipo de {STAFF} {staff_noun}."},
-    {"id": "staff.es.15", "text": "La empresa ocupa a {STAFF} {staff_noun}."},
-    {"id": "staff.es.16", "text": "Personal en plantilla: {STAFF}"},
-    {"id": "staff.es.17", "text": "Total de empleados: {STAFF}"},
-    {"id": "staff.es.18", "text": "El equipo, formado por {STAFF} {staff_noun}, trabaja con un objetivo común: su satisfacción."},
-    {"id": "staff.es.19", "text": "La compañía cuenta actualmente con una plantilla de {STAFF} {staff_noun}."},
-    {"id": "staff.es.20", "text": "Dotación: {STAFF} {staff_noun}"},
-    {"id": "staff.es.21", "text": "Número de colaboradores: {STAFF}"},
-    {"id": "staff.es.22", "text": "Con una plantilla de {STAFF} {staff_noun}, atendemos pedidos en todo el territorio nacional."},
-    {"id": "staff.es.23", "text": "Personal ocupado: {STAFF}"},
-    {"id": "staff.es.24", "text": "Trabajadores en plantilla: {STAFF}"},
-    {"id": "staff.es.25", "text": "Un equipo a su servicio: {STAFF} {staff_noun}."},
-    {"id": "staff.es.26", "text": "La empresa, que da trabajo a {STAFF} {staff_noun}, prevé nuevas incorporaciones este año."},
-    {"id": "staff.es.27", "text": "Datos de la empresa — plantilla: {STAFF} {staff_noun}."},
-    {"id": "staff.es.28", "text": "Número total de empleados a {date}: {STAFF}"}
+    {
+      "id": "staff.es.01",
+      "text": "Plantilla: {STAFF} {staff_noun}"
+    },
+    {
+      "id": "staff.es.02",
+      "text": "Número de empleados: {STAFF}"
+    },
+    {
+      "id": "staff.es.03",
+      "text": "Número de trabajadores: {STAFF}"
+    },
+    {
+      "id": "staff.es.04",
+      "text": "Empleados: {STAFF}"
+    },
+    {
+      "id": "staff.es.06",
+      "text": "Hoy la empresa cuenta con {STAFF} {staff_noun} y da servicio en toda la provincia."
+    },
+    {
+      "id": "staff.es.07",
+      "text": "Nuestra plantilla está formada por {STAFF} {staff_noun}."
+    },
+    {
+      "id": "staff.es.08",
+      "text": "Con {STAFF} {staff_noun} en plantilla, {S_NAME} atiende a clientes de toda la región."
+    },
+    {
+      "id": "staff.es.09",
+      "text": "Plantilla media del ejercicio: {STAFF}"
+    },
+    {
+      "id": "staff.es.10",
+      "text": "Número medio de personas empleadas en el ejercicio: {STAFF}"
+    },
+    {
+      "id": "staff.es.11",
+      "text": "Colaboradores: {STAFF}"
+    },
+    {
+      "id": "staff.es.12",
+      "text": "El equipo humano de {S_NAME} suma {STAFF} {staff_noun}."
+    },
+    {
+      "id": "staff.es.14",
+      "text": "Detrás de cada proyecto hay un equipo de {STAFF} {staff_noun}."
+    },
+    {
+      "id": "staff.es.15",
+      "text": "La empresa ocupa a {STAFF} {staff_noun}."
+    },
+    {
+      "id": "staff.es.16",
+      "text": "Personal en plantilla: {STAFF}"
+    },
+    {
+      "id": "staff.es.17",
+      "text": "Total de empleados: {STAFF}"
+    },
+    {
+      "id": "staff.es.18",
+      "text": "El equipo, formado por {STAFF} {staff_noun}, trabaja con un objetivo común: su satisfacción."
+    },
+    {
+      "id": "staff.es.19",
+      "text": "La compañía cuenta actualmente con una plantilla de {STAFF} {staff_noun}."
+    },
+    {
+      "id": "staff.es.20",
+      "text": "Dotación: {STAFF} {staff_noun}"
+    },
+    {
+      "id": "staff.es.22",
+      "text": "Con una plantilla de {STAFF} {staff_noun}, atendemos pedidos en todo el territorio nacional."
+    },
+    {
+      "id": "staff.es.23",
+      "text": "Personal ocupado: {STAFF}"
+    },
+    {
+      "id": "staff.es.24",
+      "text": "Trabajadores en plantilla: {STAFF}"
+    },
+    {
+      "id": "staff.es.25",
+      "text": "Un equipo a su servicio: {STAFF} {staff_noun}."
+    },
+    {
+      "id": "staff.es.26",
+      "text": "La empresa, que da trabajo a {STAFF} {staff_noun}, prevé nuevas incorporaciones este año."
+    },
+    {
+      "id": "staff.es.27",
+      "text": "Datos de la empresa — plantilla: {STAFF} {staff_noun}."
+    },
+    {
+      "id": "staff.es.28",
+      "text": "Número total de empleados a {date}: {STAFF}"
+    }
   ],
   "revenue": [
-    {"id": "revenue.es.01", "text": "Facturación {REVENUE_YEAR}: {REVENUE}"},
-    {"id": "revenue.es.02", "text": "Cifra de negocios: {REVENUE}"},
-    {"id": "revenue.es.03", "text": "Importe neto de la cifra de negocios ({REVENUE_YEAR}): {REVENUE}"},
-    {"id": "revenue.es.04", "text": "Ventas netas {REVENUE_YEAR}: {REVENUE}"},
-    {"id": "revenue.es.05", "text": "Ingresos operacionales {REVENUE_YEAR}: {REVENUE}"},
-    {"id": "revenue.es.06", "text": "Ventas anuales: {REVENUE}"},
-    {"id": "revenue.es.07", "text": "Volumen de negocio: {REVENUE}"},
-    {"id": "revenue.es.08", "text": "En {REVENUE_YEAR}, la empresa facturó {REVENUE}."},
-    {"id": "revenue.es.09", "text": "El ejercicio {REVENUE_YEAR} se cerró con una facturación de {REVENUE}."},
-    {"id": "revenue.es.10", "text": "La cifra de negocios pasó de {REVENUE_PREV} en {REVENUE_YEAR_PREV} a {REVENUE} en {REVENUE_YEAR}."},
-    {"id": "revenue.es.11", "text": "Facturamos {REVENUE} en {REVENUE_YEAR}, lo que confirma el crecimiento sostenido de los últimos años."},
-    {"id": "revenue.es.12", "text": "{S_NAME} alcanzó en {REVENUE_YEAR} una facturación de {REVENUE}."},
-    {"id": "revenue.es.13", "text": "Con una facturación anual de {REVENUE}, {S_NAME} consolida su posición en el mercado."},
-    {"id": "revenue.es.14", "text": "Ingresos por ventas del ejercicio: {REVENUE}"},
-    {"id": "revenue.es.15", "text": "Facturación anual: {REVENUE}"},
-    {"id": "revenue.es.16", "text": "Cifra de ventas ({REVENUE_YEAR}): {REVENUE}"},
-    {"id": "revenue.es.17", "text": "Las ventas de {REVENUE_YEAR} ascendieron a {REVENUE}, frente a {REVENUE_PREV} del ejercicio anterior."},
-    {"id": "revenue.es.18", "text": "Ingresos {REVENUE_YEAR}: {REVENUE} ({REVENUE_YEAR_PREV}: {REVENUE_PREV})"},
-    {"id": "revenue.es.19", "text": "La facturación del último ejercicio se situó en {REVENUE}."},
-    {"id": "revenue.es.20", "text": "Volumen de ventas en {REVENUE_YEAR}: {REVENUE}"},
-    {"id": "revenue.es.21", "text": "Ingresos de actividades ordinarias: {REVENUE}"},
-    {"id": "revenue.es.22", "text": "Durante {REVENUE_YEAR}, los ingresos de la compañía alcanzaron {REVENUE}."},
-    {"id": "revenue.es.23", "text": "Cerramos {REVENUE_YEAR} con {REVENUE} de facturación."},
-    {"id": "revenue.es.24", "text": "Datos económicos — facturación: {REVENUE} (ejercicio {REVENUE_YEAR})"},
-    {"id": "revenue.es.25", "text": "Ventas totales del año {REVENUE_YEAR}: {REVENUE}"},
-    {"id": "revenue.es.26", "text": "Resultados {REVENUE_YEAR}: cifra de negocios de {REVENUE}."},
-    {"id": "revenue.es.27", "text": "Monto de ventas {REVENUE_YEAR}: {REVENUE}"},
-    {"id": "revenue.es.28", "text": "{REVENUE} de facturación en {REVENUE_YEAR}: un nuevo récord para la empresa."}
+    {
+      "id": "revenue.es.01",
+      "text": "Facturación {REVENUE_YEAR}: {REVENUE}"
+    },
+    {
+      "id": "revenue.es.02",
+      "text": "Cifra de negocios: {REVENUE}"
+    },
+    {
+      "id": "revenue.es.03",
+      "text": "Importe neto de la cifra de negocios ({REVENUE_YEAR}): {REVENUE}"
+    },
+    {
+      "id": "revenue.es.05",
+      "text": "Ingresos operacionales {REVENUE_YEAR}: {REVENUE}"
+    },
+    {
+      "id": "revenue.es.06",
+      "text": "Ventas anuales: {REVENUE}"
+    },
+    {
+      "id": "revenue.es.07",
+      "text": "Volumen de negocio: {REVENUE}"
+    },
+    {
+      "id": "revenue.es.08",
+      "text": "En {REVENUE_YEAR}, la empresa facturó {REVENUE}."
+    },
+    {
+      "id": "revenue.es.09",
+      "text": "El ejercicio {REVENUE_YEAR} se cerró con una facturación de {REVENUE}."
+    },
+    {
+      "id": "revenue.es.10",
+      "text": "La cifra de negocios pasó de {REVENUE_PREV} en {REVENUE_YEAR_PREV} a {REVENUE} en {REVENUE_YEAR}."
+    },
+    {
+      "id": "revenue.es.11",
+      "text": "Facturamos {REVENUE} en {REVENUE_YEAR}, lo que confirma el crecimiento sostenido de los últimos años."
+    },
+    {
+      "id": "revenue.es.12",
+      "text": "{S_NAME} alcanzó en {REVENUE_YEAR} una facturación de {REVENUE}."
+    },
+    {
+      "id": "revenue.es.13",
+      "text": "Con una facturación anual de {REVENUE}, {S_NAME} consolida su posición en el mercado."
+    },
+    {
+      "id": "revenue.es.14",
+      "text": "Ingresos por ventas del ejercicio: {REVENUE}"
+    },
+    {
+      "id": "revenue.es.15",
+      "text": "Facturación anual: {REVENUE}"
+    },
+    {
+      "id": "revenue.es.17",
+      "text": "Las ventas de {REVENUE_YEAR} ascendieron a {REVENUE}, frente a {REVENUE_PREV} del ejercicio anterior."
+    },
+    {
+      "id": "revenue.es.18",
+      "text": "Ingresos {REVENUE_YEAR}: {REVENUE} ({REVENUE_YEAR_PREV}: {REVENUE_PREV})"
+    },
+    {
+      "id": "revenue.es.19",
+      "text": "La facturación del último ejercicio se situó en {REVENUE}."
+    },
+    {
+      "id": "revenue.es.20",
+      "text": "Volumen de ventas en {REVENUE_YEAR}: {REVENUE}"
+    },
+    {
+      "id": "revenue.es.21",
+      "text": "Ingresos de actividades ordinarias: {REVENUE}"
+    },
+    {
+      "id": "revenue.es.22",
+      "text": "Durante {REVENUE_YEAR}, los ingresos de la compañía alcanzaron {REVENUE}."
+    },
+    {
+      "id": "revenue.es.23",
+      "text": "Cerramos {REVENUE_YEAR} con {REVENUE} de facturación."
+    },
+    {
+      "id": "revenue.es.24",
+      "text": "Datos económicos — facturación: {REVENUE} (ejercicio {REVENUE_YEAR})"
+    },
+    {
+      "id": "revenue.es.25",
+      "text": "Ventas totales del año {REVENUE_YEAR}: {REVENUE}"
+    },
+    {
+      "id": "revenue.es.26",
+      "text": "Resultados {REVENUE_YEAR}: cifra de negocios de {REVENUE}."
+    },
+    {
+      "id": "revenue.es.28",
+      "text": "{REVENUE} de facturación en {REVENUE_YEAR}: un nuevo récord para la empresa."
+    }
   ],
   "services_intro": [
-    {"id": "services_intro.es.01", "text": "Nuestros servicios: {SERVICE_LIST}."},
-    {"id": "services_intro.es.02", "text": "Ofrecemos {SERVICE_LIST}."},
-    {"id": "services_intro.es.03", "text": "Servicios: {SERVICE_LIST}"},
-    {"id": "services_intro.es.04", "text": "Entre nuestros servicios destacan {SERVICE_LIST}."},
-    {"id": "services_intro.es.05", "text": "Qué ofrecemos: {SERVICE_LIST}."},
-    {"id": "services_intro.es.06", "text": "Le ofrecemos, entre otros, {SERVICE_LIST}."},
-    {"id": "services_intro.es.07", "text": "Servicio destacado: {SERVICE}"},
-    {"id": "services_intro.es.08", "text": "Novedad: {SERVICE}"},
-    {"id": "services_intro.es.09", "text": "Nuestro producto estrella: {SERVICE}."},
-    {"id": "services_intro.es.10", "text": "Catálogo: {SERVICE_LIST} y mucho más."},
-    {"id": "services_intro.es.11", "text": "Además, ponemos a su disposición {SERVICE}."},
-    {"id": "services_intro.es.12", "text": "Productos y servicios: {SERVICE_LIST}"},
-    {"id": "services_intro.es.13", "text": "En {S_NAME} encontrará {SERVICE_LIST}."},
-    {"id": "services_intro.es.14", "text": "Para particulares y empresas: {SERVICE_LIST}."},
-    {"id": "services_intro.es.15", "text": "¿Necesita {SERVICE}? Pídanos presupuesto sin compromiso."},
-    {"id": "services_intro.es.16", "text": "Lo más pedido: {SERVICE}"},
-    {"id": "services_intro.es.17", "text": "Te ofrecemos {SERVICE_LIST} con la mejor relación calidad-precio."},
-    {"id": "services_intro.es.18", "text": "Especialidad de la casa: {SERVICE}"},
-    {"id": "services_intro.es.19", "text": "Servicios profesionales: {SERVICE_LIST}, todos con garantía."},
-    {"id": "services_intro.es.20", "text": "Incluimos en nuestra oferta {SERVICE_LIST}."},
-    {"id": "services_intro.es.21", "text": "Brindamos {SERVICE_LIST} a empresas de toda la región."},
-    {"id": "services_intro.es.22", "text": "Nuestra oferta abarca {SERVICE_LIST}."},
-    {"id": "services_intro.es.23", "text": "Recomendado del mes: {SERVICE}."},
-    {"id": "services_intro.es.24", "text": "Disponible bajo pedido: {SERVICE}."},
-    {"id": "services_intro.es.25", "text": "Lo que más nos piden nuestros clientes: {SERVICE_LIST}."},
-    {"id": "services_intro.es.26", "text": "Y además: {SERVICE_LIST}."},
-    {"id": "services_intro.es.27", "text": "{SERVICE_LIST}: todo lo que necesita, en un solo lugar."},
-    {"id": "services_intro.es.28", "text": "Consultá por {SERVICE} y el resto de nuestras propuestas."}
+    {
+      "id": "services_intro.es.01",
+      "text": "Nuestros servicios: {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.es.02",
+      "text": "Ofrecemos {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.es.03",
+      "text": "Servicios: {SERVICE_LIST}"
+    },
+    {
+      "id": "services_intro.es.04",
+      "text": "Entre nuestros servicios destacan {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.es.05",
+      "text": "Qué ofrecemos: {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.es.06",
+      "text": "Le ofrecemos, entre otros, {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.es.07",
+      "text": "Servicio destacado: {SERVICE}"
+    },
+    {
+      "id": "services_intro.es.08",
+      "text": "Novedad: {SERVICE}"
+    },
+    {
+      "id": "services_intro.es.09",
+      "text": "Nuestro producto estrella: {SERVICE}."
+    },
+    {
+      "id": "services_intro.es.11",
+      "text": "Además, ponemos a su disposición {SERVICE}."
+    },
+    {
+      "id": "services_intro.es.12",
+      "text": "Productos y servicios: {SERVICE_LIST}"
+    },
+    {
+      "id": "services_intro.es.13",
+      "text": "En {S_NAME} encontrará {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.es.14",
+      "text": "Para particulares y empresas: {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.es.15",
+      "text": "¿Necesita {SERVICE}? Pídanos presupuesto sin compromiso."
+    },
+    {
+      "id": "services_intro.es.16",
+      "text": "Lo más pedido: {SERVICE}"
+    },
+    {
+      "id": "services_intro.es.17",
+      "text": "Te ofrecemos {SERVICE_LIST} con la mejor relación calidad-precio."
+    },
+    {
+      "id": "services_intro.es.18",
+      "text": "Especialidad de la casa: {SERVICE}"
+    },
+    {
+      "id": "services_intro.es.19",
+      "text": "Servicios profesionales: {SERVICE_LIST}, todos con garantía."
+    },
+    {
+      "id": "services_intro.es.20",
+      "text": "Incluimos en nuestra oferta {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.es.21",
+      "text": "Brindamos {SERVICE_LIST} a empresas de toda la región."
+    },
+    {
+      "id": "services_intro.es.22",
+      "text": "Nuestra oferta abarca {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.es.23",
+      "text": "Recomendado del mes: {SERVICE}."
+    },
+    {
+      "id": "services_intro.es.24",
+      "text": "Disponible bajo pedido: {SERVICE}."
+    },
+    {
+      "id": "services_intro.es.26",
+      "text": "Y además: {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.es.28",
+      "text": "Consultá por {SERVICE} y el resto de nuestras propuestas."
+    }
   ],
   "clients": [
-    {"id": "clients.es.01", "text": "Entre nuestros clientes: {C_NAME_LIST}."},
-    {"id": "clients.es.02", "text": "Confían en nosotros: {C_NAME_LIST}."},
-    {"id": "clients.es.03", "text": "Algunos de nuestros clientes: {C_NAME_LIST}"},
-    {"id": "clients.es.04", "text": "Referencias: {C_NAME_LIST}"},
-    {"id": "clients.es.05", "text": "Clientes de referencia: {C_NAME_LIST}"},
-    {"id": "clients.es.06", "text": "Hemos trabajado para {C_NAME_LIST}, entre otros."},
-    {"id": "clients.es.07", "text": "Empresas como {C_NAME_LIST} ya confían en {S_NAME}."},
-    {"id": "clients.es.08", "text": "Nuestra cartera de clientes incluye a {C_NAME_LIST}."},
-    {"id": "clients.es.09", "text": "Prestamos servicio a {C_NAME_LIST}."},
-    {"id": "clients.es.10", "text": "Caso de éxito: {C_NAME}"},
-    {"id": "clients.es.11", "text": "{C_NAME} es cliente nuestro desde hace más de diez años."},
-    {"id": "clients.es.12", "text": "Proyecto destacado para {C_NAME}."},
-    {"id": "clients.es.13", "text": "Cliente: {C_NAME}"},
-    {"id": "clients.es.14", "text": "Clientes que ya confían en nosotros: {C_NAME_LIST}"},
-    {"id": "clients.es.15", "text": "Atendemos a organizaciones como {C_NAME_LIST}."},
-    {"id": "clients.es.16", "text": "Nuestros principales clientes son {C_NAME_LIST}."},
-    {"id": "clients.es.17", "text": "Gracias a {C_NAME_LIST} por su confianza."},
-    {"id": "clients.es.18", "text": "Nos eligieron: {C_NAME_LIST}"},
-    {"id": "clients.es.19", "text": "Trabajamos cada día para {C_NAME_LIST}."},
-    {"id": "clients.es.20", "text": "Entre las empresas que nos han confiado sus proyectos figuran {C_NAME_LIST}."},
-    {"id": "clients.es.21", "text": "Para {C_NAME} desarrollamos una solución a medida, adaptada a sus necesidades."},
-    {"id": "clients.es.22", "text": "Algunos clientes satisfechos: {C_NAME_LIST}"},
-    {"id": "clients.es.23", "text": "Suministramos regularmente a {C_NAME_LIST}."},
-    {"id": "clients.es.24", "text": "Nuestros clientes: {C_NAME_LIST} y muchos más."},
-    {"id": "clients.es.25", "text": "{C_NAME} y {C_NAME} figuran entre nuestros clientes más fieles."},
-    {"id": "clients.es.26", "text": "Contamos con la confianza de {C_NAME_LIST}."},
-    {"id": "clients.es.27", "text": "Referencias recientes: {C_NAME} ({city}) y {C_NAME}."},
-    {"id": "clients.es.28", "text": "{C_NAME_LIST} confían en nuestro trabajo."}
+    {
+      "id": "clients.es.01",
+      "text": "Entre nuestros clientes: {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.es.02",
+      "text": "Confían en nosotros: {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.es.03",
+      "text": "Algunos de nuestros clientes: {C_NAME_LIST}"
+    },
+    {
+      "id": "clients.es.04",
+      "text": "Referencias: {C_NAME_LIST}"
+    },
+    {
+      "id": "clients.es.05",
+      "text": "Clientes de referencia: {C_NAME_LIST}"
+    },
+    {
+      "id": "clients.es.06",
+      "text": "Hemos trabajado para {C_NAME_LIST}, entre otros."
+    },
+    {
+      "id": "clients.es.07",
+      "text": "Empresas como {C_NAME_LIST} ya confían en {S_NAME}."
+    },
+    {
+      "id": "clients.es.08",
+      "text": "Nuestra cartera de clientes incluye a {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.es.10",
+      "text": "Caso de éxito: {C_NAME}"
+    },
+    {
+      "id": "clients.es.12",
+      "text": "Proyecto destacado para {C_NAME}."
+    },
+    {
+      "id": "clients.es.13",
+      "text": "Cliente: {C_NAME}"
+    },
+    {
+      "id": "clients.es.14",
+      "text": "Clientes que ya confían en nosotros: {C_NAME_LIST}"
+    },
+    {
+      "id": "clients.es.15",
+      "text": "Atendemos a organizaciones como {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.es.16",
+      "text": "Nuestros principales clientes son {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.es.17",
+      "text": "Gracias a {C_NAME_LIST} por su confianza."
+    },
+    {
+      "id": "clients.es.18",
+      "text": "Nos eligieron: {C_NAME_LIST}"
+    },
+    {
+      "id": "clients.es.19",
+      "text": "Trabajamos cada día para {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.es.20",
+      "text": "Entre las empresas que nos han confiado sus proyectos figuran {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.es.21",
+      "text": "Para {C_NAME} desarrollamos una solución a medida, adaptada a sus necesidades."
+    },
+    {
+      "id": "clients.es.22",
+      "text": "Algunos clientes satisfechos: {C_NAME_LIST}"
+    },
+    {
+      "id": "clients.es.23",
+      "text": "Suministramos regularmente a {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.es.25",
+      "text": "{C_NAME} y {C_NAME} figuran entre nuestros clientes más fieles."
+    },
+    {
+      "id": "clients.es.26",
+      "text": "Contamos con la confianza de {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.es.27",
+      "text": "Referencias recientes: {C_NAME} ({city}) y {C_NAME}."
+    },
+    {
+      "id": "clients.es.28",
+      "text": "{C_NAME_LIST} confían en nuestro trabajo."
+    }
   ],
   "hours": [
-    {"id": "hours.es.01", "text": "Horario: {HOURS}"},
-    {"id": "hours.es.02", "text": "Horario de atención: {HOURS}"},
-    {"id": "hours.es.03", "text": "Horario de atención al público: {HOURS}"},
-    {"id": "hours.es.04", "text": "Horario comercial: {HOURS}"},
-    {"id": "hours.es.05", "text": "Abrimos {HOURS:prose}."},
-    {"id": "hours.es.06", "text": "Te esperamos {HOURS:prose}."},
-    {"id": "hours.es.07", "text": "Nuestro horario: {HOURS}"},
-    {"id": "hours.es.08", "text": "Estamos abiertos {HOURS:prose}."},
-    {"id": "hours.es.09", "text": "Le atendemos {HOURS:prose}."},
-    {"id": "hours.es.10", "text": "Horario de oficina: {HOURS}"},
-    {"id": "hours.es.11", "text": "Horario de tienda: {HOURS}"},
-    {"id": "hours.es.12", "text": "Atención telefónica {HOURS:prose}."},
-    {"id": "hours.es.13", "text": "Puede visitarnos {HOURS:prose} en {S_ADDRESS}."},
-    {"id": "hours.es.14", "text": "Horarios: {HOURS}"},
-    {"id": "hours.es.15", "text": "Días y horarios de atención: {HOURS}"},
-    {"id": "hours.es.16", "text": "Abierto {HOURS:prose}"},
-    {"id": "hours.es.17", "text": "Horario de apertura: {HOURS}"},
-    {"id": "hours.es.18", "text": "El local permanece abierto {HOURS:prose}."},
-    {"id": "hours.es.19", "text": "Atendemos {HOURS:prose}; fuera de ese horario, puede dejarnos un mensaje."},
-    {"id": "hours.es.20", "text": "Horario de atención a clientes: {HOURS}"},
-    {"id": "hours.es.21", "text": "Nos encontrará {HOURS:prose} en nuestro local de {city}."},
-    {"id": "hours.es.22", "text": "Visítanos {HOURS:prose}."},
-    {"id": "hours.es.23", "text": "Horario de recepción: {HOURS}"},
-    {"id": "hours.es.24", "text": "Horario de atención presencial: {HOURS}"},
-    {"id": "hours.es.25", "text": "Horas de apertura: {HOURS}"},
-    {"id": "hours.es.26", "text": "Estamos a su disposición {HOURS:prose}."},
-    {"id": "hours.es.27", "text": "Servicio de atención al cliente: {HOURS}"},
-    {"id": "hours.es.28", "text": "{HOURS} · Tel. {S_PHONE}"}
+    {
+      "id": "hours.es.02",
+      "text": "Horario de atención: {HOURS}"
+    },
+    {
+      "id": "hours.es.03",
+      "text": "Horario de atención al público: {HOURS}"
+    },
+    {
+      "id": "hours.es.04",
+      "text": "Horario comercial: {HOURS}"
+    },
+    {
+      "id": "hours.es.05",
+      "text": "Abrimos {HOURS:prose}."
+    },
+    {
+      "id": "hours.es.07",
+      "text": "Nuestro horario: {HOURS}"
+    },
+    {
+      "id": "hours.es.08",
+      "text": "Estamos abiertos {HOURS:prose}."
+    },
+    {
+      "id": "hours.es.09",
+      "text": "Le atendemos {HOURS:prose}."
+    },
+    {
+      "id": "hours.es.10",
+      "text": "Horario de oficina: {HOURS}"
+    },
+    {
+      "id": "hours.es.11",
+      "text": "Horario de tienda: {HOURS}"
+    },
+    {
+      "id": "hours.es.12",
+      "text": "Atención telefónica {HOURS:prose}."
+    },
+    {
+      "id": "hours.es.13",
+      "text": "Puede visitarnos {HOURS:prose} en {S_ADDRESS}."
+    },
+    {
+      "id": "hours.es.14",
+      "text": "Horarios: {HOURS}"
+    },
+    {
+      "id": "hours.es.15",
+      "text": "Días y horarios de atención: {HOURS}"
+    },
+    {
+      "id": "hours.es.16",
+      "text": "Abierto {HOURS:prose}"
+    },
+    {
+      "id": "hours.es.18",
+      "text": "El local permanece abierto {HOURS:prose}."
+    },
+    {
+      "id": "hours.es.19",
+      "text": "Atendemos {HOURS:prose}; fuera de ese horario, puede dejarnos un mensaje."
+    },
+    {
+      "id": "hours.es.20",
+      "text": "Horario de atención a clientes: {HOURS}"
+    },
+    {
+      "id": "hours.es.21",
+      "text": "Nos encontrará {HOURS:prose} en nuestro local de {city}."
+    },
+    {
+      "id": "hours.es.22",
+      "text": "Visítanos {HOURS:prose}."
+    },
+    {
+      "id": "hours.es.23",
+      "text": "Horario de recepción: {HOURS}"
+    },
+    {
+      "id": "hours.es.24",
+      "text": "Horario de atención presencial: {HOURS}"
+    },
+    {
+      "id": "hours.es.25",
+      "text": "Horas de apertura: {HOURS}"
+    },
+    {
+      "id": "hours.es.26",
+      "text": "Estamos a su disposición {HOURS:prose}."
+    },
+    {
+      "id": "hours.es.27",
+      "text": "Servicio de atención al cliente: {HOURS}"
+    },
+    {
+      "id": "hours.es.28",
+      "text": "{HOURS} · Tel. {S_PHONE}"
+    }
   ],
   "certifications": [
-    {"id": "certifications.es.01", "text": "Certificaciones: {CERT_LIST}"},
-    {"id": "certifications.es.02", "text": "Acreditaciones: {CERT_LIST}"},
-    {"id": "certifications.es.03", "text": "Sellos de calidad: {CERT_LIST}"},
-    {"id": "certifications.es.04", "text": "Calidad certificada: {CERT_LIST}."},
-    {"id": "certifications.es.05", "text": "Distinciones: {CERT_LIST}"},
-    {"id": "certifications.es.06", "text": "Nuestra empresa cuenta con las siguientes certificaciones: {CERT_LIST}."},
-    {"id": "certifications.es.07", "text": "Certificados y reconocimientos: {CERT_LIST}"},
-    {"id": "certifications.es.08", "text": "{CERT}: una garantía de calidad para nuestros clientes."},
-    {"id": "certifications.es.09", "text": "Disponemos de: {CERT_LIST}."},
-    {"id": "certifications.es.10", "text": "Nuestro sello de garantía: {CERT}."},
-    {"id": "certifications.es.11", "text": "Avalados por {CERT_LIST}."},
-    {"id": "certifications.es.12", "text": "Nuestro compromiso con la calidad está reconocido por {CERT_LIST}."},
-    {"id": "certifications.es.13", "text": "Reconocimientos obtenidos: {CERT_LIST}"},
-    {"id": "certifications.es.14", "text": "{S_NAME} ha obtenido las siguientes acreditaciones: {CERT_LIST}."},
-    {"id": "certifications.es.15", "text": "Sello destacado: {CERT}"},
-    {"id": "certifications.es.16", "text": "Normas y sellos: {CERT_LIST}"},
-    {"id": "certifications.es.17", "text": "Sellos y distintivos: {CERT_LIST}"},
-    {"id": "certifications.es.18", "text": "Garantía de calidad: {CERT_LIST}"},
-    {"id": "certifications.es.19", "text": "Premios y certificaciones: {CERT_LIST}"},
-    {"id": "certifications.es.20", "text": "Reconocimiento: {CERT}"},
-    {"id": "certifications.es.21", "text": "Orgullosos de contar con {CERT_LIST}."},
-    {"id": "certifications.es.22", "text": "Distintivos de calidad: {CERT_LIST}"},
-    {"id": "certifications.es.23", "text": "Certificados: {CERT_LIST}"},
-    {"id": "certifications.es.24", "text": "Nuestra calidad, avalada por {CERT_LIST}."},
-    {"id": "certifications.es.25", "text": "Membresías y certificaciones: {CERT_LIST}"},
-    {"id": "certifications.es.26", "text": "Estándares y certificaciones: {CERT_LIST}"},
-    {"id": "certifications.es.27", "text": "Calidad reconocida: {CERT}."},
-    {"id": "certifications.es.28", "text": "Trabajamos con los más altos estándares: {CERT_LIST}."}
+    {
+      "id": "certifications.es.01",
+      "text": "Certificaciones: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.es.02",
+      "text": "Acreditaciones: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.es.03",
+      "text": "Sellos de calidad: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.es.04",
+      "text": "Calidad certificada: {CERT_LIST}."
+    },
+    {
+      "id": "certifications.es.06",
+      "text": "Nuestra empresa cuenta con las siguientes certificaciones: {CERT_LIST}."
+    },
+    {
+      "id": "certifications.es.07",
+      "text": "Certificados y reconocimientos: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.es.08",
+      "text": "{CERT}: una garantía de calidad para nuestros clientes."
+    },
+    {
+      "id": "certifications.es.09",
+      "text": "Disponemos de: {CERT_LIST}."
+    },
+    {
+      "id": "certifications.es.10",
+      "text": "Nuestro sello de garantía: {CERT}."
+    },
+    {
+      "id": "certifications.es.11",
+      "text": "Avalados por {CERT_LIST}."
+    },
+    {
+      "id": "certifications.es.12",
+      "text": "Nuestro compromiso con la calidad está reconocido por {CERT_LIST}."
+    },
+    {
+      "id": "certifications.es.13",
+      "text": "Reconocimientos obtenidos: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.es.14",
+      "text": "{S_NAME} ha obtenido las siguientes acreditaciones: {CERT_LIST}."
+    },
+    {
+      "id": "certifications.es.15",
+      "text": "Sello destacado: {CERT}"
+    },
+    {
+      "id": "certifications.es.16",
+      "text": "Normas y sellos: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.es.17",
+      "text": "Sellos y distintivos: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.es.19",
+      "text": "Premios y certificaciones: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.es.20",
+      "text": "Reconocimiento: {CERT}"
+    },
+    {
+      "id": "certifications.es.21",
+      "text": "Orgullosos de contar con {CERT_LIST}."
+    },
+    {
+      "id": "certifications.es.22",
+      "text": "Distintivos de calidad: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.es.24",
+      "text": "Nuestra calidad, avalada por {CERT_LIST}."
+    },
+    {
+      "id": "certifications.es.25",
+      "text": "Membresías y certificaciones: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.es.26",
+      "text": "Estándares y certificaciones: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.es.27",
+      "text": "Calidad reconocida: {CERT}."
+    },
+    {
+      "id": "certifications.es.28",
+      "text": "Trabajamos con los más altos estándares: {CERT_LIST}."
+    }
   ],
   "location": [
-    {"id": "location.es.01", "text": "Dirección: {S_ADDRESS}"},
-    {"id": "location.es.02", "text": "Tel.: {S_PHONE}"},
-    {"id": "location.es.03", "text": "Correo electrónico: {S_EMAIL}"},
-    {"id": "location.es.04", "text": "Web: {S_URL}"},
-    {"id": "location.es.05", "text": "Domicilio social: {S_ADDRESS}"},
-    {"id": "location.es.06", "text": "Domicilio fiscal: {S_ADDRESS}"},
-    {"id": "location.es.07", "text": "Casa matriz: {S_ADDRESS}"},
-    {"id": "location.es.08", "text": "Estamos en {S_ADDRESS}."},
-    {"id": "location.es.09", "text": "Encuéntranos en {S_ADDRESS}."},
-    {"id": "location.es.10", "text": "Visítenos en nuestras oficinas: {S_ADDRESS}."},
-    {"id": "location.es.11", "text": "Llámenos al {S_PHONE}."},
-    {"id": "location.es.12", "text": "Teléfono: {S_PHONE} · Email: {S_EMAIL}"},
-    {"id": "location.es.13", "text": "Más información en {S_URL}."},
-    {"id": "location.es.14", "text": "Escríbanos a {S_EMAIL} y le responderemos en menos de 24 horas."},
-    {"id": "location.es.15", "text": "WhatsApp: {S_PHONE}"},
-    {"id": "location.es.16", "text": "Cel.: {S_PHONE}"},
-    {"id": "location.es.17", "text": "Móvil: {S_PHONE}"},
-    {"id": "location.es.18", "text": "Atención al cliente: {S_PHONE}"},
-    {"id": "location.es.19", "text": "Pedidos y consultas: {S_EMAIL}"},
-    {"id": "location.es.20", "text": "Oficina central: {S_ADDRESS} · Tel. {S_PHONE}"},
-    {"id": "location.es.21", "text": "Sede principal: {S_ADDRESS}"},
-    {"id": "location.es.22", "text": "Consulte nuestro catálogo completo en {S_URL}."},
-    {"id": "location.es.23", "text": "Para más información, llame al {S_PHONE} o escriba a {S_EMAIL}."},
-    {"id": "location.es.24", "text": "Síguenos: {S_URL}"},
-    {"id": "location.es.25", "text": "Contacto: {S_EMAIL} | {S_PHONE}"},
-    {"id": "location.es.26", "text": "Nos encontrará en {S_ADDRESS}, con fácil aparcamiento para clientes."},
-    {"id": "location.es.27", "text": "Escribinos a {S_EMAIL}."},
-    {"id": "location.es.28", "text": "Dirección comercial: {S_ADDRESS}"},
-    {"id": "location.es.29", "text": "{S_ADDRESS} · Tel. {S_PHONE} · {S_URL}"},
-    {"id": "location.es.30", "text": "Punto de venta: {S_ADDRESS}"}
+    {
+      "id": "location.es.01",
+      "text": "Dirección: {S_ADDRESS}"
+    },
+    {
+      "id": "location.es.02",
+      "text": "Tel.: {S_PHONE}"
+    },
+    {
+      "id": "location.es.03",
+      "text": "Correo electrónico: {S_EMAIL}"
+    },
+    {
+      "id": "location.es.04",
+      "text": "Web: {S_URL}"
+    },
+    {
+      "id": "location.es.05",
+      "text": "Domicilio social: {S_ADDRESS}"
+    },
+    {
+      "id": "location.es.06",
+      "text": "Domicilio fiscal: {S_ADDRESS}"
+    },
+    {
+      "id": "location.es.07",
+      "text": "Casa matriz: {S_ADDRESS}"
+    },
+    {
+      "id": "location.es.08",
+      "text": "Estamos en {S_ADDRESS}."
+    },
+    {
+      "id": "location.es.09",
+      "text": "Encuéntranos en {S_ADDRESS}."
+    },
+    {
+      "id": "location.es.11",
+      "text": "Llámenos al {S_PHONE}."
+    },
+    {
+      "id": "location.es.12",
+      "text": "Teléfono: {S_PHONE} · Email: {S_EMAIL}"
+    },
+    {
+      "id": "location.es.13",
+      "text": "Más información en {S_URL}."
+    },
+    {
+      "id": "location.es.14",
+      "text": "Escríbanos a {S_EMAIL} y le responderemos en menos de 24 horas."
+    },
+    {
+      "id": "location.es.15",
+      "text": "WhatsApp: {S_PHONE}"
+    },
+    {
+      "id": "location.es.16",
+      "text": "Cel.: {S_PHONE}"
+    },
+    {
+      "id": "location.es.18",
+      "text": "Atención al cliente: {S_PHONE}"
+    },
+    {
+      "id": "location.es.19",
+      "text": "Pedidos y consultas: {S_EMAIL}"
+    },
+    {
+      "id": "location.es.20",
+      "text": "Oficina central: {S_ADDRESS} · Tel. {S_PHONE}"
+    },
+    {
+      "id": "location.es.22",
+      "text": "Consulte nuestro catálogo completo en {S_URL}."
+    },
+    {
+      "id": "location.es.23",
+      "text": "Para más información, llame al {S_PHONE} o escriba a {S_EMAIL}."
+    },
+    {
+      "id": "location.es.24",
+      "text": "Síguenos: {S_URL}"
+    },
+    {
+      "id": "location.es.25",
+      "text": "Contacto: {S_EMAIL} | {S_PHONE}"
+    },
+    {
+      "id": "location.es.26",
+      "text": "Nos encontrará en {S_ADDRESS}, con fácil aparcamiento para clientes."
+    },
+    {
+      "id": "location.es.27",
+      "text": "Escribinos a {S_EMAIL}."
+    },
+    {
+      "id": "location.es.28",
+      "text": "Dirección comercial: {S_ADDRESS}"
+    },
+    {
+      "id": "location.es.29",
+      "text": "{S_ADDRESS} · Tel. {S_PHONE} · {S_URL}"
+    },
+    {
+      "id": "location.es.30",
+      "text": "Punto de venta: {S_ADDRESS}"
+    }
   ],
   "capital": [
-    {"id": "capital.es.01", "text": "Capital social: {CAPITAL}"},
-    {"id": "capital.es.02", "text": "Capital social: {CAPITAL}, totalmente desembolsado."},
-    {"id": "capital.es.03", "text": "Capital social suscrito y desembolsado: {CAPITAL}"},
-    {"id": "capital.es.04", "text": "Capital suscripto e integrado: {CAPITAL}"},
-    {"id": "capital.es.05", "text": "Capital pagado: {CAPITAL}"},
-    {"id": "capital.es.06", "text": "Capital social mínimo fijo: {CAPITAL}"},
-    {"id": "capital.es.07", "text": "{S_NAME} es una sociedad con un capital social de {CAPITAL}."},
-    {"id": "capital.es.08", "text": "El capital social se fija en {CAPITAL}."},
-    {"id": "capital.es.09", "text": "El capital de la sociedad asciende a {CAPITAL}."},
-    {"id": "capital.es.10", "text": "La sociedad dispone de un capital social de {CAPITAL}."},
-    {"id": "capital.es.11", "text": "Capital: {CAPITAL}"},
-    {"id": "capital.es.12", "text": "Forma jurídica: {LEGAL_FORM} · Capital social: {CAPITAL}"},
-    {"id": "capital.es.13", "text": "Capital social desembolsado: {CAPITAL}"},
-    {"id": "capital.es.14", "text": "El capital social, íntegramente suscrito y desembolsado, es de {CAPITAL}."},
-    {"id": "capital.es.15", "text": "Capital suscrito: {CAPITAL}"},
-    {"id": "capital.es.16", "text": "Cifra de capital social: {CAPITAL}"},
-    {"id": "capital.es.17", "text": "El capital social de la compañía es de {CAPITAL} y se encuentra íntegramente suscrito."},
-    {"id": "capital.es.18", "text": "El capital social asciende a {CAPITAL}, conforme a los estatutos vigentes."},
-    {"id": "capital.es.19", "text": "Sociedad con un capital de {CAPITAL}."},
-    {"id": "capital.es.20", "text": "Capital social: {CAPITAL} (íntegramente suscrito y pagado)"},
-    {"id": "capital.es.21", "text": "La sociedad cuenta con un capital social de {CAPITAL}."},
-    {"id": "capital.es.22", "text": "Datos societarios — capital social: {CAPITAL}"},
-    {"id": "capital.es.23", "text": "{S_NAME:legal}, sociedad con un capital social de {CAPITAL}."},
-    {"id": "capital.es.24", "text": "Monto del capital social: {CAPITAL}"},
-    {"id": "capital.es.25", "text": "El capital social quedó fijado en {CAPITAL} tras la última ampliación."},
-    {"id": "capital.es.26", "text": "{CAPITAL} de capital social, íntegramente desembolsado."},
-    {"id": "capital.es.27", "text": "Sociedad mercantil con un capital social íntegramente desembolsado de {CAPITAL}."}
+    {
+      "id": "capital.es.01",
+      "text": "Capital social: {CAPITAL}"
+    },
+    {
+      "id": "capital.es.02",
+      "text": "Capital social: {CAPITAL}, totalmente desembolsado."
+    },
+    {
+      "id": "capital.es.03",
+      "text": "Capital social suscrito y desembolsado: {CAPITAL}"
+    },
+    {
+      "id": "capital.es.04",
+      "text": "Capital suscripto e integrado: {CAPITAL}"
+    },
+    {
+      "id": "capital.es.05",
+      "text": "Capital pagado: {CAPITAL}"
+    },
+    {
+      "id": "capital.es.06",
+      "text": "Capital social mínimo fijo: {CAPITAL}"
+    },
+    {
+      "id": "capital.es.07",
+      "text": "{S_NAME} es una sociedad con un capital social de {CAPITAL}."
+    },
+    {
+      "id": "capital.es.08",
+      "text": "El capital social se fija en {CAPITAL}."
+    },
+    {
+      "id": "capital.es.10",
+      "text": "La sociedad dispone de un capital social de {CAPITAL}."
+    },
+    {
+      "id": "capital.es.11",
+      "text": "Capital: {CAPITAL}"
+    },
+    {
+      "id": "capital.es.13",
+      "text": "Capital social desembolsado: {CAPITAL}"
+    },
+    {
+      "id": "capital.es.14",
+      "text": "El capital social, íntegramente suscrito y desembolsado, es de {CAPITAL}."
+    },
+    {
+      "id": "capital.es.15",
+      "text": "Capital suscrito: {CAPITAL}"
+    },
+    {
+      "id": "capital.es.16",
+      "text": "Cifra de capital social: {CAPITAL}"
+    },
+    {
+      "id": "capital.es.18",
+      "text": "El capital social asciende a {CAPITAL}, conforme a los estatutos vigentes."
+    },
+    {
+      "id": "capital.es.19",
+      "text": "Sociedad con un capital de {CAPITAL}."
+    },
+    {
+      "id": "capital.es.20",
+      "text": "Capital social: {CAPITAL} (íntegramente suscrito y pagado)"
+    },
+    {
+      "id": "capital.es.21",
+      "text": "La sociedad cuenta con un capital social de {CAPITAL}."
+    },
+    {
+      "id": "capital.es.22",
+      "text": "Datos societarios — capital social: {CAPITAL}"
+    },
+    {
+      "id": "capital.es.23",
+      "text": "{S_NAME:legal}, sociedad con un capital social de {CAPITAL}."
+    },
+    {
+      "id": "capital.es.24",
+      "text": "Monto del capital social: {CAPITAL}"
+    },
+    {
+      "id": "capital.es.25",
+      "text": "El capital social quedó fijado en {CAPITAL} tras la última ampliación."
+    },
+    {
+      "id": "capital.es.26",
+      "text": "{CAPITAL} de capital social, íntegramente desembolsado."
+    },
+    {
+      "id": "capital.es.27",
+      "text": "Sociedad mercantil con un capital social íntegramente desembolsado de {CAPITAL}."
+    }
   ],
   "legal_form": [
-    {"id": "legal_form.es.01", "text": "Forma jurídica: {LEGAL_FORM}"},
-    {"id": "legal_form.es.02", "text": "Forma legal: {LEGAL_FORM}"},
-    {"id": "legal_form.es.03", "text": "Naturaleza jurídica: {LEGAL_FORM}"},
-    {"id": "legal_form.es.04", "text": "Organización jurídica: {LEGAL_FORM}"},
-    {"id": "legal_form.es.05", "text": "Tipo de empresa: {LEGAL_FORM}"},
-    {"id": "legal_form.es.06", "text": "Figura jurídica: {LEGAL_FORM}"},
-    {"id": "legal_form.es.07", "text": "Régimen jurídico: {LEGAL_FORM}"},
-    {"id": "legal_form.es.08", "text": "Tipo de entidad: {LEGAL_FORM}"},
-    {"id": "legal_form.es.09", "text": "Forma jurídica declarada: {LEGAL_FORM}"},
-    {"id": "legal_form.es.10", "text": "La empresa opera como {LEGAL_FORM}."},
-    {"id": "legal_form.es.11", "text": "{S_REG_ID} – forma jurídica: {LEGAL_FORM}"},
-    {"id": "legal_form.es.12", "text": "Ejercemos nuestra actividad bajo la forma jurídica de {LEGAL_FORM}."},
-    {"id": "legal_form.es.13", "text": "Empresa registrada como {LEGAL_FORM} con domicilio en {city}."},
-    {"id": "legal_form.es.14", "text": "Forma jurídica y datos fiscales: {LEGAL_FORM} · {S_REG_ID}"},
-    {"id": "legal_form.es.15", "text": "Datos fiscales: {LEGAL_FORM}, {S_REG_ID}"},
-    {"id": "legal_form.es.16", "text": "Condición jurídica: {LEGAL_FORM}"},
-    {"id": "legal_form.es.17", "text": "Forma jurídica del negocio: {LEGAL_FORM}"},
-    {"id": "legal_form.es.18", "text": "El negocio funciona como {LEGAL_FORM} desde sus inicios."},
-    {"id": "legal_form.es.19", "text": "Forma de organización: {LEGAL_FORM}"},
-    {"id": "legal_form.es.20", "text": "Personería jurídica: {LEGAL_FORM}"},
-    {"id": "legal_form.es.21", "text": "Datos registrales — forma jurídica: {LEGAL_FORM}"},
-    {"id": "legal_form.es.22", "text": "Operamos como {LEGAL_FORM} desde nuestra fundación."},
-    {"id": "legal_form.es.23", "text": "Forma jurídica actual: {LEGAL_FORM}"},
-    {"id": "legal_form.es.24", "text": "Estructura jurídica: {LEGAL_FORM}"},
-    {"id": "legal_form.es.25", "text": "Nuestra forma jurídica es {LEGAL_FORM}."},
-    {"id": "legal_form.es.26", "text": "Modalidad jurídica: {LEGAL_FORM}"},
-    {"id": "legal_form.es.27", "text": "Régimen legal de la empresa: {LEGAL_FORM}"},
-    {"id": "legal_form.es.28", "text": "Representante legal: {S_PERSON} · Forma jurídica: {LEGAL_FORM}"}
+    {
+      "id": "legal_form.es.01",
+      "text": "Forma jurídica: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.es.02",
+      "text": "Forma legal: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.es.03",
+      "text": "Naturaleza jurídica: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.es.04",
+      "text": "Organización jurídica: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.es.05",
+      "text": "Tipo de empresa: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.es.06",
+      "text": "Figura jurídica: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.es.07",
+      "text": "Régimen jurídico: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.es.09",
+      "text": "Forma jurídica declarada: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.es.10",
+      "text": "La empresa opera como {LEGAL_FORM}."
+    },
+    {
+      "id": "legal_form.es.11",
+      "text": "{S_REG_ID} – forma jurídica: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.es.12",
+      "text": "Ejercemos nuestra actividad bajo la forma jurídica de {LEGAL_FORM}."
+    },
+    {
+      "id": "legal_form.es.13",
+      "text": "Empresa registrada como {LEGAL_FORM} con domicilio en {city}."
+    },
+    {
+      "id": "legal_form.es.14",
+      "text": "Forma jurídica y datos fiscales: {LEGAL_FORM} · {S_REG_ID}"
+    },
+    {
+      "id": "legal_form.es.15",
+      "text": "Datos fiscales: {LEGAL_FORM}, {S_REG_ID}"
+    },
+    {
+      "id": "legal_form.es.16",
+      "text": "Condición jurídica: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.es.17",
+      "text": "Forma jurídica del negocio: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.es.19",
+      "text": "Forma de organización: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.es.20",
+      "text": "Personería jurídica: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.es.21",
+      "text": "Datos registrales — forma jurídica: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.es.22",
+      "text": "Operamos como {LEGAL_FORM} desde nuestra fundación."
+    },
+    {
+      "id": "legal_form.es.23",
+      "text": "Forma jurídica actual: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.es.25",
+      "text": "Nuestra forma jurídica es {LEGAL_FORM}."
+    },
+    {
+      "id": "legal_form.es.26",
+      "text": "Modalidad jurídica: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.es.27",
+      "text": "Régimen legal de la empresa: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.es.28",
+      "text": "Representante legal: {S_PERSON} · Forma jurídica: {LEGAL_FORM}"
+    }
   ],
   "traps": [
-    {"id": "trap.es.01", "trap": "T1", "text": "Nuestro mayor contrato hasta la fecha, por valor de {amount}, se firmó con una cadena hotelera de la zona."},
-    {"id": "trap.es.02", "trap": "T1", "text": "El pedido más importante del año ascendió a {amount}."},
-    {"id": "trap.es.03", "trap": "T1", "text": "Este año hemos invertido {amount} en maquinaria y renovación de equipos."},
-    {"id": "trap.es.04", "trap": "T1", "text": "Beneficio neto del ejercicio: {amount}"},
-    {"id": "trap.es.05", "trap": "T1", "text": "La facturación media mensual ronda {amount}."},
-    {"id": "trap.es.06", "trap": "T1", "text": "Obra adjudicada por un importe de {amount}, IVA incluido."},
-    {"id": "trap.es.07", "trap": "T1", "text": "Hemos recibido una subvención de {amount} para la digitalización del negocio."},
-    {"id": "trap.es.08", "trap": "T1", "text": "Las ventas del mes de diciembre alcanzaron {amount}, todo un récord para la empresa."},
-    {"id": "trap.es.09", "trap": "T1", "text": "El resultado de explotación se situó en {amount}."},
-    {"id": "trap.es.10", "trap": "T1", "text": "Ticket medio por cliente: {amount}"},
-    {"id": "trap.es.11", "trap": "T5", "text": "Somos distribuidores oficiales de {partner} en toda la zona."},
-    {"id": "trap.es.12", "trap": "T5", "text": "Nuestro proveedor principal es {supplier}, con quien trabajamos desde hace años."},
-    {"id": "trap.es.13", "trap": "T5", "text": "Financiación disponible a través de {bank}."},
-    {"id": "trap.es.14", "trap": "T5", "text": "A diferencia de {competitor}, nosotros no cobramos por el presupuesto."},
-    {"id": "trap.es.15", "trap": "T5", "text": "Acompañamos a {C_NAME}, una empresa nacida en {client_founded}, desde sus inicios."},
-    {"id": "trap.es.16", "trap": "T5", "text": "Contamos con el respaldo financiero de {bank}."},
-    {"id": "trap.es.17", "trap": "T5", "text": "Nuestro socio tecnológico, {partner}, nos proporciona las herramientas más avanzadas del mercado."},
-    {"id": "trap.es.18", "trap": "T5", "text": "{partner} y {S_NAME} han firmado un acuerdo de colaboración para el próximo ejercicio."},
-    {"id": "trap.es.19", "trap": "T5", "text": "Competimos con grandes cadenas como {competitor}, pero con un trato mucho más cercano."},
-    {"id": "trap.es.20", "trap": "T5", "text": "Trabajamos para {C_NAME}, una casa con historia que se fundó en {client_founded}."},
-    {"id": "trap.es.21", "trap": "T7", "text": "En {year} renovamos por completo nuestras instalaciones."},
-    {"id": "trap.es.22", "trap": "T7", "text": "Nos trasladamos a la nueva sede en {year}."},
-    {"id": "trap.es.23", "trap": "T7", "text": "En {year} obtuvimos un premio a la innovación en nuestro sector."},
-    {"id": "trap.es.24", "trap": "T7", "text": "Oferta válida hasta el 31 de diciembre de {year}."},
-    {"id": "trap.es.25", "trap": "T7", "text": "Tarifa de precios {year}"},
-    {"id": "trap.es.26", "trap": "T7", "text": "En {year} abrimos nuestra segunda tienda en {city}."},
-    {"id": "trap.es.27", "trap": "T7", "text": "Vehículo de exposición, modelo {year}, en perfecto estado."},
-    {"id": "trap.es.28", "trap": "T7", "text": "Desde {year} somos distribuidores exclusivos de {partner}."},
-    {"id": "trap.es.29", "trap": "T7", "text": "Última reforma del local: {year}"},
-    {"id": "trap.es.30", "trap": "T7", "text": "En {year} incorporamos la venta online a nuestro negocio."},
-    {"id": "trap.es.31", "trap": "T8", "text": "Más de {n_years} de experiencia nos avalan."},
-    {"id": "trap.es.32", "trap": "T8", "text": "Contamos con {n_shops} en {city} y alrededores."},
-    {"id": "trap.es.33", "trap": "T8", "text": "Nuestra flota: {n_vehicles} a su servicio."},
-    {"id": "trap.es.34", "trap": "T8", "text": "Más de {n_clients} confían ya en nosotros."},
-    {"id": "trap.es.35", "trap": "T8", "text": "Catálogo con más de {n_products} en stock."},
-    {"id": "trap.es.36", "trap": "T8", "text": "Hemos completado más de {n_projects} en toda la región."},
-    {"id": "trap.es.37", "trap": "T8", "text": "Exportamos a {n_countries} y atendemos a más de {n_clients} cada año."},
-    {"id": "trap.es.38", "trap": "T8", "text": "Llevamos {n_years} cuidando de nuestros clientes."},
-    {"id": "trap.es.39", "trap": "T8", "text": "Disponemos de {n_vehicles} para el reparto a domicilio."},
-    {"id": "trap.es.40", "trap": "T8", "text": "Nuestra red comercial suma {n_shops} en todo el país."},
-    {"id": "trap.es.41", "trap": "T11", "text": "Persona de contacto: {person} ({position})"},
-    {"id": "trap.es.42", "trap": "T11", "text": "Para cualquier consulta sobre su factura, contacte con {person}, del departamento de administración."},
-    {"id": "trap.es.43", "trap": "T11", "text": "{position}: {person}"},
-    {"id": "trap.es.44", "trap": "T11", "text": "{person}, {position}, le atenderá personalmente."},
-    {"id": "trap.es.45", "trap": "T11", "text": "Atendido por: {person}"},
-    {"id": "trap.es.46", "trap": "T11", "text": "Contacto comercial: {person}"},
-    {"id": "trap.es.47", "trap": "T11", "text": "Pregunte por {person} en nuestro mostrador."},
-    {"id": "trap.es.48", "trap": "T11", "text": "El departamento técnico está coordinado por {person}."},
-    {"id": "trap.es.49", "trap": "T11", "text": "{person} se incorporó a nuestro equipo en {year} como {position}."},
-    {"id": "trap.es.50", "trap": "T11", "text": "Si desea concertar una visita, llame a {person} al {S_PHONE}."},
-    {"id": "trap.es.51", "trap": "T13", "text": "Trabajamos para {C_NAME_LIST}, siempre con el apoyo de nuestro socio {partner}."},
-    {"id": "trap.es.52", "trap": "T13", "text": "Proyecto realizado para {C_NAME} en colaboración con {partner}."},
-    {"id": "trap.es.53", "trap": "T13", "text": "Cliente: {C_NAME} · Proveedor de materiales: {supplier}"},
-    {"id": "trap.es.54", "trap": "T13", "text": "Entre nuestros clientes figuran {C_NAME_LIST}; nuestro principal proveedor es {supplier}."},
-    {"id": "trap.es.55", "trap": "T13", "text": "Gracias a nuestra alianza con {partner}, hemos podido atender a {C_NAME} y {C_NAME}."},
-    {"id": "trap.es.56", "trap": "T13", "text": "{C_NAME} confió en nosotros para su nueva sede; el equipamiento lo suministró {supplier}."},
-    {"id": "trap.es.57", "trap": "T13", "text": "Clientes: {C_NAME_LIST} · Socios: {partner}"},
-    {"id": "trap.es.58", "trap": "T13", "text": "Junto a {partner}, desarrollamos para {C_NAME} una solución a medida."},
-    {"id": "trap.es.59", "trap": "T13", "text": "Referencias: {C_NAME} y {C_NAME}. Distribuidor autorizado de {partner}."},
-    {"id": "trap.es.60", "trap": "T13", "text": "{C_NAME} es nuestro cliente; {partner}, nuestro socio de implantación."}
+    {
+      "id": "trap.es.01",
+      "trap": "T1",
+      "text": "Nuestro mayor contrato hasta la fecha, por valor de {amount}, se firmó con una cadena hotelera de la zona."
+    },
+    {
+      "id": "trap.es.02",
+      "trap": "T1",
+      "text": "El pedido más importante del año ascendió a {amount}."
+    },
+    {
+      "id": "trap.es.03",
+      "trap": "T1",
+      "text": "Este año hemos invertido {amount} en maquinaria y renovación de equipos."
+    },
+    {
+      "id": "trap.es.04",
+      "trap": "T1",
+      "text": "Beneficio neto del ejercicio: {amount}"
+    },
+    {
+      "id": "trap.es.05",
+      "trap": "T1",
+      "text": "La facturación media mensual ronda {amount}."
+    },
+    {
+      "id": "trap.es.07",
+      "trap": "T1",
+      "text": "Hemos recibido una subvención de {amount} para la digitalización del negocio."
+    },
+    {
+      "id": "trap.es.08",
+      "trap": "T1",
+      "text": "Las ventas del mes de diciembre alcanzaron {amount}, todo un récord para la empresa."
+    },
+    {
+      "id": "trap.es.09",
+      "trap": "T1",
+      "text": "El resultado de explotación se situó en {amount}."
+    },
+    {
+      "id": "trap.es.10",
+      "trap": "T1",
+      "text": "Ticket medio por cliente: {amount}"
+    },
+    {
+      "id": "trap.es.11",
+      "trap": "T5",
+      "text": "Somos distribuidores oficiales de {partner} en toda la zona."
+    },
+    {
+      "id": "trap.es.12",
+      "trap": "T5",
+      "text": "Nuestro proveedor principal es {supplier}, con quien trabajamos desde hace años."
+    },
+    {
+      "id": "trap.es.13",
+      "trap": "T5",
+      "text": "Financiación disponible a través de {bank}."
+    },
+    {
+      "id": "trap.es.14",
+      "trap": "T5",
+      "text": "A diferencia de {competitor}, nosotros no cobramos por el presupuesto."
+    },
+    {
+      "id": "trap.es.15",
+      "trap": "T5",
+      "text": "Acompañamos a {C_NAME}, una empresa nacida en {client_founded}, desde sus inicios."
+    },
+    {
+      "id": "trap.es.16",
+      "trap": "T5",
+      "text": "Contamos con el respaldo financiero de {bank}."
+    },
+    {
+      "id": "trap.es.17",
+      "trap": "T5",
+      "text": "Nuestro socio tecnológico, {partner}, nos proporciona las herramientas más avanzadas del mercado."
+    },
+    {
+      "id": "trap.es.18",
+      "trap": "T5",
+      "text": "{partner} y {S_NAME} han firmado un acuerdo de colaboración para el próximo ejercicio."
+    },
+    {
+      "id": "trap.es.19",
+      "trap": "T5",
+      "text": "Competimos con grandes cadenas como {competitor}, pero con un trato mucho más cercano."
+    },
+    {
+      "id": "trap.es.21",
+      "trap": "T7",
+      "text": "En {year} renovamos por completo nuestras instalaciones."
+    },
+    {
+      "id": "trap.es.22",
+      "trap": "T7",
+      "text": "Nos trasladamos a la nueva sede en {year}."
+    },
+    {
+      "id": "trap.es.23",
+      "trap": "T7",
+      "text": "En {year} obtuvimos un premio a la innovación en nuestro sector."
+    },
+    {
+      "id": "trap.es.24",
+      "trap": "T7",
+      "text": "Oferta válida hasta el 31 de diciembre de {year}."
+    },
+    {
+      "id": "trap.es.25",
+      "trap": "T7",
+      "text": "Tarifa de precios {year}"
+    },
+    {
+      "id": "trap.es.26",
+      "trap": "T7",
+      "text": "En {year} abrimos nuestra segunda tienda en {city}."
+    },
+    {
+      "id": "trap.es.27",
+      "trap": "T7",
+      "text": "Vehículo de exposición, modelo {year}, en perfecto estado."
+    },
+    {
+      "id": "trap.es.29",
+      "trap": "T7",
+      "text": "Última reforma del local: {year}"
+    },
+    {
+      "id": "trap.es.30",
+      "trap": "T7",
+      "text": "En {year} incorporamos la venta online a nuestro negocio."
+    },
+    {
+      "id": "trap.es.32",
+      "trap": "T8",
+      "text": "Contamos con {n_shops} en {city} y alrededores."
+    },
+    {
+      "id": "trap.es.33",
+      "trap": "T8",
+      "text": "Nuestra flota: {n_vehicles} a su servicio."
+    },
+    {
+      "id": "trap.es.34",
+      "trap": "T8",
+      "text": "Más de {n_clients} confían ya en nosotros."
+    },
+    {
+      "id": "trap.es.35",
+      "trap": "T8",
+      "text": "Catálogo con más de {n_products} en stock."
+    },
+    {
+      "id": "trap.es.36",
+      "trap": "T8",
+      "text": "Hemos completado más de {n_projects} en toda la región."
+    },
+    {
+      "id": "trap.es.37",
+      "trap": "T8",
+      "text": "Exportamos a {n_countries} y atendemos a más de {n_clients} cada año."
+    },
+    {
+      "id": "trap.es.38",
+      "trap": "T8",
+      "text": "Llevamos {n_years} cuidando de nuestros clientes."
+    },
+    {
+      "id": "trap.es.39",
+      "trap": "T8",
+      "text": "Disponemos de {n_vehicles} para el reparto a domicilio."
+    },
+    {
+      "id": "trap.es.40",
+      "trap": "T8",
+      "text": "Nuestra red comercial suma {n_shops} en todo el país."
+    },
+    {
+      "id": "trap.es.41",
+      "trap": "T11",
+      "text": "Persona de contacto: {person} ({position})"
+    },
+    {
+      "id": "trap.es.42",
+      "trap": "T11",
+      "text": "Para cualquier consulta sobre su factura, contacte con {person}, del departamento de administración."
+    },
+    {
+      "id": "trap.es.43",
+      "trap": "T11",
+      "text": "{position}: {person}"
+    },
+    {
+      "id": "trap.es.44",
+      "trap": "T11",
+      "text": "{person}, {position}, le atenderá personalmente."
+    },
+    {
+      "id": "trap.es.45",
+      "trap": "T11",
+      "text": "Atendido por: {person}"
+    },
+    {
+      "id": "trap.es.46",
+      "trap": "T11",
+      "text": "Contacto comercial: {person}"
+    },
+    {
+      "id": "trap.es.47",
+      "trap": "T11",
+      "text": "Pregunte por {person} en nuestro mostrador."
+    },
+    {
+      "id": "trap.es.48",
+      "trap": "T11",
+      "text": "El departamento técnico está coordinado por {person}."
+    },
+    {
+      "id": "trap.es.49",
+      "trap": "T11",
+      "text": "{person} se incorporó a nuestro equipo en {year} como {position}."
+    },
+    {
+      "id": "trap.es.51",
+      "trap": "T13",
+      "text": "Trabajamos para {C_NAME_LIST}, siempre con el apoyo de nuestro socio {partner}."
+    },
+    {
+      "id": "trap.es.52",
+      "trap": "T13",
+      "text": "Proyecto realizado para {C_NAME} en colaboración con {partner}."
+    },
+    {
+      "id": "trap.es.53",
+      "trap": "T13",
+      "text": "Cliente: {C_NAME} · Proveedor de materiales: {supplier}"
+    },
+    {
+      "id": "trap.es.54",
+      "trap": "T13",
+      "text": "Entre nuestros clientes figuran {C_NAME_LIST}; nuestro principal proveedor es {supplier}."
+    },
+    {
+      "id": "trap.es.55",
+      "trap": "T13",
+      "text": "Gracias a nuestra alianza con {partner}, hemos podido atender a {C_NAME} y {C_NAME}."
+    },
+    {
+      "id": "trap.es.56",
+      "trap": "T13",
+      "text": "{C_NAME} confió en nosotros para su nueva sede; el equipamiento lo suministró {supplier}."
+    },
+    {
+      "id": "trap.es.58",
+      "trap": "T13",
+      "text": "Junto a {partner}, desarrollamos para {C_NAME} una solución a medida."
+    },
+    {
+      "id": "trap.es.59",
+      "trap": "T13",
+      "text": "Referencias: {C_NAME} y {C_NAME}. Distribuidor autorizado de {partner}."
+    },
+    {
+      "id": "trap.es.60",
+      "trap": "T13",
+      "text": "{C_NAME} es nuestro cliente; {partner}, nuestro socio de implantación."
+    }
   ],
   "filler": [
-    {"id": "filler.es.01", "text": "Todos nuestros presupuestos son gratuitos y sin compromiso."},
-    {"id": "filler.es.02", "text": "Aceptamos pago con tarjeta, transferencia bancaria y efectivo."},
-    {"id": "filler.es.03", "text": "Los pedidos confirmados antes de las 13:00 salen el mismo día."},
-    {"id": "filler.es.04", "text": "Consulte nuestras condiciones generales antes de realizar su pedido."},
-    {"id": "filler.es.05", "text": "El aparcamiento para clientes se encuentra en la parte trasera del edificio."},
-    {"id": "filler.es.06", "text": "Trabajamos cada día para ofrecer un servicio cercano, rápido y de calidad."},
-    {"id": "filler.es.07", "text": "La satisfacción de nuestros clientes es nuestra prioridad."},
-    {"id": "filler.es.08", "text": "Nuestro equipo le asesorará sin compromiso."},
-    {"id": "filler.es.09", "text": "Todos los precios incluyen IVA salvo indicación contraria."},
-    {"id": "filler.es.10", "text": "Envíos a toda la península en 24/48 horas."},
-    {"id": "filler.es.11", "text": "Hacemos envíos a todo el país."},
-    {"id": "filler.es.12", "text": "Si tiene alguna pregunta, no dude en consultarnos."},
-    {"id": "filler.es.13", "text": "Cuidamos cada detalle para que su experiencia sea excelente."},
-    {"id": "filler.es.14", "text": "La garantía cubre cualquier defecto de fabricación."},
-    {"id": "filler.es.15", "text": "Estamos renovando nuestra página web; disculpen las molestias."},
-    {"id": "filler.es.16", "text": "Ofrecemos facilidades de pago para empresas."},
-    {"id": "filler.es.17", "text": "Revise la mercancía en el momento de la entrega."},
-    {"id": "filler.es.18", "text": "Los plazos de entrega pueden variar en temporada alta."},
-    {"id": "filler.es.19", "text": "Nos adaptamos a las necesidades de cada cliente."},
-    {"id": "filler.es.20", "text": "Apostamos por la sostenibilidad y el comercio de proximidad."},
-    {"id": "filler.es.21", "text": "Las devoluciones deben realizarse en el embalaje original."},
-    {"id": "filler.es.22", "text": "Recuerde conservar el ticket de compra."},
-    {"id": "filler.es.23", "text": "Síguenos en redes sociales para no perderte ninguna novedad."},
-    {"id": "filler.es.24", "text": "Durante el mes de agosto el servicio de reparto puede sufrir retrasos."},
-    {"id": "filler.es.25", "text": "Pregunte por nuestras promociones para empresas."},
-    {"id": "filler.es.26", "text": "Le enviaremos la factura por correo electrónico."},
-    {"id": "filler.es.27", "text": "Nuestro compromiso: calidad, puntualidad y transparencia."},
-    {"id": "filler.es.28", "text": "Precios especiales para pedidos al por mayor."},
-    {"id": "filler.es.29", "text": "Gracias por confiar en nosotros."},
-    {"id": "filler.es.30", "text": "Quedamos a su disposición para cualquier aclaración."},
-    {"id": "filler.es.31", "text": "El próximo {weekday} celebraremos una jornada de puertas abiertas."},
-    {"id": "filler.es.32", "text": "Consulte disponibilidad en {city} y alrededores."},
-    {"id": "filler.es.33", "text": "Si el producto no le convence, le devolvemos su dinero."},
-    {"id": "filler.es.34", "text": "Hemos actualizado nuestra política de privacidad."},
-    {"id": "filler.es.35", "text": "Hemos recibido su solicitud y le responderemos en un plazo de {n_days} días."},
-    {"id": "filler.es.36", "text": "Los artículos en oferta no admiten cambios ni devoluciones."},
-    {"id": "filler.es.37", "text": "Revisamos cada encargo antes de entregarlo."},
-    {"id": "filler.es.38", "text": "Pídanos una demostración gratuita."},
-    {"id": "filler.es.39", "text": "La calidad no se negocia."},
-    {"id": "filler.es.40", "text": "Estacionamiento gratuito para clientes."},
-    {"id": "filler.es.41", "text": "Nuestras instalaciones están adaptadas para personas con movilidad reducida."},
-    {"id": "filler.es.42", "text": "La factura electrónica se enviará al correo registrado."},
-    {"id": "filler.es.43", "text": "Sus datos están seguros con nosotros."},
-    {"id": "filler.es.44", "text": "Ofrecemos asesoramiento personalizado en cada proyecto."},
-    {"id": "filler.es.45", "text": "Imágenes meramente ilustrativas."},
-    {"id": "filler.es.46", "text": "Unidades limitadas; consulte disponibilidad antes de realizar su pedido."},
-    {"id": "filler.es.47", "text": "Cada pedido se prepara con el máximo cuidado."},
-    {"id": "filler.es.48", "text": "Te esperamos con un café y las mejores ideas para tu proyecto."},
-    {"id": "filler.es.49", "text": "Se ruega puntualidad en las citas concertadas."},
-    {"id": "filler.es.50", "text": "Feliz Navidad y próspero año nuevo a todos nuestros clientes y amigos."},
-    {"id": "filler.es.51", "text": "Pagá en cuotas sin interés con todas las tarjetas."},
-    {"id": "filler.es.52", "text": "Emitimos factura electrónica a empresas y particulares."}
+    {
+      "id": "filler.es.01",
+      "text": "Todos nuestros presupuestos son gratuitos y sin compromiso."
+    },
+    {
+      "id": "filler.es.02",
+      "text": "Aceptamos pago con tarjeta, transferencia bancaria y efectivo."
+    },
+    {
+      "id": "filler.es.03",
+      "text": "Los pedidos confirmados antes de las 13:00 salen el mismo día."
+    },
+    {
+      "id": "filler.es.04",
+      "text": "Consulte nuestras condiciones generales antes de realizar su pedido."
+    },
+    {
+      "id": "filler.es.05",
+      "text": "El aparcamiento para clientes se encuentra en la parte trasera del edificio."
+    },
+    {
+      "id": "filler.es.06",
+      "text": "Trabajamos cada día para ofrecer un servicio cercano, rápido y de calidad."
+    },
+    {
+      "id": "filler.es.07",
+      "text": "La satisfacción de nuestros clientes es nuestra prioridad."
+    },
+    {
+      "id": "filler.es.08",
+      "text": "Nuestro equipo le asesorará sin compromiso."
+    },
+    {
+      "id": "filler.es.09",
+      "text": "Todos los precios incluyen IVA salvo indicación contraria."
+    },
+    {
+      "id": "filler.es.10",
+      "text": "Envíos a toda la península en 24/48 horas."
+    },
+    {
+      "id": "filler.es.11",
+      "text": "Hacemos envíos a todo el país."
+    },
+    {
+      "id": "filler.es.12",
+      "text": "Si tiene alguna pregunta, no dude en consultarnos."
+    },
+    {
+      "id": "filler.es.14",
+      "text": "La garantía cubre cualquier defecto de fabricación."
+    },
+    {
+      "id": "filler.es.15",
+      "text": "Estamos renovando nuestra página web; disculpen las molestias."
+    },
+    {
+      "id": "filler.es.16",
+      "text": "Ofrecemos facilidades de pago para empresas."
+    },
+    {
+      "id": "filler.es.17",
+      "text": "Revise la mercancía en el momento de la entrega."
+    },
+    {
+      "id": "filler.es.18",
+      "text": "Los plazos de entrega pueden variar en temporada alta."
+    },
+    {
+      "id": "filler.es.19",
+      "text": "Nos adaptamos a las necesidades de cada cliente."
+    },
+    {
+      "id": "filler.es.20",
+      "text": "Apostamos por la sostenibilidad y el comercio de proximidad."
+    },
+    {
+      "id": "filler.es.21",
+      "text": "Las devoluciones deben realizarse en el embalaje original."
+    },
+    {
+      "id": "filler.es.22",
+      "text": "Recuerde conservar el ticket de compra."
+    },
+    {
+      "id": "filler.es.24",
+      "text": "Durante el mes de agosto el servicio de reparto puede sufrir retrasos."
+    },
+    {
+      "id": "filler.es.25",
+      "text": "Pregunte por nuestras promociones para empresas."
+    },
+    {
+      "id": "filler.es.26",
+      "text": "Le enviaremos la factura por correo electrónico."
+    },
+    {
+      "id": "filler.es.27",
+      "text": "Nuestro compromiso: calidad, puntualidad y transparencia."
+    },
+    {
+      "id": "filler.es.28",
+      "text": "Precios especiales para pedidos al por mayor."
+    },
+    {
+      "id": "filler.es.30",
+      "text": "Quedamos a su disposición para cualquier aclaración."
+    },
+    {
+      "id": "filler.es.31",
+      "text": "El próximo {weekday} celebraremos una jornada de puertas abiertas."
+    },
+    {
+      "id": "filler.es.32",
+      "text": "Consulte disponibilidad en {city} y alrededores."
+    },
+    {
+      "id": "filler.es.33",
+      "text": "Si el producto no le convence, le devolvemos su dinero."
+    },
+    {
+      "id": "filler.es.34",
+      "text": "Hemos actualizado nuestra política de privacidad."
+    },
+    {
+      "id": "filler.es.35",
+      "text": "Hemos recibido su solicitud y le responderemos en un plazo de {n_days} días."
+    },
+    {
+      "id": "filler.es.36",
+      "text": "Los artículos en oferta no admiten cambios ni devoluciones."
+    },
+    {
+      "id": "filler.es.37",
+      "text": "Revisamos cada encargo antes de entregarlo."
+    },
+    {
+      "id": "filler.es.38",
+      "text": "Pídanos una demostración gratuita."
+    },
+    {
+      "id": "filler.es.40",
+      "text": "Estacionamiento gratuito para clientes."
+    },
+    {
+      "id": "filler.es.41",
+      "text": "Nuestras instalaciones están adaptadas para personas con movilidad reducida."
+    },
+    {
+      "id": "filler.es.42",
+      "text": "La factura electrónica se enviará al correo registrado."
+    },
+    {
+      "id": "filler.es.43",
+      "text": "Sus datos están seguros con nosotros."
+    },
+    {
+      "id": "filler.es.44",
+      "text": "Ofrecemos asesoramiento personalizado en cada proyecto."
+    },
+    {
+      "id": "filler.es.46",
+      "text": "Unidades limitadas; consulte disponibilidad antes de realizar su pedido."
+    },
+    {
+      "id": "filler.es.47",
+      "text": "Cada pedido se prepara con el máximo cuidado."
+    },
+    {
+      "id": "filler.es.48",
+      "text": "Te esperamos con un café y las mejores ideas para tu proyecto."
+    },
+    {
+      "id": "filler.es.49",
+      "text": "Se ruega puntualidad en las citas concertadas."
+    },
+    {
+      "id": "filler.es.50",
+      "text": "Feliz Navidad y próspero año nuevo a todos nuestros clientes y amigos."
+    },
+    {
+      "id": "filler.es.51",
+      "text": "Pagá en cuotas sin interés con todas las tarjetas."
+    },
+    {
+      "id": "filler.es.52",
+      "text": "Emitimos factura electrónica a empresas y particulares."
+    }
   ],
   "legal_footer": [
-    {"id": "footer.es.01", "countries": ["ES"], "text": "{S_NAME:legal} – {S_REG_ID} – Capital social: {CAPITAL} – Inscrita en el Registro Mercantil de {city}"},
-    {"id": "footer.es.02", "countries": ["ES"], "text": "{S_NAME:legal} · {S_ADDRESS} · Tel. {S_PHONE} · {S_REG_ID}"},
-    {"id": "footer.es.03", "countries": ["ES"], "text": "{S_NAME:legal}, {S_REG_ID}. Sociedad inscrita en el Registro Mercantil de {city}. Capital social {CAPITAL}, totalmente desembolsado."},
-    {"id": "footer.es.04", "countries": ["ES"], "text": "Responsable del tratamiento: {S_NAME:legal}. Finalidad: gestionar la relación comercial. Puede ejercer sus derechos de acceso, rectificación, supresión y portabilidad escribiendo a {S_EMAIL}."},
-    {"id": "footer.es.05", "countries": ["ES"], "text": "{S_NAME:legal} | {S_REG_ID} | {ACTIVITY_CODE} | {S_URL}"},
-    {"id": "footer.es.06", "countries": ["ES"], "text": "De conformidad con el RGPD, le informamos de que sus datos se incorporan a un fichero cuyo responsable es {S_NAME:legal} ({S_REG_ID}), con domicilio en {S_ADDRESS}."},
-    {"id": "footer.es.07", "countries": ["ES"], "text": "Forma jurídica: {LEGAL_FORM} · {S_REG_ID} · Domicilio: {S_ADDRESS}"},
-    {"id": "footer.es.08", "countries": ["MX"], "text": "{S_NAME:legal} · {S_REG_ID} · Régimen fiscal: 601 General de Ley Personas Morales · Domicilio fiscal: {S_ADDRESS}"},
-    {"id": "footer.es.09", "countries": ["MX"], "text": "Este documento es una representación impresa de un CFDI. {S_NAME:legal} – {S_REG_ID} – Lugar de expedición: {city}"},
-    {"id": "footer.es.10", "countries": ["MX"], "text": "{S_NAME:legal} – {S_ADDRESS} – Tel. {S_PHONE} – {S_EMAIL} – {S_REG_ID}"},
-    {"id": "footer.es.11", "countries": ["MX"], "text": "Pago en una sola exhibición · Efectos fiscales al pago · {S_NAME:legal} · {S_REG_ID}"},
-    {"id": "footer.es.12", "countries": ["MX"], "text": "{S_NAME:legal} · {S_REG_ID} · Régimen fiscal: 626 Régimen Simplificado de Confianza · {S_URL}"},
-    {"id": "footer.es.13", "countries": ["MX"], "text": "Emitido por {S_NAME:legal}, {S_REG_ID}, con domicilio fiscal en {S_ADDRESS} · {ACTIVITY_CODE}"},
-    {"id": "footer.es.14", "countries": ["AR"], "text": "{S_NAME:legal} · {S_REG_ID} · IVA Responsable Inscripto · Ingresos Brutos: Convenio Multilateral · {S_ADDRESS}"},
-    {"id": "footer.es.15", "countries": ["AR"], "text": "{S_NAME:legal} – {S_REG_ID} – Condición frente al IVA: Responsable Inscripto – Tel. {S_PHONE}"},
-    {"id": "footer.es.16", "countries": ["AR"], "text": "Régimen de Transparencia Fiscal al Consumidor (Ley 27.743) · {S_NAME:legal} · {S_REG_ID}"},
-    {"id": "footer.es.17", "countries": ["AR"], "text": "{S_NAME:legal} | {S_ADDRESS} | {S_REG_ID} | {ACTIVITY_CODE} | {S_URL}"},
-    {"id": "footer.es.18", "countries": ["AR"], "text": "{S_NAME:legal} – Inscripta en la Inspección General de Justicia – {S_REG_ID} – Capital social: {CAPITAL}"},
-    {"id": "footer.es.19", "countries": ["AR"], "text": "Defensa de las y los consumidores. Para reclamos ingrese aquí. {S_NAME:legal} · {S_REG_ID} · {S_EMAIL}"},
-    {"id": "footer.es.20", "countries": ["CO"], "text": "{S_NAME:legal} · {S_REG_ID} · Responsable de IVA · {S_ADDRESS} · Tel. {S_PHONE}"},
-    {"id": "footer.es.21", "countries": ["CO"], "text": "{S_NAME:legal} – {S_REG_ID} – No somos grandes contribuyentes – No somos autorretenedores – {ACTIVITY_CODE}"},
-    {"id": "footer.es.22", "countries": ["CO"], "text": "Factura electrónica de venta según resolución de facturación DIAN vigente · {S_NAME:legal} · {S_REG_ID}"},
-    {"id": "footer.es.23", "countries": ["CO"], "text": "{S_NAME:legal} | {S_REG_ID} | Régimen Simple de Tributación | {S_EMAIL} | {S_URL}"},
-    {"id": "footer.es.24", "countries": ["CO"], "text": "{S_NAME:legal}, sociedad inscrita en la Cámara de Comercio de {city} · {S_REG_ID} · Capital pagado: {CAPITAL}"},
-    {"id": "footer.es.25", "countries": ["CO"], "text": "Esta factura se asimila en todos sus efectos a una letra de cambio (art. 774 del Código de Comercio). {S_NAME:legal} · {S_REG_ID}"},
-    {"id": "footer.es.26", "countries": ["CL"], "text": "{S_NAME:legal} · {S_REG_ID} · Casa matriz: {S_ADDRESS} · Tel. {S_PHONE}"},
-    {"id": "footer.es.27", "countries": ["CL"], "text": "Timbre Electrónico SII · Res. 80 de 2014 · Verifique documento: www.sii.cl · {S_NAME:legal} · {S_REG_ID}"},
-    {"id": "footer.es.28", "countries": ["CL"], "text": "{S_NAME:legal} | {S_REG_ID} | {ACTIVITY_CODE} | {S_ADDRESS}"},
-    {"id": "footer.es.29", "countries": ["CL"], "text": "{S_NAME:legal} – {S_REG_ID} – {S_EMAIL} – {S_URL} – Sucursal {city}"},
-    {"id": "footer.es.30", "countries": ["CL"], "text": "{S_NAME:legal}, sociedad inscrita en el Registro de Comercio de {city} · {S_REG_ID} · Capital: {CAPITAL}"},
-    {"id": "footer.es.31", "countries": ["ES", "MX", "AR", "CO", "CL"], "text": "{S_NAME:legal} · {S_ADDRESS} · {S_PHONE} · {S_EMAIL}"},
-    {"id": "footer.es.32", "countries": ["ES", "MX", "AR", "CO", "CL"], "text": "{S_NAME} – {S_URL} – {S_EMAIL}"}
+    {
+      "id": "footer.es.01",
+      "countries": [
+        "ES"
+      ],
+      "text": "{S_NAME:legal} – {S_REG_ID} – Capital social: {CAPITAL} – Inscrita en el Registro Mercantil de {city}"
+    },
+    {
+      "id": "footer.es.02",
+      "countries": [
+        "ES"
+      ],
+      "text": "{S_NAME:legal} · {S_ADDRESS} · Tel. {S_PHONE} · {S_REG_ID}"
+    },
+    {
+      "id": "footer.es.03",
+      "countries": [
+        "ES"
+      ],
+      "text": "{S_NAME:legal}, {S_REG_ID}. Sociedad inscrita en el Registro Mercantil de {city}. Capital social {CAPITAL}, totalmente desembolsado."
+    },
+    {
+      "id": "footer.es.04",
+      "countries": [
+        "ES"
+      ],
+      "text": "Responsable del tratamiento: {S_NAME:legal}. Finalidad: gestionar la relación comercial. Puede ejercer sus derechos de acceso, rectificación, supresión y portabilidad escribiendo a {S_EMAIL}."
+    },
+    {
+      "id": "footer.es.05",
+      "countries": [
+        "ES"
+      ],
+      "text": "{S_NAME:legal} | {S_REG_ID} | {ACTIVITY_CODE} | {S_URL}"
+    },
+    {
+      "id": "footer.es.06",
+      "countries": [
+        "ES"
+      ],
+      "text": "De conformidad con el RGPD, le informamos de que sus datos se incorporan a un fichero cuyo responsable es {S_NAME:legal} ({S_REG_ID}), con domicilio en {S_ADDRESS}."
+    },
+    {
+      "id": "footer.es.07",
+      "countries": [
+        "ES"
+      ],
+      "text": "Forma jurídica: {LEGAL_FORM} · {S_REG_ID} · Domicilio: {S_ADDRESS}"
+    },
+    {
+      "id": "footer.es.08",
+      "countries": [
+        "MX"
+      ],
+      "text": "{S_NAME:legal} · {S_REG_ID} · Régimen fiscal: 601 General de Ley Personas Morales · Domicilio fiscal: {S_ADDRESS}"
+    },
+    {
+      "id": "footer.es.09",
+      "countries": [
+        "MX"
+      ],
+      "text": "Este documento es una representación impresa de un CFDI. {S_NAME:legal} – {S_REG_ID} – Lugar de expedición: {city}"
+    },
+    {
+      "id": "footer.es.10",
+      "countries": [
+        "MX"
+      ],
+      "text": "{S_NAME:legal} – {S_ADDRESS} – Tel. {S_PHONE} – {S_EMAIL} – {S_REG_ID}"
+    },
+    {
+      "id": "footer.es.11",
+      "countries": [
+        "MX"
+      ],
+      "text": "Pago en una sola exhibición · Efectos fiscales al pago · {S_NAME:legal} · {S_REG_ID}"
+    },
+    {
+      "id": "footer.es.12",
+      "countries": [
+        "MX"
+      ],
+      "text": "{S_NAME:legal} · {S_REG_ID} · Régimen fiscal: 626 Régimen Simplificado de Confianza · {S_URL}"
+    },
+    {
+      "id": "footer.es.13",
+      "countries": [
+        "MX"
+      ],
+      "text": "Emitido por {S_NAME:legal}, {S_REG_ID}, con domicilio fiscal en {S_ADDRESS} · {ACTIVITY_CODE}"
+    },
+    {
+      "id": "footer.es.14",
+      "countries": [
+        "AR"
+      ],
+      "text": "{S_NAME:legal} · {S_REG_ID} · IVA Responsable Inscripto · Ingresos Brutos: Convenio Multilateral · {S_ADDRESS}"
+    },
+    {
+      "id": "footer.es.15",
+      "countries": [
+        "AR"
+      ],
+      "text": "{S_NAME:legal} – {S_REG_ID} – Condición frente al IVA: Responsable Inscripto – Tel. {S_PHONE}"
+    },
+    {
+      "id": "footer.es.16",
+      "countries": [
+        "AR"
+      ],
+      "text": "Régimen de Transparencia Fiscal al Consumidor (Ley 27.743) · {S_NAME:legal} · {S_REG_ID}"
+    },
+    {
+      "id": "footer.es.17",
+      "countries": [
+        "AR"
+      ],
+      "text": "{S_NAME:legal} | {S_ADDRESS} | {S_REG_ID} | {ACTIVITY_CODE} | {S_URL}"
+    },
+    {
+      "id": "footer.es.18",
+      "countries": [
+        "AR"
+      ],
+      "text": "{S_NAME:legal} – Inscripta en la Inspección General de Justicia – {S_REG_ID} – Capital social: {CAPITAL}"
+    },
+    {
+      "id": "footer.es.19",
+      "countries": [
+        "AR"
+      ],
+      "text": "Defensa de las y los consumidores. Para reclamos ingrese aquí. {S_NAME:legal} · {S_REG_ID} · {S_EMAIL}"
+    },
+    {
+      "id": "footer.es.20",
+      "countries": [
+        "CO"
+      ],
+      "text": "{S_NAME:legal} · {S_REG_ID} · Responsable de IVA · {S_ADDRESS} · Tel. {S_PHONE}"
+    },
+    {
+      "id": "footer.es.21",
+      "countries": [
+        "CO"
+      ],
+      "text": "{S_NAME:legal} – {S_REG_ID} – No somos grandes contribuyentes – No somos autorretenedores – {ACTIVITY_CODE}"
+    },
+    {
+      "id": "footer.es.22",
+      "countries": [
+        "CO"
+      ],
+      "text": "Factura electrónica de venta según resolución de facturación DIAN vigente · {S_NAME:legal} · {S_REG_ID}"
+    },
+    {
+      "id": "footer.es.23",
+      "countries": [
+        "CO"
+      ],
+      "text": "{S_NAME:legal} | {S_REG_ID} | Régimen Simple de Tributación | {S_EMAIL} | {S_URL}"
+    },
+    {
+      "id": "footer.es.24",
+      "countries": [
+        "CO"
+      ],
+      "text": "{S_NAME:legal}, sociedad inscrita en la Cámara de Comercio de {city} · {S_REG_ID} · Capital pagado: {CAPITAL}"
+    },
+    {
+      "id": "footer.es.25",
+      "countries": [
+        "CO"
+      ],
+      "text": "Esta factura se asimila en todos sus efectos a una letra de cambio (art. 774 del Código de Comercio). {S_NAME:legal} · {S_REG_ID}"
+    },
+    {
+      "id": "footer.es.26",
+      "countries": [
+        "CL"
+      ],
+      "text": "{S_NAME:legal} · {S_REG_ID} · Casa matriz: {S_ADDRESS} · Tel. {S_PHONE}"
+    },
+    {
+      "id": "footer.es.27",
+      "countries": [
+        "CL"
+      ],
+      "text": "Timbre Electrónico SII · Res. 80 de 2014 · Verifique documento: www.sii.cl · {S_NAME:legal} · {S_REG_ID}"
+    },
+    {
+      "id": "footer.es.28",
+      "countries": [
+        "CL"
+      ],
+      "text": "{S_NAME:legal} | {S_REG_ID} | {ACTIVITY_CODE} | {S_ADDRESS}"
+    },
+    {
+      "id": "footer.es.29",
+      "countries": [
+        "CL"
+      ],
+      "text": "{S_NAME:legal} – {S_REG_ID} – {S_EMAIL} – {S_URL} – Sucursal {city}"
+    },
+    {
+      "id": "footer.es.30",
+      "countries": [
+        "CL"
+      ],
+      "text": "{S_NAME:legal}, sociedad inscrita en el Registro de Comercio de {city} · {S_REG_ID} · Capital: {CAPITAL}"
+    },
+    {
+      "id": "footer.es.31",
+      "countries": [
+        "ES",
+        "MX",
+        "AR",
+        "CO",
+        "CL"
+      ],
+      "text": "{S_NAME:legal} · {S_ADDRESS} · {S_PHONE} · {S_EMAIL}"
+    },
+    {
+      "id": "footer.es.32",
+      "countries": [
+        "ES",
+        "MX",
+        "AR",
+        "CO",
+        "CL"
+      ],
+      "text": "{S_NAME} – {S_URL} – {S_EMAIL}"
+    }
   ],
   "invoice_notes": {
     "payment_terms": [
@@ -542,7 +1895,12 @@
     ]
   },
   "phrases": {
-    "page_x_of_y": ["Página {p} de {n}", "Pág. {p}/{n}", "Hoja {p} de {n}", "Página {p}/{n}"],
+    "page_x_of_y": [
+      "Página {p} de {n}",
+      "Pág. {p}/{n}",
+      "Hoja {p} de {n}",
+      "Página {p}/{n}"
+    ],
     "place_date": [
       "{city}, a {DOC_DATE}",
       "{city}, {DOC_DATE}",
@@ -575,7 +1933,14 @@
       "Nombre, firma y sello de la empresa",
       "Firma del cliente"
     ],
-    "amount_in_words_intro": ["Son:", "Importe en letra:", "Cantidad con letra:", "Valor en letras:", "SON:", "Total en letras:"]
+    "amount_in_words_intro": [
+      "Son:",
+      "Importe en letra:",
+      "Cantidad con letra:",
+      "Valor en letras:",
+      "SON:",
+      "Total en letras:"
+    ]
   },
   "letters": {
     "payment_reminder": {
@@ -595,7 +1960,11 @@
       ]
     },
     "quote_followup": {
-      "subject": ["Seguimiento de nuestro presupuesto", "Su cotización del {date}", "Propuesta enviada el {date}"],
+      "subject": [
+        "Seguimiento de nuestro presupuesto",
+        "Su cotización del {date}",
+        "Propuesta enviada el {date}"
+      ],
       "body": [
         "El pasado {date} les hicimos llegar nuestro presupuesto para {SERVICE}. Nos gustaría saber si han tenido ocasión de revisarlo.",
         "Quedamos a su disposición para resolver cualquier duda o ajustar la propuesta a las necesidades de {C_NAME}.",
@@ -606,7 +1975,11 @@
       ]
     },
     "price_change": {
-      "subject": ["Actualización de tarifas", "Nuevas tarifas a partir del {date}", "Comunicado: revisión de precios"],
+      "subject": [
+        "Actualización de tarifas",
+        "Nuevas tarifas a partir del {date}",
+        "Comunicado: revisión de precios"
+      ],
       "body": [
         "Les informamos de que, a partir del {date}, nuestras tarifas se incrementarán un {percent}.",
         "Esta revisión obedece al aumento de los costes de materias primas, energía y transporte registrado en los últimos meses.",
@@ -616,7 +1989,11 @@
       ]
     },
     "appointment": {
-      "subject": ["Confirmación de cita", "Propuesta de reunión – {date}", "Visita técnica programada"],
+      "subject": [
+        "Confirmación de cita",
+        "Propuesta de reunión – {date}",
+        "Visita técnica programada"
+      ],
       "body": [
         "Por medio de la presente les confirmamos la cita acordada para el {date} a las {time} en sus instalaciones.",
         "{person}, de nuestro equipo técnico, acudirá a la visita con la documentación necesaria.",
@@ -641,7 +2018,11 @@
       ]
     },
     "move": {
-      "subject": ["Nuevas instalaciones", "Cambio de domicilio", "Nos mudamos"],
+      "subject": [
+        "Nuevas instalaciones",
+        "Cambio de domicilio",
+        "Nos mudamos"
+      ],
       "body": [
         "Nos complace comunicarles que, a partir del {date}, nuestras oficinas se trasladan a una nueva dirección: {S_ADDRESS}.",
         "Los números de teléfono y las direcciones de correo no cambian: pueden seguir llamándonos al {S_PHONE}.",
@@ -651,7 +2032,11 @@
       ]
     },
     "new_service": {
-      "subject": ["Nuevo servicio: {SERVICE}", "Ampliamos nuestra oferta", "Le presentamos nuestras novedades"],
+      "subject": [
+        "Nuevo servicio: {SERVICE}",
+        "Ampliamos nuestra oferta",
+        "Le presentamos nuestras novedades"
+      ],
       "body": [
         "Nos complace presentarles la última incorporación a nuestro catálogo: {SERVICE}.",
         "Esta novedad completa nuestra gama actual, que ya incluye {SERVICE_LIST}.",
@@ -661,7 +2046,11 @@
       ]
     },
     "thanks": {
-      "subject": ["Gracias por su confianza", "Agradecimiento", "Gracias por elegirnos"],
+      "subject": [
+        "Gracias por su confianza",
+        "Agradecimiento",
+        "Gracias por elegirnos"
+      ],
       "body": [
         "Queremos agradecerles sinceramente la confianza depositada en {S_NAME} a lo largo de este año.",
         "Ha sido un placer colaborar con {C_NAME} y esperamos seguir haciéndolo en el futuro.",
@@ -671,7 +2060,11 @@
       ]
     },
     "order_to_supplier": {
-      "subject": ["Pedido n.º {order_no}", "Orden de compra {order_no}", "Solicitud de suministro"],
+      "subject": [
+        "Pedido n.º {order_no}",
+        "Orden de compra {order_no}",
+        "Solicitud de suministro"
+      ],
       "body": [
         "Por la presente les confirmamos nuestro pedido n.º {order_no}, conforme a su oferta del {date}.",
         "Les rogamos que nos suministren el material detallado en la hoja adjunta. Cantidad solicitada: {quantity}.",
@@ -698,7 +2091,11 @@
       ]
     },
     "order_from_client": {
-      "subject": ["Nuevo pedido", "Orden de compra n.º {order_no}", "Confirmación de pedido"],
+      "subject": [
+        "Nuevo pedido",
+        "Orden de compra n.º {order_no}",
+        "Confirmación de pedido"
+      ],
       "body": [
         "Les enviamos nuestra orden de compra n.º {order_no}, conforme a la cotización recibida el {date}.",
         "Les rogamos que nos suministren el material detallado en el anexo antes del {date}.",
@@ -709,7 +2106,11 @@
       ]
     },
     "complaint_from_client": {
-      "subject": ["Reclamación – pedido {order_no}", "Incidencia en la entrega del {date}", "Queja por retraso en el servicio"],
+      "subject": [
+        "Reclamación – pedido {order_no}",
+        "Incidencia en la entrega del {date}",
+        "Queja por retraso en el servicio"
+      ],
       "body": [
         "Nos ponemos en contacto con ustedes para comunicarles nuestro malestar por el retraso en la entrega del pedido {order_no}, prevista para el {date}.",
         "Al recibir la mercancía comprobamos que varias unidades presentaban desperfectos, por lo que no podemos aceptarlas.",
@@ -720,7 +2121,11 @@
       ]
     },
     "quote_request": {
-      "subject": ["Solicitud de presupuesto", "Petición de cotización", "Solicitud de oferta"],
+      "subject": [
+        "Solicitud de presupuesto",
+        "Petición de cotización",
+        "Solicitud de oferta"
+      ],
       "body": [
         "Estamos interesados en contratar sus servicios y les agradeceríamos que nos enviaran un presupuesto detallado.",
         "{S_NAME} está preparando la apertura de un nuevo centro en {city} y necesita contar con un proveedor de confianza.",
@@ -730,7 +2135,11 @@
       ]
     },
     "supplier_offer": {
-      "subject": ["Oferta especial para clientes profesionales", "Nuevo catálogo {year}", "Propuesta comercial"],
+      "subject": [
+        "Oferta especial para clientes profesionales",
+        "Nuevo catálogo {year}",
+        "Propuesta comercial"
+      ],
       "body": [
         "Nos complace presentarles nuestra nueva gama para profesionales, en la que destacan {SERVICE_LIST}.",
         "Hasta el {date}, ofrecemos a {C_NAME} un descuento del {percent} sobre la tarifa vigente.",
@@ -756,7 +2165,11 @@
       ]
     },
     "loan_offer": {
-      "subject": ["Propuesta de financiación para su empresa", "Préstamo preconcedido", "Línea de crédito para pymes"],
+      "subject": [
+        "Propuesta de financiación para su empresa",
+        "Préstamo preconcedido",
+        "Línea de crédito para pymes"
+      ],
       "body": [
         "{bank} tiene el placer de ofrecer a {C_NAME} un préstamo preconcedido de hasta {amount} en condiciones preferentes.",
         "El tipo de interés aplicable sería del {percent} nominal anual, con un plazo de amortización de hasta cinco años.",
@@ -781,7 +2194,11 @@
       ]
     },
     "registry_notice": {
-      "subject": ["Renovación de la matrícula mercantil", "Notificación de inscripción", "Depósito de cuentas anuales"],
+      "subject": [
+        "Renovación de la matrícula mercantil",
+        "Notificación de inscripción",
+        "Depósito de cuentas anuales"
+      ],
       "body": [
         "{other_org} le informa de que el plazo para depositar las cuentas anuales de {C_NAME} vence el {date}.",
         "Le recordamos que la renovación de la matrícula mercantil debe realizarse antes del {date} para evitar sanciones.",

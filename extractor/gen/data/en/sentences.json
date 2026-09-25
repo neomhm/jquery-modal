@@ -1,487 +1,1820 @@
 {
   "lang": "en",
   "activity": [
-    {"id": "activity.en.01", "text": "Principal activity: {ACTIVITY}"},
-    {"id": "activity.en.02", "text": "Nature of business: {ACTIVITY}"},
-    {"id": "activity.en.03", "text": "Main activity – {ACTIVITY}"},
-    {"id": "activity.en.04", "text": "What we do: {ACTIVITY}."},
-    {"id": "activity.en.05", "text": "Our core business is {ACTIVITY}."},
-    {"id": "activity.en.06", "text": "{S_NAME} specialises in {ACTIVITY}."},
-    {"id": "activity.en.07", "text": "Based in {city}, {S_NAME} specializes in {ACTIVITY}."},
-    {"id": "activity.en.08", "text": "The Company is engaged in the business of {ACTIVITY}."},
-    {"id": "activity.en.09", "text": "Line of business: {ACTIVITY}"},
-    {"id": "activity.en.10", "text": "The principal activity of the company continued to be that of {ACTIVITY}."},
-    {"id": "activity.en.11", "text": "Nature of business: {ACTIVITY_CODE} – {ACTIVITY}"},
-    {"id": "activity.en.12", "text": "Industry classification: {ACTIVITY_CODE} ({ACTIVITY})"},
-    {"id": "activity.en.13", "text": "We are a local business dedicated to {ACTIVITY}."},
-    {"id": "activity.en.14", "text": "Everything we do comes down to one thing: {ACTIVITY}."},
-    {"id": "activity.en.15", "text": "{S_NAME} – {ACTIVITY} in {city}"},
-    {"id": "activity.en.16", "text": "Our field of expertise is {ACTIVITY}."},
-    {"id": "activity.en.17", "text": "Primary business activity: {ACTIVITY}"},
-    {"id": "activity.en.18", "text": "For many years now, our focus has been {ACTIVITY}."},
-    {"id": "activity.en.19", "text": "Active since {FOUNDED} in the field of {ACTIVITY}."},
-    {"id": "activity.en.20", "text": "{S_NAME} is an independent business in {city}, working in {ACTIVITY}."},
-    {"id": "activity.en.21", "text": "Registered business activity: {ACTIVITY}"},
-    {"id": "activity.en.22", "text": "Our business in a nutshell: {ACTIVITY}."},
-    {"id": "activity.en.23", "text": "Known across {city} for {ACTIVITY}, {S_NAME} combines experience with a personal touch."},
-    {"id": "activity.en.24", "text": "The company's main line of business is {ACTIVITY}."},
-    {"id": "activity.en.25", "text": "Industry: {ACTIVITY}"},
-    {"id": "activity.en.26", "text": "As a business focused on {ACTIVITY}, we understand what our customers expect."},
-    {"id": "activity.en.27", "text": "We have worked in {ACTIVITY} for many years and know the trade inside out."},
-    {"id": "activity.en.28", "text": "Sector of activity – {ACTIVITY}"}
+    {
+      "id": "activity.en.01",
+      "text": "Principal activity: {ACTIVITY}"
+    },
+    {
+      "id": "activity.en.02",
+      "text": "Nature of business: {ACTIVITY}"
+    },
+    {
+      "id": "activity.en.03",
+      "text": "Main activity – {ACTIVITY}"
+    },
+    {
+      "id": "activity.en.04",
+      "text": "What we do: {ACTIVITY}."
+    },
+    {
+      "id": "activity.en.05",
+      "text": "Our core business is {ACTIVITY}."
+    },
+    {
+      "id": "activity.en.06",
+      "text": "{S_NAME} specialises in {ACTIVITY}."
+    },
+    {
+      "id": "activity.en.07",
+      "text": "Based in {city}, {S_NAME} specializes in {ACTIVITY}."
+    },
+    {
+      "id": "activity.en.08",
+      "text": "The Company is engaged in the business of {ACTIVITY}."
+    },
+    {
+      "id": "activity.en.09",
+      "text": "Line of business: {ACTIVITY}"
+    },
+    {
+      "id": "activity.en.10",
+      "text": "The principal activity of the company continued to be that of {ACTIVITY}."
+    },
+    {
+      "id": "activity.en.11",
+      "text": "Nature of business: {ACTIVITY_CODE} – {ACTIVITY}"
+    },
+    {
+      "id": "activity.en.12",
+      "text": "Industry classification: {ACTIVITY_CODE} ({ACTIVITY})"
+    },
+    {
+      "id": "activity.en.13",
+      "text": "We are a local business dedicated to {ACTIVITY}."
+    },
+    {
+      "id": "activity.en.14",
+      "text": "Everything we do comes down to one thing: {ACTIVITY}."
+    },
+    {
+      "id": "activity.en.15",
+      "text": "{S_NAME} – {ACTIVITY} in {city}"
+    },
+    {
+      "id": "activity.en.16",
+      "text": "Our field of expertise is {ACTIVITY}."
+    },
+    {
+      "id": "activity.en.17",
+      "text": "Primary business activity: {ACTIVITY}"
+    },
+    {
+      "id": "activity.en.18",
+      "text": "For many years now, our focus has been {ACTIVITY}."
+    },
+    {
+      "id": "activity.en.20",
+      "text": "{S_NAME} is an independent business in {city}, working in {ACTIVITY}."
+    },
+    {
+      "id": "activity.en.23",
+      "text": "Known across {city} for {ACTIVITY}, {S_NAME} combines experience with a personal touch."
+    },
+    {
+      "id": "activity.en.24",
+      "text": "The company's main line of business is {ACTIVITY}."
+    },
+    {
+      "id": "activity.en.25",
+      "text": "Industry: {ACTIVITY}"
+    },
+    {
+      "id": "activity.en.26",
+      "text": "As a business focused on {ACTIVITY}, we understand what our customers expect."
+    },
+    {
+      "id": "activity.en.27",
+      "text": "We have worked in {ACTIVITY} for many years and know the trade inside out."
+    },
+    {
+      "id": "activity.en.28",
+      "text": "Sector of activity – {ACTIVITY}"
+    }
   ],
   "founded": [
-    {"id": "founded.en.01", "text": "Established in {FOUNDED}, {S_NAME} has grown into a trusted name in {city}."},
-    {"id": "founded.en.02", "text": "Founded: {FOUNDED}"},
-    {"id": "founded.en.03", "text": "Est. {FOUNDED}"},
-    {"id": "founded.en.04", "text": "Since {FOUNDED}"},
-    {"id": "founded.en.05", "text": "Trading since {FOUNDED}."},
-    {"id": "founded.en.06", "text": "Date of incorporation: {FOUNDED:date}"},
-    {"id": "founded.en.07", "text": "Incorporated on {FOUNDED:date} · {S_REG_ID}"},
-    {"id": "founded.en.08", "text": "{S_NAME} was founded in {FOUNDED} in {city}."},
-    {"id": "founded.en.09", "text": "Our story began in {FOUNDED:month}, when we first opened our doors in {city}."},
-    {"id": "founded.en.10", "text": "Serving {city} since {FOUNDED}."},
-    {"id": "founded.en.11", "text": "Family-run since {FOUNDED}."},
-    {"id": "founded.en.12", "text": "In business since {FOUNDED}"},
-    {"id": "founded.en.13", "text": "Year of establishment: {FOUNDED}"},
-    {"id": "founded.en.14", "text": "Date of registration: {FOUNDED:date}"},
-    {"id": "founded.en.15", "text": "Date of commencement of business: {FOUNDED:date}"},
-    {"id": "founded.en.16", "text": "The company was incorporated on {FOUNDED:date} and has traded continuously ever since."},
-    {"id": "founded.en.17", "text": "{S_NAME} opened in {FOUNDED:month}."},
-    {"id": "founded.en.18", "text": "Year founded – {FOUNDED}"},
-    {"id": "founded.en.19", "text": "Founded in {FOUNDED}, the company is still independently owned."},
-    {"id": "founded.en.20", "text": "We first opened our doors in {FOUNDED}."},
-    {"id": "founded.en.21", "text": "It all started in {FOUNDED}, with a small team and a lot of determination."},
-    {"id": "founded.en.22", "text": "Incorporated in {FOUNDED}"},
-    {"id": "founded.en.23", "text": "Established {FOUNDED:date}"},
-    {"id": "founded.en.24", "text": "The business was registered in {FOUNDED:month} and began trading shortly afterwards."},
-    {"id": "founded.en.25", "text": "ABN status: Active from {FOUNDED:date}"},
-    {"id": "founded.en.26", "text": "Since its foundation in {FOUNDED}, {S_NAME} has put quality first."},
-    {"id": "founded.en.27", "text": "Founded in {FOUNDED} by {S_PERSON}, who still runs the business today."},
-    {"id": "founded.en.28", "text": "{FOUNDED} – the year it all began."},
-    {"id": "founded.en.29", "text": "When we started out in {FOUNDED:month}, we had little more than a good idea and plenty of energy."},
-    {"id": "founded.en.30", "text": "Our history goes back to {FOUNDED}, when the business was first registered in {city}."}
+    {
+      "id": "founded.en.01",
+      "text": "Established in {FOUNDED}, {S_NAME} has grown into a trusted name in {city}."
+    },
+    {
+      "id": "founded.en.02",
+      "text": "Founded: {FOUNDED}"
+    },
+    {
+      "id": "founded.en.03",
+      "text": "Est. {FOUNDED}"
+    },
+    {
+      "id": "founded.en.04",
+      "text": "Since {FOUNDED}"
+    },
+    {
+      "id": "founded.en.05",
+      "text": "Trading since {FOUNDED}."
+    },
+    {
+      "id": "founded.en.06",
+      "text": "Date of incorporation: {FOUNDED:date}"
+    },
+    {
+      "id": "founded.en.07",
+      "text": "Incorporated on {FOUNDED:date} · {S_REG_ID}"
+    },
+    {
+      "id": "founded.en.08",
+      "text": "{S_NAME} was founded in {FOUNDED} in {city}."
+    },
+    {
+      "id": "founded.en.09",
+      "text": "Our story began in {FOUNDED:month}, when we first opened our doors in {city}."
+    },
+    {
+      "id": "founded.en.10",
+      "text": "Serving {city} since {FOUNDED}."
+    },
+    {
+      "id": "founded.en.11",
+      "text": "Family-run since {FOUNDED}."
+    },
+    {
+      "id": "founded.en.12",
+      "text": "In business since {FOUNDED}"
+    },
+    {
+      "id": "founded.en.14",
+      "text": "Date of registration: {FOUNDED:date}"
+    },
+    {
+      "id": "founded.en.15",
+      "text": "Date of commencement of business: {FOUNDED:date}"
+    },
+    {
+      "id": "founded.en.16",
+      "text": "The company was incorporated on {FOUNDED:date} and has traded continuously ever since."
+    },
+    {
+      "id": "founded.en.17",
+      "text": "{S_NAME} opened in {FOUNDED:month}."
+    },
+    {
+      "id": "founded.en.18",
+      "text": "Year founded – {FOUNDED}"
+    },
+    {
+      "id": "founded.en.19",
+      "text": "Founded in {FOUNDED}, the company is still independently owned."
+    },
+    {
+      "id": "founded.en.20",
+      "text": "We first opened our doors in {FOUNDED}."
+    },
+    {
+      "id": "founded.en.21",
+      "text": "It all started in {FOUNDED}, with a small team and a lot of determination."
+    },
+    {
+      "id": "founded.en.24",
+      "text": "The business was registered in {FOUNDED:month} and began trading shortly afterwards."
+    },
+    {
+      "id": "founded.en.25",
+      "text": "ABN status: Active from {FOUNDED:date}"
+    },
+    {
+      "id": "founded.en.26",
+      "text": "Since its foundation in {FOUNDED}, {S_NAME} has put quality first."
+    },
+    {
+      "id": "founded.en.27",
+      "text": "Founded in {FOUNDED} by {S_PERSON}, who still runs the business today."
+    },
+    {
+      "id": "founded.en.28",
+      "text": "{FOUNDED} – the year it all began."
+    },
+    {
+      "id": "founded.en.29",
+      "text": "When we started out in {FOUNDED:month}, we had little more than a good idea and plenty of energy."
+    },
+    {
+      "id": "founded.en.30",
+      "text": "Our history goes back to {FOUNDED}, when the business was first registered in {city}."
+    }
   ],
   "staff": [
-    {"id": "staff.en.01", "text": "Employees: {STAFF}"},
-    {"id": "staff.en.02", "text": "Number of employees: {STAFF}"},
-    {"id": "staff.en.03", "text": "Headcount: {STAFF}"},
-    {"id": "staff.en.04", "text": "Staff: {STAFF}"},
-    {"id": "staff.en.05", "text": "Team size – {STAFF}"},
-    {"id": "staff.en.06", "text": "We currently have {STAFF} {staff_noun}."},
-    {"id": "staff.en.07", "text": "Today, {S_NAME} has a workforce of {STAFF} {staff_noun} in {city}."},
-    {"id": "staff.en.08", "text": "The company currently has {STAFF} {staff_noun} on its payroll."},
-    {"id": "staff.en.09", "text": "Our team is made up of {STAFF} {staff_noun}."},
-    {"id": "staff.en.10", "text": "With {STAFF} {staff_noun}, we are big enough to deliver and small enough to care."},
-    {"id": "staff.en.11", "text": "A dedicated team of {STAFF} {staff_noun} looks after every customer."},
-    {"id": "staff.en.12", "text": "Workforce: {STAFF} {staff_noun}"},
-    {"id": "staff.en.13", "text": "Average number of employees during the year: {STAFF}"},
-    {"id": "staff.en.14", "text": "The average monthly number of employees, including directors, during the year was {STAFF}."},
-    {"id": "staff.en.15", "text": "Total no. of employees: {STAFF}"},
-    {"id": "staff.en.16", "text": "{S_NAME} is a team of {STAFF} {staff_noun} based in {city}."},
-    {"id": "staff.en.17", "text": "We are proud to be a local employer, with {STAFF} {staff_noun} on our books."},
-    {"id": "staff.en.18", "text": "Behind every job stands our team of {STAFF} {staff_noun}."},
-    {"id": "staff.en.19", "text": "Employee strength: {STAFF}"},
-    {"id": "staff.en.20", "text": "Manpower: {STAFF}"},
-    {"id": "staff.en.21", "text": "The company has grown to {STAFF} {staff_noun}."},
-    {"id": "staff.en.22", "text": "Employees (full-time equivalent): {STAFF}"},
-    {"id": "staff.en.23", "text": "Current team: {STAFF} {staff_noun}"},
-    {"id": "staff.en.24", "text": "Staff strength – {STAFF}"},
-    {"id": "staff.en.25", "text": "Today the business provides work for {STAFF} {staff_noun}."},
-    {"id": "staff.en.26", "text": "Our workforce has grown steadily over the years and now stands at {STAFF} {staff_noun}."},
-    {"id": "staff.en.27", "text": "At {S_NAME}, a team of {STAFF} {staff_noun} works hard every day to get things right."},
-    {"id": "staff.en.28", "text": "No. of staff: {STAFF}"}
+    {
+      "id": "staff.en.01",
+      "text": "Employees: {STAFF}"
+    },
+    {
+      "id": "staff.en.02",
+      "text": "Number of employees: {STAFF}"
+    },
+    {
+      "id": "staff.en.03",
+      "text": "Headcount: {STAFF}"
+    },
+    {
+      "id": "staff.en.04",
+      "text": "Staff: {STAFF}"
+    },
+    {
+      "id": "staff.en.05",
+      "text": "Team size – {STAFF}"
+    },
+    {
+      "id": "staff.en.07",
+      "text": "Today, {S_NAME} has a workforce of {STAFF} {staff_noun} in {city}."
+    },
+    {
+      "id": "staff.en.08",
+      "text": "The company currently has {STAFF} {staff_noun} on its payroll."
+    },
+    {
+      "id": "staff.en.09",
+      "text": "Our team is made up of {STAFF} {staff_noun}."
+    },
+    {
+      "id": "staff.en.10",
+      "text": "With {STAFF} {staff_noun}, we are big enough to deliver and small enough to care."
+    },
+    {
+      "id": "staff.en.11",
+      "text": "A dedicated team of {STAFF} {staff_noun} looks after every customer."
+    },
+    {
+      "id": "staff.en.12",
+      "text": "Workforce: {STAFF} {staff_noun}"
+    },
+    {
+      "id": "staff.en.13",
+      "text": "Average number of employees during the year: {STAFF}"
+    },
+    {
+      "id": "staff.en.14",
+      "text": "The average monthly number of employees, including directors, during the year was {STAFF}."
+    },
+    {
+      "id": "staff.en.15",
+      "text": "Total no. of employees: {STAFF}"
+    },
+    {
+      "id": "staff.en.16",
+      "text": "{S_NAME} is a team of {STAFF} {staff_noun} based in {city}."
+    },
+    {
+      "id": "staff.en.17",
+      "text": "We are proud to be a local employer, with {STAFF} {staff_noun} on our books."
+    },
+    {
+      "id": "staff.en.18",
+      "text": "Behind every job stands our team of {STAFF} {staff_noun}."
+    },
+    {
+      "id": "staff.en.19",
+      "text": "Employee strength: {STAFF}"
+    },
+    {
+      "id": "staff.en.21",
+      "text": "The company has grown to {STAFF} {staff_noun}."
+    },
+    {
+      "id": "staff.en.22",
+      "text": "Employees (full-time equivalent): {STAFF}"
+    },
+    {
+      "id": "staff.en.23",
+      "text": "Current team: {STAFF} {staff_noun}"
+    },
+    {
+      "id": "staff.en.24",
+      "text": "Staff strength – {STAFF}"
+    },
+    {
+      "id": "staff.en.25",
+      "text": "Today the business provides work for {STAFF} {staff_noun}."
+    },
+    {
+      "id": "staff.en.26",
+      "text": "Our workforce has grown steadily over the years and now stands at {STAFF} {staff_noun}."
+    },
+    {
+      "id": "staff.en.27",
+      "text": "At {S_NAME}, a team of {STAFF} {staff_noun} works hard every day to get things right."
+    }
   ],
   "revenue": [
-    {"id": "revenue.en.01", "text": "Annual turnover: {REVENUE}"},
-    {"id": "revenue.en.02", "text": "Turnover {REVENUE_YEAR}: {REVENUE}"},
-    {"id": "revenue.en.03", "text": "Revenue ({REVENUE_YEAR}): {REVENUE}"},
-    {"id": "revenue.en.04", "text": "In {REVENUE_YEAR}, the company generated revenue of {REVENUE}."},
-    {"id": "revenue.en.05", "text": "{S_NAME} achieved a turnover of {REVENUE} in {REVENUE_YEAR}."},
-    {"id": "revenue.en.06", "text": "Sales for {REVENUE_YEAR} reached {REVENUE}."},
-    {"id": "revenue.en.07", "text": "Revenue grew from {REVENUE_PREV} in {REVENUE_YEAR_PREV} to {REVENUE} in {REVENUE_YEAR}."},
-    {"id": "revenue.en.08", "text": "Annual sales: {REVENUE} ({REVENUE_YEAR})"},
-    {"id": "revenue.en.09", "text": "Turnover for the year: {REVENUE}"},
-    {"id": "revenue.en.10", "text": "Total revenue for {REVENUE_YEAR} came to {REVENUE}, compared with {REVENUE_PREV} the year before."},
-    {"id": "revenue.en.11", "text": "Annual revenue – {REVENUE}"},
-    {"id": "revenue.en.12", "text": "Revenue from operations ({REVENUE_YEAR}): {REVENUE}"},
-    {"id": "revenue.en.13", "text": "Turnover (latest financial year): {REVENUE}"},
-    {"id": "revenue.en.14", "text": "With annual sales of {REVENUE}, {S_NAME} is one of the larger independent businesses in {city}."},
-    {"id": "revenue.en.15", "text": "Our turnover in {REVENUE_YEAR} was {REVENUE}."},
-    {"id": "revenue.en.16", "text": "Net sales {REVENUE_YEAR}: {REVENUE}"},
-    {"id": "revenue.en.17", "text": "The company reported revenues of {REVENUE} for {REVENUE_YEAR}."},
-    {"id": "revenue.en.18", "text": "Revenue: {REVENUE} · previous year: {REVENUE_PREV}"},
-    {"id": "revenue.en.19", "text": "Turnover increased to {REVENUE} in {REVENUE_YEAR}, up from {REVENUE_PREV} in {REVENUE_YEAR_PREV}."},
-    {"id": "revenue.en.20", "text": "Key figures {REVENUE_YEAR}: revenue {REVENUE}"},
-    {"id": "revenue.en.21", "text": "Turnover – {REVENUE_YEAR_PREV}: {REVENUE_PREV} | {REVENUE_YEAR}: {REVENUE}"},
-    {"id": "revenue.en.22", "text": "Our revenue for {REVENUE_YEAR} stood at {REVENUE}."},
-    {"id": "revenue.en.23", "text": "Turnover: {REVENUE}"},
-    {"id": "revenue.en.24", "text": "{S_NAME} posted sales of {REVENUE} in {REVENUE_YEAR}, its best year so far."},
-    {"id": "revenue.en.25", "text": "{REVENUE} in annual turnover ({REVENUE_YEAR})"},
-    {"id": "revenue.en.26", "text": "Gross annual revenue: {REVENUE}"},
-    {"id": "revenue.en.27", "text": "The business closed {REVENUE_YEAR} with a turnover of {REVENUE}."},
-    {"id": "revenue.en.28", "text": "Sales revenue, {REVENUE_YEAR}: {REVENUE}"}
+    {
+      "id": "revenue.en.01",
+      "text": "Annual turnover: {REVENUE}"
+    },
+    {
+      "id": "revenue.en.02",
+      "text": "Turnover {REVENUE_YEAR}: {REVENUE}"
+    },
+    {
+      "id": "revenue.en.03",
+      "text": "Revenue ({REVENUE_YEAR}): {REVENUE}"
+    },
+    {
+      "id": "revenue.en.04",
+      "text": "In {REVENUE_YEAR}, the company generated revenue of {REVENUE}."
+    },
+    {
+      "id": "revenue.en.06",
+      "text": "Sales for {REVENUE_YEAR} reached {REVENUE}."
+    },
+    {
+      "id": "revenue.en.08",
+      "text": "Annual sales: {REVENUE} ({REVENUE_YEAR})"
+    },
+    {
+      "id": "revenue.en.09",
+      "text": "Turnover for the year: {REVENUE}"
+    },
+    {
+      "id": "revenue.en.11",
+      "text": "Annual revenue – {REVENUE}"
+    },
+    {
+      "id": "revenue.en.12",
+      "text": "Revenue from operations ({REVENUE_YEAR}): {REVENUE}"
+    },
+    {
+      "id": "revenue.en.13",
+      "text": "Turnover (latest financial year): {REVENUE}"
+    },
+    {
+      "id": "revenue.en.14",
+      "text": "With annual sales of {REVENUE}, {S_NAME} is one of the larger independent businesses in {city}."
+    },
+    {
+      "id": "revenue.en.15",
+      "text": "Our turnover in {REVENUE_YEAR} was {REVENUE}."
+    },
+    {
+      "id": "revenue.en.16",
+      "text": "Net sales {REVENUE_YEAR}: {REVENUE}"
+    },
+    {
+      "id": "revenue.en.17",
+      "text": "The company reported revenues of {REVENUE} for {REVENUE_YEAR}."
+    },
+    {
+      "id": "revenue.en.18",
+      "text": "Revenue: {REVENUE} · previous year: {REVENUE_PREV}"
+    },
+    {
+      "id": "revenue.en.19",
+      "text": "Turnover increased to {REVENUE} in {REVENUE_YEAR}, up from {REVENUE_PREV} in {REVENUE_YEAR_PREV}."
+    },
+    {
+      "id": "revenue.en.20",
+      "text": "Key figures {REVENUE_YEAR}: revenue {REVENUE}"
+    },
+    {
+      "id": "revenue.en.21",
+      "text": "Turnover – {REVENUE_YEAR_PREV}: {REVENUE_PREV} | {REVENUE_YEAR}: {REVENUE}"
+    },
+    {
+      "id": "revenue.en.22",
+      "text": "Our revenue for {REVENUE_YEAR} stood at {REVENUE}."
+    },
+    {
+      "id": "revenue.en.23",
+      "text": "Turnover: {REVENUE}"
+    },
+    {
+      "id": "revenue.en.24",
+      "text": "{S_NAME} posted sales of {REVENUE} in {REVENUE_YEAR}, its best year so far."
+    },
+    {
+      "id": "revenue.en.25",
+      "text": "{REVENUE} in annual turnover ({REVENUE_YEAR})"
+    },
+    {
+      "id": "revenue.en.26",
+      "text": "Gross annual revenue: {REVENUE}"
+    },
+    {
+      "id": "revenue.en.27",
+      "text": "The business closed {REVENUE_YEAR} with a turnover of {REVENUE}."
+    },
+    {
+      "id": "revenue.en.28",
+      "text": "Sales revenue, {REVENUE_YEAR}: {REVENUE}"
+    }
   ],
   "services_intro": [
-    {"id": "services_intro.en.01", "text": "Our services: {SERVICE_LIST}."},
-    {"id": "services_intro.en.02", "text": "We offer {SERVICE_LIST}."},
-    {"id": "services_intro.en.03", "text": "Services include {SERVICE_LIST}."},
-    {"id": "services_intro.en.04", "text": "What we can do for you: {SERVICE_LIST}."},
-    {"id": "services_intro.en.05", "text": "Customer favourite: {SERVICE}."},
-    {"id": "services_intro.en.06", "text": "Ask us about {SERVICE}."},
-    {"id": "services_intro.en.07", "text": "New this season: {SERVICE}."},
-    {"id": "services_intro.en.08", "text": "Our range covers {SERVICE_LIST}, all at fair prices."},
-    {"id": "services_intro.en.09", "text": "Services we provide – {SERVICE_LIST}"},
-    {"id": "services_intro.en.10", "text": "Products & services: {SERVICE_LIST}"},
-    {"id": "services_intro.en.11", "text": "Among our best sellers: {SERVICE}."},
-    {"id": "services_intro.en.12", "text": "Our service portfolio: {SERVICE_LIST}"},
-    {"id": "services_intro.en.13", "text": "We provide {SERVICE_LIST} for customers across {city}."},
-    {"id": "services_intro.en.14", "text": "Book now: {SERVICE}."},
-    {"id": "services_intro.en.15", "text": "Our full range includes {SERVICE_LIST} and much more."},
-    {"id": "services_intro.en.16", "text": "Also available: {SERVICE}."},
-    {"id": "services_intro.en.17", "text": "We are happy to quote for {SERVICE_LIST}."},
-    {"id": "services_intro.en.18", "text": "Services offered: {SERVICE_LIST}"},
-    {"id": "services_intro.en.19", "text": "{S_NAME} provides {SERVICE_LIST}."},
-    {"id": "services_intro.en.20", "text": "In our range you will find {SERVICE_LIST}."},
-    {"id": "services_intro.en.21", "text": "Popular with our customers: {SERVICE}."},
-    {"id": "services_intro.en.22", "text": "Main products/services: {SERVICE_LIST}"},
-    {"id": "services_intro.en.23", "text": "Now available in {city}: {SERVICE}."},
-    {"id": "services_intro.en.24", "text": "All from a single provider: {SERVICE_LIST}."},
-    {"id": "services_intro.en.25", "text": "Whether you need {SERVICE} or something more specific, we are here to help."},
-    {"id": "services_intro.en.26", "text": "Our offer at a glance: {SERVICE_LIST}."},
-    {"id": "services_intro.en.27", "text": "We deal in {SERVICE_LIST}."},
-    {"id": "services_intro.en.28", "text": "Our team can take care of {SERVICE_LIST} – quickly and at a fair price."}
+    {
+      "id": "services_intro.en.01",
+      "text": "Our services: {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.en.02",
+      "text": "We offer {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.en.04",
+      "text": "What we can do for you: {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.en.05",
+      "text": "Customer favourite: {SERVICE}."
+    },
+    {
+      "id": "services_intro.en.06",
+      "text": "Ask us about {SERVICE}."
+    },
+    {
+      "id": "services_intro.en.07",
+      "text": "New this season: {SERVICE}."
+    },
+    {
+      "id": "services_intro.en.08",
+      "text": "Our range covers {SERVICE_LIST}, all at fair prices."
+    },
+    {
+      "id": "services_intro.en.09",
+      "text": "Services we provide – {SERVICE_LIST}"
+    },
+    {
+      "id": "services_intro.en.10",
+      "text": "Products & services: {SERVICE_LIST}"
+    },
+    {
+      "id": "services_intro.en.11",
+      "text": "Among our best sellers: {SERVICE}."
+    },
+    {
+      "id": "services_intro.en.12",
+      "text": "Our service portfolio: {SERVICE_LIST}"
+    },
+    {
+      "id": "services_intro.en.13",
+      "text": "We provide {SERVICE_LIST} for customers across {city}."
+    },
+    {
+      "id": "services_intro.en.14",
+      "text": "Book now: {SERVICE}."
+    },
+    {
+      "id": "services_intro.en.15",
+      "text": "Our full range includes {SERVICE_LIST} and much more."
+    },
+    {
+      "id": "services_intro.en.17",
+      "text": "We are happy to quote for {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.en.18",
+      "text": "Services offered: {SERVICE_LIST}"
+    },
+    {
+      "id": "services_intro.en.19",
+      "text": "{S_NAME} provides {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.en.20",
+      "text": "In our range you will find {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.en.21",
+      "text": "Popular with our customers: {SERVICE}."
+    },
+    {
+      "id": "services_intro.en.22",
+      "text": "Main products/services: {SERVICE_LIST}"
+    },
+    {
+      "id": "services_intro.en.23",
+      "text": "Now available in {city}: {SERVICE}."
+    },
+    {
+      "id": "services_intro.en.24",
+      "text": "All from a single provider: {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.en.25",
+      "text": "Whether you need {SERVICE} or something more specific, we are here to help."
+    },
+    {
+      "id": "services_intro.en.27",
+      "text": "We deal in {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.en.28",
+      "text": "Our team can take care of {SERVICE_LIST} – quickly and at a fair price."
+    }
   ],
   "clients": [
-    {"id": "clients.en.01", "text": "Our clients include {C_NAME_LIST}."},
-    {"id": "clients.en.02", "text": "Selected clients: {C_NAME_LIST}"},
-    {"id": "clients.en.03", "text": "Trusted by {C_NAME_LIST}."},
-    {"id": "clients.en.04", "text": "We are proud to work with {C_NAME_LIST}."},
-    {"id": "clients.en.05", "text": "References: {C_NAME_LIST}"},
-    {"id": "clients.en.06", "text": "Recent work includes projects for {C_NAME} and {C_NAME}."},
-    {"id": "clients.en.07", "text": "Among our long-standing customers are {C_NAME_LIST}."},
-    {"id": "clients.en.08", "text": "Case study: {C_NAME}"},
-    {"id": "clients.en.09", "text": "{C_NAME} has relied on us for many years."},
-    {"id": "clients.en.10", "text": "Key accounts: {C_NAME_LIST}"},
-    {"id": "clients.en.11", "text": "We have worked with organisations such as {C_NAME_LIST}."},
-    {"id": "clients.en.12", "text": "Clients who trust us: {C_NAME_LIST}"},
-    {"id": "clients.en.13", "text": "Our customers range from small local firms to {C_NAME}."},
-    {"id": "clients.en.14", "text": "Some of the organizations we serve: {C_NAME_LIST}."},
-    {"id": "clients.en.15", "text": "We supply {C_NAME} on a weekly basis."},
-    {"id": "clients.en.16", "text": "Proud supplier to {C_NAME_LIST}."},
-    {"id": "clients.en.17", "text": "Our portfolio includes work for {C_NAME_LIST}."},
-    {"id": "clients.en.18", "text": "Past clients include {C_NAME_LIST}."},
-    {"id": "clients.en.19", "text": "{C_NAME} has been a client of ours for more than a decade."},
-    {"id": "clients.en.20", "text": "Our major clients: {C_NAME_LIST}"},
-    {"id": "clients.en.21", "text": "Our prestigious clients include {C_NAME_LIST}."},
-    {"id": "clients.en.22", "text": "We count {C_NAME_LIST} among our customers."},
-    {"id": "clients.en.23", "text": "Client list (extract): {C_NAME_LIST}"},
-    {"id": "clients.en.24", "text": "Customers such as {C_NAME_LIST} rely on our work every day."},
-    {"id": "clients.en.25", "text": "{C_NAME_LIST} – just some of the organisations that rely on us."},
-    {"id": "clients.en.26", "text": "Latest project: completed for {C_NAME} in {city}."},
-    {"id": "clients.en.27", "text": "We are delighted to have been chosen by {C_NAME} as its preferred provider."},
-    {"id": "clients.en.28", "text": "A big thank you to {C_NAME} for choosing us again this year."}
+    {
+      "id": "clients.en.01",
+      "text": "Our clients include {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.en.02",
+      "text": "Selected clients: {C_NAME_LIST}"
+    },
+    {
+      "id": "clients.en.03",
+      "text": "Trusted by {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.en.04",
+      "text": "We are proud to work with {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.en.06",
+      "text": "Recent work includes projects for {C_NAME} and {C_NAME}."
+    },
+    {
+      "id": "clients.en.07",
+      "text": "Among our long-standing customers are {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.en.08",
+      "text": "Case study: {C_NAME}"
+    },
+    {
+      "id": "clients.en.10",
+      "text": "Key accounts: {C_NAME_LIST}"
+    },
+    {
+      "id": "clients.en.11",
+      "text": "We have worked with organisations such as {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.en.12",
+      "text": "Clients who trust us: {C_NAME_LIST}"
+    },
+    {
+      "id": "clients.en.13",
+      "text": "Our customers range from small local firms to {C_NAME}."
+    },
+    {
+      "id": "clients.en.14",
+      "text": "Some of the organizations we serve: {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.en.15",
+      "text": "We supply {C_NAME} on a weekly basis."
+    },
+    {
+      "id": "clients.en.16",
+      "text": "Proud supplier to {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.en.17",
+      "text": "Our portfolio includes work for {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.en.19",
+      "text": "{C_NAME} has been a client of ours for more than a decade."
+    },
+    {
+      "id": "clients.en.20",
+      "text": "Our major clients: {C_NAME_LIST}"
+    },
+    {
+      "id": "clients.en.21",
+      "text": "Our prestigious clients include {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.en.22",
+      "text": "We count {C_NAME_LIST} among our customers."
+    },
+    {
+      "id": "clients.en.23",
+      "text": "Client list (extract): {C_NAME_LIST}"
+    },
+    {
+      "id": "clients.en.24",
+      "text": "Customers such as {C_NAME_LIST} rely on our work every day."
+    },
+    {
+      "id": "clients.en.25",
+      "text": "{C_NAME_LIST} – just some of the organisations that rely on us."
+    },
+    {
+      "id": "clients.en.26",
+      "text": "Latest project: completed for {C_NAME} in {city}."
+    },
+    {
+      "id": "clients.en.27",
+      "text": "We are delighted to have been chosen by {C_NAME} as its preferred provider."
+    },
+    {
+      "id": "clients.en.28",
+      "text": "A big thank you to {C_NAME} for choosing us again this year."
+    }
   ],
   "hours": [
-    {"id": "hours.en.01", "text": "Opening hours: {HOURS}"},
-    {"id": "hours.en.02", "text": "Open {HOURS}"},
-    {"id": "hours.en.03", "text": "Business hours: {HOURS}"},
-    {"id": "hours.en.04", "text": "Trading hours: {HOURS}"},
-    {"id": "hours.en.05", "text": "Office hours: {HOURS}"},
-    {"id": "hours.en.06", "text": "We are open {HOURS:prose}."},
-    {"id": "hours.en.07", "text": "Our doors are open {HOURS:prose}."},
-    {"id": "hours.en.08", "text": "Our team is available {HOURS:prose}."},
-    {"id": "hours.en.09", "text": "Hours: {HOURS}"},
-    {"id": "hours.en.10", "text": "Visit us {HOURS:prose}."},
-    {"id": "hours.en.11", "text": "Store hours: {HOURS}"},
-    {"id": "hours.en.12", "text": "Timings: {HOURS}"},
-    {"id": "hours.en.13", "text": "Working hours: {HOURS}"},
-    {"id": "hours.en.14", "text": "Opening times: {HOURS}"},
-    {"id": "hours.en.15", "text": "Come and see us – we're open {HOURS:prose}."},
-    {"id": "hours.en.16", "text": "When to find us: {HOURS}"},
-    {"id": "hours.en.17", "text": "Reception is staffed {HOURS:prose}."},
-    {"id": "hours.en.18", "text": "Customer service hours: {HOURS}"},
-    {"id": "hours.en.19", "text": "Our phone lines are open {HOURS:prose}."},
-    {"id": "hours.en.20", "text": "Walk-ins welcome {HOURS:prose}."},
-    {"id": "hours.en.21", "text": "You are welcome to drop in {HOURS:prose}."},
-    {"id": "hours.en.22", "text": "We welcome customers {HOURS:prose}."},
-    {"id": "hours.en.23", "text": "Our opening hours are {HOURS:prose}."},
-    {"id": "hours.en.24", "text": "Hours of business: {HOURS}"},
-    {"id": "hours.en.25", "text": "{HOURS} – we look forward to your visit."},
-    {"id": "hours.en.26", "text": "You can reach us {HOURS:prose}."},
-    {"id": "hours.en.27", "text": "Opening hours ({city}): {HOURS}"},
-    {"id": "hours.en.28", "text": "We are available by phone and in person {HOURS:prose}."}
+    {
+      "id": "hours.en.01",
+      "text": "Opening hours: {HOURS}"
+    },
+    {
+      "id": "hours.en.02",
+      "text": "Open {HOURS}"
+    },
+    {
+      "id": "hours.en.03",
+      "text": "Business hours: {HOURS}"
+    },
+    {
+      "id": "hours.en.04",
+      "text": "Trading hours: {HOURS}"
+    },
+    {
+      "id": "hours.en.05",
+      "text": "Office hours: {HOURS}"
+    },
+    {
+      "id": "hours.en.06",
+      "text": "We are open {HOURS:prose}."
+    },
+    {
+      "id": "hours.en.07",
+      "text": "Our doors are open {HOURS:prose}."
+    },
+    {
+      "id": "hours.en.08",
+      "text": "Our team is available {HOURS:prose}."
+    },
+    {
+      "id": "hours.en.10",
+      "text": "Visit us {HOURS:prose}."
+    },
+    {
+      "id": "hours.en.11",
+      "text": "Store hours: {HOURS}"
+    },
+    {
+      "id": "hours.en.12",
+      "text": "Timings: {HOURS}"
+    },
+    {
+      "id": "hours.en.13",
+      "text": "Working hours: {HOURS}"
+    },
+    {
+      "id": "hours.en.14",
+      "text": "Opening times: {HOURS}"
+    },
+    {
+      "id": "hours.en.15",
+      "text": "Come and see us – we're open {HOURS:prose}."
+    },
+    {
+      "id": "hours.en.16",
+      "text": "When to find us: {HOURS}"
+    },
+    {
+      "id": "hours.en.17",
+      "text": "Reception is staffed {HOURS:prose}."
+    },
+    {
+      "id": "hours.en.18",
+      "text": "Customer service hours: {HOURS}"
+    },
+    {
+      "id": "hours.en.19",
+      "text": "Our phone lines are open {HOURS:prose}."
+    },
+    {
+      "id": "hours.en.20",
+      "text": "Walk-ins welcome {HOURS:prose}."
+    },
+    {
+      "id": "hours.en.21",
+      "text": "You are welcome to drop in {HOURS:prose}."
+    },
+    {
+      "id": "hours.en.22",
+      "text": "We welcome customers {HOURS:prose}."
+    },
+    {
+      "id": "hours.en.24",
+      "text": "Hours of business: {HOURS}"
+    },
+    {
+      "id": "hours.en.25",
+      "text": "{HOURS} – we look forward to your visit."
+    },
+    {
+      "id": "hours.en.26",
+      "text": "You can reach us {HOURS:prose}."
+    },
+    {
+      "id": "hours.en.27",
+      "text": "Opening hours ({city}): {HOURS}"
+    }
   ],
   "certifications": [
-    {"id": "certifications.en.01", "text": "Certifications: {CERT_LIST}"},
-    {"id": "certifications.en.02", "text": "Accreditations: {CERT_LIST}"},
-    {"id": "certifications.en.03", "text": "Accredited: {CERT}"},
-    {"id": "certifications.en.04", "text": "Our quality credentials include {CERT_LIST}."},
-    {"id": "certifications.en.05", "text": "We are proud to hold {CERT}."},
-    {"id": "certifications.en.06", "text": "Memberships and accreditations: {CERT_LIST}"},
-    {"id": "certifications.en.07", "text": "Awards & certifications – {CERT_LIST}"},
-    {"id": "certifications.en.08", "text": "Quality you can trust: {CERT}."},
-    {"id": "certifications.en.09", "text": "{S_NAME} holds the following accreditations and memberships: {CERT_LIST}."},
-    {"id": "certifications.en.10", "text": "Credentials: {CERT_LIST}"},
-    {"id": "certifications.en.11", "text": "Accreditation held: {CERT}"},
-    {"id": "certifications.en.12", "text": "Fully accredited – {CERT_LIST}."},
-    {"id": "certifications.en.13", "text": "Certified quality: {CERT_LIST}"},
-    {"id": "certifications.en.14", "text": "Our commitment to quality has been recognised with {CERT}."},
-    {"id": "certifications.en.15", "text": "Registrations and approvals: {CERT_LIST}"},
-    {"id": "certifications.en.16", "text": "Standards and certifications: {CERT_LIST}"},
-    {"id": "certifications.en.17", "text": "In recognition of our work, we have been awarded {CERT}."},
-    {"id": "certifications.en.18", "text": "{CERT} – an independent mark of quality we are proud to carry."},
-    {"id": "certifications.en.19", "text": "Quality marks held by {S_NAME}: {CERT_LIST}"},
-    {"id": "certifications.en.20", "text": "All our work is backed by {CERT}."},
-    {"id": "certifications.en.21", "text": "Certificates: {CERT_LIST}"},
-    {"id": "certifications.en.22", "text": "Approvals: {CERT_LIST}"},
-    {"id": "certifications.en.23", "text": "As holders of {CERT}, we follow strict standards in everything we do."},
-    {"id": "certifications.en.24", "text": "Our certifications ({CERT_LIST}) are audited and renewed regularly."},
-    {"id": "certifications.en.25", "text": "Awards & recognitions: {CERT_LIST}"},
-    {"id": "certifications.en.26", "text": "Recognized for excellence: {CERT}."},
-    {"id": "certifications.en.27", "text": "Customers can check our credentials at any time – we hold {CERT_LIST}."},
-    {"id": "certifications.en.28", "text": "Quality standards met: {CERT_LIST}"}
+    {
+      "id": "certifications.en.01",
+      "text": "Certifications: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.en.02",
+      "text": "Accreditations: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.en.04",
+      "text": "Our quality credentials include {CERT_LIST}."
+    },
+    {
+      "id": "certifications.en.06",
+      "text": "Memberships and accreditations: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.en.07",
+      "text": "Awards & certifications – {CERT_LIST}"
+    },
+    {
+      "id": "certifications.en.09",
+      "text": "{S_NAME} holds the following accreditations and memberships: {CERT_LIST}."
+    },
+    {
+      "id": "certifications.en.10",
+      "text": "Credentials: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.en.11",
+      "text": "Accreditation held: {CERT}"
+    },
+    {
+      "id": "certifications.en.12",
+      "text": "Fully accredited – {CERT_LIST}."
+    },
+    {
+      "id": "certifications.en.13",
+      "text": "Certified quality: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.en.14",
+      "text": "Our commitment to quality has been recognised with {CERT}."
+    },
+    {
+      "id": "certifications.en.15",
+      "text": "Registrations and approvals: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.en.16",
+      "text": "Standards and certifications: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.en.17",
+      "text": "In recognition of our work, we have been awarded {CERT}."
+    },
+    {
+      "id": "certifications.en.18",
+      "text": "{CERT} – an independent mark of quality we are proud to carry."
+    },
+    {
+      "id": "certifications.en.19",
+      "text": "Quality marks held by {S_NAME}: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.en.20",
+      "text": "All our work is backed by {CERT}."
+    },
+    {
+      "id": "certifications.en.21",
+      "text": "Certificates: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.en.22",
+      "text": "Approvals: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.en.23",
+      "text": "As holders of {CERT}, we follow strict standards in everything we do."
+    },
+    {
+      "id": "certifications.en.24",
+      "text": "Our certifications ({CERT_LIST}) are audited and renewed regularly."
+    },
+    {
+      "id": "certifications.en.25",
+      "text": "Awards & recognitions: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.en.26",
+      "text": "Recognized for excellence: {CERT}."
+    },
+    {
+      "id": "certifications.en.27",
+      "text": "Customers can check our credentials at any time – we hold {CERT_LIST}."
+    },
+    {
+      "id": "certifications.en.28",
+      "text": "Quality standards met: {CERT_LIST}"
+    }
   ],
   "location": [
-    {"id": "location.en.01", "text": "Address: {S_ADDRESS}"},
-    {"id": "location.en.02", "text": "Head office: {S_ADDRESS}"},
-    {"id": "location.en.03", "text": "Registered office: {S_ADDRESS}"},
-    {"id": "location.en.04", "text": "Visit us at {S_ADDRESS}."},
-    {"id": "location.en.05", "text": "Tel: {S_PHONE}"},
-    {"id": "location.en.06", "text": "Call us on {S_PHONE}."},
-    {"id": "location.en.07", "text": "Call us at {S_PHONE}."},
-    {"id": "location.en.08", "text": "Email: {S_EMAIL}"},
-    {"id": "location.en.09", "text": "Write to us at {S_EMAIL}."},
-    {"id": "location.en.10", "text": "Web: {S_URL}"},
-    {"id": "location.en.11", "text": "More information at {S_URL}."},
-    {"id": "location.en.12", "text": "Follow us: {S_URL}"},
-    {"id": "location.en.13", "text": "Phone {S_PHONE} · Email {S_EMAIL}"},
-    {"id": "location.en.14", "text": "Find us at {S_ADDRESS} – parking available nearby."},
-    {"id": "location.en.15", "text": "Our offices are located at {S_ADDRESS}."},
-    {"id": "location.en.16", "text": "For enquiries, call {S_PHONE} or email {S_EMAIL}."},
-    {"id": "location.en.17", "text": "Book online at {S_URL} or call {S_PHONE}."},
-    {"id": "location.en.18", "text": "Regd. Office: {S_ADDRESS}"},
-    {"id": "location.en.19", "text": "Corporate Office: {S_ADDRESS}"},
-    {"id": "location.en.20", "text": "Mobile: {S_PHONE}"},
-    {"id": "location.en.21", "text": "Contact No.: {S_PHONE}"},
-    {"id": "location.en.22", "text": "WhatsApp: {S_PHONE}"},
-    {"id": "location.en.23", "text": "Mailing address: {S_ADDRESS}"},
-    {"id": "location.en.24", "text": "Postal address: {S_ADDRESS}"},
-    {"id": "location.en.25", "text": "Send your questions to {S_EMAIL} and we will reply within one working day."},
-    {"id": "location.en.26", "text": "You will find us at {S_ADDRESS}, a short walk from the centre."},
-    {"id": "location.en.27", "text": "Online: {S_URL} | Phone: {S_PHONE}"},
-    {"id": "location.en.28", "text": "Get in touch: {S_EMAIL}"},
-    {"id": "location.en.29", "text": "Customer care: {S_PHONE}"},
-    {"id": "location.en.30", "text": "{S_ADDRESS} – that is where you will find us."},
-    {"id": "location.en.31", "text": "Sales inquiries: {S_EMAIL}"}
+    {
+      "id": "location.en.02",
+      "text": "Head office: {S_ADDRESS}"
+    },
+    {
+      "id": "location.en.03",
+      "text": "Registered office: {S_ADDRESS}"
+    },
+    {
+      "id": "location.en.04",
+      "text": "Visit us at {S_ADDRESS}."
+    },
+    {
+      "id": "location.en.05",
+      "text": "Tel: {S_PHONE}"
+    },
+    {
+      "id": "location.en.06",
+      "text": "Call us on {S_PHONE}."
+    },
+    {
+      "id": "location.en.07",
+      "text": "Call us at {S_PHONE}."
+    },
+    {
+      "id": "location.en.08",
+      "text": "Email: {S_EMAIL}"
+    },
+    {
+      "id": "location.en.09",
+      "text": "Write to us at {S_EMAIL}."
+    },
+    {
+      "id": "location.en.10",
+      "text": "Web: {S_URL}"
+    },
+    {
+      "id": "location.en.11",
+      "text": "More information at {S_URL}."
+    },
+    {
+      "id": "location.en.12",
+      "text": "Follow us: {S_URL}"
+    },
+    {
+      "id": "location.en.13",
+      "text": "Phone {S_PHONE} · Email {S_EMAIL}"
+    },
+    {
+      "id": "location.en.14",
+      "text": "Find us at {S_ADDRESS} – parking available nearby."
+    },
+    {
+      "id": "location.en.15",
+      "text": "Our offices are located at {S_ADDRESS}."
+    },
+    {
+      "id": "location.en.16",
+      "text": "For enquiries, call {S_PHONE} or email {S_EMAIL}."
+    },
+    {
+      "id": "location.en.17",
+      "text": "Book online at {S_URL} or call {S_PHONE}."
+    },
+    {
+      "id": "location.en.18",
+      "text": "Regd. Office: {S_ADDRESS}"
+    },
+    {
+      "id": "location.en.19",
+      "text": "Corporate Office: {S_ADDRESS}"
+    },
+    {
+      "id": "location.en.20",
+      "text": "Mobile: {S_PHONE}"
+    },
+    {
+      "id": "location.en.21",
+      "text": "Contact No.: {S_PHONE}"
+    },
+    {
+      "id": "location.en.23",
+      "text": "Mailing address: {S_ADDRESS}"
+    },
+    {
+      "id": "location.en.24",
+      "text": "Postal address: {S_ADDRESS}"
+    },
+    {
+      "id": "location.en.25",
+      "text": "Send your questions to {S_EMAIL} and we will reply within one working day."
+    },
+    {
+      "id": "location.en.26",
+      "text": "You will find us at {S_ADDRESS}, a short walk from the centre."
+    },
+    {
+      "id": "location.en.27",
+      "text": "Online: {S_URL} | Phone: {S_PHONE}"
+    },
+    {
+      "id": "location.en.28",
+      "text": "Get in touch: {S_EMAIL}"
+    },
+    {
+      "id": "location.en.30",
+      "text": "{S_ADDRESS} – that is where you will find us."
+    },
+    {
+      "id": "location.en.31",
+      "text": "Sales inquiries: {S_EMAIL}"
+    }
   ],
   "capital": [
-    {"id": "capital.en.01", "text": "Share capital: {CAPITAL}"},
-    {"id": "capital.en.02", "text": "Issued share capital: {CAPITAL}"},
-    {"id": "capital.en.03", "text": "Paid-up capital: {CAPITAL}"},
-    {"id": "capital.en.04", "text": "Paid-up share capital – {CAPITAL}"},
-    {"id": "capital.en.05", "text": "The company has an issued share capital of {CAPITAL}."},
-    {"id": "capital.en.06", "text": "{S_NAME} has a fully paid-up share capital of {CAPITAL}."},
-    {"id": "capital.en.07", "text": "Capital: {CAPITAL} (fully paid)"},
-    {"id": "capital.en.08", "text": "Total share capital issued: {CAPITAL}"},
-    {"id": "capital.en.09", "text": "Share capital – {CAPITAL}, fully subscribed and paid"},
-    {"id": "capital.en.10", "text": "With a paid-up capital of {CAPITAL}, the company is well placed to take on large contracts."},
-    {"id": "capital.en.11", "text": "Our paid-up capital stands at {CAPITAL}."},
-    {"id": "capital.en.12", "text": "The subscribed and paid-up capital of the Company is {CAPITAL}."},
-    {"id": "capital.en.13", "text": "Stated capital: {CAPITAL}"},
-    {"id": "capital.en.14", "text": "Share capital (issued and fully paid): {CAPITAL}"},
-    {"id": "capital.en.15", "text": "{S_NAME:legal} – share capital {CAPITAL}"},
-    {"id": "capital.en.16", "text": "Issued capital: {CAPITAL}"},
-    {"id": "capital.en.17", "text": "Paid-up capital as per the latest filing: {CAPITAL}"},
-    {"id": "capital.en.18", "text": "The company's share capital amounts to {CAPITAL}."},
-    {"id": "capital.en.19", "text": "Share capital ........ {CAPITAL}"},
-    {"id": "capital.en.20", "text": "Share capital of {CAPITAL}, divided into ordinary shares."},
-    {"id": "capital.en.21", "text": "Capital (paid up): {CAPITAL}"},
-    {"id": "capital.en.22", "text": "Issued and paid-up share capital amounts to {CAPITAL}."},
-    {"id": "capital.en.23", "text": "The business is backed by a paid-up capital of {CAPITAL}."},
-    {"id": "capital.en.24", "text": "Equity share capital: {CAPITAL}"},
-    {"id": "capital.en.25", "text": "Share capital: {CAPITAL} · Legal form: {LEGAL_FORM}"},
-    {"id": "capital.en.26", "text": "{S_NAME} operates with an issued capital of {CAPITAL}."}
+    {
+      "id": "capital.en.01",
+      "text": "Share capital: {CAPITAL}"
+    },
+    {
+      "id": "capital.en.02",
+      "text": "Issued share capital: {CAPITAL}"
+    },
+    {
+      "id": "capital.en.03",
+      "text": "Paid-up capital: {CAPITAL}"
+    },
+    {
+      "id": "capital.en.04",
+      "text": "Paid-up share capital – {CAPITAL}"
+    },
+    {
+      "id": "capital.en.05",
+      "text": "The company has an issued share capital of {CAPITAL}."
+    },
+    {
+      "id": "capital.en.07",
+      "text": "Capital: {CAPITAL} (fully paid)"
+    },
+    {
+      "id": "capital.en.08",
+      "text": "Total share capital issued: {CAPITAL}"
+    },
+    {
+      "id": "capital.en.11",
+      "text": "Our paid-up capital stands at {CAPITAL}."
+    },
+    {
+      "id": "capital.en.12",
+      "text": "The subscribed and paid-up capital of the Company is {CAPITAL}."
+    },
+    {
+      "id": "capital.en.13",
+      "text": "Stated capital: {CAPITAL}"
+    },
+    {
+      "id": "capital.en.14",
+      "text": "Share capital (issued and fully paid): {CAPITAL}"
+    },
+    {
+      "id": "capital.en.15",
+      "text": "{S_NAME:legal} – share capital {CAPITAL}"
+    },
+    {
+      "id": "capital.en.16",
+      "text": "Issued capital: {CAPITAL}"
+    },
+    {
+      "id": "capital.en.17",
+      "text": "Paid-up capital as per the latest filing: {CAPITAL}"
+    },
+    {
+      "id": "capital.en.18",
+      "text": "The company's share capital amounts to {CAPITAL}."
+    },
+    {
+      "id": "capital.en.19",
+      "text": "Share capital ........ {CAPITAL}"
+    },
+    {
+      "id": "capital.en.20",
+      "text": "Share capital of {CAPITAL}, divided into ordinary shares."
+    },
+    {
+      "id": "capital.en.21",
+      "text": "Capital (paid up): {CAPITAL}"
+    },
+    {
+      "id": "capital.en.22",
+      "text": "Issued and paid-up share capital amounts to {CAPITAL}."
+    },
+    {
+      "id": "capital.en.23",
+      "text": "The business is backed by a paid-up capital of {CAPITAL}."
+    },
+    {
+      "id": "capital.en.24",
+      "text": "Equity share capital: {CAPITAL}"
+    },
+    {
+      "id": "capital.en.25",
+      "text": "Share capital: {CAPITAL} · Legal form: {LEGAL_FORM}"
+    },
+    {
+      "id": "capital.en.26",
+      "text": "{S_NAME} operates with an issued capital of {CAPITAL}."
+    }
   ],
   "legal_form": [
-    {"id": "legal_form.en.01", "text": "Legal form: {LEGAL_FORM}"},
-    {"id": "legal_form.en.02", "text": "Company type: {LEGAL_FORM}"},
-    {"id": "legal_form.en.03", "text": "Entity type: {LEGAL_FORM}"},
-    {"id": "legal_form.en.04", "text": "Constitution of Business: {LEGAL_FORM}"},
-    {"id": "legal_form.en.05", "text": "Business structure: {LEGAL_FORM}"},
-    {"id": "legal_form.en.06", "text": "Type of entity – {LEGAL_FORM}"},
-    {"id": "legal_form.en.07", "text": "Legal status: {LEGAL_FORM}"},
-    {"id": "legal_form.en.08", "text": "Form of organisation: {LEGAL_FORM}"},
-    {"id": "legal_form.en.09", "text": "Our legal form is {LEGAL_FORM}."},
-    {"id": "legal_form.en.10", "text": "The company trades under the legal form {LEGAL_FORM}."},
-    {"id": "legal_form.en.11", "text": "Registered as: {LEGAL_FORM}"},
-    {"id": "legal_form.en.12", "text": "{S_NAME} is a registered business (legal form: {LEGAL_FORM})."},
-    {"id": "legal_form.en.13", "text": "Incorporation type: {LEGAL_FORM}"},
-    {"id": "legal_form.en.14", "text": "Nature of entity: {LEGAL_FORM}"},
-    {"id": "legal_form.en.15", "text": "Type of company: {LEGAL_FORM}"},
-    {"id": "legal_form.en.16", "text": "Company status: Active · Company type: {LEGAL_FORM}"},
-    {"id": "legal_form.en.17", "text": "Organization type: {LEGAL_FORM}"},
-    {"id": "legal_form.en.18", "text": "Legal structure – {LEGAL_FORM}"},
-    {"id": "legal_form.en.19", "text": "Entity: {LEGAL_FORM} ({country})"},
-    {"id": "legal_form.en.20", "text": "Legal form of the business: {LEGAL_FORM}; country of registration: {country}."},
-    {"id": "legal_form.en.21", "text": "Business entity type: {LEGAL_FORM}"},
-    {"id": "legal_form.en.22", "text": "Structure: {LEGAL_FORM}, registered in {city}"},
-    {"id": "legal_form.en.23", "text": "{S_NAME} – legal form: {LEGAL_FORM} – {S_REG_ID}"},
-    {"id": "legal_form.en.24", "text": "Legal form: {LEGAL_FORM} | Share capital: {CAPITAL}"},
-    {"id": "legal_form.en.25", "text": "Type of business entity: {LEGAL_FORM}"},
-    {"id": "legal_form.en.26", "text": "Class of company: {LEGAL_FORM}"},
-    {"id": "legal_form.en.27", "text": "Status of firm: {LEGAL_FORM}"}
+    {
+      "id": "legal_form.en.01",
+      "text": "Legal form: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.en.02",
+      "text": "Company type: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.en.03",
+      "text": "Entity type: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.en.04",
+      "text": "Constitution of Business: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.en.05",
+      "text": "Business structure: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.en.06",
+      "text": "Type of entity – {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.en.07",
+      "text": "Legal status: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.en.08",
+      "text": "Form of organisation: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.en.09",
+      "text": "Our legal form is {LEGAL_FORM}."
+    },
+    {
+      "id": "legal_form.en.10",
+      "text": "The company trades under the legal form {LEGAL_FORM}."
+    },
+    {
+      "id": "legal_form.en.11",
+      "text": "Registered as: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.en.13",
+      "text": "Incorporation type: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.en.15",
+      "text": "Type of company: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.en.16",
+      "text": "Company status: Active · Company type: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.en.17",
+      "text": "Organization type: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.en.19",
+      "text": "Entity: {LEGAL_FORM} ({country})"
+    },
+    {
+      "id": "legal_form.en.20",
+      "text": "Legal form of the business: {LEGAL_FORM}; country of registration: {country}."
+    },
+    {
+      "id": "legal_form.en.21",
+      "text": "Business entity type: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.en.22",
+      "text": "Structure: {LEGAL_FORM}, registered in {city}"
+    },
+    {
+      "id": "legal_form.en.23",
+      "text": "{S_NAME} – legal form: {LEGAL_FORM} – {S_REG_ID}"
+    },
+    {
+      "id": "legal_form.en.24",
+      "text": "Legal form: {LEGAL_FORM} | Share capital: {CAPITAL}"
+    },
+    {
+      "id": "legal_form.en.25",
+      "text": "Type of business entity: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.en.26",
+      "text": "Class of company: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.en.27",
+      "text": "Status of firm: {LEGAL_FORM}"
+    }
   ],
   "traps": [
-    {"id": "trap.en.01", "trap": "T1", "text": "Our largest single order to date was worth {amount}."},
-    {"id": "trap.en.02", "trap": "T1", "text": "Last year we signed our biggest contract yet, valued at {amount}."},
-    {"id": "trap.en.03", "trap": "T1", "text": "The average invoice we issue is for around {amount}."},
-    {"id": "trap.en.04", "trap": "T1", "text": "Net profit for the year came to {amount}."},
-    {"id": "trap.en.05", "trap": "T1", "text": "Annual turnover reached {REVENUE}; our single largest order, placed by a national retailer, was worth {amount}."},
-    {"id": "trap.en.06", "trap": "T1", "text": "Our monthly sales now regularly exceed {amount}."},
-    {"id": "trap.en.07", "trap": "T1", "text": "Orders worth {amount} were shipped in the last quarter alone."},
-    {"id": "trap.en.08", "trap": "T1", "text": "Our biggest project so far had a total budget of {amount}."},
-    {"id": "trap.en.09", "trap": "T1", "text": "Gross profit for the year was {amount} on a turnover of {REVENUE}."},
-    {"id": "trap.en.10", "trap": "T1", "text": "A single framework contract, worth {amount} over three years, accounts for much of our recent growth."},
-    {"id": "trap.en.11", "trap": "T5", "text": "We work closely with {partner} on larger projects."},
-    {"id": "trap.en.12", "trap": "T5", "text": "Most of our supplies come from {supplier}, a company we have trusted for years."},
-    {"id": "trap.en.13", "trap": "T5", "text": "Banking partner: {bank}"},
-    {"id": "trap.en.14", "trap": "T5", "text": "Finance is available through {bank}, subject to status."},
-    {"id": "trap.en.15", "trap": "T5", "text": "Unlike larger firms such as {competitor}, we give every customer a direct line to the person doing the work."},
-    {"id": "trap.en.16", "trap": "T5", "text": "We are proud to have supported {C_NAME}, a family firm founded in {client_founded}, for many years."},
-    {"id": "trap.en.17", "trap": "T5", "text": "In partnership with {partner}, we can take on projects of any size."},
-    {"id": "trap.en.18", "trap": "T5", "text": "Deliveries outside {city} are handled by our logistics partner, {partner}."},
-    {"id": "trap.en.19", "trap": "T5", "text": "Customers often compare us with {competitor} – and stay with us for the service."},
-    {"id": "trap.en.20", "trap": "T5", "text": "{partner}, established in {client_founded}, has worked alongside us for many years."},
-    {"id": "trap.en.21", "trap": "T7", "text": "Our premises were completely renovated in {year}."},
-    {"id": "trap.en.22", "trap": "T7", "text": "In {year} we moved to larger premises in {city}."},
-    {"id": "trap.en.23", "trap": "T7", "text": "We received {CERT} in {year}."},
-    {"id": "trap.en.24", "trap": "T7", "text": "Offer valid until 31 December {year}."},
-    {"id": "trap.en.25", "trap": "T7", "text": "Since {year}, all our electricity has come from renewable sources."},
-    {"id": "trap.en.26", "trap": "T7", "text": "We opened a second location in {year}."},
-    {"id": "trap.en.27", "trap": "T7", "text": "All vehicles in our fleet are {year} models or newer."},
-    {"id": "trap.en.28", "trap": "T7", "text": "The business passed to its current owners in {year}."},
-    {"id": "trap.en.29", "trap": "T7", "text": "Our website was redesigned in {year} to make online booking easier."},
-    {"id": "trap.en.30", "trap": "T7", "text": "The building dates from {year} and has been carefully restored."},
-    {"id": "trap.en.31", "trap": "T8", "text": "With {n_years} of experience, we know exactly what our customers need."},
-    {"id": "trap.en.32", "trap": "T8", "text": "More than {n_clients} have already put their trust in us."},
-    {"id": "trap.en.33", "trap": "T8", "text": "Today we run {n_shops} in and around {city}."},
-    {"id": "trap.en.34", "trap": "T8", "text": "Our fleet of {n_vehicles} covers the whole region every day."},
-    {"id": "trap.en.35", "trap": "T8", "text": "Choose from over {n_products} in our current range."},
-    {"id": "trap.en.36", "trap": "T8", "text": "{n_projects} completed – and counting."},
-    {"id": "trap.en.37", "trap": "T8", "text": "A team of {STAFF} {staff_noun} looks after more than {n_clients} every year."},
-    {"id": "trap.en.38", "trap": "T8", "text": "Over the past {n_years}, we have completed {n_projects}."},
-    {"id": "trap.en.39", "trap": "T8", "text": "We deliver to {n_countries} and serve {n_clients} worldwide."},
-    {"id": "trap.en.40", "trap": "T8", "text": "{n_years} in business and still going strong."},
-    {"id": "trap.en.41", "trap": "T11", "text": "For accounts queries, please contact {person}, our {position}."},
-    {"id": "trap.en.42", "trap": "T11", "text": "{person} ({position}) will be your first point of contact."},
-    {"id": "trap.en.43", "trap": "T11", "text": "Your contact: {person}, {position}"},
-    {"id": "trap.en.44", "trap": "T11", "text": "Meet {person}, our {position}, who joined the team this year."},
-    {"id": "trap.en.45", "trap": "T11", "text": "{manager_title} {S_PERSON} and our {position}, {person}, look forward to meeting you."},
-    {"id": "trap.en.46", "trap": "T11", "text": "Bookings are handled by {person}, {position}."},
-    {"id": "trap.en.47", "trap": "T11", "text": "If you have any questions about your order, {person} will be glad to help."},
-    {"id": "trap.en.48", "trap": "T11", "text": "Our {position}, {person}, has been with us for {n_years}."},
-    {"id": "trap.en.49", "trap": "T11", "text": "Sales enquiries: {person} – {position}"},
-    {"id": "trap.en.50", "trap": "T11", "text": "Under the leadership of {S_PERSON}, the day-to-day running of the office is in the hands of {person}, our {position}."},
-    {"id": "trap.en.51", "trap": "T13", "text": "We supply {C_NAME} and source our raw materials from {supplier}."},
-    {"id": "trap.en.52", "trap": "T13", "text": "Together with our partner {partner}, we recently completed a major project for {C_NAME}."},
-    {"id": "trap.en.53", "trap": "T13", "text": "Clients such as {C_NAME_LIST} benefit from our partnership with {partner}."},
-    {"id": "trap.en.54", "trap": "T13", "text": "Our customers include {C_NAME}; our main supplier is {supplier}."},
-    {"id": "trap.en.55", "trap": "T13", "text": "{C_NAME} relies on us for day-to-day support, while {partner} takes care of the logistics."},
-    {"id": "trap.en.56", "trap": "T13", "text": "Thanks to our long-standing relationship with {supplier}, we can offer {C_NAME} and our other clients short lead times."},
-    {"id": "trap.en.57", "trap": "T13", "text": "Partner: {partner} · Client: {C_NAME}"},
-    {"id": "trap.en.58", "trap": "T13", "text": "Working alongside {partner}, we delivered the project on time for {C_NAME}."},
-    {"id": "trap.en.59", "trap": "T13", "text": "Our client list includes {C_NAME_LIST}; we buy only from trusted suppliers such as {supplier}."},
-    {"id": "trap.en.60", "trap": "T13", "text": "{C_NAME} is one of our key accounts, and {partner} is our preferred logistics provider."}
+    {
+      "id": "trap.en.01",
+      "trap": "T1",
+      "text": "Our largest single order to date was worth {amount}."
+    },
+    {
+      "id": "trap.en.02",
+      "trap": "T1",
+      "text": "Last year we signed our biggest contract yet, valued at {amount}."
+    },
+    {
+      "id": "trap.en.03",
+      "trap": "T1",
+      "text": "The average invoice we issue is for around {amount}."
+    },
+    {
+      "id": "trap.en.04",
+      "trap": "T1",
+      "text": "Net profit for the year came to {amount}."
+    },
+    {
+      "id": "trap.en.05",
+      "trap": "T1",
+      "text": "Annual turnover reached {REVENUE}; our single largest order, placed by a national retailer, was worth {amount}."
+    },
+    {
+      "id": "trap.en.07",
+      "trap": "T1",
+      "text": "Orders worth {amount} were shipped in the last quarter alone."
+    },
+    {
+      "id": "trap.en.08",
+      "trap": "T1",
+      "text": "Our biggest project so far had a total budget of {amount}."
+    },
+    {
+      "id": "trap.en.09",
+      "trap": "T1",
+      "text": "Gross profit for the year was {amount} on a turnover of {REVENUE}."
+    },
+    {
+      "id": "trap.en.10",
+      "trap": "T1",
+      "text": "A single framework contract, worth {amount} over three years, accounts for much of our recent growth."
+    },
+    {
+      "id": "trap.en.11",
+      "trap": "T5",
+      "text": "We work closely with {partner} on larger projects."
+    },
+    {
+      "id": "trap.en.12",
+      "trap": "T5",
+      "text": "Most of our supplies come from {supplier}, a company we have trusted for years."
+    },
+    {
+      "id": "trap.en.13",
+      "trap": "T5",
+      "text": "Banking partner: {bank}"
+    },
+    {
+      "id": "trap.en.14",
+      "trap": "T5",
+      "text": "Finance is available through {bank}, subject to status."
+    },
+    {
+      "id": "trap.en.15",
+      "trap": "T5",
+      "text": "Unlike larger firms such as {competitor}, we give every customer a direct line to the person doing the work."
+    },
+    {
+      "id": "trap.en.16",
+      "trap": "T5",
+      "text": "We are proud to have supported {C_NAME}, a family firm founded in {client_founded}, for many years."
+    },
+    {
+      "id": "trap.en.17",
+      "trap": "T5",
+      "text": "In partnership with {partner}, we can take on projects of any size."
+    },
+    {
+      "id": "trap.en.18",
+      "trap": "T5",
+      "text": "Deliveries outside {city} are handled by our logistics partner, {partner}."
+    },
+    {
+      "id": "trap.en.20",
+      "trap": "T5",
+      "text": "{partner}, established in {client_founded}, has worked alongside us for many years."
+    },
+    {
+      "id": "trap.en.21",
+      "trap": "T7",
+      "text": "Our premises were completely renovated in {year}."
+    },
+    {
+      "id": "trap.en.22",
+      "trap": "T7",
+      "text": "In {year} we moved to larger premises in {city}."
+    },
+    {
+      "id": "trap.en.23",
+      "trap": "T7",
+      "text": "We received {CERT} in {year}."
+    },
+    {
+      "id": "trap.en.24",
+      "trap": "T7",
+      "text": "Offer valid until 31 December {year}."
+    },
+    {
+      "id": "trap.en.25",
+      "trap": "T7",
+      "text": "Since {year}, all our electricity has come from renewable sources."
+    },
+    {
+      "id": "trap.en.26",
+      "trap": "T7",
+      "text": "We opened a second location in {year}."
+    },
+    {
+      "id": "trap.en.27",
+      "trap": "T7",
+      "text": "All vehicles in our fleet are {year} models or newer."
+    },
+    {
+      "id": "trap.en.28",
+      "trap": "T7",
+      "text": "The business passed to its current owners in {year}."
+    },
+    {
+      "id": "trap.en.29",
+      "trap": "T7",
+      "text": "Our website was redesigned in {year} to make online booking easier."
+    },
+    {
+      "id": "trap.en.31",
+      "trap": "T8",
+      "text": "With {n_years} of experience, we know exactly what our customers need."
+    },
+    {
+      "id": "trap.en.32",
+      "trap": "T8",
+      "text": "More than {n_clients} have already put their trust in us."
+    },
+    {
+      "id": "trap.en.33",
+      "trap": "T8",
+      "text": "Today we run {n_shops} in and around {city}."
+    },
+    {
+      "id": "trap.en.34",
+      "trap": "T8",
+      "text": "Our fleet of {n_vehicles} covers the whole region every day."
+    },
+    {
+      "id": "trap.en.35",
+      "trap": "T8",
+      "text": "Choose from over {n_products} in our current range."
+    },
+    {
+      "id": "trap.en.36",
+      "trap": "T8",
+      "text": "{n_projects} completed – and counting."
+    },
+    {
+      "id": "trap.en.37",
+      "trap": "T8",
+      "text": "A team of {STAFF} {staff_noun} looks after more than {n_clients} every year."
+    },
+    {
+      "id": "trap.en.38",
+      "trap": "T8",
+      "text": "Over the past {n_years}, we have completed {n_projects}."
+    },
+    {
+      "id": "trap.en.39",
+      "trap": "T8",
+      "text": "We deliver to {n_countries} and serve {n_clients} worldwide."
+    },
+    {
+      "id": "trap.en.41",
+      "trap": "T11",
+      "text": "For accounts queries, please contact {person}, our {position}."
+    },
+    {
+      "id": "trap.en.42",
+      "trap": "T11",
+      "text": "{person} ({position}) will be your first point of contact."
+    },
+    {
+      "id": "trap.en.43",
+      "trap": "T11",
+      "text": "Your contact: {person}, {position}"
+    },
+    {
+      "id": "trap.en.44",
+      "trap": "T11",
+      "text": "Meet {person}, our {position}, who joined the team this year."
+    },
+    {
+      "id": "trap.en.45",
+      "trap": "T11",
+      "text": "{manager_title} {S_PERSON} and our {position}, {person}, look forward to meeting you."
+    },
+    {
+      "id": "trap.en.46",
+      "trap": "T11",
+      "text": "Bookings are handled by {person}, {position}."
+    },
+    {
+      "id": "trap.en.47",
+      "trap": "T11",
+      "text": "If you have any questions about your order, {person} will be glad to help."
+    },
+    {
+      "id": "trap.en.48",
+      "trap": "T11",
+      "text": "Our {position}, {person}, has been with us for {n_years}."
+    },
+    {
+      "id": "trap.en.50",
+      "trap": "T11",
+      "text": "Under the leadership of {S_PERSON}, the day-to-day running of the office is in the hands of {person}, our {position}."
+    },
+    {
+      "id": "trap.en.52",
+      "trap": "T13",
+      "text": "Together with our partner {partner}, we recently completed a major project for {C_NAME}."
+    },
+    {
+      "id": "trap.en.53",
+      "trap": "T13",
+      "text": "Clients such as {C_NAME_LIST} benefit from our partnership with {partner}."
+    },
+    {
+      "id": "trap.en.54",
+      "trap": "T13",
+      "text": "Our customers include {C_NAME}; our main supplier is {supplier}."
+    },
+    {
+      "id": "trap.en.55",
+      "trap": "T13",
+      "text": "{C_NAME} relies on us for day-to-day support, while {partner} takes care of the logistics."
+    },
+    {
+      "id": "trap.en.56",
+      "trap": "T13",
+      "text": "Thanks to our long-standing relationship with {supplier}, we can offer {C_NAME} and our other clients short lead times."
+    },
+    {
+      "id": "trap.en.57",
+      "trap": "T13",
+      "text": "Partner: {partner} · Client: {C_NAME}"
+    },
+    {
+      "id": "trap.en.58",
+      "trap": "T13",
+      "text": "Working alongside {partner}, we delivered the project on time for {C_NAME}."
+    },
+    {
+      "id": "trap.en.59",
+      "trap": "T13",
+      "text": "Our client list includes {C_NAME_LIST}; we buy only from trusted suppliers such as {supplier}."
+    },
+    {
+      "id": "trap.en.60",
+      "trap": "T13",
+      "text": "{C_NAME} is one of our key accounts, and {partner} is our preferred logistics provider."
+    }
   ],
   "filler": [
-    {"id": "filler.en.01", "text": "Customer satisfaction is at the heart of everything we do."},
-    {"id": "filler.en.02", "text": "Our friendly team is always happy to help."},
-    {"id": "filler.en.03", "text": "We believe in doing the job right the first time."},
-    {"id": "filler.en.04", "text": "Quality, reliability and fair prices – that is our promise."},
-    {"id": "filler.en.05", "text": "No job is too big or too small."},
-    {"id": "filler.en.06", "text": "Get in touch today for a free, no-obligation quote."},
-    {"id": "filler.en.07", "text": "We take pride in our attention to detail."},
-    {"id": "filler.en.08", "text": "Every customer is treated with the same care and respect."},
-    {"id": "filler.en.09", "text": "We listen carefully to your needs before recommending a solution."},
-    {"id": "filler.en.10", "text": "Our prices are transparent, with no hidden charges."},
-    {"id": "filler.en.11", "text": "We are committed to reducing our environmental impact."},
-    {"id": "filler.en.12", "text": "Health and safety come first on every job."},
-    {"id": "filler.en.13", "text": "We keep our promises and deliver on time."},
-    {"id": "filler.en.14", "text": "Your feedback helps us improve."},
-    {"id": "filler.en.15", "text": "We look forward to welcoming you."},
-    {"id": "filler.en.16", "text": "Payment can be made by card, bank transfer or cash."},
-    {"id": "filler.en.17", "text": "All enquiries are answered promptly."},
-    {"id": "filler.en.18", "text": "Parking is available close by."},
-    {"id": "filler.en.19", "text": "We work with care, honesty and respect."},
-    {"id": "filler.en.20", "text": "Our experienced staff will guide you through every step."},
-    {"id": "filler.en.21", "text": "We invest continuously in training and new technology."},
-    {"id": "filler.en.22", "text": "Please do not hesitate to contact us if you have any questions."},
-    {"id": "filler.en.23", "text": "Kindly note that prices are subject to change without prior notice."},
-    {"id": "filler.en.24", "text": "We value long-term relationships with our customers."},
-    {"id": "filler.en.25", "text": "Your satisfaction is our success."},
-    {"id": "filler.en.26", "text": "Our goal is simple: happy customers who come back."},
-    {"id": "filler.en.27", "text": "We are fully insured for your peace of mind."},
-    {"id": "filler.en.28", "text": "Good communication is the key to every successful project."},
-    {"id": "filler.en.29", "text": "We are a local business and proud of it."},
-    {"id": "filler.en.30", "text": "Appointments outside normal hours can be arranged on request."},
-    {"id": "filler.en.31", "text": "Every detail matters to us."},
-    {"id": "filler.en.32", "text": "New and returning customers are always welcome."},
-    {"id": "filler.en.33", "text": "Sustainability is part of how we work."},
-    {"id": "filler.en.34", "text": "You will always get honest advice from us, even when that means doing less."},
-    {"id": "filler.en.35", "text": "We keep things simple, clear and affordable."},
-    {"id": "filler.en.36", "text": "Thank you for supporting an independent business."},
-    {"id": "filler.en.37", "text": "We are always looking for ways to serve you better."},
-    {"id": "filler.en.38", "text": "Safety, quality and punctuality guide our daily work."},
-    {"id": "filler.en.39", "text": "The customer always comes first."},
-    {"id": "filler.en.40", "text": "Our processes are designed to save you time and money."},
-    {"id": "filler.en.41", "text": "We are happy to answer any questions by phone or email."},
-    {"id": "filler.en.42", "text": "Terms and conditions apply."},
-    {"id": "filler.en.43", "text": "Images are for illustration purposes only."},
-    {"id": "filler.en.44", "text": "All offers are subject to availability."},
-    {"id": "filler.en.45", "text": "We look after your data with care and never share it without your consent."},
-    {"id": "filler.en.46", "text": "Word of mouth remains our best advertisement."},
-    {"id": "filler.en.47", "text": "We are proud to support local charities and sports clubs in {city}."},
-    {"id": "filler.en.48", "text": "Behind every job is a team that cares."},
-    {"id": "filler.en.49", "text": "We assure you of our best services at all times."},
-    {"id": "filler.en.50", "text": "Customer delight is our motto."},
-    {"id": "filler.en.51", "text": "We look forward to a mutually beneficial business relationship."},
-    {"id": "filler.en.52", "text": "No worries – we will sort it out for you."},
-    {"id": "filler.en.53", "text": "Your satisfaction remains our utmost priority."},
-    {"id": "filler.en.54", "text": "Our organization is built on trust, teamwork and integrity."},
-    {"id": "filler.en.55", "text": "We favour practical solutions over complicated ones."}
+    {
+      "id": "filler.en.01",
+      "text": "Customer satisfaction is at the heart of everything we do."
+    },
+    {
+      "id": "filler.en.02",
+      "text": "Our friendly team is always happy to help."
+    },
+    {
+      "id": "filler.en.03",
+      "text": "We believe in doing the job right the first time."
+    },
+    {
+      "id": "filler.en.04",
+      "text": "Quality, reliability and fair prices – that is our promise."
+    },
+    {
+      "id": "filler.en.06",
+      "text": "Get in touch today for a free, no-obligation quote."
+    },
+    {
+      "id": "filler.en.07",
+      "text": "We take pride in our attention to detail."
+    },
+    {
+      "id": "filler.en.09",
+      "text": "We listen carefully to your needs before recommending a solution."
+    },
+    {
+      "id": "filler.en.10",
+      "text": "Our prices are transparent, with no hidden charges."
+    },
+    {
+      "id": "filler.en.12",
+      "text": "Health and safety come first on every job."
+    },
+    {
+      "id": "filler.en.15",
+      "text": "We look forward to welcoming you."
+    },
+    {
+      "id": "filler.en.16",
+      "text": "Payment can be made by card, bank transfer or cash."
+    },
+    {
+      "id": "filler.en.17",
+      "text": "All enquiries are answered promptly."
+    },
+    {
+      "id": "filler.en.18",
+      "text": "Parking is available close by."
+    },
+    {
+      "id": "filler.en.19",
+      "text": "We work with care, honesty and respect."
+    },
+    {
+      "id": "filler.en.20",
+      "text": "Our experienced staff will guide you through every step."
+    },
+    {
+      "id": "filler.en.21",
+      "text": "We invest continuously in training and new technology."
+    },
+    {
+      "id": "filler.en.22",
+      "text": "Please do not hesitate to contact us if you have any questions."
+    },
+    {
+      "id": "filler.en.23",
+      "text": "Kindly note that prices are subject to change without prior notice."
+    },
+    {
+      "id": "filler.en.24",
+      "text": "We value long-term relationships with our customers."
+    },
+    {
+      "id": "filler.en.25",
+      "text": "Your satisfaction is our success."
+    },
+    {
+      "id": "filler.en.26",
+      "text": "Our goal is simple: happy customers who come back."
+    },
+    {
+      "id": "filler.en.27",
+      "text": "We are fully insured for your peace of mind."
+    },
+    {
+      "id": "filler.en.28",
+      "text": "Good communication is the key to every successful project."
+    },
+    {
+      "id": "filler.en.30",
+      "text": "Appointments outside normal hours can be arranged on request."
+    },
+    {
+      "id": "filler.en.31",
+      "text": "Every detail matters to us."
+    },
+    {
+      "id": "filler.en.32",
+      "text": "New and returning customers are always welcome."
+    },
+    {
+      "id": "filler.en.33",
+      "text": "Sustainability is part of how we work."
+    },
+    {
+      "id": "filler.en.34",
+      "text": "You will always get honest advice from us, even when that means doing less."
+    },
+    {
+      "id": "filler.en.35",
+      "text": "We keep things simple, clear and affordable."
+    },
+    {
+      "id": "filler.en.36",
+      "text": "Thank you for supporting an independent business."
+    },
+    {
+      "id": "filler.en.37",
+      "text": "We are always looking for ways to serve you better."
+    },
+    {
+      "id": "filler.en.38",
+      "text": "Safety, quality and punctuality guide our daily work."
+    },
+    {
+      "id": "filler.en.39",
+      "text": "The customer always comes first."
+    },
+    {
+      "id": "filler.en.40",
+      "text": "Our processes are designed to save you time and money."
+    },
+    {
+      "id": "filler.en.41",
+      "text": "We are happy to answer any questions by phone or email."
+    },
+    {
+      "id": "filler.en.42",
+      "text": "Terms and conditions apply."
+    },
+    {
+      "id": "filler.en.43",
+      "text": "Images are for illustration purposes only."
+    },
+    {
+      "id": "filler.en.44",
+      "text": "All offers are subject to availability."
+    },
+    {
+      "id": "filler.en.45",
+      "text": "We look after your data with care and never share it without your consent."
+    },
+    {
+      "id": "filler.en.46",
+      "text": "Word of mouth remains our best advertisement."
+    },
+    {
+      "id": "filler.en.47",
+      "text": "We are proud to support local charities and sports clubs in {city}."
+    },
+    {
+      "id": "filler.en.48",
+      "text": "Behind every job is a team that cares."
+    },
+    {
+      "id": "filler.en.49",
+      "text": "We assure you of our best services at all times."
+    },
+    {
+      "id": "filler.en.50",
+      "text": "Customer delight is our motto."
+    },
+    {
+      "id": "filler.en.51",
+      "text": "We look forward to a mutually beneficial business relationship."
+    },
+    {
+      "id": "filler.en.52",
+      "text": "No worries – we will sort it out for you."
+    },
+    {
+      "id": "filler.en.53",
+      "text": "Your satisfaction remains our utmost priority."
+    },
+    {
+      "id": "filler.en.54",
+      "text": "Our organization is built on trust, teamwork and integrity."
+    },
+    {
+      "id": "filler.en.55",
+      "text": "We favour practical solutions over complicated ones."
+    }
   ],
   "legal_footer": [
-    {"id": "footer.en.01", "countries": ["GB"], "text": "{S_NAME:legal} · Registered in England and Wales · {S_REG_ID} · Registered office: {S_ADDRESS}"},
-    {"id": "footer.en.02", "countries": ["GB"], "text": "{S_NAME:legal} is a company registered in England and Wales, {S_REG_ID}. Registered office: {S_ADDRESS}."},
-    {"id": "footer.en.03", "countries": ["GB"], "text": "Registered office: {S_ADDRESS} | {S_REG_ID} | Tel {S_PHONE} | {S_URL}"},
-    {"id": "footer.en.04", "countries": ["GB"], "text": "{S_NAME:legal}, {S_ADDRESS}. Registered in England & Wales, {S_REG_ID}. E&OE."},
-    {"id": "footer.en.05", "countries": ["GB"], "text": "{S_NAME:legal} · {LEGAL_FORM} · Registered in England and Wales · {S_REG_ID}"},
-    {"id": "footer.en.06", "countries": ["US"], "text": "{S_NAME:legal} · {S_ADDRESS} · {S_PHONE} · {S_URL}"},
-    {"id": "footer.en.07", "countries": ["US"], "text": "Please make all checks payable to {S_NAME:legal}. {S_REG_ID}"},
-    {"id": "footer.en.08", "countries": ["US"], "text": "{S_NAME:legal} | {S_REG_ID} | {S_ADDRESS}"},
-    {"id": "footer.en.09", "countries": ["US"], "text": "© {S_NAME:legal}. All rights reserved. {S_ADDRESS} · {S_EMAIL}"},
-    {"id": "footer.en.10", "countries": ["US", "CA"], "text": "{S_NAME:legal} · {ACTIVITY_CODE} · {S_REG_ID} · {S_EMAIL}"},
-    {"id": "footer.en.11", "countries": ["IN"], "text": "{S_NAME:legal} | {S_REG_ID} | Regd. Office: {S_ADDRESS}"},
-    {"id": "footer.en.12", "countries": ["IN"], "text": "Registered Office: {S_ADDRESS} · {S_REG_ID} · Tel: {S_PHONE} · E-mail: {S_EMAIL} · Website: {S_URL}"},
-    {"id": "footer.en.13", "countries": ["IN"], "text": "This is a computer-generated document issued by {S_NAME:legal} and does not require a signature."},
-    {"id": "footer.en.14", "countries": ["IN"], "text": "Subject to {city} jurisdiction. E. & O.E. · {S_NAME:legal} · {S_REG_ID}"},
-    {"id": "footer.en.15", "countries": ["IN"], "text": "{S_NAME:legal} · {LEGAL_FORM} · {S_REG_ID} · Paid-up capital: {CAPITAL}"},
-    {"id": "footer.en.16", "countries": ["AU"], "text": "{S_NAME:legal} {S_REG_ID}"},
-    {"id": "footer.en.17", "countries": ["AU"], "text": "{S_NAME:legal} {S_REG_ID} · {S_ADDRESS} · {S_PHONE}"},
-    {"id": "footer.en.18", "countries": ["AU"], "text": "{S_NAME:legal} · {S_REG_ID} · {S_ADDRESS} · {S_EMAIL}"},
-    {"id": "footer.en.19", "countries": ["AU"], "text": "All prices include GST unless stated otherwise. {S_NAME:legal}, {S_REG_ID}."},
-    {"id": "footer.en.20", "countries": ["AU"], "text": "{S_NAME} trading from {S_ADDRESS} · {S_REG_ID} · {S_URL}"},
-    {"id": "footer.en.21", "countries": ["CA"], "text": "{S_NAME:legal} · {S_ADDRESS} · {S_REG_ID}"},
-    {"id": "footer.en.22", "countries": ["CA"], "text": "{S_NAME:legal} | {S_PHONE} | {S_EMAIL} | {S_REG_ID}"},
-    {"id": "footer.en.23", "countries": ["CA"], "text": "Please make cheques payable to {S_NAME:legal}. {S_REG_ID}"},
-    {"id": "footer.en.24", "countries": ["CA"], "text": "{S_NAME:legal}, {S_ADDRESS} – {S_URL}"},
-    {"id": "footer.en.25", "countries": ["NG"], "text": "{S_NAME:legal} · {S_REG_ID} · Head Office: {S_ADDRESS}"},
-    {"id": "footer.en.26", "countries": ["NG"], "text": "{S_NAME:legal} – registered with the Corporate Affairs Commission – {S_REG_ID}"},
-    {"id": "footer.en.27", "countries": ["NG"], "text": "{S_NAME:legal} | {S_ADDRESS} | Tel: {S_PHONE} | {S_EMAIL} | {S_REG_ID}"},
-    {"id": "footer.en.28", "countries": ["NG"], "text": "{S_NAME:legal} · {S_REG_ID} · Share capital: {CAPITAL}"},
-    {"id": "footer.en.29", "countries": ["NG"], "text": "Corporate Head Office: {S_ADDRESS} · {S_REG_ID} · {S_URL}"},
-    {"id": "footer.en.30", "countries": ["GB", "AU", "NG", "IN"], "text": "{S_NAME:legal} · {S_ADDRESS} · {S_PHONE} · {S_EMAIL}"}
+    {
+      "id": "footer.en.01",
+      "countries": [
+        "GB"
+      ],
+      "text": "{S_NAME:legal} · Registered in England and Wales · {S_REG_ID} · Registered office: {S_ADDRESS}"
+    },
+    {
+      "id": "footer.en.02",
+      "countries": [
+        "GB"
+      ],
+      "text": "{S_NAME:legal} is a company registered in England and Wales, {S_REG_ID}. Registered office: {S_ADDRESS}."
+    },
+    {
+      "id": "footer.en.03",
+      "countries": [
+        "GB"
+      ],
+      "text": "Registered office: {S_ADDRESS} | {S_REG_ID} | Tel {S_PHONE} | {S_URL}"
+    },
+    {
+      "id": "footer.en.04",
+      "countries": [
+        "GB"
+      ],
+      "text": "{S_NAME:legal}, {S_ADDRESS}. Registered in England & Wales, {S_REG_ID}. E&OE."
+    },
+    {
+      "id": "footer.en.05",
+      "countries": [
+        "GB"
+      ],
+      "text": "{S_NAME:legal} · {LEGAL_FORM} · Registered in England and Wales · {S_REG_ID}"
+    },
+    {
+      "id": "footer.en.06",
+      "countries": [
+        "US"
+      ],
+      "text": "{S_NAME:legal} · {S_ADDRESS} · {S_PHONE} · {S_URL}"
+    },
+    {
+      "id": "footer.en.07",
+      "countries": [
+        "US"
+      ],
+      "text": "Please make all checks payable to {S_NAME:legal}. {S_REG_ID}"
+    },
+    {
+      "id": "footer.en.08",
+      "countries": [
+        "US"
+      ],
+      "text": "{S_NAME:legal} | {S_REG_ID} | {S_ADDRESS}"
+    },
+    {
+      "id": "footer.en.09",
+      "countries": [
+        "US"
+      ],
+      "text": "© {S_NAME:legal}. All rights reserved. {S_ADDRESS} · {S_EMAIL}"
+    },
+    {
+      "id": "footer.en.10",
+      "countries": [
+        "US",
+        "CA"
+      ],
+      "text": "{S_NAME:legal} · {ACTIVITY_CODE} · {S_REG_ID} · {S_EMAIL}"
+    },
+    {
+      "id": "footer.en.11",
+      "countries": [
+        "IN"
+      ],
+      "text": "{S_NAME:legal} | {S_REG_ID} | Regd. Office: {S_ADDRESS}"
+    },
+    {
+      "id": "footer.en.12",
+      "countries": [
+        "IN"
+      ],
+      "text": "Registered Office: {S_ADDRESS} · {S_REG_ID} · Tel: {S_PHONE} · E-mail: {S_EMAIL} · Website: {S_URL}"
+    },
+    {
+      "id": "footer.en.13",
+      "countries": [
+        "IN"
+      ],
+      "text": "This is a computer-generated document issued by {S_NAME:legal} and does not require a signature."
+    },
+    {
+      "id": "footer.en.14",
+      "countries": [
+        "IN"
+      ],
+      "text": "Subject to {city} jurisdiction. E. & O.E. · {S_NAME:legal} · {S_REG_ID}"
+    },
+    {
+      "id": "footer.en.15",
+      "countries": [
+        "IN"
+      ],
+      "text": "{S_NAME:legal} · {LEGAL_FORM} · {S_REG_ID} · Paid-up capital: {CAPITAL}"
+    },
+    {
+      "id": "footer.en.16",
+      "countries": [
+        "AU"
+      ],
+      "text": "{S_NAME:legal} {S_REG_ID}"
+    },
+    {
+      "id": "footer.en.17",
+      "countries": [
+        "AU"
+      ],
+      "text": "{S_NAME:legal} {S_REG_ID} · {S_ADDRESS} · {S_PHONE}"
+    },
+    {
+      "id": "footer.en.18",
+      "countries": [
+        "AU"
+      ],
+      "text": "{S_NAME:legal} · {S_REG_ID} · {S_ADDRESS} · {S_EMAIL}"
+    },
+    {
+      "id": "footer.en.19",
+      "countries": [
+        "AU"
+      ],
+      "text": "All prices include GST unless stated otherwise. {S_NAME:legal}, {S_REG_ID}."
+    },
+    {
+      "id": "footer.en.20",
+      "countries": [
+        "AU"
+      ],
+      "text": "{S_NAME} trading from {S_ADDRESS} · {S_REG_ID} · {S_URL}"
+    },
+    {
+      "id": "footer.en.21",
+      "countries": [
+        "CA"
+      ],
+      "text": "{S_NAME:legal} · {S_ADDRESS} · {S_REG_ID}"
+    },
+    {
+      "id": "footer.en.22",
+      "countries": [
+        "CA"
+      ],
+      "text": "{S_NAME:legal} | {S_PHONE} | {S_EMAIL} | {S_REG_ID}"
+    },
+    {
+      "id": "footer.en.23",
+      "countries": [
+        "CA"
+      ],
+      "text": "Please make cheques payable to {S_NAME:legal}. {S_REG_ID}"
+    },
+    {
+      "id": "footer.en.24",
+      "countries": [
+        "CA"
+      ],
+      "text": "{S_NAME:legal}, {S_ADDRESS} – {S_URL}"
+    },
+    {
+      "id": "footer.en.25",
+      "countries": [
+        "NG"
+      ],
+      "text": "{S_NAME:legal} · {S_REG_ID} · Head Office: {S_ADDRESS}"
+    },
+    {
+      "id": "footer.en.26",
+      "countries": [
+        "NG"
+      ],
+      "text": "{S_NAME:legal} – registered with the Corporate Affairs Commission – {S_REG_ID}"
+    },
+    {
+      "id": "footer.en.27",
+      "countries": [
+        "NG"
+      ],
+      "text": "{S_NAME:legal} | {S_ADDRESS} | Tel: {S_PHONE} | {S_EMAIL} | {S_REG_ID}"
+    },
+    {
+      "id": "footer.en.28",
+      "countries": [
+        "NG"
+      ],
+      "text": "{S_NAME:legal} · {S_REG_ID} · Share capital: {CAPITAL}"
+    },
+    {
+      "id": "footer.en.29",
+      "countries": [
+        "NG"
+      ],
+      "text": "Corporate Head Office: {S_ADDRESS} · {S_REG_ID} · {S_URL}"
+    },
+    {
+      "id": "footer.en.30",
+      "countries": [
+        "GB",
+        "AU",
+        "NG",
+        "IN"
+      ],
+      "text": "{S_NAME:legal} · {S_ADDRESS} · {S_PHONE} · {S_EMAIL}"
+    }
   ],
   "invoice_notes": {
     "payment_terms": [

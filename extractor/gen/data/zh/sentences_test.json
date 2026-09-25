@@ -1,0 +1,210 @@
+{
+  "activity": [
+    {
+      "id": "activity.zh.05",
+      "text": "我们专注于{ACTIVITY}，始终把品质和口碑放在第一位。"
+    },
+    {
+      "id": "activity.zh.19",
+      "text": "成立以来，{S_NAME}一直致力于{ACTIVITY}，积累了丰富的实践经验。"
+    },
+    {
+      "id": "activity.zh.27",
+      "text": "核心业务｜{ACTIVITY}"
+    }
+  ],
+  "founded": [
+    {
+      "id": "founded.zh.05",
+      "text": "自{FOUNDED}创立以来，我们始终坚持品质第一、客户至上。"
+    },
+    {
+      "id": "founded.zh.12",
+      "text": "品牌创立于{FOUNDED}，经过多年发展，已成为区域内颇具知名度的品牌。"
+    },
+    {
+      "id": "founded.zh.20",
+      "text": "本公司成立于{FOUNDED:date}，注册地址为{S_ADDRESS}。"
+    }
+  ],
+  "staff": [
+    {
+      "id": "staff.zh.04",
+      "text": "目前，{S_NAME}共有在职员工{STAFF}。"
+    },
+    {
+      "id": "staff.zh.09",
+      "text": "截至目前，公司从业人员{STAFF}。"
+    },
+    {
+      "id": "staff.zh.23",
+      "text": "从业人数：{STAFF}"
+    }
+  ],
+  "revenue": [
+    {
+      "id": "revenue.zh.01",
+      "text": "营业收入（{REVENUE_YEAR}）：{REVENUE}"
+    },
+    {
+      "id": "revenue.zh.13",
+      "text": "销售收入（{REVENUE_YEAR}）：{REVENUE}"
+    },
+    {
+      "id": "revenue.zh.26",
+      "text": "在{REVENUE_YEAR}，{S_NAME}的营业收入首次达到{REVENUE}。"
+    }
+  ],
+  "services_intro": [
+    {
+      "id": "services_intro.zh.13",
+      "text": "我们的招牌：{SERVICE}"
+    },
+    {
+      "id": "services_intro.zh.15",
+      "text": "本店长期提供{SERVICE}，品质稳定，价格实惠。"
+    },
+    {
+      "id": "services_intro.zh.22",
+      "text": "核心产品和服务包括{SERVICE_LIST}。"
+    }
+  ],
+  "clients": [
+    {
+      "id": "clients.zh.12",
+      "text": "我们的客户中既有{C_NAME}这样的知名机构，也有众多中小商户。"
+    },
+    {
+      "id": "clients.zh.13",
+      "text": "受{C_NAME}委托，我司为其提供了全过程服务。"
+    },
+    {
+      "id": "clients.zh.14",
+      "text": "{C_NAME_LIST}等单位均选择了我们的服务。"
+    }
+  ],
+  "hours": [
+    {
+      "id": "hours.zh.01",
+      "text": "营业时间：{HOURS}"
+    },
+    {
+      "id": "hours.zh.24",
+      "text": "门店{HOURS:prose}正常营业。"
+    },
+    {
+      "id": "hours.zh.26",
+      "text": "对外办公时间：{HOURS}"
+    }
+  ],
+  "certifications": [
+    {
+      "id": "certifications.zh.01",
+      "text": "资质认证：{CERT_LIST}"
+    },
+    {
+      "id": "certifications.zh.07",
+      "text": "{CERT}——品质值得信赖。"
+    },
+    {
+      "id": "certifications.zh.23",
+      "text": "{S_NAME}获得{CERT_LIST}等认证与荣誉，综合实力得到业界认可。"
+    }
+  ],
+  "location": [
+    {
+      "id": "location.zh.03",
+      "text": "电子邮箱：{S_EMAIL}"
+    },
+    {
+      "id": "location.zh.12",
+      "text": "地址：{S_ADDRESS}　电话：{S_PHONE}"
+    },
+    {
+      "id": "location.zh.13",
+      "text": "总部地址：{S_ADDRESS}"
+    }
+  ],
+  "capital": [
+    {
+      "id": "capital.zh.09",
+      "text": "经股东会决议，公司注册资本由{amount}增加至{CAPITAL}。"
+    },
+    {
+      "id": "capital.zh.12",
+      "text": "{S_NAME:legal}（注册资本{CAPITAL}）"
+    },
+    {
+      "id": "capital.zh.14",
+      "text": "目前公司注册资本为{CAPITAL}，股权结构清晰。"
+    }
+  ],
+  "legal_form": [
+    {
+      "id": "legal_form.zh.04",
+      "text": "本公司系依法设立的{LEGAL_FORM}。"
+    },
+    {
+      "id": "legal_form.zh.22",
+      "text": "市场主体类型：{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.zh.27",
+      "text": "{S_NAME}的企业类型为{LEGAL_FORM}。"
+    }
+  ],
+  "traps": [
+    {
+      "id": "trap.zh.03",
+      "trap": "T1",
+      "text": "{REVENUE_YEAR}公司营业收入为{REVENUE}，其中单笔最大合同金额为{amount}。"
+    },
+    {
+      "id": "trap.zh.14",
+      "trap": "T5",
+      "text": "与{competitor}等同行相比，我们的交付周期更短，价格也更具优势。"
+    },
+    {
+      "id": "trap.zh.28",
+      "trap": "T7",
+      "text": "{year}：办公场所扩建完成，接待能力进一步提升。"
+    },
+    {
+      "id": "trap.zh.39",
+      "trap": "T8",
+      "text": "创始人深耕行业{n_years}，对市场有着深刻的理解。"
+    },
+    {
+      "id": "trap.zh.48",
+      "trap": "T11",
+      "text": "团队介绍：{person}，{position}，入职多年，工作认真负责。"
+    },
+    {
+      "id": "trap.zh.63",
+      "trap": "T13",
+      "text": "我们的客户有{C_NAME}和{C_NAME}，技术合作方为{partner}。"
+    }
+  ],
+  "filler": [
+    {
+      "id": "filler.zh.04",
+      "text": "我们将一如既往地为您提供优质、高效的服务。"
+    },
+    {
+      "id": "filler.zh.09",
+      "text": "期待与您携手合作，共创美好未来。"
+    },
+    {
+      "id": "filler.zh.27",
+      "text": "付款后请保留转账凭证，以便双方核对。"
+    },
+    {
+      "id": "filler.zh.29",
+      "text": "我们致力于为客户创造长期价值。"
+    },
+    {
+      "id": "filler.zh.40",
+      "text": "客户的信任是我们最宝贵的财富。"
+    }
+  ]
+}

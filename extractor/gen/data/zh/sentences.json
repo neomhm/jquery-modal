@@ -1,468 +1,1692 @@
 {
   "lang": "zh",
   "activity": [
-    {"id": "activity.zh.01", "text": "主营业务：{ACTIVITY}"},
-    {"id": "activity.zh.02", "text": "经营范围：一般项目：{ACTIVITY}。（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）"},
-    {"id": "activity.zh.03", "text": "{S_NAME}是一家专业从事{ACTIVITY}的企业。"},
-    {"id": "activity.zh.04", "text": "公司主要从事{ACTIVITY}，业务覆盖{city}及周边地区。"},
-    {"id": "activity.zh.05", "text": "我们专注于{ACTIVITY}，始终把品质和口碑放在第一位。"},
-    {"id": "activity.zh.06", "text": "作为扎根{city}的本土企业，{S_NAME}多年来一直深耕{ACTIVITY}领域。"},
-    {"id": "activity.zh.07", "text": "本公司以{ACTIVITY}为核心业务，同时提供相关的咨询与售后服务。"},
-    {"id": "activity.zh.08", "text": "主要业务：{ACTIVITY}"},
-    {"id": "activity.zh.09", "text": "{S_NAME}的核心业务是{ACTIVITY}。"},
-    {"id": "activity.zh.10", "text": "我们是一支专注{ACTIVITY}的专业团队，致力于为每一位客户创造价值。"},
-    {"id": "activity.zh.11", "text": "公司坚持专业化经营，主营{ACTIVITY}。"},
-    {"id": "activity.zh.12", "text": "经营项目：{ACTIVITY}"},
-    {"id": "activity.zh.13", "text": "{S_NAME}立足{city}、面向全国，专业从事{ACTIVITY}。"},
-    {"id": "activity.zh.14", "text": "从{ACTIVITY}起步，我们一步一个脚印，逐渐成长为客户信赖的品牌。"},
-    {"id": "activity.zh.15", "text": "本店主营{ACTIVITY}，欢迎新老顾客光临。"},
-    {"id": "activity.zh.16", "text": "我们最擅长的，就是{ACTIVITY}。"},
-    {"id": "activity.zh.17", "text": "公司业务以{ACTIVITY}为主，兼营相关配套服务。"},
-    {"id": "activity.zh.18", "text": "业务方向：{ACTIVITY}"},
-    {"id": "activity.zh.19", "text": "成立以来，{S_NAME}一直致力于{ACTIVITY}，积累了丰富的实践经验。"},
-    {"id": "activity.zh.20", "text": "多年来，公司始终围绕{ACTIVITY}这一主业稳健发展。"},
-    {"id": "activity.zh.21", "text": "在{ACTIVITY}方面，我们拥有成熟的服务流程和经验丰富的专业人员。"},
-    {"id": "activity.zh.22", "text": "{S_NAME}，主营{ACTIVITY}，诚信经营，服务至上。"},
-    {"id": "activity.zh.23", "text": "我司是{city}较早从事{ACTIVITY}的企业之一。"},
-    {"id": "activity.zh.24", "text": "{ACTIVITY}——这是我们每天都在用心做好的事。"},
-    {"id": "activity.zh.25", "text": "公司秉承“专业、诚信、高效”的经营理念，专注{ACTIVITY}。"},
-    {"id": "activity.zh.26", "text": "本单位主营业务为{ACTIVITY}。"},
-    {"id": "activity.zh.27", "text": "核心业务｜{ACTIVITY}"},
-    {"id": "activity.zh.28", "text": "经营范围：{ACTIVITY}；企业管理咨询；会议及展览服务。（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）"},
-    {"id": "activity.zh.29", "text": "公司的主要经营活动为{ACTIVITY}。"}
+    {
+      "id": "activity.zh.01",
+      "text": "主营业务：{ACTIVITY}"
+    },
+    {
+      "id": "activity.zh.02",
+      "text": "经营范围：一般项目：{ACTIVITY}。（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）"
+    },
+    {
+      "id": "activity.zh.03",
+      "text": "{S_NAME}是一家专业从事{ACTIVITY}的企业。"
+    },
+    {
+      "id": "activity.zh.04",
+      "text": "公司主要从事{ACTIVITY}，业务覆盖{city}及周边地区。"
+    },
+    {
+      "id": "activity.zh.06",
+      "text": "作为扎根{city}的本土企业，{S_NAME}多年来一直深耕{ACTIVITY}领域。"
+    },
+    {
+      "id": "activity.zh.07",
+      "text": "本公司以{ACTIVITY}为核心业务，同时提供相关的咨询与售后服务。"
+    },
+    {
+      "id": "activity.zh.08",
+      "text": "主要业务：{ACTIVITY}"
+    },
+    {
+      "id": "activity.zh.09",
+      "text": "{S_NAME}的核心业务是{ACTIVITY}。"
+    },
+    {
+      "id": "activity.zh.10",
+      "text": "我们是一支专注{ACTIVITY}的专业团队，致力于为每一位客户创造价值。"
+    },
+    {
+      "id": "activity.zh.11",
+      "text": "公司坚持专业化经营，主营{ACTIVITY}。"
+    },
+    {
+      "id": "activity.zh.12",
+      "text": "经营项目：{ACTIVITY}"
+    },
+    {
+      "id": "activity.zh.13",
+      "text": "{S_NAME}立足{city}、面向全国，专业从事{ACTIVITY}。"
+    },
+    {
+      "id": "activity.zh.14",
+      "text": "从{ACTIVITY}起步，我们一步一个脚印，逐渐成长为客户信赖的品牌。"
+    },
+    {
+      "id": "activity.zh.15",
+      "text": "本店主营{ACTIVITY}，欢迎新老顾客光临。"
+    },
+    {
+      "id": "activity.zh.16",
+      "text": "我们最擅长的，就是{ACTIVITY}。"
+    },
+    {
+      "id": "activity.zh.17",
+      "text": "公司业务以{ACTIVITY}为主，兼营相关配套服务。"
+    },
+    {
+      "id": "activity.zh.18",
+      "text": "业务方向：{ACTIVITY}"
+    },
+    {
+      "id": "activity.zh.20",
+      "text": "多年来，公司始终围绕{ACTIVITY}这一主业稳健发展。"
+    },
+    {
+      "id": "activity.zh.21",
+      "text": "在{ACTIVITY}方面，我们拥有成熟的服务流程和经验丰富的专业人员。"
+    },
+    {
+      "id": "activity.zh.22",
+      "text": "{S_NAME}，主营{ACTIVITY}，诚信经营，服务至上。"
+    },
+    {
+      "id": "activity.zh.23",
+      "text": "我司是{city}较早从事{ACTIVITY}的企业之一。"
+    },
+    {
+      "id": "activity.zh.24",
+      "text": "{ACTIVITY}——这是我们每天都在用心做好的事。"
+    },
+    {
+      "id": "activity.zh.25",
+      "text": "公司秉承“专业、诚信、高效”的经营理念，专注{ACTIVITY}。"
+    },
+    {
+      "id": "activity.zh.26",
+      "text": "本单位主营业务为{ACTIVITY}。"
+    },
+    {
+      "id": "activity.zh.28",
+      "text": "经营范围：{ACTIVITY}；企业管理咨询；会议及展览服务。（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）"
+    },
+    {
+      "id": "activity.zh.29",
+      "text": "公司的主要经营活动为{ACTIVITY}。"
+    }
   ],
   "founded": [
-    {"id": "founded.zh.01", "text": "成立时间：{FOUNDED}"},
-    {"id": "founded.zh.02", "text": "成立日期：{FOUNDED:date}"},
-    {"id": "founded.zh.03", "text": "{S_NAME}成立于{FOUNDED}，总部位于{city}。"},
-    {"id": "founded.zh.04", "text": "公司始创于{FOUNDED}，是一家经验丰富的专业企业。"},
-    {"id": "founded.zh.05", "text": "自{FOUNDED}创立以来，我们始终坚持品质第一、客户至上。"},
-    {"id": "founded.zh.06", "text": "本店{FOUNDED}开业，多年来深受街坊邻里的喜爱。"},
-    {"id": "founded.zh.07", "text": "{S_NAME:legal}于{FOUNDED:date}依法注册成立。"},
-    {"id": "founded.zh.08", "text": "创立于{FOUNDED}"},
-    {"id": "founded.zh.09", "text": "注册日期：{FOUNDED:date}"},
-    {"id": "founded.zh.10", "text": "公司于{FOUNDED:month}正式开业运营。"},
-    {"id": "founded.zh.11", "text": "{FOUNDED}，{S_NAME}在{city}诞生。"},
-    {"id": "founded.zh.12", "text": "品牌创立于{FOUNDED}，经过多年发展，已成为区域内颇具知名度的品牌。"},
-    {"id": "founded.zh.13", "text": "始于{FOUNDED}，专注品质。"},
-    {"id": "founded.zh.14", "text": "{FOUNDED}至今，我们与客户一起走过了不平凡的发展历程。"},
-    {"id": "founded.zh.15", "text": "成立年份：{FOUNDED}"},
-    {"id": "founded.zh.16", "text": "我们的故事，要从{FOUNDED}说起。"},
-    {"id": "founded.zh.17", "text": "{S_NAME}（成立于{FOUNDED}）是{city}颇有口碑的企业。"},
-    {"id": "founded.zh.18", "text": "设立日期：{FOUNDED:date}"},
-    {"id": "founded.zh.19", "text": "开业时间：{FOUNDED:month}"},
-    {"id": "founded.zh.20", "text": "本公司成立于{FOUNDED:date}，注册地址为{S_ADDRESS}。"},
-    {"id": "founded.zh.21", "text": "从{FOUNDED}创业至今，公司规模不断扩大，服务能力持续提升。"},
-    {"id": "founded.zh.22", "text": "公司创办于{FOUNDED}，是本地较早成立的同类企业之一。"},
-    {"id": "founded.zh.23", "text": "{S_NAME}，创立于{FOUNDED}，扎根{city}。"},
-    {"id": "founded.zh.24", "text": "{S_NAME}于{FOUNDED}在{city}注册成立。"},
-    {"id": "founded.zh.25", "text": "公司于{FOUNDED:date}取得营业执照，正式开始经营。"},
-    {"id": "founded.zh.26", "text": "早在{FOUNDED}，创始人就在{city}开设了第一家门店。"},
-    {"id": "founded.zh.27", "text": "成立于{FOUNDED}的{S_NAME}，如今已成长为行业内的中坚力量。"},
-    {"id": "founded.zh.28", "text": "创建时间｜{FOUNDED}"}
+    {
+      "id": "founded.zh.01",
+      "text": "成立时间：{FOUNDED}"
+    },
+    {
+      "id": "founded.zh.02",
+      "text": "成立日期：{FOUNDED:date}"
+    },
+    {
+      "id": "founded.zh.03",
+      "text": "{S_NAME}成立于{FOUNDED}，总部位于{city}。"
+    },
+    {
+      "id": "founded.zh.04",
+      "text": "公司始创于{FOUNDED}，是一家经验丰富的专业企业。"
+    },
+    {
+      "id": "founded.zh.06",
+      "text": "本店{FOUNDED}开业，多年来深受街坊邻里的喜爱。"
+    },
+    {
+      "id": "founded.zh.07",
+      "text": "{S_NAME:legal}于{FOUNDED:date}依法注册成立。"
+    },
+    {
+      "id": "founded.zh.08",
+      "text": "创立于{FOUNDED}"
+    },
+    {
+      "id": "founded.zh.09",
+      "text": "注册日期：{FOUNDED:date}"
+    },
+    {
+      "id": "founded.zh.10",
+      "text": "公司于{FOUNDED:month}正式开业运营。"
+    },
+    {
+      "id": "founded.zh.11",
+      "text": "{FOUNDED}，{S_NAME}在{city}诞生。"
+    },
+    {
+      "id": "founded.zh.13",
+      "text": "始于{FOUNDED}，专注品质。"
+    },
+    {
+      "id": "founded.zh.14",
+      "text": "{FOUNDED}至今，我们与客户一起走过了不平凡的发展历程。"
+    },
+    {
+      "id": "founded.zh.15",
+      "text": "成立年份：{FOUNDED}"
+    },
+    {
+      "id": "founded.zh.16",
+      "text": "我们的故事，要从{FOUNDED}说起。"
+    },
+    {
+      "id": "founded.zh.17",
+      "text": "{S_NAME}（成立于{FOUNDED}）是{city}颇有口碑的企业。"
+    },
+    {
+      "id": "founded.zh.18",
+      "text": "设立日期：{FOUNDED:date}"
+    },
+    {
+      "id": "founded.zh.19",
+      "text": "开业时间：{FOUNDED:month}"
+    },
+    {
+      "id": "founded.zh.21",
+      "text": "从{FOUNDED}创业至今，公司规模不断扩大，服务能力持续提升。"
+    },
+    {
+      "id": "founded.zh.22",
+      "text": "公司创办于{FOUNDED}，是本地较早成立的同类企业之一。"
+    },
+    {
+      "id": "founded.zh.23",
+      "text": "{S_NAME}，创立于{FOUNDED}，扎根{city}。"
+    },
+    {
+      "id": "founded.zh.24",
+      "text": "{S_NAME}于{FOUNDED}在{city}注册成立。"
+    },
+    {
+      "id": "founded.zh.25",
+      "text": "公司于{FOUNDED:date}取得营业执照，正式开始经营。"
+    },
+    {
+      "id": "founded.zh.26",
+      "text": "早在{FOUNDED}，创始人就在{city}开设了第一家门店。"
+    },
+    {
+      "id": "founded.zh.27",
+      "text": "成立于{FOUNDED}的{S_NAME}，如今已成长为行业内的中坚力量。"
+    },
+    {
+      "id": "founded.zh.28",
+      "text": "创建时间｜{FOUNDED}"
+    }
   ],
   "staff": [
-    {"id": "staff.zh.01", "text": "员工人数：{STAFF}"},
-    {"id": "staff.zh.02", "text": "公司现有员工{STAFF}，其中专业技术人员占比过半。"},
-    {"id": "staff.zh.03", "text": "在职员工：{STAFF}"},
-    {"id": "staff.zh.04", "text": "目前，{S_NAME}共有在职员工{STAFF}。"},
-    {"id": "staff.zh.05", "text": "公司员工总数{STAFF}，大专及以上学历者占多数。"},
-    {"id": "staff.zh.06", "text": "员工规模：{STAFF}"},
-    {"id": "staff.zh.07", "text": "公司现有全职员工{STAFF}，均经过严格的岗前培训。"},
-    {"id": "staff.zh.08", "text": "公司下设多个职能部门，现有职工{STAFF}。"},
-    {"id": "staff.zh.09", "text": "截至目前，公司从业人员{STAFF}。"},
-    {"id": "staff.zh.10", "text": "{S_NAME}现有员工{STAFF}，是本地区同行业中规模较大的企业之一。"},
-    {"id": "staff.zh.11", "text": "参保人数：{STAFF}"},
-    {"id": "staff.zh.12", "text": "企业规模：员工{STAFF}"},
-    {"id": "staff.zh.13", "text": "公司聘用员工{STAFF}，并与多所院校建立了实习合作关系。"},
-    {"id": "staff.zh.14", "text": "团队成员：{STAFF}"},
-    {"id": "staff.zh.15", "text": "本店现有员工{STAFF}，所有员工均持证上岗。"},
-    {"id": "staff.zh.16", "text": "{S_NAME}现有正式员工{STAFF}，另有多位长期合作的外部顾问。"},
-    {"id": "staff.zh.17", "text": "员工：{STAFF}"},
-    {"id": "staff.zh.18", "text": "人员规模｜{STAFF}"},
-    {"id": "staff.zh.19", "text": "雇员人数：{STAFF}"},
-    {"id": "staff.zh.20", "text": "本公司目前雇用员工{STAFF}。"},
-    {"id": "staff.zh.21", "text": "我们目前有员工{STAFF}，并且仍在持续招募优秀人才。"},
-    {"id": "staff.zh.22", "text": "公司各部门合计员工{STAFF}。"},
-    {"id": "staff.zh.23", "text": "从业人数：{STAFF}"},
-    {"id": "staff.zh.24", "text": "公司拥有员工{STAFF}，管理团队均具备丰富的行业经验。"},
-    {"id": "staff.zh.25", "text": "现有员工{STAFF}，平均年龄三十出头，是一支年轻而富有活力的队伍。"},
-    {"id": "staff.zh.26", "text": "经过多年发展，公司员工已增至{STAFF}。"},
-    {"id": "staff.zh.27", "text": "公司员工{STAFF}，各岗位分工明确、协作高效。"},
-    {"id": "staff.zh.28", "text": "职工人数：{STAFF}"}
+    {
+      "id": "staff.zh.01",
+      "text": "员工人数：{STAFF}"
+    },
+    {
+      "id": "staff.zh.02",
+      "text": "公司现有员工{STAFF}，其中专业技术人员占比过半。"
+    },
+    {
+      "id": "staff.zh.03",
+      "text": "在职员工：{STAFF}"
+    },
+    {
+      "id": "staff.zh.05",
+      "text": "公司员工总数{STAFF}，大专及以上学历者占多数。"
+    },
+    {
+      "id": "staff.zh.06",
+      "text": "员工规模：{STAFF}"
+    },
+    {
+      "id": "staff.zh.07",
+      "text": "公司现有全职员工{STAFF}，均经过严格的岗前培训。"
+    },
+    {
+      "id": "staff.zh.08",
+      "text": "公司下设多个职能部门，现有职工{STAFF}。"
+    },
+    {
+      "id": "staff.zh.10",
+      "text": "{S_NAME}现有员工{STAFF}，是本地区同行业中规模较大的企业之一。"
+    },
+    {
+      "id": "staff.zh.11",
+      "text": "参保人数：{STAFF}"
+    },
+    {
+      "id": "staff.zh.12",
+      "text": "企业规模：员工{STAFF}"
+    },
+    {
+      "id": "staff.zh.13",
+      "text": "公司聘用员工{STAFF}，并与多所院校建立了实习合作关系。"
+    },
+    {
+      "id": "staff.zh.14",
+      "text": "团队成员：{STAFF}"
+    },
+    {
+      "id": "staff.zh.15",
+      "text": "本店现有员工{STAFF}，所有员工均持证上岗。"
+    },
+    {
+      "id": "staff.zh.16",
+      "text": "{S_NAME}现有正式员工{STAFF}，另有多位长期合作的外部顾问。"
+    },
+    {
+      "id": "staff.zh.17",
+      "text": "员工：{STAFF}"
+    },
+    {
+      "id": "staff.zh.18",
+      "text": "人员规模｜{STAFF}"
+    },
+    {
+      "id": "staff.zh.19",
+      "text": "雇员人数：{STAFF}"
+    },
+    {
+      "id": "staff.zh.20",
+      "text": "本公司目前雇用员工{STAFF}。"
+    },
+    {
+      "id": "staff.zh.21",
+      "text": "我们目前有员工{STAFF}，并且仍在持续招募优秀人才。"
+    },
+    {
+      "id": "staff.zh.22",
+      "text": "公司各部门合计员工{STAFF}。"
+    },
+    {
+      "id": "staff.zh.24",
+      "text": "公司拥有员工{STAFF}，管理团队均具备丰富的行业经验。"
+    },
+    {
+      "id": "staff.zh.25",
+      "text": "现有员工{STAFF}，平均年龄三十出头，是一支年轻而富有活力的队伍。"
+    },
+    {
+      "id": "staff.zh.26",
+      "text": "经过多年发展，公司员工已增至{STAFF}。"
+    },
+    {
+      "id": "staff.zh.27",
+      "text": "公司员工{STAFF}，各岗位分工明确、协作高效。"
+    },
+    {
+      "id": "staff.zh.28",
+      "text": "职工人数：{STAFF}"
+    }
   ],
   "revenue": [
-    {"id": "revenue.zh.01", "text": "营业收入（{REVENUE_YEAR}）：{REVENUE}"},
-    {"id": "revenue.zh.02", "text": "{REVENUE_YEAR}，公司实现营业收入{REVENUE}。"},
-    {"id": "revenue.zh.03", "text": "年营业额：{REVENUE}"},
-    {"id": "revenue.zh.04", "text": "{REVENUE_YEAR}营业收入{REVENUE}，上年同期为{REVENUE_PREV}。"},
-    {"id": "revenue.zh.05", "text": "公司{REVENUE_YEAR}销售额达{REVENUE}，较上年增长{percent}。"},
-    {"id": "revenue.zh.06", "text": "主要财务数据：{REVENUE_YEAR}营业收入{REVENUE}；{REVENUE_YEAR_PREV}营业收入{REVENUE_PREV}。"},
-    {"id": "revenue.zh.07", "text": "{S_NAME}在{REVENUE_YEAR}实现营收{REVENUE}，同比增长{percent}。"},
-    {"id": "revenue.zh.08", "text": "年营收：{REVENUE}（{REVENUE_YEAR}）"},
-    {"id": "revenue.zh.09", "text": "营业额｜{REVENUE_YEAR}｜{REVENUE}"},
-    {"id": "revenue.zh.10", "text": "公司{REVENUE_YEAR}营业总收入为{REVENUE}。"},
-    {"id": "revenue.zh.11", "text": "凭借稳定的客户基础，公司年营业收入已达到{REVENUE}。"},
-    {"id": "revenue.zh.12", "text": "{REVENUE_YEAR_PREV}和{REVENUE_YEAR}，公司营业收入分别为{REVENUE_PREV}和{REVENUE}。"},
-    {"id": "revenue.zh.13", "text": "销售收入（{REVENUE_YEAR}）：{REVENUE}"},
-    {"id": "revenue.zh.14", "text": "上一财年，公司营业收入为{REVENUE}。"},
-    {"id": "revenue.zh.15", "text": "{REVENUE_YEAR}经营情况：全年实现营业收入{REVENUE}，客户满意度持续提升。"},
-    {"id": "revenue.zh.16", "text": "我们的年营业额已达{REVENUE}，在本地同行中名列前茅。"},
-    {"id": "revenue.zh.17", "text": "营业收入：{REVENUE}"},
-    {"id": "revenue.zh.18", "text": "经审计，公司{REVENUE_YEAR}营业收入为{REVENUE}。"},
-    {"id": "revenue.zh.19", "text": "尽管市场环境复杂多变，公司{REVENUE_YEAR}仍实现营业收入{REVENUE}。"},
-    {"id": "revenue.zh.20", "text": "据统计，{S_NAME}去年全年营业额为{REVENUE}。"},
-    {"id": "revenue.zh.21", "text": "近两年营业收入：{REVENUE_YEAR_PREV}为{REVENUE_PREV}，{REVENUE_YEAR}为{REVENUE}。"},
-    {"id": "revenue.zh.22", "text": "年度营业额（{REVENUE_YEAR}）：{REVENUE}"},
-    {"id": "revenue.zh.23", "text": "公司年销售收入{REVENUE}，经营状况良好。"},
-    {"id": "revenue.zh.24", "text": "营业收入同比增长{percent}，达到{REVENUE}（{REVENUE_YEAR}）。"},
-    {"id": "revenue.zh.25", "text": "总营业额：{REVENUE}"},
-    {"id": "revenue.zh.26", "text": "在{REVENUE_YEAR}，{S_NAME}的营业收入首次达到{REVENUE}。"},
-    {"id": "revenue.zh.27", "text": "营业收入（{REVENUE_YEAR_PREV}）：{REVENUE_PREV}；营业收入（{REVENUE_YEAR}）：{REVENUE}"},
-    {"id": "revenue.zh.28", "text": "去年，公司销售收入为{REVENUE}，其中线上渠道的贡献明显提升。"}
+    {
+      "id": "revenue.zh.02",
+      "text": "{REVENUE_YEAR}，公司实现营业收入{REVENUE}。"
+    },
+    {
+      "id": "revenue.zh.03",
+      "text": "年营业额：{REVENUE}"
+    },
+    {
+      "id": "revenue.zh.04",
+      "text": "{REVENUE_YEAR}营业收入{REVENUE}，上年同期为{REVENUE_PREV}。"
+    },
+    {
+      "id": "revenue.zh.05",
+      "text": "公司{REVENUE_YEAR}销售额达{REVENUE}，较上年增长{percent}。"
+    },
+    {
+      "id": "revenue.zh.06",
+      "text": "主要财务数据：{REVENUE_YEAR}营业收入{REVENUE}；{REVENUE_YEAR_PREV}营业收入{REVENUE_PREV}。"
+    },
+    {
+      "id": "revenue.zh.07",
+      "text": "{S_NAME}在{REVENUE_YEAR}实现营收{REVENUE}，同比增长{percent}。"
+    },
+    {
+      "id": "revenue.zh.08",
+      "text": "年营收：{REVENUE}（{REVENUE_YEAR}）"
+    },
+    {
+      "id": "revenue.zh.09",
+      "text": "营业额｜{REVENUE_YEAR}｜{REVENUE}"
+    },
+    {
+      "id": "revenue.zh.10",
+      "text": "公司{REVENUE_YEAR}营业总收入为{REVENUE}。"
+    },
+    {
+      "id": "revenue.zh.11",
+      "text": "凭借稳定的客户基础，公司年营业收入已达到{REVENUE}。"
+    },
+    {
+      "id": "revenue.zh.12",
+      "text": "{REVENUE_YEAR_PREV}和{REVENUE_YEAR}，公司营业收入分别为{REVENUE_PREV}和{REVENUE}。"
+    },
+    {
+      "id": "revenue.zh.14",
+      "text": "上一财年，公司营业收入为{REVENUE}。"
+    },
+    {
+      "id": "revenue.zh.15",
+      "text": "{REVENUE_YEAR}经营情况：全年实现营业收入{REVENUE}，客户满意度持续提升。"
+    },
+    {
+      "id": "revenue.zh.16",
+      "text": "我们的年营业额已达{REVENUE}，在本地同行中名列前茅。"
+    },
+    {
+      "id": "revenue.zh.17",
+      "text": "营业收入：{REVENUE}"
+    },
+    {
+      "id": "revenue.zh.18",
+      "text": "经审计，公司{REVENUE_YEAR}营业收入为{REVENUE}。"
+    },
+    {
+      "id": "revenue.zh.19",
+      "text": "尽管市场环境复杂多变，公司{REVENUE_YEAR}仍实现营业收入{REVENUE}。"
+    },
+    {
+      "id": "revenue.zh.20",
+      "text": "据统计，{S_NAME}去年全年营业额为{REVENUE}。"
+    },
+    {
+      "id": "revenue.zh.21",
+      "text": "近两年营业收入：{REVENUE_YEAR_PREV}为{REVENUE_PREV}，{REVENUE_YEAR}为{REVENUE}。"
+    },
+    {
+      "id": "revenue.zh.22",
+      "text": "年度营业额（{REVENUE_YEAR}）：{REVENUE}"
+    },
+    {
+      "id": "revenue.zh.23",
+      "text": "公司年销售收入{REVENUE}，经营状况良好。"
+    },
+    {
+      "id": "revenue.zh.24",
+      "text": "营业收入同比增长{percent}，达到{REVENUE}（{REVENUE_YEAR}）。"
+    },
+    {
+      "id": "revenue.zh.25",
+      "text": "总营业额：{REVENUE}"
+    },
+    {
+      "id": "revenue.zh.27",
+      "text": "营业收入（{REVENUE_YEAR_PREV}）：{REVENUE_PREV}；营业收入（{REVENUE_YEAR}）：{REVENUE}"
+    },
+    {
+      "id": "revenue.zh.28",
+      "text": "去年，公司销售收入为{REVENUE}，其中线上渠道的贡献明显提升。"
+    }
   ],
   "services_intro": [
-    {"id": "services_intro.zh.01", "text": "主要产品与服务：{SERVICE_LIST}"},
-    {"id": "services_intro.zh.02", "text": "我们提供{SERVICE_LIST}等多种产品与服务。"},
-    {"id": "services_intro.zh.03", "text": "本月主推：{SERVICE}"},
-    {"id": "services_intro.zh.04", "text": "{S_NAME}的经营项目包括：{SERVICE_LIST}。"},
-    {"id": "services_intro.zh.05", "text": "如需{SERVICE}，欢迎来电咨询。"},
-    {"id": "services_intro.zh.06", "text": "特色推荐：{SERVICE}"},
-    {"id": "services_intro.zh.07", "text": "我们的产品和服务涵盖{SERVICE_LIST}，可根据客户需求灵活组合。"},
-    {"id": "services_intro.zh.08", "text": "{SERVICE}深受客户好评，欢迎垂询。"},
-    {"id": "services_intro.zh.09", "text": "全新推出：{SERVICE}"},
-    {"id": "services_intro.zh.10", "text": "经营项目：{SERVICE_LIST}"},
-    {"id": "services_intro.zh.11", "text": "可提供：{SERVICE_LIST}"},
-    {"id": "services_intro.zh.12", "text": "最受客户欢迎的是{SERVICE}，回头客特别多。"},
-    {"id": "services_intro.zh.13", "text": "我们的招牌：{SERVICE}"},
-    {"id": "services_intro.zh.14", "text": "除{SERVICE}外，我们还可以根据您的需要提供定制方案。"},
-    {"id": "services_intro.zh.15", "text": "本店长期提供{SERVICE}，品质稳定，价格实惠。"},
-    {"id": "services_intro.zh.16", "text": "热门推荐：{SERVICE_LIST}"},
-    {"id": "services_intro.zh.17", "text": "我们为企业和个人客户提供{SERVICE}。"},
-    {"id": "services_intro.zh.18", "text": "{SERVICE}：详情及报价请咨询客服。"},
-    {"id": "services_intro.zh.19", "text": "业务一览：{SERVICE_LIST}"},
-    {"id": "services_intro.zh.20", "text": "我们目前可提供的项目有：{SERVICE_LIST}。"},
-    {"id": "services_intro.zh.21", "text": "{S_NAME}现推出{SERVICE}，欢迎新老客户咨询。"},
-    {"id": "services_intro.zh.22", "text": "核心产品和服务包括{SERVICE_LIST}。"},
-    {"id": "services_intro.zh.23", "text": "主营：{SERVICE_LIST}"},
-    {"id": "services_intro.zh.24", "text": "我们还提供{SERVICE}，可与其他项目搭配选择。"},
-    {"id": "services_intro.zh.25", "text": "选择我们的{SERVICE}，品质与服务双重保障。"},
-    {"id": "services_intro.zh.26", "text": "产品/服务清单：{SERVICE_LIST}"},
-    {"id": "services_intro.zh.27", "text": "针对不同客户的需求，我们推出了{SERVICE_LIST}等系列产品和服务。"},
-    {"id": "services_intro.zh.28", "text": "本季推荐：{SERVICE}"}
+    {
+      "id": "services_intro.zh.01",
+      "text": "主要产品与服务：{SERVICE_LIST}"
+    },
+    {
+      "id": "services_intro.zh.02",
+      "text": "我们提供{SERVICE_LIST}等多种产品与服务。"
+    },
+    {
+      "id": "services_intro.zh.03",
+      "text": "本月主推：{SERVICE}"
+    },
+    {
+      "id": "services_intro.zh.04",
+      "text": "{S_NAME}的经营项目包括：{SERVICE_LIST}。"
+    },
+    {
+      "id": "services_intro.zh.05",
+      "text": "如需{SERVICE}，欢迎来电咨询。"
+    },
+    {
+      "id": "services_intro.zh.06",
+      "text": "特色推荐：{SERVICE}"
+    },
+    {
+      "id": "services_intro.zh.07",
+      "text": "我们的产品和服务涵盖{SERVICE_LIST}，可根据客户需求灵活组合。"
+    },
+    {
+      "id": "services_intro.zh.08",
+      "text": "{SERVICE}深受客户好评，欢迎垂询。"
+    },
+    {
+      "id": "services_intro.zh.09",
+      "text": "全新推出：{SERVICE}"
+    },
+    {
+      "id": "services_intro.zh.10",
+      "text": "经营项目：{SERVICE_LIST}"
+    },
+    {
+      "id": "services_intro.zh.11",
+      "text": "可提供：{SERVICE_LIST}"
+    },
+    {
+      "id": "services_intro.zh.12",
+      "text": "最受客户欢迎的是{SERVICE}，回头客特别多。"
+    },
+    {
+      "id": "services_intro.zh.14",
+      "text": "除{SERVICE}外，我们还可以根据您的需要提供定制方案。"
+    },
+    {
+      "id": "services_intro.zh.16",
+      "text": "热门推荐：{SERVICE_LIST}"
+    },
+    {
+      "id": "services_intro.zh.17",
+      "text": "我们为企业和个人客户提供{SERVICE}。"
+    },
+    {
+      "id": "services_intro.zh.18",
+      "text": "{SERVICE}：详情及报价请咨询客服。"
+    },
+    {
+      "id": "services_intro.zh.19",
+      "text": "业务一览：{SERVICE_LIST}"
+    },
+    {
+      "id": "services_intro.zh.20",
+      "text": "我们目前可提供的项目有：{SERVICE_LIST}。"
+    },
+    {
+      "id": "services_intro.zh.21",
+      "text": "{S_NAME}现推出{SERVICE}，欢迎新老客户咨询。"
+    },
+    {
+      "id": "services_intro.zh.23",
+      "text": "主营：{SERVICE_LIST}"
+    },
+    {
+      "id": "services_intro.zh.24",
+      "text": "我们还提供{SERVICE}，可与其他项目搭配选择。"
+    },
+    {
+      "id": "services_intro.zh.25",
+      "text": "选择我们的{SERVICE}，品质与服务双重保障。"
+    },
+    {
+      "id": "services_intro.zh.26",
+      "text": "产品/服务清单：{SERVICE_LIST}"
+    },
+    {
+      "id": "services_intro.zh.27",
+      "text": "针对不同客户的需求，我们推出了{SERVICE_LIST}等系列产品和服务。"
+    },
+    {
+      "id": "services_intro.zh.28",
+      "text": "本季推荐：{SERVICE}"
+    }
   ],
   "clients": [
-    {"id": "clients.zh.01", "text": "主要客户：{C_NAME_LIST}"},
-    {"id": "clients.zh.02", "text": "我们服务过的客户包括{C_NAME_LIST}等。"},
-    {"id": "clients.zh.03", "text": "公司长期为{C_NAME}提供专业服务。"},
-    {"id": "clients.zh.04", "text": "{C_NAME}是我们合作多年的老客户。"},
-    {"id": "clients.zh.05", "text": "典型客户：{C_NAME_LIST}"},
-    {"id": "clients.zh.06", "text": "多年来，我们赢得了{C_NAME_LIST}等客户的信赖。"},
-    {"id": "clients.zh.07", "text": "近期，我们顺利完成了{C_NAME}委托的项目。"},
-    {"id": "clients.zh.08", "text": "合作客户（部分）：{C_NAME_LIST}"},
-    {"id": "clients.zh.09", "text": "{S_NAME}的客户遍布各行各业，其中包括{C_NAME_LIST}。"},
-    {"id": "clients.zh.10", "text": "承蒙{C_NAME}信任，公司已连续多年为其提供服务。"},
-    {"id": "clients.zh.11", "text": "服务案例：{C_NAME}"},
-    {"id": "clients.zh.12", "text": "我们的客户中既有{C_NAME}这样的知名机构，也有众多中小商户。"},
-    {"id": "clients.zh.13", "text": "受{C_NAME}委托，我司为其提供了全过程服务。"},
-    {"id": "clients.zh.14", "text": "{C_NAME_LIST}等单位均选择了我们的服务。"},
-    {"id": "clients.zh.15", "text": "重点客户：{C_NAME_LIST}"},
-    {"id": "clients.zh.16", "text": "{C_NAME}一直是我们的长期客户。"},
-    {"id": "clients.zh.17", "text": "感谢{C_NAME}、{C_NAME}等客户多年来的支持与厚爱。"},
-    {"id": "clients.zh.18", "text": "曾为{C_NAME}提供服务。"},
-    {"id": "clients.zh.19", "text": "我们的部分客户：{C_NAME_LIST}（排名不分先后）"},
-    {"id": "clients.zh.20", "text": "凭借过硬的品质，公司赢得了{C_NAME}等客户的一致认可。"},
-    {"id": "clients.zh.21", "text": "去年，公司成功入围{C_NAME}的合格供应商名录。"},
-    {"id": "clients.zh.22", "text": "{C_NAME}：长期合作客户"},
-    {"id": "clients.zh.23", "text": "客户名单：{C_NAME_LIST}"},
-    {"id": "clients.zh.24", "text": "服务对象包括{C_NAME_LIST}等企事业单位。"},
-    {"id": "clients.zh.25", "text": "我们为{C_NAME}量身定制了整体解决方案，获得了对方的高度评价。"},
-    {"id": "clients.zh.26", "text": "目前，公司已与{C_NAME_LIST}等客户签订长期服务协议。"},
-    {"id": "clients.zh.27", "text": "良好的口碑来自客户：{C_NAME}、{C_NAME}等都是我们的回头客。"},
-    {"id": "clients.zh.28", "text": "我们是{C_NAME}的指定供应商。"}
+    {
+      "id": "clients.zh.01",
+      "text": "主要客户：{C_NAME_LIST}"
+    },
+    {
+      "id": "clients.zh.02",
+      "text": "我们服务过的客户包括{C_NAME_LIST}等。"
+    },
+    {
+      "id": "clients.zh.03",
+      "text": "公司长期为{C_NAME}提供专业服务。"
+    },
+    {
+      "id": "clients.zh.04",
+      "text": "{C_NAME}是我们合作多年的老客户。"
+    },
+    {
+      "id": "clients.zh.05",
+      "text": "典型客户：{C_NAME_LIST}"
+    },
+    {
+      "id": "clients.zh.06",
+      "text": "多年来，我们赢得了{C_NAME_LIST}等客户的信赖。"
+    },
+    {
+      "id": "clients.zh.07",
+      "text": "近期，我们顺利完成了{C_NAME}委托的项目。"
+    },
+    {
+      "id": "clients.zh.08",
+      "text": "合作客户（部分）：{C_NAME_LIST}"
+    },
+    {
+      "id": "clients.zh.09",
+      "text": "{S_NAME}的客户遍布各行各业，其中包括{C_NAME_LIST}。"
+    },
+    {
+      "id": "clients.zh.10",
+      "text": "承蒙{C_NAME}信任，公司已连续多年为其提供服务。"
+    },
+    {
+      "id": "clients.zh.11",
+      "text": "服务案例：{C_NAME}"
+    },
+    {
+      "id": "clients.zh.15",
+      "text": "重点客户：{C_NAME_LIST}"
+    },
+    {
+      "id": "clients.zh.16",
+      "text": "{C_NAME}一直是我们的长期客户。"
+    },
+    {
+      "id": "clients.zh.17",
+      "text": "感谢{C_NAME}、{C_NAME}等客户多年来的支持与厚爱。"
+    },
+    {
+      "id": "clients.zh.18",
+      "text": "曾为{C_NAME}提供服务。"
+    },
+    {
+      "id": "clients.zh.19",
+      "text": "我们的部分客户：{C_NAME_LIST}（排名不分先后）"
+    },
+    {
+      "id": "clients.zh.20",
+      "text": "凭借过硬的品质，公司赢得了{C_NAME}等客户的一致认可。"
+    },
+    {
+      "id": "clients.zh.21",
+      "text": "去年，公司成功入围{C_NAME}的合格供应商名录。"
+    },
+    {
+      "id": "clients.zh.22",
+      "text": "{C_NAME}：长期合作客户"
+    },
+    {
+      "id": "clients.zh.23",
+      "text": "客户名单：{C_NAME_LIST}"
+    },
+    {
+      "id": "clients.zh.24",
+      "text": "服务对象包括{C_NAME_LIST}等企事业单位。"
+    },
+    {
+      "id": "clients.zh.25",
+      "text": "我们为{C_NAME}量身定制了整体解决方案，获得了对方的高度评价。"
+    },
+    {
+      "id": "clients.zh.26",
+      "text": "目前，公司已与{C_NAME_LIST}等客户签订长期服务协议。"
+    },
+    {
+      "id": "clients.zh.27",
+      "text": "良好的口碑来自客户：{C_NAME}、{C_NAME}等都是我们的回头客。"
+    },
+    {
+      "id": "clients.zh.28",
+      "text": "我们是{C_NAME}的指定供应商。"
+    }
   ],
   "hours": [
-    {"id": "hours.zh.01", "text": "营业时间：{HOURS}"},
-    {"id": "hours.zh.02", "text": "办公时间：{HOURS}"},
-    {"id": "hours.zh.03", "text": "门店营业时间为{HOURS:prose}。"},
-    {"id": "hours.zh.04", "text": "我们{HOURS:prose}营业，欢迎光临。"},
-    {"id": "hours.zh.05", "text": "服务时间：{HOURS}"},
-    {"id": "hours.zh.06", "text": "营业时间｜{HOURS}"},
-    {"id": "hours.zh.07", "text": "本店营业时间：{HOURS}，法定节假日营业安排另行通知。"},
-    {"id": "hours.zh.08", "text": "客服在线时间：{HOURS}"},
-    {"id": "hours.zh.09", "text": "{HOURS:prose}，我们都在这里等您。"},
-    {"id": "hours.zh.10", "text": "接待时间：{HOURS}"},
-    {"id": "hours.zh.11", "text": "欢迎在营业时间内（{HOURS}）到店咨询。"},
-    {"id": "hours.zh.12", "text": "开放时间：{HOURS}"},
-    {"id": "hours.zh.13", "text": "我们的工作时间是{HOURS:prose}。"},
-    {"id": "hours.zh.14", "text": "{city}门店营业时间：{HOURS}"},
-    {"id": "hours.zh.15", "text": "{S_NAME}营业时间：{HOURS}"},
-    {"id": "hours.zh.16", "text": "来访前请留意我们的营业时间：{HOURS}。"},
-    {"id": "hours.zh.17", "text": "营业时段：{HOURS}"},
-    {"id": "hours.zh.18", "text": "我们{HOURS:prose}为您提供服务。"},
-    {"id": "hours.zh.19", "text": "如需咨询，请在{HOURS:prose}致电{S_PHONE}。"},
-    {"id": "hours.zh.20", "text": "【营业时间】{HOURS}"},
-    {"id": "hours.zh.21", "text": "办公时间为{HOURS:prose}，其他时间请留言，我们会尽快回复。"},
-    {"id": "hours.zh.22", "text": "工作时间：{HOURS}"},
-    {"id": "hours.zh.23", "text": "调整后的营业时间为{HOURS}，敬请留意。"},
-    {"id": "hours.zh.24", "text": "门店{HOURS:prose}正常营业。"},
-    {"id": "hours.zh.25", "text": "欢迎于{HOURS:prose}到店选购或咨询。"},
-    {"id": "hours.zh.26", "text": "对外办公时间：{HOURS}"},
-    {"id": "hours.zh.27", "text": "每周营业安排：{HOURS}"},
-    {"id": "hours.zh.28", "text": "店铺营业时间：{HOURS}"}
+    {
+      "id": "hours.zh.02",
+      "text": "办公时间：{HOURS}"
+    },
+    {
+      "id": "hours.zh.03",
+      "text": "门店营业时间为{HOURS:prose}。"
+    },
+    {
+      "id": "hours.zh.04",
+      "text": "我们{HOURS:prose}营业，欢迎光临。"
+    },
+    {
+      "id": "hours.zh.05",
+      "text": "服务时间：{HOURS}"
+    },
+    {
+      "id": "hours.zh.06",
+      "text": "营业时间｜{HOURS}"
+    },
+    {
+      "id": "hours.zh.07",
+      "text": "本店营业时间：{HOURS}，法定节假日营业安排另行通知。"
+    },
+    {
+      "id": "hours.zh.08",
+      "text": "客服在线时间：{HOURS}"
+    },
+    {
+      "id": "hours.zh.09",
+      "text": "{HOURS:prose}，我们都在这里等您。"
+    },
+    {
+      "id": "hours.zh.10",
+      "text": "接待时间：{HOURS}"
+    },
+    {
+      "id": "hours.zh.11",
+      "text": "欢迎在营业时间内（{HOURS}）到店咨询。"
+    },
+    {
+      "id": "hours.zh.12",
+      "text": "开放时间：{HOURS}"
+    },
+    {
+      "id": "hours.zh.13",
+      "text": "我们的工作时间是{HOURS:prose}。"
+    },
+    {
+      "id": "hours.zh.14",
+      "text": "{city}门店营业时间：{HOURS}"
+    },
+    {
+      "id": "hours.zh.15",
+      "text": "{S_NAME}营业时间：{HOURS}"
+    },
+    {
+      "id": "hours.zh.16",
+      "text": "来访前请留意我们的营业时间：{HOURS}。"
+    },
+    {
+      "id": "hours.zh.17",
+      "text": "营业时段：{HOURS}"
+    },
+    {
+      "id": "hours.zh.18",
+      "text": "我们{HOURS:prose}为您提供服务。"
+    },
+    {
+      "id": "hours.zh.19",
+      "text": "如需咨询，请在{HOURS:prose}致电{S_PHONE}。"
+    },
+    {
+      "id": "hours.zh.20",
+      "text": "【营业时间】{HOURS}"
+    },
+    {
+      "id": "hours.zh.21",
+      "text": "办公时间为{HOURS:prose}，其他时间请留言，我们会尽快回复。"
+    },
+    {
+      "id": "hours.zh.22",
+      "text": "工作时间：{HOURS}"
+    },
+    {
+      "id": "hours.zh.23",
+      "text": "调整后的营业时间为{HOURS}，敬请留意。"
+    },
+    {
+      "id": "hours.zh.25",
+      "text": "欢迎于{HOURS:prose}到店选购或咨询。"
+    },
+    {
+      "id": "hours.zh.27",
+      "text": "每周营业安排：{HOURS}"
+    },
+    {
+      "id": "hours.zh.28",
+      "text": "店铺营业时间：{HOURS}"
+    }
   ],
   "certifications": [
-    {"id": "certifications.zh.01", "text": "资质认证：{CERT_LIST}"},
-    {"id": "certifications.zh.02", "text": "公司先后获得{CERT_LIST}等多项资质与荣誉。"},
-    {"id": "certifications.zh.03", "text": "我们持有{CERT}证书，产品和服务质量有保障。"},
-    {"id": "certifications.zh.04", "text": "资质与荣誉：{CERT_LIST}"},
-    {"id": "certifications.zh.05", "text": "证书：{CERT}（在有效期内）"},
-    {"id": "certifications.zh.06", "text": "公司已取得{CERT}证书，能够为客户提供更有保障的服务。"},
-    {"id": "certifications.zh.07", "text": "{CERT}——品质值得信赖。"},
-    {"id": "certifications.zh.08", "text": "认证与资质｜{CERT_LIST}"},
-    {"id": "certifications.zh.09", "text": "近年来，公司陆续获得了{CERT_LIST}等多项认可。"},
-    {"id": "certifications.zh.10", "text": "{CERT}证书是对我们工作的肯定，我们将持续提升服务水平。"},
-    {"id": "certifications.zh.11", "text": "{CERT}证书编号及有效期可在官网查询。"},
-    {"id": "certifications.zh.12", "text": "本店持有{CERT}证书，请您放心消费。"},
-    {"id": "certifications.zh.13", "text": "获得的认证：{CERT}"},
-    {"id": "certifications.zh.14", "text": "行业资质：{CERT}"},
-    {"id": "certifications.zh.15", "text": "{CERT}证书在有效期内，欢迎客户查验。"},
-    {"id": "certifications.zh.16", "text": "企业荣誉：{CERT}"},
-    {"id": "certifications.zh.17", "text": "资质一览：{CERT_LIST}"},
-    {"id": "certifications.zh.18", "text": "荣誉资质：{CERT_LIST}"},
-    {"id": "certifications.zh.19", "text": "公司已取得{CERT}等资质认证，管理规范、运作有序。"},
-    {"id": "certifications.zh.20", "text": "资质证书：{CERT}；证书信息可在相关官方平台查询。"},
-    {"id": "certifications.zh.21", "text": "经过严格评审，公司取得了{CERT}证书。"},
-    {"id": "certifications.zh.22", "text": "所持资质：{CERT_LIST}"},
-    {"id": "certifications.zh.23", "text": "{S_NAME}获得{CERT_LIST}等认证与荣誉，综合实力得到业界认可。"},
-    {"id": "certifications.zh.24", "text": "我们坚持规范经营，现已取得{CERT}证书。"},
-    {"id": "certifications.zh.25", "text": "会员资格及认证：{CERT_LIST}"},
-    {"id": "certifications.zh.26", "text": "{S_NAME}荣誉墙：{CERT_LIST}"},
-    {"id": "certifications.zh.27", "text": "认证与荣誉：{CERT_LIST}"},
-    {"id": "certifications.zh.28", "text": "{CERT}：这是客户选择我们的又一个理由。"}
+    {
+      "id": "certifications.zh.02",
+      "text": "公司先后获得{CERT_LIST}等多项资质与荣誉。"
+    },
+    {
+      "id": "certifications.zh.03",
+      "text": "我们持有{CERT}证书，产品和服务质量有保障。"
+    },
+    {
+      "id": "certifications.zh.04",
+      "text": "资质与荣誉：{CERT_LIST}"
+    },
+    {
+      "id": "certifications.zh.05",
+      "text": "证书：{CERT}（在有效期内）"
+    },
+    {
+      "id": "certifications.zh.06",
+      "text": "公司已取得{CERT}证书，能够为客户提供更有保障的服务。"
+    },
+    {
+      "id": "certifications.zh.08",
+      "text": "认证与资质｜{CERT_LIST}"
+    },
+    {
+      "id": "certifications.zh.09",
+      "text": "近年来，公司陆续获得了{CERT_LIST}等多项认可。"
+    },
+    {
+      "id": "certifications.zh.10",
+      "text": "{CERT}证书是对我们工作的肯定，我们将持续提升服务水平。"
+    },
+    {
+      "id": "certifications.zh.11",
+      "text": "{CERT}证书编号及有效期可在官网查询。"
+    },
+    {
+      "id": "certifications.zh.12",
+      "text": "本店持有{CERT}证书，请您放心消费。"
+    },
+    {
+      "id": "certifications.zh.13",
+      "text": "获得的认证：{CERT}"
+    },
+    {
+      "id": "certifications.zh.14",
+      "text": "行业资质：{CERT}"
+    },
+    {
+      "id": "certifications.zh.15",
+      "text": "{CERT}证书在有效期内，欢迎客户查验。"
+    },
+    {
+      "id": "certifications.zh.16",
+      "text": "企业荣誉：{CERT}"
+    },
+    {
+      "id": "certifications.zh.17",
+      "text": "资质一览：{CERT_LIST}"
+    },
+    {
+      "id": "certifications.zh.18",
+      "text": "荣誉资质：{CERT_LIST}"
+    },
+    {
+      "id": "certifications.zh.19",
+      "text": "公司已取得{CERT}等资质认证，管理规范、运作有序。"
+    },
+    {
+      "id": "certifications.zh.20",
+      "text": "资质证书：{CERT}；证书信息可在相关官方平台查询。"
+    },
+    {
+      "id": "certifications.zh.21",
+      "text": "经过严格评审，公司取得了{CERT}证书。"
+    },
+    {
+      "id": "certifications.zh.22",
+      "text": "所持资质：{CERT_LIST}"
+    },
+    {
+      "id": "certifications.zh.24",
+      "text": "我们坚持规范经营，现已取得{CERT}证书。"
+    },
+    {
+      "id": "certifications.zh.25",
+      "text": "会员资格及认证：{CERT_LIST}"
+    },
+    {
+      "id": "certifications.zh.26",
+      "text": "{S_NAME}荣誉墙：{CERT_LIST}"
+    },
+    {
+      "id": "certifications.zh.27",
+      "text": "认证与荣誉：{CERT_LIST}"
+    },
+    {
+      "id": "certifications.zh.28",
+      "text": "{CERT}：这是客户选择我们的又一个理由。"
+    }
   ],
   "location": [
-    {"id": "location.zh.01", "text": "地址：{S_ADDRESS}"},
-    {"id": "location.zh.02", "text": "联系电话：{S_PHONE}"},
-    {"id": "location.zh.03", "text": "电子邮箱：{S_EMAIL}"},
-    {"id": "location.zh.04", "text": "官方网站：{S_URL}"},
-    {"id": "location.zh.05", "text": "公司位于{S_ADDRESS}，交通便利。"},
-    {"id": "location.zh.06", "text": "咨询热线：{S_PHONE}"},
-    {"id": "location.zh.07", "text": "欢迎致电{S_PHONE}或发送邮件至{S_EMAIL}与我们联系。"},
-    {"id": "location.zh.08", "text": "更多信息请访问{S_URL}。"},
-    {"id": "location.zh.09", "text": "门店地址：{S_ADDRESS}"},
-    {"id": "location.zh.10", "text": "服务热线：{S_PHONE}"},
-    {"id": "location.zh.11", "text": "简历投递邮箱：{S_EMAIL}"},
-    {"id": "location.zh.12", "text": "地址：{S_ADDRESS}　电话：{S_PHONE}"},
-    {"id": "location.zh.13", "text": "总部地址：{S_ADDRESS}"},
-    {"id": "location.zh.14", "text": "如需预约，请拨打{S_PHONE}。"},
-    {"id": "location.zh.15", "text": "网址：{S_URL}　邮箱：{S_EMAIL}"},
-    {"id": "location.zh.16", "text": "我们的办公地点在{S_ADDRESS}，欢迎莅临洽谈。"},
-    {"id": "location.zh.17", "text": "手机（微信同号）：{S_PHONE}"},
-    {"id": "location.zh.18", "text": "业务咨询请发送邮件至{S_EMAIL}，我们将在一个工作日内回复。"},
-    {"id": "location.zh.19", "text": "在线了解我们：{S_URL}"},
-    {"id": "location.zh.20", "text": "注册地址：{S_ADDRESS}"},
-    {"id": "location.zh.21", "text": "来访地址：{S_ADDRESS}（近地铁站，步行约五分钟）"},
-    {"id": "location.zh.22", "text": "联系方式：{S_PHONE}｜{S_EMAIL}"},
-    {"id": "location.zh.23", "text": "客服电话：{S_PHONE}"},
-    {"id": "location.zh.24", "text": "访问{S_URL}，即可在线预约或留言。"},
-    {"id": "location.zh.25", "text": "通讯地址：{S_ADDRESS}"},
-    {"id": "location.zh.26", "text": "电邮：{S_EMAIL}"},
-    {"id": "location.zh.27", "text": "{S_NAME}坐落于{S_ADDRESS}。"},
-    {"id": "location.zh.28", "text": "如需寄送样品或文件，请寄至：{S_ADDRESS}。"}
+    {
+      "id": "location.zh.01",
+      "text": "地址：{S_ADDRESS}"
+    },
+    {
+      "id": "location.zh.02",
+      "text": "联系电话：{S_PHONE}"
+    },
+    {
+      "id": "location.zh.04",
+      "text": "官方网站：{S_URL}"
+    },
+    {
+      "id": "location.zh.05",
+      "text": "公司位于{S_ADDRESS}，交通便利。"
+    },
+    {
+      "id": "location.zh.06",
+      "text": "咨询热线：{S_PHONE}"
+    },
+    {
+      "id": "location.zh.07",
+      "text": "欢迎致电{S_PHONE}或发送邮件至{S_EMAIL}与我们联系。"
+    },
+    {
+      "id": "location.zh.08",
+      "text": "更多信息请访问{S_URL}。"
+    },
+    {
+      "id": "location.zh.09",
+      "text": "门店地址：{S_ADDRESS}"
+    },
+    {
+      "id": "location.zh.10",
+      "text": "服务热线：{S_PHONE}"
+    },
+    {
+      "id": "location.zh.11",
+      "text": "简历投递邮箱：{S_EMAIL}"
+    },
+    {
+      "id": "location.zh.14",
+      "text": "如需预约，请拨打{S_PHONE}。"
+    },
+    {
+      "id": "location.zh.15",
+      "text": "网址：{S_URL}　邮箱：{S_EMAIL}"
+    },
+    {
+      "id": "location.zh.16",
+      "text": "我们的办公地点在{S_ADDRESS}，欢迎莅临洽谈。"
+    },
+    {
+      "id": "location.zh.17",
+      "text": "手机（微信同号）：{S_PHONE}"
+    },
+    {
+      "id": "location.zh.18",
+      "text": "业务咨询请发送邮件至{S_EMAIL}，我们将在一个工作日内回复。"
+    },
+    {
+      "id": "location.zh.19",
+      "text": "在线了解我们：{S_URL}"
+    },
+    {
+      "id": "location.zh.20",
+      "text": "注册地址：{S_ADDRESS}"
+    },
+    {
+      "id": "location.zh.21",
+      "text": "来访地址：{S_ADDRESS}（近地铁站，步行约五分钟）"
+    },
+    {
+      "id": "location.zh.22",
+      "text": "联系方式：{S_PHONE}｜{S_EMAIL}"
+    },
+    {
+      "id": "location.zh.23",
+      "text": "客服电话：{S_PHONE}"
+    },
+    {
+      "id": "location.zh.24",
+      "text": "访问{S_URL}，即可在线预约或留言。"
+    },
+    {
+      "id": "location.zh.25",
+      "text": "通讯地址：{S_ADDRESS}"
+    },
+    {
+      "id": "location.zh.26",
+      "text": "电邮：{S_EMAIL}"
+    },
+    {
+      "id": "location.zh.27",
+      "text": "{S_NAME}坐落于{S_ADDRESS}。"
+    },
+    {
+      "id": "location.zh.28",
+      "text": "如需寄送样品或文件，请寄至：{S_ADDRESS}。"
+    }
   ],
   "capital": [
-    {"id": "capital.zh.01", "text": "注册资本：{CAPITAL}"},
-    {"id": "capital.zh.02", "text": "公司注册资本为{CAPITAL}。"},
-    {"id": "capital.zh.03", "text": "注册资本{CAPITAL}"},
-    {"id": "capital.zh.04", "text": "实缴资本：{CAPITAL}"},
-    {"id": "capital.zh.05", "text": "{S_NAME}是一家注册资本{CAPITAL}的{LEGAL_FORM}。"},
-    {"id": "capital.zh.06", "text": "公司注册资金{CAPITAL}，资金实力雄厚。"},
-    {"id": "capital.zh.07", "text": "注册资本：{CAPITAL}（已全部实缴）"},
-    {"id": "capital.zh.08", "text": "本公司注册资本{CAPITAL}，股东均以货币方式出资。"},
-    {"id": "capital.zh.09", "text": "经股东会决议，公司注册资本由{amount}增加至{CAPITAL}。"},
-    {"id": "capital.zh.10", "text": "缴足资本：{CAPITAL}"},
-    {"id": "capital.zh.11", "text": "已发行股本：{CAPITAL}"},
-    {"id": "capital.zh.12", "text": "{S_NAME:legal}（注册资本{CAPITAL}）"},
-    {"id": "capital.zh.13", "text": "注册资金：{CAPITAL}"},
-    {"id": "capital.zh.14", "text": "目前公司注册资本为{CAPITAL}，股权结构清晰。"},
-    {"id": "capital.zh.15", "text": "企业注册资本：{CAPITAL}"},
-    {"id": "capital.zh.16", "text": "股本：{CAPITAL}"},
-    {"id": "capital.zh.17", "text": "公司系注册资本{CAPITAL}的独立法人企业。"},
-    {"id": "capital.zh.18", "text": "认缴出资总额：{CAPITAL}"},
-    {"id": "capital.zh.19", "text": "我公司注册资本{CAPITAL}，具备独立承担民事责任的能力。"},
-    {"id": "capital.zh.20", "text": "本公司为依法设立的{LEGAL_FORM}，注册资本{CAPITAL}。"},
-    {"id": "capital.zh.21", "text": "公司注册资本已增至{CAPITAL}，综合实力进一步增强。"},
-    {"id": "capital.zh.22", "text": "注册资本｜{CAPITAL}"},
-    {"id": "capital.zh.23", "text": "{S_NAME}注册资本{CAPITAL}，法定代表人为{S_PERSON}。"},
-    {"id": "capital.zh.24", "text": "实收资本：{CAPITAL}"},
-    {"id": "capital.zh.25", "text": "资本金：{CAPITAL}"},
-    {"id": "capital.zh.26", "text": "公司注册资本{CAPITAL}，已在{city}依法登记注册。"},
-    {"id": "capital.zh.27", "text": "作为一家注册资本{CAPITAL}的企业，我们有能力承接各类规模的订单。"},
-    {"id": "capital.zh.28", "text": "缴足股本：{CAPITAL}"}
+    {
+      "id": "capital.zh.01",
+      "text": "注册资本：{CAPITAL}"
+    },
+    {
+      "id": "capital.zh.02",
+      "text": "公司注册资本为{CAPITAL}。"
+    },
+    {
+      "id": "capital.zh.03",
+      "text": "注册资本{CAPITAL}"
+    },
+    {
+      "id": "capital.zh.04",
+      "text": "实缴资本：{CAPITAL}"
+    },
+    {
+      "id": "capital.zh.05",
+      "text": "{S_NAME}是一家注册资本{CAPITAL}的{LEGAL_FORM}。"
+    },
+    {
+      "id": "capital.zh.06",
+      "text": "公司注册资金{CAPITAL}，资金实力雄厚。"
+    },
+    {
+      "id": "capital.zh.07",
+      "text": "注册资本：{CAPITAL}（已全部实缴）"
+    },
+    {
+      "id": "capital.zh.08",
+      "text": "本公司注册资本{CAPITAL}，股东均以货币方式出资。"
+    },
+    {
+      "id": "capital.zh.10",
+      "text": "缴足资本：{CAPITAL}"
+    },
+    {
+      "id": "capital.zh.11",
+      "text": "已发行股本：{CAPITAL}"
+    },
+    {
+      "id": "capital.zh.13",
+      "text": "注册资金：{CAPITAL}"
+    },
+    {
+      "id": "capital.zh.15",
+      "text": "企业注册资本：{CAPITAL}"
+    },
+    {
+      "id": "capital.zh.16",
+      "text": "股本：{CAPITAL}"
+    },
+    {
+      "id": "capital.zh.17",
+      "text": "公司系注册资本{CAPITAL}的独立法人企业。"
+    },
+    {
+      "id": "capital.zh.18",
+      "text": "认缴出资总额：{CAPITAL}"
+    },
+    {
+      "id": "capital.zh.19",
+      "text": "我公司注册资本{CAPITAL}，具备独立承担民事责任的能力。"
+    },
+    {
+      "id": "capital.zh.20",
+      "text": "本公司为依法设立的{LEGAL_FORM}，注册资本{CAPITAL}。"
+    },
+    {
+      "id": "capital.zh.21",
+      "text": "公司注册资本已增至{CAPITAL}，综合实力进一步增强。"
+    },
+    {
+      "id": "capital.zh.22",
+      "text": "注册资本｜{CAPITAL}"
+    },
+    {
+      "id": "capital.zh.23",
+      "text": "{S_NAME}注册资本{CAPITAL}，法定代表人为{S_PERSON}。"
+    },
+    {
+      "id": "capital.zh.24",
+      "text": "实收资本：{CAPITAL}"
+    },
+    {
+      "id": "capital.zh.25",
+      "text": "资本金：{CAPITAL}"
+    },
+    {
+      "id": "capital.zh.26",
+      "text": "公司注册资本{CAPITAL}，已在{city}依法登记注册。"
+    },
+    {
+      "id": "capital.zh.27",
+      "text": "作为一家注册资本{CAPITAL}的企业，我们有能力承接各类规模的订单。"
+    },
+    {
+      "id": "capital.zh.28",
+      "text": "缴足股本：{CAPITAL}"
+    }
   ],
   "legal_form": [
-    {"id": "legal_form.zh.01", "text": "企业类型：{LEGAL_FORM}"},
-    {"id": "legal_form.zh.02", "text": "公司类型：{LEGAL_FORM}"},
-    {"id": "legal_form.zh.03", "text": "类型：{LEGAL_FORM}"},
-    {"id": "legal_form.zh.04", "text": "本公司系依法设立的{LEGAL_FORM}。"},
-    {"id": "legal_form.zh.05", "text": "{S_NAME}为{LEGAL_FORM}，依法自主经营。"},
-    {"id": "legal_form.zh.06", "text": "组织形式：{LEGAL_FORM}"},
-    {"id": "legal_form.zh.07", "text": "企业性质：{LEGAL_FORM}"},
-    {"id": "legal_form.zh.08", "text": "主体类型：{LEGAL_FORM}"},
-    {"id": "legal_form.zh.09", "text": "我们是一家在{city}依法注册的{LEGAL_FORM}。"},
-    {"id": "legal_form.zh.10", "text": "{S_NAME}（{LEGAL_FORM}）"},
-    {"id": "legal_form.zh.11", "text": "法律形式：{LEGAL_FORM}"},
-    {"id": "legal_form.zh.12", "text": "登记类型：{LEGAL_FORM}"},
-    {"id": "legal_form.zh.13", "text": "{S_NAME}是在{city}注册的{LEGAL_FORM}。"},
-    {"id": "legal_form.zh.14", "text": "主体性质：{LEGAL_FORM}"},
-    {"id": "legal_form.zh.15", "text": "本单位属于{LEGAL_FORM}。"},
-    {"id": "legal_form.zh.16", "text": "企业类型｜{LEGAL_FORM}"},
-    {"id": "legal_form.zh.17", "text": "公司组织形式为{LEGAL_FORM}，依法规范经营。"},
-    {"id": "legal_form.zh.18", "text": "企业类别：{LEGAL_FORM}"},
-    {"id": "legal_form.zh.19", "text": "{LEGAL_FORM}，{S_REG_ID}"},
-    {"id": "legal_form.zh.20", "text": "投标人为依法成立的{LEGAL_FORM}，具有良好的商业信誉。"},
-    {"id": "legal_form.zh.21", "text": "在{city}注册成立的{LEGAL_FORM}"},
-    {"id": "legal_form.zh.22", "text": "市场主体类型：{LEGAL_FORM}"},
-    {"id": "legal_form.zh.23", "text": "公司以{LEGAL_FORM}形式注册经营。"},
-    {"id": "legal_form.zh.24", "text": "企业类型为{LEGAL_FORM}，注册资本{CAPITAL}。"},
-    {"id": "legal_form.zh.25", "text": "我司为{LEGAL_FORM}，可开具正规发票。"},
-    {"id": "legal_form.zh.26", "text": "企业形式：{LEGAL_FORM}"},
-    {"id": "legal_form.zh.27", "text": "{S_NAME}的企业类型为{LEGAL_FORM}。"},
-    {"id": "legal_form.zh.28", "text": "{S_NAME}依法登记为{LEGAL_FORM}。"}
+    {
+      "id": "legal_form.zh.01",
+      "text": "企业类型：{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.zh.02",
+      "text": "公司类型：{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.zh.03",
+      "text": "类型：{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.zh.05",
+      "text": "{S_NAME}为{LEGAL_FORM}，依法自主经营。"
+    },
+    {
+      "id": "legal_form.zh.06",
+      "text": "组织形式：{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.zh.07",
+      "text": "企业性质：{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.zh.08",
+      "text": "主体类型：{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.zh.09",
+      "text": "我们是一家在{city}依法注册的{LEGAL_FORM}。"
+    },
+    {
+      "id": "legal_form.zh.10",
+      "text": "{S_NAME}（{LEGAL_FORM}）"
+    },
+    {
+      "id": "legal_form.zh.11",
+      "text": "法律形式：{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.zh.12",
+      "text": "登记类型：{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.zh.13",
+      "text": "{S_NAME}是在{city}注册的{LEGAL_FORM}。"
+    },
+    {
+      "id": "legal_form.zh.14",
+      "text": "主体性质：{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.zh.15",
+      "text": "本单位属于{LEGAL_FORM}。"
+    },
+    {
+      "id": "legal_form.zh.16",
+      "text": "企业类型｜{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.zh.17",
+      "text": "公司组织形式为{LEGAL_FORM}，依法规范经营。"
+    },
+    {
+      "id": "legal_form.zh.18",
+      "text": "企业类别：{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.zh.19",
+      "text": "{LEGAL_FORM}，{S_REG_ID}"
+    },
+    {
+      "id": "legal_form.zh.20",
+      "text": "投标人为依法成立的{LEGAL_FORM}，具有良好的商业信誉。"
+    },
+    {
+      "id": "legal_form.zh.21",
+      "text": "在{city}注册成立的{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.zh.23",
+      "text": "公司以{LEGAL_FORM}形式注册经营。"
+    },
+    {
+      "id": "legal_form.zh.24",
+      "text": "企业类型为{LEGAL_FORM}，注册资本{CAPITAL}。"
+    },
+    {
+      "id": "legal_form.zh.25",
+      "text": "我司为{LEGAL_FORM}，可开具正规发票。"
+    },
+    {
+      "id": "legal_form.zh.26",
+      "text": "企业形式：{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.zh.28",
+      "text": "{S_NAME}依法登记为{LEGAL_FORM}。"
+    }
   ],
   "traps": [
-    {"id": "trap.zh.01", "trap": "T1", "text": "去年我们签下了公司成立以来最大的一笔订单，合同金额达{amount}。"},
-    {"id": "trap.zh.02", "trap": "T1", "text": "仅上个月，门店销售额就达到了{amount}。"},
-    {"id": "trap.zh.03", "trap": "T1", "text": "{REVENUE_YEAR}公司营业收入为{REVENUE}，其中单笔最大合同金额为{amount}。"},
-    {"id": "trap.zh.04", "trap": "T1", "text": "本项目中标金额为{amount}，是公司迄今承接的规模最大的项目。"},
-    {"id": "trap.zh.05", "trap": "T1", "text": "公司{REVENUE_YEAR}实现营业收入{REVENUE}，净利润{amount}。"},
-    {"id": "trap.zh.06", "trap": "T1", "text": "公司今年在设备更新和人员培训上的投入达{amount}，占营业收入的比重逐年提高。"},
-    {"id": "trap.zh.07", "trap": "T1", "text": "“双十一”当天，线上店铺成交额突破{amount}。"},
-    {"id": "trap.zh.08", "trap": "T1", "text": "本季度营业额为{amount}，环比增长{percent}。"},
-    {"id": "trap.zh.09", "trap": "T1", "text": "我们与{C_NAME}签订的年度框架协议，合同总额约为{amount}。"},
-    {"id": "trap.zh.10", "trap": "T1", "text": "截至去年年末，公司资产总额为{amount}。"},
-    {"id": "trap.zh.11", "trap": "T5", "text": "我们与{partner}建立了长期战略合作伙伴关系，共同开拓市场。"},
-    {"id": "trap.zh.12", "trap": "T5", "text": "公司基本存款账户开立于{bank}，资信状况良好。"},
-    {"id": "trap.zh.13", "trap": "T5", "text": "我们长期从{supplier}采购所需物料，确保品质稳定。"},
-    {"id": "trap.zh.14", "trap": "T5", "text": "与{competitor}等同行相比，我们的交付周期更短，价格也更具优势。"},
-    {"id": "trap.zh.15", "trap": "T5", "text": "我们的老客户{C_NAME}创立于{client_founded}，是当地历史悠久的知名企业。"},
-    {"id": "trap.zh.16", "trap": "T5", "text": "{partner}是我们在{city}的独家代理商。"},
-    {"id": "trap.zh.17", "trap": "T5", "text": "公司已获得{bank}提供的综合授信支持。"},
-    {"id": "trap.zh.18", "trap": "T5", "text": "目前，{competitor}在本地市场的占有率较高，但我们凭借优质服务赢得了良好口碑。"},
-    {"id": "trap.zh.19", "trap": "T5", "text": "公司的信息系统由{partner}负责建设和运维。"},
-    {"id": "trap.zh.20", "trap": "T5", "text": "我们服务多年的客户{C_NAME}始于{client_founded}，如今已发展成为行业龙头企业。"},
-    {"id": "trap.zh.21", "trap": "T5", "text": "公司所用的包装材料全部由{supplier}提供。"},
-    {"id": "trap.zh.22", "trap": "T7", "text": "资质荣誉：{CERT}（{year}）"},
-    {"id": "trap.zh.23", "trap": "T7", "text": "门店于{year}完成全面升级改造，环境焕然一新。"},
-    {"id": "trap.zh.24", "trap": "T7", "text": "公司成立于{FOUNDED}，并于{year}迁入现址。"},
-    {"id": "trap.zh.25", "trap": "T7", "text": "{year}款全新设备已投入使用，服务效率大幅提升。"},
-    {"id": "trap.zh.26", "trap": "T7", "text": "本价目表适用于{year}，如有调整将另行通知。"},
-    {"id": "trap.zh.27", "trap": "T7", "text": "{year}新品发布会将于下月在{city}举行。"},
-    {"id": "trap.zh.28", "trap": "T7", "text": "{year}：办公场所扩建完成，接待能力进一步提升。"},
-    {"id": "trap.zh.29", "trap": "T7", "text": "{year}版服务手册现已更新，欢迎索取。"},
-    {"id": "trap.zh.30", "trap": "T7", "text": "{year}：在{city}开设第二家门店。"},
-    {"id": "trap.zh.31", "trap": "T7", "text": "{year}起，我们开始提供线上预约服务。"},
-    {"id": "trap.zh.32", "trap": "T7", "text": "{year}：取得{CERT}证书。"},
-    {"id": "trap.zh.33", "trap": "T8", "text": "我们的技术团队平均拥有{n_years}以上的从业经验。"},
-    {"id": "trap.zh.34", "trap": "T8", "text": "公司累计服务{n_clients}，客户满意度始终保持在较高水平。"},
-    {"id": "trap.zh.35", "trap": "T8", "text": "目前已在{city}开设{n_shops}，覆盖主要商圈。"},
-    {"id": "trap.zh.36", "trap": "T8", "text": "公司自有{n_vehicles}，可实现市区当日送达。"},
-    {"id": "trap.zh.37", "trap": "T8", "text": "店内常备{n_products}，满足不同顾客的需求。"},
-    {"id": "trap.zh.38", "trap": "T8", "text": "迄今为止，我们已成功交付{n_projects}。"},
-    {"id": "trap.zh.39", "trap": "T8", "text": "创始人深耕行业{n_years}，对市场有着深刻的理解。"},
-    {"id": "trap.zh.40", "trap": "T8", "text": "公司现有员工{STAFF}，拥有{n_vehicles}和完善的仓储设施。"},
-    {"id": "trap.zh.41", "trap": "T8", "text": "我们拥有{n_years}的行业经验，服务过{n_clients}。"},
-    {"id": "trap.zh.42", "trap": "T8", "text": "旗下共有{n_shops}，均为直营。"},
-    {"id": "trap.zh.43", "trap": "T8", "text": "目前可供应{n_products}，业务遍及{n_countries}。"},
-    {"id": "trap.zh.44", "trap": "T11", "text": "图为{position}{person}正在为客户服务。"},
-    {"id": "trap.zh.45", "trap": "T11", "text": "财务相关事宜请联系财务部{person}，电话：{S_PHONE}。"},
-    {"id": "trap.zh.46", "trap": "T11", "text": "公司由{manager_title}{S_PERSON}全面负责，日常客户对接则由客户经理{person}负责。"},
-    {"id": "trap.zh.47", "trap": "T11", "text": "我们的项目负责人{person}将全程跟进您的需求。"},
-    {"id": "trap.zh.48", "trap": "T11", "text": "团队介绍：{person}，{position}，入职多年，工作认真负责。"},
-    {"id": "trap.zh.49", "trap": "T11", "text": "感谢{position}{person}在本次活动中的辛勤付出。"},
-    {"id": "trap.zh.50", "trap": "T11", "text": "我们的资深顾问{person}拥有丰富的实战经验。"},
-    {"id": "trap.zh.51", "trap": "T11", "text": "联系人：{person}（{position}）"},
-    {"id": "trap.zh.52", "trap": "T11", "text": "{position}{person}荣获本年度“优秀员工”称号。"},
-    {"id": "trap.zh.53", "trap": "T11", "text": "{position}{person}已于近期加入我们的团队。"},
-    {"id": "trap.zh.54", "trap": "T11", "text": "欢迎联系我们的客户经理{person}，电话：{S_PHONE}。"},
-    {"id": "trap.zh.55", "trap": "T13", "text": "我们的客户包括{C_NAME_LIST}，主要合作伙伴为{partner}。"},
-    {"id": "trap.zh.56", "trap": "T13", "text": "公司为{C_NAME}提供服务，所用设备均采购自{supplier}。"},
-    {"id": "trap.zh.57", "trap": "T13", "text": "在{partner}的支持下，我们顺利完成了{C_NAME}的项目交付。"},
-    {"id": "trap.zh.58", "trap": "T13", "text": "服务客户：{C_NAME_LIST}；合作伙伴：{partner}。"},
-    {"id": "trap.zh.59", "trap": "T13", "text": "{C_NAME}是我们的长期客户，{partner}则是我们的战略合作伙伴。"},
-    {"id": "trap.zh.60", "trap": "T13", "text": "我们与{partner}联合为{C_NAME}提供了一体化解决方案。"},
-    {"id": "trap.zh.61", "trap": "T13", "text": "客户{C_NAME}对我们的服务给予了高度评价，供应商{supplier}也与我们保持着多年的合作。"},
-    {"id": "trap.zh.62", "trap": "T13", "text": "凭借{supplier}稳定的供货，我们为{C_NAME_LIST}等客户按时完成了交付。"},
-    {"id": "trap.zh.63", "trap": "T13", "text": "我们的客户有{C_NAME}和{C_NAME}，技术合作方为{partner}。"},
-    {"id": "trap.zh.64", "trap": "T13", "text": "今年，公司携手{partner}，成功中标{C_NAME}的年度服务项目。"}
+    {
+      "id": "trap.zh.01",
+      "trap": "T1",
+      "text": "去年我们签下了公司成立以来最大的一笔订单，合同金额达{amount}。"
+    },
+    {
+      "id": "trap.zh.02",
+      "trap": "T1",
+      "text": "仅上个月，门店销售额就达到了{amount}。"
+    },
+    {
+      "id": "trap.zh.04",
+      "trap": "T1",
+      "text": "本项目中标金额为{amount}，是公司迄今承接的规模最大的项目。"
+    },
+    {
+      "id": "trap.zh.05",
+      "trap": "T1",
+      "text": "公司{REVENUE_YEAR}实现营业收入{REVENUE}，净利润{amount}。"
+    },
+    {
+      "id": "trap.zh.06",
+      "trap": "T1",
+      "text": "公司今年在设备更新和人员培训上的投入达{amount}，占营业收入的比重逐年提高。"
+    },
+    {
+      "id": "trap.zh.07",
+      "trap": "T1",
+      "text": "“双十一”当天，线上店铺成交额突破{amount}。"
+    },
+    {
+      "id": "trap.zh.08",
+      "trap": "T1",
+      "text": "本季度营业额为{amount}，环比增长{percent}。"
+    },
+    {
+      "id": "trap.zh.09",
+      "trap": "T1",
+      "text": "我们与{C_NAME}签订的年度框架协议，合同总额约为{amount}。"
+    },
+    {
+      "id": "trap.zh.10",
+      "trap": "T1",
+      "text": "截至去年年末，公司资产总额为{amount}。"
+    },
+    {
+      "id": "trap.zh.11",
+      "trap": "T5",
+      "text": "我们与{partner}建立了长期战略合作伙伴关系，共同开拓市场。"
+    },
+    {
+      "id": "trap.zh.12",
+      "trap": "T5",
+      "text": "公司基本存款账户开立于{bank}，资信状况良好。"
+    },
+    {
+      "id": "trap.zh.13",
+      "trap": "T5",
+      "text": "我们长期从{supplier}采购所需物料，确保品质稳定。"
+    },
+    {
+      "id": "trap.zh.15",
+      "trap": "T5",
+      "text": "我们的老客户{C_NAME}创立于{client_founded}，是当地历史悠久的知名企业。"
+    },
+    {
+      "id": "trap.zh.16",
+      "trap": "T5",
+      "text": "{partner}是我们在{city}的独家代理商。"
+    },
+    {
+      "id": "trap.zh.17",
+      "trap": "T5",
+      "text": "公司已获得{bank}提供的综合授信支持。"
+    },
+    {
+      "id": "trap.zh.18",
+      "trap": "T5",
+      "text": "目前，{competitor}在本地市场的占有率较高，但我们凭借优质服务赢得了良好口碑。"
+    },
+    {
+      "id": "trap.zh.19",
+      "trap": "T5",
+      "text": "公司的信息系统由{partner}负责建设和运维。"
+    },
+    {
+      "id": "trap.zh.20",
+      "trap": "T5",
+      "text": "我们服务多年的客户{C_NAME}始于{client_founded}，如今已发展成为行业龙头企业。"
+    },
+    {
+      "id": "trap.zh.21",
+      "trap": "T5",
+      "text": "公司所用的包装材料全部由{supplier}提供。"
+    },
+    {
+      "id": "trap.zh.22",
+      "trap": "T7",
+      "text": "资质荣誉：{CERT}（{year}）"
+    },
+    {
+      "id": "trap.zh.23",
+      "trap": "T7",
+      "text": "门店于{year}完成全面升级改造，环境焕然一新。"
+    },
+    {
+      "id": "trap.zh.24",
+      "trap": "T7",
+      "text": "公司成立于{FOUNDED}，并于{year}迁入现址。"
+    },
+    {
+      "id": "trap.zh.25",
+      "trap": "T7",
+      "text": "{year}款全新设备已投入使用，服务效率大幅提升。"
+    },
+    {
+      "id": "trap.zh.26",
+      "trap": "T7",
+      "text": "本价目表适用于{year}，如有调整将另行通知。"
+    },
+    {
+      "id": "trap.zh.27",
+      "trap": "T7",
+      "text": "{year}新品发布会将于下月在{city}举行。"
+    },
+    {
+      "id": "trap.zh.29",
+      "trap": "T7",
+      "text": "{year}版服务手册现已更新，欢迎索取。"
+    },
+    {
+      "id": "trap.zh.30",
+      "trap": "T7",
+      "text": "{year}：在{city}开设第二家门店。"
+    },
+    {
+      "id": "trap.zh.31",
+      "trap": "T7",
+      "text": "{year}起，我们开始提供线上预约服务。"
+    },
+    {
+      "id": "trap.zh.32",
+      "trap": "T7",
+      "text": "{year}：取得{CERT}证书。"
+    },
+    {
+      "id": "trap.zh.33",
+      "trap": "T8",
+      "text": "我们的技术团队平均拥有{n_years}以上的从业经验。"
+    },
+    {
+      "id": "trap.zh.34",
+      "trap": "T8",
+      "text": "公司累计服务{n_clients}，客户满意度始终保持在较高水平。"
+    },
+    {
+      "id": "trap.zh.35",
+      "trap": "T8",
+      "text": "目前已在{city}开设{n_shops}，覆盖主要商圈。"
+    },
+    {
+      "id": "trap.zh.36",
+      "trap": "T8",
+      "text": "公司自有{n_vehicles}，可实现市区当日送达。"
+    },
+    {
+      "id": "trap.zh.37",
+      "trap": "T8",
+      "text": "店内常备{n_products}，满足不同顾客的需求。"
+    },
+    {
+      "id": "trap.zh.38",
+      "trap": "T8",
+      "text": "迄今为止，我们已成功交付{n_projects}。"
+    },
+    {
+      "id": "trap.zh.40",
+      "trap": "T8",
+      "text": "公司现有员工{STAFF}，拥有{n_vehicles}和完善的仓储设施。"
+    },
+    {
+      "id": "trap.zh.41",
+      "trap": "T8",
+      "text": "我们拥有{n_years}的行业经验，服务过{n_clients}。"
+    },
+    {
+      "id": "trap.zh.42",
+      "trap": "T8",
+      "text": "旗下共有{n_shops}，均为直营。"
+    },
+    {
+      "id": "trap.zh.43",
+      "trap": "T8",
+      "text": "目前可供应{n_products}，业务遍及{n_countries}。"
+    },
+    {
+      "id": "trap.zh.44",
+      "trap": "T11",
+      "text": "图为{position}{person}正在为客户服务。"
+    },
+    {
+      "id": "trap.zh.45",
+      "trap": "T11",
+      "text": "财务相关事宜请联系财务部{person}，电话：{S_PHONE}。"
+    },
+    {
+      "id": "trap.zh.46",
+      "trap": "T11",
+      "text": "公司由{manager_title}{S_PERSON}全面负责，日常客户对接则由客户经理{person}负责。"
+    },
+    {
+      "id": "trap.zh.47",
+      "trap": "T11",
+      "text": "我们的项目负责人{person}将全程跟进您的需求。"
+    },
+    {
+      "id": "trap.zh.49",
+      "trap": "T11",
+      "text": "感谢{position}{person}在本次活动中的辛勤付出。"
+    },
+    {
+      "id": "trap.zh.50",
+      "trap": "T11",
+      "text": "我们的资深顾问{person}拥有丰富的实战经验。"
+    },
+    {
+      "id": "trap.zh.51",
+      "trap": "T11",
+      "text": "联系人：{person}（{position}）"
+    },
+    {
+      "id": "trap.zh.52",
+      "trap": "T11",
+      "text": "{position}{person}荣获本年度“优秀员工”称号。"
+    },
+    {
+      "id": "trap.zh.53",
+      "trap": "T11",
+      "text": "{position}{person}已于近期加入我们的团队。"
+    },
+    {
+      "id": "trap.zh.54",
+      "trap": "T11",
+      "text": "欢迎联系我们的客户经理{person}，电话：{S_PHONE}。"
+    },
+    {
+      "id": "trap.zh.55",
+      "trap": "T13",
+      "text": "我们的客户包括{C_NAME_LIST}，主要合作伙伴为{partner}。"
+    },
+    {
+      "id": "trap.zh.56",
+      "trap": "T13",
+      "text": "公司为{C_NAME}提供服务，所用设备均采购自{supplier}。"
+    },
+    {
+      "id": "trap.zh.57",
+      "trap": "T13",
+      "text": "在{partner}的支持下，我们顺利完成了{C_NAME}的项目交付。"
+    },
+    {
+      "id": "trap.zh.58",
+      "trap": "T13",
+      "text": "服务客户：{C_NAME_LIST}；合作伙伴：{partner}。"
+    },
+    {
+      "id": "trap.zh.59",
+      "trap": "T13",
+      "text": "{C_NAME}是我们的长期客户，{partner}则是我们的战略合作伙伴。"
+    },
+    {
+      "id": "trap.zh.60",
+      "trap": "T13",
+      "text": "我们与{partner}联合为{C_NAME}提供了一体化解决方案。"
+    },
+    {
+      "id": "trap.zh.61",
+      "trap": "T13",
+      "text": "客户{C_NAME}对我们的服务给予了高度评价，供应商{supplier}也与我们保持着多年的合作。"
+    },
+    {
+      "id": "trap.zh.62",
+      "trap": "T13",
+      "text": "凭借{supplier}稳定的供货，我们为{C_NAME_LIST}等客户按时完成了交付。"
+    },
+    {
+      "id": "trap.zh.64",
+      "trap": "T13",
+      "text": "今年，公司携手{partner}，成功中标{C_NAME}的年度服务项目。"
+    }
   ],
   "filler": [
-    {"id": "filler.zh.01", "text": "感谢您一直以来对我们工作的支持与信任。"},
-    {"id": "filler.zh.02", "text": "如有任何疑问，欢迎随时与我们联系。"},
-    {"id": "filler.zh.03", "text": "我们始终坚持“客户至上、诚信经营”的理念。"},
-    {"id": "filler.zh.04", "text": "我们将一如既往地为您提供优质、高效的服务。"},
-    {"id": "filler.zh.05", "text": "具体事宜以双方书面确认的内容为准。"},
-    {"id": "filler.zh.06", "text": "本资料仅供参考，如有变动，恕不另行通知。"},
-    {"id": "filler.zh.07", "text": "收到货物后，请及时检查外包装是否完好。"},
-    {"id": "filler.zh.08", "text": "每一位客户的满意，都是我们前进的动力。"},
-    {"id": "filler.zh.09", "text": "期待与您携手合作，共创美好未来。"},
-    {"id": "filler.zh.10", "text": "我们重视每一条客户反馈，并将持续改进服务。"},
-    {"id": "filler.zh.11", "text": "欢迎新老客户莅临参观指导。"},
-    {"id": "filler.zh.12", "text": "为保障您的权益，请妥善保管购物凭证。"},
-    {"id": "filler.zh.13", "text": "节假日期间，物流时效可能有所延迟，敬请谅解。"},
-    {"id": "filler.zh.14", "text": "收到您的需求后，我们会尽快安排专人跟进。"},
-    {"id": "filler.zh.15", "text": "请提前预约，以免耽误您的宝贵时间。"},
-    {"id": "filler.zh.16", "text": "您提供的所有信息都将严格保密，仅用于为您提供服务。"},
-    {"id": "filler.zh.17", "text": "上述安排如有调整，我们将第一时间通知您。"},
-    {"id": "filler.zh.18", "text": "受近期{city}持续降雨影响，部分订单的配送时间可能会有所延后。"},
-    {"id": "filler.zh.19", "text": "本周{weekday}下午将进行系统维护，届时线上服务暂停。"},
-    {"id": "filler.zh.20", "text": "我们的团队随时准备为您解答疑问。"},
-    {"id": "filler.zh.21", "text": "品质是企业的生命，服务是企业的灵魂。"},
-    {"id": "filler.zh.22", "text": "感谢您抽出宝贵时间阅读本资料。"},
-    {"id": "filler.zh.23", "text": "如需开具发票，请在付款时备注单位名称和纳税人识别号。"},
-    {"id": "filler.zh.24", "text": "请勿将银行账户信息透露给任何第三方。"},
-    {"id": "filler.zh.25", "text": "我们欢迎各种形式的合作洽谈。"},
-    {"id": "filler.zh.26", "text": "如发现产品质量问题，请在{n_days}天内联系我们处理。"},
-    {"id": "filler.zh.27", "text": "付款后请保留转账凭证，以便双方核对。"},
-    {"id": "filler.zh.28", "text": "会议资料将在会后通过邮件发送给各位。"},
-    {"id": "filler.zh.29", "text": "我们致力于为客户创造长期价值。"},
-    {"id": "filler.zh.30", "text": "欢迎关注我们，及时获取最新资讯。"},
-    {"id": "filler.zh.31", "text": "温馨提示：室内禁止吸烟。"},
-    {"id": "filler.zh.32", "text": "本通知自发布之日起生效。"},
-    {"id": "filler.zh.33", "text": "请各部门做好年终总结工作。"},
-    {"id": "filler.zh.34", "text": "用心做好每一个细节，是我们对客户的承诺。"},
-    {"id": "filler.zh.35", "text": "以上内容如有疏漏，敬请指正。"},
-    {"id": "filler.zh.36", "text": "特此说明。"},
-    {"id": "filler.zh.37", "text": "顺祝商祺！"},
-    {"id": "filler.zh.38", "text": "为给您带来更好的体验，我们对服务流程进行了优化。"},
-    {"id": "filler.zh.39", "text": "如果您对本次服务满意，欢迎推荐给身边的朋友。"},
-    {"id": "filler.zh.40", "text": "客户的信任是我们最宝贵的财富。"},
-    {"id": "filler.zh.41", "text": "合同签订后，双方应严格按照约定履行各自的义务。"},
-    {"id": "filler.zh.42", "text": "我们将根据您的具体需求提供个性化方案。"},
-    {"id": "filler.zh.43", "text": "请在规定时间内完成付款，逾期订单将自动取消。"},
-    {"id": "filler.zh.44", "text": "每一次合作，我们都全力以赴。"},
-    {"id": "filler.zh.45", "text": "自{date}起，部分业务的办理流程将有所调整，详情请咨询客服。"},
-    {"id": "filler.zh.46", "text": "期待在{city}与您见面。"},
-    {"id": "filler.zh.47", "text": "如需纸质版资料，请告知您的邮寄地址。"},
-    {"id": "filler.zh.48", "text": "我们将继续秉承专业精神，不断提升服务水平。"},
-    {"id": "filler.zh.49", "text": "最终价格以实际结算金额为准。"},
-    {"id": "filler.zh.50", "text": "请核对以上信息，如有错误请及时告知。"},
-    {"id": "filler.zh.51", "text": "春节将至，提前祝您新春快乐、万事如意！"},
-    {"id": "filler.zh.52", "text": "安全生产，人人有责。"}
+    {
+      "id": "filler.zh.01",
+      "text": "感谢您一直以来对我们工作的支持与信任。"
+    },
+    {
+      "id": "filler.zh.02",
+      "text": "如有任何疑问，欢迎随时与我们联系。"
+    },
+    {
+      "id": "filler.zh.03",
+      "text": "我们始终坚持“客户至上、诚信经营”的理念。"
+    },
+    {
+      "id": "filler.zh.05",
+      "text": "具体事宜以双方书面确认的内容为准。"
+    },
+    {
+      "id": "filler.zh.06",
+      "text": "本资料仅供参考，如有变动，恕不另行通知。"
+    },
+    {
+      "id": "filler.zh.07",
+      "text": "收到货物后，请及时检查外包装是否完好。"
+    },
+    {
+      "id": "filler.zh.08",
+      "text": "每一位客户的满意，都是我们前进的动力。"
+    },
+    {
+      "id": "filler.zh.10",
+      "text": "我们重视每一条客户反馈，并将持续改进服务。"
+    },
+    {
+      "id": "filler.zh.11",
+      "text": "欢迎新老客户莅临参观指导。"
+    },
+    {
+      "id": "filler.zh.12",
+      "text": "为保障您的权益，请妥善保管购物凭证。"
+    },
+    {
+      "id": "filler.zh.13",
+      "text": "节假日期间，物流时效可能有所延迟，敬请谅解。"
+    },
+    {
+      "id": "filler.zh.14",
+      "text": "收到您的需求后，我们会尽快安排专人跟进。"
+    },
+    {
+      "id": "filler.zh.15",
+      "text": "请提前预约，以免耽误您的宝贵时间。"
+    },
+    {
+      "id": "filler.zh.16",
+      "text": "您提供的所有信息都将严格保密，仅用于为您提供服务。"
+    },
+    {
+      "id": "filler.zh.17",
+      "text": "上述安排如有调整，我们将第一时间通知您。"
+    },
+    {
+      "id": "filler.zh.18",
+      "text": "受近期{city}持续降雨影响，部分订单的配送时间可能会有所延后。"
+    },
+    {
+      "id": "filler.zh.19",
+      "text": "本周{weekday}下午将进行系统维护，届时线上服务暂停。"
+    },
+    {
+      "id": "filler.zh.20",
+      "text": "我们的团队随时准备为您解答疑问。"
+    },
+    {
+      "id": "filler.zh.21",
+      "text": "品质是企业的生命，服务是企业的灵魂。"
+    },
+    {
+      "id": "filler.zh.22",
+      "text": "感谢您抽出宝贵时间阅读本资料。"
+    },
+    {
+      "id": "filler.zh.23",
+      "text": "如需开具发票，请在付款时备注单位名称和纳税人识别号。"
+    },
+    {
+      "id": "filler.zh.24",
+      "text": "请勿将银行账户信息透露给任何第三方。"
+    },
+    {
+      "id": "filler.zh.25",
+      "text": "我们欢迎各种形式的合作洽谈。"
+    },
+    {
+      "id": "filler.zh.26",
+      "text": "如发现产品质量问题，请在{n_days}天内联系我们处理。"
+    },
+    {
+      "id": "filler.zh.28",
+      "text": "会议资料将在会后通过邮件发送给各位。"
+    },
+    {
+      "id": "filler.zh.30",
+      "text": "欢迎关注我们，及时获取最新资讯。"
+    },
+    {
+      "id": "filler.zh.31",
+      "text": "温馨提示：室内禁止吸烟。"
+    },
+    {
+      "id": "filler.zh.32",
+      "text": "本通知自发布之日起生效。"
+    },
+    {
+      "id": "filler.zh.33",
+      "text": "请各部门做好年终总结工作。"
+    },
+    {
+      "id": "filler.zh.34",
+      "text": "用心做好每一个细节，是我们对客户的承诺。"
+    },
+    {
+      "id": "filler.zh.35",
+      "text": "以上内容如有疏漏，敬请指正。"
+    },
+    {
+      "id": "filler.zh.36",
+      "text": "特此说明。"
+    },
+    {
+      "id": "filler.zh.37",
+      "text": "顺祝商祺！"
+    },
+    {
+      "id": "filler.zh.38",
+      "text": "为给您带来更好的体验，我们对服务流程进行了优化。"
+    },
+    {
+      "id": "filler.zh.39",
+      "text": "如果您对本次服务满意，欢迎推荐给身边的朋友。"
+    },
+    {
+      "id": "filler.zh.41",
+      "text": "合同签订后，双方应严格按照约定履行各自的义务。"
+    },
+    {
+      "id": "filler.zh.42",
+      "text": "我们将根据您的具体需求提供个性化方案。"
+    },
+    {
+      "id": "filler.zh.43",
+      "text": "请在规定时间内完成付款，逾期订单将自动取消。"
+    },
+    {
+      "id": "filler.zh.44",
+      "text": "每一次合作，我们都全力以赴。"
+    },
+    {
+      "id": "filler.zh.45",
+      "text": "自{date}起，部分业务的办理流程将有所调整，详情请咨询客服。"
+    },
+    {
+      "id": "filler.zh.46",
+      "text": "期待在{city}与您见面。"
+    },
+    {
+      "id": "filler.zh.47",
+      "text": "如需纸质版资料，请告知您的邮寄地址。"
+    },
+    {
+      "id": "filler.zh.48",
+      "text": "我们将继续秉承专业精神，不断提升服务水平。"
+    },
+    {
+      "id": "filler.zh.49",
+      "text": "最终价格以实际结算金额为准。"
+    },
+    {
+      "id": "filler.zh.50",
+      "text": "请核对以上信息，如有错误请及时告知。"
+    },
+    {
+      "id": "filler.zh.51",
+      "text": "春节将至，提前祝您新春快乐、万事如意！"
+    },
+    {
+      "id": "filler.zh.52",
+      "text": "安全生产，人人有责。"
+    }
   ],
   "legal_footer": [
-    {"id": "footer.zh.01", "countries": ["CN"], "text": "{S_NAME:legal}｜{S_REG_ID}｜地址：{S_ADDRESS}｜电话：{S_PHONE}"},
-    {"id": "footer.zh.02", "countries": ["CN"], "text": "{S_NAME:legal}　企业类型：{LEGAL_FORM}　注册资本：{CAPITAL}　{S_REG_ID}"},
-    {"id": "footer.zh.03", "countries": ["CN"], "text": "公司名称：{S_NAME:legal}　注册地址：{S_ADDRESS}　{S_REG_ID}　{ACTIVITY_CODE}"},
-    {"id": "footer.zh.04", "countries": ["CN"], "text": "版权所有 © {S_NAME:legal}　保留所有权利　{S_REG_ID}"},
-    {"id": "footer.zh.05", "countries": ["CN"], "text": "{S_NAME:legal}　地址：{S_ADDRESS}　电话：{S_PHONE}　邮箱：{S_EMAIL}　网址：{S_URL}"},
-    {"id": "footer.zh.06", "countries": ["CN"], "text": "{S_NAME}（{LEGAL_FORM}）｜注册资本{CAPITAL}｜{S_REG_ID}｜注册地：{city}"},
-    {"id": "footer.zh.07", "countries": ["SG"], "text": "{S_NAME:legal}｜{S_REG_ID}｜{S_ADDRESS}｜电话：{S_PHONE}"},
-    {"id": "footer.zh.08", "countries": ["SG"], "text": "在新加坡注册成立的{LEGAL_FORM}｜{S_REG_ID}｜缴足资本：{CAPITAL}"},
-    {"id": "footer.zh.09", "countries": ["SG"], "text": "{S_NAME:legal}　{S_REG_ID}　{ACTIVITY_CODE}　电邮：{S_EMAIL}　网址：{S_URL}"},
-    {"id": "footer.zh.10", "countries": ["SG"], "text": "{S_NAME:legal}（{S_REG_ID}）　地址：{S_ADDRESS}　电话：{S_PHONE}　电邮：{S_EMAIL}"},
-    {"id": "footer.zh.11", "countries": ["CN", "SG"], "text": "{S_NAME:legal}｜{S_ADDRESS}｜Tel：{S_PHONE}｜Email：{S_EMAIL}"}
+    {
+      "id": "footer.zh.01",
+      "countries": [
+        "CN"
+      ],
+      "text": "{S_NAME:legal}｜{S_REG_ID}｜地址：{S_ADDRESS}｜电话：{S_PHONE}"
+    },
+    {
+      "id": "footer.zh.02",
+      "countries": [
+        "CN"
+      ],
+      "text": "{S_NAME:legal}　企业类型：{LEGAL_FORM}　注册资本：{CAPITAL}　{S_REG_ID}"
+    },
+    {
+      "id": "footer.zh.03",
+      "countries": [
+        "CN"
+      ],
+      "text": "公司名称：{S_NAME:legal}　注册地址：{S_ADDRESS}　{S_REG_ID}　{ACTIVITY_CODE}"
+    },
+    {
+      "id": "footer.zh.04",
+      "countries": [
+        "CN"
+      ],
+      "text": "版权所有 © {S_NAME:legal}　保留所有权利　{S_REG_ID}"
+    },
+    {
+      "id": "footer.zh.05",
+      "countries": [
+        "CN"
+      ],
+      "text": "{S_NAME:legal}　地址：{S_ADDRESS}　电话：{S_PHONE}　邮箱：{S_EMAIL}　网址：{S_URL}"
+    },
+    {
+      "id": "footer.zh.06",
+      "countries": [
+        "CN"
+      ],
+      "text": "{S_NAME}（{LEGAL_FORM}）｜注册资本{CAPITAL}｜{S_REG_ID}｜注册地：{city}"
+    },
+    {
+      "id": "footer.zh.07",
+      "countries": [
+        "SG"
+      ],
+      "text": "{S_NAME:legal}｜{S_REG_ID}｜{S_ADDRESS}｜电话：{S_PHONE}"
+    },
+    {
+      "id": "footer.zh.08",
+      "countries": [
+        "SG"
+      ],
+      "text": "在新加坡注册成立的{LEGAL_FORM}｜{S_REG_ID}｜缴足资本：{CAPITAL}"
+    },
+    {
+      "id": "footer.zh.09",
+      "countries": [
+        "SG"
+      ],
+      "text": "{S_NAME:legal}　{S_REG_ID}　{ACTIVITY_CODE}　电邮：{S_EMAIL}　网址：{S_URL}"
+    },
+    {
+      "id": "footer.zh.10",
+      "countries": [
+        "SG"
+      ],
+      "text": "{S_NAME:legal}（{S_REG_ID}）　地址：{S_ADDRESS}　电话：{S_PHONE}　电邮：{S_EMAIL}"
+    },
+    {
+      "id": "footer.zh.11",
+      "countries": [
+        "CN",
+        "SG"
+      ],
+      "text": "{S_NAME:legal}｜{S_ADDRESS}｜Tel：{S_PHONE}｜Email：{S_EMAIL}"
+    }
   ],
   "invoice_notes": {
     "payment_terms": [

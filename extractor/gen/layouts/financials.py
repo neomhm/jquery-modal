@@ -79,7 +79,7 @@ def _shown_years(ctx):
 
 def _years(ctx, max_years=3):
     ys = _shown_years(ctx)
-    if maybe(ctx, 0.6) and len(ys) >= 2:          # T3: years side by side
+    if maybe(ctx, 0.9) and len(ys) >= 2:          # T3: years side by side
         k = min(len(ys), max_years, ctx.rng.choice([2, 3]))
         ctx.doc.traps.add("T3")
         return ys[-k:][::-1]
@@ -225,17 +225,19 @@ def key_figures(ctx):
     years = _shown_years(ctx)[::-1]
     if len(years) > 1:
         doc.traps.add("T3")
-    rows = [[Cell(ctx.kw("year")), Cell(ctx.kw("revenue")),
-             Cell(AText(ctx.kw("fin_net_profit"), trap="T2")),
-             Cell(ctx.kw("staff"))]]
+    metrics = ["fin_gross_profit", "fin_operating_profit", "fin_net_profit",
+               "fin_equity"]                      # T2: >= 4 other figures
+    rows = [[Cell(ctx.kw("year")), Cell(ctx.kw("revenue"))] +
+            [Cell(AText(ctx.kw(m), trap="T2")) for m in metrics] +
+            [Cell(ctx.kw("staff"))]]
     for k, y in enumerate(years):
         f = figures(ctx, y)
         staff_cell = Cell("")
         if k == 0 and S.staff and presence_ok(ctx, S, "staff"):
             staff_cell = Cell(ctx.staff(S, "exact"))
         rows.append([_year_cell(ctx, y, header=False),
-                     _num_cell(ctx, f["fin_revenue"], "REVENUE"),
-                     _num_cell(ctx, f["fin_net_profit"]), staff_cell])
+                     _num_cell(ctx, f["fin_revenue"], "REVENUE")] +
+                    [_num_cell(ctx, f[m]) for m in metrics] + [staff_cell])
     doc.add(Table(rows))
     note = ctx.phrase("phrases", "fin_amounts_note")
     if note is not None:
@@ -342,41 +344,15 @@ def dotted_statement(ctx):
     return doc
 
 
-@layout("financials.F07", "financials")
-def comparison_with_growth(ctx):
-    doc = ctx.doc
-    _header(ctx, "key_figures")
-    years = _shown_years(ctx)[-2:][::-1]
-    doc.traps.add("T3")
-    figs = {y: figures(ctx, y) for y in years}
-    rows = [[Cell(ctx.kw("fin_item"))] + [_year_cell(ctx, y) for y in years]
-            + [Cell("%")]]
-    for key in ("fin_revenue", "fin_gross_profit", "fin_operating_profit",
-                "fin_net_profit", "fin_equity"):
-        a, b = figs[years[0]][key], figs[years[-1]][key]
-        growth = (a - b) / abs(b) * 100 if b else 0
-        row = [Cell(AText(ctx.kw(key), trap=None if key == "fin_revenue"
-                          else "T2"))]
-        for y in years:
-            row.append(_num_cell(ctx, figs[y][key], "REVENUE" if key ==
-                                 "fin_revenue" else None))
-        row.append(Cell(ctx.fmt.percent(round(growth, 1))))
-        rows.append(row)
-    doc.add(Table(rows))
-    doc.add(Para(_signoff(ctx), prose=False))
-    return doc
-
-
 @layout("financials.F08", "financials")
 def simplified_accounts(ctx):
-    """Small-business accounts: one year, few lines, average staff."""
+    """Small-business accounts: this year and last, few lines, average
+    staff."""
     doc = ctx.doc
     _header(ctx, "annual_accounts")
-    y = max(_shown_years(ctx))
-    doc.add(statement_table(ctx, [y], ["fin_revenue", "fin_cost_of_sales",
-                                       "fin_external_charges",
-                                       "fin_personnel_costs",
-                                       "fin_net_profit"]))
+    doc.add(statement_table(ctx, _years(ctx, 2), [
+        "fin_revenue", "fin_cost_of_sales", "fin_external_charges",
+        "fin_personnel_costs", "fin_net_profit"]))
     S = ctx.S
     if S.staff and presence_ok(ctx, S, "staff"):
         doc.add(Para(kv(ctx, "staff", ctx.staff(S)), prose=False))

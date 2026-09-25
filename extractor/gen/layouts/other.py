@@ -33,39 +33,36 @@ def _noise(ctx, key, n):
     return out
 
 
+def _fillers(ctx, lo, hi):
+    """Neutral sentences (the 'filler' templates), as notes."""
+    out = []
+    for _ in range(ctx.rng.randint(lo, hi)):
+        at = ctx.say("filler")
+        if at is not None and all(at.text != o.text for o in out):
+            out.append(at)
+    return out
+
+
 def _simple(ctx, key, title_key, n):
     doc = ctx.doc
     doc.add(Heading(_title(ctx, title_key)))
     for at in _noise(ctx, key, n):
         doc.add(Para(at, prose=maybe(ctx, 0.7)))
-    return doc
-
-
-@layout("other.O01", "other")
-def meeting_notes(ctx):
-    doc = ctx.doc
-    doc.add(Heading(_title(ctx, "meeting")))
-    when = ctx.date_o(datetime.date(2025, ctx.rng.randint(1, 12),
-                                    ctx.rng.randint(1, 28)))
-    doc.add(Para(AText(when), prose=False))
-    people = ", ".join(ctx.plain("person") for _ in range(
-        ctx.rng.randint(2, 4)))
-    doc.add(Para(AText(people), prose=False))
-    for at in _noise(ctx, "meeting", ctx.rng.randint(2, 4)):
-        doc.add(Para(AText("- ").add(at), prose=False))
+    for at in _fillers(ctx, 0, 3):
+        doc.add(Para(at))
     return doc
 
 
 @layout("other.O02", "other")
 def recipe(ctx):
-    return _simple(ctx, "recipe", "recipe", ctx.rng.randint(2, 4))
+    return _simple(ctx, "recipe", "recipe", ctx.rng.randint(3, 5))
 
 
 @layout("other.O03", "other")
 def manual(ctx):
     doc = ctx.doc
     doc.add(Heading(_title(ctx, "manual")))
-    for k, at in enumerate(_noise(ctx, "manual", ctx.rng.randint(3, 6)),
+    for k, at in enumerate(_noise(ctx, "manual", ctx.rng.randint(4, 7)),
                            start=1):
         doc.add(Para(AText("%d. " % k).add(at)))
     return doc
@@ -73,14 +70,14 @@ def manual(ctx):
 
 @layout("other.O04", "other")
 def news_article(ctx):
-    return _simple(ctx, "news", "news", ctx.rng.randint(2, 4))
+    return _simple(ctx, "news", "news", ctx.rng.randint(3, 6))
 
 
 @layout("other.O05", "other")
 def todo_list(ctx):
     doc = ctx.doc
     doc.add(Heading(_title(ctx, "todo")))
-    items = _noise(ctx, "todo", ctx.rng.randint(2, 4))
+    items = _noise(ctx, "todo", ctx.rng.randint(3, 5))
     doc.add(Para(lines(*[AText(pick(ctx, ["[ ] ", "- ", "* ", ""])).add(at)
                          for at in items]), prose=False))
     return doc
@@ -88,14 +85,15 @@ def todo_list(ctx):
 
 @layout("other.O06", "other")
 def memo(ctx):
-    return _simple(ctx, "memo", "memo", ctx.rng.randint(2, 4))
+    return _simple(ctx, "memo", "memo", ctx.rng.randint(3, 6))
 
 
 @layout("other.O07", "other")
 def generic_text(ctx):
     doc = ctx.doc
     ctx.doc.meta["title_text"] = "notes"
-    for at in _noise(ctx, "generic", ctx.rng.randint(2, 5)):
+    for at in _noise(ctx, "generic", ctx.rng.randint(4, 9)) + \
+            _fillers(ctx, 1, 4):
         doc.add(Para(at))
     return doc
 
@@ -133,7 +131,10 @@ def planning_table(ctx):
 def internal_report(ctx):
     doc = ctx.doc
     doc.add(Heading(_title(ctx, "report")))
-    for at in _noise(ctx, pick(ctx, ["memo", "generic", "meeting"]),
-                     ctx.rng.randint(2, 4)):
+    for key in ctx.rng.sample(["memo", "generic", "meeting"], 2):
+        doc.add(Heading(_title(ctx, "report"), level=2))
+        for at in _noise(ctx, key, ctx.rng.randint(2, 4)):
+            doc.add(Para(at))
+    for at in _fillers(ctx, 1, 3):
         doc.add(Para(at))
     return doc

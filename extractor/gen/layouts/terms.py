@@ -66,14 +66,6 @@ def general_terms(ctx):
     return doc
 
 
-@layout("terms.T02", "terms")
-def privacy_policy(ctx):
-    doc = ctx.doc
-    doc.add(Heading(_title(ctx, "privacy")))
-    _articles(ctx, "privacy", PRIVACY_ARTICLES, ctx.rng.randint(4, 8))
-    return doc
-
-
 @layout("terms.T03", "terms")
 def legal_notice(ctx):
     doc = ctx.doc

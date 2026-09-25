@@ -1,472 +1,1725 @@
 {
   "lang": "ru",
   "activity": [
-    {"id": "activity.ru.01", "text": "Основной вид деятельности — {ACTIVITY}."},
-    {"id": "activity.ru.02", "text": "Вид деятельности: {ACTIVITY}"},
-    {"id": "activity.ru.03", "text": "Основным видом деятельности компании является {ACTIVITY}."},
-    {"id": "activity.ru.04", "text": "Предметом деятельности Общества является {ACTIVITY}."},
-    {"id": "activity.ru.05", "text": "Сфера деятельности: {ACTIVITY}."},
-    {"id": "activity.ru.06", "text": "Профиль компании — {ACTIVITY}."},
-    {"id": "activity.ru.07", "text": "Основной вид деятельности ({ACTIVITY_CODE}): {ACTIVITY}."},
-    {"id": "activity.ru.08", "text": "Основной {ACTIVITY_CODE} — {ACTIVITY}"},
-    {"id": "activity.ru.09", "text": "Наша специализация — {ACTIVITY}, и в этом деле мы знаем все тонкости."},
-    {"id": "activity.ru.10", "text": "{S_NAME}: {ACTIVITY}."},
-    {"id": "activity.ru.11", "text": "Чем занимается компания {S_NAME}? Если коротко — {ACTIVITY}."},
-    {"id": "activity.ru.12", "text": "Уже {n_years} наша специализация остаётся неизменной: {ACTIVITY}."},
-    {"id": "activity.ru.13", "text": "Направление деятельности: {ACTIVITY}; работаем по всему региону."},
-    {"id": "activity.ru.14", "text": "Род деятельности: {ACTIVITY}"},
-    {"id": "activity.ru.15", "text": "Компания зарегистрирована в г. {city}, основной профиль — {ACTIVITY}."},
-    {"id": "activity.ru.16", "text": "Мы занимаемся одним делом и стараемся делать его лучше всех: {ACTIVITY}."},
-    {"id": "activity.ru.17", "text": "Ключевое направление бизнеса — {ACTIVITY}; остальные услуги лишь дополняют его."},
-    {"id": "activity.ru.18", "text": "Специализация: {ACTIVITY}."},
-    {"id": "activity.ru.19", "text": "{S_NAME} (г. {city}) — {ACTIVITY}."},
-    {"id": "activity.ru.20", "text": "Сведения о видах деятельности: основной — {ACTIVITY}, дополнительные — согласно выписке из реестра."},
-    {"id": "activity.ru.21", "text": "Деятельность компании: {ACTIVITY} для частных и корпоративных клиентов."},
-    {"id": "activity.ru.22", "text": "С первого дня работы наш главный фокус — {ACTIVITY}."},
-    {"id": "activity.ru.23", "text": "Компания {S_NAME} — это {ACTIVITY}, опыт и ответственный подход к каждому заказу."},
-    {"id": "activity.ru.24", "text": "Сфера работы нашей команды — {ACTIVITY}."},
-    {"id": "activity.ru.25", "text": "Заявленный основной вид деятельности: {ACTIVITY} ({ACTIVITY_CODE})."},
-    {"id": "activity.ru.26", "text": "О нас в двух словах: {ACTIVITY}."},
-    {"id": "activity.ru.27", "text": "Главное, чем мы занимаемся, — {ACTIVITY}."},
-    {"id": "activity.ru.28", "text": "Наш бизнес — {ACTIVITY}, и мы относимся к нему с душой."},
-    {"id": "activity.ru.29", "text": "По данным реестра, основной вид деятельности компании {S_NAME} — {ACTIVITY}."}
+    {
+      "id": "activity.ru.01",
+      "text": "Основной вид деятельности — {ACTIVITY}."
+    },
+    {
+      "id": "activity.ru.02",
+      "text": "Вид деятельности: {ACTIVITY}"
+    },
+    {
+      "id": "activity.ru.03",
+      "text": "Основным видом деятельности компании является {ACTIVITY}."
+    },
+    {
+      "id": "activity.ru.04",
+      "text": "Предметом деятельности Общества является {ACTIVITY}."
+    },
+    {
+      "id": "activity.ru.05",
+      "text": "Сфера деятельности: {ACTIVITY}."
+    },
+    {
+      "id": "activity.ru.06",
+      "text": "Профиль компании — {ACTIVITY}."
+    },
+    {
+      "id": "activity.ru.07",
+      "text": "Основной вид деятельности ({ACTIVITY_CODE}): {ACTIVITY}."
+    },
+    {
+      "id": "activity.ru.09",
+      "text": "Наша специализация — {ACTIVITY}, и в этом деле мы знаем все тонкости."
+    },
+    {
+      "id": "activity.ru.10",
+      "text": "{S_NAME}: {ACTIVITY}."
+    },
+    {
+      "id": "activity.ru.11",
+      "text": "Чем занимается компания {S_NAME}? Если коротко — {ACTIVITY}."
+    },
+    {
+      "id": "activity.ru.12",
+      "text": "Уже {n_years} наша специализация остаётся неизменной: {ACTIVITY}."
+    },
+    {
+      "id": "activity.ru.13",
+      "text": "Направление деятельности: {ACTIVITY}; работаем по всему региону."
+    },
+    {
+      "id": "activity.ru.14",
+      "text": "Род деятельности: {ACTIVITY}"
+    },
+    {
+      "id": "activity.ru.15",
+      "text": "Компания зарегистрирована в г. {city}, основной профиль — {ACTIVITY}."
+    },
+    {
+      "id": "activity.ru.17",
+      "text": "Ключевое направление бизнеса — {ACTIVITY}; остальные услуги лишь дополняют его."
+    },
+    {
+      "id": "activity.ru.18",
+      "text": "Специализация: {ACTIVITY}."
+    },
+    {
+      "id": "activity.ru.19",
+      "text": "{S_NAME} (г. {city}) — {ACTIVITY}."
+    },
+    {
+      "id": "activity.ru.20",
+      "text": "Сведения о видах деятельности: основной — {ACTIVITY}, дополнительные — согласно выписке из реестра."
+    },
+    {
+      "id": "activity.ru.21",
+      "text": "Деятельность компании: {ACTIVITY} для частных и корпоративных клиентов."
+    },
+    {
+      "id": "activity.ru.23",
+      "text": "Компания {S_NAME} — это {ACTIVITY}, опыт и ответственный подход к каждому заказу."
+    },
+    {
+      "id": "activity.ru.24",
+      "text": "Сфера работы нашей команды — {ACTIVITY}."
+    },
+    {
+      "id": "activity.ru.25",
+      "text": "Заявленный основной вид деятельности: {ACTIVITY} ({ACTIVITY_CODE})."
+    },
+    {
+      "id": "activity.ru.26",
+      "text": "О нас в двух словах: {ACTIVITY}."
+    },
+    {
+      "id": "activity.ru.27",
+      "text": "Главное, чем мы занимаемся, — {ACTIVITY}."
+    },
+    {
+      "id": "activity.ru.28",
+      "text": "Наш бизнес — {ACTIVITY}, и мы относимся к нему с душой."
+    },
+    {
+      "id": "activity.ru.29",
+      "text": "По данным реестра, основной вид деятельности компании {S_NAME} — {ACTIVITY}."
+    }
   ],
   "founded": [
-    {"id": "founded.ru.01", "text": "Год основания: {FOUNDED}"},
-    {"id": "founded.ru.02", "text": "Компания основана в {FOUNDED} году."},
-    {"id": "founded.ru.03", "text": "Работаем с {FOUNDED} года."},
-    {"id": "founded.ru.04", "text": "{S_NAME} — на рынке с {FOUNDED} года."},
-    {"id": "founded.ru.05", "text": "Дата государственной регистрации: {FOUNDED:date}"},
-    {"id": "founded.ru.06", "text": "Компания {S_NAME} зарегистрирована {FOUNDED:date} и с тех пор работает без перерывов."},
-    {"id": "founded.ru.07", "text": "Начало деятельности: {FOUNDED:month}"},
-    {"id": "founded.ru.08", "text": "История компании началась в {FOUNDED} году с небольшой мастерской в г. {city}."},
-    {"id": "founded.ru.09", "text": "Мы открылись в {FOUNDED} году и с тех пор выросли в одну из заметных компаний региона."},
-    {"id": "founded.ru.10", "text": "Надёжность, проверенная временем, — с {FOUNDED} года."},
-    {"id": "founded.ru.11", "text": "Дата регистрации: {FOUNDED:date}"},
-    {"id": "founded.ru.12", "text": "Общество зарегистрировано {FOUNDED:date} и внесено в государственный реестр юридических лиц."},
-    {"id": "founded.ru.13", "text": "В {FOUNDED} году несколько единомышленников создали компанию {S_NAME}."},
-    {"id": "founded.ru.14", "text": "Компания {S_NAME} появилась на рынке в {FOUNDED} году."},
-    {"id": "founded.ru.15", "text": "Дата создания: {FOUNDED:date}"},
-    {"id": "founded.ru.16", "text": "Мы работаем с {FOUNDED} года и за всё это время ни разу не сорвали сроки."},
-    {"id": "founded.ru.17", "text": "Предприятие было основано в {FOUNDED} году на базе небольшого цеха."},
-    {"id": "founded.ru.18", "text": "Дата основания: {FOUNDED:month}"},
-    {"id": "founded.ru.19", "text": "С {FOUNDED} года мы помогаем клиентам решать задачи любой сложности."},
-    {"id": "founded.ru.20", "text": "Наша история начинается в {FOUNDED} году."},
-    {"id": "founded.ru.21", "text": "Год регистрации — {FOUNDED}."},
-    {"id": "founded.ru.22", "text": "Организация создана {FOUNDED:date} решением единственного учредителя."},
-    {"id": "founded.ru.23", "text": "Семейное дело, основанное в {FOUNDED} году."},
-    {"id": "founded.ru.24", "text": "Компания ведёт свою историю с {FOUNDED} года."},
-    {"id": "founded.ru.25", "text": "В {FOUNDED} году мы открыли свой первый офис в г. {city}."},
-    {"id": "founded.ru.26", "text": "На рынке — с {FOUNDED} года."},
-    {"id": "founded.ru.27", "text": "{FOUNDED} — год, когда компания {S_NAME} начала свою работу."},
-    {"id": "founded.ru.28", "text": "Дата открытия: {FOUNDED:date}"},
-    {"id": "founded.ru.29", "text": "Компания работает с {FOUNDED} года и за это время выполнила не одну тысячу заказов."},
-    {"id": "founded.ru.30", "text": "Год основания компании {S_NAME} — {FOUNDED}."}
+    {
+      "id": "founded.ru.01",
+      "text": "Год основания: {FOUNDED}"
+    },
+    {
+      "id": "founded.ru.02",
+      "text": "Компания основана в {FOUNDED} году."
+    },
+    {
+      "id": "founded.ru.04",
+      "text": "{S_NAME} — на рынке с {FOUNDED} года."
+    },
+    {
+      "id": "founded.ru.05",
+      "text": "Дата государственной регистрации: {FOUNDED:date}"
+    },
+    {
+      "id": "founded.ru.06",
+      "text": "Компания {S_NAME} зарегистрирована {FOUNDED:date} и с тех пор работает без перерывов."
+    },
+    {
+      "id": "founded.ru.07",
+      "text": "Начало деятельности: {FOUNDED:month}"
+    },
+    {
+      "id": "founded.ru.08",
+      "text": "История компании началась в {FOUNDED} году с небольшой мастерской в г. {city}."
+    },
+    {
+      "id": "founded.ru.09",
+      "text": "Мы открылись в {FOUNDED} году и с тех пор выросли в одну из заметных компаний региона."
+    },
+    {
+      "id": "founded.ru.10",
+      "text": "Надёжность, проверенная временем, — с {FOUNDED} года."
+    },
+    {
+      "id": "founded.ru.11",
+      "text": "Дата регистрации: {FOUNDED:date}"
+    },
+    {
+      "id": "founded.ru.12",
+      "text": "Общество зарегистрировано {FOUNDED:date} и внесено в государственный реестр юридических лиц."
+    },
+    {
+      "id": "founded.ru.13",
+      "text": "В {FOUNDED} году несколько единомышленников создали компанию {S_NAME}."
+    },
+    {
+      "id": "founded.ru.14",
+      "text": "Компания {S_NAME} появилась на рынке в {FOUNDED} году."
+    },
+    {
+      "id": "founded.ru.15",
+      "text": "Дата создания: {FOUNDED:date}"
+    },
+    {
+      "id": "founded.ru.16",
+      "text": "Мы работаем с {FOUNDED} года и за всё это время ни разу не сорвали сроки."
+    },
+    {
+      "id": "founded.ru.17",
+      "text": "Предприятие было основано в {FOUNDED} году на базе небольшого цеха."
+    },
+    {
+      "id": "founded.ru.18",
+      "text": "Дата основания: {FOUNDED:month}"
+    },
+    {
+      "id": "founded.ru.19",
+      "text": "С {FOUNDED} года мы помогаем клиентам решать задачи любой сложности."
+    },
+    {
+      "id": "founded.ru.20",
+      "text": "Наша история начинается в {FOUNDED} году."
+    },
+    {
+      "id": "founded.ru.21",
+      "text": "Год регистрации — {FOUNDED}."
+    },
+    {
+      "id": "founded.ru.22",
+      "text": "Организация создана {FOUNDED:date} решением единственного учредителя."
+    },
+    {
+      "id": "founded.ru.23",
+      "text": "Семейное дело, основанное в {FOUNDED} году."
+    },
+    {
+      "id": "founded.ru.25",
+      "text": "В {FOUNDED} году мы открыли свой первый офис в г. {city}."
+    },
+    {
+      "id": "founded.ru.27",
+      "text": "{FOUNDED} — год, когда компания {S_NAME} начала свою работу."
+    },
+    {
+      "id": "founded.ru.28",
+      "text": "Дата открытия: {FOUNDED:date}"
+    },
+    {
+      "id": "founded.ru.29",
+      "text": "Компания работает с {FOUNDED} года и за это время выполнила не одну тысячу заказов."
+    },
+    {
+      "id": "founded.ru.30",
+      "text": "Год основания компании {S_NAME} — {FOUNDED}."
+    }
   ],
   "staff": [
-    {"id": "staff.ru.01", "text": "Численность персонала: {STAFF} чел."},
-    {"id": "staff.ru.02", "text": "В компании работает {STAFF} {staff_noun}."},
-    {"id": "staff.ru.03", "text": "Штат: {STAFF} {staff_noun}"},
-    {"id": "staff.ru.04", "text": "Среднесписочная численность работников — {STAFF} чел."},
-    {"id": "staff.ru.05", "text": "Сегодня в нашей команде {STAFF} {staff_noun}."},
-    {"id": "staff.ru.06", "text": "Количество сотрудников: {STAFF}"},
-    {"id": "staff.ru.07", "text": "Коллектив компании {S_NAME} — это {STAFF} {staff_noun}, и каждый из них — профессионал своего дела."},
-    {"id": "staff.ru.08", "text": "Над проектами работает {STAFF} {staff_noun}: инженеры, мастера и менеджеры."},
-    {"id": "staff.ru.09", "text": "На предприятии трудится {STAFF} {staff_noun}."},
-    {"id": "staff.ru.10", "text": "Персонал: {STAFF} чел., из них больше половины — с профильным образованием."},
-    {"id": "staff.ru.11", "text": "Наша команда: {STAFF} {staff_noun}."},
-    {"id": "staff.ru.12", "text": "Общая численность работников составляет {STAFF} чел."},
-    {"id": "staff.ru.13", "text": "В штате компании {STAFF} {staff_noun}."},
-    {"id": "staff.ru.14", "text": "Нас {STAFF}, и каждый отвечает за свой участок работы."},
-    {"id": "staff.ru.15", "text": "Число сотрудников — {STAFF}."},
-    {"id": "staff.ru.16", "text": "Кадровый состав: {STAFF} чел."},
-    {"id": "staff.ru.17", "text": "Сейчас у нас работает {STAFF} {staff_noun}, и мы продолжаем расти."},
-    {"id": "staff.ru.18", "text": "Численность сотрудников на конец года: {STAFF}"},
-    {"id": "staff.ru.19", "text": "Размер команды: {STAFF} чел."},
-    {"id": "staff.ru.20", "text": "Штатная численность — {STAFF} {staff_noun}."},
-    {"id": "staff.ru.21", "text": "У нас работает {STAFF} {staff_noun} — от стажёров до мастеров с большим опытом."},
-    {"id": "staff.ru.22", "text": "Сотрудников: {STAFF}"},
-    {"id": "staff.ru.23", "text": "Средняя численность персонала за год: {STAFF} чел."},
-    {"id": "staff.ru.24", "text": "На сегодняшний день в штате компании {S_NAME} — {STAFF} {staff_noun}."},
-    {"id": "staff.ru.25", "text": "Каждый день для вас работает {STAFF} {staff_noun}."},
-    {"id": "staff.ru.26", "text": "Компания {S_NAME} — это сплочённая команда: {STAFF} {staff_noun}."},
-    {"id": "staff.ru.27", "text": "Численность: {STAFF} чел. (по данным на начало года)."},
-    {"id": "staff.ru.28", "text": "Сейчас в штате {STAFF} {staff_noun}, большинство работает с нами много лет."}
+    {
+      "id": "staff.ru.01",
+      "text": "Численность персонала: {STAFF} чел."
+    },
+    {
+      "id": "staff.ru.02",
+      "text": "В компании работает {STAFF} {staff_noun}."
+    },
+    {
+      "id": "staff.ru.03",
+      "text": "Штат: {STAFF} {staff_noun}"
+    },
+    {
+      "id": "staff.ru.04",
+      "text": "Среднесписочная численность работников — {STAFF} чел."
+    },
+    {
+      "id": "staff.ru.05",
+      "text": "Сегодня в нашей команде {STAFF} {staff_noun}."
+    },
+    {
+      "id": "staff.ru.06",
+      "text": "Количество сотрудников: {STAFF}"
+    },
+    {
+      "id": "staff.ru.07",
+      "text": "Коллектив компании {S_NAME} — это {STAFF} {staff_noun}, и каждый из них — профессионал своего дела."
+    },
+    {
+      "id": "staff.ru.08",
+      "text": "Над проектами работает {STAFF} {staff_noun}: инженеры, мастера и менеджеры."
+    },
+    {
+      "id": "staff.ru.09",
+      "text": "На предприятии трудится {STAFF} {staff_noun}."
+    },
+    {
+      "id": "staff.ru.10",
+      "text": "Персонал: {STAFF} чел., из них больше половины — с профильным образованием."
+    },
+    {
+      "id": "staff.ru.11",
+      "text": "Наша команда: {STAFF} {staff_noun}."
+    },
+    {
+      "id": "staff.ru.12",
+      "text": "Общая численность работников составляет {STAFF} чел."
+    },
+    {
+      "id": "staff.ru.13",
+      "text": "В штате компании {STAFF} {staff_noun}."
+    },
+    {
+      "id": "staff.ru.14",
+      "text": "Нас {STAFF}, и каждый отвечает за свой участок работы."
+    },
+    {
+      "id": "staff.ru.15",
+      "text": "Число сотрудников — {STAFF}."
+    },
+    {
+      "id": "staff.ru.16",
+      "text": "Кадровый состав: {STAFF} чел."
+    },
+    {
+      "id": "staff.ru.17",
+      "text": "Сейчас у нас работает {STAFF} {staff_noun}, и мы продолжаем расти."
+    },
+    {
+      "id": "staff.ru.18",
+      "text": "Численность сотрудников на конец года: {STAFF}"
+    },
+    {
+      "id": "staff.ru.19",
+      "text": "Размер команды: {STAFF} чел."
+    },
+    {
+      "id": "staff.ru.20",
+      "text": "Штатная численность — {STAFF} {staff_noun}."
+    },
+    {
+      "id": "staff.ru.21",
+      "text": "У нас работает {STAFF} {staff_noun} — от стажёров до мастеров с большим опытом."
+    },
+    {
+      "id": "staff.ru.23",
+      "text": "Средняя численность персонала за год: {STAFF} чел."
+    },
+    {
+      "id": "staff.ru.24",
+      "text": "На сегодняшний день в штате компании {S_NAME} — {STAFF} {staff_noun}."
+    },
+    {
+      "id": "staff.ru.25",
+      "text": "Каждый день для вас работает {STAFF} {staff_noun}."
+    },
+    {
+      "id": "staff.ru.27",
+      "text": "Численность: {STAFF} чел. (по данным на начало года)."
+    }
   ],
   "revenue": [
-    {"id": "revenue.ru.01", "text": "Выручка за {REVENUE_YEAR} год: {REVENUE}"},
-    {"id": "revenue.ru.02", "text": "Выручка компании за {REVENUE_YEAR} год составила {REVENUE}."},
-    {"id": "revenue.ru.03", "text": "Оборот в {REVENUE_YEAR} году — {REVENUE}."},
-    {"id": "revenue.ru.04", "text": "Годовой оборот: {REVENUE}"},
-    {"id": "revenue.ru.05", "text": "По итогам {REVENUE_YEAR} года выручка компании достигла {REVENUE}."},
-    {"id": "revenue.ru.06", "text": "Выручка ({REVENUE_YEAR}): {REVENUE}"},
-    {"id": "revenue.ru.07", "text": "Выручка от реализации за {REVENUE_YEAR} год — {REVENUE} (в {REVENUE_YEAR_PREV} году — {REVENUE_PREV})."},
-    {"id": "revenue.ru.08", "text": "В {REVENUE_YEAR} году оборот компании вырос до {REVENUE} против {REVENUE_PREV} годом ранее."},
-    {"id": "revenue.ru.09", "text": "Объём продаж за {REVENUE_YEAR} год составил {REVENUE}."},
-    {"id": "revenue.ru.10", "text": "Годовая выручка компании превышает {REVENUE}."},
-    {"id": "revenue.ru.11", "text": "Выручка, {REVENUE_YEAR} г.: {REVENUE}"},
-    {"id": "revenue.ru.12", "text": "Оборот компании {S_NAME} по итогам {REVENUE_YEAR} года — {REVENUE}."},
-    {"id": "revenue.ru.13", "text": "Доходы от основной деятельности за {REVENUE_YEAR} год составили {REVENUE}."},
-    {"id": "revenue.ru.14", "text": "Выручка {REVENUE_YEAR}: {REVENUE}; выручка {REVENUE_YEAR_PREV}: {REVENUE_PREV}."},
-    {"id": "revenue.ru.15", "text": "{REVENUE} — такова выручка компании за {REVENUE_YEAR} год."},
-    {"id": "revenue.ru.16", "text": "Выручка за {REVENUE_YEAR} г. — {REVENUE}, что на {percent} больше, чем годом ранее."},
-    {"id": "revenue.ru.17", "text": "Показатель выручки за {REVENUE_YEAR} год — {REVENUE}."},
-    {"id": "revenue.ru.18", "text": "Оборот за последний финансовый год ({REVENUE_YEAR}) составил {REVENUE}."},
-    {"id": "revenue.ru.19", "text": "Выручка от продаж, {REVENUE_YEAR} г.: {REVENUE}"},
-    {"id": "revenue.ru.20", "text": "В {REVENUE_YEAR} году выручка составила {REVENUE}, в {REVENUE_YEAR_PREV} году — {REVENUE_PREV}."},
-    {"id": "revenue.ru.21", "text": "Компания {S_NAME} закрыла {REVENUE_YEAR} год с выручкой {REVENUE}."},
-    {"id": "revenue.ru.22", "text": "Годовая выручка: {REVENUE} ({REVENUE_YEAR})."},
-    {"id": "revenue.ru.23", "text": "Объём реализации продукции и услуг в {REVENUE_YEAR} году — {REVENUE}."},
-    {"id": "revenue.ru.24", "text": "Выручка растёт: {REVENUE_PREV} в {REVENUE_YEAR_PREV} году и {REVENUE} в {REVENUE_YEAR} году."},
-    {"id": "revenue.ru.25", "text": "Выручка (нетто) от продажи товаров, работ, услуг за {REVENUE_YEAR} год: {REVENUE}"},
-    {"id": "revenue.ru.26", "text": "Наш оборот за прошлый год — {REVENUE}."},
-    {"id": "revenue.ru.27", "text": "Оборот: {REVENUE} в год."},
-    {"id": "revenue.ru.28", "text": "Совокупная выручка по итогам {REVENUE_YEAR} года — {REVENUE}, чистая прибыль — {amount}."}
+    {
+      "id": "revenue.ru.01",
+      "text": "Выручка за {REVENUE_YEAR} год: {REVENUE}"
+    },
+    {
+      "id": "revenue.ru.02",
+      "text": "Выручка компании за {REVENUE_YEAR} год составила {REVENUE}."
+    },
+    {
+      "id": "revenue.ru.04",
+      "text": "Годовой оборот: {REVENUE}"
+    },
+    {
+      "id": "revenue.ru.05",
+      "text": "По итогам {REVENUE_YEAR} года выручка компании достигла {REVENUE}."
+    },
+    {
+      "id": "revenue.ru.06",
+      "text": "Выручка ({REVENUE_YEAR}): {REVENUE}"
+    },
+    {
+      "id": "revenue.ru.07",
+      "text": "Выручка от реализации за {REVENUE_YEAR} год — {REVENUE} (в {REVENUE_YEAR_PREV} году — {REVENUE_PREV})."
+    },
+    {
+      "id": "revenue.ru.08",
+      "text": "В {REVENUE_YEAR} году оборот компании вырос до {REVENUE} против {REVENUE_PREV} годом ранее."
+    },
+    {
+      "id": "revenue.ru.10",
+      "text": "Годовая выручка компании превышает {REVENUE}."
+    },
+    {
+      "id": "revenue.ru.11",
+      "text": "Выручка, {REVENUE_YEAR} г.: {REVENUE}"
+    },
+    {
+      "id": "revenue.ru.12",
+      "text": "Оборот компании {S_NAME} по итогам {REVENUE_YEAR} года — {REVENUE}."
+    },
+    {
+      "id": "revenue.ru.13",
+      "text": "Доходы от основной деятельности за {REVENUE_YEAR} год составили {REVENUE}."
+    },
+    {
+      "id": "revenue.ru.14",
+      "text": "Выручка {REVENUE_YEAR}: {REVENUE}; выручка {REVENUE_YEAR_PREV}: {REVENUE_PREV}."
+    },
+    {
+      "id": "revenue.ru.15",
+      "text": "{REVENUE} — такова выручка компании за {REVENUE_YEAR} год."
+    },
+    {
+      "id": "revenue.ru.16",
+      "text": "Выручка за {REVENUE_YEAR} г. — {REVENUE}, что на {percent} больше, чем годом ранее."
+    },
+    {
+      "id": "revenue.ru.17",
+      "text": "Показатель выручки за {REVENUE_YEAR} год — {REVENUE}."
+    },
+    {
+      "id": "revenue.ru.18",
+      "text": "Оборот за последний финансовый год ({REVENUE_YEAR}) составил {REVENUE}."
+    },
+    {
+      "id": "revenue.ru.19",
+      "text": "Выручка от продаж, {REVENUE_YEAR} г.: {REVENUE}"
+    },
+    {
+      "id": "revenue.ru.20",
+      "text": "В {REVENUE_YEAR} году выручка составила {REVENUE}, в {REVENUE_YEAR_PREV} году — {REVENUE_PREV}."
+    },
+    {
+      "id": "revenue.ru.21",
+      "text": "Компания {S_NAME} закрыла {REVENUE_YEAR} год с выручкой {REVENUE}."
+    },
+    {
+      "id": "revenue.ru.22",
+      "text": "Годовая выручка: {REVENUE} ({REVENUE_YEAR})."
+    },
+    {
+      "id": "revenue.ru.23",
+      "text": "Объём реализации продукции и услуг в {REVENUE_YEAR} году — {REVENUE}."
+    },
+    {
+      "id": "revenue.ru.24",
+      "text": "Выручка растёт: {REVENUE_PREV} в {REVENUE_YEAR_PREV} году и {REVENUE} в {REVENUE_YEAR} году."
+    },
+    {
+      "id": "revenue.ru.26",
+      "text": "Наш оборот за прошлый год — {REVENUE}."
+    },
+    {
+      "id": "revenue.ru.27",
+      "text": "Оборот: {REVENUE} в год."
+    },
+    {
+      "id": "revenue.ru.28",
+      "text": "Совокупная выручка по итогам {REVENUE_YEAR} года — {REVENUE}, чистая прибыль — {amount}."
+    }
   ],
   "services_intro": [
-    {"id": "services_intro.ru.01", "text": "Наши услуги: {SERVICE_LIST}."},
-    {"id": "services_intro.ru.02", "text": "Мы предлагаем: {SERVICE_LIST}."},
-    {"id": "services_intro.ru.03", "text": "Основные направления работы: {SERVICE_LIST}."},
-    {"id": "services_intro.ru.04", "text": "В перечень услуг входят: {SERVICE_LIST}."},
-    {"id": "services_intro.ru.05", "text": "Популярная услуга месяца — {SERVICE}."},
-    {"id": "services_intro.ru.06", "text": "Самое востребованное у наших клиентов — {SERVICE}."},
-    {"id": "services_intro.ru.07", "text": "Компания {S_NAME} оказывает следующие услуги: {SERVICE_LIST}."},
-    {"id": "services_intro.ru.08", "text": "Ассортимент: {SERVICE_LIST} и многое другое."},
-    {"id": "services_intro.ru.09", "text": "Хит продаж: {SERVICE}"},
-    {"id": "services_intro.ru.10", "text": "Отдельное направление — {SERVICE}."},
-    {"id": "services_intro.ru.11", "text": "Что мы делаем: {SERVICE_LIST}."},
-    {"id": "services_intro.ru.12", "text": "У нас можно заказать: {SERVICE_LIST}."},
-    {"id": "services_intro.ru.13", "text": "Новинка сезона — {SERVICE}."},
-    {"id": "services_intro.ru.14", "text": "Специализируемся на следующих работах: {SERVICE_LIST}."},
-    {"id": "services_intro.ru.15", "text": "Полный перечень услуг: {SERVICE_LIST} — подробности по телефону."},
-    {"id": "services_intro.ru.16", "text": "Среди наших услуг — {SERVICE_LIST}."},
-    {"id": "services_intro.ru.17", "text": "Каталог продукции включает: {SERVICE_LIST}."},
-    {"id": "services_intro.ru.18", "text": "Под заказ выполняем: {SERVICE_LIST}."},
-    {"id": "services_intro.ru.19", "text": "Для корпоративных клиентов доступно: {SERVICE_LIST}."},
-    {"id": "services_intro.ru.20", "text": "Услуга: {SERVICE}"},
-    {"id": "services_intro.ru.21", "text": "Наше главное предложение — {SERVICE}."},
-    {"id": "services_intro.ru.22", "text": "Спектр услуг компании включает: {SERVICE_LIST}."},
-    {"id": "services_intro.ru.23", "text": "В прайс-листе: {SERVICE_LIST} и другие позиции."},
-    {"id": "services_intro.ru.24", "text": "{SERVICE} — одна из самых востребованных позиций в нашем прайс-листе."},
-    {"id": "services_intro.ru.25", "text": "Чаще всего у нас заказывают: {SERVICE}."},
-    {"id": "services_intro.ru.26", "text": "Комплексное обслуживание: {SERVICE_LIST}."},
-    {"id": "services_intro.ru.27", "text": "Что входит в наше предложение: {SERVICE_LIST}."},
-    {"id": "services_intro.ru.28", "text": "Рекомендуем попробовать: {SERVICE}."}
+    {
+      "id": "services_intro.ru.01",
+      "text": "Наши услуги: {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.ru.02",
+      "text": "Мы предлагаем: {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.ru.03",
+      "text": "Основные направления работы: {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.ru.04",
+      "text": "В перечень услуг входят: {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.ru.05",
+      "text": "Популярная услуга месяца — {SERVICE}."
+    },
+    {
+      "id": "services_intro.ru.06",
+      "text": "Самое востребованное у наших клиентов — {SERVICE}."
+    },
+    {
+      "id": "services_intro.ru.08",
+      "text": "Ассортимент: {SERVICE_LIST} и многое другое."
+    },
+    {
+      "id": "services_intro.ru.09",
+      "text": "Хит продаж: {SERVICE}"
+    },
+    {
+      "id": "services_intro.ru.10",
+      "text": "Отдельное направление — {SERVICE}."
+    },
+    {
+      "id": "services_intro.ru.11",
+      "text": "Что мы делаем: {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.ru.12",
+      "text": "У нас можно заказать: {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.ru.13",
+      "text": "Новинка сезона — {SERVICE}."
+    },
+    {
+      "id": "services_intro.ru.14",
+      "text": "Специализируемся на следующих работах: {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.ru.15",
+      "text": "Полный перечень услуг: {SERVICE_LIST} — подробности по телефону."
+    },
+    {
+      "id": "services_intro.ru.16",
+      "text": "Среди наших услуг — {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.ru.17",
+      "text": "Каталог продукции включает: {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.ru.18",
+      "text": "Под заказ выполняем: {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.ru.19",
+      "text": "Для корпоративных клиентов доступно: {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.ru.20",
+      "text": "Услуга: {SERVICE}"
+    },
+    {
+      "id": "services_intro.ru.22",
+      "text": "Спектр услуг компании включает: {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.ru.23",
+      "text": "В прайс-листе: {SERVICE_LIST} и другие позиции."
+    },
+    {
+      "id": "services_intro.ru.24",
+      "text": "{SERVICE} — одна из самых востребованных позиций в нашем прайс-листе."
+    },
+    {
+      "id": "services_intro.ru.25",
+      "text": "Чаще всего у нас заказывают: {SERVICE}."
+    },
+    {
+      "id": "services_intro.ru.26",
+      "text": "Комплексное обслуживание: {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.ru.27",
+      "text": "Что входит в наше предложение: {SERVICE_LIST}."
+    }
   ],
   "clients": [
-    {"id": "clients.ru.01", "text": "Наши клиенты: {C_NAME_LIST}."},
-    {"id": "clients.ru.02", "text": "Среди наших клиентов — {C_NAME_LIST}."},
-    {"id": "clients.ru.03", "text": "Нам доверяют: {C_NAME_LIST} и другие компании."},
-    {"id": "clients.ru.04", "text": "Мы работаем с такими компаниями, как {C_NAME_LIST}."},
-    {"id": "clients.ru.05", "text": "Постоянный клиент компании — {C_NAME}."},
-    {"id": "clients.ru.06", "text": "Крупнейший заказчик — {C_NAME}."},
-    {"id": "clients.ru.07", "text": "Для компании {C_NAME} мы выполнили полный комплекс работ."},
-    {"id": "clients.ru.08", "text": "Проект: заказчик — {C_NAME}, срок реализации — три месяца."},
-    {"id": "clients.ru.09", "text": "Среди заказчиков компании {S_NAME} — {C_NAME_LIST}."},
-    {"id": "clients.ru.10", "text": "С нами работают: {C_NAME_LIST}."},
-    {"id": "clients.ru.11", "text": "Благодарственные письма нам направили компании {C_NAME_LIST}."},
-    {"id": "clients.ru.12", "text": "Наш опыт подтверждают проекты для компаний: {C_NAME_LIST}."},
-    {"id": "clients.ru.13", "text": "Заказчик: {C_NAME}"},
-    {"id": "clients.ru.14", "text": "С {year} года мы обслуживаем компанию {C_NAME}."},
-    {"id": "clients.ru.15", "text": "Нашими услугами пользуются {C_NAME_LIST}."},
-    {"id": "clients.ru.16", "text": "В числе наших заказчиков — {C_NAME} и {C_NAME}."},
-    {"id": "clients.ru.17", "text": "Портфолио: {C_NAME_LIST} и другие заказчики."},
-    {"id": "clients.ru.18", "text": "Мы гордимся сотрудничеством с компаниями {C_NAME_LIST}."},
-    {"id": "clients.ru.19", "text": "Регулярные поставки осуществляются для компании {C_NAME}."},
-    {"id": "clients.ru.20", "text": "Нас выбирают: {C_NAME_LIST}."},
-    {"id": "clients.ru.21", "text": "Ключевые клиенты — {C_NAME_LIST}."},
-    {"id": "clients.ru.22", "text": "{C_NAME} — наш клиент с {year} года."},
-    {"id": "clients.ru.23", "text": "Референс-лист: {C_NAME_LIST}."},
-    {"id": "clients.ru.24", "text": "Наши заказчики — государственные и частные организации, в том числе {C_NAME_LIST}."},
-    {"id": "clients.ru.25", "text": "Мы обслуживаем объекты компании {C_NAME} в г. {city}."},
-    {"id": "clients.ru.26", "text": "Отзыв о нашей работе оставила компания {C_NAME}."},
-    {"id": "clients.ru.27", "text": "Клиент: {C_NAME}. Задача: сократить сроки поставки. Результат: все отгрузки точно в срок."},
-    {"id": "clients.ru.28", "text": "Нашими постоянными заказчиками являются {C_NAME_LIST}."}
+    {
+      "id": "clients.ru.01",
+      "text": "Наши клиенты: {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.ru.02",
+      "text": "Среди наших клиентов — {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.ru.04",
+      "text": "Мы работаем с такими компаниями, как {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.ru.05",
+      "text": "Постоянный клиент компании — {C_NAME}."
+    },
+    {
+      "id": "clients.ru.06",
+      "text": "Крупнейший заказчик — {C_NAME}."
+    },
+    {
+      "id": "clients.ru.07",
+      "text": "Для компании {C_NAME} мы выполнили полный комплекс работ."
+    },
+    {
+      "id": "clients.ru.08",
+      "text": "Проект: заказчик — {C_NAME}, срок реализации — три месяца."
+    },
+    {
+      "id": "clients.ru.09",
+      "text": "Среди заказчиков компании {S_NAME} — {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.ru.10",
+      "text": "С нами работают: {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.ru.11",
+      "text": "Благодарственные письма нам направили компании {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.ru.12",
+      "text": "Наш опыт подтверждают проекты для компаний: {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.ru.13",
+      "text": "Заказчик: {C_NAME}"
+    },
+    {
+      "id": "clients.ru.14",
+      "text": "С {year} года мы обслуживаем компанию {C_NAME}."
+    },
+    {
+      "id": "clients.ru.15",
+      "text": "Нашими услугами пользуются {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.ru.16",
+      "text": "В числе наших заказчиков — {C_NAME} и {C_NAME}."
+    },
+    {
+      "id": "clients.ru.17",
+      "text": "Портфолио: {C_NAME_LIST} и другие заказчики."
+    },
+    {
+      "id": "clients.ru.18",
+      "text": "Мы гордимся сотрудничеством с компаниями {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.ru.19",
+      "text": "Регулярные поставки осуществляются для компании {C_NAME}."
+    },
+    {
+      "id": "clients.ru.20",
+      "text": "Нас выбирают: {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.ru.21",
+      "text": "Ключевые клиенты — {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.ru.23",
+      "text": "Референс-лист: {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.ru.24",
+      "text": "Наши заказчики — государственные и частные организации, в том числе {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.ru.25",
+      "text": "Мы обслуживаем объекты компании {C_NAME} в г. {city}."
+    },
+    {
+      "id": "clients.ru.26",
+      "text": "Отзыв о нашей работе оставила компания {C_NAME}."
+    },
+    {
+      "id": "clients.ru.28",
+      "text": "Нашими постоянными заказчиками являются {C_NAME_LIST}."
+    }
   ],
   "hours": [
-    {"id": "hours.ru.01", "text": "Режим работы: {HOURS}"},
-    {"id": "hours.ru.02", "text": "Часы работы: {HOURS}."},
-    {"id": "hours.ru.03", "text": "Мы работаем {HOURS:prose}."},
-    {"id": "hours.ru.04", "text": "Офис открыт {HOURS:prose}."},
-    {"id": "hours.ru.05", "text": "График работы — {HOURS}."},
-    {"id": "hours.ru.06", "text": "Приём посетителей: {HOURS}"},
-    {"id": "hours.ru.07", "text": "Работаем {HOURS:prose}; в праздничные дни режим может меняться."},
-    {"id": "hours.ru.08", "text": "Время работы: {HOURS}"},
-    {"id": "hours.ru.09", "text": "Ждём вас {HOURS:prose}."},
-    {"id": "hours.ru.10", "text": "Звонки принимаем {HOURS:prose}."},
-    {"id": "hours.ru.11", "text": "Режим работы офиса продаж: {HOURS}."},
-    {"id": "hours.ru.12", "text": "Открыто: {HOURS}"},
-    {"id": "hours.ru.13", "text": "Консультации по телефону — {HOURS:prose}."},
-    {"id": "hours.ru.14", "text": "Вы можете посетить нас {HOURS:prose}."},
-    {"id": "hours.ru.15", "text": "Часы приёма: {HOURS}"},
-    {"id": "hours.ru.16", "text": "Режим работы компании {S_NAME}: {HOURS}."},
-    {"id": "hours.ru.17", "text": "Работаем для вас: {HOURS}"},
-    {"id": "hours.ru.18", "text": "График: {HOURS}"},
-    {"id": "hours.ru.19", "text": "Приезжайте {HOURS:prose} — мы всегда рады гостям."},
-    {"id": "hours.ru.20", "text": "Заказы принимаются {HOURS:prose}."},
-    {"id": "hours.ru.21", "text": "Обслуживание клиентов: {HOURS}."},
-    {"id": "hours.ru.22", "text": "Режим работы: {HOURS}. Накануне праздников — сокращённый день."},
-    {"id": "hours.ru.23", "text": "Время приёма заказов — {HOURS}."},
-    {"id": "hours.ru.24", "text": "Двери открыты {HOURS:prose}."},
-    {"id": "hours.ru.25", "text": "Когда мы работаем? {HOURS}."},
-    {"id": "hours.ru.26", "text": "Наш офис ({S_ADDRESS}) открыт {HOURS:prose}."},
-    {"id": "hours.ru.27", "text": "Мы на связи {HOURS:prose}, в остальное время оставьте заявку на сайте."},
-    {"id": "hours.ru.28", "text": "Режим работы офиса и склада: {HOURS}"}
+    {
+      "id": "hours.ru.01",
+      "text": "Режим работы: {HOURS}"
+    },
+    {
+      "id": "hours.ru.02",
+      "text": "Часы работы: {HOURS}."
+    },
+    {
+      "id": "hours.ru.03",
+      "text": "Мы работаем {HOURS:prose}."
+    },
+    {
+      "id": "hours.ru.04",
+      "text": "Офис открыт {HOURS:prose}."
+    },
+    {
+      "id": "hours.ru.05",
+      "text": "График работы — {HOURS}."
+    },
+    {
+      "id": "hours.ru.06",
+      "text": "Приём посетителей: {HOURS}"
+    },
+    {
+      "id": "hours.ru.07",
+      "text": "Работаем {HOURS:prose}; в праздничные дни режим может меняться."
+    },
+    {
+      "id": "hours.ru.08",
+      "text": "Время работы: {HOURS}"
+    },
+    {
+      "id": "hours.ru.09",
+      "text": "Ждём вас {HOURS:prose}."
+    },
+    {
+      "id": "hours.ru.10",
+      "text": "Звонки принимаем {HOURS:prose}."
+    },
+    {
+      "id": "hours.ru.11",
+      "text": "Режим работы офиса продаж: {HOURS}."
+    },
+    {
+      "id": "hours.ru.12",
+      "text": "Открыто: {HOURS}"
+    },
+    {
+      "id": "hours.ru.13",
+      "text": "Консультации по телефону — {HOURS:prose}."
+    },
+    {
+      "id": "hours.ru.14",
+      "text": "Вы можете посетить нас {HOURS:prose}."
+    },
+    {
+      "id": "hours.ru.15",
+      "text": "Часы приёма: {HOURS}"
+    },
+    {
+      "id": "hours.ru.16",
+      "text": "Режим работы компании {S_NAME}: {HOURS}."
+    },
+    {
+      "id": "hours.ru.17",
+      "text": "Работаем для вас: {HOURS}"
+    },
+    {
+      "id": "hours.ru.18",
+      "text": "График: {HOURS}"
+    },
+    {
+      "id": "hours.ru.19",
+      "text": "Приезжайте {HOURS:prose} — мы всегда рады гостям."
+    },
+    {
+      "id": "hours.ru.22",
+      "text": "Режим работы: {HOURS}. Накануне праздников — сокращённый день."
+    },
+    {
+      "id": "hours.ru.23",
+      "text": "Время приёма заказов — {HOURS}."
+    },
+    {
+      "id": "hours.ru.25",
+      "text": "Когда мы работаем? {HOURS}."
+    },
+    {
+      "id": "hours.ru.26",
+      "text": "Наш офис ({S_ADDRESS}) открыт {HOURS:prose}."
+    },
+    {
+      "id": "hours.ru.27",
+      "text": "Мы на связи {HOURS:prose}, в остальное время оставьте заявку на сайте."
+    },
+    {
+      "id": "hours.ru.28",
+      "text": "Режим работы офиса и склада: {HOURS}"
+    }
   ],
   "certifications": [
-    {"id": "certifications.ru.01", "text": "Сертификаты: {CERT_LIST}."},
-    {"id": "certifications.ru.02", "text": "Наши сертификаты и награды: {CERT_LIST}."},
-    {"id": "certifications.ru.03", "text": "Качество подтверждено: {CERT}."},
-    {"id": "certifications.ru.04", "text": "Членство и сертификация: {CERT_LIST}."},
-    {"id": "certifications.ru.05", "text": "{CERT} — подтверждение нашего качества."},
-    {"id": "certifications.ru.06", "text": "Предмет нашей особой гордости — {CERT}."},
-    {"id": "certifications.ru.07", "text": "Сертификация: {CERT}"},
-    {"id": "certifications.ru.08", "text": "Компания {S_NAME} обладает следующими сертификатами и статусами: {CERT_LIST}."},
-    {"id": "certifications.ru.09", "text": "Имеем все необходимые допуски и сертификаты, в том числе {CERT_LIST}."},
-    {"id": "certifications.ru.10", "text": "Награды и достижения: {CERT_LIST}."},
-    {"id": "certifications.ru.11", "text": "Подтверждённые компетенции: {CERT_LIST}."},
-    {"id": "certifications.ru.12", "text": "Наша работа отмечена: {CERT_LIST}."},
-    {"id": "certifications.ru.13", "text": "Среди наших сертификатов и наград — {CERT}."},
-    {"id": "certifications.ru.14", "text": "Соответствие стандартам и членство в профессиональных объединениях: {CERT_LIST}."},
-    {"id": "certifications.ru.15", "text": "Наличие сертификатов: {CERT_LIST}"},
-    {"id": "certifications.ru.16", "text": "Знаки качества, сертификаты, членство: {CERT_LIST}."},
-    {"id": "certifications.ru.17", "text": "Подробнее о наших сертификатах ({CERT_LIST}) — в разделе «Документы»."},
-    {"id": "certifications.ru.18", "text": "Работаем по стандартам, подтверждённым документально: {CERT_LIST}."},
-    {"id": "certifications.ru.19", "text": "Аккредитация и сертификаты — {CERT_LIST}."},
-    {"id": "certifications.ru.20", "text": "Наш статус подтверждён: {CERT}."},
-    {"id": "certifications.ru.21", "text": "{CERT_LIST} — это не просто документы, а гарантия надёжности для наших клиентов."},
-    {"id": "certifications.ru.22", "text": "Компания прошла независимую оценку и получила подтверждение: {CERT}."},
-    {"id": "certifications.ru.23", "text": "Копии документов ({CERT_LIST}) предоставляем по запросу."},
-    {"id": "certifications.ru.24", "text": "Сертификаты и членство в ассоциациях: {CERT_LIST}"},
-    {"id": "certifications.ru.25", "text": "Качество продукции и услуг компании {S_NAME} подтверждено: {CERT_LIST}."},
-    {"id": "certifications.ru.26", "text": "Разрешительная документация и сертификаты: {CERT_LIST}."}
+    {
+      "id": "certifications.ru.01",
+      "text": "Сертификаты: {CERT_LIST}."
+    },
+    {
+      "id": "certifications.ru.02",
+      "text": "Наши сертификаты и награды: {CERT_LIST}."
+    },
+    {
+      "id": "certifications.ru.03",
+      "text": "Качество подтверждено: {CERT}."
+    },
+    {
+      "id": "certifications.ru.04",
+      "text": "Членство и сертификация: {CERT_LIST}."
+    },
+    {
+      "id": "certifications.ru.06",
+      "text": "Предмет нашей особой гордости — {CERT}."
+    },
+    {
+      "id": "certifications.ru.07",
+      "text": "Сертификация: {CERT}"
+    },
+    {
+      "id": "certifications.ru.08",
+      "text": "Компания {S_NAME} обладает следующими сертификатами и статусами: {CERT_LIST}."
+    },
+    {
+      "id": "certifications.ru.09",
+      "text": "Имеем все необходимые допуски и сертификаты, в том числе {CERT_LIST}."
+    },
+    {
+      "id": "certifications.ru.10",
+      "text": "Награды и достижения: {CERT_LIST}."
+    },
+    {
+      "id": "certifications.ru.12",
+      "text": "Наша работа отмечена: {CERT_LIST}."
+    },
+    {
+      "id": "certifications.ru.13",
+      "text": "Среди наших сертификатов и наград — {CERT}."
+    },
+    {
+      "id": "certifications.ru.14",
+      "text": "Соответствие стандартам и членство в профессиональных объединениях: {CERT_LIST}."
+    },
+    {
+      "id": "certifications.ru.15",
+      "text": "Наличие сертификатов: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.ru.16",
+      "text": "Знаки качества, сертификаты, членство: {CERT_LIST}."
+    },
+    {
+      "id": "certifications.ru.17",
+      "text": "Подробнее о наших сертификатах ({CERT_LIST}) — в разделе «Документы»."
+    },
+    {
+      "id": "certifications.ru.18",
+      "text": "Работаем по стандартам, подтверждённым документально: {CERT_LIST}."
+    },
+    {
+      "id": "certifications.ru.19",
+      "text": "Аккредитация и сертификаты — {CERT_LIST}."
+    },
+    {
+      "id": "certifications.ru.21",
+      "text": "{CERT_LIST} — это не просто документы, а гарантия надёжности для наших клиентов."
+    },
+    {
+      "id": "certifications.ru.22",
+      "text": "Компания прошла независимую оценку и получила подтверждение: {CERT}."
+    },
+    {
+      "id": "certifications.ru.23",
+      "text": "Копии документов ({CERT_LIST}) предоставляем по запросу."
+    },
+    {
+      "id": "certifications.ru.24",
+      "text": "Сертификаты и членство в ассоциациях: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.ru.25",
+      "text": "Качество продукции и услуг компании {S_NAME} подтверждено: {CERT_LIST}."
+    },
+    {
+      "id": "certifications.ru.26",
+      "text": "Разрешительная документация и сертификаты: {CERT_LIST}."
+    }
   ],
   "location": [
-    {"id": "location.ru.01", "text": "Адрес: {S_ADDRESS}"},
-    {"id": "location.ru.02", "text": "Мы находимся по адресу: {S_ADDRESS}."},
-    {"id": "location.ru.03", "text": "Тел.: {S_PHONE}"},
-    {"id": "location.ru.04", "text": "Звоните: {S_PHONE}"},
-    {"id": "location.ru.05", "text": "E-mail: {S_EMAIL}"},
-    {"id": "location.ru.06", "text": "Сайт: {S_URL}"},
-    {"id": "location.ru.07", "text": "Юридический адрес: {S_ADDRESS}"},
-    {"id": "location.ru.08", "text": "Фактический адрес: {S_ADDRESS}"},
-    {"id": "location.ru.09", "text": "Почтовый адрес: {S_ADDRESS}"},
-    {"id": "location.ru.10", "text": "Офис и склад расположены по адресу: {S_ADDRESS}."},
-    {"id": "location.ru.11", "text": "Контакты: тел. {S_PHONE}, e-mail {S_EMAIL}"},
-    {"id": "location.ru.12", "text": "Подробная информация — на сайте {S_URL}."},
-    {"id": "location.ru.13", "text": "Пишите нам на {S_EMAIL} — ответим в течение рабочего дня."},
-    {"id": "location.ru.14", "text": "Звоните по телефону {S_PHONE} или оставьте заявку на сайте {S_URL}."},
-    {"id": "location.ru.15", "text": "Как нас найти: {S_ADDRESS}, вход со двора."},
-    {"id": "location.ru.16", "text": "Телефон для справок: {S_PHONE}"},
-    {"id": "location.ru.17", "text": "Электронная почта: {S_EMAIL}"},
-    {"id": "location.ru.18", "text": "Мы в интернете: {S_URL}"},
-    {"id": "location.ru.19", "text": "Заявки принимаются по электронной почте {S_EMAIL} и по телефону {S_PHONE}."},
-    {"id": "location.ru.20", "text": "Компания {S_NAME} расположена по адресу: {S_ADDRESS}."},
-    {"id": "location.ru.21", "text": "Тел./WhatsApp: {S_PHONE}"},
-    {"id": "location.ru.22", "text": "Место нахождения: {S_ADDRESS}"},
-    {"id": "location.ru.23", "text": "Адрес для корреспонденции: {S_ADDRESS}"},
-    {"id": "location.ru.24", "text": "Бесплатная консультация по номеру {S_PHONE}."},
-    {"id": "location.ru.25", "text": "Наш сайт — {S_URL}, почта — {S_EMAIL}."},
-    {"id": "location.ru.26", "text": "Отдел продаж: {S_PHONE}, {S_EMAIL}"},
-    {"id": "location.ru.27", "text": "{S_URL} — официальный сайт компании {S_NAME}."},
-    {"id": "location.ru.28", "text": "Адрес: {S_ADDRESS}. Тел.: {S_PHONE}. Сайт: {S_URL}."},
-    {"id": "location.ru.29", "text": "{S_PHONE} — единый номер для заказов и консультаций."},
-    {"id": "location.ru.30", "text": "Приезжайте к нам: {S_ADDRESS}, в пяти минутах ходьбы от остановки общественного транспорта."}
+    {
+      "id": "location.ru.01",
+      "text": "Адрес: {S_ADDRESS}"
+    },
+    {
+      "id": "location.ru.02",
+      "text": "Мы находимся по адресу: {S_ADDRESS}."
+    },
+    {
+      "id": "location.ru.03",
+      "text": "Тел.: {S_PHONE}"
+    },
+    {
+      "id": "location.ru.04",
+      "text": "Звоните: {S_PHONE}"
+    },
+    {
+      "id": "location.ru.05",
+      "text": "E-mail: {S_EMAIL}"
+    },
+    {
+      "id": "location.ru.06",
+      "text": "Сайт: {S_URL}"
+    },
+    {
+      "id": "location.ru.07",
+      "text": "Юридический адрес: {S_ADDRESS}"
+    },
+    {
+      "id": "location.ru.08",
+      "text": "Фактический адрес: {S_ADDRESS}"
+    },
+    {
+      "id": "location.ru.09",
+      "text": "Почтовый адрес: {S_ADDRESS}"
+    },
+    {
+      "id": "location.ru.11",
+      "text": "Контакты: тел. {S_PHONE}, e-mail {S_EMAIL}"
+    },
+    {
+      "id": "location.ru.12",
+      "text": "Подробная информация — на сайте {S_URL}."
+    },
+    {
+      "id": "location.ru.13",
+      "text": "Пишите нам на {S_EMAIL} — ответим в течение рабочего дня."
+    },
+    {
+      "id": "location.ru.14",
+      "text": "Звоните по телефону {S_PHONE} или оставьте заявку на сайте {S_URL}."
+    },
+    {
+      "id": "location.ru.15",
+      "text": "Как нас найти: {S_ADDRESS}, вход со двора."
+    },
+    {
+      "id": "location.ru.16",
+      "text": "Телефон для справок: {S_PHONE}"
+    },
+    {
+      "id": "location.ru.17",
+      "text": "Электронная почта: {S_EMAIL}"
+    },
+    {
+      "id": "location.ru.18",
+      "text": "Мы в интернете: {S_URL}"
+    },
+    {
+      "id": "location.ru.19",
+      "text": "Заявки принимаются по электронной почте {S_EMAIL} и по телефону {S_PHONE}."
+    },
+    {
+      "id": "location.ru.21",
+      "text": "Тел./WhatsApp: {S_PHONE}"
+    },
+    {
+      "id": "location.ru.22",
+      "text": "Место нахождения: {S_ADDRESS}"
+    },
+    {
+      "id": "location.ru.24",
+      "text": "Бесплатная консультация по номеру {S_PHONE}."
+    },
+    {
+      "id": "location.ru.25",
+      "text": "Наш сайт — {S_URL}, почта — {S_EMAIL}."
+    },
+    {
+      "id": "location.ru.26",
+      "text": "Отдел продаж: {S_PHONE}, {S_EMAIL}"
+    },
+    {
+      "id": "location.ru.27",
+      "text": "{S_URL} — официальный сайт компании {S_NAME}."
+    },
+    {
+      "id": "location.ru.28",
+      "text": "Адрес: {S_ADDRESS}. Тел.: {S_PHONE}. Сайт: {S_URL}."
+    },
+    {
+      "id": "location.ru.29",
+      "text": "{S_PHONE} — единый номер для заказов и консультаций."
+    },
+    {
+      "id": "location.ru.30",
+      "text": "Приезжайте к нам: {S_ADDRESS}, в пяти минутах ходьбы от остановки общественного транспорта."
+    }
   ],
   "capital": [
-    {"id": "capital.ru.01", "text": "Уставный капитал: {CAPITAL}"},
-    {"id": "capital.ru.02", "text": "Размер уставного капитала — {CAPITAL}."},
-    {"id": "capital.ru.03", "text": "Уставный капитал общества составляет {CAPITAL}."},
-    {"id": "capital.ru.04", "text": "Уставный капитал в размере {CAPITAL} оплачен полностью."},
-    {"id": "capital.ru.05", "text": "Уставный фонд: {CAPITAL}"},
-    {"id": "capital.ru.06", "text": "Размер уставного фонда — {CAPITAL}."},
-    {"id": "capital.ru.07", "text": "{S_NAME}, уставный капитал {CAPITAL}"},
-    {"id": "capital.ru.08", "text": "Компания зарегистрирована с уставным капиталом {CAPITAL}."},
-    {"id": "capital.ru.09", "text": "Уставный капитал сформирован денежными средствами в сумме {CAPITAL}."},
-    {"id": "capital.ru.10", "text": "Уставный капитал (оплаченный): {CAPITAL}"},
-    {"id": "capital.ru.11", "text": "Сведения об уставном капитале: {CAPITAL}, оплачен полностью."},
-    {"id": "capital.ru.12", "text": "Уставный капитал увеличен до {CAPITAL}."},
-    {"id": "capital.ru.13", "text": "Уставный капитал компании {S_NAME} — {CAPITAL}."},
-    {"id": "capital.ru.14", "text": "{LEGAL_FORM} с уставным капиталом {CAPITAL}"},
-    {"id": "capital.ru.15", "text": "Уставный капитал Общества составляет {CAPITAL} и разделён на доли участников."},
-    {"id": "capital.ru.16", "text": "Уставный фонд сформирован в размере {CAPITAL}."},
-    {"id": "capital.ru.17", "text": "Уст. капитал: {CAPITAL}"},
-    {"id": "capital.ru.18", "text": "Уставный капитал компании {S_NAME} полностью оплачен и составляет {CAPITAL}."},
-    {"id": "capital.ru.19", "text": "Размер уставного капитала на дату выписки: {CAPITAL}"},
-    {"id": "capital.ru.20", "text": "Заявленный уставный капитал — {CAPITAL}."},
-    {"id": "capital.ru.21", "text": "При создании был сформирован уставный капитал в размере {CAPITAL}."},
-    {"id": "capital.ru.22", "text": "{CAPITAL} — размер уставного капитала, полностью оплаченного учредителями."},
-    {"id": "capital.ru.23", "text": "Уставный капитал: {CAPITAL}; доли участников оплачены в полном объёме."},
-    {"id": "capital.ru.24", "text": "Размер уставного капитала (складочного капитала, уставного фонда): {CAPITAL}"},
-    {"id": "capital.ru.25", "text": "Уставный капитал компании составляет {CAPITAL} и оплачен денежными средствами."},
-    {"id": "capital.ru.26", "text": "Финансовая устойчивость: уставный капитал {CAPITAL}, собственный склад и оборудование."}
+    {
+      "id": "capital.ru.03",
+      "text": "Уставный капитал общества составляет {CAPITAL}."
+    },
+    {
+      "id": "capital.ru.04",
+      "text": "Уставный капитал в размере {CAPITAL} оплачен полностью."
+    },
+    {
+      "id": "capital.ru.05",
+      "text": "Уставный фонд: {CAPITAL}"
+    },
+    {
+      "id": "capital.ru.06",
+      "text": "Размер уставного фонда — {CAPITAL}."
+    },
+    {
+      "id": "capital.ru.07",
+      "text": "{S_NAME}, уставный капитал {CAPITAL}"
+    },
+    {
+      "id": "capital.ru.08",
+      "text": "Компания зарегистрирована с уставным капиталом {CAPITAL}."
+    },
+    {
+      "id": "capital.ru.09",
+      "text": "Уставный капитал сформирован денежными средствами в сумме {CAPITAL}."
+    },
+    {
+      "id": "capital.ru.10",
+      "text": "Уставный капитал (оплаченный): {CAPITAL}"
+    },
+    {
+      "id": "capital.ru.11",
+      "text": "Сведения об уставном капитале: {CAPITAL}, оплачен полностью."
+    },
+    {
+      "id": "capital.ru.12",
+      "text": "Уставный капитал увеличен до {CAPITAL}."
+    },
+    {
+      "id": "capital.ru.13",
+      "text": "Уставный капитал компании {S_NAME} — {CAPITAL}."
+    },
+    {
+      "id": "capital.ru.14",
+      "text": "{LEGAL_FORM} с уставным капиталом {CAPITAL}"
+    },
+    {
+      "id": "capital.ru.15",
+      "text": "Уставный капитал Общества составляет {CAPITAL} и разделён на доли участников."
+    },
+    {
+      "id": "capital.ru.17",
+      "text": "Уст. капитал: {CAPITAL}"
+    },
+    {
+      "id": "capital.ru.18",
+      "text": "Уставный капитал компании {S_NAME} полностью оплачен и составляет {CAPITAL}."
+    },
+    {
+      "id": "capital.ru.19",
+      "text": "Размер уставного капитала на дату выписки: {CAPITAL}"
+    },
+    {
+      "id": "capital.ru.20",
+      "text": "Заявленный уставный капитал — {CAPITAL}."
+    },
+    {
+      "id": "capital.ru.21",
+      "text": "При создании был сформирован уставный капитал в размере {CAPITAL}."
+    },
+    {
+      "id": "capital.ru.22",
+      "text": "{CAPITAL} — размер уставного капитала, полностью оплаченного учредителями."
+    },
+    {
+      "id": "capital.ru.23",
+      "text": "Уставный капитал: {CAPITAL}; доли участников оплачены в полном объёме."
+    },
+    {
+      "id": "capital.ru.24",
+      "text": "Размер уставного капитала (складочного капитала, уставного фонда): {CAPITAL}"
+    },
+    {
+      "id": "capital.ru.25",
+      "text": "Уставный капитал компании составляет {CAPITAL} и оплачен денежными средствами."
+    },
+    {
+      "id": "capital.ru.26",
+      "text": "Финансовая устойчивость: уставный капитал {CAPITAL}, собственный склад и оборудование."
+    }
   ],
   "legal_form": [
-    {"id": "legal_form.ru.01", "text": "Организационно-правовая форма: {LEGAL_FORM}"},
-    {"id": "legal_form.ru.02", "text": "ОПФ: {LEGAL_FORM}"},
-    {"id": "legal_form.ru.03", "text": "Правовая форма — {LEGAL_FORM}."},
-    {"id": "legal_form.ru.04", "text": "{LEGAL_FORM}, уставный капитал — {CAPITAL}"},
-    {"id": "legal_form.ru.05", "text": "Компания зарегистрирована как {LEGAL_FORM}."},
-    {"id": "legal_form.ru.06", "text": "Форма собственности: частная; организационно-правовая форма — {LEGAL_FORM}."},
-    {"id": "legal_form.ru.07", "text": "Тип организации: {LEGAL_FORM}"},
-    {"id": "legal_form.ru.08", "text": "Юридическая форма: {LEGAL_FORM}"},
-    {"id": "legal_form.ru.09", "text": "{S_NAME}, организационно-правовая форма — {LEGAL_FORM}."},
-    {"id": "legal_form.ru.10", "text": "Правовой статус: {LEGAL_FORM}."},
-    {"id": "legal_form.ru.11", "text": "Наименование ОПФ: {LEGAL_FORM}"},
-    {"id": "legal_form.ru.12", "text": "Мы работаем как {LEGAL_FORM} и предоставляем все закрывающие документы."},
-    {"id": "legal_form.ru.13", "text": "Работаем официально: {LEGAL_FORM}, договор, кассовые чеки."},
-    {"id": "legal_form.ru.14", "text": "Форма бизнеса: {LEGAL_FORM}"},
-    {"id": "legal_form.ru.15", "text": "Организационно-правовая форма (ОПФ) — {LEGAL_FORM}."},
-    {"id": "legal_form.ru.16", "text": "Правовая форма компании {S_NAME} — {LEGAL_FORM}."},
-    {"id": "legal_form.ru.17", "text": "Организационно-правовая форма: {LEGAL_FORM}, форма собственности: частная."},
-    {"id": "legal_form.ru.18", "text": "Юридический статус компании — {LEGAL_FORM}."},
-    {"id": "legal_form.ru.19", "text": "Мы — {LEGAL_FORM}, работаем с юридическими и физическими лицами."},
-    {"id": "legal_form.ru.20", "text": "Форма: {LEGAL_FORM}"},
-    {"id": "legal_form.ru.21", "text": "Зарегистрированы как {LEGAL_FORM}, работаем по договору."},
-    {"id": "legal_form.ru.22", "text": "{LEGAL_FORM} — организационно-правовая форма, в которой зарегистрирована компания."},
-    {"id": "legal_form.ru.23", "text": "Сведения об организационно-правовой форме: {LEGAL_FORM}."},
-    {"id": "legal_form.ru.24", "text": "Организационно-правовая форма поставщика: {LEGAL_FORM}."},
-    {"id": "legal_form.ru.25", "text": "Регистрация: {LEGAL_FORM}, {S_REG_ID}."},
-    {"id": "legal_form.ru.26", "text": "Организационно-правовая форма компании {S_NAME}: {LEGAL_FORM}."}
+    {
+      "id": "legal_form.ru.01",
+      "text": "Организационно-правовая форма: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.ru.02",
+      "text": "ОПФ: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.ru.03",
+      "text": "Правовая форма — {LEGAL_FORM}."
+    },
+    {
+      "id": "legal_form.ru.05",
+      "text": "Компания зарегистрирована как {LEGAL_FORM}."
+    },
+    {
+      "id": "legal_form.ru.06",
+      "text": "Форма собственности: частная; организационно-правовая форма — {LEGAL_FORM}."
+    },
+    {
+      "id": "legal_form.ru.07",
+      "text": "Тип организации: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.ru.08",
+      "text": "Юридическая форма: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.ru.09",
+      "text": "{S_NAME}, организационно-правовая форма — {LEGAL_FORM}."
+    },
+    {
+      "id": "legal_form.ru.10",
+      "text": "Правовой статус: {LEGAL_FORM}."
+    },
+    {
+      "id": "legal_form.ru.11",
+      "text": "Наименование ОПФ: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.ru.12",
+      "text": "Мы работаем как {LEGAL_FORM} и предоставляем все закрывающие документы."
+    },
+    {
+      "id": "legal_form.ru.13",
+      "text": "Работаем официально: {LEGAL_FORM}, договор, кассовые чеки."
+    },
+    {
+      "id": "legal_form.ru.14",
+      "text": "Форма бизнеса: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.ru.15",
+      "text": "Организационно-правовая форма (ОПФ) — {LEGAL_FORM}."
+    },
+    {
+      "id": "legal_form.ru.16",
+      "text": "Правовая форма компании {S_NAME} — {LEGAL_FORM}."
+    },
+    {
+      "id": "legal_form.ru.17",
+      "text": "Организационно-правовая форма: {LEGAL_FORM}, форма собственности: частная."
+    },
+    {
+      "id": "legal_form.ru.18",
+      "text": "Юридический статус компании — {LEGAL_FORM}."
+    },
+    {
+      "id": "legal_form.ru.19",
+      "text": "Мы — {LEGAL_FORM}, работаем с юридическими и физическими лицами."
+    },
+    {
+      "id": "legal_form.ru.20",
+      "text": "Форма: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.ru.21",
+      "text": "Зарегистрированы как {LEGAL_FORM}, работаем по договору."
+    },
+    {
+      "id": "legal_form.ru.24",
+      "text": "Организационно-правовая форма поставщика: {LEGAL_FORM}."
+    },
+    {
+      "id": "legal_form.ru.25",
+      "text": "Регистрация: {LEGAL_FORM}, {S_REG_ID}."
+    },
+    {
+      "id": "legal_form.ru.26",
+      "text": "Организационно-правовая форма компании {S_NAME}: {LEGAL_FORM}."
+    }
   ],
   "traps": [
-    {"id": "trap.ru.01", "trap": "T1", "text": "Крупнейший контракт в истории компании — поставка оборудования на сумму {amount}."},
-    {"id": "trap.ru.02", "trap": "T1", "text": "Выручка по договору с компанией {C_NAME} составила {amount}."},
-    {"id": "trap.ru.03", "trap": "T1", "text": "Чистая прибыль по итогам года — {amount}, что на {percent} выше прошлогодней."},
-    {"id": "trap.ru.04", "trap": "T1", "text": "Ежемесячный оборот одного магазина сети — около {amount}."},
-    {"id": "trap.ru.05", "trap": "T1", "text": "Средний чек — {amount}, средний заказ корпоративного клиента — {amount}."},
-    {"id": "trap.ru.06", "trap": "T1", "text": "В модернизацию производства за последние три года вложено {amount}."},
-    {"id": "trap.ru.07", "trap": "T1", "text": "Сумма самого крупного заказа прошлого года — {amount}."},
-    {"id": "trap.ru.08", "trap": "T1", "text": "Выручка за один день праздничной ярмарки составила {amount}."},
-    {"id": "trap.ru.09", "trap": "T1", "text": "Себестоимость продаж — {amount}, валовая прибыль — {amount}, коммерческие расходы — {amount}."},
-    {"id": "trap.ru.10", "trap": "T1", "text": "Объём государственного контракта, выигранного компанией {S_NAME} в этом году, — {amount}."},
-    {"id": "trap.ru.11", "trap": "T5", "text": "Наш банк-партнёр — {bank}."},
-    {"id": "trap.ru.12", "trap": "T5", "text": "Расчётный счёт компании открыт в банке {bank}."},
-    {"id": "trap.ru.13", "trap": "T5", "text": "Мы являемся официальным дилером компании {partner}."},
-    {"id": "trap.ru.14", "trap": "T5", "text": "Сырьё нам поставляет {supplier} — проверенный партнёр с многолетней историей."},
-    {"id": "trap.ru.15", "trap": "T5", "text": "Главный конкурент на региональном рынке — {competitor}."},
-    {"id": "trap.ru.16", "trap": "T5", "text": "Наш клиент {C_NAME} работает на рынке с {client_founded} года."},
-    {"id": "trap.ru.17", "trap": "T5", "text": "Компания {C_NAME}, основанная в {client_founded} году, доверяет нам обслуживание своего автопарка."},
-    {"id": "trap.ru.18", "trap": "T5", "text": "Финансирование проекта обеспечивает {bank}."},
-    {"id": "trap.ru.19", "trap": "T5", "text": "Оборудование закупаем напрямую у производителя — компании {supplier}."},
-    {"id": "trap.ru.20", "trap": "T5", "text": "В отличие от компании {competitor}, мы работаем без предоплаты."},
-    {"id": "trap.ru.21", "trap": "T5", "text": "Логистику и складское хранение обеспечивает наш партнёр — {partner}."},
-    {"id": "trap.ru.22", "trap": "T7", "text": "В {year} году мы переехали в новый, более просторный офис."},
-    {"id": "trap.ru.23", "trap": "T7", "text": "Капитальный ремонт производственного цеха завершён в {year} году."},
-    {"id": "trap.ru.24", "trap": "T7", "text": "В {year} году компания получила награду: {CERT}."},
-    {"id": "trap.ru.25", "trap": "T7", "text": "Предложение действительно до 31 декабря {year} года."},
-    {"id": "trap.ru.26", "trap": "T7", "text": "В продаже автомобили {year} года выпуска."},
-    {"id": "trap.ru.27", "trap": "T7", "text": "В {year} году открылся второй филиал — в г. {city}."},
-    {"id": "trap.ru.28", "trap": "T7", "text": "С {year} года производство работает по новой технологии."},
-    {"id": "trap.ru.29", "trap": "T7", "text": "Здание {year} года постройки полностью реконструировано."},
-    {"id": "trap.ru.30", "trap": "T7", "text": "Последняя модернизация оборудования проведена в {year} году."},
-    {"id": "trap.ru.31", "trap": "T7", "text": "Компания {S_NAME}, основанная в {FOUNDED} году, в {year} году переехала в собственное здание."},
-    {"id": "trap.ru.32", "trap": "T7", "text": "Прайс-лист действует с 1 января {year} года."},
-    {"id": "trap.ru.33", "trap": "T8", "text": "Суммарный опыт нашей команды — {n_years}."},
-    {"id": "trap.ru.34", "trap": "T8", "text": "Мы на рынке уже {n_years}."},
-    {"id": "trap.ru.35", "trap": "T8", "text": "Нашими услугами пользуется {n_clients}."},
-    {"id": "trap.ru.36", "trap": "T8", "text": "Сеть насчитывает {n_shops} в г. {city} и пригородах."},
-    {"id": "trap.ru.37", "trap": "T8", "text": "Собственный автопарк — {n_vehicles}."},
-    {"id": "trap.ru.38", "trap": "T8", "text": "На счету компании — {n_projects}."},
-    {"id": "trap.ru.39", "trap": "T8", "text": "В каталоге — {n_products} от ведущих производителей."},
-    {"id": "trap.ru.40", "trap": "T8", "text": "Средний стаж наших мастеров — {n_years}."},
-    {"id": "trap.ru.41", "trap": "T8", "text": "В компании работает {STAFF} {staff_noun}, а в автопарке — {n_vehicles}."},
-    {"id": "trap.ru.42", "trap": "T8", "text": "Клиентская база — {n_clients} по всей стране."},
-    {"id": "trap.ru.43", "trap": "T8", "text": "Нас {STAFF}, а за плечами у нас — {n_projects}."},
-    {"id": "trap.ru.44", "trap": "T8", "text": "У нас {n_shops} в разных районах города."},
-    {"id": "trap.ru.45", "trap": "T11", "text": "Главный бухгалтер — {person}."},
-    {"id": "trap.ru.46", "trap": "T11", "text": "Контактное лицо: {person}, {position}."},
-    {"id": "trap.ru.47", "trap": "T11", "text": "Исп.: {person}"},
-    {"id": "trap.ru.48", "trap": "T11", "text": "Ваш персональный менеджер — {person}."},
-    {"id": "trap.ru.49", "trap": "T11", "text": "Бухгалтерию компании ведёт {person}."},
-    {"id": "trap.ru.50", "trap": "T11", "text": "Документ подготовил(а): {person}, {position}."},
-    {"id": "trap.ru.51", "trap": "T11", "text": "{manager_title} — {S_PERSON}; главный бухгалтер — {person}."},
-    {"id": "trap.ru.52", "trap": "T11", "text": "За приём заявок отвечает {person}, {position}."},
-    {"id": "trap.ru.53", "trap": "T11", "text": "По вопросам доставки обращайтесь: {person}, {position}."},
-    {"id": "trap.ru.54", "trap": "T11", "text": "Руководитель отдела продаж — {person}."},
-    {"id": "trap.ru.55", "trap": "T11", "text": "Выезд специалиста на объект организует {person}."},
-    {"id": "trap.ru.56", "trap": "T13", "text": "Среди наших клиентов — {C_NAME_LIST}; комплектующие нам поставляет {supplier}."},
-    {"id": "trap.ru.57", "trap": "T13", "text": "Для компании {C_NAME} мы выполнили монтаж совместно с нашим партнёром — {partner}."},
-    {"id": "trap.ru.58", "trap": "T13", "text": "Нам доверяют {C_NAME_LIST}, а материалы мы закупаем у компании {supplier}."},
-    {"id": "trap.ru.59", "trap": "T13", "text": "Заказчик — {C_NAME}, генеральный подрядчик — {partner}."},
-    {"id": "trap.ru.60", "trap": "T13", "text": "Проект для компании {C_NAME} реализован при поддержке нашего партнёра — {partner}."},
-    {"id": "trap.ru.61", "trap": "T13", "text": "Мы поставляем продукцию производителя {supplier} таким клиентам, как {C_NAME_LIST}."},
-    {"id": "trap.ru.62", "trap": "T13", "text": "Официальный партнёр — {partner}; постоянные заказчики — {C_NAME_LIST}."},
-    {"id": "trap.ru.63", "trap": "T13", "text": "Вместе с партнёрской компанией {partner} мы обслуживаем объекты компании {C_NAME}."},
-    {"id": "trap.ru.64", "trap": "T13", "text": "Для компании {C_NAME} мы используем только сырьё нашего поставщика — {supplier}."},
-    {"id": "trap.ru.65", "trap": "T13", "text": "Доставку заказов нашим клиентам, среди которых {C_NAME_LIST}, выполняет партнёр — {partner}."},
-    {"id": "trap.ru.66", "trap": "T13", "text": "В проекте для компании {C_NAME} участвовали наш поставщик {supplier} и партнёр по логистике {partner}."}
+    {
+      "id": "trap.ru.01",
+      "trap": "T1",
+      "text": "Крупнейший контракт в истории компании — поставка оборудования на сумму {amount}."
+    },
+    {
+      "id": "trap.ru.02",
+      "trap": "T1",
+      "text": "Выручка по договору с компанией {C_NAME} составила {amount}."
+    },
+    {
+      "id": "trap.ru.03",
+      "trap": "T1",
+      "text": "Чистая прибыль по итогам года — {amount}, что на {percent} выше прошлогодней."
+    },
+    {
+      "id": "trap.ru.04",
+      "trap": "T1",
+      "text": "Ежемесячный оборот одного магазина сети — около {amount}."
+    },
+    {
+      "id": "trap.ru.05",
+      "trap": "T1",
+      "text": "Средний чек — {amount}, средний заказ корпоративного клиента — {amount}."
+    },
+    {
+      "id": "trap.ru.06",
+      "trap": "T1",
+      "text": "В модернизацию производства за последние три года вложено {amount}."
+    },
+    {
+      "id": "trap.ru.07",
+      "trap": "T1",
+      "text": "Сумма самого крупного заказа прошлого года — {amount}."
+    },
+    {
+      "id": "trap.ru.09",
+      "trap": "T1",
+      "text": "Себестоимость продаж — {amount}, валовая прибыль — {amount}, коммерческие расходы — {amount}."
+    },
+    {
+      "id": "trap.ru.10",
+      "trap": "T1",
+      "text": "Объём государственного контракта, выигранного компанией {S_NAME} в этом году, — {amount}."
+    },
+    {
+      "id": "trap.ru.11",
+      "trap": "T5",
+      "text": "Наш банк-партнёр — {bank}."
+    },
+    {
+      "id": "trap.ru.12",
+      "trap": "T5",
+      "text": "Расчётный счёт компании открыт в банке {bank}."
+    },
+    {
+      "id": "trap.ru.13",
+      "trap": "T5",
+      "text": "Мы являемся официальным дилером компании {partner}."
+    },
+    {
+      "id": "trap.ru.14",
+      "trap": "T5",
+      "text": "Сырьё нам поставляет {supplier} — проверенный партнёр с многолетней историей."
+    },
+    {
+      "id": "trap.ru.15",
+      "trap": "T5",
+      "text": "Главный конкурент на региональном рынке — {competitor}."
+    },
+    {
+      "id": "trap.ru.16",
+      "trap": "T5",
+      "text": "Наш клиент {C_NAME} работает на рынке с {client_founded} года."
+    },
+    {
+      "id": "trap.ru.17",
+      "trap": "T5",
+      "text": "Компания {C_NAME}, основанная в {client_founded} году, доверяет нам обслуживание своего автопарка."
+    },
+    {
+      "id": "trap.ru.18",
+      "trap": "T5",
+      "text": "Финансирование проекта обеспечивает {bank}."
+    },
+    {
+      "id": "trap.ru.19",
+      "trap": "T5",
+      "text": "Оборудование закупаем напрямую у производителя — компании {supplier}."
+    },
+    {
+      "id": "trap.ru.20",
+      "trap": "T5",
+      "text": "В отличие от компании {competitor}, мы работаем без предоплаты."
+    },
+    {
+      "id": "trap.ru.22",
+      "trap": "T7",
+      "text": "В {year} году мы переехали в новый, более просторный офис."
+    },
+    {
+      "id": "trap.ru.23",
+      "trap": "T7",
+      "text": "Капитальный ремонт производственного цеха завершён в {year} году."
+    },
+    {
+      "id": "trap.ru.24",
+      "trap": "T7",
+      "text": "В {year} году компания получила награду: {CERT}."
+    },
+    {
+      "id": "trap.ru.25",
+      "trap": "T7",
+      "text": "Предложение действительно до 31 декабря {year} года."
+    },
+    {
+      "id": "trap.ru.26",
+      "trap": "T7",
+      "text": "В продаже автомобили {year} года выпуска."
+    },
+    {
+      "id": "trap.ru.27",
+      "trap": "T7",
+      "text": "В {year} году открылся второй филиал — в г. {city}."
+    },
+    {
+      "id": "trap.ru.28",
+      "trap": "T7",
+      "text": "С {year} года производство работает по новой технологии."
+    },
+    {
+      "id": "trap.ru.29",
+      "trap": "T7",
+      "text": "Здание {year} года постройки полностью реконструировано."
+    },
+    {
+      "id": "trap.ru.31",
+      "trap": "T7",
+      "text": "Компания {S_NAME}, основанная в {FOUNDED} году, в {year} году переехала в собственное здание."
+    },
+    {
+      "id": "trap.ru.32",
+      "trap": "T7",
+      "text": "Прайс-лист действует с 1 января {year} года."
+    },
+    {
+      "id": "trap.ru.33",
+      "trap": "T8",
+      "text": "Суммарный опыт нашей команды — {n_years}."
+    },
+    {
+      "id": "trap.ru.34",
+      "trap": "T8",
+      "text": "Мы на рынке уже {n_years}."
+    },
+    {
+      "id": "trap.ru.35",
+      "trap": "T8",
+      "text": "Нашими услугами пользуется {n_clients}."
+    },
+    {
+      "id": "trap.ru.36",
+      "trap": "T8",
+      "text": "Сеть насчитывает {n_shops} в г. {city} и пригородах."
+    },
+    {
+      "id": "trap.ru.38",
+      "trap": "T8",
+      "text": "На счету компании — {n_projects}."
+    },
+    {
+      "id": "trap.ru.39",
+      "trap": "T8",
+      "text": "В каталоге — {n_products} от ведущих производителей."
+    },
+    {
+      "id": "trap.ru.40",
+      "trap": "T8",
+      "text": "Средний стаж наших мастеров — {n_years}."
+    },
+    {
+      "id": "trap.ru.41",
+      "trap": "T8",
+      "text": "В компании работает {STAFF} {staff_noun}, а в автопарке — {n_vehicles}."
+    },
+    {
+      "id": "trap.ru.42",
+      "trap": "T8",
+      "text": "Клиентская база — {n_clients} по всей стране."
+    },
+    {
+      "id": "trap.ru.43",
+      "trap": "T8",
+      "text": "Нас {STAFF}, а за плечами у нас — {n_projects}."
+    },
+    {
+      "id": "trap.ru.44",
+      "trap": "T8",
+      "text": "У нас {n_shops} в разных районах города."
+    },
+    {
+      "id": "trap.ru.45",
+      "trap": "T11",
+      "text": "Главный бухгалтер — {person}."
+    },
+    {
+      "id": "trap.ru.46",
+      "trap": "T11",
+      "text": "Контактное лицо: {person}, {position}."
+    },
+    {
+      "id": "trap.ru.47",
+      "trap": "T11",
+      "text": "Исп.: {person}"
+    },
+    {
+      "id": "trap.ru.48",
+      "trap": "T11",
+      "text": "Ваш персональный менеджер — {person}."
+    },
+    {
+      "id": "trap.ru.49",
+      "trap": "T11",
+      "text": "Бухгалтерию компании ведёт {person}."
+    },
+    {
+      "id": "trap.ru.50",
+      "trap": "T11",
+      "text": "Документ подготовил(а): {person}, {position}."
+    },
+    {
+      "id": "trap.ru.51",
+      "trap": "T11",
+      "text": "{manager_title} — {S_PERSON}; главный бухгалтер — {person}."
+    },
+    {
+      "id": "trap.ru.52",
+      "trap": "T11",
+      "text": "За приём заявок отвечает {person}, {position}."
+    },
+    {
+      "id": "trap.ru.54",
+      "trap": "T11",
+      "text": "Руководитель отдела продаж — {person}."
+    },
+    {
+      "id": "trap.ru.55",
+      "trap": "T11",
+      "text": "Выезд специалиста на объект организует {person}."
+    },
+    {
+      "id": "trap.ru.56",
+      "trap": "T13",
+      "text": "Среди наших клиентов — {C_NAME_LIST}; комплектующие нам поставляет {supplier}."
+    },
+    {
+      "id": "trap.ru.57",
+      "trap": "T13",
+      "text": "Для компании {C_NAME} мы выполнили монтаж совместно с нашим партнёром — {partner}."
+    },
+    {
+      "id": "trap.ru.58",
+      "trap": "T13",
+      "text": "Нам доверяют {C_NAME_LIST}, а материалы мы закупаем у компании {supplier}."
+    },
+    {
+      "id": "trap.ru.59",
+      "trap": "T13",
+      "text": "Заказчик — {C_NAME}, генеральный подрядчик — {partner}."
+    },
+    {
+      "id": "trap.ru.60",
+      "trap": "T13",
+      "text": "Проект для компании {C_NAME} реализован при поддержке нашего партнёра — {partner}."
+    },
+    {
+      "id": "trap.ru.61",
+      "trap": "T13",
+      "text": "Мы поставляем продукцию производителя {supplier} таким клиентам, как {C_NAME_LIST}."
+    },
+    {
+      "id": "trap.ru.62",
+      "trap": "T13",
+      "text": "Официальный партнёр — {partner}; постоянные заказчики — {C_NAME_LIST}."
+    },
+    {
+      "id": "trap.ru.64",
+      "trap": "T13",
+      "text": "Для компании {C_NAME} мы используем только сырьё нашего поставщика — {supplier}."
+    },
+    {
+      "id": "trap.ru.65",
+      "trap": "T13",
+      "text": "Доставку заказов нашим клиентам, среди которых {C_NAME_LIST}, выполняет партнёр — {partner}."
+    },
+    {
+      "id": "trap.ru.66",
+      "trap": "T13",
+      "text": "В проекте для компании {C_NAME} участвовали наш поставщик {supplier} и партнёр по логистике {partner}."
+    }
   ],
   "filler": [
-    {"id": "filler.ru.01", "text": "Мы ценим ваше время и отвечаем на обращения в кратчайшие сроки."},
-    {"id": "filler.ru.02", "text": "Каждый заказ проходит обязательную проверку перед отправкой."},
-    {"id": "filler.ru.03", "text": "Доставка по городу возможна в день заказа."},
-    {"id": "filler.ru.04", "text": "Оплатить заказ можно наличными, банковской картой или по безналичному расчёту."},
-    {"id": "filler.ru.05", "text": "С юридическими лицами работаем по договору, возможна отсрочка платежа."},
-    {"id": "filler.ru.06", "text": "Индивидуальный подход к каждому клиенту — наш главный принцип."},
-    {"id": "filler.ru.07", "text": "Все цены указаны с учётом НДС."},
-    {"id": "filler.ru.08", "text": "Гарантия на выполненные работы — 12 месяцев."},
-    {"id": "filler.ru.09", "text": "Мы регулярно обновляем ассортимент и следим за новинками рынка."},
-    {"id": "filler.ru.10", "text": "Рядом с входом есть бесплатная парковка для клиентов."},
-    {"id": "filler.ru.11", "text": "Специалист перезвонит вам в течение 15 минут после оформления заявки."},
-    {"id": "filler.ru.12", "text": "Возможен выезд специалиста на объект для замеров и консультации."},
-    {"id": "filler.ru.13", "text": "Мы строго соблюдаем сроки, прописанные в договоре."},
-    {"id": "filler.ru.14", "text": "Качество для нас — не лозунг, а ежедневная работа всей команды."},
-    {"id": "filler.ru.15", "text": "Подробности уточняйте у менеджеров."},
-    {"id": "filler.ru.16", "text": "Скидки для постоянных клиентов обсуждаются индивидуально."},
-    {"id": "filler.ru.17", "text": "Закрывающие документы направляем в электронном виде через ЭДО."},
-    {"id": "filler.ru.18", "text": "Мы работаем как с частными лицами, так и с организациями."},
-    {"id": "filler.ru.19", "text": "Все материалы соответствуют требованиям безопасности и имеют необходимые документы."},
-    {"id": "filler.ru.20", "text": "Консультация и расчёт стоимости — бесплатно."},
-    {"id": "filler.ru.21", "text": "В праздничные дни график работы может отличаться."},
-    {"id": "filler.ru.22", "text": "Мы дорожим своей репутацией и отвечаем за результат."},
-    {"id": "filler.ru.23", "text": "Заявки, поступившие после 17:00, обрабатываются на следующий рабочий день."},
-    {"id": "filler.ru.24", "text": "Упаковка — бесплатно."},
-    {"id": "filler.ru.25", "text": "Возврат и обмен товара производятся в соответствии с законодательством."},
-    {"id": "filler.ru.26", "text": "Следите за нашими новостями и акциями в социальных сетях."},
-    {"id": "filler.ru.27", "text": "Мы открыты для новых идей и предложений о сотрудничестве."},
-    {"id": "filler.ru.28", "text": "Чтобы оформить заказ, достаточно позвонить или написать нам."},
-    {"id": "filler.ru.29", "text": "Отгрузка со склада — в течение двух рабочих дней после оплаты."},
-    {"id": "filler.ru.30", "text": "Наши специалисты регулярно проходят обучение и повышают квалификацию."},
-    {"id": "filler.ru.31", "text": "При заказе от {amount} доставка осуществляется бесплатно."},
-    {"id": "filler.ru.32", "text": "Счёт на оплату будет направлен на электронную почту после подтверждения заказа."},
-    {"id": "filler.ru.33", "text": "Мы бережно относимся к имуществу клиентов и убираем за собой после работы."},
-    {"id": "filler.ru.34", "text": "Цены на сайте не являются публичной офертой."},
-    {"id": "filler.ru.35", "text": "Ассортимент в магазине может отличаться от представленного на сайте."},
-    {"id": "filler.ru.36", "text": "Минимальная сумма заказа — {amount}."},
-    {"id": "filler.ru.37", "text": "Для постоянных клиентов работаем без предоплаты."},
-    {"id": "filler.ru.38", "text": "Мы всегда рады обратной связи — она помогает нам становиться лучше."},
-    {"id": "filler.ru.39", "text": "Сроки выполнения зависят от объёма и сложности работ."},
-    {"id": "filler.ru.40", "text": "Точную стоимость менеджер сообщит после согласования всех деталей."},
-    {"id": "filler.ru.41", "text": "Доставка в г. {city} занимает от двух до четырёх дней."},
-    {"id": "filler.ru.42", "text": "Просим заранее сообщать об изменении платёжных реквизитов."},
-    {"id": "filler.ru.43", "text": "Мы соблюдаем требования законодательства о защите персональных данных."},
-    {"id": "filler.ru.44", "text": "Итоги розыгрыша будут подведены {date}."},
-    {"id": "filler.ru.45", "text": "Производство и склад находятся в одном здании, что сокращает сроки отгрузки."},
-    {"id": "filler.ru.46", "text": "Спасибо, что выбираете нас!"},
-    {"id": "filler.ru.47", "text": "Технические характеристики товара могут быть изменены производителем без предварительного уведомления."},
-    {"id": "filler.ru.48", "text": "Информация на сайте носит справочный характер."},
-    {"id": "filler.ru.49", "text": "Контроль качества осуществляется на каждом этапе работы."},
-    {"id": "filler.ru.50", "text": "Если вам нужна помощь с выбором, наши консультанты всегда подскажут."},
-    {"id": "filler.ru.51", "text": "Работаем по всей области, выезд за город — по договорённости."},
-    {"id": "filler.ru.52", "text": "Перед началом работ составляем смету и согласовываем её с заказчиком."}
+    {
+      "id": "filler.ru.01",
+      "text": "Мы ценим ваше время и отвечаем на обращения в кратчайшие сроки."
+    },
+    {
+      "id": "filler.ru.02",
+      "text": "Каждый заказ проходит обязательную проверку перед отправкой."
+    },
+    {
+      "id": "filler.ru.03",
+      "text": "Доставка по городу возможна в день заказа."
+    },
+    {
+      "id": "filler.ru.04",
+      "text": "Оплатить заказ можно наличными, банковской картой или по безналичному расчёту."
+    },
+    {
+      "id": "filler.ru.06",
+      "text": "Индивидуальный подход к каждому клиенту — наш главный принцип."
+    },
+    {
+      "id": "filler.ru.07",
+      "text": "Все цены указаны с учётом НДС."
+    },
+    {
+      "id": "filler.ru.08",
+      "text": "Гарантия на выполненные работы — 12 месяцев."
+    },
+    {
+      "id": "filler.ru.09",
+      "text": "Мы регулярно обновляем ассортимент и следим за новинками рынка."
+    },
+    {
+      "id": "filler.ru.10",
+      "text": "Рядом с входом есть бесплатная парковка для клиентов."
+    },
+    {
+      "id": "filler.ru.11",
+      "text": "Специалист перезвонит вам в течение 15 минут после оформления заявки."
+    },
+    {
+      "id": "filler.ru.12",
+      "text": "Возможен выезд специалиста на объект для замеров и консультации."
+    },
+    {
+      "id": "filler.ru.13",
+      "text": "Мы строго соблюдаем сроки, прописанные в договоре."
+    },
+    {
+      "id": "filler.ru.14",
+      "text": "Качество для нас — не лозунг, а ежедневная работа всей команды."
+    },
+    {
+      "id": "filler.ru.15",
+      "text": "Подробности уточняйте у менеджеров."
+    },
+    {
+      "id": "filler.ru.16",
+      "text": "Скидки для постоянных клиентов обсуждаются индивидуально."
+    },
+    {
+      "id": "filler.ru.17",
+      "text": "Закрывающие документы направляем в электронном виде через ЭДО."
+    },
+    {
+      "id": "filler.ru.19",
+      "text": "Все материалы соответствуют требованиям безопасности и имеют необходимые документы."
+    },
+    {
+      "id": "filler.ru.20",
+      "text": "Консультация и расчёт стоимости — бесплатно."
+    },
+    {
+      "id": "filler.ru.21",
+      "text": "В праздничные дни график работы может отличаться."
+    },
+    {
+      "id": "filler.ru.22",
+      "text": "Мы дорожим своей репутацией и отвечаем за результат."
+    },
+    {
+      "id": "filler.ru.23",
+      "text": "Заявки, поступившие после 17:00, обрабатываются на следующий рабочий день."
+    },
+    {
+      "id": "filler.ru.24",
+      "text": "Упаковка — бесплатно."
+    },
+    {
+      "id": "filler.ru.26",
+      "text": "Следите за нашими новостями и акциями в социальных сетях."
+    },
+    {
+      "id": "filler.ru.27",
+      "text": "Мы открыты для новых идей и предложений о сотрудничестве."
+    },
+    {
+      "id": "filler.ru.28",
+      "text": "Чтобы оформить заказ, достаточно позвонить или написать нам."
+    },
+    {
+      "id": "filler.ru.30",
+      "text": "Наши специалисты регулярно проходят обучение и повышают квалификацию."
+    },
+    {
+      "id": "filler.ru.31",
+      "text": "При заказе от {amount} доставка осуществляется бесплатно."
+    },
+    {
+      "id": "filler.ru.32",
+      "text": "Счёт на оплату будет направлен на электронную почту после подтверждения заказа."
+    },
+    {
+      "id": "filler.ru.34",
+      "text": "Цены на сайте не являются публичной офертой."
+    },
+    {
+      "id": "filler.ru.35",
+      "text": "Ассортимент в магазине может отличаться от представленного на сайте."
+    },
+    {
+      "id": "filler.ru.36",
+      "text": "Минимальная сумма заказа — {amount}."
+    },
+    {
+      "id": "filler.ru.37",
+      "text": "Для постоянных клиентов работаем без предоплаты."
+    },
+    {
+      "id": "filler.ru.38",
+      "text": "Мы всегда рады обратной связи — она помогает нам становиться лучше."
+    },
+    {
+      "id": "filler.ru.39",
+      "text": "Сроки выполнения зависят от объёма и сложности работ."
+    },
+    {
+      "id": "filler.ru.40",
+      "text": "Точную стоимость менеджер сообщит после согласования всех деталей."
+    },
+    {
+      "id": "filler.ru.41",
+      "text": "Доставка в г. {city} занимает от двух до четырёх дней."
+    },
+    {
+      "id": "filler.ru.42",
+      "text": "Просим заранее сообщать об изменении платёжных реквизитов."
+    },
+    {
+      "id": "filler.ru.43",
+      "text": "Мы соблюдаем требования законодательства о защите персональных данных."
+    },
+    {
+      "id": "filler.ru.44",
+      "text": "Итоги розыгрыша будут подведены {date}."
+    },
+    {
+      "id": "filler.ru.45",
+      "text": "Производство и склад находятся в одном здании, что сокращает сроки отгрузки."
+    },
+    {
+      "id": "filler.ru.46",
+      "text": "Спасибо, что выбираете нас!"
+    },
+    {
+      "id": "filler.ru.47",
+      "text": "Технические характеристики товара могут быть изменены производителем без предварительного уведомления."
+    },
+    {
+      "id": "filler.ru.48",
+      "text": "Информация на сайте носит справочный характер."
+    },
+    {
+      "id": "filler.ru.49",
+      "text": "Контроль качества осуществляется на каждом этапе работы."
+    },
+    {
+      "id": "filler.ru.50",
+      "text": "Если вам нужна помощь с выбором, наши консультанты всегда подскажут."
+    },
+    {
+      "id": "filler.ru.51",
+      "text": "Работаем по всей области, выезд за город — по договорённости."
+    },
+    {
+      "id": "filler.ru.52",
+      "text": "Перед началом работ составляем смету и согласовываем её с заказчиком."
+    }
   ],
   "legal_footer": [
-    {"id": "footer.ru.01", "countries": ["RU"], "text": "{S_NAME:legal} · {S_REG_ID} · {S_REG_ID} · {S_REG_ID}"},
-    {"id": "footer.ru.02", "countries": ["RU"], "text": "{S_NAME:legal}, {S_REG_ID}, {S_REG_ID}, {S_REG_ID}. Юридический адрес: {S_ADDRESS}. Уставный капитал: {CAPITAL}."},
-    {"id": "footer.ru.03", "countries": ["RU"], "text": "{S_NAME} | {S_REG_ID} / {S_REG_ID} | {ACTIVITY_CODE} | тел. {S_PHONE} | {S_EMAIL}"},
-    {"id": "footer.ru.04", "countries": ["RU"], "text": "{S_NAME:legal} · {S_REG_ID} · {S_REG_ID} · {ACTIVITY_CODE} · {S_ADDRESS} · {S_URL}"},
-    {"id": "footer.ru.05", "countries": ["RU"], "text": "Реквизиты: {S_NAME:legal}, {S_REG_ID}, {S_REG_ID}, {S_REG_ID}, адрес: {S_ADDRESS}"},
-    {"id": "footer.ru.06", "countries": ["KZ"], "text": "{S_NAME:legal} · {S_REG_ID} · {S_ADDRESS} · тел. {S_PHONE}"},
-    {"id": "footer.ru.07", "countries": ["KZ"], "text": "{S_NAME:legal}, {S_REG_ID}, {ACTIVITY_CODE}. Юридический адрес: {S_ADDRESS}."},
-    {"id": "footer.ru.08", "countries": ["KZ"], "text": "{S_NAME} | {S_REG_ID} | {S_ADDRESS} | {S_EMAIL} | {S_URL}"},
-    {"id": "footer.ru.09", "countries": ["KZ"], "text": "{S_NAME:legal}, {S_REG_ID}, уставный капитал {CAPITAL}, {S_ADDRESS}, Республика Казахстан"},
-    {"id": "footer.ru.10", "countries": ["BY"], "text": "{S_NAME:legal}, {S_REG_ID}, {S_ADDRESS}"},
-    {"id": "footer.ru.11", "countries": ["BY"], "text": "{S_NAME:legal} · {S_REG_ID} · {ACTIVITY_CODE} · тел. {S_PHONE} · {S_EMAIL}"},
-    {"id": "footer.ru.12", "countries": ["BY"], "text": "{S_NAME} | {S_REG_ID} | Юридический адрес: {S_ADDRESS} | Уставный фонд: {CAPITAL}"},
-    {"id": "footer.ru.13", "countries": ["BY"], "text": "{S_NAME:legal}, {S_REG_ID}. Сведения внесены в Единый государственный регистр юридических лиц и индивидуальных предпринимателей. Тел.: {S_PHONE}"},
-    {"id": "footer.ru.14", "countries": ["RU", "KZ", "BY"], "text": "{S_NAME:legal} · {S_ADDRESS} · {S_PHONE} · {S_EMAIL} · {S_URL}"},
-    {"id": "footer.ru.15", "countries": ["RU", "KZ", "BY"], "text": "© {S_NAME}. Все права защищены. {S_REG_ID}"}
+    {
+      "id": "footer.ru.01",
+      "countries": [
+        "RU"
+      ],
+      "text": "{S_NAME:legal} · {S_REG_ID} · {S_REG_ID} · {S_REG_ID}"
+    },
+    {
+      "id": "footer.ru.02",
+      "countries": [
+        "RU"
+      ],
+      "text": "{S_NAME:legal}, {S_REG_ID}, {S_REG_ID}, {S_REG_ID}. Юридический адрес: {S_ADDRESS}. Уставный капитал: {CAPITAL}."
+    },
+    {
+      "id": "footer.ru.03",
+      "countries": [
+        "RU"
+      ],
+      "text": "{S_NAME} | {S_REG_ID} / {S_REG_ID} | {ACTIVITY_CODE} | тел. {S_PHONE} | {S_EMAIL}"
+    },
+    {
+      "id": "footer.ru.04",
+      "countries": [
+        "RU"
+      ],
+      "text": "{S_NAME:legal} · {S_REG_ID} · {S_REG_ID} · {ACTIVITY_CODE} · {S_ADDRESS} · {S_URL}"
+    },
+    {
+      "id": "footer.ru.05",
+      "countries": [
+        "RU"
+      ],
+      "text": "Реквизиты: {S_NAME:legal}, {S_REG_ID}, {S_REG_ID}, {S_REG_ID}, адрес: {S_ADDRESS}"
+    },
+    {
+      "id": "footer.ru.06",
+      "countries": [
+        "KZ"
+      ],
+      "text": "{S_NAME:legal} · {S_REG_ID} · {S_ADDRESS} · тел. {S_PHONE}"
+    },
+    {
+      "id": "footer.ru.07",
+      "countries": [
+        "KZ"
+      ],
+      "text": "{S_NAME:legal}, {S_REG_ID}, {ACTIVITY_CODE}. Юридический адрес: {S_ADDRESS}."
+    },
+    {
+      "id": "footer.ru.08",
+      "countries": [
+        "KZ"
+      ],
+      "text": "{S_NAME} | {S_REG_ID} | {S_ADDRESS} | {S_EMAIL} | {S_URL}"
+    },
+    {
+      "id": "footer.ru.09",
+      "countries": [
+        "KZ"
+      ],
+      "text": "{S_NAME:legal}, {S_REG_ID}, уставный капитал {CAPITAL}, {S_ADDRESS}, Республика Казахстан"
+    },
+    {
+      "id": "footer.ru.10",
+      "countries": [
+        "BY"
+      ],
+      "text": "{S_NAME:legal}, {S_REG_ID}, {S_ADDRESS}"
+    },
+    {
+      "id": "footer.ru.11",
+      "countries": [
+        "BY"
+      ],
+      "text": "{S_NAME:legal} · {S_REG_ID} · {ACTIVITY_CODE} · тел. {S_PHONE} · {S_EMAIL}"
+    },
+    {
+      "id": "footer.ru.12",
+      "countries": [
+        "BY"
+      ],
+      "text": "{S_NAME} | {S_REG_ID} | Юридический адрес: {S_ADDRESS} | Уставный фонд: {CAPITAL}"
+    },
+    {
+      "id": "footer.ru.13",
+      "countries": [
+        "BY"
+      ],
+      "text": "{S_NAME:legal}, {S_REG_ID}. Сведения внесены в Единый государственный регистр юридических лиц и индивидуальных предпринимателей. Тел.: {S_PHONE}"
+    },
+    {
+      "id": "footer.ru.14",
+      "countries": [
+        "RU",
+        "KZ",
+        "BY"
+      ],
+      "text": "{S_NAME:legal} · {S_ADDRESS} · {S_PHONE} · {S_EMAIL} · {S_URL}"
+    },
+    {
+      "id": "footer.ru.15",
+      "countries": [
+        "RU",
+        "KZ",
+        "BY"
+      ],
+      "text": "© {S_NAME}. Все права защищены. {S_REG_ID}"
+    }
   ],
   "invoice_notes": {
     "payment_terms": [

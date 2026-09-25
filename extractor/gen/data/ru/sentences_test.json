@@ -1,0 +1,210 @@
+{
+  "activity": [
+    {
+      "id": "activity.ru.08",
+      "text": "Основной {ACTIVITY_CODE} — {ACTIVITY}"
+    },
+    {
+      "id": "activity.ru.16",
+      "text": "Мы занимаемся одним делом и стараемся делать его лучше всех: {ACTIVITY}."
+    },
+    {
+      "id": "activity.ru.22",
+      "text": "С первого дня работы наш главный фокус — {ACTIVITY}."
+    }
+  ],
+  "founded": [
+    {
+      "id": "founded.ru.03",
+      "text": "Работаем с {FOUNDED} года."
+    },
+    {
+      "id": "founded.ru.24",
+      "text": "Компания ведёт свою историю с {FOUNDED} года."
+    },
+    {
+      "id": "founded.ru.26",
+      "text": "На рынке — с {FOUNDED} года."
+    }
+  ],
+  "staff": [
+    {
+      "id": "staff.ru.22",
+      "text": "Сотрудников: {STAFF}"
+    },
+    {
+      "id": "staff.ru.26",
+      "text": "Компания {S_NAME} — это сплочённая команда: {STAFF} {staff_noun}."
+    },
+    {
+      "id": "staff.ru.28",
+      "text": "Сейчас в штате {STAFF} {staff_noun}, большинство работает с нами много лет."
+    }
+  ],
+  "revenue": [
+    {
+      "id": "revenue.ru.03",
+      "text": "Оборот в {REVENUE_YEAR} году — {REVENUE}."
+    },
+    {
+      "id": "revenue.ru.09",
+      "text": "Объём продаж за {REVENUE_YEAR} год составил {REVENUE}."
+    },
+    {
+      "id": "revenue.ru.25",
+      "text": "Выручка (нетто) от продажи товаров, работ, услуг за {REVENUE_YEAR} год: {REVENUE}"
+    }
+  ],
+  "services_intro": [
+    {
+      "id": "services_intro.ru.07",
+      "text": "Компания {S_NAME} оказывает следующие услуги: {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.ru.21",
+      "text": "Наше главное предложение — {SERVICE}."
+    },
+    {
+      "id": "services_intro.ru.28",
+      "text": "Рекомендуем попробовать: {SERVICE}."
+    }
+  ],
+  "clients": [
+    {
+      "id": "clients.ru.03",
+      "text": "Нам доверяют: {C_NAME_LIST} и другие компании."
+    },
+    {
+      "id": "clients.ru.22",
+      "text": "{C_NAME} — наш клиент с {year} года."
+    },
+    {
+      "id": "clients.ru.27",
+      "text": "Клиент: {C_NAME}. Задача: сократить сроки поставки. Результат: все отгрузки точно в срок."
+    }
+  ],
+  "hours": [
+    {
+      "id": "hours.ru.20",
+      "text": "Заказы принимаются {HOURS:prose}."
+    },
+    {
+      "id": "hours.ru.21",
+      "text": "Обслуживание клиентов: {HOURS}."
+    },
+    {
+      "id": "hours.ru.24",
+      "text": "Двери открыты {HOURS:prose}."
+    }
+  ],
+  "certifications": [
+    {
+      "id": "certifications.ru.05",
+      "text": "{CERT} — подтверждение нашего качества."
+    },
+    {
+      "id": "certifications.ru.11",
+      "text": "Подтверждённые компетенции: {CERT_LIST}."
+    },
+    {
+      "id": "certifications.ru.20",
+      "text": "Наш статус подтверждён: {CERT}."
+    }
+  ],
+  "location": [
+    {
+      "id": "location.ru.10",
+      "text": "Офис и склад расположены по адресу: {S_ADDRESS}."
+    },
+    {
+      "id": "location.ru.20",
+      "text": "Компания {S_NAME} расположена по адресу: {S_ADDRESS}."
+    },
+    {
+      "id": "location.ru.23",
+      "text": "Адрес для корреспонденции: {S_ADDRESS}"
+    }
+  ],
+  "capital": [
+    {
+      "id": "capital.ru.01",
+      "text": "Уставный капитал: {CAPITAL}"
+    },
+    {
+      "id": "capital.ru.02",
+      "text": "Размер уставного капитала — {CAPITAL}."
+    },
+    {
+      "id": "capital.ru.16",
+      "text": "Уставный фонд сформирован в размере {CAPITAL}."
+    }
+  ],
+  "legal_form": [
+    {
+      "id": "legal_form.ru.04",
+      "text": "{LEGAL_FORM}, уставный капитал — {CAPITAL}"
+    },
+    {
+      "id": "legal_form.ru.22",
+      "text": "{LEGAL_FORM} — организационно-правовая форма, в которой зарегистрирована компания."
+    },
+    {
+      "id": "legal_form.ru.23",
+      "text": "Сведения об организационно-правовой форме: {LEGAL_FORM}."
+    }
+  ],
+  "traps": [
+    {
+      "id": "trap.ru.08",
+      "trap": "T1",
+      "text": "Выручка за один день праздничной ярмарки составила {amount}."
+    },
+    {
+      "id": "trap.ru.21",
+      "trap": "T5",
+      "text": "Логистику и складское хранение обеспечивает наш партнёр — {partner}."
+    },
+    {
+      "id": "trap.ru.30",
+      "trap": "T7",
+      "text": "Последняя модернизация оборудования проведена в {year} году."
+    },
+    {
+      "id": "trap.ru.37",
+      "trap": "T8",
+      "text": "Собственный автопарк — {n_vehicles}."
+    },
+    {
+      "id": "trap.ru.53",
+      "trap": "T11",
+      "text": "По вопросам доставки обращайтесь: {person}, {position}."
+    },
+    {
+      "id": "trap.ru.63",
+      "trap": "T13",
+      "text": "Вместе с партнёрской компанией {partner} мы обслуживаем объекты компании {C_NAME}."
+    }
+  ],
+  "filler": [
+    {
+      "id": "filler.ru.05",
+      "text": "С юридическими лицами работаем по договору, возможна отсрочка платежа."
+    },
+    {
+      "id": "filler.ru.18",
+      "text": "Мы работаем как с частными лицами, так и с организациями."
+    },
+    {
+      "id": "filler.ru.25",
+      "text": "Возврат и обмен товара производятся в соответствии с законодательством."
+    },
+    {
+      "id": "filler.ru.29",
+      "text": "Отгрузка со склада — в течение двух рабочих дней после оплаты."
+    },
+    {
+      "id": "filler.ru.33",
+      "text": "Мы бережно относимся к имуществу клиентов и убираем за собой после работы."
+    }
+  ]
+}

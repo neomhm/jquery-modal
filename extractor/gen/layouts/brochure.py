@@ -126,23 +126,6 @@ def flyer(ctx):
     return doc
 
 
-@layout("brochure.B03", "brochure")
-def history_page(ctx):
-    doc = ctx.doc
-    _setup(ctx)
-    doc.add(Heading(ctx.title("brochure", "history")))
-    body = prose(ctx, ["founded", "activity"], traps=["T7"] + _traps(ctx),
-                 fillers=(1, 2))
-    if body is not None:
-        doc.add(Para(body))
-    body = prose(ctx, ["staff", "revenue", "clients"], traps=_traps(ctx))
-    if body is not None:
-        doc.add(Para(body))
-    _section(ctx, "values", [], traps=False, fillers=(2, 4))
-    _end(ctx)
-    return doc
-
-
 @layout("brochure.B04", "brochure")
 def services_catalogue(ctx):
     """One short paragraph per service."""

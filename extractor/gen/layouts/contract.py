@@ -64,25 +64,6 @@ def _signatures(ctx):
                            ctx.name(ctx.C)), prose=False))
 
 
-@layout("contract.K01", "contract")
-def full_agreement(ctx):
-    doc = ctx.doc
-    doc.add(Heading(_setup(ctx)))
-    _parties(ctx)
-    k = 1
-    for clause in ORDER:
-        if clause == "preamble":
-            pre = ctx.phrase("contract", "preamble")
-            if pre is not None:
-                doc.add(Para(pre))
-            continue
-        k = _article(ctx, k, clause)
-        if k in (4, 8):
-            doc.new_page()
-    _signatures(ctx)
-    return doc
-
-
 @layout("contract.K02", "contract")
 def short_agreement(ctx):
     doc = ctx.doc

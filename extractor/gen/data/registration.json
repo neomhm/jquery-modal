@@ -456,38 +456,6 @@
     ]
    ]
   },
-  "US_ein": {
-   "locales": [
-    "en-US"
-   ],
-   "style": "cert",
-   "title": [
-    "Department of the Treasury – Internal Revenue Service",
-    "IRS Notice CP 575"
-   ],
-   "authority": [
-    "Internal Revenue Service"
-   ],
-   "rows": [
-    [
-     "Date of this notice",
-     "doc_date"
-    ],
-    [
-     "Employer Identification Number",
-     "reg:US_EIN"
-    ],
-    [
-     "Form",
-     "o:SS-4"
-    ]
-   ],
-   "prose": [
-    "{legal}\n{address_multi}",
-    "WE ASSIGNED YOU AN EMPLOYER IDENTIFICATION NUMBER. Thank you for applying for an Employer Identification Number (EIN). We assigned you EIN {reg:US_EIN}. This EIN will identify you, your business accounts, tax returns, and documents, even if you have no employees.",
-    "Please keep this notice in your permanent records. Taxpayer name control: {o_control}."
-   ]
-  },
   "GB_coi": {
    "locales": [
     "en-GB"
@@ -508,90 +476,6 @@
    "prose": [
     "The Registrar of Companies for England and Wales, hereby certifies that {legal} is this day incorporated under the Companies Act 2006 as a private company, that the company is limited by shares, and the situation of its registered office is in England/Wales.",
     "Given at Companies House, Cardiff, on {founded}."
-   ]
-  },
-  "GB_overview": {
-   "locales": [
-    "en-GB"
-   ],
-   "style": "kv",
-   "title": [
-    "Company overview",
-    "Companies House – company information"
-   ],
-   "authority": [
-    "Companies House"
-   ],
-   "rows": [
-    [
-     "Company name",
-     "legal"
-    ],
-    [
-     "Company number",
-     "reg:GB_CRN"
-    ],
-    [
-     "Registered office address",
-     "address"
-    ],
-    [
-     "Company status",
-     "o:Active"
-    ],
-    [
-     "Company type",
-     "form_long"
-    ],
-    [
-     "Incorporated on",
-     "founded"
-    ],
-    [
-     "Nature of business (SIC)",
-     "code_and_activity"
-    ],
-    [
-     "Officers",
-     "section"
-    ],
-    [
-     "Director",
-     "manager"
-    ],
-    [
-     "Date of birth",
-     "birth"
-    ],
-    [
-     "Generated on",
-     "doc_date"
-    ]
-   ]
-  },
-  "IN_coi": {
-   "locales": [
-    "en-IN"
-   ],
-   "style": "cert",
-   "title": [
-    "CERTIFICATE OF INCORPORATION"
-   ],
-   "authority": [
-    "GOVERNMENT OF INDIA – MINISTRY OF CORPORATE AFFAIRS – Central Registration Centre"
-   ],
-   "rows": [
-    [
-     "Corporate Identity Number",
-     "reg:IN_CIN"
-    ]
-   ],
-   "prose": [
-    "I hereby certify that {legal} is incorporated on this {founded} under the Companies Act, 2013 (18 of 2013) and that the company is limited by shares.",
-    "The Corporate Identity Number of the company is {reg:IN_CIN}.",
-    "The Permanent Account Number (PAN) of the company is {reg:IN_PAN}.",
-    "Mailing Address as per record available in Registrar of Companies office: {address}",
-    "Given under my hand at Manesar (Haryana) on {doc_date}."
    ]
   },
   "IN_gst": {
@@ -819,74 +703,6 @@
     [
      "Date printed",
      "doc_date"
-    ]
-   ]
-  },
-  "RU_egrul": {
-   "locales": [
-    "ru-RU"
-   ],
-   "style": "table",
-   "title": [
-    "ВЫПИСКА из Единого государственного реестра юридических лиц",
-    "Выписка из ЕГРЮЛ"
-   ],
-   "authority": [
-    "Федеральная налоговая служба",
-    "Межрайонная ИФНС России № {n} по г. {city}"
-   ],
-   "rows": [
-    [
-     "дата формирования выписки",
-     "doc_date"
-    ],
-    [
-     "ОГРН",
-     "reg:RU_OGRN"
-    ],
-    [
-     "Полное наименование на русском языке",
-     "legal_long"
-    ],
-    [
-     "Сокращенное наименование на русском языке",
-     "legal"
-    ],
-    [
-     "Адрес юридического лица",
-     "address"
-    ],
-    [
-     "Способ образования",
-     "o:Создание юридического лица"
-    ],
-    [
-     "Дата регистрации",
-     "founded"
-    ],
-    [
-     "Наименование регистрирующего органа",
-     "registry"
-    ],
-    [
-     "ИНН юридического лица",
-     "reg:RU_INN10"
-    ],
-    [
-     "КПП юридического лица",
-     "reg:RU_KPP"
-    ],
-    [
-     "Размер (в рублях) уставного капитала",
-     "capital_bare"
-    ],
-    [
-     "Генеральный директор",
-     "manager"
-    ],
-    [
-     "Код и наименование вида деятельности",
-     "code_and_activity"
     ]
    ]
   },

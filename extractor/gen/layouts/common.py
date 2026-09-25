@@ -210,7 +210,7 @@ def invoice_data(ctx, n_lines=None, allow_extras=True):
                       "service": True})
     extras = []
     boost = ctx.rules.get("trap_boost", 1.0)
-    if allow_extras and rng.random() < 0.33 * boost:
+    if allow_extras and rng.random() < 0.4 * boost:
         kinds = ["shipping", "fee", "discount"]
         if ctx.doc.doc_type == "quote":
             kinds.append("deposit")

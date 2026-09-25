@@ -1,0 +1,210 @@
+{
+  "activity": [
+    {
+      "id": "activity.hi.14",
+      "text": "{S_NAME} की शुरुआत जिस काम से हुई थी, वही आज भी हमारा मुख्य व्यवसाय है: {ACTIVITY}।"
+    },
+    {
+      "id": "activity.hi.17",
+      "text": "Business Activity / व्यावसायिक गतिविधि: {ACTIVITY}"
+    },
+    {
+      "id": "activity.hi.19",
+      "text": "सेक्टर: {ACTIVITY}"
+    }
+  ],
+  "founded": [
+    {
+      "id": "founded.hi.18",
+      "text": "{FOUNDED} में स्थापित इस फर्म को आज परिवार की तीसरी पीढ़ी संभाल रही है।"
+    },
+    {
+      "id": "founded.hi.28",
+      "text": "{FOUNDED} में कुछ ही लोगों और एक सपने के साथ हमने यह सफ़र शुरू किया था।"
+    },
+    {
+      "id": "founded.hi.29",
+      "text": "उल्लेखनीय है कि {S_NAME} की स्थापना {FOUNDED} में हुई थी।"
+    }
+  ],
+  "staff": [
+    {
+      "id": "staff.hi.06",
+      "text": "मैनपावर: {STAFF}"
+    },
+    {
+      "id": "staff.hi.20",
+      "text": "हमारे साथ काम करने वाले लोगों की संख्या {STAFF} है, और यह लगातार बढ़ रही है।"
+    },
+    {
+      "id": "staff.hi.25",
+      "text": "कंपनी के कर्मचारियों की संख्या पिछले वर्ष की तुलना में बढ़कर {STAFF} हो गई है।"
+    }
+  ],
+  "revenue": [
+    {
+      "id": "revenue.hi.05",
+      "text": "वार्षिक राजस्व: {REVENUE}"
+    },
+    {
+      "id": "revenue.hi.06",
+      "text": "पिछले वित्त वर्ष में हमारा टर्नओवर {REVENUE} तक पहुँच गया।"
+    },
+    {
+      "id": "revenue.hi.27",
+      "text": "कारोबार का आकार: {REVENUE} प्रति वर्ष"
+    }
+  ],
+  "services_intro": [
+    {
+      "id": "services_intro.hi.04",
+      "text": "{SERVICE} अब {city} में भी उपलब्ध है।"
+    },
+    {
+      "id": "services_intro.hi.18",
+      "text": "क्या आपको {SERVICE} चाहिए? हम मदद के लिए तैयार हैं।"
+    },
+    {
+      "id": "services_intro.hi.24",
+      "text": "हमारे पोर्टफ़ोलियो में शामिल हैं: {SERVICE_LIST}"
+    }
+  ],
+  "clients": [
+    {
+      "id": "clients.hi.17",
+      "text": "हमारी सेवाएँ लेने वाले संस्थानों में {C_NAME_LIST} प्रमुख हैं।"
+    },
+    {
+      "id": "clients.hi.18",
+      "text": "रेफ़रेंस: {C_NAME_LIST}"
+    },
+    {
+      "id": "clients.hi.22",
+      "text": "देश के कई नामी संस्थान, जैसे {C_NAME_LIST}, हमारे ग्राहक हैं।"
+    }
+  ],
+  "hours": [
+    {
+      "id": "hours.hi.04",
+      "text": "हमारा कार्यालय {HOURS:prose} खुला रहता है।"
+    },
+    {
+      "id": "hours.hi.18",
+      "text": "{HOURS:prose} हमारी टीम आपकी सहायता के लिए मौजूद रहती है।"
+    },
+    {
+      "id": "hours.hi.25",
+      "text": "खुला: {HOURS}"
+    }
+  ],
+  "certifications": [
+    {
+      "id": "certifications.hi.07",
+      "text": "Certifications / प्रमाणन: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.hi.09",
+      "text": "मान्यताएँ व सदस्यताएँ: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.hi.25",
+      "text": "हमारी पहचान और हमारे मानक: {CERT_LIST}"
+    }
+  ],
+  "location": [
+    {
+      "id": "location.hi.01",
+      "text": "पता: {S_ADDRESS}"
+    },
+    {
+      "id": "location.hi.15",
+      "text": "Address / पता: {S_ADDRESS}"
+    },
+    {
+      "id": "location.hi.18",
+      "text": "ऑनलाइन ऑर्डर: {S_URL}"
+    }
+  ],
+  "capital": [
+    {
+      "id": "capital.hi.11",
+      "text": "कंपनी की अधिकृत पूंजी {CAPITAL} है, जो 10 रुपये अंकित मूल्य वाले इक्विटी शेयरों में विभाजित है।"
+    },
+    {
+      "id": "capital.hi.15",
+      "text": "कंपनी मास्टर डेटा के अनुसार प्रदत्त पूंजी: {CAPITAL}"
+    },
+    {
+      "id": "capital.hi.20",
+      "text": "पूंजी आधार: {CAPITAL} (पूर्णतः प्रदत्त)"
+    }
+  ],
+  "legal_form": [
+    {
+      "id": "legal_form.hi.07",
+      "text": "हमारा व्यवसाय {LEGAL_FORM} के रूप में पंजीकृत है और इसका मुख्यालय {city} में है।"
+    },
+    {
+      "id": "legal_form.hi.09",
+      "text": "{LEGAL_FORM} के रूप में पंजीकृत"
+    },
+    {
+      "id": "legal_form.hi.23",
+      "text": "फर्म/कंपनी का स्वरूप: {LEGAL_FORM}"
+    }
+  ],
+  "traps": [
+    {
+      "id": "trap.hi.09",
+      "trap": "T1",
+      "text": "इस तिमाही का कारोबार {amount} रहा, जो पिछली तिमाही से बेहतर है।"
+    },
+    {
+      "id": "trap.hi.15",
+      "trap": "T5",
+      "text": "हमारे पुराने ग्राहक {C_NAME} की स्थापना {client_founded} में हुई थी, और आज वे अपने क्षेत्र के अग्रणी संस्थानों में गिने जाते हैं।"
+    },
+    {
+      "id": "trap.hi.24",
+      "trap": "T7",
+      "text": "यह ऑफ़र {year} के अंत तक मान्य है।"
+    },
+    {
+      "id": "trap.hi.33",
+      "trap": "T8",
+      "text": "कंपनी {city} में {n_shops} संचालित करती है।"
+    },
+    {
+      "id": "trap.hi.48",
+      "trap": "T11",
+      "text": "आपके ऑर्डर से जुड़ी जानकारी के लिए {person} ({position}) से बात करें।"
+    },
+    {
+      "id": "trap.hi.54",
+      "trap": "T13",
+      "text": "हमारे ग्राहक: {C_NAME_LIST}। तकनीकी साझेदार: {partner}।"
+    }
+  ],
+  "filler": [
+    {
+      "id": "filler.hi.05",
+      "text": "किसी भी शिकायत की स्थिति में कृपया हमें तुरंत सूचित करें।"
+    },
+    {
+      "id": "filler.hi.16",
+      "text": "हमारे सभी कर्मचारी समय-समय पर प्रशिक्षण लेते रहते हैं।"
+    },
+    {
+      "id": "filler.hi.28",
+      "text": "हम आपके भरोसे के लिए आभारी हैं।"
+    },
+    {
+      "id": "filler.hi.43",
+      "text": "हमारी टीम आपके हर सवाल का जवाब देने के लिए तैयार रहती है।"
+    },
+    {
+      "id": "filler.hi.45",
+      "text": "सभी विवादों को आपसी बातचीत से सुलझाने का प्रयास किया जाएगा।"
+    }
+  ]
+}

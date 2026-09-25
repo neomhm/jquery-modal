@@ -1,0 +1,210 @@
+{
+  "activity": [
+    {
+      "id": "activity.es.01",
+      "text": "Actividad: {ACTIVITY}"
+    },
+    {
+      "id": "activity.es.04",
+      "text": "Giro: {ACTIVITY}"
+    },
+    {
+      "id": "activity.es.19",
+      "text": "Área de negocio: {ACTIVITY}"
+    }
+  ],
+  "founded": [
+    {
+      "id": "founded.es.01",
+      "text": "Año de fundación: {FOUNDED}"
+    },
+    {
+      "id": "founded.es.12",
+      "text": "Desde {FOUNDED} al servicio de nuestros clientes."
+    },
+    {
+      "id": "founded.es.20",
+      "text": "Fecha de alta: {FOUNDED:date}"
+    }
+  ],
+  "staff": [
+    {
+      "id": "staff.es.05",
+      "text": "Contamos con un equipo de {STAFF} {staff_noun}."
+    },
+    {
+      "id": "staff.es.13",
+      "text": "Tamaño de la empresa: {STAFF} {staff_noun}"
+    },
+    {
+      "id": "staff.es.21",
+      "text": "Número de colaboradores: {STAFF}"
+    }
+  ],
+  "revenue": [
+    {
+      "id": "revenue.es.04",
+      "text": "Ventas netas {REVENUE_YEAR}: {REVENUE}"
+    },
+    {
+      "id": "revenue.es.16",
+      "text": "Cifra de ventas ({REVENUE_YEAR}): {REVENUE}"
+    },
+    {
+      "id": "revenue.es.27",
+      "text": "Monto de ventas {REVENUE_YEAR}: {REVENUE}"
+    }
+  ],
+  "services_intro": [
+    {
+      "id": "services_intro.es.10",
+      "text": "Catálogo: {SERVICE_LIST} y mucho más."
+    },
+    {
+      "id": "services_intro.es.25",
+      "text": "Lo que más nos piden nuestros clientes: {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.es.27",
+      "text": "{SERVICE_LIST}: todo lo que necesita, en un solo lugar."
+    }
+  ],
+  "clients": [
+    {
+      "id": "clients.es.09",
+      "text": "Prestamos servicio a {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.es.11",
+      "text": "{C_NAME} es cliente nuestro desde hace más de diez años."
+    },
+    {
+      "id": "clients.es.24",
+      "text": "Nuestros clientes: {C_NAME_LIST} y muchos más."
+    }
+  ],
+  "hours": [
+    {
+      "id": "hours.es.01",
+      "text": "Horario: {HOURS}"
+    },
+    {
+      "id": "hours.es.06",
+      "text": "Te esperamos {HOURS:prose}."
+    },
+    {
+      "id": "hours.es.17",
+      "text": "Horario de apertura: {HOURS}"
+    }
+  ],
+  "certifications": [
+    {
+      "id": "certifications.es.05",
+      "text": "Distinciones: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.es.18",
+      "text": "Garantía de calidad: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.es.23",
+      "text": "Certificados: {CERT_LIST}"
+    }
+  ],
+  "location": [
+    {
+      "id": "location.es.10",
+      "text": "Visítenos en nuestras oficinas: {S_ADDRESS}."
+    },
+    {
+      "id": "location.es.17",
+      "text": "Móvil: {S_PHONE}"
+    },
+    {
+      "id": "location.es.21",
+      "text": "Sede principal: {S_ADDRESS}"
+    }
+  ],
+  "capital": [
+    {
+      "id": "capital.es.09",
+      "text": "El capital de la sociedad asciende a {CAPITAL}."
+    },
+    {
+      "id": "capital.es.12",
+      "text": "Forma jurídica: {LEGAL_FORM} · Capital social: {CAPITAL}"
+    },
+    {
+      "id": "capital.es.17",
+      "text": "El capital social de la compañía es de {CAPITAL} y se encuentra íntegramente suscrito."
+    }
+  ],
+  "legal_form": [
+    {
+      "id": "legal_form.es.08",
+      "text": "Tipo de entidad: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.es.18",
+      "text": "El negocio funciona como {LEGAL_FORM} desde sus inicios."
+    },
+    {
+      "id": "legal_form.es.24",
+      "text": "Estructura jurídica: {LEGAL_FORM}"
+    }
+  ],
+  "traps": [
+    {
+      "id": "trap.es.06",
+      "trap": "T1",
+      "text": "Obra adjudicada por un importe de {amount}, IVA incluido."
+    },
+    {
+      "id": "trap.es.20",
+      "trap": "T5",
+      "text": "Trabajamos para {C_NAME}, una casa con historia que se fundó en {client_founded}."
+    },
+    {
+      "id": "trap.es.28",
+      "trap": "T7",
+      "text": "Desde {year} somos distribuidores exclusivos de {partner}."
+    },
+    {
+      "id": "trap.es.31",
+      "trap": "T8",
+      "text": "Más de {n_years} de experiencia nos avalan."
+    },
+    {
+      "id": "trap.es.50",
+      "trap": "T11",
+      "text": "Si desea concertar una visita, llame a {person} al {S_PHONE}."
+    },
+    {
+      "id": "trap.es.57",
+      "trap": "T13",
+      "text": "Clientes: {C_NAME_LIST} · Socios: {partner}"
+    }
+  ],
+  "filler": [
+    {
+      "id": "filler.es.13",
+      "text": "Cuidamos cada detalle para que su experiencia sea excelente."
+    },
+    {
+      "id": "filler.es.23",
+      "text": "Síguenos en redes sociales para no perderte ninguna novedad."
+    },
+    {
+      "id": "filler.es.29",
+      "text": "Gracias por confiar en nosotros."
+    },
+    {
+      "id": "filler.es.39",
+      "text": "La calidad no se negocia."
+    },
+    {
+      "id": "filler.es.45",
+      "text": "Imágenes meramente ilustrativas."
+    }
+  ]
+}

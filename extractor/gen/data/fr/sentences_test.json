@@ -1,0 +1,210 @@
+{
+  "activity": [
+    {
+      "id": "activity.fr.03",
+      "text": "Notre métier : {ACTIVITY}."
+    },
+    {
+      "id": "activity.fr.08",
+      "text": "Basée à {city}, l'entreprise {S_NAME} a pour activité principale : {ACTIVITY}."
+    },
+    {
+      "id": "activity.fr.28",
+      "text": "Tout au long de l'année, nos équipes mettent leur expérience au service des particuliers et des professionnels dans un domaine précis : {ACTIVITY}."
+    }
+  ],
+  "founded": [
+    {
+      "id": "founded.fr.07",
+      "text": "Date d'immatriculation : {FOUNDED:date}"
+    },
+    {
+      "id": "founded.fr.11",
+      "text": "Née en {FOUNDED}, l'entreprise compte aujourd'hui parmi les acteurs incontournables de son secteur à {city}."
+    },
+    {
+      "id": "founded.fr.27",
+      "text": "Entreprise fondée en {FOUNDED}"
+    }
+  ],
+  "staff": [
+    {
+      "id": "staff.fr.01",
+      "text": "Effectif : {STAFF}"
+    },
+    {
+      "id": "staff.fr.27",
+      "text": "Notre équipe, qui réunit {STAFF} {staff_noun}, s'appuie aussi sur un réseau de sous-traitants de confiance."
+    },
+    {
+      "id": "staff.fr.30",
+      "text": "Une PME solidement ancrée dans son territoire, qui compte {STAFF} {staff_noun}"
+    }
+  ],
+  "revenue": [
+    {
+      "id": "revenue.fr.03",
+      "text": "CA {REVENUE_YEAR} : {REVENUE}"
+    },
+    {
+      "id": "revenue.fr.26",
+      "text": "Chiffre d'affaires {REVENUE_YEAR_PREV} : {REVENUE_PREV} – Chiffre d'affaires {REVENUE_YEAR} : {REVENUE}"
+    },
+    {
+      "id": "revenue.fr.29",
+      "text": "Chiffre d'affaires réalisé en {REVENUE_YEAR} : {REVENUE}"
+    }
+  ],
+  "services_intro": [
+    {
+      "id": "services_intro.fr.13",
+      "text": "Ce que nous faisons pour vous : {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.fr.23",
+      "text": "En complément, nous proposons : {SERVICE}."
+    },
+    {
+      "id": "services_intro.fr.26",
+      "text": "Nos domaines d'intervention : {SERVICE_LIST}."
+    }
+  ],
+  "clients": [
+    {
+      "id": "clients.fr.06",
+      "text": "Nous accompagnons au quotidien des entreprises comme {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.fr.14",
+      "text": "Nous avons eu le plaisir de travailler pour {C_NAME} et pour {C_NAME}."
+    },
+    {
+      "id": "clients.fr.21",
+      "text": "Nous sommes fiers de compter {C_NAME} parmi nos clients depuis {year}."
+    }
+  ],
+  "hours": [
+    {
+      "id": "hours.fr.13",
+      "text": "Heures d'ouverture du bureau : {HOURS}"
+    },
+    {
+      "id": "hours.fr.15",
+      "text": "Notre équipe vous reçoit {HOURS:prose}."
+    },
+    {
+      "id": "hours.fr.24",
+      "text": "Horaires du secrétariat : {HOURS}"
+    }
+  ],
+  "certifications": [
+    {
+      "id": "certifications.fr.06",
+      "text": "Distinctions : {CERT_LIST}"
+    },
+    {
+      "id": "certifications.fr.25",
+      "text": "Affiliations et certifications : {CERT_LIST}"
+    },
+    {
+      "id": "certifications.fr.28",
+      "text": "À retenir : {CERT}, la preuve de notre engagement."
+    }
+  ],
+  "location": [
+    {
+      "id": "location.fr.15",
+      "text": "Toute l'actualité de l'entreprise sur {S_URL}"
+    },
+    {
+      "id": "location.fr.19",
+      "text": "Adresse postale : {S_ADDRESS}"
+    },
+    {
+      "id": "location.fr.21",
+      "text": "Plus d'informations sur notre site {S_URL}."
+    }
+  ],
+  "capital": [
+    {
+      "id": "capital.fr.12",
+      "text": "Capital social libéré : {CAPITAL}"
+    },
+    {
+      "id": "capital.fr.16",
+      "text": "Le capital social est fixé à la somme de {CAPITAL}."
+    },
+    {
+      "id": "capital.fr.22",
+      "text": "Le capital, d'un montant de {CAPITAL}, est détenu à {percent} par la famille fondatrice."
+    }
+  ],
+  "legal_form": [
+    {
+      "id": "legal_form.fr.01",
+      "text": "Forme juridique : {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.fr.24",
+      "text": "Forme juridique actuelle : {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.fr.28",
+      "text": "L'entreprise exerce en {LEGAL_FORM}."
+    }
+  ],
+  "traps": [
+    {
+      "id": "trap.fr.02",
+      "trap": "T1",
+      "text": "Le projet le plus important de l'année représente à lui seul {amount} de commandes."
+    },
+    {
+      "id": "trap.fr.12",
+      "trap": "T5",
+      "text": "Nous travaillons en étroite collaboration avec {partner}, notre partenaire depuis de nombreuses années."
+    },
+    {
+      "id": "trap.fr.26",
+      "trap": "T7",
+      "text": "{CERT} depuis {year}"
+    },
+    {
+      "id": "trap.fr.42",
+      "trap": "T8",
+      "text": "{n_clients} nous font confiance chaque mois."
+    },
+    {
+      "id": "trap.fr.47",
+      "trap": "T11",
+      "text": "Dossier suivi par : {person} – {position}"
+    },
+    {
+      "id": "trap.fr.59",
+      "trap": "T13",
+      "text": "Pour notre client {C_NAME}, nous avons coordonné les équipes de notre partenaire {partner} et les nôtres."
+    }
+  ],
+  "filler": [
+    {
+      "id": "filler.fr.04",
+      "text": "Nous restons à votre entière disposition pour toute information."
+    },
+    {
+      "id": "filler.fr.09",
+      "text": "Nos tarifs sont communiqués sur simple demande."
+    },
+    {
+      "id": "filler.fr.23",
+      "text": "Nous intervenons à {city} et dans les communes environnantes."
+    },
+    {
+      "id": "filler.fr.27",
+      "text": "Chaque client bénéficie d'un suivi personnalisé."
+    },
+    {
+      "id": "filler.fr.35",
+      "text": "Pour toute réclamation, merci de joindre une copie de votre facture."
+    }
+  ]
+}

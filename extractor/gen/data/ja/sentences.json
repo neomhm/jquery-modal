@@ -1,464 +1,1668 @@
 {
   "lang": "ja",
   "activity": [
-    {"id": "activity.ja.01", "text": "事業内容：{ACTIVITY}"},
-    {"id": "activity.ja.02", "text": "【事業内容】{ACTIVITY}"},
-    {"id": "activity.ja.03", "text": "主な事業　{ACTIVITY}"},
-    {"id": "activity.ja.04", "text": "{S_NAME}は、{ACTIVITY}を主な事業としております。"},
-    {"id": "activity.ja.05", "text": "当社は{FOUNDED}の設立以来、{ACTIVITY}を中心に事業を展開してまいりました。"},
-    {"id": "activity.ja.06", "text": "私たちは{city}を拠点に、{ACTIVITY}を手がけております。"},
-    {"id": "activity.ja.07", "text": "{ACTIVITY}のことなら、{S_NAME}にお任せください。"},
-    {"id": "activity.ja.08", "text": "当社の本業は{ACTIVITY}です。"},
-    {"id": "activity.ja.09", "text": "創業以来、{ACTIVITY}一筋に歩んでまいりました。"},
-    {"id": "activity.ja.10", "text": "地域の皆さまに向けて、{ACTIVITY}を行っております。"},
-    {"id": "activity.ja.11", "text": "{ACTIVITY}を通じて、お客様の事業の発展に貢献してまいります。"},
-    {"id": "activity.ja.12", "text": "当社は、{ACTIVITY}を専門とする会社です。"},
-    {"id": "activity.ja.13", "text": "{city}に本社を置く{S_NAME}は、{ACTIVITY}を営む企業である。"},
-    {"id": "activity.ja.14", "text": "業種：{ACTIVITY}"},
-    {"id": "activity.ja.15", "text": "営業種目：{ACTIVITY}"},
-    {"id": "activity.ja.16", "text": "目的　1．{ACTIVITY}　2．前号に附帯関連する一切の事業"},
-    {"id": "activity.ja.17", "text": "{S_NAME}では、{ACTIVITY}をはじめ、関連するさまざまなご要望にお応えしています。"},
-    {"id": "activity.ja.18", "text": "弊社は{ACTIVITY}の分野で、確かな技術と実績を積み重ねてまいりました。"},
-    {"id": "activity.ja.19", "text": "{ACTIVITY}に関するご相談は、お気軽にお問い合わせください。"},
-    {"id": "activity.ja.20", "text": "当社の事業は、{ACTIVITY}を柱としています。"},
-    {"id": "activity.ja.21", "text": "{ACTIVITY}を手がける{S_NAME}は、{city}に拠点を構えています。"},
-    {"id": "activity.ja.22", "text": "{S_NAME}（{city}）は、{ACTIVITY}の会社です。"},
-    {"id": "activity.ja.23", "text": "主たる事業：{ACTIVITY}"},
-    {"id": "activity.ja.24", "text": "私たちの仕事は{ACTIVITY}。お客様の「困った」に寄り添います。"},
-    {"id": "activity.ja.25", "text": "事業内容（Business）：{ACTIVITY}"},
-    {"id": "activity.ja.26", "text": "{S_NAME}は、{ACTIVITY}を通して地域社会に貢献することを使命としています。"},
-    {"id": "activity.ja.27", "text": "現在は{ACTIVITY}を中心に、全国のお客様とお取引をいただいております。"},
-    {"id": "activity.ja.28", "text": "{FOUNDED:month}、{ACTIVITY}を目的として設立されました。"},
-    {"id": "activity.ja.29", "text": "■事業内容　{ACTIVITY}"},
-    {"id": "activity.ja.30", "text": "当社は{ACTIVITY}を主軸に、{STAFF}の社員で事業を運営しています。"}
+    {
+      "id": "activity.ja.01",
+      "text": "事業内容：{ACTIVITY}"
+    },
+    {
+      "id": "activity.ja.02",
+      "text": "【事業内容】{ACTIVITY}"
+    },
+    {
+      "id": "activity.ja.03",
+      "text": "主な事業　{ACTIVITY}"
+    },
+    {
+      "id": "activity.ja.04",
+      "text": "{S_NAME}は、{ACTIVITY}を主な事業としております。"
+    },
+    {
+      "id": "activity.ja.05",
+      "text": "当社は{FOUNDED}の設立以来、{ACTIVITY}を中心に事業を展開してまいりました。"
+    },
+    {
+      "id": "activity.ja.06",
+      "text": "私たちは{city}を拠点に、{ACTIVITY}を手がけております。"
+    },
+    {
+      "id": "activity.ja.07",
+      "text": "{ACTIVITY}のことなら、{S_NAME}にお任せください。"
+    },
+    {
+      "id": "activity.ja.08",
+      "text": "当社の本業は{ACTIVITY}です。"
+    },
+    {
+      "id": "activity.ja.10",
+      "text": "地域の皆さまに向けて、{ACTIVITY}を行っております。"
+    },
+    {
+      "id": "activity.ja.11",
+      "text": "{ACTIVITY}を通じて、お客様の事業の発展に貢献してまいります。"
+    },
+    {
+      "id": "activity.ja.12",
+      "text": "当社は、{ACTIVITY}を専門とする会社です。"
+    },
+    {
+      "id": "activity.ja.13",
+      "text": "{city}に本社を置く{S_NAME}は、{ACTIVITY}を営む企業である。"
+    },
+    {
+      "id": "activity.ja.15",
+      "text": "営業種目：{ACTIVITY}"
+    },
+    {
+      "id": "activity.ja.16",
+      "text": "目的　1．{ACTIVITY}　2．前号に附帯関連する一切の事業"
+    },
+    {
+      "id": "activity.ja.17",
+      "text": "{S_NAME}では、{ACTIVITY}をはじめ、関連するさまざまなご要望にお応えしています。"
+    },
+    {
+      "id": "activity.ja.18",
+      "text": "弊社は{ACTIVITY}の分野で、確かな技術と実績を積み重ねてまいりました。"
+    },
+    {
+      "id": "activity.ja.19",
+      "text": "{ACTIVITY}に関するご相談は、お気軽にお問い合わせください。"
+    },
+    {
+      "id": "activity.ja.21",
+      "text": "{ACTIVITY}を手がける{S_NAME}は、{city}に拠点を構えています。"
+    },
+    {
+      "id": "activity.ja.22",
+      "text": "{S_NAME}（{city}）は、{ACTIVITY}の会社です。"
+    },
+    {
+      "id": "activity.ja.23",
+      "text": "主たる事業：{ACTIVITY}"
+    },
+    {
+      "id": "activity.ja.24",
+      "text": "私たちの仕事は{ACTIVITY}。お客様の「困った」に寄り添います。"
+    },
+    {
+      "id": "activity.ja.25",
+      "text": "事業内容（Business）：{ACTIVITY}"
+    },
+    {
+      "id": "activity.ja.26",
+      "text": "{S_NAME}は、{ACTIVITY}を通して地域社会に貢献することを使命としています。"
+    },
+    {
+      "id": "activity.ja.27",
+      "text": "現在は{ACTIVITY}を中心に、全国のお客様とお取引をいただいております。"
+    },
+    {
+      "id": "activity.ja.28",
+      "text": "{FOUNDED:month}、{ACTIVITY}を目的として設立されました。"
+    },
+    {
+      "id": "activity.ja.29",
+      "text": "■事業内容　{ACTIVITY}"
+    },
+    {
+      "id": "activity.ja.30",
+      "text": "当社は{ACTIVITY}を主軸に、{STAFF}の社員で事業を運営しています。"
+    }
   ],
   "founded": [
-    {"id": "founded.ja.01", "text": "設立：{FOUNDED}"},
-    {"id": "founded.ja.02", "text": "創業　{FOUNDED}"},
-    {"id": "founded.ja.03", "text": "設立年月日：{FOUNDED:date}"},
-    {"id": "founded.ja.04", "text": "設立　{FOUNDED:month}"},
-    {"id": "founded.ja.05", "text": "{S_NAME}は{FOUNDED}に設立されました。"},
-    {"id": "founded.ja.06", "text": "当社は{FOUNDED}、{city}で創業いたしました。"},
-    {"id": "founded.ja.07", "text": "{FOUNDED}の創業以来、地域のお客様に支えられて歩んでまいりました。"},
-    {"id": "founded.ja.08", "text": "{FOUNDED:date}、{S_NAME}は{city}にて産声を上げました。"},
-    {"id": "founded.ja.09", "text": "{FOUNDED}の創業から、変わらぬ品質をお届けし続けています。"},
-    {"id": "founded.ja.10", "text": "おかげさまで、{S_NAME}は{FOUNDED}の開業以来、多くのお客様にご愛顧いただいております。"},
-    {"id": "founded.ja.11", "text": "会社設立日：{FOUNDED:date}"},
-    {"id": "founded.ja.12", "text": "創業年：{FOUNDED}"},
-    {"id": "founded.ja.13", "text": "{FOUNDED:month}、{LEGAL_FORM}として設立。"},
-    {"id": "founded.ja.14", "text": "当社の歴史は{FOUNDED}に始まります。"},
-    {"id": "founded.ja.15", "text": "{FOUNDED}、{city}の小さな事務所から事業をスタートしました。"},
-    {"id": "founded.ja.16", "text": "{S_NAME}は、{FOUNDED}に創業者が個人で開業したのが始まりです。"},
-    {"id": "founded.ja.17", "text": "設立年月：{FOUNDED:month}"},
-    {"id": "founded.ja.18", "text": "創立　{FOUNDED:date}"},
-    {"id": "founded.ja.19", "text": "{FOUNDED}設立。{city}に本社を置く。"},
-    {"id": "founded.ja.20", "text": "会社の設立は{FOUNDED:date}です。"},
-    {"id": "founded.ja.21", "text": "{FOUNDED}に法人化し、現在に至ります。"},
-    {"id": "founded.ja.22", "text": "会社成立の年月日　{FOUNDED:date}"},
-    {"id": "founded.ja.23", "text": "創業は{FOUNDED}。以来、一貫して{ACTIVITY}に取り組んでまいりました。"},
-    {"id": "founded.ja.24", "text": "{S_NAME}（{FOUNDED}設立）"},
-    {"id": "founded.ja.25", "text": "創業{FOUNDED}"},
-    {"id": "founded.ja.26", "text": "当店は{FOUNDED:month}にオープンいたしました。"},
-    {"id": "founded.ja.27", "text": "{FOUNDED:date}に{city}で設立登記を行い、会社としての歩みを始めました。"},
-    {"id": "founded.ja.28", "text": "沿革：{FOUNDED}　{city}にて創業"},
-    {"id": "founded.ja.29", "text": "{FOUNDED:month}　{S_NAME}設立"},
-    {"id": "founded.ja.30", "text": "設立（Established）：{FOUNDED}"}
+    {
+      "id": "founded.ja.01",
+      "text": "設立：{FOUNDED}"
+    },
+    {
+      "id": "founded.ja.02",
+      "text": "創業　{FOUNDED}"
+    },
+    {
+      "id": "founded.ja.03",
+      "text": "設立年月日：{FOUNDED:date}"
+    },
+    {
+      "id": "founded.ja.05",
+      "text": "{S_NAME}は{FOUNDED}に設立されました。"
+    },
+    {
+      "id": "founded.ja.06",
+      "text": "当社は{FOUNDED}、{city}で創業いたしました。"
+    },
+    {
+      "id": "founded.ja.07",
+      "text": "{FOUNDED}の創業以来、地域のお客様に支えられて歩んでまいりました。"
+    },
+    {
+      "id": "founded.ja.09",
+      "text": "{FOUNDED}の創業から、変わらぬ品質をお届けし続けています。"
+    },
+    {
+      "id": "founded.ja.10",
+      "text": "おかげさまで、{S_NAME}は{FOUNDED}の開業以来、多くのお客様にご愛顧いただいております。"
+    },
+    {
+      "id": "founded.ja.11",
+      "text": "会社設立日：{FOUNDED:date}"
+    },
+    {
+      "id": "founded.ja.12",
+      "text": "創業年：{FOUNDED}"
+    },
+    {
+      "id": "founded.ja.13",
+      "text": "{FOUNDED:month}、{LEGAL_FORM}として設立。"
+    },
+    {
+      "id": "founded.ja.14",
+      "text": "当社の歴史は{FOUNDED}に始まります。"
+    },
+    {
+      "id": "founded.ja.15",
+      "text": "{FOUNDED}、{city}の小さな事務所から事業をスタートしました。"
+    },
+    {
+      "id": "founded.ja.16",
+      "text": "{S_NAME}は、{FOUNDED}に創業者が個人で開業したのが始まりです。"
+    },
+    {
+      "id": "founded.ja.17",
+      "text": "設立年月：{FOUNDED:month}"
+    },
+    {
+      "id": "founded.ja.18",
+      "text": "創立　{FOUNDED:date}"
+    },
+    {
+      "id": "founded.ja.19",
+      "text": "{FOUNDED}設立。{city}に本社を置く。"
+    },
+    {
+      "id": "founded.ja.20",
+      "text": "会社の設立は{FOUNDED:date}です。"
+    },
+    {
+      "id": "founded.ja.21",
+      "text": "{FOUNDED}に法人化し、現在に至ります。"
+    },
+    {
+      "id": "founded.ja.22",
+      "text": "会社成立の年月日　{FOUNDED:date}"
+    },
+    {
+      "id": "founded.ja.24",
+      "text": "{S_NAME}（{FOUNDED}設立）"
+    },
+    {
+      "id": "founded.ja.25",
+      "text": "創業{FOUNDED}"
+    },
+    {
+      "id": "founded.ja.26",
+      "text": "当店は{FOUNDED:month}にオープンいたしました。"
+    },
+    {
+      "id": "founded.ja.27",
+      "text": "{FOUNDED:date}に{city}で設立登記を行い、会社としての歩みを始めました。"
+    },
+    {
+      "id": "founded.ja.28",
+      "text": "沿革：{FOUNDED}　{city}にて創業"
+    },
+    {
+      "id": "founded.ja.29",
+      "text": "{FOUNDED:month}　{S_NAME}設立"
+    },
+    {
+      "id": "founded.ja.30",
+      "text": "設立（Established）：{FOUNDED}"
+    }
   ],
   "staff": [
-    {"id": "staff.ja.01", "text": "従業員数：{STAFF}"},
-    {"id": "staff.ja.02", "text": "従業員数　{STAFF}（{date}現在）"},
-    {"id": "staff.ja.03", "text": "社員数：{STAFF}"},
-    {"id": "staff.ja.04", "text": "スタッフ数　{STAFF}"},
-    {"id": "staff.ja.05", "text": "{S_NAME}では、{STAFF}の社員が働いています。"},
-    {"id": "staff.ja.06", "text": "当社は現在、{STAFF}のスタッフで運営しています。"},
-    {"id": "staff.ja.07", "text": "{STAFF}の従業員が、日々お客様のために力を尽くしています。"},
-    {"id": "staff.ja.08", "text": "総勢{STAFF}のチームが、責任を持って対応いたします。"},
-    {"id": "staff.ja.09", "text": "従業員数は{STAFF}です。"},
-    {"id": "staff.ja.10", "text": "社員{STAFF}（パート・アルバイトを含む）"},
-    {"id": "staff.ja.11", "text": "{STAFF}の体制で、迅速かつ丁寧な対応を心がけています。"},
-    {"id": "staff.ja.12", "text": "現在、当社には{STAFF}のスタッフが在籍しております。"},
-    {"id": "staff.ja.13", "text": "本社と各拠点をあわせて、{STAFF}が勤務しています。"},
-    {"id": "staff.ja.14", "text": "{S_NAME}は、社員{STAFF}の会社です。"},
-    {"id": "staff.ja.15", "text": "{S_NAME}には現在{STAFF}の仲間がいます。"},
-    {"id": "staff.ja.16", "text": "職員数：{STAFF}"},
-    {"id": "staff.ja.17", "text": "{STAFF}の専門スタッフが、お客様をサポートいたします。"},
-    {"id": "staff.ja.18", "text": "当社の従業員数は{STAFF}（{date}時点）となっております。"},
-    {"id": "staff.ja.19", "text": "{year}春の新卒採用を経て、従業員数は{STAFF}となりました。"},
-    {"id": "staff.ja.20", "text": "スタッフ：{STAFF}"},
-    {"id": "staff.ja.21", "text": "【従業員数】{STAFF}"},
-    {"id": "staff.ja.22", "text": "従業員数（Employees）：{STAFF}"},
-    {"id": "staff.ja.23", "text": "{STAFF}のスタッフ一同、皆さまのご来店を心よりお待ちしております。"},
-    {"id": "staff.ja.24", "text": "{city}近郊に暮らす{STAFF}の社員が在籍し、地域に根ざした活動を続けています。"},
-    {"id": "staff.ja.25", "text": "{S_NAME}の従業員数は{STAFF}、平均勤続年数は{n_years}です。"},
-    {"id": "staff.ja.26", "text": "従業員数：{STAFF}（役員を除く）"},
-    {"id": "staff.ja.27", "text": "同社の従業員は{STAFF}。"},
-    {"id": "staff.ja.28", "text": "正社員を中心とした{STAFF}の組織です。"}
+    {
+      "id": "staff.ja.01",
+      "text": "従業員数：{STAFF}"
+    },
+    {
+      "id": "staff.ja.02",
+      "text": "従業員数　{STAFF}（{date}現在）"
+    },
+    {
+      "id": "staff.ja.03",
+      "text": "社員数：{STAFF}"
+    },
+    {
+      "id": "staff.ja.04",
+      "text": "スタッフ数　{STAFF}"
+    },
+    {
+      "id": "staff.ja.05",
+      "text": "{S_NAME}では、{STAFF}の社員が働いています。"
+    },
+    {
+      "id": "staff.ja.06",
+      "text": "当社は現在、{STAFF}のスタッフで運営しています。"
+    },
+    {
+      "id": "staff.ja.08",
+      "text": "総勢{STAFF}のチームが、責任を持って対応いたします。"
+    },
+    {
+      "id": "staff.ja.09",
+      "text": "従業員数は{STAFF}です。"
+    },
+    {
+      "id": "staff.ja.11",
+      "text": "{STAFF}の体制で、迅速かつ丁寧な対応を心がけています。"
+    },
+    {
+      "id": "staff.ja.12",
+      "text": "現在、当社には{STAFF}のスタッフが在籍しております。"
+    },
+    {
+      "id": "staff.ja.13",
+      "text": "本社と各拠点をあわせて、{STAFF}が勤務しています。"
+    },
+    {
+      "id": "staff.ja.14",
+      "text": "{S_NAME}は、社員{STAFF}の会社です。"
+    },
+    {
+      "id": "staff.ja.15",
+      "text": "{S_NAME}には現在{STAFF}の仲間がいます。"
+    },
+    {
+      "id": "staff.ja.16",
+      "text": "職員数：{STAFF}"
+    },
+    {
+      "id": "staff.ja.17",
+      "text": "{STAFF}の専門スタッフが、お客様をサポートいたします。"
+    },
+    {
+      "id": "staff.ja.18",
+      "text": "当社の従業員数は{STAFF}（{date}時点）となっております。"
+    },
+    {
+      "id": "staff.ja.19",
+      "text": "{year}春の新卒採用を経て、従業員数は{STAFF}となりました。"
+    },
+    {
+      "id": "staff.ja.20",
+      "text": "スタッフ：{STAFF}"
+    },
+    {
+      "id": "staff.ja.21",
+      "text": "【従業員数】{STAFF}"
+    },
+    {
+      "id": "staff.ja.22",
+      "text": "従業員数（Employees）：{STAFF}"
+    },
+    {
+      "id": "staff.ja.23",
+      "text": "{STAFF}のスタッフ一同、皆さまのご来店を心よりお待ちしております。"
+    },
+    {
+      "id": "staff.ja.24",
+      "text": "{city}近郊に暮らす{STAFF}の社員が在籍し、地域に根ざした活動を続けています。"
+    },
+    {
+      "id": "staff.ja.25",
+      "text": "{S_NAME}の従業員数は{STAFF}、平均勤続年数は{n_years}です。"
+    },
+    {
+      "id": "staff.ja.26",
+      "text": "従業員数：{STAFF}（役員を除く）"
+    },
+    {
+      "id": "staff.ja.27",
+      "text": "同社の従業員は{STAFF}。"
+    }
   ],
   "revenue": [
-    {"id": "revenue.ja.01", "text": "売上高：{REVENUE}（{REVENUE_YEAR}）"},
-    {"id": "revenue.ja.02", "text": "売上高　{REVENUE}"},
-    {"id": "revenue.ja.03", "text": "年商　{REVENUE}"},
-    {"id": "revenue.ja.04", "text": "{REVENUE_YEAR}の売上高は{REVENUE}となりました。"},
-    {"id": "revenue.ja.05", "text": "{REVENUE_YEAR}売上高：{REVENUE}"},
-    {"id": "revenue.ja.06", "text": "売上高　{REVENUE}（{REVENUE_YEAR}実績）"},
-    {"id": "revenue.ja.07", "text": "{S_NAME}の{REVENUE_YEAR}の売上高は、前年を上回る{REVENUE}でした。"},
-    {"id": "revenue.ja.08", "text": "{REVENUE_YEAR}の売上高は{REVENUE}で、前期の{REVENUE_PREV}から増加しました。"},
-    {"id": "revenue.ja.09", "text": "売上高は{REVENUE_YEAR_PREV}の{REVENUE_PREV}から、{REVENUE_YEAR}には{REVENUE}へと伸長しました。"},
-    {"id": "revenue.ja.10", "text": "年間売上高：{REVENUE}（{REVENUE_YEAR}）"},
-    {"id": "revenue.ja.11", "text": "当社の年商は{REVENUE}です。"},
-    {"id": "revenue.ja.12", "text": "{REVENUE_YEAR}決算において、売上高{REVENUE}を計上いたしました。"},
-    {"id": "revenue.ja.13", "text": "売上高の推移：{REVENUE_YEAR_PREV}　{REVENUE_PREV}／{REVENUE_YEAR}　{REVENUE}"},
-    {"id": "revenue.ja.14", "text": "【売上高】{REVENUE}（{REVENUE_YEAR}）"},
-    {"id": "revenue.ja.15", "text": "{city}に本社を置く{S_NAME}は、{REVENUE_YEAR}に売上高{REVENUE}を達成した。"},
-    {"id": "revenue.ja.16", "text": "直近の売上高は{REVENUE}（{REVENUE_YEAR}）となっております。"},
-    {"id": "revenue.ja.17", "text": "おかげさまで、{REVENUE_YEAR}の年商は{REVENUE}に達しました。"},
-    {"id": "revenue.ja.18", "text": "売上高（{REVENUE_YEAR}）：{REVENUE}"},
-    {"id": "revenue.ja.19", "text": "{REVENUE_YEAR}の売上は{REVENUE}となり、過去最高を更新しました。"},
-    {"id": "revenue.ja.20", "text": "売上：{REVENUE}"},
-    {"id": "revenue.ja.21", "text": "{REVENUE_YEAR}　売上高{REVENUE}"},
-    {"id": "revenue.ja.22", "text": "{REVENUE_YEAR}は、前期比{percent}増の売上高{REVENUE}を計上しました。"},
-    {"id": "revenue.ja.23", "text": "売上高（Sales）：{REVENUE}（{REVENUE_YEAR}）"},
-    {"id": "revenue.ja.24", "text": "年商{REVENUE}規模の企業へと成長いたしました。"},
-    {"id": "revenue.ja.25", "text": "{REVENUE_YEAR}の売上高：{REVENUE}（前年度：{REVENUE_PREV}）"},
-    {"id": "revenue.ja.26", "text": "売上高　{REVENUE_YEAR_PREV}：{REVENUE_PREV}　{REVENUE_YEAR}：{REVENUE}"},
-    {"id": "revenue.ja.27", "text": "{REVENUE_YEAR}は売上高{REVENUE}と、増収を確保しました。"},
-    {"id": "revenue.ja.28", "text": "売上高は{REVENUE}（{REVENUE_YEAR}、単体）です。"}
+    {
+      "id": "revenue.ja.01",
+      "text": "売上高：{REVENUE}（{REVENUE_YEAR}）"
+    },
+    {
+      "id": "revenue.ja.02",
+      "text": "売上高　{REVENUE}"
+    },
+    {
+      "id": "revenue.ja.03",
+      "text": "年商　{REVENUE}"
+    },
+    {
+      "id": "revenue.ja.04",
+      "text": "{REVENUE_YEAR}の売上高は{REVENUE}となりました。"
+    },
+    {
+      "id": "revenue.ja.05",
+      "text": "{REVENUE_YEAR}売上高：{REVENUE}"
+    },
+    {
+      "id": "revenue.ja.06",
+      "text": "売上高　{REVENUE}（{REVENUE_YEAR}実績）"
+    },
+    {
+      "id": "revenue.ja.08",
+      "text": "{REVENUE_YEAR}の売上高は{REVENUE}で、前期の{REVENUE_PREV}から増加しました。"
+    },
+    {
+      "id": "revenue.ja.09",
+      "text": "売上高は{REVENUE_YEAR_PREV}の{REVENUE_PREV}から、{REVENUE_YEAR}には{REVENUE}へと伸長しました。"
+    },
+    {
+      "id": "revenue.ja.10",
+      "text": "年間売上高：{REVENUE}（{REVENUE_YEAR}）"
+    },
+    {
+      "id": "revenue.ja.11",
+      "text": "当社の年商は{REVENUE}です。"
+    },
+    {
+      "id": "revenue.ja.12",
+      "text": "{REVENUE_YEAR}決算において、売上高{REVENUE}を計上いたしました。"
+    },
+    {
+      "id": "revenue.ja.13",
+      "text": "売上高の推移：{REVENUE_YEAR_PREV}　{REVENUE_PREV}／{REVENUE_YEAR}　{REVENUE}"
+    },
+    {
+      "id": "revenue.ja.14",
+      "text": "【売上高】{REVENUE}（{REVENUE_YEAR}）"
+    },
+    {
+      "id": "revenue.ja.15",
+      "text": "{city}に本社を置く{S_NAME}は、{REVENUE_YEAR}に売上高{REVENUE}を達成した。"
+    },
+    {
+      "id": "revenue.ja.16",
+      "text": "直近の売上高は{REVENUE}（{REVENUE_YEAR}）となっております。"
+    },
+    {
+      "id": "revenue.ja.17",
+      "text": "おかげさまで、{REVENUE_YEAR}の年商は{REVENUE}に達しました。"
+    },
+    {
+      "id": "revenue.ja.18",
+      "text": "売上高（{REVENUE_YEAR}）：{REVENUE}"
+    },
+    {
+      "id": "revenue.ja.19",
+      "text": "{REVENUE_YEAR}の売上は{REVENUE}となり、過去最高を更新しました。"
+    },
+    {
+      "id": "revenue.ja.20",
+      "text": "売上：{REVENUE}"
+    },
+    {
+      "id": "revenue.ja.21",
+      "text": "{REVENUE_YEAR}　売上高{REVENUE}"
+    },
+    {
+      "id": "revenue.ja.22",
+      "text": "{REVENUE_YEAR}は、前期比{percent}増の売上高{REVENUE}を計上しました。"
+    },
+    {
+      "id": "revenue.ja.23",
+      "text": "売上高（Sales）：{REVENUE}（{REVENUE_YEAR}）"
+    },
+    {
+      "id": "revenue.ja.24",
+      "text": "年商{REVENUE}規模の企業へと成長いたしました。"
+    },
+    {
+      "id": "revenue.ja.26",
+      "text": "売上高　{REVENUE_YEAR_PREV}：{REVENUE_PREV}　{REVENUE_YEAR}：{REVENUE}"
+    },
+    {
+      "id": "revenue.ja.28",
+      "text": "売上高は{REVENUE}（{REVENUE_YEAR}、単体）です。"
+    }
   ],
   "services_intro": [
-    {"id": "services_intro.ja.01", "text": "取扱商品・サービス：{SERVICE_LIST}"},
-    {"id": "services_intro.ja.02", "text": "主なサービス　{SERVICE_LIST}"},
-    {"id": "services_intro.ja.03", "text": "{S_NAME}では、{SERVICE_LIST}などを承っております。"},
-    {"id": "services_intro.ja.04", "text": "当社の主力は{SERVICE}です。"},
-    {"id": "services_intro.ja.05", "text": "人気の{SERVICE}を、ぜひ一度お試しください。"},
-    {"id": "services_intro.ja.06", "text": "{SERVICE}のご依頼は、お電話またはメールにて承ります。"},
-    {"id": "services_intro.ja.07", "text": "当店おすすめの{SERVICE}は、リピーターの多い定番です。"},
-    {"id": "services_intro.ja.08", "text": "【サービス内容】{SERVICE_LIST}"},
-    {"id": "services_intro.ja.09", "text": "私たちは{SERVICE_LIST}を中心に、幅広いニーズにお応えします。"},
-    {"id": "services_intro.ja.10", "text": "{SERVICE}をはじめ、各種ご相談に対応しております。"},
-    {"id": "services_intro.ja.11", "text": "新たに{SERVICE}の取り扱いを開始いたしました。"},
-    {"id": "services_intro.ja.12", "text": "{SERVICE}なら、実績豊富な当社にお任せください。"},
-    {"id": "services_intro.ja.13", "text": "取扱品目：{SERVICE_LIST}"},
-    {"id": "services_intro.ja.14", "text": "営業品目　{SERVICE_LIST}"},
-    {"id": "services_intro.ja.15", "text": "{SERVICE}について詳しくは、お気軽にお問い合わせください。"},
-    {"id": "services_intro.ja.16", "text": "当社では{SERVICE_LIST}をご用意しております。"},
-    {"id": "services_intro.ja.17", "text": "お客様に最も選ばれているのは{SERVICE}です。"},
-    {"id": "services_intro.ja.18", "text": "{SERVICE}も承ります。"},
-    {"id": "services_intro.ja.19", "text": "サービス一覧：{SERVICE_LIST}"},
-    {"id": "services_intro.ja.20", "text": "{S_NAME}の{SERVICE}は、品質と価格の両面でご好評をいただいております。"},
-    {"id": "services_intro.ja.21", "text": "{SERVICE_LIST}など、目的に合わせてお選びいただけます。"},
-    {"id": "services_intro.ja.22", "text": "法人のお客様には{SERVICE}もご提供しています。"},
-    {"id": "services_intro.ja.23", "text": "主な取扱い：{SERVICE_LIST}"},
-    {"id": "services_intro.ja.24", "text": "{SERVICE}のお見積りは無料です。"},
-    {"id": "services_intro.ja.25", "text": "Our Services：{SERVICE_LIST}"},
-    {"id": "services_intro.ja.26", "text": "ご好評につき、{SERVICE}の受付期間を延長いたします。"},
-    {"id": "services_intro.ja.27", "text": "・{SERVICE}"},
-    {"id": "services_intro.ja.28", "text": "{SERVICE}（詳しくはお問い合わせください）"}
+    {
+      "id": "services_intro.ja.01",
+      "text": "取扱商品・サービス：{SERVICE_LIST}"
+    },
+    {
+      "id": "services_intro.ja.02",
+      "text": "主なサービス　{SERVICE_LIST}"
+    },
+    {
+      "id": "services_intro.ja.03",
+      "text": "{S_NAME}では、{SERVICE_LIST}などを承っております。"
+    },
+    {
+      "id": "services_intro.ja.04",
+      "text": "当社の主力は{SERVICE}です。"
+    },
+    {
+      "id": "services_intro.ja.05",
+      "text": "人気の{SERVICE}を、ぜひ一度お試しください。"
+    },
+    {
+      "id": "services_intro.ja.07",
+      "text": "当店おすすめの{SERVICE}は、リピーターの多い定番です。"
+    },
+    {
+      "id": "services_intro.ja.08",
+      "text": "【サービス内容】{SERVICE_LIST}"
+    },
+    {
+      "id": "services_intro.ja.10",
+      "text": "{SERVICE}をはじめ、各種ご相談に対応しております。"
+    },
+    {
+      "id": "services_intro.ja.11",
+      "text": "新たに{SERVICE}の取り扱いを開始いたしました。"
+    },
+    {
+      "id": "services_intro.ja.13",
+      "text": "取扱品目：{SERVICE_LIST}"
+    },
+    {
+      "id": "services_intro.ja.14",
+      "text": "営業品目　{SERVICE_LIST}"
+    },
+    {
+      "id": "services_intro.ja.15",
+      "text": "{SERVICE}について詳しくは、お気軽にお問い合わせください。"
+    },
+    {
+      "id": "services_intro.ja.16",
+      "text": "当社では{SERVICE_LIST}をご用意しております。"
+    },
+    {
+      "id": "services_intro.ja.17",
+      "text": "お客様に最も選ばれているのは{SERVICE}です。"
+    },
+    {
+      "id": "services_intro.ja.18",
+      "text": "{SERVICE}も承ります。"
+    },
+    {
+      "id": "services_intro.ja.19",
+      "text": "サービス一覧：{SERVICE_LIST}"
+    },
+    {
+      "id": "services_intro.ja.20",
+      "text": "{S_NAME}の{SERVICE}は、品質と価格の両面でご好評をいただいております。"
+    },
+    {
+      "id": "services_intro.ja.21",
+      "text": "{SERVICE_LIST}など、目的に合わせてお選びいただけます。"
+    },
+    {
+      "id": "services_intro.ja.22",
+      "text": "法人のお客様には{SERVICE}もご提供しています。"
+    },
+    {
+      "id": "services_intro.ja.23",
+      "text": "主な取扱い：{SERVICE_LIST}"
+    },
+    {
+      "id": "services_intro.ja.24",
+      "text": "{SERVICE}のお見積りは無料です。"
+    },
+    {
+      "id": "services_intro.ja.25",
+      "text": "Our Services：{SERVICE_LIST}"
+    },
+    {
+      "id": "services_intro.ja.26",
+      "text": "ご好評につき、{SERVICE}の受付期間を延長いたします。"
+    },
+    {
+      "id": "services_intro.ja.27",
+      "text": "・{SERVICE}"
+    },
+    {
+      "id": "services_intro.ja.28",
+      "text": "{SERVICE}（詳しくはお問い合わせください）"
+    }
   ],
   "clients": [
-    {"id": "clients.ja.01", "text": "主要取引先：{C_NAME_LIST}（順不同・敬称略）"},
-    {"id": "clients.ja.02", "text": "主な取引先　{C_NAME_LIST}"},
-    {"id": "clients.ja.03", "text": "主要販売先：{C_NAME_LIST}"},
-    {"id": "clients.ja.04", "text": "主な納入先：{C_NAME_LIST}ほか"},
-    {"id": "clients.ja.05", "text": "【導入実績】{C_NAME_LIST}など"},
-    {"id": "clients.ja.06", "text": "{C_NAME_LIST}をはじめ、多くの企業様とお取引をいただいております。"},
-    {"id": "clients.ja.07", "text": "これまでに{C_NAME}様の案件を担当させていただきました。"},
-    {"id": "clients.ja.08", "text": "{C_NAME}様にも当社のサービスをご採用いただいております。"},
-    {"id": "clients.ja.09", "text": "おかげさまで、{C_NAME_LIST}など多くのお客様からご信頼をいただいております。"},
-    {"id": "clients.ja.10", "text": "主要顧客：{C_NAME_LIST}"},
-    {"id": "clients.ja.11", "text": "{C_NAME}様の新規プロジェクトに参画いたしました。"},
-    {"id": "clients.ja.12", "text": "納入実績（一部）：{C_NAME_LIST}"},
-    {"id": "clients.ja.13", "text": "官公庁から民間企業まで、{C_NAME_LIST}などとの取引実績があります。"},
-    {"id": "clients.ja.14", "text": "{C_NAME}様からは、長年にわたり継続してご発注をいただいております。"},
-    {"id": "clients.ja.15", "text": "取引実績：{C_NAME_LIST}　他"},
-    {"id": "clients.ja.16", "text": "{C_NAME}様、{C_NAME}様など、業界を代表する企業様に導入いただきました。"},
-    {"id": "clients.ja.17", "text": "{C_NAME}様をはじめとする{n_clients}のお客様にご利用いただいております。"},
-    {"id": "clients.ja.18", "text": "お取引先様（五十音順・敬称略）：{C_NAME_LIST}"},
-    {"id": "clients.ja.19", "text": "{C_NAME}様の{city}の拠点向けに、当社のサービスをご提供しています。"},
-    {"id": "clients.ja.20", "text": "Clients：{C_NAME_LIST}"},
-    {"id": "clients.ja.21", "text": "当社の主な得意先は{C_NAME_LIST}です。"},
-    {"id": "clients.ja.22", "text": "{C_NAME}様とのお取引は{n_years}を超えました。"},
-    {"id": "clients.ja.23", "text": "大手から地元企業まで、{C_NAME_LIST}など幅広いお客様とお付き合いがございます。"},
-    {"id": "clients.ja.24", "text": "{year}には{C_NAME}様から大型案件を受注いたしました。"},
-    {"id": "clients.ja.25", "text": "主な販売先　{C_NAME_LIST}（敬称略）"},
-    {"id": "clients.ja.26", "text": "導入事例：{C_NAME}様"},
-    {"id": "clients.ja.27", "text": "{C_NAME_LIST}の各社様に、当社の商品・サービスをご愛用いただいております。"},
-    {"id": "clients.ja.28", "text": "{C_NAME}様より、{S_NAME}のサービスについて高い評価をいただきました。"}
+    {
+      "id": "clients.ja.01",
+      "text": "主要取引先：{C_NAME_LIST}（順不同・敬称略）"
+    },
+    {
+      "id": "clients.ja.03",
+      "text": "主要販売先：{C_NAME_LIST}"
+    },
+    {
+      "id": "clients.ja.04",
+      "text": "主な納入先：{C_NAME_LIST}ほか"
+    },
+    {
+      "id": "clients.ja.05",
+      "text": "【導入実績】{C_NAME_LIST}など"
+    },
+    {
+      "id": "clients.ja.06",
+      "text": "{C_NAME_LIST}をはじめ、多くの企業様とお取引をいただいております。"
+    },
+    {
+      "id": "clients.ja.07",
+      "text": "これまでに{C_NAME}様の案件を担当させていただきました。"
+    },
+    {
+      "id": "clients.ja.08",
+      "text": "{C_NAME}様にも当社のサービスをご採用いただいております。"
+    },
+    {
+      "id": "clients.ja.09",
+      "text": "おかげさまで、{C_NAME_LIST}など多くのお客様からご信頼をいただいております。"
+    },
+    {
+      "id": "clients.ja.10",
+      "text": "主要顧客：{C_NAME_LIST}"
+    },
+    {
+      "id": "clients.ja.11",
+      "text": "{C_NAME}様の新規プロジェクトに参画いたしました。"
+    },
+    {
+      "id": "clients.ja.12",
+      "text": "納入実績（一部）：{C_NAME_LIST}"
+    },
+    {
+      "id": "clients.ja.13",
+      "text": "官公庁から民間企業まで、{C_NAME_LIST}などとの取引実績があります。"
+    },
+    {
+      "id": "clients.ja.14",
+      "text": "{C_NAME}様からは、長年にわたり継続してご発注をいただいております。"
+    },
+    {
+      "id": "clients.ja.15",
+      "text": "取引実績：{C_NAME_LIST}　他"
+    },
+    {
+      "id": "clients.ja.16",
+      "text": "{C_NAME}様、{C_NAME}様など、業界を代表する企業様に導入いただきました。"
+    },
+    {
+      "id": "clients.ja.17",
+      "text": "{C_NAME}様をはじめとする{n_clients}のお客様にご利用いただいております。"
+    },
+    {
+      "id": "clients.ja.18",
+      "text": "お取引先様（五十音順・敬称略）：{C_NAME_LIST}"
+    },
+    {
+      "id": "clients.ja.19",
+      "text": "{C_NAME}様の{city}の拠点向けに、当社のサービスをご提供しています。"
+    },
+    {
+      "id": "clients.ja.20",
+      "text": "Clients：{C_NAME_LIST}"
+    },
+    {
+      "id": "clients.ja.21",
+      "text": "当社の主な得意先は{C_NAME_LIST}です。"
+    },
+    {
+      "id": "clients.ja.22",
+      "text": "{C_NAME}様とのお取引は{n_years}を超えました。"
+    },
+    {
+      "id": "clients.ja.23",
+      "text": "大手から地元企業まで、{C_NAME_LIST}など幅広いお客様とお付き合いがございます。"
+    },
+    {
+      "id": "clients.ja.25",
+      "text": "主な販売先　{C_NAME_LIST}（敬称略）"
+    },
+    {
+      "id": "clients.ja.26",
+      "text": "導入事例：{C_NAME}様"
+    },
+    {
+      "id": "clients.ja.28",
+      "text": "{C_NAME}様より、{S_NAME}のサービスについて高い評価をいただきました。"
+    }
   ],
   "hours": [
-    {"id": "hours.ja.01", "text": "営業時間：{HOURS}"},
-    {"id": "hours.ja.02", "text": "【営業時間】{HOURS}"},
-    {"id": "hours.ja.03", "text": "受付時間　{HOURS}"},
-    {"id": "hours.ja.04", "text": "診療時間：{HOURS}"},
-    {"id": "hours.ja.05", "text": "{HOURS:prose}営業しております。"},
-    {"id": "hours.ja.06", "text": "当店は{HOURS:prose}営業しています。"},
-    {"id": "hours.ja.07", "text": "お電話でのお問い合わせは、{HOURS:prose}受け付けております。"},
-    {"id": "hours.ja.08", "text": "営業日・営業時間：{HOURS}"},
-    {"id": "hours.ja.09", "text": "窓口の受付時間は{HOURS}です。"},
-    {"id": "hours.ja.10", "text": "OPEN {HOURS}"},
-    {"id": "hours.ja.11", "text": "ご来店は{HOURS:prose}承っております。"},
-    {"id": "hours.ja.12", "text": "営業時間は{HOURS}となっております。"},
-    {"id": "hours.ja.13", "text": "お問い合わせ受付：{HOURS}"},
-    {"id": "hours.ja.14", "text": "ショールームは{HOURS:prose}ご覧いただけます。"},
-    {"id": "hours.ja.15", "text": "{S_NAME}の営業時間：{HOURS}"},
-    {"id": "hours.ja.16", "text": "サポートセンター　{HOURS}"},
-    {"id": "hours.ja.17", "text": "営業時間を変更いたしました。新しい営業時間は{HOURS}です。"},
-    {"id": "hours.ja.18", "text": "{HOURS:prose}、通常どおり営業いたします。"},
-    {"id": "hours.ja.19", "text": "事務所の開所時間：{HOURS}"},
-    {"id": "hours.ja.20", "text": "※{HOURS}以外の時間帯をご希望の場合は、事前にご予約ください。"},
-    {"id": "hours.ja.21", "text": "店舗では{HOURS:prose}、皆さまのお越しをお待ちしております。"},
-    {"id": "hours.ja.22", "text": "営業時間（Business hours）：{HOURS}"},
-    {"id": "hours.ja.23", "text": "電話受付時間　{HOURS}"},
-    {"id": "hours.ja.24", "text": "{HOURS:prose}、スタッフが常駐しております。"},
-    {"id": "hours.ja.25", "text": "当院の診療は{HOURS:prose}です。"},
-    {"id": "hours.ja.26", "text": "開館時間：{HOURS}"},
-    {"id": "hours.ja.27", "text": "■営業時間　{HOURS}"}
+    {
+      "id": "hours.ja.01",
+      "text": "営業時間：{HOURS}"
+    },
+    {
+      "id": "hours.ja.02",
+      "text": "【営業時間】{HOURS}"
+    },
+    {
+      "id": "hours.ja.03",
+      "text": "受付時間　{HOURS}"
+    },
+    {
+      "id": "hours.ja.04",
+      "text": "診療時間：{HOURS}"
+    },
+    {
+      "id": "hours.ja.05",
+      "text": "{HOURS:prose}営業しております。"
+    },
+    {
+      "id": "hours.ja.06",
+      "text": "当店は{HOURS:prose}営業しています。"
+    },
+    {
+      "id": "hours.ja.08",
+      "text": "営業日・営業時間：{HOURS}"
+    },
+    {
+      "id": "hours.ja.09",
+      "text": "窓口の受付時間は{HOURS}です。"
+    },
+    {
+      "id": "hours.ja.10",
+      "text": "OPEN {HOURS}"
+    },
+    {
+      "id": "hours.ja.11",
+      "text": "ご来店は{HOURS:prose}承っております。"
+    },
+    {
+      "id": "hours.ja.12",
+      "text": "営業時間は{HOURS}となっております。"
+    },
+    {
+      "id": "hours.ja.13",
+      "text": "お問い合わせ受付：{HOURS}"
+    },
+    {
+      "id": "hours.ja.14",
+      "text": "ショールームは{HOURS:prose}ご覧いただけます。"
+    },
+    {
+      "id": "hours.ja.15",
+      "text": "{S_NAME}の営業時間：{HOURS}"
+    },
+    {
+      "id": "hours.ja.17",
+      "text": "営業時間を変更いたしました。新しい営業時間は{HOURS}です。"
+    },
+    {
+      "id": "hours.ja.19",
+      "text": "事務所の開所時間：{HOURS}"
+    },
+    {
+      "id": "hours.ja.20",
+      "text": "※{HOURS}以外の時間帯をご希望の場合は、事前にご予約ください。"
+    },
+    {
+      "id": "hours.ja.21",
+      "text": "店舗では{HOURS:prose}、皆さまのお越しをお待ちしております。"
+    },
+    {
+      "id": "hours.ja.22",
+      "text": "営業時間（Business hours）：{HOURS}"
+    },
+    {
+      "id": "hours.ja.23",
+      "text": "電話受付時間　{HOURS}"
+    },
+    {
+      "id": "hours.ja.24",
+      "text": "{HOURS:prose}、スタッフが常駐しております。"
+    },
+    {
+      "id": "hours.ja.25",
+      "text": "当院の診療は{HOURS:prose}です。"
+    },
+    {
+      "id": "hours.ja.26",
+      "text": "開館時間：{HOURS}"
+    },
+    {
+      "id": "hours.ja.27",
+      "text": "■営業時間　{HOURS}"
+    }
   ],
   "certifications": [
-    {"id": "certifications.ja.01", "text": "取得認証：{CERT_LIST}"},
-    {"id": "certifications.ja.02", "text": "【認証・資格】{CERT_LIST}"},
-    {"id": "certifications.ja.03", "text": "認証・表彰等：{CERT_LIST}"},
-    {"id": "certifications.ja.04", "text": "当社は{CERT}の認証を取得しております。"},
-    {"id": "certifications.ja.05", "text": "{CERT_LIST}などの認証・認定を受けています。"},
-    {"id": "certifications.ja.06", "text": "{year}に{CERT}を取得しました。"},
-    {"id": "certifications.ja.07", "text": "品質向上の取り組みとして、{CERT}を取得・維持しています。"},
-    {"id": "certifications.ja.08", "text": "当社は{CERT}の登録事業者です。"},
-    {"id": "certifications.ja.09", "text": "主な認証・加盟団体：{CERT_LIST}"},
-    {"id": "certifications.ja.10", "text": "{CERT}を取得し、厳格な基準のもとで業務を行っております。"},
-    {"id": "certifications.ja.11", "text": "{S_NAME}は{CERT}に認定されました。"},
-    {"id": "certifications.ja.12", "text": "許認可・認証：{CERT_LIST}"},
-    {"id": "certifications.ja.13", "text": "{CERT}のマークは、当社の品質への取り組みの証です。"},
-    {"id": "certifications.ja.14", "text": "受賞歴・認証：{CERT_LIST}"},
-    {"id": "certifications.ja.15", "text": "{CERT}取得企業"},
-    {"id": "certifications.ja.16", "text": "お客様に安心してご利用いただくため、{CERT}を取得しています。"},
-    {"id": "certifications.ja.17", "text": "{CERT_LIST}を取得済みです。"},
-    {"id": "certifications.ja.18", "text": "{CERT}認証取得（{year}）"},
-    {"id": "certifications.ja.19", "text": "{S_NAME}の取り組みは、{CERT}としても評価されています。"},
-    {"id": "certifications.ja.20", "text": "マネジメントシステム：{CERT_LIST}"},
-    {"id": "certifications.ja.21", "text": "認証（Certifications）：{CERT_LIST}"},
-    {"id": "certifications.ja.22", "text": "全拠点で{CERT}の認証を取得済みです。"},
-    {"id": "certifications.ja.23", "text": "{CERT}に基づく管理体制を整備しています。"},
-    {"id": "certifications.ja.24", "text": "第三者機関による{CERT}の審査を定期的に受けています。"},
-    {"id": "certifications.ja.25", "text": "【加盟団体・認定】{CERT_LIST}"},
-    {"id": "certifications.ja.26", "text": "当社は{CERT_LIST}の認定を受けた事業所です。"}
+    {
+      "id": "certifications.ja.01",
+      "text": "取得認証：{CERT_LIST}"
+    },
+    {
+      "id": "certifications.ja.02",
+      "text": "【認証・資格】{CERT_LIST}"
+    },
+    {
+      "id": "certifications.ja.03",
+      "text": "認証・表彰等：{CERT_LIST}"
+    },
+    {
+      "id": "certifications.ja.05",
+      "text": "{CERT_LIST}などの認証・認定を受けています。"
+    },
+    {
+      "id": "certifications.ja.06",
+      "text": "{year}に{CERT}を取得しました。"
+    },
+    {
+      "id": "certifications.ja.07",
+      "text": "品質向上の取り組みとして、{CERT}を取得・維持しています。"
+    },
+    {
+      "id": "certifications.ja.08",
+      "text": "当社は{CERT}の登録事業者です。"
+    },
+    {
+      "id": "certifications.ja.09",
+      "text": "主な認証・加盟団体：{CERT_LIST}"
+    },
+    {
+      "id": "certifications.ja.10",
+      "text": "{CERT}を取得し、厳格な基準のもとで業務を行っております。"
+    },
+    {
+      "id": "certifications.ja.11",
+      "text": "{S_NAME}は{CERT}に認定されました。"
+    },
+    {
+      "id": "certifications.ja.12",
+      "text": "許認可・認証：{CERT_LIST}"
+    },
+    {
+      "id": "certifications.ja.13",
+      "text": "{CERT}のマークは、当社の品質への取り組みの証です。"
+    },
+    {
+      "id": "certifications.ja.14",
+      "text": "受賞歴・認証：{CERT_LIST}"
+    },
+    {
+      "id": "certifications.ja.15",
+      "text": "{CERT}取得企業"
+    },
+    {
+      "id": "certifications.ja.16",
+      "text": "お客様に安心してご利用いただくため、{CERT}を取得しています。"
+    },
+    {
+      "id": "certifications.ja.17",
+      "text": "{CERT_LIST}を取得済みです。"
+    },
+    {
+      "id": "certifications.ja.18",
+      "text": "{CERT}認証取得（{year}）"
+    },
+    {
+      "id": "certifications.ja.19",
+      "text": "{S_NAME}の取り組みは、{CERT}としても評価されています。"
+    },
+    {
+      "id": "certifications.ja.20",
+      "text": "マネジメントシステム：{CERT_LIST}"
+    },
+    {
+      "id": "certifications.ja.23",
+      "text": "{CERT}に基づく管理体制を整備しています。"
+    },
+    {
+      "id": "certifications.ja.24",
+      "text": "第三者機関による{CERT}の審査を定期的に受けています。"
+    },
+    {
+      "id": "certifications.ja.25",
+      "text": "【加盟団体・認定】{CERT_LIST}"
+    },
+    {
+      "id": "certifications.ja.26",
+      "text": "当社は{CERT_LIST}の認定を受けた事業所です。"
+    }
   ],
   "location": [
-    {"id": "location.ja.01", "text": "所在地：{S_ADDRESS}"},
-    {"id": "location.ja.02", "text": "本社　{S_ADDRESS}"},
-    {"id": "location.ja.03", "text": "住所：{S_ADDRESS}"},
-    {"id": "location.ja.04", "text": "TEL：{S_PHONE}"},
-    {"id": "location.ja.05", "text": "電話番号　{S_PHONE}"},
-    {"id": "location.ja.06", "text": "E-mail：{S_EMAIL}"},
-    {"id": "location.ja.07", "text": "URL：{S_URL}"},
-    {"id": "location.ja.08", "text": "ホームページ　{S_URL}"},
-    {"id": "location.ja.09", "text": "{S_NAME}の本社は{S_ADDRESS}にあります。"},
-    {"id": "location.ja.10", "text": "お問い合わせは、お電話（{S_PHONE}）またはメール（{S_EMAIL}）にて承ります。"},
-    {"id": "location.ja.11", "text": "詳しくは当社ウェブサイト（{S_URL}）をご覧ください。"},
-    {"id": "location.ja.12", "text": "所在地　{S_ADDRESS}（駐車場あり）"},
-    {"id": "location.ja.13", "text": "ご予約専用ダイヤル：{S_PHONE}"},
-    {"id": "location.ja.14", "text": "ご不明な点は{S_EMAIL}までお気軽にお問い合わせください。"},
-    {"id": "location.ja.15", "text": "{S_ADDRESS}　TEL {S_PHONE}"},
-    {"id": "location.ja.16", "text": "本社所在地：{S_ADDRESS}"},
-    {"id": "location.ja.17", "text": "当社は{S_ADDRESS}に事務所を構えております。"},
-    {"id": "location.ja.18", "text": "お問い合わせ先：{S_NAME}　TEL：{S_PHONE}　E-mail：{S_EMAIL}"},
-    {"id": "location.ja.19", "text": "公式サイト：{S_URL}"},
-    {"id": "location.ja.20", "text": "フリーダイヤル：{S_PHONE}"},
-    {"id": "location.ja.21", "text": "Instagramでも最新情報を発信中です（{S_URL}）。"},
-    {"id": "location.ja.22", "text": "資料のご請求は{S_EMAIL}宛てにお送りください。"},
-    {"id": "location.ja.23", "text": "所在地・連絡先：{S_ADDRESS}／{S_PHONE}"},
-    {"id": "location.ja.24", "text": "{S_NAME}（{S_ADDRESS}）"},
-    {"id": "location.ja.25", "text": "本店所在地：{S_ADDRESS}"},
-    {"id": "location.ja.26", "text": "お急ぎの場合は{S_PHONE}までお電話ください。"},
-    {"id": "location.ja.27", "text": "メールアドレス：{S_EMAIL}"},
-    {"id": "location.ja.28", "text": "Web：{S_URL}　Mail：{S_EMAIL}"},
-    {"id": "location.ja.29", "text": "代表電話　{S_PHONE}（{HOURS}）"}
+    {
+      "id": "location.ja.01",
+      "text": "所在地：{S_ADDRESS}"
+    },
+    {
+      "id": "location.ja.02",
+      "text": "本社　{S_ADDRESS}"
+    },
+    {
+      "id": "location.ja.03",
+      "text": "住所：{S_ADDRESS}"
+    },
+    {
+      "id": "location.ja.04",
+      "text": "TEL：{S_PHONE}"
+    },
+    {
+      "id": "location.ja.05",
+      "text": "電話番号　{S_PHONE}"
+    },
+    {
+      "id": "location.ja.06",
+      "text": "E-mail：{S_EMAIL}"
+    },
+    {
+      "id": "location.ja.07",
+      "text": "URL：{S_URL}"
+    },
+    {
+      "id": "location.ja.08",
+      "text": "ホームページ　{S_URL}"
+    },
+    {
+      "id": "location.ja.09",
+      "text": "{S_NAME}の本社は{S_ADDRESS}にあります。"
+    },
+    {
+      "id": "location.ja.10",
+      "text": "お問い合わせは、お電話（{S_PHONE}）またはメール（{S_EMAIL}）にて承ります。"
+    },
+    {
+      "id": "location.ja.11",
+      "text": "詳しくは当社ウェブサイト（{S_URL}）をご覧ください。"
+    },
+    {
+      "id": "location.ja.12",
+      "text": "所在地　{S_ADDRESS}（駐車場あり）"
+    },
+    {
+      "id": "location.ja.14",
+      "text": "ご不明な点は{S_EMAIL}までお気軽にお問い合わせください。"
+    },
+    {
+      "id": "location.ja.15",
+      "text": "{S_ADDRESS}　TEL {S_PHONE}"
+    },
+    {
+      "id": "location.ja.16",
+      "text": "本社所在地：{S_ADDRESS}"
+    },
+    {
+      "id": "location.ja.19",
+      "text": "公式サイト：{S_URL}"
+    },
+    {
+      "id": "location.ja.20",
+      "text": "フリーダイヤル：{S_PHONE}"
+    },
+    {
+      "id": "location.ja.21",
+      "text": "Instagramでも最新情報を発信中です（{S_URL}）。"
+    },
+    {
+      "id": "location.ja.22",
+      "text": "資料のご請求は{S_EMAIL}宛てにお送りください。"
+    },
+    {
+      "id": "location.ja.23",
+      "text": "所在地・連絡先：{S_ADDRESS}／{S_PHONE}"
+    },
+    {
+      "id": "location.ja.24",
+      "text": "{S_NAME}（{S_ADDRESS}）"
+    },
+    {
+      "id": "location.ja.25",
+      "text": "本店所在地：{S_ADDRESS}"
+    },
+    {
+      "id": "location.ja.26",
+      "text": "お急ぎの場合は{S_PHONE}までお電話ください。"
+    },
+    {
+      "id": "location.ja.27",
+      "text": "メールアドレス：{S_EMAIL}"
+    },
+    {
+      "id": "location.ja.28",
+      "text": "Web：{S_URL}　Mail：{S_EMAIL}"
+    },
+    {
+      "id": "location.ja.29",
+      "text": "代表電話　{S_PHONE}（{HOURS}）"
+    }
   ],
   "capital": [
-    {"id": "capital.ja.01", "text": "資本金：{CAPITAL}"},
-    {"id": "capital.ja.02", "text": "資本金　{CAPITAL}"},
-    {"id": "capital.ja.03", "text": "【資本金】{CAPITAL}"},
-    {"id": "capital.ja.04", "text": "{S_NAME}の資本金は{CAPITAL}です。"},
-    {"id": "capital.ja.05", "text": "資本金　{CAPITAL}（{date}現在）"},
-    {"id": "capital.ja.06", "text": "{S_NAME:legal}（資本金{CAPITAL}）"},
-    {"id": "capital.ja.07", "text": "当社は資本金{CAPITAL}の{LEGAL_FORM}です。"},
-    {"id": "capital.ja.08", "text": "{year}に増資を行い、資本金は{CAPITAL}となりました。"},
-    {"id": "capital.ja.09", "text": "資本金の額　金{CAPITAL}"},
-    {"id": "capital.ja.10", "text": "資本金の額：{CAPITAL}"},
-    {"id": "capital.ja.11", "text": "資本金{CAPITAL}、従業員数{STAFF}の企業です。"},
-    {"id": "capital.ja.12", "text": "資本金（Capital）：{CAPITAL}"},
-    {"id": "capital.ja.13", "text": "{FOUNDED}に資本金{CAPITAL}で設立されました。"},
-    {"id": "capital.ja.14", "text": "資本金は{CAPITAL}（全額払込済み）です。"},
-    {"id": "capital.ja.15", "text": "{LEGAL_FORM}／資本金{CAPITAL}"},
-    {"id": "capital.ja.16", "text": "当社は資本金{CAPITAL}で、{ACTIVITY}を営んでおります。"},
-    {"id": "capital.ja.17", "text": "当社の資本金は現在{CAPITAL}です。"},
-    {"id": "capital.ja.18", "text": "資本金　{CAPITAL}（{year}に増資）"},
-    {"id": "capital.ja.19", "text": "資本金：{CAPITAL}　決算期：3月"},
-    {"id": "capital.ja.20", "text": "出資金：{CAPITAL}"},
-    {"id": "capital.ja.21", "text": "{S_NAME}（{city}、資本金{CAPITAL}）は、新たな事業展開を発表した。"},
-    {"id": "capital.ja.22", "text": "資本金額　{CAPITAL}"},
-    {"id": "capital.ja.23", "text": "■資本金　{CAPITAL}"},
-    {"id": "capital.ja.24", "text": "このたび、資本金を{CAPITAL}に増額いたしました。"},
-    {"id": "capital.ja.25", "text": "資本金{CAPITAL}・{LEGAL_FORM}"},
-    {"id": "capital.ja.26", "text": "会社概要：資本金{CAPITAL}、代表者{S_PERSON}"}
+    {
+      "id": "capital.ja.01",
+      "text": "資本金：{CAPITAL}"
+    },
+    {
+      "id": "capital.ja.02",
+      "text": "資本金　{CAPITAL}"
+    },
+    {
+      "id": "capital.ja.03",
+      "text": "【資本金】{CAPITAL}"
+    },
+    {
+      "id": "capital.ja.04",
+      "text": "{S_NAME}の資本金は{CAPITAL}です。"
+    },
+    {
+      "id": "capital.ja.05",
+      "text": "資本金　{CAPITAL}（{date}現在）"
+    },
+    {
+      "id": "capital.ja.06",
+      "text": "{S_NAME:legal}（資本金{CAPITAL}）"
+    },
+    {
+      "id": "capital.ja.09",
+      "text": "資本金の額　金{CAPITAL}"
+    },
+    {
+      "id": "capital.ja.10",
+      "text": "資本金の額：{CAPITAL}"
+    },
+    {
+      "id": "capital.ja.12",
+      "text": "資本金（Capital）：{CAPITAL}"
+    },
+    {
+      "id": "capital.ja.13",
+      "text": "{FOUNDED}に資本金{CAPITAL}で設立されました。"
+    },
+    {
+      "id": "capital.ja.14",
+      "text": "資本金は{CAPITAL}（全額払込済み）です。"
+    },
+    {
+      "id": "capital.ja.15",
+      "text": "{LEGAL_FORM}／資本金{CAPITAL}"
+    },
+    {
+      "id": "capital.ja.16",
+      "text": "当社は資本金{CAPITAL}で、{ACTIVITY}を営んでおります。"
+    },
+    {
+      "id": "capital.ja.17",
+      "text": "当社の資本金は現在{CAPITAL}です。"
+    },
+    {
+      "id": "capital.ja.18",
+      "text": "資本金　{CAPITAL}（{year}に増資）"
+    },
+    {
+      "id": "capital.ja.19",
+      "text": "資本金：{CAPITAL}　決算期：3月"
+    },
+    {
+      "id": "capital.ja.20",
+      "text": "出資金：{CAPITAL}"
+    },
+    {
+      "id": "capital.ja.21",
+      "text": "{S_NAME}（{city}、資本金{CAPITAL}）は、新たな事業展開を発表した。"
+    },
+    {
+      "id": "capital.ja.22",
+      "text": "資本金額　{CAPITAL}"
+    },
+    {
+      "id": "capital.ja.23",
+      "text": "■資本金　{CAPITAL}"
+    },
+    {
+      "id": "capital.ja.24",
+      "text": "このたび、資本金を{CAPITAL}に増額いたしました。"
+    },
+    {
+      "id": "capital.ja.25",
+      "text": "資本金{CAPITAL}・{LEGAL_FORM}"
+    },
+    {
+      "id": "capital.ja.26",
+      "text": "会社概要：資本金{CAPITAL}、代表者{S_PERSON}"
+    }
   ],
   "legal_form": [
-    {"id": "legal_form.ja.01", "text": "組織形態：{LEGAL_FORM}"},
-    {"id": "legal_form.ja.02", "text": "会社形態　{LEGAL_FORM}"},
-    {"id": "legal_form.ja.03", "text": "法人格：{LEGAL_FORM}"},
-    {"id": "legal_form.ja.04", "text": "法人種別：{LEGAL_FORM}"},
-    {"id": "legal_form.ja.05", "text": "当社の法人形態は{LEGAL_FORM}です。"},
-    {"id": "legal_form.ja.06", "text": "{S_NAME}は{FOUNDED}に{LEGAL_FORM}として設立されました。"},
-    {"id": "legal_form.ja.07", "text": "{LEGAL_FORM}　資本金{CAPITAL}"},
-    {"id": "legal_form.ja.08", "text": "組織：{LEGAL_FORM}（非上場）"},
-    {"id": "legal_form.ja.09", "text": "個人事業から{LEGAL_FORM}へ法人化いたしました。"},
-    {"id": "legal_form.ja.10", "text": "会社の種類：{LEGAL_FORM}"},
-    {"id": "legal_form.ja.11", "text": "当社は{LEGAL_FORM}として登記されています。"},
-    {"id": "legal_form.ja.12", "text": "形態：{LEGAL_FORM}"},
-    {"id": "legal_form.ja.13", "text": "{city}で{LEGAL_FORM}として事業を営んでおります。"},
-    {"id": "legal_form.ja.14", "text": "法人区分　{LEGAL_FORM}"},
-    {"id": "legal_form.ja.15", "text": "法人格（Legal form）：{LEGAL_FORM}"},
-    {"id": "legal_form.ja.16", "text": "事業形態：{LEGAL_FORM}"},
-    {"id": "legal_form.ja.17", "text": "{S_NAME}は{LEGAL_FORM}の形態で運営されています。"},
-    {"id": "legal_form.ja.18", "text": "当社は{LEGAL_FORM}であり、{S_PERSON}が代表を務めています。"},
-    {"id": "legal_form.ja.19", "text": "法人の種類：{LEGAL_FORM}"},
-    {"id": "legal_form.ja.20", "text": "{LEGAL_FORM}（{S_REG_ID}）"},
-    {"id": "legal_form.ja.21", "text": "組織形態は{LEGAL_FORM}、代表者は{S_PERSON}です。"},
-    {"id": "legal_form.ja.22", "text": "企業形態：{LEGAL_FORM}／従業員数：{STAFF}"},
-    {"id": "legal_form.ja.23", "text": "私たちは{LEGAL_FORM}として{FOUNDED}に歩みを始めました。"},
-    {"id": "legal_form.ja.24", "text": "【組織形態】{LEGAL_FORM}"},
-    {"id": "legal_form.ja.25", "text": "{LEGAL_FORM}・資本金{CAPITAL}・従業員{STAFF}"},
-    {"id": "legal_form.ja.26", "text": "当社は{LEGAL_FORM}として、{ACTIVITY}を行っています。"}
+    {
+      "id": "legal_form.ja.01",
+      "text": "組織形態：{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.ja.02",
+      "text": "会社形態　{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.ja.03",
+      "text": "法人格：{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.ja.04",
+      "text": "法人種別：{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.ja.06",
+      "text": "{S_NAME}は{FOUNDED}に{LEGAL_FORM}として設立されました。"
+    },
+    {
+      "id": "legal_form.ja.07",
+      "text": "{LEGAL_FORM}　資本金{CAPITAL}"
+    },
+    {
+      "id": "legal_form.ja.08",
+      "text": "組織：{LEGAL_FORM}（非上場）"
+    },
+    {
+      "id": "legal_form.ja.09",
+      "text": "個人事業から{LEGAL_FORM}へ法人化いたしました。"
+    },
+    {
+      "id": "legal_form.ja.10",
+      "text": "会社の種類：{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.ja.11",
+      "text": "当社は{LEGAL_FORM}として登記されています。"
+    },
+    {
+      "id": "legal_form.ja.12",
+      "text": "形態：{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.ja.13",
+      "text": "{city}で{LEGAL_FORM}として事業を営んでおります。"
+    },
+    {
+      "id": "legal_form.ja.14",
+      "text": "法人区分　{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.ja.15",
+      "text": "法人格（Legal form）：{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.ja.16",
+      "text": "事業形態：{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.ja.17",
+      "text": "{S_NAME}は{LEGAL_FORM}の形態で運営されています。"
+    },
+    {
+      "id": "legal_form.ja.18",
+      "text": "当社は{LEGAL_FORM}であり、{S_PERSON}が代表を務めています。"
+    },
+    {
+      "id": "legal_form.ja.19",
+      "text": "法人の種類：{LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.ja.20",
+      "text": "{LEGAL_FORM}（{S_REG_ID}）"
+    },
+    {
+      "id": "legal_form.ja.22",
+      "text": "企業形態：{LEGAL_FORM}／従業員数：{STAFF}"
+    },
+    {
+      "id": "legal_form.ja.23",
+      "text": "私たちは{LEGAL_FORM}として{FOUNDED}に歩みを始めました。"
+    },
+    {
+      "id": "legal_form.ja.25",
+      "text": "{LEGAL_FORM}・資本金{CAPITAL}・従業員{STAFF}"
+    },
+    {
+      "id": "legal_form.ja.26",
+      "text": "当社は{LEGAL_FORM}として、{ACTIVITY}を行っています。"
+    }
   ],
   "traps": [
-    {"id": "trap.ja.01", "trap": "T1", "text": "当社がこれまでに手がけた最大の案件は、受注額{amount}のプロジェクトです。"},
-    {"id": "trap.ja.02", "trap": "T1", "text": "月商は平均{amount}前後で推移しています。"},
-    {"id": "trap.ja.03", "trap": "T1", "text": "{year}の経常利益は{amount}となりました。"},
-    {"id": "trap.ja.04", "trap": "T1", "text": "中期経営計画では、売上目標として{amount}を掲げています。"},
-    {"id": "trap.ja.05", "trap": "T1", "text": "{C_NAME}様との年間契約額は{amount}にのぼります。"},
-    {"id": "trap.ja.06", "trap": "T1", "text": "今期の設備投資額は{amount}を予定しています。"},
-    {"id": "trap.ja.07", "trap": "T1", "text": "受注残高は{amount}に達しました。"},
-    {"id": "trap.ja.08", "trap": "T1", "text": "1日あたりの売上は{amount}ほどです。"},
-    {"id": "trap.ja.09", "trap": "T1", "text": "総工費{amount}をかけた新工場が完成しました。"},
-    {"id": "trap.ja.10", "trap": "T1", "text": "営業利益は前期比{percent}増の{amount}でした。"},
-    {"id": "trap.ja.11", "trap": "T1", "text": "過去最高の受注額となる{amount}の大型契約を締結しました。"},
-    {"id": "trap.ja.12", "trap": "T5", "text": "取引銀行：{bank}"},
-    {"id": "trap.ja.13", "trap": "T5", "text": "主要仕入先：{supplier}"},
-    {"id": "trap.ja.14", "trap": "T5", "text": "メインバンクは{bank}です。"},
-    {"id": "trap.ja.15", "trap": "T5", "text": "原材料は、長年の取引がある{supplier}から仕入れています。"},
-    {"id": "trap.ja.16", "trap": "T5", "text": "{year}に{partner}と業務提携を結び、サービスの幅を広げました。"},
-    {"id": "trap.ja.17", "trap": "T5", "text": "同業の{competitor}とは異なり、当社は小ロットのご注文にも対応しています。"},
-    {"id": "trap.ja.18", "trap": "T5", "text": "{C_NAME}様（創業{client_founded}）とは、長年にわたりお付き合いをいただいております。"},
-    {"id": "trap.ja.19", "trap": "T5", "text": "販売代理店は{partner}が務めています。"},
-    {"id": "trap.ja.20", "trap": "T5", "text": "設備資金は{bank}からの融資で賄いました。"},
-    {"id": "trap.ja.21", "trap": "T5", "text": "競合の{competitor}が値下げに踏み切ったため、価格戦略を見直しました。"},
-    {"id": "trap.ja.22", "trap": "T5", "text": "物流業務は{partner}に委託しています。"},
-    {"id": "trap.ja.23", "trap": "T7", "text": "{year}に本社を現在の場所へ移転しました。"},
-    {"id": "trap.ja.24", "trap": "T7", "text": "店舗は{year}に全面改装いたしました。"},
-    {"id": "trap.ja.25", "trap": "T7", "text": "{year}に{CERT}の認証を取得しました。"},
-    {"id": "trap.ja.26", "trap": "T7", "text": "{year}には地域の優良企業として表彰されました。"},
-    {"id": "trap.ja.27", "trap": "T7", "text": "本キャンペーンは{year}末までの期間限定です。"},
-    {"id": "trap.ja.28", "trap": "T7", "text": "{year}モデルの新型車両を導入しました。"},
-    {"id": "trap.ja.29", "trap": "T7", "text": "{year}に第二工場が稼働を開始しました。"},
-    {"id": "trap.ja.30", "trap": "T7", "text": "{year}に創業者から事業を引き継ぎ、現在の体制となりました。"},
-    {"id": "trap.ja.31", "trap": "T7", "text": "{year}には創業{n_years}を迎えます。"},
-    {"id": "trap.ja.32", "trap": "T7", "text": "{year}にウェブサイトを全面リニューアルしました。"},
-    {"id": "trap.ja.33", "trap": "T7", "text": "{year}に新社屋が完成しました。"},
-    {"id": "trap.ja.34", "trap": "T8", "text": "業界経験{n_years}以上のベテランが対応いたします。"},
-    {"id": "trap.ja.35", "trap": "T8", "text": "これまでに{n_clients}以上のお客様にご利用いただきました。"},
-    {"id": "trap.ja.36", "trap": "T8", "text": "県内に{n_shops}を展開しています。"},
-    {"id": "trap.ja.37", "trap": "T8", "text": "自社保有の車両は{n_vehicles}です。"},
-    {"id": "trap.ja.38", "trap": "T8", "text": "取扱商品は{n_products}以上に及びます。"},
-    {"id": "trap.ja.39", "trap": "T8", "text": "累計{n_projects}の実績がございます。"},
-    {"id": "trap.ja.40", "trap": "T8", "text": "創業から{n_years}、地域とともに歩んでまいりました。"},
-    {"id": "trap.ja.41", "trap": "T8", "text": "年間{n_projects}の案件を手がけています。"},
-    {"id": "trap.ja.42", "trap": "T8", "text": "お取引先は{n_clients}を超えました。"},
-    {"id": "trap.ja.43", "trap": "T8", "text": "{n_vehicles}のトラックで、迅速な配送体制を整えています。"},
-    {"id": "trap.ja.44", "trap": "T8", "text": "全国{n_shops}のネットワークで、お客様をサポートします。"},
-    {"id": "trap.ja.45", "trap": "T11", "text": "営業担当：{person}"},
-    {"id": "trap.ja.46", "trap": "T11", "text": "本件の担当は{position}の{person}です。"},
-    {"id": "trap.ja.47", "trap": "T11", "text": "ご不明な点は、担当の{person}までお問い合わせください。"},
-    {"id": "trap.ja.48", "trap": "T11", "text": "{position}　{person}"},
-    {"id": "trap.ja.49", "trap": "T11", "text": "当日は{position}の{person}がお伺いいたします。"},
-    {"id": "trap.ja.50", "trap": "T11", "text": "現場は{position}の{person}が統括しています。"},
-    {"id": "trap.ja.51", "trap": "T11", "text": "文責：{position}　{person}"},
-    {"id": "trap.ja.52", "trap": "T11", "text": "代表取締役　{S_PERSON}／{position}　{person}"},
-    {"id": "trap.ja.53", "trap": "T11", "text": "お客様窓口は{person}が担当しております。"},
-    {"id": "trap.ja.54", "trap": "T11", "text": "{position}の{person}より、ひと言ご挨拶申し上げます。"},
-    {"id": "trap.ja.55", "trap": "T11", "text": "新たに{person}が{position}として入社いたしました。"},
-    {"id": "trap.ja.56", "trap": "T13", "text": "主要販売先：{C_NAME_LIST}／主要仕入先：{supplier}"},
-    {"id": "trap.ja.57", "trap": "T13", "text": "{partner}との協業により、{C_NAME}様向けのシステムを構築しました。"},
-    {"id": "trap.ja.58", "trap": "T13", "text": "{C_NAME}様への納品にあたっては、{supplier}から部材を調達しております。"},
-    {"id": "trap.ja.59", "trap": "T13", "text": "当社は{partner}の販売パートナーとして、{C_NAME_LIST}などに製品を納めています。"},
-    {"id": "trap.ja.60", "trap": "T13", "text": "主な取引先：{C_NAME_LIST}（販売先）、{supplier}（仕入先）"},
-    {"id": "trap.ja.61", "trap": "T13", "text": "{C_NAME}様の案件では、{partner}と共同で設計を担当いたしました。"},
-    {"id": "trap.ja.62", "trap": "T13", "text": "提携先：{partner}　主要顧客：{C_NAME_LIST}"},
-    {"id": "trap.ja.63", "trap": "T13", "text": "{supplier}の資材を使用し、{C_NAME}様の店舗改装を行いました。"},
-    {"id": "trap.ja.64", "trap": "T13", "text": "{C_NAME}様をはじめとするお客様に、{partner}と連携してサービスを提供しています。"},
-    {"id": "trap.ja.65", "trap": "T13", "text": "導入実績：{C_NAME_LIST}　技術提携：{partner}"},
-    {"id": "trap.ja.66", "trap": "T13", "text": "物流パートナーの{partner}を通じて、{C_NAME}様へ毎週出荷しています。"}
+    {
+      "id": "trap.ja.01",
+      "trap": "T1",
+      "text": "当社がこれまでに手がけた最大の案件は、受注額{amount}のプロジェクトです。"
+    },
+    {
+      "id": "trap.ja.02",
+      "trap": "T1",
+      "text": "月商は平均{amount}前後で推移しています。"
+    },
+    {
+      "id": "trap.ja.03",
+      "trap": "T1",
+      "text": "{year}の経常利益は{amount}となりました。"
+    },
+    {
+      "id": "trap.ja.04",
+      "trap": "T1",
+      "text": "中期経営計画では、売上目標として{amount}を掲げています。"
+    },
+    {
+      "id": "trap.ja.05",
+      "trap": "T1",
+      "text": "{C_NAME}様との年間契約額は{amount}にのぼります。"
+    },
+    {
+      "id": "trap.ja.07",
+      "trap": "T1",
+      "text": "受注残高は{amount}に達しました。"
+    },
+    {
+      "id": "trap.ja.08",
+      "trap": "T1",
+      "text": "1日あたりの売上は{amount}ほどです。"
+    },
+    {
+      "id": "trap.ja.09",
+      "trap": "T1",
+      "text": "総工費{amount}をかけた新工場が完成しました。"
+    },
+    {
+      "id": "trap.ja.10",
+      "trap": "T1",
+      "text": "営業利益は前期比{percent}増の{amount}でした。"
+    },
+    {
+      "id": "trap.ja.11",
+      "trap": "T1",
+      "text": "過去最高の受注額となる{amount}の大型契約を締結しました。"
+    },
+    {
+      "id": "trap.ja.12",
+      "trap": "T5",
+      "text": "取引銀行：{bank}"
+    },
+    {
+      "id": "trap.ja.13",
+      "trap": "T5",
+      "text": "主要仕入先：{supplier}"
+    },
+    {
+      "id": "trap.ja.14",
+      "trap": "T5",
+      "text": "メインバンクは{bank}です。"
+    },
+    {
+      "id": "trap.ja.15",
+      "trap": "T5",
+      "text": "原材料は、長年の取引がある{supplier}から仕入れています。"
+    },
+    {
+      "id": "trap.ja.17",
+      "trap": "T5",
+      "text": "同業の{competitor}とは異なり、当社は小ロットのご注文にも対応しています。"
+    },
+    {
+      "id": "trap.ja.18",
+      "trap": "T5",
+      "text": "{C_NAME}様（創業{client_founded}）とは、長年にわたりお付き合いをいただいております。"
+    },
+    {
+      "id": "trap.ja.19",
+      "trap": "T5",
+      "text": "販売代理店は{partner}が務めています。"
+    },
+    {
+      "id": "trap.ja.20",
+      "trap": "T5",
+      "text": "設備資金は{bank}からの融資で賄いました。"
+    },
+    {
+      "id": "trap.ja.21",
+      "trap": "T5",
+      "text": "競合の{competitor}が値下げに踏み切ったため、価格戦略を見直しました。"
+    },
+    {
+      "id": "trap.ja.22",
+      "trap": "T5",
+      "text": "物流業務は{partner}に委託しています。"
+    },
+    {
+      "id": "trap.ja.23",
+      "trap": "T7",
+      "text": "{year}に本社を現在の場所へ移転しました。"
+    },
+    {
+      "id": "trap.ja.24",
+      "trap": "T7",
+      "text": "店舗は{year}に全面改装いたしました。"
+    },
+    {
+      "id": "trap.ja.26",
+      "trap": "T7",
+      "text": "{year}には地域の優良企業として表彰されました。"
+    },
+    {
+      "id": "trap.ja.27",
+      "trap": "T7",
+      "text": "本キャンペーンは{year}末までの期間限定です。"
+    },
+    {
+      "id": "trap.ja.28",
+      "trap": "T7",
+      "text": "{year}モデルの新型車両を導入しました。"
+    },
+    {
+      "id": "trap.ja.29",
+      "trap": "T7",
+      "text": "{year}に第二工場が稼働を開始しました。"
+    },
+    {
+      "id": "trap.ja.30",
+      "trap": "T7",
+      "text": "{year}に創業者から事業を引き継ぎ、現在の体制となりました。"
+    },
+    {
+      "id": "trap.ja.31",
+      "trap": "T7",
+      "text": "{year}には創業{n_years}を迎えます。"
+    },
+    {
+      "id": "trap.ja.32",
+      "trap": "T7",
+      "text": "{year}にウェブサイトを全面リニューアルしました。"
+    },
+    {
+      "id": "trap.ja.33",
+      "trap": "T7",
+      "text": "{year}に新社屋が完成しました。"
+    },
+    {
+      "id": "trap.ja.34",
+      "trap": "T8",
+      "text": "業界経験{n_years}以上のベテランが対応いたします。"
+    },
+    {
+      "id": "trap.ja.36",
+      "trap": "T8",
+      "text": "県内に{n_shops}を展開しています。"
+    },
+    {
+      "id": "trap.ja.37",
+      "trap": "T8",
+      "text": "自社保有の車両は{n_vehicles}です。"
+    },
+    {
+      "id": "trap.ja.38",
+      "trap": "T8",
+      "text": "取扱商品は{n_products}以上に及びます。"
+    },
+    {
+      "id": "trap.ja.39",
+      "trap": "T8",
+      "text": "累計{n_projects}の実績がございます。"
+    },
+    {
+      "id": "trap.ja.40",
+      "trap": "T8",
+      "text": "創業から{n_years}、地域とともに歩んでまいりました。"
+    },
+    {
+      "id": "trap.ja.41",
+      "trap": "T8",
+      "text": "年間{n_projects}の案件を手がけています。"
+    },
+    {
+      "id": "trap.ja.42",
+      "trap": "T8",
+      "text": "お取引先は{n_clients}を超えました。"
+    },
+    {
+      "id": "trap.ja.43",
+      "trap": "T8",
+      "text": "{n_vehicles}のトラックで、迅速な配送体制を整えています。"
+    },
+    {
+      "id": "trap.ja.44",
+      "trap": "T8",
+      "text": "全国{n_shops}のネットワークで、お客様をサポートします。"
+    },
+    {
+      "id": "trap.ja.45",
+      "trap": "T11",
+      "text": "営業担当：{person}"
+    },
+    {
+      "id": "trap.ja.46",
+      "trap": "T11",
+      "text": "本件の担当は{position}の{person}です。"
+    },
+    {
+      "id": "trap.ja.48",
+      "trap": "T11",
+      "text": "{position}　{person}"
+    },
+    {
+      "id": "trap.ja.49",
+      "trap": "T11",
+      "text": "当日は{position}の{person}がお伺いいたします。"
+    },
+    {
+      "id": "trap.ja.50",
+      "trap": "T11",
+      "text": "現場は{position}の{person}が統括しています。"
+    },
+    {
+      "id": "trap.ja.51",
+      "trap": "T11",
+      "text": "文責：{position}　{person}"
+    },
+    {
+      "id": "trap.ja.52",
+      "trap": "T11",
+      "text": "代表取締役　{S_PERSON}／{position}　{person}"
+    },
+    {
+      "id": "trap.ja.53",
+      "trap": "T11",
+      "text": "お客様窓口は{person}が担当しております。"
+    },
+    {
+      "id": "trap.ja.54",
+      "trap": "T11",
+      "text": "{position}の{person}より、ひと言ご挨拶申し上げます。"
+    },
+    {
+      "id": "trap.ja.55",
+      "trap": "T11",
+      "text": "新たに{person}が{position}として入社いたしました。"
+    },
+    {
+      "id": "trap.ja.56",
+      "trap": "T13",
+      "text": "主要販売先：{C_NAME_LIST}／主要仕入先：{supplier}"
+    },
+    {
+      "id": "trap.ja.58",
+      "trap": "T13",
+      "text": "{C_NAME}様への納品にあたっては、{supplier}から部材を調達しております。"
+    },
+    {
+      "id": "trap.ja.59",
+      "trap": "T13",
+      "text": "当社は{partner}の販売パートナーとして、{C_NAME_LIST}などに製品を納めています。"
+    },
+    {
+      "id": "trap.ja.60",
+      "trap": "T13",
+      "text": "主な取引先：{C_NAME_LIST}（販売先）、{supplier}（仕入先）"
+    },
+    {
+      "id": "trap.ja.61",
+      "trap": "T13",
+      "text": "{C_NAME}様の案件では、{partner}と共同で設計を担当いたしました。"
+    },
+    {
+      "id": "trap.ja.62",
+      "trap": "T13",
+      "text": "提携先：{partner}　主要顧客：{C_NAME_LIST}"
+    },
+    {
+      "id": "trap.ja.63",
+      "trap": "T13",
+      "text": "{supplier}の資材を使用し、{C_NAME}様の店舗改装を行いました。"
+    },
+    {
+      "id": "trap.ja.64",
+      "trap": "T13",
+      "text": "{C_NAME}様をはじめとするお客様に、{partner}と連携してサービスを提供しています。"
+    },
+    {
+      "id": "trap.ja.65",
+      "trap": "T13",
+      "text": "導入実績：{C_NAME_LIST}　技術提携：{partner}"
+    },
+    {
+      "id": "trap.ja.66",
+      "trap": "T13",
+      "text": "物流パートナーの{partner}を通じて、{C_NAME}様へ毎週出荷しています。"
+    }
   ],
   "filler": [
-    {"id": "filler.ja.01", "text": "平素より格別のご高配を賜り、厚く御礼申し上げます。"},
-    {"id": "filler.ja.02", "text": "今後とも変わらぬご愛顧のほど、よろしくお願い申し上げます。"},
-    {"id": "filler.ja.03", "text": "ご不明な点がございましたら、お気軽にお問い合わせください。"},
-    {"id": "filler.ja.04", "text": "詳細につきましては、担当者より改めてご連絡いたします。"},
-    {"id": "filler.ja.05", "text": "お客様一人ひとりに合わせたご提案を心がけています。"},
-    {"id": "filler.ja.06", "text": "安心・安全を第一に考え、日々の業務に取り組んでおります。"},
-    {"id": "filler.ja.07", "text": "スタッフ一同、心よりお待ちしております。"},
-    {"id": "filler.ja.08", "text": "ご予約は前日までにお願いいたします。"},
-    {"id": "filler.ja.09", "text": "駐車場はございませんので、公共交通機関をご利用ください。"},
-    {"id": "filler.ja.10", "text": "お見積りは無料です。お気軽にご相談ください。"},
-    {"id": "filler.ja.11", "text": "価格は予告なく変更となる場合がございます。"},
-    {"id": "filler.ja.12", "text": "写真はイメージです。"},
-    {"id": "filler.ja.13", "text": "掲載内容は{date}時点の情報です。"},
-    {"id": "filler.ja.14", "text": "当社は地域社会への貢献を大切にしています。"},
-    {"id": "filler.ja.15", "text": "私たちは、お客様の声を何よりも大切にしています。"},
-    {"id": "filler.ja.16", "text": "品質管理には細心の注意を払っております。"},
-    {"id": "filler.ja.17", "text": "お支払いは銀行振込にて承ります。"},
-    {"id": "filler.ja.18", "text": "資料をご希望の方は、下記フォームよりお申し込みください。"},
-    {"id": "filler.ja.19", "text": "ご来社の際は、受付にてお名前をお申し付けください。"},
-    {"id": "filler.ja.20", "text": "誠に勝手ながら、{date}は臨時休業とさせていただきます。"},
-    {"id": "filler.ja.21", "text": "ご注文から{n_days}日以内に発送いたします。"},
-    {"id": "filler.ja.22", "text": "一人ひとりが責任を持って仕事に取り組める職場を目指しています。"},
-    {"id": "filler.ja.23", "text": "社員研修にも力を入れています。"},
-    {"id": "filler.ja.24", "text": "環境に配慮した取り組みを進めています。"},
-    {"id": "filler.ja.25", "text": "{city}の皆さまに支えられ、ここまで歩んでまいりました。"},
-    {"id": "filler.ja.26", "text": "採用情報は随時更新しております。"},
-    {"id": "filler.ja.27", "text": "本ページの内容は予告なく変更される場合があります。"},
-    {"id": "filler.ja.28", "text": "ご意見・ご要望をお聞かせください。"},
-    {"id": "filler.ja.29", "text": "お客様の個人情報は適切に管理いたします。"},
-    {"id": "filler.ja.30", "text": "丁寧な説明と明朗会計をお約束します。"},
-    {"id": "filler.ja.31", "text": "初めての方も安心してご利用いただけます。"},
-    {"id": "filler.ja.32", "text": "迅速・丁寧・確実をモットーにしております。"},
-    {"id": "filler.ja.33", "text": "オンラインでのお打ち合わせにも対応しております。"},
-    {"id": "filler.ja.34", "text": "繁忙期はお時間をいただく場合がございます。"},
-    {"id": "filler.ja.35", "text": "何卒ご理解とご協力を賜りますようお願い申し上げます。"},
-    {"id": "filler.ja.36", "text": "ご不便をおかけいたしますが、ご了承ください。"},
-    {"id": "filler.ja.37", "text": "担当者が不在の場合は、折り返しご連絡いたします。"},
-    {"id": "filler.ja.38", "text": "一つひとつの仕事に誠実に向き合っています。"},
-    {"id": "filler.ja.39", "text": "詳しい地図は下記をご覧ください。"},
-    {"id": "filler.ja.40", "text": "よくあるご質問のページもあわせてご参照ください。"},
-    {"id": "filler.ja.41", "text": "新しい仲間を募集しています。"},
-    {"id": "filler.ja.42", "text": "お客様の満足が、私たちの喜びです。"},
-    {"id": "filler.ja.43", "text": "ご相談から納品まで、一貫して対応いたします。"},
-    {"id": "filler.ja.44", "text": "{date}より新しい料金体系に移行いたします。"},
-    {"id": "filler.ja.45", "text": "本メールは送信専用のアドレスから配信しております。"},
-    {"id": "filler.ja.46", "text": "お手数ですが、内容をご確認のうえご返信ください。"},
-    {"id": "filler.ja.47", "text": "引き続きよろしくお願いいたします。"},
-    {"id": "filler.ja.48", "text": "ご注文内容に誤りがないか、今一度ご確認ください。"},
-    {"id": "filler.ja.49", "text": "{city}近郊であれば、出張対応も可能です。"},
-    {"id": "filler.ja.50", "text": "お支払い方法は、現金・クレジットカード・銀行振込からお選びいただけます。"},
-    {"id": "filler.ja.51", "text": "書類は{date}までにご提出ください。"},
-    {"id": "filler.ja.52", "text": "ご協力に感謝いたします。"}
+    {
+      "id": "filler.ja.01",
+      "text": "平素より格別のご高配を賜り、厚く御礼申し上げます。"
+    },
+    {
+      "id": "filler.ja.02",
+      "text": "今後とも変わらぬご愛顧のほど、よろしくお願い申し上げます。"
+    },
+    {
+      "id": "filler.ja.04",
+      "text": "詳細につきましては、担当者より改めてご連絡いたします。"
+    },
+    {
+      "id": "filler.ja.05",
+      "text": "お客様一人ひとりに合わせたご提案を心がけています。"
+    },
+    {
+      "id": "filler.ja.06",
+      "text": "安心・安全を第一に考え、日々の業務に取り組んでおります。"
+    },
+    {
+      "id": "filler.ja.07",
+      "text": "スタッフ一同、心よりお待ちしております。"
+    },
+    {
+      "id": "filler.ja.08",
+      "text": "ご予約は前日までにお願いいたします。"
+    },
+    {
+      "id": "filler.ja.09",
+      "text": "駐車場はございませんので、公共交通機関をご利用ください。"
+    },
+    {
+      "id": "filler.ja.10",
+      "text": "お見積りは無料です。お気軽にご相談ください。"
+    },
+    {
+      "id": "filler.ja.11",
+      "text": "価格は予告なく変更となる場合がございます。"
+    },
+    {
+      "id": "filler.ja.12",
+      "text": "写真はイメージです。"
+    },
+    {
+      "id": "filler.ja.13",
+      "text": "掲載内容は{date}時点の情報です。"
+    },
+    {
+      "id": "filler.ja.14",
+      "text": "当社は地域社会への貢献を大切にしています。"
+    },
+    {
+      "id": "filler.ja.15",
+      "text": "私たちは、お客様の声を何よりも大切にしています。"
+    },
+    {
+      "id": "filler.ja.17",
+      "text": "お支払いは銀行振込にて承ります。"
+    },
+    {
+      "id": "filler.ja.18",
+      "text": "資料をご希望の方は、下記フォームよりお申し込みください。"
+    },
+    {
+      "id": "filler.ja.19",
+      "text": "ご来社の際は、受付にてお名前をお申し付けください。"
+    },
+    {
+      "id": "filler.ja.20",
+      "text": "誠に勝手ながら、{date}は臨時休業とさせていただきます。"
+    },
+    {
+      "id": "filler.ja.21",
+      "text": "ご注文から{n_days}日以内に発送いたします。"
+    },
+    {
+      "id": "filler.ja.22",
+      "text": "一人ひとりが責任を持って仕事に取り組める職場を目指しています。"
+    },
+    {
+      "id": "filler.ja.23",
+      "text": "社員研修にも力を入れています。"
+    },
+    {
+      "id": "filler.ja.24",
+      "text": "環境に配慮した取り組みを進めています。"
+    },
+    {
+      "id": "filler.ja.25",
+      "text": "{city}の皆さまに支えられ、ここまで歩んでまいりました。"
+    },
+    {
+      "id": "filler.ja.26",
+      "text": "採用情報は随時更新しております。"
+    },
+    {
+      "id": "filler.ja.27",
+      "text": "本ページの内容は予告なく変更される場合があります。"
+    },
+    {
+      "id": "filler.ja.28",
+      "text": "ご意見・ご要望をお聞かせください。"
+    },
+    {
+      "id": "filler.ja.29",
+      "text": "お客様の個人情報は適切に管理いたします。"
+    },
+    {
+      "id": "filler.ja.30",
+      "text": "丁寧な説明と明朗会計をお約束します。"
+    },
+    {
+      "id": "filler.ja.31",
+      "text": "初めての方も安心してご利用いただけます。"
+    },
+    {
+      "id": "filler.ja.32",
+      "text": "迅速・丁寧・確実をモットーにしております。"
+    },
+    {
+      "id": "filler.ja.33",
+      "text": "オンラインでのお打ち合わせにも対応しております。"
+    },
+    {
+      "id": "filler.ja.34",
+      "text": "繁忙期はお時間をいただく場合がございます。"
+    },
+    {
+      "id": "filler.ja.35",
+      "text": "何卒ご理解とご協力を賜りますようお願い申し上げます。"
+    },
+    {
+      "id": "filler.ja.36",
+      "text": "ご不便をおかけいたしますが、ご了承ください。"
+    },
+    {
+      "id": "filler.ja.37",
+      "text": "担当者が不在の場合は、折り返しご連絡いたします。"
+    },
+    {
+      "id": "filler.ja.38",
+      "text": "一つひとつの仕事に誠実に向き合っています。"
+    },
+    {
+      "id": "filler.ja.40",
+      "text": "よくあるご質問のページもあわせてご参照ください。"
+    },
+    {
+      "id": "filler.ja.41",
+      "text": "新しい仲間を募集しています。"
+    },
+    {
+      "id": "filler.ja.42",
+      "text": "お客様の満足が、私たちの喜びです。"
+    },
+    {
+      "id": "filler.ja.43",
+      "text": "ご相談から納品まで、一貫して対応いたします。"
+    },
+    {
+      "id": "filler.ja.44",
+      "text": "{date}より新しい料金体系に移行いたします。"
+    },
+    {
+      "id": "filler.ja.46",
+      "text": "お手数ですが、内容をご確認のうえご返信ください。"
+    },
+    {
+      "id": "filler.ja.47",
+      "text": "引き続きよろしくお願いいたします。"
+    },
+    {
+      "id": "filler.ja.49",
+      "text": "{city}近郊であれば、出張対応も可能です。"
+    },
+    {
+      "id": "filler.ja.50",
+      "text": "お支払い方法は、現金・クレジットカード・銀行振込からお選びいただけます。"
+    },
+    {
+      "id": "filler.ja.51",
+      "text": "書類は{date}までにご提出ください。"
+    },
+    {
+      "id": "filler.ja.52",
+      "text": "ご協力に感謝いたします。"
+    }
   ],
   "legal_footer": [
-    {"id": "footer.ja.01", "countries": ["JP"], "text": "{S_NAME:legal}　{S_REG_ID}"},
-    {"id": "footer.ja.02", "countries": ["JP"], "text": "{S_NAME:legal}　{S_ADDRESS}　TEL：{S_PHONE}"},
-    {"id": "footer.ja.03", "countries": ["JP"], "text": "{S_NAME:legal}（{S_REG_ID}）　{S_ADDRESS}"},
-    {"id": "footer.ja.04", "countries": ["JP"], "text": "{S_NAME:legal}｜{S_ADDRESS}｜TEL {S_PHONE}｜{S_URL}"},
-    {"id": "footer.ja.05", "countries": ["JP"], "text": "{S_NAME:legal}　資本金{CAPITAL}　{S_REG_ID}"},
-    {"id": "footer.ja.06", "countries": ["JP"], "text": "発行元：{S_NAME:legal}　{S_REG_ID}"},
-    {"id": "footer.ja.07", "countries": ["JP"], "text": "Copyright © {S_NAME:legal} All Rights Reserved."},
-    {"id": "footer.ja.08", "countries": ["JP"], "text": "{S_NAME:legal}　本社：{S_ADDRESS}　E-mail：{S_EMAIL}"}
+    {
+      "id": "footer.ja.01",
+      "countries": [
+        "JP"
+      ],
+      "text": "{S_NAME:legal}　{S_REG_ID}"
+    },
+    {
+      "id": "footer.ja.02",
+      "countries": [
+        "JP"
+      ],
+      "text": "{S_NAME:legal}　{S_ADDRESS}　TEL：{S_PHONE}"
+    },
+    {
+      "id": "footer.ja.03",
+      "countries": [
+        "JP"
+      ],
+      "text": "{S_NAME:legal}（{S_REG_ID}）　{S_ADDRESS}"
+    },
+    {
+      "id": "footer.ja.04",
+      "countries": [
+        "JP"
+      ],
+      "text": "{S_NAME:legal}｜{S_ADDRESS}｜TEL {S_PHONE}｜{S_URL}"
+    },
+    {
+      "id": "footer.ja.05",
+      "countries": [
+        "JP"
+      ],
+      "text": "{S_NAME:legal}　資本金{CAPITAL}　{S_REG_ID}"
+    },
+    {
+      "id": "footer.ja.06",
+      "countries": [
+        "JP"
+      ],
+      "text": "発行元：{S_NAME:legal}　{S_REG_ID}"
+    },
+    {
+      "id": "footer.ja.07",
+      "countries": [
+        "JP"
+      ],
+      "text": "Copyright © {S_NAME:legal} All Rights Reserved."
+    },
+    {
+      "id": "footer.ja.08",
+      "countries": [
+        "JP"
+      ],
+      "text": "{S_NAME:legal}　本社：{S_ADDRESS}　E-mail：{S_EMAIL}"
+    }
   ],
   "invoice_notes": {
     "payment_terms": [

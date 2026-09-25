@@ -1,0 +1,214 @@
+{
+  "activity": [
+    {
+      "id": "activity.it.04",
+      "text": "Attività prevalente: {ACTIVITY}"
+    },
+    {
+      "id": "activity.it.05",
+      "text": "Attività esercitata nella sede legale: {ACTIVITY}"
+    },
+    {
+      "id": "activity.it.23",
+      "text": "Attività: {ACTIVITY} ({ACTIVITY_CODE})"
+    }
+  ],
+  "founded": [
+    {
+      "id": "founded.it.05",
+      "text": "Data di costituzione: {FOUNDED:date}"
+    },
+    {
+      "id": "founded.it.09",
+      "text": "La storia di {S_NAME} comincia nel mese di {FOUNDED:month}."
+    },
+    {
+      "id": "founded.it.25",
+      "text": "La ditta è stata avviata dall'attuale titolare nel mese di {FOUNDED:month}."
+    }
+  ],
+  "staff": [
+    {
+      "id": "staff.it.04",
+      "text": "L'azienda impiega {STAFF} {staff_noun}."
+    },
+    {
+      "id": "staff.it.13",
+      "text": "Complessivamente, la società occupa {STAFF} {staff_noun}."
+    },
+    {
+      "id": "staff.it.16",
+      "text": "Alla fine dell'anno l'organico ha raggiunto {STAFF} {staff_noun}."
+    }
+  ],
+  "revenue": [
+    {
+      "id": "revenue.it.14",
+      "text": "Chiudiamo il {REVENUE_YEAR} con un fatturato di {REVENUE}: un risultato che premia il lavoro di tutto il team."
+    },
+    {
+      "id": "revenue.it.23",
+      "text": "Nel corso del {REVENUE_YEAR} i ricavi hanno raggiunto {REVENUE}, grazie soprattutto all'acquisizione di nuovi clienti."
+    },
+    {
+      "id": "revenue.it.28",
+      "text": "Nonostante un mercato difficile, il fatturato {REVENUE_YEAR} si è attestato a {REVENUE}."
+    }
+  ],
+  "services_intro": [
+    {
+      "id": "services_intro.it.07",
+      "text": "Il nostro punto di forza? {SERVICE}."
+    },
+    {
+      "id": "services_intro.it.12",
+      "text": "Il servizio più apprezzato dai nostri clienti: {SERVICE}."
+    },
+    {
+      "id": "services_intro.it.14",
+      "text": "Chiedi informazioni su {SERVICE}: ti risponderemo in giornata."
+    }
+  ],
+  "clients": [
+    {
+      "id": "clients.it.01",
+      "text": "Tra i nostri clienti: {C_NAME_LIST}, solo per citarne alcuni."
+    },
+    {
+      "id": "clients.it.12",
+      "text": "Tra i clienti che ci hanno scelto figurano {C_NAME_LIST}, oltre a molte piccole imprese della zona."
+    },
+    {
+      "id": "clients.it.28",
+      "text": "Anche per {C_NAME} siamo ormai un punto di riferimento stabile."
+    }
+  ],
+  "hours": [
+    {
+      "id": "hours.it.01",
+      "text": "Orari di apertura: {HOURS}"
+    },
+    {
+      "id": "hours.it.13",
+      "text": "Il servizio clienti è attivo {HOURS:prose}."
+    },
+    {
+      "id": "hours.it.23",
+      "text": "Il punto vendita di {city} è aperto {HOURS:prose}."
+    }
+  ],
+  "certifications": [
+    {
+      "id": "certifications.it.03",
+      "text": "Siamo un'azienda certificata {CERT}."
+    },
+    {
+      "id": "certifications.it.10",
+      "text": "Il nostro impegno per la qualità è attestato da: {CERT_LIST}."
+    },
+    {
+      "id": "certifications.it.20",
+      "text": "Iscrizioni, marchi e certificazioni: {CERT_LIST}."
+    }
+  ],
+  "location": [
+    {
+      "id": "location.it.03",
+      "text": "Indirizzo: {S_ADDRESS}"
+    },
+    {
+      "id": "location.it.09",
+      "text": "E-mail: {S_EMAIL}"
+    },
+    {
+      "id": "location.it.29",
+      "text": "I nostri uffici si trovano in {S_ADDRESS}, con ampio parcheggio per i clienti."
+    }
+  ],
+  "capital": [
+    {
+      "id": "capital.it.05",
+      "text": "La società ha un capitale sociale di {CAPITAL}."
+    },
+    {
+      "id": "capital.it.06",
+      "text": "Capitale azionario: {CAPITAL}"
+    },
+    {
+      "id": "capital.it.28",
+      "text": "Il capitale sociale di {CAPITAL} è stato interamente versato al momento della costituzione."
+    }
+  ],
+  "legal_form": [
+    {
+      "id": "legal_form.it.05",
+      "text": "L'azienda è costituita in forma di {LEGAL_FORM} e ha sede a {city}."
+    },
+    {
+      "id": "legal_form.it.09",
+      "text": "Siamo una realtà giovane, organizzata in forma di {LEGAL_FORM} e radicata nel territorio."
+    },
+    {
+      "id": "legal_form.it.13",
+      "text": "Forma giuridica attuale: {LEGAL_FORM} (dal {year})"
+    }
+  ],
+  "traps": [
+    {
+      "id": "trap.it.11",
+      "trap": "T1",
+      "text": "Per il nuovo stabilimento è previsto un investimento di {amount}, finanziato in parte con contributi regionali."
+    },
+    {
+      "id": "trap.it.12",
+      "trap": "T5",
+      "text": "Per la logistica ci affidiamo a {partner}, partner affidabile da molti anni."
+    },
+    {
+      "id": "trap.it.29",
+      "trap": "T7",
+      "text": "Nel {year} è entrata in azienda la seconda generazione della famiglia."
+    },
+    {
+      "id": "trap.it.38",
+      "trap": "T8",
+      "text": "A catalogo trovi oltre {n_products}."
+    },
+    {
+      "id": "trap.it.52",
+      "trap": "T11",
+      "text": "Per l'assistenza tecnica chiedete di {person}."
+    },
+    {
+      "id": "trap.it.58",
+      "trap": "T13",
+      "text": "Tra i nostri clienti figurano {C_NAME_LIST}; per la logistica ci appoggiamo a {partner}."
+    }
+  ],
+  "filler": [
+    {
+      "id": "filler.it.05",
+      "text": "Preventivi gratuiti e senza impegno."
+    },
+    {
+      "id": "filler.it.08",
+      "text": "Il parcheggio per i clienti è disponibile nel cortile interno."
+    },
+    {
+      "id": "filler.it.15",
+      "text": "Per i clienti abituali sono previste condizioni particolari."
+    },
+    {
+      "id": "filler.it.30",
+      "text": "Per ogni esigenza particolare possiamo studiare insieme una soluzione su misura."
+    },
+    {
+      "id": "filler.it.39",
+      "text": "Siamo sempre alla ricerca di nuovi talenti da inserire nel team."
+    },
+    {
+      "id": "filler.it.51",
+      "text": "Materiali certificati, personale qualificato e prezzi chiari: ecco perché sceglierci."
+    }
+  ]
+}

@@ -450,8 +450,13 @@ class DocCtx:
         return AText(name, "CERT" if self.role(org) == "S" else None)
 
     def doc_date(self, d=None, style=None):
+        """The issue date. A fact type (R6): it belongs to S, so in a
+        document with no S (a letter from a bank or a tax office) the
+        date is O."""
         d = d or self.doc.date
         text, truth = self.fmt.date(d, style)
+        if self.S is None:
+            return AText(text)
         return AText(text, "DOC_DATE", truth)
 
     def date_o(self, d, style=None):

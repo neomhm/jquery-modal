@@ -19,6 +19,7 @@ import math
 import multiprocessing
 import pathlib
 import random
+import re
 import sys
 import time
 import unicodedata
@@ -104,10 +105,12 @@ def split_rules(split, heldout_activity=False):
     base = {"allowed": {"train"}, "prefer": None, "p_prefer": 0.0,
             "force_layout": None, "trap_boost": 1.0}
     if split == "dev_heldout":
-        base.update(allowed={"train", "D"}, prefer="D", p_prefer=0.6,
+        base.update(allowed={"train", "D"}, prefer="D",
+                    p_prefer=0.6 if heldout_activity else 1.0,
                     force_layout=None if heldout_activity else "D")
     elif split == "test_heldout":
-        base.update(allowed={"train", "T"}, prefer="T", p_prefer=0.6,
+        base.update(allowed={"train", "T"}, prefer="T",
+                    p_prefer=0.6 if heldout_activity else 1.0,
                     force_layout=None if heldout_activity else "T")
     elif split == "test_locale":
         base.update(allowed={"train", "locale"})
@@ -334,6 +337,11 @@ def pick_layout(rng, plan, loc, rules, split):
     force = rules.get("force_layout")
     if force:
         forced = [c for c in cands if c[1] == force]
+        if not forced and plan["type"] == "invoice" and kind != "invoice":
+            # no held-out receipt / credit-note layout: use a held-out
+            # invoice layout, so the document still has its held-out item
+            plan["kind"] = "invoice"
+            return pick_layout(rng, plan, loc, rules, split)
         if forced:
             cands = forced
     elif split == "test_locale":
@@ -341,6 +349,128 @@ def pick_layout(rng, plan, loc, rules, split):
         if loc_only:
             cands = loc_only
     return rng.choice(cands)[0]
+
+
+# countries where general terms of sale are often printed on the back
+# of invoices and quotes
+TERMS_ON_BACK = {"FR", "BE", "CH", "IT", "ES", "MA", "SN", "CA"}
+
+
+def add_terms_page(ctx):
+    """General terms of sale on a last page (mostly label-free text)."""
+    from gen.layouts import terms as TL
+    rng = ctx.rng
+    items = (ctx.titles_.get("terms") or {}).get("cgv") or []
+    ctx.doc.new_page()
+    if items:
+        ctx.doc.add(Heading(rng.choice(items)))
+    # the company is named in the first article at most; later articles
+    # speak of "the seller"
+    pool = list(enumerate((ctx.sent.get("terms") or {}).get("cgv") or []))
+    rng.shuffle(pool)
+    named = [kt for kt in pool if re.search(r"\{[A-Z_]+[:}]", kt[1])]
+    plain = [kt for kt in pool if kt not in named]
+    chosen = (named[:1] if rng.random() < 0.5 else []) + \
+        plain[:rng.randint(4, 9)]
+    for n, (k, text) in enumerate(chosen, start=1):
+        if not ctx.can_fill(text):
+            continue
+        try:
+            at = ctx.fill(text, "terms.cgv.%s.%02d" % (ctx.lang, k + 1))
+        except CannotFill:
+            continue
+        head = TL._art_title(ctx, TL.CGV_ARTICLES[(n - 1) %
+                                                  len(TL.CGV_ARTICLES)])
+        if head and rng.random() < 0.7:
+            ctx.doc.add(Heading("%d. %s" % (n, head), level=2))
+        ctx.doc.add(Para(at))
+        if n % 4 == 0:
+            ctx.doc.new_page()
+
+
+def add_web_sections(ctx):
+    """Web pages and brochures carry generic sections too: values, why
+    choose us, testimonials, news, FAQ-like notes (mostly label-free)."""
+    rng = ctx.rng
+    from gen.layouts.brochure import _traps
+    for key in rng.sample(["values", "why_us", "testimonials", "news",
+                           "faq"], rng.randint(3, 5)):
+        items = []
+        if key in ("values", "why_us", "faq"):
+            for _ in range(rng.randint(2, 4)):
+                at = ctx.say("filler")
+                if at is not None and all(at.text != o.text for o in items):
+                    items.append(at)
+        else:
+            for _ in range(rng.randint(2, 3)):
+                at = ctx.phrase("web", key)
+                if at is not None and all(at.text != o.text for o in items):
+                    items.append(at)
+        for trap in _traps(ctx, 1.6):
+            at = ctx.say("traps", trap=trap)
+            if at is not None:
+                items.insert(rng.randint(0, len(items)), at)
+        if items:
+            ctx.doc.add(Heading(ctx.title("brochure", key)))
+            for at in items:
+                ctx.doc.add(Para(at))
+
+
+def add_note_sections(ctx):
+    """Internal documents go on: 2-4 more sections of notes."""
+    rng = ctx.rng
+    titles = (ctx.titles_.get("other") or {})
+    for _ in range(rng.randint(2, 4)):
+        key = rng.choice(["generic", "memo", "meeting", "todo", "news"])
+        pool = list(((ctx.sent.get("noise") or {}).get(key) or []))
+        rng.shuffle(pool)
+        items = []
+        for text in pool[:rng.randint(2, 4)]:
+            if ctx.can_fill(text):
+                try:
+                    items.append(ctx.fill(text))
+                except CannotFill:
+                    pass
+        for _ in range(rng.randint(0, 2)):
+            at = ctx.say("filler")
+            if at is not None:
+                items.append(at)
+        heads = titles.get(rng.choice(["memo", "report", "meeting",
+                                       "todo"])) or []
+        if items:
+            if heads:
+                ctx.doc.add(Heading(rng.choice(heads), level=2))
+            for at in items:
+                ctx.doc.add(Para(at))
+
+
+def paginate(doc, rng):
+    """Long PDF documents run over several pages: a new page every 2-4
+    sections (a section starts at a heading)."""
+    blocks = [b for page in doc.pages for b in page]
+    sections, current = [], []
+    for b in blocks:
+        if isinstance(b, Heading) and current:
+            sections.append(current)
+            current = []
+        current.append(b)
+    if current:
+        sections.append(current)
+    if len(sections) < 2:
+        return
+    step = {"other": (1, 1), "contract": (1, 3), "terms": (1, 3),
+            "brochure": (1, 2)}.get(
+        doc.doc_type, (2, 4))
+    pages, page, left = [], [], rng.randint(*step)
+    for sec in sections:
+        if left == 0:
+            pages.append(page)
+            page, left = [], rng.randint(*step)
+        page.extend(sec)
+        left -= 1
+    if page:
+        pages.append(page)
+    doc.pages = pages
 
 
 def all_atexts(doc):
@@ -428,8 +558,22 @@ def build_document(rng, biz, plan, rules, split, index):
     fmt = weighted(rng, FORMATS[plan["type"]])
     if fmt == "csv" and not any(isinstance(b, Table) for b in doc.blocks()):
         fmt = "txt"
+    if fmt == "csv" and plan["type"] in ("financials", "registration"):
+        fmt = "xlsx"                 # keeps the signature and auditor lines
     if fmt == "xlsx" and plan["kind"] in ("receipt", "credit_note"):
         fmt = "pdf"                  # nobody keeps a till receipt in Excel
+    p_terms = {"invoice": (0.6, 0.35), "quote": (0.85, 0.6)}.get(
+        plan["kind"])
+    if fmt in ("pdf", "docx") and p_terms and rng.random() < p_terms[
+            0 if biz.country in TERMS_ON_BACK else 1]:
+        add_terms_page(ctx)
+    if plan["type"] == "brochure":
+        add_web_sections(ctx)
+    if plan["type"] == "other" and plan.get("S") is None:
+        add_note_sections(ctx)
+    if fmt == "pdf" and plan["type"] in ("contract", "terms", "other",
+                                          "brochure"):
+        paginate(doc, rng)
     if fmt == "pdf" and plan["type"] in ("invoice", "quote") and \
             rng.random() < 0.3:
         doc.meta["side_by_side"] = True
@@ -441,6 +585,8 @@ def build_document(rng, biz, plan, rules, split, index):
             if sp.get("truth") is not None and (noised is False) and \
                     sp.get("norm", True):
                 truth_map.setdefault(key, sp["truth"])
+                # Word headings come out in upper case (ingest.py)
+                truth_map.setdefault((key[0], key[1].lower()), sp["truth"])
     pieces, sources = R.render(doc, fmt, rng, ctx)
     return {"doc": doc, "ctx": ctx, "fmt": fmt, "pieces": pieces,
             "sources": sources, "noised": noised, "truth_map": truth_map,
@@ -493,12 +639,16 @@ def make_folder(split, index, traps_mode=False, locale=None, lang=None,
                 built["pieces"]):
             truth = {}
             for i, (s, e, label) in enumerate(spans):
-                t = built["truth_map"].get((label, text[s:e]))
+                t = built["truth_map"].get((label, text[s:e])) or \
+                    built["truth_map"].get((label, text[s:e].lower()))
                 if t is not None and label in config.KIND_OF_LABEL:
                     truth[str(i)] = t
             trap_set = set(traps) | set(doc.traps)
             if not spans:
                 trap_set.add("T12")
+            if plan["type"] == "invoice" and any(
+                    lab == "DOC_TOTAL" for _, _, lab in spans):
+                trap_set.add("T1")    # an invoice total, never revenue
             chunks.append({
                 "id": "%s-%02d" % (doc_id, ordinal), "split": split,
                 "folder": folder_id, "doc": doc_id, "file_name": name,
