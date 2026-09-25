@@ -1,16 +1,15 @@
 # The Extractor
 
-The Extractor reads the chunks that `ingest.py` made from a business's
-documents and marks the facts in them: names, addresses, registration
-numbers, phones, legal form, founding date, staff, revenue, services,
-clients and more, in ten languages. It is a small encoder trained from
-scratch; it never writes text, it only marks pieces of the chunk, so it
-cannot invent a value. `profile.py` then turns those marks into one
-business profile, with the source of every value.
+The Extractor reads the chunks that `ingest.py` made from a business's documents
+and marks the facts in them (names, addresses, registration numbers, phones, legal
+form, founding date, staff, revenue, services, clients...), in ten languages.
+It is a small model trained from scratch that only marks pieces of the text, so it
+cannot invent a value. `profile.py` turns those marks into one sourced business profile.
 
 ## Step 1 - check the machine
 
-On the desktop, open PowerShell in `C:\Users\neomh\new model\extractor`:
+On the desktop, unzip `extractor-package.zip` into
+`C:\Users\neomh\new model\extractor`, then open PowerShell there:
 
 ```powershell
 cd "C:\Users\neomh\new model\extractor"
@@ -61,14 +60,17 @@ test model trained on a CPU.
 
 ## Step 4 - use it on a real folder (laptop)
 
-Once, install what `ingest.py` needs to read PDF, Word and Excel files:
+Once, on the laptop, install what `ingest.py` needs to read PDF, Word and
+Excel files, and what the Extractor needs besides torch (torch is already
+there for Daisy):
 
 ```powershell
-py -m pip install pdfplumber python-docx openpyxl
+py -m pip install pdfplumber python-docx openpyxl tokenizers phonenumbers hijridate
 ```
 
-Put `extractor-1.0.0.pt` (or `extractor-pilot.pt`) in
-`C:\Users\Laurent\new model\extractor`. Then, in PowerShell:
+Unzip `extractor-package.zip` into `C:\Users\Laurent\new model\extractor`
+(once), and put `extractor-1.0.0.pt` (or `extractor-pilot.pt`) in that
+folder too. Then, in PowerShell:
 
 ```powershell
 cd "C:\Users\Laurent\new model"
