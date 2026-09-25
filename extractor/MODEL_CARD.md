@@ -11,7 +11,7 @@ text: every value it returns is a slice of the input chunk.
 
 | model file | preset | parameters | trained on | status |
 |---|---|---|---|---|
-| `extractor-pilot.pt` | pilot | 11.5M (d 256, 4 layers, 4 heads, vocab 32k) | CPU, 60 min pretraining + 90 min fine-tuning | delivered; a usable test model |
+| `extractor-pilot.pt` | pilot | 11.5M (d 256, 4 layers, 4 heads, vocab 32k) | CPU (4 cores): 810 pretraining steps in 58 min, then 1 fine-tuning epoch (4,627 steps) in 79 min | delivered; a usable test model |
 | `extractor-1.0.0.pt` | full | 32.8M (d 384, 8 layers, 6 heads, vocab 48k) | GPU, about 6-10 h | built by `py build.py full` on a GPU (not built here: no GPU) |
 
 ## Intended use
