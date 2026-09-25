@@ -1,0 +1,28 @@
+{
+  "given_male": [
+    "Jean", "Pierre", "Daniel", "Michel", "Philippe", "Christian", "Marc", "Patrick",
+    "Jean-Pierre", "Jean-Claude", "Laurent", "Olivier", "Nicolas", "Stéphane", "Yves", "Pascal",
+    "Alain", "Claude", "Thierry", "Frédéric", "David", "Julien", "Sébastien", "Luca",
+    "Raphaël", "Samuel", "Loïc", "Cédric", "Grégoire", "Benjamin", "Noah", "Gabriel",
+    "Florian", "Yann", "Joël", "Bastien", "Xavier", "Fabien", "Mathias", "Gilles"
+  ],
+  "given_female": [
+    "Marie", "Anne", "Françoise", "Isabelle", "Catherine", "Nathalie", "Christine", "Monique",
+    "Sylvie", "Sandra", "Valérie", "Sophie", "Laurence", "Chantal", "Nicole", "Martine",
+    "Céline", "Stéphanie", "Aline", "Mélanie", "Julie", "Camille", "Léa", "Chloé",
+    "Emma", "Zoé", "Sarah", "Laura", "Joëlle", "Corinne", "Ariane", "Géraldine",
+    "Séverine", "Caroline", "Évelyne", "Mireille", "Noémie", "Anne-Laure"
+  ],
+  "family": [
+    "Favre", "Rochat", "Bonvin", "Pittet", "Cuénod", "Chevalley", "Jaccard", "Rey",
+    "Monnier", "Morand", "Blanc", "Perrin", "Dubois", "Martin", "Mottier", "Borel",
+    "Gay", "Crettenand", "Fellay", "Michellod", "Roduit", "Carron", "Maret", "Luisier",
+    "Délèze", "Theytaz", "Zufferey", "Épiney", "Salamin", "Pralong", "Rossier", "Chappuis",
+    "Jeanneret", "Robert", "Perret", "Huguenin", "Matthey", "Vuilleumier", "Girard", "Ducommun",
+    "Courvoisier", "Droz", "Boillat", "Froidevaux", "Jobin", "Cattin", "Queloz", "Bourquin",
+    "Grandjean", "Rosselet", "Pasche", "Cornaz", "Bovet", "Chollet", "Dutoit", "Gaillard",
+    "Golay", "Jaquet", "Magnin", "Mayor", "Nicolet", "Piguet", "Reymond", "Savary",
+    "Schneider", "Wicht", "Zbinden", "Müller", "Meier", "Schmid", "Keller", "Rossi",
+    "Bianchi", "Aebischer", "Rime", "Clerc", "Sauthier", "Bugnon", "Mauron", "Baeriswyl"
+  ]
+}

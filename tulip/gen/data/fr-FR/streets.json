@@ -1,0 +1,19 @@
+{
+  "streets": [
+    "rue des Alpes", "avenue Jean Jaurès", "rue de la République", "rue Victor Hugo",
+    "boulevard Gambetta", "place de la Mairie", "rue Pasteur", "avenue du Général de Gaulle",
+    "rue Nationale", "rue de la Gare", "rue du Moulin", "chemin des Vignes",
+    "impasse des Lilas", "allée des Tilleuls", "avenue de la Libération", "rue Jules Ferry",
+    "rue des Écoles", "boulevard Voltaire", "rue de Verdun", "route de Paris",
+    "rue du Général Leclerc", "rue Carnot", "rue Émile Zola", "rue de l'Église",
+    "place du Marché", "rue du Stade", "route de Lyon", "avenue Foch",
+    "rue Anatole France", "rue Paul Bert", "rue Jean Moulin", "rue du 8 Mai 1945",
+    "rue du 11 Novembre", "boulevard de la Liberté", "rue Georges Clemenceau", "rue Aristide Briand",
+    "place de l'Hôtel de Ville", "rue des Acacias", "rue de la Paix", "rue du Château",
+    "rue Principale", "rue Saint-Martin", "rue Pierre et Marie Curie", "rue Denis Papin",
+    "rue de l'Industrie", "rue des Artisans", "avenue de l'Europe", "rue du Commerce",
+    "impasse de l'Artisanat", "chemin de la Croix Blanche", "quai de la Loire", "cours Mirabeau",
+    "boulevard Jean-Jaurès", "avenue Pierre-Mendès-France", "rue Jean-Baptiste Clément", "allée des Chênes",
+    "route de Grenoble", "rue des Frères Lumière", "avenue du Maréchal Juin", "rue de la Liberté"
+  ]
+}

@@ -1,0 +1,390 @@
+{
+ "_about": "Words for company names and countries (from the PLAN's shared data, written natively for the Extractor): name_patterns use {family} {given} {brand} {activity_word} {city} {initials}.",
+ "name_patterns": [
+  "{brand} {activity_word}",
+  "{family} {activity_word}",
+  "{city} {activity_word}",
+  "{family} & Sons",
+  "{family} & Sons {activity_word}",
+  "{initials} {activity_word}",
+  "{given}'s {activity_word}",
+  "{family}'s {activity_word}",
+  "{given} {family} {activity_word}",
+  "The {brand} {activity_word}",
+  "{brand}",
+  "{family} Enterprises",
+  "{family} Brothers",
+  "{brand} Group",
+  "{family} & Co",
+  "{brand} Global"
+ ],
+ "brand_words": [
+  "Novalis",
+  "Brightway",
+  "Kestrel",
+  "Bluestone",
+  "Silverline",
+  "Northstar",
+  "Redwood",
+  "Oakridge",
+  "Clearwater",
+  "Pinnacle",
+  "Meridian",
+  "Ironbark",
+  "Greenleaf",
+  "Crestline",
+  "Lumina",
+  "Vantage",
+  "Beacon",
+  "Cobalt",
+  "Copperfield",
+  "Harrier",
+  "Osprey",
+  "Wrenfield",
+  "Stonebridge",
+  "Larkspur",
+  "Evermore",
+  "Trueline",
+  "Primrose",
+  "Sunridge",
+  "Brookvale",
+  "Ashgrove",
+  "Velora",
+  "Corvant",
+  "Altrix",
+  "Quantis",
+  "Nexora",
+  "Solvane",
+  "Tidewater",
+  "Fairhaven",
+  "Goldcrest",
+  "Hollybrook",
+  "Blue Wattle",
+  "Southern Cross",
+  "Maplewood",
+  "Northfield",
+  "Silver Birch",
+  "Everest",
+  "Sapphire",
+  "Sunrise",
+  "Galaxy",
+  "Supreme",
+  "Crystal",
+  "Kingsway",
+  "Royal Oak",
+  "Swiftline",
+  "Clearpath",
+  "Brightpoint",
+  "Truenorth",
+  "Aspenridge",
+  "Halcyon",
+  "Arbor",
+  "Lodestar",
+  "Parkside",
+  "Riverbend",
+  "Hearthstone",
+  "Willowbrook",
+  "Bramble",
+  "Thistle",
+  "Juniper",
+  "Marlowe",
+  "Ember",
+  "Quill",
+  "Alder",
+  "Fernhill",
+  "Starling",
+  "Seabright",
+  "Cedarline",
+  "Summit",
+  "Pioneer",
+  "Landmark",
+  "Premier",
+  "Paramount",
+  "Goldleaf",
+  "Harbourlight",
+  "Sai",
+  "Balaji",
+  "Shree Ganesh",
+  "Laxmi",
+  "Siddhi",
+  "Om Sai",
+  "Divine Grace",
+  "Favour",
+  "Goodness",
+  "Excel",
+  "Victory"
+ ],
+ "country_names": {
+  "SA": "Saudi Arabia",
+  "AE": "United Arab Emirates",
+  "EG": "Egypt",
+  "MA": "Morocco",
+  "CN": "China",
+  "TW": "Taiwan",
+  "HK": "Hong Kong",
+  "SG": "Singapore",
+  "US": "United States",
+  "GB": "United Kingdom",
+  "IN": "India",
+  "AU": "Australia",
+  "CA": "Canada",
+  "NG": "Nigeria",
+  "FR": "France",
+  "BE": "Belgium",
+  "CH": "Switzerland",
+  "SN": "Senegal",
+  "RU": "Russia",
+  "KZ": "Kazakhstan",
+  "BY": "Belarus",
+  "ES": "Spain",
+  "MX": "Mexico",
+  "AR": "Argentina",
+  "CO": "Colombia",
+  "CL": "Chile",
+  "IT": "Italy",
+  "JP": "Japan",
+  "KR": "South Korea"
+ },
+ "activity_words": {
+  "bakery": [
+   "Bakery",
+   "Bakehouse",
+   "Bake Shop",
+   "Patisserie"
+  ],
+  "restaurant": [
+   "Restaurant",
+   "Kitchen",
+   "Grill",
+   "Bistro"
+  ],
+  "cafe_bar": [
+   "Café",
+   "Coffee House",
+   "Espresso Bar",
+   "Taproom"
+  ],
+  "hotel": [
+   "Hotel",
+   "Inn",
+   "Suites",
+   "Lodge"
+  ],
+  "plumbing_hvac": [
+   "Plumbing",
+   "Plumbing & Heating",
+   "Heating & Air",
+   "Mechanical"
+  ],
+  "electrical": [
+   "Electric",
+   "Electrical",
+   "Electrical Services",
+   "Power"
+  ],
+  "building_contractor": [
+   "Construction",
+   "Builders",
+   "Building",
+   "Contracting"
+  ],
+  "painting": [
+   "Painting",
+   "Painters",
+   "Decorating",
+   "Painting & Decorating"
+  ],
+  "car_repair": [
+   "Auto Repair",
+   "Automotive",
+   "Motors",
+   "Garage"
+  ],
+  "clothing_shop": [
+   "Boutique",
+   "Clothing",
+   "Apparel",
+   "Outfitters"
+  ],
+  "florist": [
+   "Florist",
+   "Flowers",
+   "Floral Design",
+   "Blooms"
+  ],
+  "pharmacy": [
+   "Pharmacy",
+   "Chemists",
+   "Drugs",
+   "Apothecary"
+  ],
+  "grocery": [
+   "Grocery",
+   "Market",
+   "Foods",
+   "Mini Mart"
+  ],
+  "ecommerce": [
+   "Store",
+   "Shop",
+   "Online",
+   "Direct"
+  ],
+  "wholesale_electronics": [
+   "Distribution",
+   "Electronics",
+   "Computers",
+   "Technologies"
+  ],
+  "software": [
+   "Software",
+   "Labs",
+   "Technologies",
+   "Digital"
+  ],
+  "it_consulting": [
+   "IT Solutions",
+   "Tech Support",
+   "Systems",
+   "IT Services"
+  ],
+  "web_hosting": [
+   "Hosting",
+   "Cloud",
+   "Data",
+   "Networks"
+  ],
+  "accounting": [
+   "Accounting",
+   "Accountants",
+   "CPA",
+   "Tax & Accounting"
+  ],
+  "law_firm": [
+   "Law",
+   "Law Group",
+   "Legal",
+   "Law Partners"
+  ],
+  "management_consulting": [
+   "Consulting",
+   "Advisory",
+   "Partners",
+   "Consultancy"
+  ],
+  "architecture": [
+   "Architects",
+   "Architecture",
+   "Design Studio",
+   "Studio"
+  ],
+  "advertising": [
+   "Media",
+   "Marketing",
+   "Creative",
+   "Agency"
+  ],
+  "photography": [
+   "Photography",
+   "Studio",
+   "Photo",
+   "Pictures"
+  ],
+  "translation": [
+   "Translations",
+   "Language Services",
+   "Linguistics",
+   "Interpreting"
+  ],
+  "road_freight": [
+   "Logistics",
+   "Freight",
+   "Transport",
+   "Haulage"
+  ],
+  "courier": [
+   "Courier",
+   "Express",
+   "Delivery",
+   "Couriers"
+  ],
+  "travel_agency": [
+   "Travel",
+   "Tours",
+   "Holidays",
+   "Journeys"
+  ],
+  "real_estate": [
+   "Realty",
+   "Real Estate",
+   "Properties",
+   "Estate Agents"
+  ],
+  "cleaning": [
+   "Cleaning",
+   "Cleaners",
+   "Janitorial",
+   "Maid Service"
+  ],
+  "security": [
+   "Security",
+   "Protection",
+   "Security Services",
+   "Guarding"
+  ],
+  "language_school": [
+   "Language School",
+   "Academy",
+   "Tutoring",
+   "Learning"
+  ],
+  "driving_school": [
+   "Driving School",
+   "School of Motoring",
+   "Driver Training",
+   "Driving Academy"
+  ],
+  "fitness": [
+   "Fitness",
+   "Gym",
+   "Athletic Club",
+   "Training"
+  ],
+  "hair_beauty": [
+   "Salon",
+   "Hair Studio",
+   "Beauty",
+   "Spa"
+  ],
+  "dental": [
+   "Dental",
+   "Dental Care",
+   "Dentistry",
+   "Smiles"
+  ],
+  "veterinary": [
+   "Veterinary Clinic",
+   "Animal Hospital",
+   "Vets",
+   "Pet Clinic"
+  ],
+  "printing": [
+   "Printing",
+   "Print",
+   "Press",
+   "Graphics"
+  ],
+  "furniture_maker": [
+   "Furniture",
+   "Woodworks",
+   "Joinery",
+   "Cabinetry"
+  ],
+  "event_catering": [
+   "Catering",
+   "Caterers",
+   "Events",
+   "Kitchen"
+  ]
+ }
+}

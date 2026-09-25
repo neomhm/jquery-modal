@@ -1,0 +1,12432 @@
+{
+ "bakery": {
+  "categories": [
+   "面包",
+   "蛋糕",
+   "西点",
+   "中式糕点",
+   "饮品"
+  ],
+  "roles": [
+   "烘焙师",
+   "裱花师",
+   "西点师",
+   "店长",
+   "收银员",
+   "学徒",
+   "店员"
+  ],
+  "departments": [
+   "烘焙间",
+   "门店",
+   "行政部"
+  ],
+  "items": [
+   {
+    "name": "法式长棍面包",
+    "kind": "product",
+    "category": "面包",
+    "usd": [
+     1.39,
+     2.5
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "全麦吐司",
+    "kind": "product",
+    "category": "面包",
+    "usd": [
+     2.08,
+     3.89
+    ],
+    "unit": "piece",
+    "variants": [
+     "半条",
+     "整条"
+    ]
+   },
+   {
+    "name": "黄油可颂",
+    "kind": "product",
+    "category": "面包",
+    "usd": [
+     1.11,
+     2.22
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "红豆软欧包",
+    "kind": "product",
+    "category": "面包",
+    "usd": [
+     1.67,
+     3.06
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "菠萝包",
+    "kind": "product",
+    "category": "面包",
+    "usd": [
+     0.97,
+     1.67
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "肉松小贝",
+    "kind": "product",
+    "category": "西点",
+    "usd": [
+     0.83,
+     1.67
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "葡式蛋挞（6只装）",
+    "kind": "product",
+    "category": "西点",
+    "usd": [
+     2.78,
+     5.0
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "奶油泡芙",
+    "kind": "product",
+    "category": "西点",
+    "usd": [
+     0.83,
+     1.67
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "手工曲奇（罐装）",
+    "kind": "product",
+    "category": "西点",
+    "usd": [
+     4.17,
+     8.33
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "会议茶歇点心套餐",
+    "kind": "product",
+    "category": "西点",
+    "usd": [
+     3.47,
+     8.33
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "提拉米苏",
+    "kind": "product",
+    "category": "蛋糕",
+    "usd": [
+     3.47,
+     5.83
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "重芝士蛋糕（切块）",
+    "kind": "product",
+    "category": "蛋糕",
+    "usd": [
+     3.06,
+     5.28
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "芒果千层",
+    "kind": "product",
+    "category": "蛋糕",
+    "usd": [
+     3.47,
+     5.56
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "巴斯克芝士蛋糕",
+    "kind": "product",
+    "category": "蛋糕",
+    "usd": [
+     4.17,
+     6.94
+    ],
+    "unit": "piece",
+    "variants": [
+     "切块",
+     "4寸",
+     "6寸"
+    ]
+   },
+   {
+    "name": "动物奶油生日蛋糕",
+    "kind": "product",
+    "category": "蛋糕",
+    "usd": [
+     17.78,
+     31.67
+    ],
+    "unit": "piece",
+    "variants": [
+     "6寸",
+     "8寸",
+     "10寸",
+     "12寸"
+    ]
+   },
+   {
+    "name": "鲜果奶油蛋糕",
+    "kind": "product",
+    "category": "蛋糕",
+    "usd": [
+     20.83,
+     34.72
+    ],
+    "unit": "piece",
+    "variants": [
+     "6寸",
+     "8寸",
+     "10寸"
+    ]
+   },
+   {
+    "name": "蛋黄酥（6枚装）",
+    "kind": "product",
+    "category": "中式糕点",
+    "usd": [
+     5.0,
+     8.06
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "老婆饼",
+    "kind": "product",
+    "category": "中式糕点",
+    "usd": [
+     0.69,
+     1.25
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "凤梨酥（8枚装）",
+    "kind": "product",
+    "category": "中式糕点",
+    "usd": [
+     4.17,
+     8.33
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "广式月饼礼盒",
+    "kind": "product",
+    "category": "中式糕点",
+    "usd": [
+     17.78,
+     53.89
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "美式咖啡",
+    "kind": "product",
+    "category": "饮品",
+    "usd": [
+     2.08,
+     3.47
+    ],
+    "unit": "piece",
+    "variants": [
+     "中杯",
+     "大杯"
+    ]
+   },
+   {
+    "name": "鲜榨橙汁",
+    "kind": "product",
+    "category": "饮品",
+    "usd": [
+     2.08,
+     3.47
+    ],
+    "unit": "piece"
+   }
+  ]
+ },
+ "restaurant": {
+  "categories": [
+   "招牌菜",
+   "热菜",
+   "凉菜",
+   "主食",
+   "套餐",
+   "酒水饮料"
+  ],
+  "roles": [
+   "厨师长",
+   "厨师",
+   "帮厨",
+   "服务员",
+   "传菜员",
+   "收银员",
+   "楼面经理",
+   "洗碗工"
+  ],
+  "departments": [
+   "厨房",
+   "楼面",
+   "财务部"
+  ],
+  "items": [
+   {
+    "name": "招牌红烧肉",
+    "kind": "product",
+    "category": "招牌菜",
+    "usd": [
+     6.67,
+     12.22
+    ],
+    "unit": "piece",
+    "variants": [
+     "小份",
+     "大份"
+    ]
+   },
+   {
+    "name": "剁椒鱼头",
+    "kind": "product",
+    "category": "招牌菜",
+    "usd": [
+     12.22,
+     23.33
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "北京烤鸭",
+    "kind": "product",
+    "category": "招牌菜",
+    "usd": [
+     17.78,
+     41.39
+    ],
+    "unit": "piece",
+    "variants": [
+     "半只",
+     "整只"
+    ]
+   },
+   {
+    "name": "宫保鸡丁",
+    "kind": "product",
+    "category": "热菜",
+    "usd": [
+     4.44,
+     8.06
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "清蒸鲈鱼",
+    "kind": "product",
+    "category": "热菜",
+    "usd": [
+     9.44,
+     17.78
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "老坛酸菜鱼",
+    "kind": "product",
+    "category": "热菜",
+    "usd": [
+     8.06,
+     15.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "麻婆豆腐",
+    "kind": "product",
+    "category": "热菜",
+    "usd": [
+     2.78,
+     4.86
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "干锅花菜",
+    "kind": "product",
+    "category": "热菜",
+    "usd": [
+     3.47,
+     5.56
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "拍黄瓜",
+    "kind": "product",
+    "category": "凉菜",
+    "usd": [
+     1.67,
+     3.06
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "口水鸡",
+    "kind": "product",
+    "category": "凉菜",
+    "usd": [
+     4.17,
+     6.94
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "夫妻肺片",
+    "kind": "product",
+    "category": "凉菜",
+    "usd": [
+     4.86,
+     8.33
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "水晶虾饺皇",
+    "kind": "product",
+    "category": "主食",
+    "usd": [
+     3.89,
+     6.67
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "扬州炒饭",
+    "kind": "product",
+    "category": "主食",
+    "usd": [
+     3.06,
+     5.83
+    ],
+    "unit": "piece",
+    "variants": [
+     "小份",
+     "大份"
+    ]
+   },
+   {
+    "name": "手工水饺（15只）",
+    "kind": "product",
+    "category": "主食",
+    "usd": [
+     2.78,
+     4.17
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "米饭",
+    "kind": "product",
+    "category": "主食",
+    "usd": [
+     0.28,
+     0.42
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "午市商务套餐",
+    "kind": "product",
+    "category": "套餐",
+    "usd": [
+     5.28,
+     12.22
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "商务宴请套餐（按位计）",
+    "kind": "product",
+    "category": "套餐",
+    "usd": [
+     23.33,
+     67.78
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "十人围餐套餐",
+    "kind": "product",
+    "category": "套餐",
+    "usd": [
+     178.89,
+     401.11
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "婚宴套餐（10人/桌）",
+    "kind": "product",
+    "category": "套餐",
+    "usd": [
+     401.11,
+     956.67
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "鲜榨玉米汁",
+    "kind": "product",
+    "category": "酒水饮料",
+    "usd": [
+     1.39,
+     2.78
+    ],
+    "unit": "piece",
+    "variants": [
+     "杯",
+     "扎"
+    ]
+   },
+   {
+    "name": "青岛啤酒",
+    "kind": "product",
+    "category": "酒水饮料",
+    "usd": [
+     1.11,
+     2.08
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "王老吉",
+    "kind": "product",
+    "category": "酒水饮料",
+    "usd": [
+     0.56,
+     0.97
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "五粮液（52度）",
+    "kind": "product",
+    "category": "酒水饮料",
+    "usd": [
+     138.89,
+     194.44
+    ],
+    "unit": "piece"
+   }
+  ]
+ },
+ "cafe_bar": {
+  "categories": [
+   "咖啡",
+   "茶饮",
+   "酒水",
+   "轻食",
+   "甜品"
+  ],
+  "roles": [
+   "咖啡师",
+   "调酒师",
+   "店长",
+   "服务员",
+   "收银员",
+   "厨师",
+   "兼职店员"
+  ],
+  "departments": [
+   "吧台",
+   "厨房",
+   "前厅"
+  ],
+  "items": [
+   {
+    "name": "美式咖啡",
+    "kind": "product",
+    "category": "咖啡",
+    "usd": [
+     2.5,
+     4.44
+    ],
+    "unit": "piece",
+    "variants": [
+     "中杯",
+     "大杯",
+     "超大杯"
+    ]
+   },
+   {
+    "name": "拿铁咖啡",
+    "kind": "product",
+    "category": "咖啡",
+    "usd": [
+     3.06,
+     5.28
+    ],
+    "unit": "piece",
+    "variants": [
+     "中杯",
+     "大杯",
+     "超大杯"
+    ]
+   },
+   {
+    "name": "燕麦拿铁",
+    "kind": "product",
+    "category": "咖啡",
+    "usd": [
+     3.61,
+     5.83
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "卡布奇诺",
+    "kind": "product",
+    "category": "咖啡",
+    "usd": [
+     3.06,
+     5.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "澳白",
+    "kind": "product",
+    "category": "咖啡",
+    "usd": [
+     3.47,
+     5.56
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "手冲咖啡（单品豆）",
+    "kind": "product",
+    "category": "咖啡",
+    "usd": [
+     4.44,
+     9.44
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "冷萃咖啡",
+    "kind": "product",
+    "category": "咖啡",
+    "usd": [
+     3.89,
+     6.25
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "自烘焙咖啡豆",
+    "kind": "product",
+    "category": "咖啡",
+    "usd": [
+     9.44,
+     21.94
+    ],
+    "unit": "pack",
+    "variants": [
+     "250g",
+     "500g"
+    ]
+   },
+   {
+    "name": "抹茶拿铁",
+    "kind": "product",
+    "category": "茶饮",
+    "usd": [
+     3.61,
+     5.56
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "手打柠檬茶",
+    "kind": "product",
+    "category": "茶饮",
+    "usd": [
+     2.22,
+     3.89
+    ],
+    "unit": "piece",
+    "variants": [
+     "中杯",
+     "大杯"
+    ]
+   },
+   {
+    "name": "桂花乌龙",
+    "kind": "product",
+    "category": "茶饮",
+    "usd": [
+     2.78,
+     4.17
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "精酿啤酒（500ml）",
+    "kind": "product",
+    "category": "酒水",
+    "usd": [
+     5.28,
+     9.44
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "莫吉托",
+    "kind": "product",
+    "category": "酒水",
+    "usd": [
+     8.06,
+     13.61
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "金汤力",
+    "kind": "product",
+    "category": "酒水",
+    "usd": [
+     6.94,
+     11.11
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "威士忌嗨棒",
+    "kind": "product",
+    "category": "酒水",
+    "usd": [
+     6.94,
+     11.11
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "牛油果鸡肉三明治",
+    "kind": "product",
+    "category": "轻食",
+    "usd": [
+     4.44,
+     7.22
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "意式肉酱面",
+    "kind": "product",
+    "category": "轻食",
+    "usd": [
+     5.28,
+     8.61
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "凯撒沙拉",
+    "kind": "product",
+    "category": "轻食",
+    "usd": [
+     4.86,
+     7.64
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "纽约芝士蛋糕",
+    "kind": "product",
+    "category": "甜品",
+    "usd": [
+     3.89,
+     5.83
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "提拉米苏",
+    "kind": "product",
+    "category": "甜品",
+    "usd": [
+     3.89,
+     5.83
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "华夫饼",
+    "kind": "product",
+    "category": "甜品",
+    "usd": [
+     3.47,
+     5.56
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "下午茶双人套餐",
+    "kind": "product",
+    "category": "甜品",
+    "usd": [
+     12.22,
+     23.33
+    ],
+    "unit": "set"
+   }
+  ]
+ },
+ "hotel": {
+  "categories": [
+   "客房",
+   "餐饮",
+   "会议宴会",
+   "其他服务"
+  ],
+  "roles": [
+   "前台接待",
+   "大堂经理",
+   "客房服务员",
+   "客房主管",
+   "礼宾员",
+   "销售经理",
+   "餐厅服务员",
+   "总经理"
+  ],
+  "departments": [
+   "前厅部",
+   "客房部",
+   "餐饮部",
+   "销售部"
+  ],
+  "items": [
+   {
+    "name": "高级大床房",
+    "kind": "service",
+    "category": "客房",
+    "usd": [
+     41.39,
+     83.06
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "豪华双床房",
+    "kind": "service",
+    "category": "客房",
+    "usd": [
+     45.56,
+     91.39
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "商务标准间",
+    "kind": "service",
+    "category": "客房",
+    "usd": [
+     31.67,
+     63.61
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "家庭亲子房",
+    "kind": "service",
+    "category": "客房",
+    "usd": [
+     55.28,
+     110.83
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "行政套房",
+    "kind": "service",
+    "category": "客房",
+    "usd": [
+     95.56,
+     234.44
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "钟点房（4小时）",
+    "kind": "service",
+    "category": "客房",
+    "usd": [
+     13.61,
+     27.5
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     240
+    ]
+   },
+   {
+    "name": "长住包月房",
+    "kind": "service",
+    "category": "客房",
+    "usd": [
+     625.0,
+     1250.0
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "加床",
+    "kind": "service",
+    "category": "客房",
+    "usd": [
+     13.89,
+     27.78
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "延迟退房（至18点）",
+    "kind": "service",
+    "category": "客房",
+    "usd": [
+     13.89,
+     34.72
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     360
+    ]
+   },
+   {
+    "name": "自助早餐",
+    "kind": "product",
+    "category": "餐饮",
+    "usd": [
+     6.67,
+     17.78
+    ],
+    "unit": "person",
+    "variants": [
+     "单人",
+     "双人"
+    ]
+   },
+   {
+    "name": "晚宴自助餐",
+    "kind": "product",
+    "category": "餐饮",
+    "usd": [
+     23.33,
+     53.89
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "中式围餐（10人桌）",
+    "kind": "product",
+    "category": "餐饮",
+    "usd": [
+     180.56,
+     416.67
+    ],
+    "unit": "set",
+    "variants": [
+     "标准席",
+     "豪华席"
+    ]
+   },
+   {
+    "name": "房内迷你吧饮料",
+    "kind": "product",
+    "category": "餐饮",
+    "usd": [
+     1.39,
+     4.17
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "会议茶歇",
+    "kind": "product",
+    "category": "会议宴会",
+    "usd": [
+     4.86,
+     12.22
+    ],
+    "unit": "person",
+    "variants": [
+     "标准版",
+     "升级版"
+    ]
+   },
+   {
+    "name": "会议室租用（半天）",
+    "kind": "service",
+    "category": "会议宴会",
+    "usd": [
+     166.67,
+     666.67
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     240
+    ]
+   },
+   {
+    "name": "多功能宴会厅租用",
+    "kind": "service",
+    "category": "会议宴会",
+    "usd": [
+     694.44,
+     2777.78
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "投影设备租用",
+    "kind": "service",
+    "category": "会议宴会",
+    "usd": [
+     27.78,
+     69.44
+    ],
+    "unit": "day",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "客衣洗涤",
+    "kind": "service",
+    "category": "其他服务",
+    "usd": [
+     2.08,
+     8.33
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "机场接送",
+    "kind": "service",
+    "category": "其他服务",
+    "usd": [
+     20.83,
+     48.61
+    ],
+    "unit": "session",
+    "minutes": [
+     40,
+     90
+    ]
+   },
+   {
+    "name": "SPA按摩（60分钟）",
+    "kind": "service",
+    "category": "其他服务",
+    "usd": [
+     41.67,
+     97.22
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "停车费（包天）",
+    "kind": "service",
+    "category": "其他服务",
+    "usd": [
+     2.78,
+     8.33
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   }
+  ]
+ },
+ "plumbing_hvac": {
+  "categories": [
+   "空调安装",
+   "空调维修保养",
+   "水电维修",
+   "暖通工程",
+   "配件材料"
+  ],
+  "roles": [
+   "水暖工",
+   "空调安装工",
+   "制冷维修工程师",
+   "项目经理",
+   "学徒工",
+   "客服专员",
+   "预算员"
+  ],
+  "departments": [
+   "工程部",
+   "售后服务部",
+   "客服部",
+   "财务部"
+  ],
+  "items": [
+   {
+    "name": "家用空调安装（挂机）",
+    "kind": "service",
+    "category": "空调安装",
+    "usd": [
+     20.83,
+     41.67
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     150
+    ]
+   },
+   {
+    "name": "柜机空调安装",
+    "kind": "service",
+    "category": "空调安装",
+    "usd": [
+     27.78,
+     55.56
+    ],
+    "unit": "piece",
+    "minutes": [
+     90,
+     180
+    ]
+   },
+   {
+    "name": "空调移机",
+    "kind": "service",
+    "category": "空调安装",
+    "usd": [
+     27.78,
+     62.5
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "空调加氟（R32）",
+    "kind": "service",
+    "category": "空调维修保养",
+    "usd": [
+     20.83,
+     48.61
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "中央空调内机清洗",
+    "kind": "service",
+    "category": "空调维修保养",
+    "usd": [
+     20.83,
+     41.67
+    ],
+    "unit": "piece",
+    "minutes": [
+     45,
+     90
+    ]
+   },
+   {
+    "name": "空调故障上门检测",
+    "kind": "service",
+    "category": "空调维修保养",
+    "usd": [
+     6.94,
+     13.89
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "商用空调月度维保",
+    "kind": "service",
+    "category": "空调维修保养",
+    "usd": [
+     58.33,
+     347.22
+    ],
+    "unit": "month",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "下水管道疏通",
+    "kind": "service",
+    "category": "水电维修",
+    "usd": [
+     13.89,
+     41.67
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "坐便器安装",
+    "kind": "service",
+    "category": "水电维修",
+    "usd": [
+     11.11,
+     27.78
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "水管漏水检修",
+    "kind": "service",
+    "category": "水电维修",
+    "usd": [
+     13.89,
+     41.67
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "PPR给水管敷设",
+    "kind": "service",
+    "category": "水电维修",
+    "usd": [
+     6.94,
+     12.5
+    ],
+    "unit": "m",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "燃气热水器安装",
+    "kind": "service",
+    "category": "水电维修",
+    "usd": [
+     20.83,
+     41.67
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     150
+    ]
+   },
+   {
+    "name": "上门服务费",
+    "kind": "service",
+    "category": "水电维修",
+    "usd": [
+     4.17,
+     8.33
+    ],
+    "unit": "session",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "燃气壁挂炉安装",
+    "kind": "service",
+    "category": "暖通工程",
+    "usd": [
+     41.67,
+     83.33
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "水地暖铺设",
+    "kind": "service",
+    "category": "暖通工程",
+    "usd": [
+     11.11,
+     20.83
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "暖气片拆装更换",
+    "kind": "service",
+    "category": "暖通工程",
+    "usd": [
+     41.67,
+     111.11
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "新风系统安装",
+    "kind": "service",
+    "category": "暖通工程",
+    "usd": [
+     1111.11,
+     3472.22
+    ],
+    "unit": "set",
+    "minutes": [
+     360,
+     480
+    ]
+   },
+   {
+    "name": "多联机中央空调系统安装（三室两厅）",
+    "kind": "service",
+    "category": "暖通工程",
+    "usd": [
+     3472.22,
+     6250.0
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "空调铜管",
+    "kind": "product",
+    "category": "配件材料",
+    "usd": [
+     4.17,
+     8.33
+    ],
+    "unit": "m",
+    "variants": [
+     "1匹",
+     "1.5匹",
+     "2匹",
+     "3匹"
+    ]
+   },
+   {
+    "name": "空调支架",
+    "kind": "product",
+    "category": "配件材料",
+    "usd": [
+     4.17,
+     11.11
+    ],
+    "unit": "piece",
+    "variants": [
+     "普通款",
+     "加厚不锈钢"
+    ]
+   },
+   {
+    "name": "角阀",
+    "kind": "product",
+    "category": "配件材料",
+    "usd": [
+     1.39,
+     4.17
+    ],
+    "unit": "piece",
+    "variants": [
+     "普通款",
+     "全铜款"
+    ]
+   },
+   {
+    "name": "PPR水管",
+    "kind": "product",
+    "category": "配件材料",
+    "usd": [
+     0.97,
+     2.78
+    ],
+    "unit": "m",
+    "variants": [
+     "20mm",
+     "25mm",
+     "32mm"
+    ]
+   },
+   {
+    "name": "不锈钢地漏",
+    "kind": "product",
+    "category": "配件材料",
+    "usd": [
+     2.78,
+     8.33
+    ],
+    "unit": "piece"
+   }
+  ]
+ },
+ "electrical": {
+  "categories": [
+   "强电工程",
+   "弱电工程",
+   "维修服务",
+   "电工材料"
+  ],
+  "roles": [
+   "电工",
+   "持证电工",
+   "弱电工程师",
+   "项目经理",
+   "施工员",
+   "安全员",
+   "学徒工"
+  ],
+  "departments": [
+   "工程部",
+   "维修部",
+   "采购部",
+   "财务部"
+  ],
+  "items": [
+   {
+    "name": "全屋电路改造（按建筑面积）",
+    "kind": "service",
+    "category": "强电工程",
+    "usd": [
+     8.33,
+     16.67
+    ],
+    "unit": "m2",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "强电线路敷设",
+    "kind": "service",
+    "category": "强电工程",
+    "usd": [
+     3.47,
+     6.25
+    ],
+    "unit": "m",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "配电箱更换安装",
+    "kind": "service",
+    "category": "强电工程",
+    "usd": [
+     41.67,
+     111.11
+    ],
+    "unit": "piece",
+    "minutes": [
+     90,
+     240
+    ]
+   },
+   {
+    "name": "家用充电桩安装（7kW）",
+    "kind": "service",
+    "category": "强电工程",
+    "usd": [
+     208.33,
+     486.11
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     300
+    ]
+   },
+   {
+    "name": "低压配电柜安装调试",
+    "kind": "service",
+    "category": "强电工程",
+    "usd": [
+     416.67,
+     1666.67
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "防雷接地检测",
+    "kind": "service",
+    "category": "强电工程",
+    "usd": [
+     111.11,
+     416.67
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "厂房LED照明改造",
+    "kind": "service",
+    "category": "强电工程",
+    "usd": [
+     2777.78,
+     11111.11
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "弱电综合布线",
+    "kind": "service",
+    "category": "弱电工程",
+    "usd": [
+     2.78,
+     5.56
+    ],
+    "unit": "m",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "视频监控系统安装",
+    "kind": "service",
+    "category": "弱电工程",
+    "usd": [
+     277.78,
+     1111.11
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "网络面板安装",
+    "kind": "service",
+    "category": "弱电工程",
+    "usd": [
+     2.78,
+     6.94
+    ],
+    "unit": "piece",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "灯具安装",
+    "kind": "service",
+    "category": "维修服务",
+    "usd": [
+     4.17,
+     11.11
+    ],
+    "unit": "piece",
+    "minutes": [
+     15,
+     60
+    ]
+   },
+   {
+    "name": "开关插座更换",
+    "kind": "service",
+    "category": "维修服务",
+    "usd": [
+     2.08,
+     4.86
+    ],
+    "unit": "piece",
+    "minutes": [
+     10,
+     30
+    ]
+   },
+   {
+    "name": "电路故障检修",
+    "kind": "service",
+    "category": "维修服务",
+    "usd": [
+     13.89,
+     41.67
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     180
+    ]
+   },
+   {
+    "name": "智能开关安装调试",
+    "kind": "service",
+    "category": "维修服务",
+    "usd": [
+     6.94,
+     13.89
+    ],
+    "unit": "piece",
+    "minutes": [
+     20,
+     60
+    ]
+   },
+   {
+    "name": "电工上门费",
+    "kind": "service",
+    "category": "维修服务",
+    "usd": [
+     4.17,
+     8.33
+    ],
+    "unit": "session",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "物业电工驻场维护",
+    "kind": "service",
+    "category": "维修服务",
+    "usd": [
+     277.78,
+     833.33
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "BV铜芯电线",
+    "kind": "product",
+    "category": "电工材料",
+    "usd": [
+     0.28,
+     0.56
+    ],
+    "unit": "m",
+    "variants": [
+     "1.5平方",
+     "2.5平方",
+     "4平方",
+     "6平方"
+    ]
+   },
+   {
+    "name": "PVC穿线管",
+    "kind": "product",
+    "category": "电工材料",
+    "usd": [
+     0.28,
+     0.69
+    ],
+    "unit": "m"
+   },
+   {
+    "name": "五孔插座面板",
+    "kind": "product",
+    "category": "电工材料",
+    "usd": [
+     1.39,
+     4.17
+    ],
+    "unit": "piece",
+    "variants": [
+     "普通款",
+     "带USB款"
+    ]
+   },
+   {
+    "name": "空气开关（断路器）",
+    "kind": "product",
+    "category": "电工材料",
+    "usd": [
+     2.78,
+     6.94
+    ],
+    "unit": "piece",
+    "variants": [
+     "16A",
+     "32A",
+     "63A"
+    ]
+   },
+   {
+    "name": "漏电保护器",
+    "kind": "product",
+    "category": "电工材料",
+    "usd": [
+     5.56,
+     13.89
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "LED吸顶灯",
+    "kind": "product",
+    "category": "电工材料",
+    "usd": [
+     13.89,
+     41.67
+    ],
+    "unit": "piece",
+    "variants": [
+     "24W",
+     "36W",
+     "48W"
+    ]
+   }
+  ]
+ },
+ "building_contractor": {
+  "categories": [
+   "主体工程",
+   "基础工程",
+   "装饰装修",
+   "零星工程",
+   "劳务用工"
+  ],
+  "roles": [
+   "项目经理",
+   "施工员",
+   "安全员",
+   "质检员",
+   "资料员",
+   "预算员",
+   "泥瓦工",
+   "钢筋工"
+  ],
+  "departments": [
+   "工程部",
+   "预算部",
+   "安全质量部",
+   "财务部"
+  ],
+  "items": [
+   {
+    "name": "工程施工总承包",
+    "kind": "service",
+    "category": "主体工程",
+    "usd": [
+     69444.44,
+     694444.44
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "框架结构主体施工",
+    "kind": "service",
+    "category": "主体工程",
+    "usd": [
+     166.67,
+     305.56
+    ],
+    "unit": "m2",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "钢结构厂房建造",
+    "kind": "service",
+    "category": "主体工程",
+    "usd": [
+     83.33,
+     166.67
+    ],
+    "unit": "m2",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "农村自建房包工包料",
+    "kind": "service",
+    "category": "主体工程",
+    "usd": [
+     208.33,
+     347.22
+    ],
+    "unit": "m2",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "砖砌体砌筑",
+    "kind": "service",
+    "category": "主体工程",
+    "usd": [
+     11.11,
+     20.83
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "旧房结构加固改造",
+    "kind": "service",
+    "category": "主体工程",
+    "usd": [
+     111.11,
+     277.78
+    ],
+    "unit": "m2",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "模板支护",
+    "kind": "service",
+    "category": "主体工程",
+    "usd": [
+     5.56,
+     11.11
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "场地平整及土方工程",
+    "kind": "service",
+    "category": "基础工程",
+    "usd": [
+     6944.44,
+     41666.67
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "桩基础施工",
+    "kind": "service",
+    "category": "基础工程",
+    "usd": [
+     20.83,
+     55.56
+    ],
+    "unit": "m",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "挖掘机台班",
+    "kind": "service",
+    "category": "基础工程",
+    "usd": [
+     180.56,
+     277.78
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "室外排水管道铺设",
+    "kind": "service",
+    "category": "基础工程",
+    "usd": [
+     13.89,
+     34.72
+    ],
+    "unit": "m",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "外墙保温施工",
+    "kind": "service",
+    "category": "装饰装修",
+    "usd": [
+     11.11,
+     25.0
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "地面找平",
+    "kind": "service",
+    "category": "装饰装修",
+    "usd": [
+     3.47,
+     6.94
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "瓷砖铺贴",
+    "kind": "service",
+    "category": "装饰装修",
+    "usd": [
+     6.94,
+     13.89
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "屋面防水工程",
+    "kind": "service",
+    "category": "零星工程",
+    "usd": [
+     8.33,
+     20.83
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "围墙砌筑施工",
+    "kind": "service",
+    "category": "零星工程",
+    "usd": [
+     41.67,
+     97.22
+    ],
+    "unit": "m",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "混凝土地坪硬化",
+    "kind": "service",
+    "category": "零星工程",
+    "usd": [
+     8.33,
+     16.67
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "脚手架搭拆",
+    "kind": "service",
+    "category": "零星工程",
+    "usd": [
+     2.78,
+     5.56
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "建筑垃圾清运",
+    "kind": "service",
+    "category": "零星工程",
+    "usd": [
+     55.56,
+     138.89
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "点工（大工）",
+    "kind": "service",
+    "category": "劳务用工",
+    "usd": [
+     41.67,
+     69.44
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "点工（小工）",
+    "kind": "service",
+    "category": "劳务用工",
+    "usd": [
+     27.78,
+     41.67
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "钢筋工（按日计）",
+    "kind": "service",
+    "category": "劳务用工",
+    "usd": [
+     48.61,
+     76.39
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   }
+  ]
+ },
+ "painting": {
+  "categories": [
+   "墙面工程",
+   "木器金属漆",
+   "外墙涂装",
+   "局部翻新",
+   "人工"
+  ],
+  "roles": [
+   "油漆工",
+   "腻子工",
+   "项目经理",
+   "设计师",
+   "施工队长",
+   "学徒",
+   "报价员"
+  ],
+  "departments": [
+   "施工部",
+   "设计部",
+   "财务部"
+  ],
+  "items": [
+   {
+    "name": "乳胶漆墙面（一底两面）",
+    "kind": "service",
+    "category": "墙面工程",
+    "usd": [
+     3.47,
+     6.25
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "墙面满批腻子",
+    "kind": "service",
+    "category": "墙面工程",
+    "usd": [
+     2.08,
+     4.17
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "艺术涂料施工",
+    "kind": "service",
+    "category": "墙面工程",
+    "usd": [
+     11.11,
+     34.72
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "墙纸铺贴（含基膜）",
+    "kind": "service",
+    "category": "墙面工程",
+    "usd": [
+     2.78,
+     5.56
+    ],
+    "unit": "m2",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "硅藻泥施工",
+    "kind": "service",
+    "category": "墙面工程",
+    "usd": [
+     20.83,
+     41.67
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "全屋墙面焕新",
+    "kind": "service",
+    "category": "墙面工程",
+    "usd": [
+     416.67,
+     1666.67
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "木门木器漆翻新",
+    "kind": "service",
+    "category": "木器金属漆",
+    "usd": [
+     41.67,
+     111.11
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     300
+    ]
+   },
+   {
+    "name": "家具补漆修色",
+    "kind": "service",
+    "category": "木器金属漆",
+    "usd": [
+     13.89,
+     41.67
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "踢脚线刷漆",
+    "kind": "service",
+    "category": "木器金属漆",
+    "usd": [
+     1.39,
+     2.78
+    ],
+    "unit": "m",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "金属栏杆防锈漆",
+    "kind": "service",
+    "category": "木器金属漆",
+    "usd": [
+     4.17,
+     8.33
+    ],
+    "unit": "m",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "外墙真石漆喷涂",
+    "kind": "service",
+    "category": "外墙涂装",
+    "usd": [
+     8.33,
+     20.83
+    ],
+    "unit": "m2",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "外墙弹性涂料",
+    "kind": "service",
+    "category": "外墙涂装",
+    "usd": [
+     5.56,
+     12.5
+    ],
+    "unit": "m2",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "旧墙皮铲除",
+    "kind": "service",
+    "category": "局部翻新",
+    "usd": [
+     1.11,
+     2.08
+    ],
+    "unit": "m2",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "卫生间防水涂刷",
+    "kind": "service",
+    "category": "局部翻新",
+    "usd": [
+     11.11,
+     20.83
+    ],
+    "unit": "m2",
+    "minutes": [
+     120,
+     300
+    ]
+   },
+   {
+    "name": "二手房翻新（半包）",
+    "kind": "service",
+    "category": "局部翻新",
+    "usd": [
+     69.44,
+     125.0
+    ],
+    "unit": "m2",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "石膏板吊顶",
+    "kind": "service",
+    "category": "局部翻新",
+    "usd": [
+     16.67,
+     30.56
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "环氧地坪漆施工",
+    "kind": "service",
+    "category": "局部翻新",
+    "usd": [
+     4.17,
+     11.11
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "墙面裂缝修补",
+    "kind": "service",
+    "category": "局部翻新",
+    "usd": [
+     2.78,
+     6.94
+    ],
+    "unit": "m",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "防霉墙面处理",
+    "kind": "service",
+    "category": "局部翻新",
+    "usd": [
+     2.78,
+     5.56
+    ],
+    "unit": "m2",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "油漆工（按日计）",
+    "kind": "service",
+    "category": "人工",
+    "usd": [
+     48.61,
+     69.44
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "腻子工（按日计）",
+    "kind": "service",
+    "category": "人工",
+    "usd": [
+     41.67,
+     62.5
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   }
+  ]
+ },
+ "car_repair": {
+  "categories": [
+   "保养",
+   "维修",
+   "轮胎",
+   "美容",
+   "配件"
+  ],
+  "roles": [
+   "机修工",
+   "钣金工",
+   "喷漆工",
+   "服务顾问",
+   "前台接待",
+   "技术总监",
+   "洗车工",
+   "配件管理员"
+  ],
+  "departments": [
+   "维修车间",
+   "前台",
+   "配件部",
+   "美容部"
+  ],
+  "items": [
+   {
+    "name": "小保养（更换机油机滤）",
+    "kind": "service",
+    "category": "保养",
+    "usd": [
+     41.67,
+     90.28
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "大保养（含三滤更换）",
+    "kind": "service",
+    "category": "保养",
+    "usd": [
+     111.11,
+     250.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "自动变速箱油循环更换",
+    "kind": "service",
+    "category": "保养",
+    "usd": [
+     83.33,
+     208.33
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "汽车空调清洗消毒",
+    "kind": "service",
+    "category": "保养",
+    "usd": [
+     20.83,
+     48.61
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "发动机积碳清洗",
+    "kind": "service",
+    "category": "保养",
+    "usd": [
+     41.67,
+     97.22
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "刹车油更换",
+    "kind": "service",
+    "category": "保养",
+    "usd": [
+     27.78,
+     55.56
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     45
+    ]
+   },
+   {
+    "name": "前刹车片更换",
+    "kind": "service",
+    "category": "维修",
+    "usd": [
+     41.67,
+     111.11
+    ],
+    "unit": "set",
+    "minutes": [
+     45,
+     90
+    ]
+   },
+   {
+    "name": "钣金喷漆（每面）",
+    "kind": "service",
+    "category": "维修",
+    "usd": [
+     41.67,
+     111.11
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "电脑故障检测",
+    "kind": "service",
+    "category": "维修",
+    "usd": [
+     13.89,
+     41.67
+    ],
+    "unit": "session",
+    "minutes": [
+     20,
+     60
+    ]
+   },
+   {
+    "name": "机修工时",
+    "kind": "service",
+    "category": "维修",
+    "usd": [
+     11.11,
+     20.83
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "四轮定位",
+    "kind": "service",
+    "category": "轮胎",
+    "usd": [
+     13.89,
+     27.78
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "四轮动平衡",
+    "kind": "service",
+    "category": "轮胎",
+    "usd": [
+     5.56,
+     13.89
+    ],
+    "unit": "session",
+    "minutes": [
+     20,
+     40
+    ]
+   },
+   {
+    "name": "轮胎拆装",
+    "kind": "service",
+    "category": "轮胎",
+    "usd": [
+     2.78,
+     5.56
+    ],
+    "unit": "piece",
+    "minutes": [
+     10,
+     20
+    ]
+   },
+   {
+    "name": "补胎",
+    "kind": "service",
+    "category": "轮胎",
+    "usd": [
+     2.78,
+     5.56
+    ],
+    "unit": "piece",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "轿车轮胎",
+    "kind": "product",
+    "category": "轮胎",
+    "usd": [
+     55.56,
+     111.11
+    ],
+    "unit": "piece",
+    "variants": [
+     "15寸",
+     "16寸",
+     "17寸",
+     "18寸"
+    ]
+   },
+   {
+    "name": "汽车精洗",
+    "kind": "service",
+    "category": "美容",
+    "usd": [
+     6.94,
+     16.67
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "打蜡抛光",
+    "kind": "service",
+    "category": "美容",
+    "usd": [
+     27.78,
+     69.44
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "内饰深度清洁",
+    "kind": "service",
+    "category": "美容",
+    "usd": [
+     27.78,
+     55.56
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "蓄电池",
+    "kind": "product",
+    "category": "配件",
+    "usd": [
+     55.56,
+     125.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "45Ah",
+     "60Ah",
+     "70Ah"
+    ]
+   },
+   {
+    "name": "雨刮片",
+    "kind": "product",
+    "category": "配件",
+    "usd": [
+     8.33,
+     20.83
+    ],
+    "unit": "set",
+    "variants": [
+     "有骨",
+     "无骨"
+    ]
+   },
+   {
+    "name": "全合成机油",
+    "kind": "product",
+    "category": "配件",
+    "usd": [
+     11.11,
+     16.67
+    ],
+    "unit": "piece",
+    "variants": [
+     "1L",
+     "4L"
+    ]
+   },
+   {
+    "name": "机油滤芯",
+    "kind": "product",
+    "category": "配件",
+    "usd": [
+     2.78,
+     6.94
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "火花塞",
+    "kind": "product",
+    "category": "配件",
+    "usd": [
+     4.17,
+     11.11
+    ],
+    "unit": "piece"
+   }
+  ]
+ },
+ "clothing_shop": {
+  "categories": [
+   "上装",
+   "裤装",
+   "裙装",
+   "外套",
+   "配饰",
+   "改衣服务"
+  ],
+  "roles": [
+   "店长",
+   "导购",
+   "收银员",
+   "陈列师",
+   "库管",
+   "裁缝",
+   "店员"
+  ],
+  "departments": [
+   "门店",
+   "仓库",
+   "采购部"
+  ],
+  "items": [
+   {
+    "name": "纯棉圆领T恤",
+    "kind": "product",
+    "category": "上装",
+    "usd": [
+     8.19,
+     22.08
+    ],
+    "unit": "piece",
+    "variants": [
+     "单件",
+     "两件装",
+     "三件装"
+    ]
+   },
+   {
+    "name": "针织开衫",
+    "kind": "product",
+    "category": "上装",
+    "usd": [
+     27.64,
+     69.31
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "免烫商务衬衫",
+    "kind": "product",
+    "category": "上装",
+    "usd": [
+     22.08,
+     63.75
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "加绒连帽卫衣",
+    "kind": "product",
+    "category": "上装",
+    "usd": [
+     17.92,
+     49.86
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "休闲运动套装",
+    "kind": "product",
+    "category": "上装",
+    "usd": [
+     35.97,
+     97.08
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "修身牛仔裤",
+    "kind": "product",
+    "category": "裤装",
+    "usd": [
+     22.08,
+     55.42
+    ],
+    "unit": "piece",
+    "variants": [
+     "常规款",
+     "加绒款"
+    ]
+   },
+   {
+    "name": "冰丝阔腿裤",
+    "kind": "product",
+    "category": "裤装",
+    "usd": [
+     16.53,
+     41.53
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "工装休闲裤",
+    "kind": "product",
+    "category": "裤装",
+    "usd": [
+     20.69,
+     49.86
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "真丝连衣裙",
+    "kind": "product",
+    "category": "裙装",
+    "usd": [
+     55.42,
+     177.78
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "碎花雪纺连衣裙",
+    "kind": "product",
+    "category": "裙装",
+    "usd": [
+     27.64,
+     69.31
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "A字半身裙",
+    "kind": "product",
+    "category": "裙装",
+    "usd": [
+     22.08,
+     63.75
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "羊毛双面呢大衣",
+    "kind": "product",
+    "category": "外套",
+    "usd": [
+     124.86,
+     372.22
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "白鸭绒羽绒服",
+    "kind": "product",
+    "category": "外套",
+    "usd": [
+     69.31,
+     222.08
+    ],
+    "unit": "piece",
+    "variants": [
+     "短款",
+     "中长款",
+     "长款"
+    ]
+   },
+   {
+    "name": "休闲西装外套",
+    "kind": "product",
+    "category": "外套",
+    "usd": [
+     55.42,
+     166.53
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "双排扣风衣",
+    "kind": "product",
+    "category": "外套",
+    "usd": [
+     55.42,
+     138.75
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "真丝丝巾",
+    "kind": "product",
+    "category": "配饰",
+    "usd": [
+     27.64,
+     83.19
+    ],
+    "unit": "piece",
+    "variants": [
+     "小方巾",
+     "中方巾",
+     "长巾"
+    ]
+   },
+   {
+    "name": "羊绒围巾",
+    "kind": "product",
+    "category": "配饰",
+    "usd": [
+     27.64,
+     97.08
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "真皮腰带",
+    "kind": "product",
+    "category": "配饰",
+    "usd": [
+     13.75,
+     41.53
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "棒球帽",
+    "kind": "product",
+    "category": "配饰",
+    "usd": [
+     6.81,
+     20.69
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "棉袜（5双装）",
+    "kind": "product",
+    "category": "配饰",
+    "usd": [
+     4.03,
+     9.58
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "裤长修改",
+    "kind": "service",
+    "category": "改衣服务",
+    "usd": [
+     2.08,
+     5.56
+    ],
+    "unit": "piece",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "衣服改腰",
+    "kind": "service",
+    "category": "改衣服务",
+    "usd": [
+     4.17,
+     8.33
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "钉扣锁边",
+    "kind": "service",
+    "category": "改衣服务",
+    "usd": [
+     0.69,
+     2.08
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     15
+    ]
+   }
+  ]
+ },
+ "florist": {
+  "categories": [
+   "鲜花花束",
+   "花篮花艺",
+   "绿植盆栽",
+   "婚庆布置",
+   "花礼"
+  ],
+  "roles": [
+   "花艺师",
+   "店长",
+   "店员",
+   "配送员",
+   "婚礼花艺设计师",
+   "学徒"
+  ],
+  "departments": [
+   "门店",
+   "花艺工作室",
+   "配送部"
+  ],
+  "items": [
+   {
+    "name": "红玫瑰花束",
+    "kind": "product",
+    "category": "鲜花花束",
+    "usd": [
+     17.78,
+     37.22
+    ],
+    "unit": "piece",
+    "variants": [
+     "11枝",
+     "19枝",
+     "33枝",
+     "99枝"
+    ]
+   },
+   {
+    "name": "香槟玫瑰花束",
+    "kind": "product",
+    "category": "鲜花花束",
+    "usd": [
+     20.83,
+     48.61
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "向日葵花束",
+    "kind": "product",
+    "category": "鲜花花束",
+    "usd": [
+     13.61,
+     31.67
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "康乃馨抱抱桶",
+    "kind": "product",
+    "category": "鲜花花束",
+    "usd": [
+     17.78,
+     37.22
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "满天星花束",
+    "kind": "product",
+    "category": "鲜花花束",
+    "usd": [
+     9.72,
+     22.22
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "百合花束",
+    "kind": "product",
+    "category": "鲜花花束",
+    "usd": [
+     16.67,
+     34.72
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "单枝向日葵",
+    "kind": "product",
+    "category": "鲜花花束",
+    "usd": [
+     2.08,
+     4.17
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "开业花篮",
+    "kind": "product",
+    "category": "花篮花艺",
+    "usd": [
+     40.0,
+     95.56
+    ],
+    "unit": "piece",
+    "variants": [
+     "单层",
+     "双层",
+     "三层"
+    ]
+   },
+   {
+    "name": "挽联花圈",
+    "kind": "product",
+    "category": "花篮花艺",
+    "usd": [
+     27.78,
+     83.33
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "会议台花",
+    "kind": "product",
+    "category": "花篮花艺",
+    "usd": [
+     20.83,
+     55.56
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "发财树",
+    "kind": "product",
+    "category": "绿植盆栽",
+    "usd": [
+     23.33,
+     83.06
+    ],
+    "unit": "piece",
+    "variants": [
+     "小盆",
+     "中盆",
+     "大盆"
+    ]
+   },
+   {
+    "name": "蝴蝶兰（五株）",
+    "kind": "product",
+    "category": "绿植盆栽",
+    "usd": [
+     27.5,
+     81.67
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "绿萝",
+    "kind": "product",
+    "category": "绿植盆栽",
+    "usd": [
+     2.78,
+     8.33
+    ],
+    "unit": "piece",
+    "variants": [
+     "小盆",
+     "中盆",
+     "大盆"
+    ]
+   },
+   {
+    "name": "多肉组合盆栽",
+    "kind": "product",
+    "category": "绿植盆栽",
+    "usd": [
+     4.17,
+     11.11
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "办公绿植租摆",
+    "kind": "service",
+    "category": "绿植盆栽",
+    "usd": [
+     41.67,
+     277.78
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "婚车头车花艺布置",
+    "kind": "service",
+    "category": "婚庆布置",
+    "usd": [
+     83.33,
+     250.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "婚礼现场花艺布置",
+    "kind": "service",
+    "category": "婚庆布置",
+    "usd": [
+     694.44,
+     4166.67
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "永生花礼盒",
+    "kind": "product",
+    "category": "花礼",
+    "usd": [
+     23.33,
+     67.78
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "玫瑰香皂花礼盒",
+    "kind": "product",
+    "category": "花礼",
+    "usd": [
+     6.94,
+     16.67
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "每周一花（月卡）",
+    "kind": "product",
+    "category": "花礼",
+    "usd": [
+     13.75,
+     41.53
+    ],
+    "unit": "month"
+   },
+   {
+    "name": "鲜花同城配送",
+    "kind": "service",
+    "category": "花礼",
+    "usd": [
+     2.78,
+     6.94
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "花艺手作体验课",
+    "kind": "service",
+    "category": "花礼",
+    "usd": [
+     27.78,
+     55.56
+    ],
+    "unit": "person",
+    "minutes": [
+     90,
+     120
+    ]
+   }
+  ]
+ },
+ "pharmacy": {
+  "categories": [
+   "中西成药",
+   "医疗器械",
+   "保健营养",
+   "中药饮片",
+   "个人护理"
+  ],
+  "roles": [
+   "执业药师",
+   "驻店药师",
+   "店长",
+   "营业员",
+   "收银员",
+   "中药调剂员",
+   "质量负责人"
+  ],
+  "departments": [
+   "门店",
+   "质量管理部",
+   "采购部"
+  ],
+  "items": [
+   {
+    "name": "布洛芬缓释胶囊（24粒）",
+    "kind": "product",
+    "category": "中西成药",
+    "usd": [
+     2.08,
+     4.86
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "连花清瘟胶囊",
+    "kind": "product",
+    "category": "中西成药",
+    "usd": [
+     2.08,
+     4.17
+    ],
+    "unit": "box",
+    "variants": [
+     "24粒",
+     "36粒",
+     "48粒"
+    ]
+   },
+   {
+    "name": "阿莫西林胶囊",
+    "kind": "product",
+    "category": "中西成药",
+    "usd": [
+     1.11,
+     3.47
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "感冒灵颗粒",
+    "kind": "product",
+    "category": "中西成药",
+    "usd": [
+     1.67,
+     3.47
+    ],
+    "unit": "box",
+    "variants": [
+     "9袋",
+     "12袋"
+    ]
+   },
+   {
+    "name": "藿香正气水（10支）",
+    "kind": "product",
+    "category": "中西成药",
+    "usd": [
+     1.39,
+     2.78
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "蒲地蓝消炎片",
+    "kind": "product",
+    "category": "中西成药",
+    "usd": [
+     2.08,
+     3.47
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "云南白药气雾剂",
+    "kind": "product",
+    "category": "中西成药",
+    "usd": [
+     4.17,
+     6.94
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "苯磺酸氨氯地平片",
+    "kind": "product",
+    "category": "中西成药",
+    "usd": [
+     1.39,
+     5.56
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "盐酸二甲双胍片",
+    "kind": "product",
+    "category": "中西成药",
+    "usd": [
+     0.69,
+     4.17
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "医用外科口罩（50只）",
+    "kind": "product",
+    "category": "医疗器械",
+    "usd": [
+     2.08,
+     5.56
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "上臂式电子血压计",
+    "kind": "product",
+    "category": "医疗器械",
+    "usd": [
+     22.08,
+     63.75
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "血糖试纸（50片）",
+    "kind": "product",
+    "category": "医疗器械",
+    "usd": [
+     8.33,
+     20.83
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "电子体温计",
+    "kind": "product",
+    "category": "医疗器械",
+    "usd": [
+     2.78,
+     8.33
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "创可贴（100片）",
+    "kind": "product",
+    "category": "医疗器械",
+    "usd": [
+     1.11,
+     2.78
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "医用棉签",
+    "kind": "product",
+    "category": "医疗器械",
+    "usd": [
+     0.42,
+     1.11
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "维生素C咀嚼片",
+    "kind": "product",
+    "category": "保健营养",
+    "usd": [
+     1.39,
+     5.56
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "钙片（碳酸钙D3）",
+    "kind": "product",
+    "category": "保健营养",
+    "usd": [
+     4.17,
+     11.11
+    ],
+    "unit": "box",
+    "variants": [
+     "60片",
+     "100片"
+    ]
+   },
+   {
+    "name": "鱼油软胶囊",
+    "kind": "product",
+    "category": "保健营养",
+    "usd": [
+     6.94,
+     20.83
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "宁夏枸杞",
+    "kind": "product",
+    "category": "中药饮片",
+    "usd": [
+     4.17,
+     8.33
+    ],
+    "unit": "pack",
+    "variants": [
+     "250g",
+     "500g"
+    ]
+   },
+   {
+    "name": "西洋参片（50g）",
+    "kind": "product",
+    "category": "中药饮片",
+    "usd": [
+     6.94,
+     16.67
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "75%医用酒精（500ml）",
+    "kind": "product",
+    "category": "个人护理",
+    "usd": [
+     0.83,
+     2.08
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "维生素E乳",
+    "kind": "product",
+    "category": "个人护理",
+    "usd": [
+     0.69,
+     2.08
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "防脱洗发水",
+    "kind": "product",
+    "category": "个人护理",
+    "usd": [
+     5.56,
+     13.89
+    ],
+    "unit": "piece"
+   }
+  ]
+ },
+ "grocery": {
+  "categories": [
+   "粮油调味",
+   "方便速食",
+   "乳品饮料",
+   "休闲零食",
+   "生鲜",
+   "日用百货"
+  ],
+  "roles": [
+   "店长",
+   "收银员",
+   "理货员",
+   "店员",
+   "生鲜主管",
+   "夜班店员",
+   "采购"
+  ],
+  "departments": [
+   "门店",
+   "生鲜部",
+   "仓储部"
+  ],
+  "items": [
+   {
+    "name": "东北大米",
+    "kind": "product",
+    "category": "粮油调味",
+    "usd": [
+     4.17,
+     8.33
+    ],
+    "unit": "pack",
+    "variants": [
+     "5kg",
+     "10kg"
+    ]
+   },
+   {
+    "name": "压榨花生油",
+    "kind": "product",
+    "category": "粮油调味",
+    "usd": [
+     4.17,
+     6.94
+    ],
+    "unit": "piece",
+    "variants": [
+     "1.8L",
+     "5L"
+    ]
+   },
+   {
+    "name": "特级生抽（500ml）",
+    "kind": "product",
+    "category": "粮油调味",
+    "usd": [
+     1.11,
+     2.78
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "老陈醋（500ml）",
+    "kind": "product",
+    "category": "粮油调味",
+    "usd": [
+     0.69,
+     1.67
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "红烧牛肉面（五连包）",
+    "kind": "product",
+    "category": "方便速食",
+    "usd": [
+     1.67,
+     3.06
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "速冻水饺",
+    "kind": "product",
+    "category": "方便速食",
+    "usd": [
+     2.08,
+     4.17
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "关东煮",
+    "kind": "product",
+    "category": "方便速食",
+    "usd": [
+     0.28,
+     0.69
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "金枪鱼饭团",
+    "kind": "product",
+    "category": "方便速食",
+    "usd": [
+     0.69,
+     1.25
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "纯牛奶（250ml×12）",
+    "kind": "product",
+    "category": "乳品饮料",
+    "usd": [
+     5.42,
+     10.42
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "饮用天然水（550ml×24瓶）",
+    "kind": "product",
+    "category": "乳品饮料",
+    "usd": [
+     3.33,
+     6.25
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "碳酸饮料",
+    "kind": "product",
+    "category": "乳品饮料",
+    "usd": [
+     0.42,
+     0.69
+    ],
+    "unit": "piece",
+    "variants": [
+     "330ml",
+     "500ml",
+     "2L"
+    ]
+   },
+   {
+    "name": "酸奶（杯装）",
+    "kind": "product",
+    "category": "乳品饮料",
+    "usd": [
+     0.56,
+     1.11
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "罐装啤酒（500ml）",
+    "kind": "product",
+    "category": "乳品饮料",
+    "usd": [
+     0.56,
+     1.39
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "原味薯片",
+    "kind": "product",
+    "category": "休闲零食",
+    "usd": [
+     0.83,
+     1.67
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "每日坚果",
+    "kind": "product",
+    "category": "休闲零食",
+    "usd": [
+     0.56,
+     1.11
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "新鲜鸡蛋（30枚装）",
+    "kind": "product",
+    "category": "生鲜",
+    "usd": [
+     2.5,
+     4.86
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "烟台红富士苹果",
+    "kind": "product",
+    "category": "生鲜",
+    "usd": [
+     1.11,
+     2.78
+    ],
+    "unit": "kg"
+   },
+   {
+    "name": "香蕉",
+    "kind": "product",
+    "category": "生鲜",
+    "usd": [
+     0.83,
+     1.67
+    ],
+    "unit": "kg"
+   },
+   {
+    "name": "西红柿",
+    "kind": "product",
+    "category": "生鲜",
+    "usd": [
+     0.69,
+     1.39
+    ],
+    "unit": "kg"
+   },
+   {
+    "name": "鲜猪五花肉",
+    "kind": "product",
+    "category": "生鲜",
+    "usd": [
+     3.33,
+     5.56
+    ],
+    "unit": "kg"
+   },
+   {
+    "name": "抽纸（6包装）",
+    "kind": "product",
+    "category": "日用百货",
+    "usd": [
+     2.08,
+     4.17
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "洗衣液",
+    "kind": "product",
+    "category": "日用百货",
+    "usd": [
+     3.47,
+     8.33
+    ],
+    "unit": "piece",
+    "variants": [
+     "1kg",
+     "2kg",
+     "3kg"
+    ]
+   },
+   {
+    "name": "牙膏",
+    "kind": "product",
+    "category": "日用百货",
+    "usd": [
+     1.39,
+     4.17
+    ],
+    "unit": "piece"
+   }
+  ]
+ },
+ "ecommerce": {
+  "categories": [
+   "数码配件",
+   "家居日用",
+   "个护美妆",
+   "母婴用品",
+   "食品",
+   "运动户外"
+  ],
+  "roles": [
+   "店长",
+   "运营专员",
+   "客服",
+   "美工",
+   "仓管",
+   "打包员",
+   "直播主播",
+   "推广专员"
+  ],
+  "departments": [
+   "运营部",
+   "客服部",
+   "仓储物流部",
+   "设计部"
+  ],
+  "items": [
+   {
+    "name": "真无线蓝牙耳机",
+    "kind": "product",
+    "category": "数码配件",
+    "usd": [
+     13.75,
+     55.42
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "磁吸手机壳",
+    "kind": "product",
+    "category": "数码配件",
+    "usd": [
+     2.64,
+     8.19
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "智能手环",
+    "kind": "product",
+    "category": "数码配件",
+    "usd": [
+     20.69,
+     55.42
+    ],
+    "unit": "piece",
+    "variants": [
+     "标准版",
+     "NFC版"
+    ]
+   },
+   {
+    "name": "快充数据线",
+    "kind": "product",
+    "category": "数码配件",
+    "usd": [
+     1.39,
+     4.17
+    ],
+    "unit": "piece",
+    "variants": [
+     "1米",
+     "2米"
+    ]
+   },
+   {
+    "name": "氮化镓充电器",
+    "kind": "product",
+    "category": "数码配件",
+    "usd": [
+     8.19,
+     20.69
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "纯棉床上四件套",
+    "kind": "product",
+    "category": "家居日用",
+    "usd": [
+     27.64,
+     97.08
+    ],
+    "unit": "set",
+    "variants": [
+     "1.5米床",
+     "1.8米床",
+     "2米床"
+    ]
+   },
+   {
+    "name": "不锈钢保温杯",
+    "kind": "product",
+    "category": "家居日用",
+    "usd": [
+     8.19,
+     27.64
+    ],
+    "unit": "piece",
+    "variants": [
+     "350ml",
+     "500ml",
+     "750ml"
+    ]
+   },
+   {
+    "name": "空气炸锅",
+    "kind": "product",
+    "category": "家居日用",
+    "usd": [
+     27.64,
+     83.19
+    ],
+    "unit": "piece",
+    "variants": [
+     "3.5L",
+     "5L",
+     "6.5L"
+    ]
+   },
+   {
+    "name": "扫地机器人",
+    "kind": "product",
+    "category": "家居日用",
+    "usd": [
+     138.75,
+     555.42
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "折叠收纳箱",
+    "kind": "product",
+    "category": "家居日用",
+    "usd": [
+     4.03,
+     12.36
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "补水面膜（10片装）",
+    "kind": "product",
+    "category": "个护美妆",
+    "usd": [
+     8.19,
+     27.64
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "声波电动牙刷",
+    "kind": "product",
+    "category": "个护美妆",
+    "usd": [
+     13.75,
+     55.42
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "防晒霜",
+    "kind": "product",
+    "category": "个护美妆",
+    "usd": [
+     8.19,
+     20.69
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "婴儿纸尿裤（L码）",
+    "kind": "product",
+    "category": "母婴用品",
+    "usd": [
+     10.97,
+     23.47
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "婴儿湿巾（80抽）",
+    "kind": "product",
+    "category": "母婴用品",
+    "usd": [
+     1.11,
+     2.78
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "宝宝辅食米粉",
+    "kind": "product",
+    "category": "母婴用品",
+    "usd": [
+     4.17,
+     9.72
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "挂耳咖啡（20包）",
+    "kind": "product",
+    "category": "食品",
+    "usd": [
+     5.42,
+     13.75
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "每日坚果礼盒",
+    "kind": "product",
+    "category": "食品",
+    "usd": [
+     12.22,
+     37.22
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "螺蛳粉（3袋装）",
+    "kind": "product",
+    "category": "食品",
+    "usd": [
+     2.78,
+     5.42
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "加厚瑜伽垫",
+    "kind": "product",
+    "category": "运动户外",
+    "usd": [
+     6.81,
+     22.08
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "户外露营折叠椅",
+    "kind": "product",
+    "category": "运动户外",
+    "usd": [
+     11.11,
+     27.64
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "速干运动T恤",
+    "kind": "product",
+    "category": "运动户外",
+    "usd": [
+     5.42,
+     13.75
+    ],
+    "unit": "piece"
+   }
+  ]
+ },
+ "wholesale_electronics": {
+  "categories": [
+   "电脑整机",
+   "显示器",
+   "服务器网络",
+   "存储配件",
+   "办公设备",
+   "安防监控"
+  ],
+  "roles": [
+   "销售经理",
+   "销售代表",
+   "采购专员",
+   "仓库管理员",
+   "技术支持工程师",
+   "商务助理",
+   "财务",
+   "物流专员"
+  ],
+  "departments": [
+   "销售部",
+   "采购部",
+   "仓储物流部",
+   "技术部"
+  ],
+  "items": [
+   {
+    "name": "商用笔记本电脑",
+    "kind": "product",
+    "category": "电脑整机",
+    "usd": [
+     527.78,
+     805.56
+    ],
+    "unit": "piece",
+    "variants": [
+     "i5/16G/512G",
+     "i7/16G/1T",
+     "i7/32G/1T"
+    ]
+   },
+   {
+    "name": "商用台式电脑主机",
+    "kind": "product",
+    "category": "电脑整机",
+    "usd": [
+     388.89,
+     763.89
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "迷你主机",
+    "kind": "product",
+    "category": "电脑整机",
+    "usd": [
+     208.33,
+     416.67
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "IPS显示器",
+    "kind": "product",
+    "category": "显示器",
+    "usd": [
+     97.22,
+     208.33
+    ],
+    "unit": "piece",
+    "variants": [
+     "24英寸",
+     "27英寸",
+     "32英寸"
+    ]
+   },
+   {
+    "name": "2U机架式服务器",
+    "kind": "product",
+    "category": "服务器网络",
+    "usd": [
+     2083.33,
+     8333.33
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "24口千兆交换机",
+    "kind": "product",
+    "category": "服务器网络",
+    "usd": [
+     111.11,
+     416.67
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "企业级路由器",
+    "kind": "product",
+    "category": "服务器网络",
+    "usd": [
+     83.33,
+     347.22
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "无线AP（吸顶式）",
+    "kind": "product",
+    "category": "服务器网络",
+    "usd": [
+     41.67,
+     138.89
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "UPS不间断电源（3kVA）",
+    "kind": "product",
+    "category": "服务器网络",
+    "usd": [
+     166.67,
+     694.44
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "超五类网线（305米/箱）",
+    "kind": "product",
+    "category": "服务器网络",
+    "usd": [
+     41.67,
+     111.11
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "NVMe固态硬盘",
+    "kind": "product",
+    "category": "存储配件",
+    "usd": [
+     34.72,
+     69.44
+    ],
+    "unit": "piece",
+    "variants": [
+     "512GB",
+     "1TB",
+     "2TB"
+    ]
+   },
+   {
+    "name": "DDR5内存条",
+    "kind": "product",
+    "category": "存储配件",
+    "usd": [
+     27.78,
+     69.44
+    ],
+    "unit": "piece",
+    "variants": [
+     "16GB",
+     "32GB"
+    ]
+   },
+   {
+    "name": "移动硬盘（2TB）",
+    "kind": "product",
+    "category": "存储配件",
+    "usd": [
+     55.56,
+     97.22
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "无线键鼠套装",
+    "kind": "product",
+    "category": "存储配件",
+    "usd": [
+     9.58,
+     27.64
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "笔记本电源适配器",
+    "kind": "product",
+    "category": "存储配件",
+    "usd": [
+     8.33,
+     20.83
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "黑白激光打印机",
+    "kind": "product",
+    "category": "办公设备",
+    "usd": [
+     125.0,
+     347.22
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "彩色激光多功能一体机",
+    "kind": "product",
+    "category": "办公设备",
+    "usd": [
+     277.78,
+     694.44
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "原装硒鼓",
+    "kind": "product",
+    "category": "办公设备",
+    "usd": [
+     11.11,
+     55.56
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "商务投影仪",
+    "kind": "product",
+    "category": "办公设备",
+    "usd": [
+     277.78,
+     833.33
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "网络摄像机（400万像素）",
+    "kind": "product",
+    "category": "安防监控",
+    "usd": [
+     27.78,
+     111.11
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "硬盘录像机（8路）",
+    "kind": "product",
+    "category": "安防监控",
+    "usd": [
+     55.56,
+     138.89
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "监控专用硬盘（4TB）",
+    "kind": "product",
+    "category": "安防监控",
+    "usd": [
+     69.44,
+     111.11
+    ],
+    "unit": "piece"
+   }
+  ]
+ },
+ "software": {
+  "categories": [
+   "定制开发",
+   "软件产品",
+   "运维服务",
+   "设计服务",
+   "人力外包"
+  ],
+  "roles": [
+   "项目经理",
+   "产品经理",
+   "前端开发工程师",
+   "后端开发工程师",
+   "测试工程师",
+   "UI设计师",
+   "运维工程师",
+   "技术总监"
+  ],
+  "departments": [
+   "研发部",
+   "产品部",
+   "测试部",
+   "商务部"
+  ],
+  "items": [
+   {
+    "name": "微信小程序定制开发",
+    "kind": "service",
+    "category": "定制开发",
+    "usd": [
+     2777.78,
+     16666.67
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "APP定制开发（iOS/Android）",
+    "kind": "service",
+    "category": "定制开发",
+    "usd": [
+     11111.11,
+     69444.44
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "企业官网建设",
+    "kind": "service",
+    "category": "定制开发",
+    "usd": [
+     1111.11,
+     6944.44
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "ERP系统定制与实施",
+    "kind": "service",
+    "category": "定制开发",
+    "usd": [
+     13888.89,
+     111111.11
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "第三方系统接口对接开发",
+    "kind": "service",
+    "category": "定制开发",
+    "usd": [
+     694.44,
+     4166.67
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "系统功能升级开发",
+    "kind": "service",
+    "category": "定制开发",
+    "usd": [
+     694.44,
+     6944.44
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "移动端H5页面开发",
+    "kind": "service",
+    "category": "定制开发",
+    "usd": [
+     277.78,
+     1388.89
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "CRM系统SaaS订阅",
+    "kind": "product",
+    "category": "软件产品",
+    "usd": [
+     6.94,
+     27.78
+    ],
+    "unit": "person",
+    "variants": [
+     "基础版",
+     "专业版",
+     "旗舰版"
+    ]
+   },
+   {
+    "name": "进销存管理软件",
+    "kind": "product",
+    "category": "软件产品",
+    "usd": [
+     277.78,
+     2777.78
+    ],
+    "unit": "set",
+    "variants": [
+     "单机版",
+     "网络版"
+    ]
+   },
+   {
+    "name": "OA办公系统（标准版）",
+    "kind": "product",
+    "category": "软件产品",
+    "usd": [
+     1388.89,
+     6944.44
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "小程序商城模板",
+    "kind": "product",
+    "category": "软件产品",
+    "usd": [
+     138.89,
+     694.44
+    ],
+    "unit": "set",
+    "variants": [
+     "标准版",
+     "高级版",
+     "旗舰版"
+    ]
+   },
+   {
+    "name": "软件系统运维（包月）",
+    "kind": "service",
+    "category": "运维服务",
+    "usd": [
+     115.74,
+     925.93
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "服务器部署上线",
+    "kind": "service",
+    "category": "运维服务",
+    "usd": [
+     138.89,
+     694.44
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "数据迁移服务",
+    "kind": "service",
+    "category": "运维服务",
+    "usd": [
+     416.67,
+     2777.78
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "技术支持工时",
+    "kind": "service",
+    "category": "运维服务",
+    "usd": [
+     34.72,
+     83.33
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "UI交互设计",
+    "kind": "service",
+    "category": "设计服务",
+    "usd": [
+     1388.89,
+     8333.33
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "需求分析与原型设计",
+    "kind": "service",
+    "category": "设计服务",
+    "usd": [
+     694.44,
+     4166.67
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "APP图标及启动页设计",
+    "kind": "service",
+    "category": "设计服务",
+    "usd": [
+     138.89,
+     416.67
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "高级开发工程师人天",
+    "kind": "service",
+    "category": "人力外包",
+    "usd": [
+     208.33,
+     486.11
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "前端开发工程师人天",
+    "kind": "service",
+    "category": "人力外包",
+    "usd": [
+     138.89,
+     347.22
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "软件测试人天",
+    "kind": "service",
+    "category": "人力外包",
+    "usd": [
+     111.11,
+     250.0
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "驻场开发（按月）",
+    "kind": "service",
+    "category": "人力外包",
+    "usd": [
+     2777.78,
+     5555.56
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   }
+  ]
+ },
+ "it_consulting": {
+  "categories": [
+   "驻场运维",
+   "网络与安全",
+   "上门服务",
+   "咨询培训",
+   "项目实施"
+  ],
+  "roles": [
+   "IT运维工程师",
+   "网络工程师",
+   "系统工程师",
+   "信息安全顾问",
+   "项目经理",
+   "技术支持",
+   "售前工程师"
+  ],
+  "departments": [
+   "技术服务部",
+   "项目部",
+   "销售部"
+  ],
+  "items": [
+   {
+    "name": "IT驻场运维服务",
+    "kind": "service",
+    "category": "驻场运维",
+    "usd": [
+     833.33,
+     2083.33
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "远程IT支持（包月）",
+    "kind": "service",
+    "category": "驻场运维",
+    "usd": [
+     69.44,
+     347.22
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     240
+    ]
+   },
+   {
+    "name": "桌面运维外包服务",
+    "kind": "service",
+    "category": "驻场运维",
+    "usd": [
+     6.94,
+     20.83
+    ],
+    "unit": "person",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "机房巡检",
+    "kind": "service",
+    "category": "驻场运维",
+    "usd": [
+     111.11,
+     347.22
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "监控系统维保",
+    "kind": "service",
+    "category": "驻场运维",
+    "usd": [
+     69.44,
+     277.78
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "企业网络规划与部署",
+    "kind": "service",
+    "category": "网络与安全",
+    "usd": [
+     1111.11,
+     6944.44
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "等级保护测评整改咨询",
+    "kind": "service",
+    "category": "网络与安全",
+    "usd": [
+     4166.67,
+     16666.67
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "防火墙配置调试",
+    "kind": "service",
+    "category": "网络与安全",
+    "usd": [
+     138.89,
+     694.44
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     360
+    ]
+   },
+   {
+    "name": "无线网络覆盖优化",
+    "kind": "service",
+    "category": "网络与安全",
+    "usd": [
+     277.78,
+     1388.89
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "电脑上门维修",
+    "kind": "service",
+    "category": "上门服务",
+    "usd": [
+     13.89,
+     41.67
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "打印机上门维护",
+    "kind": "service",
+    "category": "上门服务",
+    "usd": [
+     8.33,
+     20.83
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "网络故障排查",
+    "kind": "service",
+    "category": "上门服务",
+    "usd": [
+     27.78,
+     83.33
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "数据恢复",
+    "kind": "service",
+    "category": "上门服务",
+    "usd": [
+     41.67,
+     277.78
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "高级IT顾问咨询",
+    "kind": "service",
+    "category": "咨询培训",
+    "usd": [
+     41.67,
+     138.89
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "信息安全意识培训",
+    "kind": "service",
+    "category": "咨询培训",
+    "usd": [
+     277.78,
+     833.33
+    ],
+    "unit": "session",
+    "minutes": [
+     90,
+     180
+    ]
+   },
+   {
+    "name": "正版化软件咨询",
+    "kind": "service",
+    "category": "咨询培训",
+    "usd": [
+     277.78,
+     1388.89
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "云迁移咨询",
+    "kind": "service",
+    "category": "咨询培训",
+    "usd": [
+     1388.89,
+     6944.44
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "服务器安装调试",
+    "kind": "service",
+    "category": "项目实施",
+    "usd": [
+     208.33,
+     833.33
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "数据备份与容灾方案实施",
+    "kind": "service",
+    "category": "项目实施",
+    "usd": [
+     694.44,
+     4166.67
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "办公终端系统部署",
+    "kind": "service",
+    "category": "项目实施",
+    "usd": [
+     6.94,
+     20.83
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "企业邮箱迁移",
+    "kind": "service",
+    "category": "项目实施",
+    "usd": [
+     416.67,
+     2083.33
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   }
+  ]
+ },
+ "web_hosting": {
+  "categories": [
+   "云服务器",
+   "主机托管",
+   "域名证书",
+   "存储与加速",
+   "增值服务"
+  ],
+  "roles": [
+   "运维工程师",
+   "售前顾问",
+   "客户经理",
+   "网络工程师",
+   "技术支持",
+   "机房值班员",
+   "数据库管理员"
+  ],
+  "departments": [
+   "运维部",
+   "销售部",
+   "技术支持部",
+   "数据中心"
+  ],
+  "items": [
+   {
+    "name": "云服务器（2核4G）",
+    "kind": "service",
+    "category": "云服务器",
+    "usd": [
+     11.11,
+     27.78
+    ],
+    "unit": "month",
+    "minutes": [
+     10,
+     30
+    ]
+   },
+   {
+    "name": "云服务器（4核8G）",
+    "kind": "service",
+    "category": "云服务器",
+    "usd": [
+     27.78,
+     69.44
+    ],
+    "unit": "month",
+    "minutes": [
+     10,
+     30
+    ]
+   },
+   {
+    "name": "云服务器（8核32G）",
+    "kind": "service",
+    "category": "云服务器",
+    "usd": [
+     83.33,
+     208.33
+    ],
+    "unit": "month",
+    "minutes": [
+     10,
+     30
+    ]
+   },
+   {
+    "name": "云数据库MySQL（4核8G）",
+    "kind": "service",
+    "category": "云服务器",
+    "usd": [
+     55.56,
+     138.89
+    ],
+    "unit": "month",
+    "minutes": [
+     10,
+     30
+    ]
+   },
+   {
+    "name": "企业版虚拟主机",
+    "kind": "service",
+    "category": "主机托管",
+    "usd": [
+     3.47,
+     13.89
+    ],
+    "unit": "month",
+    "minutes": [
+     10,
+     30
+    ]
+   },
+   {
+    "name": "1U服务器托管",
+    "kind": "service",
+    "category": "主机托管",
+    "usd": [
+     34.72,
+     97.22
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "整机柜租用（42U）",
+    "kind": "service",
+    "category": "主机托管",
+    "usd": [
+     416.67,
+     1111.11
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "独立IP地址",
+    "kind": "service",
+    "category": "主机托管",
+    "usd": [
+     4.17,
+     13.89
+    ],
+    "unit": "month",
+    "minutes": [
+     5,
+     15
+    ]
+   },
+   {
+    "name": "域名注册（.com）",
+    "kind": "product",
+    "category": "域名证书",
+    "usd": [
+     8.33,
+     12.5
+    ],
+    "unit": "piece",
+    "variants": [
+     "1年",
+     "3年",
+     "5年"
+    ]
+   },
+   {
+    "name": "域名注册（.cn）",
+    "kind": "product",
+    "category": "域名证书",
+    "usd": [
+     4.17,
+     6.94
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "SSL证书",
+    "kind": "product",
+    "category": "域名证书",
+    "usd": [
+     41.67,
+     208.33
+    ],
+    "unit": "piece",
+    "variants": [
+     "DV单域名",
+     "OV企业型",
+     "EV增强型"
+    ]
+   },
+   {
+    "name": "BGP独享带宽（10M）",
+    "kind": "service",
+    "category": "存储与加速",
+    "usd": [
+     69.44,
+     208.33
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "对象存储（1TB）",
+    "kind": "service",
+    "category": "存储与加速",
+    "usd": [
+     13.89,
+     34.72
+    ],
+    "unit": "month",
+    "minutes": [
+     5,
+     15
+    ]
+   },
+   {
+    "name": "CDN加速流量包",
+    "kind": "product",
+    "category": "存储与加速",
+    "usd": [
+     11.11,
+     20.83
+    ],
+    "unit": "pack",
+    "variants": [
+     "500GB",
+     "1TB",
+     "5TB"
+    ]
+   },
+   {
+    "name": "数据备份服务",
+    "kind": "service",
+    "category": "存储与加速",
+    "usd": [
+     13.89,
+     69.44
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "DDoS高防IP",
+    "kind": "service",
+    "category": "增值服务",
+    "usd": [
+     277.78,
+     1388.89
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "企业邮箱",
+    "kind": "service",
+    "category": "增值服务",
+    "usd": [
+     13.89,
+     41.67
+    ],
+    "unit": "person",
+    "minutes": [
+     15,
+     60
+    ]
+   },
+   {
+    "name": "网站备案代办",
+    "kind": "service",
+    "category": "增值服务",
+    "usd": [
+     13.89,
+     41.67
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "服务器代维（包月）",
+    "kind": "service",
+    "category": "增值服务",
+    "usd": [
+     69.44,
+     277.78
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "网站迁移服务",
+    "kind": "service",
+    "category": "增值服务",
+    "usd": [
+     41.67,
+     208.33
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "数据录入与整理",
+    "kind": "service",
+    "category": "增值服务",
+    "usd": [
+     0.07,
+     0.28
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     15
+    ]
+   }
+  ]
+ },
+ "accounting": {
+  "categories": [
+   "代理记账",
+   "工商代办",
+   "税务服务",
+   "审计鉴证",
+   "财务咨询"
+  ],
+  "roles": [
+   "会计",
+   "主办会计",
+   "记账员",
+   "税务顾问",
+   "审计助理",
+   "注册会计师",
+   "客户经理",
+   "外勤专员"
+  ],
+  "departments": [
+   "记账部",
+   "税务部",
+   "审计部",
+   "工商部"
+  ],
+  "items": [
+   {
+    "name": "代理记账（小规模纳税人）",
+    "kind": "service",
+    "category": "代理记账",
+    "usd": [
+     27.78,
+     55.56
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "代理记账（一般纳税人）",
+    "kind": "service",
+    "category": "代理记账",
+    "usd": [
+     69.44,
+     166.67
+    ],
+    "unit": "month",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "零申报代理",
+    "kind": "service",
+    "category": "代理记账",
+    "usd": [
+     13.89,
+     27.78
+    ],
+    "unit": "month",
+    "minutes": [
+     15,
+     45
+    ]
+   },
+   {
+    "name": "内账外包",
+    "kind": "service",
+    "category": "代理记账",
+    "usd": [
+     138.89,
+     416.67
+    ],
+    "unit": "month",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "乱账整理",
+    "kind": "service",
+    "category": "代理记账",
+    "usd": [
+     277.78,
+     1388.89
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "公司注册代办",
+    "kind": "service",
+    "category": "工商代办",
+    "usd": [
+     69.44,
+     277.78
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "工商变更登记",
+    "kind": "service",
+    "category": "工商代办",
+    "usd": [
+     55.56,
+     208.33
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "工商年报代报",
+    "kind": "service",
+    "category": "工商代办",
+    "usd": [
+     27.78,
+     69.44
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "公司注销清算",
+    "kind": "service",
+    "category": "工商代办",
+    "usd": [
+     277.78,
+     1111.11
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "银行开户陪同",
+    "kind": "service",
+    "category": "工商代办",
+    "usd": [
+     27.78,
+     69.44
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "企业所得税汇算清缴",
+    "kind": "service",
+    "category": "税务服务",
+    "usd": [
+     138.89,
+     694.44
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "个人所得税综合所得汇算",
+    "kind": "service",
+    "category": "税务服务",
+    "usd": [
+     27.78,
+     69.44
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "税务咨询",
+    "kind": "service",
+    "category": "税务服务",
+    "usd": [
+     69.44,
+     208.33
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "出口退税申报代理",
+    "kind": "service",
+    "category": "税务服务",
+    "usd": [
+     138.89,
+     694.44
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "税务登记及票种核定",
+    "kind": "service",
+    "category": "税务服务",
+    "usd": [
+     41.67,
+     138.89
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "年度财务报表审计",
+    "kind": "service",
+    "category": "审计鉴证",
+    "usd": [
+     1111.11,
+     6944.44
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "验资报告出具",
+    "kind": "service",
+    "category": "审计鉴证",
+    "usd": [
+     277.78,
+     1111.11
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "专项审计报告",
+    "kind": "service",
+    "category": "审计鉴证",
+    "usd": [
+     694.44,
+     2777.78
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "财务尽职调查",
+    "kind": "service",
+    "category": "审计鉴证",
+    "usd": [
+     6944.44,
+     27777.78
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "高新技术企业认定辅导",
+    "kind": "service",
+    "category": "财务咨询",
+    "usd": [
+     4166.67,
+     11111.11
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "常年财务顾问",
+    "kind": "service",
+    "category": "财务咨询",
+    "usd": [
+     138.89,
+     416.67
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "税务筹划方案",
+    "kind": "service",
+    "category": "财务咨询",
+    "usd": [
+     694.44,
+     4166.67
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   }
+  ]
+ },
+ "law_firm": {
+  "categories": [
+   "常年顾问",
+   "诉讼仲裁",
+   "非诉业务",
+   "法律咨询",
+   "文书服务"
+  ],
+  "roles": [
+   "合伙人律师",
+   "执业律师",
+   "实习律师",
+   "律师助理",
+   "法务专员",
+   "行政主管",
+   "前台"
+  ],
+  "departments": [
+   "诉讼部",
+   "非诉部",
+   "行政部"
+  ],
+  "items": [
+   {
+    "name": "常年法律顾问（企业）",
+    "kind": "service",
+    "category": "常年顾问",
+    "usd": [
+     277.78,
+     1111.11
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "民事诉讼代理（一审）",
+    "kind": "service",
+    "category": "诉讼仲裁",
+    "usd": [
+     1388.89,
+     11111.11
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "劳动仲裁代理",
+    "kind": "service",
+    "category": "诉讼仲裁",
+    "usd": [
+     694.44,
+     2777.78
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "离婚纠纷诉讼代理",
+    "kind": "service",
+    "category": "诉讼仲裁",
+    "usd": [
+     1388.89,
+     6944.44
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "刑事辩护（侦查阶段）",
+    "kind": "service",
+    "category": "诉讼仲裁",
+    "usd": [
+     2777.78,
+     13888.89
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "应收账款法律催收",
+    "kind": "service",
+    "category": "诉讼仲裁",
+    "usd": [
+     416.67,
+     2777.78
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "执行案件代理",
+    "kind": "service",
+    "category": "诉讼仲裁",
+    "usd": [
+     694.44,
+     4166.67
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "知识产权侵权诉讼代理",
+    "kind": "service",
+    "category": "诉讼仲裁",
+    "usd": [
+     2777.78,
+     13888.89
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "法律尽职调查",
+    "kind": "service",
+    "category": "非诉业务",
+    "usd": [
+     6944.44,
+     41666.67
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "商标异议及无效宣告代理",
+    "kind": "service",
+    "category": "非诉业务",
+    "usd": [
+     694.44,
+     2777.78
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "股权激励方案设计",
+    "kind": "service",
+    "category": "非诉业务",
+    "usd": [
+     6944.44,
+     27777.78
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "企业合规体检",
+    "kind": "service",
+    "category": "非诉业务",
+    "usd": [
+     1388.89,
+     6944.44
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "律师见证（签约）",
+    "kind": "service",
+    "category": "非诉业务",
+    "usd": [
+     277.78,
+     1388.89
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "法律咨询（面谈）",
+    "kind": "service",
+    "category": "法律咨询",
+    "usd": [
+     69.44,
+     277.78
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "电话法律咨询",
+    "kind": "service",
+    "category": "法律咨询",
+    "usd": [
+     13.89,
+     41.67
+    ],
+    "unit": "session",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "合同审查与修改",
+    "kind": "service",
+    "category": "文书服务",
+    "usd": [
+     138.89,
+     694.44
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "律师函出具",
+    "kind": "service",
+    "category": "文书服务",
+    "usd": [
+     138.89,
+     694.44
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "公司章程及股东协议起草",
+    "kind": "service",
+    "category": "文书服务",
+    "usd": [
+     416.67,
+     2083.33
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "遗嘱起草见证",
+    "kind": "service",
+    "category": "文书服务",
+    "usd": [
+     277.78,
+     1111.11
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "起诉状代写",
+    "kind": "service",
+    "category": "文书服务",
+    "usd": [
+     69.44,
+     277.78
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "劳动合同模板定制",
+    "kind": "service",
+    "category": "文书服务",
+    "usd": [
+     138.89,
+     416.67
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     480
+    ]
+   }
+  ]
+ },
+ "management_consulting": {
+  "categories": [
+   "战略规划",
+   "组织人力",
+   "运营提升",
+   "培训课程",
+   "专项咨询"
+  ],
+  "roles": [
+   "合伙人",
+   "咨询总监",
+   "高级顾问",
+   "咨询顾问",
+   "研究员",
+   "项目助理",
+   "培训师"
+  ],
+  "departments": [
+   "咨询事业部",
+   "培训事业部",
+   "研究中心",
+   "行政部"
+  ],
+  "items": [
+   {
+    "name": "企业三年战略规划",
+    "kind": "service",
+    "category": "战略规划",
+    "usd": [
+     27777.78,
+     208333.33
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "市场调研与可行性研究报告",
+    "kind": "service",
+    "category": "战略规划",
+    "usd": [
+     6944.44,
+     41666.67
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "企业管理诊断",
+    "kind": "service",
+    "category": "战略规划",
+    "usd": [
+     2777.78,
+     13888.89
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "组织架构与岗位体系设计",
+    "kind": "service",
+    "category": "组织人力",
+    "usd": [
+     11111.11,
+     55555.56
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "绩效管理体系搭建",
+    "kind": "service",
+    "category": "组织人力",
+    "usd": [
+     13888.89,
+     69444.44
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "薪酬体系设计",
+    "kind": "service",
+    "category": "组织人力",
+    "usd": [
+     11111.11,
+     41666.67
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "企业文化梳理与落地",
+    "kind": "service",
+    "category": "组织人力",
+    "usd": [
+     6944.44,
+     27777.78
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "精益生产驻厂辅导",
+    "kind": "service",
+    "category": "运营提升",
+    "usd": [
+     4166.67,
+     13888.89
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "质量管理体系认证辅导",
+    "kind": "service",
+    "category": "运营提升",
+    "usd": [
+     2083.33,
+     8333.33
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "流程优化与再造",
+    "kind": "service",
+    "category": "运营提升",
+    "usd": [
+     6944.44,
+     34722.22
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "阿米巴经营辅导",
+    "kind": "service",
+    "category": "运营提升",
+    "usd": [
+     13888.89,
+     55555.56
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "中层管理能力内训",
+    "kind": "service",
+    "category": "培训课程",
+    "usd": [
+     1388.89,
+     5555.56
+    ],
+    "unit": "session",
+    "minutes": [
+     360,
+     480
+    ]
+   },
+   {
+    "name": "高管领导力工作坊",
+    "kind": "service",
+    "category": "培训课程",
+    "usd": [
+     2777.78,
+     8333.33
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "销售团队实战训练营",
+    "kind": "service",
+    "category": "培训课程",
+    "usd": [
+     2083.33,
+     6944.44
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "管理公开课（单人）",
+    "kind": "service",
+    "category": "培训课程",
+    "usd": [
+     138.89,
+     694.44
+    ],
+    "unit": "person",
+    "minutes": [
+     360,
+     480
+    ]
+   },
+   {
+    "name": "咨询顾问人天",
+    "kind": "service",
+    "category": "专项咨询",
+    "usd": [
+     694.44,
+     2777.78
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "股权架构设计",
+    "kind": "service",
+    "category": "专项咨询",
+    "usd": [
+     4166.67,
+     20833.33
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "商业计划书撰写",
+    "kind": "service",
+    "category": "专项咨询",
+    "usd": [
+     1388.89,
+     6944.44
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "数字化转型诊断",
+    "kind": "service",
+    "category": "专项咨询",
+    "usd": [
+     4166.67,
+     20833.33
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "家族企业传承咨询",
+    "kind": "service",
+    "category": "专项咨询",
+    "usd": [
+     6944.44,
+     41666.67
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   }
+  ]
+ },
+ "architecture": {
+  "categories": [
+   "建筑设计",
+   "规划设计",
+   "室内设计",
+   "景观设计",
+   "技术服务"
+  ],
+  "roles": [
+   "主创建筑师",
+   "建筑设计师",
+   "结构工程师",
+   "室内设计师",
+   "景观设计师",
+   "效果图设计师",
+   "项目负责人",
+   "绘图员"
+  ],
+  "departments": [
+   "建筑所",
+   "室内所",
+   "景观所",
+   "技术质量部"
+  ],
+  "items": [
+   {
+    "name": "建筑方案设计",
+    "kind": "service",
+    "category": "建筑设计",
+    "usd": [
+     2.08,
+     5.56
+    ],
+    "unit": "m2",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "建筑施工图设计",
+    "kind": "service",
+    "category": "建筑设计",
+    "usd": [
+     2.78,
+     6.94
+    ],
+    "unit": "m2",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "农村自建房设计（全套图纸）",
+    "kind": "service",
+    "category": "建筑设计",
+    "usd": [
+     416.67,
+     1666.67
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "建筑外立面改造设计",
+    "kind": "service",
+    "category": "建筑设计",
+    "usd": [
+     4166.67,
+     27777.78
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "旧厂房改造设计",
+    "kind": "service",
+    "category": "建筑设计",
+    "usd": [
+     6944.44,
+     41666.67
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "概念方案设计",
+    "kind": "service",
+    "category": "规划设计",
+    "usd": [
+     6944.44,
+     41666.67
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "修建性详细规划",
+    "kind": "service",
+    "category": "规划设计",
+    "usd": [
+     13888.89,
+     83333.33
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "规划总平面图设计",
+    "kind": "service",
+    "category": "规划设计",
+    "usd": [
+     2777.78,
+     13888.89
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "室内精装修设计",
+    "kind": "service",
+    "category": "室内设计",
+    "usd": [
+     11.11,
+     41.67
+    ],
+    "unit": "m2",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "室内软装设计",
+    "kind": "service",
+    "category": "室内设计",
+    "usd": [
+     6.94,
+     20.83
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "民宿改造设计",
+    "kind": "service",
+    "category": "室内设计",
+    "usd": [
+     4166.67,
+     20833.33
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "景观方案设计",
+    "kind": "service",
+    "category": "景观设计",
+    "usd": [
+     2.08,
+     8.33
+    ],
+    "unit": "m2",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "景观施工图设计",
+    "kind": "service",
+    "category": "景观设计",
+    "usd": [
+     2.78,
+     6.94
+    ],
+    "unit": "m2",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "庭院景观设计",
+    "kind": "service",
+    "category": "景观设计",
+    "usd": [
+     1388.89,
+     6944.44
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "建筑效果图制作",
+    "kind": "service",
+    "category": "技术服务",
+    "usd": [
+     111.11,
+     416.67
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "建筑动画制作",
+    "kind": "service",
+    "category": "技术服务",
+    "usd": [
+     694.44,
+     4166.67
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "施工现场设计配合",
+    "kind": "service",
+    "category": "技术服务",
+    "usd": [
+     138.89,
+     416.67
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "消防设计专篇",
+    "kind": "service",
+    "category": "技术服务",
+    "usd": [
+     1388.89,
+     6944.44
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "BIM建模及管线综合",
+    "kind": "service",
+    "category": "技术服务",
+    "usd": [
+     0.69,
+     2.08
+    ],
+    "unit": "m2",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "竣工图编制",
+    "kind": "service",
+    "category": "技术服务",
+    "usd": [
+     0.42,
+     1.11
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   }
+  ]
+ },
+ "advertising": {
+  "categories": [
+   "品牌设计",
+   "新媒体运营",
+   "广告投放",
+   "活动策划",
+   "视频制作",
+   "印刷物料"
+  ],
+  "roles": [
+   "创意总监",
+   "平面设计师",
+   "文案策划",
+   "新媒体运营",
+   "客户经理",
+   "媒介专员",
+   "视频剪辑师",
+   "项目经理"
+  ],
+  "departments": [
+   "创意部",
+   "媒介部",
+   "客户部",
+   "新媒体部"
+  ],
+  "items": [
+   {
+    "name": "品牌VI视觉识别系统设计",
+    "kind": "service",
+    "category": "品牌设计",
+    "usd": [
+     2777.78,
+     20833.33
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "LOGO设计",
+    "kind": "service",
+    "category": "品牌设计",
+    "usd": [
+     416.67,
+     4166.67
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "宣传海报设计",
+    "kind": "service",
+    "category": "品牌设计",
+    "usd": [
+     41.67,
+     277.78
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "企业画册设计（按P计）",
+    "kind": "service",
+    "category": "品牌设计",
+    "usd": [
+     27.78,
+     111.11
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "广告语创意",
+    "kind": "service",
+    "category": "品牌设计",
+    "usd": [
+     277.78,
+     1388.89
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "微信公众号代运营",
+    "kind": "service",
+    "category": "新媒体运营",
+    "usd": [
+     416.67,
+     2083.33
+    ],
+    "unit": "month",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "抖音短视频代运营",
+    "kind": "service",
+    "category": "新媒体运营",
+    "usd": [
+     1111.11,
+     5555.56
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "直播间代运营",
+    "kind": "service",
+    "category": "新媒体运营",
+    "usd": [
+     1388.89,
+     6944.44
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "小红书达人种草推广",
+    "kind": "service",
+    "category": "新媒体运营",
+    "usd": [
+     277.78,
+     2777.78
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "软文撰写",
+    "kind": "service",
+    "category": "新媒体运营",
+    "usd": [
+     41.67,
+     208.33
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "户外大牌广告发布",
+    "kind": "service",
+    "category": "广告投放",
+    "usd": [
+     1388.89,
+     13888.89
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "社区电梯框架广告投放",
+    "kind": "service",
+    "category": "广告投放",
+    "usd": [
+     694.44,
+     6944.44
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "搜索引擎竞价托管",
+    "kind": "service",
+    "category": "广告投放",
+    "usd": [
+     416.67,
+     1388.89
+    ],
+    "unit": "month",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "朋友圈广告投放",
+    "kind": "service",
+    "category": "广告投放",
+    "usd": [
+     694.44,
+     6944.44
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "新闻稿媒体发布",
+    "kind": "service",
+    "category": "广告投放",
+    "usd": [
+     69.44,
+     694.44
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "开业活动策划执行",
+    "kind": "service",
+    "category": "活动策划",
+    "usd": [
+     2777.78,
+     27777.78
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "年会策划执行",
+    "kind": "service",
+    "category": "活动策划",
+    "usd": [
+     4166.67,
+     41666.67
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "企业宣传片拍摄制作",
+    "kind": "service",
+    "category": "视频制作",
+    "usd": [
+     4166.67,
+     41666.67
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "产品短视频拍摄",
+    "kind": "service",
+    "category": "视频制作",
+    "usd": [
+     138.89,
+     694.44
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "易拉宝（含设计）",
+    "kind": "product",
+    "category": "印刷物料",
+    "usd": [
+     20.83,
+     41.67
+    ],
+    "unit": "piece",
+    "variants": [
+     "80×200cm",
+     "100×200cm",
+     "120×200cm"
+    ]
+   },
+   {
+    "name": "文化衫定制",
+    "kind": "product",
+    "category": "印刷物料",
+    "usd": [
+     4.17,
+     11.11
+    ],
+    "unit": "piece",
+    "variants": [
+     "纯棉",
+     "精梳棉"
+    ]
+   },
+   {
+    "name": "广告帆布袋定制",
+    "kind": "product",
+    "category": "印刷物料",
+    "usd": [
+     1.39,
+     4.17
+    ],
+    "unit": "piece",
+    "variants": [
+     "小号",
+     "中号",
+     "大号"
+    ]
+   }
+  ]
+ },
+ "photography": {
+  "categories": [
+   "证件照",
+   "写真",
+   "婚纱摄影",
+   "商业摄影",
+   "冲印制作"
+  ],
+  "roles": [
+   "摄影师",
+   "化妆师",
+   "修图师",
+   "摄影助理",
+   "门店顾问",
+   "前台",
+   "后期主管"
+  ],
+  "departments": [
+   "摄影部",
+   "后期部",
+   "门市部"
+  ],
+  "items": [
+   {
+    "name": "证件照拍摄（含精修）",
+    "kind": "service",
+    "category": "证件照",
+    "usd": [
+     5.42,
+     13.75
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     30
+    ]
+   },
+   {
+    "name": "签证照",
+    "kind": "service",
+    "category": "证件照",
+    "usd": [
+     5.42,
+     11.11
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     20
+    ]
+   },
+   {
+    "name": "结婚登记照",
+    "kind": "service",
+    "category": "证件照",
+    "usd": [
+     13.89,
+     34.72
+    ],
+    "unit": "session",
+    "minutes": [
+     20,
+     40
+    ]
+   },
+   {
+    "name": "职业形象照",
+    "kind": "service",
+    "category": "写真",
+    "usd": [
+     41.53,
+     138.75
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "全家福拍摄",
+    "kind": "service",
+    "category": "写真",
+    "usd": [
+     55.42,
+     222.08
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "儿童写真套系",
+    "kind": "service",
+    "category": "写真",
+    "usd": [
+     83.19,
+     277.64
+    ],
+    "unit": "set",
+    "minutes": [
+     90,
+     180
+    ]
+   },
+   {
+    "name": "孕妇写真",
+    "kind": "service",
+    "category": "写真",
+    "usd": [
+     83.19,
+     277.64
+    ],
+    "unit": "set",
+    "minutes": [
+     90,
+     180
+    ]
+   },
+   {
+    "name": "人像精修",
+    "kind": "service",
+    "category": "写真",
+    "usd": [
+     4.17,
+     20.83
+    ],
+    "unit": "piece",
+    "minutes": [
+     15,
+     60
+    ]
+   },
+   {
+    "name": "婚纱照套系（内景+外景）",
+    "kind": "service",
+    "category": "婚纱摄影",
+    "usd": [
+     555.42,
+     1805.42
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "婚礼跟拍（双机位）",
+    "kind": "service",
+    "category": "婚纱摄影",
+    "usd": [
+     277.78,
+     833.33
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "电商产品白底图拍摄",
+    "kind": "service",
+    "category": "商业摄影",
+    "usd": [
+     2.78,
+     11.11
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     15
+    ]
+   },
+   {
+    "name": "产品场景图拍摄",
+    "kind": "service",
+    "category": "商业摄影",
+    "usd": [
+     13.89,
+     69.44
+    ],
+    "unit": "piece",
+    "minutes": [
+     15,
+     60
+    ]
+   },
+   {
+    "name": "会议活动跟拍（半天）",
+    "kind": "service",
+    "category": "商业摄影",
+    "usd": [
+     138.89,
+     416.67
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     240
+    ]
+   },
+   {
+    "name": "企业团队合影",
+    "kind": "service",
+    "category": "商业摄影",
+    "usd": [
+     83.33,
+     277.78
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "无人机航拍",
+    "kind": "service",
+    "category": "商业摄影",
+    "usd": [
+     277.78,
+     1111.11
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "摄影棚租用",
+    "kind": "service",
+    "category": "商业摄影",
+    "usd": [
+     20.83,
+     69.44
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "照片冲印",
+    "kind": "product",
+    "category": "冲印制作",
+    "usd": [
+     0.14,
+     0.42
+    ],
+    "unit": "piece",
+    "variants": [
+     "5寸",
+     "6寸",
+     "8寸"
+    ]
+   },
+   {
+    "name": "定制相册",
+    "kind": "product",
+    "category": "冲印制作",
+    "usd": [
+     41.67,
+     208.33
+    ],
+    "unit": "piece",
+    "variants": [
+     "8寸",
+     "10寸",
+     "12寸"
+    ]
+   },
+   {
+    "name": "实木相框",
+    "kind": "product",
+    "category": "冲印制作",
+    "usd": [
+     6.94,
+     27.78
+    ],
+    "unit": "piece",
+    "variants": [
+     "6寸",
+     "8寸",
+     "10寸",
+     "12寸"
+    ]
+   },
+   {
+    "name": "水晶摆台",
+    "kind": "product",
+    "category": "冲印制作",
+    "usd": [
+     13.89,
+     41.67
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "老照片翻新修复",
+    "kind": "service",
+    "category": "冲印制作",
+    "usd": [
+     4.17,
+     13.89
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     120
+    ]
+   }
+  ]
+ },
+ "translation": {
+  "categories": [
+   "笔译",
+   "口译",
+   "证件翻译",
+   "本地化",
+   "设备租赁"
+  ],
+  "roles": [
+   "专职翻译",
+   "译审",
+   "同声传译员",
+   "项目经理",
+   "排版专员",
+   "客户经理",
+   "兼职译员"
+  ],
+  "departments": [
+   "笔译部",
+   "口译部",
+   "项目管理部",
+   "市场部"
+  ],
+  "items": [
+   {
+    "name": "中译英笔译（每千字）",
+    "kind": "service",
+    "category": "笔译",
+    "usd": [
+     20.83,
+     41.67
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "英译中笔译（每千字）",
+    "kind": "service",
+    "category": "笔译",
+    "usd": [
+     16.67,
+     34.72
+    ],
+    "unit": "piece",
+    "minutes": [
+     180,
+     480
+    ]
+   },
+   {
+    "name": "日译中笔译（千字）",
+    "kind": "service",
+    "category": "笔译",
+    "usd": [
+     20.83,
+     41.67
+    ],
+    "unit": "piece",
+    "minutes": [
+     180,
+     480
+    ]
+   },
+   {
+    "name": "韩译中笔译（千字）",
+    "kind": "service",
+    "category": "笔译",
+    "usd": [
+     20.83,
+     41.67
+    ],
+    "unit": "piece",
+    "minutes": [
+     180,
+     480
+    ]
+   },
+   {
+    "name": "法律合同翻译（每千字）",
+    "kind": "service",
+    "category": "笔译",
+    "usd": [
+     34.72,
+     69.44
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "专利文献翻译（每千字）",
+    "kind": "service",
+    "category": "笔译",
+    "usd": [
+     27.78,
+     55.56
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "标书翻译（千字）",
+    "kind": "service",
+    "category": "笔译",
+    "usd": [
+     27.78,
+     55.56
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "母语润色审校（每千字）",
+    "kind": "service",
+    "category": "笔译",
+    "usd": [
+     11.11,
+     27.78
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "商务交替传译",
+    "kind": "service",
+    "category": "口译",
+    "usd": [
+     416.67,
+     1111.11
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "会议同声传译",
+    "kind": "service",
+    "category": "口译",
+    "usd": [
+     833.33,
+     2083.33
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "陪同翻译",
+    "kind": "service",
+    "category": "口译",
+    "usd": [
+     111.11,
+     347.22
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "电话口译",
+    "kind": "service",
+    "category": "口译",
+    "usd": [
+     27.78,
+     69.44
+    ],
+    "unit": "hour",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "证件翻译（含翻译专用章）",
+    "kind": "service",
+    "category": "证件翻译",
+    "usd": [
+     11.11,
+     27.78
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "驾照翻译认证",
+    "kind": "service",
+    "category": "证件翻译",
+    "usd": [
+     13.89,
+     27.78
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "学历学位证书翻译",
+    "kind": "service",
+    "category": "证件翻译",
+    "usd": [
+     13.89,
+     34.72
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "出生证明翻译",
+    "kind": "service",
+    "category": "证件翻译",
+    "usd": [
+     11.11,
+     27.78
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "网站多语种本地化",
+    "kind": "service",
+    "category": "本地化",
+    "usd": [
+     1388.89,
+     8333.33
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "软件界面本地化",
+    "kind": "service",
+    "category": "本地化",
+    "usd": [
+     694.44,
+     4166.67
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "视频字幕翻译及压制",
+    "kind": "service",
+    "category": "本地化",
+    "usd": [
+     69.44,
+     416.67
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "同传设备租赁",
+    "kind": "service",
+    "category": "设备租赁",
+    "usd": [
+     277.78,
+     833.33
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "无线导览设备租赁",
+    "kind": "service",
+    "category": "设备租赁",
+    "usd": [
+     2.78,
+     6.94
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   }
+  ]
+ },
+ "road_freight": {
+  "categories": [
+   "整车运输",
+   "零担专线",
+   "仓储服务",
+   "装卸包装",
+   "冷链运输"
+  ],
+  "roles": [
+   "货车司机",
+   "调度员",
+   "装卸工",
+   "仓库管理员",
+   "业务员",
+   "客服专员",
+   "车队队长",
+   "单证员"
+  ],
+  "departments": [
+   "运输部",
+   "仓储部",
+   "调度中心",
+   "客服部"
+  ],
+  "items": [
+   {
+    "name": "9.6米厢式货车整车（市内）",
+    "kind": "service",
+    "category": "整车运输",
+    "usd": [
+     138.89,
+     277.78
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "17.5米平板车整车（省际）",
+    "kind": "service",
+    "category": "整车运输",
+    "usd": [
+     1388.89,
+     4166.67
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "3.8米高栏车整车",
+    "kind": "service",
+    "category": "整车运输",
+    "usd": [
+     97.22,
+     208.33
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "4.2米货车包车（按天）",
+    "kind": "service",
+    "category": "整车运输",
+    "usd": [
+     83.33,
+     138.89
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "城际配送（小面包车）",
+    "kind": "service",
+    "category": "整车运输",
+    "usd": [
+     41.67,
+     83.33
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     360
+    ]
+   },
+   {
+    "name": "大件设备运输",
+    "kind": "service",
+    "category": "整车运输",
+    "usd": [
+     694.44,
+     6944.44
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "集装箱拖车（港口提柜）",
+    "kind": "service",
+    "category": "整车运输",
+    "usd": [
+     111.11,
+     347.22
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "零担货运（按重量计）",
+    "kind": "service",
+    "category": "零担专线",
+    "usd": [
+     0.042,
+     0.167
+    ],
+    "unit": "kg",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "省际专线零担",
+    "kind": "service",
+    "category": "零担专线",
+    "usd": [
+     0.056,
+     0.125
+    ],
+    "unit": "kg",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "上门提货",
+    "kind": "service",
+    "category": "零担专线",
+    "usd": [
+     6.94,
+     20.83
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "仓储服务（每月）",
+    "kind": "service",
+    "category": "仓储服务",
+    "usd": [
+     2.78,
+     6.94
+    ],
+    "unit": "m2",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "仓配一体化服务",
+    "kind": "service",
+    "category": "仓储服务",
+    "usd": [
+     2777.78,
+     13888.89
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "入库分拣",
+    "kind": "service",
+    "category": "仓储服务",
+    "usd": [
+     0.07,
+     0.21
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     30
+    ]
+   },
+   {
+    "name": "出库打包发货",
+    "kind": "service",
+    "category": "仓储服务",
+    "usd": [
+     0.14,
+     0.42
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     30
+    ]
+   },
+   {
+    "name": "装卸搬运服务",
+    "kind": "service",
+    "category": "装卸包装",
+    "usd": [
+     27.78,
+     111.11
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "木箱打包加固",
+    "kind": "service",
+    "category": "装卸包装",
+    "usd": [
+     13.89,
+     69.44
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "托盘缠绕膜打包",
+    "kind": "service",
+    "category": "装卸包装",
+    "usd": [
+     1.39,
+     2.78
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     15
+    ]
+   },
+   {
+    "name": "送货上楼",
+    "kind": "service",
+    "category": "装卸包装",
+    "usd": [
+     4.17,
+     13.89
+    ],
+    "unit": "session",
+    "minutes": [
+     15,
+     60
+    ]
+   },
+   {
+    "name": "4.2米冷藏车运输",
+    "kind": "service",
+    "category": "冷链运输",
+    "usd": [
+     138.89,
+     347.22
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "冷链零担（生鲜）",
+    "kind": "service",
+    "category": "冷链运输",
+    "usd": [
+     0.14,
+     0.28
+    ],
+    "unit": "kg",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "冷库存储（每托）",
+    "kind": "service",
+    "category": "冷链运输",
+    "usd": [
+     0.69,
+     1.67
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   }
+  ]
+ },
+ "courier": {
+  "categories": [
+   "同城配送",
+   "快递寄件",
+   "跑腿代办",
+   "大件搬运",
+   "国际快递"
+  ],
+  "roles": [
+   "快递员",
+   "配送骑手",
+   "分拣员",
+   "网点负责人",
+   "客服",
+   "司机",
+   "调度员"
+  ],
+  "departments": [
+   "收派部",
+   "分拣中心",
+   "客服部"
+  ],
+  "items": [
+   {
+    "name": "同城即时配送（5公里内）",
+    "kind": "service",
+    "category": "同城配送",
+    "usd": [
+     2.08,
+     4.17
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "商务文件专人专送",
+    "kind": "service",
+    "category": "同城配送",
+    "usd": [
+     2.78,
+     8.33
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "钥匙证件急送",
+    "kind": "service",
+    "category": "同城配送",
+    "usd": [
+     2.78,
+     5.56
+    ],
+    "unit": "piece",
+    "minutes": [
+     20,
+     60
+    ]
+   },
+   {
+    "name": "面包车包时配送",
+    "kind": "service",
+    "category": "同城配送",
+    "usd": [
+     8.33,
+     16.67
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "餐饮外卖配送",
+    "kind": "service",
+    "category": "同城配送",
+    "usd": [
+     0.69,
+     1.39
+    ],
+    "unit": "piece",
+    "minutes": [
+     20,
+     45
+    ]
+   },
+   {
+    "name": "省内次日达（首重1kg）",
+    "kind": "service",
+    "category": "快递寄件",
+    "usd": [
+     1.11,
+     2.08
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "跨省标准快递（1kg以内）",
+    "kind": "service",
+    "category": "快递寄件",
+    "usd": [
+     1.67,
+     3.47
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "续重（每kg）",
+    "kind": "service",
+    "category": "快递寄件",
+    "usd": [
+     0.28,
+     0.69
+    ],
+    "unit": "kg",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "电商包裹派送（月结客户）",
+    "kind": "service",
+    "category": "快递寄件",
+    "usd": [
+     0.42,
+     0.83
+    ],
+    "unit": "piece",
+    "minutes": [
+     15,
+     60
+    ]
+   },
+   {
+    "name": "生鲜冷链快递",
+    "kind": "service",
+    "category": "快递寄件",
+    "usd": [
+     1.39,
+     3.47
+    ],
+    "unit": "kg",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "保价服务",
+    "kind": "service",
+    "category": "快递寄件",
+    "usd": [
+     0.14,
+     1.39
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     10
+    ]
+   },
+   {
+    "name": "快递纸箱",
+    "kind": "product",
+    "category": "快递寄件",
+    "usd": [
+     0.14,
+     0.69
+    ],
+    "unit": "piece",
+    "variants": [
+     "小号",
+     "中号",
+     "大号"
+    ]
+   },
+   {
+    "name": "快递文件袋",
+    "kind": "product",
+    "category": "快递寄件",
+    "usd": [
+     0.07,
+     0.21
+    ],
+    "unit": "piece",
+    "variants": [
+     "A4",
+     "A3"
+    ]
+   },
+   {
+    "name": "气泡膜",
+    "kind": "product",
+    "category": "快递寄件",
+    "usd": [
+     0.28,
+     0.69
+    ],
+    "unit": "m",
+    "variants": [
+     "30cm宽",
+     "50cm宽"
+    ]
+   },
+   {
+    "name": "跑腿代买代办",
+    "kind": "service",
+    "category": "跑腿代办",
+    "usd": [
+     1.39,
+     4.17
+    ],
+    "unit": "session",
+    "minutes": [
+     20,
+     60
+    ]
+   },
+   {
+    "name": "代排队取号",
+    "kind": "service",
+    "category": "跑腿代办",
+    "usd": [
+     2.78,
+     6.94
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     180
+    ]
+   },
+   {
+    "name": "医院代取报告",
+    "kind": "service",
+    "category": "跑腿代办",
+    "usd": [
+     2.08,
+     4.17
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "大件快运（30kg以上）",
+    "kind": "service",
+    "category": "大件搬运",
+    "usd": [
+     0.28,
+     0.69
+    ],
+    "unit": "kg",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "同城小型搬家",
+    "kind": "service",
+    "category": "大件搬运",
+    "usd": [
+     41.67,
+     111.11
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     300
+    ]
+   },
+   {
+    "name": "家电上门配送安装",
+    "kind": "service",
+    "category": "大件搬运",
+    "usd": [
+     8.33,
+     27.78
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "国际快递（美国线）",
+    "kind": "service",
+    "category": "国际快递",
+    "usd": [
+     11.11,
+     27.78
+    ],
+    "unit": "kg",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "国际快递（日本线）",
+    "kind": "service",
+    "category": "国际快递",
+    "usd": [
+     6.94,
+     16.67
+    ],
+    "unit": "kg",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "国际快递（欧洲线）",
+    "kind": "service",
+    "category": "国际快递",
+    "usd": [
+     11.11,
+     25.0
+    ],
+    "unit": "kg",
+    "minutes": [
+     480,
+     480
+    ]
+   }
+  ]
+ },
+ "travel_agency": {
+  "categories": [
+   "国内游",
+   "出境游",
+   "定制团建",
+   "签证服务",
+   "交通票务"
+  ],
+  "roles": [
+   "旅游顾问",
+   "计调",
+   "导游",
+   "领队",
+   "签证专员",
+   "门店经理",
+   "客服专员"
+  ],
+  "departments": [
+   "国内部",
+   "出境部",
+   "签证部",
+   "门市部"
+  ],
+  "items": [
+   {
+    "name": "昆明大理丽江6日跟团游",
+    "kind": "service",
+    "category": "国内游",
+    "usd": [
+     347.22,
+     694.44
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "三亚5天4晚自由行套餐",
+    "kind": "service",
+    "category": "国内游",
+    "usd": [
+     416.67,
+     833.33
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "新疆北疆10日深度游",
+    "kind": "service",
+    "category": "国内游",
+    "usd": [
+     833.33,
+     1666.67
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "桂林阳朔4日游",
+    "kind": "service",
+    "category": "国内游",
+    "usd": [
+     208.33,
+     416.67
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "长江三峡游轮5日游",
+    "kind": "service",
+    "category": "国内游",
+    "usd": [
+     555.56,
+     1388.89
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "周边古镇一日游",
+    "kind": "service",
+    "category": "国内游",
+    "usd": [
+     20.83,
+     55.56
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "北京研学夏令营（5天）",
+    "kind": "service",
+    "category": "国内游",
+    "usd": [
+     208.33,
+     694.44
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "地接导游服务",
+    "kind": "service",
+    "category": "国内游",
+    "usd": [
+     41.67,
+     111.11
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "日本东京大阪6日游",
+    "kind": "service",
+    "category": "出境游",
+    "usd": [
+     833.33,
+     1666.67
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "泰国曼谷芭提雅6日游",
+    "kind": "service",
+    "category": "出境游",
+    "usd": [
+     486.11,
+     972.22
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "新马泰10日游",
+    "kind": "service",
+    "category": "出境游",
+    "usd": [
+     694.44,
+     1250.0
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "意法瑞12日欧洲游",
+    "kind": "service",
+    "category": "出境游",
+    "usd": [
+     1666.67,
+     3472.22
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "企业团建拓展（一日）",
+    "kind": "service",
+    "category": "定制团建",
+    "usd": [
+     41.67,
+     208.33
+    ],
+    "unit": "person",
+    "minutes": [
+     360,
+     480
+    ]
+   },
+   {
+    "name": "年会旅游定制（三天两晚）",
+    "kind": "service",
+    "category": "定制团建",
+    "usd": [
+     208.33,
+     555.56
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "日本单次旅游签证代办",
+    "kind": "service",
+    "category": "签证服务",
+    "usd": [
+     41.67,
+     166.67
+    ],
+    "unit": "person",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "申根签证代办",
+    "kind": "service",
+    "category": "签证服务",
+    "usd": [
+     83.33,
+     208.33
+    ],
+    "unit": "person",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "美国签证面签辅导",
+    "kind": "service",
+    "category": "签证服务",
+    "usd": [
+     69.44,
+     138.89
+    ],
+    "unit": "person",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "旅游包车（含司机）",
+    "kind": "service",
+    "category": "交通票务",
+    "usd": [
+     111.11,
+     277.78
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "机票代订服务费",
+    "kind": "service",
+    "category": "交通票务",
+    "usd": [
+     2.78,
+     6.94
+    ],
+    "unit": "person",
+    "minutes": [
+     10,
+     30
+    ]
+   },
+   {
+    "name": "高铁票代订",
+    "kind": "service",
+    "category": "交通票务",
+    "usd": [
+     1.39,
+     2.78
+    ],
+    "unit": "person",
+    "minutes": [
+     10,
+     20
+    ]
+   },
+   {
+    "name": "酒店代订服务",
+    "kind": "service",
+    "category": "交通票务",
+    "usd": [
+     2.78,
+     6.94
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     30
+    ]
+   }
+  ]
+ },
+ "real_estate": {
+  "categories": [
+   "买卖居间",
+   "租赁居间",
+   "代办服务",
+   "托管租赁",
+   "新房代理"
+  ],
+  "roles": [
+   "置业顾问",
+   "房产经纪人",
+   "店长",
+   "区域经理",
+   "权证专员",
+   "贷款专员",
+   "租赁顾问"
+  ],
+  "departments": [
+   "二手房部",
+   "租赁部",
+   "权证部",
+   "新房部"
+  ],
+  "items": [
+   {
+    "name": "二手房买卖居间服务",
+    "kind": "service",
+    "category": "买卖居间",
+    "usd": [
+     2777.78,
+     11111.11
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "带看服务",
+    "kind": "service",
+    "category": "买卖居间",
+    "usd": [
+     6.94,
+     20.83
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "学区房咨询",
+    "kind": "service",
+    "category": "买卖居间",
+    "usd": [
+     69.44,
+     208.33
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "房屋出租居间服务",
+    "kind": "service",
+    "category": "租赁居间",
+    "usd": [
+     277.78,
+     1111.11
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "商铺招租代理",
+    "kind": "service",
+    "category": "租赁居间",
+    "usd": [
+     694.44,
+     4166.67
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "写字楼租赁代理",
+    "kind": "service",
+    "category": "租赁居间",
+    "usd": [
+     1388.89,
+     8333.33
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "按揭贷款代办",
+    "kind": "service",
+    "category": "代办服务",
+    "usd": [
+     138.89,
+     694.44
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "产权过户代办",
+    "kind": "service",
+    "category": "代办服务",
+    "usd": [
+     138.89,
+     416.67
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "抵押登记代办",
+    "kind": "service",
+    "category": "代办服务",
+    "usd": [
+     69.44,
+     208.33
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "租赁合同备案代办",
+    "kind": "service",
+    "category": "代办服务",
+    "usd": [
+     27.78,
+     69.44
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "买卖合同代书",
+    "kind": "service",
+    "category": "代办服务",
+    "usd": [
+     69.44,
+     277.78
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "房屋价值评估咨询",
+    "kind": "service",
+    "category": "代办服务",
+    "usd": [
+     69.44,
+     416.67
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "新房验房服务",
+    "kind": "service",
+    "category": "代办服务",
+    "usd": [
+     69.44,
+     208.33
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "房屋交接验收",
+    "kind": "service",
+    "category": "代办服务",
+    "usd": [
+     41.67,
+     138.89
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "房屋托管（整租）",
+    "kind": "service",
+    "category": "托管租赁",
+    "usd": [
+     27.78,
+     111.11
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "精装一居室（月租）",
+    "kind": "service",
+    "category": "托管租赁",
+    "usd": [
+     347.22,
+     833.33
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "两居室整租（月租）",
+    "kind": "service",
+    "category": "托管租赁",
+    "usd": [
+     486.11,
+     1111.11
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "合租单间（月租）",
+    "kind": "service",
+    "category": "托管租赁",
+    "usd": [
+     208.33,
+     416.67
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "新房代理销售",
+    "kind": "service",
+    "category": "新房代理",
+    "usd": [
+     1388.89,
+     6944.44
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "新房渠道分销",
+    "kind": "service",
+    "category": "新房代理",
+    "usd": [
+     694.44,
+     4166.67
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   }
+  ]
+ },
+ "cleaning": {
+  "categories": [
+   "日常保洁",
+   "深度清洁",
+   "开荒保洁",
+   "外墙玻璃",
+   "家电清洗",
+   "消杀除醛"
+  ],
+  "roles": [
+   "保洁员",
+   "保洁主管",
+   "项目经理",
+   "外墙清洗工",
+   "家电清洗师傅",
+   "客服",
+   "调度员"
+  ],
+  "departments": [
+   "家政部",
+   "物业保洁部",
+   "外墙作业部"
+  ],
+  "items": [
+   {
+    "name": "日常保洁（钟点工）",
+    "kind": "service",
+    "category": "日常保洁",
+    "usd": [
+     4.86,
+     8.33
+    ],
+    "unit": "hour",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "写字楼日常保洁外包",
+    "kind": "service",
+    "category": "日常保洁",
+    "usd": [
+     555.56,
+     2777.78
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "驻场保洁员（按人/月）",
+    "kind": "service",
+    "category": "日常保洁",
+    "usd": [
+     555.56,
+     902.78
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "家庭擦玻璃",
+    "kind": "service",
+    "category": "日常保洁",
+    "usd": [
+     0.42,
+     0.83
+    ],
+    "unit": "m2",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "全屋深度保洁",
+    "kind": "service",
+    "category": "深度清洁",
+    "usd": [
+     0.83,
+     2.08
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "地毯深层清洗",
+    "kind": "service",
+    "category": "深度清洁",
+    "usd": [
+     1.11,
+     2.78
+    ],
+    "unit": "m2",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "大理石地面结晶养护",
+    "kind": "service",
+    "category": "深度清洁",
+    "usd": [
+     1.39,
+     4.17
+    ],
+    "unit": "m2",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "床垫除螨清洁",
+    "kind": "service",
+    "category": "深度清洁",
+    "usd": [
+     11.11,
+     27.78
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "布艺沙发清洗",
+    "kind": "service",
+    "category": "深度清洁",
+    "usd": [
+     5.56,
+     13.89
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "窗帘拆洗",
+    "kind": "service",
+    "category": "深度清洁",
+    "usd": [
+     1.39,
+     2.78
+    ],
+    "unit": "m",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "油烟管道清洗",
+    "kind": "service",
+    "category": "深度清洁",
+    "usd": [
+     4.17,
+     11.11
+    ],
+    "unit": "m",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "新房开荒保洁",
+    "kind": "service",
+    "category": "开荒保洁",
+    "usd": [
+     0.69,
+     1.67
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "装修后开荒（按套）",
+    "kind": "service",
+    "category": "开荒保洁",
+    "usd": [
+     69.44,
+     208.33
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "高空外墙清洗（蜘蛛人）",
+    "kind": "service",
+    "category": "外墙玻璃",
+    "usd": [
+     0.69,
+     2.78
+    ],
+    "unit": "m2",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "玻璃幕墙清洗",
+    "kind": "service",
+    "category": "外墙玻璃",
+    "usd": [
+     0.42,
+     1.39
+    ],
+    "unit": "m2",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "油烟机拆洗",
+    "kind": "service",
+    "category": "家电清洗",
+    "usd": [
+     16.67,
+     36.11
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "挂机空调清洗",
+    "kind": "service",
+    "category": "家电清洗",
+    "usd": [
+     11.11,
+     25.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     45,
+     90
+    ]
+   },
+   {
+    "name": "洗衣机清洗",
+    "kind": "service",
+    "category": "家电清洗",
+    "usd": [
+     8.33,
+     16.67
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "冰箱清洁除味",
+    "kind": "service",
+    "category": "家电清洗",
+    "usd": [
+     8.33,
+     16.67
+    ],
+    "unit": "piece",
+    "minutes": [
+     45,
+     90
+    ]
+   },
+   {
+    "name": "室内消杀服务",
+    "kind": "service",
+    "category": "消杀除醛",
+    "usd": [
+     0.14,
+     0.69
+    ],
+    "unit": "m2",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "灭蟑螂服务",
+    "kind": "service",
+    "category": "消杀除醛",
+    "usd": [
+     27.78,
+     69.44
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "室内除甲醛治理",
+    "kind": "service",
+    "category": "消杀除醛",
+    "usd": [
+     1.39,
+     4.17
+    ],
+    "unit": "m2",
+    "minutes": [
+     120,
+     360
+    ]
+   }
+  ]
+ },
+ "security": {
+  "categories": [
+   "驻场安保",
+   "活动安保",
+   "技防工程",
+   "巡逻押运",
+   "培训评估"
+  ],
+  "roles": [
+   "保安员",
+   "保安班长",
+   "保安队长",
+   "项目主管",
+   "监控员",
+   "安防工程师",
+   "培训教官"
+  ],
+  "departments": [
+   "勤务部",
+   "技防工程部",
+   "培训部",
+   "综合办公室"
+  ],
+  "items": [
+   {
+    "name": "驻场保安（按人/月）",
+    "kind": "service",
+    "category": "驻场安保",
+    "usd": [
+     555.56,
+     972.22
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "保安班长派驻",
+    "kind": "service",
+    "category": "驻场安保",
+    "usd": [
+     763.89,
+     1180.56
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "门岗值守（24小时）",
+    "kind": "service",
+    "category": "驻场安保",
+    "usd": [
+     1666.67,
+     2777.78
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "监控中心值守",
+    "kind": "service",
+    "category": "驻场安保",
+    "usd": [
+     555.56,
+     972.22
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "停车场管理员派驻",
+    "kind": "service",
+    "category": "驻场安保",
+    "usd": [
+     486.11,
+     833.33
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "活动临时安保（按人/天）",
+    "kind": "service",
+    "category": "活动安保",
+    "usd": [
+     41.67,
+     83.33
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "大型活动安保方案及执行",
+    "kind": "service",
+    "category": "活动安保",
+    "usd": [
+     2777.78,
+     27777.78
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "演唱会人流管控",
+    "kind": "service",
+    "category": "活动安保",
+    "usd": [
+     1388.89,
+     8333.33
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "活动安检服务",
+    "kind": "service",
+    "category": "活动安保",
+    "usd": [
+     55.56,
+     111.11
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "安防监控系统施工",
+    "kind": "service",
+    "category": "技防工程",
+    "usd": [
+     694.44,
+     6944.44
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "门禁及周界报警系统安装",
+    "kind": "service",
+    "category": "技防工程",
+    "usd": [
+     416.67,
+     2777.78
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "可视对讲系统安装",
+    "kind": "service",
+    "category": "技防工程",
+    "usd": [
+     277.78,
+     1388.89
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "监控系统维保",
+    "kind": "service",
+    "category": "技防工程",
+    "usd": [
+     69.44,
+     277.78
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "园区夜间巡逻",
+    "kind": "service",
+    "category": "巡逻押运",
+    "usd": [
+     416.67,
+     1388.89
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "随身护卫",
+    "kind": "service",
+    "category": "巡逻押运",
+    "usd": [
+     208.33,
+     694.44
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "贵重物品押运",
+    "kind": "service",
+    "category": "巡逻押运",
+    "usd": [
+     111.11,
+     416.67
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "消防安全巡查",
+    "kind": "service",
+    "category": "巡逻押运",
+    "usd": [
+     277.78,
+     833.33
+    ],
+    "unit": "month",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "保安员岗前培训",
+    "kind": "service",
+    "category": "培训评估",
+    "usd": [
+     111.11,
+     277.78
+    ],
+    "unit": "person",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "安全风险评估",
+    "kind": "service",
+    "category": "培训评估",
+    "usd": [
+     1388.89,
+     6944.44
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "消防演练组织",
+    "kind": "service",
+    "category": "培训评估",
+    "usd": [
+     277.78,
+     833.33
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     240
+    ]
+   }
+  ]
+ },
+ "language_school": {
+  "categories": [
+   "英语考试",
+   "少儿英语",
+   "成人英语",
+   "小语种",
+   "教材资料"
+  ],
+  "roles": [
+   "英语老师",
+   "外教",
+   "课程顾问",
+   "教务",
+   "班主任",
+   "校长",
+   "市场专员"
+  ],
+  "departments": [
+   "教学部",
+   "教务部",
+   "市场部",
+   "课程顾问部"
+  ],
+  "items": [
+   {
+    "name": "雅思7分冲刺班（8周）",
+    "kind": "service",
+    "category": "英语考试",
+    "usd": [
+     944.44,
+     2194.44
+    ],
+    "unit": "person",
+    "minutes": [
+     90,
+     180
+    ]
+   },
+   {
+    "name": "托福一对一辅导",
+    "kind": "service",
+    "category": "英语考试",
+    "usd": [
+     55.56,
+     125.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "考研英语全程班",
+    "kind": "service",
+    "category": "英语考试",
+    "usd": [
+     277.78,
+     833.33
+    ],
+    "unit": "person",
+    "minutes": [
+     120,
+     180
+    ]
+   },
+   {
+    "name": "四六级冲刺班",
+    "kind": "service",
+    "category": "英语考试",
+    "usd": [
+     69.44,
+     208.33
+    ],
+    "unit": "person",
+    "minutes": [
+     90,
+     120
+    ]
+   },
+   {
+    "name": "少儿英语外教小班课",
+    "kind": "service",
+    "category": "少儿英语",
+    "usd": [
+     20.83,
+     41.67
+    ],
+    "unit": "session",
+    "minutes": [
+     45,
+     60
+    ]
+   },
+   {
+    "name": "自然拼读课程",
+    "kind": "service",
+    "category": "少儿英语",
+    "usd": [
+     208.33,
+     486.11
+    ],
+    "unit": "person",
+    "minutes": [
+     45,
+     60
+    ]
+   },
+   {
+    "name": "KET备考班",
+    "kind": "service",
+    "category": "少儿英语",
+    "usd": [
+     416.67,
+     972.22
+    ],
+    "unit": "person",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "英语夏令营（两周）",
+    "kind": "service",
+    "category": "少儿英语",
+    "usd": [
+     555.56,
+     1666.67
+    ],
+    "unit": "person",
+    "minutes": [
+     360,
+     480
+    ]
+   },
+   {
+    "name": "商务英语小班课（20课时）",
+    "kind": "service",
+    "category": "成人英语",
+    "usd": [
+     527.78,
+     1111.11
+    ],
+    "unit": "person",
+    "minutes": [
+     90,
+     120
+    ]
+   },
+   {
+    "name": "英语口语外教一对一",
+    "kind": "service",
+    "category": "成人英语",
+    "usd": [
+     27.78,
+     69.44
+    ],
+    "unit": "session",
+    "minutes": [
+     25,
+     60
+    ]
+   },
+   {
+    "name": "在线英语直播课（月卡）",
+    "kind": "service",
+    "category": "成人英语",
+    "usd": [
+     41.53,
+     124.86
+    ],
+    "unit": "month",
+    "minutes": [
+     45,
+     60
+    ]
+   },
+   {
+    "name": "企业商务英语内训",
+    "kind": "service",
+    "category": "成人英语",
+    "usd": [
+     694.44,
+     2083.33
+    ],
+    "unit": "day",
+    "minutes": [
+     360,
+     480
+    ]
+   },
+   {
+    "name": "日语N2考级课程",
+    "kind": "service",
+    "category": "小语种",
+    "usd": [
+     486.11,
+     972.22
+    ],
+    "unit": "person",
+    "minutes": [
+     90,
+     180
+    ]
+   },
+   {
+    "name": "韩语零基础入门班",
+    "kind": "service",
+    "category": "小语种",
+    "usd": [
+     277.78,
+     625.0
+    ],
+    "unit": "person",
+    "minutes": [
+     90,
+     120
+    ]
+   },
+   {
+    "name": "法语A1入门班",
+    "kind": "service",
+    "category": "小语种",
+    "usd": [
+     277.78,
+     694.44
+    ],
+    "unit": "person",
+    "minutes": [
+     90,
+     120
+    ]
+   },
+   {
+    "name": "西班牙语DELE备考课",
+    "kind": "service",
+    "category": "小语种",
+    "usd": [
+     555.56,
+     1250.0
+    ],
+    "unit": "person",
+    "minutes": [
+     90,
+     180
+    ]
+   },
+   {
+    "name": "外籍人士汉语课",
+    "kind": "service",
+    "category": "小语种",
+    "usd": [
+     20.83,
+     55.56
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "原版教材",
+    "kind": "product",
+    "category": "教材资料",
+    "usd": [
+     27.78,
+     83.33
+    ],
+    "unit": "set",
+    "variants": [
+     "学生用书",
+     "学生用书+练习册"
+    ]
+   },
+   {
+    "name": "英语分级阅读绘本",
+    "kind": "product",
+    "category": "教材资料",
+    "usd": [
+     13.89,
+     41.67
+    ],
+    "unit": "set",
+    "variants": [
+     "入门套装",
+     "进阶套装",
+     "全套"
+    ]
+   },
+   {
+    "name": "雅思真题集",
+    "kind": "product",
+    "category": "教材资料",
+    "usd": [
+     6.94,
+     13.89
+    ],
+    "unit": "piece",
+    "variants": [
+     "单本",
+     "全套"
+    ]
+   },
+   {
+    "name": "点读笔",
+    "kind": "product",
+    "category": "教材资料",
+    "usd": [
+     27.78,
+     69.44
+    ],
+    "unit": "piece",
+    "variants": [
+     "16G",
+     "32G"
+    ]
+   }
+  ]
+ },
+ "driving_school": {
+  "categories": [
+   "小车培训",
+   "大车增驾",
+   "摩托车",
+   "陪练服务",
+   "其他服务"
+  ],
+  "roles": [
+   "教练员",
+   "科目二教练",
+   "科目三教练",
+   "招生专员",
+   "教务员",
+   "理论老师",
+   "校长"
+  ],
+  "departments": [
+   "教练部",
+   "招生部",
+   "教务部"
+  ],
+  "items": [
+   {
+    "name": "C1手动挡普通班",
+    "kind": "service",
+    "category": "小车培训",
+    "usd": [
+     486.11,
+     833.33
+    ],
+    "unit": "person",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "C2自动挡VIP班",
+    "kind": "service",
+    "category": "小车培训",
+    "usd": [
+     694.44,
+     1250.0
+    ],
+    "unit": "person",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "C1一对一VIP班",
+    "kind": "service",
+    "category": "小车培训",
+    "usd": [
+     833.33,
+     1388.89
+    ],
+    "unit": "person",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "C1周末班",
+    "kind": "service",
+    "category": "小车培训",
+    "usd": [
+     555.56,
+     902.78
+    ],
+    "unit": "person",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "科目一理论强化",
+    "kind": "service",
+    "category": "小车培训",
+    "usd": [
+     13.89,
+     41.67
+    ],
+    "unit": "person",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "计时培训",
+    "kind": "service",
+    "category": "小车培训",
+    "usd": [
+     8.33,
+     16.67
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "B2增驾班",
+    "kind": "service",
+    "category": "大车增驾",
+    "usd": [
+     1111.11,
+     1944.44
+    ],
+    "unit": "person",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "A2增驾班",
+    "kind": "service",
+    "category": "大车增驾",
+    "usd": [
+     1250.0,
+     2083.33
+    ],
+    "unit": "person",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "C6轻型牵引挂车增驾",
+    "kind": "service",
+    "category": "大车增驾",
+    "usd": [
+     416.67,
+     833.33
+    ],
+    "unit": "person",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "摩托车E证班",
+    "kind": "service",
+    "category": "摩托车",
+    "usd": [
+     208.33,
+     416.67
+    ],
+    "unit": "person",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "三轮摩托D证班",
+    "kind": "service",
+    "category": "摩托车",
+    "usd": [
+     138.89,
+     277.78
+    ],
+    "unit": "person",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "新手陪练",
+    "kind": "service",
+    "category": "陪练服务",
+    "usd": [
+     13.89,
+     27.78
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "科目二加时练车",
+    "kind": "service",
+    "category": "陪练服务",
+    "usd": [
+     11.11,
+     20.83
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "科目三考场模拟",
+    "kind": "service",
+    "category": "陪练服务",
+    "usd": [
+     27.78,
+     55.56
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "高速公路陪驾",
+    "kind": "service",
+    "category": "陪练服务",
+    "usd": [
+     27.78,
+     55.56
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "夜间驾驶陪练",
+    "kind": "service",
+    "category": "陪练服务",
+    "usd": [
+     16.67,
+     34.72
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "补考费（科目二）",
+    "kind": "service",
+    "category": "其他服务",
+    "usd": [
+     4.17,
+     8.33
+    ],
+    "unit": "session",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "体检代办",
+    "kind": "service",
+    "category": "其他服务",
+    "usd": [
+     5.56,
+     11.11
+    ],
+    "unit": "session",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "学车接送",
+    "kind": "service",
+    "category": "其他服务",
+    "usd": [
+     2.78,
+     6.94
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "企业驾驶员安全培训",
+    "kind": "service",
+    "category": "其他服务",
+    "usd": [
+     416.67,
+     1388.89
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   }
+  ]
+ },
+ "fitness": {
+  "categories": [
+   "会员卡",
+   "私教课",
+   "团体课",
+   "训练营",
+   "营养补剂"
+  ],
+  "roles": [
+   "私人教练",
+   "团课教练",
+   "会籍顾问",
+   "前台",
+   "店长",
+   "瑜伽老师",
+   "保洁员"
+  ],
+  "departments": [
+   "教练部",
+   "会籍部",
+   "前台"
+  ],
+  "items": [
+   {
+    "name": "健身年卡",
+    "kind": "service",
+    "category": "会员卡",
+    "usd": [
+     208.33,
+     555.56
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "健身季卡",
+    "kind": "service",
+    "category": "会员卡",
+    "usd": [
+     69.44,
+     166.67
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "健身月卡",
+    "kind": "service",
+    "category": "会员卡",
+    "usd": [
+     27.78,
+     69.44
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "次卡（20次）",
+    "kind": "service",
+    "category": "会员卡",
+    "usd": [
+     83.33,
+     194.44
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "健身单次体验",
+    "kind": "service",
+    "category": "会员卡",
+    "usd": [
+     6.94,
+     16.67
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "企业员工团体卡",
+    "kind": "service",
+    "category": "会员卡",
+    "usd": [
+     111.11,
+     277.78
+    ],
+    "unit": "person",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "私人储物柜租用",
+    "kind": "service",
+    "category": "会员卡",
+    "usd": [
+     6.94,
+     13.89
+    ],
+    "unit": "month",
+    "minutes": [
+     5,
+     10
+    ]
+   },
+   {
+    "name": "私教一对一课程",
+    "kind": "service",
+    "category": "私教课",
+    "usd": [
+     34.72,
+     83.33
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "私教课包（30节）",
+    "kind": "service",
+    "category": "私教课",
+    "usd": [
+     833.33,
+     2083.33
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "普拉提器械私教",
+    "kind": "service",
+    "category": "私教课",
+    "usd": [
+     41.67,
+     97.22
+    ],
+    "unit": "session",
+    "minutes": [
+     55,
+     60
+    ]
+   },
+   {
+    "name": "泰拳私教课",
+    "kind": "service",
+    "category": "私教课",
+    "usd": [
+     27.78,
+     62.5
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "体测及体态评估",
+    "kind": "service",
+    "category": "私教课",
+    "usd": [
+     13.89,
+     41.67
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     45
+    ]
+   },
+   {
+    "name": "运动康复训练",
+    "kind": "service",
+    "category": "私教课",
+    "usd": [
+     41.67,
+     83.33
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "动感单车团课",
+    "kind": "service",
+    "category": "团体课",
+    "usd": [
+     5.56,
+     13.89
+    ],
+    "unit": "session",
+    "minutes": [
+     45,
+     45
+    ]
+   },
+   {
+    "name": "流瑜伽小班课",
+    "kind": "service",
+    "category": "团体课",
+    "usd": [
+     11.11,
+     27.78
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     75
+    ]
+   },
+   {
+    "name": "搏击操团课",
+    "kind": "service",
+    "category": "团体课",
+    "usd": [
+     5.56,
+     13.89
+    ],
+    "unit": "session",
+    "minutes": [
+     45,
+     60
+    ]
+   },
+   {
+    "name": "减脂训练营（21天）",
+    "kind": "service",
+    "category": "训练营",
+    "usd": [
+     208.33,
+     486.11
+    ],
+    "unit": "person",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "增肌训练营（8周）",
+    "kind": "service",
+    "category": "训练营",
+    "usd": [
+     277.78,
+     694.44
+    ],
+    "unit": "person",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "乳清蛋白粉",
+    "kind": "product",
+    "category": "营养补剂",
+    "usd": [
+     20.83,
+     41.67
+    ],
+    "unit": "piece",
+    "variants": [
+     "2磅",
+     "5磅"
+    ]
+   },
+   {
+    "name": "肌酸",
+    "kind": "product",
+    "category": "营养补剂",
+    "usd": [
+     13.89,
+     27.78
+    ],
+    "unit": "piece",
+    "variants": [
+     "300g",
+     "500g"
+    ]
+   },
+   {
+    "name": "蛋白棒",
+    "kind": "product",
+    "category": "营养补剂",
+    "usd": [
+     1.39,
+     2.78
+    ],
+    "unit": "piece",
+    "variants": [
+     "单支",
+     "12支盒装"
+    ]
+   },
+   {
+    "name": "运动饮料",
+    "kind": "product",
+    "category": "营养补剂",
+    "usd": [
+     0.83,
+     1.67
+    ],
+    "unit": "piece"
+   }
+  ]
+ },
+ "hair_beauty": {
+  "categories": [
+   "剪发造型",
+   "烫染护理",
+   "面部护理",
+   "美甲美睫",
+   "化妆造型",
+   "洗护产品"
+  ],
+  "roles": [
+   "发型师",
+   "美发总监",
+   "助理",
+   "美容师",
+   "美甲师",
+   "前台",
+   "店长",
+   "化妆师"
+  ],
+  "departments": [
+   "美发部",
+   "美容部",
+   "前台"
+  ],
+  "items": [
+   {
+    "name": "洗剪吹（总监）",
+    "kind": "service",
+    "category": "剪发造型",
+    "usd": [
+     9.44,
+     27.5
+    ],
+    "unit": "session",
+    "minutes": [
+     45,
+     60
+    ]
+   },
+   {
+    "name": "洗剪吹（设计师）",
+    "kind": "service",
+    "category": "剪发造型",
+    "usd": [
+     5.28,
+     12.22
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     45
+    ]
+   },
+   {
+    "name": "男士快剪",
+    "kind": "service",
+    "category": "剪发造型",
+    "usd": [
+     3.47,
+     8.33
+    ],
+    "unit": "session",
+    "minutes": [
+     15,
+     20
+    ]
+   },
+   {
+    "name": "儿童剪发",
+    "kind": "service",
+    "category": "剪发造型",
+    "usd": [
+     2.78,
+     8.06
+    ],
+    "unit": "session",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "日式冷烫",
+    "kind": "service",
+    "category": "烫染护理",
+    "usd": [
+     52.78,
+     177.78
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     180
+    ]
+   },
+   {
+    "name": "植物染发",
+    "kind": "service",
+    "category": "烫染护理",
+    "usd": [
+     41.39,
+     136.11
+    ],
+    "unit": "session",
+    "minutes": [
+     90,
+     150
+    ]
+   },
+   {
+    "name": "挑染",
+    "kind": "service",
+    "category": "烫染护理",
+    "usd": [
+     41.67,
+     138.89
+    ],
+    "unit": "session",
+    "minutes": [
+     90,
+     180
+    ]
+   },
+   {
+    "name": "焗油护理",
+    "kind": "service",
+    "category": "烫染护理",
+    "usd": [
+     17.78,
+     55.28
+    ],
+    "unit": "session",
+    "minutes": [
+     40,
+     60
+    ]
+   },
+   {
+    "name": "头皮深层清洁护理",
+    "kind": "service",
+    "category": "烫染护理",
+    "usd": [
+     27.5,
+     83.06
+    ],
+    "unit": "session",
+    "minutes": [
+     45,
+     60
+    ]
+   },
+   {
+    "name": "头疗SPA",
+    "kind": "service",
+    "category": "烫染护理",
+    "usd": [
+     17.78,
+     55.28
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "面部补水护理",
+    "kind": "service",
+    "category": "面部护理",
+    "usd": [
+     23.33,
+     65.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "小气泡深层清洁",
+    "kind": "service",
+    "category": "面部护理",
+    "usd": [
+     13.61,
+     41.39
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     45
+    ]
+   },
+   {
+    "name": "修眉",
+    "kind": "service",
+    "category": "面部护理",
+    "usd": [
+     2.78,
+     6.94
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     20
+    ]
+   },
+   {
+    "name": "单色美甲",
+    "kind": "service",
+    "category": "美甲美睫",
+    "usd": [
+     12.22,
+     41.39
+    ],
+    "unit": "session",
+    "minutes": [
+     45,
+     60
+    ]
+   },
+   {
+    "name": "法式美甲",
+    "kind": "service",
+    "category": "美甲美睫",
+    "usd": [
+     20.83,
+     55.56
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "嫁接睫毛",
+    "kind": "service",
+    "category": "美甲美睫",
+    "usd": [
+     17.78,
+     49.72
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "日常妆容",
+    "kind": "service",
+    "category": "化妆造型",
+    "usd": [
+     13.89,
+     41.67
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "盘发造型",
+    "kind": "service",
+    "category": "化妆造型",
+    "usd": [
+     13.89,
+     34.72
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "新娘跟妆",
+    "kind": "service",
+    "category": "化妆造型",
+    "usd": [
+     111.11,
+     388.89
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "洗发水",
+    "kind": "product",
+    "category": "洗护产品",
+    "usd": [
+     13.89,
+     27.78
+    ],
+    "unit": "piece",
+    "variants": [
+     "300ml",
+     "500ml",
+     "1L"
+    ]
+   },
+   {
+    "name": "护发精油",
+    "kind": "product",
+    "category": "洗护产品",
+    "usd": [
+     13.89,
+     34.72
+    ],
+    "unit": "piece",
+    "variants": [
+     "50ml",
+     "100ml"
+    ]
+   },
+   {
+    "name": "发膜",
+    "kind": "product",
+    "category": "洗护产品",
+    "usd": [
+     11.11,
+     27.78
+    ],
+    "unit": "piece",
+    "variants": [
+     "200g",
+     "500g"
+    ]
+   },
+   {
+    "name": "补水面膜（盒装）",
+    "kind": "product",
+    "category": "洗护产品",
+    "usd": [
+     8.33,
+     27.78
+    ],
+    "unit": "box"
+   }
+  ]
+ },
+ "dental": {
+  "categories": [
+   "检查洁牙",
+   "补牙治疗",
+   "拔牙外科",
+   "种植修复",
+   "正畸",
+   "儿童口腔"
+  ],
+  "roles": [
+   "口腔医生",
+   "主治医师",
+   "护士",
+   "医助",
+   "前台",
+   "咨询师",
+   "消毒员",
+   "院长"
+  ],
+  "departments": [
+   "门诊部",
+   "护理部",
+   "客服部"
+  ],
+  "items": [
+   {
+    "name": "口腔检查",
+    "kind": "service",
+    "category": "检查洁牙",
+    "usd": [
+     2.78,
+     6.94
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     20
+    ]
+   },
+   {
+    "name": "口腔全景片拍摄",
+    "kind": "service",
+    "category": "检查洁牙",
+    "usd": [
+     11.11,
+     27.78
+    ],
+    "unit": "piece",
+    "minutes": [
+     10,
+     15
+    ]
+   },
+   {
+    "name": "超声波洁牙",
+    "kind": "service",
+    "category": "检查洁牙",
+    "usd": [
+     20.83,
+     55.56
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     45
+    ]
+   },
+   {
+    "name": "洁牙喷砂抛光",
+    "kind": "service",
+    "category": "检查洁牙",
+    "usd": [
+     34.72,
+     83.33
+    ],
+    "unit": "session",
+    "minutes": [
+     45,
+     60
+    ]
+   },
+   {
+    "name": "冷光美白",
+    "kind": "service",
+    "category": "检查洁牙",
+    "usd": [
+     111.11,
+     347.22
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "光固化树脂补牙",
+    "kind": "service",
+    "category": "补牙治疗",
+    "usd": [
+     27.78,
+     83.33
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "根管治疗（磨牙）",
+    "kind": "service",
+    "category": "补牙治疗",
+    "usd": [
+     138.89,
+     416.67
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "牙周刮治（每象限）",
+    "kind": "service",
+    "category": "补牙治疗",
+    "usd": [
+     27.78,
+     69.44
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "牙齿脱敏治疗",
+    "kind": "service",
+    "category": "补牙治疗",
+    "usd": [
+     13.89,
+     34.72
+    ],
+    "unit": "session",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "普通牙拔除",
+    "kind": "service",
+    "category": "拔牙外科",
+    "usd": [
+     13.89,
+     41.67
+    ],
+    "unit": "piece",
+    "minutes": [
+     15,
+     45
+    ]
+   },
+   {
+    "name": "阻生智齿拔除",
+    "kind": "service",
+    "category": "拔牙外科",
+    "usd": [
+     69.44,
+     277.78
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "单颗种植牙（含牙冠）",
+    "kind": "service",
+    "category": "种植修复",
+    "usd": [
+     555.56,
+     1666.67
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "全瓷牙冠（氧化锆）",
+    "kind": "service",
+    "category": "种植修复",
+    "usd": [
+     208.33,
+     694.44
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "嵌体修复",
+    "kind": "service",
+    "category": "种植修复",
+    "usd": [
+     138.89,
+     416.67
+    ],
+    "unit": "piece",
+    "minutes": [
+     45,
+     90
+    ]
+   },
+   {
+    "name": "全口活动义齿",
+    "kind": "service",
+    "category": "种植修复",
+    "usd": [
+     208.33,
+     833.33
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "隐形矫正（全疗程）",
+    "kind": "service",
+    "category": "正畸",
+    "usd": [
+     2777.78,
+     6944.44
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "金属托槽矫正",
+    "kind": "service",
+    "category": "正畸",
+    "usd": [
+     1388.89,
+     2777.78
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "儿童早期矫治",
+    "kind": "service",
+    "category": "正畸",
+    "usd": [
+     694.44,
+     2083.33
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "窝沟封闭（每颗）",
+    "kind": "service",
+    "category": "儿童口腔",
+    "usd": [
+     6.94,
+     20.83
+    ],
+    "unit": "piece",
+    "minutes": [
+     10,
+     20
+    ]
+   },
+   {
+    "name": "儿童涂氟",
+    "kind": "service",
+    "category": "儿童口腔",
+    "usd": [
+     11.11,
+     27.78
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     20
+    ]
+   },
+   {
+    "name": "乳牙拔除",
+    "kind": "service",
+    "category": "儿童口腔",
+    "usd": [
+     4.17,
+     13.89
+    ],
+    "unit": "piece",
+    "minutes": [
+     10,
+     20
+    ]
+   }
+  ]
+ },
+ "veterinary": {
+  "categories": [
+   "疫苗驱虫",
+   "诊疗检查",
+   "手术",
+   "美容寄养",
+   "宠物用品"
+  ],
+  "roles": [
+   "执业兽医师",
+   "助理兽医师",
+   "兽医护士",
+   "宠物美容师",
+   "前台",
+   "院长",
+   "药房管理员"
+  ],
+  "departments": [
+   "门诊部",
+   "住院部",
+   "美容部",
+   "药房"
+  ],
+  "items": [
+   {
+    "name": "猫三联疫苗接种",
+    "kind": "service",
+    "category": "疫苗驱虫",
+    "usd": [
+     13.89,
+     27.78
+    ],
+    "unit": "session",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "犬八联疫苗接种",
+    "kind": "service",
+    "category": "疫苗驱虫",
+    "usd": [
+     16.67,
+     34.72
+    ],
+    "unit": "session",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "狂犬疫苗接种",
+    "kind": "service",
+    "category": "疫苗驱虫",
+    "usd": [
+     8.33,
+     20.83
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     20
+    ]
+   },
+   {
+    "name": "体内外驱虫",
+    "kind": "service",
+    "category": "疫苗驱虫",
+    "usd": [
+     11.11,
+     34.72
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     20
+    ]
+   },
+   {
+    "name": "挂号费（普通门诊）",
+    "kind": "service",
+    "category": "诊疗检查",
+    "usd": [
+     2.78,
+     6.94
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     20
+    ]
+   },
+   {
+    "name": "宠物全面体检套餐",
+    "kind": "service",
+    "category": "诊疗检查",
+    "usd": [
+     41.67,
+     125.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "血常规检查",
+    "kind": "service",
+    "category": "诊疗检查",
+    "usd": [
+     8.33,
+     20.83
+    ],
+    "unit": "session",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "B超检查",
+    "kind": "service",
+    "category": "诊疗检查",
+    "usd": [
+     20.83,
+     55.56
+    ],
+    "unit": "session",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "静脉输液治疗",
+    "kind": "service",
+    "category": "诊疗检查",
+    "usd": [
+     13.89,
+     41.67
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "宠物芯片植入",
+    "kind": "service",
+    "category": "诊疗检查",
+    "usd": [
+     13.89,
+     41.67
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     15
+    ]
+   },
+   {
+    "name": "住院护理（每天）",
+    "kind": "service",
+    "category": "诊疗检查",
+    "usd": [
+     13.89,
+     41.67
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "公猫绝育手术",
+    "kind": "service",
+    "category": "手术",
+    "usd": [
+     41.67,
+     111.11
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "母犬绝育手术",
+    "kind": "service",
+    "category": "手术",
+    "usd": [
+     138.89,
+     416.67
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "宠物洗牙（全麻）",
+    "kind": "service",
+    "category": "手术",
+    "usd": [
+     83.33,
+     208.33
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "骨折内固定手术",
+    "kind": "service",
+    "category": "手术",
+    "usd": [
+     277.78,
+     833.33
+    ],
+    "unit": "session",
+    "minutes": [
+     90,
+     180
+    ]
+   },
+   {
+    "name": "小型犬洗澡美容",
+    "kind": "service",
+    "category": "美容寄养",
+    "usd": [
+     8.33,
+     20.83
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "猫咪洗澡",
+    "kind": "service",
+    "category": "美容寄养",
+    "usd": [
+     11.11,
+     27.78
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "宠物寄养（小型犬）",
+    "kind": "service",
+    "category": "美容寄养",
+    "usd": [
+     6.94,
+     20.83
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "泌尿道处方粮",
+    "kind": "product",
+    "category": "宠物用品",
+    "usd": [
+     20.83,
+     55.56
+    ],
+    "unit": "pack",
+    "variants": [
+     "1.5kg",
+     "3kg"
+    ]
+   },
+   {
+    "name": "成猫全价猫粮",
+    "kind": "product",
+    "category": "宠物用品",
+    "usd": [
+     11.11,
+     34.72
+    ],
+    "unit": "pack",
+    "variants": [
+     "1.5kg",
+     "4kg",
+     "10kg"
+    ]
+   },
+   {
+    "name": "豆腐猫砂",
+    "kind": "product",
+    "category": "宠物用品",
+    "usd": [
+     4.17,
+     11.11
+    ],
+    "unit": "pack",
+    "variants": [
+     "6L",
+     "10L"
+    ]
+   },
+   {
+    "name": "伊丽莎白圈",
+    "kind": "product",
+    "category": "宠物用品",
+    "usd": [
+     2.08,
+     5.56
+    ],
+    "unit": "piece",
+    "variants": [
+     "S",
+     "M",
+     "L"
+    ]
+   },
+   {
+    "name": "驱虫滴剂（外用）",
+    "kind": "product",
+    "category": "宠物用品",
+    "usd": [
+     4.17,
+     11.11
+    ],
+    "unit": "box"
+   }
+  ]
+ },
+ "printing": {
+  "categories": [
+   "名片",
+   "宣传品",
+   "包装印刷",
+   "喷绘写真",
+   "文印装订",
+   "设计服务"
+  ],
+  "roles": [
+   "印刷机长",
+   "设计师",
+   "排版员",
+   "业务员",
+   "装订工",
+   "门店店长",
+   "喷绘操作员"
+  ],
+  "departments": [
+   "印刷车间",
+   "设计部",
+   "业务部",
+   "门市"
+  ],
+  "items": [
+   {
+    "name": "名片印刷（100张/盒）",
+    "kind": "product",
+    "category": "名片",
+    "usd": [
+     2.78,
+     8.33
+    ],
+    "unit": "box",
+    "variants": [
+     "铜版纸",
+     "特种纸",
+     "PVC透明"
+    ]
+   },
+   {
+    "name": "A4宣传单页（157克铜版纸）",
+    "kind": "product",
+    "category": "宣传品",
+    "usd": [
+     0.028,
+     0.11
+    ],
+    "unit": "piece",
+    "variants": [
+     "单面",
+     "双面"
+    ]
+   },
+   {
+    "name": "A3彩色海报",
+    "kind": "product",
+    "category": "宣传品",
+    "usd": [
+     0.69,
+     4.17
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "企业画册（骑马钉24P）",
+    "kind": "product",
+    "category": "宣传品",
+    "usd": [
+     1.11,
+     5.56
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "精装书刊印刷",
+    "kind": "product",
+    "category": "宣传品",
+    "usd": [
+     4.17,
+     13.89
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "不干胶标签（1万张）",
+    "kind": "product",
+    "category": "包装印刷",
+    "usd": [
+     41.67,
+     166.67
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "彩色包装盒（300克白卡）",
+    "kind": "product",
+    "category": "包装印刷",
+    "usd": [
+     0.14,
+     1.11
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "牛皮纸手提袋",
+    "kind": "product",
+    "category": "包装印刷",
+    "usd": [
+     0.21,
+     0.83
+    ],
+    "unit": "piece",
+    "variants": [
+     "小号",
+     "中号",
+     "大号"
+    ]
+   },
+   {
+    "name": "无纺布袋印刷",
+    "kind": "product",
+    "category": "包装印刷",
+    "usd": [
+     0.42,
+     1.39
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "户外喷绘布",
+    "kind": "product",
+    "category": "喷绘写真",
+    "usd": [
+     1.39,
+     4.17
+    ],
+    "unit": "m2"
+   },
+   {
+    "name": "室内PP背胶写真",
+    "kind": "product",
+    "category": "喷绘写真",
+    "usd": [
+     4.17,
+     11.11
+    ],
+    "unit": "m2"
+   },
+   {
+    "name": "门头灯箱写真",
+    "kind": "product",
+    "category": "喷绘写真",
+    "usd": [
+     11.11,
+     27.78
+    ],
+    "unit": "m2"
+   },
+   {
+    "name": "X展架（含画面）",
+    "kind": "product",
+    "category": "喷绘写真",
+    "usd": [
+     6.94,
+     20.83
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "易拉宝（80×200cm）",
+    "kind": "product",
+    "category": "喷绘写真",
+    "usd": [
+     11.11,
+     27.78
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "条幅横幅",
+    "kind": "product",
+    "category": "喷绘写真",
+    "usd": [
+     2.78,
+     6.94
+    ],
+    "unit": "m"
+   },
+   {
+    "name": "A4黑白打印",
+    "kind": "product",
+    "category": "文印装订",
+    "usd": [
+     0.014,
+     0.069
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "A4彩色打印",
+    "kind": "product",
+    "category": "文印装订",
+    "usd": [
+     0.069,
+     0.28
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "A4复印",
+    "kind": "product",
+    "category": "文印装订",
+    "usd": [
+     0.014,
+     0.042
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "奖状证书打印",
+    "kind": "product",
+    "category": "文印装订",
+    "usd": [
+     0.28,
+     1.11
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "标书胶装装订",
+    "kind": "service",
+    "category": "文印装订",
+    "usd": [
+     2.78,
+     13.89
+    ],
+    "unit": "set",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "平面设计排版（每P）",
+    "kind": "service",
+    "category": "设计服务",
+    "usd": [
+     6.94,
+     41.67
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "菜单设计制作",
+    "kind": "service",
+    "category": "设计服务",
+    "usd": [
+     41.67,
+     138.89
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "LOGO设计",
+    "kind": "service",
+    "category": "设计服务",
+    "usd": [
+     69.44,
+     416.67
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   }
+  ]
+ },
+ "furniture_maker": {
+  "categories": [
+   "全屋定制",
+   "实木家具",
+   "软体家具",
+   "办公工程家具",
+   "维修翻新"
+  ],
+  "roles": [
+   "木工师傅",
+   "油漆师傅",
+   "设计师",
+   "安装师傅",
+   "车间主任",
+   "销售顾问",
+   "拆单员",
+   "质检员"
+  ],
+  "departments": [
+   "生产车间",
+   "设计部",
+   "销售部",
+   "安装售后部"
+  ],
+  "items": [
+   {
+    "name": "定制衣柜（按投影面积）",
+    "kind": "product",
+    "category": "全屋定制",
+    "usd": [
+     111.11,
+     277.78
+    ],
+    "unit": "m2"
+   },
+   {
+    "name": "整体橱柜（地柜+吊柜）",
+    "kind": "product",
+    "category": "全屋定制",
+    "usd": [
+     208.33,
+     555.56
+    ],
+    "unit": "m"
+   },
+   {
+    "name": "定制书柜",
+    "kind": "product",
+    "category": "全屋定制",
+    "usd": [
+     125.0,
+     277.78
+    ],
+    "unit": "m2"
+   },
+   {
+    "name": "榻榻米定制",
+    "kind": "product",
+    "category": "全屋定制",
+    "usd": [
+     138.89,
+     347.22
+    ],
+    "unit": "m2"
+   },
+   {
+    "name": "鞋柜定制",
+    "kind": "product",
+    "category": "全屋定制",
+    "usd": [
+     97.22,
+     208.33
+    ],
+    "unit": "m2"
+   },
+   {
+    "name": "北美黑胡桃木餐桌",
+    "kind": "product",
+    "category": "实木家具",
+    "usd": [
+     277.78,
+     1111.11
+    ],
+    "unit": "piece",
+    "variants": [
+     "1.4米",
+     "1.6米",
+     "1.8米"
+    ]
+   },
+   {
+    "name": "实木餐椅",
+    "kind": "product",
+    "category": "实木家具",
+    "usd": [
+     55.56,
+     166.67
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "实木双人床",
+    "kind": "product",
+    "category": "实木家具",
+    "usd": [
+     416.67,
+     1666.67
+    ],
+    "unit": "piece",
+    "variants": [
+     "1.5米",
+     "1.8米",
+     "2米"
+    ]
+   },
+   {
+    "name": "实木电视柜",
+    "kind": "product",
+    "category": "实木家具",
+    "usd": [
+     166.67,
+     555.56
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "儿童高低床",
+    "kind": "product",
+    "category": "实木家具",
+    "usd": [
+     347.22,
+     972.22
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "整板实木茶台",
+    "kind": "product",
+    "category": "实木家具",
+    "usd": [
+     416.67,
+     2083.33
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "布艺沙发",
+    "kind": "product",
+    "category": "软体家具",
+    "usd": [
+     416.67,
+     1666.67
+    ],
+    "unit": "set",
+    "variants": [
+     "双人位",
+     "三人位",
+     "转角L型"
+    ]
+   },
+   {
+    "name": "独立弹簧床垫",
+    "kind": "product",
+    "category": "软体家具",
+    "usd": [
+     208.33,
+     694.44
+    ],
+    "unit": "piece",
+    "variants": [
+     "1.5米",
+     "1.8米",
+     "2米"
+    ]
+   },
+   {
+    "name": "员工办公位（四人位）",
+    "kind": "product",
+    "category": "办公工程家具",
+    "usd": [
+     277.78,
+     833.33
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "老板班台",
+    "kind": "product",
+    "category": "办公工程家具",
+    "usd": [
+     416.67,
+     2083.33
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "会议桌（3.6米）",
+    "kind": "product",
+    "category": "办公工程家具",
+    "usd": [
+     416.67,
+     1666.67
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "钢制文件柜",
+    "kind": "product",
+    "category": "办公工程家具",
+    "usd": [
+     69.44,
+     194.44
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "酒店客房家具（整套）",
+    "kind": "product",
+    "category": "办公工程家具",
+    "usd": [
+     833.33,
+     2777.78
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "旧家具维修翻新",
+    "kind": "service",
+    "category": "维修翻新",
+    "usd": [
+     41.67,
+     277.78
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "真皮沙发翻新",
+    "kind": "service",
+    "category": "维修翻新",
+    "usd": [
+     69.44,
+     208.33
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "家具补漆",
+    "kind": "service",
+    "category": "维修翻新",
+    "usd": [
+     13.89,
+     55.56
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "上门安装",
+    "kind": "service",
+    "category": "维修翻新",
+    "usd": [
+     13.89,
+     41.67
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     240
+    ]
+   }
+  ]
+ },
+ "event_catering": {
+  "categories": [
+   "茶歇冷餐",
+   "宴席套餐",
+   "团餐",
+   "上门服务",
+   "场地布置",
+   "人员租赁"
+  ],
+  "roles": [
+   "厨师长",
+   "厨师",
+   "宴会经理",
+   "服务员",
+   "策划师",
+   "司机",
+   "采购员"
+  ],
+  "departments": [
+   "中央厨房",
+   "宴会部",
+   "策划部",
+   "物流部"
+  ],
+  "items": [
+   {
+    "name": "茶歇套餐",
+    "kind": "product",
+    "category": "茶歇冷餐",
+    "usd": [
+     4.86,
+     11.11
+    ],
+    "unit": "person",
+    "variants": [
+     "标准款",
+     "精致款",
+     "豪华款"
+    ]
+   },
+   {
+    "name": "西式冷餐会",
+    "kind": "product",
+    "category": "茶歇冷餐",
+    "usd": [
+     13.61,
+     35.83
+    ],
+    "unit": "person",
+    "variants": [
+     "A套餐",
+     "B套餐",
+     "C套餐"
+    ]
+   },
+   {
+    "name": "鸡尾酒会小食",
+    "kind": "product",
+    "category": "茶歇冷餐",
+    "usd": [
+     20.83,
+     48.61
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "下午茶点心盒",
+    "kind": "product",
+    "category": "茶歇冷餐",
+    "usd": [
+     4.17,
+     8.33
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "中式自助餐",
+    "kind": "product",
+    "category": "宴席套餐",
+    "usd": [
+     12.22,
+     27.5
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "年会宴席套餐（10人/桌）",
+    "kind": "product",
+    "category": "宴席套餐",
+    "usd": [
+     277.78,
+     694.44
+    ],
+    "unit": "set",
+    "variants": [
+     "标准席",
+     "精品席",
+     "豪华席"
+    ]
+   },
+   {
+    "name": "宝宝宴套餐",
+    "kind": "product",
+    "category": "宴席套餐",
+    "usd": [
+     208.33,
+     486.11
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "寿宴套餐",
+    "kind": "product",
+    "category": "宴席套餐",
+    "usd": [
+     208.33,
+     555.56
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "生日派对套餐",
+    "kind": "product",
+    "category": "宴席套餐",
+    "usd": [
+     277.78,
+     694.44
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "流水席套餐（每桌）",
+    "kind": "product",
+    "category": "宴席套餐",
+    "usd": [
+     111.11,
+     250.0
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "团圆盆菜（8人份）",
+    "kind": "product",
+    "category": "宴席套餐",
+    "usd": [
+     81.67,
+     178.89
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "员工工作餐（盒饭）",
+    "kind": "product",
+    "category": "团餐",
+    "usd": [
+     2.78,
+     5.56
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "会议午餐便当",
+    "kind": "product",
+    "category": "团餐",
+    "usd": [
+     4.17,
+     8.33
+    ],
+    "unit": "person",
+    "variants": [
+     "单荤",
+     "两荤一素",
+     "三荤一素"
+    ]
+   },
+   {
+    "name": "企业团餐（包月）",
+    "kind": "product",
+    "category": "团餐",
+    "usd": [
+     83.33,
+     138.89
+    ],
+    "unit": "month"
+   },
+   {
+    "name": "户外BBQ烧烤派对",
+    "kind": "product",
+    "category": "上门服务",
+    "usd": [
+     17.78,
+     41.39
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "私宴上门厨师服务",
+    "kind": "service",
+    "category": "上门服务",
+    "usd": [
+     111.11,
+     347.22
+    ],
+    "unit": "session",
+    "minutes": [
+     180,
+     360
+    ]
+   },
+   {
+    "name": "甜品台布置",
+    "kind": "service",
+    "category": "场地布置",
+    "usd": [
+     208.33,
+     694.44
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "宴会场地布置",
+    "kind": "service",
+    "category": "场地布置",
+    "usd": [
+     277.78,
+     1388.89
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "餐具桌椅租赁",
+    "kind": "service",
+    "category": "场地布置",
+    "usd": [
+     2.78,
+     8.33
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "宴会服务员派遣",
+    "kind": "service",
+    "category": "人员租赁",
+    "usd": [
+     27.78,
+     55.56
+    ],
+    "unit": "person",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "调酒师派遣",
+    "kind": "service",
+    "category": "人员租赁",
+    "usd": [
+     83.33,
+     208.33
+    ],
+    "unit": "person",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "厨师派遣（按天）",
+    "kind": "service",
+    "category": "人员租赁",
+    "usd": [
+     83.33,
+     166.67
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   }
+  ]
+ }
+}

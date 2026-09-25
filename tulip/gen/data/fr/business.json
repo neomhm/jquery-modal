@@ -1,0 +1,397 @@
+{
+ "_about": "Words for company names and countries (from the PLAN's shared data, written natively for the Extractor): name_patterns use {family} {given} {brand} {activity_word} {city} {initials}.",
+ "name_patterns": [
+  "{activity_word} {family}",
+  "{family} {activity_word}",
+  "{brand} {activity_word}",
+  "{activity_word} {brand}",
+  "{brand}",
+  "{city} {activity_word}",
+  "{activity_word} du Centre",
+  "{family} & Fils",
+  "{family} et Fils",
+  "{family} et Associés",
+  "{family} & Associés",
+  "{family} Frères",
+  "Établissements {family}",
+  "Ets {family}",
+  "Maison {family}",
+  "{given} {family}",
+  "{initials} {activity_word}",
+  "{activity_word} {initials}",
+  "{brand} & Co"
+ ],
+ "brand_words": [
+  "Novalis",
+  "Azurel",
+  "Solvéa",
+  "Opaline",
+  "Kerlane",
+  "Vallorys",
+  "Aurélys",
+  "Célestine",
+  "Ondalys",
+  "Terravia",
+  "Brisane",
+  "Calixa",
+  "Delphéa",
+  "Élyane",
+  "Fauvelle",
+  "Galéane",
+  "Isaline",
+  "Jolival",
+  "Lorvane",
+  "Mirabelle",
+  "Nacrelle",
+  "Opalie",
+  "Pervenche",
+  "Quiétude",
+  "Roselière",
+  "Sauvéa",
+  "Tilia",
+  "Ulysséa",
+  "Valmore",
+  "Yselis",
+  "Zéphyrine",
+  "Alizés",
+  "Boréal",
+  "Canopée",
+  "Colibri",
+  "Hermine",
+  "Libellule",
+  "Mosaïque",
+  "Prisme",
+  "Cèdre Bleu",
+  "Azuréa",
+  "Clairval",
+  "Montaval",
+  "Rivéa",
+  "Ondéa",
+  "Verdalis",
+  "Aubéline",
+  "Arcadie",
+  "Horizon",
+  "Épi d'Or",
+  "Clé de Sol",
+  "Rose des Vents",
+  "Tournesol",
+  "Iroise",
+  "Îlot Vert",
+  "Sésame",
+  "Diapason",
+  "Émeraude",
+  "Topaze",
+  "Saphir",
+  "Méridienne",
+  "Luméa",
+  "Altaïs",
+  "Kalisto",
+  "Arvéa",
+  "Orélia",
+  "Belvéa",
+  "Nordive",
+  "Solenza",
+  "Marivel",
+  "Téranga",
+  "Baobab",
+  "Kora",
+  "Djoloff",
+  "Atlas Nova",
+  "Argania",
+  "Zellige",
+  "Majorelle",
+  "Palmeraie",
+  "Laurentide",
+  "Nordet",
+  "Lémanis",
+  "Alpinéa",
+  "Ardenna",
+  "Mosane",
+  "Kerval",
+  "Trèfle",
+  "Nymphéa",
+  "Capucine",
+  "Grain de Sel",
+  "Bergamote",
+  "Cannelle",
+  "Myrtille",
+  "Sirocco",
+  "Tramontane",
+  "Albatros",
+  "Écume",
+  "Axelis",
+  "Novéo",
+  "Stellane",
+  "Vivalys",
+  "Orphéa",
+  "Ambrine"
+ ],
+ "country_names": {
+  "SA": "Arabie saoudite",
+  "AE": "Émirats arabes unis",
+  "EG": "Égypte",
+  "MA": "Maroc",
+  "CN": "Chine",
+  "TW": "Taïwan",
+  "HK": "Hong Kong",
+  "SG": "Singapour",
+  "US": "États-Unis",
+  "GB": "Royaume-Uni",
+  "IN": "Inde",
+  "AU": "Australie",
+  "CA": "Canada",
+  "NG": "Nigeria",
+  "FR": "France",
+  "BE": "Belgique",
+  "CH": "Suisse",
+  "SN": "Sénégal",
+  "RU": "Russie",
+  "KZ": "Kazakhstan",
+  "BY": "Biélorussie",
+  "ES": "Espagne",
+  "MX": "Mexique",
+  "AR": "Argentine",
+  "CO": "Colombie",
+  "CL": "Chili",
+  "IT": "Italie",
+  "JP": "Japon",
+  "KR": "Corée du Sud"
+ },
+ "activity_words": {
+  "bakery": [
+   "Boulangerie",
+   "Fournil",
+   "Pâtisserie",
+   "Boulangerie-Pâtisserie"
+  ],
+  "restaurant": [
+   "Restaurant",
+   "Brasserie",
+   "Bistrot",
+   "Auberge"
+  ],
+  "cafe_bar": [
+   "Café",
+   "Bar",
+   "Bistrot",
+   "Comptoir"
+  ],
+  "hotel": [
+   "Hôtel",
+   "Hostellerie",
+   "Relais",
+   "Grand Hôtel"
+  ],
+  "plumbing_hvac": [
+   "Plomberie",
+   "Chauffage",
+   "Plomberie-Chauffage",
+   "Climatisation"
+  ],
+  "electrical": [
+   "Électricité",
+   "Élec",
+   "Électricité Générale",
+   "Électro"
+  ],
+  "building_contractor": [
+   "Bâtiment",
+   "Construction",
+   "Maçonnerie",
+   "BTP"
+  ],
+  "painting": [
+   "Peinture",
+   "Décoration",
+   "Peinture & Décoration",
+   "Déco"
+  ],
+  "car_repair": [
+   "Garage",
+   "Auto",
+   "Automobiles",
+   "Carrosserie"
+  ],
+  "clothing_shop": [
+   "Boutique",
+   "Mode",
+   "Prêt-à-Porter",
+   "Dressing"
+  ],
+  "florist": [
+   "Fleurs",
+   "Fleuriste",
+   "Art Floral",
+   "Atelier Floral"
+  ],
+  "pharmacy": [
+   "Pharmacie",
+   "Grande Pharmacie",
+   "Parapharmacie"
+  ],
+  "grocery": [
+   "Épicerie",
+   "Alimentation",
+   "Supérette",
+   "Épicerie Fine"
+  ],
+  "ecommerce": [
+   "Shop",
+   "Boutique",
+   "Store",
+   "Direct"
+  ],
+  "wholesale_electronics": [
+   "Informatique",
+   "Distribution",
+   "Micro",
+   "Électronique"
+  ],
+  "software": [
+   "Software",
+   "Logiciels",
+   "Solutions",
+   "Digital"
+  ],
+  "it_consulting": [
+   "Informatique",
+   "Systèmes",
+   "Conseil",
+   "Services"
+  ],
+  "web_hosting": [
+   "Hébergement",
+   "Cloud",
+   "Data",
+   "Hosting"
+  ],
+  "accounting": [
+   "Expertise",
+   "Fiduciaire",
+   "Audit",
+   "Conseil"
+  ],
+  "law_firm": [
+   "Avocats",
+   "Cabinet",
+   "Avocats Associés",
+   "Avocats Conseils"
+  ],
+  "management_consulting": [
+   "Conseil",
+   "Consulting",
+   "Management",
+   "Stratégie"
+  ],
+  "architecture": [
+   "Architecture",
+   "Architectes",
+   "Atelier d'Architecture"
+  ],
+  "advertising": [
+   "Communication",
+   "Publicité",
+   "Com",
+   "Marketing"
+  ],
+  "photography": [
+   "Photo",
+   "Studio",
+   "Photographie",
+   "Studio Photo"
+  ],
+  "translation": [
+   "Traduction",
+   "Traductions",
+   "Interprétariat",
+   "Langues"
+  ],
+  "road_freight": [
+   "Transports",
+   "Logistique",
+   "Fret",
+   "Transports et Logistique"
+  ],
+  "courier": [
+   "Express",
+   "Coursiers",
+   "Courses Express",
+   "Livraisons"
+  ],
+  "travel_agency": [
+   "Voyages",
+   "Évasion",
+   "Tourisme",
+   "Travel"
+  ],
+  "real_estate": [
+   "Immobilier",
+   "Immo",
+   "Agence Immobilière",
+   "Habitat"
+  ],
+  "cleaning": [
+   "Nettoyage",
+   "Propreté",
+   "Multiservices",
+   "Net"
+  ],
+  "security": [
+   "Sécurité",
+   "Protection",
+   "Surveillance",
+   "Gardiennage"
+  ],
+  "language_school": [
+   "Langues",
+   "École de Langues",
+   "Institut",
+   "Formation"
+  ],
+  "driving_school": [
+   "Auto-École",
+   "École de Conduite",
+   "Moto-École"
+  ],
+  "fitness": [
+   "Fitness",
+   "Gym",
+   "Forme",
+   "Sport"
+  ],
+  "hair_beauty": [
+   "Coiffure",
+   "Beauté",
+   "Institut de Beauté",
+   "Esthétique"
+  ],
+  "dental": [
+   "Cabinet Dentaire",
+   "Centre Dentaire",
+   "Clinique Dentaire"
+  ],
+  "veterinary": [
+   "Clinique Vétérinaire",
+   "Cabinet Vétérinaire",
+   "Centre Vétérinaire"
+  ],
+  "printing": [
+   "Imprimerie",
+   "Print",
+   "Impressions",
+   "Reprographie"
+  ],
+  "furniture_maker": [
+   "Ébénisterie",
+   "Menuiserie",
+   "Atelier",
+   "Meubles"
+  ],
+  "event_catering": [
+   "Traiteur",
+   "Réceptions",
+   "Gastronomie",
+   "Événements"
+  ]
+ }
+}

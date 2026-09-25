@@ -1,0 +1,40 @@
+{
+  "given_male": [
+    "Adebayo", "Oluwaseun", "Olumide", "Babatunde", "Oluwafemi", "Adewale", "Tunde", "Segun",
+    "Kunle", "Femi", "Gbenga", "Kayode", "Rotimi", "Olalekan", "Akinwale", "Oladipo",
+    "Chukwuemeka", "Chinedu", "Emeka", "Obinna", "Ikechukwu", "Nnamdi", "Chidi", "Ifeanyi",
+    "Chibuike", "Chijioke", "Okechukwu", "Tochukwu", "Ebuka", "Nnaemeka", "Abubakar", "Musa",
+    "Ibrahim", "Sani", "Aminu", "Usman", "Yusuf", "Bashir", "Aliyu", "Garba",
+    "Suleiman", "Umar", "Muhammad", "Mustapha", "Kabiru", "Nasiru", "Haruna", "Edet",
+    "Effiong", "Etim", "Osagie", "Osaro", "Efosa", "Terver", "Aondona", "Ovie",
+    "Tamuno", "Emmanuel", "Daniel", "Samuel", "Victor", "Godwin", "Sunday", "Joseph",
+    "Peter", "Michael", "Anthony", "Francis"
+  ],
+  "given_female": [
+    "Folake", "Funmilayo", "Yetunde", "Bukola", "Omolara", "Titilayo", "Adeola", "Adunni",
+    "Morenike", "Oluwakemi", "Bisola", "Abimbola", "Olabisi", "Modupe", "Aderonke", "Damilola",
+    "Ifeoluwa", "Temitope", "Ngozi", "Chioma", "Adaeze", "Nneka", "Amaka", "Chiamaka",
+    "Ifeoma", "Ebere", "Obiageli", "Nkechi", "Chinwe", "Chinyere", "Oluchi", "Ogechi",
+    "Adanna", "Chidinma", "Aisha", "Fatima", "Zainab", "Hauwa", "Amina", "Hadiza",
+    "Maryam", "Halima", "Rakiya", "Hafsat", "Bilkisu", "Khadija", "Binta", "Asabe",
+    "Arit", "Eno", "Imaobong", "Itohan", "Osarugue", "Ebiere", "Ejiro", "Grace",
+    "Blessing", "Mercy", "Joy", "Esther", "Patience", "Comfort", "Faith", "Precious",
+    "Deborah", "Stella"
+  ],
+  "family": [
+    "Adeyemi", "Adebayo", "Ogunleye", "Adeleke", "Ogunbiyi", "Balogun", "Bakare", "Akinola",
+    "Akinwumi", "Afolabi", "Oladipo", "Olawale", "Ogundipe", "Ojo", "Oyewole", "Adekunle",
+    "Adeniyi", "Ajayi", "Akande", "Alabi", "Babalola", "Bello", "Coker", "Dada",
+    "Fagbemi", "Kolawole", "Lawal", "Makinde", "Olatunji", "Oni", "Sanni", "Salami",
+    "Taiwo", "Williams", "Aina", "Ige", "Olaniyan", "Okafor", "Okeke", "Okonkwo",
+    "Nwosu", "Eze", "Obi", "Nwachukwu", "Chukwu", "Okoro", "Nwankwo", "Uzoma",
+    "Ogbonna", "Nnadi", "Anyanwu", "Ibe", "Mbah", "Nwafor", "Obiora", "Okoye",
+    "Onuoha", "Udeh", "Ugwu", "Umeh", "Emenike", "Ekwueme", "Madu", "Abubakar",
+    "Mohammed", "Usman", "Yusuf", "Aliyu", "Ibrahim", "Suleiman", "Musa", "Garba",
+    "Danjuma", "Sani", "Shehu", "Adamu", "Lawan", "Umar", "Haruna", "Idris",
+    "Kabir", "Bala", "Waziri", "Tijani", "Bukar", "Modu", "Bassey", "Etim",
+    "Effiong", "Okon", "Udoh", "Akpan", "Ekpenyong", "Essien", "Umoh", "Inyang",
+    "Osagie", "Igbinedion", "Omoregie", "Aigbe", "Ogbeide", "Amachree", "Briggs", "Dokubo",
+    "Iorliam", "Akaa", "Ochai", "Adoga", "Ndagi", "Ozigi"
+  ]
+}

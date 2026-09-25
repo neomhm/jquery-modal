@@ -221,9 +221,9 @@ SEED_HOURS = {
     "fr": ["h", "heure", "heures"], "ru": ["ч", "ч.", "час", "часа", "часов"],
     "es": ["h", "hora", "horas"], "it": ["h", "ora", "ore"],
     "hi": ["घंटा", "घंटे", "घं."], "ja": ["時間"], "ko": ["시간"]}
-AM_WORDS = ["am", "a.m.", "a.m", "ص", "صباحا", "صباحًا", "上午", "午前", "오전",
+AM_WORDS = ["am", "a.m.", "a.m", "ص", "صباحا", "صباحًا", "صباحاً", "上午", "午前", "오전",
             "पूर्वाह्न"]
-PM_WORDS = ["pm", "p.m.", "p.m", "م", "مساء", "مساءً", "下午", "午後", "오후",
+PM_WORDS = ["pm", "p.m.", "p.m", "م", "مساء", "مساءً", "مساءا", "مساءاً", "下午", "午後", "오후",
             "अपराह्न"]
 
 ENGLISH_MONTHS = ["january", "february", "march", "april", "may", "june",
@@ -474,7 +474,8 @@ CURRENCY_TOKENS = [
     ("£", "GBP"), ("₹", "INR"), ("Rs.", "INR"), ("Rs", "INR"),
     ("₨", "INR"), ("रु.", "INR"), ("रुपये", "INR"), ("रुपए", "INR"),
     ("रुपया", "INR"), ("रु", "INR"),
-    ("₽", "RUB"), ("руб.", _ruble), ("руб", _ruble), ("рублей", _ruble),
+    ("бел. руб.", "BYN"), ("бел.руб.", "BYN"), ("₽", "RUB"),
+    ("руб.", _ruble), ("руб", _ruble), ("рублей", _ruble),
     ("р.", _ruble), ("₸", "KZT"), ("тенге", "KZT"), ("тг", "KZT"),
     ("円", "JPY"), ("¥", _yen), ("人民币", "CNY"), ("人民幣", "CNY"),
     ("RMB", "CNY"), ("新台幣", "TWD"), ("新臺幣", "TWD"), ("港幣", "HKD"),
@@ -615,6 +616,14 @@ def _read_amount(text, locale):
             t = t[len(w):]
             low = t.casefold()
             break
+    # ja / zh / ko / hi put the word after the number: 3,000円〜, 35元起,
+    # or on both sides: 由$380起
+    if True:
+        for w in from_words():
+            m = re.search(r"(\d)\s*%s\s*$" % re.escape(w), t, re.IGNORECASE)
+            if m:
+                t = t[:m.start() + 1]
+                break
     t = t.strip()
     # accounting negatives (120,00) and minus signs
     negative = False
@@ -704,8 +713,10 @@ def integer(value, locale=None):
         return FAIL
     lang, country = parse_locale(locale)
     t = ascii_digits(clean(value))
-    # a unit after the number: 40 pcs, 12 kg, 3 шт.
-    m = re.fullmatch(r"([-−]?\s*\d[\d .,'’]*?)\s*([^\W\d_][^\d]*)?", t)
+    # a unit after the number: 40 pcs, 12 kg, 3 шт., 5 m² (clean() makes
+    # the ² a plain 2, so a short unit may end with 2 or 3)
+    m = re.fullmatch(r"([-−]?\s*\d[\d .,'’]*?)\s*"
+                     r"([^\W\d_]{1,3}[23]|[^\W\d_][^\d]*)?", t)
     if not m:
         return FAIL
     number = m.group(1).replace("−", "-").replace(" ", "") \
@@ -865,6 +876,13 @@ def _read_date(text, locale):
     return None
 
 
+TRAILING_TIME = re.compile(
+    r"^(.*\d.*?)[ T,]+(?:%s)?\s*\d{1,2}(?:[:.h]\d{2}(?::\d{2})?|\s*[時时시]"
+    r"(?:\s*\d{1,2}\s*[分분])?)\s*(?:%s)?$" % (
+        "|".join(re.escape(w) for w in AM_WORDS + PM_WORDS),
+        "|".join(re.escape(w) for w in AM_WORDS + PM_WORDS)), re.I)
+
+
 @_guard
 def date(value, locale=None):
     if isinstance(value, datetime.datetime):
@@ -874,6 +892,12 @@ def date(value, locale=None):
     if not isinstance(value, str):
         return FAIL
     got = _read_date(value, locale)
+    if not got:
+        # a date and a time in one cell: "15/03/2024 14:30" (section 6,
+        # bookings: date(col('A')) and time(col('A')) read the same cell)
+        m = TRAILING_TIME.match(single_spaces(ascii_digits(clean(value))))
+        if m:
+            got = _read_date(m.group(1), locale)
     return (True, got) if got else FAIL
 
 
@@ -896,8 +920,14 @@ AMPM_RX = re.compile(r"(?<![^\W\d_])(%s)(?![^\W\d_])" % "|".join(
     re.escape(w) for w in sorted(AM_WORDS + PM_WORDS, key=len, reverse=True)))
 
 
+def _ampm_dots(text):
+    """Spanish Excel writes 'a. m.' / 'p. m.': make them 'a.m.' / 'p.m.'."""
+    return re.sub(r"\b([aApP])\.\s+([mM])\.", r"\1.\2.", text)
+
+
 def _marker(text):
     """-> (text without its AM/PM word, 'am' / 'pm' / None)."""
+    text = _ampm_dots(text)
     low = text.casefold()
     m = AMPM_RX.search(low)
     if not m:
@@ -955,7 +985,8 @@ def time(value, locale=None):
     return FAIL
 
 
-RANGE_RX = re.compile(r"\s*(?:-|–|—|~|〜|～|to|à|a|bis|до|إلى|الى|至|से)\s*")
+RANGE_RX = re.compile(r"\s*(?:-|–|—|~|〜|～|\bto\b|\bà\b|\ba\b(?!\.)|\bbis\b|"
+                      r"\bдо\b|إلى|الى|至|से)\s*")
 SLOT_SPLIT = re.compile(r"\s*(?:/|,|;|&|\+|\bet\b|\band\b|\by\b|\be\b|"
                         r"\bи\b|و|、|，|及)\s*")
 
@@ -964,19 +995,20 @@ SLOT_SPLIT = re.compile(r"\s*(?:/|,|;|&|\+|\bet\b|\band\b|\by\b|\be\b|"
 def hours(value, locale=None):
     if not isinstance(value, str):
         return FAIL
-    t = single_spaces(ascii_digits(clean(value)))
+    t = _ampm_dots(single_spaces(ascii_digits(clean(value))))
     if not t:
         return FAIL
     low = key(t)
     words = closed_words()
     if low.rstrip(".!") in words:
         return True, "closed"
-    ranges = []
+    ranges, closed_seen = [], False
     for slot in SLOT_SPLIT.split(t):
         slot = slot.strip()
         if not slot:
             continue
         if key(slot).rstrip(".!") in words:
+            closed_seen = True
             continue                      # "Fermé, 14h-19h": afternoon only
         pieces = [p for p in RANGE_RX.split(slot) if p.strip()]
         if len(pieces) != 2:
@@ -988,7 +1020,8 @@ def hours(value, locale=None):
             return FAIL
         ranges.append("%s-%s" % (start, end))
     if not ranges:
-        return FAIL
+        # "Fermé, Fermé": morning and afternoon both closed
+        return (True, "closed") if closed_seen else FAIL
     return True, ", ".join(ranges)
 
 
@@ -1020,7 +1053,7 @@ def weekday(value, locale=None):
     return FAIL
 
 
-TRUE_MARKS = {"cjk": set("○◯Oo√✓✔"), "ru": set("✓✔√xXхХ"),
+TRUE_MARKS = {"cjk": set("○◯〇Oo√✓✔"), "ru": set("✓✔√xXхХ"),
               "other": set("✓✔√xX")}
 FALSE_MARKS = {"cjk": set("×✕Xx✗✘"), "ru": set("✗✘"), "other": set("✗✘")}
 
@@ -1046,6 +1079,8 @@ def boolean(value, locale=None):
             return True, True
         if raw in FALSE_MARKS[group]:
             return True, False
+        if not raw.isalpha():
+            return FAIL       # a mark of another locale group (× in fr)
     t = key(raw).rstrip(".!")
     if t in ("1", "+", "true", "vrai"):
         return True, True

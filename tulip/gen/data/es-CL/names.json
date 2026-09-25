@@ -1,0 +1,34 @@
+{
+  "given_male": [
+    "Juan", "José", "Luis", "Carlos", "Jorge", "Francisco", "Cristián", "Rodrigo",
+    "Felipe", "Sebastián", "Matías", "Diego", "Nicolás", "Benjamín", "Vicente", "Tomás",
+    "Agustín", "Maximiliano", "Ignacio", "Gonzalo", "Pablo", "Andrés", "Patricio", "Claudio",
+    "Mauricio", "Marcelo", "Sergio", "Manuel", "Héctor", "Víctor", "Pedro", "Alejandro",
+    "Fernando", "Ricardo", "Eduardo", "Joaquín", "Martín", "Álvaro", "Esteban", "Hernán",
+    "Raúl", "Osvaldo", "Guillermo", "Arturo",
+    "Juan Pablo", "José Tomás", "Juan Carlos", "Luis Alberto", "Juan Ignacio"
+  ],
+  "given_female": [
+    "María", "Carolina", "Francisca", "Javiera", "Catalina", "Constanza", "Valentina", "Camila",
+    "Fernanda", "Daniela", "Paula", "Macarena", "Andrea", "Claudia", "Patricia", "Marcela",
+    "Paulina", "Alejandra", "Carmen", "Rosa", "Isidora", "Antonia", "Florencia", "Josefa",
+    "Trinidad", "Sofía", "Martina", "Agustina", "Ximena", "Pamela", "Lorena", "Verónica",
+    "Gabriela", "Soledad", "Bárbara", "Pilar", "Loreto", "Consuelo", "Victoria", "Emilia",
+    "Gloria", "Cecilia", "Magdalena",
+    "María José", "María Paz", "María Ignacia", "María Jesús", "María Elena"
+  ],
+  "family": [
+    "González", "Muñoz", "Rojas", "Díaz", "Pérez", "Soto", "Contreras", "Silva",
+    "Martínez", "Sepúlveda", "Morales", "Rodríguez", "López", "Fuentes", "Hernández", "Torres",
+    "Araya", "Flores", "Espinoza", "Valenzuela", "Castillo", "Tapia", "Reyes", "Gutiérrez",
+    "Castro", "Pizarro", "Álvarez", "Vásquez", "Sánchez", "Fernández", "Ramírez", "Carrasco",
+    "Gómez", "Cortés", "Herrera", "Núñez", "Jara", "Vergara", "Rivera", "Figueroa",
+    "Riquelme", "García", "Miranda", "Bravo", "Vera", "Molina", "Vega", "Campos",
+    "Sandoval", "Orellana", "Cárdenas", "Olivares", "Alarcón", "Gallardo", "Ortiz", "Garrido",
+    "Salazar", "Guzmán", "Henríquez", "Saavedra", "Navarro", "Aguilera", "Parra", "Romero",
+    "Aravena", "Vargas", "Vidal", "Poblete", "Cáceres", "Donoso", "Maldonado", "Lagos",
+    "Toro", "Mella", "Leiva", "Bustos", "Zúñiga", "Salinas", "Venegas", "Troncoso",
+    "Peña", "Yáñez", "Palma", "Ulloa", "Ibarra", "Acevedo", "Arancibia", "Mardones",
+    "Quezada", "Farías", "Moya", "Ríos", "Escobar", "Lillo", "Hidalgo", "Pinto"
+  ]
+}

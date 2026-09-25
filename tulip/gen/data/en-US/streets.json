@@ -1,0 +1,17 @@
+{
+  "streets": [
+    "Main Street", "Main St", "Oak Street", "Maple Avenue", "Park Avenue", "Washington Street",
+    "Elm Street", "Pine St", "Cedar Lane", "Lincoln Avenue", "Market Street", "Broadway",
+    "Church Street", "Center Street", "Commerce Drive", "Industrial Parkway", "Technology Drive",
+    "Corporate Center Drive", "Lakeview Drive", "Riverside Drive", "Ridge Road", "Mill Road",
+    "Spring Street", "Walnut Street", "Chestnut St", "Willow Lane", "Madison Avenue",
+    "Jefferson Street", "Franklin Avenue", "Highland Ave", "Hillside Drive", "Adams Street",
+    "Jackson Boulevard", "Monroe Street", "State Street", "Front Street", "Water Street",
+    "Railroad Avenue", "College Avenue", "University Avenue", "Airport Road", "Harbor Boulevard",
+    "Ocean Avenue", "Canal Street", "Grand Avenue", "Central Avenue", "Summit Avenue",
+    "N Michigan Ave", "W Madison St", "E 42nd Street", "Fifth Avenue", "W 3rd Street",
+    "S Congress Ave", "E Camelback Rd", "N Scottsdale Rd", "Wilshire Blvd", "Sunset Boulevard",
+    "Peachtree Street NE", "Route 9", "US Highway 1", "State Route 17", "County Road 12",
+    "Executive Parkway", "Research Boulevard", "Old Mill Road", "Innovation Way", "Kings Highway"
+  ]
+}

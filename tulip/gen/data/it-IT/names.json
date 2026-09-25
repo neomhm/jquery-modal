@@ -1,0 +1,37 @@
+{
+  "given_male": [
+    "Marco", "Giuseppe", "Giovanni", "Antonio", "Francesco", "Luca", "Alessandro", "Andrea",
+    "Matteo", "Stefano", "Roberto", "Paolo", "Davide", "Simone", "Lorenzo", "Federico",
+    "Riccardo", "Massimo", "Fabio", "Claudio", "Mario", "Salvatore", "Vincenzo", "Luigi",
+    "Pietro", "Giorgio", "Enrico", "Daniele", "Emanuele", "Gabriele", "Nicola", "Michele",
+    "Carlo", "Alberto", "Sergio", "Franco", "Angelo", "Domenico", "Tommaso", "Filippo",
+    "Giacomo", "Leonardo", "Edoardo", "Raffaele", "Gianluca", "Maurizio", "Fabrizio", "Alessio",
+    "Mattia", "Diego", "Valerio", "Gennaro", "Carmine", "Rocco", "Cristian", "Umberto",
+    "Bruno", "Ettore", "Piero", "Dario"
+  ],
+  "given_female": [
+    "Maria", "Anna", "Giulia", "Francesca", "Chiara", "Sara", "Laura", "Valentina",
+    "Elena", "Alessandra", "Silvia", "Federica", "Martina", "Paola", "Roberta", "Elisa",
+    "Giorgia", "Simona", "Claudia", "Monica", "Barbara", "Cristina", "Daniela", "Stefania",
+    "Veronica", "Ilaria", "Beatrice", "Alice", "Sofia", "Aurora", "Giovanna", "Rosa",
+    "Angela", "Patrizia", "Lucia", "Manuela", "Serena", "Marta", "Camilla", "Antonella",
+    "Emanuela", "Rita", "Teresa", "Carla", "Benedetta", "Noemi", "Arianna", "Eleonora",
+    "Carmela", "Graziella"
+  ],
+  "family": [
+    "Rossi", "Russo", "Ferrari", "Esposito", "Bianchi", "Romano", "Colombo", "Ricci",
+    "Marino", "Greco", "Bruno", "Gallo", "Conti", "De Luca", "Mancini", "Costa",
+    "Giordano", "Rizzo", "Lombardi", "Moretti", "Barbieri", "Fontana", "Santoro", "Mariani",
+    "Rinaldi", "Caruso", "Ferrara", "Galli", "Martini", "Leone", "Longo", "Gentile",
+    "Martinelli", "Vitale", "Lombardo", "Serra", "Coppola", "De Santis", "D'Angelo", "Marchetti",
+    "Parisi", "Villa", "Conte", "Ferraro", "Ferri", "Fabbri", "Bianco", "Marini",
+    "Grasso", "Valentini", "Messina", "Sala", "De Angelis", "Gatti", "Pellegrini", "Palumbo",
+    "Sanna", "Farina", "Rizzi", "Monti", "Cattaneo", "Morelli", "Amato", "Silvestri",
+    "Mazza", "Testa", "Grassi", "Pellegrino", "Carbone", "Giuliani", "Benedetti", "Barone",
+    "Rossetti", "Caputo", "Montanari", "Guerra", "Palmieri", "Bernardi", "Martino", "Fiore",
+    "De Rosa", "Ferretti", "Bellini", "Basile", "Riva", "Donati", "Piras", "Vitali",
+    "Battaglia", "Sartori", "Neri", "Costantini", "Milani", "Pagano", "Ruggiero", "Sorrentino",
+    "D'Amico", "Orlando", "Negri", "Fumagalli", "Brambilla", "Zanetti", "Bonetti", "Colonna",
+    "Cirillo", "Melis", "Zanella", "Pace"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "streets": [
+    "High Street", "Station Road", "Church Lane", "London Road", "Victoria Road", "Mill Lane",
+    "Park Road", "Queen Street", "King Street", "Market Place", "Church Street", "Bridge Street",
+    "North Street", "Manor Road", "York Road", "Chapel Lane", "Albert Road", "Castle Street",
+    "West Street", "New Road", "Springfield Road", "Kingsway", "Commercial Road", "The Parade",
+    "Broad Street", "Fore Street", "Northgate", "Queensway", "Station Approach", "Wellington Road",
+    "Albion Street", "Union Street", "Grange Road", "St John's Road", "St Mary's Street",
+    "Trinity Street", "Cromwell Road", "Enterprise Way", "Riverside Way", "Brunel Road",
+    "Telford Way", "Oxford Road", "Corporation Street", "Mount Pleasant", "Harbour Road",
+    "Mill Road", "The Green", "Western Avenue", "Great Western Road", "Cheapside",
+    "Priory Road", "Abbey Road", "Green Lane", "Victoria Street", "Stanley Road",
+    "Newport Road", "Canal Street", "Waterloo Road", "Charlotte Street", "Deansway"
+  ]
+}

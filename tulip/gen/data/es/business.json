@@ -1,0 +1,396 @@
+{
+ "_about": "Words for company names and countries (from the PLAN's shared data, written natively for the Extractor): name_patterns use {family} {given} {brand} {activity_word} {city} {initials}.",
+ "name_patterns": [
+  "{activity_word} {family}",
+  "{activity_word} {brand}",
+  "{brand} {activity_word}",
+  "{family} e Hijos",
+  "Hijos de {family}",
+  "{family} Hnos.",
+  "{activity_word} de {city}",
+  "{activity_word} {city}",
+  "{family} y Asociados",
+  "{initials} {activity_word}",
+  "{activity_word} {initials}",
+  "Grupo {brand}",
+  "{brand}",
+  "{activity_word} {given}"
+ ],
+ "brand_words": [
+  "Alborada",
+  "Amanecer",
+  "Atalaya",
+  "Azahar",
+  "Baluarte",
+  "Brisa",
+  "Brújula",
+  "Cenit",
+  "Cierzo",
+  "Crisol",
+  "Cumbre",
+  "Duna",
+  "Encina",
+  "Faro",
+  "Galena",
+  "Horizonte",
+  "Lumen",
+  "Marea",
+  "Mirador",
+  "Nexo",
+  "Orión",
+  "Prisma",
+  "Rumbo",
+  "Solaz",
+  "Umbral",
+  "Vértice",
+  "Zafiro",
+  "Ágora",
+  "Albor",
+  "Alisio",
+  "Levante",
+  "Mistral",
+  "Tramontana",
+  "Poniente",
+  "Pradera",
+  "Colibrí",
+  "Cóndor",
+  "Quetzal",
+  "Ceiba",
+  "Jacarandá",
+  "Araucaria",
+  "Copihue",
+  "Guayacán",
+  "Ceibo",
+  "Algarrobo",
+  "Andina",
+  "Pampa",
+  "Aconcagua",
+  "Caribe",
+  "Maguey",
+  "Novaterra",
+  "Solmar",
+  "Aquamar",
+  "Montealto",
+  "Lúmina",
+  "Kairós",
+  "Ítaca",
+  "Olea",
+  "Sotavento",
+  "Barlovento",
+  "Vereda",
+  "Floresta",
+  "Estival",
+  "Talismán",
+  "Quimera",
+  "Pléyade",
+  "Arrecife",
+  "Nácar",
+  "Cuarzo",
+  "Almendro",
+  "Laurel",
+  "Magnolia",
+  "Ónix",
+  "Timón",
+  "Aldaba",
+  "Austral",
+  "Boreal",
+  "Nogal",
+  "Quebracho",
+  "Arrayán",
+  "Ñandú",
+  "Huemul",
+  "Cenzontle",
+  "Sauce",
+  "Acacia",
+  "Lavanda",
+  "Tomillo",
+  "Brezo",
+  "Oasis",
+  "Trébol",
+  "Girasol",
+  "Cometa",
+  "Vanguardia",
+  "Raíces",
+  "Sinergia",
+  "Innova",
+  "Óptima",
+  "Magna",
+  "Alquimia",
+  "Tándem",
+  "Enlace",
+  "Cascada",
+  "Manantial",
+  "Aljibe",
+  "Altair",
+  "Antares"
+ ],
+ "country_names": {
+  "SA": "Arabia Saudita",
+  "AE": "Emiratos Árabes Unidos",
+  "EG": "Egipto",
+  "MA": "Marruecos",
+  "CN": "China",
+  "TW": "Taiwán",
+  "HK": "Hong Kong",
+  "SG": "Singapur",
+  "US": "Estados Unidos",
+  "GB": "Reino Unido",
+  "IN": "India",
+  "AU": "Australia",
+  "CA": "Canadá",
+  "NG": "Nigeria",
+  "FR": "Francia",
+  "BE": "Bélgica",
+  "CH": "Suiza",
+  "SN": "Senegal",
+  "RU": "Rusia",
+  "KZ": "Kazajistán",
+  "BY": "Bielorrusia",
+  "ES": "España",
+  "MX": "México",
+  "AR": "Argentina",
+  "CO": "Colombia",
+  "CL": "Chile",
+  "IT": "Italia",
+  "JP": "Japón",
+  "KR": "Corea del Sur"
+ },
+ "activity_words": {
+  "bakery": [
+   "Panadería",
+   "Horno",
+   "Obrador",
+   "Pastelería"
+  ],
+  "restaurant": [
+   "Restaurante",
+   "Mesón",
+   "Taberna",
+   "Parrilla"
+  ],
+  "cafe_bar": [
+   "Café",
+   "Cafetería",
+   "Bar",
+   "Cervecería"
+  ],
+  "hotel": [
+   "Hotel",
+   "Hostal",
+   "Posada",
+   "Apartahotel"
+  ],
+  "plumbing_hvac": [
+   "Fontanería",
+   "Instalaciones",
+   "Climatización",
+   "Plomería"
+  ],
+  "electrical": [
+   "Electricidad",
+   "Instalaciones Eléctricas",
+   "Electro",
+   "Electricistas"
+  ],
+  "building_contractor": [
+   "Construcciones",
+   "Constructora",
+   "Reformas",
+   "Obras y Reformas"
+  ],
+  "painting": [
+   "Pinturas",
+   "Pintura y Decoración",
+   "Decoraciones",
+   "Pintores"
+  ],
+  "car_repair": [
+   "Talleres",
+   "Taller",
+   "Automoción",
+   "Automotriz"
+  ],
+  "clothing_shop": [
+   "Moda",
+   "Modas",
+   "Boutique",
+   "Confecciones"
+  ],
+  "florist": [
+   "Floristería",
+   "Flores",
+   "Florería",
+   "Jardín"
+  ],
+  "pharmacy": [
+   "Farmacia",
+   "Droguería",
+   "Botica"
+  ],
+  "grocery": [
+   "Alimentación",
+   "Supermercado",
+   "Autoservicio",
+   "Abarrotes"
+  ],
+  "ecommerce": [
+   "Tienda",
+   "Shop",
+   "Bazar"
+  ],
+  "wholesale_electronics": [
+   "Distribuciones",
+   "Informática",
+   "Electrónica",
+   "Suministros Informáticos"
+  ],
+  "software": [
+   "Software",
+   "Sistemas",
+   "Desarrollos Informáticos",
+   "Soluciones Digitales"
+  ],
+  "it_consulting": [
+   "Informática",
+   "Soluciones Informáticas",
+   "Sistemas",
+   "Consultoría TIC"
+  ],
+  "web_hosting": [
+   "Hosting",
+   "Cloud",
+   "Servidores",
+   "Centro de Datos"
+  ],
+  "accounting": [
+   "Asesoría",
+   "Gestoría",
+   "Asesores",
+   "Contadores"
+  ],
+  "law_firm": [
+   "Abogados",
+   "Bufete",
+   "Estudio Jurídico",
+   "Despacho"
+  ],
+  "management_consulting": [
+   "Consultores",
+   "Consultoría",
+   "Consulting",
+   "Asesores"
+  ],
+  "architecture": [
+   "Arquitectura",
+   "Arquitectos",
+   "Estudio",
+   "Taller de Arquitectura"
+  ],
+  "advertising": [
+   "Publicidad",
+   "Comunicación",
+   "Marketing",
+   "Agencia"
+  ],
+  "photography": [
+   "Fotografía",
+   "Foto",
+   "Estudio Fotográfico",
+   "Fotógrafos"
+  ],
+  "translation": [
+   "Traducciones",
+   "Traductores",
+   "Servicios Lingüísticos"
+  ],
+  "road_freight": [
+   "Transportes",
+   "Logística",
+   "Autotransportes",
+   "Fletes"
+  ],
+  "courier": [
+   "Mensajería",
+   "Mensajeros",
+   "Express",
+   "Courier"
+  ],
+  "travel_agency": [
+   "Viajes",
+   "Tours",
+   "Turismo",
+   "Travel"
+  ],
+  "real_estate": [
+   "Inmobiliaria",
+   "Fincas",
+   "Propiedades",
+   "Bienes Raíces"
+  ],
+  "cleaning": [
+   "Limpiezas",
+   "Limpieza",
+   "Servicios de Limpieza",
+   "Multiservicios"
+  ],
+  "security": [
+   "Seguridad",
+   "Vigilancia",
+   "Protección",
+   "Seguridad Privada"
+  ],
+  "language_school": [
+   "Academia",
+   "Escuela de Idiomas",
+   "Instituto",
+   "Centro de Idiomas"
+  ],
+  "driving_school": [
+   "Autoescuela",
+   "Escuela de Manejo",
+   "Escuela de Conductores"
+  ],
+  "fitness": [
+   "Gimnasio",
+   "Gym",
+   "Fitness",
+   "Centro Deportivo"
+  ],
+  "hair_beauty": [
+   "Peluquería",
+   "Estética",
+   "Salón de Belleza",
+   "Estilistas"
+  ],
+  "dental": [
+   "Clínica Dental",
+   "Dental",
+   "Odontología",
+   "Centro Odontológico"
+  ],
+  "veterinary": [
+   "Clínica Veterinaria",
+   "Veterinaria",
+   "Centro Veterinario",
+   "Hospital Veterinario"
+  ],
+  "printing": [
+   "Imprenta",
+   "Gráficas",
+   "Artes Gráficas",
+   "Copistería"
+  ],
+  "furniture_maker": [
+   "Muebles",
+   "Carpintería",
+   "Ebanistería",
+   "Mueblería"
+  ],
+  "event_catering": [
+   "Catering",
+   "Banquetes",
+   "Eventos",
+   "Banquetería"
+  ]
+ }
+}

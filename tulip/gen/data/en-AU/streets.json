@@ -1,0 +1,15 @@
+{
+  "streets": [
+    "George Street", "King Street", "Queen Street", "Elizabeth Street", "William Street", "Collins Street",
+    "Bourke Street", "Flinders Street", "Swanston Street", "Pitt Street", "Macquarie Street", "Hunter Street",
+    "Oxford Street", "Crown Street", "Chapel Street", "High Street", "Main Street", "Church Street",
+    "Station Street", "Victoria Road", "Parramatta Road", "Pacific Highway", "Princes Highway",
+    "Military Road", "Anzac Parade", "Ann Street", "Adelaide Street", "Hay Street", "Murray Street",
+    "St Georges Terrace", "Stirling Highway", "Beaufort Street", "Grenfell Street", "Rundle Street",
+    "Currie Street", "Brunswick Street", "Smith Street", "Glenferrie Road", "Toorak Road", "Burke Road",
+    "Canterbury Road", "Nepean Highway", "Logan Road", "Gympie Road", "Sydney Road", "The Parade",
+    "The Esplanade", "Great Eastern Highway", "Old Northern Road", "Pennant Hills Road",
+    "Wickham Terrace", "Commercial Road", "Bridge Road", "Johnston Street", "Lygon Street",
+    "Mort Street", "Northbourne Avenue", "Mitchell Street", "Sandy Bay Road"
+  ]
+}

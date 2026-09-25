@@ -1,0 +1,37 @@
+{
+  "given_male": [
+    "Marco", "Luca", "Andrea", "Matteo", "Nicola", "Paolo", "Mattia", "Alessandro",
+    "Fabio", "Giorgio", "Claudio", "Mauro", "Sergio", "Franco", "Giovanni", "Daniele",
+    "Stefano", "Gianni", "Fabrizio", "Simone", "Michele", "Davide", "Christian", "Roberto",
+    "Massimo", "Carlo", "Renato", "Tiziano", "Fulvio", "Flavio", "Manuele", "Raffaele",
+    "Samuele", "Loris", "Ivan", "Elia", "Gabriele", "Diego", "Enea", "Filippo",
+    "Tommaso", "Moreno", "Remo", "Dario", "Silvano", "Mirko", "Ivo", "Sandro",
+    "Nicolò", "Patrick", "Thomas", "Leonardo", "Noah", "Pierluigi", "Graziano", "Renzo"
+  ],
+  "given_female": [
+    "Maria", "Anna", "Laura", "Sara", "Chiara", "Giulia", "Francesca", "Elena",
+    "Martina", "Alessia", "Monica", "Paola", "Daniela", "Sabrina", "Tiziana", "Claudia",
+    "Cristina", "Barbara", "Simona", "Nadia", "Katia", "Manuela", "Marina", "Silvia",
+    "Michela", "Roberta", "Sonia", "Patrizia", "Luisa", "Carla", "Lara", "Nicole",
+    "Jessica", "Sofia", "Emma", "Aurora", "Alice", "Giorgia", "Noemi", "Elisa",
+    "Valentina", "Federica", "Ilaria", "Mara", "Loredana", "Fabiana", "Deborah", "Tamara",
+    "Gabriella", "Ornella", "Rosanna", "Graziella", "Mirella", "Natascia"
+  ],
+  "family": [
+    "Bernasconi", "Pedrazzini", "Rusconi", "Beretta", "Crivelli", "Soldati", "Lepori", "Cattaneo",
+    "Rezzonico", "Maspoli", "Foletti", "Gianella", "Balestra", "Cavadini", "Franscini", "Motta",
+    "Cotti", "Lombardi", "Pelli", "Bertoli", "Quadri", "Ghiggia", "Pedrina", "Chiesa",
+    "Merlini", "Regazzi", "Pronzini", "Bertini", "Gendotti", "Masoni", "Pesenti", "Cavalli",
+    "Ghisletta", "Lurati", "Brenni", "Mariotta", "Cereghetti", "Vassalli", "Bottani", "Solari",
+    "Martinoli", "Cattori", "Guidotti", "Righetti", "Orelli", "Muschietti", "Poretti", "Canevascini",
+    "Albertini", "Bianchetti", "Bolla", "Morosoli", "Pini", "Rigamonti", "Tognola", "Canonica",
+    "Delcò", "Ghirlanda", "Taddei", "Luraschi", "Dotta", "Genasci", "Robbiani", "Soldini",
+    "Mondada", "Codoni", "Del Don", "Gianini", "Mombelli", "Pedrotti", "Petralli", "Quadranti",
+    "Scacchi", "Storelli", "Vanoni", "Zappa", "Gamboni", "Gianoni", "Valsangiacomo", "Balmelli",
+    "Lucchini", "Beffa", "Cometta", "Sciarini", "Tettamanti", "Vismara", "Galfetti", "Botta",
+    "Tamò", "Fasani", "Toschini", "Giacometti", "Crameri", "Lardi", "Semadeni", "Tuena",
+    "Zanolari", "Plozza", "Tognina", "Scartazzini", "Rossi", "Ferrari", "Bianchi", "Fontana",
+    "Galli", "Sala", "Riva", "Monti", "Moretti", "Colombo", "Müller", "Meier",
+    "Keller", "Schmid", "Weber", "Huber", "Brunner", "Steiner", "Gerber", "Bühler"
+  ]
+}
