@@ -15,6 +15,7 @@ import hashlib
 import json
 import pathlib
 import random
+import re
 
 HERE = pathlib.Path(__file__).resolve().parent
 FILE = HERE / "holdout.json"
@@ -143,3 +144,100 @@ def _draw_registration(rng, registry, ids, k):
             chosen.append(lid)
             left[fam] -= 1
     return chosen
+
+
+# ---------------------------------------------------------------------
+#  moving the T items out of the way (done once, right after the draw)
+# ---------------------------------------------------------------------
+TEST_DIR = HERE / "layouts" / "test"
+
+
+def move_test_items(result, registry, log=print):
+    """Moves every T item where section 10.2 says it lives:
+    * T sentence templates -> gen/data/<key>/sentences_test.json
+    * T layouts (code)     -> gen/layouts/test/<module>.py
+    * T registration families -> gen/layouts/test/registration_test.json
+    The generator still finds them (data.sentences() merges the test
+    file; gen/layouts/__init__ imports the test package), but nobody
+    needs to open those files again."""
+    import ast
+    data_dir = HERE / "data"
+    # ---- sentence templates
+    moved_templates = 0
+    for key, groups in sorted(result["templates"].items()):
+        path = data_dir / key / "sentences.json"
+        sent = json.loads(path.read_text(encoding="utf-8"))
+        test = {}
+        for cat in CATEGORIES:
+            items = sent.get(cat) or []
+            keep = [t for t in items if groups.get(t["id"]) != "T"]
+            gone = [t for t in items if groups.get(t["id"]) == "T"]
+            if gone:
+                sent[cat] = keep
+                test[cat] = gone
+                moved_templates += len(gone)
+        path.write_text(json.dumps(sent, ensure_ascii=False, indent=2) +
+                        "\n", encoding="utf-8")
+        (data_dir / key / "sentences_test.json").write_text(
+            json.dumps(test, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8")
+    # ---- layouts written as code
+    TEST_DIR.mkdir(exist_ok=True)
+    t_ids = {lid for lid, g in result["layouts"].items() if g == "T"}
+    by_module = {}
+    for lid in sorted(t_ids):
+        info = registry[lid]
+        if info["doc_type"] == "registration":
+            continue
+        module = info["fn"].__module__.rsplit(".", 1)[-1]
+        by_module.setdefault(module, []).append(lid)
+    moved_layouts = 0
+    for module, lids in sorted(by_module.items()):
+        path = HERE / "layouts" / (module + ".py")
+        source = path.read_text(encoding="utf-8")
+        tree = ast.parse(source)
+        cut = []
+        for node in tree.body:
+            if not isinstance(node, ast.FunctionDef):
+                continue
+            for dec in node.decorator_list:
+                if isinstance(dec, ast.Call) and getattr(
+                        dec.func, "id", None) == "layout" and dec.args and \
+                        getattr(dec.args[0], "value", None) in lids:
+                    first = min(d.lineno for d in node.decorator_list)
+                    cut.append((first, node.end_lineno))
+        lines = source.splitlines(keepends=True)
+        pieces = []
+        for first, last in sorted(cut, reverse=True):
+            pieces.insert(0, "".join(lines[first - 1:last]))
+            del lines[first - 1:last]
+        kept = re.sub(r"\n{3,}", "\n\n\n", "".join(lines)).rstrip() + "\n"
+        path.write_text(kept, encoding="utf-8")
+        header = ('"""\nHeld-out TEST layouts from %s.py (hold-out set T, '
+                  'section 11).\nMoved here by the hold-out draw; they are '
+                  'used only in test_heldout.\n"""\nfrom gen.layouts import '
+                  '%s as _base\n\nglobals().update({k: v for k, v in '
+                  'vars(_base).items()\n                 if not '
+                  'k.startswith("__")})\n' % (module, module))
+        body = "\n\n".join(p.rstrip() + "\n" for p in pieces)
+        (TEST_DIR / (module + ".py")).write_text(
+            header + "\n\n" + body, encoding="utf-8")
+        moved_layouts += len(pieces)
+    # ---- registration families (data)
+    reg_path = data_dir / "registration.json"
+    reg = json.loads(reg_path.read_text(encoding="utf-8"))
+    families = reg.get("families", {})
+    test_fams = {}
+    for lid in sorted(t_ids):
+        if registry[lid]["doc_type"] == "registration":
+            fid = lid.split(".", 1)[1]
+            if fid in families:
+                test_fams[fid] = families.pop(fid)
+    reg_path.write_text(json.dumps(reg, ensure_ascii=False, indent=1) + "\n",
+                        encoding="utf-8")
+    (TEST_DIR / "registration_test.json").write_text(
+        json.dumps({"families": test_fams}, ensure_ascii=False, indent=1) +
+        "\n", encoding="utf-8")
+    log("moved %d sentence templates, %d code layouts and %d registration "
+        "families to their test files" % (moved_templates, moved_layouts,
+                                          len(test_fams)))

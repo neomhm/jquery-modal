@@ -9,6 +9,7 @@ and trap T14). The registration / incorporation date is FOUNDED; the
 date the extract was issued is DOC_DATE.
 """
 import datetime
+import unicodedata
 import json
 import pathlib
 import re
@@ -178,9 +179,12 @@ def field_value(ctx, field):
         if not presence_ok(ctx, S, "reg_id"):
             return None
         r = ensure_reg_id(S, field[4:], rng)
-        return AText(I.show(rng, r["type"], r["compact"]), "S_REG_ID",
-                     {"kind": "reg_id", "compact": r["compact"],
-                      "type": r["type"]})
+        shown = I.show(rng, r["type"], r["compact"])
+        compact = re.sub(r"[^0-9A-Za-z]", "", unicodedata.normalize(
+            "NFKC", shown)).upper()
+        return AText(shown, "S_REG_ID", {"kind": "reg_id",
+                                         "compact": compact,
+                                         "type": r["type"]})
     if field == "doc_date":
         return ctx.doc_date()
     if field == "o_date":

@@ -434,7 +434,8 @@ class Fmt:
             form = self.rng.choice(["民國%d年%d月%d日", "%d年%d月%d日",
                                     "%d/%02d/%02d", "民國%d/%02d/%02d"])
             return form % (y, d.month, d.day), truth
-        if style == "hijri" and Gregorian is not None:
+        if style == "hijri" and Gregorian is not None and \
+                datetime.date(1925, 1, 1) <= d <= datetime.date(2077, 1, 1):
             h = Gregorian(d.year, d.month, d.day).to_hijri()
             if self.rng.random() < 0.6:
                 text = "%04d/%02d/%02dهـ" % (h.year, h.month, h.day)

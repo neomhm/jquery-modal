@@ -309,6 +309,18 @@ def party_grid(ctx):
     return doc
 
 
+# "Всего наименований 3, на сумму ..." - the item count before the total
+COUNT_LINE = {"ru": "Всего наименований {n}, на сумму ",
+              "en": "Total items: {n}, amount due: ",
+              "fr": "Nombre d'articles : {n}, pour un montant de ",
+              "es": "Total de artículos: {n}, por un importe de ",
+              "it": "Numero articoli: {n}, per un importo di ",
+              "ar": "عدد الأصناف: {n}، بمبلغ إجمالي ",
+              "zh": "共{n}项，合计金额：", "ja": "品目数：{n}点　合計金額：",
+              "ko": "품목 수: {n}건, 합계 금액: ",
+              "hi": "कुल मदें: {n}, कुल राशि: "}
+
+
 @layout("invoice.L08", "invoice")
 def bank_first(ctx):
     """Bank details of the supplier first, then 'Invoice No. .. of ..',
@@ -342,9 +354,10 @@ def bank_first(ctx):
     doc.add(items_table(ctx, inv, cols=["no", "description", "qty", "unit",
                                         "unit_price", "amount"]))
     doc.add(Para(totals_lines(ctx, inv), prose=False))
-    count = AText("%d, " % len(inv["items"]))
+    count = AText(COUNT_LINE.get(ctx.lang, COUNT_LINE["en"]).format(
+        n=len(inv["items"])))
     count.add(ctx.money(inv["total"], "DOC_TOTAL"))
-    doc.add(Para(AText(ctx.kw("total") + " ").add(count), prose=False))
+    doc.add(Para(count, prose=False))
     aw = amount_words(ctx, inv["total"])
     if aw is not None:
         doc.add(Para(aw))

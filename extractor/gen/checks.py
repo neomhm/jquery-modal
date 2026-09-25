@@ -254,7 +254,7 @@ def check_holdout(split, chunks, folders):
         groups = {lg}
         key = D.locale(c["locale"])["data"]
         for tid in c["templates"]:
-            if "." in tid and tid.count(".") >= 3:
+            if tid.count(".") >= 2:              # sentence templates
                 groups.add(H.group_of(key, tid))
         if split in ("train", "val", "test_seen", "traps"):
             if groups & {"D", "T"}:
@@ -270,7 +270,7 @@ def check_holdout(split, chunks, folders):
         if split == "test_locale" and groups & {"D", "T"}:
             problems.append("%s: test_locale uses %s" % (c["id"], groups))
     for f in folders:
-        act = H.activity_group(f["activity_id"])
+        act = H.activity_group(D.activity(f["activity_id"]))
         if split in ("train", "val", "test_seen", "traps", "test_locale") \
                 and act in ("D", "T"):
             problems.append("%s: held-out activity" % f["folder"])
@@ -305,7 +305,7 @@ def check_heldout_content(split, chunks, folders):
         by_folder[c["folder"]][c["doc"]] = c
     bad = 0
     for f in folders:
-        if H.activity_group(f["activity_id"]) == want:
+        if H.activity_group(D.activity(f["activity_id"])) == want:
             continue
         for doc_id, c in by_folder.get(f["folder"], {}).items():
             t = c["doc_type"]

@@ -145,6 +145,8 @@ def convert_digits(at, mode):
     # GSTIN, IBAN): one token of letters, digits, '-' and '/'. 'Rs.1,000'
     # or 'Amount:1' are not codes - their digits are converted.
     for m in re.finditer(r"\S+@\S+|https?://\S+|www\.\S+|"
+                         r"\b[A-Z]{2}\d{2}(?: ?[0-9A-Z]{4}){2,7}"
+                         r"(?: ?[0-9A-Z]{1,3})?\b|"          # IBAN
                          r"[A-Za-z0-9\-/]*[A-Za-z][A-Za-z0-9\-/]*", text):
         if re.search(r"\d", m.group(0)):
             for i in range(m.start(), m.end()):

@@ -384,7 +384,9 @@ def apply_noise(doc, ctx, rng):
 
 def file_name(rng, doc, plan, number):
     title = (doc.meta.get("title_text") or plan["type"]).strip()
-    title = "".join(ch for ch in title if ch.isalnum() or ch in " -_")
+    # letters, digits and combining marks (Devanagari vowel signs)
+    title = "".join(ch for ch in title if ch in " -_" or
+                    unicodedata.category(ch)[0] in "LNM")
     title = "_".join(title.split())[:40] or plan["type"]
     d = plan.get("date")
     r = rng.random()
@@ -426,6 +428,8 @@ def build_document(rng, biz, plan, rules, split, index):
     fmt = weighted(rng, FORMATS[plan["type"]])
     if fmt == "csv" and not any(isinstance(b, Table) for b in doc.blocks()):
         fmt = "txt"
+    if fmt == "xlsx" and plan["kind"] in ("receipt", "credit_note"):
+        fmt = "pdf"                  # nobody keeps a till receipt in Excel
     if fmt == "pdf" and plan["type"] in ("invoice", "quote") and \
             rng.random() < 0.3:
         doc.meta["side_by_side"] = True
@@ -800,6 +804,7 @@ def draw_holdout(log=print):
     H.FILE.write_text(json.dumps(result, ensure_ascii=False, indent=1,
                                  sort_keys=True), encoding="utf-8")
     H.reset_cache()
+    H.move_test_items(result, REGISTRY, log)
     log("hold-out drawn: %d layouts, %s" % (
         len(result["layouts"]),
         {g: sum(1 for v in result["layouts"].values() if v == g)

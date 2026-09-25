@@ -12,6 +12,7 @@ private person is never labelled at all (R7, R9).
 """
 import datetime
 import re
+import unicodedata
 
 from gen import data as D
 from gen import formats as F
@@ -336,9 +337,13 @@ class DocCtx:
         if keyword:
             out.add(self.rng.choice(r["labels"]))
             out.add(self.colon() + " " if self.rng.random() < 0.4 else " ")
-        out.add(I.show(self.rng, r["type"], r["compact"]), label,
-                {"kind": "reg_id", "compact": r["compact"],
-                 "type": r["type"]})
+        shown = I.show(self.rng, r["type"], r["compact"])
+        # the truth is what normalize() reads from the text: its letters
+        # and digits, upper-case ("315095703 RT0001" -> "315095703RT0001")
+        compact = re.sub(r"[^0-9A-Za-z]", "", unicodedata.normalize(
+            "NFKC", shown)).upper()
+        out.add(shown, label, {"kind": "reg_id", "compact": compact,
+                               "type": r["type"]})
         return out
 
     def legal_form(self, org, long=None):
