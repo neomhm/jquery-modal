@@ -114,7 +114,9 @@ def fit_thresholds(net, tokenizer, chunks, max_len, temperature):
 
 def run(preset, log=print):
     out = config.runs_dir(preset)
-    net, tokenizer_json, meta = M.load(str(out / "finetune_best.pt"))
+    # the GPU when there is one (much faster on the full preset)
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    net, tokenizer_json, meta = M.load(str(out / "finetune_best.pt"), device)
     from tokenizers import Tokenizer
     tokenizer = Tokenizer.from_str(tokenizer_json)
     max_len = meta.get("max_len") or net.config.max_len

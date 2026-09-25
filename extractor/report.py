@@ -140,7 +140,9 @@ def gate_rows(preset, ev):
 # ---------------------------------------------------------------------
 #  error analysis (val + dev_heldout only)
 # ---------------------------------------------------------------------
-def error_groups(preset, top=10):
+def error_groups(preset, top=10, split="dev_heldout"):
+    """The largest error groups (label x language x doc type x kind) of
+    one split. Section 25 asks for dev_heldout only."""
     path = config.runs_dir(preset) / "errors_dev.jsonl"
     if not path.exists():
         return []
@@ -148,10 +150,45 @@ def error_groups(preset, top=10):
     with open(path, encoding="utf-8") as f:
         for line in f:
             e = json.loads(line)
+            if not e["chunk"].startswith(split + "-"):
+                continue
             groups[(e["label"], e["lang"], e["doc_type"], e["kind"])].append(
                 e)
     ranked = sorted(groups.items(), key=lambda kv: -len(kv[1]))[:top]
     return ranked
+
+
+def short_example(e):
+    """One short example of an error: the value, and a few characters of
+    text around it."""
+    value = (e.get("gold") or e.get("pred") or "").replace("\n", " ")
+    context = (e.get("context") or "").replace("\n", " | ")
+    at = context.find(value) if value else -1
+    if at >= 0:
+        context = context[max(0, at - 30):at + len(value) + 30]
+    else:
+        context = context[:80]
+    text = "`%s`" % value[:50].replace("`", "'")
+    if e.get("kind") in ("wrong_label", "role_swap") and e.get("pred_label"):
+        text += " as %s" % e["pred_label"]
+    if e.get("kind") == "boundary" and e.get("pred") is not None:
+        text += " (marked `%s`)" % e["pred"][:50].replace("`", "'")
+    return text + " in \"%s\"" % context.replace("`", "'").replace("|", "/")
+
+
+def parameter_count(preset):
+    """Parameters of the preset's model: recorded by fine-tuning, or
+    read from the pretraining line of the build log."""
+    n = done(preset, "finetune").get("numbers", {}).get("parameters")
+    if n:
+        return "%.1fM" % (n / 1e6)
+    log = config.runs_dir(preset) / "build.log"
+    if log.exists():
+        m = re.findall(r"([\d.]+)M parameters",
+                       log.read_text(encoding="utf-8", errors="replace"))
+        if m:
+            return m[-1] + "M"
+    return None
 
 
 # ---------------------------------------------------------------------
@@ -239,16 +276,23 @@ def write(log=print):
         ft = done(p, "finetune").get("numbers", {})
         cal = read_json(config.runs_dir(p) / "calibration.json") or {}
         s = config.PRESETS[p]
-        rows.append([p, "%d/%d/%d/%d" % (s["d_model"], s["n_layer"],
-                                         s["n_head"], s["ffn_hidden"]),
+        rows.append([p, parameter_count(p),
+                     "%d/%d/%d/%d" % (s["d_model"], s["n_layer"],
+                                      s["n_head"], s["ffn_hidden"]),
                      s["vocab_size"], pre.get("steps"), pre.get("minutes"),
-                     pre.get("masked_accuracy"), ft.get("steps"),
-                     ft.get("train_minutes"), ft.get("dev_heldout_f1"),
-                     cal.get("temperature")])
+                     pre.get("eval_loss"), pre.get("masked_accuracy"),
+                     ft.get("steps"), ft.get("train_minutes"),
+                     ft.get("final_loss"), ft.get("chosen_step"),
+                     ft.get("dev_heldout_f1"), cal.get("temperature")])
     parts.append("## 4. Models\n\n" + md_table(
-        ["preset", "d/layers/heads/ffn", "vocab", "pretrain steps",
-         "pretrain min", "masked acc", "finetune steps", "finetune min",
-         "dev_heldout F1 (no thresholds)", "temperature"], rows))
+        ["preset", "parameters", "d/layers/heads/ffn", "vocab",
+         "pretrain steps", "pretrain min", "final MLM loss (held-out)",
+         "masked-LM accuracy", "finetune steps", "finetune min",
+         "final finetune loss", "chosen step",
+         "dev_heldout F1 (sample, no thresholds)", "temperature"], rows) +
+        "\n\nThe fine-tuning loss is CE(tokens) + 0.3 CE(doc type) + 0.1 "
+        "CE(language), smoothed over the last steps. The masked-LM numbers "
+        "are measured on held-out Wikipedia and synthetic text.")
     # 5. results
     res = []
     for p in runs:
@@ -257,21 +301,47 @@ def write(log=print):
                                      else "") + md_table(
             ["#", "measure", "target (full)", "measured", "result"],
             gate_rows(p, ev)))
-        tables = config.runs_dir(p) / "eval_tables.md"
+    if main:
+        cal = read_json(config.runs_dir(main) / "calibration.json") or {}
+        ev = ev_main
+        if cal:
+            details = cal.get("details", {})
+            rules = collections.Counter(d.get("rule") for d in
+                                        details.values())
+            eces = ", ".join("%s %.4f" % (split, v["ece"]) for split, v in
+                             (ev.get("splits") or {}).items()
+                             if v.get("ece") is not None)
+            res.append("### Calibration (%s)\n\nTemperature %.2f and the "
+                       "per-label thresholds are fitted on dev_heldout "
+                       "(rules: %s). Expected calibration error (10 bins) "
+                       "of the accepted span scores, per split: %s." % (
+                           main, cal.get("temperature", 0),
+                           ", ".join("%d by '%s'" % (n, r) for r, n in
+                                     rules.most_common()), eces) + "\n\n" +
+                       md_table(["label", "threshold", "rule", "precision",
+                                 "recall", "predicted", "gold"],
+                                [[k, d.get("tau"), d.get("rule"),
+                                  d.get("precision"), d.get("recall"),
+                                  d.get("predicted"), d.get("gold")]
+                                 for k, d in details.items()]))
+        tables = config.runs_dir(main) / "eval_tables.md"
         if tables.exists():
-            res.append("Full tables: `runs/%s/eval_tables.md` (delivered "
-                       "with this report)." % p)
+            body = tables.read_text(encoding="utf-8")
+            body = re.sub(r"^# .*\n", "", body, count=1)
+            body = re.sub(r"^## ", "### ", body, flags=re.M)
+            res.append("### Detailed tables (%s)\n\nThe same tables are "
+                       "in `runs/%s/eval_tables.md`.\n%s" % (main, main,
+                                                              body))
     parts.append("## 5. Results\n\n" + "\n\n".join(res))
     # 6. error analysis
     ea = []
     if main:
         for (label, lang, doc, kind), items in error_groups(main):
-            ex = []
-            for e in items[:2]:
-                ex.append("`%s`" % (e.get("gold") or e.get("pred") or "")
-                          .replace("\n", " ")[:60])
-            ea.append([label, lang, doc, kind, len(items), " · ".join(ex)])
-    parts.append("## 6. Error analysis (dev_heldout and val only)\n\n" + (
+            ea.append([label, lang, doc, kind, len(items),
+                       "<br>".join(short_example(e) for e in items[:2])])
+    parts.append("## 6. Error analysis (dev_heldout only)\n\n" + (
+        "The ten largest groups of errors of the last model on "
+        "dev_heldout, by label x language x document type x kind.\n\n" +
         md_table(["label", "lang", "doc type", "kind", "count",
                   "two examples"], ea) if ea else "No errors file."))
     # 7. improvement rounds, 8. deviations: from DECISIONS.md
@@ -295,15 +365,38 @@ def write(log=print):
   still name one of the ten).""")
     parts.append("""## 10. Next steps for Laurent
 
-Build the full model on the desktop (GPU), in `C:\\Users\\neomh\\new model\\extractor`:
+**Build the full model** on the desktop (GPU). In PowerShell:
+
+```powershell
+cd "C:\\Users\\neomh\\new model\\extractor"
+```
+
+```powershell
+py check.py
+```
 
 ```powershell
 py build.py full
 ```
 
 Or upload `extractor-package.zip` to the /train card and choose MEGA9.
+It takes about 6 to 10 hours; it writes `extractor-1.0.0.pt` and a new
+`REPORT.md` with the gate of section 17.
 
-Then use it on a folder, on the laptop:
+**Use it on a real folder.** Copy `extractor-1.0.0.pt` to
+`C:\\Users\\Laurent\\new model\\extractor` on the laptop, then:
+
+```powershell
+cd "C:\\Users\\Laurent\\new model"
+```
+
+```powershell
+py ingest.py "C:\\Users\\Laurent\\documents to publish"
+```
+
+```powershell
+cd "C:\\Users\\Laurent\\new model\\extractor"
+```
 
 ```powershell
 py extract_db.py "C:\\Users\\Laurent\\new model\\documents.db"
@@ -311,6 +404,13 @@ py extract_db.py "C:\\Users\\Laurent\\new model\\documents.db"
 
 ```powershell
 py profile.py "C:\\Users\\Laurent\\new model\\documents.db"
+```
+
+**Measure it on real documents.** Label a few real chunks in
+`real_eval\\` (see `README.md`), then, on the desktop:
+
+```powershell
+py build.py full --from evaluate
 ```""")
     path = HERE / "REPORT.md"
     path.write_text("\n\n".join(parts) + "\n", encoding="utf-8")

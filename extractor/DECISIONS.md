@@ -250,6 +250,20 @@ section.
   qualifier (about / more than / under / range); the true address may be
   written in any of its forms (one line, several lines); the true revenue
   is the most recent year that really appears in the folder.
+* **Devices.** Calibration and evaluation run on the GPU when there is
+  one (the whole evaluation of the full preset would take hours on a
+  CPU); the speed measurement of section 17 always runs on the CPU.
+* **Speed and peak RAM** are measured in a fresh process that loads only
+  the Extractor, so the peak RAM is the Extractor's own (about 0.6 GB for
+  the smoke model), not that of the evaluation holding every split in
+  memory (8 GB). The peak is read with `resource` on Linux and macOS and
+  with `GetProcessMemoryInfo` on Windows, where `resource` does not exist.
+* **The time-capped stages time their first 20 steps.** Anything else
+  running on the machine at that moment lowers the step count of the
+  whole stage. It happened once here: a test run during the pilot's
+  first pretraining minutes measured 17.5 s per step (205 steps); the
+  stage was restarted before its first checkpoint and measured 4.4 s per
+  step (810 steps). Nothing heavy runs next to a timed stage since.
 * **Work in progress was committed and pushed to the branch
   `claude/attached-instructions-vz6bdr` of the repository this session
   works in**, which is how this environment delivers work to its user.

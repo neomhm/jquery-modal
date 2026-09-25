@@ -75,11 +75,13 @@ def stage_check(preset, args, log):
     for name in missing:
         log("installing %s ..." % name)
         cmd = [sys.executable, "-m", "pip", "install", PIP_PACKAGES[name]]
-        done = subprocess.run(cmd, capture_output=True, text=True)
+        done = subprocess.run(cmd, capture_output=True, text=True,
+                              encoding="utf-8", errors="replace")
         if done.returncode != 0 and "externally-managed" in (
                 done.stderr or ""):
             done = subprocess.run(cmd + ["--break-system-packages"],
-                                  capture_output=True, text=True)
+                                  capture_output=True, text=True,
+                                  encoding="utf-8", errors="replace")
         log("  %s: %s" % (name, "ok" if done.returncode == 0 else
                           "FAILED (%s)" % (done.stderr or "")[-200:]))
     if missing:

@@ -294,6 +294,13 @@ def train_loop(preset, net, opt, scaler, dtype, device, train, lengths,
         else:
             opt.step()
         state["step"] = step + 1
+        if state["step"] % 10 == 0:
+            # a smoothed training loss, for the report (read every 10
+            # steps only: reading it makes a GPU wait)
+            value = float(loss.detach())
+            ema = state.get("loss_ema")
+            state["loss_ema"] = value if ema is None else \
+                0.9 * ema + 0.1 * value
         if step == 0:
             timing = time.time()
         if state["total"] is None and state["step"] == 21:
@@ -395,7 +402,9 @@ def finish(preset, net, device, tokenizer, tokenizer_json, dev, state, log):
               "epochs": round(state["step"] / max(1, state["per_epoch"]), 3),
               "train_minutes": round(state["train_seconds"] / 60, 1),
               "evals": state["evals"], "chosen_step": step,
-              "dev_heldout_f1": round(f1, 4)}
+              "dev_heldout_f1": round(f1, 4),
+              "final_loss": round(state.get("loss_ema") or 0.0, 4),
+              "parameters": net.count()[0]}
     log("fine-tuning done: step %d chosen, dev_heldout strict F1 %.4f" % (
         step, f1))
     return result

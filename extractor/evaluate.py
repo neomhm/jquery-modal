@@ -24,8 +24,9 @@ import argparse
 import gzip
 import json
 import pathlib
-import resource
+import subprocess
 import sys
+import tempfile
 import time
 import unicodedata
 
@@ -478,17 +479,81 @@ def folder_level(preset, split, extractor, model_id, log=print,
 # =====================================================================
 #  speed
 # =====================================================================
+def peak_ram_mb():
+    """The peak memory of this process, in MB; None when unknown. Works
+    on Linux, macOS and Windows (the 'resource' module is not on
+    Windows)."""
+    try:
+        import resource
+        peak = resource.getrusage(resource.RUSAGE_SELF).ru_maxrss
+        # kilobytes on Linux, bytes on macOS
+        return peak / 2 ** 20 if sys.platform == "darwin" else peak / 1024
+    except ImportError:
+        pass
+    try:
+        import ctypes
+        from ctypes import wintypes
+
+        class Counters(ctypes.Structure):
+            _fields_ = [("cb", wintypes.DWORD),
+                        ("PageFaultCount", wintypes.DWORD),
+                        ("PeakWorkingSetSize", ctypes.c_size_t),
+                        ("WorkingSetSize", ctypes.c_size_t),
+                        ("QuotaPeakPagedPoolUsage", ctypes.c_size_t),
+                        ("QuotaPagedPoolUsage", ctypes.c_size_t),
+                        ("QuotaPeakNonPagedPoolUsage", ctypes.c_size_t),
+                        ("QuotaNonPagedPoolUsage", ctypes.c_size_t),
+                        ("PagefileUsage", ctypes.c_size_t),
+                        ("PeakPagefileUsage", ctypes.c_size_t)]
+        kernel32 = ctypes.WinDLL("kernel32")
+        psapi = ctypes.WinDLL("psapi")
+        kernel32.GetCurrentProcess.restype = wintypes.HANDLE
+        psapi.GetProcessMemoryInfo.argtypes = [
+            wintypes.HANDLE, ctypes.POINTER(Counters), wintypes.DWORD]
+        counters = Counters()
+        counters.cb = ctypes.sizeof(Counters)
+        if psapi.GetProcessMemoryInfo(kernel32.GetCurrentProcess(),
+                                      ctypes.byref(counters), counters.cb):
+            return counters.PeakWorkingSetSize / 2 ** 20
+    except Exception:
+        pass
+    return None
+
+
 def speed(model_path, chunks):
-    from extractor import Extractor
-    ex = Extractor(model_path, threads=4)
+    """Chunks per second on CPU (4 threads, batch 16, 500 chunks) and the
+    peak memory (section 17). It runs in a fresh process, so that the
+    memory is the Extractor's alone, not this evaluation's."""
     texts = [c["text"] for c in chunks[:500]]
+    with tempfile.TemporaryDirectory() as tmp:
+        path = pathlib.Path(tmp) / "texts.json"
+        path.write_text(json.dumps(texts, ensure_ascii=False),
+                        encoding="utf-8")
+        done = subprocess.run(
+            [sys.executable, str(pathlib.Path(__file__).resolve()),
+             "--speed-child", str(model_path), str(path)],
+            capture_output=True, text=True, encoding="utf-8",
+            errors="replace")
+    if done.returncode != 0:
+        raise RuntimeError("the speed test failed:\n" + done.stderr[-3000:])
+    child = json.loads(done.stdout.strip().splitlines()[-1])
+    peak = child["peak_ram_mb"]
+    return {"chunks": len(texts),
+            "chunks_per_second": round(len(texts) / max(child["seconds"],
+                                                         1e-9), 2),
+            "peak_ram_mb": None if peak is None else round(peak, 1),
+            "threads": 4, "batch": 16}
+
+
+def speed_child(model_path, texts_path):
+    """The speed test itself, in its own process (see speed())."""
+    from extractor import Extractor
+    texts = json.loads(pathlib.Path(texts_path).read_text(encoding="utf-8"))
+    ex = Extractor(model_path, device="cpu", threads=4)
     t0 = time.time()
     ex.extract(texts, batch_size=16)
     seconds = time.time() - t0
-    peak = resource.getrusage(resource.RUSAGE_SELF).ru_maxrss / 1024
-    return {"chunks": len(texts),
-            "chunks_per_second": round(len(texts) / max(seconds, 1e-9), 2),
-            "peak_ram_mb": round(peak, 1), "threads": 4, "batch": 16}
+    print(json.dumps({"seconds": seconds, "peak_ram_mb": peak_ram_mb()}))
 
 
 # =====================================================================
@@ -496,7 +561,10 @@ def run(preset, dev_only=False, log=print, folder_limit=None):
     from extractor import Extractor
     out = config.runs_dir(preset)
     model_path = out / "model_eval.pt"
-    ex = Extractor(model_path)
+    # the GPU when there is one; the speed test below is always on CPU
+    import torch
+    ex = Extractor(model_path,
+                   device="cuda" if torch.cuda.is_available() else "cpu")
     model_id = config.MODEL_FILES[preset].rsplit(".", 1)[0]
     result = {"preset": preset, "dev_only": dev_only, "splits": {},
               "folder_level": {}}
@@ -565,17 +633,23 @@ def collect_errors(chunks, preds):
                     if x["accepted"]}
         for s, e, lab in gold_set - pred_set:
             kind = "missed"
+            other = None                   # the prediction it was taken for
             for q in pred_set:
                 if (q[0], q[1]) == (s, e):
                     kind = "role_swap" if ROLE_PAIRS.get(lab) == q[2] \
                         else "wrong_label"
+                    other = q
                 elif q[2] == lab and overlap((s, e), q) > 0:
                     kind = "boundary"
-            rows.append({"chunk": c["id"], "lang": c["lang"],
-                         "doc_type": c["doc_type"], "layout": c["layout"],
-                         "label": lab, "kind": kind,
-                         "gold": c["text"][s:e],
-                         "context": c["text"][max(0, s - 60):e + 60]})
+                    other = q
+            row = {"chunk": c["id"], "lang": c["lang"],
+                   "doc_type": c["doc_type"], "layout": c["layout"],
+                   "label": lab, "kind": kind, "gold": c["text"][s:e],
+                   "context": c["text"][max(0, s - 60):e + 60]}
+            if other:
+                row["pred"] = c["text"][other[0]:other[1]]
+                row["pred_label"] = other[2]
+            rows.append(row)
         for s, e, lab in pred_set - gold_set:
             if any((g[0], g[1]) == (s, e) for g in gold_set) or any(
                     g[2] == lab and overlap((s, e), g) > 0
@@ -685,6 +759,11 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("preset", nargs="?", default="smoke")
     ap.add_argument("--dev-only", action="store_true")
+    ap.add_argument("--speed-child", nargs=2, metavar=("MODEL", "TEXTS"),
+                    help=argparse.SUPPRESS)
     args = ap.parse_args()
-    run(args.preset, args.dev_only)
+    if args.speed_child:
+        speed_child(*args.speed_child)
+    else:
+        run(args.preset, args.dev_only)
     del unicodedata

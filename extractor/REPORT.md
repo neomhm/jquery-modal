@@ -13,8 +13,10 @@ Most important next step: build the full model on a GPU - `py build.py full` on 
 | os | Linux 6.18.44-fc-v37 |
 | python | 3.11.15 |
 | torch | 2.14.0+cu130 |
-| device |  |
 | backend | cpu |
+| gpu | False |
+| device_name |  |
+| device_memory_gb |  |
 | cpu_count | 4 |
 | ram_gb | 16.9 |
 | free_disk_gb | 22.7 |
@@ -77,9 +79,11 @@ Boundary rate 100.000% (7097 spans of val + dev_heldout). Characters per token (
 
 ## 4. Models
 
-| preset | d/layers/heads/ffn | vocab | pretrain steps | pretrain min | masked acc | finetune steps | finetune min | dev_heldout F1 (no thresholds) | temperature |
-|---|---|---|---|---|---|---|---|---|---|
-| smoke | 128/2/2/352 | 8000 | 100 | 0.2 | 0.0783 | 150 | 0.1 | 0.0 | 0.85 |
+| preset | parameters | d/layers/heads/ffn | vocab | pretrain steps | pretrain min | final MLM loss (held-out) | masked-LM accuracy | finetune steps | finetune min | final finetune loss | chosen step | dev_heldout F1 (sample, no thresholds) | temperature |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| smoke | 1.5M | 128/2/2/352 | 8000 | 100 | 0.2 | 6.6451 | 0.0783 | 150 | 0.1 |  | 150 | 0.0 | 0.85 |
+
+The fine-tuning loss is CE(tokens) + 0.3 CE(doc type) + 0.1 CE(language), smoothed over the last steps. The masked-LM numbers are measured on held-out Wikipedia and synthetic text.
 
 ## 5. Results
 
@@ -104,30 +108,231 @@ Boundary rate 100.000% (7097 spans of val + dev_heldout). Characters per token (
 | 15 | handwritten set micro-F1 | report (0.80 hoped) | 0.0 | report |
 | 16 | test_locale micro-F1 / calibration error (ECE, test_heldout) / speed | report | 0.0 / 0.0 / 157.18 | report |
 
-Full tables: `runs/smoke/eval_tables.md` (delivered with this report).
+### Calibration (smoke)
 
-## 6. Error analysis (dev_heldout and val only)
+Temperature 0.85 and the per-label thresholds are fitted on dev_heldout (rules: 25 by 'best F1'). Expected calibration error (10 bins) of the accepted span scores, per split: val 0.0000, dev_heldout 0.0000, test_seen 0.0000, test_heldout 0.0000, test_locale 0.0000, traps 0.0000.
+
+| label | threshold | rule | precision | recall | predicted | gold |
+|---|---|---|---|---|---|---|
+| S_NAME | 0.3 | best F1 | 0.0 | 0.0 | 0 | 349 |
+| S_ADDRESS | 0.3 | best F1 | 0.0 | 0.0 | 0 | 241 |
+| S_REG_ID | 0.3 | best F1 | 0.0 | 0.0 | 0 | 130 |
+| S_PHONE | 0.3 | best F1 | 0.0 | 0.0 | 0 | 169 |
+| S_EMAIL | 0.3 | best F1 | 0.0 | 0.0 | 0 | 107 |
+| S_URL | 0.3 | best F1 | 0.0 | 0.0 | 0 | 57 |
+| S_PERSON | 0.3 | best F1 | 0.0 | 0.0 | 0 | 68 |
+| C_NAME | 0.3 | best F1 | 0.0 | 0.0 | 0 | 168 |
+| C_ADDRESS | 0.3 | best F1 | 0.0 | 0.0 | 0 | 91 |
+| C_REG_ID | 0.3 | best F1 | 0.0 | 0.0 | 0 | 48 |
+| LEGAL_FORM | 0.3 | best F1 | 0.0 | 0.0 | 0 | 3 |
+| CAPITAL | 0.3 | best F1 | 0.0 | 0.0 | 0 | 12 |
+| FOUNDED | 0.3 | best F1 | 0.0 | 0.0 | 0 | 24 |
+| STAFF | 0.3 | best F1 | 0.0 | 0.0 | 0 | 3 |
+| REVENUE | 0.3 | best F1 | 0.0 | 0.0 | 0 | 17 |
+| REVENUE_YEAR | 0.3 | best F1 | 0.0 | 0.0 | 0 | 19 |
+| ACTIVITY | 0.3 | best F1 | 0.0 | 0.0 | 0 | 28 |
+| ACTIVITY_CODE | 0.3 | best F1 | 0.0 | 0.0 | 0 | 2 |
+| SERVICE | 0.3 | best F1 | 0.0 | 0.0 | 0 | 783 |
+| HOURS | 0.3 | best F1 | 0.0 | 0.0 | 0 | 0 |
+| CERT | 0.3 | best F1 | 0.0 | 0.0 | 0 | 0 |
+| DOC_DATE | 0.3 | best F1 | 0.0 | 0.0 | 0 | 171 |
+| DOC_TOTAL | 0.3 | best F1 | 0.0 | 0.0 | 0 | 188 |
+| LINE_TOTAL | 0.3 | best F1 | 0.0 | 0.0 | 0 | 663 |
+| PRICE | 0.3 | best F1 | 0.0 | 0.0 | 0 | 597 |
+
+### Detailed tables (smoke)
+
+The same tables are in `runs/smoke/eval_tables.md`.
+
+### Spans
+
+| split | chunks | strict F1 | P | R | relaxed F1 | role swaps | doc type acc | lang acc | false/100 empty | ECE |
+|---|---|---|---|---|---|---|---|---|---|---|
+| val | 472 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.6081 | 0.1843 | 0.0 | 0.0 |
+| dev_heldout | 590 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.6237 | 0.1458 | 0.0 | 0.0 |
+| test_seen | 490 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.6102 | 0.1837 | 0.0 | 0.0 |
+| test_heldout | 570 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.5947 | 0.1333 | 0.0 | 0.0 |
+| test_locale | 237 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.5401 | 0.038 | 0.0 | 0.0 |
+| traps | 124 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.75 | 0.0484 | 0.0 | 0.0 |
+
+### Per label (test_heldout)
+
+| label | F1 | P | R | gold |
+|---|---|---|---|---|
+| ACTIVITY | 0.0 | 0.0 | 0.0 | 29 |
+| ACTIVITY_CODE | 0.0 | 0.0 | 0.0 | 6 |
+| CAPITAL | 0.0 | 0.0 | 0.0 | 2 |
+| CERT | 0.0 | 0.0 | 0.0 | 1 |
+| C_ADDRESS | 0.0 | 0.0 | 0.0 | 82 |
+| C_NAME | 0.0 | 0.0 | 0.0 | 141 |
+| C_REG_ID | 0.0 | 0.0 | 0.0 | 69 |
+| DOC_DATE | 0.0 | 0.0 | 0.0 | 170 |
+| DOC_TOTAL | 0.0 | 0.0 | 0.0 | 182 |
+| FOUNDED | 0.0 | 0.0 | 0.0 | 14 |
+| HOURS | 0.0 | 0.0 | 0.0 | 2 |
+| LEGAL_FORM | 0.0 | 0.0 | 0.0 | 7 |
+| LINE_TOTAL | 0.0 | 0.0 | 0.0 | 699 |
+| PRICE | 0.0 | 0.0 | 0.0 | 676 |
+| REVENUE | 0.0 | 0.0 | 0.0 | 29 |
+| REVENUE_YEAR | 0.0 | 0.0 | 0.0 | 26 |
+| SERVICE | 0.0 | 0.0 | 0.0 | 789 |
+| STAFF | 0.0 | 0.0 | 0.0 | 15 |
+| S_ADDRESS | 0.0 | 0.0 | 0.0 | 235 |
+| S_EMAIL | 0.0 | 0.0 | 0.0 | 34 |
+| S_NAME | 0.0 | 0.0 | 0.0 | 315 |
+| S_PERSON | 0.0 | 0.0 | 0.0 | 73 |
+| S_PHONE | 0.0 | 0.0 | 0.0 | 102 |
+| S_REG_ID | 0.0 | 0.0 | 0.0 | 176 |
+| S_URL | 0.0 | 0.0 | 0.0 | 22 |
+
+### Per language (test_heldout)
+
+| lang | F1 | P | R |
+|---|---|---|---|
+| ar | 0.0 | 0.0 | 0.0 |
+| en | 0.0 | 0.0 | 0.0 |
+| es | 0.0 | 0.0 | 0.0 |
+| fr | 0.0 | 0.0 | 0.0 |
+| hi | 0.0 | 0.0 | 0.0 |
+| it | 0.0 | 0.0 | 0.0 |
+| ja | 0.0 | 0.0 | 0.0 |
+| ko | 0.0 | 0.0 | 0.0 |
+| ru | 0.0 | 0.0 | 0.0 |
+| zh | 0.0 | 0.0 | 0.0 |
+
+### Per document type (test_heldout)
+
+| doc type | F1 | P | R |
+|---|---|---|---|
+| brochure | 0.0 | 0.0 | 0.0 |
+| contract | 0.0 | 0.0 | 0.0 |
+| financials | 0.0 | 0.0 | 0.0 |
+| invoice | 0.0 | 0.0 | 0.0 |
+| letter | 0.0 | 0.0 | 0.0 |
+| other | 1.0 | 1.0 | 1.0 |
+| price_list | 0.0 | 0.0 | 0.0 |
+| quote | 0.0 | 0.0 | 0.0 |
+| registration | 0.0 | 0.0 | 0.0 |
+| staff_list | 0.0 | 0.0 | 0.0 |
+| terms | 0.0 | 0.0 | 0.0 |
+
+### Per source format (test_heldout)
+
+| source | F1 | P | R |
+|---|---|---|---|
+| docx | 0.0 | 0.0 | 0.0 |
+| md | 0.0 | 0.0 | 0.0 |
+| pdf | 0.0 | 0.0 | 0.0 |
+| txt | 0.0 | 0.0 | 0.0 |
+| xlsx | 0.0 | 0.0 | 0.0 |
+
+### Traps
+
+| trap | chunks | scores |
+|---|---|---|
+| T1 | 49 | REVENUE_precision 1.0, DOC_TOTAL_f1 0.0 |
+| T4 | 23 | role_accuracy 0.0, role_swap_rate 0.0 |
+| T5 | 25 | false_S_or_fact_per_100_chunks 0.0 |
+| T6 | 45 | S_PHONE_precision 0.0, S_REG_ID_precision 0.0 |
+| T7 | 27 | FOUNDED_precision 0.0 |
+| T8 | 28 | STAFF_precision 0.0 |
+| T9 | 35 | SERVICE_precision 0.0 |
+| T10 | 12 | DOC_TOTAL_precision 0.0 |
+| T11 | 30 | S_PERSON_precision 1.0 |
+| T12 | 12 | false_spans_per_100_empty 0.0 |
+| T13 | 12 | C_NAME_f1 0.0 |
+| T14 | 4 | S_NAME_precision 0.0 |
+| T15 | 26 | DOC_DATE_precision 0.0 |
+| T1-T3 REVENUE precision |  | 1.0 |
+
+### Folder level (test_heldout)
+
+| field | accuracy |
+|---|---|
+| business_name | 0.0 |
+| address | 0.0 |
+| reg_id | 0.0 |
+| contact | 0.0 |
+| legal_form | 0.2 |
+| founded | 0.4 |
+| staff | 0.2 |
+| activity | 0.1 |
+| activity_code | 0.8 |
+| capital | 0.9 |
+| revenue | 0.3 |
+| services | 0.0 |
+| clients | 0.0 |
+| country | 0.0 |
+| REQUIRED mean | 0.1091 |
+| invented values | 0 |
+| conflicts per folder | 0.0 |
+| coverage error | 0.8909 |
+| folders | 10 |
+
+### Folder level (test_seen)
+
+| field | accuracy |
+|---|---|
+| business_name | 0.0 |
+| address | 0.0 |
+| reg_id | 0.0 |
+| contact | 0.0 |
+| legal_form | 0.1 |
+| founded | 0.4 |
+| staff | 0.5 |
+| activity | 0.2 |
+| activity_code | 0.9 |
+| capital | 0.9 |
+| revenue | 0.6 |
+| services | 0.0 |
+| clients | 0.0 |
+| country | 0.0 |
+| REQUIRED mean | 0.1636 |
+| invented values | 0 |
+| conflicts per folder | 0.0 |
+| coverage error | 0.8364 |
+| folders | 10 |
+
+### handwritten
+
+| chunks | strict F1 | P | R | relaxed F1 |
+|---|---|---|---|---|
+| 100 | 0.0 | 0.0 | 0.0 | 0.0 |
+
+### Speed
+
+157.18 chunks/s on CPU (threads 4, batch 16, 500 chunks), peak RAM 8046.8 MB
+
+### Tokenizer
+
+boundary rate 100.000%; characters per token: ar 2.10, en 2.20, es 2.40, fr 2.45, hi 2.16, it 2.60, ja 1.12, ko 1.21, ru 2.17, zh 1.05
+
+
+## 6. Error analysis (dev_heldout only)
+
+The ten largest groups of errors of the last model on dev_heldout, by label x language x document type x kind.
 
 | label | lang | doc type | kind | count | two examples |
 |---|---|---|---|---|---|
-| SERVICE | hi | invoice | missed | 160 | `एसी वार्षिक   रखरखाव अनुबंध (एएमसी)` · `सबमर्सिबल पंप इंस्टॉलेशन` |
-| LINE_TOTAL | hi | invoice | missed | 159 | `4,733.60` · `33,929.35` |
-| SERVICE | ja | invoice | missed | 135 | `卒業アルバム制作` · `出張撮影（1時間）` |
-| SERVICE | en | invoice | missed | 134 | `Vine tomatoes` · `Bananas` |
-| PRICE | hi | invoice | missed | 130 | `2,366.80` · `2,609.95` |
-| LINE_TOTAL | en | invoice | missed | 129 | `$53.20` · `$ 12.07` |
-| LINE_TOTAL | ja | invoice | missed | 125 | `22,441` · `22,326` |
-| SERVICE | ko | invoice | missed | 118 | `계약서 검토` · `변호사 자문 (타임차지)` |
-| SERVICE | zh | invoice | missed | 117 | `燃气壁挂炉安装` · `坐便器安装` |
-| PRICE | en | invoice | missed | 115 | `12.13` · `13.94` |
+| LINE_TOTAL | hi | invoice | missed | 111 | `५.१७` in "ेड छपाई; मात्रा (नग): १; रेट: ५.१७; राशि: ५.१७ / Item Code: १९०५"<br>`८४.३०` in "रा (नग): ६; रेट: १४.०५; राशि: ८४.३० / Item Code: ९९८३; विवरण: लेट" |
+| SERVICE | hi | invoice | missed | 111 | `ब्लैक एंड व्हाइट फ़ोटोकॉपी` in "ाशि / Item Code: १९०५; विवरण: ब्लैक एंड व्हाइट फ़ोटोकॉपी; मात्रा (नग): २; रेट: १.९४; र"<br>`स्पाइरल बाइंडिंग` in ".४४ / Item Code: ९९८७; विवरण: स्पाइरल बाइंडिंग; मात्रा (नग): १; रेट: ४५.२०; " |
+| SERVICE | en | invoice | missed | 86 | `Cross-docking` in "99; Net: 39.80 / Particulars: Cross-docking; Quantity: 7; Rate: 24.75; Ne"<br>`Flatbed haulage` in ".35; Net: 4.55 / Particulars: Flatbed haulage; Quantity: 20; Rate: 1.99; Ne" |
+| LINE_TOTAL | en | invoice | missed | 86 | `4.55` in "uantity: 13; Rate: 0.35; Net: 4.55 / Particulars: Flatbed haulag"<br>`173.25` in "uantity: 7; Rate: 24.75; Net: 173.25 / Particulars: Discount Appli" |
+| PRICE | en | invoice | missed | 84 | `1.99` in " haulage; Quantity: 20; Rate: 1.99; Net: 39.80 / Particulars: Cr"<br>`0.35` in " freight; Quantity: 13; Rate: 0.35; Net: 4.55 / Particulars: Fla" |
+| PRICE | hi | invoice | missed | 83 | `१.९४` in "ोटोकॉपी; मात्रा (नग): २; रेट: १.९४; राशि: ३.८८ / Item Code: ९९८७"<br>`९२०.८६` in "रतियाँ); मात्रा (नग): ४; रेट: ९२०.८६; राशि: ३,६८३.४४ / Item Code: " |
+| LINE_TOTAL | it | invoice | missed | 72 | `385,70` in "itario: 38,57; Importo netto: 385,70 / #: 3; Descrizione prodotto:"<br>`75,05` in "itario: 15,01; Importo netto: 75,05 / Descrizione prodotto: Spese" |
+| SERVICE | it | invoice | missed | 72 | `Grissini stirati a mano` in "/ #: 5; Descrizione prodotto: Grissini stirati a mano; Q.tà: 5; Unità: kg; Importo "<br>`Torta nuziale a piani` in "/ #: 3; Descrizione prodotto: Torta nuziale a piani; Q.tà: 11; Unità: kg; Importo" |
+| LINE_TOTAL | es | invoice | missed | 65 | `530.9` in " col2: 10; col3: 53.09; col4: 530.9 / Expedidor:: P-931; col1: Re"<br>`294.48` in " col2: 12; col3: 24.54; col4: 294.48 / Expedidor:: 141388; col1: M" |
+| SERVICE | es | invoice | missed | 65 | `Curso de inglés para empresas (in company)` in "pedidor:: 347514733460; col1: Curso de inglés para empresas (in company); col2: 10; col3: 53.09; col4:"<br>`Mensualidad del curso de alemán` in "8 / Expedidor:: 141388; col1: Mensualidad del curso de alemán; col2: 7; col3: 107.01; col4:" |
 
 ## 7. Improvement rounds
 
-None yet.
+(Filled in after each round: what was seen on val / dev_heldout, with
+counts; what was changed; dev_heldout before and after.)
 
 ## 8. Deviations and decisions
 
-Every decision is in `DECISIONS.md`, by topic: Environment, Language data (section 10.2), Names and addresses: the Faker rule (section 10.3), Generator (section 10), Normalizer and verifier (section 14), Test discipline, Profile builder (section 15), Suggestions (for FIXED sections - not applied).
+Every decision is in `DECISIONS.md`, by topic: Environment, Language data (section 10.2), Names and addresses: the Faker rule (section 10.3), Generator (section 10), Normalizer and verifier (section 14), Test discipline, Profile builder (section 15), Build pipeline (sections 7-9, 12, 13, 17, 21), Improvement rounds, Suggestions (for FIXED sections - not applied).
 
 ## 9. Known limits
 
@@ -142,15 +347,38 @@ Every decision is in `DECISIONS.md`, by topic: Environment, Language data (secti
 
 ## 10. Next steps for Laurent
 
-Build the full model on the desktop (GPU), in `C:\Users\neomh\new model\extractor`:
+**Build the full model** on the desktop (GPU). In PowerShell:
+
+```powershell
+cd "C:\Users\neomh\new model\extractor"
+```
+
+```powershell
+py check.py
+```
 
 ```powershell
 py build.py full
 ```
 
 Or upload `extractor-package.zip` to the /train card and choose MEGA9.
+It takes about 6 to 10 hours; it writes `extractor-1.0.0.pt` and a new
+`REPORT.md` with the gate of section 17.
 
-Then use it on a folder, on the laptop:
+**Use it on a real folder.** Copy `extractor-1.0.0.pt` to
+`C:\Users\Laurent\new model\extractor` on the laptop, then:
+
+```powershell
+cd "C:\Users\Laurent\new model"
+```
+
+```powershell
+py ingest.py "C:\Users\Laurent\documents to publish"
+```
+
+```powershell
+cd "C:\Users\Laurent\new model\extractor"
+```
 
 ```powershell
 py extract_db.py "C:\Users\Laurent\new model\documents.db"
@@ -158,4 +386,11 @@ py extract_db.py "C:\Users\Laurent\new model\documents.db"
 
 ```powershell
 py profile.py "C:\Users\Laurent\new model\documents.db"
+```
+
+**Measure it on real documents.** Label a few real chunks in
+`real_eval\` (see `README.md`), then, on the desktop:
+
+```powershell
+py build.py full --from evaluate
 ```
