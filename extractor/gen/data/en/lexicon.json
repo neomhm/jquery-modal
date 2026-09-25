@@ -1,0 +1,811 @@
+{
+  "lang": "en",
+  "months": {
+    "full": [
+      "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November",
+      "December"
+    ],
+    "short": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+  },
+  "weekdays": {
+    "full": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "short": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+  },
+  "numbers": {
+    "units": [
+      "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve",
+      "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen", "twenty"
+    ],
+    "tens": {
+      "20": "twenty",
+      "30": "thirty",
+      "40": "forty",
+      "50": "fifty",
+      "60": "sixty",
+      "70": "seventy",
+      "80": "eighty",
+      "90": "ninety"
+    },
+    "hundreds": {
+      "100": "one hundred",
+      "200": "two hundred",
+      "300": "three hundred",
+      "400": "four hundred",
+      "500": "five hundred",
+      "600": "six hundred",
+      "700": "seven hundred",
+      "800": "eight hundred",
+      "900": "nine hundred"
+    },
+    "big": {"1000": "thousand", "100000": "lakh", "1000000": "million", "10000000": "crore", "1000000000": "billion"}
+  },
+  "currency_names": {
+    "USD": ["dollar", "dollars", "US dollars", "U.S. dollars"],
+    "GBP": ["pound", "pounds", "pounds sterling", "sterling"],
+    "INR": ["rupee", "rupees", "Indian rupees"],
+    "AUD": ["dollar", "dollars", "Australian dollars"],
+    "CAD": ["dollar", "dollars", "Canadian dollars"],
+    "NGN": ["naira", "naira", "Nigerian naira"],
+    "EUR": ["euro", "euros"]
+  },
+  "kw": {
+    "invoice_no": [
+      "Invoice No.", "Invoice #", "Invoice Number", "Inv. No.", "Invoice no.", "Inv #", "Bill No.", "Invoice Ref."
+    ],
+    "quote_no": [
+      "Quote No.", "Quote #", "Quotation No.", "Quote Number", "Estimate #", "Estimate No.", "Quotation Ref."
+    ],
+    "receipt_no": ["Receipt No.", "Receipt #", "Receipt Number", "Rcpt No.", "Receipt no."],
+    "credit_note_no": [
+      "Credit Note No.", "Credit Note #", "Credit Memo #", "Credit Memo No.", "Credit Note Number", "CN No."
+    ],
+    "order_no": [
+      "Order No.", "PO No.", "P.O. #", "PO Number", "Purchase Order No.", "Order #", "Your Order No.",
+      "Buyer's Order No."
+    ],
+    "customer_no": [
+      "Customer No.", "Customer ID", "Customer #", "Account #", "Client No.", "Client ID", "Customer Code",
+      "Cust. No."
+    ],
+    "date": ["Date", "Dated", "Dt."],
+    "invoice_date": [
+      "Invoice Date", "Date of Issue", "Issue Date", "Date Issued", "Invoice date", "Bill Date",
+      "Invoice Date / Tax Point"
+    ],
+    "due_date": ["Due Date", "Payment Due", "Due", "Due By", "Payment Due Date", "Pay By", "Date Due"],
+    "delivery_date": [
+      "Delivery Date", "Date of Delivery", "Ship Date", "Shipping Date", "Date of Supply", "Dispatch Date",
+      "Delivered On"
+    ],
+    "valid_until": [
+      "Valid Until", "Valid Till", "Expiry Date", "Quote Valid Until", "Offer Valid Until", "Expires On",
+      "Quotation Validity"
+    ],
+    "period": ["Period", "Service Period", "Billing Period", "Period of Service", "For the Period", "Billing Cycle"],
+    "seller": ["From", "Seller", "Sold By", "Issued By", "Bill From", "Vendor", "Supplier Details"],
+    "bill_to": [
+      "Bill To", "Billed To", "Invoice To", "Sold To", "Customer", "Client", "To", "Bill to Party",
+      "Details of Receiver (Billed To)"
+    ],
+    "ship_to": [
+      "Ship To", "Deliver To", "Delivery Address", "Shipped To", "Ship to Party", "Consignee (Ship To)",
+      "Details of Consignee (Shipped To)"
+    ],
+    "supplier": ["Supplier", "Vendor", "Supplier Name", "Supplier Details", "Vendor Name"],
+    "buyer": ["Buyer", "Purchaser", "Buyer (Bill To)", "Customer", "Purchaser Name", "Buyer's Name"],
+    "no": ["No.", "#", "S.No.", "Sr. No.", "Sl. No.", "Line", "Line #"],
+    "item_code": [
+      "Item Code", "SKU", "Part No.", "Product Code", "Item #", "Code", "Article No.", "Cat. No.", "HSN/SAC",
+      "HSN Code"
+    ],
+    "description": [
+      "Description", "Item Description", "Particulars", "Description of Goods", "Description of Services", "Item",
+      "Details", "Product / Service", "Description of Goods/Services"
+    ],
+    "qty": ["Qty", "Quantity", "Qty.", "Units", "Hrs/Qty"],
+    "unit": ["Unit", "UOM", "Unit of Measure", "U/M", "Per"],
+    "unit_price": [
+      "Unit Price", "Rate", "Price", "Unit Cost", "Price Each", "Rate per Unit", "Unit Rate", "Price/Unit"
+    ],
+    "amount": ["Amount", "Total", "Line Total", "Ext. Price", "Extended Price", "Net", "Value"],
+    "vat_rate": ["VAT %", "VAT Rate", "GST %", "GST Rate", "Tax %", "Tax Rate", "Tax Code"],
+    "vat": ["VAT", "GST", "Sales Tax", "Tax", "HST", "GST/HST", "CGST", "SGST", "IGST", "PST"],
+    "discount": [
+      "Discount", "Less Discount", "Trade Discount", "Disc.", "Discount Applied", "Promotional Discount",
+      "Early Payment Discount"
+    ],
+    "shipping": [
+      "Shipping", "Delivery", "Freight", "Shipping & Handling", "Postage & Packing", "Carriage", "Delivery Charge",
+      "Freight Charges", "P&P"
+    ],
+    "deposit": [
+      "Deposit", "Less Deposit Paid", "Advance", "Advance Received", "Down Payment", "Retainer", "Deposit Received",
+      "Payment on Account"
+    ],
+    "fee": [
+      "Service Charge", "Handling Fee", "Admin Fee", "Processing Fee", "Call-out Fee", "Booking Fee",
+      "Convenience Fee", "Card Surcharge"
+    ],
+    "subtotal": ["Subtotal", "Sub-total", "Sub Total", "Sub-Total"],
+    "total_excl": [
+      "Net Total", "Total Before Tax", "Total excl. Tax", "Taxable Amount", "Taxable Value", "Net Amount",
+      "Total excl. VAT", "Total (ex GST)", "Amount Before Tax"
+    ],
+    "total_tax": [
+      "Total Tax", "Tax Amount", "Total VAT", "Total GST", "VAT Amount", "GST Amount", "Total Tax Amount",
+      "Sales Tax"
+    ],
+    "total_incl": [
+      "Grand Total", "Invoice Total", "Total Amount", "Total Including Tax", "Total incl. Tax", "Total incl. VAT",
+      "Total (inc. GST)", "Total Invoice Value"
+    ],
+    "total_payable": [
+      "Amount Due", "Total Due", "Amount Payable", "Total Payable", "Net Payable", "Total Amount Due", "Please Pay",
+      "Amount to Pay", "Net Amount Payable", "Pay This Amount"
+    ],
+    "total": ["Total", "Total Amount", "Total Value"],
+    "amount_in_words": [
+      "Amount in Words", "Amount Chargeable (in words)", "In Words", "Total in Words", "Amount (in words)",
+      "Sum in Words", "Total Invoice Amount in Words"
+    ],
+    "paid": [
+      "Paid", "Amount Paid", "Less Amount Paid", "Payments Received", "Paid to Date", "Less Paid", "Payment Received",
+      "Already Paid"
+    ],
+    "balance_due": [
+      "Balance Due", "Balance", "Balance Outstanding", "Outstanding Balance", "Amount Outstanding", "Balance Payable",
+      "Remaining Balance"
+    ],
+    "payment_terms": [
+      "Payment Terms", "Terms", "Terms of Payment", "Credit Terms", "Mode/Terms of Payment", "Payment Conditions"
+    ],
+    "payment_method": [
+      "Payment Method", "Payment Mode", "Mode of Payment", "Method of Payment", "Paid By", "Payment Type",
+      "How to Pay"
+    ],
+    "payment_methods": [
+      "Bank Transfer", "Direct Deposit", "Cheque", "Check", "Credit Card", "Debit Card", "Cash", "Direct Debit",
+      "BACS", "ACH Transfer", "Wire Transfer", "PayPal", "UPI", "NEFT/RTGS", "Interac e-Transfer", "BPAY", "EFT",
+      "POS", "Money Order", "Faster Payments"
+    ],
+    "bank": ["Bank", "Bank Name", "Name of Bank", "Bank Details", "Bankers", "Our Bank"],
+    "iban": ["IBAN", "IBAN No.", "IBAN Number"],
+    "bic": [
+      "BIC", "SWIFT", "SWIFT Code", "BIC/SWIFT", "SWIFT/BIC", "IFSC Code", "Sort Code", "BSB", "Routing No.",
+      "Transit No."
+    ],
+    "account_no": [
+      "Account No.", "Account Number", "A/c No.", "Acct No.", "Account #", "A/C Number", "Bank Account No."
+    ],
+    "account_holder": [
+      "Account Name", "Account Holder", "Beneficiary", "A/c Name", "Account Holder Name", "Beneficiary Name", "Payee",
+      "Name on Account"
+    ],
+    "page": ["Page", "Pg.", "p."],
+    "reference": ["Reference", "Ref.", "Ref", "Ref. No.", "Reference No.", "Payment Reference"],
+    "notes": ["Notes", "Remarks", "Note", "Comments", "Additional Notes", "Memo"],
+    "signature": [
+      "Signature", "Authorised Signatory", "Authorized Signature", "Signed", "Authorised Signature",
+      "Signature & Date"
+    ],
+    "stamp": ["Company Stamp", "Stamp", "Company Seal", "Seal", "Official Stamp", "Common Seal", "Stamp & Signature"],
+    "tel": ["Tel", "Tel.", "Phone", "Ph", "Ph.", "Telephone", "T", "Tel No.", "Phone No.", "Call"],
+    "fax": ["Fax", "Fax No.", "F", "Facsimile"],
+    "mobile": ["Mobile", "Mob.", "Mob", "Cell", "M", "Mobile No.", "Cell Phone", "WhatsApp", "GSM"],
+    "email": ["Email", "E-mail", "E", "Email ID", "e-mail", "Email Address", "Mail"],
+    "web": ["Web", "Website", "W", "Web site", "Internet", "URL"],
+    "address": ["Address", "Addr.", "Add.", "Office Address", "Postal Address", "Mailing Address", "Business Address"],
+    "head_office": [
+      "Registered Office", "Head Office", "Regd. Office", "Registered Address", "Corporate Office",
+      "Principal Place of Business", "HQ", "Registered Office Address"
+    ],
+    "contact_person": ["Contact", "Contact Person", "Attn", "Attention", "Contact Name", "Your Contact", "Kind Attn."],
+    "company_name": [
+      "Company Name", "Name of Company", "Registered Name", "Legal Name", "Entity Name", "Name of the Company",
+      "Corporate Name", "Legal Business Name"
+    ],
+    "trade_name": [
+      "Trading Name", "Trade Name", "Trading As", "T/A", "DBA", "Doing Business As", "Business Name", "Brand Name"
+    ],
+    "legal_form": [
+      "Legal Form", "Type of Entity", "Entity Type", "Business Structure", "Company Type", "Legal Structure",
+      "Constitution of Business", "Class of Company"
+    ],
+    "capital": [
+      "Share Capital", "Issued Share Capital", "Paid-up Capital", "Authorised Capital", "Authorized Share Capital",
+      "Issued Capital", "Capital", "Stated Capital"
+    ],
+    "founded": [
+      "Founded", "Established", "Est.", "Estd.", "Since", "Year Established", "Year of Establishment", "Year Founded",
+      "In Business Since"
+    ],
+    "registration_date": [
+      "Date of Incorporation", "Incorporation Date", "Incorporated on", "Registration Date", "Date of Registration",
+      "Date of Formation", "Formation Date", "Registered on"
+    ],
+    "staff": [
+      "Number of Employees", "Employees", "No. of Employees", "Headcount", "Staff", "Workforce", "Team Size",
+      "Staff Strength", "Employee Count", "Total Employees"
+    ],
+    "revenue": [
+      "Revenue", "Turnover", "Annual Turnover", "Annual Revenue", "Sales", "Net Sales", "Gross Revenue",
+      "Total Revenue", "Revenue from Operations"
+    ],
+    "activity": [
+      "Activity", "Nature of Business", "Principal Activity", "Business Activity", "Line of Business",
+      "Business Description", "Principal Activities", "Main Activity", "Industry"
+    ],
+    "activity_code": [
+      "Activity Code", "Industry Code", "Business Activity Code", "Industry Classification", "Classification Code",
+      "Nature of Business Code", "Principal Business Code"
+    ],
+    "manager": [
+      "Director", "Managing Director", "Owner", "Proprietor", "Principal", "CEO", "Managing Partner", "Sole Director",
+      "President", "Manager"
+    ],
+    "hours": [
+      "Opening Hours", "Hours", "Business Hours", "Opening Times", "Trading Hours", "Office Hours",
+      "Hours of Operation", "Store Hours", "Timings", "Working Hours"
+    ],
+    "certifications": [
+      "Certifications", "Accreditations", "Memberships", "Quality Standards", "Accredited by",
+      "Awards & Accreditations", "Approvals", "Member of", "Certificates"
+    ],
+    "services": [
+      "Our Services", "Services", "What We Do", "Services Offered", "Products & Services", "Our Products & Services",
+      "What We Offer", "Scope of Services"
+    ],
+    "clients": [
+      "Our Clients", "Clients", "References", "Key Clients", "Selected Clients", "Trusted By", "Who We Work With",
+      "Client List", "Our Customers", "Clients Include"
+    ],
+    "year": ["Year", "Yr.", "Year Ended"],
+    "fiscal_year": [
+      "Financial Year", "Fiscal Year", "FY", "F.Y.", "Year Ended", "Year Ending", "Accounting Period",
+      "Financial Period", "Tax Year"
+    ],
+    "registration_no": [
+      "Registration No.", "Registration Number", "Reg. No.", "Company No.", "Company Number",
+      "Company Registration No.", "Registered No.", "Reg No"
+    ],
+    "tax_id": [
+      "Tax ID", "Tax ID No.", "TIN", "Tax Identification Number", "Tax Reference", "Tax Registration No.",
+      "Taxpayer ID", "Tax Number"
+    ],
+    "vat_no": [
+      "VAT No.", "VAT Number", "VAT Reg. No.", "VAT Registration No.", "GST No.", "GST Number", "GST Reg. No.",
+      "GSTIN", "GST/HST No.", "Sales Tax No."
+    ],
+    "fin_item": ["Particulars", "Item", "Description", "Line Item", "Account"],
+    "fin_revenue": [
+      "Revenue", "Turnover", "Net Sales", "Revenue from Operations", "Sales", "Total Revenue", "Gross Revenue",
+      "Revenue from Contracts with Customers", "Net Revenue", "Sales Revenue"
+    ],
+    "fin_other_income": [
+      "Other Income", "Other Operating Income", "Other Revenue", "Sundry Income", "Other Gains",
+      "Miscellaneous Income"
+    ],
+    "fin_cost_of_sales": [
+      "Cost of Sales", "Cost of Goods Sold", "COGS", "Cost of Materials Consumed", "Purchases",
+      "Purchases of Stock-in-Trade", "Direct Costs", "Cost of Revenue"
+    ],
+    "fin_gross_profit": ["Gross Profit", "Gross Margin", "Gross Profit/(Loss)"],
+    "fin_external_charges": [
+      "Other Operating Expenses", "Administrative Expenses", "Other Expenses", "Selling and Distribution Expenses",
+      "Operating Expenses", "General and Administrative Expenses", "Overheads", "Distribution Costs"
+    ],
+    "fin_personnel_costs": [
+      "Employee Benefits Expense", "Staff Costs", "Wages and Salaries", "Personnel Expenses", "Salaries and Wages",
+      "Employee Costs", "Payroll Expenses"
+    ],
+    "fin_taxes_duties": [
+      "Taxes and Duties", "Rates and Taxes", "Taxes Other Than Income Tax", "Business Rates", "Property Taxes",
+      "Payroll Taxes", "Levies"
+    ],
+    "fin_depreciation": [
+      "Depreciation and Amortisation", "Depreciation and Amortization", "Depreciation",
+      "Depreciation and Amortisation Expense", "Depreciation & Amortisation"
+    ],
+    "fin_operating_profit": [
+      "Operating Profit", "Operating Income", "EBIT", "Profit from Operations", "Operating Profit/(Loss)",
+      "Earnings Before Interest and Tax", "Income from Operations"
+    ],
+    "fin_financial_result": [
+      "Net Finance Costs", "Finance Costs", "Finance Income/(Costs)", "Net Interest Expense", "Interest Expense",
+      "Net Financial Result", "Interest Payable and Similar Charges"
+    ],
+    "fin_income_tax": [
+      "Income Tax", "Income Tax Expense", "Tax Expense", "Corporation Tax", "Provision for Income Taxes", "Taxation",
+      "Current Tax", "Tax on Profit", "Company Income Tax"
+    ],
+    "fin_net_profit": [
+      "Net Profit", "Net Income", "Profit for the Year", "Profit After Tax", "PAT", "Net Profit/(Loss)",
+      "Profit for the Financial Year", "Net Earnings", "Profit/(Loss) for the Period"
+    ],
+    "fin_fixed_assets": [
+      "Fixed Assets", "Property, Plant and Equipment", "Non-current Assets", "Tangible Assets",
+      "Property and Equipment", "Plant and Equipment"
+    ],
+    "fin_current_assets": ["Current Assets", "Total Current Assets"],
+    "fin_inventory": [
+      "Inventories", "Inventory", "Stock", "Stocks", "Closing Stock", "Stock-in-Trade", "Merchandise Inventory"
+    ],
+    "fin_receivables": [
+      "Trade Receivables", "Accounts Receivable", "Debtors", "Trade Debtors", "Trade and Other Receivables",
+      "Sundry Debtors", "Receivables"
+    ],
+    "fin_cash": [
+      "Cash and Cash Equivalents", "Cash at Bank and in Hand", "Cash", "Cash and Bank Balances", "Cash at Bank",
+      "Bank and Cash Balances"
+    ],
+    "fin_total_assets": ["Total Assets", "Total Assets Employed"],
+    "fin_share_capital": [
+      "Share Capital", "Issued Share Capital", "Equity Share Capital", "Called-up Share Capital", "Common Stock",
+      "Paid-up Capital", "Ordinary Share Capital"
+    ],
+    "fin_reserves": [
+      "Retained Earnings", "Reserves and Surplus", "Reserves", "Profit and Loss Account", "Retained Profits",
+      "Other Reserves", "Accumulated Profits", "Revenue Reserve"
+    ],
+    "fin_equity": [
+      "Total Equity", "Shareholders' Equity", "Shareholders' Funds", "Net Worth", "Stockholders' Equity",
+      "Capital and Reserves", "Equity", "Net Assets"
+    ],
+    "fin_provisions": [
+      "Provisions", "Provisions for Liabilities", "Long-term Provisions", "Short-term Provisions",
+      "Provisions for Liabilities and Charges"
+    ],
+    "fin_debts": [
+      "Borrowings", "Bank Loans", "Long-term Borrowings", "Loans and Borrowings", "Bank Loans and Overdrafts",
+      "Long-term Debt", "Notes Payable", "Interest-bearing Loans"
+    ],
+    "fin_payables": [
+      "Trade Payables", "Accounts Payable", "Creditors", "Trade Creditors", "Sundry Creditors",
+      "Trade and Other Payables", "Payables"
+    ],
+    "fin_total_liabilities": [
+      "Total Equity and Liabilities", "Total Liabilities and Equity", "Total Liabilities and Shareholders' Equity",
+      "Total Equity & Liabilities", "Total Liabilities and Stockholders' Equity"
+    ],
+    "fin_prepared_by": ["Prepared by", "Compiled by", "Accounts prepared by", "Prepared and compiled by"],
+    "fin_auditor": [
+      "Auditor", "Statutory Auditor", "Independent Auditor", "Auditors", "Statutory Auditors", "Independent Auditors",
+      "External Auditor", "Registered Auditor"
+    ],
+    "fin_accountant": [
+      "Chartered Accountant", "Chartered Accountants", "Accountant", "Accountants", "Certified Public Accountant",
+      "CPA", "Reporting Accountants", "Chartered Professional Accountants"
+    ],
+    "fin_approved": [
+      "Approved by the Board on", "Approved by the Board of Directors on",
+      "Approved at the Annual General Meeting on", "Adopted at the AGM held on", "Approved by the members on",
+      "Approved by the shareholders on"
+    ],
+    "pl_item": ["Item", "Product", "Service", "Description", "Product / Service", "Item Description", "Particulars"],
+    "pl_price": ["Price", "Rate", "Unit Price", "Cost", "Price (each)", "Our Price", "Charges", "MRP"],
+    "pl_unit": ["Unit", "Per", "UOM", "Unit of Sale", "Pack Size"],
+    "pl_ref": ["Ref.", "Ref", "Code", "Item Code", "SKU", "Product Code", "Cat. No.", "Part No."],
+    "pl_category": ["Category", "Section", "Range", "Type", "Product Category", "Department"],
+    "pl_incl_tax": [
+      "Prices include VAT", "All prices include GST", "Prices are inclusive of VAT", "Incl. VAT", "inc. GST",
+      "Inclusive of all taxes", "All prices are GST inclusive", "Prices include sales tax"
+    ],
+    "pl_excl_tax": [
+      "Prices exclude VAT", "All prices exclude GST", "Prices are exclusive of VAT", "Excl. VAT", "ex GST",
+      "Plus applicable taxes", "Taxes extra", "Prices do not include sales tax", "GST extra as applicable",
+      "Plus HST"
+    ],
+    "sl_name": ["Name", "Employee Name", "Full Name", "Staff Name", "Name of Employee"],
+    "sl_position": ["Position", "Job Title", "Designation", "Title", "Role", "Post"],
+    "sl_department": ["Department", "Dept.", "Team", "Division", "Section"],
+    "sl_email": ["Email", "E-mail", "Email Address", "Work Email", "Email ID"],
+    "sl_phone": ["Ext.", "Extension", "Phone", "Direct Line", "Tel.", "Mobile", "Direct Dial", "Contact No."],
+    "sl_start_date": [
+      "Start Date", "Date Joined", "Date of Joining", "Hire Date", "Joining Date", "Employment Date",
+      "Commencement Date", "Date of Hire"
+    ],
+    "sl_contract": ["Contract Type", "Employment Type", "Employment Status", "Contract", "Basis", "Status"],
+    "sl_employee_id": [
+      "Employee ID", "Emp. ID", "Staff No.", "Employee No.", "Emp Code", "Payroll No.", "Staff ID", "Employee Code"
+    ],
+    "sl_salary": [
+      "Gross Salary", "Salary", "Annual Salary", "Gross Pay", "Basic Salary", "CTC", "Monthly Gross", "Base Salary",
+      "Pay Rate"
+    ],
+    "sl_total": [
+      "Total Headcount", "Total Employees", "Total Staff", "Headcount", "Total Number of Employees",
+      "Total Staff Strength", "Total No. of Employees"
+    ],
+    "contract_types": [
+      "Permanent", "Full-time", "Part-time", "Fixed-term", "Contract", "Casual", "Temporary", "Intern", "Apprentice",
+      "Seasonal", "Probation", "Contractor", "Zero-hours", "Trainee"
+    ],
+    "lt_subject": ["Subject", "Re", "RE", "Sub", "Ref"],
+    "lt_ref": ["Our Ref.", "Your Ref.", "Our Ref", "Your Ref", "Ref.", "Our Reference", "Your Reference", "Ref. No."],
+    "lt_attachment": ["Enclosures", "Enc.", "Encl.", "Enclosure", "Encs", "Attachment", "Attachments", "Attached"],
+    "lt_salutation": [
+      "Dear Sir or Madam,", "Dear Sir/Madam,", "Dear Sirs,", "To Whom It May Concern,", "Dear Sir,",
+      "Respected Sir/Madam,", "Dear Team,", "Dear Customer,", "Hello,", "Good day,"
+    ],
+    "lt_closing": [
+      "Yours faithfully,", "Yours sincerely,", "Sincerely,", "Kind regards,", "Best regards,", "Regards,",
+      "Yours truly,", "Warm regards,", "Thanking you,", "With best regards,", "Many thanks,", "Respectfully,"
+    ],
+    "em_from": ["From"],
+    "em_to": ["To"],
+    "em_cc": ["Cc", "CC"],
+    "em_subject": ["Subject"],
+    "em_date": ["Date", "Sent"],
+    "hours_closed": ["Closed", "closed"],
+    "hours_everyday": ["Daily", "Every day", "7 days a week", "Open 7 days", "Seven days a week", "Open daily"],
+    "hours_appointment": ["By appointment", "By appointment only", "Appointment only", "By prior appointment"],
+    "hours_holidays": [
+      "Public holidays", "Bank holidays", "Holidays", "Statutory holidays", "Stat holidays", "Federal holidays"
+    ],
+    "and": ["and", "&"],
+    "or": ["or"]
+  },
+  "units": {
+    "piece": ["pc", "pcs", "ea", "each", "unit", "Nos.", "item"],
+    "hour": ["hr", "hour", "hrs", "h"],
+    "day": ["day", "days"],
+    "month": ["month", "mo", "mth"],
+    "year": ["year", "yr", "annum"],
+    "flat": ["flat rate", "fixed fee", "lump sum", "flat fee", "job", "LS"],
+    "kg": ["kg", "kgs", "Kg"],
+    "m2": ["m²", "sq m", "m2", "sqm", "sq ft"],
+    "m": ["m", "metre", "meter", "mtr", "lm"],
+    "night": ["night", "nights", "room night"],
+    "person": ["person", "pax", "head", "guest", "pp"],
+    "session": ["session", "sessions", "class"],
+    "km": ["km", "kms", "kilometre", "kilometer", "mile"],
+    "page": ["page", "pages", "pg"],
+    "word": ["word", "words"],
+    "visit": ["visit", "call-out", "service call", "trip"],
+    "box": ["box", "pack", "carton", "case", "pkt"],
+    "set": ["set", "sets", "kit"],
+    "lesson": ["lesson", "lessons", "class"],
+    "license": ["licence", "license", "seat"],
+    "user": ["user", "users", "seat"]
+  },
+  "staff_noun": {"one": "employee", "other": "employees"},
+  "counted": {
+    "years": {"one": "{n} year", "other": "{n} years"},
+    "clients": {"one": "{n} client", "other": "{n} clients"},
+    "shops": {"one": "{n} store", "other": "{n} stores"},
+    "vehicles": {"one": "{n} vehicle", "other": "{n} vehicles"},
+    "products": {"one": "{n} product", "other": "{n} products"},
+    "projects": {"one": "{n} project", "other": "{n} projects"},
+    "countries": {"one": "{n} country", "other": "{n} countries"}
+  },
+  "manager_titles": [
+    "Managing Director", "Director", "CEO", "Chief Executive Officer", "Owner", "Proprietor", "President", "Founder",
+    "Founder & CEO", "General Manager", "Principal", "Managing Partner", "Owner-Manager",
+    "Chairman & Managing Director", "Sole Proprietor", "Chief Executive", "Owner/Operator"
+  ],
+  "positions": [
+    "Accountant", "Accounts Assistant", "Bookkeeper", "Office Manager", "Office Administrator", "Personal Assistant",
+    "Executive Assistant", "Receptionist", "Sales Executive", "Sales Representative", "Account Manager",
+    "Business Development Executive", "Marketing Coordinator", "Marketing Executive",
+    "Customer Service Representative", "Customer Care Officer", "Project Manager", "Site Supervisor", "Foreman",
+    "Service Technician", "Field Engineer", "Electrician", "Apprentice", "Delivery Driver", "Warehouse Supervisor",
+    "Store Supervisor", "Cashier", "Head Chef", "Sous Chef", "Front Desk Officer", "HR Officer", "Payroll Officer",
+    "IT Support Technician", "Graphic Designer", "Admin Officer", "Operations Coordinator", "Purchasing Officer",
+    "Quality Control Inspector"
+  ],
+  "departments": [
+    "Accounts", "Finance", "Sales", "Marketing", "Human Resources", "Customer Service", "Operations", "Procurement",
+    "IT", "Logistics", "Administration", "Legal", "Production", "Dispatch", "Quality Assurance",
+    "Research & Development", "Maintenance", "Front Office", "Warehouse", "Customer Support", "Admin & HR",
+    "Business Development", "Engineering", "Kitchen"
+  ],
+  "honorifics": {
+    "male": ["Mr", "Mr.", "Dr."],
+    "female": ["Ms", "Ms.", "Mrs", "Mrs.", "Miss", "Dr."]
+  },
+  "list_join": {"sep": ", ", "last": " and "},
+  "country_names": {
+    "SA": "Saudi Arabia",
+    "AE": "United Arab Emirates",
+    "EG": "Egypt",
+    "MA": "Morocco",
+    "CN": "China",
+    "TW": "Taiwan",
+    "HK": "Hong Kong",
+    "SG": "Singapore",
+    "US": "United States",
+    "GB": "United Kingdom",
+    "IN": "India",
+    "AU": "Australia",
+    "CA": "Canada",
+    "NG": "Nigeria",
+    "FR": "France",
+    "BE": "Belgium",
+    "CH": "Switzerland",
+    "SN": "Senegal",
+    "RU": "Russia",
+    "KZ": "Kazakhstan",
+    "BY": "Belarus",
+    "ES": "Spain",
+    "MX": "Mexico",
+    "AR": "Argentina",
+    "CO": "Colombia",
+    "CL": "Chile",
+    "IT": "Italy",
+    "JP": "Japan",
+    "KR": "South Korea"
+  },
+  "brand_words": [
+    "Novalis", "Brightway", "Kestrel", "Bluestone", "Silverline", "Northstar", "Redwood", "Oakridge", "Clearwater",
+    "Pinnacle", "Meridian", "Ironbark", "Greenleaf", "Crestline", "Lumina", "Vantage", "Beacon", "Cobalt",
+    "Copperfield", "Harrier", "Osprey", "Wrenfield", "Stonebridge", "Larkspur", "Evermore", "Trueline", "Primrose",
+    "Sunridge", "Brookvale", "Ashgrove", "Velora", "Corvant", "Altrix", "Quantis", "Nexora", "Solvane", "Tidewater",
+    "Fairhaven", "Goldcrest", "Hollybrook", "Blue Wattle", "Southern Cross", "Maplewood", "Northfield",
+    "Silver Birch", "Everest", "Sapphire", "Sunrise", "Galaxy", "Supreme", "Crystal", "Kingsway", "Royal Oak",
+    "Swiftline", "Clearpath", "Brightpoint", "Truenorth", "Aspenridge", "Halcyon", "Arbor", "Lodestar", "Parkside",
+    "Riverbend", "Hearthstone", "Willowbrook", "Bramble", "Thistle", "Juniper", "Marlowe", "Ember", "Quill", "Alder",
+    "Fernhill", "Starling", "Seabright", "Cedarline", "Summit", "Pioneer", "Landmark", "Premier", "Paramount",
+    "Goldleaf", "Harbourlight", "Sai", "Balaji", "Shree Ganesh", "Laxmi", "Siddhi", "Om Sai", "Divine Grace",
+    "Favour", "Goodness", "Excel", "Victory"
+  ],
+  "name_patterns": [
+    "{brand} {activity_word}", "{family} {activity_word}", "{city} {activity_word}", "{family} & Sons",
+    "{family} & Sons {activity_word}", "{initials} {activity_word}", "{given}'s {activity_word}",
+    "{family}'s {activity_word}", "{given} {family} {activity_word}", "The {brand} {activity_word}", "{brand}",
+    "{family} Enterprises", "{family} Brothers", "{brand} Group", "{family} & Co", "{brand} Global"
+  ],
+  "orgs": {
+    "banks": {
+      "US": [
+        "JPMorgan Chase Bank", "Chase", "Bank of America", "Wells Fargo Bank", "Citibank", "U.S. Bank", "PNC Bank",
+        "Truist Bank", "Capital One", "Fifth Third Bank", "KeyBank", "Regions Bank", "Citizens Bank", "TD Bank",
+        "Huntington National Bank"
+      ],
+      "GB": [
+        "Barclays", "Barclays Bank UK PLC", "HSBC UK", "Lloyds Bank", "NatWest", "Santander UK",
+        "Nationwide Building Society", "Royal Bank of Scotland", "TSB Bank", "Metro Bank", "Halifax",
+        "Bank of Scotland", "Starling Bank", "The Co-operative Bank", "Virgin Money", "Monzo Bank"
+      ],
+      "IN": [
+        "State Bank of India", "HDFC Bank", "ICICI Bank", "Axis Bank", "Kotak Mahindra Bank", "Punjab National Bank",
+        "Bank of Baroda", "Canara Bank", "Union Bank of India", "IndusInd Bank", "Yes Bank", "IDFC FIRST Bank",
+        "Bank of India", "Indian Bank", "Federal Bank", "Central Bank of India"
+      ],
+      "AU": [
+        "Commonwealth Bank", "Commonwealth Bank of Australia", "Westpac", "ANZ", "National Australia Bank", "NAB",
+        "Bendigo Bank", "Suncorp Bank", "Bank of Queensland", "Macquarie Bank", "St.George Bank", "ING", "Bankwest",
+        "BankSA"
+      ],
+      "CA": [
+        "RBC Royal Bank", "Royal Bank of Canada", "TD Canada Trust", "Scotiabank", "BMO Bank of Montreal", "CIBC",
+        "National Bank of Canada", "Desjardins", "ATB Financial", "Laurentian Bank", "Tangerine", "Vancity",
+        "Coast Capital Savings"
+      ],
+      "NG": [
+        "Access Bank", "Zenith Bank", "First Bank of Nigeria", "FirstBank", "Guaranty Trust Bank", "GTBank",
+        "United Bank for Africa", "UBA", "Fidelity Bank", "Union Bank of Nigeria", "Stanbic IBTC Bank",
+        "Sterling Bank", "Ecobank Nigeria", "Wema Bank", "First City Monument Bank", "FCMB", "Polaris Bank",
+        "Keystone Bank", "Providus Bank", "Moniepoint Microfinance Bank"
+      ]
+    },
+    "registry": {
+      "US": [
+        "Office of the Secretary of State", "Secretary of State, Division of Corporations",
+        "Department of State, Division of Corporations", "Secretary of State, Business Services Division",
+        "Corporations Division", "Office of the County Clerk"
+      ],
+      "GB": [
+        "Companies House", "Registrar of Companies for England and Wales", "Registrar of Companies for Scotland",
+        "Registrar of Companies for Northern Ireland", "Companies House, Cardiff"
+      ],
+      "IN": [
+        "Registrar of Companies, {city}", "Office of the Registrar of Companies, {city}",
+        "Ministry of Corporate Affairs", "Central Registration Centre, Ministry of Corporate Affairs", "ROC {city}",
+        "Registrar of Firms, {city}"
+      ],
+      "AU": [
+        "Australian Securities and Investments Commission", "ASIC", "Australian Business Register",
+        "Australian Business Registry Services"
+      ],
+      "CA": [
+        "Corporations Canada", "Ontario Business Registry", "BC Registries and Online Services",
+        "Alberta Corporate Registry", "Registraire des entreprises du Québec", "ServiceOntario"
+      ],
+      "NG": [
+        "Corporate Affairs Commission", "CAC", "Corporate Affairs Commission, Abuja",
+        "Corporate Affairs Commission, {city} Office", "Registrar-General, Corporate Affairs Commission"
+      ]
+    },
+    "tax_office": {
+      "US": [
+        "Internal Revenue Service", "IRS", "Department of the Treasury, Internal Revenue Service",
+        "State Department of Revenue", "Franchise Tax Board", "Comptroller of Public Accounts",
+        "California Department of Tax and Fee Administration", "{city} Department of Finance"
+      ],
+      "GB": [
+        "HM Revenue & Customs", "HMRC", "HM Revenue and Customs", "HMRC VAT Registration Service",
+        "HMRC Corporation Tax Services", "HMRC Debt Management"
+      ],
+      "IN": [
+        "Income Tax Department", "Central Board of Direct Taxes", "Central Board of Indirect Taxes and Customs",
+        "Office of the Commissioner of CGST, {city}", "Office of the Assistant Commissioner of State Tax, {city}",
+        "Income Tax Office, {city}", "GST Department, {city}"
+      ],
+      "AU": [
+        "Australian Taxation Office", "ATO", "Revenue NSW", "State Revenue Office Victoria",
+        "Queensland Revenue Office", "RevenueWA"
+      ],
+      "CA": [
+        "Canada Revenue Agency", "CRA", "Revenu Québec", "Ontario Ministry of Finance", "{city} Tax Services Office",
+        "CRA Business Enquiries"
+      ],
+      "NG": [
+        "Federal Inland Revenue Service", "FIRS", "Nigeria Revenue Service", "Lagos State Internal Revenue Service",
+        "LIRS", "Integrated Tax Office, {city}"
+      ]
+    },
+    "auditor": [
+      "{family} & Co., Chartered Accountants", "{family} & Associates", "{family} Audit LLP", "{family} & Partners",
+      "{family} CPA, PC", "{family} Accountants Pty Ltd", "{family} & Co. LLP", "{family} Chartered Accountants",
+      "{family} CPA Professional Corporation", "Grant Thornton", "BDO", "RSM", "Baker Tilly", "Crowe"
+    ],
+    "notary": [
+      "{family} Notary Services", "{family} & Co. Notaries", "Office of {family}, Notary Public",
+      "{family} Notaries Public", "{family} Legal Chambers"
+    ],
+    "hosting": [
+      "GoDaddy", "Bluehost", "SiteGround", "HostGator", "Hostinger", "IONOS", "Namecheap", "Amazon Web Services",
+      "DigitalOcean", "WP Engine", "Squarespace", "Wix.com", "Shopify", "Fasthosts", "Krystal Hosting",
+      "Crazy Domains", "VentraIP Australia", "BigRock", "Whogohost", "Netlify", "Cloudflare"
+    ],
+    "insurers": [
+      "Aviva", "Allianz", "AXA", "Zurich", "Hiscox", "Direct Line for Business", "State Farm", "Nationwide",
+      "The Hartford", "Travelers", "Liberty Mutual", "QBE Insurance", "CGU Insurance", "NRMA Insurance",
+      "Intact Insurance", "The Co-operators", "New India Assurance", "ICICI Lombard", "HDFC ERGO", "Tata AIG",
+      "Leadway Assurance", "AIICO Insurance", "Cornerstone Insurance", "NEM Insurance",
+      "Custodian and Allied Insurance"
+    ],
+    "public_bodies": [
+      "{city} City Council", "City of {city}", "{city} Borough Council", "{city} Municipal Corporation",
+      "{city} General Hospital", "{family} Primary School", "{family} High School", "{city} Public Library",
+      "{city} Local Government Council", "Department of Education", "Ministry of Health",
+      "{family} Memorial Hospital", "{city} Community College", "{city} Police Department", "{city} Water Board",
+      "{city} Development Authority"
+    ],
+    "associations": [
+      "{city} Chamber of Commerce", "{city} Chamber of Commerce and Industry", "Rotary Club of {city}",
+      "{city} Business Association", "{city} Traders' Association", "{city} Small Business Network",
+      "Lions Club of {city}", "{city} Residents' Association", "{city} Business Improvement District",
+      "{family} Foundation"
+    ]
+  },
+  "certs": [
+    {"name": "ISO 9001", "countries": ["*"], "groups": ["*"]},
+    {"name": "ISO 14001", "countries": ["*"], "groups": ["*"]},
+    {"name": "ISO 45001", "countries": ["*"], "groups": ["construction", "manufacturing", "transport", "services"]},
+    {"name": "ISO/IEC 27001", "countries": ["*"], "groups": ["it", "professional", "creative"]},
+    {"name": "ISO 22000", "countries": ["*"], "groups": ["food"]},
+    {"name": "ISO 13485", "countries": ["*"], "groups": ["health", "manufacturing"]},
+    {"name": "ISO 17100", "countries": ["*"], "groups": ["professional"]},
+    {"name": "HACCP Certified", "countries": ["*"], "groups": ["food", "hospitality"]},
+    {"name": "Halal Certified", "countries": ["*"], "groups": ["food", "hospitality"]},
+    {"name": "Certified B Corporation", "countries": ["US", "GB", "CA", "AU"], "groups": ["*"]},
+    {"name": "Great Place to Work Certified", "countries": ["*"], "groups": ["*"]},
+    {"name": "EcoVadis Silver", "countries": ["*"], "groups": ["*"]},
+    {"name": "PCI DSS Compliant", "countries": ["*"], "groups": ["it", "retail", "hospitality"]},
+    {"name": "Microsoft Solutions Partner", "countries": ["*"], "groups": ["it"]},
+    {"name": "Google Partner", "countries": ["*"], "groups": ["creative", "it"]},
+    {"name": "AWS Select Tier Services Partner", "countries": ["*"], "groups": ["it"]},
+    {"name": "FSC Certified", "countries": ["*"], "groups": ["creative", "manufacturing"]},
+    {"name": "PEFC Certified", "countries": ["*"], "groups": ["creative", "manufacturing"]},
+    {"name": "Fairtrade Certified", "countries": ["*"], "groups": ["food", "retail"]},
+    {"name": "Leaping Bunny Approved", "countries": ["*"], "groups": ["beauty", "retail"]},
+    {"name": "BRCGS Food Safety Grade AA", "countries": ["*"], "groups": ["food", "manufacturing"]},
+    {"name": "Green Key", "countries": ["*"], "groups": ["hospitality"]},
+    {"name": "IATA Accredited Agent", "countries": ["*"], "groups": ["hospitality", "transport"]},
+    {"name": "Bosch Car Service", "countries": ["*"], "groups": ["auto"]},
+    {"name": "Authorised Cambridge English Exam Centre", "countries": ["*"], "groups": ["education"]},
+    {"name": "Gas Safe Registered", "countries": ["GB"], "groups": ["construction"]},
+    {"name": "NICEIC Approved Contractor", "countries": ["GB"], "groups": ["construction"]},
+    {"name": "Cyber Essentials", "countries": ["GB"], "groups": ["it", "professional", "services", "creative"]},
+    {"name": "Cyber Essentials Plus", "countries": ["GB"], "groups": ["it", "professional"]},
+    {"name": "TrustMark Registered", "countries": ["GB"], "groups": ["construction"]},
+    {"name": "Federation of Master Builders", "countries": ["GB"], "groups": ["construction"]},
+    {"name": "Which? Trusted Trader", "countries": ["GB"], "groups": ["construction", "auto", "services"]},
+    {"name": "Checkatrade Approved", "countries": ["GB"], "groups": ["construction", "services"]},
+    {"name": "CHAS Accredited", "countries": ["GB"], "groups": ["construction", "services"]},
+    {"name": "Constructionline Gold", "countries": ["GB"], "groups": ["construction"]},
+    {"name": "SafeContractor Approved", "countries": ["GB"], "groups": ["construction", "services"]},
+    {"name": "Guild of Master Craftsmen", "countries": ["GB"], "groups": ["construction", "manufacturing"]},
+    {"name": "Investors in People", "countries": ["GB"], "groups": ["*"]},
+    {"name": "Living Wage Employer", "countries": ["GB"], "groups": ["*"]},
+    {"name": "King's Award for Enterprise", "countries": ["GB"], "groups": ["*"]},
+    {"name": "FSB Member", "countries": ["GB"], "groups": ["*"]},
+    {"name": "5-Star Food Hygiene Rating", "countries": ["GB"], "groups": ["food"]},
+    {"name": "SALSA Approved", "countries": ["GB"], "groups": ["food"]},
+    {"name": "Red Tractor Assured", "countries": ["GB"], "groups": ["food", "retail"]},
+    {"name": "AA Rosette Award", "countries": ["GB"], "groups": ["food", "hospitality"]},
+    {"name": "AA Four Star Rated", "countries": ["GB"], "groups": ["hospitality"]},
+    {"name": "Green Tourism Gold Award", "countries": ["GB"], "groups": ["hospitality"]},
+    {"name": "ABTA Member", "countries": ["GB"], "groups": ["hospitality"]},
+    {"name": "ATOL Protected", "countries": ["GB"], "groups": ["hospitality"]},
+    {"name": "The Motor Ombudsman Accredited", "countries": ["GB"], "groups": ["auto"]},
+    {"name": "FORS Gold", "countries": ["GB"], "groups": ["transport"]},
+    {"name": "SIA Approved Contractor", "countries": ["GB"], "groups": ["services"]},
+    {"name": "NSI Gold", "countries": ["GB"], "groups": ["services", "construction"]},
+    {"name": "BAFE Registered", "countries": ["GB"], "groups": ["construction", "services"]},
+    {"name": "CQC Registered", "countries": ["GB"], "groups": ["health"]},
+    {"name": "RCVS Accredited Practice", "countries": ["GB"], "groups": ["health"]},
+    {"name": "GPhC Registered Pharmacy", "countries": ["GB"], "groups": ["health"]},
+    {"name": "RIBA Chartered Practice", "countries": ["GB"], "groups": ["professional"]},
+    {"name": "ICAEW Chartered Accountants", "countries": ["GB"], "groups": ["professional"]},
+    {"name": "Lexcel Accredited", "countries": ["GB"], "groups": ["professional"]},
+    {"name": "ITI Corporate Member", "countries": ["GB"], "groups": ["professional"]},
+    {"name": "Propertymark Protected", "countries": ["GB"], "groups": ["realestate"]},
+    {"name": "RICS Regulated", "countries": ["GB"], "groups": ["realestate", "professional", "construction"]},
+    {"name": "DVSA Approved", "countries": ["GB"], "groups": ["education"]},
+    {"name": "British Council Accredited", "countries": ["GB", "IN", "NG"], "groups": ["education"]},
+    {"name": "FIRA Gold", "countries": ["GB"], "groups": ["manufacturing"]},
+    {"name": "Interflora Member", "countries": ["GB", "AU", "IN"], "groups": ["retail"]},
+    {"name": "Tripadvisor Travellers' Choice", "countries": ["GB", "AU", "IN", "NG"], "groups": ["food", "hospitality"]},
+    {"name": "Tripadvisor Travelers' Choice", "countries": ["US", "CA"], "groups": ["food", "hospitality"]},
+    {"name": "Michelin Bib Gourmand", "countries": ["US", "GB", "CA"], "groups": ["food"]},
+    {"name": "QuickBooks Certified ProAdvisor", "countries": ["US", "CA", "GB", "AU"], "groups": ["professional"]},
+    {"name": "Xero Certified Advisor", "countries": ["AU", "GB", "CA", "US"], "groups": ["professional"]},
+    {"name": "SOC 2 Type II", "countries": ["US", "CA", "GB", "IN"], "groups": ["it"]},
+    {"name": "BBB Accredited Business", "countries": ["US", "CA"], "groups": ["*"]},
+    {"name": "Energy Star Partner", "countries": ["US", "CA"], "groups": ["construction", "manufacturing", "it"]},
+    {"name": "UL Listed", "countries": ["US", "CA"], "groups": ["manufacturing", "it"]},
+    {"name": "ASE Certified", "countries": ["US", "CA"], "groups": ["auto"]},
+    {"name": "AAA Approved Auto Repair", "countries": ["US"], "groups": ["auto"]},
+    {"name": "AAA Four Diamond", "countries": ["US", "CA"], "groups": ["hospitality", "food"]},
+    {"name": "Google Guaranteed", "countries": ["US", "CA"], "groups": ["construction", "services", "auto", "realestate"]},
+    {"name": "Angi Super Service Award", "countries": ["US"], "groups": ["construction", "services"]},
+    {"name": "Inc. 5000 Honoree", "countries": ["US"], "groups": ["*"]},
+    {"name": "U.S. Green Building Council Member", "countries": ["US"], "groups": ["construction", "professional", "realestate"]},
+    {"name": "USDA Organic", "countries": ["US"], "groups": ["food", "retail"]},
+    {"name": "HIPAA Compliant", "countries": ["US"], "groups": ["health", "it"]},
+    {"name": "Joint Commission Accredited", "countries": ["US"], "groups": ["health"]},
+    {"name": "AAHA Accredited", "countries": ["US", "CA"], "groups": ["health"]},
+    {"name": "SmartWay Transport Partner", "countries": ["US", "CA"], "groups": ["transport"]},
+    {"name": "PPA Certified Professional Photographer", "countries": ["US"], "groups": ["creative"]},
+    {"name": "ATA Corporate Member", "countries": ["US"], "groups": ["professional"]},
+    {"name": "National Association of Realtors Member", "countries": ["US"], "groups": ["realestate"]},
+    {"name": "FTD Member Florist", "countries": ["US", "CA"], "groups": ["retail"]},
+    {"name": "COR Certified", "countries": ["CA"], "groups": ["construction", "transport", "services"]},
+    {"name": "Red Seal Certified", "countries": ["CA"], "groups": ["construction", "auto", "food"]},
+    {"name": "ESA Licensed Electrical Contractor", "countries": ["CA"], "groups": ["construction"]},
+    {"name": "CHBA Member", "countries": ["CA"], "groups": ["construction"]},
+    {"name": "Accreditation Canada", "countries": ["CA"], "groups": ["health"]},
+    {"name": "Languages Canada Accredited", "countries": ["CA"], "groups": ["education"]},
+    {"name": "Canada's Best Managed Companies", "countries": ["CA"], "groups": ["*"]},
+    {"name": "Master Builders Australia Member", "countries": ["AU"], "groups": ["construction"]},
+    {"name": "HIA Member", "countries": ["AU"], "groups": ["construction"]},
+    {"name": "Clean Energy Council Accredited Installer", "countries": ["AU"], "groups": ["construction"]},
+    {"name": "Climate Active Carbon Neutral", "countries": ["AU"], "groups": ["*"]},
+    {"name": "Australian Certified Organic", "countries": ["AU"], "groups": ["food", "retail"]},
+    {"name": "QCPP Accredited Pharmacy", "countries": ["AU"], "groups": ["health"]},
+    {"name": "NHVAS Accredited", "countries": ["AU"], "groups": ["transport"]},
+    {"name": "NAATI Certified", "countries": ["AU"], "groups": ["professional"]},
+    {"name": "Registered Tax Agent", "countries": ["AU"], "groups": ["professional"]},
+    {"name": "REINSW Member", "countries": ["AU"], "groups": ["realestate"]},
+    {"name": "Telstra Best of Business Awards Finalist", "countries": ["AU"], "groups": ["*"]},
+    {"name": "FSSAI Licensed", "countries": ["IN"], "groups": ["food"]},
+    {"name": "BIS Certified", "countries": ["IN"], "groups": ["manufacturing", "it", "retail"]},
+    {"name": "ISI Mark", "countries": ["IN"], "groups": ["manufacturing"]},
+    {"name": "ZED Gold Certified", "countries": ["IN"], "groups": ["manufacturing"]},
+    {"name": "NABH Accredited", "countries": ["IN"], "groups": ["health"]},
+    {"name": "NABL Accredited", "countries": ["IN"], "groups": ["health", "manufacturing"]},
+    {"name": "NASSCOM Member", "countries": ["IN"], "groups": ["it"]},
+    {"name": "FICCI Member", "countries": ["IN"], "groups": ["*"]},
+    {"name": "CII Member", "countries": ["IN"], "groups": ["*"]},
+    {"name": "Government Recognised Star Export House", "countries": ["IN"], "groups": ["manufacturing", "retail"]},
+    {"name": "RERA Registered", "countries": ["IN"], "groups": ["realestate"]},
+    {"name": "NAFDAC Registered", "countries": ["NG"], "groups": ["food", "health", "manufacturing", "beauty"]},
+    {"name": "SON MANCAP Certified", "countries": ["NG"], "groups": ["manufacturing"]},
+    {"name": "COREN Registered", "countries": ["NG"], "groups": ["construction", "professional"]},
+    {"name": "LCCI Member", "countries": ["NG"], "groups": ["*"]},
+    {"name": "NACCIMA Member", "countries": ["NG"], "groups": ["*"]},
+    {"name": "Manufacturers Association of Nigeria Member", "countries": ["NG"], "groups": ["manufacturing"]}
+  ]
+}

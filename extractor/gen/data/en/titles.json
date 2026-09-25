@@ -1,0 +1,113 @@
+{
+  "lang": "en",
+  "doc": {
+    "invoice": ["Invoice", "INVOICE", "Sales Invoice", "Service Invoice", "Bill", "Invoice / Bill", "Commercial Invoice"],
+    "tax_invoice": ["Tax Invoice", "TAX INVOICE", "VAT Invoice", "GST Invoice", "Tax Invoice (Original for Recipient)", "Tax Invoice – Original"],
+    "quote": ["Quotation", "Quote", "Estimate", "Price Quotation", "Proposal", "Job Estimate", "Fee Proposal", "Quotation / Estimate"],
+    "proforma": ["Proforma Invoice", "Pro Forma Invoice", "Pro-forma Invoice", "PROFORMA INVOICE"],
+    "receipt": ["Receipt", "Payment Receipt", "Cash Receipt", "Sales Receipt", "Official Receipt", "Money Receipt", "Receipt Voucher"],
+    "credit_note": ["Credit Note", "Credit Memo", "CREDIT NOTE", "Credit Memorandum", "Tax Credit Note", "Adjustment Note"],
+    "price_list": ["Price List", "Rate Card", "Tariff", "Pricing", "Schedule of Rates", "Fee Schedule", "Our Prices", "Price Guide"],
+    "staff_list": ["Staff List", "Employee Directory", "Staff Directory", "Team Directory", "Employee List", "List of Employees", "Staff Contact List"],
+    "purchase_order": ["Purchase Order", "PURCHASE ORDER", "Local Purchase Order", "Order Form", "Work Order"]
+  },
+  "brochure": {
+    "about": ["About Us", "Who We Are", "Our Story", "About the Company", "Company Profile", "Company Overview", "About"],
+    "services": ["Our Services", "Services", "What We Do", "What We Offer", "Our Expertise", "Products & Services", "How We Can Help"],
+    "team": ["Our Team", "Meet the Team", "The Team", "Our People", "Leadership", "Management Team", "Who's Who"],
+    "contact": ["Contact Us", "Get in Touch", "Contact", "Contact Details", "Reach Us", "Enquiries", "Talk to Us"],
+    "clients": ["Our Clients", "Clients", "Selected Clients", "Who We Work With", "Trusted By", "Key Clients", "Client Portfolio", "Our Customers"],
+    "hours": ["Opening Hours", "Opening Times", "Business Hours", "Hours", "Trading Hours", "Office Hours", "Store Hours", "When to Find Us", "Timings"],
+    "history": ["Our History", "Our Story", "History", "Our Journey", "Milestones", "Where It All Began", "The Story So Far"],
+    "values": ["Our Values", "Mission & Values", "What We Stand For", "Our Mission", "Our Commitment", "Vision & Mission", "Core Values", "Our Promise"],
+    "certifications": ["Certifications", "Accreditations", "Accreditations & Memberships", "Quality & Accreditations", "Awards & Accreditations", "Certifications & Awards", "Our Credentials", "Industry Memberships"],
+    "why_us": ["Why Choose Us", "Why Choose Us?", "Why Us?", "Why Work With Us", "What Sets Us Apart", "Why Customers Choose Us", "Our Advantages"],
+    "news": ["News", "Latest News", "News & Updates", "What's New", "Announcements", "Company News", "Blog", "In the News"],
+    "testimonials": ["Testimonials", "What Our Clients Say", "Reviews", "Customer Reviews", "Client Testimonials", "Kind Words", "What People Are Saying", "Happy Customers"],
+    "faq": ["FAQ", "FAQs", "Frequently Asked Questions", "Questions & Answers", "Common Questions", "Help & FAQs", "Got Questions?"],
+    "location": ["Find Us", "Location", "Our Location", "Getting Here", "Directions", "Visit Us", "Where to Find Us", "Our Offices", "Our Branches"],
+    "taglines": [
+      "Quality you can trust",
+      "Your local experts in {city}",
+      "Proudly serving {city} and surrounding areas",
+      "Doing it right the first time",
+      "Built on trust, driven by quality",
+      "Excellence in every detail",
+      "Where quality meets value",
+      "Trusted by families and businesses across {city}",
+      "Small team, big results",
+      "No job too small",
+      "Here when you need us",
+      "Crafted with care",
+      "Your satisfaction is our priority",
+      "Committed to excellence",
+      "Honest work at a fair price",
+      "Locally owned and operated",
+      "Going the extra mile, every time",
+      "Customer satisfaction is our watchword",
+      "{city}'s friendly neighbourhood experts",
+      "Service with a smile",
+      "Reliable. Professional. Local.",
+      "Simply better service"
+    ]
+  },
+  "financials": {
+    "income_statement": ["Income Statement", "Profit and Loss Account", "Statement of Profit or Loss", "Statement of Profit and Loss", "Statement of Comprehensive Income", "Profit & Loss Statement", "Statement of Operations", "P&L Statement"],
+    "balance_sheet": ["Balance Sheet", "Statement of Financial Position", "Statement of Assets and Liabilities", "Consolidated Balance Sheet"],
+    "annual_accounts": ["Annual Accounts", "Financial Statements", "Annual Report and Financial Statements", "Annual Report", "Statutory Accounts", "Audited Financial Statements", "Directors' Report and Financial Statements"],
+    "key_figures": ["Key Figures", "Financial Highlights", "Key Financials", "At a Glance", "Financial Summary", "Key Performance Indicators", "The Year in Numbers", "Highlights"],
+    "tax_summary": ["Tax Summary", "Tax Computation", "Corporation Tax Computation", "Summary of Tax Position", "Income Tax Computation", "GST Return Summary", "VAT Return Summary", "BAS Summary", "Sales Tax Summary"],
+    "notes": ["Notes to the Financial Statements", "Notes to the Accounts", "Notes Forming Part of the Financial Statements", "Notes", "Significant Accounting Policies", "Accounting Policies"]
+  },
+  "contract": {
+    "titles": ["Service Agreement", "Services Agreement", "Contract for Services", "Master Services Agreement", "Agreement for the Supply of Services", "Consultancy Agreement", "Terms of Engagement", "Supply Agreement", "Maintenance Agreement", "Letter of Engagement", "Service Level Agreement", "Independent Contractor Agreement"],
+    "articles": {
+      "definitions": ["Definitions", "Definitions and Interpretation", "Interpretation", "Defined Terms"],
+      "object": ["Scope of Services", "Services", "Scope of Work", "Purpose of the Agreement", "Engagement", "Subject Matter"],
+      "duration": ["Term", "Duration", "Term and Renewal", "Commencement and Duration", "Term of Agreement", "Period of Agreement"],
+      "price": ["Fees", "Price", "Fees and Charges", "Consideration", "Contract Price", "Charges", "Remuneration"],
+      "payment": ["Payment Terms", "Payment", "Invoicing and Payment", "Terms of Payment", "Billing and Payment"],
+      "obligations": ["Obligations of the Parties", "Responsibilities", "Provider's Obligations", "Client's Obligations", "Duties of the Parties", "Covenants"],
+      "confidentiality": ["Confidentiality", "Confidential Information", "Non-Disclosure", "Confidentiality and Data Protection"],
+      "liability": ["Limitation of Liability", "Liability", "Indemnity", "Liability and Indemnity", "Insurance and Liability", "Indemnification"],
+      "termination": ["Termination", "Termination and Suspension", "Early Termination", "Termination of Agreement", "Term and Termination"],
+      "law": ["Governing Law", "Governing Law and Jurisdiction", "Applicable Law", "Dispute Resolution", "Jurisdiction", "Arbitration"],
+      "signatures": ["Signatures", "Execution", "Signed by the Parties", "In Witness Whereof", "Execution Page", "Signature Page"]
+    }
+  },
+  "terms": {
+    "cgv": ["Terms and Conditions", "Terms & Conditions of Sale", "General Terms and Conditions", "Terms of Business", "Standard Terms and Conditions", "Conditions of Sale", "Terms of Trade", "Terms of Service", "Terms and Conditions of Supply"],
+    "privacy": ["Privacy Policy", "Privacy Notice", "Privacy Statement", "Data Protection Policy", "Your Privacy"],
+    "legal_notice": ["Legal Notice", "Company Information", "Company Details", "Legal Information", "Imprint", "Website Terms of Use", "Disclaimer", "Legal"],
+    "cookies": ["Cookie Policy", "Cookies Policy", "Cookie Notice", "Use of Cookies", "About Cookies"],
+    "articles": {
+      "scope": ["Application of These Terms", "Scope", "About These Terms", "Basis of Contract", "Applicability", "General"],
+      "orders": ["Orders", "Placing an Order", "Ordering", "Order Acceptance", "Quotations and Orders", "Formation of Contract", "How to Order"],
+      "prices": ["Prices", "Pricing", "Prices and Taxes", "Our Prices", "Price Changes"],
+      "payment": ["Payment", "Payment Terms", "Terms of Payment", "Invoicing and Payment", "Payment Methods", "Late Payment"],
+      "delivery": ["Delivery", "Shipping and Delivery", "Delivery and Collection", "Shipping", "Delivery Times", "Delivery and Risk", "Dispatch and Delivery"],
+      "warranty": ["Warranty", "Warranties", "Guarantee", "Quality and Warranty", "Workmanship Guarantee", "Defective Goods"],
+      "liability": ["Limitation of Liability", "Liability", "Our Liability", "Exclusion of Liability", "Indemnity"],
+      "withdrawal": ["Cancellation", "Your Right to Cancel", "Cancellations and Refunds", "Returns and Refunds", "Cooling-off Period", "Refund Policy", "Returns Policy"],
+      "disputes": ["Disputes", "Dispute Resolution", "Governing Law and Jurisdiction", "Complaints and Disputes", "Governing Law", "Complaints"],
+      "data_controller": ["Who We Are", "Data Controller", "Who Is Responsible for Your Data", "Who We Are and How to Contact Us", "Our Contact Details"],
+      "data_collected": ["Information We Collect", "What Data We Collect", "The Information We Collect About You", "Personal Data We Collect", "What Personal Information We Collect", "Information You Give Us"],
+      "purposes": ["How We Use Your Information", "Why We Use Your Data", "Purposes of Processing", "How We Use Your Personal Data", "Use of Information", "Lawful Basis and Purposes"],
+      "retention": ["Data Retention", "How Long We Keep Your Data", "How Long We Keep Your Information", "Retention of Information", "Storage and Retention"],
+      "rights": ["Your Rights", "Your Data Protection Rights", "Your Privacy Rights", "Access and Correction", "Your Choices and Rights", "Your Rights Under Data Protection Law"],
+      "publisher": ["Website Owner", "Site Publisher", "Publisher", "About This Website", "Website Operator", "Company Details"],
+      "hosting": ["Hosting", "Website Hosting", "Hosting Provider", "Web Hosting", "Site Hosting"],
+      "intellectual_property": ["Intellectual Property", "Copyright", "Intellectual Property Rights", "Copyright and Trade Marks", "Copyright Notice", "Trademarks"]
+    }
+  },
+  "other": {
+    "meeting": ["Meeting Notes", "Minutes of Meeting", "Minutes", "Team Meeting Notes", "Weekly Catch-up", "Staff Meeting Minutes", "Action Items", "MoM"],
+    "manual": ["User Manual", "User Guide", "Quick Start Guide", "Instructions for Use", "Operating Instructions", "Installation Guide", "How to Use", "Setup Guide"],
+    "recipe": ["Recipe", "Ingredients", "Method", "Today's Special", "Chef's Recipe", "Recipe Card"],
+    "news": ["News", "Local News", "Business News", "Latest Headlines", "In Brief", "News Roundup", "Industry News"],
+    "memo": ["Memo", "Memorandum", "Internal Memo", "Staff Notice", "Internal Circular", "Office Memo", "Circular", "Notice to All Staff"],
+    "todo": ["To Do", "To-Do List", "Tasks", "Checklist", "Action List", "Jobs for This Week", "Things to Do"],
+    "press": ["Press Release", "Media Release", "For Immediate Release", "News Release", "Press Statement", "Media Statement"],
+    "report": ["Report", "Monthly Report", "Activity Report", "Progress Report", "Quarterly Report", "Status Report", "Annual Review", "Project Report"]
+  }
+}

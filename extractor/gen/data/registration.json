@@ -1,0 +1,2143 @@
+{
+ "_about": "Builds extractor/gen/data/registration.json: the registration documents\nof each country family (labels in the country's language).\n\nRow fields:\n  legal / trading / form / form_long / capital / address / founded /\n  activity (first item labelled, then O items) / activity_code /\n  code_and_activity / manager / phone / email / url / reg:TYPE /\n  doc_date / o_date / registry / o_person / birth / staff / section /\n  o:<literal text>\n",
+ "families": {
+  "FR_kbis": {
+   "locales": [
+    "fr-FR"
+   ],
+   "style": "kv",
+   "title": [
+    "EXTRAIT KBIS",
+    "Extrait Kbis",
+    "Extrait d'immatriculation principale au registre du commerce et des sociétés"
+   ],
+   "authority": [
+    "Greffe du Tribunal de Commerce de {city}",
+    "Greffe du Tribunal des Activités Économiques de {city}"
+   ],
+   "rows": [
+    [
+     "À jour au",
+     "doc_date"
+    ],
+    [
+     "IDENTIFICATION DE LA PERSONNE MORALE",
+     "section"
+    ],
+    [
+     "Immatriculation au RCS, numéro",
+     "reg:FR_SIREN"
+    ],
+    [
+     "Date d'immatriculation",
+     "founded"
+    ],
+    [
+     "Dénomination ou raison sociale",
+     "legal"
+    ],
+    [
+     "Forme juridique",
+     "form_long"
+    ],
+    [
+     "Capital social",
+     "capital"
+    ],
+    [
+     "Adresse du siège",
+     "address"
+    ],
+    [
+     "Activités principales",
+     "activity"
+    ],
+    [
+     "Durée de la personne morale",
+     "o:Jusqu'au {future}"
+    ],
+    [
+     "Date de clôture de l'exercice social",
+     "o:31 décembre"
+    ],
+    [
+     "GESTION, DIRECTION, ADMINISTRATION, CONTRÔLE, ASSOCIÉS OU MEMBRES",
+     "section"
+    ],
+    [
+     "Gérant",
+     "manager"
+    ],
+    [
+     "Date et lieu de naissance",
+     "birth"
+    ],
+    [
+     "Nationalité",
+     "o:Française"
+    ],
+    [
+     "RENSEIGNEMENTS RELATIFS À L'ACTIVITÉ ET À L'ÉTABLISSEMENT PRINCIPAL",
+     "section"
+    ],
+    [
+     "Adresse de l'établissement",
+     "address"
+    ],
+    [
+     "Nom commercial",
+     "trading"
+    ],
+    [
+     "Date de commencement d'activité",
+     "founded"
+    ],
+    [
+     "Origine du fonds ou de l'activité",
+     "o:Création"
+    ],
+    [
+     "Mode d'exploitation",
+     "o:Exploitation directe"
+    ]
+   ],
+   "closing": [
+    "Le Greffier",
+    "Pour extrait certifié conforme, le Greffier"
+   ]
+  },
+  "FR_sirene": {
+   "locales": [
+    "fr-FR"
+   ],
+   "style": "kv",
+   "title": [
+    "Avis de situation au répertoire Sirene",
+    "AVIS DE SITUATION AU RÉPERTOIRE SIRENE"
+   ],
+   "authority": [
+    "Institut national de la statistique et des études économiques",
+    "Insee – Direction régionale de {city}"
+   ],
+   "rows": [
+    [
+     "Situation au",
+     "doc_date"
+    ],
+    [
+     "Identifiant SIREN",
+     "reg:FR_SIREN"
+    ],
+    [
+     "Identifiant SIRET du siège",
+     "reg:FR_SIRET"
+    ],
+    [
+     "Dénomination",
+     "legal"
+    ],
+    [
+     "Catégorie juridique",
+     "form_long"
+    ],
+    [
+     "Activité principale exercée (APE)",
+     "code_and_activity"
+    ],
+    [
+     "Date de création de l'entreprise",
+     "founded"
+    ],
+    [
+     "Adresse",
+     "address"
+    ],
+    [
+     "État administratif",
+     "o:Actif"
+    ]
+   ],
+   "closing": [
+    "Ce document ne constitue pas un extrait d'immatriculation."
+   ]
+  },
+  "BE_bce": {
+   "locales": [
+    "fr-BE"
+   ],
+   "style": "kv",
+   "title": [
+    "Banque-Carrefour des Entreprises – Données de base",
+    "BCE Public Search – Données de base"
+   ],
+   "authority": [
+    "SPF Économie, P.M.E., Classes moyennes et Énergie"
+   ],
+   "rows": [
+    [
+     "Numéro d'entreprise",
+     "reg:BE_BCE"
+    ],
+    [
+     "Statut",
+     "o:Actif"
+    ],
+    [
+     "Situation juridique",
+     "o:Situation normale"
+    ],
+    [
+     "Date de début",
+     "founded"
+    ],
+    [
+     "Dénomination",
+     "legal"
+    ],
+    [
+     "Adresse du siège",
+     "address"
+    ],
+    [
+     "Numéro de téléphone",
+     "phone"
+    ],
+    [
+     "E-mail",
+     "email"
+    ],
+    [
+     "Adresse web",
+     "url"
+    ],
+    [
+     "Type d'entité",
+     "o:Personne morale"
+    ],
+    [
+     "Forme légale",
+     "form_long"
+    ],
+    [
+     "Fonctions",
+     "section"
+    ],
+    [
+     "Gérant",
+     "manager"
+    ],
+    [
+     "Activités TVA Nacebel 2008",
+     "code_and_activity"
+    ],
+    [
+     "Date de la consultation",
+     "doc_date"
+    ]
+   ]
+  },
+  "CH_rc": {
+   "locales": [
+    "fr-CH"
+   ],
+   "style": "kv",
+   "title": [
+    "Extrait du registre du commerce",
+    "Registre du commerce – Extrait"
+   ],
+   "authority": [
+    "Registre du commerce du canton de {region}",
+    "Office du registre du commerce de {region}"
+   ],
+   "rows": [
+    [
+     "Numéro d'identification",
+     "reg:CH_UID"
+    ],
+    [
+     "Raison de commerce",
+     "legal"
+    ],
+    [
+     "Forme juridique",
+     "form"
+    ],
+    [
+     "Siège",
+     "o:{city}"
+    ],
+    [
+     "Adresse",
+     "address"
+    ],
+    [
+     "Inscription",
+     "founded"
+    ],
+    [
+     "But",
+     "activity"
+    ],
+    [
+     "Capital social",
+     "capital"
+    ],
+    [
+     "Personnes inscrites",
+     "section"
+    ],
+    [
+     "Associé gérant, avec signature individuelle",
+     "manager"
+    ],
+    [
+     "Extrait établi le",
+     "doc_date"
+    ]
+   ]
+  },
+  "CA_req": {
+   "locales": [
+    "fr-CA"
+   ],
+   "style": "kv",
+   "title": [
+    "État de renseignements d'une personne morale au registre des entreprises",
+    "Registre des entreprises – État de renseignements"
+   ],
+   "authority": [
+    "Registraire des entreprises du Québec"
+   ],
+   "rows": [
+    [
+     "Date de mise à jour de l'état de renseignements",
+     "doc_date"
+    ],
+    [
+     "Numéro d'entreprise du Québec (NEQ)",
+     "reg:CA_NEQ"
+    ],
+    [
+     "Nom",
+     "legal"
+    ],
+    [
+     "Adresse du domicile",
+     "address"
+    ],
+    [
+     "Date d'immatriculation",
+     "founded"
+    ],
+    [
+     "Forme juridique",
+     "form"
+    ],
+    [
+     "Secteur d'activité principal",
+     "code_and_activity"
+    ],
+    [
+     "Administrateurs",
+     "section"
+    ],
+    [
+     "Président",
+     "manager"
+    ]
+   ]
+  },
+  "MA_rc_fr": {
+   "locales": [
+    "fr-MA"
+   ],
+   "style": "kv",
+   "title": [
+    "Certificat d'immatriculation au Registre du Commerce",
+    "Extrait du Registre du Commerce – Modèle J"
+   ],
+   "authority": [
+    "Tribunal de Commerce de {city} – Registre du Commerce",
+    "Royaume du Maroc – Tribunal de Commerce de {city}"
+   ],
+   "rows": [
+    [
+     "N° RC",
+     "reg:MA_RC"
+    ],
+    [
+     "Dénomination",
+     "legal"
+    ],
+    [
+     "Forme juridique",
+     "form"
+    ],
+    [
+     "Capital",
+     "capital"
+    ],
+    [
+     "Siège social",
+     "address"
+    ],
+    [
+     "Objet",
+     "activity"
+    ],
+    [
+     "Date d'immatriculation",
+     "founded"
+    ],
+    [
+     "Gérant",
+     "manager"
+    ],
+    [
+     "ICE",
+     "reg:MA_ICE"
+    ],
+    [
+     "Délivré le",
+     "doc_date"
+    ]
+   ]
+  },
+  "US_state": {
+   "locales": [
+    "en-US"
+   ],
+   "style": "kv",
+   "title": [
+    "Certificate of Formation",
+    "Articles of Organization – Filed",
+    "Certificate of Good Standing"
+   ],
+   "authority": [
+    "State of {region} – Office of the Secretary of State",
+    "Secretary of State – Division of Corporations"
+   ],
+   "rows": [
+    [
+     "Entity Name",
+     "legal"
+    ],
+    [
+     "Entity Type",
+     "form_long"
+    ],
+    [
+     "File Number",
+     "reg:US_STATE"
+    ],
+    [
+     "Date of Formation",
+     "founded"
+    ],
+    [
+     "Principal Office Address",
+     "address"
+    ],
+    [
+     "Registered Agent",
+     "o_org"
+    ],
+    [
+     "Manager / Organizer",
+     "manager"
+    ],
+    [
+     "Status",
+     "o:Active"
+    ],
+    [
+     "Date Filed",
+     "doc_date"
+    ]
+   ]
+  },
+  "US_ein": {
+   "locales": [
+    "en-US"
+   ],
+   "style": "cert",
+   "title": [
+    "Department of the Treasury – Internal Revenue Service",
+    "IRS Notice CP 575"
+   ],
+   "authority": [
+    "Internal Revenue Service"
+   ],
+   "rows": [
+    [
+     "Date of this notice",
+     "doc_date"
+    ],
+    [
+     "Employer Identification Number",
+     "reg:US_EIN"
+    ],
+    [
+     "Form",
+     "o:SS-4"
+    ]
+   ],
+   "prose": [
+    "{legal}\n{address_multi}",
+    "WE ASSIGNED YOU AN EMPLOYER IDENTIFICATION NUMBER. Thank you for applying for an Employer Identification Number (EIN). We assigned you EIN {reg:US_EIN}. This EIN will identify you, your business accounts, tax returns, and documents, even if you have no employees.",
+    "Please keep this notice in your permanent records. Taxpayer name control: {o_control}."
+   ]
+  },
+  "GB_coi": {
+   "locales": [
+    "en-GB"
+   ],
+   "style": "cert",
+   "title": [
+    "CERTIFICATE OF INCORPORATION OF A PRIVATE LIMITED COMPANY"
+   ],
+   "authority": [
+    "Companies House"
+   ],
+   "rows": [
+    [
+     "Company Number",
+     "reg:GB_CRN"
+    ]
+   ],
+   "prose": [
+    "The Registrar of Companies for England and Wales, hereby certifies that {legal} is this day incorporated under the Companies Act 2006 as a private company, that the company is limited by shares, and the situation of its registered office is in England/Wales.",
+    "Given at Companies House, Cardiff, on {founded}."
+   ]
+  },
+  "GB_overview": {
+   "locales": [
+    "en-GB"
+   ],
+   "style": "kv",
+   "title": [
+    "Company overview",
+    "Companies House – company information"
+   ],
+   "authority": [
+    "Companies House"
+   ],
+   "rows": [
+    [
+     "Company name",
+     "legal"
+    ],
+    [
+     "Company number",
+     "reg:GB_CRN"
+    ],
+    [
+     "Registered office address",
+     "address"
+    ],
+    [
+     "Company status",
+     "o:Active"
+    ],
+    [
+     "Company type",
+     "form_long"
+    ],
+    [
+     "Incorporated on",
+     "founded"
+    ],
+    [
+     "Nature of business (SIC)",
+     "code_and_activity"
+    ],
+    [
+     "Officers",
+     "section"
+    ],
+    [
+     "Director",
+     "manager"
+    ],
+    [
+     "Date of birth",
+     "birth"
+    ],
+    [
+     "Generated on",
+     "doc_date"
+    ]
+   ]
+  },
+  "IN_coi": {
+   "locales": [
+    "en-IN"
+   ],
+   "style": "cert",
+   "title": [
+    "CERTIFICATE OF INCORPORATION"
+   ],
+   "authority": [
+    "GOVERNMENT OF INDIA – MINISTRY OF CORPORATE AFFAIRS – Central Registration Centre"
+   ],
+   "rows": [
+    [
+     "Corporate Identity Number",
+     "reg:IN_CIN"
+    ]
+   ],
+   "prose": [
+    "I hereby certify that {legal} is incorporated on this {founded} under the Companies Act, 2013 (18 of 2013) and that the company is limited by shares.",
+    "The Corporate Identity Number of the company is {reg:IN_CIN}.",
+    "The Permanent Account Number (PAN) of the company is {reg:IN_PAN}.",
+    "Mailing Address as per record available in Registrar of Companies office: {address}",
+    "Given under my hand at Manesar (Haryana) on {doc_date}."
+   ]
+  },
+  "IN_gst": {
+   "locales": [
+    "en-IN"
+   ],
+   "style": "kv",
+   "title": [
+    "Form GST REG-06 – Registration Certificate",
+    "Government of India – Form GST REG-06"
+   ],
+   "authority": [
+    "Goods and Services Tax Network"
+   ],
+   "rows": [
+    [
+     "Registration Number",
+     "reg:IN_GSTIN"
+    ],
+    [
+     "1. Legal Name",
+     "legal"
+    ],
+    [
+     "2. Trade Name, if any",
+     "trading"
+    ],
+    [
+     "3. Constitution of Business",
+     "form_long"
+    ],
+    [
+     "4. Address of Principal Place of Business",
+     "address"
+    ],
+    [
+     "5. Date of Liability",
+     "o_date"
+    ],
+    [
+     "6. Period of Validity From",
+     "o_date"
+    ],
+    [
+     "7. Type of Registration",
+     "o:Regular"
+    ],
+    [
+     "8. Particulars of Approving Authority",
+     "o_person"
+    ],
+    [
+     "9. Date of issue of Certificate",
+     "doc_date"
+    ],
+    [
+     "Annexure B – Details of Managing / Authorized Partners",
+     "section"
+    ],
+    [
+     "Director",
+     "manager"
+    ]
+   ]
+  },
+  "AU_abn": {
+   "locales": [
+    "en-AU"
+   ],
+   "style": "kv",
+   "title": [
+    "Current details for ABN",
+    "ABN Lookup – Historical details"
+   ],
+   "authority": [
+    "Australian Business Register"
+   ],
+   "rows": [
+    [
+     "ABN details",
+     "section"
+    ],
+    [
+     "Australian Business Number",
+     "reg:AU_ABN"
+    ],
+    [
+     "Entity name",
+     "legal"
+    ],
+    [
+     "ABN status",
+     "founded"
+    ],
+    [
+     "Entity type",
+     "form_long"
+    ],
+    [
+     "Goods & Services Tax (GST)",
+     "o_date"
+    ],
+    [
+     "Business name(s)",
+     "trading"
+    ],
+    [
+     "ASIC registration - ACN",
+     "reg:AU_ACN"
+    ],
+    [
+     "Record extracted",
+     "doc_date"
+    ]
+   ]
+  },
+  "AU_asic": {
+   "locales": [
+    "en-AU"
+   ],
+   "style": "kv",
+   "title": [
+    "Current & Historical Company Extract",
+    "ASIC Current Extract"
+   ],
+   "authority": [
+    "Australian Securities & Investments Commission"
+   ],
+   "rows": [
+    [
+     "Extracted from ASIC's database at",
+     "doc_date"
+    ],
+    [
+     "Organisation Details",
+     "section"
+    ],
+    [
+     "Current Organisation Name",
+     "legal"
+    ],
+    [
+     "ACN",
+     "reg:AU_ACN"
+    ],
+    [
+     "ABN",
+     "reg:AU_ABN"
+    ],
+    [
+     "Registration Date",
+     "founded"
+    ],
+    [
+     "Type",
+     "form_long"
+    ],
+    [
+     "Address Details",
+     "section"
+    ],
+    [
+     "Registered Office",
+     "address"
+    ],
+    [
+     "Contact Address",
+     "address"
+    ],
+    [
+     "Officeholders",
+     "section"
+    ],
+    [
+     "Director",
+     "manager"
+    ],
+    [
+     "Born",
+     "birth"
+    ]
+   ]
+  },
+  "CA_corp": {
+   "locales": [
+    "en-CA"
+   ],
+   "style": "kv",
+   "title": [
+    "Federal Corporation Information",
+    "Certificate of Incorporation – Canada Business Corporations Act"
+   ],
+   "authority": [
+    "Corporations Canada – Innovation, Science and Economic Development Canada"
+   ],
+   "rows": [
+    [
+     "Corporate Name",
+     "legal"
+    ],
+    [
+     "Business Number (BN)",
+     "reg:CA_BN"
+    ],
+    [
+     "Governing Legislation",
+     "o:Canada Business Corporations Act - 2019-06-12"
+    ],
+    [
+     "Status",
+     "o:Active"
+    ],
+    [
+     "Registered Office Address",
+     "address"
+    ],
+    [
+     "Directors",
+     "manager"
+    ],
+    [
+     "Date of incorporation",
+     "founded"
+    ],
+    [
+     "Date printed",
+     "doc_date"
+    ]
+   ]
+  },
+  "RU_egrul": {
+   "locales": [
+    "ru-RU"
+   ],
+   "style": "table",
+   "title": [
+    "ВЫПИСКА из Единого государственного реестра юридических лиц",
+    "Выписка из ЕГРЮЛ"
+   ],
+   "authority": [
+    "Федеральная налоговая служба",
+    "Межрайонная ИФНС России № {n} по г. {city}"
+   ],
+   "rows": [
+    [
+     "дата формирования выписки",
+     "doc_date"
+    ],
+    [
+     "ОГРН",
+     "reg:RU_OGRN"
+    ],
+    [
+     "Полное наименование на русском языке",
+     "legal_long"
+    ],
+    [
+     "Сокращенное наименование на русском языке",
+     "legal"
+    ],
+    [
+     "Адрес юридического лица",
+     "address"
+    ],
+    [
+     "Способ образования",
+     "o:Создание юридического лица"
+    ],
+    [
+     "Дата регистрации",
+     "founded"
+    ],
+    [
+     "Наименование регистрирующего органа",
+     "registry"
+    ],
+    [
+     "ИНН юридического лица",
+     "reg:RU_INN10"
+    ],
+    [
+     "КПП юридического лица",
+     "reg:RU_KPP"
+    ],
+    [
+     "Размер (в рублях) уставного капитала",
+     "capital_bare"
+    ],
+    [
+     "Генеральный директор",
+     "manager"
+    ],
+    [
+     "Код и наименование вида деятельности",
+     "code_and_activity"
+    ]
+   ]
+  },
+  "RU_tax_cert": {
+   "locales": [
+    "ru-RU"
+   ],
+   "style": "cert",
+   "title": [
+    "СВИДЕТЕЛЬСТВО о постановке на учёт российской организации в налоговом органе по месту её нахождения"
+   ],
+   "authority": [
+    "Федеральная налоговая служба"
+   ],
+   "rows": [
+    [
+     "ИНН",
+     "reg:RU_INN10"
+    ],
+    [
+     "КПП",
+     "reg:RU_KPP"
+    ]
+   ],
+   "prose": [
+    "Настоящее свидетельство подтверждает, что российская организация {legal_long} ОГРН {reg:RU_OGRN} поставлена на учёт в соответствии с Налоговым кодексом Российской Федерации {founded} в налоговом органе по месту нахождения {registry}.",
+    "Адрес (место нахождения): {address}"
+   ]
+  },
+  "KZ_spravka": {
+   "locales": [
+    "ru-KZ"
+   ],
+   "style": "kv",
+   "title": [
+    "СПРАВКА о государственной регистрации юридического лица"
+   ],
+   "authority": [
+    "Некоммерческое акционерное общество «Государственная корпорация «Правительство для граждан»"
+   ],
+   "rows": [
+    [
+     "БИН",
+     "reg:KZ_BIN"
+    ],
+    [
+     "Наименование",
+     "legal"
+    ],
+    [
+     "Дата первичной государственной регистрации",
+     "founded"
+    ],
+    [
+     "Местонахождение",
+     "address"
+    ],
+    [
+     "Руководитель",
+     "manager"
+    ],
+    [
+     "Виды деятельности",
+     "activity"
+    ],
+    [
+     "Дата выдачи",
+     "doc_date"
+    ]
+   ]
+  },
+  "ES_nota": {
+   "locales": [
+    "es-ES"
+   ],
+   "style": "kv",
+   "title": [
+    "NOTA SIMPLE INFORMATIVA",
+    "Información Mercantil – Nota simple"
+   ],
+   "authority": [
+    "Registro Mercantil de {city}"
+   ],
+   "rows": [
+    [
+     "Denominación",
+     "legal"
+    ],
+    [
+     "Inicio de operaciones",
+     "founded"
+    ],
+    [
+     "Domicilio social",
+     "address"
+    ],
+    [
+     "Duración",
+     "o:Indefinida"
+    ],
+    [
+     "NIF",
+     "reg:ES_NIF"
+    ],
+    [
+     "Datos registrales",
+     "o:Hoja M-{n}, Tomo {n}, Folio {n}"
+    ],
+    [
+     "Objeto social",
+     "activity"
+    ],
+    [
+     "CNAE",
+     "activity_code"
+    ],
+    [
+     "Capital suscrito",
+     "capital"
+    ],
+    [
+     "Estructura del órgano",
+     "o:Administrador único"
+    ],
+    [
+     "Administrador único",
+     "manager"
+    ],
+    [
+     "Fecha",
+     "doc_date"
+    ]
+   ]
+  },
+  "MX_csf": {
+   "locales": [
+    "es-MX"
+   ],
+   "style": "kv",
+   "title": [
+    "CONSTANCIA DE SITUACIÓN FISCAL",
+    "CÉDULA DE IDENTIFICACIÓN FISCAL"
+   ],
+   "authority": [
+    "Servicio de Administración Tributaria (SAT)"
+   ],
+   "rows": [
+    [
+     "RFC",
+     "reg:MX_RFC"
+    ],
+    [
+     "Denominación/Razón Social",
+     "legal"
+    ],
+    [
+     "Régimen Capital",
+     "form_long"
+    ],
+    [
+     "Nombre Comercial",
+     "trading"
+    ],
+    [
+     "Fecha inicio de operaciones",
+     "founded"
+    ],
+    [
+     "Estatus en el padrón",
+     "o:ACTIVO"
+    ],
+    [
+     "Domicilio fiscal",
+     "address"
+    ],
+    [
+     "Actividad Económica",
+     "activity"
+    ],
+    [
+     "Régimen",
+     "o:Régimen General de Ley Personas Morales"
+    ],
+    [
+     "Lugar y Fecha de Emisión",
+     "doc_date"
+    ]
+   ]
+  },
+  "AR_afip": {
+   "locales": [
+    "es-AR"
+   ],
+   "style": "kv",
+   "title": [
+    "Constancia de Inscripción",
+    "ARCA – Constancia de inscripción"
+   ],
+   "authority": [
+    "Agencia de Recaudación y Control Aduanero (ARCA)",
+    "Administración Federal de Ingresos Públicos"
+   ],
+   "rows": [
+    [
+     "CUIT",
+     "reg:AR_CUIT"
+    ],
+    [
+     "Razón social",
+     "legal"
+    ],
+    [
+     "Forma jurídica",
+     "form_long"
+    ],
+    [
+     "Fecha de contrato social",
+     "founded"
+    ],
+    [
+     "Domicilio fiscal",
+     "address"
+    ],
+    [
+     "Actividad principal",
+     "code_and_activity"
+    ],
+    [
+     "Impuestos",
+     "o:IVA - Ganancias Sociedades"
+    ],
+    [
+     "Fecha de emisión",
+     "doc_date"
+    ]
+   ]
+  },
+  "CO_camara": {
+   "locales": [
+    "es-CO"
+   ],
+   "style": "kv",
+   "title": [
+    "CERTIFICADO DE EXISTENCIA Y REPRESENTACIÓN LEGAL"
+   ],
+   "authority": [
+    "CÁMARA DE COMERCIO DE {city}"
+   ],
+   "rows": [
+    [
+     "Fecha expedición",
+     "doc_date"
+    ],
+    [
+     "Razón social",
+     "legal"
+    ],
+    [
+     "Nit",
+     "reg:CO_NIT"
+    ],
+    [
+     "Matrícula No.",
+     "o:{n}"
+    ],
+    [
+     "Fecha de matrícula",
+     "founded"
+    ],
+    [
+     "Dirección del domicilio principal",
+     "address"
+    ],
+    [
+     "Teléfono comercial",
+     "phone"
+    ],
+    [
+     "Correo electrónico",
+     "email"
+    ],
+    [
+     "Actividad principal Código CIIU",
+     "activity_code"
+    ],
+    [
+     "Objeto social",
+     "activity"
+    ],
+    [
+     "Capital suscrito",
+     "capital"
+    ],
+    [
+     "Representante legal – Gerente",
+     "manager"
+    ]
+   ]
+  },
+  "IT_visura": {
+   "locales": [
+    "it-IT"
+   ],
+   "style": "kv",
+   "title": [
+    "VISURA ORDINARIA SOCIETA' DI CAPITALE",
+    "Visura camerale ordinaria"
+   ],
+   "authority": [
+    "Registro Imprese – Archivio ufficiale della CCIAA di {city}",
+    "Camera di Commercio di {city}"
+   ],
+   "rows": [
+    [
+     "Denominazione",
+     "legal"
+    ],
+    [
+     "Forma giuridica",
+     "form_long"
+    ],
+    [
+     "Sede legale",
+     "address"
+    ],
+    [
+     "Indirizzo PEC",
+     "email"
+    ],
+    [
+     "Partita IVA",
+     "reg:IT_PIVA"
+    ],
+    [
+     "Numero REA",
+     "reg:IT_REA"
+    ],
+    [
+     "Data atto di costituzione",
+     "founded"
+    ],
+    [
+     "Capitale sociale",
+     "capital"
+    ],
+    [
+     "Attività prevalente esercitata",
+     "activity"
+    ],
+    [
+     "Codice ATECO",
+     "activity_code"
+    ],
+    [
+     "Addetti",
+     "staff"
+    ],
+    [
+     "Amministratore unico",
+     "manager"
+    ],
+    [
+     "Data estrazione",
+     "doc_date"
+    ]
+   ]
+  },
+  "CN_license": {
+   "locales": [
+    "zh-CN"
+   ],
+   "style": "kv",
+   "title": [
+    "营业执照",
+    "营 业 执 照（副本）"
+   ],
+   "authority": [
+    "{city}市场监督管理局"
+   ],
+   "rows": [
+    [
+     "统一社会信用代码",
+     "reg:CN_USCC"
+    ],
+    [
+     "名称",
+     "legal"
+    ],
+    [
+     "类型",
+     "form_long"
+    ],
+    [
+     "法定代表人",
+     "manager"
+    ],
+    [
+     "经营范围",
+     "activity"
+    ],
+    [
+     "注册资本",
+     "capital"
+    ],
+    [
+     "成立日期",
+     "founded"
+    ],
+    [
+     "营业期限",
+     "o:长期"
+    ],
+    [
+     "住所",
+     "address"
+    ],
+    [
+     "登记机关",
+     "registry"
+    ],
+    [
+     "发证日期",
+     "doc_date"
+    ]
+   ]
+  },
+  "TW_reg": {
+   "locales": [
+    "zh-TW"
+   ],
+   "style": "table",
+   "title": [
+    "公司基本資料",
+    "有限公司設立登記表",
+    "公司登記資料查詢"
+   ],
+   "authority": [
+    "經濟部商業發展署",
+    "{city}政府"
+   ],
+   "rows": [
+    [
+     "統一編號",
+     "reg:TW_UBN"
+    ],
+    [
+     "公司名稱",
+     "legal"
+    ],
+    [
+     "代表人姓名",
+     "manager"
+    ],
+    [
+     "公司所在地",
+     "address"
+    ],
+    [
+     "資本總額(元)",
+     "capital_bare"
+    ],
+    [
+     "核准設立日期",
+     "founded"
+    ],
+    [
+     "所營事業資料",
+     "code_and_activity"
+    ],
+    [
+     "登記機關",
+     "registry"
+    ],
+    [
+     "列印日期",
+     "doc_date"
+    ]
+   ]
+  },
+  "HK_br": {
+   "locales": [
+    "zh-HK"
+   ],
+   "style": "kv",
+   "title": [
+    "商業登記證 BUSINESS REGISTRATION CERTIFICATE"
+   ],
+   "authority": [
+    "稅務局 商業登記署 Inland Revenue Department"
+   ],
+   "rows": [
+    [
+     "商業登記號碼 Business Registration No.",
+     "reg:HK_BR"
+    ],
+    [
+     "業務名稱 Name of Business",
+     "legal"
+    ],
+    [
+     "業務地址 Address",
+     "address"
+    ],
+    [
+     "業務性質 Nature of Business",
+     "activity"
+    ],
+    [
+     "法律地位 Status",
+     "o:CORP 法人團體"
+    ],
+    [
+     "生效日期 Date of Commencement",
+     "founded"
+    ],
+    [
+     "屆滿日期 Date of Expiry",
+     "o_date"
+    ]
+   ]
+  },
+  "JP_touki": {
+   "locales": [
+    "ja-JP"
+   ],
+   "style": "kv",
+   "title": [
+    "履歴事項全部証明書",
+    "現在事項全部証明書"
+   ],
+   "authority": [
+    "東京法務局",
+    "大阪法務局",
+    "名古屋法務局",
+    "横浜地方法務局",
+    "福岡法務局",
+    "札幌法務局"
+   ],
+   "rows": [
+    [
+     "会社法人等番号",
+     "reg:JP_CORP"
+    ],
+    [
+     "商号",
+     "legal"
+    ],
+    [
+     "本店",
+     "address"
+    ],
+    [
+     "公告をする方法",
+     "o:官報に掲載してする"
+    ],
+    [
+     "会社成立の年月日",
+     "founded"
+    ],
+    [
+     "目的",
+     "activity"
+    ],
+    [
+     "資本金の額",
+     "capital"
+    ],
+    [
+     "役員に関する事項",
+     "section"
+    ],
+    [
+     "代表取締役",
+     "manager"
+    ],
+    [
+     "登記記録に関する事項",
+     "o:設立"
+    ],
+    [
+     "証明日",
+     "doc_date"
+    ]
+   ]
+  },
+  "KR_brc": {
+   "locales": [
+    "ko-KR"
+   ],
+   "style": "kv",
+   "title": [
+    "사업자등록증 (법인사업자)",
+    "사 업 자 등 록 증"
+   ],
+   "authority": [
+    "국세청",
+    "역삼세무서장",
+    "서초세무서장",
+    "종로세무서장",
+    "분당세무서장",
+    "부산진세무서장"
+   ],
+   "rows": [
+    [
+     "등록번호",
+     "reg:KR_BRN"
+    ],
+    [
+     "법인명(단체명)",
+     "legal"
+    ],
+    [
+     "대표자",
+     "manager"
+    ],
+    [
+     "개업연월일",
+     "founded"
+    ],
+    [
+     "법인등록번호",
+     "reg:KR_CRN"
+    ],
+    [
+     "사업장 소재지",
+     "address"
+    ],
+    [
+     "본점 소재지",
+     "address"
+    ],
+    [
+     "사업의 종류",
+     "o:업태 서비스업"
+    ],
+    [
+     "종목",
+     "activity"
+    ],
+    [
+     "발급일",
+     "doc_date"
+    ]
+   ]
+  },
+  "KR_touki": {
+   "locales": [
+    "ko-KR"
+   ],
+   "style": "kv",
+   "title": [
+    "등기사항전부증명서(현재 유효사항)",
+    "법인 등기사항증명서"
+   ],
+   "authority": [
+    "서울중앙지방법원 등기국",
+    "수원지방법원 등기국",
+    "부산지방법원 등기국",
+    "인천지방법원 등기국"
+   ],
+   "rows": [
+    [
+     "등록번호",
+     "reg:KR_CRN"
+    ],
+    [
+     "상호",
+     "legal"
+    ],
+    [
+     "본점",
+     "address"
+    ],
+    [
+     "공고방법",
+     "o:서울특별시에서 발행하는 일간 한국경제신문에 게재한다"
+    ],
+    [
+     "자본금의 액",
+     "capital"
+    ],
+    [
+     "목적",
+     "activity"
+    ],
+    [
+     "임원에 관한 사항",
+     "section"
+    ],
+    [
+     "대표이사",
+     "manager"
+    ],
+    [
+     "회사성립연월일",
+     "founded"
+    ],
+    [
+     "발행일",
+     "doc_date"
+    ]
+   ]
+  },
+  "SA_cr": {
+   "locales": [
+    "ar-SA"
+   ],
+   "style": "kv",
+   "title": [
+    "شهادة السجل التجاري",
+    "سجل تجاري – شهادة قيد"
+   ],
+   "authority": [
+    "وزارة التجارة – المملكة العربية السعودية"
+   ],
+   "rows": [
+    [
+     "رقم السجل التجاري",
+     "reg:SA_CR"
+    ],
+    [
+     "اسم المنشأة",
+     "legal"
+    ],
+    [
+     "نوع الكيان",
+     "form_long"
+    ],
+    [
+     "رأس المال",
+     "capital"
+    ],
+    [
+     "تاريخ القيد",
+     "founded"
+    ],
+    [
+     "العنوان الوطني",
+     "address"
+    ],
+    [
+     "النشاط",
+     "code_and_activity"
+    ],
+    [
+     "المدير",
+     "manager"
+    ],
+    [
+     "رقم الهاتف",
+     "phone"
+    ],
+    [
+     "البريد الإلكتروني",
+     "email"
+    ],
+    [
+     "تاريخ الطباعة",
+     "doc_date"
+    ]
+   ]
+  },
+  "AE_license": {
+   "locales": [
+    "ar-AE"
+   ],
+   "style": "kv",
+   "title": [
+    "رخصة تجارية Commercial License",
+    "رخصة تجارية"
+   ],
+   "authority": [
+    "دائرة الاقتصاد والسياحة",
+    "دائرة التنمية الاقتصادية"
+   ],
+   "rows": [
+    [
+     "رقم الرخصة License No.",
+     "reg:AE_LICENSE"
+    ],
+    [
+     "الاسم التجاري Trade Name",
+     "legal"
+    ],
+    [
+     "الشكل القانوني Legal Type",
+     "form"
+    ],
+    [
+     "تاريخ الإصدار Issue Date",
+     "founded"
+    ],
+    [
+     "تاريخ الانتهاء Expiry Date",
+     "o_date"
+    ],
+    [
+     "الأنشطة Activities",
+     "code_and_activity"
+    ],
+    [
+     "المدير Manager",
+     "manager"
+    ],
+    [
+     "العنوان Address",
+     "address"
+    ],
+    [
+     "تاريخ الطباعة",
+     "doc_date"
+    ]
+   ]
+  },
+  "EG_cr": {
+   "locales": [
+    "ar-EG"
+   ],
+   "style": "kv",
+   "title": [
+    "مستخرج رسمي من السجل التجاري",
+    "شهادة قيد بالسجل التجاري"
+   ],
+   "authority": [
+    "مكتب سجل تجاري {city}",
+    "مصلحة التسجيل التجاري"
+   ],
+   "rows": [
+    [
+     "رقم القيد",
+     "reg:EG_CR"
+    ],
+    [
+     "الاسم التجاري",
+     "legal"
+    ],
+    [
+     "الشكل القانوني",
+     "form"
+    ],
+    [
+     "رأس المال",
+     "capital"
+    ],
+    [
+     "تاريخ القيد",
+     "founded"
+    ],
+    [
+     "العنوان",
+     "address"
+    ],
+    [
+     "النشاط",
+     "activity"
+    ],
+    [
+     "المدير المسئول",
+     "manager"
+    ],
+    [
+     "رقم البطاقة الضريبية",
+     "reg:EG_TAX"
+    ],
+    [
+     "تاريخ الاستخراج",
+     "doc_date"
+    ]
+   ]
+  },
+  "HI_gst": {
+   "locales": [
+    "hi-IN"
+   ],
+   "style": "kv",
+   "title": [
+    "प्रपत्र जीएसटी आरईजी-06 – पंजीकरण प्रमाणपत्र",
+    "पंजीकरण प्रमाणपत्र (Form GST REG-06)"
+   ],
+   "authority": [
+    "भारत सरकार – वस्तु एवं सेवा कर"
+   ],
+   "rows": [
+    [
+     "पंजीकरण संख्या",
+     "reg:IN_GSTIN"
+    ],
+    [
+     "1. वैध नाम",
+     "legal"
+    ],
+    [
+     "2. व्यापार नाम, यदि कोई हो",
+     "trading"
+    ],
+    [
+     "3. व्यवसाय का गठन",
+     "form_long"
+    ],
+    [
+     "4. व्यवसाय के मुख्य स्थान का पता",
+     "address"
+    ],
+    [
+     "5. दायित्व की तिथि",
+     "o_date"
+    ],
+    [
+     "6. पंजीकरण का प्रकार",
+     "o:नियमित"
+    ],
+    [
+     "7. प्रमाणपत्र जारी करने की तिथि",
+     "doc_date"
+    ],
+    [
+     "प्रबंध / अधिकृत भागीदारों का विवरण",
+     "section"
+    ],
+    [
+     "निदेशक",
+     "manager"
+    ]
+   ]
+  },
+  "MA_rc_ar": {
+   "locales": [
+    "ar-MA"
+   ],
+   "style": "kv",
+   "heldout": true,
+   "title": [
+    "شهادة التسجيل في السجل التجاري"
+   ],
+   "authority": [
+    "المحكمة التجارية – السجل التجاري"
+   ],
+   "rows": [
+    [
+     "رقم السجل التجاري",
+     "reg:MA_RC"
+    ],
+    [
+     "التسمية",
+     "legal"
+    ],
+    [
+     "الشكل القانوني",
+     "form"
+    ],
+    [
+     "رأس المال",
+     "capital"
+    ],
+    [
+     "المقر الاجتماعي",
+     "address"
+    ],
+    [
+     "النشاط",
+     "activity"
+    ],
+    [
+     "تاريخ التسجيل",
+     "founded"
+    ],
+    [
+     "المسير",
+     "manager"
+    ],
+    [
+     "ICE",
+     "reg:MA_ICE"
+    ],
+    [
+     "حرر في",
+     "doc_date"
+    ]
+   ]
+  },
+  "SG_acra": {
+   "locales": [
+    "zh-SG"
+   ],
+   "style": "kv",
+   "heldout": true,
+   "title": [
+    "商业资料 Business Profile (ACRA)"
+   ],
+   "authority": [
+    "会计与企业管制局 ACRA"
+   ],
+   "rows": [
+    [
+     "UEN",
+     "reg:SG_UEN"
+    ],
+    [
+     "公司名称",
+     "legal"
+    ],
+    [
+     "公司类型",
+     "form"
+    ],
+    [
+     "注册日期",
+     "founded"
+    ],
+    [
+     "主要业务 (SSIC)",
+     "code_and_activity"
+    ],
+    [
+     "注册地址",
+     "address"
+    ],
+    [
+     "董事",
+     "manager"
+    ],
+    [
+     "缴足资本",
+     "capital"
+    ],
+    [
+     "打印日期",
+     "doc_date"
+    ]
+   ]
+  },
+  "NG_cac": {
+   "locales": [
+    "en-NG"
+   ],
+   "style": "cert",
+   "heldout": true,
+   "title": [
+    "CERTIFICATE OF INCORPORATION"
+   ],
+   "authority": [
+    "CORPORATE AFFAIRS COMMISSION – FEDERAL REPUBLIC OF NIGERIA"
+   ],
+   "rows": [
+    [
+     "RC",
+     "reg:NG_RC"
+    ]
+   ],
+   "prose": [
+    "I hereby certify that {legal} is this day incorporated under the Companies and Allied Matters Act 2020 and that the Company is Limited.",
+    "Given under my hand at Abuja this {founded}.",
+    "Registered office: {address}"
+   ]
+  },
+  "SN_rccm": {
+   "locales": [
+    "fr-SN"
+   ],
+   "style": "kv",
+   "heldout": true,
+   "title": [
+    "Extrait du Registre du Commerce et du Crédit Mobilier"
+   ],
+   "authority": [
+    "Tribunal de Commerce Hors Classe de Dakar – RCCM"
+   ],
+   "rows": [
+    [
+     "Numéro RCCM",
+     "reg:SN_RCCM"
+    ],
+    [
+     "NINEA",
+     "reg:SN_NINEA"
+    ],
+    [
+     "Dénomination sociale",
+     "legal"
+    ],
+    [
+     "Forme juridique",
+     "form"
+    ],
+    [
+     "Capital social",
+     "capital"
+    ],
+    [
+     "Siège social",
+     "address"
+    ],
+    [
+     "Activité principale",
+     "activity"
+    ],
+    [
+     "Date d'immatriculation",
+     "founded"
+    ],
+    [
+     "Gérant",
+     "manager"
+    ],
+    [
+     "Délivré le",
+     "doc_date"
+    ]
+   ]
+  },
+  "BY_cert": {
+   "locales": [
+    "ru-BY"
+   ],
+   "style": "kv",
+   "heldout": true,
+   "title": [
+    "СВИДЕТЕЛЬСТВО о государственной регистрации коммерческой организации"
+   ],
+   "authority": [
+    "Минский городской исполнительный комитет"
+   ],
+   "rows": [
+    [
+     "УНП",
+     "reg:BY_UNP"
+    ],
+    [
+     "Наименование",
+     "legal"
+    ],
+    [
+     "Место нахождения",
+     "address"
+    ],
+    [
+     "Дата регистрации",
+     "founded"
+    ],
+    [
+     "Руководитель",
+     "manager"
+    ],
+    [
+     "Дата выдачи",
+     "doc_date"
+    ]
+   ]
+  },
+  "CL_sii": {
+   "locales": [
+    "es-CL"
+   ],
+   "style": "kv",
+   "heldout": true,
+   "title": [
+    "CERTIFICADO DE INICIO DE ACTIVIDADES",
+    "Cédula RUT electrónica"
+   ],
+   "authority": [
+    "SERVICIO DE IMPUESTOS INTERNOS"
+   ],
+   "rows": [
+    [
+     "RUT",
+     "reg:CL_RUT"
+    ],
+    [
+     "Razón social",
+     "legal"
+    ],
+    [
+     "Tipo de contribuyente",
+     "form"
+    ],
+    [
+     "Fecha de inicio de actividades",
+     "founded"
+    ],
+    [
+     "Domicilio",
+     "address"
+    ],
+    [
+     "Actividades económicas",
+     "code_and_activity"
+    ],
+    [
+     "Representante legal",
+     "manager"
+    ],
+    [
+     "Fecha de emisión",
+     "doc_date"
+    ]
+   ]
+  },
+  "CH_it_rc": {
+   "locales": [
+    "it-CH"
+   ],
+   "style": "kv",
+   "heldout": true,
+   "title": [
+    "Estratto del registro di commercio"
+   ],
+   "authority": [
+    "Registro di commercio del Cantone Ticino"
+   ],
+   "rows": [
+    [
+     "Numero d'identificazione",
+     "reg:CH_UID"
+    ],
+    [
+     "Ditta",
+     "legal"
+    ],
+    [
+     "Forma giuridica",
+     "form"
+    ],
+    [
+     "Sede",
+     "o:{city}"
+    ],
+    [
+     "Recapito",
+     "address"
+    ],
+    [
+     "Iscrizione",
+     "founded"
+    ],
+    [
+     "Scopo",
+     "activity"
+    ],
+    [
+     "Capitale sociale",
+     "capital"
+    ],
+    [
+     "Socio gerente, con firma individuale",
+     "manager"
+    ],
+    [
+     "Estratto del",
+     "doc_date"
+    ]
+   ]
+  }
+ }
+}

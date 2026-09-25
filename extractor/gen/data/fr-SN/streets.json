@@ -1,0 +1,16 @@
+{
+  "streets": [
+    "Avenue Cheikh Anta Diop", "Rue Carnot", "Avenue Léopold Sédar Senghor", "Boulevard de la République",
+    "Avenue Georges Pompidou", "Avenue Blaise Diagne", "Rue Félix Faure", "Rue Mohamed V",
+    "Avenue Lamine Guèye", "Rue Vincens", "Avenue Hassan II", "Boulevard du Général de Gaulle",
+    "Rue Jules Ferry", "Avenue El Hadji Malick Sy", "Avenue Bourguiba", "Boulevard Dial Diop",
+    "Route de Ouakam", "Route de Rufisque", "Route des Almadies", "Corniche Ouest",
+    "Boulevard du Centenaire de la Commune de Dakar", "Avenue Faidherbe", "Rue Amadou Assane Ndoye", "Rue Joseph Gomis",
+    "Rue Wagane Diouf", "Rue Parchappe", "Rue Raffenel", "Avenue Nelson Mandela",
+    "Rue Aristide Le Dantec", "Avenue André Peytavin", "Route du Front de Terre", "Voie de Dégagement Nord",
+    "Route de l'Aéroport", "Avenue Cheikh Ahmadou Bamba", "Rue Moussé Diop", "Rue Kléber",
+    "Rue Victor Hugo", "Avenue Albert Sarraut", "Rue Dr Thèze", "Avenue Jean Jaurès",
+    "Boulevard de l'Est", "Rue de Thiong", "Rue Galandou Diouf", "Rue Tolbiac",
+    "Rue Ramez Bourgi", "Allées Papa Guèye Fall", "Avenue Birago Diop", "Rue Saint-Michel"
+  ]
+}

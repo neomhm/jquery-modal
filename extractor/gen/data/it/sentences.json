@@ -1,0 +1,1060 @@
+{
+  "lang": "it",
+  "activity": [
+    {"id": "activity.it.01", "text": "Attività: {ACTIVITY}"},
+    {"id": "activity.it.02", "text": "Settore di attività: {ACTIVITY}"},
+    {"id": "activity.it.03", "text": "Oggetto sociale: {ACTIVITY}, nonché ogni altra attività connessa, affine o strumentale al raggiungimento dello scopo sociale."},
+    {"id": "activity.it.04", "text": "Attività prevalente: {ACTIVITY}"},
+    {"id": "activity.it.05", "text": "Attività esercitata nella sede legale: {ACTIVITY}"},
+    {"id": "activity.it.06", "text": "Descrizione dell'attività: {ACTIVITY}"},
+    {"id": "activity.it.07", "text": "Ci occupiamo di {ACTIVITY} con serietà e competenza, per privati e aziende."},
+    {"id": "activity.it.08", "text": "L'azienda è specializzata in {ACTIVITY}."},
+    {"id": "activity.it.09", "text": "{S_NAME} – {ACTIVITY} a {city} e provincia."},
+    {"id": "activity.it.10", "text": "Il nostro mestiere: {ACTIVITY}."},
+    {"id": "activity.it.11", "text": "Siamo un'azienda di {city} specializzata in {ACTIVITY}."},
+    {"id": "activity.it.12", "text": "L'impresa svolge attività di {ACTIVITY} per privati, aziende ed enti pubblici."},
+    {"id": "activity.it.13", "text": "Esperti in {ACTIVITY} nel cuore di {city}."},
+    {"id": "activity.it.14", "text": "{S_NAME}: {ACTIVITY}"},
+    {"id": "activity.it.15", "text": "Categoria: {ACTIVITY}"},
+    {"id": "activity.it.16", "text": "Nata come piccola realtà familiare, l'azienda si occupa oggi di {ACTIVITY} per clienti in tutta la regione."},
+    {"id": "activity.it.17", "text": "Di cosa ci occupiamo? Principalmente di {ACTIVITY}."},
+    {"id": "activity.it.18", "text": "Il tuo punto di riferimento per {ACTIVITY} a {city}."},
+    {"id": "activity.it.19", "text": "Servizi professionali di {ACTIVITY} a {city} e dintorni."},
+    {"id": "activity.it.20", "text": "Core business: {ACTIVITY}."},
+    {"id": "activity.it.21", "text": "Attività principale dell'impresa: {ACTIVITY}."},
+    {"id": "activity.it.22", "text": "Scopo della società: {ACTIVITY}, nonché ogni altra attività ad esso connessa."},
+    {"id": "activity.it.23", "text": "Attività: {ACTIVITY} ({ACTIVITY_CODE})"},
+    {"id": "activity.it.24", "text": "Impresa attiva nel seguente settore: {ACTIVITY}."},
+    {"id": "activity.it.25", "text": "Chi siamo – Da oltre una generazione ci dedichiamo con passione a un unico mestiere: {ACTIVITY}."},
+    {"id": "activity.it.26", "text": "Da {S_NAME} troverete professionisti esperti in {ACTIVITY}, pronti ad ascoltare ogni vostra esigenza."},
+    {"id": "activity.it.27", "text": "Ambito di attività: {ACTIVITY}"},
+    {"id": "activity.it.28", "text": "La società ha per oggetto l'esercizio delle seguenti attività: {ACTIVITY}; il commercio di prodotti e servizi affini; la consulenza nel medesimo settore."}
+  ],
+  "founded": [
+    {"id": "founded.it.01", "text": "Anno di fondazione: {FOUNDED}"},
+    {"id": "founded.it.02", "text": "Azienda fondata nel {FOUNDED}"},
+    {"id": "founded.it.03", "text": "Dal {FOUNDED} al vostro servizio."},
+    {"id": "founded.it.04", "text": "L'azienda nasce nel {FOUNDED} a {city} da un'idea dei suoi fondatori."},
+    {"id": "founded.it.05", "text": "Data di costituzione: {FOUNDED:date}"},
+    {"id": "founded.it.06", "text": "Data di inizio attività: {FOUNDED:date}"},
+    {"id": "founded.it.07", "text": "Costituita in data {FOUNDED:date}, l'azienda ha sede a {city}."},
+    {"id": "founded.it.08", "text": "La nostra storia inizia nel {FOUNDED}, in un piccolo locale alla periferia di {city}."},
+    {"id": "founded.it.09", "text": "La storia di {S_NAME} comincia nel mese di {FOUNDED:month}."},
+    {"id": "founded.it.10", "text": "In attività dal {FOUNDED}."},
+    {"id": "founded.it.11", "text": "Data di iscrizione: {FOUNDED:date}"},
+    {"id": "founded.it.12", "text": "Era il {FOUNDED} quando il fondatore avviò l'attività a {city}, con tanta passione e pochi mezzi."},
+    {"id": "founded.it.13", "text": "Tutto è cominciato nel {FOUNDED}: un piccolo ufficio, due scrivanie e una grande voglia di fare."},
+    {"id": "founded.it.14", "text": "Siamo nati come piccola impresa familiare nel mese di {FOUNDED:month}."},
+    {"id": "founded.it.15", "text": "Fondazione: {FOUNDED}"},
+    {"id": "founded.it.16", "text": "Anno di costituzione: {FOUNDED}"},
+    {"id": "founded.it.17", "text": "Sul mercato dal {FOUNDED}"},
+    {"id": "founded.it.18", "text": "Dal {FOUNDED} a oggi l'azienda è cresciuta costantemente, senza mai perdere i valori delle origini."},
+    {"id": "founded.it.19", "text": "{S_NAME}: una storia che comincia a {city} nel {FOUNDED}."},
+    {"id": "founded.it.20", "text": "{S_NAME} – dal {FOUNDED} qualità e affidabilità."},
+    {"id": "founded.it.21", "text": "Abbiamo aperto le porte ai primi clienti nel mese di {FOUNDED:month}."},
+    {"id": "founded.it.22", "text": "L'impresa è attiva dal {FOUNDED} sul territorio di {city}."},
+    {"id": "founded.it.23", "text": "Costituzione della società: {FOUNDED:date}"},
+    {"id": "founded.it.24", "text": "Anno di inizio attività: {FOUNDED}"},
+    {"id": "founded.it.25", "text": "La ditta è stata avviata dall'attuale titolare nel mese di {FOUNDED:month}."},
+    {"id": "founded.it.26", "text": "Data d'iscrizione nel registro di commercio: {FOUNDED:date}"},
+    {"id": "founded.it.27", "text": "La società è stata costituita a {city} con atto notarile in data {FOUNDED:date}."},
+    {"id": "founded.it.28", "text": "Chi siamo – Un'avventura iniziata nel {FOUNDED} e portata avanti ogni giorno con lo stesso entusiasmo."}
+  ],
+  "staff": [
+    {"id": "staff.it.01", "text": "Dipendenti: {STAFF}"},
+    {"id": "staff.it.02", "text": "Numero dipendenti: {STAFF}"},
+    {"id": "staff.it.03", "text": "Numero addetti: {STAFF} (fonte: visura camerale, {date})"},
+    {"id": "staff.it.04", "text": "L'azienda impiega {STAFF} {staff_noun}."},
+    {"id": "staff.it.05", "text": "Oggi l'organico conta {STAFF} {staff_noun}, tra personale tecnico e amministrativo."},
+    {"id": "staff.it.06", "text": "Il nostro team è composto da {STAFF} {staff_noun}."},
+    {"id": "staff.it.07", "text": "Con {STAFF} {staff_noun}, siamo una delle realtà più dinamiche della zona di {city}."},
+    {"id": "staff.it.08", "text": "Forza lavoro: {STAFF} {staff_noun}"},
+    {"id": "staff.it.09", "text": "Organico: {STAFF} {staff_noun}"},
+    {"id": "staff.it.10", "text": "Diamo lavoro a {STAFF} {staff_noun} del territorio."},
+    {"id": "staff.it.11", "text": "Numero medio dei dipendenti nell'esercizio: {STAFF}"},
+    {"id": "staff.it.12", "text": "Personale occupato: {STAFF}"},
+    {"id": "staff.it.13", "text": "Complessivamente, la società occupa {STAFF} {staff_noun}."},
+    {"id": "staff.it.14", "text": "Collaboratori: {STAFF}"},
+    {"id": "staff.it.15", "text": "Siamo una squadra affiatata di {STAFF} {staff_noun}."},
+    {"id": "staff.it.16", "text": "Alla fine dell'anno l'organico ha raggiunto {STAFF} {staff_noun}."},
+    {"id": "staff.it.17", "text": "Dimensione aziendale: {STAFF} {staff_noun}"},
+    {"id": "staff.it.18", "text": "Occupiamo {STAFF} {staff_noun} con contratto a tempo indeterminato."},
+    {"id": "staff.it.19", "text": "Il gruppo di lavoro, formato da {STAFF} {staff_noun}, segue ogni cliente dal primo contatto fino alla conclusione del lavoro."},
+    {"id": "staff.it.20", "text": "{STAFF} {staff_noun} al vostro servizio"},
+    {"id": "staff.it.21", "text": "Team: {STAFF} {staff_noun}"},
+    {"id": "staff.it.22", "text": "Numero di occupati: {STAFF}"},
+    {"id": "staff.it.23", "text": "L'impresa conta attualmente {STAFF} {staff_noun} e continua a crescere."},
+    {"id": "staff.it.24", "text": "Dietro ogni progetto c'è l'impegno quotidiano di {STAFF} {staff_noun}."},
+    {"id": "staff.it.25", "text": "Oltre al titolare, l'azienda si avvale di {STAFF} {staff_noun}."},
+    {"id": "staff.it.26", "text": "Addetti (media annua): {STAFF}"},
+    {"id": "staff.it.27", "text": "Il nostro organico – {STAFF} {staff_noun} – è il vero motore dell'azienda."},
+    {"id": "staff.it.28", "text": "Nel corso dell'ultimo anno l'organico è salito a {STAFF} {staff_noun}."}
+  ],
+  "revenue": [
+    {"id": "revenue.it.01", "text": "Fatturato {REVENUE_YEAR}: {REVENUE}"},
+    {"id": "revenue.it.02", "text": "Fatturato: {REVENUE} ({REVENUE_YEAR})"},
+    {"id": "revenue.it.03", "text": "Nel {REVENUE_YEAR} l'azienda ha registrato un fatturato di {REVENUE}."},
+    {"id": "revenue.it.04", "text": "Ricavi delle vendite e delle prestazioni: {REVENUE}"},
+    {"id": "revenue.it.05", "text": "Volume d'affari {REVENUE_YEAR}: {REVENUE}"},
+    {"id": "revenue.it.06", "text": "Il {REVENUE_YEAR} si è chiuso con ricavi pari a {REVENUE}, in crescita rispetto a {REVENUE_PREV} del {REVENUE_YEAR_PREV}."},
+    {"id": "revenue.it.07", "text": "Fatturato annuo: {REVENUE}"},
+    {"id": "revenue.it.08", "text": "Giro d'affari: {REVENUE}"},
+    {"id": "revenue.it.09", "text": "Cifra d'affari {REVENUE_YEAR}: {REVENUE}"},
+    {"id": "revenue.it.10", "text": "Nell'esercizio {REVENUE_YEAR} la cifra d'affari ha raggiunto {REVENUE}."},
+    {"id": "revenue.it.11", "text": "Con un fatturato di {REVENUE} nel {REVENUE_YEAR}, l'azienda si conferma tra le realtà più solide del territorio."},
+    {"id": "revenue.it.12", "text": "Fatturato {REVENUE_YEAR_PREV}: {REVENUE_PREV} – Fatturato {REVENUE_YEAR}: {REVENUE}"},
+    {"id": "revenue.it.13", "text": "Ricavi {REVENUE_YEAR}: {REVENUE} (esercizio precedente: {REVENUE_PREV})"},
+    {"id": "revenue.it.14", "text": "Chiudiamo il {REVENUE_YEAR} con un fatturato di {REVENUE}: un risultato che premia il lavoro di tutto il team."},
+    {"id": "revenue.it.15", "text": "Fatturato dell'ultimo esercizio: {REVENUE}"},
+    {"id": "revenue.it.16", "text": "I ricavi netti dell'esercizio {REVENUE_YEAR} ammontano a {REVENUE}."},
+    {"id": "revenue.it.17", "text": "Nel {REVENUE_YEAR} il giro d'affari ha toccato {REVENUE}."},
+    {"id": "revenue.it.18", "text": "Dati economici {REVENUE_YEAR} – fatturato: {REVENUE}"},
+    {"id": "revenue.it.19", "text": "Fatturato in crescita: da {REVENUE_PREV} nel {REVENUE_YEAR_PREV} a {REVENUE} nel {REVENUE_YEAR}."},
+    {"id": "revenue.it.20", "text": "Il fatturato annuo si attesta intorno a {REVENUE}."},
+    {"id": "revenue.it.21", "text": "Totale ricavi {REVENUE_YEAR}: {REVENUE}"},
+    {"id": "revenue.it.22", "text": "Ricavi: {REVENUE}"},
+    {"id": "revenue.it.23", "text": "Nel corso del {REVENUE_YEAR} i ricavi hanno raggiunto {REVENUE}, grazie soprattutto all'acquisizione di nuovi clienti."},
+    {"id": "revenue.it.24", "text": "Il fatturato del {REVENUE_YEAR} è stato di {REVENUE}."},
+    {"id": "revenue.it.25", "text": "Fatturato {REVENUE_YEAR}: {REVENUE} (quota export: {percent})"},
+    {"id": "revenue.it.26", "text": "Esercizio {REVENUE_YEAR}: ricavi per {REVENUE}."},
+    {"id": "revenue.it.27", "text": "L'azienda ha chiuso l'esercizio {REVENUE_YEAR} con un volume d'affari di {REVENUE}, contro {REVENUE_PREV} nel {REVENUE_YEAR_PREV}."},
+    {"id": "revenue.it.28", "text": "Nonostante un mercato difficile, il fatturato {REVENUE_YEAR} si è attestato a {REVENUE}."}
+  ],
+  "services_intro": [
+    {"id": "services_intro.it.01", "text": "I nostri servizi: {SERVICE_LIST}."},
+    {"id": "services_intro.it.02", "text": "Offriamo: {SERVICE_LIST}."},
+    {"id": "services_intro.it.03", "text": "Tra i nostri servizi più richiesti: {SERVICE}."},
+    {"id": "services_intro.it.04", "text": "Cosa facciamo: {SERVICE_LIST}."},
+    {"id": "services_intro.it.05", "text": "Novità in catalogo: {SERVICE}."},
+    {"id": "services_intro.it.06", "text": "Scopri la nostra offerta: {SERVICE_LIST}. E non solo!"},
+    {"id": "services_intro.it.07", "text": "Il nostro punto di forza? {SERVICE}."},
+    {"id": "services_intro.it.08", "text": "Su richiesta realizziamo anche: {SERVICE}."},
+    {"id": "services_intro.it.09", "text": "Servizi offerti: {SERVICE_LIST}"},
+    {"id": "services_intro.it.10", "text": "Prodotti e servizi: {SERVICE_LIST}"},
+    {"id": "services_intro.it.11", "text": "Ogni giorno proponiamo ai nostri clienti {SERVICE_LIST}."},
+    {"id": "services_intro.it.12", "text": "Il servizio più apprezzato dai nostri clienti: {SERVICE}."},
+    {"id": "services_intro.it.13", "text": "In evidenza: {SERVICE}"},
+    {"id": "services_intro.it.14", "text": "Chiedi informazioni su {SERVICE}: ti risponderemo in giornata."},
+    {"id": "services_intro.it.15", "text": "L'offerta comprende {SERVICE_LIST}, con preventivi personalizzati."},
+    {"id": "services_intro.it.16", "text": "Siamo in grado di offrire un servizio completo: {SERVICE_LIST}."},
+    {"id": "services_intro.it.17", "text": "La nostra specialità: {SERVICE}."},
+    {"id": "services_intro.it.18", "text": "Tra le prestazioni offerte figurano {SERVICE_LIST}."},
+    {"id": "services_intro.it.19", "text": "Ecco cosa possiamo fare per te: {SERVICE_LIST}."},
+    {"id": "services_intro.it.20", "text": "Il nostro catalogo include {SERVICE_LIST}."},
+    {"id": "services_intro.it.21", "text": "Richiedi un preventivo per {SERVICE}."},
+    {"id": "services_intro.it.22", "text": "Da noi trovi {SERVICE_LIST}."},
+    {"id": "services_intro.it.23", "text": "Servizio: {SERVICE}"},
+    {"id": "services_intro.it.24", "text": "Nuovo servizio disponibile: {SERVICE}."},
+    {"id": "services_intro.it.25", "text": "Proposta del mese: {SERVICE}."},
+    {"id": "services_intro.it.26", "text": "Gamma di servizi: {SERVICE_LIST}."},
+    {"id": "services_intro.it.27", "text": "Forniamo {SERVICE_LIST} a privati e aziende."},
+    {"id": "services_intro.it.28", "text": "Vi proponiamo {SERVICE}, con la qualità di sempre."},
+    {"id": "services_intro.it.29", "text": "Per le aziende abbiamo pensato a una soluzione dedicata: {SERVICE}."}
+  ],
+  "clients": [
+    {"id": "clients.it.01", "text": "Tra i nostri clienti: {C_NAME_LIST}, solo per citarne alcuni."},
+    {"id": "clients.it.02", "text": "Referenze: {C_NAME_LIST}"},
+    {"id": "clients.it.03", "text": "{C_NAME_LIST} hanno scelto di lavorare con noi."},
+    {"id": "clients.it.04", "text": "Clienti: {C_NAME_LIST}"},
+    {"id": "clients.it.05", "text": "Alcuni dei nostri clienti: {C_NAME_LIST} (elenco completo su richiesta)."},
+    {"id": "clients.it.06", "text": "Lavoriamo da anni per {C_NAME} e {C_NAME}, con piena soddisfazione reciproca."},
+    {"id": "clients.it.07", "text": "Tra le realizzazioni più recenti c'è il progetto completato per {C_NAME} nei tempi previsti."},
+    {"id": "clients.it.08", "text": "Committenti principali: {C_NAME_LIST}"},
+    {"id": "clients.it.09", "text": "{C_NAME_LIST}: sono solo alcune delle realtà che ci hanno dato fiducia."},
+    {"id": "clients.it.10", "text": "Siamo fornitori di fiducia di {C_NAME_LIST}, oltre che di numerosi privati."},
+    {"id": "clients.it.11", "text": "Abbiamo curato la fornitura per {C_NAME}, uno dei principali operatori del settore."},
+    {"id": "clients.it.12", "text": "Tra i clienti che ci hanno scelto figurano {C_NAME_LIST}, oltre a molte piccole imprese della zona."},
+    {"id": "clients.it.13", "text": "Dal pubblico al privato: lavoriamo per {C_NAME_LIST}, per citare solo i nomi più noti."},
+    {"id": "clients.it.14", "text": "Alcune referenze: {C_NAME}, {C_NAME} e molte altre realtà del territorio."},
+    {"id": "clients.it.15", "text": "{C_NAME} – cliente dal primo giorno."},
+    {"id": "clients.it.16", "text": "Per {C_NAME} lavoriamo in modo continuativo, con un referente dedicato."},
+    {"id": "clients.it.17", "text": "Siamo orgogliosi di annoverare {C_NAME_LIST} tra i nostri clienti."},
+    {"id": "clients.it.18", "text": "La fiducia di realtà come {C_NAME_LIST} è la nostra migliore referenza."},
+    {"id": "clients.it.19", "text": "Case history: {C_NAME}"},
+    {"id": "clients.it.20", "text": "Lavori eseguiti per: {C_NAME_LIST}"},
+    {"id": "clients.it.21", "text": "Referenze principali: {C_NAME_LIST} (dettagli disponibili su richiesta)."},
+    {"id": "clients.it.22", "text": "Tra i nostri clienti più fedeli c'è {C_NAME}, che ci ha affidato numerosi incarichi."},
+    {"id": "clients.it.23", "text": "Clientela: privati, aziende ed enti pubblici ({C_NAME_LIST}) di tutta la regione."},
+    {"id": "clients.it.24", "text": "Collaborazioni recenti con clienti come {C_NAME} e {C_NAME} confermano la qualità del nostro lavoro."},
+    {"id": "clients.it.25", "text": "{C_NAME_LIST} sono tra i nostri clienti."},
+    {"id": "clients.it.26", "text": "Abbiamo avuto il piacere di lavorare per {C_NAME_LIST}, ottenendo sempre ottimi riscontri."},
+    {"id": "clients.it.27", "text": "Fornitore ufficiale di {C_NAME} dal {year}."},
+    {"id": "clients.it.28", "text": "Anche per {C_NAME} siamo ormai un punto di riferimento stabile."}
+  ],
+  "hours": [
+    {"id": "hours.it.01", "text": "Orari di apertura: {HOURS}"},
+    {"id": "hours.it.02", "text": "Orario: {HOURS}"},
+    {"id": "hours.it.03", "text": "Siamo aperti {HOURS:prose}."},
+    {"id": "hours.it.04", "text": "Gli uffici sono aperti {HOURS:prose}."},
+    {"id": "hours.it.05", "text": "Orari d'ufficio: {HOURS}"},
+    {"id": "hours.it.06", "text": "Ci trovi {HOURS:prose}."},
+    {"id": "hours.it.07", "text": "Ricevimento clienti {HOURS:prose}, preferibilmente su appuntamento."},
+    {"id": "hours.it.08", "text": "Il centralino risponde {HOURS:prose}."},
+    {"id": "hours.it.09", "text": "Apertura al pubblico: {HOURS}"},
+    {"id": "hours.it.10", "text": "Siamo a vostra disposizione {HOURS:prose}."},
+    {"id": "hours.it.11", "text": "Quando trovarci: {HOURS}"},
+    {"id": "hours.it.12", "text": "Orari di segreteria: {HOURS}"},
+    {"id": "hours.it.13", "text": "Il servizio clienti è attivo {HOURS:prose}."},
+    {"id": "hours.it.14", "text": "Lo showroom è visitabile {HOURS:prose}."},
+    {"id": "hours.it.15", "text": "Orari: {HOURS}"},
+    {"id": "hours.it.16", "text": "Puoi chiamarci o passare in sede {HOURS:prose}."},
+    {"id": "hours.it.17", "text": "Orario di apertura al pubblico: {HOURS}"},
+    {"id": "hours.it.18", "text": "Negozio aperto: {HOURS}"},
+    {"id": "hours.it.19", "text": "Orari dell'assistenza telefonica: {HOURS}"},
+    {"id": "hours.it.20", "text": "Ti aspettiamo {HOURS:prose}."},
+    {"id": "hours.it.21", "text": "Gli uffici amministrativi osservano il seguente orario: {HOURS}."},
+    {"id": "hours.it.22", "text": "Orari d'apertura: {HOURS}"},
+    {"id": "hours.it.23", "text": "Il punto vendita di {city} è aperto {HOURS:prose}."},
+    {"id": "hours.it.24", "text": "Visite in sede {HOURS:prose}, previo appuntamento telefonico."},
+    {"id": "hours.it.25", "text": "Per ritiri e consegne siamo presenti {HOURS:prose}."},
+    {"id": "hours.it.26", "text": "Orario di lavoro: {HOURS}"},
+    {"id": "hours.it.27", "text": "Siamo operativi {HOURS:prose}: chiamaci o passa a trovarci."},
+    {"id": "hours.it.28", "text": "Orari di ricevimento: {HOURS}"}
+  ],
+  "certifications": [
+    {"id": "certifications.it.01", "text": "Certificazioni: {CERT_LIST}"},
+    {"id": "certifications.it.02", "text": "Certificazione: {CERT}"},
+    {"id": "certifications.it.03", "text": "Siamo un'azienda certificata {CERT}."},
+    {"id": "certifications.it.04", "text": "Qualità certificata: {CERT}."},
+    {"id": "certifications.it.05", "text": "Riconoscimenti: {CERT_LIST}"},
+    {"id": "certifications.it.06", "text": "Tra i nostri riconoscimenti: {CERT}."},
+    {"id": "certifications.it.07", "text": "L'azienda è in possesso delle seguenti certificazioni e qualifiche: {CERT_LIST}."},
+    {"id": "certifications.it.08", "text": "Marchi e certificazioni: {CERT_LIST}"},
+    {"id": "certifications.it.09", "text": "{CERT}: una garanzia di qualità per i nostri clienti."},
+    {"id": "certifications.it.10", "text": "Il nostro impegno per la qualità è attestato da: {CERT_LIST}."},
+    {"id": "certifications.it.11", "text": "Siamo orgogliosi di aver ottenuto il riconoscimento «{CERT}»."},
+    {"id": "certifications.it.12", "text": "Qualifiche e attestazioni: {CERT_LIST}"},
+    {"id": "certifications.it.13", "text": "Certificati e premi: {CERT_LIST}"},
+    {"id": "certifications.it.14", "text": "Con {CERT}, garantiamo ai clienti processi controllati e trasparenti."},
+    {"id": "certifications.it.15", "text": "Attestati di qualità: {CERT_LIST}"},
+    {"id": "certifications.it.16", "text": "Siamo in possesso di: {CERT}."},
+    {"id": "certifications.it.17", "text": "Nel nostro percorso abbiamo conseguito: {CERT_LIST}."},
+    {"id": "certifications.it.18", "text": "Garanzia di qualità – {CERT}"},
+    {"id": "certifications.it.19", "text": "Tra le certificazioni ottenute: {CERT}."},
+    {"id": "certifications.it.20", "text": "Iscrizioni, marchi e certificazioni: {CERT_LIST}."},
+    {"id": "certifications.it.21", "text": "Un traguardo importante: {CERT}."},
+    {"id": "certifications.it.22", "text": "Qualità riconosciuta: {CERT_LIST}."},
+    {"id": "certifications.it.23", "text": "Abbiamo ottenuto {CERT} grazie all'impegno quotidiano di tutto il team."},
+    {"id": "certifications.it.24", "text": "Marchi di qualità: {CERT_LIST}"},
+    {"id": "certifications.it.25", "text": "Le nostre credenziali: {CERT_LIST}."},
+    {"id": "certifications.it.26", "text": "Ogni anno rinnoviamo con orgoglio: {CERT}."},
+    {"id": "certifications.it.27", "text": "Certificazioni aziendali – {CERT_LIST}"}
+  ],
+  "location": [
+    {"id": "location.it.01", "text": "Sede legale: {S_ADDRESS}"},
+    {"id": "location.it.02", "text": "Sede operativa: {S_ADDRESS}"},
+    {"id": "location.it.03", "text": "Indirizzo: {S_ADDRESS}"},
+    {"id": "location.it.04", "text": "Ci trovi in {S_ADDRESS}."},
+    {"id": "location.it.05", "text": "Vieni a trovarci in {S_ADDRESS}: ti aspettiamo!"},
+    {"id": "location.it.06", "text": "Tel. {S_PHONE}"},
+    {"id": "location.it.07", "text": "Telefono: {S_PHONE}"},
+    {"id": "location.it.08", "text": "Per informazioni chiama il {S_PHONE}."},
+    {"id": "location.it.09", "text": "E-mail: {S_EMAIL}"},
+    {"id": "location.it.10", "text": "Scrivici a {S_EMAIL}."},
+    {"id": "location.it.11", "text": "Sito web: {S_URL}"},
+    {"id": "location.it.12", "text": "Visita il nostro sito {S_URL}."},
+    {"id": "location.it.13", "text": "Tel. {S_PHONE} – E-mail {S_EMAIL}"},
+    {"id": "location.it.14", "text": "Per preventivi: {S_EMAIL} oppure {S_PHONE}."},
+    {"id": "location.it.15", "text": "Trovi tutte le novità su {S_URL}."},
+    {"id": "location.it.16", "text": "Seguici online: {S_URL}"},
+    {"id": "location.it.17", "text": "Recapito: {S_ADDRESS} – tel. {S_PHONE}"},
+    {"id": "location.it.18", "text": "La nostra sede si trova in {S_ADDRESS}, a pochi minuti dal centro."},
+    {"id": "location.it.19", "text": "Cell. {S_PHONE}"},
+    {"id": "location.it.20", "text": "WhatsApp: {S_PHONE}"},
+    {"id": "location.it.21", "text": "PEC: {S_EMAIL}"},
+    {"id": "location.it.22", "text": "Contatti: {S_PHONE} · {S_EMAIL} · {S_URL}"},
+    {"id": "location.it.23", "text": "Siamo raggiungibili al numero {S_PHONE} e all'indirizzo {S_EMAIL}."},
+    {"id": "location.it.24", "text": "Dove siamo: {S_ADDRESS}"},
+    {"id": "location.it.25", "text": "Per qualsiasi richiesta scrivi a {S_EMAIL}: ti risponderemo entro 24 ore."},
+    {"id": "location.it.26", "text": "Prenotazioni al {S_PHONE}."},
+    {"id": "location.it.27", "text": "Info e ordini: {S_PHONE}"},
+    {"id": "location.it.28", "text": "Indirizzo per la corrispondenza: {S_ADDRESS}"},
+    {"id": "location.it.29", "text": "I nostri uffici si trovano in {S_ADDRESS}, con ampio parcheggio per i clienti."}
+  ],
+  "capital": [
+    {"id": "capital.it.01", "text": "Capitale sociale: {CAPITAL} i.v."},
+    {"id": "capital.it.02", "text": "Capitale sociale {CAPITAL} interamente versato"},
+    {"id": "capital.it.03", "text": "Cap. soc. {CAPITAL} i.v."},
+    {"id": "capital.it.04", "text": "Capitale sociale deliberato, sottoscritto e versato: {CAPITAL}"},
+    {"id": "capital.it.05", "text": "La società ha un capitale sociale di {CAPITAL}."},
+    {"id": "capital.it.06", "text": "Capitale azionario: {CAPITAL}"},
+    {"id": "capital.it.07", "text": "Capitale sociale: {CAPITAL}"},
+    {"id": "capital.it.08", "text": "Capitale azionario {CAPITAL}, interamente liberato"},
+    {"id": "capital.it.09", "text": "Società con capitale sociale di {CAPITAL} interamente versato."},
+    {"id": "capital.it.10", "text": "Capitale sociale versato: {CAPITAL}"},
+    {"id": "capital.it.11", "text": "Il capitale sociale, pari a {CAPITAL}, è interamente detenuto dai soci fondatori."},
+    {"id": "capital.it.12", "text": "Capitale: {CAPITAL}"},
+    {"id": "capital.it.13", "text": "{LEGAL_FORM} – capitale sociale {CAPITAL} i.v."},
+    {"id": "capital.it.14", "text": "Nel {year} il capitale sociale è stato aumentato a {CAPITAL}."},
+    {"id": "capital.it.15", "text": "Capitale sociale di {CAPITAL}, suddiviso in quote tra i soci."},
+    {"id": "capital.it.16", "text": "Il capitale azionario di {CAPITAL} è suddiviso in azioni nominative."},
+    {"id": "capital.it.17", "text": "Capitale sociale: {CAPITAL} (interamente liberato)"},
+    {"id": "capital.it.18", "text": "La società dispone di un capitale sociale di {CAPITAL}, interamente sottoscritto e versato."},
+    {"id": "capital.it.19", "text": "Cap. sociale {CAPITAL} i.v."},
+    {"id": "capital.it.20", "text": "Capitale sociale sottoscritto: {CAPITAL}"},
+    {"id": "capital.it.21", "text": "Capitale sociale attuale: {CAPITAL}"},
+    {"id": "capital.it.22", "text": "La società è stata costituita con un capitale di {CAPITAL}."},
+    {"id": "capital.it.23", "text": "Capitale sociale: {CAPITAL} – interamente versato"},
+    {"id": "capital.it.24", "text": "Il capitale sociale ammonta a {CAPITAL}."},
+    {"id": "capital.it.25", "text": "Capitale nominale: {CAPITAL}"},
+    {"id": "capital.it.26", "text": "Capitale sociale (i.v.): {CAPITAL}"},
+    {"id": "capital.it.27", "text": "Dati societari – capitale sociale: {CAPITAL} i.v."},
+    {"id": "capital.it.28", "text": "Il capitale sociale di {CAPITAL} è stato interamente versato al momento della costituzione."}
+  ],
+  "legal_form": [
+    {"id": "legal_form.it.01", "text": "Forma giuridica: {LEGAL_FORM}"},
+    {"id": "legal_form.it.02", "text": "Natura giuridica: {LEGAL_FORM}"},
+    {"id": "legal_form.it.03", "text": "Forma societaria: {LEGAL_FORM}"},
+    {"id": "legal_form.it.04", "text": "{LEGAL_FORM} con capitale sociale di {CAPITAL}"},
+    {"id": "legal_form.it.05", "text": "L'azienda è costituita in forma di {LEGAL_FORM} e ha sede a {city}."},
+    {"id": "legal_form.it.06", "text": "Nel {year} l'impresa si è trasformata in {LEGAL_FORM}, per sostenere la propria crescita."},
+    {"id": "legal_form.it.07", "text": "Forma giuridica dell'impresa: {LEGAL_FORM}"},
+    {"id": "legal_form.it.08", "text": "Forma giuridica: {LEGAL_FORM} – iscritta al Registro delle Imprese di {city}"},
+    {"id": "legal_form.it.09", "text": "Siamo una realtà giovane, organizzata in forma di {LEGAL_FORM} e radicata nel territorio."},
+    {"id": "legal_form.it.10", "text": "Costituita in forma di {LEGAL_FORM}, l'azienda ha sede a {city}."},
+    {"id": "legal_form.it.11", "text": "Tipo di impresa: {LEGAL_FORM}"},
+    {"id": "legal_form.it.12", "text": "Forma legale: {LEGAL_FORM}"},
+    {"id": "legal_form.it.13", "text": "Forma giuridica attuale: {LEGAL_FORM} (dal {year})"},
+    {"id": "legal_form.it.14", "text": "L'attività è esercitata in forma di {LEGAL_FORM} presso la sede di {city}."},
+    {"id": "legal_form.it.15", "text": "Veste giuridica: {LEGAL_FORM}"},
+    {"id": "legal_form.it.16", "text": "L'impresa opera come {LEGAL_FORM} con sede in {city}."},
+    {"id": "legal_form.it.17", "text": "Dal {year} l'azienda opera in forma di {LEGAL_FORM}, con piena continuità nella gestione."},
+    {"id": "legal_form.it.18", "text": "Forma giuridica: {LEGAL_FORM} · Capitale sociale: {CAPITAL}"},
+    {"id": "legal_form.it.19", "text": "Natura giuridica dell'impresa: {LEGAL_FORM}"},
+    {"id": "legal_form.it.20", "text": "Tipologia societaria: {LEGAL_FORM}"},
+    {"id": "legal_form.it.21", "text": "L'impresa è registrata come {LEGAL_FORM} presso la Camera di Commercio di {city}."},
+    {"id": "legal_form.it.22", "text": "{LEGAL_FORM} con sede a {city}"},
+    {"id": "legal_form.it.23", "text": "Denominazione: {S_NAME} – Forma giuridica: {LEGAL_FORM}"},
+    {"id": "legal_form.it.24", "text": "Inquadramento giuridico: {LEGAL_FORM}"},
+    {"id": "legal_form.it.25", "text": "Forma dell'impresa: {LEGAL_FORM}"},
+    {"id": "legal_form.it.26", "text": "In seguito al passaggio generazionale, l'impresa ha assunto la forma di {LEGAL_FORM}, mantenendo invariati marchio e sede."},
+    {"id": "legal_form.it.27", "text": "Forma giuridica: {LEGAL_FORM} – capitale sociale {CAPITAL} i.v."},
+    {"id": "legal_form.it.28", "text": "Fin dalla nascita l'azienda ha adottato la forma di {LEGAL_FORM}, una scelta che si è rivelata vincente."}
+  ],
+  "traps": [
+    {"id": "trap.it.01", "trap": "T1", "text": "La commessa più importante dell'anno, del valore di {amount}, è stata consegnata con due settimane di anticipo."},
+    {"id": "trap.it.02", "trap": "T1", "text": "Il nostro contratto più grande, per un valore complessivo di {amount}, riguarda una fornitura pluriennale a un gruppo della grande distribuzione."},
+    {"id": "trap.it.03", "trap": "T1", "text": "Utile netto dell'esercizio: {amount}"},
+    {"id": "trap.it.04", "trap": "T1", "text": "Nel {year} abbiamo investito in nuovi macchinari {amount}, una quota importante del fatturato annuo."},
+    {"id": "trap.it.05", "trap": "T1", "text": "Il margine operativo lordo si è attestato a {amount}."},
+    {"id": "trap.it.06", "trap": "T1", "text": "Solo nel mese di dicembre il fatturato ha raggiunto {amount}, un record per il periodo natalizio."},
+    {"id": "trap.it.07", "trap": "T1", "text": "L'ordine più consistente mai ricevuto ammontava a {amount}."},
+    {"id": "trap.it.08", "trap": "T1", "text": "L'appalto per la riqualificazione della scuola comunale, del valore di {amount}, rappresenta la voce più rilevante del nostro fatturato annuo."},
+    {"id": "trap.it.09", "trap": "T1", "text": "Il patrimonio netto della società ammonta a {amount}."},
+    {"id": "trap.it.10", "trap": "T1", "text": "Costi per il personale nell'esercizio: {amount}"},
+    {"id": "trap.it.11", "trap": "T1", "text": "Per il nuovo stabilimento è previsto un investimento di {amount}, finanziato in parte con contributi regionali."},
+    {"id": "trap.it.12", "trap": "T5", "text": "Per la logistica ci affidiamo a {partner}, partner affidabile da molti anni."},
+    {"id": "trap.it.13", "trap": "T5", "text": "Il nostro istituto di credito di riferimento è {bank}."},
+    {"id": "trap.it.14", "trap": "T5", "text": "Le materie prime ci vengono fornite da {supplier}, con cui collaboriamo in esclusiva per la zona."},
+    {"id": "trap.it.15", "trap": "T5", "text": "Siamo rivenditori autorizzati di {partner} per {city} e provincia."},
+    {"id": "trap.it.16", "trap": "T5", "text": "Grazie al finanziamento concesso da {bank}, abbiamo potuto rinnovare completamente le attrezzature."},
+    {"id": "trap.it.17", "trap": "T5", "text": "Il principale concorrente, {competitor}, ha annunciato l'apertura di una nuova sede a {city}."},
+    {"id": "trap.it.18", "trap": "T5", "text": "Uno dei nostri clienti storici, un'azienda nata nel {client_founded}, ci ha appena affidato un nuovo incarico."},
+    {"id": "trap.it.19", "trap": "T5", "text": "In collaborazione con {partner} organizziamo corsi di aggiornamento per i nostri clienti."},
+    {"id": "trap.it.20", "trap": "T5", "text": "Il nostro fornitore principale, {supplier}, garantisce consegne entro 48 ore su tutto il territorio nazionale."},
+    {"id": "trap.it.21", "trap": "T5", "text": "Rispetto a {competitor}, puntiamo su tempi di intervento più rapidi e su un'assistenza personalizzata."},
+    {"id": "trap.it.22", "trap": "T5", "text": "Lavoriamo per un gruppo industriale fondato nel {client_founded}, leader nel proprio settore."},
+    {"id": "trap.it.23", "trap": "T7", "text": "I nostri locali sono stati completamente ristrutturati nel {year}."},
+    {"id": "trap.it.24", "trap": "T7", "text": "Nel {year} ci siamo trasferiti nella nuova sede di {city}."},
+    {"id": "trap.it.25", "trap": "T7", "text": "Offerta valida fino al 31 dicembre {year}."},
+    {"id": "trap.it.26", "trap": "T7", "text": "Nel {year} abbiamo ricevuto un importante riconoscimento dalla Camera di Commercio."},
+    {"id": "trap.it.27", "trap": "T7", "text": "Veicolo in vendita: furgone aziendale, anno di immatricolazione {year}, tagliandi regolari."},
+    {"id": "trap.it.28", "trap": "T7", "text": "Dal {year} la sede è dotata di un impianto fotovoltaico che copre gran parte del fabbisogno energetico."},
+    {"id": "trap.it.29", "trap": "T7", "text": "Nel {year} è entrata in azienda la seconda generazione della famiglia."},
+    {"id": "trap.it.30", "trap": "T7", "text": "Il nuovo magazzino, inaugurato nel {year}, ha raddoppiato la nostra capacità di stoccaggio."},
+    {"id": "trap.it.31", "trap": "T7", "text": "Listino prezzi in vigore dal 1° gennaio {year}."},
+    {"id": "trap.it.32", "trap": "T7", "text": "Nel {year} abbiamo aperto un secondo punto vendita a {city}."},
+    {"id": "trap.it.33", "trap": "T7", "text": "Catalogo {year}: tutte le novità della stagione."},
+    {"id": "trap.it.34", "trap": "T8", "text": "Oltre {n_years} di esperienza nel settore."},
+    {"id": "trap.it.35", "trap": "T8", "text": "Più di {n_clients} soddisfatti in tutta la regione."},
+    {"id": "trap.it.36", "trap": "T8", "text": "Oggi siamo presenti con {n_shops} tra Lombardia e Piemonte."},
+    {"id": "trap.it.37", "trap": "T8", "text": "La nostra flotta conta {n_vehicles}. Ogni mezzo è dotato di localizzazione satellitare."},
+    {"id": "trap.it.38", "trap": "T8", "text": "A catalogo trovi oltre {n_products}."},
+    {"id": "trap.it.39", "trap": "T8", "text": "Abbiamo portato a termine {n_projects} in Italia e all'estero."},
+    {"id": "trap.it.40", "trap": "T8", "text": "Il titolare vanta {n_years} di esperienza nel settore."},
+    {"id": "trap.it.41", "trap": "T8", "text": "Ogni anno serviamo {n_clients} tra privati e aziende."},
+    {"id": "trap.it.42", "trap": "T8", "text": "Con {n_shops} in provincia di {city}, siamo sempre vicini ai nostri clienti."},
+    {"id": "trap.it.43", "trap": "T8", "text": "Un parco mezzi di {n_vehicles} per garantire consegne rapide in tutta la zona."},
+    {"id": "trap.it.44", "trap": "T8", "text": "Più di {n_projects} all'attivo, con clienti in {n_countries}."},
+    {"id": "trap.it.45", "trap": "T11", "text": "Per informazioni commerciali contattare {person}, {position}."},
+    {"id": "trap.it.46", "trap": "T11", "text": "Referente amministrativo: {person}"},
+    {"id": "trap.it.47", "trap": "T11", "text": "La contabilità è seguita da {person} ({position})."},
+    {"id": "trap.it.48", "trap": "T11", "text": "{position}: {person}"},
+    {"id": "trap.it.49", "trap": "T11", "text": "Il vostro interlocutore per gli ordini è {person}, raggiungibile in orario d'ufficio."},
+    {"id": "trap.it.50", "trap": "T11", "text": "In negozio vi accoglierà {person}, che da anni cura il rapporto con la clientela."},
+    {"id": "trap.it.51", "trap": "T11", "text": "Pratica seguita da: {person}"},
+    {"id": "trap.it.52", "trap": "T11", "text": "Per l'assistenza tecnica chiedete di {person}."},
+    {"id": "trap.it.53", "trap": "T11", "text": "La segreteria è curata da {person}, che gestisce appuntamenti e preventivi."},
+    {"id": "trap.it.54", "trap": "T11", "text": "Il documento è stato predisposto da {person}, {position}."},
+    {"id": "trap.it.55", "trap": "T11", "text": "Per fatture e pagamenti rivolgersi a {person} dell'ufficio amministrazione."},
+    {"id": "trap.it.56", "trap": "T11", "text": "Il team commerciale è coordinato da {person}, {position}."},
+    {"id": "trap.it.57", "trap": "T13", "text": "Per {C_NAME} abbiamo realizzato il nuovo progetto in collaborazione con {partner}."},
+    {"id": "trap.it.58", "trap": "T13", "text": "Tra i nostri clienti figurano {C_NAME_LIST}; per la logistica ci appoggiamo a {partner}."},
+    {"id": "trap.it.59", "trap": "T13", "text": "Grazie ai materiali forniti da {supplier}, la commessa per {C_NAME} è stata completata in tempi record."},
+    {"id": "trap.it.60", "trap": "T13", "text": "Serviamo {C_NAME} e {C_NAME} con prodotti selezionati, acquistati direttamente da {supplier}."},
+    {"id": "trap.it.61", "trap": "T13", "text": "In partnership con {partner}, curiamo la manutenzione per {C_NAME_LIST} in tutta la regione."},
+    {"id": "trap.it.62", "trap": "T13", "text": "Referenze: {C_NAME_LIST} – Partner tecnologico: {partner}"},
+    {"id": "trap.it.63", "trap": "T13", "text": "Il progetto per {C_NAME} è stato sviluppato insieme al nostro partner {partner}."},
+    {"id": "trap.it.64", "trap": "T13", "text": "Clienti: {C_NAME_LIST} – Fornitore principale: {supplier}"},
+    {"id": "trap.it.65", "trap": "T13", "text": "La scelta di {C_NAME} è caduta su di noi anche per la qualità delle materie prime, che acquistiamo solo da {supplier}."},
+    {"id": "trap.it.66", "trap": "T13", "text": "Lavoriamo per {C_NAME_LIST} e siamo rivenditori autorizzati di {partner}."},
+    {"id": "trap.it.67", "trap": "T13", "text": "Insieme a {partner} abbiamo seguito l'intero progetto per {C_NAME}, dalla progettazione alla consegna."}
+  ],
+  "filler": [
+    {"id": "filler.it.01", "text": "Ogni progetto nasce dall'ascolto delle esigenze del cliente."},
+    {"id": "filler.it.02", "text": "Crediamo nel valore del lavoro ben fatto e nel rispetto degli impegni presi."},
+    {"id": "filler.it.03", "text": "La soddisfazione dei nostri clienti è la nostra migliore pubblicità."},
+    {"id": "filler.it.04", "text": "Il nostro obiettivo è offrire un servizio rapido, chiaro e senza sorprese."},
+    {"id": "filler.it.05", "text": "Preventivi gratuiti e senza impegno."},
+    {"id": "filler.it.06", "text": "Ci impegniamo a rispondere a ogni richiesta entro un giorno lavorativo."},
+    {"id": "filler.it.07", "text": "Tutti i prezzi si intendono IVA inclusa, salvo diversa indicazione."},
+    {"id": "filler.it.08", "text": "Il parcheggio per i clienti è disponibile nel cortile interno."},
+    {"id": "filler.it.09", "text": "Accettiamo pagamenti con bancomat, carta di credito e bonifico."},
+    {"id": "filler.it.10", "text": "Su richiesta effettuiamo consegne a domicilio in città e nei comuni limitrofi."},
+    {"id": "filler.it.11", "text": "Lavoriamo solo con materiali di prima scelta."},
+    {"id": "filler.it.12", "text": "La formazione continua del personale è per noi una priorità."},
+    {"id": "filler.it.13", "text": "Rispettiamo l'ambiente: riduciamo gli imballaggi e ricicliamo i materiali di scarto."},
+    {"id": "filler.it.14", "text": "Ogni lavoro è coperto da garanzia."},
+    {"id": "filler.it.15", "text": "Per i clienti abituali sono previste condizioni particolari."},
+    {"id": "filler.it.16", "text": "Le richieste urgenti vengono gestite con priorità."},
+    {"id": "filler.it.17", "text": "Parliamo italiano, inglese e tedesco."},
+    {"id": "filler.it.18", "text": "I tempi di consegna possono variare in base alla disponibilità dei materiali."},
+    {"id": "filler.it.19", "text": "Ascoltare, consigliare, realizzare: questo è il nostro metodo."},
+    {"id": "filler.it.20", "text": "La trasparenza è alla base di ogni rapporto con i clienti."},
+    {"id": "filler.it.21", "text": "Seguiamo ogni cliente dal primo contatto fino alla fine del lavoro."},
+    {"id": "filler.it.22", "text": "Non esitate a contattarci per qualsiasi informazione."},
+    {"id": "filler.it.23", "text": "Le fotografie hanno valore puramente illustrativo."},
+    {"id": "filler.it.24", "text": "Il primo sopralluogo è sempre gratuito."},
+    {"id": "filler.it.25", "text": "Siamo facilmente raggiungibili con i mezzi pubblici."},
+    {"id": "filler.it.26", "text": "I locali sono accessibili alle persone con disabilità."},
+    {"id": "filler.it.27", "text": "Qualità, puntualità e cortesia sono i nostri punti fermi."},
+    {"id": "filler.it.28", "text": "I dati forniti saranno trattati nel rispetto della normativa sulla privacy."},
+    {"id": "filler.it.29", "text": "Vi ringraziamo per l'attenzione."},
+    {"id": "filler.it.30", "text": "Per ogni esigenza particolare possiamo studiare insieme una soluzione su misura."},
+    {"id": "filler.it.31", "text": "Il catalogo aggiornato è disponibile su richiesta."},
+    {"id": "filler.it.32", "text": "Gli ordini ricevuti entro mezzogiorno vengono evasi in giornata."},
+    {"id": "filler.it.33", "text": "Organizziamo periodicamente giornate aperte e dimostrazioni gratuite."},
+    {"id": "filler.it.34", "text": "Offriamo consulenza personalizzata prima di ogni acquisto."},
+    {"id": "filler.it.35", "text": "Collaborare con noi è semplice: basta una telefonata."},
+    {"id": "filler.it.36", "text": "Investiamo ogni anno in nuove tecnologie e attrezzature."},
+    {"id": "filler.it.37", "text": "Crediamo nei giovani e nella formazione sul campo."},
+    {"id": "filler.it.38", "text": "Tutti i nostri prodotti sono tracciabili."},
+    {"id": "filler.it.39", "text": "Siamo sempre alla ricerca di nuovi talenti da inserire nel team."},
+    {"id": "filler.it.40", "text": "La sicurezza sul lavoro viene prima di tutto."},
+    {"id": "filler.it.41", "text": "Vi aspettiamo per un caffè e una chiacchierata sul vostro progetto."},
+    {"id": "filler.it.42", "text": "Il pagamento può essere rateizzato su richiesta."},
+    {"id": "filler.it.43", "text": "I nostri tecnici intervengono rapidamente in tutta la provincia di {city}."},
+    {"id": "filler.it.44", "text": "Alle aziende emettiamo regolare fattura elettronica."},
+    {"id": "filler.it.45", "text": "Conserviamo con cura la documentazione di ogni intervento."},
+    {"id": "filler.it.46", "text": "La prima consulenza è gratuita."},
+    {"id": "filler.it.47", "text": "I colori dei prodotti possono differire leggermente da quelli mostrati sul sito."},
+    {"id": "filler.it.48", "text": "Lavoriamo con passione, ogni giorno."},
+    {"id": "filler.it.49", "text": "Ogni settimana aggiorniamo le offerte in vetrina."},
+    {"id": "filler.it.50", "text": "Per noi ogni cliente è unico, e così ogni soluzione che proponiamo."},
+    {"id": "filler.it.51", "text": "Materiali certificati, personale qualificato e prezzi chiari: ecco perché sceglierci."},
+    {"id": "filler.it.52", "text": "Il rapporto qualità-prezzo è sempre al centro delle nostre scelte."},
+    {"id": "filler.it.53", "text": "Prima di iniziare qualsiasi lavoro concordiamo con il cliente tempi e costi."},
+    {"id": "filler.it.54", "text": "Siamo attenti ai dettagli, perché sono i dettagli a fare la differenza."}
+  ],
+  "legal_footer": [
+    {"id": "footer.it.01", "countries": ["IT"], "text": "{S_NAME:legal} – Sede legale: {S_ADDRESS} – {S_REG_ID} – Capitale sociale {CAPITAL} i.v."},
+    {"id": "footer.it.02", "countries": ["IT"], "text": "{S_NAME:legal} – Sede legale: {S_ADDRESS} – {S_REG_ID} – {S_REG_ID} – Cap. soc. {CAPITAL} i.v."},
+    {"id": "footer.it.03", "countries": ["IT"], "text": "{S_NAME:legal} · {S_ADDRESS} · Tel. {S_PHONE} · {S_EMAIL} · {S_REG_ID}"},
+    {"id": "footer.it.04", "countries": ["IT"], "text": "{S_NAME} – {LEGAL_FORM} con capitale sociale di {CAPITAL} interamente versato – {S_ADDRESS} – {S_REG_ID}"},
+    {"id": "footer.it.05", "countries": ["IT"], "text": "{S_NAME:legal} | {S_ADDRESS} | {S_REG_ID} | PEC {S_EMAIL} | {S_URL}"},
+    {"id": "footer.it.06", "countries": ["IT"], "text": "{S_NAME} – {S_ADDRESS} – {S_REG_ID} – {ACTIVITY_CODE}"},
+    {"id": "footer.it.07", "countries": ["IT"], "text": "Società iscritta al Registro delle Imprese di {city} – {S_REG_ID} – Capitale sociale {CAPITAL} i.v. – Sede legale: {S_ADDRESS}"},
+    {"id": "footer.it.08", "countries": ["CH"], "text": "{S_NAME:legal} – {S_ADDRESS} – {S_REG_ID} – Capitale azionario {CAPITAL}"},
+    {"id": "footer.it.09", "countries": ["CH"], "text": "{S_NAME:legal} · {S_ADDRESS} · Tel. {S_PHONE} · {S_EMAIL} · {S_URL} · {S_REG_ID}"},
+    {"id": "footer.it.10", "countries": ["CH"], "text": "{S_NAME:legal}, {S_ADDRESS} – iscritta a registro di commercio del Cantone Ticino – {S_REG_ID}"},
+    {"id": "footer.it.11", "countries": ["CH"], "text": "{S_NAME} – {LEGAL_FORM} con sede a {city} – Capitale sociale {CAPITAL} – {S_REG_ID}"},
+    {"id": "footer.it.12", "countries": ["CH"], "text": "{S_NAME:legal} | {S_ADDRESS}, {country} | {S_REG_ID} | {S_URL}"}
+  ],
+  "invoice_notes": {
+    "payment_terms": [
+      "Pagamento: bonifico bancario a {n_days} giorni data fattura.",
+      "Condizioni di pagamento: bonifico a {n_days} gg d.f.f.m.",
+      "Pagamento a mezzo RiBa a {n_days} giorni fine mese.",
+      "Rimessa diretta alla consegna.",
+      "Scadenza del pagamento: {date}, mediante bonifico sulle coordinate bancarie sotto indicate.",
+      "Pagamento netto entro {n_days} giorni.",
+      "Per il pagamento vogliate utilizzare la QR-fattura allegata.",
+      "Pagamento anticipato alla conferma dell'ordine."
+    ],
+    "late_penalty": [
+      "In caso di ritardato pagamento saranno applicati gli interessi di mora ai sensi del D.Lgs. 231/2002.",
+      "Sui pagamenti effettuati oltre la scadenza verranno addebitati interessi di mora (tasso annuo: {percent}).",
+      "Trascorsi {n_days} giorni dalla scadenza, ci riserviamo di addebitare spese di sollecito pari a {amount}.",
+      "In caso di mora sono dovuti interessi moratori a decorrere dalla scadenza della fattura (tasso: {percent} annuo)."
+    ],
+    "vat_exempt": [
+      "Operazione effettuata ai sensi dell'art. 1, commi da 54 a 89, della Legge n. 190/2014 – regime forfettario.",
+      "Operazione esente IVA ai sensi dell'art. 10 del D.P.R. 633/1972.",
+      "Operazione non soggetta a IVA ai sensi dell'art. 7-ter del D.P.R. 633/1972.",
+      "Inversione contabile ai sensi dell'art. 17, comma 6, del D.P.R. 633/1972.",
+      "Operazione senza applicazione dell'IVA; imposta di bollo di {amount} assolta sull'originale.",
+      "Prestazione esclusa dall'imposta ai sensi dell'art. 21 LIVA.",
+      "Ditta non iscritta nel registro dei contribuenti IVA."
+    ],
+    "thanks": [
+      "Grazie per averci scelto!",
+      "Vi ringraziamo per la fiducia accordataci.",
+      "Grazie per il vostro acquisto, a presto!",
+      "Ringraziamo per la preferenza e porgiamo cordiali saluti.",
+      "Grazie per la collaborazione."
+    ],
+    "quote_validity": [
+      "Il presente preventivo ha validità {n_days} giorni dalla data di emissione.",
+      "Scadenza dell'offerta: {date}.",
+      "Prezzi validi {n_days} giorni, salvo esaurimento scorte.",
+      "Validità dell'offerta: {n_days} giorni."
+    ],
+    "quote_acceptance": [
+      "Per accettazione, restituire copia del presente preventivo timbrata e firmata.",
+      "Acconto alla conferma: {percent} dell'importo totale; saldo alla consegna.",
+      "Timbro e firma del cliente per accettazione",
+      "L'accettazione può essere comunicata anche via e-mail, citando il numero del preventivo."
+    ],
+    "credit_reason": [
+      "Nota di credito a storno parziale della fattura n. {invoice_no} del {date}.",
+      "Storno totale della fattura n. {invoice_no} per reso merce.",
+      "Rettifica per errata applicazione del prezzo nella fattura n. {invoice_no}.",
+      "Abbuono concordato per merce danneggiata durante il trasporto.",
+      "Riaccredito di {amount} per prestazione non eseguita."
+    ]
+  },
+  "phrases": {
+    "page_x_of_y": [
+      "Pagina {p} di {n}",
+      "Pag. {p}/{n}",
+      "pag. {p} di {n}",
+      "Foglio {p} di {n}"
+    ],
+    "place_date": [
+      "{city}, {DOC_DATE}",
+      "{city}, lì {DOC_DATE}",
+      "{city}, li {DOC_DATE}",
+      "Luogo e data: {city}, {DOC_DATE}",
+      "{city}, in data {DOC_DATE}"
+    ],
+    "fin_amounts_note": [
+      "Importi espressi in {currency}",
+      "Valori in {currency}",
+      "(importi in {currency})",
+      "Tutti gli importi sono espressi in {currency}."
+    ],
+    "fin_period": [
+      "Esercizio dal {date_start} al {date_end}",
+      "Periodo: {date_start} – {date_end}",
+      "Esercizio sociale {date_start} – {date_end}",
+      "Bilancio relativo al periodo dal {date_start} al {date_end}"
+    ],
+    "price_validity": [
+      "Scadenza validità prezzi: {date}",
+      "I prezzi del presente listino sono validi fino al {date}, salvo variazioni.",
+      "Listino in vigore dal {date} fino a nuova comunicazione."
+    ],
+    "signature_line": [
+      "Timbro e firma",
+      "Il legale rappresentante",
+      "Firma del cliente",
+      "In fede",
+      "Firma per accettazione"
+    ],
+    "amount_in_words_intro": [
+      "Diconsi",
+      "Importo in lettere:",
+      "In lettere:",
+      "Totale in lettere:",
+      "Si dichiara di aver ricevuto la somma di"
+    ]
+  },
+  "letters": {
+    "payment_reminder": {
+      "subject": [
+        "Sollecito di pagamento – fattura n. {invoice_no}",
+        "Promemoria: fattura n. {invoice_no} scaduta in data {date}",
+        "Secondo sollecito di pagamento"
+      ],
+      "body": [
+        "Da un controllo della nostra contabilità risulta non ancora saldata la fattura n. {invoice_no}, emessa in data {date}, per un importo di {amount}.",
+        "Vi preghiamo di voler provvedere al pagamento entro {n_days} giorni dal ricevimento della presente, tramite bonifico sulle coordinate indicate in fattura.",
+        "Qualora il pagamento fosse già stato effettuato, Vi preghiamo di considerare nulla la presente e di inviarci copia della contabile.",
+        "Ci permettiamo di ricordare a {C_NAME} che la fattura n. {invoice_no}, pari a {amount}, è scaduta in data {date}.",
+        "Trascorso inutilmente tale termine, saremo costretti ad affidare la pratica al nostro legale, con addebito delle relative spese.",
+        "Per qualsiasi chiarimento potete contattare il nostro ufficio amministrativo al numero {S_PHONE} oppure scrivere a {S_EMAIL}."
+      ]
+    },
+    "quote_followup": {
+      "subject": [
+        "Il nostro preventivo inviato in data {date}",
+        "Seguito offerta: {SERVICE}",
+        "Richiesta di riscontro sul preventivo inviato"
+      ],
+      "body": [
+        "Facendo seguito al preventivo inviatoVi in data {date}, desideriamo sapere se avete avuto modo di esaminarlo.",
+        "Vi ricordiamo che l'offerta relativa a {SERVICE} resta valida fino al {date}.",
+        "Siamo disponibili per un incontro presso la sede di {C_NAME}, per illustrare nel dettaglio la nostra proposta.",
+        "Se lo ritenete utile, possiamo rivedere insieme tempi e modalità di esecuzione per adattarli alle Vostre esigenze.",
+        "Restiamo in attesa di un Vostro cortese riscontro e cogliamo l'occasione per porgere i nostri migliori saluti."
+      ]
+    },
+    "price_change": {
+      "subject": [
+        "Aggiornamento del listino prezzi – decorrenza {date}",
+        "Comunicazione di variazione prezzi",
+        "Nuove condizioni economiche"
+      ],
+      "body": [
+        "Con la presente Vi informiamo che, con decorrenza {date}, entrerà in vigore il nuovo listino prezzi, con una variazione media di +{percent} rispetto al precedente.",
+        "L'aumento si rende necessario a causa del forte rincaro delle materie prime e dei costi energetici registrato negli ultimi mesi.",
+        "Tutti gli ordini confermati prima di tale data saranno evasi alle condizioni attualmente in vigore.",
+        "Il nuovo listino è consultabile sul nostro sito {S_URL}; il Vostro referente commerciale resta a disposizione per ogni chiarimento.",
+        "Ringraziamo {C_NAME} per la comprensione e per la fiducia che ci viene accordata da anni."
+      ]
+    },
+    "appointment": {
+      "subject": [
+        "Conferma appuntamento – {date}",
+        "Proposta di incontro",
+        "Sopralluogo presso la Vostra sede"
+      ],
+      "body": [
+        "Con la presente confermiamo l'appuntamento fissato per il giorno {date} alle ore {time} presso la Vostra sede.",
+        "All'incontro parteciperà il nostro tecnico {person}, che effettuerà i rilievi necessari per la stesura del preventivo.",
+        "In caso di impedimento Vi preghiamo di avvisarci con almeno 24 ore di anticipo al numero {S_PHONE}.",
+        "Durante l'incontro illustreremo a {C_NAME} le soluzioni più adatte e raccoglieremo tutte le informazioni utili.",
+        "Vi preghiamo di confermare la Vostra disponibilità rispondendo alla presente e-mail."
+      ]
+    },
+    "closure": {
+      "subject": [
+        "Chiusura per ferie estive",
+        "Chiusura aziendale: {date_start} – {date_end}",
+        "Festività natalizie: periodo di chiusura"
+      ],
+      "body": [
+        "Vi informiamo che la nostra azienda resterà chiusa per ferie dal giorno {date_start} al giorno {date_end} compresi.",
+        "L'attività riprenderà regolarmente il giorno successivo con il consueto orario: {HOURS}.",
+        "Gli ordini pervenuti durante il periodo di chiusura saranno evasi in ordine di arrivo a partire dalla riapertura.",
+        "Per urgenze è possibile scrivere a {S_EMAIL}: le richieste verranno gestite appena possibile.",
+        "Cogliamo l'occasione per augurare a tutti i nostri clienti un sereno periodo di riposo."
+      ]
+    },
+    "move": {
+      "subject": [
+        "Trasferimento della sede",
+        "Nuovo indirizzo di {S_NAME}",
+        "Comunicazione di cambio indirizzo"
+      ],
+      "body": [
+        "Siamo lieti di comunicarVi che, con decorrenza {date}, i nostri uffici si trasferiranno nella nuova sede in {S_ADDRESS}.",
+        "I numeri di telefono e gli indirizzi e-mail restano invariati.",
+        "Vi preghiamo di aggiornare i Vostri archivi e di indirizzare da tale data tutta la corrispondenza al nuovo indirizzo: {S_ADDRESS}.",
+        "La nuova sede, più ampia e facilmente raggiungibile, ci permetterà di offrirVi un servizio ancora migliore.",
+        "Durante il trasloco, previsto nel periodo {date_start} – {date_end}, potrebbero verificarsi lievi rallentamenti nelle consegne."
+      ]
+    },
+    "new_service": {
+      "subject": [
+        "Novità: {SERVICE}",
+        "Un nuovo servizio per la Vostra azienda",
+        "Si amplia la nostra offerta"
+      ],
+      "body": [
+        "Siamo lieti di presentarVi un nuovo servizio: {SERVICE}.",
+        "Da questo mese la nostra offerta si arricchisce di: {SERVICE_LIST}.",
+        "Pensiamo che questa novità possa interessare {C_NAME} e saremo felici di illustrarVela in un incontro senza impegno.",
+        "Ai clienti già attivi riserviamo uno sconto speciale di benvenuto: {percent} sul primo ordine effettuato entro la fine del mese.",
+        "Trovate tutti i dettagli su {S_URL} oppure potete chiamarci al numero {S_PHONE}."
+      ]
+    },
+    "thanks": {
+      "subject": [
+        "Grazie per la fiducia",
+        "Ringraziamenti per la collaborazione",
+        "Un anno di lavoro insieme"
+      ],
+      "body": [
+        "Desideriamo ringraziare {C_NAME} per la fiducia accordataci nel corso di quest'anno.",
+        "La collaborazione con il Vostro staff è stata per noi un'esperienza preziosa, che speriamo di proseguire anche in futuro.",
+        "È stato un piacere seguire i Vostri progetti e contribuire al loro successo.",
+        "Restiamo a Vostra completa disposizione per ogni nuova esigenza.",
+        "Con l'occasione, a nome di tutto il team di {S_NAME}, Vi porgiamo i nostri più cordiali auguri di buone feste."
+      ]
+    },
+    "order_to_supplier": {
+      "subject": [
+        "Ordine di acquisto n. {order_no}",
+        "Ordine materiale – consegna richiesta: {date}",
+        "Conferma d'ordine"
+      ],
+      "body": [
+        "Con la presente Vi trasmettiamo il nostro ordine n. {order_no}, relativo al materiale indicato nell'elenco allegato.",
+        "Vi chiediamo di effettuare la consegna entro e non oltre il giorno {date} presso la nostra sede in {S_ADDRESS}.",
+        "Il pagamento avverrà come da accordi, con bonifico a {n_days} giorni data fattura fine mese.",
+        "Vi preghiamo di inviarci conferma d'ordine con l'indicazione dei tempi di consegna e degli eventuali articoli non disponibili.",
+        "Per qualsiasi comunicazione il nostro referente è {person}, {position}, raggiungibile al numero {S_PHONE}.",
+        "Chiediamo a {C_NAME} di riportare il numero d'ordine su bolla e fattura."
+      ]
+    },
+    "letter_to_bank": {
+      "subject": [
+        "Richiesta di aumento dell'affidamento",
+        "Richiesta di estratto conto",
+        "Comunicazione di variazione dei dati societari"
+      ],
+      "body": [
+        "Con la presente chiediamo a {bank} di valutare un aumento dell'affidamento concesso sul nostro conto corrente, in vista dei nuovi investimenti previsti per il prossimo anno.",
+        "A tal fine alleghiamo il bilancio dell'ultimo esercizio e la situazione contabile più recente, aggiornata in data {date}.",
+        "Vi chiediamo inoltre di inviarci l'estratto conto relativo al periodo {date_start} – {date_end}.",
+        "Vi comunichiamo che, con decorrenza {date}, la sede legale della società è trasferita in {S_ADDRESS}; Vi preghiamo di aggiornare i Vostri archivi.",
+        "Per ogni chiarimento potete rivolgerVi a {S_PERSON}, {manager_title}, al numero {S_PHONE}."
+      ]
+    },
+    "order_from_client": {
+      "subject": [
+        "Ordine n. {order_no}",
+        "Conferma d'ordine a seguito della Vostra offerta del {date}",
+        "Ordine di fornitura"
+      ],
+      "body": [
+        "Con la presente Vi confermiamo l'ordine per la fornitura descritta nella Vostra offerta datata {date}, alle condizioni in essa riportate.",
+        "Vi preghiamo di effettuare la consegna presso il nostro magazzino in {S_ADDRESS} entro il giorno {date}.",
+        "La fattura dovrà essere intestata a {S_NAME} e riportare il numero d'ordine {order_no}.",
+        "Per informazioni sulla consegna potete contattare {person} al numero {S_PHONE}.",
+        "Chiediamo a {C_NAME} di confermarci per iscritto la presa in carico dell'ordine."
+      ]
+    },
+    "complaint_from_client": {
+      "subject": [
+        "Reclamo per fornitura non conforme",
+        "Contestazione della fattura n. {invoice_no}",
+        "Segnalazione di disservizio"
+      ],
+      "body": [
+        "In data {date} abbiamo ricevuto la merce relativa al nostro ordine n. {order_no}; al controllo, parte del materiale è risultata danneggiata.",
+        "Vi chiediamo di provvedere alla sostituzione entro {n_days} giorni oppure di emettere una nota di credito per l'importo corrispondente.",
+        "Segnaliamo inoltre che l'intervento effettuato in data {date} non è stato completato come concordato e che il nostro personale ha dovuto sospendere l'attività per diverse ore.",
+        "In attesa di un Vostro riscontro, sospendiamo il pagamento della fattura n. {invoice_no}.",
+        "Confidiamo in una rapida soluzione da parte di {C_NAME}, anche in considerazione dei rapporti di lunga data tra le nostre aziende."
+      ]
+    },
+    "quote_request": {
+      "subject": [
+        "Richiesta di preventivo",
+        "Richiesta di offerta – scadenza {date}",
+        "Richiesta di quotazione"
+      ],
+      "body": [
+        "Siamo interessati a ricevere un'offerta per la fornitura di quanto descritto nel capitolato allegato.",
+        "Vi chiediamo di indicare prezzi unitari, tempi di consegna e condizioni di pagamento.",
+        "L'offerta dovrà pervenire all'indirizzo {S_EMAIL} entro e non oltre il giorno {date}.",
+        "Per un eventuale sopralluogo potete contattare il nostro referente {person} ({position}).",
+        "Abbiamo conosciuto {C_NAME} grazie alla segnalazione di un collega e saremmo lieti di valutare una collaborazione."
+      ]
+    },
+    "supplier_offer": {
+      "subject": [
+        "Offerta riservata: {SERVICE}",
+        "Proposta commerciale per la Vostra attività",
+        "Condizioni speciali per i nuovi clienti"
+      ],
+      "body": [
+        "Siamo lieti di sottoporVi la nostra migliore offerta per il seguente articolo: {SERVICE}.",
+        "Promozione valida fino a fine mese: sconto {percent} su tutti gli ordini superiori a {amount}.",
+        "Il nostro catalogo comprende inoltre: {SERVICE_LIST}.",
+        "Il nostro agente di zona, {person}, sarà lieto di farVi visita per presentarVi i prodotti e lasciarVi alcuni campioni.",
+        "Siamo certi che la nostra proposta potrà interessare {C_NAME}; per informazioni potete scriverci a {S_EMAIL}."
+      ]
+    },
+    "bank_notice": {
+      "subject": [
+        "Comunicazione di variazione delle condizioni contrattuali",
+        "Avviso di addebito",
+        "Proposta di modifica unilaterale del contratto"
+      ],
+      "body": [
+        "Con la presente {bank} Vi informa che, con decorrenza {date}, entreranno in vigore le nuove condizioni economiche applicate al conto corrente di {C_NAME} presso la nostra filiale.",
+        "La variazione riguarda il canone mensile e le commissioni sui bonifici esteri, come dettagliato nel documento di sintesi allegato.",
+        "Ai sensi della normativa vigente, avete facoltà di recedere dal contratto senza spese entro la data di applicazione delle modifiche, con applicazione delle condizioni precedentemente praticate.",
+        "Per ulteriori informazioni potete rivolgerVi alla Vostra filiale di {city} o al Vostro gestore, {person}.",
+        "Vi informiamo inoltre che in data {date} è stato addebitato sul Vostro conto l'importo di {amount}, relativo alle competenze del trimestre."
+      ]
+    },
+    "loan_offer": {
+      "subject": [
+        "Proposta di finanziamento",
+        "Offerta di finanziamento per la Vostra impresa",
+        "Credito d'esercizio a condizioni agevolate"
+      ],
+      "body": [
+        "Siamo lieti di sottoporre a {C_NAME} una proposta di finanziamento chirografario per un importo di {amount}.",
+        "Il finanziamento prevede una durata di {n_years} e rate mensili costanti; tasso annuo nominale (TAN) fisso: {percent}.",
+        "L'offerta ha validità fino al giorno {date} ed è subordinata all'esito positivo dell'istruttoria.",
+        "Il Vostro consulente {person} è a disposizione per fissare un incontro presso la filiale di {city}.",
+        "Il finanziamento può essere assistito dalla garanzia del Fondo di Garanzia per le PMI, con una sensibile riduzione del costo complessivo.",
+        "{bank} Vi propone inoltre un credito d'esercizio fino a {amount} per far fronte alle esigenze di liquidità stagionali."
+      ]
+    },
+    "tax_reminder": {
+      "subject": [
+        "Comunicazione di irregolarità – periodo d'imposta {year}",
+        "Avviso bonario",
+        "Sollecito di pagamento delle imposte"
+      ],
+      "body": [
+        "{other_org} comunica che dal controllo automatizzato della dichiarazione presentata per il periodo d'imposta {year} è emerso un importo non versato di {amount}.",
+        "Il pagamento può essere effettuato entro {n_days} giorni dal ricevimento della presente comunicazione, tramite modello F24.",
+        "Se ritenete che la comunicazione non sia corretta, potete fornire chiarimenti entro lo stesso termine tramite i servizi telematici o presso un ufficio territoriale.",
+        "Contribuente: {C_NAME} – {C_REG_ID} – domicilio fiscale: {C_ADDRESS}",
+        "In caso di mancato pagamento, le somme dovute saranno iscritte a ruolo con l'applicazione delle sanzioni e degli interessi previsti dalla legge.",
+        "La decisione di tassazione per il periodo fiscale {year} è cresciuta in giudicato; l'importo di {amount} deve essere versato entro il giorno {date}."
+      ]
+    },
+    "registry_notice": {
+      "subject": [
+        "Deposito del bilancio – promemoria",
+        "Comunicazione dell'ufficio del registro",
+        "Richiesta di aggiornamento dei dati iscritti"
+      ],
+      "body": [
+        "{other_org} ricorda che il bilancio d'esercizio deve essere depositato entro {n_days} giorni dalla data di approvazione.",
+        "Dall'esame della posizione di {C_NAME} risulta che l'indirizzo PEC iscritto non è più attivo.",
+        "Vi invitiamo a regolarizzare la posizione entro il giorno {date}, per evitare l'applicazione delle sanzioni amministrative previste.",
+        "La pratica può essere presentata esclusivamente in via telematica, con firma digitale del legale rappresentante.",
+        "Posizione: {C_NAME} – {C_REG_ID} – sede: {C_ADDRESS}",
+        "Vi invitiamo a notificare, entro {n_days} giorni dal ricevimento della presente, le modifiche intervenute nella composizione degli organi sociali."
+      ]
+    }
+  },
+  "contract": {
+    "parties_provider": [
+      "{S_NAME:legal}, con sede legale in {S_ADDRESS}, {S_REG_ID}, in persona del legale rappresentante pro tempore {S_PERSON} (di seguito, il «Fornitore»)",
+      "{S_NAME}, {LEGAL_FORM} con capitale sociale di {CAPITAL} interamente versato, con sede in {S_ADDRESS}, {S_REG_ID}, in persona di {S_PERSON} in qualità di {manager_title} (di seguito, il «Prestatore»)",
+      "La società {S_NAME:legal}, con sede in {S_ADDRESS}, {S_REG_ID}, qui rappresentata da {S_PERSON} ({manager_title}), di seguito anche «Appaltatore»",
+      "{S_NAME:legal}, {S_ADDRESS}, {S_REG_ID}, rappresentata da {S_PERSON}, di seguito denominata «il Mandatario»"
+    ],
+    "parties_client": [
+      "{C_NAME}, con sede legale in {C_ADDRESS}, {C_REG_ID}, in persona di {person}, {position} (di seguito, il «Cliente»)",
+      "{C_NAME}, con sede in {C_ADDRESS}, {C_REG_ID}, rappresentata da {person} in qualità di {position}, di seguito denominata «Committente»",
+      "{C_NAME}, {C_ADDRESS}, {C_REG_ID}, nella persona di {person} ({position}), di seguito anche «il Cliente»"
+    ],
+    "preamble": [
+      "Premesso che il Fornitore svolge attività di {ACTIVITY} e dispone delle competenze e dei mezzi necessari per l'esecuzione delle prestazioni oggetto del presente contratto;",
+      "Premesso altresì che il Cliente intende avvalersi dei servizi del Fornitore alle condizioni di seguito indicate, le Parti convengono e stipulano quanto segue.",
+      "Le premesse costituiscono parte integrante e sostanziale del presente contratto.",
+      "Premesso che il Fornitore, {S_NAME}, opera nel proprio settore dal {FOUNDED} e che il Committente ha richiesto una proposta per i servizi descritti nell'allegato tecnico, si conviene quanto segue."
+    ],
+    "object": [
+      "Il presente contratto ha per oggetto la fornitura, da parte del Fornitore, dei seguenti servizi: {SERVICE_LIST}.",
+      "Oggetto del contratto è la prestazione del servizio «{SERVICE}», secondo le specifiche tecniche riportate nell'allegato A.",
+      "Con il presente accordo il Committente affida al Prestatore, che accetta, l'esecuzione delle seguenti attività: {SERVICE_LIST}."
+    ],
+    "duration": [
+      "Il contratto ha durata di dodici mesi con decorrenza {date_start} e si rinnova tacitamente di anno in anno, salvo disdetta da inviarsi con un preavviso di almeno {n_days} giorni.",
+      "Il presente accordo ha validità dal giorno {date_start} al giorno {date_end}, senza necessità di disdetta.",
+      "La durata del contratto è fissata in {n_years} a partire dalla data di sottoscrizione."
+    ],
+    "price": [
+      "Per le prestazioni di cui al presente contratto il Cliente corrisponderà al Fornitore un corrispettivo annuo di {amount}, oltre IVA di legge.",
+      "Il corrispettivo complessivo è fissato in {amount} più IVA, fisso e invariabile per tutta la durata del contratto.",
+      "Il prezzo concordato è di {amount} IVA esclusa; eventuali prestazioni aggiuntive saranno quotate separatamente."
+    ],
+    "payment": [
+      "Il pagamento avverrà mediante bonifico bancario entro {n_days} giorni dalla data di ricevimento della fattura.",
+      "Le fatture saranno emesse con cadenza mensile e pagate a {n_days} giorni data fattura fine mese; in caso di ritardo saranno dovuti gli interessi moratori di legge.",
+      "Modalità di pagamento: {percent} alla firma del presente contratto, saldo entro {n_days} giorni dal completamento delle prestazioni."
+    ],
+    "obligations": [
+      "Il Fornitore si impegna a eseguire le prestazioni con la diligenza professionale richiesta e nel rispetto delle normative vigenti.",
+      "Il Cliente si impegna a fornire tempestivamente tutte le informazioni e l'accesso ai locali necessari per l'esecuzione del servizio.",
+      "Il Prestatore garantisce che il personale impiegato è regolarmente assunto, assicurato e adeguatamente formato."
+    ],
+    "confidentiality": [
+      "Le Parti si impegnano a mantenere strettamente riservate tutte le informazioni di cui vengano a conoscenza nell'esecuzione del presente contratto.",
+      "L'obbligo di riservatezza resterà in vigore per {n_years} dalla cessazione del contratto, per qualsiasi causa intervenuta.",
+      "Le informazioni riservate non potranno essere comunicate a terzi senza il preventivo consenso scritto dell'altra Parte."
+    ],
+    "liability": [
+      "Il Fornitore non risponde di danni derivanti da cause di forza maggiore o da un uso improprio dei beni e dei servizi da parte del Cliente.",
+      "In ogni caso la responsabilità del Fornitore non potrà eccedere l'importo del corrispettivo annuo previsto dal presente contratto.",
+      "Il Prestatore dichiara di essere titolare di una polizza di responsabilità civile adeguata ai rischi connessi all'attività svolta."
+    ],
+    "termination": [
+      "Ciascuna Parte potrà recedere dal contratto con un preavviso scritto di {n_days} giorni, da comunicarsi a mezzo PEC o raccomandata A/R.",
+      "In caso di inadempimento grave, la Parte non inadempiente potrà risolvere il contratto ai sensi dell'art. 1456 del Codice civile.",
+      "Il contratto si intenderà risolto di diritto in caso di fallimento o di altra procedura concorsuale a carico di una delle Parti."
+    ],
+    "law": [
+      "Il presente contratto è regolato dalla legge italiana. Per ogni controversia sarà competente in via esclusiva il Foro di {city}.",
+      "Per qualsiasi controversia derivante dal presente contratto o connessa allo stesso sarà competente in via esclusiva il Foro di {city}.",
+      "Il presente contratto è retto dal diritto svizzero; foro competente è {city}."
+    ],
+    "signature": [
+      "Letto, approvato e sottoscritto. {city}, {DOC_DATE}",
+      "Fatto in duplice originale a {city}, in data {DOC_DATE}.",
+      "{city}, lì {DOC_DATE} – Il Fornitore ____________________ Il Cliente ____________________",
+      "Luogo e data: {city}, {DOC_DATE} – Per il Prestatore: ____________________ Per il Committente: ____________________"
+    ]
+  },
+  "terms": {
+    "cgv": [
+      "Le presenti condizioni generali di vendita si applicano a tutte le vendite di prodotti e servizi effettuate da {S_NAME:legal} (di seguito, il «Venditore») tramite il sito {S_URL} o presso la propria sede.",
+      "L'ordine si intende perfezionato nel momento in cui il Cliente riceve, via e-mail, la conferma d'ordine inviata dal Venditore.",
+      "Tutti i prezzi sono espressi in euro e si intendono comprensivi di IVA, salvo diversa indicazione. Le spese di spedizione sono indicate separatamente prima della conferma dell'ordine.",
+      "Il pagamento può essere effettuato con carta di credito, bonifico bancario anticipato o PayPal. In caso di bonifico, la merce viene spedita al ricevimento dell'accredito.",
+      "I termini di consegna sono indicativi; di norma la merce viene consegnata entro {n_days} giorni lavorativi dalla conferma dell'ordine.",
+      "Tutti i prodotti sono coperti dalla garanzia legale di conformità prevista dagli artt. 128 e seguenti del Codice del Consumo (D.Lgs. 206/2005).",
+      "Il Cliente consumatore ha diritto di recedere dal contratto, senza indicarne le ragioni, entro 14 giorni dal ricevimento della merce, dandone comunicazione scritta a {S_EMAIL}.",
+      "I prodotti restituiti devono essere integri, nella confezione originale e completi di tutti gli accessori; le spese di restituzione sono a carico del Cliente.",
+      "Il Venditore non potrà essere ritenuto responsabile per ritardi o disservizi dovuti a cause di forza maggiore o a fatti di terzi.",
+      "La merce rimane di proprietà del Venditore fino al completo pagamento del prezzo.",
+      "Eventuali reclami possono essere inviati per iscritto a {S_NAME}, {S_ADDRESS}, oppure all'indirizzo e-mail {S_EMAIL}.",
+      "Per i clienti professionali le fatture devono essere saldate entro {n_days} giorni; in caso di ritardo sono dovuti gli interessi di mora ai sensi del D.Lgs. 231/2002.",
+      "Per ogni controversia con il consumatore è competente il foro del luogo di residenza o di domicilio di quest'ultimo; negli altri casi è competente in via esclusiva il Foro di {city}.",
+      "Il Venditore si riserva il diritto di modificare le presenti condizioni in qualsiasi momento; al singolo ordine si applicano le condizioni in vigore al momento del suo invio."
+    ],
+    "privacy": [
+      "Titolare del trattamento è {S_NAME:legal}, con sede in {S_ADDRESS}, contattabile all'indirizzo e-mail {S_EMAIL}.",
+      "I dati personali forniti dall'utente (nome, cognome, indirizzo e-mail, numero di telefono) sono trattati esclusivamente per rispondere alle richieste e per l'esecuzione dei contratti.",
+      "Il trattamento è effettuato con strumenti manuali e informatici, nel rispetto del Regolamento (UE) 2016/679 (GDPR) e della normativa nazionale vigente.",
+      "I dati sono conservati per il tempo necessario alle finalità per cui sono stati raccolti e, per gli obblighi fiscali, per un periodo di dieci anni.",
+      "I dati non sono diffusi; possono essere comunicati a consulenti, corrieri e istituti bancari esclusivamente per le finalità sopra indicate.",
+      "L'interessato può esercitare in ogni momento i diritti di accesso, rettifica, cancellazione, limitazione e portabilità dei dati scrivendo a {S_EMAIL}.",
+      "L'interessato ha inoltre il diritto di proporre reclamo al Garante per la protezione dei dati personali.",
+      "Il conferimento dei dati è facoltativo, ma il rifiuto comporta l'impossibilità di dare seguito alla richiesta.",
+      "Per gli utenti residenti in Svizzera il trattamento avviene anche nel rispetto della Legge federale sulla protezione dei dati (LPD)."
+    ],
+    "legal_notice": [
+      "Titolare del sito: {S_NAME:legal}",
+      "Sede legale: {S_ADDRESS}",
+      "{S_REG_ID}",
+      "Capitale sociale: {CAPITAL} i.v.",
+      "Forma giuridica: {LEGAL_FORM}",
+      "Tel. {S_PHONE} – E-mail: {S_EMAIL}",
+      "Responsabile dei contenuti: {S_PERSON}",
+      "Hosting: {other_org}, {other_address}",
+      "Il sito {S_URL} è di proprietà di {S_NAME:legal}; tutti i contenuti sono protetti dal diritto d'autore e ne è vietata la riproduzione senza autorizzazione scritta.",
+      "Il sito è ospitato da {other_org}, con sede in {other_address}."
+    ],
+    "cookies": [
+      "Questo sito utilizza cookie tecnici necessari al suo funzionamento e, previo consenso, cookie analitici e di profilazione.",
+      "Puoi modificare le tue preferenze in qualsiasi momento cliccando su «Impostazioni cookie» in fondo alla pagina.",
+      "Chiudendo il banner con la X verranno utilizzati esclusivamente i cookie tecnici.",
+      "I cookie analitici sono conservati per un massimo di {n_days} giorni e non consentono di identificare direttamente l'utente."
+    ]
+  },
+  "web": {
+    "testimonials": [
+      "«Professionali, puntuali e sempre disponibili. Li consiglio a tutti!» – {person}",
+      "«Consiglio {S_NAME} senza esitazioni: serietà e qualità ormai rare.» – {person}, {city}",
+      "«Il servizio {SERVICE} ha superato le nostre aspettative.» – {person}, {position}",
+      "«Preventivo chiaro, lavoro finito nei tempi promessi e nessuna sorpresa in fattura.» – {person}",
+      "«Da anni ci affidiamo a {S_NAME} e non abbiamo mai avuto un problema.» – {person}",
+      "«Cortesia e competenza: finalmente un'azienda che ascolta davvero il cliente.» – {person}, {city}",
+      "«Ottimo rapporto qualità-prezzo, torneremo sicuramente!» – {person}",
+      "«Esperienza eccellente dall'inizio alla fine. Grazie a tutto lo staff di {S_NAME}!» – {person}"
+    ],
+    "news": [
+      "{date} – Da oggi è disponibile un nuovo servizio: {SERVICE}.",
+      "{date} – Siamo lieti di annunciare l'apertura del nostro nuovo showroom a {city}.",
+      "{date} – Il nostro team parteciperà alla fiera di settore di {city}: veniteci a trovare!",
+      "{date} – Nuovi orari estivi: consultate la pagina Contatti per tutti i dettagli.",
+      "{date} – Il nostro sito si rinnova nella grafica e nei contenuti.",
+      "{date} – Promozione di primavera: sconto {percent} su {SERVICE}.",
+      "{date} – Diamo il benvenuto a {person}, che entra nel nostro team come {position}.",
+      "{date} – Chiusura straordinaria per inventario: riapriamo il giorno successivo con il consueto orario."
+    ],
+    "cta": [
+      "Richiedi subito un preventivo gratuito!",
+      "Chiamaci al {S_PHONE}",
+      "Scrivici a {S_EMAIL}: ti risponderemo entro 24 ore.",
+      "Prenota ora la tua consulenza.",
+      "Scopri di più su {S_URL}",
+      "Iscriviti alla newsletter per ricevere offerte e novità.",
+      "Contattaci senza impegno.",
+      "Vieni a trovarci: ti aspettiamo!",
+      "Chiedi informazioni su {SERVICE}: rispondiamo in giornata."
+    ]
+  },
+  "noise": {
+    "meeting": [
+      "Verbale della riunione – {date}. Presenti: {person}, il responsabile vendite e due tecnici.",
+      "Punto 1: analisi degli ordini del trimestre. Si decide di sollecitare i clienti con fatture scadute da oltre {n_days} giorni.",
+      "Punto 2: organizzazione delle ferie estive; le richieste vanno consegnate in segreteria entro fine mese.",
+      "Prossima riunione fissata per {weekday} alle {time} in sala riunioni.",
+      "Azioni: {person} prepara il report mensile entro venerdì; l'ufficio tecnico verifica le tempistiche del cantiere.",
+      "Budget di marketing: approvato l'incremento proposto (+{percent} rispetto all'anno scorso).",
+      "Varie ed eventuali: nessuna. La riunione si chiude alle {time}."
+    ],
+    "recipe": [
+      "Ingredienti: 500 g di farina 00, 300 ml di acqua tiepida, 10 g di sale, 7 g di lievito di birra secco.",
+      "Impastare per almeno dieci minuti, fino a ottenere un impasto liscio ed elastico.",
+      "Lasciare lievitare coperto, in un luogo tiepido, per circa due ore.",
+      "Cuocere in forno preriscaldato a 220 °C per 25-30 minuti.",
+      "Mantecare il risotto fuori dal fuoco con burro freddo e parmigiano grattugiato, poi servire subito."
+    ],
+    "manual": [
+      "Prima di utilizzare l'apparecchio, leggere attentamente le istruzioni contenute nel presente manuale.",
+      "Tenere premuto il tasto ON/OFF per almeno tre secondi, fino all'accensione del display.",
+      "Per collegare la stampante alla rete Wi-Fi, selezionare Impostazioni > Rete > Configurazione guidata.",
+      "Non immergere la base in acqua né in altri liquidi.",
+      "In caso di malfunzionamento, scollegare l'alimentazione e attendere 30 secondi prima di riaccendere.",
+      "Pulire il filtro ogni {n_days} giorni con acqua tiepida e un detergente neutro.",
+      "Aggiornare il software all'ultima versione disponibile dal menu Guida > Verifica aggiornamenti."
+    ],
+    "news": [
+      "Produzione industriale: +{percent} su base annua secondo i dati diffusi oggi.",
+      "Sciopero dei trasporti previsto per {weekday}: possibili disagi su treni e autobus in tutta la regione.",
+      "A {city} al via i lavori di riqualificazione del lungolago, che dureranno circa due anni.",
+      "Maltempo al Nord: allerta arancione per temporali su Lombardia e Piemonte.",
+      "Il prezzo del gas all'ingrosso scende per il terzo mese consecutivo.",
+      "La Camera di commercio organizza un ciclo di seminari gratuiti sulla digitalizzazione delle piccole imprese.",
+      "Traffico intenso in autostrada in direzione {city} per il primo weekend di esodo estivo."
+    ],
+    "todo": [
+      "Chiamare il commercialista per la scadenza IVA.",
+      "Ordinare il toner per la stampante dell'ufficio.",
+      "Rinnovare l'assicurazione del furgone (scadenza {date}).",
+      "Inviare i preventivi in sospeso.",
+      "Preparare i documenti per la banca.",
+      "Fissare il tagliando dell'auto aziendale."
+    ],
+    "memo": [
+      "A tutto il personale: a partire dal giorno {date} l'ingresso dal parcheggio sul retro resterà chiuso per lavori.",
+      "Si ricorda che le richieste di ferie per il mese di agosto devono pervenire all'ufficio personale entro il giorno {date}.",
+      "Promemoria: la riunione di reparto è spostata a {weekday} alle {time}.",
+      "Si prega di non lasciare materiale nei corridoi, per ragioni di sicurezza.",
+      "Il corso di aggiornamento sulla sicurezza si terrà in data {date} in sala formazione; la partecipazione è obbligatoria.",
+      "Da lunedì è attivo il nuovo gestionale per le note spese: le istruzioni sono disponibili sulla intranet.",
+      "Chi utilizza l'auto aziendale è pregato di annotare i chilometri percorsi sull'apposito registro."
+    ],
+    "generic": [
+      "Il treno delle 8:15 per {city} viaggia con circa venti minuti di ritardo.",
+      "Ricordati di passare in farmacia prima delle sette.",
+      "L'assemblea condominiale ha approvato il rifacimento della facciata.",
+      "Buon compleanno! Ti auguro una giornata piena di sorprese.",
+      "Domenica pranzo dai nonni: porta tu il dolce.",
+      "Il parcheggio di piazza del Mercato sarà chiuso il sabato mattina.",
+      "Grazie mille per l'ospitalità, ci siamo trovati benissimo.",
+      "La biblioteca comunale resterà chiusa per inventario fino a nuovo avviso.",
+      "Hai visto la partita ieri sera? Che finale!",
+      "Previsioni per il fine settimana: sole al mattino e qualche nuvola nel pomeriggio.",
+      "Il corso di yoga riprende a settembre, il {weekday} sera.",
+      "Ci vediamo alle {time} davanti al cinema.",
+      "Ho lasciato le chiavi in portineria.",
+      "Il volo è stato anticipato di mezz'ora: meglio partire presto."
+    ],
+    "press": [
+      "Per {S_NAME}, realtà di {city} specializzata in {ACTIVITY}, quello appena concluso è stato un anno da record.",
+      "Fondata nel {FOUNDED}, l'azienda conta oggi {STAFF} {staff_noun} e ha chiuso il {REVENUE_YEAR} con un fatturato di {REVENUE}.",
+      "«Puntiamo a crescere ancora, senza perdere il legame con il territorio», spiega {S_PERSON}, {manager_title} dell'azienda.",
+      "Tra le novità presentate dall'impresa c'è anche un nuovo servizio: {SERVICE}.",
+      "L'impresa, nata nel {FOUNDED} come piccola attività familiare, è oggi un punto di riferimento per tutto il territorio di {city}.",
+      "Con {STAFF} {staff_noun} e un fatturato di {REVENUE}, la società guidata da {S_PERSON} guarda con fiducia ai prossimi anni.",
+      "Il successo di {S_NAME} nasce da una scelta precisa: concentrarsi su un solo mestiere, {ACTIVITY}, e farlo bene.",
+      "Nel {REVENUE_YEAR} i ricavi dell'azienda hanno toccato {REVENUE}, trainati dalla crescita delle vendite online."
+    ]
+  }
+}

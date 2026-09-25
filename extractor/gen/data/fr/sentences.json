@@ -1,0 +1,1098 @@
+{
+  "lang": "fr",
+
+  "activity": [
+    {"id": "activity.fr.01", "text": "Activité : {ACTIVITY}"},
+    {"id": "activity.fr.02", "text": "Activité principale : {ACTIVITY}."},
+    {"id": "activity.fr.03", "text": "Notre métier : {ACTIVITY}."},
+    {"id": "activity.fr.04", "text": "Secteur d'activité : {ACTIVITY}"},
+    {"id": "activity.fr.05", "text": "Activité exercée : {ACTIVITY}"},
+    {"id": "activity.fr.06", "text": "Objet social : {ACTIVITY}, ainsi que toutes opérations se rattachant directement ou indirectement à cet objet."},
+    {"id": "activity.fr.07", "text": "La société a pour objet : {ACTIVITY} ; et, plus généralement, toutes opérations commerciales, financières, mobilières ou immobilières pouvant se rattacher directement ou indirectement à l'objet social."},
+    {"id": "activity.fr.08", "text": "Basée à {city}, l'entreprise {S_NAME} a pour activité principale : {ACTIVITY}."},
+    {"id": "activity.fr.09", "text": "Depuis sa création, notre entreprise se consacre à un seul métier : {ACTIVITY}."},
+    {"id": "activity.fr.10", "text": "Implantée à {city}, la société {S_NAME} est spécialisée en {ACTIVITY}."},
+    {"id": "activity.fr.11", "text": "{S_NAME} – {ACTIVITY}"},
+    {"id": "activity.fr.12", "text": "Entreprise indépendante spécialisée en {ACTIVITY}, nous sommes attachés au travail bien fait et au respect de nos engagements."},
+    {"id": "activity.fr.13", "text": "Qui sommes-nous ? Une équipe de passionnés, un savoir-faire reconnu et un domaine d'expertise : {ACTIVITY}."},
+    {"id": "activity.fr.14", "text": "Nature de l'activité : {ACTIVITY}"},
+    {"id": "activity.fr.15", "text": "Description de l'activité : {ACTIVITY}"},
+    {"id": "activity.fr.16", "text": "But : {ACTIVITY}."},
+    {"id": "activity.fr.17", "text": "Activité déclarée : {ACTIVITY}"},
+    {"id": "activity.fr.18", "text": "Notre savoir-faire en {ACTIVITY} est reconnu à {city} et bien au-delà."},
+    {"id": "activity.fr.19", "text": "Le cœur de notre activité n’a pas changé depuis nos débuts : {ACTIVITY}."},
+    {"id": "activity.fr.20", "text": "Votre spécialiste en {ACTIVITY} à {city} et dans toute la région"},
+    {"id": "activity.fr.21", "text": "À taille humaine et spécialisée en {ACTIVITY}, notre entreprise privilégie la proximité et la réactivité."},
+    {"id": "activity.fr.22", "text": "Domaine d'activité : {ACTIVITY} – Zone d'intervention : {city} et environs"},
+    {"id": "activity.fr.23", "text": "Chez {S_NAME}, un seul mot d'ordre depuis toujours : la qualité. Notre métier : {ACTIVITY}."},
+    {"id": "activity.fr.24", "text": "Acteur reconnu sur son marché, l'entreprise intervient dans le domaine suivant : {ACTIVITY}."},
+    {"id": "activity.fr.25", "text": "PME familiale œuvrant en {ACTIVITY} depuis plus de {n_years}, nous accompagnons particuliers et entreprises."},
+    {"id": "activity.fr.26", "text": "{ACTIVITY_CODE} – {ACTIVITY}"},
+    {"id": "activity.fr.27", "text": "Libellé de l'activité : {ACTIVITY}"},
+    {"id": "activity.fr.28", "text": "Tout au long de l'année, nos équipes mettent leur expérience au service des particuliers et des professionnels dans un domaine précis : {ACTIVITY}."},
+    {"id": "activity.fr.29", "text": "Présentation de l'entreprise – activité : {ACTIVITY} ; clientèle : particuliers et professionnels ; zone d'intervention : {city} et sa région."},
+    {"id": "activity.fr.30", "text": "Activité / Activity : {ACTIVITY}"}
+  ],
+
+  "founded": [
+    {"id": "founded.fr.01", "text": "Création : {FOUNDED}"},
+    {"id": "founded.fr.02", "text": "Date de création : {FOUNDED:date}"},
+    {"id": "founded.fr.03", "text": "Année de fondation : {FOUNDED}"},
+    {"id": "founded.fr.04", "text": "Fondée en {FOUNDED}, notre entreprise a su évoluer tout en restant fidèle à ses valeurs."},
+    {"id": "founded.fr.05", "text": "Depuis {FOUNDED}, notre équipe met son savoir-faire au service de ses clients."},
+    {"id": "founded.fr.06", "text": "L'entreprise {S_NAME} a été créée en {FOUNDED} à {city}."},
+    {"id": "founded.fr.07", "text": "Date d'immatriculation : {FOUNDED:date}"},
+    {"id": "founded.fr.08", "text": "Date de constitution : {FOUNDED:date}"},
+    {"id": "founded.fr.09", "text": "Date de commencement d'activité : {FOUNDED:date}"},
+    {"id": "founded.fr.10", "text": "Tout commence en {FOUNDED:month} : {S_PERSON}, aujourd'hui encore à la tête de l'entreprise, se lance avec une idée simple – bien faire son métier."},
+    {"id": "founded.fr.11", "text": "Née en {FOUNDED}, l'entreprise compte aujourd'hui parmi les acteurs incontournables de son secteur à {city}."},
+    {"id": "founded.fr.12", "text": "{S_NAME} – depuis {FOUNDED}"},
+    {"id": "founded.fr.13", "text": "Au service de nos clients depuis {FOUNDED}"},
+    {"id": "founded.fr.14", "text": "Créée le {FOUNDED:date}, la société est dirigée par {S_PERSON}."},
+    {"id": "founded.fr.15", "text": "C’est en {FOUNDED} que l’entreprise voit le jour, dans un modeste local à {city}."},
+    {"id": "founded.fr.16", "text": "Depuis sa création en {FOUNDED}, l'entreprise n'a cessé de se développer."},
+    {"id": "founded.fr.17", "text": "En activité depuis {FOUNDED:month}"},
+    {"id": "founded.fr.18", "text": "Date de fondation : {FOUNDED:date}"},
+    {"id": "founded.fr.19", "text": "Année de création : {FOUNDED}"},
+    {"id": "founded.fr.20", "text": "Constituée en {LEGAL_FORM} le {FOUNDED:date}, la société a son siège à {city}."},
+    {"id": "founded.fr.21", "text": "Date de début : {FOUNDED:date}"},
+    {"id": "founded.fr.22", "text": "Date d'immatriculation au RCCM : {FOUNDED:date}"},
+    {"id": "founded.fr.23", "text": "Date d'inscription au registre du commerce : {FOUNDED:date}"},
+    {"id": "founded.fr.24", "text": "Nous avons ouvert nos portes en {FOUNDED:month} et, depuis, notre clientèle n'a cessé de grandir."},
+    {"id": "founded.fr.25", "text": "Fondée à {city} en {FOUNDED} par {S_PERSON}, qui la dirige toujours, l'entreprise a conservé son caractère familial."},
+    {"id": "founded.fr.26", "text": "L'aventure a commencé en {FOUNDED}."},
+    {"id": "founded.fr.27", "text": "Entreprise fondée en {FOUNDED}"},
+    {"id": "founded.fr.28", "text": "Immatriculée au registre des entreprises depuis le {FOUNDED:date}, la société exerce ses activités à {city} et dans les environs."},
+    {"id": "founded.fr.29", "text": "Une histoire familiale qui a débuté en {FOUNDED} et qui continue de s'écrire avec vous."},
+    {"id": "founded.fr.30", "text": "Création de l'entreprise : {FOUNDED:month}"}
+  ],
+
+  "staff": [
+    {"id": "staff.fr.01", "text": "Effectif : {STAFF}"},
+    {"id": "staff.fr.02", "text": "Effectif : {STAFF} {staff_noun}"},
+    {"id": "staff.fr.03", "text": "Nombre de salariés : {STAFF}"},
+    {"id": "staff.fr.04", "text": "L'entreprise emploie {STAFF} {staff_noun}."},
+    {"id": "staff.fr.05", "text": "Notre équipe compte aujourd'hui {STAFF} {staff_noun}."},
+    {"id": "staff.fr.06", "text": "Avec {STAFF} {staff_noun}, l'entreprise reste une structure à taille humaine."},
+    {"id": "staff.fr.07", "text": "Au service de nos clients, nous sommes aujourd'hui {STAFF} {staff_noun}."},
+    {"id": "staff.fr.08", "text": "Effectif salarié : {STAFF}"},
+    {"id": "staff.fr.09", "text": "Nombre d'employés : {STAFF}"},
+    {"id": "staff.fr.10", "text": "À ce jour, la société {S_NAME} fait travailler {STAFF} {staff_noun} sur ses deux sites."},
+    {"id": "staff.fr.11", "text": "Personnel : {STAFF} {staff_noun}"},
+    {"id": "staff.fr.12", "text": "L'effectif s'élève à {STAFF} {staff_noun} au 31 décembre."},
+    {"id": "staff.fr.13", "text": "Effectif moyen de l'exercice : {STAFF}"},
+    {"id": "staff.fr.14", "text": "Effectif moyen employé pendant l'exercice : {STAFF} {staff_noun}"},
+    {"id": "staff.fr.15", "text": "Notre équipe : {STAFF} {staff_noun} à votre écoute"},
+    {"id": "staff.fr.16", "text": "Aujourd'hui, l'entreprise s'appuie sur {STAFF} {staff_noun}."},
+    {"id": "staff.fr.17", "text": "Nous employons actuellement {STAFF} {staff_noun} à {city}."},
+    {"id": "staff.fr.18", "text": "Taille de l'entreprise : {STAFF} {staff_noun}"},
+    {"id": "staff.fr.19", "text": "Nombre de collaborateurs : {STAFF}"},
+    {"id": "staff.fr.20", "text": "Notre entreprise, qui emploie {STAFF} {staff_noun}, intervient sur l’ensemble de la région."},
+    {"id": "staff.fr.21", "text": "Total des effectifs : {STAFF}"},
+    {"id": "staff.fr.22", "text": "Notre effectif – {STAFF} {staff_noun} – nous permet de conserver la souplesse d'une petite structure."},
+    {"id": "staff.fr.23", "text": "Effectif (ETP) : {STAFF}"},
+    {"id": "staff.fr.24", "text": "Nombre moyen de travailleurs occupés : {STAFF}"},
+    {"id": "staff.fr.25", "text": "L'entreprise occupe {STAFF} {staff_noun}."},
+    {"id": "staff.fr.26", "text": "{S_NAME} en bref : {STAFF} {staff_noun}, une clientèle fidèle et un savoir-faire reconnu."},
+    {"id": "staff.fr.27", "text": "Notre équipe, qui réunit {STAFF} {staff_noun}, s'appuie aussi sur un réseau de sous-traitants de confiance."},
+    {"id": "staff.fr.28", "text": "Effectifs au {date} : {STAFF}"},
+    {"id": "staff.fr.29", "text": "Nombre d'employés / Number of employees : {STAFF}"},
+    {"id": "staff.fr.30", "text": "Une PME solidement ancrée dans son territoire, qui compte {STAFF} {staff_noun}"}
+  ],
+
+  "revenue": [
+    {"id": "revenue.fr.01", "text": "Chiffre d'affaires : {REVENUE}"},
+    {"id": "revenue.fr.02", "text": "Chiffre d'affaires {REVENUE_YEAR} : {REVENUE}"},
+    {"id": "revenue.fr.03", "text": "CA {REVENUE_YEAR} : {REVENUE}"},
+    {"id": "revenue.fr.04", "text": "En {REVENUE_YEAR}, l'entreprise a réalisé un chiffre d'affaires de {REVENUE}."},
+    {"id": "revenue.fr.05", "text": "Le chiffre d'affaires s'est établi à {REVENUE} en {REVENUE_YEAR}, contre {REVENUE_PREV} en {REVENUE_YEAR_PREV}."},
+    {"id": "revenue.fr.06", "text": "Chiffre d'affaires net de l'exercice {REVENUE_YEAR} : {REVENUE}"},
+    {"id": "revenue.fr.07", "text": "Notre chiffre d'affaires annuel atteint aujourd'hui {REVENUE}."},
+    {"id": "revenue.fr.08", "text": "Avec un chiffre d'affaires de {REVENUE} en {REVENUE_YEAR}, la société {S_NAME} poursuit son développement."},
+    {"id": "revenue.fr.09", "text": "Ventes annuelles : {REVENUE}"},
+    {"id": "revenue.fr.10", "text": "Revenus {REVENUE_YEAR} : {REVENUE}"},
+    {"id": "revenue.fr.11", "text": "Chiffre d'affaires HT {REVENUE_YEAR} : {REVENUE}"},
+    {"id": "revenue.fr.12", "text": "Le CA de l'exercice {REVENUE_YEAR} s'élève à {REVENUE}."},
+    {"id": "revenue.fr.13", "text": "L’exercice {REVENUE_YEAR} se clôture sur un chiffre d’affaires de {REVENUE}."},
+    {"id": "revenue.fr.14", "text": "En {REVENUE_YEAR}, nos ventes ont atteint {REVENUE}."},
+    {"id": "revenue.fr.15", "text": "{REVENUE} de chiffre d'affaires en {REVENUE_YEAR}"},
+    {"id": "revenue.fr.16", "text": "Chiffre d'affaires annuel : {REVENUE} ({REVENUE_YEAR})"},
+    {"id": "revenue.fr.17", "text": "Chiffre d'affaires : {REVENUE_PREV} en {REVENUE_YEAR_PREV}, {REVENUE} en {REVENUE_YEAR}."},
+    {"id": "revenue.fr.18", "text": "Notre chiffre d'affaires a progressé de {percent} pour atteindre {REVENUE} en {REVENUE_YEAR}."},
+    {"id": "revenue.fr.19", "text": "Montant net du chiffre d'affaires : {REVENUE}"},
+    {"id": "revenue.fr.20", "text": "Pour l'exercice {REVENUE_YEAR}, la société a enregistré un chiffre d'affaires de {REVENUE}, contre {REVENUE_PREV} pour l'exercice {REVENUE_YEAR_PREV}."},
+    {"id": "revenue.fr.21", "text": "Nous avons clôturé l'année {REVENUE_YEAR} avec un chiffre d'affaires de {REVENUE}."},
+    {"id": "revenue.fr.22", "text": "Chiffre d'affaires du dernier exercice : {REVENUE}"},
+    {"id": "revenue.fr.23", "text": "CA annuel : environ {REVENUE}"},
+    {"id": "revenue.fr.24", "text": "Le chiffre d'affaires hors taxes de l'exercice {REVENUE_YEAR} ressort à {REVENUE}."},
+    {"id": "revenue.fr.25", "text": "Au cours de l'exercice {REVENUE_YEAR}, la société a réalisé un chiffre d'affaires de {REVENUE} (exercice précédent : {REVENUE_PREV})."},
+    {"id": "revenue.fr.26", "text": "Chiffre d'affaires {REVENUE_YEAR_PREV} : {REVENUE_PREV} – Chiffre d'affaires {REVENUE_YEAR} : {REVENUE}"},
+    {"id": "revenue.fr.27", "text": "Chiffres clés : un chiffre d'affaires de {REVENUE} et une clientèle en croissance constante."},
+    {"id": "revenue.fr.28", "text": "Avec {REVENUE} de ventes en {REVENUE_YEAR}, l'entreprise se classe parmi les premières de son secteur dans la région."},
+    {"id": "revenue.fr.29", "text": "Chiffre d'affaires réalisé en {REVENUE_YEAR} : {REVENUE}"},
+    {"id": "revenue.fr.30", "text": "Revenus annuels / Annual revenue : {REVENUE}"}
+  ],
+
+  "services_intro": [
+    {"id": "services_intro.fr.01", "text": "Nos prestations : {SERVICE_LIST}."},
+    {"id": "services_intro.fr.02", "text": "Nous proposons notamment : {SERVICE_LIST}."},
+    {"id": "services_intro.fr.03", "text": "Nos services : {SERVICE_LIST}"},
+    {"id": "services_intro.fr.04", "text": "Découvrez nos produits phares : {SERVICE_LIST}."},
+    {"id": "services_intro.fr.05", "text": "Prestation la plus demandée : {SERVICE}."},
+    {"id": "services_intro.fr.06", "text": "Nouveau ! {SERVICE}, à découvrir dès maintenant."},
+    {"id": "services_intro.fr.07", "text": "Sur demande, nous assurons également : {SERVICE}."},
+    {"id": "services_intro.fr.08", "text": "Notre offre comprend : {SERVICE_LIST}."},
+    {"id": "services_intro.fr.09", "text": "{SERVICE} : devis gratuit sur simple demande."},
+    {"id": "services_intro.fr.10", "text": "Besoin d'un professionnel ? Nous assurons : {SERVICE_LIST}."},
+    {"id": "services_intro.fr.11", "text": "Nous réalisons également la prestation suivante : {SERVICE}."},
+    {"id": "services_intro.fr.12", "text": "Au catalogue : {SERVICE_LIST}, et bien d'autres encore."},
+    {"id": "services_intro.fr.13", "text": "Ce que nous faisons pour vous : {SERVICE_LIST}."},
+    {"id": "services_intro.fr.14", "text": "Nos spécialités : {SERVICE_LIST}."},
+    {"id": "services_intro.fr.15", "text": "Service proposé : {SERVICE}"},
+    {"id": "services_intro.fr.16", "text": "Nous vous proposons une gamme complète de prestations, dont {SERVICE_LIST}."},
+    {"id": "services_intro.fr.17", "text": "Notre équipe prend en charge les prestations suivantes : {SERVICE_LIST}."},
+    {"id": "services_intro.fr.18", "text": "À découvrir : {SERVICE}."},
+    {"id": "services_intro.fr.19", "text": "Nos clients apprécient tout particulièrement : {SERVICE_LIST}."},
+    {"id": "services_intro.fr.20", "text": "Prestations proposées : {SERVICE_LIST}"},
+    {"id": "services_intro.fr.21", "text": "Offre du moment : {SERVICE}, à tarif préférentiel jusqu'au {date}."},
+    {"id": "services_intro.fr.22", "text": "Parmi nos services : {SERVICE_LIST}."},
+    {"id": "services_intro.fr.23", "text": "En complément, nous proposons : {SERVICE}."},
+    {"id": "services_intro.fr.24", "text": "Demandez-nous aussi : {SERVICE}."},
+    {"id": "services_intro.fr.25", "text": "Gamme de services : {SERVICE_LIST}"},
+    {"id": "services_intro.fr.26", "text": "Nos domaines d'intervention : {SERVICE_LIST}."},
+    {"id": "services_intro.fr.27", "text": "Demandez une soumission gratuite pour : {SERVICE}."},
+    {"id": "services_intro.fr.28", "text": "Tout ce dont vous avez besoin, au même endroit : {SERVICE_LIST}."},
+    {"id": "services_intro.fr.29", "text": "Coup de cœur de l'équipe : {SERVICE}"},
+    {"id": "services_intro.fr.30", "text": "Nos formules : {SERVICE_LIST}."}
+  ],
+
+  "clients": [
+    {"id": "clients.fr.01", "text": "Ils nous font confiance : {C_NAME_LIST}."},
+    {"id": "clients.fr.02", "text": "Nos références : {C_NAME_LIST}"},
+    {"id": "clients.fr.03", "text": "Parmi nos clients : {C_NAME_LIST}."},
+    {"id": "clients.fr.04", "text": "Nous comptons parmi nos clients {C_NAME_LIST}."},
+    {"id": "clients.fr.05", "text": "Références clients : {C_NAME_LIST}"},
+    {"id": "clients.fr.06", "text": "Nous accompagnons au quotidien des entreprises comme {C_NAME_LIST}."},
+    {"id": "clients.fr.07", "text": "Dernière réalisation : une mission menée pour {C_NAME}."},
+    {"id": "clients.fr.08", "text": "Fidèle depuis {n_years}, {C_NAME} nous renouvelle sa confiance chaque année."},
+    {"id": "clients.fr.09", "text": "Ils nous ont fait confiance : {C_NAME_LIST}."},
+    {"id": "clients.fr.10", "text": "Nos principaux clients sont {C_NAME_LIST}."},
+    {"id": "clients.fr.11", "text": "{C_NAME} fait partie de nos clients les plus fidèles."},
+    {"id": "clients.fr.12", "text": "Nous travaillons notamment pour {C_NAME_LIST}."},
+    {"id": "clients.fr.13", "text": "Quelques références : {C_NAME_LIST}…"},
+    {"id": "clients.fr.14", "text": "Nous avons eu le plaisir de travailler pour {C_NAME} et pour {C_NAME}."},
+    {"id": "clients.fr.15", "text": "Clients de référence : {C_NAME_LIST}"},
+    {"id": "clients.fr.16", "text": "La confiance de clients tels que {C_NAME_LIST} témoigne du sérieux de notre travail."},
+    {"id": "clients.fr.17", "text": "Parmi nos clients institutionnels figurent {C_NAME_LIST}."},
+    {"id": "clients.fr.18", "text": "Ils nous ont choisis : {C_NAME_LIST}."},
+    {"id": "clients.fr.19", "text": "Mission réalisée pour : {C_NAME}"},
+    {"id": "clients.fr.20", "text": "Client : {C_NAME}"},
+    {"id": "clients.fr.21", "text": "Nous sommes fiers de compter {C_NAME} parmi nos clients depuis {year}."},
+    {"id": "clients.fr.22", "text": "{C_NAME_LIST} : autant d'entreprises qui nous renouvellent leur confiance chaque année."},
+    {"id": "clients.fr.23", "text": "Entreprises, collectivités, associations : nous travaillons aussi bien avec {C_NAME} qu'avec {C_NAME}."},
+    {"id": "clients.fr.24", "text": "Nous avons notamment accompagné {C_NAME} dans son développement."},
+    {"id": "clients.fr.25", "text": "Nos clients sont des PME, des commerces et des collectivités, parmi lesquels {C_NAME_LIST}."},
+    {"id": "clients.fr.26", "text": "Référence récente : {C_NAME} ({city})"},
+    {"id": "clients.fr.27", "text": "Ils nous confient leurs projets : {C_NAME_LIST}."},
+    {"id": "clients.fr.28", "text": "Nous remercions {C_NAME_LIST} pour leur confiance renouvelée."},
+    {"id": "clients.fr.29", "text": "Plusieurs grands comptes nous font confiance, dont {C_NAME_LIST}."},
+    {"id": "clients.fr.30", "text": "Donneur d'ordre : {C_NAME}"}
+  ],
+
+  "hours": [
+    {"id": "hours.fr.01", "text": "Horaires : {HOURS}"},
+    {"id": "hours.fr.02", "text": "Horaires d'ouverture : {HOURS}"},
+    {"id": "hours.fr.03", "text": "Heures d'ouverture : {HOURS}"},
+    {"id": "hours.fr.04", "text": "Nous vous accueillons {HOURS:prose}."},
+    {"id": "hours.fr.05", "text": "Ouvert {HOURS:prose}."},
+    {"id": "hours.fr.06", "text": "L'établissement est ouvert {HOURS:prose}."},
+    {"id": "hours.fr.07", "text": "Nos bureaux sont ouverts {HOURS:prose}."},
+    {"id": "hours.fr.08", "text": "Accueil du public : {HOURS}"},
+    {"id": "hours.fr.09", "text": "Notre équipe vous accueille et répond à vos appels {HOURS:prose}."},
+    {"id": "hours.fr.10", "text": "Vous pouvez nous rendre visite {HOURS:prose}."},
+    {"id": "hours.fr.11", "text": "Ouverture : {HOURS}"},
+    {"id": "hours.fr.12", "text": "Nos horaires : {HOURS}"},
+    {"id": "hours.fr.13", "text": "Heures d'ouverture du bureau : {HOURS}"},
+    {"id": "hours.fr.14", "text": "Horaires d'ouverture au public : {HOURS}"},
+    {"id": "hours.fr.15", "text": "Notre équipe vous reçoit {HOURS:prose}."},
+    {"id": "hours.fr.16", "text": "Pour nous rencontrer : {HOURS} – {S_ADDRESS}"},
+    {"id": "hours.fr.17", "text": "Venez nous voir {HOURS:prose} !"},
+    {"id": "hours.fr.18", "text": "Réception ouverte {HOURS:prose}."},
+    {"id": "hours.fr.19", "text": "Heures d'affaires : {HOURS}"},
+    {"id": "hours.fr.20", "text": "Horaires d’ouverture : {HOURS} – Parking gratuit à proximité."},
+    {"id": "hours.fr.21", "text": "Ouvert au public {HOURS:prose}."},
+    {"id": "hours.fr.22", "text": "Nos portes sont ouvertes {HOURS:prose}."},
+    {"id": "hours.fr.23", "text": "Permanence : {HOURS}"},
+    {"id": "hours.fr.24", "text": "Horaires du secrétariat : {HOURS}"},
+    {"id": "hours.fr.25", "text": "Notre accueil est ouvert {HOURS:prose}."},
+    {"id": "hours.fr.26", "text": "Horaires d'été : {HOURS}"},
+    {"id": "hours.fr.27", "text": "Nous sommes à votre disposition {HOURS:prose}."},
+    {"id": "hours.fr.28", "text": "Horaires habituels : {HOURS}"},
+    {"id": "hours.fr.29", "text": "Quand nous trouver ? Nous sommes là {HOURS:prose}."},
+    {"id": "hours.fr.30", "text": "Heures d'ouverture / Opening hours : {HOURS}"}
+  ],
+
+  "certifications": [
+    {"id": "certifications.fr.01", "text": "Certifications : {CERT_LIST}"},
+    {"id": "certifications.fr.02", "text": "Labels et certifications : {CERT_LIST}"},
+    {"id": "certifications.fr.03", "text": "Labels, certifications et adhésions : {CERT_LIST}"},
+    {"id": "certifications.fr.04", "text": "Qualifications : {CERT_LIST}"},
+    {"id": "certifications.fr.05", "text": "Nos labels : {CERT_LIST}"},
+    {"id": "certifications.fr.06", "text": "Distinctions : {CERT_LIST}"},
+    {"id": "certifications.fr.07", "text": "{CERT} : un gage de qualité et de sérieux pour nos clients."},
+    {"id": "certifications.fr.08", "text": "Notre démarche qualité a été reconnue : {CERT}."},
+    {"id": "certifications.fr.09", "text": "Nos engagements qualité : {CERT_LIST}."},
+    {"id": "certifications.fr.10", "text": "Gage de notre sérieux, l'entreprise peut se prévaloir des reconnaissances suivantes : {CERT_LIST}."},
+    {"id": "certifications.fr.11", "text": "Reconnaissance : {CERT}"},
+    {"id": "certifications.fr.12", "text": "Adhésions et labels : {CERT_LIST}"},
+    {"id": "certifications.fr.13", "text": "Reconnaissances professionnelles : {CERT_LIST}"},
+    {"id": "certifications.fr.14", "text": "Pour votre sérénité : {CERT_LIST}."},
+    {"id": "certifications.fr.15", "text": "Notre savoir-faire est attesté par : {CERT_LIST}."},
+    {"id": "certifications.fr.16", "text": "Normes, labels et affiliations : {CERT_LIST}"},
+    {"id": "certifications.fr.17", "text": "Nos certifications et labels ({CERT_LIST}) témoignent de notre exigence au quotidien."},
+    {"id": "certifications.fr.18", "text": "Récompenses et labels : {CERT}"},
+    {"id": "certifications.fr.19", "text": "Garanties et labels : {CERT_LIST}"},
+    {"id": "certifications.fr.20", "text": "Notre engagement en faveur de la qualité se traduit par : {CERT_LIST}."},
+    {"id": "certifications.fr.21", "text": "Nous sommes fiers d'afficher : {CERT}."},
+    {"id": "certifications.fr.22", "text": "Qualité, sécurité, environnement : {CERT_LIST}."},
+    {"id": "certifications.fr.23", "text": "Titres, labels et adhésions : {CERT_LIST}"},
+    {"id": "certifications.fr.24", "text": "Parce que la confiance se mérite : {CERT}."},
+    {"id": "certifications.fr.25", "text": "Affiliations et certifications : {CERT_LIST}"},
+    {"id": "certifications.fr.26", "text": "Nos références qualité : {CERT_LIST}."},
+    {"id": "certifications.fr.27", "text": "Signes de qualité : {CERT_LIST}"},
+    {"id": "certifications.fr.28", "text": "À retenir : {CERT}, la preuve de notre engagement."},
+    {"id": "certifications.fr.29", "text": "Ce qui nous distingue : {CERT_LIST}."}
+  ],
+
+  "location": [
+    {"id": "location.fr.01", "text": "Adresse : {S_ADDRESS}"},
+    {"id": "location.fr.02", "text": "Siège social : {S_ADDRESS}"},
+    {"id": "location.fr.03", "text": "Tél. : {S_PHONE}"},
+    {"id": "location.fr.04", "text": "Téléphone : {S_PHONE} – E-mail : {S_EMAIL}"},
+    {"id": "location.fr.05", "text": "Pour nous joindre : {S_PHONE} ou {S_EMAIL}."},
+    {"id": "location.fr.06", "text": "Retrouvez-nous sur {S_URL}."},
+    {"id": "location.fr.07", "text": "Site internet : {S_URL}"},
+    {"id": "location.fr.08", "text": "Courriel : {S_EMAIL}"},
+    {"id": "location.fr.09", "text": "GSM : {S_PHONE}"},
+    {"id": "location.fr.10", "text": "Natel : {S_PHONE}"},
+    {"id": "location.fr.11", "text": "Nos bureaux sont situés à l'adresse suivante : {S_ADDRESS}."},
+    {"id": "location.fr.12", "text": "Venez nous rendre visite : {S_ADDRESS}."},
+    {"id": "location.fr.13", "text": "Une question ? Appelez-nous au {S_PHONE} ou écrivez-nous à {S_EMAIL}."},
+    {"id": "location.fr.14", "text": "Pour toute demande de devis, contactez-nous par courriel à {S_EMAIL}."},
+    {"id": "location.fr.15", "text": "Toute l'actualité de l'entreprise sur {S_URL}"},
+    {"id": "location.fr.16", "text": "Contact : {S_PHONE} – {S_EMAIL} – {S_URL}"},
+    {"id": "location.fr.17", "text": "{S_NAME} – {S_ADDRESS} – Tél. {S_PHONE}"},
+    {"id": "location.fr.18", "text": "Coordonnées : {S_ADDRESS} · {S_PHONE}"},
+    {"id": "location.fr.19", "text": "Adresse postale : {S_ADDRESS}"},
+    {"id": "location.fr.20", "text": "Nous trouver : {S_ADDRESS} (parking gratuit devant l'entreprise)"},
+    {"id": "location.fr.21", "text": "Plus d'informations sur notre site {S_URL}."},
+    {"id": "location.fr.22", "text": "Service client : {S_PHONE}"},
+    {"id": "location.fr.23", "text": "Écrivez-nous : {S_EMAIL}"},
+    {"id": "location.fr.24", "text": "Tél. {S_PHONE} (appel non surtaxé)"},
+    {"id": "location.fr.25", "text": "Demandes de devis : {S_EMAIL} – réponse sous 48 heures"},
+    {"id": "location.fr.26", "text": "Notre équipe vous accueille à l’adresse suivante : {S_ADDRESS}."},
+    {"id": "location.fr.27", "text": "Tél. : {S_PHONE} | Courriel : {S_EMAIL} | Web : {S_URL}"},
+    {"id": "location.fr.28", "text": "Siège : {S_ADDRESS} – Tél. : {S_PHONE}"},
+    {"id": "location.fr.29", "text": "Adresse du siège : {S_ADDRESS}"},
+    {"id": "location.fr.30", "text": "Suivez-nous : {S_URL}"}
+  ],
+
+  "capital": [
+    {"id": "capital.fr.01", "text": "Capital social : {CAPITAL}"},
+    {"id": "capital.fr.02", "text": "Société au capital de {CAPITAL}"},
+    {"id": "capital.fr.03", "text": "{LEGAL_FORM} au capital de {CAPITAL}"},
+    {"id": "capital.fr.04", "text": "Capital : {CAPITAL}"},
+    {"id": "capital.fr.05", "text": "La société dispose d'un capital social de {CAPITAL}, entièrement libéré."},
+    {"id": "capital.fr.06", "text": "Capital-actions : {CAPITAL}"},
+    {"id": "capital.fr.07", "text": "Capital social : {CAPITAL} (entièrement libéré)"},
+    {"id": "capital.fr.08", "text": "Le capital social s'élève à {CAPITAL}, divisé en {quantity} parts sociales."},
+    {"id": "capital.fr.09", "text": "La société {S_NAME}, au capital de {CAPITAL}, est immatriculée à {city}."},
+    {"id": "capital.fr.10", "text": "Le capital social a été porté à {CAPITAL} lors de l'assemblée générale extraordinaire du {date}."},
+    {"id": "capital.fr.11", "text": "Capital souscrit : {CAPITAL}"},
+    {"id": "capital.fr.12", "text": "Capital social libéré : {CAPITAL}"},
+    {"id": "capital.fr.13", "text": "{S_NAME:legal}, société au capital de {CAPITAL}"},
+    {"id": "capital.fr.14", "text": "Montant du capital : {CAPITAL}"},
+    {"id": "capital.fr.15", "text": "Capital de la société : {CAPITAL}"},
+    {"id": "capital.fr.16", "text": "Le capital social est fixé à la somme de {CAPITAL}."},
+    {"id": "capital.fr.17", "text": "Capital social : {CAPITAL} – {S_REG_ID}"},
+    {"id": "capital.fr.18", "text": "Constituée avec un capital de {CAPITAL}, l'entreprise a toujours financé sa croissance sur fonds propres."},
+    {"id": "capital.fr.19", "text": "{LEGAL_FORM} au capital social de {CAPITAL} – siège à {city}"},
+    {"id": "capital.fr.20", "text": "La société {S_NAME} est dotée d'un capital de {CAPITAL}."},
+    {"id": "capital.fr.21", "text": "Capital social au {date} : {CAPITAL}"},
+    {"id": "capital.fr.22", "text": "Le capital, d'un montant de {CAPITAL}, est détenu à {percent} par la famille fondatrice."},
+    {"id": "capital.fr.23", "text": "Capital-actions libéré : {CAPITAL}"},
+    {"id": "capital.fr.24", "text": "Capital émis et libéré : {CAPITAL}"},
+    {"id": "capital.fr.25", "text": "Forme : {LEGAL_FORM} – Capital : {CAPITAL}"},
+    {"id": "capital.fr.26", "text": "Capital social de {CAPITAL}, entièrement souscrit et libéré"},
+    {"id": "capital.fr.27", "text": "Capital : {CAPITAL} – entièrement libéré en numéraire"},
+    {"id": "capital.fr.28", "text": "Au capital social de {CAPITAL}"}
+  ],
+
+  "legal_form": [
+    {"id": "legal_form.fr.01", "text": "Forme juridique : {LEGAL_FORM}"},
+    {"id": "legal_form.fr.02", "text": "Forme juridique : {LEGAL_FORM} – Capital social : {CAPITAL}"},
+    {"id": "legal_form.fr.03", "text": "Statut juridique : {LEGAL_FORM}"},
+    {"id": "legal_form.fr.04", "text": "Forme légale : {LEGAL_FORM}"},
+    {"id": "legal_form.fr.05", "text": "Forme sociale : {LEGAL_FORM}"},
+    {"id": "legal_form.fr.06", "text": "Lors de sa création, l'entreprise a été constituée en {LEGAL_FORM}."},
+    {"id": "legal_form.fr.07", "text": "Constituée en {LEGAL_FORM}, la société {S_NAME} est immatriculée à {city}."},
+    {"id": "legal_form.fr.08", "text": "La société est exploitée sous la forme juridique suivante : {LEGAL_FORM}."},
+    {"id": "legal_form.fr.09", "text": "Forme de l'entreprise : {LEGAL_FORM}"},
+    {"id": "legal_form.fr.10", "text": "Type de société : {LEGAL_FORM}"},
+    {"id": "legal_form.fr.11", "text": "Nature juridique : {LEGAL_FORM}"},
+    {"id": "legal_form.fr.12", "text": "Catégorie juridique : {LEGAL_FORM}"},
+    {"id": "legal_form.fr.13", "text": "{S_NAME:legal} – {LEGAL_FORM} – {S_REG_ID}"},
+    {"id": "legal_form.fr.14", "text": "Notre structure juridique : {LEGAL_FORM}."},
+    {"id": "legal_form.fr.15", "text": "Transformée en {LEGAL_FORM} en {year}, l'entreprise a conservé son nom, son équipe et ses engagements envers ses clients."},
+    {"id": "legal_form.fr.16", "text": "Régime juridique : {LEGAL_FORM}"},
+    {"id": "legal_form.fr.17", "text": "Forme juridique de l'entreprise : {LEGAL_FORM} (depuis {year})"},
+    {"id": "legal_form.fr.18", "text": "Type d'entité : personne morale – Forme légale : {LEGAL_FORM}"},
+    {"id": "legal_form.fr.19", "text": "Forme : {LEGAL_FORM}"},
+    {"id": "legal_form.fr.20", "text": "Dénomination : {S_NAME} – Forme juridique : {LEGAL_FORM}"},
+    {"id": "legal_form.fr.21", "text": "Nous avons opté pour la forme juridique suivante : {LEGAL_FORM}, afin de séparer patrimoine personnel et patrimoine professionnel."},
+    {"id": "legal_form.fr.22", "text": "Statut : {LEGAL_FORM}"},
+    {"id": "legal_form.fr.23", "text": "Entreprise constituée en {LEGAL_FORM}"},
+    {"id": "legal_form.fr.24", "text": "Forme juridique actuelle : {LEGAL_FORM}"},
+    {"id": "legal_form.fr.25", "text": "Raison sociale : {S_NAME} · Forme : {LEGAL_FORM} · Siège : {city}"},
+    {"id": "legal_form.fr.26", "text": "Choix de la forme sociale : {LEGAL_FORM}, pour sa souplesse de fonctionnement."},
+    {"id": "legal_form.fr.27", "text": "Forme juridique / Legal form : {LEGAL_FORM}"},
+    {"id": "legal_form.fr.28", "text": "L'entreprise exerce en {LEGAL_FORM}."}
+  ],
+
+  "traps": [
+    {"id": "trap.fr.01", "trap": "T1", "text": "Notre plus gros contrat à ce jour, d'une valeur de {amount}, a été signé avec un grand groupe industriel."},
+    {"id": "trap.fr.02", "trap": "T1", "text": "Le projet le plus important de l'année représente à lui seul {amount} de commandes."},
+    {"id": "trap.fr.03", "trap": "T1", "text": "Résultat net de l'exercice : {amount}"},
+    {"id": "trap.fr.04", "trap": "T1", "text": "Chiffre d'affaires mensuel moyen : {amount}"},
+    {"id": "trap.fr.05", "trap": "T1", "text": "Nous avons investi {amount} dans la modernisation de nos équipements."},
+    {"id": "trap.fr.06", "trap": "T1", "text": "Le marché régional représente un chiffre d'affaires global de {amount}, que se partagent une dizaine d'entreprises."},
+    {"id": "trap.fr.07", "trap": "T1", "text": "Une commande record de {amount} a été enregistrée en fin d'année."},
+    {"id": "trap.fr.08", "trap": "T1", "text": "Excédent brut d'exploitation : {amount}"},
+    {"id": "trap.fr.09", "trap": "T1", "text": "Le carnet de commandes s'élève actuellement à {amount}, soit plusieurs mois d'activité assurés."},
+    {"id": "trap.fr.10", "trap": "T1", "text": "Le chiffre d'affaires réalisé avec notre principal client atteint {amount}."},
+    {"id": "trap.fr.11", "trap": "T1", "text": "Bénéfice net {year} : {amount}"},
+
+    {"id": "trap.fr.12", "trap": "T5", "text": "Nous travaillons en étroite collaboration avec {partner}, notre partenaire depuis de nombreuses années."},
+    {"id": "trap.fr.13", "trap": "T5", "text": "Notre projet d'agrandissement a été financé grâce à un prêt de notre banque, {bank}."},
+    {"id": "trap.fr.14", "trap": "T5", "text": "Nous nous approvisionnons principalement chez {supplier}."},
+    {"id": "trap.fr.15", "trap": "T5", "text": "Contrairement aux grandes enseignes comme {competitor}, nous privilégions le conseil personnalisé."},
+    {"id": "trap.fr.16", "trap": "T5", "text": "Fondée en {client_founded}, la société {C_NAME} est l'un de nos plus anciens clients."},
+    {"id": "trap.fr.17", "trap": "T5", "text": "Notre client {C_NAME}, une entreprise familiale créée en {client_founded}, nous confie chaque année une part importante de ses commandes."},
+    {"id": "trap.fr.18", "trap": "T5", "text": "{competitor}, leader du secteur, vient d'ouvrir un nouveau site à {city}."},
+    {"id": "trap.fr.19", "trap": "T5", "text": "Notre banque partenaire, {bank}, gère l'ensemble de nos comptes professionnels."},
+    {"id": "trap.fr.20", "trap": "T5", "text": "Pour les livraisons, nous faisons appel au transporteur {partner}."},
+    {"id": "trap.fr.21", "trap": "T5", "text": "Face à des concurrents comme {competitor}, l'entreprise mise sur la proximité et la qualité du service."},
+    {"id": "trap.fr.22", "trap": "T5", "text": "{supplier}, notre fournisseur historique, fête cette année ses cinquante ans d'existence."},
+
+    {"id": "trap.fr.23", "trap": "T7", "text": "Nos locaux ont été entièrement rénovés en {year}."},
+    {"id": "trap.fr.24", "trap": "T7", "text": "En {year}, nous avons emménagé dans un nouveau bâtiment à {city}."},
+    {"id": "trap.fr.25", "trap": "T7", "text": "Offre valable jusqu'au 31 décembre {year}."},
+    {"id": "trap.fr.26", "trap": "T7", "text": "{CERT} depuis {year}"},
+    {"id": "trap.fr.27", "trap": "T7", "text": "Tarifs en vigueur à compter du 1er janvier {year}."},
+    {"id": "trap.fr.28", "trap": "T7", "text": "Notre flotte a été renouvelée en {year} avec des véhicules électriques."},
+    {"id": "trap.fr.29", "trap": "T7", "text": "Nouveau site internet en ligne depuis {year}."},
+    {"id": "trap.fr.30", "trap": "T7", "text": "Depuis {year}, l'entreprise est dirigée par la deuxième génération de la famille."},
+    {"id": "trap.fr.31", "trap": "T7", "text": "Catalogue {year} disponible sur simple demande."},
+    {"id": "trap.fr.32", "trap": "T7", "text": "Mise aux normes complète de nos installations en {year}."},
+    {"id": "trap.fr.33", "trap": "T7", "text": "Utilitaire de démonstration, modèle {year}, disponible à la vente."},
+
+    {"id": "trap.fr.34", "trap": "T8", "text": "Plus de {n_years} d'expérience à votre service."},
+    {"id": "trap.fr.35", "trap": "T8", "text": "Déjà {n_clients} satisfaits dans toute la région !"},
+    {"id": "trap.fr.36", "trap": "T8", "text": "Notre flotte compte {n_vehicles}, dont l'entretien est assuré dans notre propre atelier."},
+    {"id": "trap.fr.37", "trap": "T8", "text": "Retrouvez-nous dans nos {n_shops} de la région."},
+    {"id": "trap.fr.38", "trap": "T8", "text": "Un catalogue de plus de {n_products} disponibles en stock."},
+    {"id": "trap.fr.39", "trap": "T8", "text": "Plus de {n_projects} à notre actif."},
+    {"id": "trap.fr.40", "trap": "T8", "text": "Chaque année, nous accompagnons plus de {n_clients}."},
+    {"id": "trap.fr.41", "trap": "T8", "text": "Depuis {n_years}, nous mettons notre savoir-faire au service des particuliers et des professionnels."},
+    {"id": "trap.fr.42", "trap": "T8", "text": "{n_clients} nous font confiance chaque mois."},
+    {"id": "trap.fr.43", "trap": "T8", "text": "Avec {n_shops} et {n_vehicles}, nous couvrons tout le département."},
+    {"id": "trap.fr.44", "trap": "T8", "text": "Nos techniciens cumulent plus de {n_years} d'expérience dans le métier."},
+
+    {"id": "trap.fr.45", "trap": "T11", "text": "Votre contact : {person} ({position})."},
+    {"id": "trap.fr.46", "trap": "T11", "text": "Pour toute question relative à votre facture, contactez {person}, {position}."},
+    {"id": "trap.fr.47", "trap": "T11", "text": "Dossier suivi par : {person} – {position}"},
+    {"id": "trap.fr.48", "trap": "T11", "text": "{person} ({position}) se tient à votre disposition pour tout renseignement."},
+    {"id": "trap.fr.49", "trap": "T11", "text": "Contact presse : {person}"},
+    {"id": "trap.fr.50", "trap": "T11", "text": "Nous souhaitons la bienvenue à {person} ({position}), qui rejoint notre équipe ce mois-ci."},
+    {"id": "trap.fr.51", "trap": "T11", "text": "Personne à contacter : {person}, {position}"},
+    {"id": "trap.fr.52", "trap": "T11", "text": "Le suivi de votre dossier sera assuré par {person} ({position})."},
+    {"id": "trap.fr.53", "trap": "T11", "text": "{person} ({position}) coordonne les équipes au quotidien, sous la responsabilité de notre {manager_title}, {S_PERSON}."},
+    {"id": "trap.fr.54", "trap": "T11", "text": "Notre service administratif, animé par {person}, traite vos demandes dans les meilleurs délais."},
+    {"id": "trap.fr.55", "trap": "T11", "text": "Votre interlocuteur technique : {person}"},
+
+    {"id": "trap.fr.56", "trap": "T13", "text": "Nous avons réalisé ce projet pour {C_NAME}, en partenariat avec {partner}."},
+    {"id": "trap.fr.57", "trap": "T13", "text": "Nos références : {C_NAME_LIST}. Nos partenaires : {partner} et {supplier}."},
+    {"id": "trap.fr.58", "trap": "T13", "text": "Ils nous font confiance : {C_NAME_LIST} – Notre fournisseur principal : {supplier}."},
+    {"id": "trap.fr.59", "trap": "T13", "text": "Pour notre client {C_NAME}, nous avons coordonné les équipes de notre partenaire {partner} et les nôtres."},
+    {"id": "trap.fr.60", "trap": "T13", "text": "Grâce à notre partenaire {partner}, nous avons pu livrer {C_NAME} dans des délais record."},
+    {"id": "trap.fr.61", "trap": "T13", "text": "Clients : {C_NAME_LIST} · Partenaires : {partner}"},
+    {"id": "trap.fr.62", "trap": "T13", "text": "Avec du matériel fourni par {supplier}, nous avons équipé les nouveaux locaux de notre client {C_NAME}."},
+    {"id": "trap.fr.63", "trap": "T13", "text": "{C_NAME} nous a choisis pour ce projet, mené aux côtés de notre partenaire {partner}."},
+    {"id": "trap.fr.64", "trap": "T13", "text": "Parmi nos clients figurent {C_NAME_LIST} ; nous travaillons par ailleurs avec {supplier} pour l'approvisionnement."},
+    {"id": "trap.fr.65", "trap": "T13", "text": "Réalisation : {C_NAME} – Partenaire technique : {partner}"},
+    {"id": "trap.fr.66", "trap": "T13", "text": "En collaboration avec {partner}, nous accompagnons {C_NAME} depuis {n_years}."}
+  ],
+
+  "filler": [
+    {"id": "filler.fr.01", "text": "Merci de votre visite."},
+    {"id": "filler.fr.02", "text": "N’hésitez pas à nous contacter pour tout renseignement complémentaire."},
+    {"id": "filler.fr.03", "text": "Devis gratuit et sans engagement."},
+    {"id": "filler.fr.04", "text": "Nous restons à votre entière disposition pour toute information."},
+    {"id": "filler.fr.05", "text": "Le stationnement est gratuit pour notre clientèle."},
+    {"id": "filler.fr.06", "text": "Paiement accepté par carte bancaire, chèque ou espèces."},
+    {"id": "filler.fr.07", "text": "La satisfaction de nos clients est notre priorité."},
+    {"id": "filler.fr.08", "text": "Chaque projet est unique : nous prenons le temps de vous écouter."},
+    {"id": "filler.fr.09", "text": "Nos tarifs sont communiqués sur simple demande."},
+    {"id": "filler.fr.10", "text": "Nous répondons à toutes les demandes dans les meilleurs délais."},
+    {"id": "filler.fr.11", "text": "Pensez à réserver à l'avance pendant la haute saison."},
+    {"id": "filler.fr.12", "text": "Photos non contractuelles."},
+    {"id": "filler.fr.13", "text": "Nous privilégions les circuits courts et les fournisseurs locaux."},
+    {"id": "filler.fr.14", "text": "Nos conseillers vous orientent vers la solution la plus adaptée à vos besoins."},
+    {"id": "filler.fr.15", "text": "Un accueil chaleureux vous attend."},
+    {"id": "filler.fr.16", "text": "Accès facile en transports en commun."},
+    {"id": "filler.fr.17", "text": "Retrouvez toute notre actualité sur les réseaux sociaux."},
+    {"id": "filler.fr.18", "text": "Nous vous remercions de votre confiance."},
+    {"id": "filler.fr.19", "text": "Dans la limite des stocks disponibles."},
+    {"id": "filler.fr.20", "text": "Toute commande implique l'acceptation de nos conditions générales de vente."},
+    {"id": "filler.fr.21", "text": "Nous vous répondrons dans les plus brefs délais."},
+    {"id": "filler.fr.22", "text": "Le respect des délais fait partie de nos engagements."},
+    {"id": "filler.fr.23", "text": "Nous intervenons à {city} et dans les communes environnantes."},
+    {"id": "filler.fr.24", "text": "Pour votre confort, nous vous conseillons de prendre rendez-vous."},
+    {"id": "filler.fr.25", "text": "Les informations de cette page sont données à titre indicatif."},
+    {"id": "filler.fr.26", "text": "Nous avons à cœur de réduire notre impact sur l'environnement."},
+    {"id": "filler.fr.27", "text": "Chaque client bénéficie d'un suivi personnalisé."},
+    {"id": "filler.fr.28", "text": "Les délais de réalisation varient selon la période de l'année."},
+    {"id": "filler.fr.29", "text": "Votre avis compte : laissez-nous un commentaire !"},
+    {"id": "filler.fr.30", "text": "Une question sur votre commande ? Consultez notre foire aux questions."},
+    {"id": "filler.fr.31", "text": "Nos équipes suivent régulièrement des formations pour rester à la pointe."},
+    {"id": "filler.fr.32", "text": "Nous accueillons chaque année des stagiaires et des apprentis."},
+    {"id": "filler.fr.33", "text": "Tous nos devis sont détaillés poste par poste."},
+    {"id": "filler.fr.34", "text": "Nous travaillons aussi bien pour les particuliers que pour les professionnels."},
+    {"id": "filler.fr.35", "text": "Pour toute réclamation, merci de joindre une copie de votre facture."},
+    {"id": "filler.fr.36", "text": "En cas d’urgence, laissez-nous un message : nous vous rappellerons rapidement."},
+    {"id": "filler.fr.37", "text": "Les cartes cadeaux sont valables un an à compter de leur date d'achat."},
+    {"id": "filler.fr.38", "text": "Toute l'équipe vous souhaite de belles fêtes de fin d'année."},
+    {"id": "filler.fr.39", "text": "Nos locaux sont accessibles aux personnes à mobilité réduite."},
+    {"id": "filler.fr.40", "text": "Une facture détaillée vous est remise après chaque intervention."},
+    {"id": "filler.fr.41", "text": "Nos conditions générales sont disponibles sur demande."},
+    {"id": "filler.fr.42", "text": "Merci de signaler toute anomalie dans un délai de {n_days} jours."},
+    {"id": "filler.fr.43", "text": "Nous sommes heureux de vous compter parmi nos clients."},
+    {"id": "filler.fr.44", "text": "Au plaisir de vous servir!"},
+    {"id": "filler.fr.45", "text": "Stationnement gratuit à l'arrière du bâtiment."},
+    {"id": "filler.fr.46", "text": "Nous nous réjouissons de votre prochaine visite."},
+    {"id": "filler.fr.47", "text": "Pour les commandes importantes, merci de nous prévenir quelques jours à l'avance."},
+    {"id": "filler.fr.48", "text": "La qualité n'est pas une option : c'est notre façon de travailler."},
+    {"id": "filler.fr.49", "text": "Un simple appel suffit pour convenir d'un rendez-vous."},
+    {"id": "filler.fr.50", "text": "Votre fidélité est récompensée : demandez votre carte de fidélité."},
+    {"id": "filler.fr.51", "text": "Nous avons l'honneur de vous informer que nos conditions restent inchangées cette année."},
+    {"id": "filler.fr.52", "text": "Les prix indiqués s'entendent toutes taxes comprises."}
+  ],
+
+  "legal_footer": [
+    {"id": "footer.fr.01", "countries": ["FR"], "text": "{S_NAME:legal} – {LEGAL_FORM} au capital de {CAPITAL} – {S_REG_ID} – {ACTIVITY_CODE}"},
+    {"id": "footer.fr.02", "countries": ["FR"], "text": "{S_NAME:legal}, {LEGAL_FORM} au capital de {CAPITAL} – Siège social : {S_ADDRESS} – {S_REG_ID} – {S_REG_ID}"},
+    {"id": "footer.fr.03", "countries": ["FR"], "text": "{S_NAME} – {S_ADDRESS} – Tél. {S_PHONE} – {S_EMAIL} – {S_REG_ID}"},
+    {"id": "footer.fr.04", "countries": ["FR"], "text": "{S_NAME:legal} · {LEGAL_FORM} au capital social de {CAPITAL} · {S_REG_ID} · {ACTIVITY_CODE} · {S_URL}"},
+    {"id": "footer.fr.05", "countries": ["FR"], "text": "{S_NAME} – {LEGAL_FORM} – {S_ADDRESS} – {S_REG_ID} – TVA non applicable, art. 293 B du CGI"},
+    {"id": "footer.fr.06", "countries": ["FR"], "text": "{S_NAME:legal} au capital de {CAPITAL} – Siège : {S_ADDRESS} – {S_REG_ID} – {S_REG_ID} – {ACTIVITY_CODE}"},
+    {"id": "footer.fr.07", "countries": ["BE"], "text": "{S_NAME:legal} – {LEGAL_FORM} – Siège : {S_ADDRESS} – {S_REG_ID} – RPM {city}"},
+    {"id": "footer.fr.08", "countries": ["BE"], "text": "{S_NAME} · {S_ADDRESS} · Tél. {S_PHONE} · {S_EMAIL} · {S_REG_ID}"},
+    {"id": "footer.fr.09", "countries": ["BE"], "text": "{S_NAME:legal} – {S_REG_ID} – RPM {city} – {S_URL}"},
+    {"id": "footer.fr.10", "countries": ["BE"], "text": "{S_NAME:legal}, {LEGAL_FORM} – Siège social : {S_ADDRESS} – {S_REG_ID} – {S_REG_ID}"},
+    {"id": "footer.fr.11", "countries": ["BE"], "text": "{S_NAME} – {S_ADDRESS} – GSM {S_PHONE} – {S_REG_ID}"},
+    {"id": "footer.fr.12", "countries": ["CH"], "text": "{S_NAME:legal} – {S_ADDRESS} – {S_REG_ID} – {S_REG_ID}"},
+    {"id": "footer.fr.13", "countries": ["CH"], "text": "{S_NAME:legal} · {LEGAL_FORM} · Capital : {CAPITAL} · {S_REG_ID}"},
+    {"id": "footer.fr.14", "countries": ["CH"], "text": "{S_NAME} | {S_ADDRESS} | Tél. {S_PHONE} | {S_EMAIL} | {S_REG_ID}"},
+    {"id": "footer.fr.15", "countries": ["CH"], "text": "{S_NAME:legal}, inscrite au registre du commerce – {S_REG_ID} – Siège : {S_ADDRESS}"},
+    {"id": "footer.fr.16", "countries": ["CH"], "text": "{S_NAME} – {S_ADDRESS} – {S_URL} – {S_REG_ID}"},
+    {"id": "footer.fr.17", "countries": ["CA"], "text": "{S_NAME:legal} – {S_ADDRESS} – {S_REG_ID} / {S_REG_ID}"},
+    {"id": "footer.fr.18", "countries": ["CA"], "text": "{S_NAME} | {S_ADDRESS} | Tél. : {S_PHONE} | Courriel : {S_EMAIL} | {S_URL}"},
+    {"id": "footer.fr.19", "countries": ["CA"], "text": "{S_NAME:legal} · {S_REG_ID} · {S_REG_ID} · {S_REG_ID}"},
+    {"id": "footer.fr.20", "countries": ["CA"], "text": "{S_NAME} – {S_ADDRESS} – Tél. {S_PHONE} – {S_REG_ID} – {S_REG_ID}"},
+    {"id": "footer.fr.21", "countries": ["CA"], "text": "{S_NAME:legal} – {S_ADDRESS} – {S_EMAIL} – {S_REG_ID}"},
+    {"id": "footer.fr.22", "countries": ["MA"], "text": "{S_NAME:legal} – {LEGAL_FORM} au capital de {CAPITAL} – Siège social : {S_ADDRESS} – {S_REG_ID} – {S_REG_ID} – {S_REG_ID} – {S_REG_ID}"},
+    {"id": "footer.fr.23", "countries": ["MA"], "text": "{S_NAME} – {S_ADDRESS} – Tél. : {S_PHONE} – E-mail : {S_EMAIL} – {S_REG_ID}"},
+    {"id": "footer.fr.24", "countries": ["MA"], "text": "{LEGAL_FORM} au capital de {CAPITAL} – {S_REG_ID} – {S_REG_ID} – {S_REG_ID}"},
+    {"id": "footer.fr.25", "countries": ["MA"], "text": "{S_NAME:legal} · {S_ADDRESS} · {S_REG_ID} · {S_REG_ID} · {S_REG_ID} · {S_REG_ID} · {S_REG_ID}"},
+    {"id": "footer.fr.26", "countries": ["MA"], "text": "Siège social : {S_ADDRESS} – Tél. {S_PHONE} – {S_REG_ID} – {S_REG_ID}"},
+    {"id": "footer.fr.27", "countries": ["SN"], "text": "{S_NAME:legal} – {LEGAL_FORM} au capital de {CAPITAL} – {S_ADDRESS} – {S_REG_ID} – {S_REG_ID}"},
+    {"id": "footer.fr.28", "countries": ["SN"], "text": "{S_NAME} – {S_ADDRESS} – Tél. : {S_PHONE} – {S_REG_ID}"},
+    {"id": "footer.fr.29", "countries": ["SN"], "text": "{S_NAME:legal} · {S_REG_ID} · {S_REG_ID} · {S_EMAIL}"},
+    {"id": "footer.fr.30", "countries": ["SN"], "text": "{S_NAME:legal}, {LEGAL_FORM} au capital de {CAPITAL} – Siège : {S_ADDRESS} – Tél. {S_PHONE} – {S_REG_ID}"},
+    {"id": "footer.fr.31", "countries": ["FR", "BE", "CH", "CA", "MA", "SN"], "text": "{S_NAME} – {S_ADDRESS} – Tél. {S_PHONE} – {S_URL}"},
+    {"id": "footer.fr.32", "countries": ["FR", "BE", "MA", "SN"], "text": "{S_NAME:legal} – {S_ADDRESS} – {S_REG_ID}"}
+  ],
+
+  "invoice_notes": {
+    "payment_terms": [
+      "Paiement à {n_days} jours date de facture.",
+      "Conditions de règlement : {n_days} jours fin de mois, par virement bancaire.",
+      "Facture payable à réception.",
+      "Payable endéans les {n_days} jours.",
+      "Délai de paiement : {n_days} jours net.",
+      "Termes : net {n_days} jours.",
+      "Règlement par virement sur le compte indiqué ci-dessous, en rappelant le numéro de facture.",
+      "Paiement comptant à la livraison."
+    ],
+    "late_penalty": [
+      "En cas de retard de paiement, des pénalités calculées au taux de {percent} seront exigibles de plein droit, ainsi qu'une indemnité forfaitaire pour frais de recouvrement.",
+      "Tout montant impayé à l'échéance sera majoré de plein droit d'un intérêt de retard de {percent} l'an et d'une indemnité forfaitaire de 10 %.",
+      "Des frais d'intérêt de {percent} par mois seront appliqués sur tout solde impayé après {n_days} jours.",
+      "Pas d'escompte pour paiement anticipé. Pénalités de retard : trois fois le taux d'intérêt légal."
+    ],
+    "vat_exempt": [
+      "TVA non applicable, article 293 B du CGI.",
+      "Autoliquidation – TVA due par le preneur, article 283-2 du CGI.",
+      "Petite entreprise soumise au régime de franchise de la taxe – TVA non applicable.",
+      "Entreprise non assujettie à la TVA.",
+      "Exonéré de TPS et de TVQ – petit fournisseur.",
+      "Exonération de TVA en vertu de l'article 92 du Code général des impôts.",
+      "Livraison intracommunautaire exonérée de TVA, article 262 ter I du CGI."
+    ],
+    "thanks": [
+      "Merci de votre confiance !",
+      "Nous vous remercions pour votre commande.",
+      "Merci pour votre fidélité et à très bientôt !",
+      "Merci de faire affaire avec nous!",
+      "Nous vous remercions de votre confiance et restons à votre disposition.",
+      "Au plaisir de vous revoir !"
+    ],
+    "quote_validity": [
+      "Devis valable {n_days} jours à compter de sa date d'émission.",
+      "Ce devis est valable jusqu'au {date}.",
+      "Validité de l'offre : {n_days} jours.",
+      "Offre valable jusqu'au {date}, sous réserve de disponibilité.",
+      "Cette soumission est valide pour une période de {n_days} jours."
+    ],
+    "quote_acceptance": [
+      "Bon pour accord : date, signature et cachet, précédés de la mention manuscrite « Bon pour accord ».",
+      "Devis à nous retourner daté et signé, accompagné d'un acompte de {percent}.",
+      "Pour accepter ce devis, merci de nous le retourner signé avec la mention « Lu et approuvé ».",
+      "L'acceptation de la présente offre vaut commande ferme et définitive.",
+      "Signature du client précédée de la mention « Bon pour accord »"
+    ],
+    "credit_reason": [
+      "Avoir relatif à la facture n° {invoice_no} du {date} – retour de marchandise.",
+      "Annulation partielle de la facture {invoice_no} suite à une erreur de facturation.",
+      "Geste commercial consécutif à un retard de livraison.",
+      "Remboursement de l'acompte versé le {date} – commande annulée.",
+      "Note de crédit pour prestation non réalisée."
+    ]
+  },
+
+  "phrases": {
+    "page_x_of_y": ["Page {p}/{n}", "Page {p} sur {n}", "p. {p}/{n}", "- {p}/{n} -"],
+    "place_date": ["Fait à {city}, le {DOC_DATE}", "{city}, le {DOC_DATE}", "À {city}, le {DOC_DATE}", "{city}, {DOC_DATE}"],
+    "fin_amounts_note": ["Montants exprimés en {currency}", "(en {currency})", "Tous les montants sont exprimés en {currency}.", "Unité monétaire : {currency}"],
+    "fin_period": ["Exercice du {date_start} au {date_end}", "Période du {date_start} au {date_end}", "Exercice ouvert le {date_start} et clos le {date_end}", "Du {date_start} au {date_end}"],
+    "price_validity": ["Tarifs valables jusqu'au {date}", "Prix en vigueur à compter du {date}", "Tarif applicable au {date} – sous réserve de modification", "Liste de prix en vigueur au {date}"],
+    "signature_line": ["Signature et cachet de l'entreprise", "Lu et approuvé – Bon pour accord", "Pour la société, le représentant légal", "Cachet et signature du client", "Le Gérant"],
+    "amount_in_words_intro": ["Arrêtée la présente facture à la somme de", "Arrêté la présente facture à la somme de :", "Arrêté le présent devis à la somme de", "Soit en toutes lettres :", "Montant en lettres :"]
+  },
+
+  "letters": {
+    "payment_reminder": {
+      "subject": [
+        "Relance – facture n° {invoice_no} du {date}",
+        "Rappel de paiement : facture {invoice_no}",
+        "Deuxième relance – facture n° {invoice_no} restée impayée",
+        "Facture {invoice_no} en attente de règlement"
+      ],
+      "body": [
+        "Sauf erreur ou omission de notre part, nous constatons que notre facture n° {invoice_no} du {date}, d'un montant de {amount}, demeure impayée à ce jour.",
+        "Selon nos registres, la facture adressée à {C_NAME} le {date} n'a toujours pas été réglée, alors que son échéance est dépassée.",
+        "Nous vous serions reconnaissants de bien vouloir procéder à son règlement dans les meilleurs délais, par virement bancaire ou par chèque à l'ordre de la société {S_NAME}.",
+        "Si votre paiement a été effectué entre-temps, nous vous prions de ne pas tenir compte de la présente.",
+        "À défaut de règlement sous {n_days} jours, nous nous verrons contraints d'appliquer les pénalités de retard prévues par nos conditions générales de vente.",
+        "Notre service comptabilité reste à votre disposition au {S_PHONE} pour tout renseignement concernant ce dossier."
+      ]
+    },
+    "quote_followup": {
+      "subject": [
+        "Suite à notre devis n° {invoice_no}",
+        "Relance de notre proposition du {date}",
+        "Votre projet : {SERVICE}",
+        "Suivi de notre soumission du {date}"
+      ],
+      "body": [
+        "Le {date}, nous vous avons fait parvenir notre devis n° {invoice_no} pour la prestation suivante : {SERVICE}.",
+        "Nous souhaiterions savoir si notre proposition a retenu votre attention et si elle appelle des questions de votre part.",
+        "Nous restons bien entendu disponibles pour adapter cette offre à vos contraintes de budget ou de calendrier.",
+        "Pour rappel, ce devis est valable jusqu'au {date}. Au-delà, nos conditions tarifaires pourront être révisées.",
+        "N'hésitez pas à nous joindre au {S_PHONE} ou par courriel à {S_EMAIL} : nous serons ravis d'en discuter avec vous.",
+        "Nous serions heureux de compter {C_NAME} parmi nos clients et de mener ce projet à vos côtés."
+      ]
+    },
+    "price_change": {
+      "subject": [
+        "Évolution de nos tarifs au {date}",
+        "Information : révision tarifaire",
+        "Nouvelle grille tarifaire applicable à compter du {date}"
+      ],
+      "body": [
+        "Nous vous informons qu'à compter du {date}, nos tarifs connaîtront une hausse moyenne de {percent}.",
+        "Cette révision s'explique par l'augmentation continue du coût des matières premières, de l'énergie et du transport.",
+        "Malgré ce contexte, nous avons choisi de limiter cette hausse au strict nécessaire, afin de préserver la relation de confiance qui nous unit.",
+        "Les commandes passées avant cette date resteront facturées aux conditions actuelles.",
+        "Notre nouvelle grille tarifaire est disponible sur simple demande ou sur notre site {S_URL}.",
+        "Nous remercions {C_NAME} de sa fidélité et restons à votre écoute pour toute question."
+      ]
+    },
+    "appointment": {
+      "subject": [
+        "Confirmation de rendez-vous du {date}",
+        "Rendez-vous – préparation de notre visite",
+        "Votre rendez-vous du {date} à {time}"
+      ],
+      "body": [
+        "Nous avons le plaisir de vous confirmer notre rendez-vous du {date} à {time}, dans vos locaux ({C_ADDRESS}).",
+        "Comme convenu lors de notre échange téléphonique, {S_PERSON} ({manager_title}) se déplacera personnellement pour faire le point sur votre projet.",
+        "Si ce créneau ne vous convenait pas, merci de nous en informer au plus tôt afin que nous puissions en fixer un autre.",
+        "Afin de préparer au mieux cette rencontre, nous vous remercions de bien vouloir rassembler les documents utiles à l'étude de votre dossier.",
+        "Si vous le préférez, nous pouvons également vous recevoir dans nos bureaux : {S_ADDRESS}.",
+        "Pour toute modification, vous pouvez nous joindre au {S_PHONE}."
+      ]
+    },
+    "closure": {
+      "subject": [
+        "Fermeture annuelle",
+        "Fermeture pour congés du {date_start} au {date_end}",
+        "Information : congés d'été"
+      ],
+      "body": [
+        "Nous vous informons que nos bureaux seront fermés du {date_start} au {date_end} inclus, pour congés annuels.",
+        "Les commandes reçues pendant cette période seront traitées dès notre réouverture, par ordre d'arrivée.",
+        "Nous vous invitons à anticiper vos besoins et à nous transmettre vos demandes avant le {date_start}.",
+        "Dès notre retour, nous vous accueillerons de nouveau aux horaires habituels : {HOURS}.",
+        "En cas d'urgence, vous pouvez nous écrire à {S_EMAIL} ; votre message sera traité en priorité à notre retour.",
+        "Toute l'équipe {S_NAME} vous souhaite un excellent été."
+      ]
+    },
+    "move": {
+      "subject": [
+        "Changement d'adresse",
+        "Nous déménageons !",
+        "Nouvelle adresse à compter du {date}"
+      ],
+      "body": [
+        "Nous avons le plaisir de vous annoncer notre déménagement : à compter du {date}, nous vous accueillerons à notre nouvelle adresse : {S_ADDRESS}.",
+        "Ces nouveaux locaux, plus spacieux et plus accessibles, nous permettront de vous recevoir dans de meilleures conditions.",
+        "Nos coordonnées téléphoniques et électroniques restent inchangées : {S_PHONE} – {S_EMAIL}.",
+        "Nous vous remercions de mettre à jour vos fichiers et d'adresser désormais votre courrier à l'adresse suivante : {S_ADDRESS}.",
+        "Pendant le déménagement, du {date_start} au {date_end}, nos délais de traitement pourront être légèrement allongés.",
+        "Nous serons ravis de vous faire découvrir nos nouveaux locaux lors de notre journée portes ouvertes du {date}."
+      ]
+    },
+    "new_service": {
+      "subject": [
+        "Nouveau : {SERVICE}",
+        "Découvrez nos nouvelles prestations",
+        "Une nouvelle offre pour votre entreprise"
+      ],
+      "body": [
+        "Toujours soucieux de mieux répondre à vos besoins, nous avons le plaisir de vous présenter notre nouvelle offre : {SERVICE}.",
+        "Nous élargissons notre gamme et proposons désormais : {SERVICE_LIST}.",
+        "Pour vous remercier de votre fidélité, nous accordons à {C_NAME} une remise de lancement de {percent} sur sa première commande, valable jusqu'au {date}.",
+        "Notre équipe se tient à votre disposition pour vous présenter cette nouveauté plus en détail, lors d'un rendez-vous ou par téléphone au {S_PHONE}.",
+        "Vous trouverez ci-joint notre documentation ainsi que les conditions tarifaires applicables.",
+        "Toutes les informations sont également disponibles sur {S_URL}."
+      ]
+    },
+    "thanks": {
+      "subject": [
+        "Remerciements",
+        "Merci pour votre confiance",
+        "Suite à l'achèvement de notre mission"
+      ],
+      "body": [
+        "Nous tenons à vous remercier chaleureusement pour la confiance que vous nous avez témoignée tout au long de cette année.",
+        "Ce fut un plaisir de travailler pour {C_NAME}, et nous espérons avoir pleinement répondu à vos attentes.",
+        "Votre satisfaction est notre meilleure récompense : n'hésitez pas à nous faire part de vos remarques et suggestions.",
+        "Nous serions heureux de vous accompagner à nouveau dans vos prochains projets.",
+        "En remerciement de votre fidélité, nous vous offrons une remise de {percent} sur votre prochaine commande.",
+        "L'ensemble de l'équipe {S_NAME} se joint à moi pour vous adresser ses sincères remerciements."
+      ]
+    },
+    "order_to_supplier": {
+      "subject": [
+        "Bon de commande n° {order_no}",
+        "Commande de réapprovisionnement",
+        "Confirmation de notre commande du {date}"
+      ],
+      "body": [
+        "Suite à votre offre du {date}, nous vous prions de bien vouloir nous faire parvenir les articles figurant sur le bon de commande n° {order_no} ci-joint.",
+        "Par la présente, nous passons commande à {C_NAME} des articles suivants : {quantity} ramettes de papier, {quantity} cartouches d'encre et {quantity} classeurs à levier.",
+        "La livraison devra être effectuée au plus tard le {date}, à l'adresse suivante : {S_ADDRESS}.",
+        "Merci de nous adresser la facture correspondante en rappelant la référence de notre commande.",
+        "Le règlement interviendra à {n_days} jours à réception de facture, conformément à nos accords.",
+        "Pour toute question, notre responsable des achats, {person}, reste joignable au {S_PHONE}."
+      ]
+    },
+    "letter_to_bank": {
+      "subject": [
+        "Demande de rendez-vous",
+        "Compte professionnel – demandes diverses",
+        "Agence {bank} – notre compte professionnel"
+      ],
+      "body": [
+        "Nous souhaiterions rencontrer votre conseiller professionnel afin d'étudier le financement d'un nouvel équipement d'un montant de {amount}.",
+        "Titulaire d'un compte professionnel dans votre établissement depuis {n_years}, notre entreprise sollicite également une augmentation temporaire de son autorisation de découvert, afin de faire face à un pic saisonnier d'activité.",
+        "Vous trouverez ci-joint nos derniers bilans ainsi qu'un plan de trésorerie prévisionnel pour les douze prochains mois.",
+        "Par ailleurs, nous vous informons que {S_PERSON}, {manager_title}, sera désormais la seule personne habilitée à effectuer des opérations sur le compte de la société.",
+        "Nous vous remercions enfin de bien vouloir exécuter le virement de {amount} en faveur de notre fournisseur, selon l'ordre ci-joint, en débitant notre compte ouvert à l'agence {bank}.",
+        "Nous restons à votre disposition au {S_PHONE} pour tout document complémentaire."
+      ]
+    },
+    "order_from_client": {
+      "subject": [
+        "Commande n° {order_no}",
+        "Bon de commande du {date}",
+        "Passation de commande suite à votre devis"
+      ],
+      "body": [
+        "Suite à votre devis du {date}, nous avons le plaisir de vous confirmer notre commande, enregistrée sous le n° {order_no}.",
+        "Nous vous remercions de bien vouloir livrer la marchandise à l'adresse suivante : {S_ADDRESS}, au plus tard le {date}.",
+        "La facture devra être adressée à notre service comptabilité et rappeler impérativement le numéro de commande.",
+        "Nous comptons sur {C_NAME} pour respecter le délai convenu, ce projet étant soumis à un calendrier très serré.",
+        "Pour toute question technique, vous pouvez contacter {person}, {position}, au {S_PHONE}.",
+        "Le paiement sera effectué par virement à {n_days} jours à réception de facture."
+      ]
+    },
+    "complaint_from_client": {
+      "subject": [
+        "Réclamation – commande n° {order_no}",
+        "Contestation de votre facture n° {invoice_no}",
+        "Prestation non conforme"
+      ],
+      "body": [
+        "Nous avons réceptionné le {date} la commande n° {order_no} et constatons malheureusement que plusieurs articles sont endommagés.",
+        "Par ailleurs, l'intervention réalisée le {date} ne correspond pas à ce qui avait été convenu dans votre devis.",
+        "Nous vous demandons de bien vouloir procéder au remplacement des articles défectueux dans les plus brefs délais ou, à défaut, d'établir un avoir.",
+        "Dans l'attente d'une solution, nous suspendons le règlement de la facture n° {invoice_no}.",
+        "Nous restons attachés à la qualité de notre collaboration avec {C_NAME} et espérons un règlement rapide de ce différend.",
+        "Notre responsable des achats, {person}, est joignable au {S_PHONE} ou par courriel à {S_EMAIL}."
+      ]
+    },
+    "quote_request": {
+      "subject": [
+        "Demande de devis",
+        "Demande de prix",
+        "Demande de soumission"
+      ],
+      "body": [
+        "Nous souhaiterions recevoir une proposition détaillée pour la prestation décrite dans le document joint à ce courrier.",
+        "Merci de nous préciser vos tarifs, vos délais d'intervention ainsi que vos conditions de paiement.",
+        "Votre offre devra nous parvenir avant le {date}, par courrier ou par courriel à {S_EMAIL}.",
+        "Nous avons connu votre entreprise, {C_NAME}, par l'intermédiaire de l'un de nos partenaires, qui nous l'a vivement recommandée.",
+        "Pour organiser une visite préalable, vous pouvez contacter {person}, {position}, au {S_PHONE}.",
+        "Nous vous remercions par avance de l'attention que vous porterez à notre demande."
+      ]
+    },
+    "supplier_offer": {
+      "subject": [
+        "Offre spéciale réservée aux professionnels",
+        "Proposition commerciale – {SERVICE}",
+        "Tarifs préférentiels jusqu'au {date}"
+      ],
+      "body": [
+        "Fournisseur de nombreuses entreprises de votre secteur, nous avons le plaisir de vous présenter notre offre : {SERVICE}.",
+        "Nous proposons notamment : {SERVICE_LIST}, livrables sous {n_days} jours.",
+        "Pour toute première commande passée avant le {date}, nous vous accordons une remise exceptionnelle de {percent}.",
+        "Notre catalogue complet est consultable sur {S_URL}.",
+        "Notre représentant, {person}, se tient à votre disposition pour vous rendre visite et vous présenter nos produits.",
+        "Nous serions heureux de compter {C_NAME} parmi nos clients."
+      ]
+    },
+    "bank_notice": {
+      "subject": [
+        "Information importante concernant votre compte professionnel",
+        "Votre convention de compte professionnel",
+        "Mise à jour de votre dossier client"
+      ],
+      "body": [
+        "Nous vous informons qu'à compter du {date}, les conditions tarifaires applicables à votre compte professionnel évolueront.",
+        "Par ailleurs, conformément à la réglementation en vigueur, nous vous remercions de nous transmettre une copie à jour des statuts de la société {C_NAME} ainsi qu'une pièce d'identité de son représentant légal.",
+        "Le détail de ces modifications figure dans la brochure jointe. Vous disposez d'un délai de {n_days} jours pour nous faire part de votre éventuel désaccord.",
+        "Votre conseiller de l'agence {bank} ({city}) reste à votre disposition pour tout renseignement.",
+        "Nous attirons également votre attention sur le fait que votre compte présente, au {date}, un solde débiteur de {amount}.",
+        "Sans réponse de votre part avant le {date}, ces nouvelles conditions seront réputées acceptées."
+      ]
+    },
+    "loan_offer": {
+      "subject": [
+        "Offre de prêt professionnel",
+        "Votre demande de financement",
+        "Proposition de crédit d'investissement"
+      ],
+      "body": [
+        "Suite à votre demande, nous avons le plaisir de vous adresser une offre de prêt d'un montant de {amount}, destiné au financement de vos investissements.",
+        "Ce prêt vous est consenti au taux fixe de {percent} sur une durée de {n_years}, remboursable par échéances mensuelles de {amount}.",
+        "Cette offre est valable jusqu'au {date} ; passé ce délai, elle sera considérée comme caduque.",
+        "Les garanties demandées sont précisées dans les conditions particulières jointes à ce courrier.",
+        "Frais de dossier : {amount}. Assurance emprunteur facultative : {percent} du capital emprunté.",
+        "Emprunteur : {C_NAME} – {C_REG_ID}",
+        "Nous vous remercions de la confiance que vous accordez à notre établissement ; l'équipe {bank} reste à votre disposition pour finaliser ce dossier."
+      ]
+    },
+    "tax_reminder": {
+      "subject": [
+        "Relance – déclaration de TVA non déposée",
+        "Mise en demeure de déposer une déclaration",
+        "Rappel d'échéance fiscale"
+      ],
+      "body": [
+        "Nous avons l'honneur de vous informer que la déclaration de TVA relative à la période du {date_start} au {date_end} n'a pas été déposée à ce jour.",
+        "Selon nos dossiers, votre compte présente également un solde impayé ; des intérêts s'ajoutent chaque jour à ce montant jusqu'à son paiement complet.",
+        "Nous vous invitons à régulariser votre situation dans un délai de {n_days} jours à compter de la réception du présent courrier.",
+        "À défaut, une majoration de {percent} sera appliquée, conformément aux dispositions légales en vigueur.",
+        "Montant restant dû au {date} : {amount}.",
+        "Entreprise concernée : {C_NAME} – {C_REG_ID}",
+        "Service gestionnaire : {other_org}. Pour toute question, utilisez la messagerie sécurisée de votre espace professionnel."
+      ]
+    },
+    "registry_notice": {
+      "subject": [
+        "Dépôt des comptes annuels – rappel",
+        "Rappel de vos obligations déclaratives",
+        "Votre dossier au registre"
+      ],
+      "body": [
+        "Nous vous rappelons que les comptes annuels de l'exercice clos le {date} doivent être déposés dans le délai légal.",
+        "À ce jour, aucun dépôt n'a été enregistré pour la société {C_NAME}, immatriculée sous le numéro {C_REG_ID}.",
+        "Nous vous invitons à régulariser la situation dans un délai de {n_days} jours ; à défaut, votre dossier pourra être transmis à l'autorité compétente.",
+        "Le dépôt peut être effectué en ligne ou auprès de nos services ; il doit être accompagné de l'ensemble des pièces requises, dont le procès-verbal d'approbation des comptes.",
+        "Par ailleurs, la déclaration de mise à jour annuelle de votre entreprise doit être produite au plus tard le {date}.",
+        "Pour toute information complémentaire, nos services restent à votre disposition.",
+        "Service émetteur : {other_org} – {other_address}"
+      ]
+    }
+  },
+
+  "contract": {
+    "parties_provider": [
+      "La société {S_NAME:legal}, {LEGAL_FORM} au capital de {CAPITAL}, dont le siège social est sis {S_ADDRESS}, immatriculée sous le numéro {S_REG_ID}, représentée par {S_PERSON}, {manager_title}, ci-après dénommée « le Prestataire », d'une part,",
+      "{S_NAME:legal}, {LEGAL_FORM} au capital de {CAPITAL}, ayant son siège {S_ADDRESS}, {S_REG_ID}, prise en la personne de son représentant légal, {S_PERSON}, {manager_title}, dûment habilité(e) aux fins des présentes, ci-après « le Fournisseur »,",
+      "Entre : la société {S_NAME:legal}, sise {S_ADDRESS}, {S_REG_ID}, représentée par {S_PERSON} ({manager_title}), ci-après « le Prestataire »,"
+    ],
+    "parties_client": [
+      "Et : {C_NAME} – {C_ADDRESS} – {C_REG_ID}, agissant par son représentant, {person}, {position}, ci-après « le Client », d'autre part.",
+      "Et la société {C_NAME}, ayant son siège {C_ADDRESS}, immatriculée sous le numéro {C_REG_ID}, représentée aux fins des présentes par {person}, {position}, ci-après « le Client ».",
+      "Le Client : {C_NAME} – Adresse : {C_ADDRESS} – {C_REG_ID} – Représentant : {person}, {position}"
+    ],
+    "preamble": [
+      "Il a été préalablement exposé ce qui suit : le Client souhaite confier à un prestataire extérieur des prestations pour lesquelles le Prestataire dispose des compétences et des moyens nécessaires.",
+      "Les parties se sont rapprochées afin de définir les conditions dans lesquelles le Prestataire interviendra pour le compte du Client. Il a été convenu et arrêté ce qui suit :",
+      "Après avoir pris connaissance de la proposition commerciale du Prestataire, le Client a souhaité lui confier la mission décrite ci-après, dans les conditions fixées par le présent contrat."
+    ],
+    "object": [
+      "Le présent contrat a pour objet de définir les conditions dans lesquelles le Prestataire réalise, pour le compte du Client, la prestation suivante : {SERVICE}.",
+      "Le Prestataire s'engage à fournir au Client les prestations suivantes : {SERVICE_LIST}, conformément au cahier des charges annexé aux présentes.",
+      "Par le présent contrat, le Client confie au Prestataire, qui l'accepte, la mission suivante : {SERVICE}."
+    ],
+    "duration": [
+      "Le présent contrat prend effet le {date_start} et prend fin le {date_end}.",
+      "Le contrat est conclu pour une durée initiale de douze mois à compter de sa signature. Il se renouvelle ensuite par tacite reconduction pour des périodes successives d'un an, sauf dénonciation par l'une des parties.",
+      "Le contrat est conclu pour une durée déterminée, du {date_start} au {date_end}, sans possibilité de reconduction tacite."
+    ],
+    "price": [
+      "En contrepartie des prestations, le Client versera au Prestataire une rémunération forfaitaire de {amount} hors taxes.",
+      "Le prix des prestations est fixé à {amount} hors taxes par mois ; il sera révisé chaque année selon l'évolution de l'indice de référence.",
+      "Le montant total du présent contrat s'élève à {amount}, taxes applicables en sus."
+    ],
+    "payment": [
+      "Les factures sont payables à {n_days} jours à compter de leur date d'émission, par virement bancaire.",
+      "Un acompte de {percent} est exigible à la signature ; le solde est payable à {n_days} jours fin de mois.",
+      "Tout retard de paiement au-delà de {n_days} jours entraînera de plein droit l'application de pénalités au taux de {percent}, sans qu'un rappel soit nécessaire."
+    ],
+    "obligations": [
+      "Le Prestataire s'engage à exécuter les prestations avec tout le soin et la diligence requis, conformément aux règles de l'art.",
+      "Le Client s'engage à fournir au Prestataire toutes les informations et tous les documents nécessaires à la bonne exécution de sa mission, et à lui faciliter l'accès à ses locaux.",
+      "Chaque partie s'engage à informer l'autre, sans délai, de toute difficulté susceptible d'affecter l'exécution du présent contrat."
+    ],
+    "confidentiality": [
+      "Chacune des parties s'engage à garder strictement confidentiels les informations et documents de toute nature auxquels elle aurait eu accès à l'occasion de l'exécution du contrat.",
+      "Cette obligation de confidentialité demeurera en vigueur pendant toute la durée du contrat et pendant {n_years} après son expiration."
+    ],
+    "liability": [
+      "La responsabilité du Prestataire ne pourra être engagée qu'en cas de faute prouvée ; elle est limitée, tous préjudices confondus, au montant des sommes effectivement perçues au titre du contrat.",
+      "Aucune des parties ne pourra être tenue responsable d'un manquement à ses obligations résultant d'un cas de force majeure."
+    ],
+    "termination": [
+      "En cas de manquement de l'une des parties à ses obligations, non réparé dans un délai de {n_days} jours à compter de la réception d'une mise en demeure adressée par lettre recommandée avec accusé de réception, l'autre partie pourra résilier le contrat de plein droit.",
+      "Chacune des parties peut mettre fin au contrat à tout moment, moyennant un préavis de trois mois notifié par écrit."
+    ],
+    "law": [
+      "Tout litige relatif à l'interprétation ou à l'exécution du présent contrat sera, à défaut d'accord amiable, soumis aux juridictions compétentes siégeant à {city}.",
+      "À défaut de règlement amiable, le litige sera porté devant le tribunal de commerce compétent, à {city}.",
+      "En cas de contestation, seuls les cours et tribunaux siégeant à {city} sont compétents.",
+      "Le for juridique est à {city}.",
+      "Tout différend sera soumis aux tribunaux compétents du district judiciaire dont relève {city}."
+    ],
+    "signature": [
+      "Fait à {city}, le {DOC_DATE}, en deux exemplaires originaux, dont un pour chacune des parties.",
+      "Fait en double exemplaire à {city}, le {DOC_DATE}. Signatures précédées de la mention manuscrite « Lu et approuvé ».",
+      "Signé à {city}, le {DOC_DATE}."
+    ]
+  },
+
+  "terms": {
+    "cgv": [
+      "Les présentes conditions générales de vente s'appliquent, sans restriction ni réserve, à l'ensemble des ventes et prestations conclues par la société {S_NAME} auprès de ses clients professionnels et particuliers.",
+      "Toute commande implique l'acceptation pleine et entière des présentes conditions, qui prévalent sur tout autre document du client, et notamment sur ses conditions générales d'achat.",
+      "Les commandes ne deviennent définitives qu'après confirmation écrite de notre part et, le cas échéant, encaissement de l'acompte prévu au devis.",
+      "Les prix sont indiqués hors taxes ; ils sont majorés des taxes au taux en vigueur au jour de la facturation. Les produits sont facturés sur la base des tarifs en vigueur au moment de la commande.",
+      "Nos factures sont payables à {n_days} jours à compter de leur date d'émission. Aucun escompte n'est accordé en cas de paiement anticipé.",
+      "Tout retard de paiement entraîne de plein droit l'application de pénalités égales à {percent} du montant dû, ainsi que le versement d'une indemnité forfaitaire pour frais de recouvrement.",
+      "Les délais de livraison ou d'exécution sont donnés à titre indicatif. Un retard ne peut justifier ni l'annulation de la commande ni le versement de dommages et intérêts.",
+      "Les marchandises voyagent aux risques et périls du destinataire. Il appartient au client de vérifier l'état des produits à la livraison et, le cas échéant, d'émettre des réserves auprès du transporteur.",
+      "Le transfert de propriété des produits est subordonné au paiement intégral du prix. Jusqu'à complet paiement, les produits demeurent la propriété de la société {S_NAME:legal}.",
+      "Les produits vendus bénéficient de la garantie légale de conformité et de la garantie contre les vices cachés, dans les conditions prévues par la loi.",
+      "Le client consommateur dispose d'un délai de quatorze jours à compter de la réception de sa commande pour exercer son droit de rétractation, sans avoir à justifier de motif.",
+      "La responsabilité de la société {S_NAME} ne saurait être engagée pour des dommages résultant d'une mauvaise utilisation des produits ou d'un cas de force majeure.",
+      "Toute réclamation doit être adressée par écrit, à {S_EMAIL} ou à l'adresse suivante : {S_ADDRESS}, dans un délai de {n_days} jours suivant la livraison.",
+      "En cas de litige, les parties rechercheront en priorité une solution amiable. À défaut, le litige sera porté devant les juridictions compétentes du ressort du siège social de la société {S_NAME}.",
+      "Le client consommateur peut recourir gratuitement à un service de médiation de la consommation en vue de la résolution amiable d'un litige."
+    ],
+    "privacy": [
+      "Les données personnelles collectées sur le site {S_URL} sont traitées par {S_NAME:legal}, dont le siège est situé {S_ADDRESS}, en sa qualité de responsable du traitement.",
+      "Nous collectons uniquement les données nécessaires au traitement de vos demandes : nom, prénom, adresse électronique, numéro de téléphone et, le cas échéant, adresse postale.",
+      "Ces données sont utilisées pour répondre à vos demandes de devis, assurer le suivi de vos commandes et, avec votre accord, vous adresser nos offres commerciales.",
+      "Vos données sont conservées pendant trois ans à compter de notre dernier contact, puis supprimées ou anonymisées.",
+      "Conformément au Règlement général sur la protection des données (RGPD), vous disposez d'un droit d'accès, de rectification, d'effacement et de portabilité de vos données, ainsi que d'un droit d'opposition.",
+      "Pour exercer ces droits, il vous suffit d'écrire à {S_EMAIL} en précisant l'objet de votre demande.",
+      "Vos données ne sont ni vendues ni cédées à des tiers. Elles peuvent être communiquées à nos prestataires techniques, dans la stricte limite de leurs missions.",
+      "Si vous estimez, après nous avoir contactés, que vos droits ne sont pas respectés, vous pouvez adresser une réclamation à l'autorité de contrôle compétente.",
+      "Nous nous engageons à protéger vos renseignements personnels et à ne les utiliser qu'aux fins pour lesquelles ils ont été recueillis."
+    ],
+    "legal_notice": [
+      "Éditeur du site : {S_NAME:legal}, {LEGAL_FORM} au capital de {CAPITAL}",
+      "Siège social : {S_ADDRESS}",
+      "Immatriculation : {S_REG_ID}",
+      "Téléphone : {S_PHONE} – Courriel : {S_EMAIL}",
+      "Directeur de la publication : {S_PERSON}, {manager_title}",
+      "Hébergement : {other_org}, {other_address}",
+      "Le site {S_URL} est édité par {S_NAME:legal}, {LEGAL_FORM} dont le siège est situé {S_ADDRESS}.",
+      "L'ensemble des contenus de ce site (textes, photographies, logos) est la propriété exclusive de la société {S_NAME} ; toute reproduction sans autorisation écrite est interdite.",
+      "Responsable de la publication : {S_PERSON}",
+      "Identification de l'entreprise : {S_REG_ID}",
+      "Site hébergé par {other_org} – {other_address}"
+    ],
+    "cookies": [
+      "Ce site utilise des cookies afin d'améliorer votre expérience de navigation et de mesurer l'audience.",
+      "Vous pouvez à tout moment accepter ou refuser les cookies en modifiant les paramètres de votre navigateur.",
+      "Les cookies de mesure d'audience sont conservés pour une durée maximale de treize mois.",
+      "En poursuivant votre navigation sur {S_URL}, vous acceptez l'utilisation des cookies strictement nécessaires au fonctionnement du site.",
+      "Les témoins (cookies) nous permettent de retenir vos préférences d'une visite à l'autre."
+    ]
+  },
+
+  "web": {
+    "testimonials": [
+      "« Équipe à l'écoute, travail soigné et délais respectés. Je recommande sans hésiter ! » – {person}",
+      "« Un accueil toujours chaleureux et des conseils avisés. Merci à toute l'équipe ! » — {person}, {city}",
+      "« Nous travaillons avec l'équipe {S_NAME} depuis plusieurs années et n'avons jamais été déçus. » – {person}",
+      "« Service impeccable pour notre commande ({SERVICE}). Je recommande vivement. » – {person}",
+      "« Réactifs, professionnels et de bon conseil : que demander de plus ? » – {person}",
+      "« Un grand merci pour votre disponibilité et votre gentillesse. » – {person}",
+      "« Rapport qualité-prix imbattable. Une adresse à retenir ! » – {person} ({city})"
+    ],
+    "news": [
+      "{date} – Nous avons le plaisir de vous annoncer l'arrivée d'une nouvelle prestation : {SERVICE}.",
+      "{date} – Retrouvez-nous au salon professionnel qui se tiendra à {city} du {date_start} au {date_end}.",
+      "{date} – Notre site fait peau neuf ! Découvrez-le dès maintenant sur {S_URL}.",
+      "{date} – Fermeture exceptionnelle pour inventaire.",
+      "{date} – Bienvenue à {person}, qui rejoint notre équipe !",
+      "{date} – Nouveau : le paiement sans contact est désormais accepté.",
+      "{date} – Journée portes ouvertes : venez découvrir nos nouveautés, dont {SERVICE}."
+    ],
+    "cta": [
+      "Demandez votre devis gratuit !",
+      "Contactez-nous dès aujourd'hui au {S_PHONE}.",
+      "Prenez rendez-vous en ligne sur {S_URL}.",
+      "Écrivez-nous à {S_EMAIL} : réponse sous 24 heures.",
+      "Découvrez toutes nos offres.",
+      "Réservez dès maintenant !",
+      "Demandez votre soumission gratuite en ligne!",
+      "Inscrivez-vous à notre lettre d'information."
+    ]
+  },
+
+  "noise": {
+    "meeting": [
+      "Réunion d'équipe du {date} – Présents : {person}, {person}, {person}. Ordre du jour : planning des congés, commandes en retard, point sécurité.",
+      "Compte rendu : le point hebdomadaire est déplacé au {weekday} à {time}. {person} se charge de prévenir les absents.",
+      "Décisions : renouvellement du contrat de maintenance du photocopieur ; achat de chaises pour la salle de pause.",
+      "Point sur les impayés : trois factures en souffrance, relances à envoyer par {person} avant le {date}.",
+      "Tour de table : hausse des demandes en fin de semaine, prévoir un renfort le samedi. Prochaine réunion le {date} à {time}.",
+      "Action : {person} prépare le budget prévisionnel pour la réunion du {date}.",
+      "Divers : la salle de réunion sera repeinte pendant les vacances ; merci de libérer les armoires."
+    ],
+    "recipe": [
+      "Préchauffez le four à 180 °C. Mélangez la farine, le sucre et les œufs, puis incorporez le beurre fondu.",
+      "Faites revenir les oignons dans un filet d'huile d'olive, ajoutez les tomates concassées et laissez mijoter vingt minutes à feu doux.",
+      "Pour la pâte brisée : 250 g de farine, 125 g de beurre froid, une pincée de sel et un peu d'eau.",
+      "Laissez reposer la pâte une heure au réfrigérateur avant de l'étaler sur un plan de travail fariné.",
+      "Servez bien frais, accompagné d'une salade verte et d'un filet de vinaigrette."
+    ],
+    "manual": [
+      "Avant la première utilisation, chargez complètement la batterie pendant au moins quatre heures.",
+      "Appuyez sur le bouton Marche/Arrêt pendant trois secondes, jusqu'à ce que le voyant passe au vert.",
+      "Pour réinitialiser l'appareil, maintenez simultanément les touches Menu et OK enfoncées.",
+      "Ouvrez le menu Paramètres, sélectionnez « Réseau », puis saisissez le mot de passe de votre connexion sans fil.",
+      "Ne jamais plonger l'appareil dans l'eau. Nettoyer uniquement avec un chiffon doux et sec.",
+      "En cas de message d'erreur E04, vérifiez que le filtre est correctement mis en place.",
+      "Cliquez sur « Enregistrer » pour valider vos modifications ; elles seront prises en compte au prochain démarrage."
+    ],
+    "news": [
+      "Travaux de voirie à {city} : la circulation sera perturbée dans le centre-ville à partir du {date}.",
+      "Les prix des carburants poursuivent leur baisse pour la troisième semaine consécutive.",
+      "Météo : un épisode de fortes chaleurs est attendu sur l'ensemble de la région en fin de semaine.",
+      "Le salon de l'habitat ouvrira ses portes le {date} au parc des expositions, à {city}.",
+      "Selon une étude récente, les petites entreprises peinent toujours à recruter dans les métiers manuels.",
+      "Transports : une grève est annoncée sur le réseau régional le {date}.",
+      "À {city}, le marché de Noël accueillera cette année plus de quatre-vingts exposants."
+    ],
+    "todo": [
+      "À faire : rappeler {person} ; envoyer le devis ; commander des cartouches d'encre.",
+      "Lundi : banque, poste, relancer les factures impayées.",
+      "Penser à renouveler l'assurance du véhicule avant le {date}.",
+      "Liste : vérifier le stock, préparer la vitrine, mettre à jour le site.",
+      "Urgent : signer le bon de livraison et le scanner pour la comptabilité."
+    ],
+    "memo": [
+      "Note interne : à compter du {date}, les demandes de congés devront être déposées au moins un mois à l'avance.",
+      "Rappel à l'ensemble du personnel : merci de ne pas laisser de denrées dans le réfrigérateur le vendredi soir.",
+      "Pour des raisons de sécurité, la porte arrière doit rester fermée à clé en dehors des livraisons.",
+      "Les notes de frais du mois doivent être transmises à {person} avant le {date}.",
+      "Information : une coupure d'électricité est prévue le {date} à partir de {time}, pour une durée d'environ deux heures.",
+      "Merci à tous pour votre implication lors de l'inventaire de fin d'année.",
+      "Nouvelle procédure : toute sortie de matériel doit être consignée dans le registre prévu à cet effet."
+    ],
+    "generic": [
+      "Le colis a été déposé chez votre voisin.",
+      "Bonjour, je vous confirme ma présence à la réunion de jeudi.",
+      "La réunion est annulée en raison des intempéries.",
+      "Merci de fermer la porte derrière vous.",
+      "Le code du portail a changé : demandez-le à l'accueil.",
+      "Toute l'équipe souhaite un joyeux anniversaire à {person} !",
+      "Les toilettes se trouvent au fond du couloir, à droite.",
+      "Merci de laisser cet endroit aussi propre que vous l'avez trouvé.",
+      "Objet trouvé : un trousseau de clés a été rapporté à l'accueil.",
+      "Pensez à éteindre les lumières en quittant la pièce.",
+      "Le train de {time} a été supprimé ; prochain départ dans quarante minutes.",
+      "Je serai absent du {date_start} au {date_end} ; en cas d'urgence, merci de contacter {person}.",
+      "Wi-Fi invités : demandez le mot de passe à l'accueil.",
+      "Veuillez patienter, un conseiller va vous répondre."
+    ],
+    "press": [
+      "Fondée en {FOUNDED} à {city}, l'entreprise {S_NAME} emploie aujourd'hui {STAFF} {staff_noun} et a réalisé un chiffre d'affaires de {REVENUE} en {REVENUE_YEAR}.",
+      "« Nous avons toujours misé sur la qualité », explique {S_PERSON}, {manager_title} de l'entreprise {S_NAME}, spécialisée en {ACTIVITY}.",
+      "Née en {FOUNDED}, la PME s'est imposée en quelques années comme une référence locale en {ACTIVITY}.",
+      "À la tête de l'entreprise {S_NAME} depuis sa création, {S_PERSON} a vu l'effectif passer à {STAFF} {staff_noun}.",
+      "Avec un chiffre d'affaires de {REVENUE} en {REVENUE_YEAR}, l'entreprise {S_NAME} confirme son dynamisme malgré un contexte économique difficile.",
+      "L'entreprise {S_NAME} lance une nouvelle offre, {SERVICE}, avec laquelle elle espère séduire une clientèle plus large.",
+      "Installée à {city}, l'entreprise continue de recruter : elle compte désormais {STAFF} {staff_noun}.",
+      "Créée en {FOUNDED} par {S_PERSON}, toujours {manager_title} de l'entreprise, la société {S_NAME} a connu une croissance régulière."
+    ]
+  }
+}

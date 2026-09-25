@@ -1,0 +1,2501 @@
+{
+  "lang": "ar",
+  "activity": [
+    {
+      "id": "activity.ar.01",
+      "text": "النشاط: {ACTIVITY}"
+    },
+    {
+      "id": "activity.ar.02",
+      "text": "النشاط الرئيسي: {ACTIVITY}"
+    },
+    {
+      "id": "activity.ar.03",
+      "text": "طبيعة النشاط: {ACTIVITY}"
+    },
+    {
+      "id": "activity.ar.04",
+      "text": "نوع النشاط التجاري: {ACTIVITY}"
+    },
+    {
+      "id": "activity.ar.05",
+      "text": "وصف النشاط كما ورد في السجل التجاري: {ACTIVITY}."
+    },
+    {
+      "id": "activity.ar.06",
+      "text": "الأنشطة المرخصة: {ACTIVITY}، وما يرتبط بها من أعمال."
+    },
+    {
+      "id": "activity.ar.07",
+      "text": "غرض الشركة: {ACTIVITY}."
+    },
+    {
+      "id": "activity.ar.08",
+      "text": "نشاط المقاولة: {ACTIVITY}"
+    },
+    {
+      "id": "activity.ar.09",
+      "text": "Activity / النشاط: {ACTIVITY}"
+    },
+    {
+      "id": "activity.ar.10",
+      "text": "مجال عملنا: {ACTIVITY}."
+    },
+    {
+      "id": "activity.ar.11",
+      "text": "{S_NAME} – {ACTIVITY} في {city}"
+    },
+    {
+      "id": "activity.ar.12",
+      "text": "{S_NAME} | {ACTIVITY}"
+    },
+    {
+      "id": "activity.ar.13",
+      "text": "تعمل الشركة في مجال {ACTIVITY}، وتحرص على تقديم أعلى مستويات الجودة لعملائها."
+    },
+    {
+      "id": "activity.ar.14",
+      "text": "نحن في {S_NAME} نعمل في مجال {ACTIVITY} بشغف واحترافية، ونضع رضا العميل في مقدمة أولوياتنا."
+    },
+    {
+      "id": "activity.ar.15",
+      "text": "يتمثل النشاط الرئيسي للشركة في {ACTIVITY}."
+    },
+    {
+      "id": "activity.ar.16",
+      "text": "تمارس المنشأة نشاط {ACTIVITY} وفق الأنظمة والتراخيص المعمول بها."
+    },
+    {
+      "id": "activity.ar.17",
+      "text": "إذا كنت تبحث عن جهة موثوقة في مجال {ACTIVITY}، فأنت في المكان الصحيح."
+    },
+    {
+      "id": "activity.ar.18",
+      "text": "تزاول الشركة نشاطها في مجال {ACTIVITY} انطلاقاً من مقرها في {city}."
+    },
+    {
+      "id": "activity.ar.19",
+      "text": "نشاطنا باختصار: {ACTIVITY}."
+    },
+    {
+      "id": "activity.ar.20",
+      "text": "ما نقوم به كل يوم: {ACTIVITY}، بإتقان وأمانة."
+    },
+    {
+      "id": "activity.ar.21",
+      "text": "تعد الشركة من المنشآت الرائدة في مجال {ACTIVITY} على مستوى {city}."
+    },
+    {
+      "id": "activity.ar.22",
+      "text": "أُسست المؤسسة لتقديم خدمات متميزة في مجال {ACTIVITY} للأفراد والقطاعين العام والخاص."
+    },
+    {
+      "id": "activity.ar.23",
+      "text": "ينصبّ تركيز الشركة على مجال {ACTIVITY}، مع حرص دائم على الجودة والالتزام بالمواعيد."
+    },
+    {
+      "id": "activity.ar.24",
+      "text": "نقدّم خبرتنا في مجال {ACTIVITY} لعملاء في {city} وخارجها."
+    },
+    {
+      "id": "activity.ar.25",
+      "text": "مجال التخصص — {ACTIVITY}"
+    },
+    {
+      "id": "activity.ar.26",
+      "text": "بخبرة متراكمة في مجال {ACTIVITY}، نقدم حلولاً تلبي احتياجات الأفراد والشركات على حد سواء."
+    },
+    {
+      "id": "activity.ar.27",
+      "text": "النشاط المسجل: {ACTIVITY}"
+    },
+    {
+      "id": "activity.ar.28",
+      "text": "من نحن؟ منشأة تعمل في مجال {ACTIVITY}، يقودها فريق يؤمن بالجودة والإتقان."
+    }
+  ],
+  "founded": [
+    {
+      "id": "founded.ar.01",
+      "text": "تأسست الشركة عام {FOUNDED}."
+    },
+    {
+      "id": "founded.ar.02",
+      "text": "سنة التأسيس: {FOUNDED}"
+    },
+    {
+      "id": "founded.ar.03",
+      "text": "تاريخ التأسيس: {FOUNDED:date}"
+    },
+    {
+      "id": "founded.ar.04",
+      "text": "منذ {FOUNDED} ونحن نخدم عملاءنا بأمانة وإتقان."
+    },
+    {
+      "id": "founded.ar.05",
+      "text": "بدأت مسيرة {S_NAME} عام {FOUNDED} في مدينة {city}، ولم تتوقف منذ ذلك الحين عن النمو والتطور."
+    },
+    {
+      "id": "founded.ar.06",
+      "text": "تاريخ القيد في السجل التجاري: {FOUNDED:date}"
+    },
+    {
+      "id": "founded.ar.07",
+      "text": "تاريخ التأسيس (Est. Date): {FOUNDED:date}"
+    },
+    {
+      "id": "founded.ar.08",
+      "text": "يعود تأسيس {S_NAME} إلى عام {FOUNDED}، حين افتُتح أول محل صغير في {city}."
+    },
+    {
+      "id": "founded.ar.09",
+      "text": "منذ تأسيسها في {FOUNDED:month}، رسّخت الشركة مكانتها بين أبرز المنشآت في مجالها."
+    },
+    {
+      "id": "founded.ar.10",
+      "text": "أُسست المؤسسة في {FOUNDED:date} برأس مال متواضع وطموح كبير."
+    },
+    {
+      "id": "founded.ar.11",
+      "text": "انطلقنا عام {FOUNDED} بفكرة بسيطة: خدمة صادقة وسعر عادل."
+    },
+    {
+      "id": "founded.ar.12",
+      "text": "تأسست الشركة بتاريخ {FOUNDED:date}، وقُيّدت في السجل التجاري بمدينة {city}."
+    },
+    {
+      "id": "founded.ar.13",
+      "text": "منذ عام {FOUNDED} | Since {FOUNDED}"
+    },
+    {
+      "id": "founded.ar.14",
+      "text": "عام التأسيس – {FOUNDED}"
+    },
+    {
+      "id": "founded.ar.15",
+      "text": "في عام {FOUNDED} فُتحت أبواب {S_NAME} لأول مرة في {city}."
+    },
+    {
+      "id": "founded.ar.16",
+      "text": "منشأة وطنية تأسست عام {FOUNDED}، وتعمل بسواعد أبناء الوطن."
+    },
+    {
+      "id": "founded.ar.17",
+      "text": "بدأنا العمل في {FOUNDED:month} بفريق صغير من المتخصصين."
+    },
+    {
+      "id": "founded.ar.18",
+      "text": "تاريخ بدء النشاط: {FOUNDED:date}"
+    },
+    {
+      "id": "founded.ar.19",
+      "text": "تاريخ التسجيل: {FOUNDED:date}"
+    },
+    {
+      "id": "founded.ar.20",
+      "text": "نشأت الشركة عام {FOUNDED} كمشروع عائلي صغير، ثم توسعت لتصبح اليوم من الأسماء المعروفة في {city}."
+    },
+    {
+      "id": "founded.ar.21",
+      "text": "منذ عام {FOUNDED}"
+    },
+    {
+      "id": "founded.ar.22",
+      "text": "تأسست عام {FOUNDED}"
+    },
+    {
+      "id": "founded.ar.23",
+      "text": "حرصنا منذ تأسيسنا عام {FOUNDED} على بناء علاقات طويلة الأمد مع عملائنا."
+    },
+    {
+      "id": "founded.ar.24",
+      "text": "قُيّدت الشركة لدى الجهات المختصة بتاريخ {FOUNDED:date}."
+    },
+    {
+      "id": "founded.ar.25",
+      "text": "Founded / تأسست: {FOUNDED}"
+    },
+    {
+      "id": "founded.ar.26",
+      "text": "تأسست المنشأة في {FOUNDED:month}، وما زالت تحافظ على القيم التي قامت عليها."
+    },
+    {
+      "id": "founded.ar.27",
+      "text": "خطونا خطواتنا الأولى عام {FOUNDED}، ومنذ ذلك الحين نكبر بثقتكم."
+    }
+  ],
+  "staff": [
+    {
+      "id": "staff.ar.01",
+      "text": "عدد الموظفين: {STAFF}"
+    },
+    {
+      "id": "staff.ar.02",
+      "text": "عدد العاملين: {STAFF}"
+    },
+    {
+      "id": "staff.ar.03",
+      "text": "يعمل لدى الشركة {STAFF} {staff_noun} من ذوي الكفاءة والخبرة."
+    },
+    {
+      "id": "staff.ar.04",
+      "text": "يضم فريقنا {STAFF} {staff_noun} يعملون بروح الفريق الواحد."
+    },
+    {
+      "id": "staff.ar.05",
+      "text": "القوى العاملة: {STAFF} {staff_noun}"
+    },
+    {
+      "id": "staff.ar.06",
+      "text": "يبلغ عدد منسوبي المنشأة {STAFF} {staff_noun}."
+    },
+    {
+      "id": "staff.ar.07",
+      "text": "نعتمد على فريق مؤهل قوامه {STAFF} {staff_noun} في مختلف التخصصات."
+    },
+    {
+      "id": "staff.ar.08",
+      "text": "إجمالي عدد الموظفين حتى تاريخه: {STAFF}"
+    },
+    {
+      "id": "staff.ar.09",
+      "text": "يعمل في {S_NAME} اليوم {STAFF} {staff_noun} يتوزعون على عدة أقسام."
+    },
+    {
+      "id": "staff.ar.10",
+      "text": "بفريق عمل من {STAFF} {staff_noun}، نضمن لكم سرعة الإنجاز ودقة التنفيذ."
+    },
+    {
+      "id": "staff.ar.11",
+      "text": "حجم الفريق: {STAFF} {staff_noun}"
+    },
+    {
+      "id": "staff.ar.12",
+      "text": "ارتفع عدد موظفينا إلى {STAFF} {staff_noun} بعد التوسعات الأخيرة."
+    },
+    {
+      "id": "staff.ar.13",
+      "text": "نحن فريق من {STAFF} {staff_noun} نؤمن بأن الجودة لا تقبل المساومة."
+    },
+    {
+      "id": "staff.ar.14",
+      "text": "يعمل معنا {STAFF} {staff_noun} بين فنيين وإداريين ومختصين."
+    },
+    {
+      "id": "staff.ar.15",
+      "text": "عدد الموظفين المسجلين في التأمينات الاجتماعية: {STAFF}"
+    },
+    {
+      "id": "staff.ar.16",
+      "text": "Employees / عدد الموظفين: {STAFF}"
+    },
+    {
+      "id": "staff.ar.17",
+      "text": "تضم أسرة {S_NAME} اليوم {STAFF} {staff_noun}."
+    },
+    {
+      "id": "staff.ar.18",
+      "text": "يقف خلف نجاحنا {STAFF} {staff_noun} يعملون بشغف كل يوم."
+    },
+    {
+      "id": "staff.ar.19",
+      "text": "الموارد البشرية: {STAFF} {staff_noun} بدوام كامل"
+    },
+    {
+      "id": "staff.ar.20",
+      "text": "يبلغ عدد العاملين لدينا {STAFF} {staff_noun}، أغلبهم من الكوادر الوطنية."
+    },
+    {
+      "id": "staff.ar.21",
+      "text": "عدد العمال: {STAFF}"
+    },
+    {
+      "id": "staff.ar.22",
+      "text": "يتوزع فريقنا المكوّن من {STAFF} {staff_noun} بين المقر الرئيسي في {city} ومواقع العمل."
+    },
+    {
+      "id": "staff.ar.23",
+      "text": "وصل عدد الموظفين في نهاية العام إلى {STAFF}."
+    },
+    {
+      "id": "staff.ar.24",
+      "text": "تعتمد المنشأة على {STAFF} {staff_noun} لتلبية طلبات العملاء يومياً."
+    },
+    {
+      "id": "staff.ar.25",
+      "text": "عدد الموظفين بالشركة: {STAFF} (بين دائمين ومؤقتين)"
+    },
+    {
+      "id": "staff.ar.26",
+      "text": "لدينا {STAFF} {staff_noun}، جميعهم مدرَّبون على أعلى مستوى."
+    },
+    {
+      "id": "staff.ar.27",
+      "text": "عدد الأجراء: {STAFF}"
+    }
+  ],
+  "revenue": [
+    {
+      "id": "revenue.ar.01",
+      "text": "رقم الأعمال: {REVENUE}"
+    },
+    {
+      "id": "revenue.ar.02",
+      "text": "الإيرادات السنوية: {REVENUE}"
+    },
+    {
+      "id": "revenue.ar.03",
+      "text": "بلغت إيرادات الشركة {REVENUE} خلال عام {REVENUE_YEAR}."
+    },
+    {
+      "id": "revenue.ar.04",
+      "text": "حققت المنشأة مبيعات إجمالية قدرها {REVENUE} في السنة المالية {REVENUE_YEAR}."
+    },
+    {
+      "id": "revenue.ar.05",
+      "text": "رقم المعاملات برسم سنة {REVENUE_YEAR}: {REVENUE}"
+    },
+    {
+      "id": "revenue.ar.06",
+      "text": "ارتفعت إيراداتنا من {REVENUE_PREV} في عام {REVENUE_YEAR_PREV} إلى {REVENUE} في عام {REVENUE_YEAR}."
+    },
+    {
+      "id": "revenue.ar.07",
+      "text": "إجمالي الإيرادات ({REVENUE_YEAR}): {REVENUE}"
+    },
+    {
+      "id": "revenue.ar.08",
+      "text": "حجم المبيعات السنوية: {REVENUE}"
+    },
+    {
+      "id": "revenue.ar.09",
+      "text": "سجلت الشركة في {REVENUE_YEAR} رقم أعمال بلغ {REVENUE}، بنمو ملحوظ مقارنة بالعام السابق."
+    },
+    {
+      "id": "revenue.ar.10",
+      "text": "بلغ رقم أعمال {S_NAME} عن السنة المالية {REVENUE_YEAR} ما قيمته {REVENUE}."
+    },
+    {
+      "id": "revenue.ar.11",
+      "text": "المبيعات {REVENUE_YEAR}: {REVENUE} مقابل {REVENUE_PREV} في {REVENUE_YEAR_PREV}"
+    },
+    {
+      "id": "revenue.ar.12",
+      "text": "تجاوزت إيراداتنا السنوية {REVENUE}، ما يعكس ثقة عملائنا المتزايدة."
+    },
+    {
+      "id": "revenue.ar.13",
+      "text": "Revenue / الإيرادات {REVENUE_YEAR}: {REVENUE}"
+    },
+    {
+      "id": "revenue.ar.14",
+      "text": "واصلت الشركة نموها لتصل إيراداتها إلى {REVENUE} في عام {REVENUE_YEAR}."
+    },
+    {
+      "id": "revenue.ar.15",
+      "text": "صافي المبيعات: {REVENUE}"
+    },
+    {
+      "id": "revenue.ar.16",
+      "text": "تُقدَّر الإيرادات السنوية للمنشأة بنحو {REVENUE}."
+    },
+    {
+      "id": "revenue.ar.17",
+      "text": "الإيرادات: {REVENUE} ({REVENUE_YEAR})"
+    },
+    {
+      "id": "revenue.ar.18",
+      "text": "نما رقم الأعمال خلال {REVENUE_YEAR} ليبلغ {REVENUE}، مقابل {REVENUE_PREV} في السنة السابقة."
+    },
+    {
+      "id": "revenue.ar.19",
+      "text": "إجمالي المبيعات لعام {REVENUE_YEAR} بلغ {REVENUE}."
+    },
+    {
+      "id": "revenue.ar.20",
+      "text": "رقم الأعمال السنوي: أكثر من {REVENUE}"
+    },
+    {
+      "id": "revenue.ar.21",
+      "text": "بلغت قيمة المبيعات عن السنة المالية المنتهية {REVENUE}."
+    },
+    {
+      "id": "revenue.ar.22",
+      "text": "الإيرادات التشغيلية {REVENUE_YEAR}: {REVENUE}"
+    },
+    {
+      "id": "revenue.ar.23",
+      "text": "حققنا العام الماضي إيرادات بقيمة {REVENUE}، وهو أعلى رقم في تاريخ الشركة."
+    },
+    {
+      "id": "revenue.ar.24",
+      "text": "المؤشرات الرئيسية – الإيرادات: {REVENUE}"
+    },
+    {
+      "id": "revenue.ar.25",
+      "text": "رقم الأعمال المحقق في {REVENUE_YEAR}: {REVENUE}"
+    },
+    {
+      "id": "revenue.ar.26",
+      "text": "رقم المعاملات السنوي: {REVENUE}"
+    },
+    {
+      "id": "revenue.ar.27",
+      "text": "بلغ حجم أعمال الشركة في {REVENUE_YEAR} نحو {REVENUE}، مقارنة بنحو {REVENUE_PREV} في {REVENUE_YEAR_PREV}."
+    }
+  ],
+  "services_intro": [
+    {
+      "id": "services_intro.ar.01",
+      "text": "خدماتنا: {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.ar.02",
+      "text": "نقدم لعملائنا مجموعة متكاملة من الخدمات تشمل {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.ar.03",
+      "text": "من أبرز خدماتنا: {SERVICE}."
+    },
+    {
+      "id": "services_intro.ar.04",
+      "text": "جديدنا: {SERVICE}"
+    },
+    {
+      "id": "services_intro.ar.05",
+      "text": "نوفر لكم {SERVICE} بأعلى معايير الجودة وبأسعار تنافسية."
+    },
+    {
+      "id": "services_intro.ar.06",
+      "text": "تشمل قائمة خدماتنا ما يلي: {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.ar.07",
+      "text": "اطلب الآن: {SERVICE}"
+    },
+    {
+      "id": "services_intro.ar.08",
+      "text": "هل تبحث عن {SERVICE}؟ تواصل معنا اليوم."
+    },
+    {
+      "id": "services_intro.ar.09",
+      "text": "يسعدنا أن نقدم لكم {SERVICE} في الوقت الذي يناسبكم."
+    },
+    {
+      "id": "services_intro.ar.10",
+      "text": "منتجاتنا وخدماتنا: {SERVICE_LIST}"
+    },
+    {
+      "id": "services_intro.ar.11",
+      "text": "نختص بتقديم {SERVICE_LIST} للأفراد والشركات."
+    },
+    {
+      "id": "services_intro.ar.12",
+      "text": "الأكثر طلباً لدى عملائنا: {SERVICE}."
+    },
+    {
+      "id": "services_intro.ar.13",
+      "text": "من أكثر ما نفخر به: {SERVICE}."
+    },
+    {
+      "id": "services_intro.ar.14",
+      "text": "في {S_NAME} نقدم لكم {SERVICE_LIST}، وكل ذلك تحت سقف واحد."
+    },
+    {
+      "id": "services_intro.ar.15",
+      "text": "عرض خاص هذا الشهر على {SERVICE}."
+    },
+    {
+      "id": "services_intro.ar.16",
+      "text": "يمكنكم الآن طلب {SERVICE} عبر الهاتف أو الموقع الإلكتروني."
+    },
+    {
+      "id": "services_intro.ar.17",
+      "text": "ما نقدمه لكم: {SERVICE_LIST}"
+    },
+    {
+      "id": "services_intro.ar.18",
+      "text": "نقدم خدماتنا في {city} والمناطق المجاورة، ومنها {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.ar.19",
+      "text": "{SERVICE} – بجودة مضمونة وتسليم في الموعد."
+    },
+    {
+      "id": "services_intro.ar.20",
+      "text": "حلولنا تشمل {SERVICE_LIST}، مع متابعة مستمرة بعد التسليم."
+    },
+    {
+      "id": "services_intro.ar.21",
+      "text": "Our services / خدماتنا: {SERVICE_LIST}"
+    },
+    {
+      "id": "services_intro.ar.22",
+      "text": "نضع بين أيديكم {SERVICE} وفق احتياجاتكم الخاصة."
+    },
+    {
+      "id": "services_intro.ar.23",
+      "text": "للاستفسار عن {SERVICE} يرجى التواصل مع فريق خدمة العملاء."
+    },
+    {
+      "id": "services_intro.ar.24",
+      "text": "باقة خدماتنا المتكاملة: {SERVICE_LIST}."
+    },
+    {
+      "id": "services_intro.ar.25",
+      "text": "أحدث ما أضفناه إلى قائمة خدماتنا: {SERVICE}."
+    },
+    {
+      "id": "services_intro.ar.26",
+      "text": "بالإضافة إلى ذلك، نقدم {SERVICE} بأسعار خاصة للشركات."
+    },
+    {
+      "id": "services_intro.ar.27",
+      "text": "تتنوع خدماتنا لتشمل {SERVICE_LIST} وغيرها."
+    }
+  ],
+  "clients": [
+    {
+      "id": "clients.ar.01",
+      "text": "من أبرز عملائنا: {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.ar.02",
+      "text": "عملاؤنا: {C_NAME_LIST}"
+    },
+    {
+      "id": "clients.ar.03",
+      "text": "نفخر بثقة جهات رائدة مثل {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.ar.04",
+      "text": "نفذنا مشاريع ناجحة لصالح {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.ar.05",
+      "text": "من الجهات التي تشرفنا بخدمتها: {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.ar.06",
+      "text": "يعتمد على خدماتنا عدد من الجهات المعروفة، منها {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.ar.07",
+      "text": "قائمة مختارة من عملائنا: {C_NAME_LIST}"
+    },
+    {
+      "id": "clients.ar.08",
+      "text": "أحدث مشاريعنا كان لصالح {C_NAME} في {city}."
+    },
+    {
+      "id": "clients.ar.09",
+      "text": "نتشرف بأن يكون من بين عملائنا {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.ar.10",
+      "text": "من مراجعنا: {C_NAME_LIST}"
+    },
+    {
+      "id": "clients.ar.11",
+      "text": "وقّعنا مؤخراً عقد خدمات سنوياً مع {C_NAME}."
+    },
+    {
+      "id": "clients.ar.12",
+      "text": "يثق بنا كلٌّ من {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.ar.13",
+      "text": "Clients / عملاؤنا: {C_NAME_LIST}"
+    },
+    {
+      "id": "clients.ar.14",
+      "text": "نعتز بعلاقتنا الطويلة مع عملائنا، ومنهم {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.ar.15",
+      "text": "خدمنا على مدى السنوات الماضية جهات حكومية وخاصة، من بينها {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.ar.16",
+      "text": "{C_NAME} — من عملائنا الدائمين"
+    },
+    {
+      "id": "clients.ar.17",
+      "text": "حصلنا على ثقة {C_NAME} لتنفيذ عقد سنوي متكامل."
+    },
+    {
+      "id": "clients.ar.18",
+      "text": "من المؤسسات التي نتعامل معها بشكل منتظم: {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.ar.19",
+      "text": "نفتخر بخدمة {C_NAME_LIST} وغيرها من الجهات الرائدة."
+    },
+    {
+      "id": "clients.ar.20",
+      "text": "وقع اختيار {C_NAME} علينا لتنفيذ مشروع التجهيز الكامل."
+    },
+    {
+      "id": "clients.ar.21",
+      "text": "عملاء نعتز بهم: {C_NAME_LIST}"
+    },
+    {
+      "id": "clients.ar.22",
+      "text": "آخر العقود الموقعة: {C_NAME}"
+    },
+    {
+      "id": "clients.ar.23",
+      "text": "من الجهات المستفيدة من خدماتنا: {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.ar.24",
+      "text": "قدمنا خدماتنا لكبرى الجهات في {city}، مثل {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.ar.25",
+      "text": "يشهد على جودة عملنا عملاء مثل {C_NAME_LIST}."
+    },
+    {
+      "id": "clients.ar.26",
+      "text": "نعمل منذ سنوات مع {C_NAME}، ونفخر بهذه الثقة المتجددة."
+    },
+    {
+      "id": "clients.ar.27",
+      "text": "مراجع أعمالنا: {C_NAME_LIST}"
+    }
+  ],
+  "hours": [
+    {
+      "id": "hours.ar.01",
+      "text": "ساعات العمل: {HOURS}"
+    },
+    {
+      "id": "hours.ar.02",
+      "text": "أوقات الدوام: {HOURS}"
+    },
+    {
+      "id": "hours.ar.03",
+      "text": "مواعيد العمل: {HOURS}"
+    },
+    {
+      "id": "hours.ar.04",
+      "text": "نستقبلكم {HOURS:prose}."
+    },
+    {
+      "id": "hours.ar.05",
+      "text": "مكاتبنا مفتوحة {HOURS:prose}."
+    },
+    {
+      "id": "hours.ar.06",
+      "text": "أوقات العمل الرسمية: {HOURS}"
+    },
+    {
+      "id": "hours.ar.07",
+      "text": "يسعدنا استقبالكم {HOURS:prose}، ويُفضَّل الحجز المسبق عبر الهاتف."
+    },
+    {
+      "id": "hours.ar.08",
+      "text": "Opening hours / ساعات العمل: {HOURS}"
+    },
+    {
+      "id": "hours.ar.09",
+      "text": "الدوام: {HOURS}"
+    },
+    {
+      "id": "hours.ar.10",
+      "text": "نعمل {HOURS:prose} لخدمتكم."
+    },
+    {
+      "id": "hours.ar.11",
+      "text": "مواعيد استقبال العملاء: {HOURS}"
+    },
+    {
+      "id": "hours.ar.12",
+      "text": "نرحب بزيارتكم {HOURS:prose}."
+    },
+    {
+      "id": "hours.ar.13",
+      "text": "خدمة العملاء متاحة {HOURS:prose}."
+    },
+    {
+      "id": "hours.ar.14",
+      "text": "ساعات الاستقبال: {HOURS}"
+    },
+    {
+      "id": "hours.ar.15",
+      "text": "أبوابنا مفتوحة {HOURS:prose}، ونسعد بخدمتكم دائماً."
+    },
+    {
+      "id": "hours.ar.16",
+      "text": "توقيت العمل: {HOURS}"
+    },
+    {
+      "id": "hours.ar.17",
+      "text": "يمكنكم زيارتنا في {S_ADDRESS}، {HOURS:prose}."
+    },
+    {
+      "id": "hours.ar.18",
+      "text": "نستقبلكم وفق المواعيد التالية: {HOURS}"
+    },
+    {
+      "id": "hours.ar.19",
+      "text": "المكتب مفتوح {HOURS:prose}."
+    },
+    {
+      "id": "hours.ar.20",
+      "text": "للزيارة: {HOURS}"
+    },
+    {
+      "id": "hours.ar.21",
+      "text": "نستقبل طلباتكم الهاتفية {HOURS:prose}."
+    },
+    {
+      "id": "hours.ar.22",
+      "text": "أوقات الدوام الرسمي — {HOURS}"
+    },
+    {
+      "id": "hours.ar.23",
+      "text": "ساعات العمل في فرع {city}: {HOURS}"
+    },
+    {
+      "id": "hours.ar.24",
+      "text": "نحن في خدمتكم {HOURS:prose}."
+    },
+    {
+      "id": "hours.ar.25",
+      "text": "مواعيد الزيارة: {HOURS}."
+    },
+    {
+      "id": "hours.ar.26",
+      "text": "يسرّنا الرد على اتصالاتكم واستفساراتكم {HOURS:prose}."
+    }
+  ],
+  "certifications": [
+    {
+      "id": "certifications.ar.01",
+      "text": "الشهادات والاعتمادات: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.ar.02",
+      "text": "حاصلون على {CERT}."
+    },
+    {
+      "id": "certifications.ar.03",
+      "text": "الشركة حاصلة على {CERT}، وهو ما يعكس التزامنا بأعلى معايير الجودة."
+    },
+    {
+      "id": "certifications.ar.04",
+      "text": "اعتماداتنا: {CERT_LIST}."
+    },
+    {
+      "id": "certifications.ar.05",
+      "text": "نفخر بحصولنا على {CERT}."
+    },
+    {
+      "id": "certifications.ar.06",
+      "text": "حصلت الشركة على {CERT} بعد تقييم شامل لإجراءاتها وخدماتها."
+    },
+    {
+      "id": "certifications.ar.07",
+      "text": "الجودة لدينا موثقة: {CERT_LIST}."
+    },
+    {
+      "id": "certifications.ar.08",
+      "text": "Certifications / الشهادات: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.ar.09",
+      "text": "نلتزم في جميع مراحل العمل بالمعايير التي أهّلتنا للحصول على {CERT}."
+    },
+    {
+      "id": "certifications.ar.10",
+      "text": "تم منح المنشأة {CERT} تقديراً لالتزامها بمعايير الجودة."
+    },
+    {
+      "id": "certifications.ar.11",
+      "text": "الاعتمادات والجوائز: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.ar.12",
+      "text": "من بين الشهادات والعضويات التي نحملها: {CERT_LIST}."
+    },
+    {
+      "id": "certifications.ar.13",
+      "text": "يسرنا أن نعلن عن حصولنا على {CERT}."
+    },
+    {
+      "id": "certifications.ar.14",
+      "text": "جودة معتمدة – {CERT}"
+    },
+    {
+      "id": "certifications.ar.15",
+      "text": "الشهادات الحاصلة عليها الشركة: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.ar.16",
+      "text": "إن حصولنا على {CERT} دليل على جدية التزامنا تجاه عملائنا."
+    },
+    {
+      "id": "certifications.ar.17",
+      "text": "معتمدون من الجهات المختصة ونحمل {CERT_LIST}."
+    },
+    {
+      "id": "certifications.ar.18",
+      "text": "نحمل بفخر: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.ar.19",
+      "text": "شهادات الجودة: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.ar.20",
+      "text": "آخر إنجازاتنا: الحصول على {CERT}."
+    },
+    {
+      "id": "certifications.ar.21",
+      "text": "نجحت الشركة مؤخراً في الحصول على {CERT}."
+    },
+    {
+      "id": "certifications.ar.22",
+      "text": "التصنيفات والاعتمادات: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.ar.23",
+      "text": "{S_NAME} | {CERT}"
+    },
+    {
+      "id": "certifications.ar.24",
+      "text": "كما نحمل {CERT}، ما يمنح عملاءنا مزيداً من الطمأنينة."
+    },
+    {
+      "id": "certifications.ar.25",
+      "text": "تتويجاً لمسيرتنا، حصلنا على {CERT}."
+    },
+    {
+      "id": "certifications.ar.26",
+      "text": "العضويات والشهادات: {CERT_LIST}"
+    }
+  ],
+  "location": [
+    {
+      "id": "location.ar.01",
+      "text": "العنوان: {S_ADDRESS}"
+    },
+    {
+      "id": "location.ar.02",
+      "text": "المقر الرئيسي: {S_ADDRESS}"
+    },
+    {
+      "id": "location.ar.03",
+      "text": "هاتف: {S_PHONE}"
+    },
+    {
+      "id": "location.ar.04",
+      "text": "جوال: {S_PHONE}"
+    },
+    {
+      "id": "location.ar.05",
+      "text": "البريد الإلكتروني: {S_EMAIL}"
+    },
+    {
+      "id": "location.ar.06",
+      "text": "الموقع الإلكتروني: {S_URL}"
+    },
+    {
+      "id": "location.ar.07",
+      "text": "تجدوننا في {S_ADDRESS}."
+    },
+    {
+      "id": "location.ar.08",
+      "text": "للتواصل والاستفسارات: {S_PHONE} أو عبر البريد الإلكتروني {S_EMAIL}."
+    },
+    {
+      "id": "location.ar.09",
+      "text": "زوروا موقعنا الإلكتروني {S_URL} للاطلاع على أحدث العروض."
+    },
+    {
+      "id": "location.ar.10",
+      "text": "واتساب: {S_PHONE}"
+    },
+    {
+      "id": "location.ar.11",
+      "text": "تابعونا على إنستغرام: {S_URL}"
+    },
+    {
+      "id": "location.ar.12",
+      "text": "يسعدنا استقبالكم في مقرنا الكائن في {S_ADDRESS}."
+    },
+    {
+      "id": "location.ar.13",
+      "text": "راسلونا على {S_EMAIL} وسنرد عليكم خلال يوم عمل واحد."
+    },
+    {
+      "id": "location.ar.14",
+      "text": "اتصل بنا الآن على الرقم {S_PHONE}."
+    },
+    {
+      "id": "location.ar.15",
+      "text": "الرقم الموحد: {S_PHONE}"
+    },
+    {
+      "id": "location.ar.16",
+      "text": "العنوان الوطني: {S_ADDRESS}"
+    },
+    {
+      "id": "location.ar.17",
+      "text": "للحجز: {S_PHONE}"
+    },
+    {
+      "id": "location.ar.18",
+      "text": "Tel / هاتف: {S_PHONE}"
+    },
+    {
+      "id": "location.ar.19",
+      "text": "E-mail / البريد الإلكتروني: {S_EMAIL}"
+    },
+    {
+      "id": "location.ar.20",
+      "text": "موقعنا على الإنترنت: {S_URL}"
+    },
+    {
+      "id": "location.ar.21",
+      "text": "خدمة العملاء: {S_PHONE} – {S_EMAIL}"
+    },
+    {
+      "id": "location.ar.22",
+      "text": "يقع مقرنا في {S_ADDRESS}، ويسهل الوصول إليه من مختلف أنحاء المدينة."
+    },
+    {
+      "id": "location.ar.23",
+      "text": "لمزيد من المعلومات تفضلوا بزيارة {S_URL} أو الاتصال على {S_PHONE}."
+    },
+    {
+      "id": "location.ar.24",
+      "text": "العنوان البريدي: {S_ADDRESS}"
+    },
+    {
+      "id": "location.ar.25",
+      "text": "هاتف المكتب: {S_PHONE}"
+    },
+    {
+      "id": "location.ar.26",
+      "text": "تواصلوا معنا عبر صفحتنا على فيسبوك: {S_URL}"
+    },
+    {
+      "id": "location.ar.27",
+      "text": "موبايل: {S_PHONE}"
+    },
+    {
+      "id": "location.ar.28",
+      "text": "عنوان المقر الاجتماعي: {S_ADDRESS}"
+    }
+  ],
+  "capital": [
+    {
+      "id": "capital.ar.01",
+      "text": "رأس المال: {CAPITAL}"
+    },
+    {
+      "id": "capital.ar.02",
+      "text": "رأس المال المدفوع: {CAPITAL}"
+    },
+    {
+      "id": "capital.ar.03",
+      "text": "برأس مال قدره {CAPITAL}"
+    },
+    {
+      "id": "capital.ar.04",
+      "text": "يبلغ رأس مال الشركة {CAPITAL}، مدفوعاً بالكامل."
+    },
+    {
+      "id": "capital.ar.05",
+      "text": "رأس المال المسجل: {CAPITAL}"
+    },
+    {
+      "id": "capital.ar.06",
+      "text": "{S_NAME} – رأس المال: {CAPITAL}"
+    },
+    {
+      "id": "capital.ar.07",
+      "text": "تأسست الشركة برأس مال قدره {CAPITAL} موزع على حصص متساوية بين الشركاء."
+    },
+    {
+      "id": "capital.ar.08",
+      "text": "رأس مال الشركة {CAPITAL} مقسم إلى حصص نقدية متساوية القيمة."
+    },
+    {
+      "id": "capital.ar.09",
+      "text": "برأسمال قدره {CAPITAL}"
+    },
+    {
+      "id": "capital.ar.10",
+      "text": "رأس المال المصدر والمدفوع: {CAPITAL}"
+    },
+    {
+      "id": "capital.ar.11",
+      "text": "قررت الجمعية العامة للشركاء زيادة رأس المال إلى {CAPITAL}."
+    },
+    {
+      "id": "capital.ar.12",
+      "text": "Capital / رأس المال: {CAPITAL}"
+    },
+    {
+      "id": "capital.ar.13",
+      "text": "يبلغ رأس المال المكتتب به {CAPITAL}."
+    },
+    {
+      "id": "capital.ar.14",
+      "text": "رأس المال الاجتماعي: {CAPITAL}"
+    },
+    {
+      "id": "capital.ar.15",
+      "text": "شركة برأس مال {CAPITAL}"
+    },
+    {
+      "id": "capital.ar.16",
+      "text": "رأس المال: {CAPITAL} مدفوع بالكامل"
+    },
+    {
+      "id": "capital.ar.17",
+      "text": "تم رفع رأس مال الشركة ليصبح {CAPITAL}."
+    },
+    {
+      "id": "capital.ar.18",
+      "text": "رأس المال المصرح به والمدفوع بالكامل: {CAPITAL}"
+    },
+    {
+      "id": "capital.ar.19",
+      "text": "{LEGAL_FORM} برأس مال {CAPITAL}"
+    },
+    {
+      "id": "capital.ar.20",
+      "text": "بلغ رأس مال المنشأة عند التأسيس {CAPITAL}."
+    },
+    {
+      "id": "capital.ar.21",
+      "text": "رأس المال الحالي للشركة هو {CAPITAL}."
+    },
+    {
+      "id": "capital.ar.22",
+      "text": "يتكون رأس مال الشركة البالغ {CAPITAL} من حصص يملكها الشركاء."
+    },
+    {
+      "id": "capital.ar.23",
+      "text": "رأسمال الشركة: {CAPITAL}"
+    },
+    {
+      "id": "capital.ar.24",
+      "text": "مع رأس مال مدفوع قدره {CAPITAL}، تتمتع الشركة بملاءة مالية قوية."
+    },
+    {
+      "id": "capital.ar.25",
+      "text": "رأس المال — {CAPITAL}"
+    },
+    {
+      "id": "capital.ar.26",
+      "text": "{S_NAME:legal}، برأسمال {CAPITAL}"
+    },
+    {
+      "id": "capital.ar.27",
+      "text": "يبلغ رأس المال المدفوع للمنشأة {CAPITAL}."
+    }
+  ],
+  "legal_form": [
+    {
+      "id": "legal_form.ar.01",
+      "text": "الشكل القانوني: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.ar.02",
+      "text": "الكيان القانوني: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.ar.03",
+      "text": "نوع الكيان: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.ar.04",
+      "text": "الصفة القانونية: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.ar.05",
+      "text": "{LEGAL_FORM} – رأس المال {CAPITAL}"
+    },
+    {
+      "id": "legal_form.ar.06",
+      "text": "تأسست الشركة في شكل {LEGAL_FORM} وفقاً لأحكام نظام الشركات."
+    },
+    {
+      "id": "legal_form.ar.07",
+      "text": "الشكل القانوني للمنشأة: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.ar.08",
+      "text": "Legal form / الشكل القانوني: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.ar.09",
+      "text": "المنشأة مسجلة بصفة {LEGAL_FORM} في مدينة {city}."
+    },
+    {
+      "id": "legal_form.ar.10",
+      "text": "نوع الشركة: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.ar.11",
+      "text": "تم تحويل الكيان القانوني للمنشأة إلى {LEGAL_FORM}."
+    },
+    {
+      "id": "legal_form.ar.12",
+      "text": "الشكل القانوني للشركة – {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.ar.13",
+      "text": "طبيعة الكيان: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.ar.14",
+      "text": "الشكل القانوني للمقاولة: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.ar.15",
+      "text": "تتخذ الشركة شكل {LEGAL_FORM}، ويخضع نشاطها للأنظمة المعمول بها."
+    },
+    {
+      "id": "legal_form.ar.16",
+      "text": "الوضع القانوني: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.ar.17",
+      "text": "{LEGAL_FORM} مقيدة في السجل التجاري بمدينة {city}"
+    },
+    {
+      "id": "legal_form.ar.18",
+      "text": "صفة المنشأة: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.ar.19",
+      "text": "Company type / نوع الشركة: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.ar.20",
+      "text": "الشكل القانوني: {LEGAL_FORM} – {manager_title}: {S_PERSON}"
+    },
+    {
+      "id": "legal_form.ar.21",
+      "text": "تمارس الشركة نشاطها بوصفها {LEGAL_FORM} منذ عام {FOUNDED}."
+    },
+    {
+      "id": "legal_form.ar.22",
+      "text": "الشكل القانوني وفق السجل التجاري: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.ar.23",
+      "text": "Forme juridique / الشكل القانوني: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.ar.24",
+      "text": "تعمل المنشأة بصفتها {LEGAL_FORM} مرخصة من الجهات المختصة."
+    },
+    {
+      "id": "legal_form.ar.25",
+      "text": "الشكل القانوني للمؤسسة: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.ar.26",
+      "text": "نوع المنشأة: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.ar.27",
+      "text": "{LEGAL_FORM} – {S_REG_ID}"
+    }
+  ],
+  "traps": [
+    {
+      "id": "trap.ar.01",
+      "trap": "T1",
+      "text": "بلغت قيمة أكبر عقد وقّعته الشركة حتى الآن {amount}."
+    },
+    {
+      "id": "trap.ar.02",
+      "trap": "T1",
+      "text": "نفذنا مؤخراً مشروعاً بقيمة {amount} لصالح إحدى الجهات الحكومية."
+    },
+    {
+      "id": "trap.ar.03",
+      "trap": "T1",
+      "text": "بلغ صافي ربح الشركة خلال العام الماضي {amount}."
+    },
+    {
+      "id": "trap.ar.04",
+      "trap": "T1",
+      "text": "حصلت المنشأة على تمويل بقيمة {amount} لدعم خطط التوسع."
+    },
+    {
+      "id": "trap.ar.05",
+      "trap": "T1",
+      "text": "تجاوزت قيمة طلبية واحدة من أحد عملائنا {amount}."
+    },
+    {
+      "id": "trap.ar.06",
+      "trap": "T1",
+      "text": "استثمرت الشركة {amount} في تحديث معداتها وأنظمتها التقنية."
+    },
+    {
+      "id": "trap.ar.07",
+      "trap": "T1",
+      "text": "بلغت قيمة المبيعات خلال شهر رمضان وحده {amount}."
+    },
+    {
+      "id": "trap.ar.08",
+      "trap": "T1",
+      "text": "بلغت تكاليف التشغيل السنوية {amount}، في عام شهد نمواً قياسياً في الإيرادات."
+    },
+    {
+      "id": "trap.ar.09",
+      "trap": "T1",
+      "text": "رصدت الشركة ميزانية قدرها {amount} لحملاتها التسويقية هذا العام."
+    },
+    {
+      "id": "trap.ar.10",
+      "trap": "T1",
+      "text": "بلغ متوسط المبيعات الشهرية {amount}."
+    },
+    {
+      "id": "trap.ar.11",
+      "trap": "T1",
+      "text": "أرباح السنة المالية الماضية: {amount}"
+    },
+    {
+      "id": "trap.ar.12",
+      "trap": "T1",
+      "text": "تبلغ قيمة المخزون الحالي نحو {amount}."
+    },
+    {
+      "id": "trap.ar.13",
+      "trap": "T5",
+      "text": "نعمل بالشراكة مع {partner} لتقديم حلول متكاملة لعملائنا."
+    },
+    {
+      "id": "trap.ar.14",
+      "trap": "T5",
+      "text": "بنكنا المعتمد: {bank}"
+    },
+    {
+      "id": "trap.ar.15",
+      "trap": "T5",
+      "text": "نستورد منتجاتنا من موردنا الرئيسي {supplier}."
+    },
+    {
+      "id": "trap.ar.16",
+      "trap": "T5",
+      "text": "على عكس {competitor}، نقدم لعملائنا ضماناً شاملاً دون رسوم إضافية."
+    },
+    {
+      "id": "trap.ar.17",
+      "trap": "T5",
+      "text": "بدعم من {bank}، تمكنا من تمويل مشروع التوسعة الجديد."
+    },
+    {
+      "id": "trap.ar.18",
+      "trap": "T5",
+      "text": "نحن الوكيل المعتمد لمنتجات {partner} في {city}."
+    },
+    {
+      "id": "trap.ar.19",
+      "trap": "T5",
+      "text": "من عملائنا {C_NAME}، وهي جهة عريقة تأسست عام {client_founded}."
+    },
+    {
+      "id": "trap.ar.20",
+      "trap": "T5",
+      "text": "تتم جميع المدفوعات عبر حساباتنا لدى {bank}."
+    },
+    {
+      "id": "trap.ar.21",
+      "trap": "T5",
+      "text": "نتعاون مع {supplier} لضمان توفر المنتجات الأصلية على مدار العام."
+    },
+    {
+      "id": "trap.ar.22",
+      "trap": "T5",
+      "text": "تم اختيارنا شريكاً معتمداً لدى {partner} للعام الثالث على التوالي."
+    },
+    {
+      "id": "trap.ar.23",
+      "trap": "T5",
+      "text": "رافقنا منذ انطلاقتنا عميلٌ عريق تأسس عام {client_founded}، ولا يزال يتعامل معنا حتى اليوم."
+    },
+    {
+      "id": "trap.ar.24",
+      "trap": "T5",
+      "text": "نعتمد على {supplier} في توريد جميع المواد المستخدمة في مشاريعنا."
+    },
+    {
+      "id": "trap.ar.25",
+      "trap": "T5",
+      "text": "تختلف أسعارنا عن أسعار {competitor} بفضل تعاملنا المباشر مع المصنع."
+    },
+    {
+      "id": "trap.ar.26",
+      "trap": "T7",
+      "text": "تم تجديد مقرنا بالكامل عام {year}."
+    },
+    {
+      "id": "trap.ar.27",
+      "trap": "T7",
+      "text": "انتقلنا إلى مقرنا الحالي في عام {year}."
+    },
+    {
+      "id": "trap.ar.28",
+      "trap": "T7",
+      "text": "حصلنا على {CERT} عام {year}."
+    },
+    {
+      "id": "trap.ar.29",
+      "trap": "T7",
+      "text": "العرض ساري حتى نهاية عام {year}."
+    },
+    {
+      "id": "trap.ar.30",
+      "trap": "T7",
+      "text": "جميع السيارات المعروضة من موديل {year} فما فوق."
+    },
+    {
+      "id": "trap.ar.31",
+      "trap": "T7",
+      "text": "افتتحنا فرعنا الثاني في {city} عام {year}."
+    },
+    {
+      "id": "trap.ar.32",
+      "trap": "T7",
+      "text": "حدّثنا أسطول مركباتنا بالكامل في عام {year}."
+    },
+    {
+      "id": "trap.ar.33",
+      "trap": "T7",
+      "text": "أطلقنا موقعنا الإلكتروني الجديد عام {year}."
+    },
+    {
+      "id": "trap.ar.34",
+      "trap": "T7",
+      "text": "قائمة الأسعار المعتمدة لعام {year}"
+    },
+    {
+      "id": "trap.ar.35",
+      "trap": "T7",
+      "text": "تمت توسعة المستودع الرئيسي عام {year} لمواكبة الطلب المتزايد."
+    },
+    {
+      "id": "trap.ar.36",
+      "trap": "T7",
+      "text": "يمتد عقد إيجار المقر الحالي حتى عام {year}."
+    },
+    {
+      "id": "trap.ar.37",
+      "trap": "T7",
+      "text": "أعدنا تصميم هويتنا البصرية وشعارنا عام {year}."
+    },
+    {
+      "id": "trap.ar.38",
+      "trap": "T7",
+      "text": "آخر تحديث لهذا الكتيب: {year}"
+    },
+    {
+      "id": "trap.ar.39",
+      "trap": "T8",
+      "text": "خبرة تزيد على {n_years} في خدمة عملائنا."
+    },
+    {
+      "id": "trap.ar.40",
+      "trap": "T8",
+      "text": "أكثر من {n_clients} يثقون بخدماتنا."
+    },
+    {
+      "id": "trap.ar.41",
+      "trap": "T8",
+      "text": "لدينا {n_shops} في {city} والمدن المجاورة."
+    },
+    {
+      "id": "trap.ar.42",
+      "trap": "T8",
+      "text": "يضم أسطولنا {n_vehicles} مجهزة بأحدث أنظمة التتبع."
+    },
+    {
+      "id": "trap.ar.43",
+      "trap": "T8",
+      "text": "نوفر أكثر من {n_products} لتلبية مختلف الاحتياجات."
+    },
+    {
+      "id": "trap.ar.44",
+      "trap": "T8",
+      "text": "أنجزنا حتى اليوم {n_projects} في مختلف المناطق."
+    },
+    {
+      "id": "trap.ar.45",
+      "trap": "T8",
+      "text": "يمتلك فريقنا الإداري خبرة تتجاوز {n_years} في هذا القطاع."
+    },
+    {
+      "id": "trap.ar.46",
+      "trap": "T8",
+      "text": "نخدم يومياً ما يزيد على {n_clients}."
+    },
+    {
+      "id": "trap.ar.47",
+      "trap": "T8",
+      "text": "نخدم أكثر من {n_clients} في {n_countries}."
+    },
+    {
+      "id": "trap.ar.48",
+      "trap": "T8",
+      "text": "تمتلك الشركة {n_shops}، إضافة إلى أسطول من {n_vehicles}."
+    },
+    {
+      "id": "trap.ar.49",
+      "trap": "T8",
+      "text": "{n_years} من الخبرة في خدمتكم."
+    },
+    {
+      "id": "trap.ar.50",
+      "trap": "T8",
+      "text": "تم تنفيذ {n_projects} بنجاح خلال العام الماضي."
+    },
+    {
+      "id": "trap.ar.51",
+      "trap": "T8",
+      "text": "يضم كتالوجنا {n_products} من أفضل العلامات التجارية."
+    },
+    {
+      "id": "trap.ar.52",
+      "trap": "T11",
+      "text": "للاستفسارات التجارية يرجى التواصل مع {person}، {position}."
+    },
+    {
+      "id": "trap.ar.53",
+      "trap": "T11",
+      "text": "جهة الاتصال: {person} ({position})"
+    },
+    {
+      "id": "trap.ar.54",
+      "trap": "T11",
+      "text": "أعدّ هذا العرض: {person} – {position}"
+    },
+    {
+      "id": "trap.ar.55",
+      "trap": "T11",
+      "text": "{position}: {person}"
+    },
+    {
+      "id": "trap.ar.56",
+      "trap": "T11",
+      "text": "يمكنكم التواصل مباشرة مع {person} ({position}) على التحويلة 214."
+    },
+    {
+      "id": "trap.ar.57",
+      "trap": "T11",
+      "text": "نرحب بانضمام {person} إلى فريقنا بصفة {position}."
+    },
+    {
+      "id": "trap.ar.58",
+      "trap": "T11",
+      "text": "المسؤول عن متابعة طلبكم: {person}، {position}"
+    },
+    {
+      "id": "trap.ar.59",
+      "trap": "T11",
+      "text": "حُرر بواسطة: {person}، {position}"
+    },
+    {
+      "id": "trap.ar.60",
+      "trap": "T11",
+      "text": "لأي استفسار فني، فريق الدعم بإشراف {person} ({position}) في خدمتكم."
+    },
+    {
+      "id": "trap.ar.61",
+      "trap": "T11",
+      "text": "للتنسيق بخصوص المواعيد: {person}، {position}، تحويلة 105."
+    },
+    {
+      "id": "trap.ar.62",
+      "trap": "T11",
+      "text": "شكر خاص إلى {person}، {position}، على الجهود المبذولة في إنجاح المشروع."
+    },
+    {
+      "id": "trap.ar.63",
+      "trap": "T13",
+      "text": "نفخر بخدمة عملاء مثل {C_NAME_LIST}، وذلك بالتعاون مع شريكنا التقني {partner}."
+    },
+    {
+      "id": "trap.ar.64",
+      "trap": "T13",
+      "text": "من أبرز عملائنا {C_NAME}، فيما نعتمد على {supplier} في توريد المواد."
+    },
+    {
+      "id": "trap.ar.65",
+      "trap": "T13",
+      "text": "نفذنا لصالح {C_NAME} مشروعاً متكاملاً بالشراكة مع {partner}."
+    },
+    {
+      "id": "trap.ar.66",
+      "trap": "T13",
+      "text": "عملاؤنا: {C_NAME_LIST} — موردونا: {supplier}"
+    },
+    {
+      "id": "trap.ar.67",
+      "trap": "T13",
+      "text": "بفضل شراكتنا مع {partner}، تمكنا من تلبية احتياجات {C_NAME} في وقت قياسي."
+    },
+    {
+      "id": "trap.ar.68",
+      "trap": "T13",
+      "text": "يعتمد على خدماتنا كلٌّ من {C_NAME_LIST}، ونعمل مع {supplier} لضمان جودة المنتجات."
+    },
+    {
+      "id": "trap.ar.69",
+      "trap": "T13",
+      "text": "بالتعاون مع {partner} أنجزنا مشروع التجهيز الكامل لمقر {C_NAME}."
+    },
+    {
+      "id": "trap.ar.70",
+      "trap": "T13",
+      "text": "نتعامل مع موردين معتمدين مثل {supplier}، وهو ما أكسبنا ثقة عملاء كبار مثل {C_NAME_LIST}."
+    },
+    {
+      "id": "trap.ar.71",
+      "trap": "T13",
+      "text": "شركاؤنا: {partner} – عملاؤنا: {C_NAME_LIST}"
+    },
+    {
+      "id": "trap.ar.72",
+      "trap": "T13",
+      "text": "وقّعنا اتفاقية توريد مع {supplier} لتلبية الطلبات المتزايدة من {C_NAME}."
+    },
+    {
+      "id": "trap.ar.73",
+      "trap": "T13",
+      "text": "بالشراكة مع {partner}، نقدم لعملائنا ومنهم {C_NAME_LIST} حلولاً متكاملة."
+    }
+  ],
+  "filler": [
+    {
+      "id": "filler.ar.01",
+      "text": "نسعى دائماً إلى تقديم أفضل تجربة ممكنة لعملائنا."
+    },
+    {
+      "id": "filler.ar.02",
+      "text": "يسعدنا الرد على استفساراتكم في أقرب وقت ممكن."
+    },
+    {
+      "id": "filler.ar.03",
+      "text": "الأسعار قابلة للتغيير دون إشعار مسبق."
+    },
+    {
+      "id": "filler.ar.04",
+      "text": "نشكركم على ثقتكم الغالية ونتطلع إلى خدمتكم مجدداً."
+    },
+    {
+      "id": "filler.ar.05",
+      "text": "رضا العميل هو أساس نجاحنا."
+    },
+    {
+      "id": "filler.ar.06",
+      "text": "يرجى الاحتفاظ بالإيصال لأي استبدال أو استرجاع."
+    },
+    {
+      "id": "filler.ar.07",
+      "text": "تخضع جميع المنتجات لفحص دقيق قبل التسليم."
+    },
+    {
+      "id": "filler.ar.08",
+      "text": "نلتزم بالمواعيد المتفق عليها ونحترم وقت عملائنا."
+    },
+    {
+      "id": "filler.ar.09",
+      "text": "للاستفسار يرجى التواصل مع قسم خدمة العملاء."
+    },
+    {
+      "id": "filler.ar.10",
+      "text": "نعمل باستمرار على تطوير خدماتنا لمواكبة احتياجات السوق."
+    },
+    {
+      "id": "filler.ar.11",
+      "text": "الجودة عندنا ليست خياراً، بل التزام."
+    },
+    {
+      "id": "filler.ar.12",
+      "text": "تم تحديث هذه الصفحة بتاريخ {date}."
+    },
+    {
+      "id": "filler.ar.13",
+      "text": "نرحب بملاحظاتكم واقتراحاتكم في أي وقت."
+    },
+    {
+      "id": "filler.ar.14",
+      "text": "يتم تأكيد الحجز بعد استلام الدفعة المقدمة."
+    },
+    {
+      "id": "filler.ar.15",
+      "text": "فريقنا جاهز لمساعدتكم في اختيار الحل الأنسب."
+    },
+    {
+      "id": "filler.ar.16",
+      "text": "التوصيل متاح داخل {city} وضواحيها."
+    },
+    {
+      "id": "filler.ar.17",
+      "text": "نؤمن بأن الشفافية أساس أي علاقة تجارية ناجحة."
+    },
+    {
+      "id": "filler.ar.18",
+      "text": "يُرجى مراجعة الشروط والأحكام قبل إتمام الطلب."
+    },
+    {
+      "id": "filler.ar.19",
+      "text": "نحرص على استخدام مواد صديقة للبيئة كلما أمكن ذلك."
+    },
+    {
+      "id": "filler.ar.20",
+      "text": "خصوصيتكم تهمنا، ولن نشارك بياناتكم مع أي طرف ثالث."
+    },
+    {
+      "id": "filler.ar.21",
+      "text": "تتوفر مواقف مجانية للسيارات أمام المبنى."
+    },
+    {
+      "id": "filler.ar.22",
+      "text": "نقبل الدفع نقداً أو بالبطاقة أو عبر التحويل البنكي."
+    },
+    {
+      "id": "filler.ar.23",
+      "text": "يمكنكم تتبع الطلب عبر الرابط المرسل في رسالة التأكيد."
+    },
+    {
+      "id": "filler.ar.24",
+      "text": "نعتذر عن أي إزعاج قد يسببه التأخير."
+    },
+    {
+      "id": "filler.ar.25",
+      "text": "يتم الرد على الرسائل خلال أيام العمل الرسمية."
+    },
+    {
+      "id": "filler.ar.26",
+      "text": "الاستشارة الأولى مجانية ودون أي التزام."
+    },
+    {
+      "id": "filler.ar.27",
+      "text": "نتمنى لكم يوماً سعيداً."
+    },
+    {
+      "id": "filler.ar.28",
+      "text": "كل عام وأنتم بخير بمناسبة حلول شهر رمضان المبارك."
+    },
+    {
+      "id": "filler.ar.29",
+      "text": "مرحباً بكم في موقعنا الإلكتروني."
+    },
+    {
+      "id": "filler.ar.30",
+      "text": "نقدّر صبركم وتفهمكم خلال فترة أعمال الصيانة."
+    },
+    {
+      "id": "filler.ar.31",
+      "text": "أضفنا منتجات جديدة إلى المتجر هذا الأسبوع، فلا تفوتوها."
+    },
+    {
+      "id": "filler.ar.32",
+      "text": "يرجى إبراز بطاقة الهوية عند الاستلام."
+    },
+    {
+      "id": "filler.ar.33",
+      "text": "نعمل وفق أعلى معايير السلامة المهنية."
+    },
+    {
+      "id": "filler.ar.34",
+      "text": "لا تتردد في التواصل معنا لأي استفسار."
+    },
+    {
+      "id": "filler.ar.35",
+      "text": "تصدر الفواتير إلكترونياً وتُرسل عبر البريد الإلكتروني."
+    },
+    {
+      "id": "filler.ar.36",
+      "text": "نحن هنا لنستمع إليكم."
+    },
+    {
+      "id": "filler.ar.37",
+      "text": "نؤمن بأهمية التدريب المستمر لفريق العمل."
+    },
+    {
+      "id": "filler.ar.38",
+      "text": "تسري الشروط والأحكام على جميع العروض الترويجية."
+    },
+    {
+      "id": "filler.ar.39",
+      "text": "يرجى التأكد من صحة البيانات قبل الإرسال."
+    },
+    {
+      "id": "filler.ar.40",
+      "text": "سيتم التواصل معكم لتأكيد موعد التسليم."
+    },
+    {
+      "id": "filler.ar.41",
+      "text": "نعتز بكل عميل ونعامله كفرد من أسرتنا."
+    },
+    {
+      "id": "filler.ar.42",
+      "text": "الكميات محدودة، والأولوية للطلبات المسبقة."
+    },
+    {
+      "id": "filler.ar.43",
+      "text": "نستقبل طلبات التوظيف عبر قسم الموارد البشرية."
+    },
+    {
+      "id": "filler.ar.44",
+      "text": "ينطبق هذا العرض على الطلبات المؤكدة قبل {date}."
+    },
+    {
+      "id": "filler.ar.45",
+      "text": "تستغرق معالجة الطلب عادةً من يومين إلى ثلاثة أيام عمل."
+    },
+    {
+      "id": "filler.ar.46",
+      "text": "يرجى توقيع النموذج وإعادته إلينا في أقرب فرصة."
+    },
+    {
+      "id": "filler.ar.47",
+      "text": "التوصيل مجاني للطلبات التي تتجاوز قيمتها {amount}."
+    },
+    {
+      "id": "filler.ar.48",
+      "text": "لمزيد من التفاصيل، يرجى الاطلاع على الكتيب المرفق."
+    },
+    {
+      "id": "filler.ar.49",
+      "text": "الأسعار المعلنة تشمل ضريبة القيمة المضافة."
+    },
+    {
+      "id": "filler.ar.50",
+      "text": "نلتزم بتطبيق الإجراءات الاحترازية حفاظاً على سلامة الجميع."
+    },
+    {
+      "id": "filler.ar.51",
+      "text": "العميل دائماً في قلب كل ما نقوم به."
+    },
+    {
+      "id": "filler.ar.52",
+      "text": "نسعد بزيارتكم ونتطلع إلى رؤيتكم قريباً."
+    },
+    {
+      "id": "filler.ar.53",
+      "text": "المنتجات المباعة لا تُرد بعد مرور المدة المحددة في سياسة الاسترجاع."
+    }
+  ],
+  "legal_footer": [
+    {
+      "id": "footer.ar.01",
+      "countries": [
+        "SA"
+      ],
+      "text": "{S_NAME:legal} – {S_REG_ID} – {S_ADDRESS} – هاتف: {S_PHONE}"
+    },
+    {
+      "id": "footer.ar.02",
+      "countries": [
+        "SA"
+      ],
+      "text": "{S_NAME:legal} | {LEGAL_FORM} | رأس المال {CAPITAL} | {S_REG_ID} | {city} – المملكة العربية السعودية"
+    },
+    {
+      "id": "footer.ar.03",
+      "countries": [
+        "SA"
+      ],
+      "text": "{S_NAME} – {S_REG_ID} – الرقم الموحد {S_PHONE} – {S_URL}"
+    },
+    {
+      "id": "footer.ar.04",
+      "countries": [
+        "SA"
+      ],
+      "text": "{S_NAME:legal}، {S_ADDRESS}، {S_REG_ID}، البريد الإلكتروني: {S_EMAIL}"
+    },
+    {
+      "id": "footer.ar.05",
+      "countries": [
+        "SA"
+      ],
+      "text": "{S_NAME:legal} – {LEGAL_FORM} – {S_REG_ID} – {ACTIVITY_CODE}"
+    },
+    {
+      "id": "footer.ar.06",
+      "countries": [
+        "AE"
+      ],
+      "text": "{S_NAME:legal} | {S_REG_ID} | {S_ADDRESS} | هاتف {S_PHONE}"
+    },
+    {
+      "id": "footer.ar.07",
+      "countries": [
+        "AE"
+      ],
+      "text": "{S_NAME:legal} – {LEGAL_FORM} – {S_REG_ID} – {city}، الإمارات العربية المتحدة"
+    },
+    {
+      "id": "footer.ar.08",
+      "countries": [
+        "AE"
+      ],
+      "text": "{S_NAME} · {S_ADDRESS} · هاتف {S_PHONE} · {S_EMAIL} · {S_REG_ID}"
+    },
+    {
+      "id": "footer.ar.09",
+      "countries": [
+        "AE"
+      ],
+      "text": "{S_NAME:legal}، {LEGAL_FORM} مرخصة في {city}، {S_REG_ID}، {S_URL}"
+    },
+    {
+      "id": "footer.ar.10",
+      "countries": [
+        "EG"
+      ],
+      "text": "{S_NAME:legal} – {S_REG_ID} – {S_ADDRESS}"
+    },
+    {
+      "id": "footer.ar.11",
+      "countries": [
+        "EG"
+      ],
+      "text": "{S_NAME:legal} – {LEGAL_FORM} – رأس المال المصدر {CAPITAL} – {S_REG_ID}"
+    },
+    {
+      "id": "footer.ar.12",
+      "countries": [
+        "EG"
+      ],
+      "text": "{S_NAME} | {S_ADDRESS} | تليفون: {S_PHONE} | {S_REG_ID}"
+    },
+    {
+      "id": "footer.ar.13",
+      "countries": [
+        "EG"
+      ],
+      "text": "{S_NAME:legal}، {S_REG_ID}، {city} – جمهورية مصر العربية، البريد الإلكتروني: {S_EMAIL}"
+    },
+    {
+      "id": "footer.ar.14",
+      "countries": [
+        "MA"
+      ],
+      "text": "{S_NAME:legal} – {LEGAL_FORM} برأسمال {CAPITAL} – {S_REG_ID} – {S_ADDRESS}"
+    },
+    {
+      "id": "footer.ar.15",
+      "countries": [
+        "MA"
+      ],
+      "text": "{S_NAME:legal}، {LEGAL_FORM} – المقر الاجتماعي: {S_ADDRESS} – {S_REG_ID}"
+    },
+    {
+      "id": "footer.ar.16",
+      "countries": [
+        "MA"
+      ],
+      "text": "{S_NAME} – {S_REG_ID} – الهاتف: {S_PHONE} – البريد الإلكتروني: {S_EMAIL}"
+    },
+    {
+      "id": "footer.ar.17",
+      "countries": [
+        "MA"
+      ],
+      "text": "{S_NAME:legal} | {S_REG_ID} | {ACTIVITY_CODE} | {city} – المغرب"
+    },
+    {
+      "id": "footer.ar.18",
+      "countries": [
+        "SA",
+        "AE",
+        "EG",
+        "MA"
+      ],
+      "text": "{S_NAME:legal} – {S_ADDRESS} – {S_PHONE} – {S_URL}"
+    },
+    {
+      "id": "footer.ar.19",
+      "countries": [
+        "SA",
+        "AE",
+        "EG",
+        "MA"
+      ],
+      "text": "{S_NAME:legal} – {S_REG_ID} – {S_EMAIL}"
+    }
+  ],
+  "invoice_notes": {
+    "payment_terms": [
+      "يستحق السداد خلال {n_days} يوماً من تاريخ الفاتورة.",
+      "الدفع نقداً عند الاستلام.",
+      "شروط الدفع: تحويل بنكي خلال {n_days} يوماً من تاريخ الإصدار.",
+      "يرجى سداد قيمة الفاتورة في موعد أقصاه {date}.",
+      "يتم السداد بتحويل بنكي على الحساب الموضح أدناه، مع ذكر رقم الفاتورة {invoice_no} في خانة البيان.",
+      "دفعة مقدمة بنسبة {percent} عند تأكيد الطلب، والباقي عند التسليم.",
+      "آجل {n_days} يوم من تاريخ الاستلام."
+    ],
+    "late_penalty": [
+      "في حال التأخر عن السداد، تُحتسب غرامة تأخير بنسبة {percent} شهرياً على المبلغ المستحق.",
+      "يحق للشركة إيقاف التوريد في حال عدم السداد خلال المهلة المحددة.",
+      "تُضاف رسوم تأخير قدرها {amount} عن كل أسبوع تأخير بعد تاريخ الاستحقاق."
+    ],
+    "vat_exempt": [
+      "هذه التوريدات معفاة من ضريبة القيمة المضافة وفقاً للأنظمة المعمول بها.",
+      "توريد خاضع لنسبة الصفر لضريبة القيمة المضافة (تصدير خارج الدولة).",
+      "غير خاضع لضريبة القيمة المضافة – المنشأة غير مسجلة لأغراض الضريبة.",
+      "معفى من الضريبة على القيمة المضافة طبقاً لمقتضيات المدونة العامة للضرائب."
+    ],
+    "thanks": [
+      "شكراً لتعاملكم معنا.",
+      "نشكركم على ثقتكم ونتطلع إلى خدمتكم مجدداً.",
+      "شكراً لاختياركم لنا، يسعدنا دائماً خدمتكم.",
+      "نقدّر تعاملكم الكريم معنا.",
+      "شكراً لتسوقكم معنا، ننتظر زيارتكم القادمة!"
+    ],
+    "quote_validity": [
+      "هذا العرض ساري المفعول لمدة {n_days} يوماً من تاريخه.",
+      "صلاحية العرض: {n_days} يوماً.",
+      "العرض ساري حتى {date}، وتخضع الأسعار للتغيير بعد هذا التاريخ.",
+      "الأسعار الواردة في هذا العرض ثابتة حتى {date}."
+    ],
+    "quote_acceptance": [
+      "في حال الموافقة، يرجى توقيع العرض وختمه وإعادته إلينا.",
+      "تُعد الموافقة على هذا العرض بمثابة أمر شراء ملزم.",
+      "للموافقة: التوقيع والختم مع عبارة «موافق على العرض».",
+      "يبدأ التنفيذ بعد استلام أمر الشراء ودفعة مقدمة بنسبة {percent}."
+    ],
+    "credit_reason": [
+      "إشعار دائن مقابل إرجاع بضاعة تالفة من الفاتورة رقم {invoice_no}.",
+      "تخفيض متفق عليه في السعر بخصوص الفاتورة رقم {invoice_no}.",
+      "إلغاء جزئي للطلب وتسوية المبلغ المفوتر بالزيادة.",
+      "تصحيح خطأ في الفاتورة رقم {invoice_no} الصادرة بتاريخ {date}."
+    ]
+  },
+  "phrases": {
+    "page_x_of_y": [
+      "صفحة {p} من {n}",
+      "الصفحة {p}/{n}",
+      "ص {p} من {n}"
+    ],
+    "place_date": [
+      "{city} في {DOC_DATE}",
+      "حُرر في {city} بتاريخ {DOC_DATE}",
+      "{city}، {DOC_DATE}",
+      "صدر في {city} بتاريخ {DOC_DATE}"
+    ],
+    "fin_amounts_note": [
+      "عملة العرض: {currency}",
+      "جميع المبالغ مقربة إلى أقرب {currency}",
+      "العملة المستخدمة في إعداد هذه القوائم: {currency}"
+    ],
+    "fin_period": [
+      "عن الفترة من {date_start} إلى {date_end}",
+      "للسنة المالية التي تبدأ في {date_start} وتنتهي في {date_end}",
+      "الفترة المالية: {date_start} – {date_end}"
+    ],
+    "price_validity": [
+      "الأسعار سارية حتى {date}",
+      "تسري هذه الأسعار اعتباراً من {date} وحتى إشعار آخر",
+      "قائمة الأسعار صالحة حتى {date}"
+    ],
+    "signature_line": [
+      "التوقيع: ____________",
+      "الختم والتوقيع",
+      "توقيع المفوض بالتوقيع: ____________   الختم: ____________",
+      "اسم المستلم وتوقيعه: ____________"
+    ],
+    "amount_in_words_intro": [
+      "فقط",
+      "المبلغ كتابةً: فقط",
+      "مبلغ وقدره",
+      "المبلغ بالحروف:"
+    ]
+  },
+  "letters": {
+    "payment_reminder": {
+      "subject": [
+        "تذكير بسداد الفاتورة رقم {invoice_no}",
+        "مطالبة بسداد مستحقات متأخرة",
+        "فاتورة مستحقة السداد"
+      ],
+      "body": [
+        "نود أن نذكّركم بأن الفاتورة رقم {invoice_no} الصادرة بتاريخ {date} بمبلغ {amount} لا تزال غير مسددة حتى تاريخه، رغم تجاوز موعد استحقاقها.",
+        "نرجو التكرم بتحويل المبلغ المستحق في أقرب وقت ممكن، وفي حال تم السداد خلال الأيام الماضية فنرجو اعتبار هذا التذكير لاغياً.",
+        "نحرص في {S_NAME} على استمرار علاقتنا الطيبة مع {C_NAME}، ونأمل تسوية هذا المبلغ خلال {n_days} يوماً من تاريخ هذا الخطاب.",
+        "لأي استفسار بخصوص هذه الفاتورة، يرجى التواصل مع {person}، {position}، على الرقم {S_PHONE}.",
+        "نلفت انتباهكم إلى أن استمرار التأخير قد يضطرنا إلى إيقاف التوريد مؤقتاً إلى حين تسوية الحساب."
+      ]
+    },
+    "quote_followup": {
+      "subject": [
+        "متابعة عرض السعر المقدم بتاريخ {date}",
+        "عرض السعر المرسل إليكم",
+        "عرضنا الخاص بتقديم {SERVICE}"
+      ],
+      "body": [
+        "إشارة إلى عرض السعر الذي تقدمنا به إليكم بتاريخ {date} بخصوص {SERVICE}، نود الاطمئنان على وصوله ومعرفة ما إذا كانت لديكم أي استفسارات.",
+        "يسعدنا ترتيب اجتماع مع فريقكم لمناقشة تفاصيل العرض وتعديله بما يتوافق مع احتياجات {C_NAME}.",
+        "نذكّركم بأن العرض ساري المفعول حتى {date}، ويمكننا تمديده عند الحاجة.",
+        "نثق بأن خبرتنا في مجال {ACTIVITY} ستضيف قيمة حقيقية لمشروعكم، ونتطلع إلى التعاون معكم.",
+        "للمزيد من المعلومات يمكنكم التواصل مع {person}، {position}، عبر البريد الإلكتروني {S_EMAIL}."
+      ]
+    },
+    "price_change": {
+      "subject": [
+        "تعديل الأسعار اعتباراً من {date}",
+        "تحديث قائمة الأسعار",
+        "إشعار بتعديل أسعار المنتجات والخدمات"
+      ],
+      "body": [
+        "نحيطكم علماً بأنه سيتم تعديل أسعار منتجاتنا وخدماتنا بنسبة {percent} اعتباراً من {date}.",
+        "يأتي هذا القرار نتيجة الارتفاع المستمر في تكاليف المواد والنقل والتشغيل، وقد حرصنا على أن يكون التعديل في أضيق الحدود الممكنة.",
+        "ستبقى جميع الطلبات المؤكدة قبل هذا التاريخ خاضعة للأسعار الحالية دون أي تغيير.",
+        "نقدّر تفهم {C_NAME} لهذا الإجراء، ونؤكد حرصنا على الحفاظ على مستوى الجودة الذي اعتدتم عليه.",
+        "تجدون مرفقاً بهذا الخطاب قائمة الأسعار المحدثة، ويسعد فريق المبيعات الرد على أي استفسار."
+      ]
+    },
+    "appointment": {
+      "subject": [
+        "تأكيد موعد الزيارة",
+        "تحديد موعد اجتماع",
+        "موعد الاجتماع المقرر يوم {weekday}"
+      ],
+      "body": [
+        "يسرنا تأكيد موعد زيارتنا لمقركم يوم {weekday} الموافق {date} في تمام الساعة {time}.",
+        "سيحضر الاجتماع من جانبنا {person}، {position}، لعرض الحلول المقترحة ومناقشة الجدول الزمني.",
+        "نرجو التكرم بإبلاغنا في حال رغبتكم في تغيير الموعد، على الرقم {S_PHONE} أو عبر البريد الإلكتروني {S_EMAIL}.",
+        "نأمل أن يمثل هذا اللقاء بداية تعاون مثمر يخدم مصالح الطرفين.",
+        "يرجى تجهيز المستندات اللازمة ليتسنى لنا دراسة احتياجات {C_NAME} بدقة."
+      ]
+    },
+    "closure": {
+      "subject": [
+        "إجازة عيد الفطر المبارك",
+        "الإغلاق المؤقت خلال فترة الأعياد",
+        "إجازة اليوم الوطني"
+      ],
+      "body": [
+        "بمناسبة عيد الأضحى المبارك، نحيط عملاءنا الكرام علماً بأن مكاتبنا ستكون مغلقة خلال الفترة من {date_start} إلى {date_end}.",
+        "نستأنف العمل بعد الإجازة وفق المواعيد المعتادة: {HOURS}.",
+        "يمكنكم خلال فترة الإغلاق إرسال طلباتكم عبر البريد الإلكتروني {S_EMAIL}، وسيتم التعامل معها فور عودتنا.",
+        "تتقدم أسرة {S_NAME} إلى جميع عملائها بأطيب التهاني وأصدق الأمنيات، أعاده الله علينا وعليكم بالخير واليمن والبركات.",
+        "نعتذر عن أي إزعاج قد ينتج عن هذا الإغلاق، ونشكركم على تفهمكم."
+      ]
+    },
+    "move": {
+      "subject": [
+        "انتقال مقرنا إلى عنوان جديد",
+        "تغيير العنوان",
+        "عنواننا الجديد اعتباراً من {date}"
+      ],
+      "body": [
+        "يسرنا إعلامكم بانتقال مقر {S_NAME} إلى العنوان الجديد التالي: {S_ADDRESS}، وذلك اعتباراً من {date}.",
+        "يأتي هذا الانتقال في إطار خطتنا للتوسع وتقديم خدمة أفضل في مساحة أرحب وموقع أسهل وصولاً.",
+        "تبقى أرقام الهاتف والبريد الإلكتروني دون تغيير، ويمكنكم التواصل معنا كالمعتاد على {S_PHONE}.",
+        "نرجو تحديث بياناتنا لديكم واعتماد العنوان الجديد في جميع المراسلات والفواتير القادمة.",
+        "يسعدنا استقبالكم في مقرنا الجديد {HOURS:prose}."
+      ]
+    },
+    "new_service": {
+      "subject": [
+        "إطلاق خدمة جديدة",
+        "إضافة {SERVICE} إلى قائمة خدماتنا",
+        "توسيع نطاق خدماتنا"
+      ],
+      "body": [
+        "يسعدنا أن نعلن عن إطلاق خدمة جديدة ضمن باقة خدماتنا: {SERVICE}.",
+        "استجابةً لطلبات عملائنا، أضفنا إلى خدماتنا كلاً من {SERVICE_LIST}.",
+        "بصفتكم من عملائنا المميزين، يسعدنا أن نقدم إلى {C_NAME} خصماً خاصاً بنسبة {percent} على الطلب الأول حتى {date}.",
+        "لمعرفة المزيد عن الخدمة الجديدة، تفضلوا بزيارة موقعنا {S_URL} أو التواصل مع فريق المبيعات على {S_PHONE}.",
+        "نؤمن بأن هذه الإضافة ستسهم في تلبية احتياجاتكم بصورة أشمل وأسرع."
+      ]
+    },
+    "thanks": {
+      "subject": [
+        "شكر وتقدير",
+        "خطاب شكر على الثقة",
+        "الشكر على تعاونكم خلال عام {year}"
+      ],
+      "body": [
+        "يطيب لنا أن نتقدم إلى {C_NAME} بخالص الشكر والتقدير على ثقتكم الغالية وتعاونكم المثمر معنا.",
+        "لقد كان لتعاونكم أثر كبير في نجاح المشروع وإنجازه في الموعد المحدد وبالجودة المطلوبة.",
+        "نعتز في {S_NAME} بعلاقتنا معكم، ونتطلع إلى مواصلة العمل المشترك في المرحلة القادمة.",
+        "نؤكد لكم أن فريقنا سيبقى في خدمتكم دائماً، وأن رضاكم سيظل على رأس أولوياتنا.",
+        "تقديراً لتعاونكم، يسعدنا منحكم خصماً بنسبة {percent} على طلبكم القادم."
+      ]
+    },
+    "order_to_supplier": {
+      "subject": [
+        "أمر شراء رقم {order_no}",
+        "طلب توريد بضائع",
+        "طلب توريد عاجل"
+      ],
+      "body": [
+        "نرجو التكرم بتوريد الأصناف والكميات الموضحة في أمر الشراء المرفق رقم {order_no}، وفقاً للأسعار الواردة في عرضكم الأخير.",
+        "يتم التسليم على عنواننا: {S_ADDRESS}، في موعد أقصاه {date}.",
+        "نرجو إرفاق شهادة المطابقة وبوليصة الشحن مع البضاعة، وإرسال الفاتورة إلى البريد الإلكتروني {S_EMAIL}.",
+        "يُسدَّد المبلغ خلال {n_days} يوماً من تاريخ الاستلام والفحص، وفقاً للشروط المتفق عليها مع {C_NAME}.",
+        "للتنسيق بشأن التسليم، يرجى التواصل مع {person}، {position}، على الرقم {S_PHONE}."
+      ]
+    },
+    "letter_to_bank": {
+      "subject": [
+        "طلب كشف حساب",
+        "طلب إصدار خطاب ضمان",
+        "تحديث بيانات المفوضين بالتوقيع"
+      ],
+      "body": [
+        "نرجو من {bank} التكرم بتزويدنا بكشف حساب مفصل عن الفترة من {date_start} إلى {date_end}.",
+        "نرفق طيه المستندات النظامية المحدثة للمنشأة ({S_REG_ID})، إضافة إلى خطاب التفويض الموقع من {manager_title} {S_PERSON}.",
+        "نرجو إصدار خطاب ضمان ابتدائي بقيمة {amount} لصالح {other_org}، وذلك للدخول في المنافسة المطروحة.",
+        "نفيدكم بأن المفوض الجديد بالتوقيع على حسابات {S_NAME} اعتباراً من {date} هو {person}، {position}.",
+        "نشكر لكم حسن تعاونكم، ونأمل سرعة إنجاز الطلب نظراً لارتباطه بالتزامات تعاقدية قائمة."
+      ]
+    },
+    "order_from_client": {
+      "subject": [
+        "أمر شراء رقم {order_no}",
+        "طلب توريد",
+        "تأكيد طلبية"
+      ],
+      "body": [
+        "بالإشارة إلى عرض السعر المقدم منكم بتاريخ {date}، يسرنا إبلاغكم بموافقتنا على التوريد وفقاً للكميات والمواصفات المحددة في أمر الشراء رقم {order_no}.",
+        "نرجو تسليم الطلبية إلى مقرنا الكائن في {S_ADDRESS}، مع مراعاة التسليم خلال أوقات الدوام الرسمي.",
+        "يرجى إصدار الفاتورة باسم {S_NAME:legal}، {S_REG_ID}، وإرسالها مع البضاعة.",
+        "سيتم سداد القيمة خلال {n_days} يوماً من تاريخ استلام الفاتورة الأصلية، بعد فحص البضاعة ومطابقتها للمواصفات.",
+        "نثق بحرص {C_NAME} على الالتزام بموعد التسليم المتفق عليه، وللتنسيق يرجى التواصل مع {person}، {position}، على الرقم {S_PHONE}."
+      ]
+    },
+    "complaint_from_client": {
+      "subject": [
+        "شكوى من تأخر التوريد",
+        "ملاحظات على جودة الخدمة المقدمة",
+        "اعتراض على الفاتورة رقم {invoice_no}"
+      ],
+      "body": [
+        "نود إفادتكم بأن الشحنة الخاصة بأمر الشراء رقم {order_no} وصلت بتاريخ {date}، أي بعد الموعد المتفق عليه، مما تسبب في تعطيل أعمالنا.",
+        "كما تبيّن عند الفحص وجود تلف في عدد من الوحدات المسلّمة، وقد وثّقنا ذلك بالصور المرفقة.",
+        "نرجو منكم استبدال الكمية التالفة على نفقتكم في أقرب وقت ممكن، وإفادتنا بالإجراءات التصحيحية المتخذة.",
+        "نقدّر تعاوننا الطويل مع {C_NAME}، ونأمل ألا تتكرر مثل هذه الملاحظات مستقبلاً.",
+        "لمتابعة الشكوى يرجى التواصل مع {person}، {position}، عبر البريد الإلكتروني {S_EMAIL}."
+      ]
+    },
+    "quote_request": {
+      "subject": [
+        "طلب عرض سعر",
+        "طلب تسعير",
+        "دعوة لتقديم عرض فني ومالي"
+      ],
+      "body": [
+        "نرجو التكرم بتزويدنا بأفضل عرض سعر لديكم وفقاً للمواصفات والكميات الواردة في الجدول المرفق.",
+        "يرجى أن يتضمن العرض مدة التنفيذ وشروط الدفع وفترة الضمان، وأن يكون ساري المفعول لمدة لا تقل عن {n_days} يوماً.",
+        "آخر موعد لاستلام العروض هو {date}، ويمكن إرسالها إلى البريد الإلكتروني {S_EMAIL}.",
+        "نظراً لسمعة {C_NAME} الطيبة في السوق، يسعدنا دعوتكم للمشاركة في هذا الطلب.",
+        "للاستفسارات الفنية يرجى التواصل مع {person}، {position}، على الرقم {S_PHONE}."
+      ]
+    },
+    "supplier_offer": {
+      "subject": [
+        "عرض خاص لعملائنا من الشركات",
+        "عرض أسعار {SERVICE}",
+        "التخفيضات الموسمية على منتجاتنا"
+      ],
+      "body": [
+        "يسرنا أن نقدم إلى {C_NAME} عرضنا الخاص على {SERVICE} بخصم {percent} على جميع الطلبات المؤكدة قبل {date}.",
+        "نتميز بخبرة طويلة في مجال {ACTIVITY}، ونضمن لكم منتجات أصلية وتوريداً في المواعيد المحددة.",
+        "تشمل تشكيلتنا أيضاً {SERVICE_LIST}، ويمكننا تجهيز طلبات خاصة حسب احتياجاتكم.",
+        "يسعد فريق المبيعات لدينا بزيارتكم لعرض العينات وتقديم عرض سعر مفصل؛ للتواصل: {person}، {position}، هاتف {S_PHONE}.",
+        "لطلب الكتالوج الكامل، يرجى زيارة موقعنا {S_URL} أو مراسلتنا على {S_EMAIL}."
+      ]
+    },
+    "bank_notice": {
+      "subject": [
+        "تحديث رسوم الخدمات المصرفية",
+        "تحديث البيانات النظامية للحساب",
+        "انتهاء صلاحية المستندات المسجلة لدينا"
+      ],
+      "body": [
+        "يود {bank} إحاطتكم علماً بأنه سيتم تحديث جدول رسوم الخدمات المصرفية للشركات اعتباراً من {date}.",
+        "نرجو منكم تحديث البيانات النظامية الخاصة بحساب {C_NAME} لدى أقرب فرع قبل {date}.",
+        "تتضمن المستندات المطلوبة صورة محدثة من السجل التجاري وهويات المفوضين بالتوقيع.",
+        "العنوان المسجل لدينا: {C_ADDRESS}. يرجى إبلاغنا بأي تغيير عليه.",
+        "في حال عدم التحديث خلال المدة المحددة، قد تُقيَّد بعض الخدمات على الحساب مؤقتاً. لأي استفسار يرجى التواصل مع مدير العلاقة {person}."
+      ]
+    },
+    "loan_offer": {
+      "subject": [
+        "عرض تمويل للمنشآت الصغيرة والمتوسطة",
+        "الموافقة المبدئية على طلب التمويل",
+        "عرض تمويل رأس المال العامل"
+      ],
+      "body": [
+        "يسر {bank} أن يقدم إلى {C_NAME} عرض تمويل بقيمة {amount}، لمدة {n_years}، وبهامش ربح سنوي قدره {percent}.",
+        "يأتي هذا العرض تقديراً لسجلكم الائتماني الجيد وتعاملكم المنتظم معنا.",
+        "يُشترط لإتمام التمويل تقديم القوائم المالية المدققة لآخر سنتين، إضافة إلى ضمانات مقبولة لدى البنك.",
+        "يسري هذا العرض حتى {date}، ويسعد فريقنا بالرد على استفساراتكم وتوضيح جميع الشروط.",
+        "للمتابعة يرجى التواصل مع {person}، {position}، في فرعنا بمدينة {city}."
+      ]
+    },
+    "tax_reminder": {
+      "subject": [
+        "تذكير بموعد تقديم الإقرار الضريبي",
+        "مستحقات ضريبية غير مسددة",
+        "الموعد النهائي لتقديم إقرار ضريبة القيمة المضافة"
+      ],
+      "body": [
+        "نذكّركم بضرورة تقديم إقرار ضريبة القيمة المضافة عن الفترة من {date_start} إلى {date_end} في موعد أقصاه {date}.",
+        "المكلف: {C_NAME} – {C_REG_ID}",
+        "يترتب على التأخر في تقديم الإقرار أو السداد فرض غرامات وفقاً للأنظمة المعمول بها.",
+        "يمكن تقديم الإقرار وسداد المستحقات إلكترونياً عبر البوابة الرسمية، دون الحاجة إلى مراجعة مقر {other_org}.",
+        "تشير سجلاتنا إلى وجود مبلغ مستحق قدره {amount} على حساب {C_NAME}، ونرجو المبادرة بسداده تجنباً للغرامات.",
+        "في حال سبق لكم تقديم الإقرار، يرجى تجاهل هذا الإشعار."
+      ]
+    },
+    "registry_notice": {
+      "subject": [
+        "قرب انتهاء صلاحية السجل التجاري",
+        "تجديد القيد في السجل التجاري",
+        "استكمال بيانات القيد"
+      ],
+      "body": [
+        "نفيدكم بأن قيد {C_NAME} في السجل التجاري ({C_REG_ID}) ينتهي بتاريخ {date}.",
+        "يرجى المبادرة بتجديد القيد قبل تاريخ الانتهاء تجنباً للغرامات المقررة نظاماً.",
+        "كما نرجو تحديث العنوان المسجل ({C_ADDRESS}) في حال حدوث أي تغيير عليه.",
+        "يمكن إتمام إجراءات التجديد إلكترونياً دون الحاجة إلى مراجعة مقر {other_org}.",
+        "يُعد هذا الإشعار صادراً آلياً ولا يحتاج إلى توقيع."
+      ]
+    }
+  },
+  "contract": {
+    "parties_provider": [
+      "الطرف الأول: {S_NAME:legal}، {LEGAL_FORM} برأس مال قدره {CAPITAL}، المقر الرئيسي: {S_ADDRESS}، {S_REG_ID}، ويمثله في التوقيع على هذا العقد {S_PERSON} ({manager_title})، ويُشار إليه فيما بعد بـ«الطرف الأول» أو «مقدم الخدمة».",
+      "أولاً: {S_NAME:legal} – {S_REG_ID} – العنوان: {S_ADDRESS} – ممثلاً في {manager_title} {S_PERSON}، ويُشار إليه في هذا العقد بـ«المورد».",
+      "الطرف الأول (مقدم الخدمة): {S_NAME:legal}، {LEGAL_FORM}، {S_REG_ID}، الكائن مقره في {S_ADDRESS}، ويمثله {S_PERSON} ({manager_title}) بموجب التفويض المرفق."
+    ],
+    "parties_client": [
+      "الطرف الثاني: {C_NAME}، العنوان: {C_ADDRESS}، {C_REG_ID}، ويمثله في التوقيع {person} ({position})، ويُشار إليه فيما بعد بـ«الطرف الثاني» أو «العميل».",
+      "ثانياً: {C_NAME} – {C_REG_ID} – العنوان: {C_ADDRESS} – ممثلاً في {person} ({position})، ويُشار إليه فيما بعد بـ«العميل».",
+      "الطرف الثاني (العميل): {C_NAME}، الكائن مقره في {C_ADDRESS}، ويمثله في هذا العقد {person} بصفة {position}."
+    ],
+    "preamble": [
+      "حيث إن الطرف الأول يعمل في مجال {ACTIVITY} ولديه الخبرة والإمكانات الفنية والبشرية اللازمة، وحيث إن الطرف الثاني يرغب في الاستفادة من خدماته، فقد اتفق الطرفان وهما بكامل أهليتهما المعتبرة شرعاً ونظاماً على ما يلي:",
+      "إنه في يوم {weekday} الموافق {DOC_DATE}، تم الاتفاق والتراضي بين الطرفين المذكورين أعلاه على إبرام هذا العقد وفقاً للبنود التالية.",
+      "يُعد التمهيد السابق والملاحق المرفقة جزءاً لا يتجزأ من هذا العقد، ويُقرأ ويُفسَّر معها."
+    ],
+    "object": [
+      "يلتزم الطرف الأول بموجب هذا العقد بتقديم {SERVICE} للطرف الثاني وفقاً للمواصفات والشروط الواردة في الملحق رقم (1).",
+      "موضوع العقد: قيام مقدم الخدمة بتنفيذ الأعمال التالية: {SERVICE_LIST}.",
+      "يتعهد الطرف الأول بتوفير {SERVICE} في المواعيد المتفق عليها وبالجودة المطلوبة."
+    ],
+    "duration": [
+      "مدة هذا العقد سنة ميلادية واحدة، تبدأ من {date_start} وتنتهي في {date_end}، وتتجدد تلقائياً لمدة مماثلة ما لم يُخطر أحد الطرفين الآخر كتابياً برغبته في عدم التجديد قبل {n_days} يوماً على الأقل من تاريخ الانتهاء.",
+      "يسري هذا العقد اعتباراً من تاريخ توقيعه ولمدة {n_years}.",
+      "يجوز تمديد مدة العقد باتفاق مكتوب بين الطرفين."
+    ],
+    "price": [
+      "يلتزم الطرف الثاني بأن يدفع للطرف الأول مقابل تنفيذ الأعمال موضوع هذا العقد مبلغاً إجمالياً قدره {amount}، شاملاً ضريبة القيمة المضافة.",
+      "القيمة الإجمالية للعقد {amount}، وهي قيمة ثابتة لا تخضع لأي زيادة طوال مدة العقد.",
+      "تُحدَّد الأتعاب الشهرية بمبلغ {amount} غير شاملة الضريبة."
+    ],
+    "payment": [
+      "تُسدَّد المستحقات خلال {n_days} يوماً من تاريخ استلام الفاتورة، بموجب تحويل بنكي إلى الحساب المعتمد للطرف الأول.",
+      "يُدفع {percent} من قيمة العقد دفعةً مقدمة عند التوقيع، ويُسدَّد الباقي على دفعات شهرية خلال {n_days} يوماً من تاريخ كل فاتورة."
+    ],
+    "obligations": [
+      "يلتزم الطرف الأول بتنفيذ الأعمال بعناية الشخص الحريص ووفقاً للأصول الفنية المتعارف عليها.",
+      "يلتزم الطرف الثاني بتسهيل مهمة الطرف الأول وتزويده بجميع المعلومات والمستندات اللازمة في الوقت المناسب.",
+      "يلتزم كل طرف بإخطار الطرف الآخر كتابياً بأي تغيير في عنوانه أو بيانات الاتصال الخاصة به."
+    ],
+    "confidentiality": [
+      "يلتزم الطرفان بالمحافظة على سرية جميع المعلومات والبيانات التي يطلع عليها أي منهما بمناسبة تنفيذ هذا العقد، وعدم إفشائها للغير.",
+      "يظل التزام السرية سارياً لمدة {n_years} من تاريخ انتهاء العقد أو فسخه."
+    ],
+    "liability": [
+      "لا يتحمل الطرف الأول أي مسؤولية عن الأضرار غير المباشرة أو فوات الربح.",
+      "لا تتجاوز مسؤولية الطرف الأول في جميع الأحوال القيمة الإجمالية للعقد.",
+      "لا يُسأل أي من الطرفين عن التأخير أو الإخلال الناتج عن القوة القاهرة."
+    ],
+    "termination": [
+      "يحق لأي من الطرفين فسخ هذا العقد في حال إخلال الطرف الآخر بأي من التزاماته، وعدم تصحيح الإخلال خلال {n_days} يوماً من تاريخ إخطاره كتابياً.",
+      "يجوز للطرف الثاني إنهاء العقد بإشعار كتابي قبل {n_days} يوماً، مع سداد قيمة الأعمال المنفذة حتى تاريخ الإنهاء."
+    ],
+    "law": [
+      "يخضع هذا العقد ويُفسَّر وفقاً للأنظمة المعمول بها في {country}، وتختص محاكم مدينة {city} بالفصل في أي نزاع ينشأ عنه.",
+      "في حال نشوء أي خلاف بين الطرفين، يُسعى إلى حله ودياً، فإن تعذر ذلك يُحال إلى الجهة القضائية المختصة في {city}."
+    ],
+    "signature": [
+      "حُرر هذا العقد في {city} بتاريخ {DOC_DATE} من نسختين أصليتين، تسلّم كل طرف نسخة منهما للعمل بموجبها.",
+      "وقّع الطرفان على هذا العقد في {city} بتاريخ {DOC_DATE}، والله ولي التوفيق."
+    ]
+  },
+  "terms": {
+    "cgv": [
+      "تسري هذه الشروط والأحكام على جميع عمليات البيع التي تتم عبر الموقع الإلكتروني {S_URL} أو في نقاط البيع التابعة للشركة.",
+      "البائع: {S_NAME:legal}، {S_REG_ID}، ومقره {S_ADDRESS}.",
+      "يُعد تقديم الطلب موافقة صريحة من العميل على هذه الشروط والأحكام.",
+      "لا يُعتبر الطلب نهائياً إلا بعد تأكيده من قبل الشركة عبر البريد الإلكتروني أو الرسائل النصية.",
+      "الأسعار معروضة بالعملة المحلية وتشمل ضريبة القيمة المضافة ما لم يُذكر خلاف ذلك.",
+      "تحتفظ الشركة بحق تعديل الأسعار في أي وقت، على أن تُطبَّق الأسعار السارية وقت تأكيد الطلب.",
+      "يتم الدفع نقداً عند الاستلام أو بالبطاقات البنكية أو عبر التحويل البنكي.",
+      "تتراوح مدة التوصيل بين يومين وخمسة أيام عمل من تاريخ تأكيد الطلب داخل المدن الرئيسية.",
+      "يلتزم العميل بفحص المنتجات فور استلامها وإبلاغنا بأي عيب ظاهر خلال {n_days} يوماً من الاستلام.",
+      "يحق للعميل استرجاع المنتج أو استبداله خلال {n_days} يوماً من تاريخ الاستلام، بشرط أن يكون بحالته الأصلية ومرفقاً بالفاتورة.",
+      "لا يشمل حق الاسترجاع المنتجات المصنعة حسب الطلب أو المنتجات القابلة للتلف.",
+      "تضمن الشركة منتجاتها ضد عيوب التصنيع وفقاً لشروط الضمان الخاصة بكل منتج.",
+      "لا تتحمل الشركة مسؤولية الأضرار الناتجة عن سوء الاستخدام أو عدم اتباع التعليمات.",
+      "تخضع هذه الشروط للأنظمة المعمول بها، وتختص محاكم {city} بالنظر في أي نزاع ينشأ عنها.",
+      "لأي استفسار أو شكوى، يرجى التواصل مع خدمة العملاء على {S_PHONE} أو عبر {S_EMAIL}.",
+      "يُطبَّق خصم بنسبة {percent} على الطلبات التي تتجاوز الحد الأدنى المحدد في العروض الترويجية."
+    ],
+    "privacy": [
+      "نلتزم في {S_NAME} بحماية خصوصية زوار موقعنا وعملائنا، ونتعامل مع بياناتهم الشخصية بسرية تامة.",
+      "الجهة المسؤولة عن معالجة البيانات: {S_NAME:legal}، {S_ADDRESS}.",
+      "نجمع البيانات التي تقدمونها طوعاً، مثل الاسم ورقم الجوال والبريد الإلكتروني وعنوان التوصيل.",
+      "نستخدم هذه البيانات لتنفيذ الطلبات والتواصل معكم وتحسين خدماتنا.",
+      "لا نبيع بياناتكم الشخصية ولا نشاركها مع أطراف ثالثة إلا بالقدر اللازم لتنفيذ الطلب أو بناءً على طلب الجهات الرسمية.",
+      "نحتفظ بالبيانات طوال مدة التعامل معكم، ثم لمدة {n_years} بعد آخر تعامل وفقاً للأنظمة المعمول بها.",
+      "يحق لكم في أي وقت طلب الاطلاع على بياناتكم أو تصحيحها أو حذفها بمراسلتنا على {S_EMAIL}.",
+      "نطبق إجراءات تقنية وتنظيمية مناسبة لحماية البيانات من الوصول غير المصرح به.",
+      "قد نقوم بتحديث سياسة الخصوصية من وقت لآخر، وننشر أي تعديل على هذه الصفحة.",
+      "نلتزم بأحكام الأنظمة المعمول بها في مجال حماية البيانات الشخصية."
+    ],
+    "legal_notice": [
+      "الناشر: {S_NAME:legal}، {LEGAL_FORM} برأس مال {CAPITAL}.",
+      "المقر الرئيسي: {S_ADDRESS}",
+      "بيانات التسجيل: {S_REG_ID}",
+      "الهاتف: {S_PHONE} – البريد الإلكتروني: {S_EMAIL}",
+      "مدير النشر: {S_PERSON}",
+      "الاستضافة: {other_org}، {other_address}",
+      "النشاط: {ACTIVITY}",
+      "جميع المحتويات المنشورة على الموقع {S_URL} من نصوص وصور وشعارات محمية بموجب أنظمة الملكية الفكرية، ولا يجوز نسخها دون إذن كتابي مسبق.",
+      "لا تتحمل الشركة مسؤولية محتوى المواقع الخارجية المرتبطة بهذا الموقع.",
+      "المسؤول عن المحتوى: {S_PERSON}، {manager_title}"
+    ],
+    "cookies": [
+      "يستخدم هذا الموقع ملفات تعريف الارتباط (الكوكيز) لتحسين تجربة التصفح وتحليل الزيارات.",
+      "بمواصلة استخدام الموقع، فإنك توافق على استخدامنا لملفات تعريف الارتباط.",
+      "يمكنك تعطيل ملفات تعريف الارتباط من إعدادات المتصفح، مع العلم بأن بعض خصائص الموقع قد لا تعمل بشكل صحيح.",
+      "تُحفظ ملفات تعريف الارتباط على جهازك لمدة لا تتجاوز {n_days} يوماً."
+    ]
+  },
+  "web": {
+    "testimonials": [
+      "«تعامل راقٍ ودقة في المواعيد، أنصح الجميع بالتعامل معهم.» – {person}",
+      "«من أفضل التجارب التي مررت بها: فريق محترف وأسعار معقولة.» — {person}، {city}",
+      "«خدمة ممتازة وسرعة في الاستجابة، شكراً لكم.» {person}",
+      "«أتعامل معهم منذ سنوات ولم يخذلوني أبداً.» – {person}، {position}",
+      "«الجودة عالية والمتابعة بعد البيع رائعة.» — {person}",
+      "«تجربة تستحق التكرار، والتعامل في غاية الاحترام.» – {person} من {city}",
+      "«وفّروا علينا الكثير من الوقت والجهد، وجاءت النتيجة أفضل مما توقعنا.» — {person}",
+      "«أنصح بالتعامل مع {S_NAME} دون تردد.» – {person}",
+      "كتب {person}: «سرعة في التنفيذ واهتمام بأدق التفاصيل.»"
+    ],
+    "news": [
+      "{date} – يسعدنا الإعلان عن إطلاق خدمة جديدة: {SERVICE}.",
+      "{date}: شاركنا في المعرض السنوي للقطاع في {city}، والتقينا بعدد كبير من العملاء والشركاء.",
+      "بتاريخ {date} افتتحنا فرعاً جديداً في {city} لخدمة عملائنا في المنطقة.",
+      "{date} – مواعيد العمل خلال شهر رمضان المبارك متاحة الآن على صفحتنا.",
+      "أطلقنا في {date} موقعنا الإلكتروني الجديد بتصميم أسهل وخدمات إلكترونية متكاملة.",
+      "{date}: عرض خاص على {SERVICE} لفترة محدودة.",
+      "{date} – انضمت إلى فريقنا كفاءات جديدة في قسمي المبيعات والدعم الفني.",
+      "{date} – حصلنا على تقييم ممتاز من عملائنا في استبيان الرضا السنوي."
+    ],
+    "cta": [
+      "اتصل بنا الآن على {S_PHONE}",
+      "اطلب عرض سعر مجاني",
+      "احجز موعدك اليوم!",
+      "تواصل معنا عبر واتساب",
+      "اكتشف خدماتنا",
+      "سجّل الآن واحصل على خصم {percent} على طلبك الأول",
+      "زورونا على {S_URL}",
+      "راسلنا على {S_EMAIL} وسنعاود الاتصال بك",
+      "اطلب {SERVICE} الآن بنقرة واحدة"
+    ]
+  },
+  "noise": {
+    "meeting": [
+      "محضر اجتماع فريق المبيعات بتاريخ {date}: حضر الاجتماع {person} ({position})، وتمت مناقشة خطة الربع القادم.",
+      "تقرر في اجتماع اليوم تأجيل إطلاق الحملة التسويقية إلى {date}.",
+      "جدول الأعمال: مراجعة المبيعات الشهرية، متابعة شكاوى العملاء، ما يستجد من أعمال.",
+      "المسؤول عن التنفيذ: {person}؛ الموعد النهائي: {date}.",
+      "تم الاتفاق على عقد الاجتماع القادم يوم {weekday} الساعة {time} في قاعة الاجتماعات الرئيسية.",
+      "أوصى المجتمعون بمراجعة إجراءات الشراء وتحديث قائمة الموردين المعتمدين.",
+      "افتُتح الاجتماع في تمام الساعة {time} بحضور جميع رؤساء الأقسام."
+    ],
+    "recipe": [
+      "المقادير: كوبان من الأرز البسمتي، نصف كيلو من لحم الغنم، بصلة مفرومة، ملعقة كبيرة من بهارات الكبسة.",
+      "يُنقع الأرز في الماء لمدة نصف ساعة ثم يُصفّى جيداً.",
+      "تُحمّر البصلة في قليل من الزيت حتى يصبح لونها ذهبياً، ثم يضاف اللحم والبهارات.",
+      "يُترك الطبق على نار هادئة لمدة عشرين دقيقة، ويُقدَّم ساخناً مع السلطة واللبن.",
+      "لتحضير الشاي المغربي: تُغسل حفنة من الشاي الأخضر بالماء الساخن، ثم يضاف النعناع والسكر حسب الرغبة."
+    ],
+    "manual": [
+      "اضغط مطولاً على زر التشغيل لمدة ثلاث ثوانٍ حتى يضيء المؤشر الأخضر.",
+      "قبل الاستخدام لأول مرة، يرجى شحن البطارية بالكامل.",
+      "لإعادة ضبط الجهاز على إعدادات المصنع، افتح القائمة ثم اختر «الإعدادات» ثم «إعادة الضبط».",
+      "لا تعرّض الجهاز لأشعة الشمس المباشرة أو للرطوبة العالية.",
+      "في حال ظهور رسالة خطأ، أعد تشغيل البرنامج وتأكد من الاتصال بالإنترنت.",
+      "لإضافة مستخدم جديد، اختر «المستخدمون» من القائمة الجانبية ثم اضغط على «إضافة».",
+      "نظّف الفلتر مرة كل أسبوعين للحفاظ على كفاءة التبريد."
+    ],
+    "news": [
+      "توقعت الأرصاد الجوية ارتفاعاً في درجات الحرارة خلال الأيام المقبلة في معظم المناطق.",
+      "أعلنت وزارة التعليم عن موعد بدء العام الدراسي الجديد.",
+      "شهدت أسعار النفط استقراراً نسبياً في تعاملات اليوم وسط ترقب الأسواق.",
+      "افتتح معرض الكتاب الدولي أبوابه أمام الزوار بمشاركة مئات من دور النشر.",
+      "أُعلن في {city} عن إطلاق مبادرة جديدة لدعم رواد الأعمال بتنظيم من {other_org}.",
+      "سجّل مؤشر السوق الرئيسي ارتفاعاً بنسبة {percent} في ختام تداولات الأسبوع.",
+      "تستعد المدينة لاستضافة بطولة إقليمية لكرة القدم خلال الشهر المقبل."
+    ],
+    "todo": [
+      "الاتصال بالمورد لتأكيد موعد التسليم",
+      "تجديد رخصة البلدية قبل {date}",
+      "إرسال الفواتير المتأخرة إلى المحاسب",
+      "شراء أحبار للطابعة وورق A4",
+      "حجز قاعة الاجتماعات ليوم {weekday}"
+    ],
+    "memo": [
+      "إلى جميع الموظفين: يرجى الالتزام بمواعيد الحضور والانصراف المعتمدة.",
+      "تعميم داخلي: سيتوقف النظام المحاسبي للصيانة يوم {weekday} ابتداءً من الساعة {time}.",
+      "نذكّر الجميع بضرورة تسليم تقارير المصروفات قبل نهاية الشهر.",
+      "يُمنع التدخين داخل المكاتب والمستودعات منعاً باتاً.",
+      "على كل قسم تحديث بيانات التواصل الخاصة به في دليل الهاتف الداخلي.",
+      "يرجى من الموظفين الجدد مراجعة قسم الموارد البشرية لاستكمال ملفاتهم.",
+      "تقرر صرف مكافأة نهاية العام للموظفين المستحقين مع رواتب الشهر الحالي."
+    ],
+    "generic": [
+      "كان الطريق مزدحماً صباح اليوم بسبب أعمال الصيانة.",
+      "لا تنسَ إحضار المظلة، فالأمطار متوقعة بعد الظهر.",
+      "مبارك المولود الجديد، جعله الله قرة عين لوالديه.",
+      "الاجتماع العائلي يوم الجمعة بعد صلاة العصر.",
+      "نُقل الموقف المؤقت إلى الجهة الخلفية من المبنى.",
+      "أرجو إرسال الصور بعد انتهاء الحفل.",
+      "الكتاب خير رفيق في السفر.",
+      "تبدأ مباراة الليلة في تمام الساعة {time}.",
+      "أرجو تأكيد الحضور قبل {date}.",
+      "الرجاء إغلاق النوافذ قبل مغادرة المكتب.",
+      "سعدنا بزيارتكم، ونتمنى لكم رحلة موفقة.",
+      "اشتقنا إليكم كثيراً، متى تعودون إلى {city}؟",
+      "الإنترنت بطيء اليوم، سأحاول مرة أخرى لاحقاً.",
+      "رمضان كريم، وكل عام وأنتم بخير."
+    ],
+    "press": [
+      "{city} – بحسب {S_PERSON}، {manager_title} في {S_NAME}، تخطط الشركة لافتتاح مقر جديد خلال العام المقبل.",
+      "حققت الشركة في {REVENUE_YEAR} إيرادات بلغت {REVENUE}، مدفوعة بارتفاع الطلب على {SERVICE}.",
+      "تأسست الشركة عام {FOUNDED} في {city}، ويعمل لديها اليوم {STAFF} {staff_noun}.",
+      "يُعد اسم {S_NAME} من الأسماء البارزة في مجال {ACTIVITY} في {city}.",
+      "وفي تصريح خاص، أكدت إدارة {S_NAME} أن الشركة ماضية في خطط التوسع رغم التحديات.",
+      "يبلغ عدد العاملين في الشركة {STAFF} {staff_noun}، وتسعى الإدارة إلى زيادته خلال الفترة المقبلة.",
+      "انطلقت مسيرة {S_NAME} عام {FOUNDED} بمشروع صغير، قبل أن تصبح الشركة واحدة من الأسماء المعروفة في {city}.",
+      "وفقاً لبيانات الشركة، بلغت الإيرادات السنوية {REVENUE}."
+    ]
+  }
+}

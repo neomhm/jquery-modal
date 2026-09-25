@@ -1,0 +1,37 @@
+{
+  "given_male": [
+    "Antonio", "José", "Manuel", "Francisco", "David", "Juan", "Javier", "Daniel",
+    "Carlos", "Jesús", "Alejandro", "Miguel", "Rafael", "Pablo", "Sergio", "Fernando",
+    "Jorge", "Luis", "Alberto", "Álvaro", "Adrián", "Diego", "Raúl", "Iván",
+    "Rubén", "Óscar", "Enrique", "Ramón", "Andrés", "Vicente", "Joaquín", "Santiago",
+    "Víctor", "Ignacio", "Marcos", "Hugo", "Jaime", "Alfonso", "Gonzalo", "Emilio",
+    "Julián", "Ángel", "Pedro", "Íñigo", "Jordi", "Iker", "Xavier", "Borja",
+    "José Luis", "Juan Carlos", "Miguel Ángel", "José Antonio", "Francisco Javier", "Juan Manuel"
+  ],
+  "given_female": [
+    "María", "Carmen", "Ana", "Laura", "Isabel", "Cristina", "Marta", "Lucía",
+    "Elena", "Paula", "Sara", "Raquel", "Pilar", "Rosa", "Beatriz", "Silvia",
+    "Patricia", "Nuria", "Mónica", "Sonia", "Rocío", "Irene", "Alicia", "Andrea",
+    "Montserrat", "Mercedes", "Teresa", "Julia", "Eva", "Inmaculada", "Lorena", "Natalia",
+    "Clara", "Alba", "Noelia", "Esther", "Yolanda", "Susana", "Verónica", "Amparo",
+    "Begoña", "Ainhoa", "Nerea", "Marina", "Claudia", "Inés", "Blanca", "Almudena",
+    "María José", "Ana Belén", "María Dolores", "Rosa María", "María del Mar", "Mari Carmen"
+  ],
+  "family": [
+    "García", "Rodríguez", "González", "Fernández", "López", "Martínez", "Sánchez", "Pérez",
+    "Gómez", "Martín", "Jiménez", "Ruiz", "Hernández", "Díaz", "Moreno", "Muñoz",
+    "Álvarez", "Romero", "Alonso", "Gutiérrez", "Navarro", "Torres", "Domínguez", "Vázquez",
+    "Ramos", "Gil", "Ramírez", "Serrano", "Blanco", "Molina", "Morales", "Suárez",
+    "Ortega", "Delgado", "Castro", "Ortiz", "Rubio", "Marín", "Sanz", "Núñez",
+    "Iglesias", "Medina", "Garrido", "Cortés", "Castillo", "Santos", "Lozano", "Guerrero",
+    "Cano", "Prieto", "Méndez", "Cruz", "Calvo", "Gallego", "Herrera", "Márquez",
+    "León", "Peña", "Flores", "Cabrera", "Campos", "Vega", "Fuentes", "Carrasco",
+    "Díez", "Caballero", "Reyes", "Nieto", "Aguilar", "Pascual", "Santana", "Herrero",
+    "Lorenzo", "Montero", "Hidalgo", "Giménez", "Ibáñez", "Ferrer", "Durán", "Benítez",
+    "Mora", "Vicente", "Vargas", "Arias", "Carmona", "Crespo", "Román", "Pastor",
+    "Soto", "Sáez", "Velasco", "Moya", "Soler", "Parra", "Esteban", "Bravo",
+    "Gallardo", "Rojas", "Pardo", "Merino", "Franco", "Espinosa", "Izquierdo", "Lara",
+    "Rivas", "Silva", "Casado", "Arroyo", "Redondo", "Camacho", "Otero", "Luque",
+    "Puig", "Vidal", "Roca", "Mas", "Aguirre", "Etxeberria", "Goikoetxea", "Rey"
+  ]
+}

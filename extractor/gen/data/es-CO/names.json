@@ -1,0 +1,33 @@
+{
+  "given_male": [
+    "Juan", "Carlos", "Luis", "Jorge", "Andrés", "Diego", "Felipe", "Santiago",
+    "Sebastián", "Camilo", "Alejandro", "Daniel", "David", "Julián", "Mauricio", "Fernando",
+    "Óscar", "Jaime", "Hernán", "Gustavo", "Álvaro", "William", "Wilson", "Jhon",
+    "Édgar", "Fabio", "Germán", "Hugo", "Ricardo", "Rafael", "Nicolás", "Mateo",
+    "Samuel", "Esteban", "Cristian", "Alexánder", "Iván", "Orlando", "Rodrigo", "Gabriel",
+    "Harold", "Fredy", "Yeison", "Arley", "Hernando", "Libardo",
+    "Juan Carlos", "Juan David", "Juan Sebastián", "Juan Pablo", "Luis Fernando", "Carlos Andrés", "Jhon Jairo"
+  ],
+  "given_female": [
+    "María", "Luz", "Ana", "Diana", "Paola", "Carolina", "Natalia", "Andrea",
+    "Catalina", "Claudia", "Sandra", "Marcela", "Lina", "Ángela", "Adriana", "Paula",
+    "Laura", "Juliana", "Daniela", "Valentina", "Mariana", "Sofía", "Camila", "Gloria",
+    "Martha", "Liliana", "Patricia", "Yolanda", "Luisa", "Viviana", "Johana", "Leidy",
+    "Yuliana", "Tatiana", "Alejandra", "Isabella", "Manuela", "Gabriela", "Mónica", "Ximena",
+    "Stella", "Nubia", "Esperanza", "Maritza",
+    "Luz Marina", "María Fernanda", "Ana María", "María Camila", "Luz Dary", "María Alejandra", "Diana Marcela"
+  ],
+  "family": [
+    "Rodríguez", "Gómez", "González", "Martínez", "García", "López", "Hernández", "Sánchez",
+    "Ramírez", "Pérez", "Díaz", "Muñoz", "Rojas", "Moreno", "Jiménez", "Vargas",
+    "Castro", "Gutiérrez", "Álvarez", "Romero", "Ortiz", "Suárez", "Herrera", "Valencia",
+    "Quintero", "Restrepo", "Giraldo", "Osorio", "Cardona", "Mejía", "Zapata", "Arango",
+    "Ospina", "Castaño", "Londoño", "Ramos", "Torres", "Parra", "Salazar", "Cárdenas",
+    "Montoya", "Guerrero", "Mendoza", "Rincón", "Pineda", "Medina", "Patiño", "Velásquez",
+    "Echeverri", "Correa", "Arias", "Duque", "Rivera", "Morales", "Acosta", "Bernal",
+    "Cortés", "Peña", "Galvis", "Beltrán", "Chaparro", "Sierra", "Contreras", "Benavides",
+    "Guzmán", "Villamizar", "Niño", "Rueda", "Uribe", "Escobar", "Tobón", "Henao",
+    "Agudelo", "Marín", "Betancur", "Franco", "Toro", "Serna", "Vélez", "Botero",
+    "Cifuentes", "Barrera", "Buitrago", "Caicedo", "Mosquera", "Palacios", "Ocampo", "Hurtado"
+  ]
+}

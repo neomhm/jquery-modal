@@ -1,0 +1,2363 @@
+{
+  "lang": "hi",
+  "activity": [
+    {
+      "id": "activity.hi.01",
+      "text": "व्यवसाय का प्रकार: {ACTIVITY}"
+    },
+    {
+      "id": "activity.hi.02",
+      "text": "मुख्य गतिविधि: {ACTIVITY}"
+    },
+    {
+      "id": "activity.hi.03",
+      "text": "{S_NAME} का मूल व्यवसाय {ACTIVITY} है, और यही हमारी पहचान है।"
+    },
+    {
+      "id": "activity.hi.04",
+      "text": "हमारा मुख्य व्यवसाय है — {ACTIVITY}।"
+    },
+    {
+      "id": "activity.hi.05",
+      "text": "कारोबार का स्वरूप: {ACTIVITY}"
+    },
+    {
+      "id": "activity.hi.06",
+      "text": "{S_NAME} — {ACTIVITY}"
+    },
+    {
+      "id": "activity.hi.07",
+      "text": "कंपनी का प्रमुख कार्यक्षेत्र {ACTIVITY} है।"
+    },
+    {
+      "id": "activity.hi.08",
+      "text": "Nature of Business / व्यवसाय की प्रकृति: {ACTIVITY}"
+    },
+    {
+      "id": "activity.hi.09",
+      "text": "{S_NAME} की विशेषता है {ACTIVITY}।"
+    },
+    {
+      "id": "activity.hi.10",
+      "text": "हमारी पहचान: {ACTIVITY}, वह भी पूरी ईमानदारी और पारदर्शिता के साथ।"
+    },
+    {
+      "id": "activity.hi.11",
+      "text": "{ACTIVITY} — यही हमारा काम है और यही हमारा जुनून।"
+    },
+    {
+      "id": "activity.hi.12",
+      "text": "हम क्या करते हैं? — {ACTIVITY}।"
+    },
+    {
+      "id": "activity.hi.13",
+      "text": "मुख्य गतिविधि: {ACTIVITY} ({ACTIVITY_CODE})"
+    },
+    {
+      "id": "activity.hi.14",
+      "text": "{S_NAME} की शुरुआत जिस काम से हुई थी, वही आज भी हमारा मुख्य व्यवसाय है: {ACTIVITY}।"
+    },
+    {
+      "id": "activity.hi.15",
+      "text": "हमारा कार्यक्षेत्र: {ACTIVITY}"
+    },
+    {
+      "id": "activity.hi.16",
+      "text": "कंपनी का मुख्य उद्देश्य: {ACTIVITY}"
+    },
+    {
+      "id": "activity.hi.17",
+      "text": "Business Activity / व्यावसायिक गतिविधि: {ACTIVITY}"
+    },
+    {
+      "id": "activity.hi.18",
+      "text": "हमारा फ़ोकस सिर्फ़ एक चीज़ पर है — {ACTIVITY}।"
+    },
+    {
+      "id": "activity.hi.19",
+      "text": "सेक्टर: {ACTIVITY}"
+    },
+    {
+      "id": "activity.hi.20",
+      "text": "{S_NAME} मुख्यतः इस व्यवसाय में संलग्न है: {ACTIVITY}।"
+    },
+    {
+      "id": "activity.hi.21",
+      "text": "{city} और आसपास के इलाक़ों में लोग हमें इसी काम से जानते हैं: {ACTIVITY}।"
+    },
+    {
+      "id": "activity.hi.22",
+      "text": "{FOUNDED} से हमारा एक ही काम है: {ACTIVITY}।"
+    },
+    {
+      "id": "activity.hi.23",
+      "text": "संक्षेप में कहें तो {S_NAME} का काम है {ACTIVITY}।"
+    },
+    {
+      "id": "activity.hi.24",
+      "text": "व्यवसाय विवरण: {ACTIVITY}, {city}"
+    },
+    {
+      "id": "activity.hi.25",
+      "text": "{S_NAME} का मुख्य कार्य {ACTIVITY} है, जिसे हम आधुनिक तकनीक और अनुभवी टीम की मदद से अंजाम देते हैं।"
+    },
+    {
+      "id": "activity.hi.26",
+      "text": "प्रमुख कारोबार: {ACTIVITY}"
+    },
+    {
+      "id": "activity.hi.27",
+      "text": "कंपनी मुख्य रूप से एक ही क्षेत्र में काम करती है: {ACTIVITY}।"
+    },
+    {
+      "id": "activity.hi.28",
+      "text": "कार्य का प्रकार: {ACTIVITY}"
+    },
+    {
+      "id": "activity.hi.29",
+      "text": "ग़ौरतलब है कि {S_NAME} का मुख्य कारोबार {ACTIVITY} है।"
+    }
+  ],
+  "founded": [
+    {
+      "id": "founded.hi.01",
+      "text": "स्थापना: {FOUNDED}"
+    },
+    {
+      "id": "founded.hi.02",
+      "text": "स्थापना वर्ष: {FOUNDED}"
+    },
+    {
+      "id": "founded.hi.03",
+      "text": "{S_NAME} की स्थापना {FOUNDED} में हुई थी।"
+    },
+    {
+      "id": "founded.hi.04",
+      "text": "{FOUNDED} से आपकी सेवा में।"
+    },
+    {
+      "id": "founded.hi.05",
+      "text": "सन् {FOUNDED} में स्थापित {S_NAME} आज {city} का एक जाना-माना नाम है।"
+    },
+    {
+      "id": "founded.hi.06",
+      "text": "निगमन की तिथि: {FOUNDED:date}"
+    },
+    {
+      "id": "founded.hi.07",
+      "text": "Date of Incorporation / निगमन तिथि: {FOUNDED:date}"
+    },
+    {
+      "id": "founded.hi.08",
+      "text": "कंपनी का निगमन {FOUNDED:date} को हुआ था।"
+    },
+    {
+      "id": "founded.hi.09",
+      "text": "हमारा सफ़र {FOUNDED} में {city} में बहुत छोटे स्तर पर शुरू हुआ था।"
+    },
+    {
+      "id": "founded.hi.10",
+      "text": "{FOUNDED:month} में शुरू हुआ यह सफ़र आज भी पूरे जोश के साथ जारी है।"
+    },
+    {
+      "id": "founded.hi.11",
+      "text": "{FOUNDED} में {S_NAME} की नींव रखी गई।"
+    },
+    {
+      "id": "founded.hi.12",
+      "text": "स्था. {FOUNDED}"
+    },
+    {
+      "id": "founded.hi.13",
+      "text": "Since {FOUNDED}"
+    },
+    {
+      "id": "founded.hi.14",
+      "text": "हम {FOUNDED} से लगातार अपने ग्राहकों की सेवा कर रहे हैं।"
+    },
+    {
+      "id": "founded.hi.15",
+      "text": "व्यवसाय आरंभ करने की तिथि: {FOUNDED:date}"
+    },
+    {
+      "id": "founded.hi.16",
+      "text": "{S_NAME} ने {FOUNDED:month} में अपना कामकाज शुरू किया।"
+    },
+    {
+      "id": "founded.hi.17",
+      "text": "कंपनी का गठन {FOUNDED} में हुआ था।"
+    },
+    {
+      "id": "founded.hi.18",
+      "text": "{FOUNDED} में स्थापित इस फर्म को आज परिवार की तीसरी पीढ़ी संभाल रही है।"
+    },
+    {
+      "id": "founded.hi.19",
+      "text": "हमारी शुरुआत {FOUNDED} में हुई थी, और तब से ग्राहकों का भरोसा ही हमारी सबसे बड़ी पूँजी रहा है।"
+    },
+    {
+      "id": "founded.hi.20",
+      "text": "फर्म का पंजीकरण {FOUNDED:date} को हुआ।"
+    },
+    {
+      "id": "founded.hi.21",
+      "text": "{FOUNDED} से अब तक — गुणवत्ता से कोई समझौता नहीं।"
+    },
+    {
+      "id": "founded.hi.22",
+      "text": "{S_NAME} (स्थापना {FOUNDED})"
+    },
+    {
+      "id": "founded.hi.23",
+      "text": "{FOUNDED} में {city} में स्थापित {S_NAME} के ग्राहक आज पूरे देश में फैले हुए हैं।"
+    },
+    {
+      "id": "founded.hi.24",
+      "text": "वर्ष {FOUNDED} में शुरू हुई यह कंपनी आज अपने क्षेत्र की अग्रणी कंपनियों में गिनी जाती है।"
+    },
+    {
+      "id": "founded.hi.25",
+      "text": "कारोबार की शुरुआत: {FOUNDED:month}"
+    },
+    {
+      "id": "founded.hi.26",
+      "text": "{FOUNDED:date} को {S_NAME} का विधिवत उद्घाटन हुआ।"
+    },
+    {
+      "id": "founded.hi.27",
+      "text": "पंजीकरण की तिथि: {FOUNDED:date}"
+    },
+    {
+      "id": "founded.hi.28",
+      "text": "{FOUNDED} में कुछ ही लोगों और एक सपने के साथ हमने यह सफ़र शुरू किया था।"
+    },
+    {
+      "id": "founded.hi.29",
+      "text": "उल्लेखनीय है कि {S_NAME} की स्थापना {FOUNDED} में हुई थी।"
+    }
+  ],
+  "staff": [
+    {
+      "id": "staff.hi.01",
+      "text": "कर्मचारियों की संख्या: {STAFF}"
+    },
+    {
+      "id": "staff.hi.02",
+      "text": "कुल कर्मचारी: {STAFF}"
+    },
+    {
+      "id": "staff.hi.03",
+      "text": "स्टाफ़: {STAFF} {staff_noun}"
+    },
+    {
+      "id": "staff.hi.04",
+      "text": "टीम का आकार: {STAFF} {staff_noun}"
+    },
+    {
+      "id": "staff.hi.05",
+      "text": "कार्यबल: {STAFF} {staff_noun}"
+    },
+    {
+      "id": "staff.hi.06",
+      "text": "मैनपावर: {STAFF}"
+    },
+    {
+      "id": "staff.hi.07",
+      "text": "No. of Employees / कर्मचारियों की संख्या: {STAFF}"
+    },
+    {
+      "id": "staff.hi.08",
+      "text": "कंपनी में कार्यरत कर्मचारियों की कुल संख्या {STAFF} है।"
+    },
+    {
+      "id": "staff.hi.09",
+      "text": "{S_NAME} में इस समय कर्मचारियों की संख्या {STAFF} है।"
+    },
+    {
+      "id": "staff.hi.10",
+      "text": "आज हमारी टीम में कर्मचारियों की संख्या {STAFF} हो चुकी है।"
+    },
+    {
+      "id": "staff.hi.11",
+      "text": "{city} स्थित मुख्यालय और सभी शाखाओं को मिलाकर कर्मचारियों की कुल संख्या {STAFF} है।"
+    },
+    {
+      "id": "staff.hi.12",
+      "text": "हमारी सबसे बड़ी ताक़त हमारी टीम है: {STAFF} समर्पित {staff_noun}।"
+    },
+    {
+      "id": "staff.hi.13",
+      "text": "{STAFF} {staff_noun}, एक ही लक्ष्य — ग्राहक की पूरी संतुष्टि।"
+    },
+    {
+      "id": "staff.hi.14",
+      "text": "31 मार्च की स्थिति के अनुसार कर्मचारियों की संख्या: {STAFF}"
+    },
+    {
+      "id": "staff.hi.15",
+      "text": "वर्तमान कर्मचारी संख्या: {STAFF}"
+    },
+    {
+      "id": "staff.hi.16",
+      "text": "पेरोल पर कर्मचारी: {STAFF}"
+    },
+    {
+      "id": "staff.hi.17",
+      "text": "{S_NAME} — {STAFF} {staff_noun}, मुख्यालय {city} में"
+    },
+    {
+      "id": "staff.hi.18",
+      "text": "प्रत्यक्ष रूप से कार्यरत कर्मचारियों की संख्या {STAFF} है; ठेके पर काम करने वाले श्रमिक इसके अतिरिक्त हैं।"
+    },
+    {
+      "id": "staff.hi.19",
+      "text": "आज {S_NAME} परिवार के सदस्यों की संख्या {STAFF} है।"
+    },
+    {
+      "id": "staff.hi.20",
+      "text": "हमारे साथ काम करने वाले लोगों की संख्या {STAFF} है, और यह लगातार बढ़ रही है।"
+    },
+    {
+      "id": "staff.hi.21",
+      "text": "टीम में कुल {STAFF} {staff_noun} — कार्यालय, बिक्री और फ़ील्ड स्टाफ़ मिलाकर।"
+    },
+    {
+      "id": "staff.hi.22",
+      "text": "मानव संसाधन: {STAFF} प्रशिक्षित {staff_noun}"
+    },
+    {
+      "id": "staff.hi.23",
+      "text": "कुल एम्प्लॉई: {STAFF}"
+    },
+    {
+      "id": "staff.hi.24",
+      "text": "आँकड़ों में हमारी टीम: {STAFF} {staff_noun}।"
+    },
+    {
+      "id": "staff.hi.25",
+      "text": "कंपनी के कर्मचारियों की संख्या पिछले वर्ष की तुलना में बढ़कर {STAFF} हो गई है।"
+    },
+    {
+      "id": "staff.hi.26",
+      "text": "कर्मचारी शक्ति (Staff Strength): {STAFF}"
+    },
+    {
+      "id": "staff.hi.27",
+      "text": "{S_NAME} के कर्मचारियों की संख्या — {STAFF}"
+    },
+    {
+      "id": "staff.hi.28",
+      "text": "कंपनी के एक प्रवक्ता के अनुसार, इस समय कर्मचारियों की संख्या {STAFF} है।"
+    }
+  ],
+  "revenue": [
+    {
+      "id": "revenue.hi.01",
+      "text": "वार्षिक टर्नओवर: {REVENUE}"
+    },
+    {
+      "id": "revenue.hi.02",
+      "text": "कुल कारोबार ({REVENUE_YEAR}): {REVENUE}"
+    },
+    {
+      "id": "revenue.hi.03",
+      "text": "{REVENUE_YEAR} में कंपनी का टर्नओवर {REVENUE} रहा।"
+    },
+    {
+      "id": "revenue.hi.04",
+      "text": "{REVENUE_YEAR} के दौरान {S_NAME} की कुल बिक्री {REVENUE} रही।"
+    },
+    {
+      "id": "revenue.hi.05",
+      "text": "वार्षिक राजस्व: {REVENUE}"
+    },
+    {
+      "id": "revenue.hi.06",
+      "text": "पिछले वित्त वर्ष में हमारा टर्नओवर {REVENUE} तक पहुँच गया।"
+    },
+    {
+      "id": "revenue.hi.07",
+      "text": "टर्नओवर {REVENUE_YEAR}: {REVENUE}"
+    },
+    {
+      "id": "revenue.hi.08",
+      "text": "कंपनी का कारोबार {REVENUE_YEAR_PREV} के {REVENUE_PREV} से बढ़कर {REVENUE_YEAR} में {REVENUE} हो गया।"
+    },
+    {
+      "id": "revenue.hi.09",
+      "text": "Annual Turnover / वार्षिक टर्नओवर: {REVENUE}"
+    },
+    {
+      "id": "revenue.hi.10",
+      "text": "{S_NAME} ने {REVENUE_YEAR} में {REVENUE} का कारोबार किया।"
+    },
+    {
+      "id": "revenue.hi.11",
+      "text": "हमारा सालाना कारोबार {REVENUE} से अधिक है।"
+    },
+    {
+      "id": "revenue.hi.12",
+      "text": "प्रचालन से राजस्व ({REVENUE_YEAR}): {REVENUE}"
+    },
+    {
+      "id": "revenue.hi.13",
+      "text": "{REVENUE_YEAR} में {REVENUE} के टर्नओवर के साथ {S_NAME} अपने क्षेत्र की अग्रणी कंपनियों में शामिल है।"
+    },
+    {
+      "id": "revenue.hi.14",
+      "text": "टर्नओवर: {REVENUE} (पिछला वर्ष: {REVENUE_PREV})"
+    },
+    {
+      "id": "revenue.hi.15",
+      "text": "कुल बिक्री (GST को छोड़कर): {REVENUE}"
+    },
+    {
+      "id": "revenue.hi.16",
+      "text": "हमारा वार्षिक टर्नओवर {REVENUE} है, जो पिछले वर्ष की तुलना में उल्लेखनीय वृद्धि दर्शाता है।"
+    },
+    {
+      "id": "revenue.hi.17",
+      "text": "{REVENUE_YEAR} का टर्नओवर {REVENUE} और {REVENUE_YEAR_PREV} का {REVENUE_PREV} रहा।"
+    },
+    {
+      "id": "revenue.hi.18",
+      "text": "सकल बिक्री: {REVENUE}"
+    },
+    {
+      "id": "revenue.hi.19",
+      "text": "लगातार वृद्धि के साथ कंपनी का राजस्व {REVENUE_YEAR} में {REVENUE} पर पहुँचा।"
+    },
+    {
+      "id": "revenue.hi.20",
+      "text": "Turnover ({REVENUE_YEAR}): {REVENUE}"
+    },
+    {
+      "id": "revenue.hi.21",
+      "text": "वार्षिक बिक्री: लगभग {REVENUE}"
+    },
+    {
+      "id": "revenue.hi.22",
+      "text": "{S_NAME} का वार्षिक कारोबार: {REVENUE}"
+    },
+    {
+      "id": "revenue.hi.23",
+      "text": "कंपनी की कुल आमदनी (टर्नओवर) {REVENUE_YEAR} में {REVENUE} रही।"
+    },
+    {
+      "id": "revenue.hi.24",
+      "text": "{REVENUE} — {REVENUE_YEAR} में हमारा कुल टर्नओवर, जो अब तक का सबसे अधिक है।"
+    },
+    {
+      "id": "revenue.hi.25",
+      "text": "हमने {REVENUE_YEAR} को {REVENUE} के टर्नओवर के साथ समाप्त किया।"
+    },
+    {
+      "id": "revenue.hi.26",
+      "text": "सालाना टर्नओवर ({REVENUE_YEAR}) — {REVENUE}; पिछले वर्ष ({REVENUE_YEAR_PREV}) — {REVENUE_PREV}"
+    },
+    {
+      "id": "revenue.hi.27",
+      "text": "कारोबार का आकार: {REVENUE} प्रति वर्ष"
+    },
+    {
+      "id": "revenue.hi.28",
+      "text": "कंपनी सूत्रों के अनुसार, {REVENUE_YEAR} में {S_NAME} का कारोबार {REVENUE} रहा।"
+    }
+  ],
+  "services_intro": [
+    {
+      "id": "services_intro.hi.01",
+      "text": "हमारी सेवाएँ: {SERVICE_LIST}"
+    },
+    {
+      "id": "services_intro.hi.02",
+      "text": "हमारे प्रमुख उत्पाद: {SERVICE_LIST}"
+    },
+    {
+      "id": "services_intro.hi.03",
+      "text": "हम अपने ग्राहकों को {SERVICE_LIST} उपलब्ध कराते हैं।"
+    },
+    {
+      "id": "services_intro.hi.04",
+      "text": "{SERVICE} अब {city} में भी उपलब्ध है।"
+    },
+    {
+      "id": "services_intro.hi.05",
+      "text": "{SERVICE} — अब हमारे यहाँ भी।"
+    },
+    {
+      "id": "services_intro.hi.06",
+      "text": "विशेष पेशकश: {SERVICE}"
+    },
+    {
+      "id": "services_intro.hi.07",
+      "text": "{S_NAME} में आपको मिलेंगे: {SERVICE_LIST} — सब कुछ एक ही छत के नीचे।"
+    },
+    {
+      "id": "services_intro.hi.08",
+      "text": "हमारी सेवाओं में {SERVICE_LIST} शामिल हैं।"
+    },
+    {
+      "id": "services_intro.hi.09",
+      "text": "आज ही संपर्क करें — {SERVICE} और बहुत कुछ।"
+    },
+    {
+      "id": "services_intro.hi.10",
+      "text": "नया: {SERVICE}"
+    },
+    {
+      "id": "services_intro.hi.11",
+      "text": "Our Services / हमारी सेवाएँ: {SERVICE_LIST}"
+    },
+    {
+      "id": "services_intro.hi.12",
+      "text": "लोग हमें ख़ास तौर पर इसके लिए जानते हैं: {SERVICE}।"
+    },
+    {
+      "id": "services_intro.hi.13",
+      "text": "ग्राहकों की माँग पर अब हम {SERVICE} भी उपलब्ध करा रहे हैं।"
+    },
+    {
+      "id": "services_intro.hi.14",
+      "text": "उत्पाद / सेवा: {SERVICE}"
+    },
+    {
+      "id": "services_intro.hi.15",
+      "text": "हमारी सबसे लोकप्रिय पेशकश है {SERVICE}।"
+    },
+    {
+      "id": "services_intro.hi.16",
+      "text": "{SERVICE_LIST} — हर काम पूरी ज़िम्मेदारी के साथ।"
+    },
+    {
+      "id": "services_intro.hi.17",
+      "text": "हमारी रेंज में {SERVICE_LIST} और बहुत कुछ शामिल है।"
+    },
+    {
+      "id": "services_intro.hi.18",
+      "text": "क्या आपको {SERVICE} चाहिए? हम मदद के लिए तैयार हैं।"
+    },
+    {
+      "id": "services_intro.hi.19",
+      "text": "{S_NAME} की प्रमुख सेवाएँ इस प्रकार हैं: {SERVICE_LIST}।"
+    },
+    {
+      "id": "services_intro.hi.20",
+      "text": "{city} और आसपास के इलाक़ों में हमारी सबसे ज़्यादा माँग वाली पेशकश: {SERVICE}"
+    },
+    {
+      "id": "services_intro.hi.21",
+      "text": "हमारी विशेषज्ञता: {SERVICE_LIST}"
+    },
+    {
+      "id": "services_intro.hi.22",
+      "text": "कम दाम, बेहतरीन क्वालिटी: {SERVICE}"
+    },
+    {
+      "id": "services_intro.hi.23",
+      "text": "{SERVICE_LIST} — सभी पर GST बिल उपलब्ध।"
+    },
+    {
+      "id": "services_intro.hi.24",
+      "text": "हमारे पोर्टफ़ोलियो में शामिल हैं: {SERVICE_LIST}"
+    },
+    {
+      "id": "services_intro.hi.25",
+      "text": "हमारी ख़ास पेशकश — {SERVICE}, वह भी किफ़ायती दामों पर।"
+    },
+    {
+      "id": "services_intro.hi.26",
+      "text": "ऑर्डर पर उपलब्ध: {SERVICE}"
+    },
+    {
+      "id": "services_intro.hi.27",
+      "text": "प्रस्तावित सेवाएँ और उत्पाद: {SERVICE_LIST}"
+    }
+  ],
+  "clients": [
+    {
+      "id": "clients.hi.01",
+      "text": "हमारे प्रमुख ग्राहक: {C_NAME_LIST}"
+    },
+    {
+      "id": "clients.hi.02",
+      "text": "हमारे ग्राहकों में {C_NAME_LIST} शामिल हैं।"
+    },
+    {
+      "id": "clients.hi.03",
+      "text": "{C_NAME_LIST} जैसे प्रतिष्ठित संस्थान हम पर भरोसा करते हैं।"
+    },
+    {
+      "id": "clients.hi.04",
+      "text": "हमें {C_NAME} जैसे प्रतिष्ठित ग्राहकों को सेवाएँ देने का गौरव प्राप्त है।"
+    },
+    {
+      "id": "clients.hi.05",
+      "text": "प्रमुख क्लाइंट्स: {C_NAME_LIST}"
+    },
+    {
+      "id": "clients.hi.06",
+      "text": "हाल ही में हमने {C_NAME} के लिए एक बड़ा प्रोजेक्ट सफलतापूर्वक पूरा किया।"
+    },
+    {
+      "id": "clients.hi.07",
+      "text": "{C_NAME} पिछले कई वर्षों से हमारा नियमित ग्राहक है।"
+    },
+    {
+      "id": "clients.hi.08",
+      "text": "हमारे संतुष्ट ग्राहकों की सूची में {C_NAME_LIST} जैसे नाम शामिल हैं।"
+    },
+    {
+      "id": "clients.hi.09",
+      "text": "Our Clients / हमारे ग्राहक: {C_NAME_LIST}"
+    },
+    {
+      "id": "clients.hi.10",
+      "text": "{C_NAME} और {C_NAME} जैसी कंपनियाँ हमारी सेवाओं का लाभ उठा रही हैं।"
+    },
+    {
+      "id": "clients.hi.11",
+      "text": "हम {C_NAME} के पंजीकृत वेंडर हैं।"
+    },
+    {
+      "id": "clients.hi.12",
+      "text": "सरकारी और निजी क्षेत्र के हमारे ग्राहक: {C_NAME_LIST}"
+    },
+    {
+      "id": "clients.hi.13",
+      "text": "{C_NAME} के साथ हमारा जुड़ाव एक दशक से भी पुराना है।"
+    },
+    {
+      "id": "clients.hi.14",
+      "text": "हमारे मूल्यवान ग्राहकों में {C_NAME} भी है।"
+    },
+    {
+      "id": "clients.hi.15",
+      "text": "जिन्होंने हम पर भरोसा किया: {C_NAME_LIST}"
+    },
+    {
+      "id": "clients.hi.16",
+      "text": "{C_NAME_LIST} — ये कुछ नाम हैं जिनके साथ हमें काम करने का अवसर मिला है।"
+    },
+    {
+      "id": "clients.hi.17",
+      "text": "हमारी सेवाएँ लेने वाले संस्थानों में {C_NAME_LIST} प्रमुख हैं।"
+    },
+    {
+      "id": "clients.hi.18",
+      "text": "रेफ़रेंस: {C_NAME_LIST}"
+    },
+    {
+      "id": "clients.hi.19",
+      "text": "प्रोजेक्ट रेफ़रेंस — क्लाइंट: {C_NAME}, स्थान: {city}"
+    },
+    {
+      "id": "clients.hi.20",
+      "text": "{C_NAME} ने हाल ही में हमारे साथ अपना अनुबंध अगले तीन वर्षों के लिए बढ़ाया है।"
+    },
+    {
+      "id": "clients.hi.21",
+      "text": "हमें गर्व है कि {C_NAME_LIST} हमारे नियमित ग्राहक हैं।"
+    },
+    {
+      "id": "clients.hi.22",
+      "text": "देश के कई नामी संस्थान, जैसे {C_NAME_LIST}, हमारे ग्राहक हैं।"
+    },
+    {
+      "id": "clients.hi.23",
+      "text": "{C_NAME} के लिए किया गया काम हमारे पोर्टफ़ोलियो का अहम हिस्सा है।"
+    },
+    {
+      "id": "clients.hi.24",
+      "text": "हमारे कॉर्पोरेट ग्राहकों में {C_NAME} और {C_NAME} प्रमुख हैं।"
+    },
+    {
+      "id": "clients.hi.25",
+      "text": "{C_NAME_LIST} को हम नियमित रूप से आपूर्ति करते हैं।"
+    },
+    {
+      "id": "clients.hi.26",
+      "text": "ग्राहक सूची (चयनित): {C_NAME_LIST}"
+    },
+    {
+      "id": "clients.hi.27",
+      "text": "{C_NAME} जैसे बड़े ब्रांड भी हमारी गुणवत्ता पर भरोसा करते हैं।"
+    }
+  ],
+  "hours": [
+    {
+      "id": "hours.hi.01",
+      "text": "कार्य समय: {HOURS}"
+    },
+    {
+      "id": "hours.hi.02",
+      "text": "खुलने का समय: {HOURS}"
+    },
+    {
+      "id": "hours.hi.03",
+      "text": "दुकान {HOURS:prose} खुली रहती है।"
+    },
+    {
+      "id": "hours.hi.04",
+      "text": "हमारा कार्यालय {HOURS:prose} खुला रहता है।"
+    },
+    {
+      "id": "hours.hi.05",
+      "text": "ऑफिस टाइमिंग: {HOURS}"
+    },
+    {
+      "id": "hours.hi.06",
+      "text": "समय: {HOURS}"
+    },
+    {
+      "id": "hours.hi.07",
+      "text": "हम {HOURS:prose} आपकी सेवा में उपलब्ध हैं।"
+    },
+    {
+      "id": "hours.hi.08",
+      "text": "शोरूम का समय: {HOURS}"
+    },
+    {
+      "id": "hours.hi.09",
+      "text": "Timings / समय: {HOURS}"
+    },
+    {
+      "id": "hours.hi.10",
+      "text": "ग्राहक सेवा {HOURS:prose} उपलब्ध है।"
+    },
+    {
+      "id": "hours.hi.11",
+      "text": "आप {HOURS:prose} हमसे मिल सकते हैं।"
+    },
+    {
+      "id": "hours.hi.12",
+      "text": "कार्यालय समय ({city}): {HOURS}"
+    },
+    {
+      "id": "hours.hi.13",
+      "text": "फ़ोन पर ऑर्डर {HOURS:prose} लिए जाते हैं।"
+    },
+    {
+      "id": "hours.hi.14",
+      "text": "{S_NAME} के खुलने का समय: {HOURS}"
+    },
+    {
+      "id": "hours.hi.15",
+      "text": "हेल्पलाइन {HOURS:prose} चालू रहती है।"
+    },
+    {
+      "id": "hours.hi.16",
+      "text": "बिज़नेस आवर्स: {HOURS}"
+    },
+    {
+      "id": "hours.hi.17",
+      "text": "हमसे मिलने का समय — {HOURS}"
+    },
+    {
+      "id": "hours.hi.18",
+      "text": "{HOURS:prose} हमारी टीम आपकी सहायता के लिए मौजूद रहती है।"
+    },
+    {
+      "id": "hours.hi.19",
+      "text": "कृपया ध्यान दें, हमारा समय {HOURS} है।"
+    },
+    {
+      "id": "hours.hi.20",
+      "text": "पूछताछ के लिए {HOURS:prose} कॉल करें।"
+    },
+    {
+      "id": "hours.hi.21",
+      "text": "कामकाजी घंटे: {HOURS}"
+    },
+    {
+      "id": "hours.hi.22",
+      "text": "सेवा समय: {HOURS}"
+    },
+    {
+      "id": "hours.hi.23",
+      "text": "हमारे दरवाज़े {HOURS:prose} आपके लिए खुले हैं।"
+    },
+    {
+      "id": "hours.hi.24",
+      "text": "सामान्य कार्य समय {HOURS} है; त्योहारों के दौरान समय में बदलाव हो सकता है।"
+    },
+    {
+      "id": "hours.hi.25",
+      "text": "खुला: {HOURS}"
+    },
+    {
+      "id": "hours.hi.26",
+      "text": "हमारा स्टोर {HOURS:prose} खुला रहता है, ताकि आप अपनी सुविधा से ख़रीदारी कर सकें।"
+    },
+    {
+      "id": "hours.hi.27",
+      "text": "कार्य दिवस और समय: {HOURS}"
+    }
+  ],
+  "certifications": [
+    {
+      "id": "certifications.hi.01",
+      "text": "प्रमाणन: {CERT}"
+    },
+    {
+      "id": "certifications.hi.02",
+      "text": "प्रमाणपत्र एवं मान्यताएँ: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.hi.03",
+      "text": "हमारी उपलब्धियों में {CERT} भी शामिल है।"
+    },
+    {
+      "id": "certifications.hi.04",
+      "text": "गुणवत्ता के प्रति हमारी प्रतिबद्धता को {CERT} के रूप में मान्यता मिली है।"
+    },
+    {
+      "id": "certifications.hi.05",
+      "text": "{S_NAME} को {CERT} प्राप्त है।"
+    },
+    {
+      "id": "certifications.hi.06",
+      "text": "{CERT_LIST} — ये मान्यताएँ हमारी गुणवत्ता की गवाही देती हैं।"
+    },
+    {
+      "id": "certifications.hi.07",
+      "text": "Certifications / प्रमाणन: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.hi.08",
+      "text": "{CERT} हमारी कार्यप्रणाली की विश्वसनीयता का प्रमाण है।"
+    },
+    {
+      "id": "certifications.hi.09",
+      "text": "मान्यताएँ व सदस्यताएँ: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.hi.10",
+      "text": "{CERT} मिलने के बाद हमने अपनी प्रक्रियाओं को और मज़बूत किया है।"
+    },
+    {
+      "id": "certifications.hi.11",
+      "text": "{CERT} जैसी मान्यताएँ ग्राहकों के भरोसे को और पक्का करती हैं।"
+    },
+    {
+      "id": "certifications.hi.12",
+      "text": "हमारी गुणवत्ता के प्रमाण: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.hi.13",
+      "text": "गर्व के साथ — {CERT}"
+    },
+    {
+      "id": "certifications.hi.14",
+      "text": "{CERT} | गुणवत्ता से कोई समझौता नहीं"
+    },
+    {
+      "id": "certifications.hi.15",
+      "text": "प्राप्त मान्यताएँ: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.hi.16",
+      "text": "{S_NAME} के प्रमाणन और मान्यताएँ: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.hi.17",
+      "text": "पुरस्कार, प्रमाणन एवं सदस्यताएँ: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.hi.18",
+      "text": "क्वालिटी सर्टिफ़िकेशन: {CERT}"
+    },
+    {
+      "id": "certifications.hi.19",
+      "text": "{CERT} — यह सिर्फ़ एक प्रमाणपत्र नहीं, बल्कि हमारी ज़िम्मेदारी है।"
+    },
+    {
+      "id": "certifications.hi.20",
+      "text": "भरोसे के प्रतीक: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.hi.21",
+      "text": "{S_NAME} की उपलब्धियाँ: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.hi.22",
+      "text": "मान्यता / प्रमाणन: {CERT}"
+    },
+    {
+      "id": "certifications.hi.23",
+      "text": "{CERT} — इस उपलब्धि पर हमें गर्व है।"
+    },
+    {
+      "id": "certifications.hi.24",
+      "text": "हाल ही में {CERT} की प्राप्ति हमारी टीम के लिए एक बड़ी उपलब्धि रही।"
+    },
+    {
+      "id": "certifications.hi.25",
+      "text": "हमारी पहचान और हमारे मानक: {CERT_LIST}"
+    },
+    {
+      "id": "certifications.hi.26",
+      "text": "ग्राहकों के भरोसे के साथ-साथ हमें {CERT} का सम्मान भी मिला है।"
+    },
+    {
+      "id": "certifications.hi.27",
+      "text": "सर्टिफ़ाइड: {CERT}"
+    }
+  ],
+  "location": [
+    {
+      "id": "location.hi.01",
+      "text": "पता: {S_ADDRESS}"
+    },
+    {
+      "id": "location.hi.02",
+      "text": "पंजीकृत कार्यालय: {S_ADDRESS}"
+    },
+    {
+      "id": "location.hi.03",
+      "text": "हमारा कार्यालय {S_ADDRESS} पर स्थित है।"
+    },
+    {
+      "id": "location.hi.04",
+      "text": "फ़ोन: {S_PHONE}"
+    },
+    {
+      "id": "location.hi.05",
+      "text": "ईमेल: {S_EMAIL}"
+    },
+    {
+      "id": "location.hi.06",
+      "text": "वेबसाइट: {S_URL}"
+    },
+    {
+      "id": "location.hi.07",
+      "text": "संपर्क करें: {S_PHONE} | {S_EMAIL}"
+    },
+    {
+      "id": "location.hi.08",
+      "text": "मोबाइल/व्हाट्सऐप: {S_PHONE}"
+    },
+    {
+      "id": "location.hi.09",
+      "text": "अधिक जानकारी के लिए {S_URL} पर जाएँ।"
+    },
+    {
+      "id": "location.hi.10",
+      "text": "अपनी पूछताछ {S_EMAIL} पर भेजें, हम 24 घंटे के भीतर जवाब देंगे।"
+    },
+    {
+      "id": "location.hi.11",
+      "text": "हमारे यहाँ पधारें: {S_ADDRESS}"
+    },
+    {
+      "id": "location.hi.12",
+      "text": "कॉर्पोरेट ऑफिस: {S_ADDRESS}"
+    },
+    {
+      "id": "location.hi.13",
+      "text": "टोल-फ़्री नंबर: {S_PHONE}"
+    },
+    {
+      "id": "location.hi.14",
+      "text": "ऑर्डर देने के लिए {S_PHONE} पर कॉल या व्हाट्सऐप करें।"
+    },
+    {
+      "id": "location.hi.15",
+      "text": "Address / पता: {S_ADDRESS}"
+    },
+    {
+      "id": "location.hi.16",
+      "text": "{S_NAME}, {S_ADDRESS}"
+    },
+    {
+      "id": "location.hi.17",
+      "text": "हम {S_ADDRESS} पर हैं — मुख्य सड़क से बस कुछ ही कदम की दूरी पर।"
+    },
+    {
+      "id": "location.hi.18",
+      "text": "ऑनलाइन ऑर्डर: {S_URL}"
+    },
+    {
+      "id": "location.hi.19",
+      "text": "ई-मेल: {S_EMAIL} | वेब: {S_URL}"
+    },
+    {
+      "id": "location.hi.20",
+      "text": "कार्यालय का पता: {S_ADDRESS}; दूरभाष: {S_PHONE}"
+    },
+    {
+      "id": "location.hi.21",
+      "text": "हमसे {S_EMAIL} पर संपर्क किया जा सकता है।"
+    },
+    {
+      "id": "location.hi.22",
+      "text": "हमारी पूरी उत्पाद सूची {S_URL} पर देखें।"
+    },
+    {
+      "id": "location.hi.23",
+      "text": "दूरभाष: {S_PHONE}"
+    },
+    {
+      "id": "location.hi.24",
+      "text": "मुख्यालय: {S_ADDRESS}"
+    },
+    {
+      "id": "location.hi.25",
+      "text": "किसी भी सहायता के लिए हमें {S_PHONE} पर फ़ोन करें या {S_EMAIL} पर लिखें।"
+    },
+    {
+      "id": "location.hi.26",
+      "text": "सोशल मीडिया पर हमसे जुड़ें: {S_URL}"
+    },
+    {
+      "id": "location.hi.27",
+      "text": "हमारा पता है {S_ADDRESS} — गूगल मैप्स पर भी आसानी से मिल जाएगा।"
+    }
+  ],
+  "capital": [
+    {
+      "id": "capital.hi.01",
+      "text": "प्रदत्त पूंजी: {CAPITAL}"
+    },
+    {
+      "id": "capital.hi.02",
+      "text": "अधिकृत पूंजी: {CAPITAL}"
+    },
+    {
+      "id": "capital.hi.03",
+      "text": "चुकता शेयर पूंजी: {CAPITAL}"
+    },
+    {
+      "id": "capital.hi.04",
+      "text": "कंपनी की प्रदत्त पूंजी {CAPITAL} है।"
+    },
+    {
+      "id": "capital.hi.05",
+      "text": "{S_NAME} की अधिकृत शेयर पूंजी {CAPITAL} है।"
+    },
+    {
+      "id": "capital.hi.06",
+      "text": "Paid-up Capital / प्रदत्त पूंजी: {CAPITAL}"
+    },
+    {
+      "id": "capital.hi.07",
+      "text": "{CAPITAL} की प्रदत्त पूंजी के साथ {S_NAME} का वित्तीय आधार मज़बूत है।"
+    },
+    {
+      "id": "capital.hi.08",
+      "text": "कंपनी की शेयर पूंजी {CAPITAL} है, जो पूरी तरह चुकता है।"
+    },
+    {
+      "id": "capital.hi.09",
+      "text": "पूंजी: {CAPITAL}"
+    },
+    {
+      "id": "capital.hi.10",
+      "text": "{LEGAL_FORM}, प्रदत्त पूंजी {CAPITAL}"
+    },
+    {
+      "id": "capital.hi.11",
+      "text": "कंपनी की अधिकृत पूंजी {CAPITAL} है, जो 10 रुपये अंकित मूल्य वाले इक्विटी शेयरों में विभाजित है।"
+    },
+    {
+      "id": "capital.hi.12",
+      "text": "शेयर पूंजी (Share Capital): {CAPITAL}"
+    },
+    {
+      "id": "capital.hi.13",
+      "text": "{S_NAME} — प्रदत्त पूंजी {CAPITAL}"
+    },
+    {
+      "id": "capital.hi.14",
+      "text": "नए निवेश के बाद कंपनी की प्रदत्त पूंजी बढ़कर {CAPITAL} हो गई है।"
+    },
+    {
+      "id": "capital.hi.15",
+      "text": "कंपनी मास्टर डेटा के अनुसार प्रदत्त पूंजी: {CAPITAL}"
+    },
+    {
+      "id": "capital.hi.16",
+      "text": "चुकता पूँजी {CAPITAL}"
+    },
+    {
+      "id": "capital.hi.17",
+      "text": "कंपनी की पूंजी संरचना — अधिकृत पूंजी: {CAPITAL}"
+    },
+    {
+      "id": "capital.hi.18",
+      "text": "प्रदत्त पूँजी {CAPITAL} वाली यह कंपनी पूरी तरह भारतीय स्वामित्व में है।"
+    },
+    {
+      "id": "capital.hi.19",
+      "text": "{S_NAME:legal} (प्रदत्त पूंजी: {CAPITAL})"
+    },
+    {
+      "id": "capital.hi.20",
+      "text": "पूंजी आधार: {CAPITAL} (पूर्णतः प्रदत्त)"
+    },
+    {
+      "id": "capital.hi.21",
+      "text": "Authorised Capital: {CAPITAL}"
+    },
+    {
+      "id": "capital.hi.22",
+      "text": "वर्तमान में {S_NAME} की चुकता पूंजी {CAPITAL} है।"
+    },
+    {
+      "id": "capital.hi.23",
+      "text": "कंपनी की कुल अधिकृत पूँजी {CAPITAL} निर्धारित की गई है।"
+    },
+    {
+      "id": "capital.hi.24",
+      "text": "{LEGAL_FORM} | पूंजी: {CAPITAL}"
+    },
+    {
+      "id": "capital.hi.25",
+      "text": "इक्विटी शेयर पूंजी: {CAPITAL}"
+    },
+    {
+      "id": "capital.hi.26",
+      "text": "{S_NAME} एक {LEGAL_FORM} इकाई है, जिसकी प्रदत्त पूंजी {CAPITAL} है।"
+    },
+    {
+      "id": "capital.hi.27",
+      "text": "सूत्रों के मुताबिक़ कंपनी की अधिकृत पूंजी {CAPITAL} है।"
+    }
+  ],
+  "legal_form": [
+    {
+      "id": "legal_form.hi.01",
+      "text": "कानूनी स्वरूप: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.hi.02",
+      "text": "संगठन का प्रकार: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.hi.03",
+      "text": "कारोबार का गठन: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.hi.04",
+      "text": "Constitution of Business / कारोबार का गठन: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.hi.05",
+      "text": "{S_NAME} का पंजीकरण {LEGAL_FORM} के रूप में हुआ है।"
+    },
+    {
+      "id": "legal_form.hi.06",
+      "text": "इकाई का प्रकार: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.hi.07",
+      "text": "हमारा व्यवसाय {LEGAL_FORM} के रूप में पंजीकृत है और इसका मुख्यालय {city} में है।"
+    },
+    {
+      "id": "legal_form.hi.08",
+      "text": "स्वामित्व का प्रकार: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.hi.09",
+      "text": "{LEGAL_FORM} के रूप में पंजीकृत"
+    },
+    {
+      "id": "legal_form.hi.10",
+      "text": "संस्था की विधिक स्थिति: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.hi.11",
+      "text": "कानूनी दर्जा: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.hi.12",
+      "text": "{S_NAME} ({LEGAL_FORM})"
+    },
+    {
+      "id": "legal_form.hi.13",
+      "text": "{FOUNDED} में {LEGAL_FORM} के रूप में पंजीकृत"
+    },
+    {
+      "id": "legal_form.hi.14",
+      "text": "व्यावसायिक इकाई: {LEGAL_FORM}, {city}"
+    },
+    {
+      "id": "legal_form.hi.15",
+      "text": "यह प्रतिष्ठान {LEGAL_FORM} के रूप में संचालित होता है।"
+    },
+    {
+      "id": "legal_form.hi.16",
+      "text": "Type of Entity: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.hi.17",
+      "text": "हमारा कारोबार {LEGAL_FORM} के रूप में चलता है।"
+    },
+    {
+      "id": "legal_form.hi.18",
+      "text": "{LEGAL_FORM} — पंजीकृत कार्यालय: {S_ADDRESS}"
+    },
+    {
+      "id": "legal_form.hi.19",
+      "text": "{S_NAME} एक {LEGAL_FORM} इकाई है; {manager_title}: {S_PERSON}।"
+    },
+    {
+      "id": "legal_form.hi.20",
+      "text": "पंजीकरण का प्रकार: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.hi.21",
+      "text": "एंटिटी टाइप: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.hi.22",
+      "text": "हमारी संस्था {LEGAL_FORM} के रूप में पंजीकृत है और GST के अंतर्गत नियमित करदाता है।"
+    },
+    {
+      "id": "legal_form.hi.23",
+      "text": "फर्म/कंपनी का स्वरूप: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.hi.24",
+      "text": "वैधानिक स्वरूप — {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.hi.25",
+      "text": "{S_NAME} {FOUNDED} से {LEGAL_FORM} के रूप में कार्यरत है।"
+    },
+    {
+      "id": "legal_form.hi.26",
+      "text": "व्यवसाय का कानूनी ढाँचा: {LEGAL_FORM}"
+    },
+    {
+      "id": "legal_form.hi.27",
+      "text": "{LEGAL_FORM} | {S_REG_ID}"
+    }
+  ],
+  "traps": [
+    {
+      "id": "trap.hi.01",
+      "trap": "T1",
+      "text": "हमारा अब तक का सबसे बड़ा ऑर्डर {amount} का था।"
+    },
+    {
+      "id": "trap.hi.02",
+      "trap": "T1",
+      "text": "पिछले महीने की बिक्री {amount} रही, जो त्योहारी सीज़न के कारण सामान्य से काफ़ी अधिक थी।"
+    },
+    {
+      "id": "trap.hi.03",
+      "trap": "T1",
+      "text": "{year} में हमें {amount} का सरकारी टेंडर मिला।"
+    },
+    {
+      "id": "trap.hi.04",
+      "trap": "T1",
+      "text": "इस वर्ष कंपनी का शुद्ध लाभ {amount} रहा।"
+    },
+    {
+      "id": "trap.hi.05",
+      "trap": "T1",
+      "text": "कारोबार के विस्तार के लिए नई उत्पादन इकाई में {amount} का निवेश किया गया है।"
+    },
+    {
+      "id": "trap.hi.06",
+      "trap": "T1",
+      "text": "कुल टर्नओवर में अकेले निर्यात का योगदान {amount} रहा।"
+    },
+    {
+      "id": "trap.hi.07",
+      "trap": "T1",
+      "text": "{C_NAME} के साथ हुआ {amount} का अनुबंध हमारे इतिहास का सबसे बड़ा सौदा है।"
+    },
+    {
+      "id": "trap.hi.08",
+      "trap": "T1",
+      "text": "एक ही दिन में {amount} की बुकिंग — यह हमारे लिए नया रिकॉर्ड है।"
+    },
+    {
+      "id": "trap.hi.09",
+      "trap": "T1",
+      "text": "इस तिमाही का कारोबार {amount} रहा, जो पिछली तिमाही से बेहतर है।"
+    },
+    {
+      "id": "trap.hi.10",
+      "trap": "T1",
+      "text": "{REVENUE_YEAR} में कुल टर्नओवर {REVENUE} रहा, जिसमें सबसे बड़ा एकल ऑर्डर {amount} का था।"
+    },
+    {
+      "id": "trap.hi.11",
+      "trap": "T5",
+      "text": "हम {partner} के अधिकृत डीलर हैं।"
+    },
+    {
+      "id": "trap.hi.12",
+      "trap": "T5",
+      "text": "हमारे बैंकर: {bank}"
+    },
+    {
+      "id": "trap.hi.13",
+      "trap": "T5",
+      "text": "कच्चा माल हम सीधे {supplier} से मँगवाते हैं।"
+    },
+    {
+      "id": "trap.hi.14",
+      "trap": "T5",
+      "text": "{competitor} जैसी बड़ी कंपनियों की तुलना में हमारे दाम कहीं अधिक किफ़ायती हैं।"
+    },
+    {
+      "id": "trap.hi.15",
+      "trap": "T5",
+      "text": "हमारे पुराने ग्राहक {C_NAME} की स्थापना {client_founded} में हुई थी, और आज वे अपने क्षेत्र के अग्रणी संस्थानों में गिने जाते हैं।"
+    },
+    {
+      "id": "trap.hi.16",
+      "trap": "T5",
+      "text": "{client_founded} से कार्यरत {C_NAME} ने हमें अपना आधिकारिक आपूर्तिकर्ता चुना है।"
+    },
+    {
+      "id": "trap.hi.17",
+      "trap": "T5",
+      "text": "हमारा खाता {bank} में है; सभी भुगतान NEFT/RTGS से करें।"
+    },
+    {
+      "id": "trap.hi.18",
+      "trap": "T5",
+      "text": "पैकेजिंग सामग्री की आपूर्ति {supplier} द्वारा की जाती है।"
+    },
+    {
+      "id": "trap.hi.19",
+      "trap": "T5",
+      "text": "{partner} हमारा लॉजिस्टिक्स पार्टनर है।"
+    },
+    {
+      "id": "trap.hi.20",
+      "trap": "T5",
+      "text": "{competitor} ने हाल ही में {city} में अपना नया स्टोर खोला है, फिर भी हमारे ग्राहक हम पर ही भरोसा करते हैं।"
+    },
+    {
+      "id": "trap.hi.21",
+      "trap": "T7",
+      "text": "हमारे शोरूम का नवीनीकरण {year} में किया गया।"
+    },
+    {
+      "id": "trap.hi.22",
+      "trap": "T7",
+      "text": "{year} में हम अपने नए और बड़े परिसर में स्थानांतरित हुए।"
+    },
+    {
+      "id": "trap.hi.23",
+      "trap": "T7",
+      "text": "{year} हमारे लिए ख़ास रहा, क्योंकि इसी वर्ष हमें {CERT} का सम्मान मिला।"
+    },
+    {
+      "id": "trap.hi.24",
+      "trap": "T7",
+      "text": "यह ऑफ़र {year} के अंत तक मान्य है।"
+    },
+    {
+      "id": "trap.hi.25",
+      "trap": "T7",
+      "text": "प्रदर्शित सभी मशीनें {year} मॉडल की हैं।"
+    },
+    {
+      "id": "trap.hi.26",
+      "trap": "T7",
+      "text": "{year} से हम ऑनलाइन ऑर्डर भी स्वीकार कर रहे हैं।"
+    },
+    {
+      "id": "trap.hi.27",
+      "trap": "T7",
+      "text": "{year} में हमने {city} में अपनी दूसरी शाखा खोली।"
+    },
+    {
+      "id": "trap.hi.28",
+      "trap": "T7",
+      "text": "{year} में कंपनी ने अपने कार्यालय का विस्तार किया और नई तकनीक अपनाई।"
+    },
+    {
+      "id": "trap.hi.29",
+      "trap": "T7",
+      "text": "हमारी नई वेबसाइट {year} में लॉन्च हुई।"
+    },
+    {
+      "id": "trap.hi.30",
+      "trap": "T7",
+      "text": "{year} में {S_NAME} ने अपनी रजत जयंती मनाई।"
+    },
+    {
+      "id": "trap.hi.31",
+      "trap": "T8",
+      "text": "हमें इस क्षेत्र में {n_years} का अनुभव है।"
+    },
+    {
+      "id": "trap.hi.32",
+      "trap": "T8",
+      "text": "अब तक {n_clients} हम पर भरोसा जता चुके हैं।"
+    },
+    {
+      "id": "trap.hi.33",
+      "trap": "T8",
+      "text": "कंपनी {city} में {n_shops} संचालित करती है।"
+    },
+    {
+      "id": "trap.hi.34",
+      "trap": "T8",
+      "text": "हमारे बेड़े में {n_vehicles} शामिल हैं।"
+    },
+    {
+      "id": "trap.hi.35",
+      "trap": "T8",
+      "text": "हमारी सूची में {n_products} उपलब्ध हैं।"
+    },
+    {
+      "id": "trap.hi.36",
+      "trap": "T8",
+      "text": "पिछले {n_years} से हमारी टीम ग्राहकों की सेवा में लगी है।"
+    },
+    {
+      "id": "trap.hi.37",
+      "trap": "T8",
+      "text": "पोर्टफ़ोलियो: {n_projects} पूर्ण, सभी समय पर।"
+    },
+    {
+      "id": "trap.hi.38",
+      "trap": "T8",
+      "text": "हमारे संस्थापक को इस व्यवसाय का {n_years} का अनुभव है।"
+    },
+    {
+      "id": "trap.hi.39",
+      "trap": "T8",
+      "text": "{n_years} का अनुभव और {n_clients} — यही हमारी पहचान है।"
+    },
+    {
+      "id": "trap.hi.40",
+      "trap": "T8",
+      "text": "हमारी टीम: {STAFF} {staff_noun}, जिनका सामूहिक अनुभव {n_years} से भी अधिक है।"
+    },
+    {
+      "id": "trap.hi.41",
+      "trap": "T11",
+      "text": "बिक्री संबंधी पूछताछ के लिए संपर्क करें: {person}, {position}"
+    },
+    {
+      "id": "trap.hi.42",
+      "trap": "T11",
+      "text": "{position}: {person}"
+    },
+    {
+      "id": "trap.hi.43",
+      "trap": "T11",
+      "text": "किसी भी प्रश्न के लिए {person} ({position}) से संपर्क करें।"
+    },
+    {
+      "id": "trap.hi.44",
+      "trap": "T11",
+      "text": "{person} को {position} के पद पर नियुक्त किया गया है।"
+    },
+    {
+      "id": "trap.hi.45",
+      "trap": "T11",
+      "text": "{position} के रूप में {person} का हमारी टीम में स्वागत है।"
+    },
+    {
+      "id": "trap.hi.46",
+      "trap": "T11",
+      "text": "बैठक में {manager_title} {S_PERSON} और {position} {person} उपस्थित रहेंगे।"
+    },
+    {
+      "id": "trap.hi.47",
+      "trap": "T11",
+      "text": "कृपया सभी बिल और भुगतान रसीदें {person} ({position}) को भेजें।"
+    },
+    {
+      "id": "trap.hi.48",
+      "trap": "T11",
+      "text": "आपके ऑर्डर से जुड़ी जानकारी के लिए {person} ({position}) से बात करें।"
+    },
+    {
+      "id": "trap.hi.49",
+      "trap": "T11",
+      "text": "{person} — {position}, {n_years} से हमारे साथ"
+    },
+    {
+      "id": "trap.hi.50",
+      "trap": "T11",
+      "text": "इस परियोजना का समन्वय {person} ({position}) द्वारा किया जाएगा।"
+    },
+    {
+      "id": "trap.hi.51",
+      "trap": "T13",
+      "text": "हम {partner} के अधिकृत साझेदार हैं, और हमारे ग्राहकों में {C_NAME} भी शामिल है।"
+    },
+    {
+      "id": "trap.hi.52",
+      "trap": "T13",
+      "text": "{supplier} से मिलने वाली उच्च गुणवत्ता की सामग्री के साथ हम {C_NAME_LIST} जैसे ग्राहकों को आपूर्ति करते हैं।"
+    },
+    {
+      "id": "trap.hi.53",
+      "trap": "T13",
+      "text": "{C_NAME} के लिए यह परियोजना हमने {partner} के सहयोग से पूरी की।"
+    },
+    {
+      "id": "trap.hi.54",
+      "trap": "T13",
+      "text": "हमारे ग्राहक: {C_NAME_LIST}। तकनीकी साझेदार: {partner}।"
+    },
+    {
+      "id": "trap.hi.55",
+      "trap": "T13",
+      "text": "{partner} के साथ मिलकर हमने {C_NAME} के लिए नई प्रणाली स्थापित की।"
+    },
+    {
+      "id": "trap.hi.56",
+      "trap": "T13",
+      "text": "हमारे आपूर्तिकर्ता {supplier} हैं, जबकि प्रमुख ग्राहकों में {C_NAME} और {C_NAME} शामिल हैं।"
+    },
+    {
+      "id": "trap.hi.57",
+      "trap": "T13",
+      "text": "{C_NAME} को होने वाली सभी आपूर्ति में हम केवल {supplier} के उत्पादों का उपयोग करते हैं।"
+    },
+    {
+      "id": "trap.hi.58",
+      "trap": "T13",
+      "text": "ग्राहक: {C_NAME} | लॉजिस्टिक्स पार्टनर: {partner}"
+    },
+    {
+      "id": "trap.hi.59",
+      "trap": "T13",
+      "text": "{partner} के अधिकृत सर्विस पार्टनर के रूप में हम {C_NAME_LIST} को सेवाएँ दे रहे हैं।"
+    },
+    {
+      "id": "trap.hi.60",
+      "trap": "T13",
+      "text": "{C_NAME} जैसे बड़े ग्राहकों की माँग पूरी करने के लिए हमने {supplier} के साथ दीर्घकालिक आपूर्ति समझौता किया है।"
+    }
+  ],
+  "filler": [
+    {
+      "id": "filler.hi.01",
+      "text": "कृपया भुगतान करते समय इनवॉइस संख्या का उल्लेख अवश्य करें।"
+    },
+    {
+      "id": "filler.hi.02",
+      "text": "सभी कीमतें GST सहित हैं, जब तक अलग से उल्लेख न किया गया हो।"
+    },
+    {
+      "id": "filler.hi.03",
+      "text": "हमारी टीम हर ग्राहक की ज़रूरत को ध्यान से समझती है।"
+    },
+    {
+      "id": "filler.hi.04",
+      "text": "गुणवत्ता और समय पर डिलीवरी हमारी प्राथमिकता है।"
+    },
+    {
+      "id": "filler.hi.05",
+      "text": "किसी भी शिकायत की स्थिति में कृपया हमें तुरंत सूचित करें।"
+    },
+    {
+      "id": "filler.hi.06",
+      "text": "ऑर्डर की पुष्टि ईमेल द्वारा भेजी जाएगी।"
+    },
+    {
+      "id": "filler.hi.07",
+      "text": "त्योहारों के मौसम में माँग अधिक रहने के कारण डिलीवरी में थोड़ा समय लग सकता है।"
+    },
+    {
+      "id": "filler.hi.08",
+      "text": "हम पर्यावरण के अनुकूल पैकेजिंग का उपयोग करते हैं।"
+    },
+    {
+      "id": "filler.hi.09",
+      "text": "ग्राहक की संतुष्टि ही हमारी सफलता की कुंजी है।"
+    },
+    {
+      "id": "filler.hi.10",
+      "text": "नियमित ग्राहकों के लिए विशेष छूट उपलब्ध है।"
+    },
+    {
+      "id": "filler.hi.11",
+      "text": "कृपया माल प्राप्त करते समय उसकी जाँच कर लें।"
+    },
+    {
+      "id": "filler.hi.12",
+      "text": "बिक्री के बाद भी हम पूरी सहायता देते हैं।"
+    },
+    {
+      "id": "filler.hi.13",
+      "text": "आपका फ़ीडबैक हमारे लिए बहुत मायने रखता है।"
+    },
+    {
+      "id": "filler.hi.14",
+      "text": "हर उत्पाद भेजने से पहले उसकी गुणवत्ता जाँच की जाती है।"
+    },
+    {
+      "id": "filler.hi.15",
+      "text": "थोक ऑर्डर पर विशेष दरें लागू होती हैं।"
+    },
+    {
+      "id": "filler.hi.16",
+      "text": "हमारे सभी कर्मचारी समय-समय पर प्रशिक्षण लेते रहते हैं।"
+    },
+    {
+      "id": "filler.hi.17",
+      "text": "आपकी जानकारी पूरी तरह गोपनीय रखी जाएगी।"
+    },
+    {
+      "id": "filler.hi.18",
+      "text": "भुगतान नकद, चेक, NEFT या UPI के माध्यम से किया जा सकता है।"
+    },
+    {
+      "id": "filler.hi.19",
+      "text": "बिका हुआ माल वापस या बदला नहीं जाएगा।"
+    },
+    {
+      "id": "filler.hi.20",
+      "text": "कृपया अपना ऑर्डर कम से कम दो दिन पहले दें।"
+    },
+    {
+      "id": "filler.hi.21",
+      "text": "हम छोटे और बड़े, दोनों तरह के ऑर्डर स्वीकार करते हैं।"
+    },
+    {
+      "id": "filler.hi.22",
+      "text": "नई दरें अगले महीने से लागू होंगी।"
+    },
+    {
+      "id": "filler.hi.23",
+      "text": "{city} शहर की सीमा के भीतर डिलीवरी मुफ़्त है।"
+    },
+    {
+      "id": "filler.hi.24",
+      "text": "हमारा उद्देश्य हर ग्राहक को सही दाम पर सही सेवा देना है।"
+    },
+    {
+      "id": "filler.hi.25",
+      "text": "किसी भी तकनीकी समस्या के लिए हमारी सहायता टीम से संपर्क करें।"
+    },
+    {
+      "id": "filler.hi.26",
+      "text": "सभी विवरण बिना पूर्व सूचना के बदले जा सकते हैं।"
+    },
+    {
+      "id": "filler.hi.27",
+      "text": "बैठक की अगली तारीख़ जल्द ही तय की जाएगी।"
+    },
+    {
+      "id": "filler.hi.28",
+      "text": "हम आपके भरोसे के लिए आभारी हैं।"
+    },
+    {
+      "id": "filler.hi.29",
+      "text": "सामान की पैकिंग मज़बूत डिब्बों में की जाती है, ताकि रास्ते में कोई नुकसान न हो।"
+    },
+    {
+      "id": "filler.hi.30",
+      "text": "ऑर्डर संख्या {order_no} की स्थिति जानने के लिए हमें लिखें।"
+    },
+    {
+      "id": "filler.hi.31",
+      "text": "{date} को राष्ट्रीय अवकाश के कारण कार्यालय बंद रहेगा।"
+    },
+    {
+      "id": "filler.hi.32",
+      "text": "कृपया अपना GSTIN ऑर्डर के साथ साझा करें, ताकि सही टैक्स इनवॉइस बनाया जा सके।"
+    },
+    {
+      "id": "filler.hi.33",
+      "text": "उत्पाद की तस्वीरें केवल संदर्भ के लिए हैं; वास्तविक रंग थोड़ा अलग हो सकता है।"
+    },
+    {
+      "id": "filler.hi.34",
+      "text": "हमें आपके साथ काम करके ख़ुशी होगी।"
+    },
+    {
+      "id": "filler.hi.35",
+      "text": "हर शिकायत का समाधान 48 घंटे के भीतर करने का प्रयास किया जाता है।"
+    },
+    {
+      "id": "filler.hi.36",
+      "text": "हमारे प्रतिनिधि जल्द ही आपसे संपर्क करेंगे।"
+    },
+    {
+      "id": "filler.hi.37",
+      "text": "कृपया ध्यान दें कि कुछ उत्पादों का स्टॉक सीमित है।"
+    },
+    {
+      "id": "filler.hi.38",
+      "text": "नमूने अनुरोध पर उपलब्ध हैं।"
+    },
+    {
+      "id": "filler.hi.39",
+      "text": "हम हर साल अपनी कार्यप्रणाली की समीक्षा करते हैं और उसमें सुधार लाते हैं।"
+    },
+    {
+      "id": "filler.hi.40",
+      "text": "आपके सुझावों के आधार पर हमने अपनी सेवा में कई बदलाव किए हैं।"
+    },
+    {
+      "id": "filler.hi.41",
+      "text": "दाम बाज़ार की स्थिति के अनुसार बदल सकते हैं।"
+    },
+    {
+      "id": "filler.hi.42",
+      "text": "किसी भी बदलाव की सूचना आपको पहले से दी जाएगी।"
+    },
+    {
+      "id": "filler.hi.43",
+      "text": "हमारी टीम आपके हर सवाल का जवाब देने के लिए तैयार रहती है।"
+    },
+    {
+      "id": "filler.hi.44",
+      "text": "कृपया अपनी रसीद संभालकर रखें।"
+    },
+    {
+      "id": "filler.hi.45",
+      "text": "सभी विवादों को आपसी बातचीत से सुलझाने का प्रयास किया जाएगा।"
+    },
+    {
+      "id": "filler.hi.46",
+      "text": "नया कैटलॉग जल्द ही उपलब्ध होगा।"
+    },
+    {
+      "id": "filler.hi.47",
+      "text": "सुरक्षा कारणों से गोदाम में बाहरी व्यक्तियों का प्रवेश वर्जित है।"
+    },
+    {
+      "id": "filler.hi.48",
+      "text": "हम हर प्रोजेक्ट की समय-सीमा का पूरा ध्यान रखते हैं।"
+    },
+    {
+      "id": "filler.hi.49",
+      "text": "आपका ऑर्डर {n_days} कार्यदिवसों के भीतर भेज दिया जाएगा।"
+    },
+    {
+      "id": "filler.hi.50",
+      "text": "अग्रिम भुगतान मिलने के बाद ही काम शुरू किया जाएगा।"
+    }
+  ],
+  "legal_footer": [
+    {
+      "id": "footer.hi.01",
+      "countries": [
+        "IN"
+      ],
+      "text": "{S_NAME:legal} | पंजीकृत कार्यालय: {S_ADDRESS} | {S_REG_ID}"
+    },
+    {
+      "id": "footer.hi.02",
+      "countries": [
+        "IN"
+      ],
+      "text": "{S_REG_ID} | ईमेल: {S_EMAIL} | फ़ोन: {S_PHONE} | {S_URL}"
+    },
+    {
+      "id": "footer.hi.03",
+      "countries": [
+        "IN"
+      ],
+      "text": "यह कंप्यूटर द्वारा तैयार किया गया इनवॉइस है, इस पर हस्ताक्षर की आवश्यकता नहीं है। | {S_NAME:legal} | {S_REG_ID}"
+    },
+    {
+      "id": "footer.hi.04",
+      "countries": [
+        "IN"
+      ],
+      "text": "सभी विवाद {city} न्याय क्षेत्र के अधीन। | {S_NAME} | {S_REG_ID}"
+    },
+    {
+      "id": "footer.hi.05",
+      "countries": [
+        "IN"
+      ],
+      "text": "{S_NAME} ({LEGAL_FORM}) | प्रदत्त पूंजी: {CAPITAL} | {S_REG_ID}"
+    },
+    {
+      "id": "footer.hi.06",
+      "countries": [
+        "IN"
+      ],
+      "text": "पंजीकृत कार्यालय: {S_ADDRESS} • {S_REG_ID} • {ACTIVITY_CODE}"
+    },
+    {
+      "id": "footer.hi.07",
+      "countries": [
+        "IN"
+      ],
+      "text": "E. & O.E. | {S_NAME:legal} | {S_REG_ID} | {city} न्यायिक क्षेत्राधिकार के अधीन"
+    },
+    {
+      "id": "footer.hi.08",
+      "countries": [
+        "IN"
+      ],
+      "text": "{S_NAME:legal} — {S_ADDRESS} — दूरभाष: {S_PHONE} — {S_REG_ID}"
+    },
+    {
+      "id": "footer.hi.09",
+      "countries": [
+        "IN"
+      ],
+      "text": "Regd. Office: {S_ADDRESS} | {S_REG_ID} | {S_URL}"
+    }
+  ],
+  "invoice_notes": {
+    "payment_terms": [
+      "भुगतान इनवॉइस की तिथि से {n_days} दिनों के भीतर देय है।",
+      "कृपया भुगतान {date} तक करें।",
+      "भुगतान NEFT/RTGS या UPI द्वारा करें; नकद भुगतान स्वीकार नहीं किया जाएगा।",
+      "{percent} अग्रिम भुगतान, शेष राशि माल की डिलीवरी पर।",
+      "माल प्राप्ति के {n_days} दिनों के भीतर पूरा भुगतान अपेक्षित है।",
+      "कृपया भुगतान करते समय इनवॉइस संख्या {invoice_no} का उल्लेख करें।",
+      "{n_days} दिन का क्रेडिट, इनवॉइस तिथि से।",
+      "इनवॉइस प्राप्त होते ही भुगतान देय।",
+      "TDS कटौती की स्थिति में कृपया फ़ॉर्म 16A समय पर भेजें।"
+    ],
+    "late_penalty": [
+      "नियत तिथि के बाद भुगतान करने पर {percent} वार्षिक की दर से ब्याज लिया जाएगा।",
+      "विलंबित भुगतान पर प्रति माह {percent} ब्याज देय होगा।",
+      "{n_days} दिनों के बाद बकाया राशि पर {percent} प्रति वर्ष की दर से ब्याज लगेगा।",
+      "देरी से भुगतान की स्थिति में {amount} का विलंब शुल्क लगाया जाएगा।"
+    ],
+    "vat_exempt": [
+      "कंपोज़िशन योजना के अंतर्गत कर योग्य व्यक्ति, आपूर्ति पर कर वसूलने का पात्र नहीं।",
+      "निर्यात हेतु आपूर्ति — LUT के अंतर्गत IGST का भुगतान किए बिना।",
+      "यह आपूर्ति GST से छूट प्राप्त है, अतः इस पर कोई कर नहीं लगाया गया है।",
+      "रिवर्स चार्ज के आधार पर कर का भुगतान प्राप्तकर्ता द्वारा किया जाएगा।",
+      "आपूर्तिकर्ता GST के अंतर्गत पंजीकृत नहीं है, इसलिए इस बिल पर कर नहीं जोड़ा गया है।"
+    ],
+    "thanks": [
+      "आपके व्यवसाय के लिए धन्यवाद!",
+      "हमसे ख़रीदारी करने के लिए धन्यवाद। फिर पधारें!",
+      "आपके भरोसे के लिए हार्दिक आभार।",
+      "हमें सेवा का अवसर देने के लिए धन्यवाद।",
+      "Thank you! आपका दिन शुभ हो।",
+      "आपके सहयोग के लिए धन्यवाद — हम आगे भी आपकी सेवा में तत्पर रहेंगे।"
+    ],
+    "quote_validity": [
+      "यह कोटेशन जारी होने की तिथि से {n_days} दिनों तक मान्य है।",
+      "यह प्रस्ताव {date} तक मान्य है।",
+      "उद्धृत दरें {n_days} दिनों तक वैध हैं; उसके बाद बाज़ार भाव के अनुसार इनमें संशोधन संभव है।",
+      "कोटेशन की वैधता: {date} तक"
+    ],
+    "quote_acceptance": [
+      "कोटेशन स्वीकार होने पर कृपया हस्ताक्षर और मुहर लगाकर इसकी एक प्रति हमें वापस भेजें।",
+      "स्वीकृति के लिए कृपया इस कोटेशन के संदर्भ में क्रय आदेश (PO) जारी करें।",
+      "{percent} अग्रिम भुगतान प्राप्त होने पर ही ऑर्डर की पुष्टि मानी जाएगी।",
+      "उपरोक्त नियम एवं शर्तें स्वीकार हैं — ग्राहक के हस्ताक्षर एवं मुहर"
+    ],
+    "credit_reason": [
+      "इनवॉइस संख्या {invoice_no} के विरुद्ध माल वापसी के कारण जारी क्रेडिट नोट।",
+      "क्षतिग्रस्त माल के लिए समायोजन।",
+      "मूल्य अंतर का समायोजन (इनवॉइस {invoice_no})।",
+      "गलत बिलिंग के सुधार हेतु जारी।"
+    ]
+  },
+  "phrases": {
+    "page_x_of_y": [
+      "पृष्ठ {p} / {n}",
+      "पृष्ठ {p} (कुल {n})",
+      "पेज {p}/{n}",
+      "Page {p} of {n}"
+    ],
+    "place_date": [
+      "स्थान: {city} | दिनांक: {DOC_DATE}",
+      "{city}, दिनांक {DOC_DATE}",
+      "दिनांक: {DOC_DATE}, स्थान: {city}"
+    ],
+    "fin_amounts_note": [
+      "(सभी राशियाँ {currency} में)",
+      "राशि {currency} में",
+      "सभी आंकड़े {currency} में हैं, जब तक अन्यथा उल्लेख न हो।"
+    ],
+    "fin_period": [
+      "{date_start} से {date_end} तक की अवधि के लिए",
+      "अवधि: {date_start} – {date_end}",
+      "{date_start} से {date_end} तक का वित्तीय वर्ष"
+    ],
+    "price_validity": [
+      "ये दरें {date} तक मान्य हैं।",
+      "मूल्य {date} तक वैध",
+      "{date} तक मान्य मूल्य सूची"
+    ],
+    "signature_line": [
+      "अधिकृत हस्ताक्षरकर्ता",
+      "हस्ताक्षर एवं मुहर",
+      "प्राधिकृत हस्ताक्षरी",
+      "Authorised Signatory"
+    ],
+    "amount_in_words_intro": [
+      "रुपये",
+      "राशि (शब्दों में):",
+      "कुल देय राशि शब्दों में:",
+      "शब्दों में:"
+    ]
+  },
+  "letters": {
+    "payment_reminder": {
+      "subject": [
+        "इनवॉइस संख्या {invoice_no} के बकाया भुगतान के संबंध में",
+        "भुगतान अनुस्मारक — इनवॉइस {invoice_no}",
+        "लंबित भुगतान हेतु स्मरण पत्र"
+      ],
+      "body": [
+        "हम आपका ध्यान अपने इनवॉइस संख्या {invoice_no} दिनांक {date} की ओर आकर्षित करना चाहते हैं, जिसकी {amount} की राशि अभी तक बकाया है।",
+        "हमारे रिकॉर्ड के अनुसार इस भुगतान की नियत तिथि निकल चुकी है। संभव है कि यह आपकी नज़र से छूट गया हो।",
+        "कृपया बकाया राशि का भुगतान अगले {n_days} दिनों के भीतर NEFT/RTGS द्वारा हमारे बैंक खाते में करने का कष्ट करें।",
+        "यदि आप भुगतान पहले ही कर चुके हैं, तो कृपया इस पत्र को अनदेखा करें और भुगतान का विवरण {S_EMAIL} पर भेज दें, ताकि हम अपना रिकॉर्ड अपडेट कर सकें।",
+        "{C_NAME} के साथ अपने पुराने व्यावसायिक संबंधों को हम बहुत महत्व देते हैं और आशा करते हैं कि यह मामला शीघ्र सुलझ जाएगा।",
+        "किसी भी प्रश्न के लिए कृपया हमारे लेखा विभाग से {S_PHONE} पर संपर्क करें।"
+      ]
+    },
+    "quote_followup": {
+      "subject": [
+        "हमारे कोटेशन के संबंध में",
+        "प्रस्ताव पर आपकी प्रतिक्रिया — {SERVICE}"
+      ],
+      "body": [
+        "दिनांक {date} को हमने {C_NAME} को अपना कोटेशन भेजा था (विषय: {SERVICE})। हम जानना चाहेंगे कि क्या आपको उस पर विचार करने का अवसर मिला।",
+        "यदि प्रस्ताव के किसी भी बिंदु पर आपके मन में कोई प्रश्न हो या आप किसी शर्त में बदलाव चाहते हों, तो हम चर्चा के लिए सहर्ष तैयार हैं।",
+        "कृपया ध्यान दें कि कोटेशन में दी गई दरें {date} तक ही मान्य हैं।",
+        "आपकी सुविधा के अनुसार हम आपके कार्यालय में एक संक्षिप्त बैठक भी रख सकते हैं।",
+        "आपके उत्तर की प्रतीक्षा रहेगी। अधिक जानकारी के लिए {S_PHONE} पर संपर्क करें।"
+      ]
+    },
+    "price_change": {
+      "subject": [
+        "मूल्य संशोधन की सूचना",
+        "{date} से नई दरें लागू होने के संबंध में"
+      ],
+      "body": [
+        "कच्चे माल, ईंधन और परिवहन की लागत में लगातार वृद्धि के कारण हमें अपनी दरों में संशोधन करना पड़ रहा है।",
+        "{date} से हमारे सभी उत्पादों और सेवाओं की दरों में {percent} की वृद्धि की जाएगी।",
+        "इस तिथि से पहले प्राप्त सभी ऑर्डर पुरानी दरों पर ही पूरे किए जाएँगे।",
+        "यह निर्णय काफ़ी सोच-विचार के बाद लिया गया है, और हम आपको भरोसा दिलाते हैं कि गुणवत्ता में कोई कमी नहीं आएगी।",
+        "{C_NAME} के साथ अपने संबंधों को हम बहुत महत्व देते हैं। किसी भी स्पष्टीकरण के लिए कृपया हमसे बेझिझक संपर्क करें।"
+      ]
+    },
+    "appointment": {
+      "subject": [
+        "बैठक का समय निर्धारित करने हेतु",
+        "{date} को प्रस्तावित बैठक की पुष्टि"
+      ],
+      "body": [
+        "हमारी पिछली बातचीत के क्रम में हम आपके कार्यालय में एक बैठक का प्रस्ताव रखते हैं — दिनांक {date}, समय {time}।",
+        "इस बैठक में हमारी ओर से {manager_title} {S_PERSON} और हमारे एक तकनीकी विशेषज्ञ भाग लेंगे।",
+        "बैठक में हम आपके सभी प्रश्नों पर विस्तार से चर्चा करेंगे, विशेषकर इस विषय पर: {SERVICE}।",
+        "यदि यह समय आपके लिए सुविधाजनक न हो, तो कृपया कोई वैकल्पिक तिथि और समय सुझाएँ।",
+        "कृपया पुष्टि के लिए {S_EMAIL} पर उत्तर दें या {S_PHONE} पर फ़ोन करें। {C_NAME} की टीम से मिलकर हमें प्रसन्नता होगी।"
+      ]
+    },
+    "closure": {
+      "subject": [
+        "अवकाश के दौरान कार्यालय बंद रहने की सूचना",
+        "दीपावली अवकाश — {date_start} से {date_end} तक"
+      ],
+      "body": [
+        "हम अपने सभी ग्राहकों और सहयोगियों को सूचित करना चाहते हैं कि त्योहार के अवसर पर हमारा कार्यालय {date_start} से {date_end} तक बंद रहेगा।",
+        "इस अवधि में प्राप्त ऑर्डर और ईमेल का उत्तर कार्यालय खुलने के बाद प्राथमिकता के आधार पर दिया जाएगा।",
+        "{date_end} के बाद हम अपने सामान्य समय ({HOURS}) पर फिर से आपकी सेवा में उपलब्ध रहेंगे।",
+        "किसी आपात स्थिति में कृपया {S_PHONE} पर संपर्क करें।",
+        "असुविधा के लिए हमें खेद है। आपको और आपके परिवार को त्योहार की हार्दिक शुभकामनाएँ!"
+      ]
+    },
+    "move": {
+      "subject": [
+        "हमारे कार्यालय के नए पते की सूचना",
+        "पता परिवर्तन — {date} से प्रभावी"
+      ],
+      "body": [
+        "हमें आपको यह बताते हुए ख़ुशी हो रही है कि {date} से हमारा कार्यालय नए और बड़े परिसर में स्थानांतरित हो रहा है।",
+        "हमारा नया पता है: {S_ADDRESS}",
+        "हमारे फ़ोन नंबर और ईमेल में कोई बदलाव नहीं हुआ है; आप पहले की तरह {S_PHONE} पर हमसे संपर्क कर सकते हैं।",
+        "कृपया अपने रिकॉर्ड में हमारा पता अपडेट कर लें और आगे से सभी पत्र, इनवॉइस और माल नए पते पर ही भेजें। GST पंजीकरण में भी पते का संशोधन करा लिया गया है।",
+        "नया परिसर हमें आपकी और बेहतर सेवा करने में सक्षम बनाएगा। आपके निरंतर सहयोग के लिए हम आभारी हैं।"
+      ]
+    },
+    "new_service": {
+      "subject": [
+        "नया: {SERVICE} — अब हमारे यहाँ उपलब्ध",
+        "अब {S_NAME} में उपलब्ध — नई सेवाएँ"
+      ],
+      "body": [
+        "हमें यह बताते हुए प्रसन्नता हो रही है कि अब हम अपने ग्राहकों के लिए {SERVICE} भी लेकर आए हैं।",
+        "{C_NAME} जैसे अपने नियमित ग्राहकों के सुझावों को ध्यान में रखकर हमने यह सेवा शुरू की है।",
+        "हमारी मौजूदा सेवाएँ — {SERVICE_LIST} — भी पहले की तरह जारी रहेंगी।",
+        "शुरुआती ऑफ़र के तहत {date} तक ऑर्डर देने पर {percent} की विशेष छूट दी जाएगी।",
+        "अधिक जानकारी के लिए हमारी वेबसाइट {S_URL} देखें या हमें {S_EMAIL} पर लिखें।"
+      ]
+    },
+    "thanks": {
+      "subject": [
+        "आपके सहयोग के लिए धन्यवाद",
+        "हार्दिक आभार"
+      ],
+      "body": [
+        "{C_NAME} द्वारा हम पर दिखाए गए विश्वास के लिए हम हृदय से आभारी हैं।",
+        "आपके साथ काम करना हमारे लिए हमेशा एक सुखद अनुभव रहा है।",
+        "पिछले वर्ष आपके नियमित ऑर्डरों ने हमारी प्रगति में महत्वपूर्ण भूमिका निभाई।",
+        "हम आगे भी इसी तरह गुणवत्तापूर्ण सेवा देने के लिए प्रतिबद्ध हैं।",
+        "किसी भी आवश्यकता के लिए हम सदैव आपकी सेवा में तत्पर हैं।"
+      ]
+    },
+    "order_to_supplier": {
+      "subject": [
+        "क्रय आदेश संख्या {order_no}",
+        "माल की आपूर्ति हेतु आदेश"
+      ],
+      "body": [
+        "कृपया हमारे क्रय आदेश संख्या {order_no} के अनुसार संलग्न सूची में दी गई सामग्री की आपूर्ति करें।",
+        "आदेशित मात्रा: {quantity}। माल {date} तक हमारे गोदाम पर पहुँच जाना चाहिए।",
+        "डिलीवरी का पता: {S_ADDRESS}",
+        "कृपया इनवॉइस पर हमारा GSTIN और क्रय आदेश संख्या अवश्य लिखें, तथा माल ई-वे बिल के साथ ही भेजें।",
+        "भुगतान माल प्राप्ति और गुणवत्ता जाँच के बाद {n_days} दिनों के भीतर किया जाएगा।",
+        "{C_NAME} से पिछली आपूर्ति संतोषजनक रही है, इसलिए यह आदेश हम फिर से आपको दे रहे हैं। किसी भी प्रश्न के लिए हमारे क्रय विभाग से {S_PHONE} पर संपर्क करें।"
+      ]
+    },
+    "letter_to_bank": {
+      "subject": [
+        "खाता विवरण उपलब्ध कराने हेतु अनुरोध",
+        "ओवरड्राफ्ट सीमा बढ़ाने के संबंध में"
+      ],
+      "body": [
+        "सेवा में, शाखा प्रबंधक, {bank}, {city} शाखा।",
+        "हम, {S_NAME}, आपकी शाखा में चालू खाता रखते हैं। हमारा निवेदन है कि हमें {date_start} से {date_end} तक का खाता विवरण उपलब्ध कराया जाए।",
+        "व्यवसाय की बढ़ती ज़रूरतों को देखते हुए हम अपनी ओवरड्राफ्ट सीमा बढ़ाकर {amount} करने का अनुरोध करते हैं।",
+        "आवश्यक दस्तावेज़ — GST रिटर्न, पिछले दो वर्षों की ऑडिटेड बैलेंस शीट और पैन कार्ड की प्रति — इस पत्र के साथ संलग्न हैं।",
+        "इस संबंध में किसी भी जानकारी के लिए {manager_title} {S_PERSON} से {S_PHONE} पर संपर्क किया जा सकता है। आपके शीघ्र सहयोग की अपेक्षा है।"
+      ]
+    },
+    "order_from_client": {
+      "subject": [
+        "क्रय आदेश — {order_no}",
+        "सामग्री की आपूर्ति हेतु आदेश"
+      ],
+      "body": [
+        "आपके कोटेशन दिनांक {date} के संदर्भ में हम {C_NAME} को निम्नलिखित आदेश दे रहे हैं।",
+        "कृपया संलग्न सूची के अनुसार कुल {quantity} की आपूर्ति {date} तक हमारे {city} स्थित गोदाम पर करें।",
+        "इनवॉइस {S_NAME} के नाम पर बनाएँ और उस पर हमारा {S_REG_ID} अवश्य दर्ज करें।",
+        "भुगतान हमारी मानक शर्तों के अनुसार माल प्राप्ति के {n_days} दिनों के भीतर किया जाएगा।",
+        "डिलीवरी से पहले कृपया {person} ({position}) से फ़ोन पर समन्वय कर लें, और इस आदेश की पुष्टि {S_EMAIL} पर भेजें।"
+      ]
+    },
+    "complaint_from_client": {
+      "subject": [
+        "आपूर्ति किए गए माल में कमी के संबंध में शिकायत",
+        "इनवॉइस संख्या {invoice_no} — गुणवत्ता संबंधी शिकायत"
+      ],
+      "body": [
+        "हमें खेद के साथ सूचित करना पड़ रहा है कि दिनांक {date} को प्राप्त माल हमारे आदेश के अनुरूप नहीं है।",
+        "कुल {quantity} में से कई नग क्षतिग्रस्त हालत में मिले हैं; उनकी तस्वीरें इस पत्र के साथ संलग्न हैं।",
+        "{C_NAME} से हमें अब तक हमेशा अच्छी सेवा मिली है, इसलिए यह स्थिति हमारे लिए अप्रत्याशित है।",
+        "कृपया {n_days} दिनों के भीतर क्षतिग्रस्त माल को बदलने या क्रेडिट नोट जारी करने की व्यवस्था करें। तब तक संबंधित इनवॉइस का भुगतान रोका जा रहा है।",
+        "इस विषय में {person} ({position}) से {S_PHONE} पर बात की जा सकती है।"
+      ]
+    },
+    "quote_request": {
+      "subject": [
+        "कोटेशन हेतु अनुरोध",
+        "दरें भेजने का अनुरोध — {date} तक"
+      ],
+      "body": [
+        "हम, {S_NAME}, अपनी {city} इकाई के लिए कुछ सामग्री और सेवाओं की ख़रीद पर विचार कर रहे हैं।",
+        "{C_NAME} के बारे में हमें {other_org} से जानकारी मिली, जहाँ आपके काम की काफ़ी सराहना होती है।",
+        "कृपया {quantity} के लिए अपनी सर्वोत्तम दरें GST सहित, डिलीवरी समय और भुगतान शर्तों के साथ भेजें।",
+        "आपका कोटेशन {date} तक {S_EMAIL} पर प्राप्त हो जाना चाहिए। कृपया उसके साथ GST पंजीकरण प्रमाणपत्र की प्रति भी संलग्न करें।",
+        "अधिक जानकारी के लिए {person} ({position}) से {S_PHONE} पर संपर्क करें।"
+      ]
+    },
+    "supplier_offer": {
+      "subject": [
+        "विशेष व्यापारिक प्रस्ताव — {SERVICE}",
+        "आपके व्यवसाय के लिए हमारी नई दरें"
+      ],
+      "body": [
+        "हम {FOUNDED} से देशभर के व्यापारियों और संस्थानों को आपूर्ति कर रहे हैं।",
+        "हमें {C_NAME} के सामने अपने उत्पादों और सेवाओं की विशेष दरें प्रस्तुत करते हुए प्रसन्नता हो रही है।",
+        "हमारी नवीनतम पेशकश: {SERVICE_LIST}। सभी उत्पाद गुणवत्ता जाँच के बाद ही भेजे जाते हैं।",
+        "{date} तक दिए गए ऑर्डर पर {percent} की अतिरिक्त छूट और मुफ़्त डिलीवरी दी जाएगी।",
+        "नमूनों और विस्तृत मूल्य सूची के लिए कृपया {S_PHONE} पर संपर्क करें या {S_URL} देखें। हमें आपके साथ दीर्घकालिक व्यावसायिक संबंध की आशा है।"
+      ]
+    },
+    "bank_notice": {
+      "subject": [
+        "आपके चालू खाते से संबंधित महत्वपूर्ण सूचना",
+        "KYC दस्तावेज़ अद्यतन करने हेतु सूचना"
+      ],
+      "body": [
+        "{bank} की ओर से आपको सूचित किया जाता है कि भारतीय रिज़र्व बैंक के दिशानिर्देशों के अनुसार {C_NAME} के चालू खाते के KYC दस्तावेज़ों का अद्यतन {date} तक आवश्यक है।",
+        "कृपया संस्था का पैन कार्ड, GST प्रमाणपत्र और अधिकृत हस्ताक्षरकर्ताओं के पहचान दस्तावेज़ अपनी निकटतम शाखा में जमा करें।",
+        "निर्धारित तिथि तक दस्तावेज़ जमा न करने पर खाते में लेनदेन अस्थायी रूप से प्रतिबंधित किए जा सकते हैं।",
+        "हमारे रिकॉर्ड में दर्ज आपका पता: {C_ADDRESS}",
+        "यह एक सिस्टम-जनित पत्र है; इस पर हस्ताक्षर की आवश्यकता नहीं है। किसी भी सहायता के लिए हमारे टोल-फ़्री नंबर पर कॉल करें या अपने रिलेशनशिप मैनेजर से संपर्क करें।"
+      ]
+    },
+    "loan_offer": {
+      "subject": [
+        "आपके व्यवसाय के लिए पूर्व-स्वीकृत ऋण प्रस्ताव",
+        "MSME कार्यशील पूंजी ऋण — विशेष ब्याज दर पर"
+      ],
+      "body": [
+        "{C_NAME} के साथ हमारे लंबे संबंधों को देखते हुए, {bank} द्वारा आपके व्यवसाय के लिए {amount} तक का पूर्व-स्वीकृत ऋण प्रस्तावित किया जा रहा है।",
+        "इस ऋण पर ब्याज दर {percent} वार्षिक से शुरू होती है, और पुनर्भुगतान की अवधि अधिकतम {n_years} तक हो सकती है।",
+        "ऋण राशि का उपयोग कार्यशील पूंजी, मशीनरी की ख़रीद या व्यवसाय विस्तार के लिए किया जा सकता है।",
+        "यह प्रस्ताव {date} तक मान्य है। आवेदन के लिए न्यूनतम दस्तावेज़ों की आवश्यकता होगी।",
+        "अधिक जानकारी के लिए अपनी निकटतम शाखा में संपर्क करें या अपने रिलेशनशिप मैनेजर से बात करें।"
+      ]
+    },
+    "tax_reminder": {
+      "subject": [
+        "GST रिटर्न दाखिल न करने के संबंध में सूचना",
+        "कर बकाया के भुगतान हेतु अनुस्मारक"
+      ],
+      "body": [
+        "{other_org} के अभिलेखों के अनुसार {C_NAME} ({C_REG_ID}) द्वारा {date_start} से {date_end} की अवधि का रिटर्न अभी तक दाखिल नहीं किया गया है।",
+        "आपसे अनुरोध है कि {n_days} दिनों के भीतर लंबित रिटर्न दाखिल करें और देय कर का भुगतान ब्याज सहित करें।",
+        "निर्धारित समय में अनुपालन न होने पर केंद्रीय माल और सेवा कर अधिनियम, 2017 के प्रावधानों के तहत विलंब शुल्क और जुर्माना लगाया जा सकता है।",
+        "यदि आप रिटर्न पहले ही दाखिल कर चुके हैं, तो कृपया इस सूचना को अनदेखा करें।",
+        "यह सूचना इलेक्ट्रॉनिक रूप से जारी की गई है और इस पर हस्ताक्षर आवश्यक नहीं हैं। पंजीकृत पता: {C_ADDRESS}"
+      ]
+    },
+    "registry_notice": {
+      "subject": [
+        "वार्षिक रिटर्न दाखिल करने हेतु अनुस्मारक",
+        "कंपनी के अभिलेखों के अद्यतन के संबंध में सूचना"
+      ],
+      "body": [
+        "{other_org} द्वारा सूचित किया जाता है कि {C_NAME} का वार्षिक रिटर्न और वित्तीय विवरण अभी तक दाखिल नहीं किए गए हैं।",
+        "कंपनी अधिनियम, 2013 के अनुसार निर्धारित तिथि के बाद दाखिल करने पर प्रतिदिन के हिसाब से अतिरिक्त शुल्क देय होगा।",
+        "कृपया {date} तक आवश्यक ई-फ़ॉर्म MCA पोर्टल पर दाखिल करें।",
+        "हमारे अभिलेखों में आपकी कंपनी का पंजीकृत पता इस प्रकार दर्ज है: {C_ADDRESS}",
+        "पते या निदेशकों में किसी भी परिवर्तन की सूचना निर्धारित प्रपत्र में {n_days} दिनों के भीतर दी जानी चाहिए। सभी पत्राचार में अपना {C_REG_ID} अवश्य उद्धृत करें।"
+      ]
+    }
+  },
+  "contract": {
+    "parties_provider": [
+      "प्रथम पक्ष: {S_NAME:legal} ({LEGAL_FORM}), जिसका पंजीकृत कार्यालय {S_ADDRESS} पर स्थित है, {S_REG_ID}, जिसका प्रतिनिधित्व {manager_title} {S_PERSON} द्वारा किया जा रहा है (जिसे आगे “सेवा प्रदाता” कहा गया है);",
+      "सेवा प्रदाता: {S_NAME:legal}, प्रदत्त पूंजी {CAPITAL}, पंजीकृत कार्यालय: {S_ADDRESS}, {S_REG_ID}; प्रतिनिधि: {S_PERSON}, {manager_title}।",
+      "{S_NAME:legal}, {S_ADDRESS} (जिसे आगे “प्रथम पक्ष” कहा गया है, और इस अभिव्यक्ति में इसके उत्तराधिकारी और अनुमत समनुदेशिती शामिल होंगे), जिसकी ओर से {manager_title} {S_PERSON} इस अनुबंध पर हस्ताक्षर करने के लिए अधिकृत हैं,"
+    ],
+    "parties_client": [
+      "द्वितीय पक्ष: {C_NAME}, पंजीकृत कार्यालय {C_ADDRESS}, {C_REG_ID}, जिसका प्रतिनिधित्व {person} ({position}) द्वारा किया जा रहा है (जिसे आगे “ग्राहक” कहा गया है)।",
+      "ग्राहक: {C_NAME}, {C_ADDRESS} ({C_REG_ID}); अधिकृत प्रतिनिधि: {person}, {position}।",
+      "तथा {C_NAME}, जिसका कार्यालय {C_ADDRESS} पर है (जिसे आगे “द्वितीय पक्ष” कहा गया है), जिसकी ओर से {person}, {position}, इस अनुबंध पर हस्ताक्षर करने के लिए अधिकृत हैं।"
+    ],
+    "preamble": [
+      "चूँकि सेवा प्रदाता के पास संबंधित क्षेत्र में आवश्यक विशेषज्ञता, संसाधन और अनुभव है, और ग्राहक ऐसी सेवाएँ प्राप्त करना चाहता है; अतः दोनों पक्ष निम्नलिखित शर्तों पर सहमत होते हैं:",
+      "यह अनुबंध दोनों पक्षों की पारस्परिक सहमति से निम्नलिखित नियमों एवं शर्तों पर निष्पादित किया जाता है।",
+      "दोनों पक्ष इस बात पर सहमत हैं कि इस अनुबंध की सभी शर्तें उन पर और उनके उत्तराधिकारियों पर समान रूप से बाध्यकारी होंगी।"
+    ],
+    "object": [
+      "इस अनुबंध का उद्देश्य सेवा प्रदाता द्वारा ग्राहक को {SERVICE} उपलब्ध कराना है।",
+      "सेवा प्रदाता ग्राहक को निम्नलिखित सेवाएँ प्रदान करेगा: {SERVICE_LIST}।",
+      "कार्य का दायरा: {SERVICE_LIST}, जैसा कि अनुलग्नक-क में विस्तार से वर्णित है।"
+    ],
+    "duration": [
+      "यह अनुबंध हस्ताक्षर की तिथि से {n_years} की अवधि के लिए प्रभावी रहेगा।",
+      "अनुबंध {date_start} से {date_end} तक लागू रहेगा, और दोनों पक्षों की लिखित सहमति से इसका नवीनीकरण किया जा सकेगा।",
+      "यदि कोई भी पक्ष अवधि समाप्त होने से {n_days} दिन पहले लिखित सूचना नहीं देता, तो अनुबंध स्वतः एक वर्ष के लिए नवीनीकृत हो जाएगा।"
+    ],
+    "price": [
+      "इस अनुबंध के अंतर्गत सेवाओं का कुल मूल्य {amount} है, जिस पर लागू GST अतिरिक्त देय होगा।",
+      "ग्राहक सेवा प्रदाता को प्रति माह {amount} (GST अतिरिक्त) का शुल्क अदा करेगा।",
+      "उपरोक्त दरें अनुबंध की पूरी अवधि के लिए स्थिर रहेंगी, जब तक कि दोनों पक्ष लिखित रूप में अन्यथा सहमत न हों।"
+    ],
+    "payment": [
+      "सेवा प्रदाता हर माह के अंत में GST इनवॉइस जारी करेगा, जिसका भुगतान ग्राहक इनवॉइस प्राप्ति के {n_days} दिनों के भीतर करेगा।",
+      "भुगतान बैंक हस्तांतरण (NEFT/RTGS) द्वारा किया जाएगा; लागू TDS की कटौती के बाद शेष राशि देय होगी।",
+      "निर्धारित समय में भुगतान न होने पर सेवा प्रदाता {n_days} दिनों की लिखित सूचना देकर सेवाएँ स्थगित कर सकता है।"
+    ],
+    "obligations": [
+      "सेवा प्रदाता सभी सेवाएँ पेशेवर दक्षता के साथ और लागू कानूनों के अनुसार प्रदान करेगा।",
+      "ग्राहक सेवा प्रदाता को कार्य के लिए आवश्यक सभी जानकारी, दस्तावेज़ और परिसर तक पहुँच समय पर उपलब्ध कराएगा।",
+      "दोनों पक्ष एक-दूसरे के साथ सद्भावना से सहयोग करेंगे और किसी भी समस्या की सूचना तुरंत देंगे।"
+    ],
+    "confidentiality": [
+      "दोनों पक्ष इस अनुबंध के दौरान प्राप्त सभी गोपनीय जानकारी को पूर्णतः गोपनीय रखेंगे और उसे किसी तीसरे पक्ष के साथ साझा नहीं करेंगे।",
+      "गोपनीयता का यह दायित्व अनुबंध समाप्त होने के बाद भी {n_years} तक लागू रहेगा।",
+      "कानूनन आवश्यक होने की स्थिति को छोड़कर, कोई भी पक्ष दूसरे पक्ष की लिखित अनुमति के बिना किसी जानकारी का खुलासा नहीं करेगा।"
+    ],
+    "liability": [
+      "किसी भी स्थिति में सेवा प्रदाता का कुल दायित्व इस अनुबंध के अंतर्गत प्राप्त शुल्क की राशि से अधिक नहीं होगा।",
+      "कोई भी पक्ष अप्रत्यक्ष या परिणामी हानि के लिए उत्तरदायी नहीं होगा।",
+      "अप्रत्याशित घटना (फ़ोर्स मेज्योर) — जैसे प्राकृतिक आपदा, महामारी या सरकारी प्रतिबंध — के कारण हुई देरी के लिए कोई भी पक्ष ज़िम्मेदार नहीं होगा।"
+    ],
+    "termination": [
+      "कोई भी पक्ष {n_days} दिनों की लिखित सूचना देकर इस अनुबंध को समाप्त कर सकता है।",
+      "किसी पक्ष द्वारा अनुबंध की शर्तों का गंभीर उल्लंघन किए जाने पर दूसरा पक्ष तत्काल प्रभाव से अनुबंध समाप्त कर सकता है।",
+      "समाप्ति की स्थिति में ग्राहक समाप्ति की तिथि तक प्रदान की गई सेवाओं का भुगतान करेगा।"
+    ],
+    "law": [
+      "यह अनुबंध भारत के कानूनों द्वारा शासित होगा, और इससे उत्पन्न किसी भी विवाद पर {city} के न्यायालयों का अनन्य क्षेत्राधिकार होगा।",
+      "किसी भी विवाद का निपटारा मध्यस्थता एवं सुलह अधिनियम, 1996 के अनुसार एकमात्र मध्यस्थ द्वारा किया जाएगा; मध्यस्थता का स्थान {city} होगा।",
+      "विवाद की स्थिति में दोनों पक्ष पहले आपसी बातचीत से समाधान का प्रयास करेंगे; असफल रहने पर मामला {city} स्थित सक्षम न्यायालय के अधीन होगा।"
+    ],
+    "signature": [
+      "इसके साक्ष्य में दोनों पक्षों ने {city} में दिनांक {DOC_DATE} को इस अनुबंध पर हस्ताक्षर किए।",
+      "स्थान: {city}    दिनांक: {DOC_DATE}    प्रथम पक्ष के हस्ताक्षर: ____________    द्वितीय पक्ष के हस्ताक्षर: ____________",
+      "{DOC_DATE} को {city} में दो प्रतियों में निष्पादित; प्रत्येक पक्ष के पास एक मूल प्रति रहेगी।",
+      "कृते {S_NAME:legal}: ____________ ({S_PERSON}, {manager_title})    कृते {C_NAME}: ____________ ({person}, {position})    स्थान: {city}, दिनांक: {DOC_DATE}"
+    ]
+  },
+  "terms": {
+    "cgv": [
+      "ये नियम एवं शर्तें {S_NAME} द्वारा की जाने वाली सभी बिक्री और प्रदान की जाने वाली सभी सेवाओं पर लागू होती हैं।",
+      "ऑर्डर देने का अर्थ है कि ग्राहक ने इन शर्तों को पढ़ और समझ लिया है तथा उन्हें स्वीकार करता है।",
+      "सभी कीमतें भारतीय रुपये में हैं और इनमें लागू GST शामिल है, जब तक कि अन्यथा उल्लेख न हो।",
+      "ऑर्डर तभी अंतिम माना जाएगा जब हमारी ओर से लिखित रूप में या ईमेल द्वारा उसकी पुष्टि भेज दी जाएगी।",
+      "भुगतान UPI, नेट बैंकिंग, डेबिट/क्रेडिट कार्ड या बैंक हस्तांतरण द्वारा अग्रिम रूप से किया जा सकता है।",
+      "डिलीवरी का समय अनुमानित है; परिवहन में होने वाली देरी के लिए हम उत्तरदायी नहीं होंगे।",
+      "डिलीवरी के समय ग्राहक माल की जाँच करे और किसी भी कमी की सूचना {n_days} दिनों के भीतर दे।",
+      "निर्माण दोष वाले उत्पादों को जाँच के बाद बदला या ठीक किया जाएगा; गलत उपयोग से हुई क्षति वारंटी में शामिल नहीं है।",
+      "ग्राहक के लिए विशेष रूप से बनाए गए या अनुकूलित उत्पाद वापस नहीं लिए जाएँगे।",
+      "रिफ़ंड स्वीकृत होने पर राशि {n_days} कार्यदिवसों के भीतर मूल भुगतान माध्यम में लौटा दी जाएगी।",
+      "किसी भी स्थिति में हमारा कुल दायित्व संबंधित ऑर्डर के मूल्य से अधिक नहीं होगा।",
+      "विलंबित भुगतान पर {percent} प्रति माह की दर से ब्याज लिया जा सकता है।",
+      "इन शर्तों से उत्पन्न किसी भी विवाद पर {city} के न्यायालयों का क्षेत्राधिकार होगा।",
+      "{S_NAME} को बिना पूर्व सूचना के इन शर्तों में संशोधन करने का अधिकार है; संशोधित शर्तें {S_URL} पर प्रकाशित की जाएँगी।"
+    ],
+    "privacy": [
+      "यह गोपनीयता नीति बताती है कि {S_URL} पर आपकी व्यक्तिगत जानकारी किस प्रकार एकत्र, उपयोग और सुरक्षित की जाती है।",
+      "डेटा नियंत्रक: {S_NAME:legal}, {S_ADDRESS}",
+      "हम आपका नाम, फ़ोन नंबर, ईमेल पता, बिलिंग पता और GST विवरण जैसी जानकारी एकत्र करते हैं।",
+      "यह जानकारी ऑर्डर पूरे करने, इनवॉइस जारी करने और आपसे संपर्क करने के लिए उपयोग की जाती है।",
+      "हम आपकी व्यक्तिगत जानकारी किसी तीसरे पक्ष को न बेचते हैं और न ही किराए पर देते हैं।",
+      "भुगतान से जुड़ी जानकारी सुरक्षित भुगतान गेटवे द्वारा संसाधित की जाती है; हम आपके कार्ड का विवरण संग्रहीत नहीं करते।",
+      "आपका डेटा केवल उतने समय तक रखा जाता है जितना कानूनी और लेखा संबंधी आवश्यकताओं के लिए ज़रूरी हो।",
+      "डिजिटल व्यक्तिगत डेटा संरक्षण अधिनियम, 2023 के अंतर्गत आपको अपनी जानकारी देखने, सुधारने और हटवाने का अधिकार है।",
+      "शिकायत अधिकारी: {person}, ईमेल: {S_EMAIL}",
+      "हम इस नीति को समय-समय पर अपडेट कर सकते हैं; इसका नवीनतम संस्करण हमेशा {S_URL} पर उपलब्ध रहेगा।"
+    ],
+    "legal_notice": [
+      "वेबसाइट प्रकाशक: {S_NAME:legal}",
+      "कानूनी स्वरूप: {LEGAL_FORM}, प्रदत्त पूंजी: {CAPITAL}",
+      "पंजीकृत कार्यालय का पता: {S_ADDRESS}",
+      "पंजीकरण विवरण: {S_REG_ID}",
+      "फ़ोन: {S_PHONE} | ईमेल: {S_EMAIL}",
+      "प्रकाशन निदेशक: {S_PERSON}",
+      "होस्टिंग सेवा प्रदाता: {other_org}, {other_address}",
+      "इस वेबसाइट की सभी सामग्री — पाठ, चित्र और लोगो — {S_NAME} की बौद्धिक संपदा है; बिना लिखित अनुमति के इसका उपयोग वर्जित है।",
+      "वेबसाइट पर दी गई जानकारी केवल सामान्य जानकारी के लिए है; इसमें त्रुटि की संभावना से पूरी तरह इनकार नहीं किया जा सकता।",
+      "ज़िम्मेदार व्यक्ति: {S_PERSON}, {manager_title}"
+    ],
+    "cookies": [
+      "यह वेबसाइट आपके अनुभव को बेहतर बनाने के लिए कुकीज़ का उपयोग करती है।",
+      "आप ब्राउज़र की सेटिंग में जाकर कभी भी कुकीज़ बंद कर सकते हैं; ऐसा करने पर साइट के कुछ हिस्से ठीक से काम नहीं कर पाएँगे।",
+      "विश्लेषण से जुड़ी कुकीज़ {n_days} दिनों तक आपके डिवाइस पर संग्रहीत रहती हैं।",
+      "वेबसाइट का उपयोग जारी रखकर आप कुकीज़ के उपयोग के लिए अपनी सहमति देते हैं।"
+    ]
+  },
+  "web": {
+    "testimonials": [
+      "“बहुत बढ़िया सेवा! समय पर डिलीवरी और वाजिब दाम।” — {person}, {city}",
+      "“पिछले तीन साल से इन्हीं से सामान लेते हैं, कभी शिकायत का मौक़ा नहीं मिला।” — {person}",
+      "“स्टाफ़ बहुत विनम्र है और हर सवाल का धैर्य से जवाब देता है।” — {person}, {city}",
+      "“{SERVICE} — पूरे शहर में इससे बेहतर कहीं नहीं मिला।” — {person}",
+      "“काम की क्वालिटी शानदार है — पूरे भरोसे के साथ सिफ़ारिश करने लायक।” — {person}",
+      "“ऑनलाइन ऑर्डर किया और अगले ही दिन सामान घर पहुँच गया। बहुत अच्छा अनुभव रहा।” — {person}, {city}",
+      "“हमारी कंपनी पाँच साल से इनकी सेवाएँ ले रही है, और हर बार काम समय पर पूरा हुआ है।” — {person}",
+      "“दाम सही, काम पक्का। और क्या चाहिए!” — {person}"
+    ],
+    "news": [
+      "{date}: हमारी नई शाखा अब {city} में खुल गई है।",
+      "{date}: ऑनलाइन ऑर्डर और बुकिंग अब शुरू — पहली पेशकश: {SERVICE}।",
+      "{date}: दीपावली के अवसर पर चुनिंदा उत्पादों पर {percent} तक की छूट।",
+      "{date} को {S_NAME} की टीम ने {city} में आयोजित व्यापार मेले में हिस्सा लिया।",
+      "{date}: हमारी वेबसाइट नए रूप में लाइव — अब ऑर्डर ट्रैक करना और भी आसान।",
+      "{date} — ग्राहकों की माँग पर {SERVICE} अब नए और बेहतर रूप में।",
+      "{date}: ग्राहक सहायता के लिए नया हेल्पलाइन नंबर {S_PHONE} शुरू।"
+    ],
+    "cta": [
+      "आज ही संपर्क करें!",
+      "मुफ़्त कोटेशन के लिए अभी कॉल करें: {S_PHONE}",
+      "अभी ऑर्डर करें और पाएँ विशेष छूट!",
+      "ऑनलाइन अपॉइंटमेंट बुक करें: {S_URL}",
+      "हमें व्हाट्सऐप करें: {S_PHONE}",
+      "अपनी ज़रूरत बताइए, बाक़ी हम पर छोड़ दीजिए!",
+      "कैटलॉग डाउनलोड करें",
+      "{SERVICE} — आज ही ऑर्डर करें!",
+      "कोई सवाल है? हमें लिखें: {S_EMAIL}"
+    ]
+  },
+  "noise": {
+    "meeting": [
+      "बैठक में तय हुआ कि अगली तिमाही से सभी बिलों की केवल डिजिटल कॉपी भेजी जाएगी।",
+      "उपस्थित: {person} ({position}) और बिक्री टीम के तीन सदस्य।",
+      "कार्यसूची: 1. पिछली बैठक के बिंदुओं की समीक्षा 2. नए ग्राहकों की सूची 3. अन्य विषय",
+      "{person} ने बताया कि गोदाम में स्टॉक की गिनती {date} तक पूरी हो जाएगी।",
+      "अगली बैठक: {date}, {time}, सम्मेलन कक्ष।",
+      "कार्य बिंदु: विक्रेताओं से नई दरें मँगवाना — ज़िम्मेदारी: {person}",
+      "चर्चा के बाद सर्वसम्मति से निर्णय लिया गया कि यात्रा भत्ते की सीमा बढ़ाई जाएगी।"
+    ],
+    "recipe": [
+      "एक कड़ाही में दो चम्मच घी गरम करें और उसमें जीरा डालें।",
+      "प्याज़ को सुनहरा होने तक भूनें, फिर अदरक-लहसुन का पेस्ट मिलाएँ।",
+      "टमाटर, हल्दी, लाल मिर्च और नमक डालकर मसाले को तेल छोड़ने तक पकाएँ।",
+      "दाल को धोकर आधे घंटे के लिए पानी में भिगो दें।",
+      "ऊपर से हरा धनिया डालें और गरमागरम रोटी या चावल के साथ परोसें।"
+    ],
+    "manual": [
+      "डिवाइस चालू करने के लिए पावर बटन को तीन सेकंड तक दबाए रखें।",
+      "पहली बार उपयोग से पहले बैटरी को पूरी तरह चार्ज कर लें।",
+      "सेटिंग्स मेनू में जाकर भाषा के रूप में ‘हिंदी’ चुनें।",
+      "यदि स्क्रीन पर त्रुटि संदेश दिखाई दे, तो उपकरण को बंद करके दोबारा चालू करें।",
+      "सफ़ाई के लिए केवल सूखे और मुलायम कपड़े का इस्तेमाल करें।",
+      "सॉफ़्टवेयर अपडेट करने के लिए इंटरनेट से कनेक्ट करें और ‘अपडेट की जाँच करें’ पर टैप करें।",
+      "उपकरण को पानी और सीधी धूप से दूर रखें।"
+    ],
+    "news": [
+      "मौसम विभाग ने अगले दो दिनों में राज्य के कई हिस्सों में भारी बारिश की चेतावनी जारी की है।",
+      "रिज़र्व बैंक ने इस बार नीतिगत ब्याज दरों में कोई बदलाव नहीं किया।",
+      "{city} में नए फ़्लाईओवर का काम अगले महीने तक पूरा होने की उम्मीद है।",
+      "त्योहारी सीज़न से पहले बाज़ारों में फिर से रौनक लौट आई है।",
+      "सरकार ने छोटे उद्योगों के लिए नई ऋण गारंटी योजना की घोषणा की है।",
+      "शहर में आज पेट्रोल और डीज़ल के दाम स्थिर रहे।",
+      "राष्ट्रीय राजमार्ग पर मरम्मत कार्य के कारण यातायात धीमा रहा।"
+    ],
+    "todo": [
+      "GST रिटर्न फ़ाइल करना — {date} से पहले",
+      "बैंक जाकर चेक जमा करना",
+      "{person} को कोटेशन भेजना",
+      "प्रिंटर के लिए टोनर मँगवाना",
+      "अगले हफ़्ते की डिलीवरी का शेड्यूल बनाना"
+    ],
+    "memo": [
+      "सभी कर्मचारियों को सूचित किया जाता है कि {date} को कार्यालय में अग्नि सुरक्षा अभ्यास होगा।",
+      "कृपया अपनी छुट्टी का आवेदन कम से कम एक सप्ताह पहले HR विभाग में जमा करें।",
+      "इस माह का वेतन {date} को खातों में जमा कर दिया जाएगा।",
+      "कार्यालय परिसर में धूम्रपान सख़्त वर्जित है।",
+      "नई उपस्थिति प्रणाली {date} से लागू होगी; सभी कर्मचारी बायोमेट्रिक मशीन पर अपनी हाज़िरी दर्ज करें।",
+      "यात्रा व्यय के सभी दावे मूल बिलों के साथ लेखा विभाग को भेजें।",
+      "कृपया कार्यालय छोड़ने से पहले कंप्यूटर और एसी बंद करना न भूलें।"
+    ],
+    "generic": [
+      "आज सुबह से ही आसमान में बादल छाए हुए हैं।",
+      "बच्चों की परीक्षाएँ अगले हफ़्ते से शुरू हो रही हैं।",
+      "रविवार को बाज़ार में काफ़ी भीड़ रहती है।",
+      "सुबह की सैर सेहत के लिए बहुत फ़ायदेमंद होती है।",
+      "ट्रेन आधे घंटे की देरी से प्लेटफ़ॉर्म पर पहुँची।",
+      "पानी बचाइए, यह हम सबकी ज़िम्मेदारी है।",
+      "पुस्तकालय में नई किताबें आ गई हैं।",
+      "इस बार गर्मी ने पिछले कई वर्षों का रिकॉर्ड तोड़ दिया।",
+      "कल रात मोहल्ले में दो घंटे तक बिजली गुल रही।",
+      "शादी के निमंत्रण पत्र छपकर आ गए हैं।",
+      "कृपया अपने सामान की सुरक्षा स्वयं करें।",
+      "गाड़ी की सर्विसिंग हर छह महीने में करवाना ज़रूरी है।",
+      "मंदिर के पास एक नया पार्क बनकर तैयार हो गया है।",
+      "कल {city} में क्रिकेट मैच देखने हज़ारों लोग स्टेडियम पहुँचे।"
+    ],
+    "press": [
+      "{city} स्थित {S_NAME} ने इस वर्ष अपने कारोबार में उल्लेखनीय वृद्धि दर्ज की है।",
+      "{FOUNDED} में स्थापित इस कंपनी में आज कर्मचारियों की संख्या {STAFF} है।",
+      "{manager_title} {S_PERSON} ने बताया कि {REVENUE_YEAR} में कंपनी का टर्नओवर {REVENUE} रहा।",
+      "{S_NAME} का मुख्य व्यवसाय {ACTIVITY} है, और इसके ग्राहक देश के कई राज्यों में फैले हैं।",
+      "{S_PERSON} के अनुसार, इस समय कंपनी की सबसे ज़्यादा बिकने वाली पेशकश {SERVICE} है।",
+      "स्थानीय उद्योग संघ ने {S_NAME} को क्षेत्र के सबसे तेज़ी से बढ़ते उद्यमों में से एक बताया।",
+      "{REVENUE_YEAR} में {REVENUE} का टर्नओवर दर्ज करने के बाद {S_NAME} की नज़र अब निर्यात बाज़ार पर है।",
+      "{city}, {date}। शहर की जानी-मानी फर्म {S_NAME} ने अपने नए उत्पादन संयंत्र का उद्घाटन किया। कंपनी के कर्मचारियों की कुल संख्या अब {STAFF} हो गई है।"
+    ]
+  }
+}

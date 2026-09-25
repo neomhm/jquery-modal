@@ -1,0 +1,1125 @@
+{
+  "bakery": {
+    "names": ["boulangerie-pâtisserie", "boulangerie", "pâtisserie"],
+    "name_words": ["Boulangerie", "Fournil", "Pâtisserie", "Boulangerie-Pâtisserie"],
+    "phrases": [
+      "boulangerie-pâtisserie artisanale",
+      "fabrication artisanale de pains au levain et de viennoiseries",
+      "boulangerie, pâtisserie et viennoiserie maison",
+      "fabrication et vente de pains, pâtisseries fines et chocolats",
+      "boulangerie bio au levain naturel, cuisson au feu de bois",
+      "pâtisserie artisanale et traiteur sucré pour particuliers et professionnels"
+    ],
+    "services": [
+      {"name": "Baguette tradition", "usd": [1.3, 1.6], "unit": "piece"},
+      {"name": "Pain de campagne au levain", "usd": [3.5, 5.5], "unit": "piece"},
+      {"name": "Pain complet aux céréales", "usd": [3, 5], "unit": "piece"},
+      {"name": "Croissant pur beurre", "usd": [1.2, 1.7], "unit": "piece"},
+      {"name": "Pain au chocolat", "usd": [1.3, 1.8], "unit": "piece"},
+      {"name": "Éclair au chocolat", "usd": [3, 4.4], "unit": "piece"},
+      {"name": "Flan pâtissier (part)", "usd": [2.7, 4.2], "unit": "piece"},
+      {"name": "Tarte aux fraises 6 parts", "usd": [20, 32], "unit": "piece"},
+      {"name": "Fraisier 8 parts", "usd": [30, 45], "unit": "piece"},
+      {"name": "Galette des rois frangipane 6 parts", "usd": [19, 33], "unit": "piece"},
+      {"name": "Pièce montée en choux", "usd": [5.5, 8.7], "unit": "person"},
+      {"name": "Plateau de mini-viennoiseries (30 pièces)", "usd": [27, 44], "unit": "set"},
+      {"name": "Sandwich jambon-beurre", "usd": [3.8, 6], "unit": "piece"},
+      {"name": "Formule déjeuner sandwich, boisson et dessert", "usd": [8.2, 11.5], "unit": "piece"},
+      {"name": "Boîte de 12 macarons", "usd": [16, 25], "unit": "box"}
+    ]
+  },
+  "restaurant": {
+    "names": ["restaurant", "restaurant traditionnel", "brasserie"],
+    "name_words": ["Restaurant", "Brasserie", "Bistrot", "Auberge"],
+    "phrases": [
+      "restaurant traditionnel de cuisine française",
+      "cuisine du marché à base de produits frais et locaux",
+      "brasserie ouverte midi et soir avec terrasse",
+      "restauration traditionnelle sur place et à emporter",
+      "bistrot de quartier, cuisine maison et vins au verre",
+      "restaurant gastronomique et salons de réception pour groupes"
+    ],
+    "services": [
+      {"name": "Menu du jour entrée, plat, dessert", "usd": [16, 25], "unit": "person"},
+      {"name": "Formule déjeuner plat et dessert", "usd": [14, 20], "unit": "person"},
+      {"name": "Menu dégustation en cinq plats", "usd": [60, 110], "unit": "person"},
+      {"name": "Plat du jour", "usd": [13, 19], "unit": "piece"},
+      {"name": "Entrecôte grillée, frites maison", "usd": [24, 35], "unit": "piece"},
+      {"name": "Tartare de bœuf au couteau", "usd": [18.5, 27], "unit": "piece"},
+      {"name": "Magret de canard, pommes sarladaises", "usd": [23, 31], "unit": "piece"},
+      {"name": "Filet de bar rôti, risotto crémeux", "usd": [24, 34], "unit": "piece"},
+      {"name": "Planche mixte charcuterie et fromages", "usd": [17, 26], "unit": "piece"},
+      {"name": "Crème brûlée à la vanille", "usd": [7.5, 10.5], "unit": "piece"},
+      {"name": "Café gourmand", "usd": [8.5, 12], "unit": "piece"},
+      {"name": "Bouteille de Côtes-du-Rhône", "usd": [24, 45], "unit": "piece"},
+      {"name": "Menu enfant", "usd": [10, 15], "unit": "person"},
+      {"name": "Menu groupe avec apéritif et vin", "usd": [40, 65], "unit": "person"}
+    ]
+  },
+  "cafe_bar": {
+    "names": ["café-bar", "bar", "café-brasserie"],
+    "name_words": ["Café", "Bar", "Bistrot", "Comptoir"],
+    "phrases": [
+      "café-bar, brasserie et terrasse",
+      "débit de boissons et petite restauration",
+      "bar à vins et à tapas",
+      "café, salon de thé et petite restauration le midi",
+      "bar d'ambiance et cocktails en soirée",
+      "café-tabac, presse et jeux"
+    ],
+    "services": [
+      {"name": "Café expresso", "usd": [1.7, 2.7], "unit": "piece"},
+      {"name": "Café crème", "usd": [3, 4.6], "unit": "piece"},
+      {"name": "Chocolat chaud", "usd": [3.8, 5.5], "unit": "piece"},
+      {"name": "Thé ou infusion", "usd": [3.3, 5], "unit": "piece"},
+      {"name": "Demi pression", "usd": [3.3, 5], "unit": "piece"},
+      {"name": "Pinte de bière blonde", "usd": [6.5, 9.5], "unit": "piece"},
+      {"name": "Verre de vin rouge", "usd": [4.3, 7.6], "unit": "piece"},
+      {"name": "Kir vin blanc", "usd": [3.8, 5.5], "unit": "piece"},
+      {"name": "Cocktail maison", "usd": [9.8, 14.5], "unit": "piece"},
+      {"name": "Jus d'orange pressé", "usd": [4.3, 6.5], "unit": "piece"},
+      {"name": "Soda 33 cl", "usd": [3.3, 5], "unit": "piece"},
+      {"name": "Croque-monsieur, salade verte", "usd": [9.8, 14], "unit": "piece"},
+      {"name": "Petit-déjeuner complet", "usd": [7.6, 13], "unit": "person"},
+      {"name": "Planche apéritive à partager", "usd": [15, 25], "unit": "piece"},
+      {"name": "Salade César", "usd": [13, 18], "unit": "piece"}
+    ]
+  },
+  "hotel": {
+    "names": ["hôtel", "hôtel-restaurant", "hébergement hôtelier"],
+    "name_words": ["Hôtel", "Hostellerie", "Relais", "Grand Hôtel"],
+    "phrases": [
+      "hôtel trois étoiles en centre-ville",
+      "hôtellerie et restauration traditionnelle",
+      "hôtel de charme avec spa et salles de séminaire",
+      "hébergement touristique et accueil de groupes",
+      "hôtel d'affaires à deux pas de la gare",
+      "exploitation d'un hôtel-restaurant familial"
+    ],
+    "services": [
+      {"name": "Chambre double standard", "usd": [92, 180], "unit": "night"},
+      {"name": "Chambre individuelle", "usd": [76, 135], "unit": "night"},
+      {"name": "Chambre supérieure vue mer", "usd": [150, 290], "unit": "night"},
+      {"name": "Suite junior", "usd": [240, 460], "unit": "night"},
+      {"name": "Chambre familiale quatre personnes", "usd": [140, 240], "unit": "night"},
+      {"name": "Lit supplémentaire", "usd": [16, 33], "unit": "night"},
+      {"name": "Petit-déjeuner buffet", "usd": [13, 26], "unit": "person"},
+      {"name": "Demi-pension (dîner et petit-déjeuner)", "usd": [35, 60], "unit": "person"},
+      {"name": "Forfait séminaire journée d'étude", "usd": [50, 95], "unit": "person"},
+      {"name": "Location salle de réunion à la journée", "usd": [270, 650], "unit": "day"},
+      {"name": "Accès spa et hammam", "usd": [22, 45], "unit": "person"},
+      {"name": "Parking couvert", "usd": [13, 27], "unit": "night"},
+      {"name": "Séjour week-end détente deux nuits pour deux", "usd": [320, 600], "unit": "flat"},
+      {"name": "Service de blanchisserie", "usd": [5.5, 14], "unit": "piece"}
+    ]
+  },
+  "plumbing_hvac": {
+    "names": ["plomberie-chauffage", "plomberie, chauffage et climatisation", "génie climatique"],
+    "name_words": ["Plomberie", "Chauffage", "Plomberie-Chauffage", "Climatisation"],
+    "phrases": [
+      "plomberie, chauffage et climatisation",
+      "installation et entretien de chaudières gaz et de pompes à chaleur",
+      "dépannage plomberie 7 jours sur 7",
+      "création et rénovation de salles de bains clé en main",
+      "installation de systèmes de chauffage, ventilation et climatisation pour particuliers et entreprises",
+      "plombier-chauffagiste pour particuliers et professionnels"
+    ],
+    "services": [
+      {"name": "Entretien annuel chaudière gaz", "usd": [98, 165], "unit": "visit"},
+      {"name": "Recherche et réparation de fuite", "usd": [110, 280], "unit": "visit"},
+      {"name": "Main-d'œuvre plombier", "usd": [49, 76], "unit": "hour"},
+      {"name": "Débouchage de canalisation", "usd": [130, 280], "unit": "visit"},
+      {"name": "Remplacement chauffe-eau électrique 200 L, fourniture et pose", "usd": [980, 1750], "unit": "flat"},
+      {"name": "Installation pompe à chaleur air-eau", "usd": [9800, 17500], "unit": "flat"},
+      {"name": "Pose climatisation réversible mono-split", "usd": [1600, 3300], "unit": "flat"},
+      {"name": "Remplacement mitigeur thermostatique", "usd": [160, 330], "unit": "flat"},
+      {"name": "Désembouage circuit de chauffage", "usd": [430, 980], "unit": "flat"},
+      {"name": "Rénovation complète de salle de bains", "usd": [6500, 16500], "unit": "flat"},
+      {"name": "Contrat d'entretien pompe à chaleur", "usd": [160, 280], "unit": "year"},
+      {"name": "Fourniture et pose radiateur acier", "usd": [330, 650], "unit": "piece"},
+      {"name": "Remplacement WC suspendu avec bâti-support", "usd": [760, 1450], "unit": "flat"},
+      {"name": "Ramonage conduit de fumée", "usd": [65, 110], "unit": "visit"},
+      {"name": "Mise en service chaudière à condensation", "usd": [160, 330], "unit": "flat"}
+    ]
+  },
+  "electrical": {
+    "names": ["électricité générale", "installation électrique", "électricien"],
+    "name_words": ["Électricité", "Élec", "Électricité Générale", "Électro"],
+    "phrases": [
+      "électricité générale, neuf et rénovation",
+      "installation électrique et mise aux normes des logements",
+      "courants forts et courants faibles pour le tertiaire et l'industrie",
+      "installation de bornes de recharge pour véhicules électriques",
+      "dépannage électrique, domotique et alarmes",
+      "électricité, éclairage et réseaux informatiques pour entreprises"
+    ],
+    "services": [
+      {"name": "Mise aux normes tableau électrique", "usd": [870, 1960], "unit": "flat"},
+      {"name": "Main-d'œuvre électricien", "usd": [43, 72], "unit": "hour"},
+      {"name": "Dépannage électrique urgent", "usd": [110, 240], "unit": "visit"},
+      {"name": "Installation borne de recharge 7 kW", "usd": [1300, 2400], "unit": "flat"},
+      {"name": "Pose prise électrique supplémentaire", "usd": [76, 165], "unit": "piece"},
+      {"name": "Création point lumineux", "usd": [87, 175], "unit": "piece"},
+      {"name": "Rénovation électrique complète", "usd": [87, 140], "unit": "m2"},
+      {"name": "Diagnostic de l'installation électrique", "usd": [98, 200], "unit": "flat"},
+      {"name": "Installation interphone vidéo", "usd": [435, 980], "unit": "flat"},
+      {"name": "Pose de spots LED encastrés", "usd": [54, 110], "unit": "piece"},
+      {"name": "Installation VMC simple flux", "usd": [540, 1100], "unit": "flat"},
+      {"name": "Câblage réseau RJ45", "usd": [87, 165], "unit": "piece"},
+      {"name": "Remplacement interrupteur différentiel", "usd": [130, 280], "unit": "piece"},
+      {"name": "Installation alarme anti-intrusion", "usd": [980, 2200], "unit": "flat"},
+      {"name": "Contrat de maintenance électrique", "usd": [435, 1650], "unit": "year"}
+    ]
+  },
+  "building_contractor": {
+    "names": ["entreprise générale de bâtiment", "maçonnerie générale", "construction de bâtiments"],
+    "name_words": ["Bâtiment", "Construction", "Maçonnerie", "BTP"],
+    "phrases": [
+      "entreprise générale de bâtiment",
+      "maçonnerie, gros œuvre et rénovation",
+      "construction de maisons individuelles et de bâtiments tertiaires",
+      "travaux de rénovation tous corps d'état",
+      "extension, surélévation et réhabilitation de bâtiments anciens",
+      "travaux de gros œuvre, terrassement et voirie"
+    ],
+    "services": [
+      {"name": "Construction de maison individuelle", "usd": [1500, 2400], "unit": "m2"},
+      {"name": "Extension ossature bois", "usd": [1600, 2700], "unit": "m2"},
+      {"name": "Dalle béton armé", "usd": [76, 130], "unit": "m2"},
+      {"name": "Ouverture de mur porteur avec pose d'IPN", "usd": [2700, 6500], "unit": "flat"},
+      {"name": "Montage de mur en parpaings", "usd": [54, 98], "unit": "m2"},
+      {"name": "Ravalement de façade", "usd": [45, 110], "unit": "m2"},
+      {"name": "Terrassement et fondations", "usd": [3300, 13000], "unit": "flat"},
+      {"name": "Rénovation complète d'appartement", "usd": [870, 1650], "unit": "m2"},
+      {"name": "Chape liquide", "usd": [22, 38], "unit": "m2"},
+      {"name": "Muret de clôture en maçonnerie", "usd": [110, 270], "unit": "m"},
+      {"name": "Démolition de cloison", "usd": [27, 54], "unit": "m2"},
+      {"name": "Main-d'œuvre maçon", "usd": [43, 65], "unit": "hour"},
+      {"name": "Location mini-pelle avec chauffeur", "usd": [435, 710], "unit": "day"},
+      {"name": "Isolation thermique par l'extérieur", "usd": [130, 220], "unit": "m2"},
+      {"name": "Terrasse en béton désactivé", "usd": [90, 160], "unit": "m2"}
+    ]
+  },
+  "painting": {
+    "names": ["peinture et décoration", "peinture en bâtiment", "peintre décorateur"],
+    "name_words": ["Peinture", "Décoration", "Peinture & Décoration", "Déco"],
+    "phrases": [
+      "peinture en bâtiment et décoration",
+      "peinture intérieure et extérieure, revêtements de sols et murs",
+      "ravalement de façades et peinture extérieure",
+      "pose de papiers peints, enduits décoratifs et revêtements muraux",
+      "travaux de finition et décoration intérieure pour particuliers et professionnels"
+    ],
+    "services": [
+      {"name": "Peinture murs et plafonds, deux couches", "usd": [22, 38], "unit": "m2"},
+      {"name": "Peinture des boiseries", "usd": [27, 49], "unit": "m2"},
+      {"name": "Pose de papier peint", "usd": [22, 44], "unit": "m2"},
+      {"name": "Enduit de lissage", "usd": [13, 27], "unit": "m2"},
+      {"name": "Peinture de façade", "usd": [33, 65], "unit": "m2"},
+      {"name": "Pose de toile de verre", "usd": [16, 30], "unit": "m2"},
+      {"name": "Peinture de volets bois (la paire)", "usd": [87, 195], "unit": "piece"},
+      {"name": "Traitement anti-humidité des murs", "usd": [33, 76], "unit": "m2"},
+      {"name": "Pose de parquet flottant", "usd": [27, 49], "unit": "m2"},
+      {"name": "Béton ciré mural", "usd": [98, 175], "unit": "m2"},
+      {"name": "Main-d'œuvre peintre", "usd": [38, 55], "unit": "hour"},
+      {"name": "Rafraîchissement complet d'un T2", "usd": [2700, 4900], "unit": "flat"},
+      {"name": "Conseil en décoration à domicile", "usd": [87, 220], "unit": "visit"},
+      {"name": "Nettoyage haute pression de façade", "usd": [9, 22], "unit": "m2"},
+      {"name": "Protection des sols et du mobilier", "usd": [110, 330], "unit": "flat"}
+    ]
+  },
+  "car_repair": {
+    "names": ["garage automobile", "mécanique automobile", "réparation automobile"],
+    "name_words": ["Garage", "Auto", "Automobiles", "Carrosserie"],
+    "phrases": [
+      "garage automobile toutes marques",
+      "mécanique, carrosserie et peinture automobile",
+      "entretien et réparation de véhicules légers et utilitaires",
+      "vente de pneumatiques, géométrie et climatisation automobile",
+      "réparation automobile et vente de véhicules d'occasion",
+      "diagnostic électronique, vidange et freinage toutes marques"
+    ],
+    "services": [
+      {"name": "Vidange huile moteur et filtre", "usd": [76, 140], "unit": "flat"},
+      {"name": "Révision constructeur", "usd": [165, 380], "unit": "flat"},
+      {"name": "Remplacement plaquettes de frein avant", "usd": [98, 200], "unit": "flat"},
+      {"name": "Kit de distribution avec pompe à eau", "usd": [490, 980], "unit": "flat"},
+      {"name": "Pneu 205/55 R16 monté et équilibré", "usd": [76, 140], "unit": "piece"},
+      {"name": "Contrôle et réglage du parallélisme", "usd": [65, 110], "unit": "flat"},
+      {"name": "Recharge de climatisation", "usd": [76, 130], "unit": "flat"},
+      {"name": "Diagnostic électronique", "usd": [49, 98], "unit": "flat"},
+      {"name": "Main-d'œuvre mécanique", "usd": [60, 92], "unit": "hour"},
+      {"name": "Remplacement embrayage", "usd": [650, 1300], "unit": "flat"},
+      {"name": "Batterie 70 Ah", "usd": [120, 220], "unit": "piece"},
+      {"name": "Remplacement pare-brise", "usd": [380, 870], "unit": "flat"},
+      {"name": "Débosselage sans peinture", "usd": [87, 270], "unit": "flat"},
+      {"name": "Peinture d'un élément de carrosserie", "usd": [270, 490], "unit": "piece"},
+      {"name": "Décalaminage moteur", "usd": [87, 165], "unit": "flat"}
+    ]
+  },
+  "clothing_shop": {
+    "names": ["boutique de prêt-à-porter", "magasin de vêtements", "prêt-à-porter"],
+    "name_words": ["Boutique", "Mode", "Prêt-à-Porter", "Dressing"],
+    "phrases": [
+      "prêt-à-porter féminin et accessoires de mode",
+      "boutique de vêtements hommes, femmes et enfants",
+      "vente de vêtements et chaussures de créateurs",
+      "commerce de détail d'habillement et d'accessoires",
+      "boutique de mode éthique et vêtements en fibres naturelles"
+    ],
+    "services": [
+      {"name": "Robe midi en viscose", "usd": [49, 120], "unit": "piece"},
+      {"name": "Jean coupe droite", "usd": [54, 130], "unit": "piece"},
+      {"name": "Chemise en lin homme", "usd": [49, 105], "unit": "piece"},
+      {"name": "Pull col rond en laine mérinos", "usd": [65, 150], "unit": "piece"},
+      {"name": "Manteau en laine", "usd": [165, 380], "unit": "piece"},
+      {"name": "Veste en jean", "usd": [65, 130], "unit": "piece"},
+      {"name": "T-shirt en coton bio", "usd": [22, 49], "unit": "piece"},
+      {"name": "Blouse fluide imprimée", "usd": [38, 92], "unit": "piece"},
+      {"name": "Pantalon chino", "usd": [49, 105], "unit": "piece"},
+      {"name": "Foulard en soie", "usd": [33, 98], "unit": "piece"},
+      {"name": "Sac cabas en cuir", "usd": [98, 270], "unit": "piece"},
+      {"name": "Baskets en cuir blanc", "usd": [76, 175], "unit": "piece"},
+      {"name": "Ceinture en cuir", "usd": [33, 76], "unit": "piece"},
+      {"name": "Retouche ourlet de pantalon", "usd": [11, 20], "unit": "piece"}
+    ]
+  },
+  "florist": {
+    "names": ["fleuriste", "artisan fleuriste", "art floral"],
+    "name_words": ["Fleurs", "Fleuriste", "Art Floral", "Atelier Floral"],
+    "phrases": [
+      "artisan fleuriste, compositions florales et plantes",
+      "création de bouquets et décoration florale pour mariages et événements",
+      "vente de fleurs coupées, plantes vertes et plantes fleuries",
+      "art floral funéraire et livraison de fleurs",
+      "fleuriste événementiel et abonnements floraux pour entreprises"
+    ],
+    "services": [
+      {"name": "Bouquet de saison", "usd": [27, 65], "unit": "piece"},
+      {"name": "Bouquet rond de roses", "usd": [44, 98], "unit": "piece"},
+      {"name": "Composition florale piquée", "usd": [38, 87], "unit": "piece"},
+      {"name": "Brassée de pivoines", "usd": [38, 76], "unit": "piece"},
+      {"name": "Rose rouge à l'unité", "usd": [3.3, 6.5], "unit": "piece"},
+      {"name": "Orchidée en pot deux branches", "usd": [27, 49], "unit": "piece"},
+      {"name": "Plante verte d'intérieur", "usd": [27, 98], "unit": "piece"},
+      {"name": "Bouquet de mariée", "usd": [98, 240], "unit": "piece"},
+      {"name": "Boutonnière", "usd": [8.7, 16], "unit": "piece"},
+      {"name": "Couronne de deuil", "usd": [130, 330], "unit": "piece"},
+      {"name": "Gerbe funéraire", "usd": [87, 220], "unit": "piece"},
+      {"name": "Centre de table fleuri", "usd": [44, 110], "unit": "piece"},
+      {"name": "Décoration florale de mariage, église et salle", "usd": [870, 3300], "unit": "flat"},
+      {"name": "Abonnement floral hebdomadaire pour bureaux", "usd": [165, 435], "unit": "month"},
+      {"name": "Atelier de composition florale", "usd": [49, 82], "unit": "person"}
+    ]
+  },
+  "pharmacy": {
+    "names": ["pharmacie", "officine de pharmacie", "pharmacie-parapharmacie"],
+    "name_words": ["Pharmacie", "Grande Pharmacie", "Parapharmacie"],
+    "phrases": [
+      "officine de pharmacie et parapharmacie",
+      "dispensation de médicaments, conseil pharmaceutique et orthopédie",
+      "pharmacie d'officine, matériel médical et maintien à domicile",
+      "pharmacie, herboristerie et homéopathie",
+      "vente de produits de parapharmacie, dermocosmétique et nutrition"
+    ],
+    "services": [
+      {"name": "Paracétamol 1 g, boîte de 8 comprimés", "usd": [2.2, 3.3], "unit": "box"},
+      {"name": "Sérum physiologique, 40 unidoses", "usd": [3.3, 6.5], "unit": "box"},
+      {"name": "Vitamine C 1000 mg, tube de 20 comprimés", "usd": [5.4, 9.8], "unit": "box"},
+      {"name": "Magnésium marin B6, 60 gélules", "usd": [8.7, 17], "unit": "box"},
+      {"name": "Pansements assortis, boîte de 20", "usd": [3.3, 6.5], "unit": "box"},
+      {"name": "Crème solaire SPF 50+, 50 ml", "usd": [13, 24], "unit": "piece"},
+      {"name": "Crème hydratante visage, 40 ml", "usd": [16, 38], "unit": "piece"},
+      {"name": "Huile essentielle de lavande vraie, 10 ml", "usd": [5.4, 9.8], "unit": "piece"},
+      {"name": "Lait infantile 1er âge, 800 g", "usd": [16, 27], "unit": "box"},
+      {"name": "Test de grossesse", "usd": [6.5, 13], "unit": "piece"},
+      {"name": "Thermomètre électronique", "usd": [8.7, 22], "unit": "piece"},
+      {"name": "Tensiomètre électronique au bras", "usd": [44, 87], "unit": "piece"},
+      {"name": "Bas de contention classe 2", "usd": [33, 55], "unit": "piece"},
+      {"name": "Préparation magistrale", "usd": [11, 44], "unit": "piece"},
+      {"name": "Location fauteuil roulant", "usd": [54, 98], "unit": "month"}
+    ]
+  },
+  "grocery": {
+    "names": ["épicerie", "supérette", "alimentation générale"],
+    "name_words": ["Épicerie", "Alimentation", "Supérette", "Épicerie Fine"],
+    "phrases": [
+      "épicerie de proximité et produits du quotidien",
+      "alimentation générale, fruits et légumes, boissons",
+      "épicerie fine et produits régionaux",
+      "supérette ouverte 7 jours sur 7",
+      "épicerie bio et vrac, produits locaux et de saison",
+      "commerce d'alimentation générale et dépôt de pain"
+    ],
+    "services": [
+      {"name": "Lait demi-écrémé 1 L", "usd": [1.1, 1.6], "unit": "piece"},
+      {"name": "Pack d'eau minérale 6 x 1,5 L", "usd": [2.7, 4.9], "unit": "set"},
+      {"name": "Œufs frais de plein air, boîte de 12", "usd": [3.8, 6], "unit": "box"},
+      {"name": "Pommes de terre", "usd": [1.3, 2.7], "unit": "kg"},
+      {"name": "Tomates grappe", "usd": [2.7, 5.4], "unit": "kg"},
+      {"name": "Bananes", "usd": [1.9, 3.1], "unit": "kg"},
+      {"name": "Comté AOP affiné 12 mois", "usd": [19.5, 31], "unit": "kg"},
+      {"name": "Emmental râpé 200 g", "usd": [2.2, 3.5], "unit": "piece"},
+      {"name": "Café moulu 250 g", "usd": [3.3, 6.5], "unit": "piece"},
+      {"name": "Pâtes de blé dur 500 g", "usd": [1.1, 2.2], "unit": "piece"},
+      {"name": "Huile d'olive vierge extra 75 cl", "usd": [7.6, 14], "unit": "piece"},
+      {"name": "Bouteille de Bordeaux rouge 75 cl", "usd": [5.4, 13], "unit": "piece"},
+      {"name": "Lessive liquide 2 L", "usd": [6.5, 13], "unit": "piece"},
+      {"name": "Papier toilette, paquet de 12 rouleaux", "usd": [4.3, 8.7], "unit": "box"},
+      {"name": "Panier de légumes de saison", "usd": [16, 27], "unit": "piece"}
+    ]
+  },
+  "ecommerce": {
+    "names": ["boutique en ligne", "vente en ligne", "e-commerce"],
+    "name_words": ["Shop", "Boutique", "Store", "Direct"],
+    "phrases": [
+      "vente en ligne d'articles de décoration et de maison",
+      "boutique en ligne de cosmétiques naturels",
+      "commerce électronique de produits high-tech et d'accessoires",
+      "vente à distance sur catalogue et site internet",
+      "e-commerce de vêtements et accessoires pour enfants",
+      "vente en ligne de produits d'épicerie fine et de coffrets gourmands"
+    ],
+    "services": [
+      {"name": "Coffret gourmand", "usd": [38, 87], "unit": "box"},
+      {"name": "Bougie parfumée en cire de soja", "usd": [16, 38], "unit": "piece"},
+      {"name": "Plaid en laine", "usd": [49, 120], "unit": "piece"},
+      {"name": "Coussin en lin lavé 45 x 45 cm", "usd": [27, 54], "unit": "piece"},
+      {"name": "Lampe de chevet en céramique", "usd": [49, 130], "unit": "piece"},
+      {"name": "Savon solide saponifié à froid", "usd": [6.5, 11], "unit": "piece"},
+      {"name": "Coffret soin visage", "usd": [38, 98], "unit": "box"},
+      {"name": "Coque de protection smartphone", "usd": [13, 33], "unit": "piece"},
+      {"name": "Écouteurs sans fil Bluetooth", "usd": [33, 130], "unit": "piece"},
+      {"name": "Chargeur rapide USB-C", "usd": [16, 38], "unit": "piece"},
+      {"name": "Gourde isotherme inox", "usd": [22, 44], "unit": "piece"},
+      {"name": "Body bébé en coton bio", "usd": [13, 27], "unit": "piece"},
+      {"name": "Thé vert bio en vrac 100 g", "usd": [7.6, 16], "unit": "piece"},
+      {"name": "Abonnement box mensuelle", "usd": [22, 44], "unit": "month"}
+    ]
+  },
+  "wholesale_electronics": {
+    "names": ["commerce de gros de matériel informatique", "distribution de matériel informatique et électronique", "grossiste informatique"],
+    "name_words": ["Informatique", "Distribution", "Micro", "Électronique"],
+    "phrases": [
+      "commerce de gros d'ordinateurs, d'équipements informatiques périphériques et de logiciels",
+      "distribution de composants électroniques et de matériel informatique aux revendeurs",
+      "grossiste en matériel informatique, téléphonie et accessoires",
+      "négoce de matériel informatique reconditionné",
+      "distribution de solutions réseau et de stockage pour intégrateurs"
+    ],
+    "services": [
+      {"name": "Ordinateur portable 15,6 pouces 16 Go", "usd": [600, 1030], "unit": "piece"},
+      {"name": "Écran 27 pouces IPS", "usd": [195, 380], "unit": "piece"},
+      {"name": "Tablette tactile 10 pouces", "usd": [195, 490], "unit": "piece"},
+      {"name": "Disque SSD NVMe 1 To", "usd": [65, 130], "unit": "piece"},
+      {"name": "Barrette mémoire DDR5 16 Go", "usd": [49, 87], "unit": "piece"},
+      {"name": "Switch réseau 24 ports manageable", "usd": [195, 490], "unit": "piece"},
+      {"name": "Borne Wi-Fi 6 professionnelle", "usd": [165, 410], "unit": "piece"},
+      {"name": "Onduleur 1500 VA", "usd": [195, 435], "unit": "piece"},
+      {"name": "Serveur NAS 4 baies", "usd": [435, 980], "unit": "piece"},
+      {"name": "Imprimante laser multifonction", "usd": [270, 650], "unit": "piece"},
+      {"name": "Station d'accueil USB-C", "usd": [98, 240], "unit": "piece"},
+      {"name": "Ensemble clavier et souris sans fil", "usd": [27, 65], "unit": "set"},
+      {"name": "Toner noir haute capacité", "usd": [49, 130], "unit": "piece"},
+      {"name": "Lot de 10 câbles HDMI 2 m", "usd": [27, 54], "unit": "set"},
+      {"name": "Licence suite bureautique 1 an", "usd": [87, 195], "unit": "license"}
+    ]
+  },
+  "software": {
+    "names": ["édition de logiciels", "développement de logiciels", "programmation informatique"],
+    "name_words": ["Software", "Logiciels", "Solutions", "Digital"],
+    "phrases": [
+      "développement de logiciels sur mesure",
+      "conception et développement d'applications web et mobiles",
+      "édition de logiciels de gestion pour les PME",
+      "programmation informatique et intégration de solutions SaaS",
+      "développement d'applications métier et d'interfaces API"
+    ],
+    "services": [
+      {"name": "Développement d'application web sur mesure", "usd": [490, 815], "unit": "day"},
+      {"name": "Développement d'application mobile iOS et Android", "usd": [16300, 65000], "unit": "flat"},
+      {"name": "Licence logiciel de gestion commerciale", "usd": [330, 1650], "unit": "license"},
+      {"name": "Abonnement SaaS formule Pro", "usd": [22, 65], "unit": "user"},
+      {"name": "Maintenance corrective et évolutive", "usd": [330, 1650], "unit": "month"},
+      {"name": "Audit de code et revue de sécurité", "usd": [2200, 8700], "unit": "flat"},
+      {"name": "Intégration d'API et développement de connecteurs", "usd": [545, 870], "unit": "day"},
+      {"name": "Conception UX/UI et maquettes", "usd": [435, 760], "unit": "day"},
+      {"name": "Recette et tests fonctionnels", "usd": [435, 650], "unit": "day"},
+      {"name": "Formation des utilisateurs", "usd": [980, 1650], "unit": "day"},
+      {"name": "Paramétrage et mise en production", "usd": [1650, 5400], "unit": "flat"},
+      {"name": "Hébergement et infogérance de l'application", "usd": [110, 650], "unit": "month"},
+      {"name": "Tierce maintenance applicative", "usd": [65, 110], "unit": "hour"},
+      {"name": "Chef de projet technique", "usd": [650, 980], "unit": "day"},
+      {"name": "Développement de module spécifique ERP", "usd": [3300, 16300], "unit": "flat"}
+    ]
+  },
+  "it_consulting": {
+    "names": ["conseil en systèmes informatiques", "services informatiques aux entreprises", "infogérance"],
+    "name_words": ["Informatique", "Systèmes", "Conseil", "Services"],
+    "phrases": [
+      "conseil en systèmes et logiciels informatiques",
+      "infogérance, maintenance informatique et assistance aux utilisateurs",
+      "installation et maintenance de parcs informatiques pour TPE et PME",
+      "audit, cybersécurité et accompagnement à la transformation numérique",
+      "support informatique et administration de réseaux"
+    ],
+    "services": [
+      {"name": "Contrat d'infogérance", "usd": [330, 1650], "unit": "month"},
+      {"name": "Maintenance poste de travail", "usd": [27, 65], "unit": "user"},
+      {"name": "Assistance à distance", "usd": [54, 98], "unit": "hour"},
+      {"name": "Intervention sur site d'un technicien", "usd": [98, 195], "unit": "visit"},
+      {"name": "Audit de sécurité informatique", "usd": [1650, 6500], "unit": "flat"},
+      {"name": "Installation et configuration de serveur", "usd": [870, 2700], "unit": "flat"},
+      {"name": "Mise en place de sauvegarde externalisée", "usd": [435, 1300], "unit": "flat"},
+      {"name": "Supervision du réseau", "usd": [110, 435], "unit": "month"},
+      {"name": "Migration de messagerie vers le cloud", "usd": [44, 98], "unit": "user"},
+      {"name": "Déploiement de poste de travail", "usd": [87, 195], "unit": "piece"},
+      {"name": "Fourniture et configuration de pare-feu", "usd": [1300, 3800], "unit": "flat"},
+      {"name": "Sensibilisation des collaborateurs à la cybersécurité", "usd": [650, 1650], "unit": "session"},
+      {"name": "Conseil en architecture système", "usd": [760, 1300], "unit": "day"},
+      {"name": "Récupération de données", "usd": [220, 1300], "unit": "flat"}
+    ]
+  },
+  "web_hosting": {
+    "names": ["hébergement web", "traitement de données et hébergement", "hébergeur internet"],
+    "name_words": ["Hébergement", "Cloud", "Data", "Hosting"],
+    "phrases": [
+      "hébergement de sites internet et de serveurs",
+      "traitement de données, hébergement et activités connexes",
+      "hébergement cloud souverain et infogérance de serveurs",
+      "location de serveurs dédiés et de baies en centre de données",
+      "hébergement web, noms de domaine et messagerie professionnelle"
+    ],
+    "services": [
+      {"name": "Hébergement web mutualisé", "usd": [55, 165], "unit": "year"},
+      {"name": "Serveur privé virtuel (VPS)", "usd": [11, 65], "unit": "month"},
+      {"name": "Serveur dédié", "usd": [65, 330], "unit": "month"},
+      {"name": "Nom de domaine .fr", "usd": [8.7, 16], "unit": "year"},
+      {"name": "Certificat SSL", "usd": [54, 220], "unit": "year"},
+      {"name": "Messagerie professionnelle", "usd": [3.3, 8.7], "unit": "user"},
+      {"name": "Stockage objet 1 To", "usd": [22, 110], "unit": "month"},
+      {"name": "Sauvegarde externalisée", "usd": [33, 165], "unit": "month"},
+      {"name": "Hébergement en baie 1U", "usd": [65, 165], "unit": "month"},
+      {"name": "Infogérance de serveur", "usd": [165, 650], "unit": "month"},
+      {"name": "Migration de site internet", "usd": [220, 1100], "unit": "flat"},
+      {"name": "Plan de reprise d'activité", "usd": [220, 870], "unit": "month"},
+      {"name": "Adresse IP supplémentaire", "usd": [2.2, 5.4], "unit": "month"},
+      {"name": "Cloud privé", "usd": [545, 2700], "unit": "month"},
+      {"name": "Protection anti-DDoS avancée", "usd": [54, 330], "unit": "month"}
+    ]
+  },
+  "accounting": {
+    "names": ["expertise comptable", "cabinet d'expertise comptable", "comptabilité et conseil fiscal"],
+    "name_words": ["Expertise", "Fiduciaire", "Audit", "Conseil"],
+    "phrases": [
+      "expertise comptable, audit et conseil fiscal",
+      "tenue de comptabilité, déclarations fiscales et sociales",
+      "cabinet d'expertise comptable au service des TPE, PME et professions libérales",
+      "établissement des comptes annuels et conseil en gestion",
+      "gestion de la paie et accompagnement juridique des entreprises",
+      "commissariat aux comptes et audit contractuel"
+    ],
+    "services": [
+      {"name": "Tenue de comptabilité", "usd": [110, 435], "unit": "month"},
+      {"name": "Établissement des comptes annuels", "usd": [1300, 4350], "unit": "flat"},
+      {"name": "Liasse fiscale", "usd": [435, 1300], "unit": "flat"},
+      {"name": "Déclarations fiscales périodiques", "usd": [54, 165], "unit": "month"},
+      {"name": "Bulletin de paie", "usd": [22, 44], "unit": "piece"},
+      {"name": "Déclaration de revenus des particuliers", "usd": [110, 330], "unit": "flat"},
+      {"name": "Création d'entreprise, statuts et formalités", "usd": [870, 2200], "unit": "flat"},
+      {"name": "Prévisionnel financier", "usd": [870, 2700], "unit": "flat"},
+      {"name": "Situation intermédiaire trimestrielle", "usd": [330, 980], "unit": "flat"},
+      {"name": "Conseil fiscal", "usd": [110, 270], "unit": "hour"},
+      {"name": "Rendez-vous conseil en gestion", "usd": [98, 195], "unit": "hour"},
+      {"name": "Audit légal des comptes", "usd": [870, 1650], "unit": "day"},
+      {"name": "Assistance lors d'un contrôle fiscal", "usd": [1100, 5400], "unit": "flat"},
+      {"name": "Évaluation d'entreprise", "usd": [2200, 8700], "unit": "flat"}
+    ]
+  },
+  "law_firm": {
+    "names": ["cabinet d'avocats", "avocat", "conseil juridique"],
+    "name_words": ["Avocats", "Cabinet", "Avocats Associés", "Avocats Conseils"],
+    "phrases": [
+      "cabinet d'avocats en droit des affaires",
+      "conseil et contentieux en droit du travail, droit commercial et droit immobilier",
+      "avocat au barreau, droit de la famille et droit pénal",
+      "conseil juridique et fiscal aux entreprises",
+      "rédaction d'actes, contentieux et médiation"
+    ],
+    "services": [
+      {"name": "Consultation juridique", "usd": [165, 380], "unit": "hour"},
+      {"name": "Rédaction de statuts de société", "usd": [870, 2700], "unit": "flat"},
+      {"name": "Rédaction de contrat commercial", "usd": [1100, 4350], "unit": "flat"},
+      {"name": "Rédaction de bail commercial", "usd": [1100, 3300], "unit": "flat"},
+      {"name": "Procédure de divorce par consentement mutuel", "usd": [1650, 3800], "unit": "flat"},
+      {"name": "Assistance devant le conseil de prud'hommes", "usd": [2200, 6500], "unit": "flat"},
+      {"name": "Représentation devant le tribunal judiciaire", "usd": [2700, 8700], "unit": "flat"},
+      {"name": "Audit juridique d'entreprise", "usd": [2200, 11000], "unit": "flat"},
+      {"name": "Dépôt de marque", "usd": [545, 1650], "unit": "flat"},
+      {"name": "Recouvrement de créances", "usd": [545, 2200], "unit": "flat"},
+      {"name": "Rédaction d'une mise en demeure", "usd": [165, 545], "unit": "flat"},
+      {"name": "Cession de fonds de commerce", "usd": [2200, 6500], "unit": "flat"},
+      {"name": "Abonnement conseil juridique", "usd": [220, 1100], "unit": "month"},
+      {"name": "Médiation conventionnelle", "usd": [165, 330], "unit": "hour"}
+    ]
+  },
+  "management_consulting": {
+    "names": ["conseil en management", "conseil pour les affaires et la gestion", "conseil en stratégie"],
+    "name_words": ["Conseil", "Consulting", "Management", "Stratégie"],
+    "phrases": [
+      "conseil pour les affaires et autres conseils de gestion",
+      "conseil en stratégie, organisation et management",
+      "accompagnement des dirigeants de PME dans leur développement",
+      "conseil en transformation, conduite du changement et performance opérationnelle",
+      "conseil en ressources humaines et formation managériale"
+    ],
+    "services": [
+      {"name": "Diagnostic stratégique", "usd": [3300, 13000], "unit": "flat"},
+      {"name": "Mission de conseil, consultant senior", "usd": [980, 1750], "unit": "day"},
+      {"name": "Mission de conseil, consultant junior", "usd": [545, 870], "unit": "day"},
+      {"name": "Accompagnement à la conduite du changement", "usd": [870, 1500], "unit": "day"},
+      {"name": "Séminaire de direction", "usd": [1650, 4350], "unit": "day"},
+      {"name": "Coaching de dirigeant", "usd": [220, 490], "unit": "session"},
+      {"name": "Élaboration du business plan", "usd": [2700, 8700], "unit": "flat"},
+      {"name": "Audit organisationnel", "usd": [4350, 16300], "unit": "flat"},
+      {"name": "Formation au management d'équipe", "usd": [870, 1950], "unit": "person"},
+      {"name": "Étude de marché", "usd": [3300, 16300], "unit": "flat"},
+      {"name": "Optimisation des processus Lean", "usd": [980, 1500], "unit": "day"},
+      {"name": "Animation d'atelier de co-construction", "usd": [1300, 3300], "unit": "session"},
+      {"name": "Mise en place de tableaux de bord de pilotage", "usd": [2200, 6500], "unit": "flat"},
+      {"name": "Accompagnement à la levée de fonds", "usd": [5400, 21700], "unit": "flat"}
+    ]
+  },
+  "architecture": {
+    "names": ["cabinet d'architecture", "architecte", "agence d'architecture"],
+    "name_words": ["Architecture", "Architectes", "Atelier d'Architecture"],
+    "phrases": [
+      "activités d'architecture",
+      "maîtrise d'œuvre et conception architecturale",
+      "architecture, urbanisme et architecture d'intérieur",
+      "conception de maisons individuelles et de bâtiments basse consommation",
+      "réhabilitation et extension de bâtiments, suivi de chantier",
+      "architecture et design d'espaces commerciaux et tertiaires"
+    ],
+    "services": [
+      {"name": "Esquisse et étude de faisabilité", "usd": [870, 3300], "unit": "flat"},
+      {"name": "Dossier de demande de permis de construire", "usd": [2200, 6500], "unit": "flat"},
+      {"name": "Dossier de déclaration préalable de travaux", "usd": [650, 1950], "unit": "flat"},
+      {"name": "Avant-projet détaillé", "usd": [3300, 16300], "unit": "flat"},
+      {"name": "Dossier de consultation des entreprises", "usd": [2200, 8700], "unit": "flat"},
+      {"name": "Mission complète de maîtrise d'œuvre", "usd": [16300, 87000], "unit": "flat"},
+      {"name": "Suivi de chantier", "usd": [330, 650], "unit": "visit"},
+      {"name": "Assistance aux opérations de réception", "usd": [870, 2700], "unit": "flat"},
+      {"name": "Relevé de l'existant", "usd": [5.4, 16], "unit": "m2"},
+      {"name": "Plans d'aménagement intérieur", "usd": [33, 87], "unit": "m2"},
+      {"name": "Perspective 3D photoréaliste", "usd": [330, 980], "unit": "piece"},
+      {"name": "Consultation d'architecte à domicile", "usd": [165, 435], "unit": "visit"},
+      {"name": "Étude thermique réglementaire", "usd": [870, 2200], "unit": "flat"},
+      {"name": "Mission d'architecte d'intérieur", "usd": [65, 130], "unit": "hour"}
+    ]
+  },
+  "advertising": {
+    "names": ["agence de communication", "agence de publicité", "agence de marketing"],
+    "name_words": ["Communication", "Publicité", "Com", "Marketing"],
+    "phrases": [
+      "agence de communication et de publicité",
+      "conseil en communication, création graphique et marketing digital",
+      "régie publicitaire et achat d'espaces médias",
+      "stratégie de marque, identité visuelle et campagnes publicitaires",
+      "marketing digital, référencement et gestion des réseaux sociaux",
+      "communication événementielle et relations presse"
+    ],
+    "services": [
+      {"name": "Création de logo et charte graphique", "usd": [1650, 6500], "unit": "flat"},
+      {"name": "Community management", "usd": [545, 2200], "unit": "month"},
+      {"name": "Gestion de campagnes publicitaires en ligne", "usd": [435, 1650], "unit": "month"},
+      {"name": "Référencement naturel", "usd": [435, 1650], "unit": "month"},
+      {"name": "Conception de site vitrine", "usd": [2700, 8700], "unit": "flat"},
+      {"name": "Rédaction d'article de blog", "usd": [87, 270], "unit": "piece"},
+      {"name": "Conception d'affiche et de flyer", "usd": [220, 870], "unit": "piece"},
+      {"name": "Tournage de vidéo promotionnelle", "usd": [980, 2700], "unit": "day"},
+      {"name": "Plan de communication annuel", "usd": [3300, 11000], "unit": "flat"},
+      {"name": "Relations presse", "usd": [1100, 3300], "unit": "month"},
+      {"name": "Insertion publicitaire en presse régionale", "usd": [545, 3300], "unit": "piece"},
+      {"name": "Direction artistique", "usd": [545, 980], "unit": "day"},
+      {"name": "Campagne d'emailing, conception et envoi", "usd": [330, 1300], "unit": "piece"},
+      {"name": "Audit marketing digital", "usd": [1100, 3800], "unit": "flat"},
+      {"name": "Campagne d'influence", "usd": [2200, 16300], "unit": "flat"}
+    ]
+  },
+  "photography": {
+    "names": ["studio photo", "photographe professionnel", "studio de photographie"],
+    "name_words": ["Photo", "Studio", "Photographie", "Studio Photo"],
+    "phrases": [
+      "photographe professionnel, portraits et reportages",
+      "studio de photographie, portraits, mariages et événements",
+      "photographie publicitaire, packshot et photo culinaire",
+      "prises de vue en studio et en extérieur pour particuliers et entreprises",
+      "photographie d'identité, tirages et encadrement"
+    ],
+    "services": [
+      {"name": "Séance photo portrait en studio", "usd": [98, 220], "unit": "session"},
+      {"name": "Séance photo famille en extérieur", "usd": [165, 330], "unit": "session"},
+      {"name": "Séance grossesse et nouveau-né", "usd": [195, 380], "unit": "session"},
+      {"name": "Reportage mariage journée complète", "usd": [1650, 3300], "unit": "flat"},
+      {"name": "Photos d'identité aux normes", "usd": [11, 16], "unit": "set"},
+      {"name": "Portrait corporate", "usd": [65, 165], "unit": "person"},
+      {"name": "Packshot produit détouré", "usd": [22, 65], "unit": "piece"},
+      {"name": "Reportage événementiel", "usd": [110, 220], "unit": "hour"},
+      {"name": "Photographie immobilière", "usd": [165, 435], "unit": "flat"},
+      {"name": "Photographie culinaire pour restaurant", "usd": [650, 1300], "unit": "day"},
+      {"name": "Prises de vue aériennes par drone", "usd": [330, 980], "unit": "flat"},
+      {"name": "Retouche photo avancée", "usd": [11, 44], "unit": "piece"},
+      {"name": "Tirage photo 30 x 40 cm", "usd": [22, 49], "unit": "piece"},
+      {"name": "Album photo relié", "usd": [165, 490], "unit": "piece"},
+      {"name": "Location du studio", "usd": [44, 98], "unit": "hour"}
+    ]
+  },
+  "translation": {
+    "names": ["traduction et interprétation", "agence de traduction", "traducteur-interprète"],
+    "name_words": ["Traduction", "Traductions", "Interprétariat", "Langues"],
+    "phrases": [
+      "traduction et interprétation",
+      "traduction technique, juridique et médicale dans plus de trente langues",
+      "traduction assermentée de documents officiels",
+      "interprétariat de conférence et de liaison",
+      "localisation de sites web et de logiciels, relecture et transcription"
+    ],
+    "services": [
+      {"name": "Traduction anglais-français", "usd": [0.09, 0.16], "unit": "word"},
+      {"name": "Traduction technique allemand-français", "usd": [0.11, 0.2], "unit": "word"},
+      {"name": "Traduction juridique", "usd": [0.13, 0.22], "unit": "word"},
+      {"name": "Traduction marketing et transcréation", "usd": [0.13, 0.24], "unit": "word"},
+      {"name": "Post-édition de traduction automatique", "usd": [0.045, 0.09], "unit": "word"},
+      {"name": "Localisation de site web", "usd": [0.11, 0.2], "unit": "word"},
+      {"name": "Traduction assermentée d'acte d'état civil", "usd": [44, 87], "unit": "page"},
+      {"name": "Traduction certifiée de diplôme", "usd": [38, 70], "unit": "page"},
+      {"name": "Relecture et révision", "usd": [38, 65], "unit": "hour"},
+      {"name": "Interprétation consécutive", "usd": [650, 1200], "unit": "day"},
+      {"name": "Interprétation simultanée en cabine", "usd": [870, 1400], "unit": "day"},
+      {"name": "Interprétariat de liaison", "usd": [76, 130], "unit": "hour"},
+      {"name": "Transcription audio", "usd": [65, 130], "unit": "hour"},
+      {"name": "Mise en page multilingue (PAO)", "usd": [11, 27], "unit": "page"}
+    ]
+  },
+  "road_freight": {
+    "names": ["transport routier de marchandises", "transport et logistique", "transporteur routier"],
+    "name_words": ["Transports", "Logistique", "Fret", "Transports et Logistique"],
+    "phrases": [
+      "transports routiers de fret interurbains",
+      "transport routier de marchandises et logistique",
+      "transport de marchandises en France et en Europe, messagerie et affrètement",
+      "transport frigorifique sous température dirigée",
+      "entreposage, stockage et préparation de commandes",
+      "location de véhicules industriels avec chauffeur"
+    ],
+    "services": [
+      {"name": "Transport complet en semi-remorque", "usd": [1.4, 2.2], "unit": "km"},
+      {"name": "Transport frigorifique sous température dirigée", "usd": [1.6, 2.6], "unit": "km"},
+      {"name": "Transport de vrac en benne", "usd": [1.5, 2.4], "unit": "km"},
+      {"name": "Affrètement porteur 19 t", "usd": [490, 815], "unit": "day"},
+      {"name": "Location porteur avec chauffeur", "usd": [435, 760], "unit": "day"},
+      {"name": "Messagerie palettisée en groupage", "usd": [65, 165], "unit": "piece"},
+      {"name": "Transport exceptionnel", "usd": [1650, 6500], "unit": "flat"},
+      {"name": "Transfert de site industriel", "usd": [2200, 11000], "unit": "flat"},
+      {"name": "Transport de conteneurs maritimes", "usd": [330, 980], "unit": "flat"},
+      {"name": "Stockage de palettes en entrepôt", "usd": [6.5, 16], "unit": "month"},
+      {"name": "Préparation de commandes", "usd": [1.1, 3.3], "unit": "piece"},
+      {"name": "Prestation de cross-docking", "usd": [3.3, 8.7], "unit": "piece"},
+      {"name": "Logistique e-commerce et gestion de stock", "usd": [545, 3300], "unit": "month"},
+      {"name": "Manutention au chargement et au déchargement", "usd": [38, 65], "unit": "hour"},
+      {"name": "Filmage et étiquetage de palettes", "usd": [5.4, 13], "unit": "piece"}
+    ]
+  },
+  "courier": {
+    "names": ["coursier", "livraison express", "activités de poste et de courrier"],
+    "name_words": ["Express", "Coursiers", "Courses Express", "Livraisons"],
+    "phrases": [
+      "autres activités de poste et de courrier",
+      "coursier urbain et livraison express de plis et colis",
+      "livraison du dernier kilomètre à vélo cargo",
+      "transport express de documents et de petits colis en France et en Europe",
+      "livraison de repas et de courses à domicile",
+      "courses urgentes et navettes régulières pour les entreprises"
+    ],
+    "services": [
+      {"name": "Course urgente intra-muros", "usd": [16, 38], "unit": "piece"},
+      {"name": "Course express en scooter", "usd": [13, 33], "unit": "piece"},
+      {"name": "Course à vélo cargo", "usd": [11, 27], "unit": "piece"},
+      {"name": "Pli urgent porté sous deux heures", "usd": [22, 49], "unit": "piece"},
+      {"name": "Enlèvement et distribution le jour même", "usd": [22, 65], "unit": "piece"},
+      {"name": "Transport express de colis jusqu'à 30 kg", "usd": [27, 76], "unit": "piece"},
+      {"name": "Course longue distance en véhicule utilitaire", "usd": [1, 1.75], "unit": "km"},
+      {"name": "Course express vers l'aéroport", "usd": [44, 98], "unit": "piece"},
+      {"name": "Transport d'échantillons biologiques", "usd": [27, 65], "unit": "piece"},
+      {"name": "Navette régulière inter-sites", "usd": [435, 1650], "unit": "month"},
+      {"name": "Tournée de ramassage du courrier", "usd": [165, 545], "unit": "month"},
+      {"name": "Mise à disposition d'un coursier avec véhicule", "usd": [27, 49], "unit": "hour"},
+      {"name": "Distribution d'imprimés publicitaires", "usd": [165, 650], "unit": "flat"},
+      {"name": "Logistique urbaine, stockage et tournées", "usd": [330, 2200], "unit": "month"}
+    ]
+  },
+  "travel_agency": {
+    "names": ["agence de voyages", "voyagiste", "tour-opérateur"],
+    "name_words": ["Voyages", "Évasion", "Tourisme", "Travel"],
+    "phrases": [
+      "activités des agences de voyage",
+      "agence de voyages, séjours sur mesure et circuits accompagnés",
+      "organisation de voyages d'affaires et de séminaires",
+      "vente de billets d'avion, croisières et séjours tout compris",
+      "voyages de groupes, pèlerinages et voyages scolaires"
+    ],
+    "services": [
+      {"name": "Séjour tout compris une semaine aux Baléares", "usd": [760, 1500], "unit": "person"},
+      {"name": "Circuit accompagné au Maroc", "usd": [980, 1750], "unit": "person"},
+      {"name": "Croisière en Méditerranée sept nuits", "usd": [870, 2200], "unit": "person"},
+      {"name": "Billet d'avion aller-retour Paris-New York", "usd": [490, 1200], "unit": "person"},
+      {"name": "Week-end à Rome vol et hôtel", "usd": [380, 760], "unit": "person"},
+      {"name": "Voyage de noces sur mesure", "usd": [2700, 6500], "unit": "person"},
+      {"name": "Séjour au ski en résidence", "usd": [435, 980], "unit": "person"},
+      {"name": "Séjour thalasso quatre jours", "usd": [490, 980], "unit": "person"},
+      {"name": "Voyage scolaire en Angleterre", "usd": [490, 870], "unit": "person"},
+      {"name": "Organisation de séminaire à l'étranger", "usd": [870, 2200], "unit": "person"},
+      {"name": "Excursion à la journée", "usd": [54, 165], "unit": "person"},
+      {"name": "Transfert aéroport-hôtel", "usd": [22, 65], "unit": "person"},
+      {"name": "Nuit d'hôtel réservée", "usd": [87, 220], "unit": "night"},
+      {"name": "Location de voiture", "usd": [38, 87], "unit": "day"}
+    ]
+  },
+  "real_estate": {
+    "names": ["agence immobilière", "transaction immobilière", "administration de biens"],
+    "name_words": ["Immobilier", "Immo", "Agence Immobilière", "Habitat"],
+    "phrases": [
+      "agence immobilière, transaction et gestion locative",
+      "achat, vente et location de biens immobiliers",
+      "administration de biens et syndic de copropriété",
+      "immobilier d'entreprise, bureaux, commerces et entrepôts",
+      "estimation, vente et location d'appartements et de maisons",
+      "agence immobilière spécialisée dans l'ancien et le neuf"
+    ],
+    "services": [
+      {"name": "Estimation de bien immobilier", "usd": [165, 435], "unit": "flat"},
+      {"name": "Transaction immobilière, mandat de vente", "usd": [8700, 27000], "unit": "flat"},
+      {"name": "Recherche de locataire et mise en location", "usd": [650, 1300], "unit": "flat"},
+      {"name": "Gestion locative", "usd": [54, 165], "unit": "month"},
+      {"name": "Gestion de location saisonnière", "usd": [110, 435], "unit": "month"},
+      {"name": "État des lieux d'entrée", "usd": [110, 330], "unit": "flat"},
+      {"name": "Rédaction de bail d'habitation", "usd": [220, 650], "unit": "flat"},
+      {"name": "Syndic de copropriété", "usd": [165, 330], "unit": "year"},
+      {"name": "Recherche personnalisée de bien", "usd": [3300, 11000], "unit": "flat"},
+      {"name": "Visite virtuelle 3D", "usd": [165, 435], "unit": "flat"},
+      {"name": "Home staging", "usd": [870, 3300], "unit": "flat"},
+      {"name": "Pack diagnostics immobiliers", "usd": [330, 650], "unit": "flat"},
+      {"name": "Location de bureau meublé", "usd": [330, 1650], "unit": "month"},
+      {"name": "Location de local commercial", "usd": [870, 4350], "unit": "month"}
+    ]
+  },
+  "cleaning": {
+    "names": ["entreprise de nettoyage", "propreté et services associés", "nettoyage de locaux"],
+    "name_words": ["Nettoyage", "Propreté", "Multiservices", "Net"],
+    "phrases": [
+      "nettoyage courant des bâtiments",
+      "entretien de bureaux, de commerces et de parties communes",
+      "nettoyage industriel et remise en état après travaux",
+      "propreté, vitrerie et services aux entreprises",
+      "ménage et repassage à domicile pour particuliers",
+      "nettoyage de vitres, moquettes et façades"
+    ],
+    "services": [
+      {"name": "Entretien de bureaux", "usd": [24, 35], "unit": "hour"},
+      {"name": "Entretien des parties communes", "usd": [165, 650], "unit": "month"},
+      {"name": "Contrat d'entretien annuel de commerce", "usd": [2200, 8700], "unit": "year"},
+      {"name": "Nettoyage de vitres", "usd": [2.2, 5.4], "unit": "m2"},
+      {"name": "Remise en état après travaux", "usd": [5.4, 13], "unit": "m2"},
+      {"name": "Nettoyage de fin de bail", "usd": [220, 650], "unit": "flat"},
+      {"name": "Shampouinage de moquette", "usd": [3.3, 7.6], "unit": "m2"},
+      {"name": "Décapage et cristallisation de sols", "usd": [4.3, 11], "unit": "m2"},
+      {"name": "Nettoyage de façade haute pression", "usd": [11, 27], "unit": "m2"},
+      {"name": "Nettoyage de panneaux photovoltaïques", "usd": [2.2, 5.4], "unit": "m2"},
+      {"name": "Désinfection de locaux", "usd": [2.2, 6.5], "unit": "m2"},
+      {"name": "Ménage à domicile", "usd": [27, 38], "unit": "hour"},
+      {"name": "Repassage à domicile", "usd": [27, 35], "unit": "hour"},
+      {"name": "Sortie et rentrée des conteneurs", "usd": [44, 130], "unit": "month"},
+      {"name": "Fourniture de consommables sanitaires", "usd": [22, 65], "unit": "box"}
+    ]
+  },
+  "security": {
+    "names": ["sécurité privée", "gardiennage et surveillance", "société de sécurité"],
+    "name_words": ["Sécurité", "Protection", "Surveillance", "Gardiennage"],
+    "phrases": [
+      "activités de sécurité privée",
+      "gardiennage, surveillance humaine et sécurité incendie",
+      "télésurveillance, intervention sur alarme et rondes de sécurité",
+      "sécurité événementielle et contrôle d'accès",
+      "installation et maintenance de systèmes de vidéoprotection"
+    ],
+    "services": [
+      {"name": "Agent de sécurité, heure de vacation", "usd": [22, 33], "unit": "hour"},
+      {"name": "Agent de sécurité incendie", "usd": [24, 35], "unit": "hour"},
+      {"name": "Agent cynophile", "usd": [27, 38], "unit": "hour"},
+      {"name": "Agent de sécurité événementielle", "usd": [27, 44], "unit": "hour"},
+      {"name": "Mise à disposition d'un agent d'accueil et de sécurité", "usd": [3300, 4900], "unit": "month"},
+      {"name": "Gardiennage de chantier", "usd": [240, 360], "unit": "day"},
+      {"name": "Ronde de surveillance nocturne", "usd": [33, 87], "unit": "visit"},
+      {"name": "Intervention sur déclenchement d'alarme", "usd": [65, 165], "unit": "visit"},
+      {"name": "Télésurveillance avec intervention", "usd": [33, 87], "unit": "month"},
+      {"name": "Installation de système de vidéoprotection", "usd": [1650, 6500], "unit": "flat"},
+      {"name": "Contrôle d'accès par badge", "usd": [1650, 5400], "unit": "flat"},
+      {"name": "Maintenance annuelle des systèmes de sécurité", "usd": [330, 1300], "unit": "year"},
+      {"name": "Audit de sûreté", "usd": [1100, 4350], "unit": "flat"},
+      {"name": "Protection rapprochée", "usd": [650, 1650], "unit": "day"},
+      {"name": "Formation du personnel à la sécurité incendie", "usd": [435, 1100], "unit": "session"}
+    ]
+  },
+  "language_school": {
+    "names": ["école de langues", "centre de formation linguistique", "soutien scolaire"],
+    "name_words": ["Langues", "École de Langues", "Institut", "Formation"],
+    "phrases": [
+      "enseignement des langues étrangères et soutien scolaire",
+      "cours d'anglais, d'espagnol et d'allemand pour adultes et enfants",
+      "formation linguistique professionnelle pour les entreprises",
+      "cours particuliers et stages intensifs de langues",
+      "préparation aux examens et tests de langue",
+      "soutien scolaire et aide aux devoirs du primaire au lycée"
+    ],
+    "services": [
+      {"name": "Cours particulier d'anglais", "usd": [33, 60], "unit": "lesson"},
+      {"name": "Cours de français langue étrangère", "usd": [33, 54], "unit": "lesson"},
+      {"name": "Cours de conversation en visioconférence", "usd": [22, 44], "unit": "lesson"},
+      {"name": "Soutien scolaire en mathématiques", "usd": [27, 49], "unit": "lesson"},
+      {"name": "Cours collectif d'espagnol, trimestre", "usd": [270, 490], "unit": "flat"},
+      {"name": "Cours de chinois pour débutants", "usd": [22, 38], "unit": "session"},
+      {"name": "Atelier d'anglais pour enfants", "usd": [16, 27], "unit": "session"},
+      {"name": "Stage intensif d'une semaine", "usd": [380, 870], "unit": "person"},
+      {"name": "Stage de révision du baccalauréat", "usd": [220, 490], "unit": "person"},
+      {"name": "Séjour linguistique à Londres", "usd": [1300, 2700], "unit": "person"},
+      {"name": "Formation anglais professionnel en entreprise", "usd": [49, 87], "unit": "hour"},
+      {"name": "Préparation aux tests d'anglais", "usd": [380, 870], "unit": "flat"},
+      {"name": "Aide aux devoirs, forfait mensuel", "usd": [87, 195], "unit": "month"},
+      {"name": "Test de niveau", "usd": [33, 87], "unit": "flat"},
+      {"name": "Manuel de cours et cahier d'exercices", "usd": [27, 54], "unit": "set"}
+    ]
+  },
+  "driving_school": {
+    "names": ["auto-école", "école de conduite", "enseignement de la conduite"],
+    "name_words": ["Auto-École", "École de Conduite", "Moto-École"],
+    "phrases": [
+      "enseignement de la conduite",
+      "auto-école, permis B, conduite accompagnée et permis moto",
+      "formation à la conduite et à la sécurité routière",
+      "préparation au code de la route et au permis de conduire",
+      "école de conduite, permis poids lourds et formations professionnelles"
+    ],
+    "services": [
+      {"name": "Forfait permis B 20 heures", "usd": [1300, 1950], "unit": "flat"},
+      {"name": "Heure de conduite supplémentaire", "usd": [49, 71], "unit": "lesson"},
+      {"name": "Heure de conduite sur simulateur", "usd": [27, 44], "unit": "lesson"},
+      {"name": "Heure de conduite moto", "usd": [54, 76], "unit": "lesson"},
+      {"name": "Évaluation de départ", "usd": [44, 76], "unit": "flat"},
+      {"name": "Forfait code de la route en ligne", "usd": [33, 65], "unit": "flat"},
+      {"name": "Séance de code en salle", "usd": [11, 27], "unit": "session"},
+      {"name": "Apprentissage anticipé de la conduite", "usd": [1200, 1750], "unit": "flat"},
+      {"name": "Forfait permis boîte automatique", "usd": [1100, 1650], "unit": "flat"},
+      {"name": "Stage de conduite accéléré", "usd": [1650, 2600], "unit": "flat"},
+      {"name": "Formation permis moto A2", "usd": [980, 1650], "unit": "flat"},
+      {"name": "Formation permis AM cyclomoteur", "usd": [270, 435], "unit": "flat"},
+      {"name": "Formation remorque B96", "usd": [270, 435], "unit": "flat"},
+      {"name": "Formation complémentaire post-permis", "usd": [165, 330], "unit": "flat"},
+      {"name": "Stage de récupération de points", "usd": [195, 305], "unit": "flat"}
+    ]
+  },
+  "fitness": {
+    "names": ["salle de sport", "centre de remise en forme", "club de fitness"],
+    "name_words": ["Fitness", "Gym", "Forme", "Sport"],
+    "phrases": [
+      "gestion d'installations sportives et salle de remise en forme",
+      "centre de fitness, musculation et cours collectifs",
+      "salle de sport, cardio-training et coaching personnalisé",
+      "coaching sportif à domicile et en entreprise",
+      "centre de bien-être, yoga et pilates"
+    ],
+    "services": [
+      {"name": "Abonnement mensuel sans engagement", "usd": [33, 54], "unit": "month"},
+      {"name": "Abonnement annuel", "usd": [330, 545], "unit": "year"},
+      {"name": "Carte 10 séances", "usd": [98, 165], "unit": "set"},
+      {"name": "Entrée à la séance", "usd": [8.7, 16], "unit": "session"},
+      {"name": "Séance de coaching personnel", "usd": [49, 87], "unit": "session"},
+      {"name": "Cours collectif de yoga", "usd": [13, 22], "unit": "session"},
+      {"name": "Cours de Pilates en petit groupe", "usd": [16, 27], "unit": "session"},
+      {"name": "Cours de boxe anglaise", "usd": [13, 22], "unit": "session"},
+      {"name": "Cours d'aquabike", "usd": [16, 27], "unit": "session"},
+      {"name": "Bilan forme et composition corporelle", "usd": [33, 65], "unit": "flat"},
+      {"name": "Programme nutrition personnalisé", "usd": [87, 220], "unit": "flat"},
+      {"name": "Coaching sportif en entreprise", "usd": [65, 130], "unit": "hour"},
+      {"name": "Accès sauna et hammam", "usd": [11, 22], "unit": "month"},
+      {"name": "Location de casier", "usd": [5.4, 11], "unit": "month"}
+    ]
+  },
+  "hair_beauty": {
+    "names": ["salon de coiffure", "institut de beauté", "coiffure et esthétique"],
+    "name_words": ["Coiffure", "Beauté", "Institut de Beauté", "Esthétique"],
+    "phrases": [
+      "coiffure mixte et institut de beauté",
+      "salon de coiffure hommes, femmes et enfants",
+      "soins esthétiques du visage et du corps, épilation et onglerie",
+      "coiffure, coloration végétale et barbier",
+      "institut de beauté, maquillage et soins bien-être"
+    ],
+    "services": [
+      {"name": "Forfait shampooing, coupe et brushing femme", "usd": [38, 70], "unit": "flat"},
+      {"name": "Coupe homme", "usd": [19.5, 33], "unit": "session"},
+      {"name": "Coupe enfant", "usd": [13, 22], "unit": "session"},
+      {"name": "Brushing", "usd": [22, 38], "unit": "session"},
+      {"name": "Coloration racines", "usd": [38, 65], "unit": "session"},
+      {"name": "Balayage", "usd": [76, 165], "unit": "session"},
+      {"name": "Lissage brésilien", "usd": [165, 330], "unit": "session"},
+      {"name": "Chignon de mariée", "usd": [65, 165], "unit": "session"},
+      {"name": "Taille de barbe", "usd": [13, 22], "unit": "session"},
+      {"name": "Soin du visage hydratant", "usd": [54, 92], "unit": "session"},
+      {"name": "Modelage relaxant 1 heure", "usd": [60, 98], "unit": "session"},
+      {"name": "Épilation demi-jambes", "usd": [19.5, 31], "unit": "session"},
+      {"name": "Pose de vernis semi-permanent", "usd": [27, 44], "unit": "session"},
+      {"name": "Extension de cils", "usd": [76, 140], "unit": "session"},
+      {"name": "Shampooing soin professionnel 250 ml", "usd": [16, 33], "unit": "piece"}
+    ]
+  },
+  "dental": {
+    "names": ["cabinet dentaire", "chirurgien-dentiste", "centre dentaire"],
+    "name_words": ["Cabinet Dentaire", "Centre Dentaire", "Clinique Dentaire"],
+    "phrases": [
+      "pratique dentaire",
+      "soins dentaires, prothèses et implantologie",
+      "cabinet de chirurgie dentaire et d'orthodontie",
+      "omnipratique dentaire, parodontologie et esthétique du sourire",
+      "centre de santé dentaire pour adultes et enfants"
+    ],
+    "services": [
+      {"name": "Consultation dentaire", "usd": [25, 54], "unit": "visit"},
+      {"name": "Détartrage complet", "usd": [33, 65], "unit": "flat"},
+      {"name": "Soin de carie en composite", "usd": [33, 110], "unit": "piece"},
+      {"name": "Dévitalisation molaire", "usd": [87, 220], "unit": "piece"},
+      {"name": "Extraction dentaire simple", "usd": [33, 87], "unit": "piece"},
+      {"name": "Radiographie panoramique", "usd": [22, 44], "unit": "piece"},
+      {"name": "Scellement de sillons", "usd": [22, 44], "unit": "piece"},
+      {"name": "Surfaçage radiculaire", "usd": [65, 165], "unit": "session"},
+      {"name": "Couronne céramo-métallique", "usd": [545, 980], "unit": "piece"},
+      {"name": "Couronne céramique", "usd": [650, 1200], "unit": "piece"},
+      {"name": "Bridge trois éléments", "usd": [1300, 2700], "unit": "piece"},
+      {"name": "Implant dentaire", "usd": [1100, 2200], "unit": "piece"},
+      {"name": "Prothèse amovible complète", "usd": [870, 1650], "unit": "piece"},
+      {"name": "Gouttière de bruxisme", "usd": [165, 435], "unit": "piece"},
+      {"name": "Blanchiment des dents", "usd": [330, 870], "unit": "flat"}
+    ]
+  },
+  "veterinary": {
+    "names": ["clinique vétérinaire", "cabinet vétérinaire", "activités vétérinaires"],
+    "name_words": ["Clinique Vétérinaire", "Cabinet Vétérinaire", "Centre Vétérinaire"],
+    "phrases": [
+      "activités vétérinaires",
+      "clinique vétérinaire pour chiens, chats et nouveaux animaux de compagnie",
+      "médecine, chirurgie et imagerie vétérinaires",
+      "soins vétérinaires pour animaux de compagnie et animaux de rente",
+      "consultations, vaccinations et urgences vétérinaires"
+    ],
+    "services": [
+      {"name": "Consultation vétérinaire", "usd": [38, 65], "unit": "visit"},
+      {"name": "Consultation d'urgence de nuit", "usd": [87, 195], "unit": "visit"},
+      {"name": "Vaccination annuelle chien", "usd": [65, 98], "unit": "visit"},
+      {"name": "Vaccination chat", "usd": [60, 92], "unit": "visit"},
+      {"name": "Identification par puce électronique", "usd": [54, 87], "unit": "piece"},
+      {"name": "Stérilisation chatte", "usd": [130, 270], "unit": "flat"},
+      {"name": "Castration chat", "usd": [76, 140], "unit": "flat"},
+      {"name": "Détartrage sous anesthésie", "usd": [130, 330], "unit": "flat"},
+      {"name": "Bilan sanguin complet", "usd": [65, 140], "unit": "flat"},
+      {"name": "Radiographie", "usd": [54, 110], "unit": "piece"},
+      {"name": "Échographie abdominale", "usd": [76, 165], "unit": "flat"},
+      {"name": "Hospitalisation", "usd": [33, 87], "unit": "day"},
+      {"name": "Croquettes vétérinaires 12 kg", "usd": [65, 120], "unit": "box"},
+      {"name": "Antiparasitaire en pipettes, boîte de 3", "usd": [27, 49], "unit": "box"}
+    ]
+  },
+  "printing": {
+    "names": ["imprimerie", "imprimerie numérique et offset", "reprographie"],
+    "name_words": ["Imprimerie", "Print", "Impressions", "Reprographie"],
+    "phrases": [
+      "imprimerie de labeur",
+      "imprimerie offset et numérique",
+      "impression de documents commerciaux, affiches et packagings",
+      "reprographie, reliure et impression grand format",
+      "imprimerie, façonnage et personnalisation d'objets publicitaires"
+    ],
+    "services": [
+      {"name": "Cartes de visite recto verso, lot de 500", "usd": [33, 76], "unit": "set"},
+      {"name": "Flyers A5 quadri, 1000 exemplaires", "usd": [65, 165], "unit": "set"},
+      {"name": "Brochure A4 16 pages", "usd": [1.6, 4.4], "unit": "piece"},
+      {"name": "Affiche A2", "usd": [11, 33], "unit": "piece"},
+      {"name": "Kakémono enrouleur 85 x 200 cm", "usd": [65, 165], "unit": "piece"},
+      {"name": "Impression grand format sur bâche", "usd": [16, 38], "unit": "m2"},
+      {"name": "Photocopie noir et blanc A4", "usd": [0.09, 0.22], "unit": "page"},
+      {"name": "Impression couleur A4", "usd": [0.33, 0.87], "unit": "page"},
+      {"name": "Reliure spirale", "usd": [3.3, 8.7], "unit": "piece"},
+      {"name": "Impression et reliure de mémoire", "usd": [16, 44], "unit": "piece"},
+      {"name": "Papier à en-tête, ramette de 500", "usd": [54, 130], "unit": "box"},
+      {"name": "Enveloppes personnalisées, lot de 1000", "usd": [130, 330], "unit": "set"},
+      {"name": "Étiquettes adhésives personnalisées, rouleau de 1000", "usd": [54, 165], "unit": "set"},
+      {"name": "Faire-part de mariage", "usd": [1.6, 4.4], "unit": "piece"},
+      {"name": "Création graphique et PAO", "usd": [49, 76], "unit": "hour"}
+    ]
+  },
+  "furniture_maker": {
+    "names": ["fabrication de meubles", "ébénisterie", "menuiserie d'agencement"],
+    "name_words": ["Ébénisterie", "Menuiserie", "Atelier", "Meubles"],
+    "phrases": [
+      "fabrication de meubles sur mesure en bois massif",
+      "ébénisterie d'art et restauration de meubles anciens",
+      "menuiserie d'agencement pour particuliers et professionnels",
+      "conception et fabrication de cuisines, dressings et bibliothèques",
+      "fabrication de mobilier contemporain en chêne et en noyer",
+      "agencement de magasins, d'hôtels et de restaurants"
+    ],
+    "services": [
+      {"name": "Table de salle à manger en chêne massif", "usd": [1650, 4350], "unit": "piece"},
+      {"name": "Buffet enfilade en noyer", "usd": [2200, 5400], "unit": "piece"},
+      {"name": "Bureau en noyer massif", "usd": [1300, 3800], "unit": "piece"},
+      {"name": "Lit en bois massif 160 x 200", "usd": [1300, 3300], "unit": "piece"},
+      {"name": "Chaise en frêne", "usd": [270, 650], "unit": "piece"},
+      {"name": "Dressing sur mesure", "usd": [435, 980], "unit": "m"},
+      {"name": "Bibliothèque sur mesure", "usd": [545, 1300], "unit": "m"},
+      {"name": "Plan de travail en bois massif", "usd": [165, 435], "unit": "m"},
+      {"name": "Cuisine équipée sur mesure", "usd": [8700, 27000], "unit": "flat"},
+      {"name": "Placard sous escalier sur mesure", "usd": [1300, 3800], "unit": "flat"},
+      {"name": "Agencement de comptoir de boutique", "usd": [3300, 13000], "unit": "flat"},
+      {"name": "Restauration de commode ancienne", "usd": [435, 1650], "unit": "flat"},
+      {"name": "Finition vernis au tampon", "usd": [44, 130], "unit": "m2"},
+      {"name": "Main-d'œuvre ébéniste", "usd": [49, 76], "unit": "hour"}
+    ]
+  },
+  "event_catering": {
+    "names": ["traiteur", "traiteur événementiel", "traiteur organisateur de réceptions"],
+    "name_words": ["Traiteur", "Réceptions", "Gastronomie", "Événements"],
+    "phrases": [
+      "services des traiteurs",
+      "traiteur événementiel pour mariages, séminaires et réceptions",
+      "organisation de cocktails, buffets et repas d'entreprise",
+      "traiteur, plateaux-repas et buffets livrés pour les entreprises",
+      "cuisine de réception et service à table pour événements privés et professionnels"
+    ],
+    "services": [
+      {"name": "Cocktail dînatoire 15 pièces par personne", "usd": [27, 49], "unit": "person"},
+      {"name": "Buffet froid", "usd": [19.5, 38], "unit": "person"},
+      {"name": "Menu de mariage servi à table", "usd": [76, 150], "unit": "person"},
+      {"name": "Brunch d'entreprise", "usd": [24, 44], "unit": "person"},
+      {"name": "Vin d'honneur", "usd": [11, 22], "unit": "person"},
+      {"name": "Pause-café d'accueil", "usd": [5.4, 11], "unit": "person"},
+      {"name": "Forfait boissons, softs et champagne", "usd": [13, 33], "unit": "person"},
+      {"name": "Pièce montée", "usd": [5.4, 9.8], "unit": "person"},
+      {"name": "Plateau-repas", "usd": [19.5, 33], "unit": "piece"},
+      {"name": "Pièces cocktail salées", "usd": [1.3, 2.7], "unit": "piece"},
+      {"name": "Maître d'hôtel", "usd": [33, 49], "unit": "hour"},
+      {"name": "Serveur", "usd": [27, 38], "unit": "hour"},
+      {"name": "Location de vaisselle et verrerie", "usd": [3.3, 8.7], "unit": "person"},
+      {"name": "Location de mobilier de réception", "usd": [220, 1650], "unit": "flat"},
+      {"name": "Animation culinaire avec chef", "usd": [435, 1650], "unit": "flat"}
+    ]
+  }
+}

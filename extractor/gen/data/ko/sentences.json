@@ -1,0 +1,1034 @@
+{
+  "lang": "ko",
+  "activity": [
+    {"id": "activity.ko.01", "text": "주요 사업: {ACTIVITY}"},
+    {"id": "activity.ko.02", "text": "종목: {ACTIVITY}"},
+    {"id": "activity.ko.03", "text": "{S_NAME}{은/는} {ACTIVITY}{을/를} 전문으로 하는 기업입니다."},
+    {"id": "activity.ko.04", "text": "당사는 {ACTIVITY}{을/를} 주된 사업으로 영위하고 있습니다."},
+    {"id": "activity.ko.05", "text": "{S_NAME}의 핵심 사업은 {ACTIVITY}입니다."},
+    {"id": "activity.ko.06", "text": "{ACTIVITY} 한 분야에만 집중해 온 전문 기업, {S_NAME}입니다."},
+    {"id": "activity.ko.07", "text": "저희 회사는 {city}에서 {ACTIVITY}{을/를} 하고 있습니다."},
+    {"id": "activity.ko.08", "text": "사업 분야 | {ACTIVITY}"},
+    {"id": "activity.ko.09", "text": "{ACTIVITY} 전문 기업으로서 고객 한 분 한 분의 요구에 맞는 해법을 찾아 드립니다."},
+    {"id": "activity.ko.10", "text": "회사 설립 이후 {ACTIVITY}{을/를} 주력 사업으로 키워 왔습니다."},
+    {"id": "activity.ko.11", "text": "목적: 1. {ACTIVITY} 2. 위 각 호에 관련된 부대사업 일체"},
+    {"id": "activity.ko.12", "text": "{ACTIVITY}, 이제 {S_NAME}에 믿고 맡기세요."},
+    {"id": "activity.ko.13", "text": "우리가 하는 일은 {ACTIVITY}입니다. 단순하지만 누구보다 잘할 자신이 있습니다."},
+    {"id": "activity.ko.14", "text": "{S_NAME}{은/는} {FOUNDED} 창업 이래 {ACTIVITY} 한 길만 걸어왔습니다."},
+    {"id": "activity.ko.15", "text": "주요 업무 분야는 {ACTIVITY}이며, 상담부터 사후 관리까지 직접 책임집니다."},
+    {"id": "activity.ko.16", "text": "당사는 {ACTIVITY} 부문에서 {n_years} 넘게 쌓아 온 노하우를 보유하고 있습니다."},
+    {"id": "activity.ko.17", "text": "{city} 소재 {ACTIVITY} 전문 업체 {S_NAME}"},
+    {"id": "activity.ko.18", "text": "{S_NAME}{은/는} {ACTIVITY}{을/를} 통해 고객의 일상을 더 편리하게 만들고자 합니다."},
+    {"id": "activity.ko.19", "text": "사업의 내용: {ACTIVITY}"},
+    {"id": "activity.ko.20", "text": "회사가 영위하는 주요 사업은 {ACTIVITY}{으로/로}, 매출의 대부분이 이 부문에서 발생합니다."},
+    {"id": "activity.ko.21", "text": "{manager_title} {S_PERSON}{이/가} 이끄는 {S_NAME}{은/는} {ACTIVITY} 분야의 강소기업입니다."},
+    {"id": "activity.ko.22", "text": "저희 {S_NAME}{은/는} {ACTIVITY}{을/를} 주업으로 하는 회사입니다."},
+    {"id": "activity.ko.23", "text": "{ACTIVITY} 분야의 전문성을 바탕으로 국내외 시장을 넓혀 가고 있습니다."},
+    {"id": "activity.ko.24", "text": "Business Area: {ACTIVITY}"},
+    {"id": "activity.ko.25", "text": "{S_NAME}{은/는} {ACTIVITY}에 필요한 모든 과정을 한곳에서 처리하는 원스톱 서비스를 제공합니다."},
+    {"id": "activity.ko.26", "text": "업체 소개 - {ACTIVITY} 전문"},
+    {"id": "activity.ko.27", "text": "{city} 지역을 기반으로 {ACTIVITY} 사업을 펼치고 있는 {S_NAME}{은/는} 올해도 새로운 도약을 준비하고 있습니다."},
+    {"id": "activity.ko.28", "text": "{S_NAME}{은/는} {ACTIVITY}{을/를} 주력으로 하는 {city}의 중소기업이다."}
+  ],
+  "founded": [
+    {"id": "founded.ko.01", "text": "설립일: {FOUNDED:date}"},
+    {"id": "founded.ko.02", "text": "설립연도: {FOUNDED}"},
+    {"id": "founded.ko.03", "text": "{S_NAME}{은/는} {FOUNDED}에 설립되었습니다."},
+    {"id": "founded.ko.04", "text": "당사는 {FOUNDED}에 {city}에서 첫발을 내디뎠습니다."},
+    {"id": "founded.ko.05", "text": "{FOUNDED} 창업 이래 한결같은 품질로 고객 여러분께 보답해 왔습니다."},
+    {"id": "founded.ko.06", "text": "{FOUNDED:date} {S_NAME} 설립"},
+    {"id": "founded.ko.07", "text": "회사 설립: {FOUNDED:month}"},
+    {"id": "founded.ko.08", "text": "{FOUNDED:month}, {city}의 작은 사무실에서 {S_NAME}의 역사가 시작되었습니다."},
+    {"id": "founded.ko.09", "text": "개업연월일: {FOUNDED:date}"},
+    {"id": "founded.ko.10", "text": "법인설립연월일 {FOUNDED:date}"},
+    {"id": "founded.ko.11", "text": "{FOUNDED}부터 지금까지 저희는 같은 자리에서 같은 마음으로 일하고 있습니다."},
+    {"id": "founded.ko.12", "text": "{S_NAME}의 역사는 {FOUNDED}{으로/로} 거슬러 올라갑니다."},
+    {"id": "founded.ko.13", "text": "당사는 {FOUNDED:date}에 법인 설립 등기를 마치고 공식 출범하였습니다."},
+    {"id": "founded.ko.14", "text": "창립 연도 | {FOUNDED}"},
+    {"id": "founded.ko.15", "text": "{FOUNDED}에 문을 연 {S_NAME}{은/는} 지역 주민들의 꾸준한 사랑을 받아 왔습니다."},
+    {"id": "founded.ko.16", "text": "설립 {FOUNDED} · 대표 {S_PERSON}"},
+    {"id": "founded.ko.17", "text": "저희 가게는 {FOUNDED}에 처음 문을 열었습니다."},
+    {"id": "founded.ko.18", "text": "{FOUNDED}에 창립한 이래 {S_NAME}{은/는} 품질에 타협한 적이 없습니다."},
+    {"id": "founded.ko.19", "text": "당사는 {FOUNDED}에 설립된 {ACTIVITY} 전문 기업입니다."},
+    {"id": "founded.ko.20", "text": "{S_PERSON} {manager_title}{이/가} {FOUNDED:month}에 회사를 세웠습니다."},
+    {"id": "founded.ko.21", "text": "{FOUNDED:date}, {S_NAME}{이/가} 첫 영업을 시작했습니다."},
+    {"id": "founded.ko.22", "text": "창업: {FOUNDED}"},
+    {"id": "founded.ko.23", "text": "{S_NAME}{은/는} {FOUNDED} 설립 이후 한 해도 빠짐없이 성장해 왔습니다."},
+    {"id": "founded.ko.24", "text": "설립일자 {FOUNDED:date}"},
+    {"id": "founded.ko.25", "text": "{FOUNDED} 개인사업자로 출발해 지금의 {S_NAME}{이/가} 되었습니다."},
+    {"id": "founded.ko.26", "text": "회사는 {FOUNDED:month}에 설립되어 현재까지 안정적으로 성장하고 있습니다."},
+    {"id": "founded.ko.27", "text": "{city}에 본사를 둔 {S_NAME}{은/는} {FOUNDED}에 설립됐다."},
+    {"id": "founded.ko.28", "text": "{FOUNDED} 두 사람이 시작한 작은 회사가 오늘의 {S_NAME}{이/가} 되었습니다."}
+  ],
+  "staff": [
+    {"id": "staff.ko.01", "text": "직원 수: {STAFF}"},
+    {"id": "staff.ko.02", "text": "임직원 수 {STAFF}"},
+    {"id": "staff.ko.03", "text": "상시 근로자 수: {STAFF}"},
+    {"id": "staff.ko.04", "text": "현재 {STAFF}의 임직원이 함께하고 있습니다."},
+    {"id": "staff.ko.05", "text": "{S_NAME}에는 {STAFF}의 전문 인력이 근무하고 있습니다."},
+    {"id": "staff.ko.06", "text": "당사는 {STAFF}의 직원과 함께 고객 만족을 위해 뛰고 있습니다."},
+    {"id": "staff.ko.07", "text": "저희 팀은 모두 {STAFF}입니다."},
+    {"id": "staff.ko.08", "text": "{STAFF}의 숙련된 기술진이 모든 과정을 직접 관리합니다."},
+    {"id": "staff.ko.09", "text": "회사 규모: 임직원 {STAFF}"},
+    {"id": "staff.ko.10", "text": "직원 {STAFF}"},
+    {"id": "staff.ko.11", "text": "종업원 수 | {STAFF}"},
+    {"id": "staff.ko.12", "text": "작은 회사지만 {STAFF}의 직원 모두가 한 가족처럼 일합니다."},
+    {"id": "staff.ko.13", "text": "{STAFF}의 임직원 일동은 앞으로도 고객 여러분의 성원에 보답하겠습니다."},
+    {"id": "staff.ko.14", "text": "보고서 작성일 현재 임직원 수는 {STAFF}입니다."},
+    {"id": "staff.ko.15", "text": "{S_NAME}의 전 직원 {STAFF}{은/는} 모두 정규직입니다."},
+    {"id": "staff.ko.16", "text": "정규직과 계약직을 합쳐 {STAFF}{이/가} 근무하고 있습니다."},
+    {"id": "staff.ko.17", "text": "우리 회사는 직원 {STAFF} 규모의 중소기업입니다."},
+    {"id": "staff.ko.18", "text": "Employees: {STAFF}"},
+    {"id": "staff.ko.19", "text": "당사 임직원은 {STAFF}{으로/로}, 이 가운데 절반 이상이 기술 인력입니다."},
+    {"id": "staff.ko.20", "text": "현재 임직원 수는 {STAFF}이며, 매년 신규 채용을 진행하고 있습니다."},
+    {"id": "staff.ko.21", "text": "{STAFF}의 직원이 각 부서에서 맡은 업무를 책임지고 있습니다."},
+    {"id": "staff.ko.22", "text": "인원 현황: {STAFF}"},
+    {"id": "staff.ko.23", "text": "{S_NAME}{은/는} 현재 {STAFF}의 직원을 두고 있다."},
+    {"id": "staff.ko.24", "text": "{city} 본사에서 {STAFF}{이/가} 일하고 있습니다."},
+    {"id": "staff.ko.25", "text": "구성원 {STAFF}{이/가} 같은 목표를 향해 달리고 있습니다."},
+    {"id": "staff.ko.26", "text": "고용 인원은 {STAFF}{으로/로} 지역 일자리 창출에도 기여하고 있습니다."},
+    {"id": "staff.ko.27", "text": "직원은 {STAFF}{이/가} 전부이지만, 한 사람 한 사람이 모두 전문가입니다."},
+    {"id": "staff.ko.28", "text": "{STAFF}의 직원이 교대로 근무하며 고객을 맞이합니다."}
+  ],
+  "revenue": [
+    {"id": "revenue.ko.01", "text": "매출액: {REVENUE}"},
+    {"id": "revenue.ko.02", "text": "{REVENUE_YEAR} 매출액 {REVENUE}"},
+    {"id": "revenue.ko.03", "text": "연 매출: {REVENUE} ({REVENUE_YEAR} 기준)"},
+    {"id": "revenue.ko.04", "text": "{S_NAME}{은/는} {REVENUE_YEAR}에 {REVENUE}의 매출을 올렸습니다."},
+    {"id": "revenue.ko.05", "text": "당사의 {REVENUE_YEAR} 매출은 {REVENUE}{으로/로} 전년 대비 증가했습니다."},
+    {"id": "revenue.ko.06", "text": "{REVENUE_YEAR} 연간 매출 {REVENUE} 달성"},
+    {"id": "revenue.ko.07", "text": "지난해 매출액은 {REVENUE}에 달했습니다."},
+    {"id": "revenue.ko.08", "text": "{REVENUE_YEAR} 기준 연 매출액은 {REVENUE}입니다."},
+    {"id": "revenue.ko.09", "text": "{REVENUE_YEAR_PREV} {REVENUE_PREV}이던 매출은 {REVENUE_YEAR} {REVENUE}{으로/로} 늘었습니다."},
+    {"id": "revenue.ko.10", "text": "매출액({REVENUE_YEAR}): {REVENUE}"},
+    {"id": "revenue.ko.11", "text": "최근 사업연도 매출액 {REVENUE}"},
+    {"id": "revenue.ko.12", "text": "{REVENUE_YEAR} 매출 {REVENUE} / {REVENUE_YEAR_PREV} 매출 {REVENUE_PREV}"},
+    {"id": "revenue.ko.13", "text": "회사는 {REVENUE_YEAR}에 매출 {REVENUE}{을/를} 기록하며 역대 최대 실적을 거두었습니다."},
+    {"id": "revenue.ko.14", "text": "연간 매출 규모는 {REVENUE} 수준입니다."},
+    {"id": "revenue.ko.15", "text": "{REVENUE_YEAR} 결산 기준 매출액은 {REVENUE}{으로/로} 집계되었습니다."},
+    {"id": "revenue.ko.16", "text": "Revenue ({REVENUE_YEAR}): {REVENUE}"},
+    {"id": "revenue.ko.17", "text": "{S_NAME}의 연 매출은 {REVENUE}에 이릅니다."},
+    {"id": "revenue.ko.18", "text": "매출 실적 | {REVENUE_YEAR} | {REVENUE}"},
+    {"id": "revenue.ko.19", "text": "{REVENUE_YEAR}에는 매출 {REVENUE}{을/를} 달성해 창사 이래 최고 실적을 냈습니다."},
+    {"id": "revenue.ko.20", "text": "당사는 {REVENUE_YEAR} 한 해 동안 {REVENUE}의 매출을 기록했습니다."},
+    {"id": "revenue.ko.21", "text": "연 매출 {REVENUE}, 임직원 {STAFF}의 탄탄한 중소기업입니다."},
+    {"id": "revenue.ko.22", "text": "매출액은 {REVENUE_YEAR_PREV} {REVENUE_PREV}에서 {REVENUE_YEAR} {REVENUE}{으로/로} 증가하였습니다."},
+    {"id": "revenue.ko.23", "text": "지난 회계연도 매출액: {REVENUE}"},
+    {"id": "revenue.ko.24", "text": "{REVENUE_YEAR} 매출은 {REVENUE}{으로/로}, 이 가운데 수출 비중이 {percent}에 이릅니다."},
+    {"id": "revenue.ko.25", "text": "{S_NAME}{은/는} {REVENUE_YEAR} 매출 {REVENUE}{을/를} 기록했다고 밝혔다."},
+    {"id": "revenue.ko.26", "text": "주요 재무 현황: 매출액 {REVENUE} ({REVENUE_YEAR})"},
+    {"id": "revenue.ko.27", "text": "작년 한 해 매출은 {REVENUE}{으로/로} 전년보다 두 자릿수 성장했습니다."},
+    {"id": "revenue.ko.28", "text": "{REVENUE_YEAR} 매출액은 전년({REVENUE_PREV})보다 늘어난 {REVENUE}입니다."}
+  ],
+  "services_intro": [
+    {"id": "services_intro.ko.01", "text": "주요 서비스: {SERVICE_LIST}"},
+    {"id": "services_intro.ko.02", "text": "취급 품목: {SERVICE_LIST}"},
+    {"id": "services_intro.ko.03", "text": "{S_NAME}{은/는} {SERVICE_LIST} 등을 제공합니다."},
+    {"id": "services_intro.ko.04", "text": "대표 상품은 {SERVICE}입니다."},
+    {"id": "services_intro.ko.05", "text": "저희는 {SERVICE}{을/를} 비롯해 다양한 상품과 서비스를 제공하고 있습니다."},
+    {"id": "services_intro.ko.06", "text": "고객들이 가장 많이 찾는 것은 단연 {SERVICE}입니다."},
+    {"id": "services_intro.ko.07", "text": "{SERVICE}, 이제 {S_NAME}에서 합리적인 가격으로 만나 보세요."},
+    {"id": "services_intro.ko.08", "text": "제공 서비스 - {SERVICE_LIST}"},
+    {"id": "services_intro.ko.09", "text": "주력 상품: {SERVICE}"},
+    {"id": "services_intro.ko.10", "text": "{SERVICE}{이/가} 필요하시면 언제든지 문의해 주십시오."},
+    {"id": "services_intro.ko.11", "text": "저희가 가장 자신 있는 분야는 {SERVICE}입니다."},
+    {"id": "services_intro.ko.12", "text": "서비스 안내: {SERVICE_LIST}"},
+    {"id": "services_intro.ko.13", "text": "{S_NAME}의 {SERVICE}{은/는} 꼼꼼한 품질 관리로 호평을 받고 있습니다."},
+    {"id": "services_intro.ko.14", "text": "이번 시즌 추천 상품은 {SERVICE}입니다."},
+    {"id": "services_intro.ko.15", "text": "{SERVICE_LIST}까지, 필요한 모든 것을 한곳에서 해결하세요."},
+    {"id": "services_intro.ko.16", "text": "당사의 주요 제품 및 서비스로는 {SERVICE_LIST} 등이 있습니다."},
+    {"id": "services_intro.ko.17", "text": "최근 {SERVICE} 문의가 늘어 전담 인력을 추가로 배치했습니다."},
+    {"id": "services_intro.ko.18", "text": "대표 품목: {SERVICE}"},
+    {"id": "services_intro.ko.19", "text": "{SERVICE}{을/를} 고객의 요구에 맞추어 제공해 드립니다."},
+    {"id": "services_intro.ko.20", "text": "사업 품목 | {SERVICE_LIST}"},
+    {"id": "services_intro.ko.21", "text": "주요 취급 서비스는 다음과 같습니다: {SERVICE_LIST}"},
+    {"id": "services_intro.ko.22", "text": "{S_NAME}에서는 {SERVICE}{을/를} 투명한 가격으로 제공하고 있습니다."},
+    {"id": "services_intro.ko.23", "text": "{SERVICE}에 관한 상담은 무료로 진행해 드립니다."},
+    {"id": "services_intro.ko.24", "text": "Our services: {SERVICE_LIST}"},
+    {"id": "services_intro.ko.25", "text": "대표 서비스인 {SERVICE}{은/는} 재구매율이 특히 높습니다."},
+    {"id": "services_intro.ko.26", "text": "가격 문의가 가장 많은 품목은 {SERVICE}입니다."},
+    {"id": "services_intro.ko.27", "text": "{S_NAME}{은/는} {SERVICE}{과/와} 관련된 상담부터 사후 관리까지 책임집니다."},
+    {"id": "services_intro.ko.28", "text": "새롭게 선보인 {SERVICE}{은/는} 출시 한 달 만에 좋은 반응을 얻고 있다."}
+  ],
+  "clients": [
+    {"id": "clients.ko.01", "text": "주요 고객사: {C_NAME_LIST}"},
+    {"id": "clients.ko.02", "text": "주요 납품처: {C_NAME_LIST}"},
+    {"id": "clients.ko.03", "text": "{C_NAME_LIST} 등 여러 기업과 기관이 당사의 서비스를 이용하고 있습니다."},
+    {"id": "clients.ko.04", "text": "{S_NAME}{은/는} {C_NAME}에 {SERVICE}{을/를} 제공하고 있습니다."},
+    {"id": "clients.ko.05", "text": "대표 고객: {C_NAME}, {C_NAME}"},
+    {"id": "clients.ko.06", "text": "당사는 {C_NAME}의 협력업체로 등록되어 있습니다."},
+    {"id": "clients.ko.07", "text": "{C_NAME}{과/와}의 거래는 올해로 {n_years}째 이어지고 있습니다."},
+    {"id": "clients.ko.08", "text": "주요 매출처로는 {C_NAME_LIST} 등이 있습니다."},
+    {"id": "clients.ko.09", "text": "최근 {C_NAME}의 프로젝트를 성공적으로 마무리했습니다."},
+    {"id": "clients.ko.10", "text": "고객사 레퍼런스: {C_NAME_LIST}"},
+    {"id": "clients.ko.11", "text": "당사를 믿고 맡겨 주신 {C_NAME_LIST}에 깊이 감사드립니다."},
+    {"id": "clients.ko.12", "text": "{C_NAME}{은/는} 당사의 오랜 고객입니다."},
+    {"id": "clients.ko.13", "text": "주요 실적: {C_NAME} 외 다수"},
+    {"id": "clients.ko.14", "text": "{C_NAME}에 {SERVICE}{을/를} 공급한 바 있습니다."},
+    {"id": "clients.ko.15", "text": "당사의 고객으로는 {C_NAME_LIST} 등이 있습니다."},
+    {"id": "clients.ko.16", "text": "{C_NAME}{과/와} 연간 공급 계약을 맺고 있습니다."},
+    {"id": "clients.ko.17", "text": "Clients: {C_NAME_LIST}"},
+    {"id": "clients.ko.18", "text": "{C_NAME}에서도 {S_NAME}의 서비스를 이용하고 있습니다."},
+    {"id": "clients.ko.19", "text": "{C_NAME} 등 {n_clients}{과/와} 거래하고 있습니다."},
+    {"id": "clients.ko.20", "text": "공공 부문에서는 {C_NAME}, 민간 부문에서는 {C_NAME}{이/가} 대표적인 고객입니다."},
+    {"id": "clients.ko.21", "text": "{C_NAME_LIST}의 신뢰를 받고 있습니다."},
+    {"id": "clients.ko.22", "text": "{S_NAME}{은/는} {C_NAME}의 공식 납품업체입니다."},
+    {"id": "clients.ko.23", "text": "수행 실적 | {C_NAME} | {SERVICE}"},
+    {"id": "clients.ko.24", "text": "{C_NAME}{과/와} 처음 거래를 시작한 뒤 해마다 재계약이 이어지고 있습니다."},
+    {"id": "clients.ko.25", "text": "지역에서는 {C_NAME}, 수도권에서는 {C_NAME}{이/가} 저희의 주요 고객입니다."},
+    {"id": "clients.ko.26", "text": "{S_NAME}{은/는} 최근 {C_NAME}{과/와} 신규 계약을 체결했다고 밝혔다."},
+    {"id": "clients.ko.27", "text": "저희 고객 가운데에는 {C_NAME}{과/와} 같은 대형 고객사도 있습니다."},
+    {"id": "clients.ko.28", "text": "{C_NAME_LIST} 등이 저희 {SERVICE}{을/를} 이용하고 있습니다."}
+  ],
+  "hours": [
+    {"id": "hours.ko.01", "text": "영업시간: {HOURS}"},
+    {"id": "hours.ko.02", "text": "운영 시간 {HOURS}"},
+    {"id": "hours.ko.03", "text": "상담 가능 시간: {HOURS}"},
+    {"id": "hours.ko.04", "text": "영업시간은 {HOURS:prose}입니다."},
+    {"id": "hours.ko.05", "text": "{HOURS:prose} 영업합니다."},
+    {"id": "hours.ko.06", "text": "고객센터 운영 시간: {HOURS}"},
+    {"id": "hours.ko.07", "text": "매장은 {HOURS:prose} 문을 엽니다."},
+    {"id": "hours.ko.08", "text": "{S_NAME}{은/는} {HOURS:prose} 운영됩니다."},
+    {"id": "hours.ko.09", "text": "업무 시간 | {HOURS}"},
+    {"id": "hours.ko.10", "text": "방문 상담은 {HOURS:prose} 가능합니다."},
+    {"id": "hours.ko.11", "text": "OPEN {HOURS}"},
+    {"id": "hours.ko.12", "text": "전화 문의는 {HOURS:prose} 받고 있습니다."},
+    {"id": "hours.ko.13", "text": "저희 매장의 영업시간은 {HOURS}입니다."},
+    {"id": "hours.ko.14", "text": "Business hours: {HOURS}"},
+    {"id": "hours.ko.15", "text": "근무 시간: {HOURS}"},
+    {"id": "hours.ko.16", "text": "{HOURS:prose} 전문 상담원이 친절히 안내해 드립니다."},
+    {"id": "hours.ko.17", "text": "영업 안내 ☎ {S_PHONE} / {HOURS}"},
+    {"id": "hours.ko.18", "text": "평소 영업시간({HOURS})에는 예약 없이 방문하셔도 됩니다."},
+    {"id": "hours.ko.19", "text": "사무실은 {HOURS:prose} 열려 있습니다."},
+    {"id": "hours.ko.20", "text": "{S_NAME} 운영 시간: {HOURS}"},
+    {"id": "hours.ko.21", "text": "주문 접수는 {HOURS:prose} 가능하며, 이후 접수 건은 다음 영업일에 처리됩니다."},
+    {"id": "hours.ko.22", "text": "이용 시간 {HOURS}"},
+    {"id": "hours.ko.23", "text": "저희는 {HOURS:prose} 여러분을 기다리고 있습니다."},
+    {"id": "hours.ko.24", "text": "[영업시간] {HOURS}"},
+    {"id": "hours.ko.25", "text": "매장 방문은 {HOURS:prose} 가능합니다."},
+    {"id": "hours.ko.26", "text": "운영시간 안내: {HOURS}"},
+    {"id": "hours.ko.27", "text": "{HOURS:prose} 언제든 편하게 들러 주세요."},
+    {"id": "hours.ko.28", "text": "영업시간이 {HOURS}{으로/로} 변경되었습니다."}
+  ],
+  "certifications": [
+    {"id": "certifications.ko.01", "text": "보유 인증: {CERT_LIST}"},
+    {"id": "certifications.ko.02", "text": "인증 현황: {CERT_LIST}"},
+    {"id": "certifications.ko.03", "text": "{S_NAME}{은/는} {CERT}{을/를} 획득했습니다."},
+    {"id": "certifications.ko.04", "text": "당사는 {CERT}{을/를} 취득하여 대외적으로 신뢰성을 인정받았습니다."},
+    {"id": "certifications.ko.05", "text": "{CERT} 획득 기업"},
+    {"id": "certifications.ko.06", "text": "인증 및 수상 내역: {CERT_LIST}"},
+    {"id": "certifications.ko.07", "text": "{CERT_LIST} 등 각종 인증을 보유하고 있습니다."},
+    {"id": "certifications.ko.08", "text": "{year}에 {CERT}{을/를} 획득한 데 이어 올해 갱신 심사도 무사히 통과했습니다."},
+    {"id": "certifications.ko.09", "text": "{S_NAME}의 모든 공정은 {CERT} 기준에 따라 관리됩니다."},
+    {"id": "certifications.ko.10", "text": "{CERT} 관련 증빙 서류는 요청 시 제공해 드립니다."},
+    {"id": "certifications.ko.11", "text": "품질과 신뢰의 증표, {CERT}"},
+    {"id": "certifications.ko.12", "text": "당사는 {CERT_LIST}{을/를} 보유한 검증된 기업입니다."},
+    {"id": "certifications.ko.13", "text": "{S_NAME}{은/는} {city} 지역 최초로 {CERT}{을/를} 획득했습니다."},
+    {"id": "certifications.ko.14", "text": "인증 | {CERT}"},
+    {"id": "certifications.ko.15", "text": "{CERT} 획득으로 제품과 서비스의 신뢰도를 한층 높였습니다."},
+    {"id": "certifications.ko.16", "text": "지난 심사에서 {CERT}{을/를} 재인증받았습니다."},
+    {"id": "certifications.ko.17", "text": "각종 인증({CERT_LIST})을 통해 품질을 입증하고 있습니다."},
+    {"id": "certifications.ko.18", "text": "수상 및 인증: {CERT_LIST}"},
+    {"id": "certifications.ko.19", "text": "저희는 {CERT}{을/를} 받은 {ACTIVITY} 전문 업체입니다."},
+    {"id": "certifications.ko.20", "text": "Certifications: {CERT_LIST}"},
+    {"id": "certifications.ko.21", "text": "{CERT_LIST}{을/를} 획득하며 기술력과 신뢰성을 동시에 인정받았습니다."},
+    {"id": "certifications.ko.22", "text": "당사가 보유한 {CERT}{은/는} 까다로운 심사를 거쳐야만 받을 수 있습니다."},
+    {"id": "certifications.ko.23", "text": "회원 및 인증: {CERT_LIST}"},
+    {"id": "certifications.ko.24", "text": "{S_NAME}{은/는} {CERT}{을/를} 유지하기 위해 매년 정기 심사를 받고 있습니다."},
+    {"id": "certifications.ko.25", "text": "대외 인증 · 수상: {CERT_LIST}"},
+    {"id": "certifications.ko.26", "text": "고객 여러분의 성원 덕분에 {CERT}{을/를} 획득할 수 있었습니다."},
+    {"id": "certifications.ko.27", "text": "{S_NAME}{이/가} {CERT}{을/를} 획득했다고 밝혔다."},
+    {"id": "certifications.ko.28", "text": "주요 인증: {CERT_LIST} 보유"}
+  ],
+  "location": [
+    {"id": "location.ko.01", "text": "주소: {S_ADDRESS}"},
+    {"id": "location.ko.02", "text": "본사: {S_ADDRESS}"},
+    {"id": "location.ko.03", "text": "{S_NAME}{은/는} {S_ADDRESS}에 위치하고 있습니다."},
+    {"id": "location.ko.04", "text": "찾아오시는 길: {S_ADDRESS}"},
+    {"id": "location.ko.05", "text": "대표전화 {S_PHONE}"},
+    {"id": "location.ko.06", "text": "전화: {S_PHONE} | 이메일: {S_EMAIL}"},
+    {"id": "location.ko.07", "text": "문의 사항은 {S_EMAIL}{으로/로} 보내 주시기 바랍니다."},
+    {"id": "location.ko.08", "text": "자세한 내용은 홈페이지({S_URL})에서 확인하실 수 있습니다."},
+    {"id": "location.ko.09", "text": "홈페이지: {S_URL}"},
+    {"id": "location.ko.10", "text": "Tel. {S_PHONE}"},
+    {"id": "location.ko.11", "text": "E-mail: {S_EMAIL}"},
+    {"id": "location.ko.12", "text": "사업장 소재지: {S_ADDRESS}"},
+    {"id": "location.ko.13", "text": "본점 소재지 {S_ADDRESS}"},
+    {"id": "location.ko.14", "text": "저희 사무실은 {S_ADDRESS}에 있습니다."},
+    {"id": "location.ko.15", "text": "{S_PHONE}{으로/로} 전화 주시면 친절히 안내해 드리겠습니다."},
+    {"id": "location.ko.16", "text": "{S_URL}에서 새 소식을 가장 먼저 만나 보세요."},
+    {"id": "location.ko.17", "text": "주소 {S_ADDRESS} / 전화 {S_PHONE}"},
+    {"id": "location.ko.18", "text": "{S_NAME} 본사 | {S_ADDRESS} | {S_PHONE}"},
+    {"id": "location.ko.19", "text": "견적 요청은 이메일({S_EMAIL}) 또는 전화({S_PHONE})로 받습니다."},
+    {"id": "location.ko.20", "text": "온라인 상담: {S_URL}"},
+    {"id": "location.ko.21", "text": "고객센터 {S_PHONE}"},
+    {"id": "location.ko.22", "text": "우편물은 {S_ADDRESS}{으로/로} 보내 주십시오."},
+    {"id": "location.ko.23", "text": "방문 전 {S_PHONE}{으로/로} 미리 연락 주시면 더 빠르게 상담해 드립니다."},
+    {"id": "location.ko.24", "text": "웹사이트 {S_URL} · 이메일 {S_EMAIL}"},
+    {"id": "location.ko.25", "text": "당사 소재지는 {S_ADDRESS}입니다."},
+    {"id": "location.ko.26", "text": "메일 문의 {S_EMAIL}"},
+    {"id": "location.ko.27", "text": "도로명 주소: {S_ADDRESS}"},
+    {"id": "location.ko.28", "text": "오시는 길: {S_ADDRESS} - 주차는 건물 뒤편을 이용해 주세요."}
+  ],
+  "capital": [
+    {"id": "capital.ko.01", "text": "자본금: {CAPITAL}"},
+    {"id": "capital.ko.02", "text": "자본금 {CAPITAL}"},
+    {"id": "capital.ko.03", "text": "납입자본금: {CAPITAL}"},
+    {"id": "capital.ko.04", "text": "{S_NAME}의 자본금은 {CAPITAL}입니다."},
+    {"id": "capital.ko.05", "text": "당사는 자본금 {CAPITAL}{으로/로} 설립되었습니다."},
+    {"id": "capital.ko.06", "text": "{FOUNDED}에 자본금 {CAPITAL}{으로/로} 법인을 설립했습니다."},
+    {"id": "capital.ko.07", "text": "자본금의 액 {CAPITAL}"},
+    {"id": "capital.ko.08", "text": "회사 개요 - 자본금 {CAPITAL}, 임직원 {STAFF}"},
+    {"id": "capital.ko.09", "text": "{S_NAME}{은/는} 최근 유상증자를 통해 자본금을 {CAPITAL}{으로/로} 늘렸습니다."},
+    {"id": "capital.ko.10", "text": "당사는 자본금 {CAPITAL}의 {LEGAL_FORM}입니다."},
+    {"id": "capital.ko.11", "text": "당사의 자본금은 {CAPITAL}이며, 전액 납입되었습니다."},
+    {"id": "capital.ko.12", "text": "Capital: {CAPITAL}"},
+    {"id": "capital.ko.13", "text": "자본금 | {CAPITAL}"},
+    {"id": "capital.ko.14", "text": "회사는 {CAPITAL}의 자본금으로 운영되고 있습니다."},
+    {"id": "capital.ko.15", "text": "등기부상 자본금: {CAPITAL}"},
+    {"id": "capital.ko.16", "text": "자본금 규모는 {CAPITAL}{으로/로} 동종 업계 평균을 웃돕니다."},
+    {"id": "capital.ko.17", "text": "[기업 정보] 자본금 {CAPITAL} / 설립 {FOUNDED}"},
+    {"id": "capital.ko.18", "text": "{S_NAME}{은/는} 자본금 {CAPITAL}, 연 매출 {REVENUE}의 건실한 기업입니다."},
+    {"id": "capital.ko.19", "text": "자본금 총액은 {CAPITAL}입니다."},
+    {"id": "capital.ko.20", "text": "당사는 {CAPITAL}의 자본금을 바탕으로 안정적인 재무 구조를 유지하고 있습니다."},
+    {"id": "capital.ko.21", "text": "자본금: {CAPITAL} (전액 납입)"},
+    {"id": "capital.ko.22", "text": "현재 자본금은 {CAPITAL}{으로/로}, 대표이사가 최대주주입니다."},
+    {"id": "capital.ko.23", "text": "법인 자본금 {CAPITAL}"},
+    {"id": "capital.ko.24", "text": "{S_NAME:legal}의 등기상 자본금은 {CAPITAL}{으로/로} 확인됩니다."},
+    {"id": "capital.ko.25", "text": "{S_NAME}{은/는} 자본금 {CAPITAL} 규모의 법인이다."},
+    {"id": "capital.ko.26", "text": "기업 규모: 자본금 {CAPITAL} / 직원 {STAFF}"}
+  ],
+  "legal_form": [
+    {"id": "legal_form.ko.01", "text": "법인 형태: {LEGAL_FORM}"},
+    {"id": "legal_form.ko.02", "text": "기업 형태: {LEGAL_FORM}"},
+    {"id": "legal_form.ko.03", "text": "회사 형태 | {LEGAL_FORM}"},
+    {"id": "legal_form.ko.04", "text": "{S_NAME}{은/는} {LEGAL_FORM} 형태로 운영되고 있습니다."},
+    {"id": "legal_form.ko.05", "text": "당사는 {FOUNDED}에 {LEGAL_FORM}{으로/로} 설립되었습니다."},
+    {"id": "legal_form.ko.06", "text": "법인 구분: {LEGAL_FORM}"},
+    {"id": "legal_form.ko.07", "text": "기업 구분: {LEGAL_FORM} / 중소기업"},
+    {"id": "legal_form.ko.08", "text": "{S_NAME}{은/는} {year}에 {LEGAL_FORM}{으로/로} 조직을 변경했습니다."},
+    {"id": "legal_form.ko.09", "text": "형태: {LEGAL_FORM}"},
+    {"id": "legal_form.ko.10", "text": "법적 형태는 {LEGAL_FORM}이며, 본점은 {city}에 있습니다."},
+    {"id": "legal_form.ko.11", "text": "당사는 {CAPITAL}의 자본금을 갖춘 {LEGAL_FORM}입니다."},
+    {"id": "legal_form.ko.12", "text": "{LEGAL_FORM}{으로/로}서 투명하고 책임 있는 경영을 실천하고 있습니다."},
+    {"id": "legal_form.ko.13", "text": "Legal form: {LEGAL_FORM}"},
+    {"id": "legal_form.ko.14", "text": "회사의 종류: {LEGAL_FORM}"},
+    {"id": "legal_form.ko.15", "text": "개인사업자로 시작한 {S_NAME}{은/는} 현재 {LEGAL_FORM}{으로/로} 운영되고 있습니다."},
+    {"id": "legal_form.ko.16", "text": "사업자 유형: {LEGAL_FORM}"},
+    {"id": "legal_form.ko.17", "text": "{S_NAME}의 법인 형태는 {LEGAL_FORM}입니다."},
+    {"id": "legal_form.ko.18", "text": "{LEGAL_FORM} | 설립 {FOUNDED} | 자본금 {CAPITAL}"},
+    {"id": "legal_form.ko.19", "text": "당사는 비상장 {LEGAL_FORM}입니다."},
+    {"id": "legal_form.ko.20", "text": "조직 형태: {LEGAL_FORM}"},
+    {"id": "legal_form.ko.21", "text": "{LEGAL_FORM}{으로/로} 전환한 뒤 {S_NAME}{은/는} 한층 더 성장했습니다."},
+    {"id": "legal_form.ko.22", "text": "기업 유형 - {LEGAL_FORM}"},
+    {"id": "legal_form.ko.23", "text": "법인 종류 {LEGAL_FORM}"},
+    {"id": "legal_form.ko.24", "text": "{S_NAME}{은/는} 상법에 따라 설립된 {LEGAL_FORM}입니다."},
+    {"id": "legal_form.ko.25", "text": "{S_NAME}{은/는} 지난해 {LEGAL_FORM}{으로/로} 법인 전환을 마쳤다."},
+    {"id": "legal_form.ko.26", "text": "회사 구분: {LEGAL_FORM}(비상장)"}
+  ],
+  "traps": [
+    {"id": "trap.ko.01", "trap": "T1", "text": "지난해 수주한 프로젝트 가운데 최대 규모는 계약 금액 {amount}에 달했습니다."},
+    {"id": "trap.ko.02", "trap": "T1", "text": "{S_NAME}{은/는} 최근 {C_NAME}{과/와} {amount} 규모의 장기 공급 계약을 체결했습니다."},
+    {"id": "trap.ko.03", "trap": "T1", "text": "이번 분기 신규 수주액은 {amount}{으로/로} 집계되었습니다."},
+    {"id": "trap.ko.04", "trap": "T1", "text": "지난달 매출은 {amount}{으로/로} 전월보다 소폭 늘었습니다."},
+    {"id": "trap.ko.05", "trap": "T1", "text": "영업이익은 {amount}{으로/로} 흑자 기조를 이어갔습니다."},
+    {"id": "trap.ko.06", "trap": "T1", "text": "올해 설비 투자에만 {amount}{을/를} 투입했습니다."},
+    {"id": "trap.ko.07", "trap": "T1", "text": "단일 계약으로는 역대 최대인 {amount} 규모의 수주에 성공했습니다."},
+    {"id": "trap.ko.08", "trap": "T1", "text": "창사 이래 누적 수주액이 {amount}{을/를} 넘어섰습니다."},
+    {"id": "trap.ko.09", "trap": "T1", "text": "정부 지원 사업을 통해 {amount}의 연구개발비를 확보했습니다."},
+    {"id": "trap.ko.10", "trap": "T1", "text": "월평균 매출은 {amount} 수준입니다."},
+    {"id": "trap.ko.11", "trap": "T1", "text": "당기순이익 {amount}"},
+    {"id": "trap.ko.12", "trap": "T5", "text": "주거래 은행은 {bank}입니다."},
+    {"id": "trap.ko.13", "trap": "T5", "text": "원자재는 {supplier}{으로/로}부터 전량 공급받고 있습니다."},
+    {"id": "trap.ko.14", "trap": "T5", "text": "{partner}{과/와} 전략적 업무 협약(MOU)을 체결했습니다."},
+    {"id": "trap.ko.15", "trap": "T5", "text": "업계 1위인 {competitor}{과/와} 비교해도 손색없는 품질을 자랑합니다."},
+    {"id": "trap.ko.16", "trap": "T5", "text": "{bank}에서 시설자금 대출을 받아 생산 설비를 확충했습니다."},
+    {"id": "trap.ko.17", "trap": "T5", "text": "물류와 배송은 협력사인 {partner}에서 맡고 있습니다."},
+    {"id": "trap.ko.18", "trap": "T5", "text": "당사는 {supplier}의 공식 대리점으로서 정품만을 취급합니다."},
+    {"id": "trap.ko.19", "trap": "T5", "text": "당사의 첫 고객인 {C_NAME}{은/는} {client_founded}에 설립된 회사로, 지금도 꾸준히 거래하고 있습니다."},
+    {"id": "trap.ko.20", "trap": "T5", "text": "{competitor}{이/가} 가격 경쟁에 매달릴 때 저희는 품질에 집중했습니다."},
+    {"id": "trap.ko.21", "trap": "T5", "text": "자금 관리는 {bank}, 회계 감사는 {other_org}에서 맡고 있습니다."},
+    {"id": "trap.ko.22", "trap": "T5", "text": "{client_founded}에 창업한 고객사 {C_NAME}{과/와}도 오랫동안 인연을 이어 오고 있습니다."},
+    {"id": "trap.ko.23", "trap": "T7", "text": "{year}에 현재의 사옥으로 이전했습니다."},
+    {"id": "trap.ko.24", "trap": "T7", "text": "{year}에 매장 인테리어를 전면 새로 단장했습니다."},
+    {"id": "trap.ko.25", "trap": "T7", "text": "이번 특별 할인은 {year} 12월 31일까지 적용됩니다."},
+    {"id": "trap.ko.26", "trap": "T7", "text": "{year}에 두 번째 지점을 열었습니다."},
+    {"id": "trap.ko.27", "trap": "T7", "text": "{year}에 기업부설연구소를 설립하여 기술 개발에 박차를 가하고 있습니다."},
+    {"id": "trap.ko.28", "trap": "T7", "text": "{year}부터 온라인 쇼핑몰을 운영하고 있습니다."},
+    {"id": "trap.ko.29", "trap": "T7", "text": "{year}에 처음으로 해외 수출을 시작했습니다."},
+    {"id": "trap.ko.30", "trap": "T7", "text": "{year}에 {CERT}{을/를} 획득하며 품질을 인정받았습니다."},
+    {"id": "trap.ko.31", "trap": "T7", "text": "현 대표는 {year}에 경영을 이어받았습니다."},
+    {"id": "trap.ko.32", "trap": "T7", "text": "{year}식 최신 장비를 도입해 작업 효율을 높였습니다."},
+    {"id": "trap.ko.33", "trap": "T7", "text": "{year} 하반기에는 신규 물류센터가 가동될 예정입니다."},
+    {"id": "trap.ko.34", "trap": "T8", "text": "{n_years} 이상의 경력을 갖춘 전문가가 직접 상담해 드립니다."},
+    {"id": "trap.ko.35", "trap": "T8", "text": "지금까지 {n_clients}{이/가} 저희 서비스를 이용했습니다."},
+    {"id": "trap.ko.36", "trap": "T8", "text": "현재 전국에서 {n_shops}{을/를} 운영하고 있습니다."},
+    {"id": "trap.ko.37", "trap": "T8", "text": "신속한 배송을 위해 {n_vehicles}{을/를} 직접 운영합니다."},
+    {"id": "trap.ko.38", "trap": "T8", "text": "현재 {n_products}{을/를} 취급하고 있습니다."},
+    {"id": "trap.ko.39", "trap": "T8", "text": "창업 이래 {n_projects}{을/를} 성공적으로 완수했습니다."},
+    {"id": "trap.ko.40", "trap": "T8", "text": "업력 {n_years}의 노하우로 고객의 고민을 해결해 드립니다."},
+    {"id": "trap.ko.41", "trap": "T8", "text": "{n_clients}의 선택에는 분명한 이유가 있습니다."},
+    {"id": "trap.ko.42", "trap": "T8", "text": "{n_shops}에서 똑같은 품질과 서비스를 약속드립니다."},
+    {"id": "trap.ko.43", "trap": "T8", "text": "대표는 이 분야에서만 {n_years} 동안 일해 왔습니다."},
+    {"id": "trap.ko.44", "trap": "T8", "text": "지난해에만 {n_projects}{을/를} 수주했습니다."},
+    {"id": "trap.ko.45", "trap": "T11", "text": "이 건과 관련한 문의는 담당 {position} {person}에게 연락해 주시기 바랍니다."},
+    {"id": "trap.ko.46", "trap": "T11", "text": "담당자: {person} ({position})"},
+    {"id": "trap.ko.47", "trap": "T11", "text": "실무는 {position} {person}{이/가} 총괄하고 있습니다."},
+    {"id": "trap.ko.48", "trap": "T11", "text": "궁금하신 점은 {position} {person}{이/가} 친절하게 안내해 드립니다."},
+    {"id": "trap.ko.49", "trap": "T11", "text": "{person} {position}{은/는} {n_years} 경력의 베테랑입니다."},
+    {"id": "trap.ko.50", "trap": "T11", "text": "견적 및 납기 문의: {person} {position}"},
+    {"id": "trap.ko.51", "trap": "T11", "text": "이번 프로젝트는 {person} {position}{이/가} 실무를 맡아 진행합니다."},
+    {"id": "trap.ko.52", "trap": "T11", "text": "신입 사원 교육은 {position} {person}{이/가} 진행합니다."},
+    {"id": "trap.ko.53", "trap": "T11", "text": "대표이사 일정 문의는 {position} {person}에게 해 주십시오."},
+    {"id": "trap.ko.54", "trap": "T11", "text": "이번 행사는 {position} {person}의 기획으로 마련되었습니다."},
+    {"id": "trap.ko.55", "trap": "T13", "text": "{partner}{과/와} 함께 {C_NAME}의 신규 프로젝트를 수행했습니다."},
+    {"id": "trap.ko.56", "trap": "T13", "text": "주요 고객사로는 {C_NAME_LIST} 등이 있으며, 원자재는 {supplier}에서 공급받고 있습니다."},
+    {"id": "trap.ko.57", "trap": "T13", "text": "{C_NAME}에 납품하는 모든 제품은 {supplier}의 원료로 만듭니다."},
+    {"id": "trap.ko.58", "trap": "T13", "text": "{supplier}의 부품을 사용해 {C_NAME}의 설비를 유지·보수하고 있습니다."},
+    {"id": "trap.ko.59", "trap": "T13", "text": "당사는 {partner}{과/와} 컨소시엄을 구성해 {C_NAME}의 사업을 수주했습니다."},
+    {"id": "trap.ko.60", "trap": "T13", "text": "{C_NAME_LIST}에 제공하는 서비스는 협력사 {partner}의 기술 지원을 받고 있습니다."},
+    {"id": "trap.ko.61", "trap": "T13", "text": "{C_NAME}{은/는} 저희 고객이고, {partner}{은/는} 저희와 함께 일하는 협력사입니다."},
+    {"id": "trap.ko.62", "trap": "T13", "text": "고객사 {C_NAME}의 요청으로 {supplier} 제품을 추가로 도입했습니다."},
+    {"id": "trap.ko.63", "trap": "T13", "text": "{partner}의 플랫폼을 통해 {C_NAME}에 서비스를 제공하고 있습니다."},
+    {"id": "trap.ko.64", "trap": "T13", "text": "{C_NAME}{과/와} {C_NAME}{은/는} 고객사이고, {supplier}{은/는} 주요 공급사입니다."}
+  ],
+  "filler": [
+    {"id": "filler.ko.01", "text": "고객 여러분의 소중한 의견에 항상 귀를 기울이겠습니다."},
+    {"id": "filler.ko.02", "text": "문의 사항이 있으시면 언제든지 편하게 연락해 주십시오."},
+    {"id": "filler.ko.03", "text": "모든 제품은 출고 전 꼼꼼한 검수 과정을 거칩니다."},
+    {"id": "filler.ko.04", "text": "정성을 다해 모시겠습니다."},
+    {"id": "filler.ko.05", "text": "주차 공간이 협소하오니 가급적 대중교통을 이용해 주시기 바랍니다."},
+    {"id": "filler.ko.06", "text": "예약 변경은 방문 하루 전까지 가능합니다."},
+    {"id": "filler.ko.07", "text": "명절 연휴 기간에는 배송이 다소 늦어질 수 있습니다."},
+    {"id": "filler.ko.08", "text": "작은 부분까지 세심하게 챙기는 것이 저희의 원칙입니다."},
+    {"id": "filler.ko.09", "text": "고객의 개인정보는 관련 법령에 따라 안전하게 관리됩니다."},
+    {"id": "filler.ko.10", "text": "더 나은 서비스를 위해 끊임없이 고민하고 있습니다."},
+    {"id": "filler.ko.11", "text": "견적은 현장을 확인한 후 정확하게 안내해 드립니다."},
+    {"id": "filler.ko.12", "text": "처음 방문하시는 분도 부담 없이 상담받으실 수 있습니다."},
+    {"id": "filler.ko.13", "text": "모든 상담 내용은 비밀이 철저히 보장됩니다."},
+    {"id": "filler.ko.14", "text": "신뢰는 하루아침에 만들어지지 않는다고 믿습니다."},
+    {"id": "filler.ko.15", "text": "고객과의 약속을 무엇보다 소중하게 생각합니다."},
+    {"id": "filler.ko.16", "text": "품질에 문제가 있는 경우 즉시 교환해 드립니다."},
+    {"id": "filler.ko.17", "text": "자세한 사항은 담당자에게 문의하시기 바랍니다."},
+    {"id": "filler.ko.18", "text": "앞으로도 변함없는 관심과 성원을 부탁드립니다."},
+    {"id": "filler.ko.19", "text": "안전을 최우선으로 생각하며 모든 작업에 임합니다."},
+    {"id": "filler.ko.20", "text": "{city} 지역은 당일 방문 상담도 가능합니다."},
+    {"id": "filler.ko.21", "text": "계절에 따라 일부 품목의 가격이 달라질 수 있습니다."},
+    {"id": "filler.ko.22", "text": "결제는 카드, 현금, 계좌이체 모두 가능합니다."},
+    {"id": "filler.ko.23", "text": "현금영수증이 필요하시면 결제하실 때 말씀해 주세요."},
+    {"id": "filler.ko.24", "text": "세금계산서 발행을 원하시면 사업자등록증 사본을 보내 주시기 바랍니다."},
+    {"id": "filler.ko.25", "text": "대량 주문은 별도로 협의해 드립니다."},
+    {"id": "filler.ko.26", "text": "환경을 생각해 포장재 사용을 줄여 나가고 있습니다."},
+    {"id": "filler.ko.27", "text": "정기적인 직원 교육으로 서비스 수준을 높이고 있습니다."},
+    {"id": "filler.ko.28", "text": "모든 작업은 고객의 사전 동의를 받은 후 진행합니다."},
+    {"id": "filler.ko.29", "text": "투명한 가격 정책으로 추가 비용 걱정이 없습니다."},
+    {"id": "filler.ko.30", "text": "궁금한 점을 게시판에 남겨 주시면 빠르게 답변해 드리겠습니다."},
+    {"id": "filler.ko.31", "text": "사진은 이해를 돕기 위한 것으로 실제와 다를 수 있습니다."},
+    {"id": "filler.ko.32", "text": "배송에는 지역에 따라 {n_days}일 정도가 걸립니다."},
+    {"id": "filler.ko.33", "text": "제품을 받으신 날부터 {n_days}일 이내에 교환 및 반품을 신청하실 수 있습니다."},
+    {"id": "filler.ko.34", "text": "주간 회의는 매주 {weekday} 오전에 열립니다."},
+    {"id": "filler.ko.35", "text": "고객 만족도 조사에 참여해 주신 모든 분께 감사드립니다."},
+    {"id": "filler.ko.36", "text": "저희는 작은 약속도 반드시 지키려고 노력합니다."},
+    {"id": "filler.ko.37", "text": "제품을 사용하시다가 불편한 점이 있으면 알려 주세요."},
+    {"id": "filler.ko.38", "text": "외부 일정으로 담당자 연결이 늦어질 수 있는 점 양해 부탁드립니다."},
+    {"id": "filler.ko.39", "text": "표시된 가격은 모두 부가가치세 포함 금액입니다."},
+    {"id": "filler.ko.40", "text": "안내된 일정은 현지 사정에 따라 변경될 수 있습니다."},
+    {"id": "filler.ko.41", "text": "직접 보고, 비교하고, 결정하세요."},
+    {"id": "filler.ko.42", "text": "현장 방문 시 신분증을 지참해 주시기 바랍니다."},
+    {"id": "filler.ko.43", "text": "구매 후에도 사후 관리를 책임지고 해 드립니다."},
+    {"id": "filler.ko.44", "text": "기다려 주셔서 감사합니다."},
+    {"id": "filler.ko.45", "text": "고객님의 시간은 소중합니다. 약속한 시간을 꼭 지키겠습니다."},
+    {"id": "filler.ko.46", "text": "천천히 둘러보시고 궁금한 점은 언제든 물어보세요."},
+    {"id": "filler.ko.47", "text": "{city}{을/를} 비롯한 전국 어디든 찾아갑니다."},
+    {"id": "filler.ko.48", "text": "택배는 {time} 이전 주문 건까지 당일 발송됩니다."},
+    {"id": "filler.ko.49", "text": "작업 중에는 소음이 발생할 수 있으니 양해 바랍니다."},
+    {"id": "filler.ko.50", "text": "모든 문의는 접수된 순서대로 처리하고 있습니다."}
+  ],
+  "legal_footer": [
+    {"id": "footer.ko.01", "countries": ["KR"], "text": "{S_NAME:legal} | {S_REG_ID} | 주소: {S_ADDRESS} | 대표전화: {S_PHONE}"},
+    {"id": "footer.ko.02", "countries": ["KR"], "text": "상호: {S_NAME:legal}  {S_REG_ID}  주소: {S_ADDRESS}  Tel. {S_PHONE}  E-mail: {S_EMAIL}"},
+    {"id": "footer.ko.03", "countries": ["KR"], "text": "상호명 {S_NAME} · {S_REG_ID} · 사업장 소재지 {S_ADDRESS} · 고객센터 {S_PHONE}"},
+    {"id": "footer.ko.04", "countries": ["KR"], "text": "Copyright © {S_NAME}. All Rights Reserved. | {S_REG_ID} | {S_ADDRESS}"},
+    {"id": "footer.ko.05", "countries": ["KR"], "text": "{S_NAME} | {S_REG_ID} | {S_ADDRESS} | TEL {S_PHONE} | {S_URL}"},
+    {"id": "footer.ko.06", "countries": ["KR"], "text": "상호: {S_NAME:legal} / 소재지: {S_ADDRESS} / {S_REG_ID} / 이메일: {S_EMAIL}"},
+    {"id": "footer.ko.07", "countries": ["KR"], "text": "{S_NAME:legal} · {S_REG_ID} · 자본금 {CAPITAL} · 본점 {S_ADDRESS}"},
+    {"id": "footer.ko.08", "countries": ["KR"], "text": "{S_NAME:legal}  {S_ADDRESS}  전화 {S_PHONE}  홈페이지 {S_URL}  {S_REG_ID}"}
+  ],
+  "invoice_notes": {
+    "payment_terms": [
+      "대금은 청구일로부터 {n_days}일 이내에 아래 계좌로 입금해 주시기 바랍니다.",
+      "결제 조건: 세금계산서 발행 후 {n_days}일 이내 현금 결제",
+      "대금 지급 기한은 {date}까지입니다.",
+      "입금하실 때 입금자명은 상호로 기재해 주시기 바랍니다.",
+      "결제 조건: 월말 마감 후 익월 {n_days}일 이내 현금 지급",
+      "납품 완료 후 {n_days}일 이내 결제를 원칙으로 합니다."
+    ],
+    "late_penalty": [
+      "지급 기한을 넘기면 미지급 금액에 대하여 연 {percent}의 지연이자가 부과됩니다.",
+      "기한 내에 결제되지 않을 경우 연 {percent}의 연체 이자를 청구할 수 있습니다.",
+      "결제가 {n_days}일 이상 지연되면 추가 주문 접수가 제한될 수 있습니다."
+    ],
+    "vat_exempt": [
+      "본 거래는 부가가치세 면세 대상입니다.",
+      "「부가가치세법」에 따른 영세율 적용 거래입니다.",
+      "면세 품목이므로 부가가치세가 포함되어 있지 않습니다."
+    ],
+    "thanks": [
+      "거래해 주셔서 진심으로 감사드립니다.",
+      "항상 저희를 믿고 이용해 주셔서 감사합니다.",
+      "앞으로도 좋은 품질과 서비스로 보답하겠습니다.",
+      "이용해 주셔서 감사합니다. 또 찾아 주세요.",
+      "귀사의 무궁한 발전을 기원합니다."
+    ],
+    "quote_validity": [
+      "본 견적서의 유효기간은 발행일로부터 {n_days}일입니다.",
+      "견적 유효기간: {date}까지",
+      "상기 금액은 {date}까지 유효하며, 이후에는 다시 견적을 받으셔야 합니다.",
+      "원자재 가격이 변동되면 견적 금액이 조정될 수 있습니다. 유효기간은 {n_days}일입니다."
+    ],
+    "quote_acceptance": [
+      "견적 내용에 동의하시면 서명 또는 날인하신 후 회신해 주시기 바랍니다.",
+      "발주를 원하시면 본 견적서에 기명날인하여 보내 주십시오.",
+      "견적 승인 후 계약금 입금이 확인되면 작업을 시작합니다.",
+      "주문을 확정하실 때 견적서 번호를 함께 알려 주시기 바랍니다."
+    ],
+    "credit_reason": [
+      "반품에 따른 공급가액 차감",
+      "단가 정정에 따른 수정 발행",
+      "{invoice_no} 세금계산서의 기재 사항 착오 정정",
+      "계약 해제에 따른 매출 취소",
+      "불량품 환입에 따른 금액 차감"
+    ]
+  },
+  "phrases": {
+    "page_x_of_y": [
+      "{p} / {n}",
+      "{n}쪽 중 {p}쪽",
+      "페이지 {p}/{n}",
+      "- {p} / {n} -"
+    ],
+    "place_date": [
+      "{DOC_DATE}, {city}",
+      "{DOC_DATE} {city}에서",
+      "작성일: {DOC_DATE} (작성지: {city})"
+    ],
+    "fin_amounts_note": [
+      "(단위: {currency})",
+      "(금액 단위: {currency})",
+      "모든 금액은 {currency} 기준입니다."
+    ],
+    "fin_period": [
+      "당기: {date_start}부터 {date_end}까지",
+      "회계기간: {date_start} ~ {date_end}",
+      "{date_start}부터 {date_end}까지"
+    ],
+    "price_validity": [
+      "본 가격은 {date}까지 유효합니다.",
+      "적용 기간: {date}까지",
+      "상기 단가는 {date}까지 적용됩니다."
+    ],
+    "signature_line": [
+      "대표이사 ____________ (인)",
+      "(서명 또는 인)",
+      "담당자 확인: ____________ (서명)",
+      "위 금액을 정히 영수함. ____________ (인)"
+    ],
+    "amount_in_words_intro": [
+      "일금",
+      "금",
+      "합계 금액(한글) 일금"
+    ]
+  },
+  "letters": {
+    "payment_reminder": {
+      "subject": [
+        "미수금 결제 요청의 건",
+        "거래 대금 입금 요청 (계산서 번호 {invoice_no})",
+        "[재안내] 미결제 대금 확인 부탁드립니다"
+      ],
+      "body": [
+        "{C_NAME} 담당자님께. 항상 저희 {S_NAME}{을/를} 이용해 주셔서 감사합니다.",
+        "{date}에 발행해 드린 세금계산서({invoice_no})의 대금 {amount}{이/가} 아직 입금되지 않은 것으로 확인되어 연락드립니다.",
+        "혹시 이미 입금하셨다면 이 안내는 무시하셔도 됩니다. 확인이 필요하시면 {S_PHONE}{으로/로} 연락 주시기 바랍니다.",
+        "바쁘시겠지만 {date}까지 결제를 마무리해 주시면 감사하겠습니다.",
+        "1. 귀사의 무궁한 발전을 기원합니다. 2. 당사가 공급한 물품의 대금 {amount}{이/가} 지급 기일이 지났음에도 결제되지 않아 이를 안내드리오니 조속히 처리해 주시기 바랍니다.",
+        "입금 계좌는 기존과 동일하며, 입금하실 때 입금자명을 귀사 상호로 기재해 주십시오. {S_NAME} 경리팀 드림"
+      ]
+    },
+    "quote_followup": {
+      "subject": [
+        "견적서 검토 여부 문의",
+        "{SERVICE} 견적 관련 후속 안내",
+        "보내 드린 견적서와 관련하여 연락드립니다"
+      ],
+      "body": [
+        "안녕하세요. {S_NAME} {position} {person}입니다.",
+        "지난 {date}에 보내 드린 {SERVICE} 견적서는 잘 받아 보셨는지요?",
+        "견적 내용 가운데 궁금하신 점이나 조정이 필요한 부분이 있으시면 편하게 말씀해 주십시오.",
+        "견적 유효기간이 {date}까지이니 기간 안에 회신해 주시면 감사하겠습니다.",
+        "{C_NAME}의 일정과 예산에 맞추어 최대한 협조하겠습니다.",
+        "검토 후 연락 주시면 바로 계약 절차를 안내해 드리겠습니다. 감사합니다."
+      ]
+    },
+    "price_change": {
+      "subject": [
+        "공급 단가 조정 안내",
+        "{date}부 가격 변경 안내의 건",
+        "단가 인상에 대한 양해 요청"
+      ],
+      "body": [
+        "{C_NAME} 귀중. 평소 당사에 보내 주신 성원에 깊이 감사드립니다.",
+        "최근 원자재 가격과 물류비가 크게 올라 부득이하게 {date}부터 공급 단가를 평균 {percent} 인상하게 되었습니다.",
+        "그동안 가격 인상을 최대한 자제해 왔으나 더 이상 기존 가격을 유지하기 어려운 상황이 되었습니다.",
+        "변경 전에 접수된 주문 건에는 기존 단가를 그대로 적용해 드리겠습니다.",
+        "앞으로도 더 좋은 품질로 보답하겠습니다. 너그러운 양해 부탁드립니다.",
+        "자세한 사항은 담당 {position} {person}에게 문의해 주시기 바랍니다."
+      ]
+    },
+    "appointment": {
+      "subject": [
+        "미팅 일정 확인 요청",
+        "방문 일정 안내 ({date})",
+        "업무 협의를 위한 미팅 요청의 건"
+      ],
+      "body": [
+        "{C_NAME} 담당자님, 안녕하십니까. {S_NAME}입니다.",
+        "요청하신 사항을 협의하기 위해 {date} {time}에 귀사를 방문하고자 합니다.",
+        "해당 일정이 어려우시면 편하신 날짜와 시간을 알려 주시기 바랍니다.",
+        "당일에는 {position} {person}{과/와} 기술 담당자가 함께 방문할 예정입니다.",
+        "필요하시면 당사 사무실({S_ADDRESS}) 회의실에서 미팅을 진행할 수도 있습니다.",
+        "일정을 확인하신 후 회신 부탁드립니다. 감사합니다."
+      ]
+    },
+    "closure": {
+      "subject": [
+        "휴무 안내",
+        "연휴 기간 휴무 및 배송 일정 안내",
+        "{S_NAME} 임시 휴무 안내"
+      ],
+      "body": [
+        "항상 {S_NAME}{을/를} 아껴 주시는 고객 여러분께 감사드립니다.",
+        "당사는 {date_start}부터 {date_end}까지 휴무합니다.",
+        "휴무 기간에 접수된 주문과 문의는 업무 재개 후 순서대로 처리해 드리겠습니다.",
+        "휴무가 끝나면 평소와 같이 {HOURS} 정상 영업합니다.",
+        "급한 용무는 {S_EMAIL}{으로/로} 남겨 주시면 확인하는 대로 연락드리겠습니다.",
+        "이용에 불편을 드려 죄송합니다. 너른 양해 부탁드립니다."
+      ]
+    },
+    "move": {
+      "subject": [
+        "사무실 이전 안내",
+        "본사 이전 안내의 건",
+        "{S_NAME} 사옥 이전 안내"
+      ],
+      "body": [
+        "{S_NAME}{이/가} 더 나은 서비스를 위해 사무실을 이전하게 되었습니다.",
+        "새 주소: {S_ADDRESS}",
+        "{date}부터 새 사무실에서 업무를 시작하며, 전화번호와 이메일은 변경 없이 그대로 사용합니다.",
+        "이전 작업 기간에는 일시적으로 연락이 원활하지 않을 수 있으니 양해 부탁드립니다.",
+        "앞으로 우편물과 택배는 {S_ADDRESS}{으로/로} 보내 주시기 바랍니다.",
+        "새로운 공간에서 더욱 발전된 모습으로 찾아뵙겠습니다. 감사합니다."
+      ]
+    },
+    "new_service": {
+      "subject": [
+        "신규 서비스 출시 안내",
+        "{SERVICE} 출시 안내",
+        "새로운 상품을 소개합니다"
+      ],
+      "body": [
+        "{C_NAME} 담당자님께. 늘 보내 주시는 관심에 감사드립니다.",
+        "{S_NAME}{은/는} 고객 여러분의 요청에 힘입어 {SERVICE}{을/를} 새롭게 선보입니다.",
+        "이번에 추가된 {SERVICE_LIST}{은/는} 기존 고객사에 한해 특별 조건으로 제공됩니다.",
+        "출시를 기념해 {date}까지 주문하시면 {percent} 할인 혜택을 드립니다.",
+        "자세한 내용은 {S_URL}에서 확인하시거나 {S_PHONE}{으로/로} 문의해 주십시오.",
+        "많은 관심과 이용 부탁드립니다."
+      ]
+    },
+    "thanks": {
+      "subject": [
+        "감사 인사 드립니다",
+        "한 해 동안 보내 주신 성원에 감사드립니다",
+        "프로젝트 완료에 따른 감사 인사"
+      ],
+      "body": [
+        "{C_NAME} 임직원 여러분께 진심으로 감사의 말씀을 드립니다.",
+        "올 한 해 보내 주신 믿음과 성원 덕분에 {S_NAME}{이/가} 한 걸음 더 성장할 수 있었습니다.",
+        "이번 프로젝트를 성공적으로 마무리할 수 있었던 것은 귀사의 적극적인 협조 덕분입니다.",
+        "앞으로도 변함없는 품질과 서비스로 보답하겠습니다.",
+        "귀사의 무궁한 발전과 임직원 여러분의 건강을 기원합니다.",
+        "{S_NAME} {manager_title} {S_PERSON} 올림"
+      ]
+    },
+    "order_to_supplier": {
+      "subject": [
+        "발주서 송부의 건",
+        "자재 발주 요청 (발주번호 {order_no})",
+        "추가 주문 요청드립니다"
+      ],
+      "body": [
+        "{C_NAME} 귀중. 귀사의 번창을 기원합니다.",
+        "아래와 같이 발주하오니 {date}까지 납품해 주시기 바랍니다.",
+        "발주 번호: {order_no} / 수량: {quantity} / 납품 장소: {S_ADDRESS}",
+        "세부 품목과 규격은 첨부한 발주서를 참고해 주시기 바랍니다.",
+        "납기 일정에 변동이 생기면 미리 당사 {position} {person}에게 알려 주십시오.",
+        "거래명세서와 세금계산서는 납품 시 함께 보내 주시기 바랍니다. {S_NAME} 구매팀 드림"
+      ]
+    },
+    "letter_to_bank": {
+      "subject": [
+        "운전자금 대출 한도 증액 요청",
+        "대출 상환 일정 조정 요청의 건",
+        "기업 계좌 관련 서류 제출"
+      ],
+      "body": [
+        "{bank} 기업금융 담당자님께",
+        "당사 {S_NAME}{은/는} {FOUNDED} 설립 이후 귀 은행과 꾸준히 거래해 온 업체입니다.",
+        "최근 거래 규모가 커짐에 따라 운전자금 대출 한도를 {amount}{으로/로} 늘려 주실 것을 요청드립니다.",
+        "요청하신 재무제표와 부가가치세 과세표준증명원을 첨부하여 제출합니다.",
+        "검토 후 회신해 주시면 감사하겠습니다. 문의: {position} {person} ({S_PHONE})",
+        "{S_NAME} {manager_title} {S_PERSON}"
+      ]
+    },
+    "order_from_client": {
+      "subject": [
+        "물품 주문의 건",
+        "발주 요청 (주문번호 {order_no})",
+        "추가 발주 요청드립니다"
+      ],
+      "body": [
+        "{C_NAME} 귀중. 항상 좋은 제품을 공급해 주셔서 감사합니다.",
+        "당사 {S_NAME}{은/는} 아래와 같이 주문하오니 확인 후 회신해 주시기 바랍니다.",
+        "주문 번호 {order_no}, 수량 {quantity}, 희망 납기일 {date}",
+        "납품 장소는 당사 본사({S_ADDRESS})입니다.",
+        "단가와 결제 조건은 지난번 견적서에 기재된 내용대로 진행해 주시기 바랍니다.",
+        "문의 사항은 {person} {position}에게 연락해 주십시오."
+      ]
+    },
+    "complaint_from_client": {
+      "subject": [
+        "납품 제품 불량에 대한 시정 요청",
+        "서비스 불만 사항 전달의 건",
+        "{date} 납품분 관련 이의 제기"
+      ],
+      "body": [
+        "{C_NAME} 담당자님께",
+        "{date}에 납품받은 물품 가운데 일부에서 파손과 규격 불일치가 확인되었습니다.",
+        "이로 인해 당사 업무 일정에 차질이 생겨 적지 않은 손실이 발생하였습니다.",
+        "빠른 시일 안에 원인을 확인하시고 교환 또는 환불 조치를 해 주시기 바랍니다.",
+        "{date}까지 조치 계획을 서면으로 회신해 주시기 바랍니다.",
+        "{S_NAME} 구매팀 {person} 드림"
+      ]
+    },
+    "quote_request": {
+      "subject": [
+        "견적 요청의 건",
+        "견적서 제출 요청",
+        "연간 단가 계약을 위한 견적 요청"
+      ],
+      "body": [
+        "{C_NAME} 영업 담당자님께",
+        "당사는 {S_NAME}{으로/로}, 귀사의 제품 도입을 검토하고 있습니다.",
+        "아래 조건에 맞는 견적서를 {date}까지 보내 주시기 바랍니다.",
+        "필요 수량은 {quantity}이며, 납품 희망일은 {date}입니다.",
+        "견적서는 {S_EMAIL}{으로/로} 보내 주시면 됩니다.",
+        "궁금하신 점은 {person} {position}({S_PHONE})에게 문의해 주십시오."
+      ]
+    },
+    "supplier_offer": {
+      "subject": [
+        "신제품 공급 제안서",
+        "{SERVICE} 공급 제안드립니다",
+        "거래 제안의 건"
+      ],
+      "body": [
+        "{C_NAME} 구매 담당자님께",
+        "{S_NAME}{은/는} {ACTIVITY} 분야에서 {n_years} 넘게 업력을 쌓아 온 전문 업체입니다.",
+        "귀사에 {SERVICE}{을/를} 합리적인 조건으로 공급해 드리고자 이렇게 제안드립니다.",
+        "주요 공급 품목은 {SERVICE_LIST}이며, 샘플은 요청하시는 대로 보내 드리겠습니다.",
+        "첫 거래 시에는 {percent} 특별 할인을 적용해 드립니다.",
+        "상세 제안서를 첨부하오니 검토 부탁드립니다. 담당: {position} {person} / {S_PHONE}"
+      ]
+    },
+    "bank_notice": {
+      "subject": [
+        "대출 만기 도래 안내",
+        "기업 인터넷뱅킹 약관 변경 안내",
+        "대출 금리 변경 안내"
+      ],
+      "body": [
+        "{C_NAME} 귀하",
+        "항상 {bank}{을/를} 이용해 주셔서 감사합니다.",
+        "귀사의 기업운전자금 대출이 {date}에 만기가 도래함을 알려 드립니다.",
+        "만기 연장을 원하시면 {date}까지 거래 영업점을 방문하시거나 담당 직원에게 연락해 주시기 바랍니다.",
+        "{date}부터 대출 금리가 연 {percent}{으로/로} 변경될 예정입니다.",
+        "수신: {C_NAME} / 주소: {C_ADDRESS}",
+        "{bank} 기업금융팀 드림"
+      ]
+    },
+    "loan_offer": {
+      "subject": [
+        "기업 대출 상품 안내",
+        "우대 금리 대출 제안",
+        "시설자금 대출 한도 안내"
+      ],
+      "body": [
+        "{C_NAME} 대표님께",
+        "{bank}에서는 우수 중소기업을 위한 특별 대출 상품을 안내해 드립니다.",
+        "귀사는 최대 {amount}까지 연 {percent}의 우대 금리로 대출을 받으실 수 있습니다.",
+        "본 제안은 {date}까지 유효하며, 심사 결과에 따라 한도와 금리가 달라질 수 있습니다.",
+        "상담을 원하시면 담당 {position} {person}에게 연락해 주시기 바랍니다.",
+        "{bank} 드림"
+      ]
+    },
+    "tax_reminder": {
+      "subject": [
+        "부가가치세 신고 기한 안내",
+        "체납 세액 납부 안내",
+        "법인세 신고·납부 안내"
+      ],
+      "body": [
+        "{C_NAME} 대표자 귀하",
+        "귀 사업장의 부가가치세 확정신고 기한이 {date}까지임을 안내해 드립니다.",
+        "기한 내에 신고하지 않거나 납부하지 않으면 가산세가 부과될 수 있습니다.",
+        "미납 세액 {amount}{을/를} {date}까지 납부해 주시기 바랍니다.",
+        "납세자: {C_NAME} ({C_REG_ID}) / 사업장 소재지: {C_ADDRESS}",
+        "문의: {other_org} 부가가치세과 {person} 조사관"
+      ]
+    },
+    "registry_notice": {
+      "subject": [
+        "변경 등기 신청 안내",
+        "임원 변경 등기 기한 도래 안내",
+        "등기 신청서 보정 요청"
+      ],
+      "body": [
+        "수신: {C_NAME} (본점: {C_ADDRESS})",
+        "귀 법인의 임원 임기 만료에 따른 변경 등기가 아직 신청되지 않은 것으로 확인됩니다.",
+        "변경 사유가 발생한 날부터 2주 이내에 등기를 신청하여야 하며, 이를 어길 경우 과태료가 부과될 수 있습니다.",
+        "{date}까지 필요한 서류를 갖추어 신청하여 주시기 바랍니다.",
+        "대상 법인: {C_NAME} ({C_REG_ID})",
+        "{other_org} 등기관"
+      ]
+    }
+  },
+  "contract": {
+    "parties_provider": [
+      "공급자(이하 “을”이라 한다): {S_NAME:legal}, 주소: {S_ADDRESS}, {S_REG_ID}, {manager_title} {S_PERSON}",
+      "수급인: {S_NAME:legal} (대표이사 {S_PERSON}) / {S_REG_ID} / 본점 소재지: {S_ADDRESS}",
+      "“을” {S_NAME:legal}{은/는} 자본금 {CAPITAL}의 {LEGAL_FORM}{으로/로} {S_ADDRESS}에 본점을 두고 있으며, {manager_title} {S_PERSON}{이/가} 회사를 대표한다."
+    ],
+    "parties_client": [
+      "발주자(이하 “갑”이라 한다): {C_NAME}, 주소: {C_ADDRESS}, {C_REG_ID}, 계약 담당: {position} {person}",
+      "도급인: {C_NAME} / {C_REG_ID} / 소재지: {C_ADDRESS} / 대리인: {person} {position}",
+      "“갑” {C_NAME}{은/는} {C_ADDRESS}에 소재하며, 본 계약에 관한 업무는 {position} {person}{이/가} 담당한다."
+    ],
+    "preamble": [
+      "“갑”과 “을”은 상호 신뢰를 바탕으로 다음과 같이 계약을 체결한다.",
+      "발주자와 수급인은 아래 업무의 수행에 관하여 다음과 같이 합의하고 본 계약을 체결한다.",
+      "본 계약은 “갑”이 “을”에게 의뢰하는 업무의 범위와 조건을 명확히 하기 위하여 체결한다."
+    ],
+    "object": [
+      "본 계약은 “을”이 “갑”에게 {SERVICE}{을/를} 제공하고, “갑”이 그 대가를 지급하는 데 필요한 사항을 정함을 목적으로 한다.",
+      "계약의 대상은 {SERVICE_LIST}{으로/로} 하며, 세부 사양은 별첨 과업지시서에 따른다.",
+      "“을”은 “갑”의 요청에 따라 {SERVICE}{을/를} 성실히 수행한다."
+    ],
+    "duration": [
+      "계약 기간은 {date_start}부터 {date_end}까지로 한다.",
+      "본 계약의 유효기간은 계약 체결일로부터 1년으로 하며, 기간 만료 {n_days}일 전까지 어느 일방의 서면 통지가 없으면 같은 조건으로 1년씩 자동 연장된다."
+    ],
+    "price": [
+      "계약 금액: {amount} (부가가치세 별도)",
+      "“갑”은 “을”에게 용역 대금으로 총 {amount}{을/를} 지급한다. 단, 부가가치세는 별도로 한다."
+    ],
+    "payment": [
+      "“갑”은 “을”이 발행한 세금계산서를 받은 날로부터 {n_days}일 이내에 대금을 현금으로 지급한다.",
+      "대금은 착수금 30%와 잔금 70%로 나누어 지급하며, 잔금은 검수 완료 후 {n_days}일 이내에 지급한다."
+    ],
+    "obligations": [
+      "“을”은 선량한 관리자의 주의 의무를 다하여 계약 업무를 수행하여야 한다.",
+      "“갑”은 “을”이 업무를 수행하는 데 필요한 자료와 정보를 적시에 제공하여야 한다.",
+      "“을”은 “갑”의 사전 서면 동의 없이 본 계약상의 권리와 의무를 제3자에게 양도하거나 하도급할 수 없다."
+    ],
+    "confidentiality": [
+      "양 당사자는 본 계약을 이행하는 과정에서 알게 된 상대방의 영업상 비밀을 제3자에게 누설하여서는 아니 된다.",
+      "비밀유지 의무는 계약이 종료된 후에도 3년간 유효하다."
+    ],
+    "liability": [
+      "어느 일방이 본 계약을 위반하여 상대방에게 손해를 입힌 경우 그 손해를 배상하여야 한다.",
+      "천재지변, 전쟁, 감염병 확산 등 불가항력으로 인한 이행 지체에 대하여는 책임을 지지 아니한다."
+    ],
+    "termination": [
+      "어느 일방이 계약상 의무를 위반하고 {n_days}일 이내에 이를 시정하지 아니하는 경우 상대방은 서면 통지로 본 계약을 해지할 수 있다.",
+      "당사자 일방에게 파산, 회생 절차 개시 등 계약 이행이 곤란한 사유가 발생한 경우 상대방은 즉시 계약을 해지할 수 있다."
+    ],
+    "law": [
+      "본 계약에 관한 분쟁은 {city}{을/를} 관할하는 지방법원을 제1심 관할 법원으로 한다.",
+      "본 계약은 대한민국 법률에 따라 해석되며, 분쟁이 발생한 경우 {city} 소재 법원을 관할 법원으로 한다."
+    ],
+    "signature": [
+      "본 계약의 성립을 증명하기 위하여 계약서 2부를 작성하여 “갑”과 “을”이 기명날인한 후 각 1부씩 보관한다. {DOC_DATE}, {city}",
+      "계약 체결일: {DOC_DATE} / 체결 장소: {city}",
+      "{DOC_DATE} {city}에서 작성함"
+    ]
+  },
+  "terms": {
+    "cgv": [
+      "이 약관은 {S_NAME}{이/가} 운영하는 온라인 쇼핑몰(이하 “몰”)에서 제공하는 서비스를 이용함에 있어 회사와 이용자의 권리, 의무 및 책임 사항을 규정함을 목적으로 합니다.",
+      "“이용자”란 “몰”에 접속하여 이 약관에 따라 “몰”이 제공하는 서비스를 받는 회원 및 비회원을 말합니다.",
+      "회사는 이 약관의 내용과 상호, 영업소 소재지, 대표자 성명, 사업자등록번호, 연락처 등을 이용자가 쉽게 알 수 있도록 {S_URL}의 초기 화면에 게시합니다.",
+      "회사가 약관을 개정하는 경우에는 적용일자와 개정 사유를 밝혀 적용일자 {n_days}일 전부터 공지합니다.",
+      "이용자는 “몰”에서 상품을 선택한 후 주문서를 작성하고 결제 방법을 선택하는 방식으로 구매를 신청합니다.",
+      "회사는 재고 부족, 허위 정보 기재 등의 사유가 있는 경우 구매 신청을 승낙하지 않을 수 있습니다.",
+      "상품 대금은 신용카드, 계좌이체, 무통장입금, 간편결제 가운데 이용자가 선택한 방법으로 지급합니다.",
+      "회사는 결제가 확인된 날부터 {n_days}일 이내에 상품을 발송하며, 도서·산간 지역은 배송 기간이 더 걸릴 수 있습니다.",
+      "이용자는 상품을 받은 날부터 7일 이내에 청약을 철회할 수 있습니다. 다만, 이용자의 책임으로 상품이 훼손된 경우에는 그러하지 아니합니다.",
+      "회사는 청약철회에 따라 상품을 반환받은 날부터 3영업일 이내에 이미 받은 대금을 환급합니다.",
+      "단순 변심으로 반품하는 경우 왕복 배송비는 이용자가 부담합니다.",
+      "회사는 {SERVICE}{을/를} 비롯한 모든 상품에 대하여 관계 법령이 정한 품질 기준을 준수합니다.",
+      "회사는 천재지변 또는 이에 준하는 불가항력으로 서비스를 제공할 수 없는 경우 책임이 면제됩니다.",
+      "회사와 이용자 사이에 발생한 분쟁은 한국소비자원 또는 전자거래분쟁조정위원회의 조정에 따를 수 있습니다.",
+      "이 약관과 관련된 소송은 민사소송법상의 관할 법원에 제기하며, 대한민국 법을 준거법으로 합니다.",
+      "서비스 이용과 관련한 문의는 고객센터({S_PHONE}) 또는 {S_EMAIL}{으로/로} 해 주시기 바랍니다."
+    ],
+    "privacy": [
+      "{S_NAME}{은/는} 「개인정보 보호법」에 따라 이용자의 개인정보를 보호하고 관련 고충을 신속하게 처리하기 위하여 다음과 같이 개인정보 처리방침을 수립·공개합니다.",
+      "수집하는 개인정보 항목: 이름, 휴대전화번호, 이메일 주소, 배송지 주소, 결제 기록",
+      "개인정보의 처리 목적: 회원 관리, 주문 처리 및 배송, 고객 문의 응대, 서비스 개선",
+      "회원 탈퇴 시까지 개인정보를 보유하며, 관계 법령에 따라 보존할 필요가 있는 경우에는 해당 기간 동안 보관합니다.",
+      "「전자상거래 등에서의 소비자보호에 관한 법률」에 따라 계약 또는 청약철회 등에 관한 기록은 5년간 보관합니다.",
+      "회사는 이용자의 동의 없이 개인정보를 제3자에게 제공하지 않습니다.",
+      "이용자는 언제든지 자신의 개인정보에 대한 열람, 정정, 삭제 및 처리 정지를 요구할 수 있습니다.",
+      "개인정보 보호책임자: {person} ({position}) / 연락처: {S_EMAIL}",
+      "회사는 원활한 배송을 위하여 {other_org}에 배송 업무를 위탁하고 있습니다.",
+      "개인정보와 관련한 문의는 {S_PHONE} 또는 {S_EMAIL}{으로/로} 해 주시기 바랍니다."
+    ],
+    "legal_notice": [
+      "상호: {S_NAME:legal}",
+      "대표자: {S_PERSON}",
+      "{S_REG_ID} [사업자정보 확인]",
+      "사업장 주소: {S_ADDRESS}",
+      "고객센터: {S_PHONE} / 이메일: {S_EMAIL}",
+      "법인 형태: {LEGAL_FORM} / 자본금: {CAPITAL}",
+      "호스팅 서비스 제공자: {other_org} ({other_address})",
+      "개인정보 보호책임자: {person}",
+      "홈페이지: {S_URL}",
+      "이 사이트에 게시된 모든 콘텐츠의 저작권은 {S_NAME}에 있으며, 무단 복제와 배포를 금합니다.",
+      "대표이사 {S_PERSON} | 본사 {S_ADDRESS}"
+    ],
+    "cookies": [
+      "회사는 이용자에게 맞춤형 서비스를 제공하기 위해 쿠키(cookie)를 사용합니다.",
+      "이용자는 웹 브라우저 설정을 통해 쿠키 저장을 거부할 수 있습니다. 다만, 이 경우 일부 서비스 이용에 어려움이 있을 수 있습니다.",
+      "쿠키는 방문 기록과 이용 형태를 파악하여 최적화된 정보를 제공하는 데 활용됩니다.",
+      "{S_URL}{은/는} 방문자 통계 분석을 위해 쿠키를 사용하며, 수집된 정보는 {n_days}일이 지나면 자동으로 삭제됩니다."
+    ]
+  },
+  "web": {
+    "testimonials": [
+      "“상담부터 사후 관리까지 정말 꼼꼼하게 챙겨 주셨어요. 다음에도 꼭 이용할게요.” – {person} 님",
+      "“가격도 합리적이고 무엇보다 약속한 날짜를 정확히 지켜 주셔서 믿음이 갑니다.” ({person}, {city})",
+      "“처음 거래하는 곳이라 걱정했는데 직원분들이 친절하게 설명해 주셔서 편했습니다.” - {person}",
+      "{person} 님: “{SERVICE} 결과가 기대 이상이었습니다. 주변에도 추천하고 있어요.”",
+      "“{S_NAME} 덕분에 걱정을 덜었습니다. 믿고 맡길 수 있는 곳이에요.” — {person} 고객님",
+      "“문의 전화에 늘 빠르게 응대해 주셔서 감사합니다.” ({person}, {position})",
+      "“몇 년째 이용하고 있는데 한결같은 품질이 가장 큰 장점입니다.” - {city} {person} 님"
+    ],
+    "news": [
+      "[{date}] {SERVICE} 신규 출시",
+      "{date} – 홈페이지를 새롭게 단장했습니다.",
+      "{S_NAME}, {date}부터 {SERVICE} 할인 행사 진행",
+      "{date} 고객센터 상담 시간이 연장되었습니다.",
+      "{date} 신입 및 경력 사원 채용 공고를 게시했습니다.",
+      "{date} – {city}에서 열리는 박람회에 참가합니다. 많은 방문 바랍니다.",
+      "{date} 추석 연휴 배송 일정 안내"
+    ],
+    "cta": [
+      "지금 바로 무료 상담을 신청하세요!",
+      "견적 문의하기",
+      "전화 상담 {S_PHONE}",
+      "카카오톡 채널을 추가하고 새 소식을 받아 보세요.",
+      "{SERVICE}, 지금 예약하세요.",
+      "온라인으로 간편하게 견적을 받아 보세요 → {S_URL}",
+      "궁금한 점이 있으신가요? {S_EMAIL}{으로/로} 문의해 주세요.",
+      "{S_NAME}의 새 소식을 가장 먼저 받아 보세요. 뉴스레터 구독하기"
+    ]
+  },
+  "noise": {
+    "meeting": [
+      "주간 회의 안건: 1) 신규 거래처 현황 2) 재고 점검 일정 3) 하계 휴가 계획 공유",
+      "참석자: {person}, {person} / 일시: {date} {time}",
+      "결정 사항: 주간 보고서는 매주 {weekday}까지 팀장에게 제출하기로 함.",
+      "{person} {position}: 3분기 판매 실적이 목표보다 {percent} 부족하다고 보고함.",
+      "다음 회의는 {date} {time}에 3층 회의실에서 진행합니다.",
+      "논의 내용: 사무용품 구매 절차 간소화 방안, 신규 직원 교육 일정 조율",
+      "후속 조치: 견적 비교표 작성({person}), 거래처 미팅 일정 확정({person})"
+    ],
+    "recipe": [
+      "냄비에 물 두 컵과 국물용 멸치를 넣고 10분 정도 끓여 육수를 냅니다.",
+      "된장 한 큰술을 풀고 애호박과 두부를 넣어 5분 더 끓입니다.",
+      "불을 끄기 직전에 대파와 청양고추를 넣으면 향이 한층 살아납니다.",
+      "달군 팬에 기름을 두르고 잘게 썬 김치와 밥을 넣어 볶습니다.",
+      "마지막으로 달걀프라이를 올리고 김 가루를 뿌리면 완성입니다."
+    ],
+    "manual": [
+      "전원 버튼을 3초간 길게 눌러 기기를 켭니다.",
+      "처음 사용하기 전에 배터리를 완전히 충전해 주십시오.",
+      "설정 메뉴에서 ‘네트워크’를 선택한 뒤 연결할 와이파이를 고릅니다.",
+      "화면이 멈추면 뒷면의 리셋 버튼을 클립으로 눌러 초기화하십시오.",
+      "제품을 물기가 있는 곳이나 직사광선이 드는 곳에 두지 마십시오.",
+      "프로그램을 업데이트하려면 도움말 메뉴에서 ‘업데이트 확인’을 누르세요.",
+      "필터는 {n_days}일마다 교체하는 것을 권장합니다."
+    ],
+    "news": [
+      "기상청은 이번 주말 전국에 비가 내리고 기온이 크게 떨어질 것으로 내다봤다.",
+      "한국은행이 기준금리를 동결하면서 대출 금리 인하 기대감이 한풀 꺾였다.",
+      "{city}에서는 다음 달부터 시내버스 노선 일부가 조정된다.",
+      "통계청에 따르면 지난달 소비자물가는 전년 같은 달보다 {percent} 올랐다.",
+      "정부는 소상공인의 부담을 덜기 위해 전기요금 지원 대상을 넓히기로 했다.",
+      "올여름 휴가철 고속도로 교통량이 지난해보다 늘어날 전망이다.",
+      "주말 동안 {city} 일대에서 지역 축제가 열려 많은 시민이 몰렸다."
+    ],
+    "todo": [
+      "거래처에 견적서 회신하기",
+      "{date}까지 부가세 신고 자료를 세무사 사무실에 넘기기",
+      "사무실 프린터 토너 주문",
+      "{person} 님께 회의 자료 전달",
+      "법인카드 영수증 정리 후 경리팀에 제출"
+    ],
+    "memo": [
+      "전 직원은 {date}까지 연차 사용 계획을 제출해 주시기 바랍니다.",
+      "사내 보안 강화를 위해 다음 주부터 출입카드를 반드시 패용해 주십시오.",
+      "{date} 오후에는 전기 설비 점검으로 약 한 시간 동안 정전이 예정되어 있습니다.",
+      "법인카드 사용 내역은 매월 말일까지 정산해 주시기 바랍니다.",
+      "신규 입사자 {person} 님이 {date}부터 {position}{으로/로} 근무합니다. 많은 환영 부탁드립니다.",
+      "탕비실을 이용한 뒤에는 정리 정돈을 부탁드립니다.",
+      "개인정보가 담긴 서류는 반드시 문서 세단기로 파기해 주십시오."
+    ],
+    "generic": [
+      "오늘은 날씨가 맑아 점심시간에 잠깐 산책을 다녀왔다.",
+      "지하철이 지연되는 바람에 평소보다 20분 늦게 도착했다.",
+      "주말에 가족과 함께 근교 캠핑장에 다녀왔습니다.",
+      "택배가 도착했다는 문자를 받았는데 경비실에 맡겨졌는지 확인해 봐야겠다.",
+      "새로 생긴 카페는 조용해서 책 읽기에 좋다.",
+      "요즘 환절기라 감기에 걸린 사람이 많다.",
+      "휴대전화 요금제를 바꾸려고 대리점에 들렀다.",
+      "{city}에 사는 친구가 다음 주에 놀러 온다고 연락이 왔다.",
+      "도서관 반납 기한이 {date}까지라 서둘러야 한다.",
+      "아이 학교 운동회가 {weekday}에 열린다.",
+      "마트에서 과일을 사고 세탁소에 들러 옷을 찾아왔다.",
+      "헬스장 등록을 미루다가 결국 이번 달부터 다니기 시작했다.",
+      "주민센터에서 등본을 떼려고 번호표를 뽑았다.",
+      "비가 많이 온다고 해서 우산을 챙겨 나왔다."
+    ],
+    "press": [
+      "{city} 소재 {ACTIVITY} 기업 {S_NAME}{이/가} 지역 인재 채용에 적극 나서고 있다.",
+      "{FOUNDED} 설립된 {S_NAME}{은/는} 현재 {STAFF}의 직원을 두고 있다.",
+      "{S_NAME}{은/는} {REVENUE_YEAR} 매출 {REVENUE}{을/를} 기록했다고 밝혔다.",
+      "{S_PERSON} {manager_title}{은/는} “고객이 체감할 수 있는 품질 개선에 집중하겠다”고 말했다.",
+      "업계에 따르면 {S_NAME}의 {SERVICE}{은/는} 출시 이후 꾸준히 판매가 늘고 있다.",
+      "{S_PERSON} 대표가 {FOUNDED}에 창업한 {S_NAME}{은/는} {ACTIVITY} 분야에서 입지를 다져 왔다.",
+      "{S_NAME} 관계자는 “{city} 지역 고객의 수요가 꾸준히 늘고 있다”고 전했다.",
+      "직원 {STAFF}{과/와} 함께 성장해 온 {S_NAME}{은/는} 올해 새로운 도약을 준비하고 있다."
+    ]
+  }
+}

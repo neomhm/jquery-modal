@@ -1,0 +1,109 @@
+{
+  "lang": "fr",
+  "doc": {
+    "invoice": ["Facture", "Facture de vente", "Facture commerciale", "Facture de prestations"],
+    "tax_invoice": ["Facture TVA", "Facture avec TVA"],
+    "quote": ["Devis", "Devis estimatif", "Proposition commerciale", "Offre de prix", "Offre", "Proposition tarifaire", "Soumission", "Estimation"],
+    "proforma": ["Facture pro forma", "Facture proforma", "Facture pro-forma", "Pro forma"],
+    "receipt": ["Reçu", "Ticket de caisse", "Reçu de paiement", "Quittance", "Ticket", "Justificatif de paiement"],
+    "credit_note": ["Avoir", "Facture d'avoir", "Note de crédit", "Avoir commercial"],
+    "price_list": ["Tarifs", "Nos tarifs", "Grille tarifaire", "Liste de prix", "Tarifs publics", "Tarifs en vigueur", "Catalogue et tarifs"],
+    "staff_list": ["Liste du personnel", "Registre unique du personnel", "Liste des collaborateurs", "Annuaire du personnel", "Liste des employés", "État des effectifs"],
+    "purchase_order": ["Bon de commande", "Commande fournisseur", "Bon de commande fournisseur", "Ordre d'achat", "Commande"]
+  },
+  "brochure": {
+    "about": ["Qui sommes-nous ?", "À propos", "À propos de nous", "Notre entreprise", "Présentation", "L'entreprise"],
+    "services": ["Nos services", "Nos prestations", "Ce que nous faisons", "Notre savoir-faire", "Nos métiers", "Notre offre", "Nos produits"],
+    "team": ["Notre équipe", "L'équipe", "Nos collaborateurs", "Une équipe à votre service", "Les femmes et les hommes de l'entreprise", "Qui fait quoi ?"],
+    "contact": ["Contact", "Nous contacter", "Contactez-nous", "Coordonnées", "Nous joindre", "Écrivez-nous"],
+    "clients": ["Nos clients", "Nos références", "Ils nous font confiance", "Références", "Quelques références", "Ils nous ont choisis"],
+    "hours": ["Horaires", "Horaires d'ouverture", "Heures d'ouverture", "Nos horaires", "Heures d'affaires", "Quand nous rendre visite ?"],
+    "history": ["Notre histoire", "Historique", "Un peu d'histoire", "Notre parcours", "Les grandes étapes", "Nos dates clés"],
+    "values": ["Nos valeurs", "Nos engagements", "Notre philosophie", "Ce qui nous anime", "Notre charte", "Notre vision"],
+    "certifications": ["Certifications", "Nos labels", "Labels et certifications", "Qualifications et labels", "Nos agréments", "Distinctions"],
+    "why_us": ["Pourquoi nous choisir ?", "Nos atouts", "Nos points forts", "Les + de l'entreprise", "Pourquoi nous faire confiance ?", "Ce qui fait la différence"],
+    "news": ["Actualités", "Nos actualités", "Quoi de neuf ?", "Dernières nouvelles", "Nouvelles", "À la une"],
+    "testimonials": ["Témoignages", "Avis clients", "Ils parlent de nous", "Ce que disent nos clients", "Paroles de clients", "Vos avis"],
+    "faq": ["FAQ", "Questions fréquentes", "Foire aux questions", "Vos questions, nos réponses", "Questions-réponses"],
+    "location": ["Plan d'accès", "Nous trouver", "Accès", "Comment venir ?", "Où nous trouver ?", "Localisation"],
+    "taglines": [
+      "Votre satisfaction, notre priorité",
+      "Le savoir-faire au service de vos projets",
+      "La qualité avant tout",
+      "Votre partenaire de confiance à {city}",
+      "Présents à {city} et dans toute la région",
+      "Proximité, qualité, réactivité",
+      "L'exigence au quotidien",
+      "L'expertise qui fait la différence",
+      "Votre projet, notre passion",
+      "Simplement bien fait",
+      "Des professionnels à votre écoute",
+      "Fiabilité, sérieux et proximité",
+      "Le sur-mesure à portée de main",
+      "Ensemble, allons plus loin",
+      "Une équipe, une passion, un savoir-faire",
+      "Toujours à vos côtés",
+      "Le travail soigné, tout simplement",
+      "Bien faire, du premier coup"
+    ]
+  },
+  "financials": {
+    "income_statement": ["Compte de résultat", "Compte de résultat de l'exercice", "Compte de résultats", "Compte de pertes et profits", "État des résultats", "Compte de produits et charges"],
+    "balance_sheet": ["Bilan", "Bilan comptable", "Bilan actif et passif", "Bilan simplifié", "État de la situation financière"],
+    "annual_accounts": ["Comptes annuels", "Comptes annuels de l'exercice", "Comptes sociaux", "États financiers", "États financiers annuels", "États de synthèse"],
+    "key_figures": ["Chiffres clés", "Principaux chiffres", "L'essentiel en chiffres", "Indicateurs clés", "Données financières clés", "Faits saillants"],
+    "tax_summary": ["Récapitulatif fiscal", "Récapitulatif de TVA", "Synthèse fiscale", "Déclaration de TVA", "Détermination du résultat fiscal", "Sommaire des taxes"],
+    "notes": ["Annexe", "Annexe aux comptes annuels", "Notes annexes", "Notes complémentaires", "Notes afférentes aux états financiers", "État des informations complémentaires (ETIC)"]
+  },
+  "contract": {
+    "titles": ["Contrat de prestation de services", "Contrat de prestations", "Contrat-cadre de prestations", "Convention de prestation de services", "Contrat de sous-traitance", "Contrat de maintenance", "Contrat de vente", "Contrat de service", "Contrat d'entreprise", "Contrat de mandat"],
+    "articles": {
+      "definitions": ["Définitions", "Définitions et interprétation", "Terminologie"],
+      "object": ["Objet du contrat", "Objet", "Nature des prestations", "Objet et étendue des prestations"],
+      "duration": ["Durée du contrat", "Durée", "Entrée en vigueur et durée", "Durée et renouvellement"],
+      "price": ["Prix", "Prix et révision", "Rémunération", "Conditions financières", "Honoraires"],
+      "payment": ["Modalités de paiement", "Conditions de paiement", "Facturation et paiement", "Règlement des factures"],
+      "obligations": ["Obligations des parties", "Obligations du prestataire", "Obligations du client", "Engagements des parties"],
+      "confidentiality": ["Confidentialité", "Clause de confidentialité", "Obligation de confidentialité"],
+      "liability": ["Responsabilité", "Limitation de responsabilité", "Responsabilité et assurances"],
+      "termination": ["Résiliation", "Résiliation du contrat", "Résiliation anticipée", "Fin du contrat"],
+      "law": ["Droit applicable", "Droit applicable et juridiction compétente", "Loi applicable et règlement des litiges", "Attribution de juridiction", "For juridique et droit applicable", "Lois applicables"],
+      "signatures": ["Signatures", "Signature des parties", "Fait en deux exemplaires originaux", "Pour accord"]
+    }
+  },
+  "terms": {
+    "cgv": ["Conditions générales de vente", "CGV", "Conditions générales", "Conditions générales de vente et de prestation", "Conditions générales de vente et de livraison", "Modalités et conditions de vente"],
+    "privacy": ["Politique de confidentialité", "Protection des données personnelles", "Politique de protection des données", "Données personnelles", "Déclaration de protection des données", "Politique de protection des renseignements personnels"],
+    "legal_notice": ["Mentions légales", "Informations légales", "Impressum", "Avis légal"],
+    "cookies": ["Politique de cookies", "Gestion des cookies", "Utilisation des cookies", "Cookies", "Politique relative aux témoins"],
+    "articles": {
+      "scope": ["Champ d'application", "Objet et champ d'application", "Application des conditions générales", "Dispositions générales"],
+      "orders": ["Commandes", "Commande", "Passation des commandes", "Prise de commande"],
+      "prices": ["Prix", "Tarifs", "Prix et tarifs"],
+      "payment": ["Paiement", "Modalités de paiement", "Conditions de règlement", "Paiement et pénalités de retard"],
+      "delivery": ["Livraison", "Délais de livraison", "Livraison et transfert des risques", "Expédition et livraison"],
+      "warranty": ["Garanties", "Garantie", "Garanties légales", "Garantie légale de conformité"],
+      "liability": ["Responsabilité", "Limitation de responsabilité"],
+      "withdrawal": ["Droit de rétractation", "Rétractation", "Droit de rétractation et retours", "Retours et remboursements"],
+      "disputes": ["Litiges", "Règlement des litiges", "Médiation et litiges", "Médiation de la consommation", "Droit applicable et juridiction"],
+      "data_controller": ["Responsable du traitement", "Identité du responsable du traitement", "Qui est responsable du traitement ?", "Responsable de la protection des renseignements personnels"],
+      "data_collected": ["Données collectées", "Données personnelles collectées", "Quelles données collectons-nous ?", "Nature des données recueillies", "Renseignements personnels recueillis"],
+      "purposes": ["Finalités du traitement", "Finalités", "Utilisation des données", "Pourquoi collectons-nous vos données ?"],
+      "retention": ["Durée de conservation", "Conservation des données", "Durée de conservation des données"],
+      "rights": ["Vos droits", "Droits des personnes concernées", "Exercice de vos droits", "Droit d'accès, de rectification et d'effacement"],
+      "publisher": ["Éditeur du site", "Édition du site", "Éditeur", "Propriétaire du site"],
+      "hosting": ["Hébergement", "Hébergeur", "Hébergement du site"],
+      "intellectual_property": ["Propriété intellectuelle", "Droits de propriété intellectuelle", "Droits d'auteur", "Crédits et propriété intellectuelle"]
+    }
+  },
+  "other": {
+    "meeting": ["Compte rendu de réunion", "Procès-verbal de réunion", "Compte rendu", "Ordre du jour", "Réunion d'équipe"],
+    "manual": ["Mode d'emploi", "Notice d'utilisation", "Guide d'utilisation", "Manuel d'utilisation", "Guide de démarrage rapide", "Notice de montage"],
+    "recipe": ["Recette", "La recette de la semaine", "Recette facile", "En cuisine"],
+    "news": ["Actualités", "Brèves", "En bref", "Infos locales", "L'actu de la semaine"],
+    "memo": ["Note de service", "Note interne", "Mémo", "Note d'information", "Circulaire interne"],
+    "todo": ["À faire", "Liste des tâches", "Tâches à faire", "Pense-bête"],
+    "press": ["Communiqué de presse", "Revue de presse", "Dans la presse", "Portrait d'entreprise", "Article de presse", "Économie locale"],
+    "report": ["Rapport d'activité", "Rapport annuel", "Rapport de gestion", "Bilan d'activité", "Rapport d'intervention", "Rapport mensuel"]
+  }
+}

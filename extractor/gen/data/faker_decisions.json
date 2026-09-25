@@ -1,0 +1,200 @@
+{
+ "ar-AE": {
+  "addresses": "own",
+  "addresses_test": "script: '8932 Soto Underpass Apt. 174\\nNorth Amanda, FM 91391'",
+  "names": "own",
+  "names_test": "script: 'Laura Patterson'"
+ },
+ "ar-EG": {
+  "addresses": "own",
+  "addresses_test": "script: '8932 Soto Underpass Apt. 174\\nNorth Amanda, FM 91391'",
+  "names": "own",
+  "names_test": "script: 'Laura Patterson'"
+ },
+ "ar-MA": {
+  "addresses": "own",
+  "addresses_test": "no Faker locale",
+  "names": "own",
+  "names_test": "no Faker locale"
+ },
+ "ar-SA": {
+  "addresses": "own",
+  "addresses_test": "script: '8932 شربتلي Ridges Apt. 174\\nNorth نور الدّين, AS 91391'",
+  "names": "faker",
+  "names_test": "ok"
+ },
+ "en-AU": {
+  "addresses": "own",
+  "addresses_test": "ok",
+  "names": "faker",
+  "names_test": "ok"
+ },
+ "en-CA": {
+  "addresses": "own",
+  "addresses_test": "postcode 'A7N2M2' does not match [A-Z]\\d[A-Z] \\d[A-Z]\\d",
+  "names": "faker",
+  "names_test": "ok"
+ },
+ "en-GB": {
+  "addresses": "own",
+  "addresses_test": "ok",
+  "names": "faker",
+  "names_test": "ok"
+ },
+ "en-IN": {
+  "addresses": "own",
+  "addresses_test": "ok",
+  "names": "faker",
+  "names_test": "ok"
+ },
+ "en-NG": {
+  "addresses": "own",
+  "addresses_test": "US state + ZIP: '8932 Oyekan Underpass Apt. 174\\nNorth Peace, AS 91391'",
+  "names": "faker",
+  "names_test": "ok"
+ },
+ "en-US": {
+  "addresses": "own",
+  "addresses_test": "ok",
+  "names": "faker",
+  "names_test": "ok"
+ },
+ "es-AR": {
+  "addresses": "own",
+  "addresses_test": "postcode '33000967' does not match [A-Z]\\d{4}[A-Z]{3}|\\d{4}",
+  "names": "faker",
+  "names_test": "ok"
+ },
+ "es-CL": {
+  "addresses": "own",
+  "addresses_test": "ok",
+  "names": "faker",
+  "names_test": "ok"
+ },
+ "es-CO": {
+  "addresses": "own",
+  "addresses_test": "script: 'Cr. 5ª # 6-14 Sur\\nApartamento 1\\n087666\\nPolonuevo, Atlántico'",
+  "names": "faker",
+  "names_test": "ok"
+ },
+ "es-ES": {
+  "addresses": "own",
+  "addresses_test": "ok",
+  "names": "faker",
+  "names_test": "ok"
+ },
+ "es-MX": {
+  "addresses": "own",
+  "addresses_test": "postcode '66619-3451' does not match \\d{5}",
+  "names": "faker",
+  "names_test": "ok"
+ },
+ "fr-BE": {
+  "addresses": "own",
+  "addresses_test": "US state + ZIP: '8932 Leroy Underpass Apt. 174\\nNorth Anita, FM 91391'",
+  "names": "faker",
+  "names_test": "ok"
+ },
+ "fr-CA": {
+  "addresses": "own",
+  "addresses_test": "English street word: '8932 chemin Poirier Suite 421\\nMarcotte, SK R1T 9H2'",
+  "names": "faker",
+  "names_test": "ok"
+ },
+ "fr-CH": {
+  "addresses": "own",
+  "addresses_test": "ok",
+  "names": "faker",
+  "names_test": "ok"
+ },
+ "fr-FR": {
+  "addresses": "own",
+  "addresses_test": "ok",
+  "names": "faker",
+  "names_test": "ok"
+ },
+ "fr-MA": {
+  "addresses": "own",
+  "addresses_test": "no Faker locale",
+  "names": "own",
+  "names_test": "no Faker locale"
+ },
+ "fr-SN": {
+  "addresses": "own",
+  "addresses_test": "no Faker locale",
+  "names": "own",
+  "names_test": "no Faker locale"
+ },
+ "hi-IN": {
+  "addresses": "own",
+  "addresses_test": "ok",
+  "names": "faker",
+  "names_test": "ok"
+ },
+ "it-CH": {
+  "addresses": "own",
+  "addresses_test": "US state + ZIP: '8932 Soto Underpass Apt. 174\\nNorth Amanda, FM 91391'",
+  "names": "own",
+  "names_test": "186 of 200 given names are English"
+ },
+ "it-IT": {
+  "addresses": "own",
+  "addresses_test": "ok",
+  "names": "faker",
+  "names_test": "ok"
+ },
+ "ja-JP": {
+  "addresses": "own",
+  "addresses_test": "script: '新潟県長生郡長南町丸の内ＪＰタワー35丁目23番17号'",
+  "names": "faker",
+  "names_test": "ok"
+ },
+ "ko-KR": {
+  "addresses": "own",
+  "addresses_test": "ok",
+  "names": "faker",
+  "names_test": "ok"
+ },
+ "ru-BY": {
+  "addresses": "own",
+  "addresses_test": "no Faker locale",
+  "names": "own",
+  "names_test": "no Faker locale"
+ },
+ "ru-KZ": {
+  "addresses": "own",
+  "addresses_test": "no Faker locale",
+  "names": "own",
+  "names_test": "no Faker locale"
+ },
+ "ru-RU": {
+  "addresses": "own",
+  "addresses_test": "ok",
+  "names": "faker",
+  "names_test": "ok"
+ },
+ "zh-CN": {
+  "addresses": "own",
+  "addresses_test": "script: '新疆维吾尔自治区凤兰市浔阳西安路j座 380967'",
+  "names": "faker",
+  "names_test": "ok"
+ },
+ "zh-HK": {
+  "addresses": "own",
+  "addresses_test": "ok",
+  "names": "faker",
+  "names_test": "ok"
+ },
+ "zh-SG": {
+  "addresses": "own",
+  "addresses_test": "no Faker locale",
+  "names": "own",
+  "names_test": "no Faker locale"
+ },
+ "zh-TW": {
+  "addresses": "own",
+  "addresses_test": "ok",
+  "names": "faker",
+  "names_test": "ok"
+ }
+}

@@ -1,0 +1,1109 @@
+{
+  "bakery": {
+    "names": ["bakery", "bakery and pastry shop", "bakeshop"],
+    "name_words": ["Bakery", "Bakehouse", "Bake Shop", "Patisserie"],
+    "phrases": [
+      "artisan bakery and pastry shop",
+      "baking of sourdough bread, pastries and custom cakes",
+      "family-run bakery baking fresh bread every morning",
+      "wholesale bread and pastry supply to cafés, hotels and restaurants",
+      "custom celebration and wedding cakes",
+      "scratch bakery for breads, pastries, cookies and pies"
+    ],
+    "services": [
+      {"name": "Sourdough loaf", "usd": [6, 10], "unit": "piece"},
+      {"name": "Baguette", "usd": [3, 5], "unit": "piece"},
+      {"name": "Butter croissant", "usd": [3, 5], "unit": "piece"},
+      {"name": "Pain au chocolat", "usd": [3.5, 5.5], "unit": "piece"},
+      {"name": "Cinnamon roll", "usd": [3.5, 6], "unit": "piece"},
+      {"name": "Blueberry muffin", "usd": [3, 4.5], "unit": "piece"},
+      {"name": "Scone with jam and clotted cream", "usd": [4, 6.5], "unit": "piece"},
+      {"name": "Whole wheat sandwich loaf", "usd": [5, 8], "unit": "piece"},
+      {"name": "Bagels, dozen", "usd": [14, 22], "unit": "box"},
+      {"name": "Chocolate chip cookies, box of 12", "usd": [14, 26], "unit": "box"},
+      {"name": "Cupcakes, box of 6", "usd": [18, 30], "unit": "box"},
+      {"name": "Custom birthday cake, 8-inch round", "usd": [45, 90], "unit": "piece"},
+      {"name": "Three-tier wedding cake (per serving)", "usd": [5, 12], "unit": "person"},
+      {"name": "Seasonal fruit tart", "usd": [28, 45], "unit": "piece"},
+      {"name": "Assorted pastry platter", "usd": [45, 90], "unit": "set"}
+    ]
+  },
+  "restaurant": {
+    "names": ["restaurant", "bistro", "grill"],
+    "name_words": ["Restaurant", "Kitchen", "Grill", "Bistro"],
+    "phrases": [
+      "full-service restaurant with a seasonal, locally sourced menu",
+      "casual dining restaurant and bar",
+      "farm-to-table dining, private events and takeout",
+      "Italian restaurant and wood-fired pizzeria",
+      "restaurant serving lunch, dinner and weekend brunch",
+      "Mediterranean grill and meze bar"
+    ],
+    "services": [
+      {"name": "Three-course set menu", "usd": [35, 75], "unit": "person"},
+      {"name": "Chef's tasting menu", "usd": [85, 160], "unit": "person"},
+      {"name": "Lunch special of the day", "usd": [12, 20], "unit": "piece"},
+      {"name": "Grilled salmon with seasonal vegetables", "usd": [24, 36], "unit": "piece"},
+      {"name": "Ribeye steak with fries", "usd": [38, 60], "unit": "piece"},
+      {"name": "Margherita pizza", "usd": [14, 20], "unit": "piece"},
+      {"name": "Caesar salad", "usd": [11, 16], "unit": "piece"},
+      {"name": "Soup of the day", "usd": [7, 11], "unit": "piece"},
+      {"name": "Kids' meal", "usd": [8, 12], "unit": "piece"},
+      {"name": "Dessert of the day", "usd": [8, 13], "unit": "piece"},
+      {"name": "House red wine, bottle", "usd": [28, 48], "unit": "piece"},
+      {"name": "Weekend brunch buffet", "usd": [28, 45], "unit": "person"},
+      {"name": "Private dining room, evening", "usd": [300, 1200], "unit": "flat"},
+      {"name": "Group banquet menu", "usd": [45, 90], "unit": "person"},
+      {"name": "Family meal for four, to go", "usd": [55, 95], "unit": "set"}
+    ]
+  },
+  "cafe_bar": {
+    "names": ["café", "coffee shop", "bar"],
+    "name_words": ["Café", "Coffee House", "Espresso Bar", "Taproom"],
+    "phrases": [
+      "independent coffee shop serving locally roasted coffee",
+      "café and wine bar",
+      "all-day café serving breakfast, light lunches and homemade cakes",
+      "craft beer bar and taproom",
+      "coffee bar with pastries, sandwiches and smoothies",
+      "cocktail bar and lounge"
+    ],
+    "services": [
+      {"name": "Espresso", "usd": [3, 4], "unit": "piece"},
+      {"name": "Cappuccino", "usd": [4.25, 5.75], "unit": "piece"},
+      {"name": "Caffè latte", "usd": [4.5, 6.5], "unit": "piece"},
+      {"name": "Flat white", "usd": [4.5, 6], "unit": "piece"},
+      {"name": "Cold brew", "usd": [4.5, 6], "unit": "piece"},
+      {"name": "Chai latte", "usd": [4.75, 6.5], "unit": "piece"},
+      {"name": "Hot chocolate", "usd": [4, 5.5], "unit": "piece"},
+      {"name": "Avocado toast", "usd": [10, 15], "unit": "piece"},
+      {"name": "Breakfast sandwich", "usd": [8, 12], "unit": "piece"},
+      {"name": "Slice of cake", "usd": [5, 8], "unit": "piece"},
+      {"name": "Pint of craft beer", "usd": [7, 10], "unit": "piece"},
+      {"name": "Glass of house wine", "usd": [9, 14], "unit": "piece"},
+      {"name": "Signature cocktail", "usd": [13, 18], "unit": "piece"},
+      {"name": "Whole-bean coffee, 340 g bag", "usd": [15, 22], "unit": "piece"},
+      {"name": "Office coffee catering (per guest)", "usd": [6, 12], "unit": "person"}
+    ]
+  },
+  "hotel": {
+    "names": ["hotel", "boutique hotel", "inn"],
+    "name_words": ["Hotel", "Inn", "Suites", "Lodge"],
+    "phrases": [
+      "independent boutique hotel with restaurant and bar",
+      "hotel accommodation, meeting rooms and event spaces",
+      "family-run country inn with guest rooms and a restaurant",
+      "extended-stay suites for business guests",
+      "bed and breakfast accommodation",
+      "waterfront hotel, spa and conference venue"
+    ],
+    "services": [
+      {"name": "Standard double room", "usd": [110, 220], "unit": "night"},
+      {"name": "Twin room", "usd": [100, 200], "unit": "night"},
+      {"name": "King room, city view", "usd": [150, 290], "unit": "night"},
+      {"name": "Family room", "usd": [150, 280], "unit": "night"},
+      {"name": "Executive suite", "usd": [260, 520], "unit": "night"},
+      {"name": "Dinner, bed and breakfast package", "usd": [220, 380], "unit": "night"},
+      {"name": "Weekend getaway package, 2 nights", "usd": [380, 760], "unit": "set"},
+      {"name": "Breakfast buffet", "usd": [18, 32], "unit": "person"},
+      {"name": "Conference room, full day", "usd": [400, 1500], "unit": "day"},
+      {"name": "Day delegate package", "usd": [55, 110], "unit": "person"},
+      {"name": "Wedding reception package", "usd": [85, 180], "unit": "person"},
+      {"name": "Airport transfer", "usd": [45, 90], "unit": "flat"},
+      {"name": "Spa day pass", "usd": [30, 60], "unit": "person"},
+      {"name": "Laundry and pressing (per item)", "usd": [4, 12], "unit": "piece"}
+    ]
+  },
+  "plumbing_hvac": {
+    "names": ["plumbing, heating and air conditioning", "plumbing and HVAC", "heating and cooling"],
+    "name_words": ["Plumbing", "Plumbing & Heating", "Heating & Air", "Mechanical"],
+    "phrases": [
+      "residential and commercial plumbing, heating and air conditioning",
+      "installation, repair and maintenance of boilers, furnaces and heat pumps",
+      "24/7 emergency plumbing and drain cleaning",
+      "HVAC installation and service",
+      "bathroom and kitchen plumbing, water heaters and gas fitting"
+    ],
+    "services": [
+      {"name": "Plumber, hourly rate", "usd": [85, 150], "unit": "hour"},
+      {"name": "Diagnostic visit", "usd": [89, 150], "unit": "visit"},
+      {"name": "Main line drain cleaning", "usd": [180, 450], "unit": "flat"},
+      {"name": "Tank water heater replacement", "usd": [1200, 2800], "unit": "flat"},
+      {"name": "Tankless water heater installation", "usd": [2500, 5000], "unit": "flat"},
+      {"name": "Furnace tune-up", "usd": [90, 200], "unit": "flat"},
+      {"name": "Air conditioner maintenance", "usd": [90, 200], "unit": "flat"},
+      {"name": "Heat pump installation", "usd": [5500, 14000], "unit": "flat"},
+      {"name": "Annual boiler service", "usd": [120, 260], "unit": "flat"},
+      {"name": "Leak detection and repair", "usd": [200, 650], "unit": "flat"},
+      {"name": "Toilet replacement", "usd": [350, 800], "unit": "flat"},
+      {"name": "Kitchen faucet replacement", "usd": [150, 350], "unit": "flat"},
+      {"name": "Sump pump installation", "usd": [800, 2000], "unit": "flat"},
+      {"name": "Duct cleaning", "usd": [350, 700], "unit": "flat"},
+      {"name": "HVAC maintenance plan", "usd": [180, 360], "unit": "year"}
+    ]
+  },
+  "electrical": {
+    "names": ["electrical contractor", "electrician", "electrical installation"],
+    "name_words": ["Electric", "Electrical", "Electrical Services", "Power"],
+    "phrases": [
+      "residential and commercial electrical contracting",
+      "electrical installation, rewiring and panel upgrades",
+      "licensed electricians for homes and businesses",
+      "EV charger installation and solar PV wiring",
+      "lighting installation, fault finding and electrical safety inspections"
+    ],
+    "services": [
+      {"name": "Electrician, hourly rate", "usd": [75, 130], "unit": "hour"},
+      {"name": "Panel upgrade to 200 amps", "usd": [1800, 4000], "unit": "flat"},
+      {"name": "Level 2 EV charger installation", "usd": [800, 2200], "unit": "flat"},
+      {"name": "Additional power outlet", "usd": [120, 250], "unit": "piece"},
+      {"name": "Light fixture installation", "usd": [100, 250], "unit": "piece"},
+      {"name": "Recessed LED downlight", "usd": [150, 300], "unit": "piece"},
+      {"name": "Ceiling fan installation", "usd": [150, 350], "unit": "piece"},
+      {"name": "Whole-house rewiring", "usd": [8000, 20000], "unit": "flat"},
+      {"name": "Electrical safety inspection", "usd": [150, 400], "unit": "flat"},
+      {"name": "Circuit breaker replacement", "usd": [150, 300], "unit": "piece"},
+      {"name": "Standby generator installation", "usd": [5000, 12000], "unit": "flat"},
+      {"name": "Emergency fault finding", "usd": [150, 350], "unit": "visit"},
+      {"name": "Smoke detector installation", "usd": [70, 150], "unit": "piece"},
+      {"name": "Outdoor security lighting", "usd": [300, 900], "unit": "flat"},
+      {"name": "LED lighting retrofit, commercial unit", "usd": [2000, 15000], "unit": "flat"}
+    ]
+  },
+  "building_contractor": {
+    "names": ["general contractor", "building contractor", "construction company"],
+    "name_words": ["Construction", "Builders", "Building", "Contracting"],
+    "phrases": [
+      "general contracting for residential and commercial construction",
+      "new home construction, extensions and renovations",
+      "design-build construction and project management",
+      "commercial fit-outs and tenant improvements",
+      "building contractor for renovations, extensions and new builds"
+    ],
+    "services": [
+      {"name": "Kitchen remodel", "usd": [25000, 75000], "unit": "flat"},
+      {"name": "Bathroom renovation", "usd": [12000, 35000], "unit": "flat"},
+      {"name": "Room addition", "usd": [2000, 4200], "unit": "m2"},
+      {"name": "Concrete foundation", "usd": [100, 250], "unit": "m2"},
+      {"name": "Framing", "usd": [80, 200], "unit": "m2"},
+      {"name": "Drywall installation", "usd": [20, 45], "unit": "m2"},
+      {"name": "Roof replacement", "usd": [60, 140], "unit": "m2"},
+      {"name": "Deck construction", "usd": [300, 700], "unit": "m2"},
+      {"name": "Commercial fit-out", "usd": [500, 1500], "unit": "m2"},
+      {"name": "Site preparation and excavation", "usd": [3000, 15000], "unit": "flat"},
+      {"name": "Interior demolition", "usd": [2000, 12000], "unit": "flat"},
+      {"name": "Structural repairs", "usd": [2000, 20000], "unit": "flat"},
+      {"name": "Carpenter, hourly rate", "usd": [60, 110], "unit": "hour"},
+      {"name": "Site supervision", "usd": [400, 900], "unit": "day"},
+      {"name": "Project management", "usd": [4000, 12000], "unit": "month"}
+    ]
+  },
+  "painting": {
+    "names": ["painting and decorating", "painting contractor", "painters and decorators"],
+    "name_words": ["Painting", "Painters", "Decorating", "Painting & Decorating"],
+    "phrases": [
+      "interior and exterior painting",
+      "residential and commercial painting and decorating",
+      "wallpaper hanging, plastering and decorative finishes",
+      "painting, drywall repair and cabinet refinishing",
+      "exterior house painting and pressure washing"
+    ],
+    "services": [
+      {"name": "Interior wall painting", "usd": [15, 35], "unit": "m2"},
+      {"name": "Exterior painting", "usd": [20, 45], "unit": "m2"},
+      {"name": "Ceiling painting", "usd": [15, 30], "unit": "m2"},
+      {"name": "Room repaint, walls and ceiling", "usd": [400, 1200], "unit": "flat"},
+      {"name": "Kitchen cabinet painting", "usd": [3000, 7000], "unit": "flat"},
+      {"name": "Wallpaper hanging", "usd": [25, 60], "unit": "m2"},
+      {"name": "Wallpaper removal", "usd": [10, 25], "unit": "m2"},
+      {"name": "Drywall patching", "usd": [60, 100], "unit": "hour"},
+      {"name": "Door and trim painting", "usd": [60, 150], "unit": "piece"},
+      {"name": "Deck staining", "usd": [15, 35], "unit": "m2"},
+      {"name": "Pressure washing", "usd": [3, 8], "unit": "m2"},
+      {"name": "Fence painting", "usd": [10, 25], "unit": "m"},
+      {"name": "Epoxy floor coating", "usd": [40, 110], "unit": "m2"},
+      {"name": "Paint color consultation", "usd": [100, 250], "unit": "session"},
+      {"name": "Painter, day rate", "usd": [350, 650], "unit": "day"}
+    ]
+  },
+  "car_repair": {
+    "names": ["auto repair shop", "car repair garage", "garage"],
+    "name_words": ["Auto Repair", "Automotive", "Motors", "Garage"],
+    "phrases": [
+      "general auto repair and maintenance",
+      "car servicing, MOT testing and repairs",
+      "brake, suspension and engine repair",
+      "full-service auto repair for domestic and import vehicles",
+      "tyre fitting, wheel alignment and engine diagnostics"
+    ],
+    "services": [
+      {"name": "Full synthetic oil change", "usd": [70, 130], "unit": "flat"},
+      {"name": "Front brake pads and rotors", "usd": [250, 550], "unit": "set"},
+      {"name": "Engine diagnostic scan", "usd": [100, 180], "unit": "flat"},
+      {"name": "Four-wheel alignment", "usd": [90, 180], "unit": "flat"},
+      {"name": "Tire rotation and balance", "usd": [40, 90], "unit": "flat"},
+      {"name": "Battery replacement", "usd": [150, 350], "unit": "flat"},
+      {"name": "Timing belt replacement", "usd": [500, 1100], "unit": "flat"},
+      {"name": "A/C recharge", "usd": [150, 300], "unit": "flat"},
+      {"name": "Transmission fluid service", "usd": [150, 300], "unit": "flat"},
+      {"name": "Coolant flush", "usd": [100, 200], "unit": "flat"},
+      {"name": "Spark plug replacement", "usd": [150, 350], "unit": "flat"},
+      {"name": "Shock absorber replacement", "usd": [400, 1200], "unit": "set"},
+      {"name": "Full annual service", "usd": [250, 500], "unit": "flat"},
+      {"name": "State safety inspection", "usd": [20, 50], "unit": "flat"},
+      {"name": "Mechanical labor", "usd": [110, 180], "unit": "hour"}
+    ]
+  },
+  "clothing_shop": {
+    "names": ["clothing store", "fashion boutique", "clothing retailer"],
+    "name_words": ["Boutique", "Clothing", "Apparel", "Outfitters"],
+    "phrases": [
+      "women's fashion boutique",
+      "men's and women's clothing and accessories",
+      "casual wear, denim and footwear",
+      "independent boutique stocking contemporary designer labels",
+      "children's clothing and school uniforms"
+    ],
+    "services": [
+      {"name": "Men's cotton T-shirt", "usd": [15, 35], "unit": "piece"},
+      {"name": "Slim-fit denim jeans", "usd": [50, 120], "unit": "piece"},
+      {"name": "Women's wrap dress", "usd": [60, 160], "unit": "piece"},
+      {"name": "Merino wool sweater", "usd": [60, 140], "unit": "piece"},
+      {"name": "Leather jacket", "usd": [180, 450], "unit": "piece"},
+      {"name": "Oxford button-down shirt", "usd": [45, 95], "unit": "piece"},
+      {"name": "Chino trousers", "usd": [50, 100], "unit": "piece"},
+      {"name": "Hooded sweatshirt", "usd": [45, 90], "unit": "piece"},
+      {"name": "Linen blazer", "usd": [120, 280], "unit": "piece"},
+      {"name": "Trench coat", "usd": [150, 350], "unit": "piece"},
+      {"name": "Silk scarf", "usd": [35, 120], "unit": "piece"},
+      {"name": "Leather belt", "usd": [30, 80], "unit": "piece"},
+      {"name": "Canvas sneakers", "usd": [55, 120], "unit": "piece"},
+      {"name": "Kids' rain jacket", "usd": [35, 70], "unit": "piece"},
+      {"name": "Trouser hemming", "usd": [15, 30], "unit": "piece"}
+    ]
+  },
+  "florist": {
+    "names": ["florist", "flower shop", "floral design studio"],
+    "name_words": ["Florist", "Flowers", "Floral Design", "Blooms"],
+    "phrases": [
+      "florist and floral design studio",
+      "fresh flowers, bouquets and house plants",
+      "wedding and event flowers",
+      "flower arrangements for weddings, funerals and corporate events",
+      "same-day flower delivery and sympathy arrangements"
+    ],
+    "services": [
+      {"name": "Dozen red roses, arranged", "usd": [70, 130], "unit": "piece"},
+      {"name": "Seasonal hand-tied bouquet", "usd": [45, 120], "unit": "piece"},
+      {"name": "Bridal bouquet", "usd": [150, 350], "unit": "piece"},
+      {"name": "Boutonniere", "usd": [15, 35], "unit": "piece"},
+      {"name": "Table centerpiece", "usd": [60, 150], "unit": "piece"},
+      {"name": "Funeral wreath", "usd": [150, 400], "unit": "piece"},
+      {"name": "Casket spray", "usd": [250, 600], "unit": "piece"},
+      {"name": "Sympathy arrangement", "usd": [75, 180], "unit": "piece"},
+      {"name": "Orchid plant in ceramic pot", "usd": [45, 95], "unit": "piece"},
+      {"name": "Succulent planter", "usd": [35, 75], "unit": "piece"},
+      {"name": "Flower crown", "usd": [45, 90], "unit": "piece"},
+      {"name": "Single long-stem rose", "usd": [5, 9], "unit": "piece"},
+      {"name": "Weekly office flowers", "usd": [200, 800], "unit": "month"},
+      {"name": "Wedding floral design", "usd": [1500, 8000], "unit": "flat"}
+    ]
+  },
+  "pharmacy": {
+    "names": ["pharmacy", "drugstore", "chemist"],
+    "name_words": ["Pharmacy", "Chemists", "Drugs", "Apothecary"],
+    "phrases": [
+      "community pharmacy",
+      "retail pharmacy and prescription dispensing",
+      "independent pharmacy offering vaccinations and health screenings",
+      "prescription medicines, over-the-counter remedies and health products",
+      "compounding pharmacy and home medical supplies"
+    ],
+    "services": [
+      {"name": "Flu shot", "usd": [25, 45], "unit": "piece"},
+      {"name": "Blood pressure screening", "usd": [10, 25], "unit": "session"},
+      {"name": "Medication review consultation", "usd": [30, 75], "unit": "session"},
+      {"name": "Travel health consultation", "usd": [40, 90], "unit": "session"},
+      {"name": "Compounded prescription", "usd": [30, 90], "unit": "piece"},
+      {"name": "Ibuprofen 200 mg, 100 tablets", "usd": [6, 12], "unit": "box"},
+      {"name": "Paracetamol 500 mg, 32 tablets", "usd": [2, 5], "unit": "box"},
+      {"name": "Loratadine allergy relief, 30 tablets", "usd": [9, 18], "unit": "box"},
+      {"name": "Daily multivitamin, 90 tablets", "usd": [10, 22], "unit": "box"},
+      {"name": "Vitamin D3 1000 IU, 120 softgels", "usd": [8, 16], "unit": "box"},
+      {"name": "Blood glucose test strips, 50 count", "usd": [20, 45], "unit": "box"},
+      {"name": "Digital thermometer", "usd": [10, 25], "unit": "piece"},
+      {"name": "Knee support brace", "usd": [15, 40], "unit": "piece"},
+      {"name": "Sunscreen SPF 50, 200 ml", "usd": [9, 18], "unit": "piece"},
+      {"name": "Hand sanitizer, 500 ml", "usd": [4, 8], "unit": "piece"}
+    ]
+  },
+  "grocery": {
+    "names": ["grocery store", "convenience store", "corner shop"],
+    "name_words": ["Grocery", "Market", "Foods", "Mini Mart"],
+    "phrases": [
+      "local grocery and convenience store",
+      "fresh produce, groceries and household essentials",
+      "convenience store with snacks, drinks and daily essentials",
+      "family-run supermarket",
+      "organic and natural foods market",
+      "Asian and international grocery"
+    ],
+    "services": [
+      {"name": "Whole milk, 2 L", "usd": [3, 5], "unit": "piece"},
+      {"name": "Large eggs, dozen", "usd": [3, 6.5], "unit": "box"},
+      {"name": "Sliced white bread", "usd": [2.5, 4.5], "unit": "piece"},
+      {"name": "Bananas", "usd": [1.3, 2.2], "unit": "kg"},
+      {"name": "Vine tomatoes", "usd": [3, 6], "unit": "kg"},
+      {"name": "Boneless chicken breast", "usd": [8, 14], "unit": "kg"},
+      {"name": "Basmati rice, 5 kg bag", "usd": [10, 18], "unit": "piece"},
+      {"name": "Ground coffee, 340 g", "usd": [7, 12], "unit": "piece"},
+      {"name": "Cheddar cheese block", "usd": [4, 8], "unit": "piece"},
+      {"name": "Extra virgin olive oil, 1 L", "usd": [9, 16], "unit": "piece"},
+      {"name": "Orange juice, 1.5 L", "usd": [4, 7], "unit": "piece"},
+      {"name": "Bottled water, 24-pack", "usd": [4, 8], "unit": "box"},
+      {"name": "Canned chopped tomatoes", "usd": [1.5, 3], "unit": "piece"},
+      {"name": "Laundry detergent", "usd": [9, 16], "unit": "piece"},
+      {"name": "Toilet paper, 12 rolls", "usd": [8, 15], "unit": "box"}
+    ]
+  },
+  "ecommerce": {
+    "names": ["online shop", "online store", "e-commerce retailer"],
+    "name_words": ["Store", "Shop", "Online", "Direct"],
+    "phrases": [
+      "online retail of home and kitchen products",
+      "e-commerce store for outdoor gear and apparel",
+      "direct-to-consumer online brand of natural skincare",
+      "online shop selling handmade gifts and accessories",
+      "online sales of phone accessories and gadgets"
+    ],
+    "services": [
+      {"name": "Wireless earbuds", "usd": [30, 120], "unit": "piece"},
+      {"name": "Bluetooth speaker", "usd": [35, 120], "unit": "piece"},
+      {"name": "USB-C fast charger", "usd": [15, 35], "unit": "piece"},
+      {"name": "Phone case", "usd": [15, 45], "unit": "piece"},
+      {"name": "LED desk lamp", "usd": [25, 70], "unit": "piece"},
+      {"name": "Stainless steel water bottle, 750 ml", "usd": [18, 35], "unit": "piece"},
+      {"name": "Ceramic coffee mug", "usd": [12, 25], "unit": "piece"},
+      {"name": "Scented soy candle", "usd": [18, 35], "unit": "piece"},
+      {"name": "Organic cotton tote bag", "usd": [12, 30], "unit": "piece"},
+      {"name": "Yoga mat", "usd": [25, 70], "unit": "piece"},
+      {"name": "Daypack backpack", "usd": [40, 120], "unit": "piece"},
+      {"name": "Vitamin C face serum, 30 ml", "usd": [18, 45], "unit": "piece"},
+      {"name": "Silicone baking mat set", "usd": [15, 30], "unit": "set"},
+      {"name": "Curated gift box", "usd": [35, 90], "unit": "box"},
+      {"name": "Monthly subscription box", "usd": [25, 60], "unit": "month"}
+    ]
+  },
+  "wholesale_electronics": {
+    "names": ["wholesale distributor of computers and electronics", "IT distributor", "electronics wholesaler"],
+    "name_words": ["Distribution", "Electronics", "Computers", "Technologies"],
+    "phrases": [
+      "wholesale distribution of computers, peripherals and components",
+      "B2B supplier of laptops, networking equipment and accessories",
+      "IT hardware distribution to resellers and system integrators",
+      "wholesale of consumer electronics and computer components",
+      "value-added distribution of servers, storage and networking products"
+    ],
+    "services": [
+      {"name": "Business laptop, 14\", Core i5, 16 GB RAM, 512 GB SSD", "usd": [700, 1100], "unit": "piece"},
+      {"name": "Desktop PC, Core i7, 16 GB RAM, 1 TB SSD", "usd": [800, 1300], "unit": "piece"},
+      {"name": "24\" Full HD monitor", "usd": [120, 220], "unit": "piece"},
+      {"name": "27\" 4K monitor", "usd": [250, 450], "unit": "piece"},
+      {"name": "1 TB NVMe SSD", "usd": [60, 120], "unit": "piece"},
+      {"name": "16 GB DDR5 memory module", "usd": [45, 90], "unit": "piece"},
+      {"name": "24-port gigabit managed switch", "usd": [150, 450], "unit": "piece"},
+      {"name": "Wi-Fi 6 access point", "usd": [120, 350], "unit": "piece"},
+      {"name": "Wireless keyboard and mouse combo", "usd": [25, 60], "unit": "set"},
+      {"name": "Mono laser printer", "usd": [150, 400], "unit": "piece"},
+      {"name": "UPS 1500 VA", "usd": [180, 450], "unit": "piece"},
+      {"name": "USB-C docking station", "usd": [120, 280], "unit": "piece"},
+      {"name": "2U rack server, dual CPU", "usd": [3500, 9000], "unit": "piece"},
+      {"name": "Cat6 patch cable, 2 m", "usd": [3, 8], "unit": "piece"},
+      {"name": "3-year extended warranty", "usd": [80, 250], "unit": "piece"}
+    ]
+  },
+  "software": {
+    "names": ["software development company", "software house", "app development studio"],
+    "name_words": ["Software", "Labs", "Technologies", "Digital"],
+    "phrases": [
+      "custom software development",
+      "web and mobile app development",
+      "design and development of SaaS platforms",
+      "bespoke software for small and medium-sized businesses",
+      "software engineering, cloud integration and API development"
+    ],
+    "services": [
+      {"name": "Senior software developer", "usd": [110, 190], "unit": "hour"},
+      {"name": "UI/UX design", "usd": [80, 150], "unit": "hour"},
+      {"name": "QA and testing", "usd": [50, 100], "unit": "hour"},
+      {"name": "Project manager", "usd": [800, 1400], "unit": "day"},
+      {"name": "Discovery workshop", "usd": [1500, 4000], "unit": "day"},
+      {"name": "Mobile app development, iOS and Android", "usd": [30000, 150000], "unit": "flat"},
+      {"name": "Web application development", "usd": [20000, 120000], "unit": "flat"},
+      {"name": "MVP build", "usd": [25000, 90000], "unit": "flat"},
+      {"name": "Third-party API integration", "usd": [3000, 15000], "unit": "flat"},
+      {"name": "CI/CD pipeline setup", "usd": [4000, 15000], "unit": "flat"},
+      {"name": "Code review and technical audit", "usd": [2500, 12000], "unit": "flat"},
+      {"name": "Software maintenance and support", "usd": [1000, 6000], "unit": "month"},
+      {"name": "Hosting and maintenance plan", "usd": [150, 900], "unit": "month"},
+      {"name": "SaaS subscription, Professional plan", "usd": [25, 80], "unit": "user"},
+      {"name": "Perpetual software license", "usd": [500, 5000], "unit": "license"}
+    ]
+  },
+  "it_consulting": {
+    "names": ["IT consulting and support", "managed IT services provider", "IT support company"],
+    "name_words": ["IT Solutions", "Tech Support", "Systems", "IT Services"],
+    "phrases": [
+      "IT consulting and managed services for small businesses",
+      "IT support, network management and cybersecurity",
+      "Microsoft 365 migrations, cloud consulting and helpdesk support",
+      "outsourced IT department and IT strategy consulting",
+      "network installation and cybersecurity audits"
+    ],
+    "services": [
+      {"name": "Managed IT services", "usd": [100, 200], "unit": "user"},
+      {"name": "Remote helpdesk support", "usd": [85, 150], "unit": "hour"},
+      {"name": "On-site technician visit", "usd": [150, 300], "unit": "visit"},
+      {"name": "Senior IT consultant", "usd": [150, 250], "unit": "hour"},
+      {"name": "Network setup and configuration", "usd": [1500, 6000], "unit": "flat"},
+      {"name": "Firewall installation and configuration", "usd": [800, 3000], "unit": "flat"},
+      {"name": "Cybersecurity assessment", "usd": [3000, 12000], "unit": "flat"},
+      {"name": "Microsoft 365 migration", "usd": [50, 150], "unit": "user"},
+      {"name": "Backup and disaster recovery", "usd": [150, 600], "unit": "month"},
+      {"name": "Server monitoring and maintenance", "usd": [200, 800], "unit": "month"},
+      {"name": "Virtual CIO services", "usd": [1500, 6000], "unit": "month"},
+      {"name": "New laptop setup", "usd": [100, 200], "unit": "piece"},
+      {"name": "Endpoint security license, 1 year", "usd": [40, 90], "unit": "license"},
+      {"name": "Security awareness training", "usd": [500, 2000], "unit": "session"}
+    ]
+  },
+  "web_hosting": {
+    "names": ["web hosting provider", "cloud hosting and data processing", "hosting and domain services"],
+    "name_words": ["Hosting", "Cloud", "Data", "Networks"],
+    "phrases": [
+      "web hosting, domain registration and email hosting",
+      "managed cloud hosting and server management",
+      "colocation, dedicated servers and data backup",
+      "managed WordPress hosting",
+      "data processing and cloud storage services"
+    ],
+    "services": [
+      {"name": "Shared hosting plan", "usd": [5, 20], "unit": "month"},
+      {"name": "Managed WordPress hosting", "usd": [25, 80], "unit": "month"},
+      {"name": "Cloud VPS, 4 vCPU / 8 GB RAM", "usd": [30, 90], "unit": "month"},
+      {"name": "Dedicated server", "usd": [150, 500], "unit": "month"},
+      {"name": "Colocation, 1U rack space", "usd": [80, 250], "unit": "month"},
+      {"name": "Managed database cluster", "usd": [50, 400], "unit": "month"},
+      {"name": "Cloud backup, 1 TB", "usd": [10, 40], "unit": "month"},
+      {"name": "Object storage, 1 TB", "usd": [20, 30], "unit": "month"},
+      {"name": "DDoS protection", "usd": [50, 300], "unit": "month"},
+      {"name": ".com domain registration", "usd": [12, 25], "unit": "year"},
+      {"name": "SSL certificate (OV)", "usd": [50, 250], "unit": "year"},
+      {"name": "Business email mailbox", "usd": [3, 8], "unit": "user"},
+      {"name": "Website migration", "usd": [100, 500], "unit": "flat"},
+      {"name": "Server administration", "usd": [80, 150], "unit": "hour"}
+    ]
+  },
+  "accounting": {
+    "names": ["accounting firm", "accountants and tax advisers", "bookkeeping and tax services"],
+    "name_words": ["Accounting", "Accountants", "CPA", "Tax & Accounting"],
+    "phrases": [
+      "accounting, bookkeeping and tax preparation",
+      "tax planning and business advisory for small businesses",
+      "chartered accountants and business advisers",
+      "payroll, bookkeeping and year-end accounts",
+      "individual and corporate tax returns",
+      "audit, accounting and tax advisory services"
+    ],
+    "services": [
+      {"name": "Monthly bookkeeping", "usd": [300, 1200], "unit": "month"},
+      {"name": "Payroll processing", "usd": [8, 20], "unit": "person"},
+      {"name": "Individual tax return preparation", "usd": [250, 600], "unit": "flat"},
+      {"name": "Corporate tax return", "usd": [1000, 3000], "unit": "flat"},
+      {"name": "Year-end financial statements", "usd": [1500, 5000], "unit": "flat"},
+      {"name": "Quarterly management accounts", "usd": [600, 1800], "unit": "flat"},
+      {"name": "Audit of financial statements", "usd": [8000, 30000], "unit": "flat"},
+      {"name": "Company formation and registration", "usd": [300, 900], "unit": "flat"},
+      {"name": "Tax notice response", "usd": [200, 600], "unit": "flat"},
+      {"name": "QuickBooks setup and training", "usd": [400, 1200], "unit": "flat"},
+      {"name": "Tax planning consultation", "usd": [150, 350], "unit": "hour"},
+      {"name": "Partner consultation", "usd": [200, 450], "unit": "hour"},
+      {"name": "Outsourced CFO services", "usd": [1500, 5000], "unit": "month"}
+    ]
+  },
+  "law_firm": {
+    "names": ["law firm", "solicitors", "attorneys at law"],
+    "name_words": ["Law", "Law Group", "Legal", "Law Partners"],
+    "phrases": [
+      "business law, contracts and commercial litigation",
+      "family law, divorce and child custody",
+      "personal injury and employment law",
+      "real estate law, conveyancing and estate planning",
+      "full-service law firm",
+      "immigration law and visa applications"
+    ],
+    "services": [
+      {"name": "Initial consultation", "usd": [150, 400], "unit": "session"},
+      {"name": "Partner time", "usd": [350, 800], "unit": "hour"},
+      {"name": "Associate attorney time", "usd": [200, 400], "unit": "hour"},
+      {"name": "Paralegal time", "usd": [100, 200], "unit": "hour"},
+      {"name": "Contract drafting and review", "usd": [500, 3000], "unit": "flat"},
+      {"name": "Last will and testament", "usd": [300, 1200], "unit": "flat"},
+      {"name": "Lasting power of attorney", "usd": [150, 500], "unit": "flat"},
+      {"name": "LLC formation", "usd": [500, 1500], "unit": "flat"},
+      {"name": "Trademark application", "usd": [800, 2500], "unit": "flat"},
+      {"name": "Residential real estate closing", "usd": [800, 2000], "unit": "flat"},
+      {"name": "Uncontested divorce", "usd": [1500, 5000], "unit": "flat"},
+      {"name": "Employment agreement review", "usd": [300, 1000], "unit": "flat"},
+      {"name": "Court appearance, half day", "usd": [800, 2500], "unit": "flat"},
+      {"name": "Legal opinion letter", "usd": [1000, 5000], "unit": "flat"},
+      {"name": "Visa application preparation", "usd": [1500, 5000], "unit": "flat"}
+    ]
+  },
+  "management_consulting": {
+    "names": ["management consultancy", "business consulting firm", "strategy consultants"],
+    "name_words": ["Consulting", "Advisory", "Partners", "Consultancy"],
+    "phrases": [
+      "management consulting for small and mid-sized companies",
+      "strategy, operations and change management consulting",
+      "business process improvement and lean management",
+      "growth strategy and market entry consulting",
+      "interim management and leadership coaching"
+    ],
+    "services": [
+      {"name": "Senior consultant", "usd": [1200, 2500], "unit": "day"},
+      {"name": "Principal consultant", "usd": [250, 450], "unit": "hour"},
+      {"name": "Strategic planning workshop", "usd": [3000, 8000], "unit": "day"},
+      {"name": "Business plan development", "usd": [3000, 15000], "unit": "flat"},
+      {"name": "Market entry study", "usd": [10000, 50000], "unit": "flat"},
+      {"name": "Operational efficiency assessment", "usd": [8000, 30000], "unit": "flat"},
+      {"name": "Commercial due diligence", "usd": [10000, 40000], "unit": "flat"},
+      {"name": "Change management program", "usd": [15000, 60000], "unit": "flat"},
+      {"name": "Customer survey and analysis", "usd": [5000, 20000], "unit": "flat"},
+      {"name": "Executive coaching session", "usd": [300, 750], "unit": "session"},
+      {"name": "Leadership training", "usd": [2500, 7000], "unit": "day"},
+      {"name": "Interim CFO", "usd": [10000, 25000], "unit": "month"},
+      {"name": "Advisory services, monthly", "usd": [2000, 8000], "unit": "month"}
+    ]
+  },
+  "architecture": {
+    "names": ["architecture firm", "architectural practice", "architects"],
+    "name_words": ["Architects", "Architecture", "Design Studio", "Studio"],
+    "phrases": [
+      "architectural design for residential and commercial projects",
+      "architecture, interior design and planning applications",
+      "sustainable architecture and passive house design",
+      "residential architecture, extensions and renovations",
+      "architecture and urban design"
+    ],
+    "services": [
+      {"name": "Design consultation", "usd": [200, 500], "unit": "session"},
+      {"name": "Architect, hourly rate", "usd": [125, 250], "unit": "hour"},
+      {"name": "Feasibility study", "usd": [2000, 8000], "unit": "flat"},
+      {"name": "Measured survey and existing drawings", "usd": [800, 3000], "unit": "flat"},
+      {"name": "Schematic design", "usd": [5000, 25000], "unit": "flat"},
+      {"name": "Planning application drawings", "usd": [1500, 5000], "unit": "flat"},
+      {"name": "Permit drawing set", "usd": [3000, 10000], "unit": "flat"},
+      {"name": "Construction documents", "usd": [10000, 60000], "unit": "flat"},
+      {"name": "Construction administration", "usd": [2000, 8000], "unit": "month"},
+      {"name": "3D exterior rendering", "usd": [500, 2000], "unit": "piece"},
+      {"name": "Interior design concept", "usd": [3000, 15000], "unit": "flat"},
+      {"name": "Kitchen and bath design", "usd": [2500, 8000], "unit": "flat"},
+      {"name": "Landscape design plan", "usd": [1500, 8000], "unit": "flat"},
+      {"name": "Energy performance assessment", "usd": [500, 2000], "unit": "flat"}
+    ]
+  },
+  "advertising": {
+    "names": ["advertising agency", "marketing agency", "digital marketing agency"],
+    "name_words": ["Media", "Marketing", "Creative", "Agency"],
+    "phrases": [
+      "full-service advertising and marketing agency",
+      "digital marketing, SEO and social media management",
+      "brand strategy, creative campaigns and media buying",
+      "content marketing and paid social advertising",
+      "marketing communications for B2B companies"
+    ],
+    "services": [
+      {"name": "Social media management", "usd": [1000, 4000], "unit": "month"},
+      {"name": "SEO services", "usd": [800, 3500], "unit": "month"},
+      {"name": "Google Ads management", "usd": [500, 3000], "unit": "month"},
+      {"name": "Media planning and buying", "usd": [2000, 10000], "unit": "month"},
+      {"name": "Brand identity package", "usd": [5000, 25000], "unit": "flat"},
+      {"name": "Logo design", "usd": [500, 5000], "unit": "flat"},
+      {"name": "Website copywriting", "usd": [100, 400], "unit": "page"},
+      {"name": "Blog article, 1,000 words", "usd": [150, 500], "unit": "piece"},
+      {"name": "30-second video ad production", "usd": [3000, 20000], "unit": "flat"},
+      {"name": "Email marketing campaign", "usd": [500, 2500], "unit": "flat"},
+      {"name": "Press release writing", "usd": [300, 1000], "unit": "piece"},
+      {"name": "Influencer campaign", "usd": [2000, 20000], "unit": "flat"},
+      {"name": "Trade show booth design", "usd": [3000, 15000], "unit": "flat"},
+      {"name": "Market research survey", "usd": [3000, 15000], "unit": "flat"},
+      {"name": "Creative director", "usd": [150, 250], "unit": "hour"}
+    ]
+  },
+  "photography": {
+    "names": ["photography studio", "photographer", "photo and video studio"],
+    "name_words": ["Photography", "Studio", "Photo", "Pictures"],
+    "phrases": [
+      "wedding and portrait photography",
+      "commercial and product photography",
+      "photography studio for portraits, headshots and family sessions",
+      "event photography and videography",
+      "real estate and architectural photography"
+    ],
+    "services": [
+      {"name": "Wedding photography, full day", "usd": [2500, 6000], "unit": "flat"},
+      {"name": "Engagement session", "usd": [300, 700], "unit": "session"},
+      {"name": "Family portrait session", "usd": [200, 500], "unit": "session"},
+      {"name": "Newborn photo session", "usd": [300, 800], "unit": "session"},
+      {"name": "Corporate headshot", "usd": [150, 400], "unit": "session"},
+      {"name": "Product photography", "usd": [25, 100], "unit": "piece"},
+      {"name": "Event coverage", "usd": [150, 350], "unit": "hour"},
+      {"name": "Real estate photo shoot", "usd": [150, 400], "unit": "flat"},
+      {"name": "Drone aerial photography", "usd": [300, 900], "unit": "flat"},
+      {"name": "Wedding highlight video", "usd": [1500, 4000], "unit": "flat"},
+      {"name": "Photo retouching", "usd": [5, 40], "unit": "piece"},
+      {"name": "Framed print, 40 x 50 cm", "usd": [90, 250], "unit": "piece"},
+      {"name": "Wedding album", "usd": [500, 1500], "unit": "piece"},
+      {"name": "Passport photos, set of 2", "usd": [12, 20], "unit": "set"},
+      {"name": "Studio rental", "usd": [50, 150], "unit": "hour"}
+    ]
+  },
+  "translation": {
+    "names": ["translation agency", "translation and interpreting services", "language services provider"],
+    "name_words": ["Translations", "Language Services", "Linguistics", "Interpreting"],
+    "phrases": [
+      "translation and interpreting services",
+      "certified document translation",
+      "legal, medical and technical translation",
+      "website localization and multilingual content",
+      "conference interpreting and translation"
+    ],
+    "services": [
+      {"name": "Translation, English to Spanish", "usd": [0.12, 0.25], "unit": "word"},
+      {"name": "Technical translation", "usd": [0.15, 0.3], "unit": "word"},
+      {"name": "Proofreading", "usd": [0.04, 0.1], "unit": "word"},
+      {"name": "Certified translation of a birth certificate", "usd": [25, 60], "unit": "page"},
+      {"name": "Certified translation of legal documents", "usd": [30, 80], "unit": "page"},
+      {"name": "Notarized translation", "usd": [35, 80], "unit": "page"},
+      {"name": "Desktop publishing (DTP)", "usd": [5, 25], "unit": "page"},
+      {"name": "Editing and review", "usd": [40, 80], "unit": "hour"},
+      {"name": "Consecutive interpreting", "usd": [70, 150], "unit": "hour"},
+      {"name": "Over-the-phone interpreting", "usd": [60, 120], "unit": "hour"},
+      {"name": "Simultaneous interpreting, full day", "usd": [700, 1500], "unit": "day"},
+      {"name": "Audio transcription", "usd": [60, 150], "unit": "hour"},
+      {"name": "Website localization", "usd": [1500, 8000], "unit": "flat"},
+      {"name": "Terminology glossary creation", "usd": [300, 1000], "unit": "flat"}
+    ]
+  },
+  "road_freight": {
+    "names": ["trucking company", "road haulage and logistics", "freight carrier"],
+    "name_words": ["Logistics", "Freight", "Transport", "Haulage"],
+    "phrases": [
+      "road freight and logistics",
+      "full truckload and less-than-truckload trucking",
+      "road haulage, warehousing and distribution",
+      "refrigerated transport and cold-chain logistics",
+      "regional and long-haul freight transport"
+    ],
+    "services": [
+      {"name": "Full truckload, dry van", "usd": [1.3, 2.0], "unit": "km"},
+      {"name": "Refrigerated truckload", "usd": [1.6, 2.4], "unit": "km"},
+      {"name": "Flatbed haulage", "usd": [1.5, 2.3], "unit": "km"},
+      {"name": "Hazardous materials transport", "usd": [2.0, 3.2], "unit": "km"},
+      {"name": "Expedited team service", "usd": [2.5, 4.0], "unit": "km"},
+      {"name": "Less-than-truckload (LTL) freight", "usd": [0.2, 0.6], "unit": "kg"},
+      {"name": "Pallet distribution", "usd": [80, 250], "unit": "piece"},
+      {"name": "Pallet storage", "usd": [15, 35], "unit": "month"},
+      {"name": "Cross-docking", "usd": [10, 30], "unit": "piece"},
+      {"name": "Pick and pack fulfillment", "usd": [2, 5], "unit": "piece"},
+      {"name": "Dedicated truck and driver", "usd": [700, 1400], "unit": "day"},
+      {"name": "Container drayage", "usd": [350, 900], "unit": "flat"},
+      {"name": "Loading and unloading crew", "usd": [40, 80], "unit": "hour"},
+      {"name": "Load securing and tarping", "usd": [75, 200], "unit": "flat"}
+    ]
+  },
+  "courier": {
+    "names": ["courier service", "delivery company", "same-day courier"],
+    "name_words": ["Courier", "Express", "Delivery", "Couriers"],
+    "phrases": [
+      "same-day courier and delivery services",
+      "local parcel delivery and last-mile logistics",
+      "on-demand courier services for businesses",
+      "medical and legal document courier",
+      "express parcel and pallet delivery"
+    ],
+    "services": [
+      {"name": "Same-day local delivery", "usd": [15, 45], "unit": "piece"},
+      {"name": "Two-hour rush delivery", "usd": [25, 70], "unit": "piece"},
+      {"name": "Next-day parcel delivery", "usd": [10, 30], "unit": "piece"},
+      {"name": "Document courier", "usd": [12, 35], "unit": "piece"},
+      {"name": "Bicycle courier, city center", "usd": [12, 30], "unit": "piece"},
+      {"name": "Medical specimen transport", "usd": [25, 80], "unit": "piece"},
+      {"name": "Court filing and document run", "usd": [30, 90], "unit": "piece"},
+      {"name": "Pallet delivery", "usd": [80, 200], "unit": "piece"},
+      {"name": "Weekend delivery", "usd": [25, 60], "unit": "piece"},
+      {"name": "Returns pickup", "usd": [10, 25], "unit": "piece"},
+      {"name": "Cargo van delivery", "usd": [1, 2.5], "unit": "km"},
+      {"name": "Dedicated driver", "usd": [35, 70], "unit": "hour"},
+      {"name": "Scheduled daily route", "usd": [400, 1500], "unit": "month"},
+      {"name": "Mailroom management", "usd": [1500, 5000], "unit": "month"}
+    ]
+  },
+  "travel_agency": {
+    "names": ["travel agency", "tour operator", "travel consultants"],
+    "name_words": ["Travel", "Tours", "Holidays", "Journeys"],
+    "phrases": [
+      "travel agency for leisure and business travel",
+      "tailor-made holidays and group tours",
+      "corporate travel management",
+      "honeymoon packages, cruises and guided tours",
+      "flight, hotel and holiday package bookings"
+    ],
+    "services": [
+      {"name": "Round-trip airfare, economy", "usd": [300, 1200], "unit": "piece"},
+      {"name": "7-night all-inclusive beach package", "usd": [1200, 2500], "unit": "person"},
+      {"name": "Mediterranean cruise, 7 nights", "usd": [900, 3000], "unit": "person"},
+      {"name": "10-day escorted tour of Europe", "usd": [2500, 5000], "unit": "person"},
+      {"name": "5-day safari package", "usd": [2500, 6000], "unit": "person"},
+      {"name": "Honeymoon package", "usd": [3000, 9000], "unit": "flat"},
+      {"name": "Hotel booking", "usd": [120, 300], "unit": "night"},
+      {"name": "Guided city tour", "usd": [40, 120], "unit": "person"},
+      {"name": "Day excursion", "usd": [60, 180], "unit": "person"},
+      {"name": "Airport transfer", "usd": [40, 120], "unit": "piece"},
+      {"name": "Compact car rental", "usd": [40, 80], "unit": "day"},
+      {"name": "Travel insurance", "usd": [50, 250], "unit": "person"},
+      {"name": "Visa assistance", "usd": [50, 150], "unit": "person"},
+      {"name": "Corporate travel management", "usd": [500, 3000], "unit": "month"}
+    ]
+  },
+  "real_estate": {
+    "names": ["real estate agency", "estate agents", "realty"],
+    "name_words": ["Realty", "Real Estate", "Properties", "Estate Agents"],
+    "phrases": [
+      "residential real estate sales and lettings",
+      "property management and rentals",
+      "commercial real estate brokerage",
+      "estate agency for sales, lettings and property management",
+      "buying, selling and leasing of homes and commercial property"
+    ],
+    "services": [
+      {"name": "Residential property management", "usd": [100, 300], "unit": "month"},
+      {"name": "Vacation rental management", "usd": [200, 800], "unit": "month"},
+      {"name": "Tenant placement", "usd": [800, 2500], "unit": "flat"},
+      {"name": "Tenant screening report", "usd": [30, 60], "unit": "piece"},
+      {"name": "Lease renewal", "usd": [150, 500], "unit": "flat"},
+      {"name": "Rental listing and marketing", "usd": [300, 1000], "unit": "flat"},
+      {"name": "MLS listing package", "usd": [300, 800], "unit": "flat"},
+      {"name": "Professional listing photography", "usd": [150, 400], "unit": "flat"},
+      {"name": "Property valuation report", "usd": [300, 700], "unit": "flat"},
+      {"name": "Home staging consultation", "usd": [150, 400], "unit": "session"},
+      {"name": "Move-in / move-out inspection", "usd": [100, 250], "unit": "visit"},
+      {"name": "Commercial lease negotiation", "usd": [2000, 10000], "unit": "flat"},
+      {"name": "Relocation assistance", "usd": [500, 3000], "unit": "flat"}
+    ]
+  },
+  "cleaning": {
+    "names": ["cleaning company", "commercial cleaning services", "janitorial services"],
+    "name_words": ["Cleaning", "Cleaners", "Janitorial", "Maid Service"],
+    "phrases": [
+      "office and commercial cleaning",
+      "residential cleaning and maid services",
+      "janitorial services for offices, schools and medical facilities",
+      "end-of-tenancy and deep cleaning",
+      "carpet, upholstery and window cleaning",
+      "post-construction cleaning"
+    ],
+    "services": [
+      {"name": "Standard home cleaning", "usd": [120, 220], "unit": "visit"},
+      {"name": "Deep cleaning", "usd": [250, 500], "unit": "flat"},
+      {"name": "Move-out cleaning", "usd": [250, 550], "unit": "flat"},
+      {"name": "Office cleaning", "usd": [30, 60], "unit": "hour"},
+      {"name": "Nightly janitorial service", "usd": [800, 4000], "unit": "month"},
+      {"name": "Restroom sanitation", "usd": [40, 100], "unit": "visit"},
+      {"name": "Carpet steam cleaning", "usd": [3, 7], "unit": "m2"},
+      {"name": "Floor stripping and waxing", "usd": [3, 7], "unit": "m2"},
+      {"name": "Post-construction cleanup", "usd": [2, 5], "unit": "m2"},
+      {"name": "Disinfection service", "usd": [1, 3], "unit": "m2"},
+      {"name": "Exterior pressure washing", "usd": [2, 5], "unit": "m2"},
+      {"name": "Window cleaning, inside and out", "usd": [6, 15], "unit": "piece"},
+      {"name": "Sofa upholstery cleaning", "usd": [100, 200], "unit": "piece"},
+      {"name": "Commercial kitchen deep clean", "usd": [400, 1200], "unit": "flat"}
+    ]
+  },
+  "security": {
+    "names": ["security company", "security guard services", "security services"],
+    "name_words": ["Security", "Protection", "Security Services", "Guarding"],
+    "phrases": [
+      "manned guarding and mobile patrols",
+      "security guard services for commercial and residential properties",
+      "event security and crowd management",
+      "alarm monitoring, CCTV installation and access control",
+      "executive protection and security consulting"
+    ],
+    "services": [
+      {"name": "Unarmed security officer", "usd": [25, 45], "unit": "hour"},
+      {"name": "Armed security officer", "usd": [35, 65], "unit": "hour"},
+      {"name": "Event security staff", "usd": [30, 55], "unit": "hour"},
+      {"name": "Concierge security", "usd": [28, 45], "unit": "hour"},
+      {"name": "Loss prevention officer", "usd": [25, 40], "unit": "hour"},
+      {"name": "Mobile patrol", "usd": [30, 80], "unit": "visit"},
+      {"name": "Alarm response", "usd": [50, 150], "unit": "visit"},
+      {"name": "Overnight construction site guard", "usd": [300, 550], "unit": "day"},
+      {"name": "Executive protection agent", "usd": [800, 2000], "unit": "day"},
+      {"name": "24/7 alarm monitoring", "usd": [30, 60], "unit": "month"},
+      {"name": "Key holding service", "usd": [40, 120], "unit": "month"},
+      {"name": "CCTV installation, 4 cameras", "usd": [1200, 3000], "unit": "flat"},
+      {"name": "Access control system installation", "usd": [2000, 8000], "unit": "flat"},
+      {"name": "Security risk assessment", "usd": [1500, 6000], "unit": "flat"}
+    ]
+  },
+  "language_school": {
+    "names": ["language school", "tutoring service", "language academy"],
+    "name_words": ["Language School", "Academy", "Tutoring", "Learning"],
+    "phrases": [
+      "English, Spanish and French courses for adults and children",
+      "language courses and private tutoring",
+      "test preparation for IELTS, TOEFL and SAT",
+      "after-school tutoring and homework help",
+      "corporate language training",
+      "ESL classes for adults"
+    ],
+    "services": [
+      {"name": "Private lesson, 60 minutes", "usd": [40, 90], "unit": "lesson"},
+      {"name": "Spanish conversation class", "usd": [25, 45], "unit": "lesson"},
+      {"name": "Online tutoring session", "usd": [35, 80], "unit": "session"},
+      {"name": "Math tutoring", "usd": [40, 90], "unit": "hour"},
+      {"name": "Business English for corporate groups", "usd": [80, 150], "unit": "hour"},
+      {"name": "Group English course, 10 weeks", "usd": [300, 700], "unit": "person"},
+      {"name": "IELTS preparation course", "usd": [400, 900], "unit": "person"},
+      {"name": "Intensive summer program", "usd": [1200, 3000], "unit": "person"},
+      {"name": "Kids' language camp, one week", "usd": [300, 600], "unit": "person"},
+      {"name": "SAT prep package", "usd": [800, 2500], "unit": "set"},
+      {"name": "10-lesson package", "usd": [380, 800], "unit": "set"},
+      {"name": "Homework club", "usd": [150, 400], "unit": "month"},
+      {"name": "Course book and workbook", "usd": [30, 60], "unit": "set"}
+    ]
+  },
+  "driving_school": {
+    "names": ["driving school", "driver training school", "driving instructor"],
+    "name_words": ["Driving School", "School of Motoring", "Driver Training", "Driving Academy"],
+    "phrases": [
+      "driving lessons for beginners and nervous drivers",
+      "driver education and behind-the-wheel training",
+      "manual and automatic driving lessons",
+      "defensive driving courses and road test preparation",
+      "CDL and commercial driver training"
+    ],
+    "services": [
+      {"name": "Driving lesson, 1 hour", "usd": [50, 90], "unit": "lesson"},
+      {"name": "Driving lesson, 2 hours", "usd": [95, 170], "unit": "lesson"},
+      {"name": "Highway driving lesson", "usd": [60, 100], "unit": "lesson"},
+      {"name": "Refresher lesson for licensed drivers", "usd": [60, 100], "unit": "lesson"},
+      {"name": "Parallel parking practice", "usd": [50, 90], "unit": "lesson"},
+      {"name": "10-lesson package", "usd": [450, 850], "unit": "set"},
+      {"name": "5-day intensive course", "usd": [900, 1800], "unit": "set"},
+      {"name": "Pass Plus course", "usd": [150, 300], "unit": "set"},
+      {"name": "Driver's education course, 30 hours", "usd": [300, 600], "unit": "person"},
+      {"name": "Defensive driving course", "usd": [50, 150], "unit": "person"},
+      {"name": "Online theory course", "usd": [30, 80], "unit": "person"},
+      {"name": "Motorcycle safety course", "usd": [200, 400], "unit": "person"},
+      {"name": "CDL Class A training", "usd": [3500, 7000], "unit": "person"},
+      {"name": "Road test package with car", "usd": [150, 300], "unit": "flat"}
+    ]
+  },
+  "fitness": {
+    "names": ["gym", "fitness club", "health club"],
+    "name_words": ["Fitness", "Gym", "Athletic Club", "Training"],
+    "phrases": [
+      "gym and fitness club",
+      "personal training and group fitness classes",
+      "boutique fitness studio for HIIT, spin and yoga",
+      "strength and conditioning gym",
+      "24-hour gym with cardio and weight training"
+    ],
+    "services": [
+      {"name": "Monthly membership", "usd": [30, 80], "unit": "month"},
+      {"name": "Annual membership", "usd": [300, 800], "unit": "year"},
+      {"name": "Day pass", "usd": [15, 30], "unit": "person"},
+      {"name": "Personal training session", "usd": [60, 120], "unit": "session"},
+      {"name": "Personal training, 10-session pack", "usd": [550, 1100], "unit": "set"},
+      {"name": "Drop-in class", "usd": [18, 30], "unit": "session"},
+      {"name": "Yoga class", "usd": [18, 28], "unit": "session"},
+      {"name": "Spin class", "usd": [20, 32], "unit": "session"},
+      {"name": "Pilates reformer class", "usd": [30, 45], "unit": "session"},
+      {"name": "Boxing class", "usd": [20, 35], "unit": "session"},
+      {"name": "Nutrition coaching", "usd": [60, 150], "unit": "session"},
+      {"name": "Body composition analysis", "usd": [30, 75], "unit": "session"},
+      {"name": "Small group training", "usd": [150, 300], "unit": "month"},
+      {"name": "Kids' fitness program", "usd": [60, 120], "unit": "month"},
+      {"name": "Corporate wellness program", "usd": [500, 3000], "unit": "month"}
+    ]
+  },
+  "hair_beauty": {
+    "names": ["hair salon", "beauty salon", "hair and beauty salon"],
+    "name_words": ["Salon", "Hair Studio", "Beauty", "Spa"],
+    "phrases": [
+      "hair salon and beauty studio",
+      "haircuts, colour and styling",
+      "nail salon and beauty treatments",
+      "barbershop and men's grooming",
+      "day spa offering facials, massages and waxing"
+    ],
+    "services": [
+      {"name": "Women's cut and blow-dry", "usd": [50, 110], "unit": "flat"},
+      {"name": "Men's haircut", "usd": [25, 50], "unit": "flat"},
+      {"name": "Beard trim", "usd": [15, 30], "unit": "flat"},
+      {"name": "Blowout", "usd": [35, 70], "unit": "flat"},
+      {"name": "Full highlights", "usd": [120, 250], "unit": "flat"},
+      {"name": "Root touch-up", "usd": [70, 120], "unit": "flat"},
+      {"name": "Balayage", "usd": [180, 350], "unit": "flat"},
+      {"name": "Keratin smoothing treatment", "usd": [200, 400], "unit": "flat"},
+      {"name": "Bridal hair and makeup", "usd": [200, 450], "unit": "person"},
+      {"name": "Classic manicure", "usd": [25, 45], "unit": "session"},
+      {"name": "Gel pedicure", "usd": [45, 70], "unit": "session"},
+      {"name": "Signature facial", "usd": [80, 150], "unit": "session"},
+      {"name": "Swedish massage, 60 minutes", "usd": [80, 140], "unit": "session"},
+      {"name": "Eyebrow wax", "usd": [15, 30], "unit": "flat"},
+      {"name": "Eyelash extensions, full set", "usd": [150, 300], "unit": "set"}
+    ]
+  },
+  "dental": {
+    "names": ["dental practice", "dental clinic", "dentist"],
+    "name_words": ["Dental", "Dental Care", "Dentistry", "Smiles"],
+    "phrases": [
+      "general and family dentistry",
+      "cosmetic dentistry and teeth whitening",
+      "dental implants, crowns and bridges",
+      "preventive dental care and hygiene",
+      "orthodontics and clear aligners"
+    ],
+    "services": [
+      {"name": "Comprehensive oral exam", "usd": [60, 150], "unit": "visit"},
+      {"name": "Adult cleaning (prophylaxis)", "usd": [90, 200], "unit": "visit"},
+      {"name": "Child check-up and fluoride treatment", "usd": [80, 180], "unit": "visit"},
+      {"name": "Emergency dental visit", "usd": [100, 300], "unit": "visit"},
+      {"name": "Full-mouth X-rays", "usd": [100, 250], "unit": "set"},
+      {"name": "Tooth-colored filling", "usd": [150, 350], "unit": "piece"},
+      {"name": "Scaling and root planing, per quadrant", "usd": [200, 400], "unit": "piece"},
+      {"name": "Root canal, molar", "usd": [1000, 1800], "unit": "piece"},
+      {"name": "Porcelain crown", "usd": [1000, 2500], "unit": "piece"},
+      {"name": "Porcelain veneer", "usd": [900, 2500], "unit": "piece"},
+      {"name": "Dental implant", "usd": [3000, 5000], "unit": "piece"},
+      {"name": "Simple extraction", "usd": [150, 400], "unit": "piece"},
+      {"name": "Custom night guard", "usd": [300, 800], "unit": "piece"},
+      {"name": "In-office teeth whitening", "usd": [400, 1000], "unit": "flat"},
+      {"name": "Clear aligner treatment", "usd": [3500, 7000], "unit": "flat"}
+    ]
+  },
+  "veterinary": {
+    "names": ["veterinary clinic", "animal hospital", "vet practice"],
+    "name_words": ["Veterinary Clinic", "Animal Hospital", "Vets", "Pet Clinic"],
+    "phrases": [
+      "veterinary care for dogs and cats",
+      "small animal veterinary hospital",
+      "vaccinations, surgery and dental care for pets",
+      "mixed practice for companion animals and livestock",
+      "emergency and preventive veterinary care"
+    ],
+    "services": [
+      {"name": "Wellness exam", "usd": [55, 90], "unit": "visit"},
+      {"name": "Emergency consultation", "usd": [100, 250], "unit": "visit"},
+      {"name": "Rabies vaccination", "usd": [20, 45], "unit": "piece"},
+      {"name": "DHPP booster", "usd": [25, 50], "unit": "piece"},
+      {"name": "Microchipping", "usd": [40, 75], "unit": "piece"},
+      {"name": "Heartworm test", "usd": [35, 65], "unit": "piece"},
+      {"name": "Senior blood panel", "usd": [100, 250], "unit": "piece"},
+      {"name": "Digital X-ray", "usd": [150, 350], "unit": "piece"},
+      {"name": "Nail trim", "usd": [15, 30], "unit": "piece"},
+      {"name": "Dog spay", "usd": [300, 800], "unit": "flat"},
+      {"name": "Cat neuter", "usd": [100, 300], "unit": "flat"},
+      {"name": "Dental cleaning under anesthesia", "usd": [400, 1000], "unit": "flat"},
+      {"name": "Flea and tick prevention, 3-month supply", "usd": [45, 90], "unit": "box"},
+      {"name": "Overnight boarding", "usd": [35, 70], "unit": "night"}
+    ]
+  },
+  "printing": {
+    "names": ["print shop", "printing company", "commercial printer"],
+    "name_words": ["Printing", "Print", "Press", "Graphics"],
+    "phrases": [
+      "commercial printing and copy services",
+      "digital and offset printing",
+      "business cards, flyers, brochures and signage",
+      "large-format printing and banners",
+      "printing of labels, packaging and promotional products"
+    ],
+    "services": [
+      {"name": "Business cards, 500", "usd": [30, 80], "unit": "box"},
+      {"name": "Full-color flyers, 1,000", "usd": [80, 200], "unit": "set"},
+      {"name": "Tri-fold brochures, 500", "usd": [200, 450], "unit": "set"},
+      {"name": "Letterhead, 500 sheets", "usd": [80, 200], "unit": "box"},
+      {"name": "Printed envelopes, 500", "usd": [90, 200], "unit": "box"},
+      {"name": "Saddle-stitched booklet", "usd": [2, 8], "unit": "piece"},
+      {"name": "Poster, 24 x 36 in", "usd": [25, 70], "unit": "piece"},
+      {"name": "Vinyl banner", "usd": [15, 40], "unit": "m2"},
+      {"name": "Roll-up banner stand", "usd": [120, 250], "unit": "piece"},
+      {"name": "Custom die-cut stickers", "usd": [0.2, 1], "unit": "piece"},
+      {"name": "Black-and-white copies", "usd": [0.08, 0.2], "unit": "page"},
+      {"name": "Color copies", "usd": [0.4, 1], "unit": "page"},
+      {"name": "Large-format plan printing", "usd": [3, 10], "unit": "page"},
+      {"name": "Spiral binding", "usd": [4, 10], "unit": "piece"},
+      {"name": "Graphic design", "usd": [60, 120], "unit": "hour"}
+    ]
+  },
+  "furniture_maker": {
+    "names": ["furniture maker", "custom furniture workshop", "joinery"],
+    "name_words": ["Furniture", "Woodworks", "Joinery", "Cabinetry"],
+    "phrases": [
+      "handcrafted solid wood furniture",
+      "custom furniture and cabinetry",
+      "bespoke joinery and fitted furniture",
+      "design and manufacture of tables, chairs and storage furniture",
+      "furniture restoration and upholstery"
+    ],
+    "services": [
+      {"name": "Solid oak dining table", "usd": [2000, 5000], "unit": "piece"},
+      {"name": "Walnut coffee table", "usd": [800, 2000], "unit": "piece"},
+      {"name": "Hardwood dining chair", "usd": [300, 800], "unit": "piece"},
+      {"name": "Solid wood bed frame, queen", "usd": [1200, 3000], "unit": "piece"},
+      {"name": "Chest of drawers", "usd": [1000, 3000], "unit": "piece"},
+      {"name": "Hardwood writing desk", "usd": [900, 2500], "unit": "piece"},
+      {"name": "Media console", "usd": [900, 2500], "unit": "piece"},
+      {"name": "Boardroom table", "usd": [3000, 10000], "unit": "piece"},
+      {"name": "Fitted wardrobe", "usd": [1500, 5000], "unit": "piece"},
+      {"name": "Built-in bookshelves", "usd": [400, 1000], "unit": "m"},
+      {"name": "Custom kitchen cabinetry", "usd": [600, 1500], "unit": "m"},
+      {"name": "Floating shelves, pair", "usd": [150, 400], "unit": "set"},
+      {"name": "Armchair reupholstery", "usd": [400, 1000], "unit": "piece"},
+      {"name": "Furniture restoration", "usd": [60, 120], "unit": "hour"},
+      {"name": "Design and shop drawings", "usd": [300, 1200], "unit": "flat"}
+    ]
+  },
+  "event_catering": {
+    "names": ["catering company", "event caterer", "catering services"],
+    "name_words": ["Catering", "Caterers", "Events", "Kitchen"],
+    "phrases": [
+      "catering for weddings, corporate events and private parties",
+      "full-service event catering",
+      "corporate lunch and boxed meal catering",
+      "barbecue and buffet catering",
+      "wedding catering and event planning"
+    ],
+    "services": [
+      {"name": "Plated three-course dinner", "usd": [45, 120], "unit": "person"},
+      {"name": "Hot buffet menu", "usd": [25, 60], "unit": "person"},
+      {"name": "Corporate boxed lunch", "usd": [14, 25], "unit": "person"},
+      {"name": "Continental breakfast", "usd": [12, 25], "unit": "person"},
+      {"name": "Canapé reception", "usd": [20, 45], "unit": "person"},
+      {"name": "BBQ package", "usd": [25, 50], "unit": "person"},
+      {"name": "Wedding reception package", "usd": [70, 180], "unit": "person"},
+      {"name": "Grazing table", "usd": [15, 35], "unit": "person"},
+      {"name": "Dessert table", "usd": [8, 20], "unit": "person"},
+      {"name": "Coffee break service", "usd": [8, 18], "unit": "person"},
+      {"name": "Waiting staff", "usd": [30, 50], "unit": "hour"},
+      {"name": "Bartender", "usd": [35, 60], "unit": "hour"},
+      {"name": "Menu tasting", "usd": [100, 300], "unit": "session"},
+      {"name": "Table linen rental", "usd": [10, 25], "unit": "piece"}
+    ]
+  }
+}

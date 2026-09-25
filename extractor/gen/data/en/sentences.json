@@ -1,0 +1,1107 @@
+{
+  "lang": "en",
+  "activity": [
+    {"id": "activity.en.01", "text": "Principal activity: {ACTIVITY}"},
+    {"id": "activity.en.02", "text": "Nature of business: {ACTIVITY}"},
+    {"id": "activity.en.03", "text": "Main activity – {ACTIVITY}"},
+    {"id": "activity.en.04", "text": "What we do: {ACTIVITY}."},
+    {"id": "activity.en.05", "text": "Our core business is {ACTIVITY}."},
+    {"id": "activity.en.06", "text": "{S_NAME} specialises in {ACTIVITY}."},
+    {"id": "activity.en.07", "text": "Based in {city}, {S_NAME} specializes in {ACTIVITY}."},
+    {"id": "activity.en.08", "text": "The Company is engaged in the business of {ACTIVITY}."},
+    {"id": "activity.en.09", "text": "Line of business: {ACTIVITY}"},
+    {"id": "activity.en.10", "text": "The principal activity of the company continued to be that of {ACTIVITY}."},
+    {"id": "activity.en.11", "text": "Nature of business: {ACTIVITY_CODE} – {ACTIVITY}"},
+    {"id": "activity.en.12", "text": "Industry classification: {ACTIVITY_CODE} ({ACTIVITY})"},
+    {"id": "activity.en.13", "text": "We are a local business dedicated to {ACTIVITY}."},
+    {"id": "activity.en.14", "text": "Everything we do comes down to one thing: {ACTIVITY}."},
+    {"id": "activity.en.15", "text": "{S_NAME} – {ACTIVITY} in {city}"},
+    {"id": "activity.en.16", "text": "Our field of expertise is {ACTIVITY}."},
+    {"id": "activity.en.17", "text": "Primary business activity: {ACTIVITY}"},
+    {"id": "activity.en.18", "text": "For many years now, our focus has been {ACTIVITY}."},
+    {"id": "activity.en.19", "text": "Active since {FOUNDED} in the field of {ACTIVITY}."},
+    {"id": "activity.en.20", "text": "{S_NAME} is an independent business in {city}, working in {ACTIVITY}."},
+    {"id": "activity.en.21", "text": "Registered business activity: {ACTIVITY}"},
+    {"id": "activity.en.22", "text": "Our business in a nutshell: {ACTIVITY}."},
+    {"id": "activity.en.23", "text": "Known across {city} for {ACTIVITY}, {S_NAME} combines experience with a personal touch."},
+    {"id": "activity.en.24", "text": "The company's main line of business is {ACTIVITY}."},
+    {"id": "activity.en.25", "text": "Industry: {ACTIVITY}"},
+    {"id": "activity.en.26", "text": "As a business focused on {ACTIVITY}, we understand what our customers expect."},
+    {"id": "activity.en.27", "text": "We have worked in {ACTIVITY} for many years and know the trade inside out."},
+    {"id": "activity.en.28", "text": "Sector of activity – {ACTIVITY}"}
+  ],
+  "founded": [
+    {"id": "founded.en.01", "text": "Established in {FOUNDED}, {S_NAME} has grown into a trusted name in {city}."},
+    {"id": "founded.en.02", "text": "Founded: {FOUNDED}"},
+    {"id": "founded.en.03", "text": "Est. {FOUNDED}"},
+    {"id": "founded.en.04", "text": "Since {FOUNDED}"},
+    {"id": "founded.en.05", "text": "Trading since {FOUNDED}."},
+    {"id": "founded.en.06", "text": "Date of incorporation: {FOUNDED:date}"},
+    {"id": "founded.en.07", "text": "Incorporated on {FOUNDED:date} · {S_REG_ID}"},
+    {"id": "founded.en.08", "text": "{S_NAME} was founded in {FOUNDED} in {city}."},
+    {"id": "founded.en.09", "text": "Our story began in {FOUNDED:month}, when we first opened our doors in {city}."},
+    {"id": "founded.en.10", "text": "Serving {city} since {FOUNDED}."},
+    {"id": "founded.en.11", "text": "Family-run since {FOUNDED}."},
+    {"id": "founded.en.12", "text": "In business since {FOUNDED}"},
+    {"id": "founded.en.13", "text": "Year of establishment: {FOUNDED}"},
+    {"id": "founded.en.14", "text": "Date of registration: {FOUNDED:date}"},
+    {"id": "founded.en.15", "text": "Date of commencement of business: {FOUNDED:date}"},
+    {"id": "founded.en.16", "text": "The company was incorporated on {FOUNDED:date} and has traded continuously ever since."},
+    {"id": "founded.en.17", "text": "{S_NAME} opened in {FOUNDED:month}."},
+    {"id": "founded.en.18", "text": "Year founded – {FOUNDED}"},
+    {"id": "founded.en.19", "text": "Founded in {FOUNDED}, the company is still independently owned."},
+    {"id": "founded.en.20", "text": "We first opened our doors in {FOUNDED}."},
+    {"id": "founded.en.21", "text": "It all started in {FOUNDED}, with a small team and a lot of determination."},
+    {"id": "founded.en.22", "text": "Incorporated in {FOUNDED}"},
+    {"id": "founded.en.23", "text": "Established {FOUNDED:date}"},
+    {"id": "founded.en.24", "text": "The business was registered in {FOUNDED:month} and began trading shortly afterwards."},
+    {"id": "founded.en.25", "text": "ABN status: Active from {FOUNDED:date}"},
+    {"id": "founded.en.26", "text": "Since its foundation in {FOUNDED}, {S_NAME} has put quality first."},
+    {"id": "founded.en.27", "text": "Founded in {FOUNDED} by {S_PERSON}, who still runs the business today."},
+    {"id": "founded.en.28", "text": "{FOUNDED} – the year it all began."},
+    {"id": "founded.en.29", "text": "When we started out in {FOUNDED:month}, we had little more than a good idea and plenty of energy."},
+    {"id": "founded.en.30", "text": "Our history goes back to {FOUNDED}, when the business was first registered in {city}."}
+  ],
+  "staff": [
+    {"id": "staff.en.01", "text": "Employees: {STAFF}"},
+    {"id": "staff.en.02", "text": "Number of employees: {STAFF}"},
+    {"id": "staff.en.03", "text": "Headcount: {STAFF}"},
+    {"id": "staff.en.04", "text": "Staff: {STAFF}"},
+    {"id": "staff.en.05", "text": "Team size – {STAFF}"},
+    {"id": "staff.en.06", "text": "We currently have {STAFF} {staff_noun}."},
+    {"id": "staff.en.07", "text": "Today, {S_NAME} has a workforce of {STAFF} {staff_noun} in {city}."},
+    {"id": "staff.en.08", "text": "The company currently has {STAFF} {staff_noun} on its payroll."},
+    {"id": "staff.en.09", "text": "Our team is made up of {STAFF} {staff_noun}."},
+    {"id": "staff.en.10", "text": "With {STAFF} {staff_noun}, we are big enough to deliver and small enough to care."},
+    {"id": "staff.en.11", "text": "A dedicated team of {STAFF} {staff_noun} looks after every customer."},
+    {"id": "staff.en.12", "text": "Workforce: {STAFF} {staff_noun}"},
+    {"id": "staff.en.13", "text": "Average number of employees during the year: {STAFF}"},
+    {"id": "staff.en.14", "text": "The average monthly number of employees, including directors, during the year was {STAFF}."},
+    {"id": "staff.en.15", "text": "Total no. of employees: {STAFF}"},
+    {"id": "staff.en.16", "text": "{S_NAME} is a team of {STAFF} {staff_noun} based in {city}."},
+    {"id": "staff.en.17", "text": "We are proud to be a local employer, with {STAFF} {staff_noun} on our books."},
+    {"id": "staff.en.18", "text": "Behind every job stands our team of {STAFF} {staff_noun}."},
+    {"id": "staff.en.19", "text": "Employee strength: {STAFF}"},
+    {"id": "staff.en.20", "text": "Manpower: {STAFF}"},
+    {"id": "staff.en.21", "text": "The company has grown to {STAFF} {staff_noun}."},
+    {"id": "staff.en.22", "text": "Employees (full-time equivalent): {STAFF}"},
+    {"id": "staff.en.23", "text": "Current team: {STAFF} {staff_noun}"},
+    {"id": "staff.en.24", "text": "Staff strength – {STAFF}"},
+    {"id": "staff.en.25", "text": "Today the business provides work for {STAFF} {staff_noun}."},
+    {"id": "staff.en.26", "text": "Our workforce has grown steadily over the years and now stands at {STAFF} {staff_noun}."},
+    {"id": "staff.en.27", "text": "At {S_NAME}, a team of {STAFF} {staff_noun} works hard every day to get things right."},
+    {"id": "staff.en.28", "text": "No. of staff: {STAFF}"}
+  ],
+  "revenue": [
+    {"id": "revenue.en.01", "text": "Annual turnover: {REVENUE}"},
+    {"id": "revenue.en.02", "text": "Turnover {REVENUE_YEAR}: {REVENUE}"},
+    {"id": "revenue.en.03", "text": "Revenue ({REVENUE_YEAR}): {REVENUE}"},
+    {"id": "revenue.en.04", "text": "In {REVENUE_YEAR}, the company generated revenue of {REVENUE}."},
+    {"id": "revenue.en.05", "text": "{S_NAME} achieved a turnover of {REVENUE} in {REVENUE_YEAR}."},
+    {"id": "revenue.en.06", "text": "Sales for {REVENUE_YEAR} reached {REVENUE}."},
+    {"id": "revenue.en.07", "text": "Revenue grew from {REVENUE_PREV} in {REVENUE_YEAR_PREV} to {REVENUE} in {REVENUE_YEAR}."},
+    {"id": "revenue.en.08", "text": "Annual sales: {REVENUE} ({REVENUE_YEAR})"},
+    {"id": "revenue.en.09", "text": "Turnover for the year: {REVENUE}"},
+    {"id": "revenue.en.10", "text": "Total revenue for {REVENUE_YEAR} came to {REVENUE}, compared with {REVENUE_PREV} the year before."},
+    {"id": "revenue.en.11", "text": "Annual revenue – {REVENUE}"},
+    {"id": "revenue.en.12", "text": "Revenue from operations ({REVENUE_YEAR}): {REVENUE}"},
+    {"id": "revenue.en.13", "text": "Turnover (latest financial year): {REVENUE}"},
+    {"id": "revenue.en.14", "text": "With annual sales of {REVENUE}, {S_NAME} is one of the larger independent businesses in {city}."},
+    {"id": "revenue.en.15", "text": "Our turnover in {REVENUE_YEAR} was {REVENUE}."},
+    {"id": "revenue.en.16", "text": "Net sales {REVENUE_YEAR}: {REVENUE}"},
+    {"id": "revenue.en.17", "text": "The company reported revenues of {REVENUE} for {REVENUE_YEAR}."},
+    {"id": "revenue.en.18", "text": "Revenue: {REVENUE} · previous year: {REVENUE_PREV}"},
+    {"id": "revenue.en.19", "text": "Turnover increased to {REVENUE} in {REVENUE_YEAR}, up from {REVENUE_PREV} in {REVENUE_YEAR_PREV}."},
+    {"id": "revenue.en.20", "text": "Key figures {REVENUE_YEAR}: revenue {REVENUE}"},
+    {"id": "revenue.en.21", "text": "Turnover – {REVENUE_YEAR_PREV}: {REVENUE_PREV} | {REVENUE_YEAR}: {REVENUE}"},
+    {"id": "revenue.en.22", "text": "Our revenue for {REVENUE_YEAR} stood at {REVENUE}."},
+    {"id": "revenue.en.23", "text": "Turnover: {REVENUE}"},
+    {"id": "revenue.en.24", "text": "{S_NAME} posted sales of {REVENUE} in {REVENUE_YEAR}, its best year so far."},
+    {"id": "revenue.en.25", "text": "{REVENUE} in annual turnover ({REVENUE_YEAR})"},
+    {"id": "revenue.en.26", "text": "Gross annual revenue: {REVENUE}"},
+    {"id": "revenue.en.27", "text": "The business closed {REVENUE_YEAR} with a turnover of {REVENUE}."},
+    {"id": "revenue.en.28", "text": "Sales revenue, {REVENUE_YEAR}: {REVENUE}"}
+  ],
+  "services_intro": [
+    {"id": "services_intro.en.01", "text": "Our services: {SERVICE_LIST}."},
+    {"id": "services_intro.en.02", "text": "We offer {SERVICE_LIST}."},
+    {"id": "services_intro.en.03", "text": "Services include {SERVICE_LIST}."},
+    {"id": "services_intro.en.04", "text": "What we can do for you: {SERVICE_LIST}."},
+    {"id": "services_intro.en.05", "text": "Customer favourite: {SERVICE}."},
+    {"id": "services_intro.en.06", "text": "Ask us about {SERVICE}."},
+    {"id": "services_intro.en.07", "text": "New this season: {SERVICE}."},
+    {"id": "services_intro.en.08", "text": "Our range covers {SERVICE_LIST}, all at fair prices."},
+    {"id": "services_intro.en.09", "text": "Services we provide – {SERVICE_LIST}"},
+    {"id": "services_intro.en.10", "text": "Products & services: {SERVICE_LIST}"},
+    {"id": "services_intro.en.11", "text": "Among our best sellers: {SERVICE}."},
+    {"id": "services_intro.en.12", "text": "Our service portfolio: {SERVICE_LIST}"},
+    {"id": "services_intro.en.13", "text": "We provide {SERVICE_LIST} for customers across {city}."},
+    {"id": "services_intro.en.14", "text": "Book now: {SERVICE}."},
+    {"id": "services_intro.en.15", "text": "Our full range includes {SERVICE_LIST} and much more."},
+    {"id": "services_intro.en.16", "text": "Also available: {SERVICE}."},
+    {"id": "services_intro.en.17", "text": "We are happy to quote for {SERVICE_LIST}."},
+    {"id": "services_intro.en.18", "text": "Services offered: {SERVICE_LIST}"},
+    {"id": "services_intro.en.19", "text": "{S_NAME} provides {SERVICE_LIST}."},
+    {"id": "services_intro.en.20", "text": "In our range you will find {SERVICE_LIST}."},
+    {"id": "services_intro.en.21", "text": "Popular with our customers: {SERVICE}."},
+    {"id": "services_intro.en.22", "text": "Main products/services: {SERVICE_LIST}"},
+    {"id": "services_intro.en.23", "text": "Now available in {city}: {SERVICE}."},
+    {"id": "services_intro.en.24", "text": "All from a single provider: {SERVICE_LIST}."},
+    {"id": "services_intro.en.25", "text": "Whether you need {SERVICE} or something more specific, we are here to help."},
+    {"id": "services_intro.en.26", "text": "Our offer at a glance: {SERVICE_LIST}."},
+    {"id": "services_intro.en.27", "text": "We deal in {SERVICE_LIST}."},
+    {"id": "services_intro.en.28", "text": "Our team can take care of {SERVICE_LIST} – quickly and at a fair price."}
+  ],
+  "clients": [
+    {"id": "clients.en.01", "text": "Our clients include {C_NAME_LIST}."},
+    {"id": "clients.en.02", "text": "Selected clients: {C_NAME_LIST}"},
+    {"id": "clients.en.03", "text": "Trusted by {C_NAME_LIST}."},
+    {"id": "clients.en.04", "text": "We are proud to work with {C_NAME_LIST}."},
+    {"id": "clients.en.05", "text": "References: {C_NAME_LIST}"},
+    {"id": "clients.en.06", "text": "Recent work includes projects for {C_NAME} and {C_NAME}."},
+    {"id": "clients.en.07", "text": "Among our long-standing customers are {C_NAME_LIST}."},
+    {"id": "clients.en.08", "text": "Case study: {C_NAME}"},
+    {"id": "clients.en.09", "text": "{C_NAME} has relied on us for many years."},
+    {"id": "clients.en.10", "text": "Key accounts: {C_NAME_LIST}"},
+    {"id": "clients.en.11", "text": "We have worked with organisations such as {C_NAME_LIST}."},
+    {"id": "clients.en.12", "text": "Clients who trust us: {C_NAME_LIST}"},
+    {"id": "clients.en.13", "text": "Our customers range from small local firms to {C_NAME}."},
+    {"id": "clients.en.14", "text": "Some of the organizations we serve: {C_NAME_LIST}."},
+    {"id": "clients.en.15", "text": "We supply {C_NAME} on a weekly basis."},
+    {"id": "clients.en.16", "text": "Proud supplier to {C_NAME_LIST}."},
+    {"id": "clients.en.17", "text": "Our portfolio includes work for {C_NAME_LIST}."},
+    {"id": "clients.en.18", "text": "Past clients include {C_NAME_LIST}."},
+    {"id": "clients.en.19", "text": "{C_NAME} has been a client of ours for more than a decade."},
+    {"id": "clients.en.20", "text": "Our major clients: {C_NAME_LIST}"},
+    {"id": "clients.en.21", "text": "Our prestigious clients include {C_NAME_LIST}."},
+    {"id": "clients.en.22", "text": "We count {C_NAME_LIST} among our customers."},
+    {"id": "clients.en.23", "text": "Client list (extract): {C_NAME_LIST}"},
+    {"id": "clients.en.24", "text": "Customers such as {C_NAME_LIST} rely on our work every day."},
+    {"id": "clients.en.25", "text": "{C_NAME_LIST} – just some of the organisations that rely on us."},
+    {"id": "clients.en.26", "text": "Latest project: completed for {C_NAME} in {city}."},
+    {"id": "clients.en.27", "text": "We are delighted to have been chosen by {C_NAME} as its preferred provider."},
+    {"id": "clients.en.28", "text": "A big thank you to {C_NAME} for choosing us again this year."}
+  ],
+  "hours": [
+    {"id": "hours.en.01", "text": "Opening hours: {HOURS}"},
+    {"id": "hours.en.02", "text": "Open {HOURS}"},
+    {"id": "hours.en.03", "text": "Business hours: {HOURS}"},
+    {"id": "hours.en.04", "text": "Trading hours: {HOURS}"},
+    {"id": "hours.en.05", "text": "Office hours: {HOURS}"},
+    {"id": "hours.en.06", "text": "We are open {HOURS:prose}."},
+    {"id": "hours.en.07", "text": "Our doors are open {HOURS:prose}."},
+    {"id": "hours.en.08", "text": "Our team is available {HOURS:prose}."},
+    {"id": "hours.en.09", "text": "Hours: {HOURS}"},
+    {"id": "hours.en.10", "text": "Visit us {HOURS:prose}."},
+    {"id": "hours.en.11", "text": "Store hours: {HOURS}"},
+    {"id": "hours.en.12", "text": "Timings: {HOURS}"},
+    {"id": "hours.en.13", "text": "Working hours: {HOURS}"},
+    {"id": "hours.en.14", "text": "Opening times: {HOURS}"},
+    {"id": "hours.en.15", "text": "Come and see us – we're open {HOURS:prose}."},
+    {"id": "hours.en.16", "text": "When to find us: {HOURS}"},
+    {"id": "hours.en.17", "text": "Reception is staffed {HOURS:prose}."},
+    {"id": "hours.en.18", "text": "Customer service hours: {HOURS}"},
+    {"id": "hours.en.19", "text": "Our phone lines are open {HOURS:prose}."},
+    {"id": "hours.en.20", "text": "Walk-ins welcome {HOURS:prose}."},
+    {"id": "hours.en.21", "text": "You are welcome to drop in {HOURS:prose}."},
+    {"id": "hours.en.22", "text": "We welcome customers {HOURS:prose}."},
+    {"id": "hours.en.23", "text": "Our opening hours are {HOURS:prose}."},
+    {"id": "hours.en.24", "text": "Hours of business: {HOURS}"},
+    {"id": "hours.en.25", "text": "{HOURS} – we look forward to your visit."},
+    {"id": "hours.en.26", "text": "You can reach us {HOURS:prose}."},
+    {"id": "hours.en.27", "text": "Opening hours ({city}): {HOURS}"},
+    {"id": "hours.en.28", "text": "We are available by phone and in person {HOURS:prose}."}
+  ],
+  "certifications": [
+    {"id": "certifications.en.01", "text": "Certifications: {CERT_LIST}"},
+    {"id": "certifications.en.02", "text": "Accreditations: {CERT_LIST}"},
+    {"id": "certifications.en.03", "text": "Accredited: {CERT}"},
+    {"id": "certifications.en.04", "text": "Our quality credentials include {CERT_LIST}."},
+    {"id": "certifications.en.05", "text": "We are proud to hold {CERT}."},
+    {"id": "certifications.en.06", "text": "Memberships and accreditations: {CERT_LIST}"},
+    {"id": "certifications.en.07", "text": "Awards & certifications – {CERT_LIST}"},
+    {"id": "certifications.en.08", "text": "Quality you can trust: {CERT}."},
+    {"id": "certifications.en.09", "text": "{S_NAME} holds the following accreditations and memberships: {CERT_LIST}."},
+    {"id": "certifications.en.10", "text": "Credentials: {CERT_LIST}"},
+    {"id": "certifications.en.11", "text": "Accreditation held: {CERT}"},
+    {"id": "certifications.en.12", "text": "Fully accredited – {CERT_LIST}."},
+    {"id": "certifications.en.13", "text": "Certified quality: {CERT_LIST}"},
+    {"id": "certifications.en.14", "text": "Our commitment to quality has been recognised with {CERT}."},
+    {"id": "certifications.en.15", "text": "Registrations and approvals: {CERT_LIST}"},
+    {"id": "certifications.en.16", "text": "Standards and certifications: {CERT_LIST}"},
+    {"id": "certifications.en.17", "text": "In recognition of our work, we have been awarded {CERT}."},
+    {"id": "certifications.en.18", "text": "{CERT} – an independent mark of quality we are proud to carry."},
+    {"id": "certifications.en.19", "text": "Quality marks held by {S_NAME}: {CERT_LIST}"},
+    {"id": "certifications.en.20", "text": "All our work is backed by {CERT}."},
+    {"id": "certifications.en.21", "text": "Certificates: {CERT_LIST}"},
+    {"id": "certifications.en.22", "text": "Approvals: {CERT_LIST}"},
+    {"id": "certifications.en.23", "text": "As holders of {CERT}, we follow strict standards in everything we do."},
+    {"id": "certifications.en.24", "text": "Our certifications ({CERT_LIST}) are audited and renewed regularly."},
+    {"id": "certifications.en.25", "text": "Awards & recognitions: {CERT_LIST}"},
+    {"id": "certifications.en.26", "text": "Recognized for excellence: {CERT}."},
+    {"id": "certifications.en.27", "text": "Customers can check our credentials at any time – we hold {CERT_LIST}."},
+    {"id": "certifications.en.28", "text": "Quality standards met: {CERT_LIST}"}
+  ],
+  "location": [
+    {"id": "location.en.01", "text": "Address: {S_ADDRESS}"},
+    {"id": "location.en.02", "text": "Head office: {S_ADDRESS}"},
+    {"id": "location.en.03", "text": "Registered office: {S_ADDRESS}"},
+    {"id": "location.en.04", "text": "Visit us at {S_ADDRESS}."},
+    {"id": "location.en.05", "text": "Tel: {S_PHONE}"},
+    {"id": "location.en.06", "text": "Call us on {S_PHONE}."},
+    {"id": "location.en.07", "text": "Call us at {S_PHONE}."},
+    {"id": "location.en.08", "text": "Email: {S_EMAIL}"},
+    {"id": "location.en.09", "text": "Write to us at {S_EMAIL}."},
+    {"id": "location.en.10", "text": "Web: {S_URL}"},
+    {"id": "location.en.11", "text": "More information at {S_URL}."},
+    {"id": "location.en.12", "text": "Follow us: {S_URL}"},
+    {"id": "location.en.13", "text": "Phone {S_PHONE} · Email {S_EMAIL}"},
+    {"id": "location.en.14", "text": "Find us at {S_ADDRESS} – parking available nearby."},
+    {"id": "location.en.15", "text": "Our offices are located at {S_ADDRESS}."},
+    {"id": "location.en.16", "text": "For enquiries, call {S_PHONE} or email {S_EMAIL}."},
+    {"id": "location.en.17", "text": "Book online at {S_URL} or call {S_PHONE}."},
+    {"id": "location.en.18", "text": "Regd. Office: {S_ADDRESS}"},
+    {"id": "location.en.19", "text": "Corporate Office: {S_ADDRESS}"},
+    {"id": "location.en.20", "text": "Mobile: {S_PHONE}"},
+    {"id": "location.en.21", "text": "Contact No.: {S_PHONE}"},
+    {"id": "location.en.22", "text": "WhatsApp: {S_PHONE}"},
+    {"id": "location.en.23", "text": "Mailing address: {S_ADDRESS}"},
+    {"id": "location.en.24", "text": "Postal address: {S_ADDRESS}"},
+    {"id": "location.en.25", "text": "Send your questions to {S_EMAIL} and we will reply within one working day."},
+    {"id": "location.en.26", "text": "You will find us at {S_ADDRESS}, a short walk from the centre."},
+    {"id": "location.en.27", "text": "Online: {S_URL} | Phone: {S_PHONE}"},
+    {"id": "location.en.28", "text": "Get in touch: {S_EMAIL}"},
+    {"id": "location.en.29", "text": "Customer care: {S_PHONE}"},
+    {"id": "location.en.30", "text": "{S_ADDRESS} – that is where you will find us."},
+    {"id": "location.en.31", "text": "Sales inquiries: {S_EMAIL}"}
+  ],
+  "capital": [
+    {"id": "capital.en.01", "text": "Share capital: {CAPITAL}"},
+    {"id": "capital.en.02", "text": "Issued share capital: {CAPITAL}"},
+    {"id": "capital.en.03", "text": "Paid-up capital: {CAPITAL}"},
+    {"id": "capital.en.04", "text": "Paid-up share capital – {CAPITAL}"},
+    {"id": "capital.en.05", "text": "The company has an issued share capital of {CAPITAL}."},
+    {"id": "capital.en.06", "text": "{S_NAME} has a fully paid-up share capital of {CAPITAL}."},
+    {"id": "capital.en.07", "text": "Capital: {CAPITAL} (fully paid)"},
+    {"id": "capital.en.08", "text": "Total share capital issued: {CAPITAL}"},
+    {"id": "capital.en.09", "text": "Share capital – {CAPITAL}, fully subscribed and paid"},
+    {"id": "capital.en.10", "text": "With a paid-up capital of {CAPITAL}, the company is well placed to take on large contracts."},
+    {"id": "capital.en.11", "text": "Our paid-up capital stands at {CAPITAL}."},
+    {"id": "capital.en.12", "text": "The subscribed and paid-up capital of the Company is {CAPITAL}."},
+    {"id": "capital.en.13", "text": "Stated capital: {CAPITAL}"},
+    {"id": "capital.en.14", "text": "Share capital (issued and fully paid): {CAPITAL}"},
+    {"id": "capital.en.15", "text": "{S_NAME:legal} – share capital {CAPITAL}"},
+    {"id": "capital.en.16", "text": "Issued capital: {CAPITAL}"},
+    {"id": "capital.en.17", "text": "Paid-up capital as per the latest filing: {CAPITAL}"},
+    {"id": "capital.en.18", "text": "The company's share capital amounts to {CAPITAL}."},
+    {"id": "capital.en.19", "text": "Share capital ........ {CAPITAL}"},
+    {"id": "capital.en.20", "text": "Share capital of {CAPITAL}, divided into ordinary shares."},
+    {"id": "capital.en.21", "text": "Capital (paid up): {CAPITAL}"},
+    {"id": "capital.en.22", "text": "Issued and paid-up share capital amounts to {CAPITAL}."},
+    {"id": "capital.en.23", "text": "The business is backed by a paid-up capital of {CAPITAL}."},
+    {"id": "capital.en.24", "text": "Equity share capital: {CAPITAL}"},
+    {"id": "capital.en.25", "text": "Share capital: {CAPITAL} · Legal form: {LEGAL_FORM}"},
+    {"id": "capital.en.26", "text": "{S_NAME} operates with an issued capital of {CAPITAL}."}
+  ],
+  "legal_form": [
+    {"id": "legal_form.en.01", "text": "Legal form: {LEGAL_FORM}"},
+    {"id": "legal_form.en.02", "text": "Company type: {LEGAL_FORM}"},
+    {"id": "legal_form.en.03", "text": "Entity type: {LEGAL_FORM}"},
+    {"id": "legal_form.en.04", "text": "Constitution of Business: {LEGAL_FORM}"},
+    {"id": "legal_form.en.05", "text": "Business structure: {LEGAL_FORM}"},
+    {"id": "legal_form.en.06", "text": "Type of entity – {LEGAL_FORM}"},
+    {"id": "legal_form.en.07", "text": "Legal status: {LEGAL_FORM}"},
+    {"id": "legal_form.en.08", "text": "Form of organisation: {LEGAL_FORM}"},
+    {"id": "legal_form.en.09", "text": "Our legal form is {LEGAL_FORM}."},
+    {"id": "legal_form.en.10", "text": "The company trades under the legal form {LEGAL_FORM}."},
+    {"id": "legal_form.en.11", "text": "Registered as: {LEGAL_FORM}"},
+    {"id": "legal_form.en.12", "text": "{S_NAME} is a registered business (legal form: {LEGAL_FORM})."},
+    {"id": "legal_form.en.13", "text": "Incorporation type: {LEGAL_FORM}"},
+    {"id": "legal_form.en.14", "text": "Nature of entity: {LEGAL_FORM}"},
+    {"id": "legal_form.en.15", "text": "Type of company: {LEGAL_FORM}"},
+    {"id": "legal_form.en.16", "text": "Company status: Active · Company type: {LEGAL_FORM}"},
+    {"id": "legal_form.en.17", "text": "Organization type: {LEGAL_FORM}"},
+    {"id": "legal_form.en.18", "text": "Legal structure – {LEGAL_FORM}"},
+    {"id": "legal_form.en.19", "text": "Entity: {LEGAL_FORM} ({country})"},
+    {"id": "legal_form.en.20", "text": "Legal form of the business: {LEGAL_FORM}; country of registration: {country}."},
+    {"id": "legal_form.en.21", "text": "Business entity type: {LEGAL_FORM}"},
+    {"id": "legal_form.en.22", "text": "Structure: {LEGAL_FORM}, registered in {city}"},
+    {"id": "legal_form.en.23", "text": "{S_NAME} – legal form: {LEGAL_FORM} – {S_REG_ID}"},
+    {"id": "legal_form.en.24", "text": "Legal form: {LEGAL_FORM} | Share capital: {CAPITAL}"},
+    {"id": "legal_form.en.25", "text": "Type of business entity: {LEGAL_FORM}"},
+    {"id": "legal_form.en.26", "text": "Class of company: {LEGAL_FORM}"},
+    {"id": "legal_form.en.27", "text": "Status of firm: {LEGAL_FORM}"}
+  ],
+  "traps": [
+    {"id": "trap.en.01", "trap": "T1", "text": "Our largest single order to date was worth {amount}."},
+    {"id": "trap.en.02", "trap": "T1", "text": "Last year we signed our biggest contract yet, valued at {amount}."},
+    {"id": "trap.en.03", "trap": "T1", "text": "The average invoice we issue is for around {amount}."},
+    {"id": "trap.en.04", "trap": "T1", "text": "Net profit for the year came to {amount}."},
+    {"id": "trap.en.05", "trap": "T1", "text": "Annual turnover reached {REVENUE}; our single largest order, placed by a national retailer, was worth {amount}."},
+    {"id": "trap.en.06", "trap": "T1", "text": "Our monthly sales now regularly exceed {amount}."},
+    {"id": "trap.en.07", "trap": "T1", "text": "Orders worth {amount} were shipped in the last quarter alone."},
+    {"id": "trap.en.08", "trap": "T1", "text": "Our biggest project so far had a total budget of {amount}."},
+    {"id": "trap.en.09", "trap": "T1", "text": "Gross profit for the year was {amount} on a turnover of {REVENUE}."},
+    {"id": "trap.en.10", "trap": "T1", "text": "A single framework contract, worth {amount} over three years, accounts for much of our recent growth."},
+    {"id": "trap.en.11", "trap": "T5", "text": "We work closely with {partner} on larger projects."},
+    {"id": "trap.en.12", "trap": "T5", "text": "Most of our supplies come from {supplier}, a company we have trusted for years."},
+    {"id": "trap.en.13", "trap": "T5", "text": "Banking partner: {bank}"},
+    {"id": "trap.en.14", "trap": "T5", "text": "Finance is available through {bank}, subject to status."},
+    {"id": "trap.en.15", "trap": "T5", "text": "Unlike larger firms such as {competitor}, we give every customer a direct line to the person doing the work."},
+    {"id": "trap.en.16", "trap": "T5", "text": "We are proud to have supported {C_NAME}, a family firm founded in {client_founded}, for many years."},
+    {"id": "trap.en.17", "trap": "T5", "text": "In partnership with {partner}, we can take on projects of any size."},
+    {"id": "trap.en.18", "trap": "T5", "text": "Deliveries outside {city} are handled by our logistics partner, {partner}."},
+    {"id": "trap.en.19", "trap": "T5", "text": "Customers often compare us with {competitor} – and stay with us for the service."},
+    {"id": "trap.en.20", "trap": "T5", "text": "{partner}, established in {client_founded}, has worked alongside us for many years."},
+    {"id": "trap.en.21", "trap": "T7", "text": "Our premises were completely renovated in {year}."},
+    {"id": "trap.en.22", "trap": "T7", "text": "In {year} we moved to larger premises in {city}."},
+    {"id": "trap.en.23", "trap": "T7", "text": "We received {CERT} in {year}."},
+    {"id": "trap.en.24", "trap": "T7", "text": "Offer valid until 31 December {year}."},
+    {"id": "trap.en.25", "trap": "T7", "text": "Since {year}, all our electricity has come from renewable sources."},
+    {"id": "trap.en.26", "trap": "T7", "text": "We opened a second location in {year}."},
+    {"id": "trap.en.27", "trap": "T7", "text": "All vehicles in our fleet are {year} models or newer."},
+    {"id": "trap.en.28", "trap": "T7", "text": "The business passed to its current owners in {year}."},
+    {"id": "trap.en.29", "trap": "T7", "text": "Our website was redesigned in {year} to make online booking easier."},
+    {"id": "trap.en.30", "trap": "T7", "text": "The building dates from {year} and has been carefully restored."},
+    {"id": "trap.en.31", "trap": "T8", "text": "With {n_years} of experience, we know exactly what our customers need."},
+    {"id": "trap.en.32", "trap": "T8", "text": "More than {n_clients} have already put their trust in us."},
+    {"id": "trap.en.33", "trap": "T8", "text": "Today we run {n_shops} in and around {city}."},
+    {"id": "trap.en.34", "trap": "T8", "text": "Our fleet of {n_vehicles} covers the whole region every day."},
+    {"id": "trap.en.35", "trap": "T8", "text": "Choose from over {n_products} in our current range."},
+    {"id": "trap.en.36", "trap": "T8", "text": "{n_projects} completed – and counting."},
+    {"id": "trap.en.37", "trap": "T8", "text": "A team of {STAFF} {staff_noun} looks after more than {n_clients} every year."},
+    {"id": "trap.en.38", "trap": "T8", "text": "Over the past {n_years}, we have completed {n_projects}."},
+    {"id": "trap.en.39", "trap": "T8", "text": "We deliver to {n_countries} and serve {n_clients} worldwide."},
+    {"id": "trap.en.40", "trap": "T8", "text": "{n_years} in business and still going strong."},
+    {"id": "trap.en.41", "trap": "T11", "text": "For accounts queries, please contact {person}, our {position}."},
+    {"id": "trap.en.42", "trap": "T11", "text": "{person} ({position}) will be your first point of contact."},
+    {"id": "trap.en.43", "trap": "T11", "text": "Your contact: {person}, {position}"},
+    {"id": "trap.en.44", "trap": "T11", "text": "Meet {person}, our {position}, who joined the team this year."},
+    {"id": "trap.en.45", "trap": "T11", "text": "{manager_title} {S_PERSON} and our {position}, {person}, look forward to meeting you."},
+    {"id": "trap.en.46", "trap": "T11", "text": "Bookings are handled by {person}, {position}."},
+    {"id": "trap.en.47", "trap": "T11", "text": "If you have any questions about your order, {person} will be glad to help."},
+    {"id": "trap.en.48", "trap": "T11", "text": "Our {position}, {person}, has been with us for {n_years}."},
+    {"id": "trap.en.49", "trap": "T11", "text": "Sales enquiries: {person} – {position}"},
+    {"id": "trap.en.50", "trap": "T11", "text": "Under the leadership of {S_PERSON}, the day-to-day running of the office is in the hands of {person}, our {position}."},
+    {"id": "trap.en.51", "trap": "T13", "text": "We supply {C_NAME} and source our raw materials from {supplier}."},
+    {"id": "trap.en.52", "trap": "T13", "text": "Together with our partner {partner}, we recently completed a major project for {C_NAME}."},
+    {"id": "trap.en.53", "trap": "T13", "text": "Clients such as {C_NAME_LIST} benefit from our partnership with {partner}."},
+    {"id": "trap.en.54", "trap": "T13", "text": "Our customers include {C_NAME}; our main supplier is {supplier}."},
+    {"id": "trap.en.55", "trap": "T13", "text": "{C_NAME} relies on us for day-to-day support, while {partner} takes care of the logistics."},
+    {"id": "trap.en.56", "trap": "T13", "text": "Thanks to our long-standing relationship with {supplier}, we can offer {C_NAME} and our other clients short lead times."},
+    {"id": "trap.en.57", "trap": "T13", "text": "Partner: {partner} · Client: {C_NAME}"},
+    {"id": "trap.en.58", "trap": "T13", "text": "Working alongside {partner}, we delivered the project on time for {C_NAME}."},
+    {"id": "trap.en.59", "trap": "T13", "text": "Our client list includes {C_NAME_LIST}; we buy only from trusted suppliers such as {supplier}."},
+    {"id": "trap.en.60", "trap": "T13", "text": "{C_NAME} is one of our key accounts, and {partner} is our preferred logistics provider."}
+  ],
+  "filler": [
+    {"id": "filler.en.01", "text": "Customer satisfaction is at the heart of everything we do."},
+    {"id": "filler.en.02", "text": "Our friendly team is always happy to help."},
+    {"id": "filler.en.03", "text": "We believe in doing the job right the first time."},
+    {"id": "filler.en.04", "text": "Quality, reliability and fair prices – that is our promise."},
+    {"id": "filler.en.05", "text": "No job is too big or too small."},
+    {"id": "filler.en.06", "text": "Get in touch today for a free, no-obligation quote."},
+    {"id": "filler.en.07", "text": "We take pride in our attention to detail."},
+    {"id": "filler.en.08", "text": "Every customer is treated with the same care and respect."},
+    {"id": "filler.en.09", "text": "We listen carefully to your needs before recommending a solution."},
+    {"id": "filler.en.10", "text": "Our prices are transparent, with no hidden charges."},
+    {"id": "filler.en.11", "text": "We are committed to reducing our environmental impact."},
+    {"id": "filler.en.12", "text": "Health and safety come first on every job."},
+    {"id": "filler.en.13", "text": "We keep our promises and deliver on time."},
+    {"id": "filler.en.14", "text": "Your feedback helps us improve."},
+    {"id": "filler.en.15", "text": "We look forward to welcoming you."},
+    {"id": "filler.en.16", "text": "Payment can be made by card, bank transfer or cash."},
+    {"id": "filler.en.17", "text": "All enquiries are answered promptly."},
+    {"id": "filler.en.18", "text": "Parking is available close by."},
+    {"id": "filler.en.19", "text": "We work with care, honesty and respect."},
+    {"id": "filler.en.20", "text": "Our experienced staff will guide you through every step."},
+    {"id": "filler.en.21", "text": "We invest continuously in training and new technology."},
+    {"id": "filler.en.22", "text": "Please do not hesitate to contact us if you have any questions."},
+    {"id": "filler.en.23", "text": "Kindly note that prices are subject to change without prior notice."},
+    {"id": "filler.en.24", "text": "We value long-term relationships with our customers."},
+    {"id": "filler.en.25", "text": "Your satisfaction is our success."},
+    {"id": "filler.en.26", "text": "Our goal is simple: happy customers who come back."},
+    {"id": "filler.en.27", "text": "We are fully insured for your peace of mind."},
+    {"id": "filler.en.28", "text": "Good communication is the key to every successful project."},
+    {"id": "filler.en.29", "text": "We are a local business and proud of it."},
+    {"id": "filler.en.30", "text": "Appointments outside normal hours can be arranged on request."},
+    {"id": "filler.en.31", "text": "Every detail matters to us."},
+    {"id": "filler.en.32", "text": "New and returning customers are always welcome."},
+    {"id": "filler.en.33", "text": "Sustainability is part of how we work."},
+    {"id": "filler.en.34", "text": "You will always get honest advice from us, even when that means doing less."},
+    {"id": "filler.en.35", "text": "We keep things simple, clear and affordable."},
+    {"id": "filler.en.36", "text": "Thank you for supporting an independent business."},
+    {"id": "filler.en.37", "text": "We are always looking for ways to serve you better."},
+    {"id": "filler.en.38", "text": "Safety, quality and punctuality guide our daily work."},
+    {"id": "filler.en.39", "text": "The customer always comes first."},
+    {"id": "filler.en.40", "text": "Our processes are designed to save you time and money."},
+    {"id": "filler.en.41", "text": "We are happy to answer any questions by phone or email."},
+    {"id": "filler.en.42", "text": "Terms and conditions apply."},
+    {"id": "filler.en.43", "text": "Images are for illustration purposes only."},
+    {"id": "filler.en.44", "text": "All offers are subject to availability."},
+    {"id": "filler.en.45", "text": "We look after your data with care and never share it without your consent."},
+    {"id": "filler.en.46", "text": "Word of mouth remains our best advertisement."},
+    {"id": "filler.en.47", "text": "We are proud to support local charities and sports clubs in {city}."},
+    {"id": "filler.en.48", "text": "Behind every job is a team that cares."},
+    {"id": "filler.en.49", "text": "We assure you of our best services at all times."},
+    {"id": "filler.en.50", "text": "Customer delight is our motto."},
+    {"id": "filler.en.51", "text": "We look forward to a mutually beneficial business relationship."},
+    {"id": "filler.en.52", "text": "No worries – we will sort it out for you."},
+    {"id": "filler.en.53", "text": "Your satisfaction remains our utmost priority."},
+    {"id": "filler.en.54", "text": "Our organization is built on trust, teamwork and integrity."},
+    {"id": "filler.en.55", "text": "We favour practical solutions over complicated ones."}
+  ],
+  "legal_footer": [
+    {"id": "footer.en.01", "countries": ["GB"], "text": "{S_NAME:legal} · Registered in England and Wales · {S_REG_ID} · Registered office: {S_ADDRESS}"},
+    {"id": "footer.en.02", "countries": ["GB"], "text": "{S_NAME:legal} is a company registered in England and Wales, {S_REG_ID}. Registered office: {S_ADDRESS}."},
+    {"id": "footer.en.03", "countries": ["GB"], "text": "Registered office: {S_ADDRESS} | {S_REG_ID} | Tel {S_PHONE} | {S_URL}"},
+    {"id": "footer.en.04", "countries": ["GB"], "text": "{S_NAME:legal}, {S_ADDRESS}. Registered in England & Wales, {S_REG_ID}. E&OE."},
+    {"id": "footer.en.05", "countries": ["GB"], "text": "{S_NAME:legal} · {LEGAL_FORM} · Registered in England and Wales · {S_REG_ID}"},
+    {"id": "footer.en.06", "countries": ["US"], "text": "{S_NAME:legal} · {S_ADDRESS} · {S_PHONE} · {S_URL}"},
+    {"id": "footer.en.07", "countries": ["US"], "text": "Please make all checks payable to {S_NAME:legal}. {S_REG_ID}"},
+    {"id": "footer.en.08", "countries": ["US"], "text": "{S_NAME:legal} | {S_REG_ID} | {S_ADDRESS}"},
+    {"id": "footer.en.09", "countries": ["US"], "text": "© {S_NAME:legal}. All rights reserved. {S_ADDRESS} · {S_EMAIL}"},
+    {"id": "footer.en.10", "countries": ["US", "CA"], "text": "{S_NAME:legal} · {ACTIVITY_CODE} · {S_REG_ID} · {S_EMAIL}"},
+    {"id": "footer.en.11", "countries": ["IN"], "text": "{S_NAME:legal} | {S_REG_ID} | Regd. Office: {S_ADDRESS}"},
+    {"id": "footer.en.12", "countries": ["IN"], "text": "Registered Office: {S_ADDRESS} · {S_REG_ID} · Tel: {S_PHONE} · E-mail: {S_EMAIL} · Website: {S_URL}"},
+    {"id": "footer.en.13", "countries": ["IN"], "text": "This is a computer-generated document issued by {S_NAME:legal} and does not require a signature."},
+    {"id": "footer.en.14", "countries": ["IN"], "text": "Subject to {city} jurisdiction. E. & O.E. · {S_NAME:legal} · {S_REG_ID}"},
+    {"id": "footer.en.15", "countries": ["IN"], "text": "{S_NAME:legal} · {LEGAL_FORM} · {S_REG_ID} · Paid-up capital: {CAPITAL}"},
+    {"id": "footer.en.16", "countries": ["AU"], "text": "{S_NAME:legal} {S_REG_ID}"},
+    {"id": "footer.en.17", "countries": ["AU"], "text": "{S_NAME:legal} {S_REG_ID} · {S_ADDRESS} · {S_PHONE}"},
+    {"id": "footer.en.18", "countries": ["AU"], "text": "{S_NAME:legal} · {S_REG_ID} · {S_ADDRESS} · {S_EMAIL}"},
+    {"id": "footer.en.19", "countries": ["AU"], "text": "All prices include GST unless stated otherwise. {S_NAME:legal}, {S_REG_ID}."},
+    {"id": "footer.en.20", "countries": ["AU"], "text": "{S_NAME} trading from {S_ADDRESS} · {S_REG_ID} · {S_URL}"},
+    {"id": "footer.en.21", "countries": ["CA"], "text": "{S_NAME:legal} · {S_ADDRESS} · {S_REG_ID}"},
+    {"id": "footer.en.22", "countries": ["CA"], "text": "{S_NAME:legal} | {S_PHONE} | {S_EMAIL} | {S_REG_ID}"},
+    {"id": "footer.en.23", "countries": ["CA"], "text": "Please make cheques payable to {S_NAME:legal}. {S_REG_ID}"},
+    {"id": "footer.en.24", "countries": ["CA"], "text": "{S_NAME:legal}, {S_ADDRESS} – {S_URL}"},
+    {"id": "footer.en.25", "countries": ["NG"], "text": "{S_NAME:legal} · {S_REG_ID} · Head Office: {S_ADDRESS}"},
+    {"id": "footer.en.26", "countries": ["NG"], "text": "{S_NAME:legal} – registered with the Corporate Affairs Commission – {S_REG_ID}"},
+    {"id": "footer.en.27", "countries": ["NG"], "text": "{S_NAME:legal} | {S_ADDRESS} | Tel: {S_PHONE} | {S_EMAIL} | {S_REG_ID}"},
+    {"id": "footer.en.28", "countries": ["NG"], "text": "{S_NAME:legal} · {S_REG_ID} · Share capital: {CAPITAL}"},
+    {"id": "footer.en.29", "countries": ["NG"], "text": "Corporate Head Office: {S_ADDRESS} · {S_REG_ID} · {S_URL}"},
+    {"id": "footer.en.30", "countries": ["GB", "AU", "NG", "IN"], "text": "{S_NAME:legal} · {S_ADDRESS} · {S_PHONE} · {S_EMAIL}"}
+  ],
+  "invoice_notes": {
+    "payment_terms": [
+      "Payment due within {n_days} days of the invoice date.",
+      "Terms: Net {n_days}.",
+      "Please pay by {date}, quoting invoice number {invoice_no} as your reference.",
+      "Payment is due on receipt of this invoice.",
+      "Kindly remit payment within {n_days} days by bank transfer to the account shown below.",
+      "Payment terms: {n_days} days from date of invoice.",
+      "Please pay by EFT within {n_days} days, using the invoice number as the reference.",
+      "Cheques should be crossed and made payable to the company named above.",
+      "Payment due upon receipt. We accept checks, ACH transfers and all major credit cards."
+    ],
+    "late_penalty": [
+      "Overdue accounts will be charged interest at {percent} per month.",
+      "We reserve the right to claim interest and compensation under the Late Payment of Commercial Debts (Interest) Act 1998.",
+      "Interest @ {percent} p.a. will be charged if the bill is not paid within {n_days} days.",
+      "Past-due balances are subject to a finance charge of {percent} per month.",
+      "A late payment fee of {amount} applies to payments received after the due date."
+    ],
+    "vat_exempt": [
+      "VAT not charged: the supplier is not registered for VAT.",
+      "No GST has been charged, as the supplier is not registered for GST.",
+      "Supply meant for export under LUT without payment of IGST.",
+      "Tax-exempt sale – exemption certificate on file.",
+      "Reverse charge: customer to account for the VAT to HMRC.",
+      "GST-free supply.",
+      "Zero-rated supply – no GST/HST charged."
+    ],
+    "thanks": [
+      "Thank you for your business!",
+      "Thank you for choosing us – we appreciate your custom.",
+      "We appreciate your prompt payment.",
+      "Thanks for shopping with us!",
+      "Thank you for your valued patronage.",
+      "It was a pleasure serving you."
+    ],
+    "quote_validity": [
+      "This quotation is valid for {n_days} days from the date of issue.",
+      "Prices quoted are valid until {date}.",
+      "This estimate is valid for {n_days} days.",
+      "Validity of offer: {n_days} days.",
+      "Quotation valid until {date}, subject to availability of materials."
+    ],
+    "quote_acceptance": [
+      "To accept this quotation, please sign below and return a copy to us.",
+      "Please confirm your acceptance by email so that we can schedule the work.",
+      "Accepted by (name, signature and date): ______________________",
+      "Kindly send us your purchase order to confirm acceptance of this quotation.",
+      "A deposit of {percent} is payable on acceptance of this quote."
+    ],
+    "credit_reason": [
+      "Credit for goods returned under invoice {invoice_no}.",
+      "Refund of overcharge on invoice {invoice_no}.",
+      "Cancellation of order {order_no}.",
+      "Credit issued for damaged items delivered on {date}.",
+      "Price adjustment as agreed on {date}."
+    ]
+  },
+  "phrases": {
+    "page_x_of_y": [
+      "Page {p} of {n}",
+      "Page {p}/{n}",
+      "{p} of {n}",
+      "Pg. {p} of {n}",
+      "Sheet {p} of {n}"
+    ],
+    "place_date": [
+      "{city}, {DOC_DATE}",
+      "Place: {city}     Date: {DOC_DATE}",
+      "Dated at {city} on {DOC_DATE}",
+      "Issued at {city} on {DOC_DATE}"
+    ],
+    "fin_amounts_note": [
+      "All amounts are in {currency}.",
+      "(Amounts in {currency})",
+      "Figures are stated in {currency} unless otherwise indicated.",
+      "Currency: {currency}",
+      "All figures are expressed in {currency}."
+    ],
+    "fin_period": [
+      "For the period from {date_start} to {date_end}",
+      "Financial year: {date_start} – {date_end}",
+      "Accounting period {date_start} to {date_end}",
+      "For the twelve months from {date_start} to {date_end}"
+    ],
+    "price_validity": [
+      "Prices valid until {date}.",
+      "This price list is valid from {date} until further notice.",
+      "Prices effective from {date}; all previous price lists are withdrawn.",
+      "Prices are subject to change after {date}."
+    ],
+    "signature_line": [
+      "Authorised Signatory",
+      "Authorized signature: ____________________",
+      "For and on behalf of the company: ____________________",
+      "Signature & company stamp",
+      "Signed: ____________________   Date: ______________",
+      "Receiver's Signature"
+    ],
+    "amount_in_words_intro": [
+      "Amount in words:",
+      "Amount Chargeable (in words):",
+      "Rupees",
+      "INR",
+      "Total amount in words:",
+      "The sum of",
+      "Say:"
+    ]
+  },
+  "letters": {
+    "payment_reminder": {
+      "subject": [
+        "Payment reminder – invoice {invoice_no}",
+        "Overdue invoice {invoice_no}",
+        "Outstanding balance on your account",
+        "Second reminder: invoice {invoice_no} due on {date}"
+      ],
+      "body": [
+        "We are writing to remind you that invoice {invoice_no}, dated {date}, for the amount of {amount} remains unpaid.",
+        "According to our records, the balance of {amount} was due on {date}. If you have already made the payment, please disregard this reminder.",
+        "We would be grateful if you could arrange payment within the next {n_days} days. Our bank details are shown on the original invoice.",
+        "If you have any questions about this invoice, please contact {person}, our {position}, on {S_PHONE} or at {S_EMAIL}.",
+        "Kindly treat this matter as urgent and confirm the date of payment at the earliest.",
+        "We value our relationship with {C_NAME} and thank you in advance for your prompt attention to this matter."
+      ]
+    },
+    "quote_followup": {
+      "subject": [
+        "Follow-up on our quotation of {date}",
+        "Your quotation for {SERVICE}",
+        "Quotation {invoice_no} – any questions?"
+      ],
+      "body": [
+        "On {date} we sent you our quotation for {SERVICE}, and we wanted to check whether you have had a chance to review it.",
+        "With reference to our quotation dated {date}, we request you to kindly confirm your order at the earliest.",
+        "If you would like to change the scope or the quantities, we will gladly prepare a revised offer.",
+        "Please note that the prices quoted remain valid until {date}.",
+        "{person}, our {position}, would be happy to go through the details with you by phone or in person.",
+        "We would be delighted to work with {C_NAME} and look forward to hearing from you."
+      ]
+    },
+    "price_change": {
+      "subject": [
+        "Notice of price adjustment from {date}",
+        "Changes to our prices",
+        "Revised rates effective {date}"
+      ],
+      "body": [
+        "Due to rising costs for materials, energy and transport, we are obliged to adjust our prices.",
+        "We write to inform you that, owing to the current economic situation, our prices will be reviewed with effect from {date}.",
+        "From {date}, our rates will increase by an average of {percent}.",
+        "All orders placed before {date} will still be invoiced at the current prices.",
+        "We have kept this increase to a minimum and will continue to look for ways to keep our services affordable.",
+        "Should you have any questions about the new rates, please call us on {S_PHONE}. We thank {C_NAME} for its understanding and continued trust."
+      ]
+    },
+    "appointment": {
+      "subject": [
+        "Confirmation of your appointment on {date}",
+        "Appointment: {date} at {time}",
+        "Site visit scheduled for {weekday}, {date}"
+      ],
+      "body": [
+        "We are pleased to confirm our appointment on {date} at {time} at your premises.",
+        "{person}, our {position}, will attend on our behalf.",
+        "If this date is not convenient, please let us know as soon as possible so that we can arrange another time.",
+        "The meeting should take about an hour. Please have any relevant documents to hand.",
+        "Should anything change, you can reach us on {S_PHONE} or at {S_EMAIL}.",
+        "We look forward to meeting the team at {C_NAME}."
+      ]
+    },
+    "closure": {
+      "subject": [
+        "Holiday closure",
+        "Our office will be closed from {date_start} to {date_end}",
+        "Opening hours over the holiday period"
+      ],
+      "body": [
+        "Please note that {S_NAME} will be closed from {date_start} to {date_end} for the annual holidays.",
+        "We will reopen on {date} with our usual hours: {HOURS}.",
+        "From {date}, we will again be open {HOURS:prose}.",
+        "Orders received during the closure will be processed as soon as we are back. We regret any inconvenience this may cause.",
+        "For urgent matters, please send an email to {S_EMAIL} and we will get back to you as quickly as possible.",
+        "We would like to thank all our customers for their loyalty this year and wish everyone a restful break."
+      ]
+    },
+    "move": {
+      "subject": [
+        "We are moving!",
+        "Change of address",
+        "Our new address from {date}"
+      ],
+      "body": [
+        "We are pleased to announce that from {date}, {S_NAME} will be operating from new premises.",
+        "Our new address is {S_ADDRESS}.",
+        "This is to inform our esteemed customers that we have relocated to {S_ADDRESS}.",
+        "Our telephone number {S_PHONE} and email address {S_EMAIL} remain unchanged.",
+        "Please update your records and send all future correspondence to our new address.",
+        "The new premises give us more room to serve you, and there is ample parking for visitors."
+      ]
+    },
+    "new_service": {
+      "subject": [
+        "Introducing {SERVICE}",
+        "New from {S_NAME}: {SERVICE}",
+        "Something new for {C_NAME}"
+      ],
+      "body": [
+        "We are delighted to let you know that we now offer {SERVICE}.",
+        "Alongside our existing range, customers can now order {SERVICE_LIST}.",
+        "As a valued client, {C_NAME} can benefit from an introductory discount of {percent} until {date}.",
+        "For more details, visit {S_URL} or speak to {person}, our {position}.",
+        "We look forward to continuing to support your business."
+      ]
+    },
+    "thanks": {
+      "subject": [
+        "Thank you for your order",
+        "Thank you for your trust",
+        "With thanks from all of us at {S_NAME}"
+      ],
+      "body": [
+        "On behalf of everyone at {S_NAME}, I would like to thank {C_NAME} for the confidence you have placed in us.",
+        "It was a pleasure working with your team, and we hope to do so again soon.",
+        "Your feedback is important to us. If there is anything we could have done better, please let us know.",
+        "We look forward to a long and successful business relationship.",
+        "Please do not hesitate to contact me directly on {S_PHONE} if you need anything further.",
+        "We sincerely appreciate your patronage and assure you of our best services at all times."
+      ]
+    },
+    "order_to_supplier": {
+      "subject": [
+        "Purchase order {order_no}",
+        "Order for delivery by {date}",
+        "New order – please confirm"
+      ],
+      "body": [
+        "We would like to place the following order with {C_NAME}.",
+        "Please find enclosed our purchase order {order_no} for the items listed below.",
+        "We would be grateful if you could deliver the goods to {S_ADDRESS} by {date} at the latest.",
+        "Please confirm receipt of this order, the delivery date and the total amount by return email. The prices are as agreed in your offer of {date}.",
+        "Invoices should quote our order number and be sent to {S_EMAIL}.",
+        "For any questions regarding this order, please contact {person} ({position}) on {S_PHONE}."
+      ]
+    },
+    "letter_to_bank": {
+      "subject": [
+        "Request to increase our overdraft facility",
+        "Change of contact details on our business account",
+        "Request for account statements"
+      ],
+      "body": [
+        "We are writing regarding our business current account held with {bank}.",
+        "We would like to request an increase in our overdraft limit to {amount} to support our seasonal activity.",
+        "Please find enclosed our latest accounts; our turnover for {REVENUE_YEAR} was {REVENUE}.",
+        "Kindly send the statements for the period {date_start} to {date_end} to {S_EMAIL}.",
+        "Please note that {S_PERSON}, {manager_title}, remains the sole authorised signatory on the account.",
+        "Our registered details are: {S_NAME:legal}, {S_ADDRESS}, {S_REG_ID}."
+      ]
+    },
+    "order_from_client": {
+      "subject": [
+        "Our purchase order no. {order_no}",
+        "Order confirmation – our ref. {order_no}",
+        "Order for delivery on {date}"
+      ],
+      "body": [
+        "Following your recent quotation, we are pleased to place an order with {C_NAME}.",
+        "Please supply the items listed in the attached purchase order {order_no} at the prices agreed.",
+        "Delivery should be made to our premises at {S_ADDRESS} on {date}, before noon.",
+        "Please send your invoice, quoting our order number, to {S_EMAIL}.",
+        "For any questions, our {position}, {person}, can be reached on {S_PHONE}.",
+        "Kindly acknowledge receipt of this order and confirm the expected delivery date."
+      ]
+    },
+    "complaint_from_client": {
+      "subject": [
+        "Complaint regarding order {order_no}",
+        "Unsatisfactory service on {date}",
+        "Formal complaint – invoice {invoice_no}"
+      ],
+      "body": [
+        "We are writing to express our dissatisfaction with the work carried out by {C_NAME} on {date}.",
+        "Several items delivered under order {order_no} were damaged, and some were missing altogether.",
+        "Despite two phone calls, we have not yet received a satisfactory response from your team.",
+        "We therefore ask you to replace the faulty goods within {n_days} days or to issue a credit note for {amount}.",
+        "Please contact {person}, our {position}, to agree a solution at your earliest convenience.",
+        "{S_NAME} has always valued its relationship with your company, and we trust that this matter can be resolved quickly."
+      ]
+    },
+    "quote_request": {
+      "subject": [
+        "Request for quotation",
+        "Enquiry – quotation required by {date}",
+        "RFQ ref. {order_no}"
+      ],
+      "body": [
+        "{S_NAME} is currently reviewing suppliers for the coming year, and your company has been recommended to us.",
+        "We would like to receive a quotation from {C_NAME} for the work described in the attached specification.",
+        "Please state your best price, the expected lead time and your payment terms.",
+        "The work would need to be carried out at our site in {city} between {date_start} and {date_end}.",
+        "Kindly send your offer to {S_EMAIL} no later than {date}.",
+        "If you need further information, please call {person}, {position}, on {S_PHONE}."
+      ]
+    },
+    "supplier_offer": {
+      "subject": [
+        "Special offer for {C_NAME}",
+        "Our new catalogue and trade prices",
+        "Introducing {S_NAME} – your new supplier"
+      ],
+      "body": [
+        "Allow us to introduce {S_NAME}. Based in {city}, we specialise in {ACTIVITY}.",
+        "We would like to offer {C_NAME} our {SERVICE} on special trade terms.",
+        "For orders placed before {date}, we are pleased to grant a discount of {percent}.",
+        "Our full range includes {SERVICE_LIST}, all available at short notice.",
+        "Our sales representative, {person}, will contact you shortly to arrange a meeting.",
+        "For further information, please visit {S_URL} or call us on {S_PHONE}."
+      ]
+    },
+    "bank_notice": {
+      "subject": [
+        "Important information about your account",
+        "Changes to your business account terms",
+        "Notice of new account charges from {date}"
+      ],
+      "body": [
+        "We are writing to inform {C_NAME} of changes to the terms of your business current account with {bank}.",
+        "From {date}, the monthly account fee will increase to {amount}.",
+        "The interest rate on your overdraft facility will change to {percent} per annum.",
+        "If you do not agree with these changes, you may close your account free of charge before {date}.",
+        "Account holder: {C_NAME}, {C_ADDRESS}",
+        "For any questions, please contact your relationship manager, {person}, or visit your nearest branch."
+      ]
+    },
+    "loan_offer": {
+      "subject": [
+        "Your business loan offer",
+        "Offer of finance – ref. {order_no}",
+        "Pre-approved credit line for {C_NAME}"
+      ],
+      "body": [
+        "We are pleased to offer {C_NAME} a business loan of {amount}, subject to the terms and conditions below.",
+        "The loan is repayable over {n_years} in monthly instalments, at a fixed interest rate of {percent} per annum.",
+        "This offer is valid until {date}. To accept it, please sign and return the enclosed agreement.",
+        "Borrower: {C_NAME}, {C_REG_ID}, {C_ADDRESS}",
+        "Your relationship manager, {person}, will be happy to answer any questions.",
+        "{bank} reserves the right to withdraw this offer if the information provided changes."
+      ]
+    },
+    "tax_reminder": {
+      "subject": [
+        "Reminder: return due by {date}",
+        "Notice of outstanding tax liability",
+        "Final reminder – filing deadline {date}"
+      ],
+      "body": [
+        "Our records show that the return for the period {date_start} to {date_end} has not yet been received from {C_NAME}.",
+        "An amount of {amount} is now overdue. Please pay this amount by {date} to avoid further penalties and interest.",
+        "Taxpayer: {C_NAME}, {C_REG_ID}",
+        "If you have already filed the return or paid the amount due, please ignore this notice.",
+        "This notice has been issued by {other_org}. Please quote reference {invoice_no} in all correspondence.",
+        "Late filing may lead to a penalty of {amount}, and interest will be charged at {percent} per year."
+      ]
+    },
+    "registry_notice": {
+      "subject": [
+        "Confirmation statement due",
+        "Annual return filing reminder",
+        "Notice regarding {C_NAME}"
+      ],
+      "body": [
+        "This is a reminder that the annual return for {C_NAME}, {C_REG_ID}, must be filed by {date}.",
+        "Our records show the registered office address as {C_ADDRESS}. Please tell us if this has changed.",
+        "Failure to file on time may result in a late filing penalty of {amount} and could lead to the company being struck off the register.",
+        "You can file online through the {other_org} website.",
+        "If you have already filed, please disregard this notice.",
+        "Issued by {other_org}, {other_address}."
+      ]
+    }
+  },
+  "contract": {
+    "parties_provider": [
+      "{S_NAME:legal}, a company registered under {S_REG_ID}, whose registered office is at {S_ADDRESS}, represented by {S_PERSON}, {manager_title} (hereinafter “the Provider”)",
+      "{S_NAME:legal} ({LEGAL_FORM}), with a share capital of {CAPITAL}, having its registered office at {S_ADDRESS}, {S_REG_ID}, acting through its {manager_title}, {S_PERSON} (the “Service Provider”);",
+      "{S_NAME:legal}, of {S_ADDRESS} ({S_REG_ID}), duly represented by {S_PERSON} in the capacity of {manager_title}, hereinafter referred to as the “Supplier” (which expression shall, unless repugnant to the context, include its successors and assigns);",
+      "BETWEEN: {S_NAME:legal}, {S_ADDRESS}, telephone {S_PHONE}, email {S_EMAIL} (the “Contractor”)"
+    ],
+    "parties_client": [
+      "AND {C_NAME}, having its principal place of business at {C_ADDRESS}, {C_REG_ID}, represented by {person}, {position} (hereinafter “the Client”).",
+      "{C_NAME}, of {C_ADDRESS}, acting through its authorized representative {person} ({position}) (the “Customer”).",
+      "AND {C_NAME}, a company with its registered office at {C_ADDRESS} ({C_REG_ID}), hereinafter referred to as the “Client” (which expression shall include its successors and permitted assigns), represented by {person}, {position}."
+    ],
+    "preamble": [
+      "WHEREAS the Provider has the experience and resources required to deliver the services described below, and the Client wishes to engage the Provider on the terms of this Agreement;",
+      "NOW, THEREFORE, in consideration of the mutual covenants set out herein, the parties agree as follows:",
+      "The parties have agreed that the Provider will perform the services described in this Agreement, subject to the following terms and conditions."
+    ],
+    "object": [
+      "The Provider shall supply the following to the Client: {SERVICE_LIST}.",
+      "The purpose of this Agreement is the provision of {SERVICE} by the Provider, as further described in Schedule 1.",
+      "Scope of work: {SERVICE_LIST}, together with any related work agreed in writing between the parties."
+    ],
+    "duration": [
+      "This Agreement shall commence on {date_start} and remain in force until {date_end}, unless terminated earlier in accordance with its terms.",
+      "The Agreement is entered into for an initial term of twelve (12) months and shall renew automatically for successive periods of the same length unless either party gives {n_days} days' written notice.",
+      "The term of this contract runs from {date_start} to {date_end}."
+    ],
+    "price": [
+      "In consideration of the services, the Client shall pay the Provider a fixed fee of {amount}, exclusive of applicable taxes.",
+      "The total contract price is {amount}. Any additional work will be charged at the rates in force at the time.",
+      "The monthly fee for the services is {amount}, plus tax at the applicable rate."
+    ],
+    "payment": [
+      "Invoices are payable within {n_days} days of the invoice date by bank transfer.",
+      "The Client shall pay each invoice in full within {n_days} days of receipt. Late payments shall bear interest at {percent} per annum.",
+      "Payment shall be made in two instalments: fifty per cent on signature and the balance within {n_days} days of completion.",
+      "The fee is payable in equal monthly installments, each due within {n_days} days of the invoice date."
+    ],
+    "obligations": [
+      "The Provider shall perform the services with reasonable skill and care and in accordance with good industry practice.",
+      "The Client shall give the Provider timely access to its premises, information and staff as reasonably required.",
+      "Each party shall comply with all applicable laws and regulations in performing its obligations under this Agreement."
+    ],
+    "confidentiality": [
+      "Each party shall keep confidential all information received from the other party and shall not disclose it to any third party without prior written consent.",
+      "The obligations of confidentiality shall survive the termination of this Agreement for a period of {n_years}.",
+      "Confidential information does not include information that is or becomes publicly available through no fault of the receiving party."
+    ],
+    "liability": [
+      "The Provider's total liability under this Agreement shall not exceed the total fees paid by the Client in the twelve (12) months preceding the claim.",
+      "Neither party shall be liable for any indirect or consequential loss, including loss of profit, revenue or goodwill.",
+      "Nothing in this Agreement limits either party's liability for death or personal injury caused by negligence, or for fraud."
+    ],
+    "termination": [
+      "Either party may terminate this Agreement by giving {n_days} days' written notice to the other party.",
+      "Either party may terminate this Agreement with immediate effect if the other party commits a material breach and fails to remedy it within {n_days} days of being notified.",
+      "On termination, the Client shall pay for all services performed up to the date of termination."
+    ],
+    "law": [
+      "This Agreement shall be governed by and construed in accordance with the laws of the jurisdiction in which the Provider is registered, and the parties submit to the exclusive jurisdiction of the courts of {city}.",
+      "Any dispute arising out of or in connection with this Agreement shall be referred to arbitration, with the seat of arbitration at {city}.",
+      "The courts at {city} alone shall have jurisdiction in respect of any matter arising under this Agreement."
+    ],
+    "signature": [
+      "Signed at {city} on {DOC_DATE}.",
+      "IN WITNESS WHEREOF, the parties have executed this Agreement at {city} on {DOC_DATE}.",
+      "For the Provider: {S_PERSON}, {manager_title} · For the Client: {person}, {position} · {city}, {DOC_DATE}",
+      "Dated {DOC_DATE} at {city}."
+    ]
+  },
+  "terms": {
+    "cgv": [
+      "These terms and conditions apply to all sales of goods and services by {S_NAME} to its customers.",
+      "An order becomes binding only once {S_NAME} has confirmed it in writing or by email.",
+      "All prices are shown inclusive of applicable taxes unless stated otherwise.",
+      "Quoted prices include materials and labour unless stated otherwise.",
+      "Payment is due within {n_days} days of the invoice date unless otherwise agreed in writing.",
+      "Late payments will incur interest at {percent} per month on the outstanding amount.",
+      "Delivery times are given in good faith but are not guaranteed; we are not liable for delays beyond our reasonable control.",
+      "Risk in the goods passes to the customer on delivery, but ownership passes only once payment has been received in full.",
+      "The customer must inspect the goods on receipt and report any damage or shortage within {n_days} days.",
+      "Our products carry a twelve-month warranty against manufacturing defects.",
+      "Consumers may cancel their order within 14 days of receipt without giving a reason, as provided by applicable consumer law.",
+      "Returned goods must be unused and in their original packaging.",
+      "The total liability of {S_NAME} under any order shall not exceed the price paid for the goods or services concerned.",
+      "Complaints should be sent in writing to {S_EMAIL} or by post to {S_ADDRESS}.",
+      "Any dispute shall be subject to the jurisdiction of the courts of {city}.",
+      "Cancellation of a confirmed order may incur a charge of up to {percent} of the order value.",
+      "These terms may be updated from time to time; the version published at {S_URL} on the date of your order applies."
+    ],
+    "privacy": [
+      "{S_NAME:legal}, {S_ADDRESS}, is the data controller responsible for your personal data.",
+      "We collect the personal data you give us when you place an order, request a quote or contact us, such as your name, address, email address and phone number.",
+      "We use your data to process orders, provide our services, answer your enquiries and meet our legal obligations.",
+      "We never sell your personal data to third parties.",
+      "Your data is kept only as long as necessary for these purposes, and in any case no longer than the law requires.",
+      "Accounting records, including invoices, are kept for {n_years} as required by law.",
+      "You have the right to access, correct or delete your personal data and to object to its processing.",
+      "To exercise your rights, please write to {S_EMAIL} or to the address above.",
+      "If you are unhappy with how we handle your data, you may complain to the relevant data protection authority.",
+      "We use appropriate technical and organisational measures to protect your data against loss or misuse.",
+      "This policy may be updated from time to time; the current version is always available at {S_URL}."
+    ],
+    "legal_notice": [
+      "This website is operated by {S_NAME:legal}.",
+      "Registered address of the publisher: {S_ADDRESS}",
+      "Registration details: {S_REG_ID}",
+      "Legal form and capital: {LEGAL_FORM}, with a share capital of {CAPITAL}",
+      "Telephone: {S_PHONE} · Email: {S_EMAIL}",
+      "Director: {S_PERSON}",
+      "Responsible for the content of this website: {S_PERSON}",
+      "This website is hosted by {other_org}, {other_address}.",
+      "All content on this website, including text, images and logos, belongs to {S_NAME} unless stated otherwise and may not be reproduced without permission.",
+      "{S_NAME} accepts no responsibility for the content of external websites linked from this site.",
+      "Company details: {S_NAME:legal} ({LEGAL_FORM}), {S_ADDRESS}, {S_REG_ID}."
+    ],
+    "cookies": [
+      "This website uses cookies to improve your browsing experience and to analyse traffic.",
+      "Essential cookies are needed for the site to work and cannot be switched off.",
+      "You can accept or reject non-essential cookies at any time via the cookie settings link at the bottom of each page.",
+      "Cookies are stored for a maximum of {n_days} days, after which they are deleted automatically."
+    ]
+  },
+  "web": {
+    "testimonials": [
+      "“Fantastic service from start to finish – I would recommend {S_NAME} to anyone.” – {person}, {city}",
+      "“Friendly, punctual and very professional. We will definitely be back.” – {person}",
+      "“The team went above and beyond for us. Five stars!” – {person}, {city}",
+      "“Great value for money and excellent communication throughout.” ({person})",
+      "“We ordered the {SERVICE} and were delighted with the result.” – {person}",
+      "“Highly recommended. Honest advice and a fair price.” – {person}, {position}",
+      "“I have been a customer for years and have never been disappointed.” – {person}",
+      "“Quick to respond and easy to deal with. Thank you!” – {person}, {city}"
+    ],
+    "news": [
+      "{date} – We are pleased to announce the launch of {SERVICE}.",
+      "{date}: Our new website is now live.",
+      "{date} – We are proud to welcome {person} to the team as our new {position}.",
+      "{date}: Holiday opening times are now available on our contact page.",
+      "{date} – Thank you to everyone who visited our stand at the trade fair in {city}.",
+      "{date}: Together with our customers, we raised {amount} for a local charity this year.",
+      "{date} – Now taking orders and bookings for {SERVICE}.",
+      "{date}: Our whole team has completed first-aid training."
+    ],
+    "cta": [
+      "Request your free quote today!",
+      "Call us now on {S_PHONE}.",
+      "Book online at {S_URL}.",
+      "Get in touch – we'd love to hear from you.",
+      "Email us at {S_EMAIL} for a fast response.",
+      "Order now and enjoy {percent} off your first purchase.",
+      "Sign up to our newsletter for news and special offers.",
+      "Contact us today to discuss your project."
+    ]
+  },
+  "noise": {
+    "meeting": [
+      "Meeting notes, {date}. Attendees: {person} and the operations team. Agenda: quarterly targets, holiday rota, new booking system.",
+      "Action: {person} to circulate the revised rota by {weekday}.",
+      "It was agreed to review all supplier contracts before the end of the quarter.",
+      "Next meeting: {weekday} at {time} in the main meeting room.",
+      "Item 3 – Budget: overspend on travel noted; {person} ({position}) to propose savings.",
+      "AOB: none. Meeting closed at {time}.",
+      "Feedback from the customer survey was discussed; the response rate was up {percent} on last quarter.",
+      "Decision: trial the new scheduling software for one month, then review."
+    ],
+    "recipe": [
+      "Preheat the oven to 180 °C and grease a 20 cm cake tin.",
+      "Mix the flour, sugar and a pinch of salt in a large bowl, then rub in the butter until the mixture resembles breadcrumbs.",
+      "Add the eggs one at a time, beating well after each addition.",
+      "Bake for 25–30 minutes, until golden brown and firm to the touch.",
+      "Leave to cool on a wire rack before serving with fresh cream."
+    ],
+    "manual": [
+      "To switch the device on, press and hold the power button for three seconds.",
+      "Before first use, charge the battery fully; this can take up to four hours.",
+      "Open the Settings menu and select Network to connect to a Wi-Fi network.",
+      "If the display stays blank, check that the power cable is properly connected.",
+      "Clean the unit with a soft, dry cloth. Do not use solvents or abrasive cleaners.",
+      "To restore the factory settings, hold down the Reset button until the light flashes.",
+      "Click Save to apply your changes, or Cancel to discard them.",
+      "Warning: disconnect the mains supply before removing the cover."
+    ],
+    "news": [
+      "Heavy rain is expected across the region this weekend, with local flooding possible.",
+      "The central bank left interest rates unchanged at its latest meeting.",
+      "Road works on the main bridge in {city} will continue until {date}, the council said.",
+      "Fuel prices rose by {percent} last month, according to official figures.",
+      "Thousands of runners took part in the city marathon on {weekday}.",
+      "Schools will reopen on {date} after the mid-term break.",
+      "A new direct rail link between {city} and the airport opens next month.",
+      "Consumer confidence improved slightly in the last quarter, a new survey suggests."
+    ],
+    "todo": [
+      "To do: call the landlord about the heating; order printer paper; update the holiday calendar.",
+      "Reminder – renew the insurance policy before {date}.",
+      "Check emails, reply to {person}, prepare the slides for {weekday}.",
+      "Book the van in for a service; chase unpaid invoices; back up the laptop.",
+      "Buy milk and coffee for the office kitchen.",
+      "Send the monthly report to {person} by {time} on {weekday}."
+    ],
+    "memo": [
+      "Memo to all staff: the office kitchen will be cleaned on {weekday}; please remove your items from the fridge.",
+      "Please remember to lock all doors and switch off the lights when you leave.",
+      "From {date}, expense claims must be submitted using the new online form.",
+      "The fire alarm will be tested on {weekday} at {time}. No action is needed.",
+      "Staff are reminded to keep personal calls to a minimum.",
+      "IT notice: passwords must be changed every {n_days} days.",
+      "Congratulations to {person}, who has been promoted to {position}.",
+      "The car park will be closed for resurfacing from {date_start} to {date_end}."
+    ],
+    "generic": [
+      "The weather forecast for tomorrow is sunny with a light breeze.",
+      "Please keep this receipt for your records.",
+      "Thank you for your patience while we update our systems.",
+      "Tickets can be collected from the box office on the day of the performance.",
+      "Please take a number and wait to be called.",
+      "The lift is out of order; please use the stairs.",
+      "Happy birthday to everyone celebrating this month!",
+      "Lost property can be collected from reception.",
+      "Please switch off your mobile phone during the presentation.",
+      "Printed on recycled paper.",
+      "Mind the step.",
+      "This page is intentionally left blank.",
+      "All rights reserved.",
+      "Continued on next page.",
+      "Please recycle this brochure when you have finished with it.",
+      "For internal use only."
+    ],
+    "press": [
+      "{city}-based {S_NAME} is expanding: the company, founded in {FOUNDED}, now has a workforce of {STAFF} {staff_noun}.",
+      "“It has been a very good year for us,” says {S_PERSON}, {manager_title} of {S_NAME}, which reported revenue of {REVENUE} for {REVENUE_YEAR}.",
+      "{S_NAME}, which specialises in {ACTIVITY}, has opened a second site in {city}.",
+      "Local firm {S_NAME} marks another milestone: founded in {FOUNDED}, it now has {STAFF} {staff_noun}.",
+      "{manager_title} {S_PERSON} said demand for {SERVICE} had doubled over the past year.",
+      "{S_PERSON}, who runs {S_NAME}, told the paper that the business plans to recruit further staff in {city}.",
+      "The {city} company {S_NAME} reported turnover of {REVENUE} in {REVENUE_YEAR} and plans to hire more staff next year.",
+      "{S_NAME} ({ACTIVITY}) has won a new contract with the local council, securing work for a team of {STAFF} {staff_noun}."
+    ]
+  }
+}

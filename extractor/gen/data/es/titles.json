@@ -1,0 +1,109 @@
+{
+  "lang": "es",
+  "doc": {
+    "invoice": ["Factura", "Factura electrónica", "Factura de venta", "Factura electrónica de venta", "Factura B", "Factura C", "Factura ordinaria", "Factura CFDI 4.0"],
+    "tax_invoice": ["Factura A", "Comprobante Fiscal Digital por Internet", "Representación impresa de un CFDI", "Factura electrónica de venta", "Factura electrónica"],
+    "quote": ["Presupuesto", "Cotización", "Oferta", "Oferta comercial", "Propuesta económica", "Presupuesto sin compromiso"],
+    "proforma": ["Factura proforma", "Proforma", "Factura pro forma"],
+    "receipt": ["Recibo", "Recibo de pago", "Comprobante de pago", "Ticket", "Factura simplificada", "Boleta electrónica", "Boleta de venta", "Nota de venta"],
+    "credit_note": ["Nota de crédito", "Nota de crédito electrónica", "Factura rectificativa", "Factura de abono", "Abono", "CFDI de egreso"],
+    "price_list": ["Lista de precios", "Tarifa de precios", "Tarifas", "Tarifa", "Listado de precios", "Precios"],
+    "staff_list": ["Relación de personal", "Listado de personal", "Relación de trabajadores", "Listado de empleados", "Nómina de personal", "Directorio de empleados", "Plantilla de personal"],
+    "purchase_order": ["Orden de compra", "Pedido", "Hoja de pedido", "Nota de pedido", "Pedido de compra", "Orden de pedido"]
+  },
+  "brochure": {
+    "about": ["Quiénes somos", "Sobre nosotros", "Nuestra empresa", "Conózcanos", "La empresa", "Acerca de nosotros"],
+    "services": ["Nuestros servicios", "Servicios", "Qué hacemos", "Lo que ofrecemos", "Productos y servicios", "Soluciones"],
+    "team": ["Nuestro equipo", "El equipo", "Equipo humano", "Nuestra gente", "Conozca a nuestro equipo", "Nuestros profesionales"],
+    "contact": ["Contacto", "Contáctenos", "Contáctanos", "Escríbenos", "Hablemos", "Datos de contacto"],
+    "clients": ["Nuestros clientes", "Clientes", "Confían en nosotros", "Referencias", "Casos de éxito", "Empresas que confían en nosotros"],
+    "hours": ["Horario", "Horarios", "Horario de atención", "Horario de apertura", "Horario de atención al público", "Cuándo visitarnos"],
+    "history": ["Nuestra historia", "Historia", "Trayectoria", "Un poco de historia", "Nuestros orígenes", "Nuestra trayectoria"],
+    "values": ["Nuestros valores", "Valores", "Misión, visión y valores", "Nuestra filosofía", "Filosofía de trabajo", "Nuestro compromiso"],
+    "certifications": ["Certificaciones", "Calidad y certificaciones", "Nuestras certificaciones", "Sellos de calidad", "Acreditaciones", "Premios y reconocimientos"],
+    "why_us": ["¿Por qué elegirnos?", "Por qué elegirnos", "¿Por qué nosotros?", "Nuestras ventajas", "Lo que nos diferencia", "Ventajas de trabajar con nosotros"],
+    "news": ["Noticias", "Novedades", "Actualidad", "Últimas noticias", "Blog", "Noticias y novedades"],
+    "testimonials": ["Testimonios", "Opiniones de clientes", "Lo que dicen nuestros clientes", "Opiniones", "Qué dicen de nosotros", "Reseñas"],
+    "faq": ["Preguntas frecuentes", "FAQ", "Dudas frecuentes", "Preguntas más frecuentes", "¿Tienes dudas?", "Resolvemos tus dudas"],
+    "location": ["Dónde estamos", "Cómo llegar", "Ubicación", "Nuestra ubicación", "Localización", "Encuéntranos", "Dónde encontrarnos"],
+    "taglines": [
+      "Calidad y confianza desde el primer día",
+      "Tu socio de confianza en {city}",
+      "Hacemos fácil lo difícil",
+      "Compromiso, calidad y cercanía",
+      "Soluciones a su medida",
+      "Tu tranquilidad es nuestro trabajo",
+      "Cerca de ti, en {city}",
+      "La experiencia que marca la diferencia",
+      "Pasión por lo que hacemos",
+      "Profesionales a su servicio",
+      "Crecemos contigo",
+      "Calidad al mejor precio",
+      "Tradición e innovación",
+      "Porque los detalles importan",
+      "Resultados que se notan",
+      "Confianza que se construye día a día",
+      "Desde {city}, al servicio de nuestros clientes",
+      "Siempre a tu lado"
+    ]
+  },
+  "financials": {
+    "income_statement": ["Cuenta de pérdidas y ganancias", "Estado de resultados", "Estado de resultados integrales", "Cuenta de resultados", "Estado de pérdidas y ganancias", "Estado de resultados por función"],
+    "balance_sheet": ["Balance de situación", "Balance", "Balance general", "Estado de situación financiera", "Estado de situación patrimonial"],
+    "annual_accounts": ["Cuentas anuales", "Cuentas anuales abreviadas", "Estados financieros", "Estados financieros anuales", "Estados contables", "Estados financieros individuales"],
+    "key_figures": ["Cifras clave", "Datos clave", "Principales magnitudes", "Indicadores clave", "Resumen financiero", "Datos económicos"],
+    "tax_summary": ["Resumen fiscal", "Resumen de impuestos", "Resumen anual de IVA", "Liquidación de impuestos", "Conciliación fiscal", "Situación tributaria"],
+    "notes": ["Notas a los estados financieros", "Memoria", "Memoria abreviada", "Notas explicativas", "Notas a los estados contables", "Notas y revelaciones"]
+  },
+  "contract": {
+    "titles": ["Contrato de prestación de servicios", "Contrato de servicios", "Contrato de suministro", "Contrato de mantenimiento", "Contrato marco de colaboración", "Contrato de locación de servicios", "Contrato de obra", "Acuerdo de prestación de servicios", "Contrato de compraventa"],
+    "articles": {
+      "definitions": ["Definiciones", "Definiciones e interpretación", "Glosario de términos"],
+      "object": ["Objeto", "Objeto del contrato", "Alcance de los servicios"],
+      "duration": ["Duración", "Plazo", "Vigencia", "Duración y vigencia", "Plazo de ejecución"],
+      "price": ["Precio", "Precio y honorarios", "Contraprestación", "Honorarios", "Valor del contrato"],
+      "payment": ["Forma de pago", "Condiciones de pago", "Facturación y pago", "Pago"],
+      "obligations": ["Obligaciones de las partes", "Obligaciones del prestador", "Obligaciones del cliente", "Obligaciones"],
+      "confidentiality": ["Confidencialidad", "Deber de confidencialidad", "Confidencialidad y protección de datos"],
+      "liability": ["Responsabilidad", "Limitación de responsabilidad", "Responsabilidades"],
+      "termination": ["Resolución", "Resolución del contrato", "Terminación", "Terminación anticipada", "Rescisión"],
+      "law": ["Ley aplicable y jurisdicción", "Legislación aplicable", "Jurisdicción", "Ley aplicable y fuero competente", "Jurisdicción y competencia", "Solución de controversias"],
+      "signatures": ["Firmas", "Firma de las partes", "Conformidad de las partes"]
+    }
+  },
+  "terms": {
+    "cgv": ["Condiciones generales de venta", "Condiciones generales de contratación", "Términos y condiciones", "Condiciones generales", "Términos y condiciones de venta"],
+    "privacy": ["Política de privacidad", "Aviso de privacidad", "Política de protección de datos", "Política de tratamiento de datos personales", "Protección de datos personales"],
+    "legal_notice": ["Aviso legal", "Información legal", "Datos legales", "Términos legales"],
+    "cookies": ["Política de cookies", "Uso de cookies", "Aviso de cookies"],
+    "articles": {
+      "scope": ["Ámbito de aplicación", "Objeto y ámbito de aplicación", "Aplicación de las condiciones"],
+      "orders": ["Pedidos", "Proceso de compra", "Formalización del pedido", "Realización de pedidos"],
+      "prices": ["Precios", "Precios e impuestos", "Precios y tarifas"],
+      "payment": ["Formas de pago", "Pago", "Medios de pago", "Condiciones de pago"],
+      "delivery": ["Entrega", "Envíos y entregas", "Plazos de entrega", "Despacho y entrega"],
+      "warranty": ["Garantía", "Garantías", "Garantía legal", "Garantía de los productos"],
+      "liability": ["Responsabilidad", "Limitación de responsabilidad", "Exclusión de responsabilidad"],
+      "withdrawal": ["Derecho de desistimiento", "Derecho de retracto", "Cambios y devoluciones", "Devoluciones", "Revocación de la compra"],
+      "disputes": ["Ley aplicable y jurisdicción", "Resolución de conflictos", "Legislación y jurisdicción", "Reclamaciones", "Controversias"],
+      "data_controller": ["Responsable del tratamiento", "¿Quién es el responsable del tratamiento de sus datos?", "Identidad del responsable", "Responsable de los datos personales"],
+      "data_collected": ["Datos que recopilamos", "Datos personales tratados", "¿Qué datos tratamos?", "Información que recabamos"],
+      "purposes": ["Finalidad del tratamiento", "¿Con qué finalidad tratamos sus datos?", "Finalidades", "Uso de la información"],
+      "retention": ["Plazo de conservación", "Conservación de los datos", "¿Por cuánto tiempo conservamos sus datos?"],
+      "rights": ["Derechos de los interesados", "Sus derechos", "Derechos ARCO", "Ejercicio de derechos", "Derechos del titular de los datos"],
+      "publisher": ["Titular del sitio web", "Datos identificativos", "Identificación del titular", "Responsable del sitio"],
+      "hosting": ["Alojamiento", "Alojamiento web", "Proveedor de alojamiento", "Hosting"],
+      "intellectual_property": ["Propiedad intelectual", "Propiedad intelectual e industrial", "Derechos de autor"]
+    }
+  },
+  "other": {
+    "meeting": ["Acta de reunión", "Acta", "Minuta de reunión", "Notas de la reunión", "Orden del día"],
+    "manual": ["Manual de usuario", "Manual de instrucciones", "Guía rápida", "Instrucciones de uso", "Guía de uso"],
+    "recipe": ["Receta", "Recetas", "Receta del día", "Receta de la casa"],
+    "news": ["Noticias", "Actualidad", "Boletín informativo", "Novedades del sector"],
+    "memo": ["Memorándum", "Nota interna", "Circular interna", "Comunicado interno", "Memo"],
+    "todo": ["Tareas pendientes", "Lista de tareas", "Pendientes", "Cosas por hacer"],
+    "press": ["Nota de prensa", "Comunicado de prensa", "Gacetilla de prensa", "Boletín de prensa", "Información para medios"],
+    "report": ["Informe", "Informe mensual", "Reporte", "Informe de gestión", "Informe de actividad", "Reporte trimestral"]
+  }
+}
