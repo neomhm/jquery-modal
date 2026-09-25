@@ -5,3 +5,4 @@
 *.pt
 __pycache__/
 *.pyc
+*.zip
