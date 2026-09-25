@@ -203,10 +203,23 @@ def write(log=print):
     if main:
         gate = gate_rows(main, ev_main)
         fails = [r for r in gate if r[4] == "FAIL"]
-        summary.append("Presets run: %s. The last one, **%s**, was %s." % (
-            ", ".join(runs), main, "evaluated on val and dev_heldout only "
-            "(dev-only run)" if ev_main.get("dev_only") else
-            "evaluated on every set"))
+        sp = ev_main.get("splits") or {}
+
+        def f1_of(split):
+            v = (sp.get(split) or {}).get("strict", {}).get("f1")
+            return "%.3f" % v if v is not None else "-"
+        hw = (ev_main.get("handwritten") or {}).get("strict", {}).get("f1")
+        summary.append(
+            "Presets run: %s%s. The last one, **%s**, was %s: strict "
+            "micro-F1 test_seen %s, test_heldout %s, test_locale %s, "
+            "handwritten %s." % (
+                ", ".join(runs), "" if "full" in runs else
+                " (not full: no GPU here)", main,
+                "evaluated on val and dev_heldout only (dev-only run)"
+                if ev_main.get("dev_only") else "evaluated on every set",
+                f1_of("test_seen"), f1_of("test_heldout"),
+                f1_of("test_locale"),
+                "%.3f" % hw if hw is not None else "-"))
         if main == "full":
             summary.append("Gate (section 17): %s." % (
                 "PASSED" if not fails else "FAILED on %d line(s)" %
@@ -295,12 +308,19 @@ def write(log=print):
         "are measured on held-out Wikipedia and synthetic text.")
     # 5. results
     res = []
+    dec = (HERE / "DECISIONS.md").read_text(encoding="utf-8") \
+        if (HERE / "DECISIONS.md").exists() else ""
     for p in runs:
         ev = read_json(config.runs_dir(p) / "eval.json") or {}
         res.append("### %s%s\n\n" % (p, " (dev-only)" if ev.get("dev_only")
                                      else "") + md_table(
             ["#", "measure", "target (full)", "measured", "result"],
             gate_rows(p, ev)))
+        # the diagnosis of the lines that fail, written in DECISIONS.md
+        m = re.search(r"## Diagnosis - %s\n(.*?)(\n## |\Z)" % re.escape(p),
+                      dec, re.S)
+        if m:
+            res.append("**Diagnosis (%s):**\n\n%s" % (p, m.group(1).strip()))
     if main:
         cal = read_json(config.runs_dir(main) / "calibration.json") or {}
         ev = ev_main

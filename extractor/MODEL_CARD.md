@@ -74,10 +74,28 @@ numbers are in `REPORT.md` and `runs/<preset>/eval_tables.md`.
 
 ## Scores
 
-See `REPORT.md` (section 5) for the measured values of the pilot model,
-line by line against the targets of the build instructions. The pilot is
-a small CPU model meant for finding data problems; the gate applies to
-the full model only.
+Measured on the pilot model (`extractor-pilot.pt`); strict micro-F1 on
+accepted spans after calibration. The pilot is a small CPU model meant
+for finding data problems; the gate of the build instructions applies to
+the full model only (the "full target" column is shown for comparison).
+
+| measure | pilot | full target |
+|---|---|---|
+| test_seen strict micro-F1 | 0.977 | >= 0.97 |
+| test_heldout strict micro-F1 (held-out layouts, phrasings, activities) | 0.922 | >= 0.92 |
+| test_heldout, weakest language (ja) | 0.906 | >= 0.88 |
+| test_heldout, weakest key labels | STAFF 0.27, FOUNDED 0.64, REVENUE 0.70, C_NAME 0.72, ACTIVITY 0.72, REVENUE_YEAR 0.79 | >= 0.85 each |
+| test_locale strict micro-F1 (7 unseen locales) | 0.925 | report |
+| hand-written set strict micro-F1 (100 chunks, styles the generator never makes) | 0.482 | report (0.80 hoped) |
+| traps: REVENUE precision / role swaps / false spans per 100 empty chunks | 0.985 / 0% / 1.6 | >= 0.97 / <= 2% / <= 2 |
+| document type / language accuracy (test_heldout) | 0.920 / 0.998 | >= 0.93 / >= 0.99 |
+| folder level (test_heldout): business name / 11 required fields / invented values | 0.980 / 0.807 / 0 | >= 0.97 / >= 0.90 / 0 |
+| calibration error (ECE, test_heldout) | 0.027 | report |
+| speed on CPU (4 threads, batch 16) / peak RAM | 105 chunks/s / 2.2 GB | report |
+
+The weak labels have high precision and low recall: facts written in
+phrasings the model has not seen are missed rather than invented. The
+diagnosis and every table are in `REPORT.md`.
 
 ## Limits
 

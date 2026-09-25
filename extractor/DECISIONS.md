@@ -182,6 +182,12 @@ section.
   * `handwritten/ko.jsonl` 186318b872707eca605fedc2adf7e960ada45bce1e49830499434b88369073da
   * `handwritten/ru.jsonl` b58d47c4fe2f0458f489cd765332c0516c71f15a86536bc50e8c95f35166f897
   * `handwritten/zh.jsonl` 55ecf04d72c090b68157e7bf279918f47d751111cee4eb5a5cbb24b706b7d085
+* The hand-written files still have these hashes at delivery (checked).
+  After the final evaluation, `gold.py handwritten` was run once to check
+  the file-check command the README gives for `real_eval/`; it prints the
+  gold spans, and one line (an email address from the Chinese file) was
+  seen. Nothing was trained, tuned or changed after that; no prediction
+  or error of the set was ever looked at, only its overall scores.
 
 ## Profile builder (section 15)
 
@@ -348,6 +354,40 @@ builds the next data version. What was seen:
   training phrasings for client references, founding dates, activity
   statements and staff counts in every language; more forms of balance
   sheets and income statements; the five data problems above.
+
+## Diagnosis - pilot
+
+The pilot has no gate (section 17), but three lines of the full gate
+would fail with it; the report marks them FAIL. What the numbers say
+(test sets: aggregate numbers only - no test example was looked at):
+
+* **Line 4 (key labels >= 0.85):** below it on test_heldout are STAFF
+  0.266 (precision 0.972, recall 0.154), FOUNDED 0.644 (0.993 / 0.477),
+  REVENUE 0.701 (0.959 / 0.552), C_NAME 0.718 (0.942 / 0.580), ACTIVITY
+  0.719 (0.793 / 0.657) and REVENUE_YEAR 0.791 (0.925 / 0.691). Precision
+  is high and recall low: the thresholds that give 97% precision on
+  dev_heldout are high for these labels (STAFF 0.90, FOUNDED 0.85, C_NAME
+  0.95), and the dev_heldout analysis ("Improvement rounds" above) shows
+  that the misses are facts written in phrasings and layouts the model
+  never saw. A larger model trained longer on more folders (full) should
+  close part of the gap; more training phrasings for these facts would
+  close more.
+* **Line 8 (doc-type accuracy >= 0.93):** 0.920 on test_heldout, against
+  0.960 on test_seen and 0.945 on dev_heldout: the document type of
+  chunks from held-out layouts is harder to recognise.
+* **Line 10 (folder level, required fields >= 0.90):** 0.807 on
+  test_heldout (0.933 on test_seen). The fields below 0.90 are reg_id
+  0.537, staff 0.497, clients 0.527 and founded 0.747. They follow the
+  span misses above; reg_id also fails when a single wrong or partial ID
+  is kept (the rule wants no wrong ID). On dev_heldout the same field is
+  0.843, so most of the test_heldout drop comes from the test-only held-out
+  layouts and phrasings.
+* **Handwritten set:** strict micro-F1 0.482 (precision 0.546, recall
+  0.432; 661 of 1,531 spans found). The set is written in styles the
+  generator does not produce, on purpose (forwarded email chains, web
+  pages with menus, chat messages, notes). It is the clearest sign that
+  real documents will be harder than the synthetic test sets; labelled
+  real chunks in `real_eval/` will measure it properly.
 
 ## Suggestions (for FIXED sections - not applied)
 
