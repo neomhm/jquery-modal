@@ -35,6 +35,7 @@ class Column:
         self.fmts = list(fmts) if fmts is not None else [None] * len(cells)
         self.kind = kind            # field | extra | trap
         self.group = None           # label above it (two-row header)
+        self.symbol = False         # text amounts show the currency
 
 
 class Table:
@@ -185,7 +186,9 @@ def summary_row(cols, label_key, label, sums, fmt):
         if c.key == label_key:
             row[i] = label
         elif c.key in sums:
-            value, _ = fmt.money(sums[c.key], symbol=False) \
+            # the same style as the column (a currency read from the
+            # cells must be readable on these rows too)
+            value, _ = fmt.money(sums[c.key], symbol=c.symbol) \
                 if not isinstance(sums[c.key], int) or fmt.typed \
                 else (str(sums[c.key]), None)
             row[i] = value
@@ -244,6 +247,22 @@ def truth_matches(res, truth):
     return clean_rows(res.rows) == clean_rows(truth)
 
 
+# check 5 of section 10.8: how many true values the helpers gave back
+VALUE_STATS = {"values": 0, "wrong": 0}
+
+
+def count_values(res, truth):
+    got = clean_rows(res.rows) if res is not None else []
+    want = clean_rows(truth)
+    total = sum(len(r) for r in want)
+    wrong = 0
+    for i, r in enumerate(want):
+        g = got[i] if i < len(got) else {}
+        wrong += sum(1 for k, v in r.items() if g.get(k) != v)
+    VALUE_STATS["values"] += total
+    VALUE_STATS["wrong"] += wrong
+
+
 def to_grid_cell(v):
     """Values as sheets.load() would give them back from a real file
     (xlsx: dates as datetimes, whole floats as ints)."""
@@ -275,6 +294,7 @@ def finish(table, fmt, rng, name, locale, targets):
         table.keeps.append(("not_total", table.total_label_key))
         program = program_text(table, header_row, letters)
         res, problems = self_check(program, small, locale, targets)
+    count_values(res, table.truth)
     if res is None or problems or res.status not in (
             "imported", "imported_with_warnings"):
         return None, "self_check:" + ",".join(problems[:3])

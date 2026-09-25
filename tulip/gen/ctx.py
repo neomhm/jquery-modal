@@ -58,25 +58,48 @@ class Ctx:
         variants = list(self.hdr.get(key) or [])
         d_variant = held.get("D")
         t_variants = list(self.hdr_test.get(key) or [])
+        known = held.get("known")
+        if known is not None:
+            # a variant written after the draw: its group from a hash
+            from gen.tasks import group_of_new
+            new = [v for v in variants if v not in known]
+            for v in new:
+                g = group_of_new("%s/%s/%s" % (self.folder, key, v))
+                if g == "T":
+                    variants.remove(v)
+                    t_variants.append(v)
+                elif g == "D" and d_variant is None:
+                    d_variant = v
         pool = [v for v in variants if v != d_variant]
         if self.split == "dev_heldout" and d_variant:
             if self.forced == "header" and not self.used:
-                self.used.add(("header", key, "D"))
-                return self._decorate(d_variant, cur)
+                text = self._decorate(d_variant, cur)
+                if text is not None:
+                    self.use("D", text)
+                    return text
             pool.append(d_variant)
         if self.split == "test_heldout" and t_variants:
             if self.forced == "header" and not self.used:
-                self.used.add(("header", key, "T"))
-                return self._decorate(self.rng.choice(t_variants), cur)
+                text = self._decorate(self.rng.choice(t_variants), cur)
+                if text is not None:
+                    self.use("T", text)
+                    return text
             pool += t_variants
         if not pool:
             pool = variants or [key]
         choice = self.rng.choice(pool)
-        if choice == d_variant:
-            self.used.add(("header", key, "D"))
-        if choice in t_variants:
-            self.used.add(("header", key, "T"))
-        return self._decorate(choice, cur)
+        text = self._decorate(choice, cur)
+        if text is not None:
+            if choice == d_variant:
+                self.use("D", text)
+            if choice in t_variants:
+                self.use("T", text)
+        return text
+
+    def use(self, group, text):
+        """Record a hold-out header; it counts only if the sheet shows it
+        (a column can be dropped after its header was chosen)."""
+        self.used.add(("header", text, group))
 
     def header_plain(self, key):
         """A variant of a field key without a currency placeholder."""

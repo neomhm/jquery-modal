@@ -100,7 +100,7 @@ def unit_word(ctx, unit_key):
 # =====================================================================
 #  products
 # =====================================================================
-def product_records(ctx, n, with_variants=False):
+def product_records(ctx, n, with_variants=False, grouped=False):
     """[{name, variant, category, price, stock, ...}] - true rows."""
     rng = ctx.rng
     items = ctx.items("product")
@@ -120,7 +120,7 @@ def product_records(ctx, n, with_variants=False):
     # keep the categories together (price lists are grouped)
     cats = ctx.words.get("categories") or []
     order = dict((c, i) for i, c in enumerate(cats))
-    if rng.random() < 0.7:
+    if grouped or rng.random() < 0.7:
         combos.sort(key=lambda c: (order.get(c[0].get("category"), 99),
                                    items.index(c[0]), c[2]))
     vat = ctx.vat()
@@ -181,6 +181,8 @@ def service_records(ctx, n):
         minutes = max(5, int(round(minutes / 5.0)) * 5)
         if minutes > 60:
             minutes = int(round(minutes / 15.0)) * 15
+        if lo >= 480:
+            minutes = None        # a night, a project: no real duration
         price = ctx.price(it["usd"])
         who = rng.choice(staff)
         out.append({"name": it["name"], "category": it.get("category"),
@@ -236,6 +238,7 @@ def money_column(ctx, table, key, header, amounts, field, truth,
         cells.append(v)
         fmts.append(fm)
     col = table.add(Column(key, header, cells, fmts))
+    col.symbol = show == "cell" and not f.typed
     if field:
         table.outs.append((field, "amount(col({%s}))" % key))
         for rec, a in zip(truth, amounts):
@@ -318,6 +321,17 @@ def boolean_column(ctx, table, key, header, flags, field, truth):
 #  the price block (products, services): one or two prices, where the
 #  currency shows, tax_included from the header
 # =====================================================================
+# "from" words written after the price (3,000円〜, 35元起, 5万원부터)
+SUFFIX_FROM = ("起", "〜", "～", "~", "から", "より", "부터", "से", "से शुरू")
+
+
+def from_text(ctx, word, cell):
+    if word in SUFFIX_FROM or ctx.lang in ("ja", "ko"):
+        return "%s%s" % (cell, word) if ctx.lang in ("zh", "ja", "ko") \
+            else "%s %s" % (cell, word)
+    return "%s %s" % (word, cell)
+
+
 def header_with_cur(ctx, key):
     variants = [v for v in ctx.hdr.get(key) or [] if "{cur}" in v]
     d = ctx._held(key).get("D")
@@ -325,19 +339,21 @@ def header_with_cur(ctx, key):
         variants = [v for v in variants if v != d]
     if not variants:
         return None
-    text = ctx.rng.choice(variants)
-    if text == d:
-        ctx.used.add(("header", key, "D"))
-    return ctx._decorate(text)
+    choice = ctx.rng.choice(variants)
+    text = ctx._decorate(choice)
+    if choice == d and text is not None:
+        ctx.use("D", text)
+    return text
 
 
 def price_block(ctx, table, recs, truth, plan, field="price",
-                allow_from=False):
+                allow_from=False, tax=True):
     """Adds the price column(s) and the currency / tax_included lines.
-    Returns the key of the column that holds `field`."""
+    tax=False: a table with no tax_included field (bookings): one plain
+    price column. Returns the key of the column that holds `field`."""
     rng = ctx.rng
     traps = plan["traps"]
-    two = "T2" in traps
+    two = "T2" in traps and tax
     t13 = "T13" in traps
     typed = ctx.typed
     # where the currency shows
@@ -371,7 +387,7 @@ def price_block(ctx, table, recs, truth, plan, field="price",
         table.traps.add("T2")
     else:
         kind = rng.choice(["price", "price", "price", "price_incl",
-                           "price_excl"])
+                           "price_excl"]) if tax else "price"
         header = header_with_cur(ctx, kind) if header_cur else None
         if header_cur and not header:
             header_cur = False
@@ -380,7 +396,7 @@ def price_block(ctx, table, recs, truth, plan, field="price",
         header = header or ctx.header(kind, cur=False) or \
             ctx.header_plain("price")
         ok, tax_value = H.tax_included(header, ctx.code)
-        if not ok:
+        if not ok or not tax:
             tax_value = None
         amounts = [r["price_excl"] if tax_value is False else r["price"]
                    for r in recs]
@@ -388,13 +404,20 @@ def price_block(ctx, table, recs, truth, plan, field="price",
                            truth, show)
         if allow_from and not typed and show != "format" and \
                 rng.random() < 0.3:
-            words = [w for w in ctx.values.get("from_words") or []
-                     if H.amount(w + " 35", ctx.code) == (True, 35.0)]
+            words = list(ctx.values.get("from_words") or [])
             if words:
                 word = rng.choice(words)
-                for i, c in enumerate(col.cells):
-                    if c is not None and rng.random() < 0.5:
-                        col.cells[i] = "%s %s" % (word, c)
+                for i, (c, a) in enumerate(zip(col.cells, amounts)):
+                    if c is None or rng.random() < 0.5:
+                        continue
+                    text = from_text(ctx, word, c)
+                    if H.amount(text, ctx.code) == (True, float(a)):
+                        col.cells[i] = text
+    # a header that shows a currency is always used (the model sees it)
+    ok, cur = H.currency(table.col("price").header, ctx.code)
+    if ok and cur != ctx.loc["currency"]:
+        return None
+    header_cur = ok
     # currency: the sources that show it, in the order cell, format, header
     sources = []
     if show == "cell" and not typed:

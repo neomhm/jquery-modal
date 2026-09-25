@@ -30,6 +30,33 @@ def part_separator(ctx, values):
     return None
 
 
+def add_sections(ctx, t, titles, truth, field):
+    """Section rows before each run of equal titles (one title per
+    record); out.field = text(col('section')). -> [(title, [record
+    indexes])] or None when the runs are too short to be sections."""
+    rng = ctx.rng
+    upper = rng.random() < 0.4 and ctx.lang in ("fr", "en", "es", "it",
+                                                 "ru")
+    groups = []
+    for i, title in enumerate(titles):
+        if not title:
+            return None
+        if i == 0 or title != titles[i - 1]:
+            shown = title.upper() if upper else title
+            groups.append((shown, [i]))
+        else:
+            groups[-1][1].append(i)
+    if len(groups) < 2 or len(groups) > len(titles) / 2:
+        return None
+    for shown, idx in groups:
+        t.sections.append((idx[0], shown))
+        for i in idx:
+            truth[i][field] = C.norm_text(shown)
+    t.outs.append((field, "text(col('section'))"))
+    t.traps.add("T7")
+    return groups
+
+
 def trap_columns(ctx, table, recs, kinds):
     """Columns that look like fields but are not (T1 cost, T3 quantities,
     margin, supplier reference, notes, discount)."""
@@ -64,7 +91,9 @@ def trap_columns(ctx, table, recs, kinds):
                                   rng.randint(1, 99999)) for _ in recs]
             table.add(Column("supplier_ref", header, cells, kind="trap"))
         elif kind == "internal_notes":
-            notes = [ctx.word("hours_notes") or "-" for _ in range(3)]
+            pool = (ctx.values.get("not_a_table") or {}).get("notes_page") \
+                or [ctx.word("hours_notes") or "-"]
+            notes = [rng.choice(pool) for _ in range(3)]
             cells = [rng.choice(notes) if rng.random() < 0.3 else None
                      for _ in recs]
             if all(c is None for c in cells):
@@ -85,9 +114,23 @@ def products(ctx, plan, *, name_size=False, size_columns=False,
         traps.add("T2")
     plan = dict(plan, traps=traps)
     n = plan["n"]
-    recs = C.product_records(ctx, n if not size_columns else
-                             max(2, n // 2),
-                             with_variants=(name_size or size_columns))
+    # traps drawn for the task that this family can also show
+    plain = not (name_size or size_columns or two_row or category_sheet or
+                 sections)
+    variants = sum(1 for it in ctx.items("product") if it.get("variants"))
+    drawn_sections = False
+    if plain and "T8" in traps and variants >= 2:
+        size_columns = True
+    elif plain and "T9" in traps and variants >= 2:
+        name_size = True
+    if not (sections or size_columns or category_sheet) and "T7" in traps:
+        sections, drawn_sections = True, True
+    if size_columns:
+        return products_size_columns(ctx, plan, sections)
+    recs = C.product_records(ctx, n, with_variants=name_size,
+                             grouped=sections)
+    if len(recs) < 2:
+        return None
     if category_sheet:
         # one sheet per category: keep the biggest category that can be a
         # sheet name (at most 31 characters, none of []:*?/\\)
@@ -103,8 +146,6 @@ def products(ctx, plan, *, name_size=False, size_columns=False,
         recs = counts[cat][:n]
     t = Table("products")
     truth = [{} for _ in recs]
-    if size_columns:
-        return products_size_columns(ctx, plan, recs, sections)
     # ---- name (and size in the same cell)
     names = [r["name"] for r in recs]
     if name_size:
@@ -148,7 +189,10 @@ def products(ctx, plan, *, name_size=False, size_columns=False,
                 t.sections.append((i, title))
                 groups.append(title)
         if len(t.sections) < 2 or len(t.sections) > len(recs) / 2:
-            return None
+            if not drawn_sections:
+                return None
+            t.sections, sections = [], False
+    if sections:
         t.outs.append(("category", "text(col('section'))"))
         current = None
         section_at = dict(t.sections)
@@ -232,33 +276,39 @@ def products(ctx, plan, *, name_size=False, size_columns=False,
     return t
 
 
-def products_size_columns(ctx, plan, recs, sections):
+def products_size_columns(ctx, plan, sections):
     """T8: sizes as columns - one row per product, one price per size;
-    unpivot() turns it into one row per product and size."""
+    unpivot() turns it into one row per product and size. A product
+    without a size leaves that cell empty (unpivot skips it)."""
     rng = ctx.rng
-    by_name = {}
-    order = []
-    for r in recs:
-        if r["variant"] is None:
+    items = [it for it in ctx.items("product") if it.get("variants")]
+    rng.shuffle(items)
+    if sections:
+        cats = ctx.words.get("categories") or []
+        order = dict((c, i) for i, c in enumerate(cats))
+        items.sort(key=lambda it: order.get(it.get("category"), 99))
+    rows, common = [], []
+    for it in items:
+        union = common + [v for v in it["variants"] if v not in common]
+        if len(union) > 5:
             continue
-        if r["name"] not in by_name:
-            by_name[r["name"]] = {}
-            order.append(r)
-        by_name[r["name"]][r["variant"]] = r
-    sizes = []
-    for r in order:
-        for v in by_name[r["name"]]:
-            if v not in sizes:
-                sizes.append(v)
-    # one shared size header per column: products with the same sizes
-    common = None
-    for r in order:
-        vs = list(by_name[r["name"]])
-        if common is None:
-            common = vs
-    rows = [r for r in order if list(by_name[r["name"]]) == common]
-    if len(rows) < 2 or not common or len(common) < 2:
+        rows.append(it)
+        common = union
+        if len(rows) >= max(2, plan["n"] // 2):
+            break
+    if len(rows) < 2 or len(common) < 2:
         return None
+    by_name = {}
+    for it in rows:
+        recs = []
+        base = ctx.price(it["usd"])
+        for k, v in enumerate(it["variants"]):
+            recs.append((v, C.ctx_price_scaled(ctx, base,
+                                               [1.0, 1.35, 1.7, 2.1, 2.5][
+                                                   min(k, 4)])))
+        by_name[it["name"]] = dict(recs)
+    rows = [{"name": it["name"], "category": it.get("category")}
+            for it in rows]
     t = Table("products")
     truth_rows = []
     C.text_column(ctx, t, "name", ctx.header("product_name"),
@@ -270,7 +320,7 @@ def products_size_columns(ctx, plan, recs, sections):
     show = "cell" if not typed and rng.random() < 0.6 else "none"
     for k, size in enumerate(common):
         key = "size%d" % k
-        amounts = [by_name[r["name"]][size]["price"] for r in rows]
+        amounts = [by_name[r["name"]].get(size) for r in rows]
         C.money_column(ctx, t, key, size, amounts, None, [], show)
         keys.append(key)
     t.blocks.append(keys)
@@ -282,14 +332,18 @@ def products_size_columns(ctx, plan, recs, sections):
     t.outs.append(("price", "amount(col('value'))"))
     if show == "cell":
         t.outs.append(("currency", "currency(col('value'))"))
+    row_of = []
     for i, r in enumerate(rows):
         for size in common:
+            if by_name[r["name"]].get(size) is None:
+                continue
             rec = {"name": C.norm_text(r["name"]),
                    "variant": C.norm_text(size),
-                   "price": float(by_name[r["name"]][size]["price"])}
+                   "price": float(by_name[r["name"]][size])}
             if show == "cell":
                 rec["currency"] = ctx.loc["currency"]
             truth_rows.append(rec)
+            row_of.append(i)
     if sections:
         cats = [r["category"] for r in rows]
         if len(set(cats)) >= 2:
@@ -305,7 +359,7 @@ def products_size_columns(ctx, plan, recs, sections):
                 current = section_at.get(i, current)
                 per_row.append(current)
             for j, rec in enumerate(truth_rows):
-                rec["category"] = C.norm_text(per_row[j // len(common)])
+                rec["category"] = C.norm_text(per_row[row_of[j]])
             t.traps.add("T7")
     t.truth = truth_rows
     M.decorate(ctx, t, dict(plan, extra=min(plan.get("extra", 0), 2)),

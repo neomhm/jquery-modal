@@ -131,7 +131,8 @@ def blank_rows(ctx, table):
 # ---------------------------------------------------------------------
 #  totals and subtotals (T4)
 # ---------------------------------------------------------------------
-def totals(ctx, table, label_key, sum_keys, amounts_of, groups=None):
+def totals(ctx, table, label_key, sum_keys, amounts_of, groups=None,
+           force_groups=False):
     """A TOTAL row at the end and, with groups (record index ranges),
     subtotal rows after each group. amounts_of: {key: [amount per
     record]}. The label goes in label_key's column."""
@@ -149,7 +150,7 @@ def totals(ctx, table, label_key, sum_keys, amounts_of, groups=None):
                 out[key] = round(sum(vals), 2 if cents else 0)
         return out
 
-    if groups and rng.random() < 0.6:
+    if groups and (force_groups or rng.random() < 0.6):
         word = rng.choice(words_sub)
         for name, idx in groups:
             label = word + (" " + name if name and rng.random() < 0.7

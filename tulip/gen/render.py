@@ -33,13 +33,17 @@ ARABIC_INDIC = "٠١٢٣٤٥٦٧٨٩"
 
 
 def to_arabic_digits(text):
+    """ASCII digits -> Arabic-Indic; a separator BETWEEN two digits
+    becomes ٬ or ٫ (the dot of ج.م or ر.س stays a dot)."""
     out = []
-    for ch in text:
+    for i, ch in enumerate(text):
+        between = 0 < i < len(text) - 1 and text[i - 1].isdigit() and \
+            text[i + 1].isdigit()
         if "0" <= ch <= "9":
             out.append(ARABIC_INDIC[int(ch)])
-        elif ch == ",":
+        elif ch == "," and between:
             out.append("٬")
-        elif ch == ".":
+        elif ch == "." and between:
             out.append("٫")
         else:
             out.append(ch)

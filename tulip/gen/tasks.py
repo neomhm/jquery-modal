@@ -6,6 +6,7 @@ The random generator of a task is seeded from (split, index), so every
 task can be made again exactly (section 10.1).
 """
 import datetime
+import functools
 import hashlib
 import importlib
 import math
@@ -34,17 +35,18 @@ REFUSALS = ("no_matching_target", "missing_required", "not_a_table",
 # (a family may not be able to show it, so these sit above the minimum
 # rates the checks require)
 TRAPS = {
-    "products": {"T1": 0.36, "T2": 0.25, "T3": 0.13, "T4": 0.46,
-                 "T5": 0.52, "T6": 0.12, "T13": 0.33, "T14": 0.22},
-    "services": {"T2": 0.25, "T4": 0.46, "T5": 0.52, "T6": 0.12,
-                 "T13": 0.33, "T14": 0.22},
-    "opening_hours": {"T5": 0.52, "T14": 0.22},
-    "staff": {"T4": 0.46, "T5": 0.52, "T6": 0.12, "T14": 0.22},
-    "clients": {"T4": 0.46, "T5": 0.52, "T6": 0.12, "T14": 0.22},
-    "bookings": {"T4": 0.30, "T5": 0.52, "T6": 0.12, "T12": 0.72,
-                 "T13": 0.33, "T14": 0.22},
-    "invoice_ledger": {"T4": 0.46, "T5": 0.52, "T6": 0.12, "T12": 0.72,
-                       "T13": 0.33, "T14": 0.22},
+    "products": {"T1": 0.36, "T2": 0.25, "T3": 0.13, "T4": 0.6, "T5": 0.52,
+                 "T6": 0.18, "T7": 0.18, "T8": 0.08, "T9": 0.35,
+                 "T13": 0.33, "T14": 0.3},
+    "services": {"T2": 0.25, "T5": 0.52, "T6": 0.18, "T7": 0.2, "T9": 0.35,
+                 "T13": 0.33, "T14": 0.3},
+    "opening_hours": {"T5": 0.52, "T8": 0.45, "T14": 0.3},
+    "staff": {"T4": 0.6, "T5": 0.52, "T6": 0.18, "T10": 0.45, "T14": 0.3},
+    "clients": {"T4": 0.6, "T5": 0.52, "T6": 0.18, "T10": 0.3, "T14": 0.3},
+    "bookings": {"T4": 0.6, "T5": 0.52, "T6": 0.18, "T9": 0.3, "T11": 0.45,
+                 "T12": 0.75, "T13": 0.33, "T14": 0.3},
+    "invoice_ledger": {"T4": 0.6, "T5": 0.52, "T6": 0.18, "T12": 0.75,
+                       "T13": 0.33, "T14": 0.3},
 }
 # rows: log-uniform 3-400, then capped by what the table can hold
 MAX_ROWS = {"products": 400, "services": 60, "opening_hours": 7,
@@ -80,13 +82,32 @@ def families():
     return _FAMILIES
 
 
+@functools.lru_cache(maxsize=None)
 def holdout():
+    """gen/holdout.json (drawn once by gen/holdout.py), or {} before."""
     path = HERE / "holdout.json"
     return D.read_json(path) or {}
 
 
+def group_of_new(item_id):
+    """An item added after the hold-out draw: 80% train, 10% D, 10% T,
+    from a hash of its id (section 11)."""
+    x = int(hashlib.sha1(item_id.encode("utf-8")).hexdigest()[:8], 16) % 10
+    return "D" if x == 0 else "T" if x == 1 else "train"
+
+
 def group_of_family(fid, hold):
-    return (hold.get("families") or {}).get(fid, "train")
+    """T: the module lives in gen/layouts/test/. D: named in
+    gen/holdout.json. A family newer than the draw: by hash."""
+    module = families().get(fid)
+    if module is not None and module.__name__.startswith("gen.layouts.test"):
+        return "T"
+    fams = hold.get("families") or {}
+    if fid in fams:
+        return fams[fid]
+    if hold and fid not in (hold.get("known_families") or []):
+        return group_of_new(fid)
+    return "train"
 
 
 def group_of_activity(act):
@@ -187,17 +208,37 @@ def offered_targets(rng, answer, exclude=()):
 # ---------------------------------------------------------------------
 #  making a task
 # ---------------------------------------------------------------------
-def make_task(split, index, folders=None, tries=12):
-    """-> (task dict, None) or (None, reason)."""
-    hold = holdout()
+def make_task(split, index, folders=None, tries=12, hold=None):
+    """-> (task dict or None, [reason of every failed attempt])."""
+    hold = holdout() if hold is None else hold
     folders = folders or D.folders_ready()
-    reason = "no_try"
+    reasons = []
     for attempt in range(tries):
         rng = random.Random(seed_of(split, index) + 7919 * attempt)
         task, reason = _attempt(rng, split, index, hold, folders)
         if task:
-            return task, None
-    return None, reason
+            return task, reasons
+        reasons.append(reason)
+    return None, reasons
+
+
+def sheet_name_ok(name):
+    """A name a real .xlsx sheet or .csv file can carry."""
+    name = "".join("_" if ch in '[]:*?/\\' else ch for ch in name)
+    return name.strip()[:31] or "Sheet1"
+
+
+def is_discard(reason):
+    """A self-check failure (section 10.1), as opposed to a layout that
+    did not fit the drawn items (drawn again, not counted)."""
+    return bool(reason) and (reason.startswith("self_check") or
+                             reason in ("truth_mismatch", "empty_column"))
+
+
+def shown_groups(ctx, sheet):
+    """Hold-out groups of the headers the sheet really shows."""
+    texts = set(v for r in sheet.rows for v in r if isinstance(v, str))
+    return set(g for (_, text, g) in ctx.used if text in texts)
 
 
 def _attempt(rng, split, index, hold, folders):
@@ -215,8 +256,11 @@ def _attempt(rng, split, index, hold, folders):
         if not fams:
             return None, "no_refusal_family"
         family = rng.choice(fams)
-        target_for_activity = getattr(family, "LOOKS_LIKE", None) or \
-            rng.choice(config.TARGETS)
+        if hasattr(family, "pick_target"):
+            target_for_activity = family.pick_target(rng)
+        else:
+            target_for_activity = getattr(family, "LOOKS_LIKE", None) or \
+                rng.choice(config.TARGETS)
     else:
         family = choose_family(rng, split, kind, hold)
         if family is None:
@@ -251,12 +295,12 @@ def _attempt(rng, split, index, hold, folders):
     table = built
     answer = table.target
     targets = offered_targets(rng, answer)
-    name = table.sheet_name or ctx.sheet_name(answer)
+    name = sheet_name_ok(table.sheet_name or ctx.sheet_name(answer))
     done, why = K.finish(table, ctx.fmt, rng, name, code, targets)
     if done is None:
         return None, why
     # the hold-out rule of the split (section 11)
-    groups = set(g for (_, _, g) in ctx.used)
+    groups = shown_groups(ctx, done["sheet"])
     if fam_group != "train":
         groups.add(fam_group)
     if act_group != "train":
@@ -269,14 +313,15 @@ def _attempt(rng, split, index, hold, folders):
         return None, "holdout_rule"
     return task_dict(split, index, ctx, family, table, done["sheet"],
                      done["program"], table.truth, targets, answer,
-                     sorted(table.traps), typed, code, act), None
+                     sorted(table.traps), typed, code, act, groups,
+                     table.n), None
 
 
 def finish_refusal(ctx, family, plan, built, split, index, code, act,
                    typed):
     """built: {sheet, program, targets, traps, answer}."""
     small, _ = sheets.compact(built["sheet"])
-    groups = set(g for (_, _, g) in ctx.used)
+    groups = shown_groups(ctx, small)
     fg = group_of_family(family.ID, holdout())
     if fg != "train":
         groups.add(fg)
@@ -289,12 +334,10 @@ def finish_refusal(ctx, family, plan, built, split, index, code, act,
     if split not in ("dev_heldout", "test_heldout") and groups:
         return None, "holdout_rule"
 
-    class T:
-        pass
     return task_dict(split, index, ctx, family, None, small,
                      ts.canonical(built["program"]), [], built["targets"],
                      built["answer"], sorted(built.get("traps") or []),
-                     typed, code, act), None
+                     typed, code, act, groups, len(small.rows)), None
 
 
 # ---------------------------------------------------------------------
@@ -345,7 +388,8 @@ def sheet_from_task(task):
 
 
 def task_dict(split, index, ctx, family, table, sheet, program, truth,
-              targets, answer, traps, typed, code, act):
+              targets, answer, traps, typed, code, act, groups=(),
+              n_rows=0):
     preview = sheets.preview(sheet, targets, code)
     return {
         "id": "%s-%06d" % (split, index), "split": split,
@@ -357,4 +401,6 @@ def task_dict(split, index, ctx, family, table, sheet, program, truth,
                   "formats": sheet.formats},
         "preview": preview, "program": program,
         "truth": K.clean_rows(truth),
+        # not in section 10.7, used by the checks of section 10.8
+        "holdout": sorted(groups), "n_rows": n_rows,
     }
