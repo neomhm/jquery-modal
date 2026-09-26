@@ -230,6 +230,31 @@ Also fixed after the evaluations (generator 1.0.1): Russian title rows now
 use the month's plain form ("за январь"); the pilot's data was made with
 1.0.0.
 
+### Final evaluation of the pilot (the test splits, scored once)
+
+After round 1, `py build.py pilot --from evaluate` scored every split once:
+
+| split | pass@1 | loop | loop, importable tasks | false accepts among imports | refusal P / R |
+|---|---|---|---|---|---|
+| test_seen | 0.128 | 0.156 | 0.126 | 64.3% | 0.72 / 0.48 |
+| test_heldout | 0.154 | 0.154 | 0.114 | 59.2% | 0.61 / 0.56 |
+| test_locale | 0.135 | 0.155 | 0.122 | 54.2% | 0.69 / 0.47 |
+| traps | 0.073 | 0.113 | 0.092 | 62.5% | 0.67 / 0.25 |
+
+Handwritten files: 2 of 32 sheets right (0.06). Invented values: 0.
+
+**Diagnosis.** Far below the rough pilot expectation of section 16
+(test_seen about 0.85, test_heldout about 0.70), and every gate line fails
+(the gate applies to the full preset). The cause is the CPU budget, not the
+data: 2,711 steps of 16,000 tokens (0.7 epoch of 60,000 tasks) in 90
+minutes, with the training loss still falling (0.16 at the end); a program
+is about 150 tokens and one wrong token breaks it. The false accepts (59%
+of the loop's imports on test_heldout) show what the plain checks cannot
+see: a wrong optional column or a missing optional field passes every
+check. Only a stronger model lowers them. The full preset (GPU, 38 M
+parameters, 400,000 tasks, 3 epochs) is the model the targets are for; it
+was not run here (no GPU in this environment, Phase 4 skipped).
+
 ## Suggestions
 
 (Ideas that would change a FIXED section; not applied.)

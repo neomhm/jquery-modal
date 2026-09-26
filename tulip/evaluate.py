@@ -447,8 +447,8 @@ def tables(result):
         if not s.get("tasks"):
             continue
         c = s["cpu_seconds"]
-        lines.append("| %s | %d | %s | %s | %s | %d (%.1f%%) | %s / %s | %s "
-                     "| %s | %s / %s | %s / %s |" % (
+        lines.append("| %s | %d | %s | %s | %s | %d (%.1f%%) | %.3f / %.3f "
+                     "| %s | %s | %s / %s | %s / %s |" % (
                          split, s["tasks"], s["pass1"], s["loop"],
                          s["loop_importable"], s["false_accepts"],
                          100 * s["false_accept_share"],

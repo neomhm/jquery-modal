@@ -3,7 +3,7 @@
 ## 1. Summary
 
 * **smoke**: dev_heldout pass@1 0.000 / loop 0.020; val pass@1 0.020 / loop 0.020 (dev splits only)
-* **pilot**: dev_heldout pass@1 0.104 / loop 0.136; val pass@1 0.128 / loop 0.146 (dev splits only)
+* **pilot**: test_seen pass@1 0.128 / loop 0.156; test_heldout pass@1 0.154 / loop 0.154; dev_heldout pass@1 0.104 / loop 0.136; val pass@1 0.128 / loop 0.146
 
 ## 2. Environment
 
@@ -258,19 +258,19 @@ Model-selection evaluations: step 451: 0.000, step 921: 0.024, step 1392: 0.026,
 
 ## 5. Results — pilot
 
-_Only val and dev_heldout were scored (the improvement rounds); the test splits are scored once at the end._
-
 | # | measure | target | value | result |
 |---|---|---|---|---|
-| 1 | test_seen pass@1 | >= 0.97 | not run |  |
-| 2 | test_heldout pass@1 | >= 0.90 | not run |  |
-| 3 | test_heldout loop: correct imports among importable tasks | >= 0.95 | not run |  |
-| 4 | test_heldout false accepts among the loop's imports | <= 2% | not run |  |
-| 5a | refusal precision (test_heldout, loop) | >= 0.95 | not run |  |
-| 5b | refusal recall (test_heldout, loop) | >= 0.90 | not run |  |
-| 6 | target choice accuracy (test_heldout) | >= 0.97 | not run |  |
+| 1 | test_seen pass@1 | >= 0.97 | 0.1280 | FAIL |
+| 2 | test_heldout pass@1 | >= 0.90 | 0.1540 | FAIL |
+| 3 | test_heldout loop: correct imports among importable tasks | >= 0.95 | 0.1143 | FAIL |
+| 4 | test_heldout false accepts among the loop's imports | <= 2% | 0.5920 | FAIL |
+| 5a | refusal precision (test_heldout, loop) | >= 0.95 | 0.6122 | FAIL |
+| 5b | refusal recall (test_heldout, loop) | >= 0.90 | 0.5556 | FAIL |
+| 6 | target choice accuracy (test_heldout) | >= 0.97 | 0.7556 | FAIL |
+| 7 | every language and target, loop, test_heldout | >= 0.88 | 0.0000 (lowest) | FAIL |
+| 8 | every trap (traps split, loop) | >= 0.85 | 0.0000 (lowest) | FAIL |
 | 9 | invented values | = 0 | 0 | PASS |
-| 11 | handwritten files, loop | report (>= 0.80 hoped) | not run |  |
+| 11 | handwritten files, loop | report (>= 0.80 hoped) | 0.0625 of 32 sheets |  |
 
 The gate applies to the full preset only; for pilot these are reported, not gated (section 16).
 
@@ -278,8 +278,12 @@ The gate applies to the full preset only; for pilot these are reported, not gate
 
 | split | tasks | pass@1 | loop | loop (importable) | false accepts | refusal P / R | target acc. | needs_review | CPU s greedy med / p95 | CPU s loop med / p95 |
 |---|---|---|---|---|---|---|---|---|---|---|
-| val | 500 | 0.128 | 0.146 | 0.125 | 100 (64.1%) | 0.7142857142857143 / 0.38461538461538464 | 0.8214 | 0.632 | 0.621 / 1.497 | 5.058 / 14.443 |
-| dev_heldout | 500 | 0.104 | 0.136 | 0.079 | 78 (69.0%) | 0.5070422535211268 / 0.631578947368421 | 0.7223 | 0.632 | 0.625 / 1.579 | 5.022 / 15.629 |
+| val | 500 | 0.128 | 0.146 | 0.125 | 100 (64.1%) | 0.714 / 0.385 | 0.8214 | 0.632 | 0.626 / 1.46 | 4.896 / 14.472 |
+| dev_heldout | 500 | 0.104 | 0.136 | 0.079 | 78 (69.0%) | 0.507 / 0.632 | 0.7223 | 0.632 | 0.633 / 1.589 | 4.993 / 15.64 |
+| test_seen | 500 | 0.128 | 0.156 | 0.1256 | 101 (64.3%) | 0.722 / 0.481 | 0.796 | 0.614 | 0.637 / 1.566 | 5.305 / 15.277 |
+| test_heldout | 500 | 0.154 | 0.154 | 0.1143 | 74 (59.2%) | 0.612 / 0.556 | 0.7556 | 0.652 | 0.679 / 1.574 | 5.639 / 15.041 |
+| test_locale | 200 | 0.135 | 0.155 | 0.1215 | 26 (54.2%) | 0.692 / 0.474 | 0.8011 | 0.695 | 0.712 / 1.677 | 5.864 / 15.7 |
+| traps | 300 | 0.0733 | 0.1133 | 0.0923 | 40 (62.5%) | 0.667 / 0.250 | 0.7769 | 0.7367 | 0.746 / 1.508 | 6.462 / 14.416 |
 
 ##### val: loop by language, target and trap
 
@@ -297,12 +301,50 @@ targets: bookings 0.0164, clients 0.037, invoice_ledger 0.0, opening_hours 0.489
 
 traps: T1 0.0278, T2 0.069, T3 0.0, T4 0.0461, T5 0.0949, T6 0.0345, T7 0.0238, T8 0.5714, T9 0.0385, T10 0.0909, T11 0.0217, T12 0.0, T13 0.0206, T14 0.0063, T15 0.25
 
+##### test_seen: loop by language, target and trap
+
+languages: ar 0.16, en 0.08, es 0.22, fr 0.18, hi 0.16, it 0.12, ja 0.16, ko 0.08, ru 0.14, zh 0.26
+
+targets: bookings 0.0, clients 0.0392, invoice_ledger 0.0, opening_hours 0.5758, products 0.0874, refusal 0.4074, services 0.0411, staff 0.0816
+
+traps: T1 0.0, T2 0.0189, T3 0.0, T4 0.0465, T5 0.0943, T6 0.0714, T7 0.0217, T8 0.5714, T9 0.0824, T10 0.0182, T11 0.0, T12 0.023, T13 0.0446, T14 0.078, T15 0.3684
+
+##### test_heldout: loop by language, target and trap
+
+languages: ar 0.08, en 0.02, es 0.14, fr 0.18, hi 0.28, it 0.08, ja 0.1, ko 0.28, ru 0.12, zh 0.26
+
+targets: bookings 0.0, clients 0.0357, invoice_ledger 0.0, opening_hours 0.7333, products 0.0381, refusal 0.4815, services 0.0909, staff 0.102
+
+traps: T1 0.0, T2 0.0732, T3 0.0, T4 0.0333, T5 0.0646, T6 0.0, T7 0.0588, T8 0.7222, T9 0.0594, T10 0.0877, T11 0.0, T12 0.0286, T13 0.0185, T14 0.0635, T15 0.4167
+
+##### test_locale: loop by language, target and trap
+
+languages: ar 0.1724, en 0.1379, es 0.1071, fr 0.1724, it 0.1786, ru 0.1786, zh 0.1379
+
+targets: bookings 0.0, clients 0.08, invoice_ledger 0.0, opening_hours 0.6, products 0.0714, refusal 0.4737, services 0.069, staff 0.1579
+
+traps: T1 0.0526, T2 0.0, T3 0.0, T4 0.0385, T5 0.0619, T6 0.0, T7 0.0, T8 0.5556, T9 0.0556, T10 0.1111, T11 0.0, T12 0.0625, T13 0.0278, T14 0.0896, T15 0.6667
+
+##### traps: loop by language, target and trap
+
+languages: ar 0.1333, en 0.0667, es 0.1333, fr 0.0333, hi 0.1, it 0.1667, ja 0.1667, ko 0.0667, ru 0.1667, zh 0.1
+
+targets: bookings 0.0, clients 0.069, invoice_ledger 0.0, opening_hours 0.6296, products 0.0517, refusal 0.25, services 0.0222, staff 0.0323
+
+traps: T1 0.0, T2 0.0, T3 0.0, T4 0.0352, T5 0.0851, T6 0.0294, T7 0.0, T8 0.5556, T9 0.0714, T10 0.0364, T11 0.0, T12 0.0471, T13 0.0291, T14 0.0473, T15 0.4444
+
 #### Error groups (val and dev_heldout only)
 
 val: wrong_header_row 201, unparsable_program 84, missing_field 38, wrong_refusal 27, extra_field 26, wrong_layout 22, wrong_column 20, wrong_filter 19, wrong_helper 7, refused_importable 4, wrong_target 3
 
 dev_heldout: wrong_header_row 214, unparsable_program 96, refused_importable 31, missing_field 27, extra_field 22, wrong_refusal 20, wrong_layout 17, wrong_filter 12, wrong_column 9, wrong_helper 5, wrong_target 1, missing_filter 1
 
+
+#### handwritten
+
+sheets: 32, loop: 0.0625
+
+by language: ar 0.0, en 0.0, es 0.0, fr 0.0, hi 0.0, it 0.3333, ja 0.25, ko 0.0, ru 0.0, zh 0.0
 
 
 ## 6. Error analysis — pilot (dev_heldout only)
@@ -373,6 +415,52 @@ their previews; all 202 unparsable programs classified, 4 read in full):
 Cause: under-training (the learning curve was still steep). Change,
 allowed by section 22: **2× the training tasks (60,000)**, so training
 runs the whole 90-minute cap instead of stopping after one short epoch.
+
+### Pilot, round 1 — the numbers after
+
+60,000 training tasks (all eight generator checks pass; 0.3% discards),
+2711 steps in the 90-minute cap (0.70 epochs), chosen step 2711. Dev-sample
+execution match during training: 0.000 (step 451), 0.024 (step 921), 0.026 (step 1392), 0.074 (step 1863), 0.070 (step 2334), 0.104 (step 2711).
+
+| split | pass@1 (round 0 → 1) | loop (round 0 → 1) | needs_review | refusal P / R |
+|---|---|---|---|---|
+| val | 0.096 → 0.128 | 0.084 → 0.146 | 0.71 → 0.63 | 0.58 / 0.13 → 0.71 / 0.38 |
+| dev_heldout | 0.082 → 0.104 | 0.086 → 0.136 | 0.72 → 0.63 | 0.87 / 0.35 → 0.51 / 0.63 |
+
+The largest groups are unchanged in kind (wrong header row 415, unparsable
+programs 180, missing field 65): the pilot is still under-trained. Rounds
+stopped here: another round of the same kind would cost 2.5 hours on this
+CPU for a similar step, and the fix for these errors is the full preset's
+training (GPU, 400,000 tasks, 3 epochs), not a data change.
+
+Also fixed after the evaluations (generator 1.0.1): Russian title rows now
+use the month's plain form ("за январь"); the pilot's data was made with
+1.0.0.
+
+### Final evaluation of the pilot (the test splits, scored once)
+
+After round 1, `py build.py pilot --from evaluate` scored every split once:
+
+| split | pass@1 | loop | loop, importable tasks | false accepts among imports | refusal P / R |
+|---|---|---|---|---|---|
+| test_seen | 0.128 | 0.156 | 0.126 | 64.3% | 0.72 / 0.48 |
+| test_heldout | 0.154 | 0.154 | 0.114 | 59.2% | 0.61 / 0.56 |
+| test_locale | 0.135 | 0.155 | 0.122 | 54.2% | 0.69 / 0.47 |
+| traps | 0.073 | 0.113 | 0.092 | 62.5% | 0.67 / 0.25 |
+
+Handwritten files: 2 of 32 sheets right (0.06). Invented values: 0.
+
+**Diagnosis.** Far below the rough pilot expectation of section 16
+(test_seen about 0.85, test_heldout about 0.70), and every gate line fails
+(the gate applies to the full preset). The cause is the CPU budget, not the
+data: 2,711 steps of 16,000 tokens (0.7 epoch of 60,000 tasks) in 90
+minutes, with the training loss still falling (0.16 at the end); a program
+is about 150 tokens and one wrong token breaks it. The false accepts (59%
+of the loop's imports on test_heldout) show what the plain checks cannot
+see: a wrong optional column or a missing optional field passes every
+check. Only a stronger model lowers them. The full preset (GPU, 38 M
+parameters, 400,000 tasks, 3 epochs) is the model the targets are for; it
+was not run here (no GPU in this environment, Phase 4 skipped).
 
 ## 8. Deviations and decisions
 

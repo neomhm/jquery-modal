@@ -15,7 +15,7 @@ import pathlib
 from datetime import date
 
 VERSION = "1.0.0"              # version of the model file (tulip-1.0.0.pt)
-GENERATOR_VERSION = "1.0.0"    # bump when the synthetic data changes on purpose
+GENERATOR_VERSION = "1.0.1"    # bump when the synthetic data changes on purpose
 
 HERE = pathlib.Path(__file__).resolve().parent
 
