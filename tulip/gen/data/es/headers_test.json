@@ -1,0 +1,187 @@
+{
+ "fields": {
+  "active": [
+   "Publicado"
+  ],
+  "address": [
+   "Dirección postal"
+  ],
+  "afternoon": [
+   "Horario tarde"
+  ],
+  "barcode": [
+   "Código de barras"
+  ],
+  "booking_client": [
+   "Alumno/a"
+  ],
+  "booking_date": [
+   "Fecha de servicio"
+  ],
+  "booking_datetime": [
+   "Cita"
+  ],
+  "booking_service": [
+   "Motivo de la cita"
+  ],
+  "booking_status": [
+   "Confirmación"
+  ],
+  "category": [
+   "Línea de producto"
+  ],
+  "city": [
+   "Comuna"
+  ],
+  "client_name": [
+   "Nombre o razón social"
+  ],
+  "client_since": [
+   "Fecha primera compra"
+  ],
+  "closes": [
+   "Hasta"
+  ],
+  "company": [
+   "Compañía"
+  ],
+  "contact_person": [
+   "Pers. contacto"
+  ],
+  "country": [
+   "Cód. país"
+  ],
+  "currency": [
+   "Moneda (ISO)"
+  ],
+  "day": [
+   "Dias"
+  ],
+  "department": [
+   "Equipo"
+  ],
+  "description": [
+   "Descripción del producto"
+  ],
+  "due_date": [
+   "Fecha límite de pago"
+  ],
+  "duration": [
+   "Duración (h)"
+  ],
+  "email": [
+   "Mail"
+  ],
+  "end_time": [
+   "Término"
+  ],
+  "first_name": [
+   "Nombre sin apellidos"
+  ],
+  "hours": [
+   "Horario al público"
+  ],
+  "hours_note": [
+   "Info"
+  ],
+  "invoice_client": [
+   "Facturado a"
+  ],
+  "invoice_date": [
+   "Emisión"
+  ],
+  "invoice_number": [
+   "Nº comprobante"
+  ],
+  "invoice_status": [
+   "Pago"
+  ],
+  "last_name": [
+   "Apellido 1"
+  ],
+  "morning": [
+   "Matutino"
+  ],
+  "opens": [
+   "H. apertura"
+  ],
+  "paid_date": [
+   "Fecha abono"
+  ],
+  "performer": [
+   "Doctor/a"
+  ],
+  "person_name": [
+   "Apellido y nombre"
+  ],
+  "phone": [
+   "Telf."
+  ],
+  "postcode": [
+   "Postal"
+  ],
+  "price": [
+   "Tarifa"
+  ],
+  "price_excl": [
+   "Precio neto"
+  ],
+  "price_incl": [
+   "PVP"
+  ],
+  "product_name": [
+   "Nombre art."
+  ],
+  "reg_id": [
+   "Identificación fiscal"
+  ],
+  "role": [
+   "Especialidad"
+  ],
+  "second_last_name": [
+   "Segundo apellido"
+  ],
+  "service_name": [
+   "Serv."
+  ],
+  "sku": [
+   "Código de producto"
+  ],
+  "start_date": [
+   "Fecha de ingreso"
+  ],
+  "start_time": [
+   "H. inicio"
+  ],
+  "stock": [
+   "Unidades en almacén"
+  ],
+  "street": [
+   "Domicilio"
+  ],
+  "tax_amount": [
+   "Impuesto"
+  ],
+  "time_range": [
+   "Franja horaria"
+  ],
+  "total": [
+   "Total"
+  ],
+  "total_excl": [
+   "Total sin IVA"
+  ],
+  "total_incl": [
+   "Total a pagar (IVA incluido)"
+  ],
+  "unit": [
+   "Venta por"
+  ],
+  "variant": [
+   "Presentación"
+  ],
+  "vat_rate": [
+   "Tipo impositivo"
+  ]
+ }
+}

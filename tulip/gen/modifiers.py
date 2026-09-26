@@ -11,6 +11,7 @@ import datetime
 import string
 
 import helpers as H
+import tulipscript as ts
 from gen.sheetkit import Column
 
 REF = datetime.date(2026, 6, 30)
@@ -82,7 +83,11 @@ def notes_rows(ctx, table, text_keys):
     """T14: lines under the table. They sit in a column that no required
     field reads with anything but text() - so the rows come out as
     'empty' (not imported, no filter needed)."""
-    text_keys = [k for k in text_keys if plain_text(table, k)]
+    required = set(f for f, _, req in ts.SCHEMAS[table.target] if req)
+    # a notes line may sit in a text column, but never in the one column
+    # that holds EVERY required field (the line would become a record)
+    text_keys = [k for k in text_keys if plain_text(table, k) and
+                 not required <= set(fields_reading(table, k))]
     if not text_keys:
         return
     rng = ctx.rng
@@ -100,13 +105,17 @@ def notes_rows(ctx, table, text_keys):
     table.traps.add("T14")
 
 
+def fields_reading(table, key):
+    return [f for f, tpl in table.outs if "{%s}" % key in tpl]
+
+
 def plain_text(table, key):
     """True when the program reads column `key` only as text({key}) - a
     notes line there gives an empty row, never a parse failure."""
     if key in table.unpivot:
         return False
     mentions = [tpl for _, tpl in table.outs if "{%s}" % key in tpl]
-    return all(tpl == "text({%s})" % key for tpl in mentions)
+    return all(tpl == "text(col({%s}))" % key for tpl in mentions)
 
 
 def repeated_headers(ctx, table):

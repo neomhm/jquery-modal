@@ -5,7 +5,7 @@ from gen import b_hours as O
 
 ID = 'opening_hours.days_columns'
 TARGET = 'opening_hours'
-WEIGHT = 2.0
+WEIGHT = 3.0
 
 
 def build(ctx, plan):

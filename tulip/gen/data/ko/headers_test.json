@@ -1,0 +1,184 @@
+{
+ "fields": {
+  "active": [
+   "전시상태"
+  ],
+  "address": [
+   "전체 주소"
+  ],
+  "afternoon": [
+   "오후 시간대"
+  ],
+  "barcode": [
+   "표준바코드"
+  ],
+  "booking_client": [
+   "예약 고객"
+  ],
+  "booking_date": [
+   "진료일"
+  ],
+  "booking_datetime": [
+   "예약일시"
+  ],
+  "booking_service": [
+   "방문목적"
+  ],
+  "booking_status": [
+   "진행상태"
+  ],
+  "category": [
+   "상품분류"
+  ],
+  "city": [
+   "시·군"
+  ],
+  "client_name": [
+   "Customer"
+  ],
+  "client_since": [
+   "Client Since"
+  ],
+  "closes": [
+   "마감"
+  ],
+  "company": [
+   "직장명"
+  ],
+  "contact_person": [
+   "업무 담당자"
+  ],
+  "country": [
+   "국가명"
+  ],
+  "currency": [
+   "통화 단위"
+  ],
+  "day": [
+   "요일"
+  ],
+  "department": [
+   "Department"
+  ],
+  "description": [
+   "세부사항"
+  ],
+  "due_date": [
+   "지급기한"
+  ],
+  "duration": [
+   "진행 시간"
+  ],
+  "email": [
+   "담당자 이메일"
+  ],
+  "end_time": [
+   "종료예정시간"
+  ],
+  "first_name": [
+   "영문 이름"
+  ],
+  "hours": [
+   "진료시간"
+  ],
+  "hours_note": [
+   "Remarks"
+  ],
+  "invoice_client": [
+   "상호(공급받는자)"
+  ],
+  "invoice_date": [
+   "거래일자"
+  ],
+  "invoice_number": [
+   "계산서번호"
+  ],
+  "invoice_status": [
+   "Payment Status"
+  ],
+  "last_name": [
+   "Family Name"
+  ],
+  "morning": [
+   "오전 영업시간"
+  ],
+  "opens": [
+   "문 여는 시간"
+  ],
+  "paid_date": [
+   "입금 확인일"
+  ],
+  "performer": [
+   "담당 강사"
+  ],
+  "person_name": [
+   "Full Name"
+  ],
+  "phone": [
+   "핸드폰"
+  ],
+  "postcode": [
+   "우편번호 (Zip)"
+  ],
+  "price": [
+   "요금"
+  ],
+  "price_excl": [
+   "부가세 미포함가"
+  ],
+  "price_incl": [
+   "판매가(VAT 포함)"
+  ],
+  "product_name": [
+   "상품명(국문)"
+  ],
+  "reg_id": [
+   "사업자번호"
+  ],
+  "role": [
+   "담당업무"
+  ],
+  "service_name": [
+   "서비스 항목"
+  ],
+  "sku": [
+   "코드"
+  ],
+  "start_date": [
+   "Hire Date"
+  ],
+  "start_time": [
+   "시작시간"
+  ],
+  "stock": [
+   "재고(EA)"
+  ],
+  "street": [
+   "도로명·건물번호"
+  ],
+  "tax_amount": [
+   "부가가치세"
+  ],
+  "time_range": [
+   "시작~종료"
+  ],
+  "total": [
+   "합계금액({cur})"
+  ],
+  "total_excl": [
+   "공급가"
+  ],
+  "total_incl": [
+   "부가세 포함 금액"
+  ],
+  "unit": [
+   "수량단위"
+  ],
+  "variant": [
+   "사이즈/용량"
+  ],
+  "vat_rate": [
+   "VAT율"
+  ]
+ }
+}

@@ -1,0 +1,184 @@
+{
+ "fields": {
+  "active": [
+   "上架状态"
+  ],
+  "address": [
+   "注册地址"
+  ],
+  "afternoon": [
+   "下午时段"
+  ],
+  "barcode": [
+   "条码"
+  ],
+  "booking_client": [
+   "顾客"
+  ],
+  "booking_date": [
+   "到店日期"
+  ],
+  "booking_datetime": [
+   "预约日期时间"
+  ],
+  "booking_service": [
+   "就诊项目"
+  ],
+  "booking_status": [
+   "预约情况"
+  ],
+  "category": [
+   "物料分组"
+  ],
+  "city": [
+   "所属城市"
+  ],
+  "client_name": [
+   "客户全称"
+  ],
+  "client_since": [
+   "开户日期"
+  ],
+  "closes": [
+   "打烊时间"
+  ],
+  "company": [
+   "机构名称"
+  ],
+  "contact_person": [
+   "财务联系人"
+  ],
+  "country": [
+   "所在国家"
+  ],
+  "currency": [
+   "货币"
+  ],
+  "day": [
+   "营业日"
+  ],
+  "department": [
+   "所属团队"
+  ],
+  "description": [
+   "详细描述"
+  ],
+  "due_date": [
+   "应付日期"
+  ],
+  "duration": [
+   "服务时长(min)"
+  ],
+  "email": [
+   "电邮"
+  ],
+  "end_time": [
+   "预约结束时间"
+  ],
+  "first_name": [
+   "Given Name"
+  ],
+  "hours": [
+   "营业时段"
+  ],
+  "hours_note": [
+   "温馨提示"
+  ],
+  "invoice_client": [
+   "开票对象"
+  ],
+  "invoice_date": [
+   "填开日期"
+  ],
+  "invoice_number": [
+   "结算单号"
+  ],
+  "invoice_status": [
+   "结算状态"
+  ],
+  "last_name": [
+   "LastName"
+  ],
+  "morning": [
+   "早市"
+  ],
+  "opens": [
+   "开店时间"
+  ],
+  "paid_date": [
+   "入账日期"
+  ],
+  "performer": [
+   "服务人员"
+  ],
+  "person_name": [
+   "名字"
+  ],
+  "phone": [
+   "联系电话"
+  ],
+  "postcode": [
+   "邮编号码"
+  ],
+  "price": [
+   "销售单价"
+  ],
+  "price_excl": [
+   "单价（不含税）"
+  ],
+  "price_incl": [
+   "含税价"
+  ],
+  "product_name": [
+   "品名"
+  ],
+  "reg_id": [
+   "营业执照号"
+  ],
+  "role": [
+   "担任职务"
+  ],
+  "service_name": [
+   "业务项目"
+  ],
+  "sku": [
+   "SKU编码"
+  ],
+  "start_date": [
+   "加入日期"
+  ],
+  "start_time": [
+   "开始"
+  ],
+  "stock": [
+   "库存数量"
+  ],
+  "street": [
+   "街道门牌"
+  ],
+  "tax_amount": [
+   "税金"
+  ],
+  "time_range": [
+   "时间范围"
+  ],
+  "total": [
+   "账单金额"
+  ],
+  "total_excl": [
+   "金额(未税)"
+  ],
+  "total_incl": [
+   "价税合计金额"
+  ],
+  "unit": [
+   "计量单位"
+  ],
+  "variant": [
+   "规格"
+  ],
+  "vat_rate": [
+   "消费税率"
+  ]
+ }
+}

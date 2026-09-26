@@ -275,8 +275,13 @@ def bookings(ctx, plan, *, datetime_cell=None, end="maybe", status=None,
         C.price_block(ctx, t, recs, truth,
                       dict(plan, traps=traps - {"T2"}), tax=False)
         has_price = True
-    if day_sections and len(t.columns) < 2:
-        return None
+    if day_sections:
+        if len(t.columns) < 2:
+            return None
+        # the date titles sit in column A: keep a lookup column away from
+        # it (its words must stay in the VALUES line)
+        t.first_column_fixed = [k for k in ("start", "range", "client",
+                                            "service") if t.has(k)][:1]
     t.truth = truth
     text_keys = [k for k in ("client", "service", "staff") if t.has(k)]
     label_key = "client" if t.has("client") else \

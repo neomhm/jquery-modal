@@ -8,7 +8,6 @@
    "SKU",
    "Código artículo",
    "Cód. art.",
-   "Código de producto",
    "Clave",
    "Clave producto",
    "Nº artículo",
@@ -22,7 +21,6 @@
    "Nombre",
    "Denominación",
    "Nombre del artículo",
-   "Nombre art.",
    "Prod.",
    "Art."
   ],
@@ -31,7 +29,6 @@
    "Talle",
    "Tamaño",
    "Formato",
-   "Presentación",
    "Variante",
    "Medida",
    "Contenido",
@@ -47,7 +44,6 @@
    "Detalles",
    "Descripción larga",
    "Descripción corta",
-   "Descripción del producto",
    "Características",
    "Especificaciones",
    "Ficha técnica"
@@ -63,7 +59,6 @@
    "Grupo",
    "Tipo de producto",
    "Categoría producto",
-   "Línea de producto",
    "Clasificación"
   ],
   "price": [
@@ -74,7 +69,6 @@
    "P. unitario",
    "Precio de venta",
    "P. venta",
-   "Tarifa",
    "Tarifa ({cur})",
    "Valor",
    "Valor unitario",
@@ -83,7 +77,6 @@
   "price_incl": [
    "Precio IVA incluido",
    "Precio con IVA",
-   "PVP",
    "P.V.P.",
    "PVP ({cur})",
    "Precio IVA incl.",
@@ -99,7 +92,6 @@
    "Precio s/IVA",
    "Precio + IVA",
    "Precio más IVA",
-   "Precio neto",
    "Valor neto",
    "Precio antes de IVA",
    "Precio IVA no incluido",
@@ -119,7 +111,6 @@
    "Alíc. IVA",
    "Tarifa IVA",
    "IVA (%)",
-   "Tipo impositivo",
    "% Impuesto"
   ],
   "stock": [
@@ -133,8 +124,7 @@
    "Cantidad en stock",
    "Cant. disponible",
    "Unidades disponibles",
-   "Uds. en stock",
-   "Unidades en almacén"
+   "Uds. en stock"
   ],
   "unit": [
    "Unidad",
@@ -147,11 +137,9 @@
    "U.M.",
    "UM",
    "Unidad de venta",
-   "Venta por",
    "Ud. de venta"
   ],
   "barcode": [
-   "Código de barras",
    "Cód. barras",
    "Código barras",
    "Cód. de barras",
@@ -171,7 +159,6 @@
    "Disponible",
    "¿Disponible?",
    "En venta",
-   "Publicado",
    "Visible",
    "Visible en web",
    "Habilitado",
@@ -186,7 +173,6 @@
    "Tipo de moneda",
    "Cód. moneda",
    "Código moneda",
-   "Moneda (ISO)",
    "Currency",
    "Moneda de venta"
   ],
@@ -195,7 +181,6 @@
    "Servicios",
    "Nombre del servicio",
    "Nombre servicio",
-   "Serv.",
    "Tratamiento",
    "Prestación",
    "Concepto",
@@ -215,8 +200,7 @@
    "Duración estimada",
    "Min.",
    "Tiempo estimado",
-   "Duración (minutos)",
-   "Duración (h)"
+   "Duración (minutos)"
   ],
   "performer": [
    "Profesional",
@@ -229,14 +213,12 @@
    "Atendido por",
    "Asignado a",
    "Realizado por",
-   "Instructor",
-   "Doctor/a"
+   "Instructor"
   ],
   "day": [
    "Día",
    "Dia",
    "Días",
-   "Dias",
    "Día de la semana",
    "Dia de la semana",
    "Día semana",
@@ -250,7 +232,6 @@
    "Horario de apertura",
    "Horario de atención",
    "Horario comercial",
-   "Horario al público",
    "Atención al público",
    "Horas de apertura",
    "Horario tienda",
@@ -267,7 +248,6 @@
    "Aclaraciones",
    "Aviso",
    "Avisos",
-   "Info",
    "Excepciones",
    "Nota horario"
   ],
@@ -279,7 +259,6 @@
    "Horario mañana",
    "Turno mañana",
    "Turno de mañana",
-   "Matutino",
    "Horario matutino",
    "Turno matutino"
   ],
@@ -288,7 +267,6 @@
    "Tardes",
    "Por la tarde",
    "Horario de tarde",
-   "Horario tarde",
    "Turno tarde",
    "Turno de tarde",
    "Vespertino",
@@ -302,7 +280,6 @@
    "Abre a las",
    "Hora de apertura",
    "Hora apertura",
-   "H. apertura",
    "Desde",
    "De",
    "Abrimos",
@@ -315,7 +292,6 @@
    "Hora de cierre",
    "Hora cierre",
    "H. cierre",
-   "Hasta",
    "A",
    "Cerramos",
    "Horario hasta"
@@ -324,7 +300,6 @@
    "Nombre y apellidos",
    "Nombre y apellido",
    "Apellidos y nombre",
-   "Apellido y nombre",
    "Apellidos, nombre",
    "Nombre completo",
    "Empleado",
@@ -341,7 +316,6 @@
    "Nombre de pila",
    "Primer nombre",
    "Nbre.",
-   "Nombre sin apellidos",
    "Nombre propio",
    "Nombre(s) de pila",
    "Primer y segundo nombre"
@@ -352,7 +326,6 @@
    "Apellido(s)",
    "Primer apellido",
    "1er apellido",
-   "Apellido 1",
    "Apellido paterno",
    "Ap. paterno",
    "Paterno",
@@ -369,7 +342,6 @@
    "Posición",
    "Profesión",
    "Oficio",
-   "Especialidad",
    "Cargo actual",
    "Puesto actual"
   ],
@@ -379,7 +351,6 @@
    "Depto.",
    "Dep.",
    "Área",
-   "Equipo",
    "Sector",
    "Gerencia",
    "Área de trabajo",
@@ -389,7 +360,6 @@
   "email": [
    "Email",
    "E-mail",
-   "Mail",
    "Correo",
    "Correo electrónico",
    "Correo-e",
@@ -405,7 +375,6 @@
    "Telefono",
    "Tel.",
    "Tfno.",
-   "Telf.",
    "Tlf.",
    "Móvil",
    "Celular",
@@ -420,7 +389,6 @@
    "Fecha de alta",
    "F. alta",
    "Alta",
-   "Fecha de ingreso",
    "Fecha ingreso",
    "F. ingreso",
    "Ingreso",
@@ -436,7 +404,6 @@
    "Nombre del cliente",
    "Nombre cliente",
    "Cte.",
-   "Nombre o razón social",
    "Nombre/Razón social",
    "Cliente (nombre)",
    "Nombre/Empresa",
@@ -447,7 +414,6 @@
    "Empresa",
    "Razón social",
    "R. social",
-   "Compañía",
    "Cía.",
    "Sociedad",
    "Nombre de la empresa",
@@ -460,7 +426,6 @@
   "contact_person": [
    "Contacto",
    "Persona de contacto",
-   "Pers. contacto",
    "Nombre de contacto",
    "Nombre contacto",
    "Interlocutor",
@@ -474,7 +439,6 @@
   "address": [
    "Dirección completa",
    "Domicilio completo",
-   "Dirección postal",
    "Dirección postal completa",
    "Domicilio fiscal",
    "Dirección fiscal",
@@ -485,7 +449,6 @@
   ],
   "street": [
    "Dirección",
-   "Domicilio",
    "Dir.",
    "Calle",
    "Calle y número",
@@ -503,7 +466,6 @@
    "CP",
    "C.P.",
    "C. postal",
-   "Postal",
    "ZIP",
    "Código ZIP",
    "Cód. post."
@@ -515,7 +477,6 @@
    "Municipio",
    "Pob.",
    "Loc.",
-   "Comuna",
    "Ciudad/Municipio",
    "Delegación/Municipio",
    "Ciudad/Localidad"
@@ -524,7 +485,6 @@
    "País",
    "Pais",
    "País/Región",
-   "Cód. país",
    "Código país",
    "País (ISO)",
    "País de residencia",
@@ -545,7 +505,6 @@
    "NIT",
    "RUT",
    "R.U.T.",
-   "Identificación fiscal",
    "ID fiscal",
    "Nº identificación fiscal"
   ],
@@ -557,7 +516,6 @@
    "Fecha de registro",
    "F. registro",
    "Registrado el",
-   "Fecha primera compra",
    "Primera compra",
    "Cliente desde el",
    "Fecha de captación"
@@ -571,7 +529,6 @@
    "Fecha del turno",
    "Fecha turno",
    "Fecha servicio",
-   "Fecha de servicio",
    "Fecha de la visita",
    "Día cita",
    "Fecha agendada"
@@ -582,7 +539,6 @@
    "Fecha - hora",
    "Día y hora",
    "Hora y fecha",
-   "Cita",
    "Turno",
    "Fecha y hora de la cita",
    "Fecha y hora cita",
@@ -594,7 +550,6 @@
    "Hora",
    "Hora inicio",
    "Hora de inicio",
-   "H. inicio",
    "Inicio",
    "Hora cita",
    "Hora de la cita",
@@ -613,14 +568,12 @@
    "Hora de finalización",
    "Finalización",
    "Hora de término",
-   "Término",
    "Termina",
    "Hasta las",
    "Hr. fin"
   ],
   "time_range": [
    "Franja",
-   "Franja horaria",
    "Tramo horario",
    "Tramo",
    "Bloque horario",
@@ -638,7 +591,6 @@
    "Nombre cliente",
    "Paciente",
    "Alumno",
-   "Alumno/a",
    "Socio",
    "Huésped",
    "Titular de la reserva",
@@ -652,7 +604,6 @@
    "Tratamiento",
    "Prestación",
    "Motivo",
-   "Motivo de la cita",
    "Motivo de consulta",
    "Tipo de cita",
    "Tipo de servicio",
@@ -670,7 +621,6 @@
    "Est.",
    "Status",
    "Estatus",
-   "Confirmación",
    "Asistencia",
    "Estado del turno"
   ],
@@ -686,7 +636,6 @@
    "Factura nº",
    "Folio",
    "Serie-folio",
-   "Nº comprobante",
    "Nº documento"
   ],
   "invoice_date": [
@@ -700,14 +649,12 @@
    "Fecha de expedición",
    "Fecha doc.",
    "Emitida el",
-   "Fecha comprobante",
-   "Emisión"
+   "Fecha comprobante"
   ],
   "invoice_client": [
    "Cliente",
    "Nombre del cliente",
    "Razón social",
-   "Facturado a",
    "Facturar a",
    "Receptor",
    "Nombre receptor",
@@ -718,7 +665,6 @@
    "Cte."
   ],
   "total": [
-   "Total",
    "Importe",
    "Importe total",
    "Monto",
@@ -741,14 +687,12 @@
    "Monto con IVA",
    "Total con impuestos",
    "Total con IVA ({cur})",
-   "Total a pagar (IVA incluido)",
    "Valor con IVA",
    "Total IVA incl. ({cur})"
   ],
   "total_excl": [
    "Base imponible",
    "Base imp.",
-   "Total sin IVA",
    "Importe sin IVA",
    "Neto",
    "Importe neto",
@@ -771,7 +715,6 @@
    "Cuota de IVA",
    "IVA trasladado",
    "Impuestos",
-   "Impuesto",
    "Valor IVA"
   ],
   "invoice_status": [
@@ -785,8 +728,7 @@
    "Status",
    "Cobro",
    "Cobrada",
-   "¿Pagada?",
-   "Pago"
+   "¿Pagada?"
   ],
   "due_date": [
    "Vencimiento",
@@ -797,7 +739,6 @@
    "Fecha vto.",
    "Vence",
    "Vence el",
-   "Fecha límite de pago",
    "Fecha límite",
    "Venc."
   ],
@@ -812,12 +753,10 @@
    "F. cobro",
    "Cobrada el",
    "Cobrado el",
-   "Fecha abono",
    "Día de pago"
   ],
   "patronymic": [],
   "second_last_name": [
-   "Segundo apellido",
    "2º apellido",
    "2° apellido",
    "2do apellido",

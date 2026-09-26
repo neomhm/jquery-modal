@@ -1,7 +1,6 @@
 {
  "fields": {
   "sku": [
-   "Réf.",
    "Réf",
    "Référence",
    "Code article",
@@ -15,7 +14,6 @@
    "SKU"
   ],
   "product_name": [
-   "Désignation",
    "Article",
    "Produit",
    "Nom du produit",
@@ -30,7 +28,6 @@
   ],
   "variant": [
    "Taille",
-   "Tailles",
    "Contenance",
    "Format",
    "Variante",
@@ -47,7 +44,6 @@
    "Descriptif",
    "Détail",
    "Détails",
-   "Description produit",
    "Description courte",
    "Description détaillée",
    "Caractéristiques",
@@ -61,7 +57,6 @@
    "Famille",
    "Famille produit",
    "Sous-famille",
-   "Rayon",
    "Rubrique",
    "Gamme",
    "Type",
@@ -80,7 +75,6 @@
    "Prix public",
    "Tarif public",
    "Prix ({cur})",
-   "Tarif ({cur})",
    "Prix unitaire ({cur})",
    "Prix en {cur}"
   ],
@@ -92,7 +86,6 @@
    "P.U. TTC",
    "PU TTC",
    "Tarif TTC",
-   "Prix de vente TTC",
    "Prix TVAC",
    "Tarif TVAC ({cur})",
    "Prix TVA comprise",
@@ -101,7 +94,6 @@
   ],
   "price_excl": [
    "Prix HT",
-   "Prix HT ({cur})",
    "Prix HT en {cur}",
    "PV HT",
    "P.U. HT",
@@ -119,7 +111,6 @@
    "Taux de TVA",
    "TVA %",
    "% TVA",
-   "TVA (%)",
    "Tx TVA",
    "Taux T.V.A.",
    "Taux TVA (%)",
@@ -138,7 +129,6 @@
    "Stock réel",
    "Qté dispo",
    "Quantité disponible",
-   "Qté en inventaire",
    "Stock magasin"
   ],
   "unit": [
@@ -150,15 +140,13 @@
    "Unité de mesure",
    "UM",
    "Vendu par",
-   "Par",
-   "Unité de facturation"
+   "Par"
   ],
   "barcode": [
    "Code-barres",
    "Code barre",
    "Code-barre",
    "Code à barres",
-   "EAN",
    "EAN13",
    "EAN 13",
    "Code EAN",
@@ -169,7 +157,6 @@
   "active": [
    "Actif",
    "Active",
-   "Activé",
    "En vente",
    "À la vente",
    "Disponible",
@@ -189,7 +176,6 @@
    "Devise (ISO)",
    "Monnaie de facturation",
    "Devise de facturation",
-   "Devise de vente",
    "Devise du prix"
   ],
   "service_name": [
@@ -203,7 +189,6 @@
    "Nom de la prestation",
    "Intitulé de la prestation",
    "Libellé prestation",
-   "Désignation prestation",
    "Acte"
   ],
   "duration": [
@@ -216,7 +201,6 @@
    "Temps",
    "Durée estimée",
    "Temps estimé",
-   "Durée approx.",
    "Durée moy.",
    "Durée de la prestation"
   ],
@@ -232,7 +216,6 @@
    "Moniteur",
    "Coach",
    "Professeur",
-   "Réalisé par",
    "Pris en charge par",
    "Avec"
   ],
@@ -244,14 +227,12 @@
    "Jours de la semaine",
    "Jour semaine",
    "Journée",
-   "Jour d'ouverture",
-   "Jours d'ouverture"
+   "Jour d'ouverture"
   ],
   "hours": [
    "Horaires",
    "Horaire",
    "Heures d'ouverture",
-   "Horaires d'ouverture",
    "Heures",
    "Plages horaires",
    "Horaires d'accueil",
@@ -270,14 +251,12 @@
    "Observations",
    "Info",
    "Infos",
-   "Précisions",
    "À noter",
    "Particularités"
   ],
   "morning": [
    "Matin",
    "Matinée",
-   "Le matin",
    "Horaires matin",
    "Horaires du matin",
    "Horaire matin",
@@ -293,7 +272,6 @@
    "Horaires après-midi",
    "Horaires de l'après-midi",
    "Ouverture après-midi",
-   "Plage après-midi",
    "Après-midi / soir",
    "Soir",
    "Soirée",
@@ -301,7 +279,6 @@
    "Créneau après-midi"
   ],
   "opens": [
-   "Ouverture",
    "Heure d'ouverture",
    "Heure ouverture",
    "H. ouverture",
@@ -315,7 +292,6 @@
   "closes": [
    "Fermeture",
    "Heure de fermeture",
-   "Heure fermeture",
    "H. fermeture",
    "Ferme à",
    "Fermeture à",
@@ -335,14 +311,12 @@
    "Salarié",
    "Employé",
    "Identité",
-   "Nom de l'employé",
-   "Nom du collaborateur"
+   "Nom de l'employé"
   ],
   "first_name": [
    "Prénom",
    "Prénoms",
    "Prenom",
-   "Prénom(s)",
    "Prén.",
    "Prénom usuel",
    "Prénom du salarié",
@@ -357,7 +331,6 @@
    "Nom famille",
    "Nom (famille)",
    "Nom d'usage",
-   "Nom de naissance",
    "Nom patronymique",
    "Patronyme",
    "Nom marital"
@@ -373,12 +346,10 @@
    "Fonction exercée",
    "Qualification",
    "Métier",
-   "Rôle",
    "Titre"
   ],
   "department": [
    "Service",
-   "Département",
    "Dépt",
    "Direction",
    "Pôle",
@@ -397,7 +368,6 @@
    "Mail",
    "Mél.",
    "Adresse e-mail",
-   "Adresse mail",
    "Adresse électronique",
    "Adresse courriel",
    "E-mail pro",
@@ -406,7 +376,6 @@
   ],
   "phone": [
    "Téléphone",
-   "Tél.",
    "Tél",
    "Tel.",
    "N° de téléphone",
@@ -421,7 +390,6 @@
   ],
   "start_date": [
    "Date d'entrée",
-   "Date entrée",
    "Entrée",
    "Date d'embauche",
    "Embauché le",
@@ -439,7 +407,6 @@
    "Nom du client",
    "Nom client",
    "Client (nom)",
-   "Nom / Raison sociale",
    "Nom ou raison sociale",
    "Raison sociale / Nom",
    "Client / Société",
@@ -447,7 +414,6 @@
    "Nom du compte"
   ],
   "company": [
-   "Société",
    "Sté",
    "Raison sociale",
    "Entreprise",
@@ -467,7 +433,6 @@
    "Interlocuteur principal",
    "Personne à contacter",
    "Personne de contact",
-   "Personne-ressource",
    "Nom du contact",
    "Contact principal",
    "Référent",
@@ -476,7 +441,6 @@
   ],
   "address": [
    "Adresse complète",
-   "Adresse (complète)",
    "Adr. complète",
    "Adresse postale",
    "Adresse postale complète",
@@ -489,7 +453,6 @@
   ],
   "street": [
    "Adresse",
-   "Adr.",
    "Rue",
    "Rue et n°",
    "N° et rue",
@@ -509,8 +472,7 @@
    "Code postal (CP)",
    "NPA",
    "N° postal",
-   "Numéro postal",
-   "Code postal / NPA"
+   "Numéro postal"
   ],
   "city": [
    "Ville",
@@ -521,7 +483,6 @@
    "Ville / Commune",
    "Ville / Localité",
    "Lieu",
-   "Bureau distributeur",
    "Ville de résidence"
   ],
   "country": [
@@ -532,7 +493,6 @@
    "Pays / Région",
    "Pays / Territoire",
    "Pays du client",
-   "Pays de facturation",
    "Pays de destination",
    "Pays du siège"
   ],
@@ -547,7 +507,6 @@
    "N° d'entreprise",
    "N° BCE",
    "N° IDE",
-   "NEQ",
    "ICE",
    "NINEA",
    "RCCM",
@@ -559,7 +518,6 @@
    "Client depuis le",
    "Membre depuis",
    "Date d'inscription",
-   "Inscrit le",
    "Date d'ouverture du compte",
    "Ouverture du compte",
    "Date premier achat",
@@ -570,7 +528,6 @@
   ],
   "booking_date": [
    "Date",
-   "Date du RDV",
    "Date RDV",
    "Jour du RDV",
    "Date du rendez-vous",
@@ -583,7 +540,6 @@
   "booking_datetime": [
    "Date et heure",
    "Date & heure",
-   "Date/heure",
    "Date-heure",
    "Date heure",
    "Rendez-vous",
@@ -604,14 +560,12 @@
    "Heure RDV",
    "Heure d'arrivée",
    "Heure de passage",
-   "Commence à",
-   "Heure de la séance"
+   "Commence à"
   ],
   "end_time": [
    "Fin",
    "Heure de fin",
    "Heure fin",
-   "H. fin",
    "Fin prévue",
    "Fin du RDV",
    "Fin de séance",
@@ -622,7 +576,6 @@
   "time_range": [
    "Horaire",
    "Créneau",
-   "Créneau horaire",
    "Créneau réservé",
    "Plage horaire",
    "Plage",
@@ -639,7 +592,6 @@
    "Cliente",
    "Nom du client",
    "Patient",
-   "Patient(e)",
    "Élève",
    "Adhérent",
    "Membre",
@@ -653,7 +605,6 @@
    "Motif",
    "Motif du RDV",
    "Motif de la visite",
-   "Type de RDV",
    "Service",
    "Soin",
    "Acte",
@@ -667,7 +618,6 @@
    "Statut",
    "État",
    "Etat",
-   "Statut RDV",
    "Statut du RDV",
    "Statut réservation",
    "Statut de la réservation",
@@ -687,14 +637,12 @@
    "Numéro facture",
    "Réf. facture",
    "Facture",
-   "N° pièce",
    "Numéro",
    "# Facture"
   ],
   "invoice_date": [
    "Date facture",
    "Date de facture",
-   "Date de la facture",
    "Date de facturation",
    "Date d'émission",
    "Date",
@@ -712,7 +660,6 @@
    "Nom client",
    "Client facturé",
    "Facturé à",
-   "Destinataire",
    "Tiers",
    "Client / Tiers",
    "Débiteur",
@@ -723,7 +670,6 @@
    "Montant",
    "Total",
    "Montant ({cur})",
-   "Total ({cur})",
    "Montant en {cur}",
    "Montant total",
    "Montant facturé",
@@ -745,14 +691,12 @@
    "Montant TVAC",
    "Total TVAC",
    "Montant TVA comprise",
-   "Total TVA incluse",
    "Total taxes incluses"
   ],
   "total_excl": [
    "Montant HT",
    "Total HT",
    "HT",
-   "Mt HT",
    "Montant HT ({cur})",
    "Total HT ({cur})",
    "Montant HTVA",
@@ -771,7 +715,6 @@
    "Mt TVA",
    "Total TVA",
    "TVA ({cur})",
-   "TVA collectée",
    "Taxes",
    "Taxe",
    "Montant taxes",
@@ -781,7 +724,6 @@
    "Statut",
    "État",
    "Etat",
-   "Règlement",
    "Paiement",
    "Statut paiement",
    "Statut du paiement",
@@ -794,7 +736,6 @@
   "due_date": [
    "Échéance",
    "Echéance",
-   "Éch.",
    "Date d'échéance",
    "Échéance le",
    "Date limite",
@@ -815,7 +756,6 @@
    "Date règlement",
    "Date de paiement",
    "Date paiement",
-   "Date du paiement",
    "Date d'encaissement",
    "Date de versement"
   ],

@@ -4,7 +4,6 @@
    "SKU",
    "Item Code",
    "Product Code",
-   "Code",
    "Ref.",
    "Item No.",
    "Item #",
@@ -27,8 +26,7 @@
    "Stock Item",
    "Products",
    "Prod. Name",
-   "Items",
-   "Product/Item"
+   "Items"
   ],
   "variant": [
    "Size",
@@ -41,7 +39,6 @@
    "Portion",
    "Option1 Value",
    "Sizes",
-   "Pkg. Size",
    "Size/Format",
    "Weight/Volume"
   ],
@@ -50,7 +47,6 @@
    "Desc.",
    "Product Description",
    "Item Description",
-   "Details",
    "Short Description",
    "Long Description",
    "Product Details",
@@ -62,7 +58,6 @@
   ],
   "category": [
    "Category",
-   "Cat.",
    "Product Category",
    "Type",
    "Product Type",
@@ -80,7 +75,6 @@
    "Price ({cur})",
    "Unit Price",
    "Unit Price ({cur})",
-   "Rate",
    "Rate ({cur})",
    "Selling Price",
    "Retail Price",
@@ -98,7 +92,6 @@
    "Price inc VAT",
    "Price (inc. GST)",
    "Price incl. GST",
-   "Price incl. Tax",
    "Price with Tax",
    "MRP",
    "MRP ({cur})",
@@ -124,7 +117,6 @@
    "Price excl. HST",
    "Pre-tax Price",
    "Price excl. VAT ({cur})",
-   "Price ex GST ({cur})",
    "Unit Price ex VAT ({cur})",
    "Price (VAT exclusive)",
    "Trade Price ex VAT"
@@ -134,7 +126,6 @@
    "VAT %",
    "GST %",
    "GST Rate",
-   "Tax Rate",
    "Tax %",
    "Sales Tax Rate",
    "Sales Tax %",
@@ -153,7 +144,6 @@
    "Quantity on Hand",
    "On Hand",
    "Stock Level",
-   "Inventory",
    "Stock on Hand",
    "SOH",
    "Units in Stock",
@@ -163,7 +153,6 @@
    "Closing Stock"
   ],
   "unit": [
-   "Unit",
    "UOM",
    "Unit of Measure",
    "U/M",
@@ -179,7 +168,6 @@
   ],
   "barcode": [
    "Barcode",
-   "Bar Code",
    "EAN",
    "EAN-13",
    "EAN Code",
@@ -198,7 +186,6 @@
    "Available",
    "Available?",
    "Online",
-   "Published",
    "Visible",
    "Enabled",
    "Live",
@@ -215,8 +202,7 @@
    "Price Currency",
    "Invoice Currency",
    "Billing Currency",
-   "Currency (ISO)",
-   "Transaction Currency"
+   "Currency (ISO)"
   ],
   "service_name": [
    "Service",
@@ -228,13 +214,11 @@
    "Course",
    "Class",
    "Package",
-   "Job",
    "Service Provided",
    "Service Item"
   ],
   "duration": [
    "Duration",
-   "Duration (min)",
    "Duration (mins)",
    "Time (min)",
    "Length",
@@ -253,7 +237,6 @@
    "Staff Member",
    "Stylist",
    "Therapist",
-   "Practitioner",
    "Provider",
    "Assigned To",
    "With",
@@ -272,13 +255,11 @@
    "Days",
    "Day(s)",
    "Week Day",
-   "Opening Day",
    "Business Day",
    "Days Open"
   ],
   "hours": [
    "Hours",
-   "Opening Hours",
    "Opening Times",
    "Business Hours",
    "Trading Hours",
@@ -293,7 +274,6 @@
   ],
   "hours_note": [
    "Notes",
-   "Note",
    "Remarks",
    "Remark",
    "Comments",
@@ -306,7 +286,6 @@
   ],
   "morning": [
    "Morning",
-   "Mornings",
    "AM",
    "Morning Hours",
    "AM Hours",
@@ -322,7 +301,6 @@
    "PM",
    "Afternoon Hours",
    "PM Hours",
-   "Afternoon Session",
    "Afternoon (PM)",
    "PM Session",
    "Afternoon Opening",
@@ -336,7 +314,6 @@
    "Opening Time",
    "Open",
    "Opening",
-   "Open From",
    "Opens At",
    "From",
    "Open Time",
@@ -346,7 +323,6 @@
   "closes": [
    "Closes",
    "Closing Time",
-   "Close",
    "Closing",
    "Open Until",
    "Closes At",
@@ -366,7 +342,6 @@
    "Name of Employee",
    "Emp. Name",
    "Employee Full Name",
-   "Name of Staff",
    "Staff Member Name"
   ],
   "first_name": [
@@ -379,7 +354,6 @@
    "FName",
    "Christian Name",
    "First Name(s)",
-   "Name (First)",
    "Firstname"
   ],
   "last_name": [
@@ -391,7 +365,6 @@
    "Lastname",
    "Name (Last)",
    "Surname/Family Name",
-   "Last Name/Surname",
    "Sur Name"
   ],
   "role": [
@@ -405,8 +378,7 @@
    "Position Title",
    "Role/Position",
    "Staff Role",
-   "Job Position",
-   "Desig."
+   "Job Position"
   ],
   "department": [
    "Department",
@@ -414,7 +386,6 @@
    "Dept",
    "Team",
    "Division",
-   "Department Name",
    "Business Unit",
    "Area",
    "Cost Centre",
@@ -423,7 +394,6 @@
    "Work Area"
   ],
   "email": [
-   "Email",
    "E-mail",
    "Email Address",
    "E-mail Address",
@@ -446,7 +416,6 @@
    "Mobile",
    "Mobile No.",
    "Cell",
-   "Cell Phone",
    "Contact No.",
    "Contact Number",
    "Mob.",
@@ -457,7 +426,6 @@
   ],
   "start_date": [
    "Start Date",
-   "Date Joined",
    "Date of Joining",
    "Hire Date",
    "Joining Date",
@@ -482,13 +450,11 @@
    "Party Name",
    "Customer/Client",
    "Name of Client",
-   "Clients",
-   "Customers"
+   "Clients"
   ],
   "company": [
    "Company",
    "Company Name",
-   "Business Name",
    "Organisation",
    "Organization",
    "Firm Name",
@@ -504,7 +470,6 @@
    "Contact Person",
    "Contact Name",
    "Attn",
-   "Attention",
    "Primary Contact",
    "Main Contact",
    "Key Contact",
@@ -519,7 +484,6 @@
    "Mailing Address",
    "Billing Address",
    "Business Address",
-   "Addr.",
    "Complete Address",
    "Office Address",
    "Registered Address",
@@ -535,7 +499,6 @@
    "Addr. Line 1",
    "Address Line",
    "Street & Number",
-   "House No. & Street",
    "Street/Road",
    "Street Name",
    "Line 1"
@@ -549,7 +512,6 @@
    "PIN Code",
    "Pincode",
    "Zip/Postal Code",
-   "P/Code",
    "Postal/ZIP",
    "Zipcode"
   ],
@@ -557,7 +519,6 @@
    "City",
    "Town",
    "Town/City",
-   "City/Town",
    "Suburb",
    "Locality",
    "Post Town",
@@ -570,7 +531,6 @@
   "country": [
    "Country",
    "Country Name",
-   "Country/Region",
    "Ctry",
    "Cntry",
    "Country of Residence",
@@ -591,7 +551,6 @@
    "EIN",
    "Tax ID",
    "TIN",
-   "RC Number",
    "GST/HST No.",
    "Business Number",
    "CIN",
@@ -608,8 +567,7 @@
    "First Visit",
    "Onboarding Date",
    "Client Start Date",
-   "Customer Start Date",
-   "First Purchase Date"
+   "Customer Start Date"
   ],
   "booking_date": [
    "Date",
@@ -621,7 +579,6 @@
    "Session Date",
    "Service Date",
    "Event Date",
-   "Booked For",
    "Check-in Date",
    "Lesson Date",
    "Appt. Date"
@@ -637,8 +594,7 @@
    "Appointment Date/Time",
    "Start Date/Time",
    "DateTime",
-   "Booking Date & Time",
-   "Appt Date/Time"
+   "Booking Date & Time"
   ],
   "start_time": [
    "Start Time",
@@ -648,7 +604,6 @@
    "Starts",
    "Begins",
    "Appt Time",
-   "Appointment Time",
    "Time In",
    "Starting Time",
    "Start At",
@@ -660,7 +615,6 @@
    "To",
    "Finish",
    "Finish Time",
-   "Ends",
    "Until",
    "Time Out",
    "End At",
@@ -680,8 +634,7 @@
    "From-To",
    "Timing",
    "Time Window",
-   "Time (From-To)",
-   "Schedule"
+   "Time (From-To)"
   ],
   "booking_client": [
    "Client",
@@ -689,7 +642,6 @@
    "Customer",
    "Customer Name",
    "Name",
-   "Booked By",
    "Guest",
    "Guest Name",
    "Booking Name",
@@ -703,7 +655,6 @@
    "Service Booked",
    "Appointment Type",
    "Appt Type",
-   "Reason for Visit",
    "Purpose of Visit",
    "Booked Service",
    "Service Requested",
@@ -718,7 +669,6 @@
    "Appt Status",
    "Appointment Status",
    "Reservation Status",
-   "Booking State",
    "Current Status",
    "Status of Booking",
    "Appt. Status",
@@ -729,7 +679,6 @@
    "Invoice #",
    "Invoice Number",
    "Inv. No.",
-   "Inv #",
    "Invoice No",
    "Bill No.",
    "Invoice Ref.",
@@ -749,7 +698,6 @@
    "Bill Date",
    "Billing Date",
    "Invoiced On",
-   "Date Invoiced",
    "Doc. Date",
    "Tax Point Date"
   ],
@@ -758,7 +706,6 @@
    "Customer",
    "Customer Name",
    "Client Name",
-   "Bill To",
    "Billed To",
    "Invoice To",
    "Sold To",
@@ -771,7 +718,6 @@
    "Total",
    "Amount",
    "Total ({cur})",
-   "Amount ({cur})",
    "Invoice Total",
    "Invoice Amount",
    "Inv. Amount",
@@ -784,7 +730,6 @@
    "Value"
   ],
   "total_incl": [
-   "Total incl. VAT",
    "Total inc VAT",
    "Gross",
    "Gross Amount",
@@ -808,7 +753,6 @@
    "Net Amount",
    "Net Total",
    "Amount ex GST",
-   "Total (ex. GST)",
    "Total excl. Tax",
    "Taxable Value",
    "Taxable Amount",
@@ -831,7 +775,6 @@
    "Total Tax",
    "Total VAT",
    "VAT ({cur})",
-   "GST ({cur})",
    "Tax Amt",
    "GST Amt",
    "Sales Tax ({cur})"
@@ -840,7 +783,6 @@
    "Status",
    "Payment Status",
    "Invoice Status",
-   "Pmt Status",
    "Payment",
    "Paid/Unpaid",
    "Payment State",
@@ -852,7 +794,6 @@
   "due_date": [
    "Due Date",
    "Due",
-   "Payment Due",
    "Due By",
    "Pay By",
    "Date Due",
@@ -865,7 +806,6 @@
   "paid_date": [
    "Paid Date",
    "Date Paid",
-   "Paid On",
    "Payment Date",
    "Date Received",
    "Received On",

@@ -307,7 +307,7 @@ def client_records(ctx, n, persons=False):
     return out
 
 
-def clients(ctx, plan, *, persons=False, split_names=None,
+def clients(ctx, plan, *, persons=None, split_names=None,
             address="maybe", registration=False, since=False,
             crm=False, title=False):
     """address: 'one' (one cell), 'split' (street / postcode / city),
@@ -317,6 +317,8 @@ def clients(ctx, plan, *, persons=False, split_names=None,
     if title:
         traps.add("T5")
     plan = dict(plan, traps=traps)
+    if persons is None:              # private persons or organisations
+        persons = "T10" in traps or rng.random() < 0.3
     if split_names is None:
         split_names = persons and "T10" in traps
     if split_names:

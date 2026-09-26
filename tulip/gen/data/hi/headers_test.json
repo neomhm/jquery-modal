@@ -1,0 +1,184 @@
+{
+ "fields": {
+  "active": [
+   "सक्रिय?"
+  ],
+  "address": [
+   "बिलिंग पता"
+  ],
+  "afternoon": [
+   "दोपहर बाद"
+  ],
+  "barcode": [
+   "बारकोड (EAN)"
+  ],
+  "booking_client": [
+   "छात्र का नाम"
+  ],
+  "booking_date": [
+   "आगमन तिथि"
+  ],
+  "booking_datetime": [
+   "मुलाकात का दिन व समय"
+  ],
+  "booking_service": [
+   "पैकेज"
+  ],
+  "booking_status": [
+   "अपॉइंटमेंट स्थिति"
+  ],
+  "category": [
+   "आइटम ग्रुप"
+  ],
+  "city": [
+   "स्थान"
+  ],
+  "client_name": [
+   "पार्टी/ग्राहक"
+  ],
+  "client_since": [
+   "जुड़ने की तारीख"
+  ],
+  "closes": [
+   "बंद होने का समय"
+  ],
+  "company": [
+   "प्रतिष्ठान"
+  ],
+  "contact_person": [
+   "संपर्क सूत्र"
+  ],
+  "country": [
+   "देश"
+  ],
+  "currency": [
+   "भुगतान मुद्रा"
+  ],
+  "day": [
+   "Weekday"
+  ],
+  "department": [
+   "विभाग का नाम"
+  ],
+  "description": [
+   "पूरा विवरण"
+  ],
+  "due_date": [
+   "कब तक देय"
+  ],
+  "duration": [
+   "अवधि (घंटे)"
+  ],
+  "email": [
+   "ईमेल पता"
+  ],
+  "end_time": [
+   "एंड टाइम"
+  ],
+  "first_name": [
+   "पहला नाम (First Name)"
+  ],
+  "hours": [
+   "समय"
+  ],
+  "hours_note": [
+   "नोट"
+  ],
+  "invoice_client": [
+   "क्रेता का नाम"
+  ],
+  "invoice_date": [
+   "Inv. Date"
+  ],
+  "invoice_number": [
+   "बीजक सं."
+  ],
+  "invoice_status": [
+   "अदायगी"
+  ],
+  "last_name": [
+   "सरनेम (उपनाम)"
+  ],
+  "morning": [
+   "सुबह का समय"
+  ],
+  "opens": [
+   "खुलने का वक़्त"
+  ],
+  "paid_date": [
+   "भुगतान तिथि"
+  ],
+  "performer": [
+   "तकनीशियन"
+  ],
+  "person_name": [
+   "नाम व उपनाम"
+  ],
+  "phone": [
+   "मो. नं."
+  ],
+  "postcode": [
+   "Postal Code"
+  ],
+  "price": [
+   "दर ({cur})"
+  ],
+  "price_excl": [
+   "बिना GST दर"
+  ],
+  "price_incl": [
+   "MRP"
+  ],
+  "product_name": [
+   "Item Name"
+  ],
+  "reg_id": [
+   "जीएसटी नं."
+  ],
+  "role": [
+   "जॉब टाइटल"
+  ],
+  "service_name": [
+   "सर्विस का नाम"
+  ],
+  "sku": [
+   "प्रोडक्ट कोड"
+  ],
+  "start_date": [
+   "भर्ती तिथि"
+  ],
+  "start_time": [
+   "प्रारंभ समय"
+  ],
+  "stock": [
+   "Stock Qty"
+  ],
+  "street": [
+   "Address Line 1"
+  ],
+  "tax_amount": [
+   "GST राशि"
+  ],
+  "time_range": [
+   "Slot Time"
+  ],
+  "total": [
+   "राशि ({cur})"
+  ],
+  "total_excl": [
+   "राशि (कर रहित)"
+  ],
+  "total_incl": [
+   "Amount incl. GST"
+  ],
+  "unit": [
+   "बिक्री इकाई"
+  ],
+  "variant": [
+   "माप"
+  ],
+  "vat_rate": [
+   "जीएसटी दर"
+  ]
+ }
+}

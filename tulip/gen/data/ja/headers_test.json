@@ -1,0 +1,184 @@
+{
+ "fields": {
+  "active": [
+   "公開"
+  ],
+  "address": [
+   "請求先住所"
+  ],
+  "afternoon": [
+   "午後受付"
+  ],
+  "barcode": [
+   "バーコード"
+  ],
+  "booking_client": [
+   "予約者氏名"
+  ],
+  "booking_date": [
+   "施術日"
+  ],
+  "booking_datetime": [
+   "ご利用日時"
+  ],
+  "booking_service": [
+   "予約メニュー"
+  ],
+  "booking_status": [
+   "状態"
+  ],
+  "category": [
+   "カテゴリ"
+  ],
+  "city": [
+   "所在地（市区町村）"
+  ],
+  "client_name": [
+   "顧客氏名"
+  ],
+  "client_since": [
+   "初回来店日"
+  ],
+  "closes": [
+   "営業終了"
+  ],
+  "company": [
+   "団体名"
+  ],
+  "contact_person": [
+   "窓口"
+  ],
+  "country": [
+   "国名"
+  ],
+  "currency": [
+   "通貨名"
+  ],
+  "day": [
+   "曜日"
+  ],
+  "department": [
+   "配属先"
+  ],
+  "description": [
+   "説明"
+  ],
+  "due_date": [
+   "支払期限日"
+  ],
+  "duration": [
+   "レッスン時間"
+  ],
+  "email": [
+   "Email"
+  ],
+  "end_time": [
+   "終了予定時間"
+  ],
+  "first_name": [
+   "下の名前"
+  ],
+  "hours": [
+   "開館時間"
+  ],
+  "hours_note": [
+   "注記"
+  ],
+  "invoice_client": [
+   "請求先会社名"
+  ],
+  "invoice_date": [
+   "伝票日付"
+  ],
+  "invoice_number": [
+   "請求書管理番号"
+  ],
+  "invoice_status": [
+   "決済状況"
+  ],
+  "last_name": [
+   "名前_姓"
+  ],
+  "morning": [
+   "ランチタイム"
+  ],
+  "opens": [
+   "開店"
+  ],
+  "paid_date": [
+   "入金確認日"
+  ],
+  "performer": [
+   "スタイリスト"
+  ],
+  "person_name": [
+   "社員名"
+  ],
+  "phone": [
+   "携帯"
+  ],
+  "postcode": [
+   "郵便番号"
+  ],
+  "price": [
+   "販売価格({cur})"
+  ],
+  "price_excl": [
+   "本体価格"
+  ],
+  "price_incl": [
+   "価格（{cur}・税込）"
+  ],
+  "product_name": [
+   "商品名称"
+  ],
+  "reg_id": [
+   "適格請求書登録番号"
+  ],
+  "role": [
+   "職種・役職"
+  ],
+  "service_name": [
+   "サービス名"
+  ],
+  "sku": [
+   "商品CD"
+  ],
+  "start_date": [
+   "入社年月日"
+  ],
+  "start_time": [
+   "予約時間"
+  ],
+  "stock": [
+   "実在庫数"
+  ],
+  "street": [
+   "町名・番地"
+  ],
+  "tax_amount": [
+   "消費税"
+  ],
+  "time_range": [
+   "開始〜終了"
+  ],
+  "total": [
+   "請求金額（{cur}）"
+  ],
+  "total_excl": [
+   "税抜合計"
+  ],
+  "total_incl": [
+   "税込合計({cur})"
+  ],
+  "unit": [
+   "計量単位"
+  ],
+  "variant": [
+   "SIZE"
+  ],
+  "vat_rate": [
+   "税率%"
+  ]
+ }
+}

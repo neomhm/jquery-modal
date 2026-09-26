@@ -35,18 +35,18 @@ REFUSALS = ("no_matching_target", "missing_required", "not_a_table",
 # (a family may not be able to show it, so these sit above the minimum
 # rates the checks require)
 TRAPS = {
-    "products": {"T1": 0.36, "T2": 0.25, "T3": 0.13, "T4": 0.6, "T5": 0.52,
-                 "T6": 0.18, "T7": 0.18, "T8": 0.08, "T9": 0.35,
-                 "T13": 0.33, "T14": 0.3},
-    "services": {"T2": 0.25, "T5": 0.52, "T6": 0.18, "T7": 0.2, "T9": 0.35,
-                 "T13": 0.33, "T14": 0.3},
-    "opening_hours": {"T5": 0.52, "T8": 0.45, "T14": 0.3},
-    "staff": {"T4": 0.6, "T5": 0.52, "T6": 0.18, "T10": 0.45, "T14": 0.3},
-    "clients": {"T4": 0.6, "T5": 0.52, "T6": 0.18, "T10": 0.3, "T14": 0.3},
-    "bookings": {"T4": 0.6, "T5": 0.52, "T6": 0.18, "T9": 0.3, "T11": 0.45,
-                 "T12": 0.75, "T13": 0.33, "T14": 0.3},
-    "invoice_ledger": {"T4": 0.6, "T5": 0.52, "T6": 0.18, "T12": 0.75,
-                       "T13": 0.33, "T14": 0.3},
+    "products": {"T1": 0.36, "T2": 0.3, "T3": 0.16, "T4": 0.6, "T5": 0.52,
+                 "T6": 0.25, "T7": 0.35, "T8": 0.08, "T9": 0.6,
+                 "T13": 0.33, "T14": 0.45},
+    "services": {"T2": 0.3, "T5": 0.52, "T6": 0.25, "T7": 0.35, "T9": 0.6,
+                 "T13": 0.33, "T14": 0.45},
+    "opening_hours": {"T5": 0.52, "T8": 0.8, "T14": 0.45},
+    "staff": {"T4": 0.6, "T5": 0.52, "T6": 0.25, "T10": 0.45, "T14": 0.45},
+    "clients": {"T4": 0.6, "T5": 0.52, "T6": 0.25, "T10": 0.55, "T14": 0.45},
+    "bookings": {"T4": 0.6, "T5": 0.52, "T6": 0.25, "T9": 0.55, "T11": 0.6,
+                 "T12": 0.75, "T13": 0.33, "T14": 0.45},
+    "invoice_ledger": {"T4": 0.6, "T5": 0.52, "T6": 0.25, "T12": 0.75,
+                       "T13": 0.33, "T14": 0.45},
 }
 # rows: log-uniform 3-400, then capped by what the table can hold
 MAX_ROWS = {"products": 400, "services": 60, "opening_hours": 7,
@@ -241,11 +241,25 @@ def shown_groups(ctx, sheet):
     return set(g for (_, text, g) in ctx.used if text in texts)
 
 
+def held_families(split, hold):
+    group = {"dev_heldout": "D", "test_heldout": "T"}.get(split)
+    if not group:
+        return []
+    return [f for fid, f in sorted(families().items())
+            if group_of_family(fid, hold) == group]
+
+
 def _attempt(rng, split, index, hold, folders):
     code = choose_locale(rng, split, index, folders)
     if code is None:
         return None, "no_locale"
     kind = weighted(rng, SHARES)
+    held = held_families(split, hold)
+    turn = None
+    if held and index % 3 == 0:
+        # a third of a hold-out split: its held-out families in turn
+        turn = held[(index // 3) % len(held)]
+        kind = turn.TARGET if turn.TARGET != "refusals" else turn.REASON
     if kind in REFUSALS:
         fams = [f for fid, f in families().items()
                 if f.TARGET == "refusals" and getattr(f, "REASON", "") ==
@@ -255,14 +269,14 @@ def _attempt(rng, split, index, hold, folders):
                     {"train"})]
         if not fams:
             return None, "no_refusal_family"
-        family = rng.choice(fams)
+        family = turn or rng.choice(fams)
         if hasattr(family, "pick_target"):
             target_for_activity = family.pick_target(rng)
         else:
             target_for_activity = getattr(family, "LOOKS_LIKE", None) or \
                 rng.choice(config.TARGETS)
     else:
-        family = choose_family(rng, split, kind, hold)
+        family = turn or choose_family(rng, split, kind, hold)
         if family is None:
             return None, "no_family"
         target_for_activity = kind
@@ -311,10 +325,28 @@ def _attempt(rng, split, index, hold, folders):
         return None, "holdout_rule"
     if split not in ("dev_heldout", "test_heldout") and groups:
         return None, "holdout_rule"
-    return task_dict(split, index, ctx, family, table, done["sheet"],
+    task = task_dict(split, index, ctx, family, table, done["sheet"],
                      done["program"], table.truth, targets, answer,
                      sorted(table.traps), typed, code, act, groups,
-                     table.n), None
+                     table.n)
+    # every lookup key must be visible in the VALUES line (section 10.1)
+    values = "\n".join(line for line in task["preview"].splitlines()
+                       if line.startswith("VALUES "))
+    for key in lookup_keys(task["program"]):
+        if key not in values:
+            return None, "lookup_not_in_values"
+    return task, None
+
+
+def lookup_keys(program):
+    import ast
+    keys = []
+    for node in ast.walk(ast.parse(program)):
+        if isinstance(node, ast.Call) and \
+                getattr(node.func, "id", "") == "lookup" and \
+                len(node.args) == 2 and isinstance(node.args[1], ast.Dict):
+            keys += [k.value for k in node.args[1].keys]
+    return keys
 
 
 def finish_refusal(ctx, family, plan, built, split, index, code, act,
