@@ -1,0 +1,13 @@
+﻿Codice;Vino;Cantina;Annata;Formato;Prezzo;Disponibilità
+ROS-01;Barolo DOCG;Cantina del Pino;2019;0,75 l;42,00;12
+ROS-02;Barbaresco DOCG;Produttori del Borgo;2020;0,75 l;36,50;8
+ROS-03;Nebbiolo d'Alba DOC;Cascina Rocca;2022;0,75 l;18,90;24
+ROS-04;Chianti Classico DOCG;Fattoria Le Querce;2021;0,75 l;15,50;30
+ROS-05;Brunello di Montalcino DOCG;Podere San Lorenzo;2018;0,75 l;54,00;6
+ROS-06;Primitivo di Manduria DOC;Masseria Le Fonti;2022;0,75 l;14,80;36
+BIA-01;Vermentino di Gallura DOCG;Cantina Mura;2024;0,75 l;13,50;18
+BIA-02;Soave Classico DOC;Tenuta Ca' Bianca;2024;0,75 l;11,90;22
+BIA-03;Greco di Tufo DOCG;Cantine dell'Irpinia;2023;0,75 l;16,00;10
+BOL-01;Franciacorta Brut DOCG;Cantina Bersi;s.a.;0,75 l;27,00;15
+BOL-02;Prosecco Superiore Valdobbiadene DOCG;Col de' Salici;2024;0,75 l;12,50;48
+BOL-03;Prosecco Superiore Valdobbiadene DOCG;Col de' Salici;2024;1,5 l (magnum);29,00;4

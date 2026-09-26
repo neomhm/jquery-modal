@@ -1,0 +1,9 @@
+# Tulip - the Python packages it needs (torch is installed separately:
+# build.py and check.py never install or upgrade it)
+torch>=2.4
+tokenizers>=0.20
+openpyxl>=3.1
+phonenumbers
+numpy
+# optional: Hijri dates in Arabic sheets
+hijridate

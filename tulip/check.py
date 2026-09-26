@@ -171,6 +171,8 @@ def collect():
     }
     env["missing_required"] = [p for p in REQUIRED
                                if not env["packages"].get(p)]
+    env["missing_optional"] = [p for p in ("hijridate",)
+                               if not env["packages"].get(p)]
     return env
 
 
