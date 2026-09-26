@@ -154,6 +154,17 @@ def make_split(preset, split, n, workers, train_keys, log):
     return stats
 
 
+def iter_split(preset, split):
+    """The tasks of a split one at a time (a split can be gigabytes)."""
+    path = config.data_dir(preset) / ("%s.jsonl.gz" % split)
+    if not path.exists():
+        return
+    with gzip.open(path, "rt", encoding="utf-8") as f:
+        for line in f:
+            if line.strip():
+                yield json.loads(line)
+
+
 def read_split(preset, split):
     path = config.data_dir(preset) / ("%s.jsonl.gz" % split)
     if not path.exists():

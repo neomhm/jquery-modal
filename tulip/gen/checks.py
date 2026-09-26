@@ -86,7 +86,16 @@ def run(preset, token_counts=None):
         if not ok:
             report["passed"] = False
 
-    splits = dict((s, make.read_split(preset, s)) for s in config.SPLITS)
+    # only the light fields of every task (a split can be gigabytes)
+    keep = ("id", "lang", "locale", "family", "traps", "answer", "program",
+            "holdout", "n_rows")
+
+    def light(t):
+        out = dict((k, t.get(k)) for k in keep)
+        out["values"] = values_line(t["preview"])
+        return out
+    splits = dict((s, [light(t) for t in make.iter_split(preset, s)])
+                  for s in config.SPLITS)
     everything = [t for s in config.SPLITS for t in splits[s]]
     # 1. discards
     tried = sum(v["made"] + v["duplicates"] + v["discards"]
@@ -193,7 +202,7 @@ def run(preset, token_counts=None):
     for t in everything:
         keys = lookup_keys(t["program"])
         if keys:
-            shown = values_line(t["preview"])
+            shown = t["values"]
             bad_keys += sum(1 for k in keys if k not in shown)
     check("8 NFKC programs, lookup keys in the preview",
           bad_nfkc == 0 and bad_keys == 0,

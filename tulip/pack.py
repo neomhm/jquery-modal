@@ -25,7 +25,7 @@ import numpy as np
 import config
 import model as M
 import tok as TK
-from gen.make import read_split
+from gen.make import iter_split
 
 LIMIT = 4096
 
@@ -33,12 +33,12 @@ LIMIT = 4096
 def train_tokenizer(preset, log=print):
     out = config.runs_dir(preset)
     out.mkdir(parents=True, exist_ok=True)
-    train = read_split(preset, "train")
-    texts = []
-    for t in train:
-        texts.append(t["preview"])
-        texts.append(t["program"])
-    tok = TK.train_tokenizer(texts, config.PRESETS[preset]["vocab_size"])
+    def texts():
+        # one task at a time: a whole split in memory can be gigabytes
+        for t in iter_split(preset, "train"):
+            yield t["preview"]
+            yield t["program"]
+    tok = TK.train_tokenizer(texts(), config.PRESETS[preset]["vocab_size"])
     (out / "tokenizer.json").write_text(tok.to_str(), encoding="utf-8")
     report = length_report(preset, tok, log)
     (out / "tokenizer_report.json").write_text(
@@ -69,7 +69,7 @@ def length_report(preset, tok, log=print):
     counts = {}
     over = total = 0
     for split in config.SPLITS:
-        for t in read_split(preset, split):
+        for t in iter_split(preset, split):
             n_prev = len(TK.encode(tok, t["preview"]))
             n = n_prev + len(TK.encode(tok, t["program"])) + 2
             counts[t["id"]] = n
@@ -78,7 +78,9 @@ def length_report(preset, tok, log=print):
             if split == "train":
                 per_lang.setdefault(t["lang"], []).append(n_prev)
     failed = 0
-    for t in read_split(preset, "val"):
+    n_val = 0
+    for t in iter_split(preset, "val"):
+        n_val += 1
         ids = TK.encode(tok, t["program"])
         if TK.decode(tok, ids) != unicodedata.normalize("NFKC",
                                                         t["program"]):
@@ -90,7 +92,7 @@ def length_report(preset, tok, log=print):
                                for l, v in sorted(per_lang.items())),
         "over_limit": over, "tasks": total,
         "over_limit_share": over / max(1, total),
-        "round_trip": {"programs": len(read_split(preset, "val")),
+        "round_trip": {"programs": n_val,
                        "failed": failed},
         "token_counts": counts}
     log("tokenizer: vocab %d, %d of %d tasks over %d tokens, round trip "
@@ -107,7 +109,7 @@ def pack(preset, log=print):
     stats = {}
     for split in ("train", "val"):
         ids_all, lab_all, offsets, dropped = [], [], [0], 0
-        for t in read_split(preset, split):
+        for t in iter_split(preset, split):
             prompt = TK.encode(tok, t["preview"])
             program = TK.encode(tok, t["program"])
             ids, labels = M.training_pair(prompt, program, TK.PROGRAM,
