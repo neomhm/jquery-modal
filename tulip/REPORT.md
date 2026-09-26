@@ -3,7 +3,7 @@
 ## 1. Summary
 
 * **smoke**: dev_heldout pass@1 0.000 / loop 0.020; val pass@1 0.020 / loop 0.020 (dev splits only)
-* **pilot**: dev_heldout pass@1 0.082 / loop 0.086; val pass@1 0.096 / loop 0.084 (dev splits only)
+* **pilot**: dev_heldout pass@1 0.104 / loop 0.136; val pass@1 0.128 / loop 0.146 (dev splits only)
 
 ## 2. Environment
 
@@ -173,7 +173,7 @@ dev_heldout: unparsable_program 43, wrong_header_row 4, wrong_helper 1, wrong_ta
 
 | split | tasks | discards (self-check) | duplicates dropped | not made | real-file round trips | different previews |
 |---|---|---|---|---|---|---|
-| train | 30000 | 92 | 0 | 0 | 300 | 0 |
+| train | 60000 | 184 | 0 | 0 | 600 | 0 |
 | val | 500 | 0 | 0 | 0 | 5 | 0 |
 | dev_heldout | 500 | 2 | 0 | 0 | 5 | 0 |
 | test_seen | 500 | 0 | 0 | 0 | 5 | 0 |
@@ -183,45 +183,45 @@ dev_heldout: unparsable_program 43, wrong_header_row 4, wrong_helper 1, wrong_ta
 
 train, by language: ar 10.0%, zh 10.0%, en 10.0%, fr 10.0%, ru 10.0%, es 10.0%, it 10.0%, hi 10.0%, ja 10.0%, ko 10.0%
 
-train, by answer: products 21.7%, services 13.6%, invoice_ledger 11.6%, clients 10.5%, opening_hours 10.4%, bookings 10.2%, staff 9.9%, no_matching_target 6.3%, missing_required 3.3%, not_a_table 2.0%, too_wide 0.5%
+train, by answer: products 21.5%, services 13.8%, invoice_ledger 11.6%, clients 10.5%, opening_hours 10.3%, bookings 10.2%, staff 10.1%, no_matching_target 6.4%, missing_required 3.1%, not_a_table 2.0%, too_wide 0.5%
 
 refusal share: 12.0%
 
-train, by family (62 families): bookings.date_time 451, bookings.day_sections 432, bookings.duration 435, bookings.staff_price 419, bookings.start_end 419, bookings.time_range 444, bookings.title_rows 471, clients.address_one_cell 458, clients.address_split 450, clients.crm_export 439, clients.first_last 466, clients.private_persons 435, clients.registration 459, clients.title_rows 430, invoice_ledger.credit_notes 524, invoice_ledger.csv_export 540, invoice_ledger.currency_header 548, invoice_ledger.due_paid 520, invoice_ledger.monthly_subtotals 217, invoice_ledger.status 552, invoice_ledger.title_rows 573, opening_hours.abbreviations 395, opening_hours.days_columns 1177, opening_hours.days_rows 390, opening_hours.morning_afternoon 378, opening_hours.notes_column 387, opening_hours.opens_closes 400, products.catalogue 525, products.csv_export 537, products.currency_header 526, products.extra_columns 544, products.repeated_headers 528, products.sections 403, products.simple 523, products.size_columns 409, products.size_columns_sections 349, products.title_rows 552, products.totals 539, products.two_prices 523, products.two_row_header 550, refusals.agenda_grid 124, refusals.budget 131, refusals.matrix 119, refusals.missing_required 978, refusals.not_offered 1890, refusals.notes_page 116, refusals.pivot 110, refusals.too_wide 147, services.csv_export 628, services.duration_column 589, services.from_prices 634, services.sections 333, services.staff_column 654, services.title_rows 644, services.two_prices 607, staff.department_sections 392, staff.first_last 435, staff.full_name 446, staff.hr_export 410, staff.last_first 435, staff.role_department 441, staff.start_dates 420
+train, by family (62 families): bookings.date_time 877, bookings.day_sections 860, bookings.duration 868, bookings.staff_price 859, bookings.start_end 880, bookings.time_range 877, bookings.title_rows 898, clients.address_one_cell 979, clients.address_split 905, clients.crm_export 878, clients.first_last 888, clients.private_persons 871, clients.registration 901, clients.title_rows 889, invoice_ledger.credit_notes 1072, invoice_ledger.csv_export 1101, invoice_ledger.currency_header 1093, invoice_ledger.due_paid 1047, invoice_ledger.monthly_subtotals 446, invoice_ledger.status 1066, invoice_ledger.title_rows 1119, opening_hours.abbreviations 729, opening_hours.days_columns 2349, opening_hours.days_rows 801, opening_hours.morning_afternoon 732, opening_hours.notes_column 781, opening_hours.opens_closes 783, products.catalogue 1018, products.csv_export 1055, products.currency_header 1049, products.extra_columns 1094, products.repeated_headers 1073, products.sections 781, products.simple 1019, products.size_columns 835, products.size_columns_sections 698, products.title_rows 1050, products.totals 1073, products.two_prices 1096, products.two_row_header 1067, refusals.agenda_grid 230, refusals.budget 258, refusals.matrix 245, refusals.missing_required 1882, refusals.not_offered 3811, refusals.notes_page 234, refusals.pivot 227, refusals.too_wide 325, services.csv_export 1232, services.duration_column 1226, services.from_prices 1293, services.sections 690, services.staff_column 1276, services.title_rows 1260, services.two_prices 1305, staff.department_sections 778, staff.first_last 883, staff.full_name 898, staff.hr_export 818, staff.last_first 896, staff.role_department 906, staff.start_dates 870
 
 Generator self-checks (section 10.8):
 
 * PASS 1 self-check discards <= 0.5%
-  * 97 discards of 32597 tasks (0.30%); 0 tasks could not be made
+  * 189 discards of 62689 tasks (0.30%); 0 tasks could not be made
 * PASS 2 programs canonical
   * 0 not canonical
 * PASS 3 traps, families, languages
   * T1 35% of products (needs 30%)
   * T2 24% of products and services (needs 20%)
   * T3 13% of products (needs 10%)
-  * T4 44% of tables with >= 8 rows (needs 40%)
+  * T4 43% of tables with >= 8 rows (needs 40%)
   * T5 57% of tables (needs 50%)
   * T6 10% of tables (needs 10%)
-  * T7 28% of products and services (needs 25%)
-  * T8 16% of products (needs 15%)
-  * T8 48% of opening_hours (needs 40%)
+  * T7 27% of products and services (needs 25%)
+  * T8 17% of products (needs 15%)
+  * T8 47% of opening_hours (needs 40%)
   * T9 16% of tables (needs 15%)
   * T10 55% of staff (needs 50%)
   * T10 53% of clients (needs 30%)
-  * T11 42% of bookings (needs 40%)
+  * T11 43% of bookings (needs 40%)
   * T12 77% of bookings and ledgers (needs 70%)
   * T13 40% of amount tables (needs 30%)
   * T14 29% of tables (needs 20%)
-  * missing_required (T15) 3.3% of tasks (3.5%)
-  * no_matching_target 6.3% of tasks (6.0%)
+  * missing_required (T15) 3.1% of tasks (3.5%)
+  * no_matching_target 6.4% of tasks (6.0%)
   * not_a_table 2.0% of tasks (2.0%)
   * too_wide 0.5% of tasks (0.5%)
   * every family appears in its splits
   * languages: ar 10.0%, zh 10.0%, en 10.0%, fr 10.0%, ru 10.0%, es 10.0%, it 10.0%, hi 10.0%, ja 10.0%, ko 10.0%
 * PASS 4 real-file round trip (1%)
-  * 325 files, 0 with a different preview
+  * 625 files, 0 with a different preview
 * PASS 5 helpers give the truth >= 99.5%
-  * 99.998% of 7126182 values
+  * 99.997% of 13822953 values
 * PASS 6 hold-out rules
   * all kept
 * PASS 7 token lengths
@@ -233,28 +233,28 @@ Preview tokens per language (train):
 
 | language | p50 | p95 | max |
 |---|---|---|---|
-| ar | 768 | 1802 | 4093 |
-| en | 791 | 1766 | 4609 |
-| es | 773 | 1830 | 4400 |
-| fr | 807 | 1834 | 3873 |
-| hi | 767 | 1838 | 3631 |
-| it | 753 | 1737 | 4288 |
-| ja | 839 | 1897 | 4726 |
-| ko | 814 | 1884 | 4932 |
-| ru | 836 | 1875 | 4901 |
-| zh | 780 | 1845 | 4733 |
+| ar | 782 | 1794 | 4307 |
+| en | 779 | 1794 | 4618 |
+| es | 773 | 1837 | 4462 |
+| fr | 785 | 1792 | 4636 |
+| hi | 773 | 1810 | 4486 |
+| it | 770 | 1745 | 4317 |
+| ja | 820 | 1948 | 4970 |
+| ko | 815 | 1884 | 4930 |
+| ru | 845 | 1870 | 5053 |
+| zh | 792 | 1864 | 4732 |
 
-Tasks over 4,096 tokens: 32 of 32500 (0.1%). Tokenizer round trip on val programs: 0 failures.
+Tasks over 4,096 tokens: 68 of 62500 (0.1%). Tokenizer round trip on val programs: 0 failures.
 
 ## 4. Model — pilot
 
 Preset **pilot**: vocabulary 16000, d_model 256, 6 layers, 4 heads, ffn 704, max_len 4096, dropout 0.0.
 
-Parameters: 8916224 (4820224 outside the embedding). Steps: 1920 of 1921 planned (1.00 epochs), 62.1 training minutes. Chosen checkpoint: step 1855 (dev sample execution match 0.0820).
+Parameters: 8916224 (4820224 outside the embedding). Steps: 2711 of 2711 planned (0.70 epochs), 87.1 training minutes. Chosen checkpoint: step 2711 (dev sample execution match 0.1040).
 
-Loss curve (step: smoothed loss): 50: 5.181, 500: 0.351, 1000: 0.246, 1450: 0.226, 1900: 0.186
+Loss curve (step: smoothed loss): 50: 5.139, 700: 0.349, 1400: 0.227, 2050: 0.164, 2700: 0.165
 
-Model-selection evaluations: step 461: 0.002, step 932: 0.004, step 1382: 0.042, step 1855: 0.082, step 1920: 0.082
+Model-selection evaluations: step 451: 0.000, step 921: 0.024, step 1392: 0.026, step 1863: 0.074, step 2334: 0.070, step 2711: 0.104
 
 ## 5. Results — pilot
 
@@ -278,69 +278,101 @@ The gate applies to the full preset only; for pilot these are reported, not gate
 
 | split | tasks | pass@1 | loop | loop (importable) | false accepts | refusal P / R | target acc. | needs_review | CPU s greedy med / p95 | CPU s loop med / p95 |
 |---|---|---|---|---|---|---|---|---|---|---|
-| val | 500 | 0.096 | 0.084 | 0.0804 | 96 (72.7%) | 0.5833333333333334 / 0.1346153846153846 | 0.8103 | 0.712 | 0.593 / 1.4 | 4.761 / 13.638 |
-| dev_heldout | 500 | 0.082 | 0.086 | 0.0542 | 93 (79.5%) | 0.8695652173913043 / 0.3508771929824561 | 0.7652 | 0.72 | 0.629 / 1.506 | 4.973 / 15.001 |
+| val | 500 | 0.128 | 0.146 | 0.125 | 100 (64.1%) | 0.7142857142857143 / 0.38461538461538464 | 0.8214 | 0.632 | 0.621 / 1.497 | 5.058 / 14.443 |
+| dev_heldout | 500 | 0.104 | 0.136 | 0.079 | 78 (69.0%) | 0.5070422535211268 / 0.631578947368421 | 0.7223 | 0.632 | 0.625 / 1.579 | 5.022 / 15.629 |
 
 ##### val: loop by language, target and trap
 
-languages: ar 0.18, en 0.08, es 0.06, fr 0.02, hi 0.1, it 0.06, ja 0.1, ko 0.06, ru 0.08, zh 0.1
+languages: ar 0.18, en 0.2, es 0.14, fr 0.08, hi 0.18, it 0.1, ja 0.08, ko 0.18, ru 0.22, zh 0.1
 
-targets: bookings 0.0, clients 0.0612, invoice_ledger 0.0, opening_hours 0.3582, products 0.0515, refusal 0.1154, services 0.0, staff 0.069
+targets: bookings 0.0, clients 0.0612, invoice_ledger 0.0, opening_hours 0.5522, products 0.0515, refusal 0.3269, services 0.0278, staff 0.1552
 
-traps: T1 0.0, T2 0.0, T3 0.0, T4 0.0492, T5 0.0295, T6 0.0, T7 0.0, T8 0.2653, T9 0.0, T10 0.0323, T11 0.0455, T12 0.0109, T13 0.0, T14 0.0226, T15 0.0
+traps: T1 0.0, T2 0.0, T3 0.0, T4 0.041, T5 0.0738, T6 0.0612, T7 0.0189, T8 0.5306, T9 0.0278, T10 0.1129, T11 0.0, T12 0.0109, T13 0.0, T14 0.0602, T15 0.2222
 
 ##### dev_heldout: loop by language, target and trap
 
-languages: ar 0.06, en 0.02, es 0.1, fr 0.16, hi 0.1, it 0.02, ja 0.08, ko 0.12, ru 0.08, zh 0.12
+languages: ar 0.08, en 0.02, es 0.14, fr 0.2, hi 0.2, it 0.02, ja 0.08, ko 0.28, ru 0.1, zh 0.24
 
-targets: bookings 0.0, clients 0.0556, invoice_ledger 0.0, opening_hours 0.2979, products 0.0217, refusal 0.3333, services 0.0, staff 0.0735
+targets: bookings 0.0164, clients 0.037, invoice_ledger 0.0, opening_hours 0.4894, products 0.0217, refusal 0.5789, services 0.0526, staff 0.0588
 
-traps: T1 0.0, T2 0.0, T3 0.0, T4 0.0329, T5 0.0339, T6 0.0345, T7 0.0, T8 0.25, T9 0.0, T10 0.0909, T11 0.0, T12 0.0, T13 0.0, T14 0.0127, T15 0.0
+traps: T1 0.0278, T2 0.069, T3 0.0, T4 0.0461, T5 0.0949, T6 0.0345, T7 0.0238, T8 0.5714, T9 0.0385, T10 0.0909, T11 0.0217, T12 0.0, T13 0.0206, T14 0.0063, T15 0.25
 
 #### Error groups (val and dev_heldout only)
 
-val: wrong_header_row 199, unparsable_program 92, missing_field 51, wrong_refusal 35, wrong_layout 28, extra_field 24, wrong_column 17, wrong_filter 6, missing_filter 6, wrong_helper 4, wrong_target 2, refused_importable 2
+val: wrong_header_row 201, unparsable_program 84, missing_field 38, wrong_refusal 27, extra_field 26, wrong_layout 22, wrong_column 20, wrong_filter 19, wrong_helper 7, refused_importable 4, wrong_target 3
 
-dev_heldout: wrong_header_row 230, unparsable_program 110, missing_field 34, wrong_refusal 27, extra_field 18, wrong_layout 16, wrong_column 14, missing_filter 6, wrong_target 5, wrong_filter 3, refused_importable 2, wrong_helper 1
+dev_heldout: wrong_header_row 214, unparsable_program 96, refused_importable 31, missing_field 27, extra_field 22, wrong_refusal 20, wrong_layout 17, wrong_filter 12, wrong_column 9, wrong_helper 5, wrong_target 1, missing_filter 1
 
 
 
 ## 6. Error analysis — pilot (dev_heldout only)
 
-* **wrong_header_row**: 230
-  * `dev_heldout-000002` (services.staff_column, en): wrote `target('services') / header(1) / out.name = text(col('A')) / out.category = text(col('B'))` - expected `target('services') / header(4) / sections() / out.name = text(col('A'))`
-  * `dev_heldout-000005` (staff.full_name, es): wrote `target('staff') / header(1) / keep(not_total('F')) / out.name = text(col('A'))` - expected `target('staff') / header(2) / keep(not_total('G')) / out.name = text(col('G'))`
-* **unparsable_program**: 110
+* **wrong_header_row**: 214
+  * `dev_heldout-000002` (services.staff_column, en): wrote `target('services') / header(1) / out.name = text(col('C')) / out.category = text(col('D'))` - expected `target('services') / header(4) / sections() / out.name = text(col('A'))`
+  * `dev_heldout-000005` (staff.full_name, es): wrote `target('staff') / header(1) / keep(not_total('A')) / out.name = text(col('A'))` - expected `target('staff') / header(2) / keep(not_total('G')) / out.name = text(col('G'))`
+* **unparsable_program**: 96
   * `dev_heldout-000000` (bookings.datetime_cell, ar): wrote `target('bookings') / header(1) / out.date = date(col('A')) / out.start_time = time(col('A'))` - expected `target('bookings') / header(1) / out.date = date(col('D')) / out.start_time = time(col('D'))`
-  * `dev_heldout-000003` (clients.companies, fr): wrote `target('clients') / header(1) / out.name = text(part(col('A'), ' / ', 0)) / out.address = text(col('B'))` - expected `target('clients') / header(1) / out.name = text(col('A')) / out.contact_person = text(col('E'))`
-* **missing_field**: 34
-  * `dev_heldout-000025` (products.category_sheet, es): wrote `target('products') / header(1) / out.sku = text(col('B')) / out.name = text(col('C'))` - expected `target('products') / header(1) / out.sku = text(col('A')) / out.name = text(col('B'))`
-  * `dev_heldout-000047` (products.currency_header, hi): wrote `target('products') / header(1) / out.sku = text(col('A')) / out.name = text(col('B'))` - expected `target('products') / header(1) / out.name = text(col('E')) / out.category = text(col('A'))`
-* **wrong_refusal**: 27
-  * `dev_heldout-000013` (refusals.not_offered, fr): wrote `target('staff') / header(1) / keep(not_total('A')) / out.name = text(col('A'))` - expected `refuse('no_matching_target')`
-  * `dev_heldout-000017` (refusals.not_offered, hi): wrote `target('services') / header(1) / out.name = text(col('A')) / out.category = text(col('B'))` - expected `refuse('no_matching_target')`
-* **extra_field**: 18
+  * `dev_heldout-000004` (invoice_ledger.status, ru): wrote `target('invoice_ledger') / header(1) / out.number = text(col('A')) / out.date = date(col('B'))` - expected `target('invoice_ledger') / header(1) / out.number = text(col('G')) / out.date = date(col('F'))`
+* **refused_importable**: 31
+  * `dev_heldout-000025` (products.category_sheet, es): wrote `refuse('no_matching_target')` - expected `target('products') / header(1) / out.sku = text(col('A')) / out.name = text(col('B'))`
+  * `dev_heldout-000036` (products.category_sheet, it): wrote `refuse('not_a_table')` - expected `target('products') / header(1) / out.sku = text(col('B')) / out.name = text(col('E'))`
+* **missing_field**: 27
+  * `dev_heldout-000003` (clients.companies, fr): wrote `target('clients') / header(1) / out.name = text(join(' ', col('B'), col('A'))) / out.address = text(col('C'))` - expected `target('clients') / header(1) / out.name = text(col('A')) / out.contact_person = text(col('E'))`
   * `dev_heldout-000022` (products.extra_columns, en): wrote `target('products') / header(1) / sections() / out.sku = text(col('A'))` - expected `target('products') / header(1) / sections() / out.sku = text(col('A'))`
+* **extra_field**: 22
   * `dev_heldout-000049` (clients.companies, ko): wrote `target('clients') / header(1) / out.name = text(col('A')) / out.contact_person = text(col('B'))` - expected `target('clients') / header(1) / out.name = text(col('E')) / out.phone = phone(col('A'))`
-* **wrong_layout**: 16
-  * `dev_heldout-000042` (services.simple, en): wrote `target('services') / header(1) / out.name = text(col('A')) / out.price = amount(col('B'))` - expected `target('services') / header(1) / sections() / out.name = text(col('A'))`
-  * `dev_heldout-000067` (staff.department_sections, hi): wrote `target('staff') / header(1) / out.name = text(join(' ', col('B'), col('A'))) / out.role = text(col('C'))` - expected `target('staff') / header(1) / sections() / out.name = text(col('A'))`
-* **wrong_column**: 14
+  * `dev_heldout-000053` (opening_hours.days_rows, fr): wrote `target('opening_hours') / header(1) / out.day = weekday(col('A')) / out.hours = hours(col('B'))` - expected `target('opening_hours') / header(1) / out.day = weekday(col('A')) / out.hours = hours(col('B'))`
+* **wrong_refusal**: 20
+  * `dev_heldout-000013` (refusals.not_offered, fr): wrote `target('staff') / header(1) / keep(not_total('A')) / out.name = text(join(' ', col('A'), col('B')))` - expected `refuse('no_matching_target')`
+  * `dev_heldout-000017` (refusals.not_offered, hi): wrote `target('services') / header(1) / out.name = text(col('A')) / out.category = text(col('B'))` - expected `refuse('no_matching_target')`
+* **wrong_layout**: 17
+  * `dev_heldout-000042` (services.simple, en): wrote `target('services') / header(1) / out.name = text(col('C')) / out.price = amount(col('B'))` - expected `target('services') / header(1) / sections() / out.name = text(col('A'))`
+  * `dev_heldout-000067` (staff.department_sections, hi): wrote `target('staff') / header(1) / out.name = text(col('A')) / out.role = text(col('B'))` - expected `target('staff') / header(1) / sections() / out.name = text(col('A'))`
+* **wrong_filter**: 12
+  * `dev_heldout-000077` (staff.last_first, hi): wrote `target('staff') / header(1) / keep(not_total('A')) / out.name = text(join(' ', col('A'), col('B')))` - expected `target('staff') / header(1) / keep(not_total('B')) / out.name = text(join(' ', col('B'), col('A')))`
+  * `dev_heldout-000085` (products.sections, es): wrote `target('products') / header(1) / sections() / keep(not_total('B'))` - expected `target('products') / header(1) / sections() / keep(not_total('A'))`
+* **wrong_column**: 9
   * `dev_heldout-000008` (staff.hr_export, ja): wrote `target('staff') / header(1) / keep(not_total('A')) / out.name = text(col('A'))` - expected `target('staff') / header(1) / keep(not_total('A')) / out.name = text(col('A'))`
   * `dev_heldout-000027` (clients.companies, hi): wrote `target('clients') / header(1) / keep(not_total('A')) / out.name = text(col('A'))` - expected `target('clients') / header(1) / keep(not_total('A')) / out.name = text(col('A'))`
-* **missing_filter**: 6
-  * `dev_heldout-000035` (products.totals, es): wrote `target('products') / header(3) / sections() / out.name = text(col('A'))` - expected `target('products') / header(3) / keep(not_total('A')) / out.name = text(col('A'))`
-  * `dev_heldout-000147` (clients.companies, hi): wrote `target('clients') / header(1) / out.name = text(col('A')) / out.contact_person = text(col('B'))` - expected `target('clients') / header(1) / keep(not_total('D')) / out.name = text(col('D'))`
-* **wrong_target**: 5
-  * `dev_heldout-000023` (invoice_ledger.credit_notes, fr): wrote `target('services') / header(1) / out.name = text(col('A')) / out.price = amount(col('B'))` - expected `target('invoice_ledger') / header(3) / out.number = text(col('A')) / out.date = date(col('B'))`
-  * `dev_heldout-000036` (products.category_sheet, it): wrote `target('services') / header(1) / out.name = text(col('A')) / out.price = amount(col('B'))` - expected `target('products') / header(1) / out.sku = text(col('B')) / out.name = text(col('E'))`
-* **wrong_filter**: 3
-  * `dev_heldout-000077` (staff.last_first, hi): wrote `target('staff') / header(1) / keep(not_total('A')) / out.name = text(join(' ', col('B'), col('A')))` - expected `target('staff') / header(1) / keep(not_total('B')) / out.name = text(join(' ', col('B'), col('A')))`
-  * `dev_heldout-000214` (products.repeated_headers, ru): wrote `target('products') / header(1) / keep(not_total('B')) / out.sku = text(col('A'))` - expected `target('products') / header(1) / keep(not_total('F')) / out.sku = text(col('A'))`
+* **wrong_helper**: 5
+  * `dev_heldout-000058` (clients.address_split, ja): wrote `target('clients') / header(1) / out.name = text(join(' ', col('A'), col('B'))) / out.address = text(col('C'))` - expected `target('clients') / header(1) / out.name = text(join(' ', col('B'), col('A'))) / out.address = text(col('C'))`
+  * `dev_heldout-000226` (bookings.date_time, it): wrote `target('bookings') / header(1) / out.date = date(col('A')) / out.start_time = time(col('A'))` - expected `target('bookings') / header(1) / out.date = date(col('A')) / out.start_time = time(col('A'))`
 
 ## 7. Improvement rounds
 
-None yet.
+### Pilot, round 0 (the first pilot build) — the numbers before
+
+30,000 training tasks; training stopped at the one-epoch limit (1,920
+steps, 62 minutes; the 90-minute cap was not reached). Dev-sample execution
+match during training: 0.002 (step 461), 0.004 (932), 0.042 (1,382), 0.082
+(1,855).
+
+| split | pass@1 | loop | needs_review | refusal P / R |
+|---|---|---|---|---|
+| val | 0.096 | 0.084 | 0.71 | 0.58 / 0.13 |
+| dev_heldout | 0.082 | 0.086 | 0.72 | 0.87 / 0.35 |
+
+Error groups (val + dev_heldout, 1,000 tasks): wrong header row 429,
+unparsable program 202, missing field 85, wrong refusal 62, wrong layout
+44, extra field 42, wrong column 31, filters 21.
+
+Reading the examples (all 429 header-row errors counted, 12 read with
+their previews; all 202 unparsable programs classified, 4 read in full):
+
+* **Header row.** In 386 of 429 the model wrote `header(1)` where the
+  header sits below 1–4 title rows (truth 2–5). The previews show the
+  header clearly (the first multi-cell row, with its row number). Not a
+  data problem: the model had not learned it yet.
+* **Unparsable programs.** 149 of 202 are `duplicate_lookup_key`: the
+  model writes status words from other languages or repeats a key instead
+  of copying the VALUES line. Also under-training.
+* **Data defect found:** Russian title rows put a month in the genitive
+  ("Журнал счетов за января"): cosmetic, fixed after the final
+  evaluation (see below).
+
+Cause: under-training (the learning curve was still steep). Change,
+allowed by section 22: **2× the training tasks (60,000)**, so training
+runs the whole 90-minute cap instead of stopping after one short epoch.
 
 ## 8. Deviations and decisions
 

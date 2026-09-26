@@ -158,8 +158,14 @@ class Ctx:
         if not titles:
             return None
         t = self.rng.choice(titles)
+        m = self.rng.randint(1, 12)
+        # a title names a month on its own ("за январь"): the plain form,
+        # not the genitive that Russian dates use ("15 января")
+        full = (self.values.get("months") or {}).get("full") or []
+        month = full[m - 1] if self.lang == "ru" and len(full) == 12 \
+            else self.fmt.month_name(m)
         return t.format(year=REF.year - self.rng.choice([0, 0, 1]),
-                        month=self.fmt.month_name(self.rng.randint(1, 12)),
+                        month=month,
                         business=business_name or self.business_name(),
                         date=self.fmt.date_text(REF))
 

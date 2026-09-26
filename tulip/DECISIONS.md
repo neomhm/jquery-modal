@@ -209,6 +209,27 @@ Cause: under-training (the learning curve was still steep). Change,
 allowed by section 22: **2× the training tasks (60,000)**, so training
 runs the whole 90-minute cap instead of stopping after one short epoch.
 
+### Pilot, round 1 — the numbers after
+
+60,000 training tasks (all eight generator checks pass; 0.3% discards),
+2711 steps in the 90-minute cap (0.70 epochs), chosen step 2711. Dev-sample
+execution match during training: 0.000 (step 451), 0.024 (step 921), 0.026 (step 1392), 0.074 (step 1863), 0.070 (step 2334), 0.104 (step 2711).
+
+| split | pass@1 (round 0 → 1) | loop (round 0 → 1) | needs_review | refusal P / R |
+|---|---|---|---|---|
+| val | 0.096 → 0.128 | 0.084 → 0.146 | 0.71 → 0.63 | 0.58 / 0.13 → 0.71 / 0.38 |
+| dev_heldout | 0.082 → 0.104 | 0.086 → 0.136 | 0.72 → 0.63 | 0.87 / 0.35 → 0.51 / 0.63 |
+
+The largest groups are unchanged in kind (wrong header row 415, unparsable
+programs 180, missing field 65): the pilot is still under-trained. Rounds
+stopped here: another round of the same kind would cost 2.5 hours on this
+CPU for a similar step, and the fix for these errors is the full preset's
+training (GPU, 400,000 tasks, 3 epochs), not a data change.
+
+Also fixed after the evaluations (generator 1.0.1): Russian title rows now
+use the month's plain form ("за январь"); the pilot's data was made with
+1.0.0.
+
 ## Suggestions
 
 (Ideas that would change a FIXED section; not applied.)
