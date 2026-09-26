@@ -175,7 +175,39 @@ a70d10c3ab0530fef45f57e1b5262e4d2fbc14a899ccc404d190c3f968c424b9  hw-zh-03.csv
 
 ## Improvement rounds
 
-None yet.
+### Pilot, round 0 (the first pilot build) — the numbers before
+
+30,000 training tasks; training stopped at the one-epoch limit (1,920
+steps, 62 minutes; the 90-minute cap was not reached). Dev-sample execution
+match during training: 0.002 (step 461), 0.004 (932), 0.042 (1,382), 0.082
+(1,855).
+
+| split | pass@1 | loop | needs_review | refusal P / R |
+|---|---|---|---|---|
+| val | 0.096 | 0.084 | 0.71 | 0.58 / 0.13 |
+| dev_heldout | 0.082 | 0.086 | 0.72 | 0.87 / 0.35 |
+
+Error groups (val + dev_heldout, 1,000 tasks): wrong header row 429,
+unparsable program 202, missing field 85, wrong refusal 62, wrong layout
+44, extra field 42, wrong column 31, filters 21.
+
+Reading the examples (all 429 header-row errors counted, 12 read with
+their previews; all 202 unparsable programs classified, 4 read in full):
+
+* **Header row.** In 386 of 429 the model wrote `header(1)` where the
+  header sits below 1–4 title rows (truth 2–5). The previews show the
+  header clearly (the first multi-cell row, with its row number). Not a
+  data problem: the model had not learned it yet.
+* **Unparsable programs.** 149 of 202 are `duplicate_lookup_key`: the
+  model writes status words from other languages or repeats a key instead
+  of copying the VALUES line. Also under-training.
+* **Data defect found:** Russian title rows put a month in the genitive
+  ("Журнал счетов за января"): cosmetic, fixed after the final
+  evaluation (see below).
+
+Cause: under-training (the learning curve was still steep). Change,
+allowed by section 22: **2× the training tasks (60,000)**, so training
+runs the whole 90-minute cap instead of stopping after one short epoch.
 
 ## Suggestions
 

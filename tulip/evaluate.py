@@ -302,20 +302,58 @@ def evaluate_folder(runner, folder, log):
 
 
 # ---------------------------------------------------------------------
-def run(preset, dev_only=False, model_path=None, log=print):
+#  several processes at once (one CPU thread each): writing one program
+#  is a chain of small steps that one thread runs as fast as four
+# ---------------------------------------------------------------------
+_RUNNER = None
+
+
+def _worker_init(path):
+    global _RUNNER
+    from tulip import Tulip
+    torch.set_num_threads(1)
+    _RUNNER = Tulip(path, threads=1)
+
+
+def _worker_job(job):
+    split, tasks, keep = job
+    return evaluate_split(_RUNNER, split, tasks, keep, lambda *a: None)
+
+
+def evaluate_parallel(path, split, tasks, keep, workers, log):
+    import multiprocessing
+    if workers <= 1 or len(tasks) < 8:
+        _worker_init(path)
+        return evaluate_split(_RUNNER, split, tasks, keep, log)
+    size = max(1, len(tasks) // (workers * 6))
+    jobs = [(split, tasks[k:k + size], keep)
+            for k in range(0, len(tasks), size)]
+    per = []
+    started = time.time()
+    with multiprocessing.get_context("spawn").Pool(
+            workers, initializer=_worker_init, initargs=(str(path),)) as pool:
+        for part in pool.imap(_worker_job, jobs):
+            per += part
+            log("  %s: %d / %d (%.0f s)" % (split, len(per), len(tasks),
+                                            time.time() - started))
+    return per
+
+
+def run(preset, dev_only=False, model_path=None, log=print, workers=None):
+    import os
     from tulip import Tulip
     out = config.runs_dir(preset)
-    torch.set_num_threads(max(1, torch.get_num_threads()))
     path = model_path or (out / "best.pt")
-    runner = Tulip(path)
+    workers = workers or os.cpu_count() or 1
     splits = list(config.DEV_SPLITS) if dev_only else list(config.SPLITS[1:])
     result = {"preset": preset, "dev_only": dev_only, "model": str(
         pathlib.Path(path).name), "splits": {}, "errors": {}}
     for split in splits:
         tasks = read_tasks(preset, split)
-        log("evaluating %s (%d tasks)" % (split, len(tasks)))
-        per = evaluate_split(runner, split, tasks, split in ERROR_SPLITS,
-                             log)
+        log("evaluating %s (%d tasks, %d processes)" % (split, len(tasks),
+                                                       workers))
+        per = evaluate_parallel(path, split, tasks, split in ERROR_SPLITS,
+                                workers, log)
         result["splits"][split] = summarize(per)
         if split in ERROR_SPLITS:
             groups = collections.Counter(r["group"] for r in per
@@ -324,6 +362,7 @@ def run(preset, dev_only=False, model_path=None, log=print):
                 "groups": dict(groups.most_common()),
                 "examples": [r for r in per if "group" in r][:400]}
     if not dev_only:
+        runner = Tulip(path)
         result["handwritten"] = evaluate_folder(runner, HERE / "handwritten",
                                                 log)
         result["real_eval"] = evaluate_folder(runner, HERE / "real_eval",

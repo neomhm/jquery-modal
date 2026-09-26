@@ -64,7 +64,8 @@ PRESETS = {
         # PyTorch use its slow attention; one epoch never repeats data)
         "vocab_size": 16000, "d_model": 256, "n_layer": 6, "n_head": 4,
         "ffn_hidden": 704, "max_len": 4096, "dropout": 0.0,
-        "tasks": {"train": 30000, "val": 500, "dev_heldout": 500,
+        # train 60,000 = 2x, improvement round 1 (DECISIONS.md)
+        "tasks": {"train": 60000, "val": 500, "dev_heldout": 500,
                   "test_seen": 500, "test_heldout": 500, "test_locale": 200,
                   "traps": 300},
         "train": {"steps": None, "epochs": 1, "minutes": 90,
