@@ -20,6 +20,12 @@ Every candidate is first tried on the first 500 data rows; one rejected
 there never runs on the whole sheet. An exception while parsing or
 running a candidate only rejects that candidate.
 
+The rows are in the declared format of tables.schema.json (contract.py):
+a day is "monday".."sunday", opening hours are one row per range with
+opens / closes / closed, a VAT rate is a percent, dates are ISO 8601.
+"rows" and "sources" use the schema's column names; "contract" is the
+schema's version.
+
 Every data row read and not imported is in "skipped" as (row, reason):
 unreadable:<fields>, empty_required, totals_row or removed_by_keep.
 targets must be 1 to 4 known names (ValueError otherwise). import_file()
@@ -39,6 +45,7 @@ import torch
 from tokenizers import Tokenizer
 
 import config
+import contract
 import helpers as H
 import model as M
 import sheets
@@ -296,18 +303,32 @@ class Tulip:
         return out
 
     def _done(self, out, res, prog, text, small, letters, started):
-        """Report with the ORIGINAL column letters (section 8)."""
+        """Report with the ORIGINAL column letters (section 8), the rows
+        in the declared format of tables.schema.json (contract.py: day
+        names, opens / closes, VAT in percent...). A value that is not in
+        its declared format is a bug somewhere: the sheet goes to review
+        and nothing is written."""
         def original(src):
             row, col = src
             if col in ts.LETTERS and ts.LETTERS.index(col) < len(letters):
                 col = letters[ts.LETTERS.index(col)]
             return (row, col)
+        sources = [dict((f, [original(s) for s in srcs])
+                        for f, srcs in record.items())
+                   for record in res.sources]
+        rows, sources, numbers = contract.convert(prog.target, res.rows,
+                                                  sources, res.row_numbers)
+        out["contract"] = contract.version()
+        wrong = contract.check_rows(prog.target, rows)
+        if wrong:
+            out.update(status="needs_review", reason="contract_format",
+                       target=prog.target, program=ts.canonical(text),
+                       problems=["contract:" + w for w in wrong[:10]])
+            out["seconds"] = round(time.time() - started, 3)
+            return out
         out.update(status=res.status, target=prog.target,
-                   program=ts.canonical(text), rows=res.rows,
-                   sources=[dict((f, [original(s) for s in srcs])
-                                 for f, srcs in record.items())
-                            for record in res.sources],
-                   row_numbers=res.row_numbers,
+                   program=ts.canonical(text), rows=rows, sources=sources,
+                   row_numbers=numbers,
                    skipped=skipped_rows(res, small, self.totals),
                    warnings=res.warnings, problems=res.problems)
         out["seconds"] = round(time.time() - started, 3)

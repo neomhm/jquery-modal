@@ -87,6 +87,12 @@ The rows go into the tables `tulip_products`, `tulip_services`… of
 program, problems). Sheets already imported from an unchanged file are
 skipped; a changed file replaces its earlier rows.
 
+Every column has ONE declared format, written in `tables.schema.json`
+(see "Reading Tulip's output" below). A `documents.db` made by Tulip 1
+is migrated the first time: its tables with the old columns are renamed
+`tulip_<table>_before_0_4_draft_tulip_1_1` (nothing is deleted) and every
+sheet is imported again in the new format.
+
 ## The plan.py snippet
 
 ```python
@@ -102,6 +108,38 @@ with tulip_lock:
 Each result says `imported`, `imported_with_warnings`, `refused` (with a
 reason) or `needs_review`, with the rows and the cells each value came from.
 
+## Reading Tulip's output
+
+`tables.schema.json` declares every column of every table: its format,
+its SQLite type, whether it is required, and the allowed values. Tulip's
+rows follow it exactly (a value that would not is sent to review, never
+written), so a reader needs no special case per column:
+
+| format | a value looks like | SQLite |
+|---|---|---|
+| `day` | `"monday"` … `"sunday"` (lower-case English) | TEXT |
+| `time` | `"09:00"`, `"19:30"` (24-hour `HH:MM`) | TEXT |
+| `boolean` | `true` / `false` | INTEGER 1 / 0 |
+| `percent` | `5.5` for 5.5 % (a VAT rate) | REAL |
+| `decimal` | `12.5` (money never carries its currency) | REAL |
+| `currency` | `"EUR"` (ISO 4217) | TEXT |
+| `date` | `"2026-03-03"` (ISO 8601) | TEXT |
+| `minutes`, `integer` | `45`, `12` | INTEGER |
+| `email`, `phone` | `"marie@example.fr"`, `"+33612345678"` (E.164) | TEXT |
+| `text`, `enum` | NFKC text, single spaces; an enum one of its values | TEXT |
+
+`opening_hours` has one row per opening range: a day with a lunch break
+has two rows, a closed day one row with `closed = true` and no `opens`
+or `closes`. A loader reads the file once and checks or converts each
+value by its format alone:
+
+```python
+import contract                        # or json.load(open("tables.schema.json"))
+for column in contract.columns("opening_hours"):
+    print(column["name"], column["format"], contract.sql_type(column))
+problems = contract.check_rows("opening_hours", rows)   # [] when every value is right
+```
+
 ## Adding your own sheets to the evaluation
 
 Put a sheet and the rows you approved in `real_eval/` — see
@@ -112,13 +150,16 @@ Put a sheet and the rows you approved in `real_eval/` — see
 
 * `build.py` — the one command; `check.py` — the machine check
 * `tulip.py` — the API; `import_sheets.py` — the command line
+* `tables.schema.json` — the declared format of every column;
+  `contract.py` — the conversion into it, and its checks
 * `tulipscript.py` — the language, its checks and its interpreter
 * `sheets.py` — reading files and writing the preview; `helpers.py` — the
   cell readers (numbers, dates, times... in ten languages)
 * `gen/` — the synthetic data generator; `handwritten/` — 30 real sheets
   written by hand for the evaluation
 * `pack.py`, `train.py`, `evaluate.py`, `report.py`, `model.py`, `tok.py`
-* `tests/` — `py tests/run_all.py`
+* `tests/` — `py tests/run_all.py`; `py tests/break_guards.py` breaks
+  every guarded line once and shows the test that catches it
 * `vendor/` — openpyxl, et_xmlfile, phonenumbers and hijridate as their
   PyPI wheels, used without installing (hashes in `DECISIONS.md`)
 * `REPORT.md`, `DECISIONS.md`, `MODEL_CARD.md`

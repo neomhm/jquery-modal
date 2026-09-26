@@ -410,6 +410,95 @@ exposed were fixed (sizes-as-columns truth with section rows; stock cells
 whose unit word starts with a digit). Pilot self-check: ALL PASSED, 9
 discards of 62,509 (0.01%), 69 of 62,500 tasks over 4,096 tokens (0.11%).
 
+## Tulip 1.1 — code around the model (work order of 2026-09-27)
+
+Items A–E change only the code around the model and work with the Tulip 1
+model file. Every guard has a test, and `py tests/break_guards.py` breaks
+each guarded line once (in a fresh Python, the file put back afterwards)
+and shows its test failing. Each decision below ends with the one-line
+way to undo it.
+
+### A. One declared format per column (`tables.schema.json`)
+
+1. **One schema file.** `tables.schema.json` declares every column of
+   the seven tables: its format (text, decimal, percent, integer,
+   minutes, boolean, date, time, day, currency, email, phone, enum), its
+   SQLite type, whether it is required, and for enums the values.
+   `contract.py` (standard library only) reads it; `tulip.py` converts
+   its rows into it at output, after the runtime's checks;
+   `import_sheets.py` creates its tables from it; the loader and Daisy
+   can read the same file. The model and TulipScript are unchanged.
+   The formats are the ones the work order proposes. **Contract v0.4
+   (`plan-lab/design/`) was not available here, so the file is marked
+   `"version": "0.4-draft.tulip-1.1"` and must be reconciled with it**:
+   change only this file (and its version); the code and the database
+   follow. *Undo: set each column's format back to Tulip's own kind in
+   `tables.schema.json` and drop its `"tulip"` converter.*
+2. **Day of the week** is lower-case English (`monday` … `sunday`), not
+   0–6. *Undo: remove `"tulip": {"convert": "weekday_name"}` from `day`
+   and give it `"format": "integer"`.*
+3. **Opening hours: one row per opening range.** A day with a lunch
+   break gives two rows (`monday 09:00–12:00`, `monday 14:00–19:00`), a
+   closed day one row with `closed = true` and no `opens`/`closes`; the
+   day's note and sheet row number are repeated on each row, and
+   `opens`, `closes` and `closed` carry the cells of Tulip's hours
+   value. The contract's `opening_hours(day, hours, note)` has one text
+   for the day's hours; Daisy's tables want `opens`/`closes`: one row per
+   range is what a relational table needs to hold both a lunch break and
+   separate times, and `contract.to_internal()` proves nothing is lost
+   (test). A range past midnight (`22:00–02:00`) keeps its closing time
+   on the same row. *Undo: replace `opens`, `closes`, `closed` with
+   `{"name": "hours", "format": "text"}` and delete the `"split"` line.*
+4. **VAT rate is a percent** (5.5 means 5.5 %), Tulip's fraction × 100
+   rounded to 4 decimals (so 0.07 gives 7.0, not 7.000000000000001).
+   The runtime's plausibility check still works on the fraction.
+   *Undo: remove `"tulip": {"convert": "fraction_to_percent"}` from
+   `vat_rate` and give it `"format": "decimal"`.*
+5. **Text is NFKC, trimmed, single-spaced at output.** Tulip's `text()`
+   helper already writes this except in one case (a direction mark
+   between a letter and its accent, removed after NFKC); the output
+   joins them. *Undo: delete the two `normal_text` lines in
+   `contract.convert()`.*
+6. **The other formats are what Tulip's helpers already write**, now
+   declared: money a decimal number with its currency in its own ISO
+   4217 column; dates ISO 8601 `YYYY-MM-DD`; times `HH:MM` 24-hour;
+   phones E.164; e-mail lower case; durations whole minutes. A test
+   checks every value of every column of 280 generated tasks (40 per
+   table, ten languages) against the schema file, read directly.
+   `description` (products, services) is the one column the generator
+   never draws; it is declared all the same. *Undo: edit the format's
+   `pattern` in `tables.schema.json`.*
+7. **A value outside its declared format is a bug, not an import.**
+   The sheet goes to `needs_review` with the reason `contract_format`
+   and the column in its problems, and no row is written. *Undo: delete
+   the `if wrong:` block in `Tulip._done()`.*
+8. **Tulip 1 databases are migrated, never emptied.** At start,
+   `import_sheets.py` renames a `tulip_<table>` whose columns differ from
+   the schema to `tulip_<table>_before_0_4_draft_tulip_1_1` (keeping its
+   rows) and creates the new table; `tulip_imports` gains the columns
+   `contract` (the schema version of each import) and `confidence`.
+   A sheet is skipped as unchanged only if the file, the model AND the
+   schema version are the same, so the first 1.1 run imports every sheet
+   again in the new format. *Undo: `DROP TABLE` the renamed tables once
+   the new ones are checked; to stop the re-import, remove
+   `and prev[4] == contract.version()` in `unchanged()`.*
+9. **Evaluation.** pass@1 still compares the program's own rows (Tulip's
+   field kinds), so it measures the model exactly as Tulip 1's report
+   did. The candidate loop now returns rows in the declared format, so
+   the loop's score compares them with the truth converted by the same
+   code (lossless, tested): on the same programs it gives the same score
+   as before, and Tulip 1.1's numbers stay comparable with Tulip 1's. A
+   `real_eval/truth.jsonl` line whose rows were copied from `--show` says
+   `"truth_format": "contract"`; older lines are in Tulip's field kinds
+   and are converted. *Undo: none needed (the conversion is lossless);
+   to score the loop on Tulip's own rows, compare `res.rows` in
+   `evaluate_split()`.*
+10. **The walking skeleton's `days[v]` special case.** `plan-lab/skeleton`
+    was not available here, so its loader is not changed by this work.
+    With the rows now carrying `day` as its name, the loader can drop
+    `days[v]` and read every column by the schema's format alone
+    (README, "Reading Tulip's output"). *Undo: n/a.*
+
 ## Suggestions
 
 (Ideas that would change a FIXED section; not applied.)

@@ -28,7 +28,13 @@ py import_sheets.py "C:\Users\Laurent\new model\tulip\real_eval" --db "C:\Users\
   refused the reason: `not_a_table`, `no_matching_target`,
   `missing_required:<field>` or `too_wide` (then `truth` is `[]`).
 * `truth` lists every imported row in sheet order, with only the fields
-  that have a value (the field names are in section 6 of the build
-  instructions and in `tulipscript.SCHEMAS`).
+  that have a value.
+* When you copied the rows from `--show`, they are in the declared format
+  of `tables.schema.json` (`"day": "monday"`, `"opens": "09:00"`,
+  `"vat_rate": 5.5`): add `"truth_format": "contract"` to the line.
+  Without it, the rows are read in Tulip's own field kinds (section 6 of
+  the build instructions and `tulipscript.SCHEMAS`: `"day": 0`,
+  `"hours": "09:00-19:00"`, `"vat_rate": 0.055`), as in Tulip 1, and
+  converted before they are compared.
 
 These sheets are never used for training.

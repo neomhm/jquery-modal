@@ -32,6 +32,7 @@ import numpy as np
 import torch
 
 import config
+import contract
 import sheets
 import tulipscript as ts
 from gen.tasks import sheet_from_task
@@ -46,6 +47,17 @@ def read_tasks(preset, split):
         return []
     with gzip.open(path, "rt", encoding="utf-8") as f:
         return [json.loads(line) for line in f if line.strip()]
+
+
+def truth_rows(target, rows, fmt="tulipscript"):
+    """The truth in the declared format of tables.schema.json, as the
+    loop's rows are (contract.py). A task's truth and the handwritten
+    truth.jsonl are written in Tulip's own field kinds ("tulipscript");
+    a real_eval line says "truth_format": "contract" when its rows were
+    copied from import_sheets.py --show."""
+    if fmt == "contract" or target not in config.TARGETS:
+        return clean(rows)
+    return clean(contract.convert_rows(target, rows))
 
 
 def clean(rows):
@@ -171,7 +183,8 @@ def evaluate_split(runner, split, tasks, keep_examples, log):
             loop_ok = loop["status"] == "refused" and \
                 loop["reason"] == answer_refusal
         else:
-            loop_ok = imported and rows == clean(t["truth"])
+            loop_ok = imported and rows == truth_rows(t["answer"],
+                                                      t["truth"])
         invented = 0
         if imported:
             for record, srcs in zip(loop["rows"], loop["sources"]):
@@ -329,7 +342,9 @@ def evaluate_folder(runner, folder, log):
         target_answer = item["answer"] in config.TARGETS
         if target_answer:
             good = res["status"] in ("imported", "imported_with_warnings") \
-                and clean(res["rows"]) == clean(item["truth"])
+                and clean(res["rows"]) == truth_rows(
+                    item["answer"], item["truth"],
+                    item.get("truth_format", "tulipscript"))
         else:
             good = res["status"] == "refused" and \
                 res["reason"] == item["answer"]

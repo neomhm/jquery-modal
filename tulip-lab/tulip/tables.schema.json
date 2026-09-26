@@ -1,0 +1,119 @@
+{
+ "schema": "plan-tables",
+ "version": "0.4-draft.tulip-1.1",
+ "about": "The one declared format of every column of the tables Tulip fills. Tulip writes its output in this format (contract.py converts at output, after the runtime's checks; the model and TulipScript are unchanged), import_sheets.py creates its SQLite tables from it, and the PLAN's loader and Daisy read the same file. A value that does not match its format is a bug: Tulip sends that sheet to review instead of writing it. Proposed for the blueprint contract v0.4 (plan-lab/design/), which was not available when this was written: reconcile it there, then change only this file.",
+ "formats": {
+  "text": {"json": "string", "sql": "TEXT", "rule": "Unicode NFKC, trimmed, single spaces, never empty (an empty cell is null)"},
+  "decimal": {"json": "number", "sql": "REAL", "rule": "a plain decimal number such as 12.5; money never carries its currency, which is in its own currency column"},
+  "percent": {"json": "number", "sql": "REAL", "rule": "a percent: 5.5 means 5.5 % (never the fraction 0.055)"},
+  "integer": {"json": "integer", "sql": "INTEGER", "rule": "a whole number"},
+  "minutes": {"json": "integer", "sql": "INTEGER", "rule": "a duration in whole minutes, 0 or more"},
+  "boolean": {"json": "boolean", "sql": "INTEGER", "rule": "true or false; SQLite stores 1 or 0"},
+  "date": {"json": "string", "sql": "TEXT", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$", "rule": "ISO 8601 calendar date YYYY-MM-DD"},
+  "time": {"json": "string", "sql": "TEXT", "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$", "rule": "HH:MM, 24-hour time"},
+  "day": {"json": "string", "sql": "TEXT", "values": ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"], "rule": "lower-case English day of the week"},
+  "currency": {"json": "string", "sql": "TEXT", "pattern": "^[A-Z]{3}$", "rule": "ISO 4217 code, three capital letters"},
+  "email": {"json": "string", "sql": "TEXT", "pattern": "^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$", "rule": "one address, lower case"},
+  "phone": {"json": "string", "sql": "TEXT", "pattern": "^\\+[1-9][0-9]{6,14}$", "rule": "E.164: + and the country code, digits only"},
+  "enum": {"json": "string", "sql": "TEXT", "rule": "one of the column's listed values"}
+ },
+ "tables": {
+  "products": {
+   "about": "Things the business sells.",
+   "columns": [
+    {"name": "sku", "format": "text"},
+    {"name": "name", "format": "text", "required": true},
+    {"name": "variant", "format": "text"},
+    {"name": "description", "format": "text"},
+    {"name": "category", "format": "text"},
+    {"name": "price", "format": "decimal", "required": true, "about": "the price with tax when the sheet shows both"},
+    {"name": "currency", "format": "currency"},
+    {"name": "tax_included", "format": "boolean"},
+    {"name": "vat_rate", "format": "percent", "tulip": {"convert": "fraction_to_percent"}},
+    {"name": "stock", "format": "integer"},
+    {"name": "unit", "format": "text"},
+    {"name": "barcode", "format": "text"},
+    {"name": "active", "format": "boolean"}
+   ]
+  },
+  "services": {
+   "about": "Work or time the business sells.",
+   "columns": [
+    {"name": "name", "format": "text", "required": true},
+    {"name": "description", "format": "text"},
+    {"name": "category", "format": "text"},
+    {"name": "price", "format": "decimal"},
+    {"name": "currency", "format": "currency"},
+    {"name": "tax_included", "format": "boolean"},
+    {"name": "duration_min", "format": "minutes"},
+    {"name": "staff", "format": "text"}
+   ]
+  },
+  "opening_hours": {
+   "about": "One row per opening range of a day (a day with a lunch break has two rows); a closed day is one row with closed = true and no opens / closes.",
+   "tulip": {"split": "hours"},
+   "columns": [
+    {"name": "day", "format": "day", "required": true, "tulip": {"convert": "weekday_name"}},
+    {"name": "opens", "format": "time", "tulip": {"field": "hours", "convert": "range_opens"}},
+    {"name": "closes", "format": "time", "tulip": {"field": "hours", "convert": "range_closes"}},
+    {"name": "closed", "format": "boolean", "required": true, "tulip": {"field": "hours", "convert": "range_closed"}},
+    {"name": "note", "format": "text"}
+   ]
+  },
+  "staff": {
+   "about": "The people who work for the business.",
+   "columns": [
+    {"name": "name", "format": "text", "required": true},
+    {"name": "role", "format": "text"},
+    {"name": "department", "format": "text"},
+    {"name": "email", "format": "email"},
+    {"name": "phone", "format": "phone"},
+    {"name": "start_date", "format": "date"}
+   ]
+  },
+  "clients": {
+   "about": "The business's customers: organisations, or persons when there is none.",
+   "columns": [
+    {"name": "name", "format": "text", "required": true},
+    {"name": "contact_person", "format": "text"},
+    {"name": "email", "format": "email"},
+    {"name": "phone", "format": "phone"},
+    {"name": "address", "format": "text", "about": "the street line when street, postcode and city are separate; the whole address otherwise"},
+    {"name": "postcode", "format": "text"},
+    {"name": "city", "format": "text"},
+    {"name": "country", "format": "text"},
+    {"name": "reg_id", "format": "text"},
+    {"name": "client_since", "format": "date"}
+   ]
+  },
+  "bookings": {
+   "about": "Appointments.",
+   "columns": [
+    {"name": "date", "format": "date", "required": true},
+    {"name": "start_time", "format": "time", "required": true},
+    {"name": "end_time", "format": "time"},
+    {"name": "duration_min", "format": "minutes"},
+    {"name": "client", "format": "text"},
+    {"name": "service", "format": "text"},
+    {"name": "staff", "format": "text"},
+    {"name": "status", "format": "enum", "values": ["confirmed", "pending", "completed", "cancelled", "no_show"]},
+    {"name": "price", "format": "decimal"},
+    {"name": "currency", "format": "currency"}
+   ]
+  },
+  "invoice_ledger": {
+   "about": "The register of invoices; total is the amount with tax when both are shown.",
+   "columns": [
+    {"name": "number", "format": "text", "required": true},
+    {"name": "date", "format": "date", "required": true},
+    {"name": "client", "format": "text"},
+    {"name": "total", "format": "decimal", "required": true},
+    {"name": "tax", "format": "decimal"},
+    {"name": "currency", "format": "currency"},
+    {"name": "status", "format": "enum", "values": ["paid", "unpaid", "partial", "overdue", "cancelled"]},
+    {"name": "due_date", "format": "date"},
+    {"name": "paid_date", "format": "date"}
+   ]
+  }
+ }
+}
