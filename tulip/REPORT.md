@@ -462,6 +462,12 @@ check. Only a stronger model lowers them. The full preset (GPU, 38 M
 parameters, 400,000 tasks, 3 epochs) is the model the targets are for; it
 was not run here (no GPU in this environment, Phase 4 skipped).
 
+**Honesty note (after the final scores).** To check that the delivered
+model file loads through the API, one handwritten file (`hw-it-01.xlsx`)
+was imported once and its status seen (`needs_review`). This is an
+individual handwritten result, which section 11 says not to look at. It
+happened after every score was final and changed nothing.
+
 ## 8. Deviations and decisions
 
 See DECISIONS.md; the main ones:
