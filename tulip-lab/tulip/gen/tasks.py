@@ -100,12 +100,28 @@ def group_of_new(item_id):
     return "D" if x == 0 else "T" if x == 1 else "train"
 
 
+# the splits Tulip 1 was scored on: a family added since (SINCE) is
+# never drawn for them, so they stay Tulip 1's very tasks
+# (tests/test_same_heldout_sets.py) and Tulip 1.1 is compared with Tulip
+# 1 on the same held-out sets (work order, section 5)
+OLD_SPLITS = ("val", "dev_heldout", "test_seen", "test_heldout",
+              "test_locale", "traps")
+
+
+def available(module, split):
+    """Is the family drawn for this split?"""
+    return not getattr(module, "SINCE", None) or split not in OLD_SPLITS
+
+
 def group_of_family(fid, hold):
     """T: the module lives in gen/layouts/test/. D: named in
-    gen/holdout.json. A family newer than the draw: by hash."""
+    gen/holdout.json. A family newer than the draw: by hash. A family
+    of Tulip 1.1 (SINCE): train (its tests are splits of their own)."""
     module = families().get(fid)
     if module is not None and module.__name__.startswith("gen.layouts.test"):
         return "T"
+    if module is not None and getattr(module, "SINCE", None):
+        return "train"
     fams = hold.get("families") or {}
     if fid in fams:
         return fams[fid]
@@ -197,7 +213,7 @@ def choose_activity(rng, split, folder, target):
     return rng.choice(acts) if acts else None
 
 
-def choose_family(rng, split, target, hold, xlsx=None):
+def choose_family(rng, split, target, hold, xlsx=None, only_new=False):
     """A layout family of the target, by weight. xlsx (the task's format,
     drawn once per task): an xlsx task never gets a CSV-only family; a
     CSV task gets one with probability c / 0.3 (c: the CSV-only families'
@@ -206,7 +222,9 @@ def choose_family(rng, split, target, hold, xlsx=None):
     allowed = {"train", "D"} if split == "dev_heldout" else \
         {"train", "T"} if split == "test_heldout" else {"train"}
     fams = [f for fid, f in families().items()
-            if f.TARGET == target and group_of_family(fid, hold) in allowed]
+            if f.TARGET == target and group_of_family(fid, hold) in allowed
+            and available(f, split) and (not only_new or
+                                         getattr(f, "SINCE", None))]
     if not fams:
         return None
     weights = [(f, getattr(f, "WEIGHT", 1.0)) for f in fams]
@@ -250,8 +268,59 @@ def offered_targets(rng, answer, exclude=()):
 # ---------------------------------------------------------------------
 #  making a task
 # ---------------------------------------------------------------------
-def make_task(split, index, folders=None, tries=12, hold=None):
-    """-> (task dict or None, [reason of every failed attempt])."""
+def make_task(split, index, folders=None, tries=12, hold=None,
+              locale=None, kind=None, typed=None):
+    """-> (task dict or None, [reason of every failed attempt]).
+    locale, kind (a target or a refusal) and typed (xlsx or csv) may be
+    fixed (gen/multitable.py draws the tables of one sheet that way).
+    test_layouts draws sheets of several tables and several days in one
+    cell; test_files and part of train are written as real .xls, .ods and
+    PDF files and read back (gen/filetypes.py) - Tulip 1.1."""
+    if split == "test_layouts":
+        return _layout_task(split, index, folders, tries, hold)
+    task, reasons = _make_task(split, index, folders, tries, hold, locale,
+                               kind, typed)
+    if task is not None and split in ("train", "test_files"):
+        return _as_file(task, split, index, reasons)
+    return task, reasons
+
+
+def _as_file(task, split, index, reasons):
+    """test_files: every task as an .xls, .ods or PDF file; train: a
+    share of them (gen/filetypes.py)."""
+    from gen import filetypes as F
+    x = int(hashlib.sha1(("file-%s-%d" % (split, index)).encode())
+            .hexdigest()[:8], 16) / float(0xFFFFFFFF)
+    if task["format"] == "xlsx":
+        kind = "xls" if index % 2 == 0 else "ods"
+    else:
+        kind = "pdf"
+    if split == "train" and x >= F.TRAIN_SHARE[kind]:
+        return task, reasons
+    if not F.convertible(task, kind):
+        return (task, reasons) if split == "train" else \
+            (None, reasons + ["file_%s:not_convertible" % kind])
+    out, why = F.convert(task, kind)
+    if out is None:
+        # the file did not give the task back: train keeps the task as
+        # it was drawn, test_files loses it (counted in the stats)
+        return (task, reasons + [why]) if split == "train" else \
+            (None, reasons + [why])
+    return out, reasons
+
+
+def _layout_task(split, index, folders, tries, hold):
+    """test_layouts: even indexes a sheet with several days in one cell,
+    odd ones a sheet of two or three tables (gen/multitable.py)."""
+    if index % 2:
+        from gen import multitable
+        return multitable.make(split, index)
+    return _make_task(split, index, folders, tries, hold,
+                      kind="opening_hours", only_new=True)
+
+
+def _make_task(split, index, folders=None, tries=12, hold=None,
+               locale=None, kind=None, typed=None, only_new=False):
     hold = holdout() if hold is None else hold
     folders = folders or D.folders_ready()
     reasons = []
@@ -264,11 +333,13 @@ def make_task(split, index, folders=None, tries=12, hold=None):
     # so a split's shares are the drawn shares to within a few tasks, not
     # to within the noise of a random draw.
     u, coin = r2_point(split, index)
-    kind = weighted_at(u, SHARES)
+    kind = kind or weighted_at(u, SHARES)
+    if typed is not None:
+        coin = 0.0 if typed else 0.99
     for attempt in range(tries):
         rng = random.Random(seed_of(split, index) + 7919 * attempt)
         task, reason = _attempt(rng, split, index, hold, folders, kind,
-                                coin)
+                                coin, locale, only_new)
         if task:
             return task, reasons
         reasons.append(reason)
@@ -417,11 +488,12 @@ def held_families(split, hold):
     if not group:
         return []
     return [f for fid, f in sorted(families().items())
-            if group_of_family(fid, hold) == group]
+            if group_of_family(fid, hold) == group and available(f, split)]
 
 
-def _attempt(rng, split, index, hold, folders, kind, coin):
-    code = choose_locale(rng, split, index, folders)
+def _attempt(rng, split, index, hold, folders, kind, coin, locale=None,
+             only_new=False):
+    code = locale or choose_locale(rng, split, index, folders)
     if code is None:
         return None, "no_locale"
     held = held_families(split, hold)
@@ -436,7 +508,7 @@ def _attempt(rng, split, index, hold, folders, kind, coin):
                 kind and group_of_family(fid, hold) in (
                     {"train", "D"} if split == "dev_heldout" else
                     {"train", "T"} if split == "test_heldout" else
-                    {"train"})]
+                    {"train"}) and available(f, split)]
         if not fams:
             return None, "no_refusal_family"
         family = turn or rng.choice(fams)
@@ -447,7 +519,8 @@ def _attempt(rng, split, index, hold, folders, kind, coin):
                 rng.choice(config.TARGETS)
     else:
         family = turn or choose_family(rng, split, kind, hold,
-                                       xlsx=coin < XLSX_SHARE)
+                                       xlsx=coin < XLSX_SHARE,
+                                       only_new=only_new)
         if family is None:
             return None, "no_family"
         target_for_activity = kind

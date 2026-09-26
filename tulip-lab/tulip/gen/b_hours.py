@@ -268,3 +268,104 @@ def hours_as_columns(ctx, plan, t, days, order, names):
     if "T5" in plan["traps"]:
         M.title_rows(ctx, t)
     return t
+
+
+# =====================================================================
+#  several days in one cell (Tulip 1.1, item G): "Lun–Ven | 9h–18h"
+# =====================================================================
+# how a range of days is written, per language; {a} and {b} are day
+# names in the sheet's form. Every text is read back by weekdays()
+# before it goes into a sheet (truth first).
+RANGE_FORMS = {
+    "fr": ["{a}–{b}", "{a}-{b}", "{a} - {b}", "{a} au {b}", "du {a} au {b}",
+           "{a} à {b}"],
+    "en": ["{a}–{b}", "{a}-{b}", "{a} - {b}", "{a} to {b}",
+           "{a} through {b}"],
+    "es": ["{a}–{b}", "{a}-{b}", "{a} a {b}", "de {a} a {b}"],
+    "it": ["{a}–{b}", "{a}-{b}", "{a} - {b}", "da {a} a {b}"],
+    "ru": ["{a}–{b}", "{a}-{b}", "{a} - {b}"],
+    "ar": ["{a} - {b}", "{a}-{b}", "من {a} إلى {b}", "{a} إلى {b}"],
+    "zh": ["{a}至{b}", "{a}到{b}", "{a}-{b}", "{a}～{b}"],
+    "ja": ["{a}～{b}", "{a}〜{b}", "{a}-{b}", "{a}から{b}"],
+    "ko": ["{a}~{b}", "{a}-{b}", "{a} ~ {b}"],
+    "hi": ["{a} से {b}", "{a}-{b}", "{a} - {b}"],
+}
+LIST_FORMS = {
+    "fr": ["{a} et {b}", "{a}, {b}", "{a} & {b}"],
+    "en": ["{a} & {b}", "{a} and {b}", "{a}, {b}", "{a}/{b}"],
+    "es": ["{a} y {b}", "{a}, {b}"], "it": ["{a} e {b}", "{a}, {b}"],
+    "ru": ["{a} и {b}", "{a}, {b}"], "ar": ["{a} و {b}", "{a}، {b}"],
+    "zh": ["{a}、{b}", "{a}和{b}"], "ja": ["{a}・{b}", "{a}、{b}"],
+    "ko": ["{a}, {b}", "{a}·{b}"], "hi": ["{a} और {b}", "{a}, {b}"],
+}
+
+
+def day_runs(order, days):
+    """Consecutive days (in the sheet's order) with the same hours ->
+    [[day, ...], ...]."""
+    runs = []
+    for d in order:
+        if runs and days[runs[-1][-1]] == days[d]:
+            runs[-1].append(d)
+        else:
+            runs.append([d])
+    return runs
+
+
+def run_text(ctx, run, names):
+    """The text of a run of days - "Lun–Ven", "Sam & Dim", or one day -
+    or None when no form of it is read back as exactly these days."""
+    import helpers as H2
+    rng = ctx.rng
+    if len(run) == 1:
+        return names[run[0]]
+    forms = list(RANGE_FORMS.get(ctx.lang, ["{a}-{b}"]))
+    if len(run) == 2:
+        forms += LIST_FORMS.get(ctx.lang, [])
+    rng.shuffle(forms)
+    for form in forms:
+        text = form.format(a=names[run[0]], b=names[run[-1]])
+        if H2.weekdays(text, ctx.code) == (True, tuple(run)):
+            return text
+    return None
+
+
+def opening_hours_ranges(ctx, plan):
+    """One row per run of days with the same hours: "Lun–Ven | 9h–18h",
+    "Sam | 9h–12h", "Dim | Fermé"; out.day = weekdays(col(...)) gives
+    one row per day."""
+    rng = ctx.rng
+    days = schedule(ctx)
+    order = [0, 1, 2, 3, 4, 5, 6] if ctx.lang != "ar" or \
+        rng.random() < 0.5 else [5, 6, 0, 1, 2, 3, 4]
+    runs = day_runs(order, days)
+    if all(len(r) == 1 for r in runs):
+        return None                       # nothing to put in one cell
+    names, _ = pick_day_names(ctx, short=rng.random() < 0.6)
+    if names is None:
+        return None
+    t = Table("opening_hours")
+    texts, cells, truth = [], [], []
+    for run in runs:
+        text = run_text(ctx, run, names)
+        cell = hours_cell(ctx, days[run[0]])
+        if text is None or cell is None:
+            return None
+        texts.append(text)
+        cells.append(cell)
+    C.text_column(ctx, t, "day", ctx.header("day"), texts, None, None,
+                  noise=False, digits=False)
+    t.outs.append(("day", "weekdays(col({day}))"))
+    t.first_column_fixed = ["day"]
+    t.add(Column("hours", ctx.header("hours"), cells))
+    t.outs.append(("hours", "hours(col({hours}))"))
+    # the truth, one record per sheet row: the days of the row as a
+    # tuple, which sheetkit.clean_rows() makes one row per day - as the
+    # runtime does with weekdays()
+    for run in runs:
+        truth.append({"day": tuple(run), "hours": truth_hours(days[run[0]])})
+    t.truth = truth
+    t.shuffle = False
+    M.decorate(ctx, t, dict(plan, extra=min(plan.get("extra", 0), 2)),
+               text_keys=[], totals_spec=None)
+    return t

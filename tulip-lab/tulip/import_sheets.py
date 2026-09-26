@@ -3,8 +3,11 @@ import_sheets.py - import every sheet of a folder into documents.db
 (section 15.2), the database that ingest.py and the Extractor also use.
 
     py import_sheets.py "C:\\Users\\Laurent\\documents to publish" --db "C:\\Users\\Laurent\\new model\\documents.db" --targets products,services --locale fr-FR
-    ... --show      prints, for each sheet, the status, the program and the
-                    first 5 imported rows next to their source row numbers
+    ... --show      prints, for each sheet, the status, the program, how
+                    sure Tulip is of each column (sure / check / unsure)
+                    and the first 5 imported rows next to their source
+                    row numbers
+    ... --no-confidence   no bands (faster)
 
 Tables it writes:
   * tulip_<target>: one per target; the columns of tables.schema.json
@@ -13,20 +16,28 @@ Tables it writes:
     _sources (JSON) and _import_id.
   * tulip_imports: one row per sheet (status, reason, program,
     problems, warnings, rows in and out, the model, the schema version
-    in "contract", ...).
+    in "contract", and in "confidence" the band of every mapped column
+    as JSON: {"calibrated", "columns": [{column, sheet_columns, band,
+    score, signals}]}, ...).
 A table made by an older version with other columns is renamed
 tulip_<target>_before_<version> (never deleted), and sheets imported
 under another schema version are imported again.
 
 Re-importing:
   * a sheet already imported from a file with the same sha1 by the same
-    model (imported / imported_with_warnings) is skipped;
+    model (imported / imported_with_warnings) is skipped: an unchanged
+    file changes nothing;
   * refused and needs_review sheets are tried again when the model
     changes;
-  * a changed file replaces that sheet's earlier rows, in one
-    transaction.
-Hidden sheets are processed too and marked hidden. .xls, .ods and other
-files are listed as skipped_file_type.
+  * a changed file UPDATES that sheet's rows by key, in one transaction
+    (history.py): new rows are added, changed rows updated in place,
+    rows no longer there marked removed (_removed), never deleted; every
+    change is a row of tulip_history (old and new value, when, which
+    file and sheet row). A sheet that is now refused or needs review
+    keeps its rows.
+Hidden sheets are processed too and marked hidden. .xlsx, .xlsm, .xls,
+.ods, .csv and PDF files (their text tables; a scanned PDF needs review:
+no OCR) are read; other files are listed as skipped_file_type.
 One bad file never stops the folder: a file that cannot be read (a
 corrupt .xlsx, a binary .csv) gets ONE tulip_imports row, sheet "",
 status needs_review, reason unreadable_file:<exception type>; it is
@@ -43,16 +54,24 @@ import pathlib
 import sqlite3
 import sys
 
+import blocks
+import compare
 import config
 import contract
+import history
 import sheets
 
 HERE = pathlib.Path(__file__).resolve().parent
-READABLE = (".xlsx", ".xlsm", ".csv")
+READABLE = sheets.READABLE
 BOOKKEEPING = [("_file", "TEXT"), ("_sheet", "TEXT"), ("_row", "INTEGER"),
-               ("_sources", "TEXT"), ("_import_id", "INTEGER")]
+               ("_sources", "TEXT"), ("_import_id", "INTEGER"),
+               ("_key", "TEXT"), ("_removed", "TEXT")]
+# columns a Tulip 1.1 table made before item E lacks: added in place
+ADDED_LATER = [("_key", "TEXT"), ("_removed", "TEXT")]
 # columns tulip_imports gained after Tulip 1 (added to an older database)
-IMPORT_EXTRA = [("contract", "TEXT"), ("confidence", "TEXT")]
+IMPORT_EXTRA = [("contract", "TEXT"), ("confidence", "TEXT"),
+                ("document_date", "TEXT"), ("file_date", "TEXT"),
+                ("origin", "TEXT"), ("locale", "TEXT"), ("targets", "TEXT")]
 
 
 # ---------------------------------------------------------------------
@@ -74,17 +93,27 @@ def create_tables(db):
             program TEXT, problems TEXT, warnings TEXT, rows_in INTEGER,
             rows_out INTEGER, skipped TEXT, model TEXT,
             candidates_tried INTEGER, hidden INTEGER, created TEXT,
-            contract TEXT, confidence TEXT)""")
+            contract TEXT, confidence TEXT, document_date TEXT,
+            file_date TEXT, origin TEXT, locale TEXT, targets TEXT)""")
         have = table_columns(db, "tulip_imports")
         for name, kind in IMPORT_EXTRA:
             if name not in have:
                 db.execute("ALTER TABLE tulip_imports ADD COLUMN %s %s"
                            % (name, kind))
+        db.execute(history.HISTORY_TABLE)
         for target in contract.tables():
             want = contract.column_names(target) + [n for n, _ in
                                                     BOOKKEEPING]
             name = "tulip_%s" % target
             have = table_columns(db, name)
+            missing = want[len(have):]
+            if have and have == want[:len(have)] and missing and all(
+                    m in [n for n, _ in ADDED_LATER] for m in missing):
+                for n, kind in ADDED_LATER:
+                    if n in missing:
+                        db.execute('ALTER TABLE "%s" ADD COLUMN %s %s'
+                                   % (name, n, kind))
+                have = want
             if have and have != want:
                 old = "%s_before_%s" % (name, contract.version().replace(
                     ".", "_").replace("-", "_"))
@@ -112,30 +141,24 @@ def unchanged(prev, sha1, model_id):
                 and prev[4] == contract.version())
 
 
-def to_sql(column, value):
-    if value is None:
-        return None
-    if column["format"] == "boolean":
-        return 1 if value else 0
-    return value
+to_sql = history.to_sql
 
 
-def store(db, result, file_sha1, model_id, rows_in):
-    """One transaction: the old rows of this sheet go, the new ones come."""
+def store(db, result, file_sha1, model_id, rows_in, now=None):
+    """One transaction: the import's line in tulip_imports and, when the
+    sheet was imported, its rows UPDATED by key (history.py): added,
+    changed in place, or marked removed - never deleted - with one
+    tulip_history row per change. result["changes"] gets the counts.
+    A sheet that is refused or needs review keeps its current rows."""
+    at = now or datetime.datetime.now().isoformat(timespec="seconds")
     with db:
-        old = db.execute("SELECT id, target FROM tulip_imports WHERE "
-                         "file = ? AND sheet = ?", (result["file"],
-                                                    result["sheet"]))
-        for import_id, target in old.fetchall():
-            if target:
-                db.execute('DELETE FROM "tulip_%s" WHERE _import_id = ?' %
-                           target, (import_id,))
         cur = db.execute(
             "INSERT INTO tulip_imports (file, sheet, file_sha1, target, "
             "status, reason, program, problems, warnings, rows_in, "
             "rows_out, skipped, model, candidates_tried, hidden, created, "
-            "contract, confidence) "
-            "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+            "contract, confidence, document_date, file_date, origin, "
+            "locale, targets) "
+            "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
             (result["file"], result["sheet"], file_sha1, result["target"],
              result["status"], result["reason"], result["program"],
              json.dumps(result["problems"], ensure_ascii=False),
@@ -143,28 +166,26 @@ def store(db, result, file_sha1, model_id, rows_in):
              len(result["rows"]),
              json.dumps(result["skipped"], ensure_ascii=False, default=str),
              model_id, result["candidates_tried"],
-             1 if result.get("hidden") else 0,
-             datetime.datetime.now().isoformat(timespec="seconds"),
+             1 if result.get("hidden") else 0, at,
              contract.version(),
              json.dumps(result.get("confidence"), ensure_ascii=False)
-             if result.get("confidence") is not None else None))
+             if result.get("confidence") is not None else None,
+             result.get("document_date"), result.get("file_date"),
+             result.get("origin"), result.get("locale"),
+             json.dumps(result["targets"]) if result.get("targets")
+             else None))
         import_id = cur.lastrowid
         target = result["target"]
         if target and result["status"] in ("imported",
                                             "imported_with_warnings"):
-            cols = contract.columns(target)
-            names = [c["name"] for c in cols]
-            sql = 'INSERT INTO "tulip_%s" (%s, _file, _sheet, _row, ' \
-                  '_sources, _import_id) VALUES (%s)' % (
-                      target, ", ".join('"%s"' % n for n in names),
-                      ", ".join("?" * (len(names) + 5)))
-            for record, srcs, row in zip(result["rows"], result["sources"],
-                                         result["row_numbers"]):
-                values = [to_sql(c, record.get(c["name"])) for c in cols]
-                db.execute(sql, values + [result["file"], result["sheet"],
-                                          row, json.dumps(srcs,
-                                                          default=str),
-                                          import_id])
+            moved = sum(history.remove_all(db, other, result["file"],
+                                           result["sheet"], import_id, at)
+                        for other in contract.tables() if other != target)
+            result["changes"] = history.apply(
+                db, target, result["file"], result["sheet"], result["rows"],
+                result["sources"], result["row_numbers"], import_id, at)
+            if moved:
+                result["changes"]["removed_from_other_table"] = moved
         return import_id
 
 
@@ -172,7 +193,10 @@ def store(db, result, file_sha1, model_id, rows_in):
 #  model and locale
 # ---------------------------------------------------------------------
 def default_model():
-    for name in (config.MODEL_FILES["full"], config.MODEL_FILES["pilot"]):
+    """The newest model file next to this script: tulip-1.1.0.pt, else
+    Tulip 1's tulip-1.0.0.pt, else the pilot."""
+    for name in (config.MODEL_FILES["full"], "tulip-1.0.0.pt",
+                 config.MODEL_FILES["pilot"]):
         path = HERE / name
         if path.exists():
             return path
@@ -223,6 +247,10 @@ def main():
     ap.add_argument("--model")
     ap.add_argument("--show", action="store_true")
     ap.add_argument("--threads", type=int)
+    ap.add_argument("--no-confidence", action="store_true",
+                    help="skip the confidence bands (faster: the 7 "
+                    "sampled programs are then only written when the "
+                    "greedy one fails)")
     args = ap.parse_args()
     from tulip import Tulip, check_targets
     try:
@@ -249,15 +277,21 @@ def main():
             print("skipped_file_type  %s" % path.name)
             continue
         counts = import_path(db, tulip, path, targets, locale, model_id,
-                             counts, args.show)
-    db.close()
+                             counts, args.show, not args.no_confidence,
+                             folder)
     print("done: " + ", ".join("%s %d" % kv for kv in sorted(
         counts.items())))
+    # the sheets against each other: duplicates and contradictions become
+    # questions in tulip_conflicts; no row is changed (compare.py)
+    s = compare.run(db)
+    print("compare: %(duplicates)d duplicates, %(contradictions)d "
+          "contradictions (%(new)d new questions, %(gone)d gone)" % s)
+    db.close()
     return 0
 
 
 def import_path(db, tulip, path, targets, locale, model_id, counts,
-                show_rows=False):
+                show_rows=False, confidence=True, root=None):
     """Every sheet of one readable file into the database. Never raises
     for a bad file: it is recorded (unreadable_file:<type>) and the
     folder goes on."""
@@ -285,7 +319,8 @@ def import_path(db, tulip, path, targets, locale, model_id, counts,
         db.execute("DELETE FROM tulip_imports WHERE file = ? AND sheet = '' "
                    "AND target IS NULL AND reason LIKE 'unreadable_file:%'",
                    (str(path),))
-    for sheet in loaded:
+    # several tables on one sheet: one import each (blocks.py)
+    for sheet in (part for whole in loaded for part in blocks.split(whole)):
         prev = previous(db, str(path), sheet.name)
         if unchanged(prev, sha1, model_id):
             # imported / imported_with_warnings, or refused / needs_review
@@ -293,8 +328,16 @@ def import_path(db, tulip, path, targets, locale, model_id, counts,
             counts["unchanged"] = counts.get("unchanged", 0) + 1
             continue
         sheet.file = str(path)
-        result = tulip.import_sheet_safely(sheet, targets, locale)
+        result = tulip.import_sheet_safely(sheet, targets, locale,
+                                           confidence)
         result["file"] = str(path)
+        # where the sheet comes from, for compare.py's preferred source
+        result["document_date"] = compare.document_date(
+            sheet, result["row_numbers"], locale, path.name)
+        result["file_date"] = compare.file_date(path)
+        result["origin"] = compare.origin(path, root)
+        # what the model was asked, for the owner's corrections
+        result["locale"], result["targets"] = locale, list(targets)
         rows_in = max(0, len(sheet.rows) - 1)
         store(db, result, sha1, model_id, rows_in)
         report(result, path.name, counts, show_rows)
@@ -303,17 +346,43 @@ def import_path(db, tulip, path, targets, locale, model_id, counts,
 
 def report(result, name, counts, show_rows):
     counts[result["status"]] = counts.get(result["status"], 0) + 1
-    print("%-22s %s | %s%s" % (result["status"], name, result["sheet"],
-                               (" (%s)" % result["reason"])
-                               if result["reason"] else ""))
+    ch = result.get("changes") or {}
+    changes = ", ".join("%d %s" % (ch[k], k) for k in (
+        "added", "changed", "removed", "removed_from_other_table")
+        if ch.get(k))
+    print("%-22s %s | %s%s%s" % (result["status"], name, result["sheet"],
+                                 (" (%s)" % result["reason"])
+                                 if result["reason"] else "",
+                                 (" - rows: %s" % changes) if changes
+                                 else ""))
     if show_rows:
         show(result)
+
+
+def confidence_lines(result):
+    """The preview's lines for the bands: "column C -> price: sure"."""
+    conf = result.get("confidence")
+    if not conf or not conf.get("columns"):
+        return []
+    out = ["  how sure (%s):" % ("calibrated for this model"
+                                 if conf.get("calibrated") else
+                                 "not calibrated for this model: no "
+                                 "column is 'sure'; run calibrate.py")]
+    for col in conf["columns"]:
+        letters = col["sheet_columns"]
+        where = ("column " if len(letters) == 1 else "columns ") + \
+            " + ".join(letters) if letters else "the sheet"
+        out.append("    %s -> %s: %s (%.3f)" % (where, col["column"],
+                                                col["band"], col["score"]))
+    return out
 
 
 def show(result):
     print("  program:")
     for line in (result["program"] or "").splitlines():
         print("    " + line)
+    for line in confidence_lines(result):
+        print(line)
     for record, row in list(zip(result["rows"], result["row_numbers"]))[:5]:
         print("  row %s: %s" % (row, json.dumps(record, ensure_ascii=False,
                                                 default=str)))

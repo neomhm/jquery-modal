@@ -68,7 +68,7 @@ def _trim(rows, formats=None):
     out_rows, out_fmts = [], []
     for i, row in enumerate(rows):
         row = list(row)
-        fmt = list(formats[i]) if formats else None
+        fmt = list(formats[i] or []) if formats else None
         while row and _blank(row[-1]):
             row.pop()
             if fmt:
@@ -105,6 +105,27 @@ def read_xlsx(path):
     return sheets
 
 
+def csv_delimiter(sample):
+    """The delimiter that splits the most lines into the same number (2 or
+    more) of cells; on a tie ; then tab, | and , last. csv.Sniffer took
+    the decimal commas of "BAGUETTE 0,25 kg;1,20" for the delimiter."""
+    lines = [x for x in sample.splitlines() if x.strip()][:60]
+    best, best_score = ',', -1
+    for d in ';\t|,':
+        try:
+            counts = [len(r) for r in csv.reader(lines, delimiter=d)]
+        except csv.Error:
+            continue
+        wide = [c for c in counts if c > 1]
+        if not wide:
+            continue
+        mode = max(set(wide), key=lambda c: (wide.count(c), c))
+        score = wide.count(mode)
+        if score > best_score:
+            best, best_score = d, score
+    return best
+
+
 def read_csv(path, locale=None):
     """One sheet from a .csv file: any common encoding and delimiter.
     All cells are text (or None when empty). The locale picks the
@@ -125,15 +146,190 @@ def read_csv(path, locale=None):
             continue
     else:
         text = raw.decode('latin-1')
-    sample = text[:4096]
-    try:
-        delimiter = csv.Sniffer().sniff(sample, delimiters=',;\t|').delimiter
-    except csv.Error:
-        first = sample.splitlines()[0] if sample else ''
-        delimiter = max(',;\t|', key=first.count)
+    delimiter = csv_delimiter(text[:4096])
     rows = list(csv.reader(io.StringIO(text), delimiter=delimiter))
     rows, _ = _trim(rows)
     return [Sheet(pathlib.Path(path).stem, rows, None, str(path))]
+
+
+def _number(v):
+    """A stored number as openpyxl gives it: a whole float is an int."""
+    if isinstance(v, float) and v.is_integer():
+        return int(v)
+    return v
+
+
+def read_xls(path):
+    """Every sheet of an old Excel .xls file (xlrd, vendor/), with the
+    same kinds of values and number formats as read_xlsx()."""
+    import xlrd
+    book = xlrd.open_workbook(str(path), formatting_info=True,
+                              on_demand=True)
+    out = []
+    try:
+        for i in range(book.nsheets):
+            ws = book.sheet_by_index(i)
+            rows, fmts = [], []
+            for r in range(ws.nrows):
+                row, fmt = [], []
+                for c in range(ws.ncols):
+                    cell = ws.cell(r, c)
+                    kind, v = cell.ctype, cell.value
+                    try:
+                        xf = book.xf_list[cell.xf_index]
+                        f = book.format_map[xf.format_key].format_str
+                    except (IndexError, KeyError, TypeError):
+                        f = None
+                    if kind == xlrd.XL_CELL_DATE and f and \
+                            any(u in f.lower() for u in ('[h', '[m', '[s')):
+                        v = datetime.timedelta(days=v)   # a duration
+                    elif kind == xlrd.XL_CELL_DATE:
+                        if v < 1:                  # a time of day
+                            t = xlrd.xldate_as_datetime(v, book.datemode)
+                            v = datetime.time(t.hour, t.minute, t.second)
+                        else:
+                            v = xlrd.xldate_as_datetime(v, book.datemode)
+                    elif kind == xlrd.XL_CELL_NUMBER:
+                        v = _number(v)
+                    elif kind == xlrd.XL_CELL_BOOLEAN:
+                        v = bool(v)
+                    elif kind in (xlrd.XL_CELL_EMPTY, xlrd.XL_CELL_BLANK,
+                                  xlrd.XL_CELL_ERROR):
+                        v = None
+                    row.append(v)
+                    fmt.append(f if f and f != 'General' else
+                               ('General' if v is not None else None))
+                rows.append(row)
+                fmts.append(fmt)
+            rows, fmts = _trim(rows, fmts)
+            out.append(Sheet(ws.name, rows, fmts, str(path),
+                             ws.visibility != 0))
+            book.unload_sheet(i)
+    finally:
+        book.release_resources()
+    return out
+
+
+ODS = {'table': 'urn:oasis:names:tc:opendocument:xmlns:table:1.0',
+       'office': 'urn:oasis:names:tc:opendocument:xmlns:office:1.0',
+       'text': 'urn:oasis:names:tc:opendocument:xmlns:text:1.0',
+       'style': 'urn:oasis:names:tc:opendocument:xmlns:style:1.0'}
+ODS_MAX_ROWS = 100000      # a repeated empty row is never expanded past this
+
+
+def _ods_text(el):
+    """The text of an ODS cell: its paragraphs, spaces (text:s), tabs and
+    line breaks."""
+    t, s = '{%s}' % ODS['text'], []
+
+    def walk(node):
+        if node.text:
+            s.append(node.text)
+        for child in node:
+            if child.tag == t + 's':
+                s.append(' ' * int(child.get(t + 'c', '1')))
+            elif child.tag == t + 'tab':
+                s.append('\t')
+            elif child.tag == t + 'line-break':
+                s.append('\n')
+            else:
+                walk(child)
+            if child.tail:
+                s.append(child.tail)
+    paragraphs = []
+    for p in el.iter(t + 'p'):
+        s.clear()
+        walk(p)
+        paragraphs.append(''.join(s))
+    return '\n'.join(paragraphs)
+
+
+def _ods_value(cell):
+    """-> (value, number format) of one table:table-cell."""
+    o = '{%s}' % ODS['office']
+    kind = cell.get(o + 'value-type')
+    text = _ods_text(cell)
+    if kind in ('float', 'percentage', 'currency'):
+        v = _number(float(cell.get(o + 'value')))
+        if kind == 'percentage':
+            return v, '0.00%'
+        if kind == 'currency':
+            return v, '#,##0.00 [$%s]' % (cell.get(o + 'currency') or '')
+        return v, 'General'
+    if kind == 'date':
+        raw = cell.get(o + 'date-value')
+        v = datetime.datetime.fromisoformat(raw)
+        return v, 'yyyy-mm-dd' if len(raw) <= 10 else 'yyyy-mm-dd hh:mm'
+    if kind == 'time':
+        raw = cell.get(o + 'time-value') or ''
+        import re
+        m = re.fullmatch(r'PT(\d+)H(\d+)M(\d+)(?:\.\d+)?S', raw)
+        if m:
+            h, mi, sec = (int(x) for x in m.groups())
+            if h < 24:
+                return datetime.time(h, mi, sec), 'hh:mm'
+            return datetime.timedelta(hours=h, minutes=mi,
+                                      seconds=sec), '[h]:mm'
+        return text or None, None
+    if kind == 'boolean':
+        return cell.get(o + 'boolean-value') == 'true', 'General'
+    return (text if text != '' else None), None
+
+
+def read_ods(path):
+    """Every sheet of a LibreOffice .ods file (a zip of XML, read with the
+    standard library). Merged-away cells are empty; repeated empty rows
+    and columns are not expanded past the last filled one."""
+    import zipfile
+    import xml.etree.ElementTree as ET
+    tb, st = '{%s}' % ODS['table'], '{%s}' % ODS['style']
+    with zipfile.ZipFile(path) as z:
+        root = ET.fromstring(z.read('content.xml'))
+    hidden_styles = set()
+    for style in root.iter(st + 'style'):
+        props = style.find(st + 'table-properties')
+        if props is not None and props.get(tb + 'display') == 'false':
+            hidden_styles.add(style.get(st + 'name'))
+    out = []
+    for table in root.iter(tb + 'table'):
+        rows, fmts, pending_rows = [], [], 0
+        for row in table.iter(tb + 'table-row'):
+            cells, formats, pending = [], [], 0
+            for cell in row:
+                if cell.tag not in (tb + 'table-cell',
+                                    tb + 'covered-table-cell'):
+                    continue
+                repeat = int(cell.get(tb + 'number-columns-repeated', '1'))
+                value, fmt = (None, None) if cell.tag.endswith(
+                    'covered-table-cell') else _ods_value(cell)
+                if value is None:
+                    pending += repeat
+                    continue
+                cells += [None] * pending
+                formats += [None] * pending
+                pending = 0
+                cells += [value] * min(repeat, MAX_COLUMNS * 40)
+                formats += [fmt] * min(repeat, MAX_COLUMNS * 40)
+            repeat = int(row.get(tb + 'number-rows-repeated', '1'))
+            if not cells:
+                pending_rows += repeat
+                continue
+            if len(rows) + pending_rows >= ODS_MAX_ROWS:
+                break
+            rows += [[] for _ in range(pending_rows)]
+            fmts += [[] for _ in range(pending_rows)]
+            pending_rows = 0
+            for _ in range(min(repeat, ODS_MAX_ROWS - len(rows))):
+                rows.append(list(cells))
+                fmts.append(list(formats))
+        rows, fmts = _trim(rows, fmts)
+        out.append(Sheet(table.get(tb + 'name') or 'Sheet%d' % (len(out) + 1),
+                         rows, fmts, str(path),
+                         table.get(tb + 'style-name') in hidden_styles))
+    return out
+
+
+READABLE = ('.xlsx', '.xlsm', '.csv', '.xls', '.ods', '.pdf')
 
 
 def load(path, locale=None):
@@ -142,6 +338,13 @@ def load(path, locale=None):
         return read_xlsx(path)
     if suffix == '.csv':
         return read_csv(path, locale)
+    if suffix == '.xls':
+        return read_xls(path)
+    if suffix == '.ods':
+        return read_ods(path)
+    if suffix == '.pdf':
+        import pdftable
+        return pdftable.read_pdf(path)
     return []
 
 

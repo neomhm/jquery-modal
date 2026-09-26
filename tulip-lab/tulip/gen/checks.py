@@ -92,6 +92,11 @@ def run(preset, token_counts=None):
 
     def light(t):
         out = dict((k, t.get(k)) for k in keep)
+        if t.get("answer") == "multi":
+            # a sheet of several tables (test_layouts): its tables were
+            # drawn and checked one by one, with the rules of test_seen
+            out.update(values="", shown=[], program=None, multi=True)
+            return out
         out["values"] = values_line(t["preview"])
         # check 6 recomputes the hold-out groups from the sheet itself:
         # every header-area text, NFKC-normalised and case-folded
@@ -110,15 +115,19 @@ def run(preset, token_counts=None):
           "%d discards of %d tasks (%.2f%%); %d tasks could not be made" %
           (discards, tried, 100 * share, failed))
     # 2. canonical
-    bad = sum(1 for t in everything if ts.canonical(t["program"]) !=
-              t["program"])
+    bad = sum(1 for t in everything if t["program"] is not None and
+              ts.canonical(t["program"]) != t["program"])
     check("2 programs canonical", bad == 0, "%d not canonical" % bad)
     # 3. traps, families, languages (on train)
     train = splits["train"]
     lines = []
     ok3 = True
+    # the trap rates are Tulip 1's rules for Tulip 1's families; a family
+    # of Tulip 1.1 (SINCE: several days in one cell) has traps of its own
+    new = set(fid for fid, f in T.families().items()
+              if getattr(f, "SINCE", None))
     for trap, rate, label, where in TRAP_RULES:
-        pool = [t for t in train if where(t)]
+        pool = [t for t in train if where(t) and t["family"] not in new]
         if not pool:
             lines.append("%s: no %s" % (trap, label))
             ok3 = False
@@ -140,11 +149,22 @@ def run(preset, token_counts=None):
         ok3 = ok3 and good
         lines.append("%s %.2f%% of tasks (%.1f%%)%s" % (
             label, 100 * got, 100 * rate, "" if good else "  <- OFF"))
-    xlsx = sum(1 for t in train if t["format"] == "xlsx") / max(1, len(train))
-    good = abs(xlsx - 0.70) <= 0.01
+    # typed cells (.xlsx, and the .xls / .ods it becomes) or texts (.csv,
+    # and the PDFs it becomes): 70 / 30 (Tulip 1.1: part of each written
+    # as a real .xls, .ods or PDF file, gen/filetypes.py)
+    typed = sum(1 for t in train if t["format"] in ("xlsx", "xls", "ods")) \
+        / max(1, len(train))
+    good = abs(typed - 0.70) <= 0.01
     ok3 = ok3 and good
-    lines.append("formats: xlsx %.2f%%, csv %.2f%% (70 / 30 +- 1 point)%s" %
-                 (100 * xlsx, 100 * (1 - xlsx), "" if good else "  <- OFF"))
+    shares = collections_counter()
+    for t in train:
+        shares[t["format"]] += 1
+    lines.append("formats: typed %.2f%%, text %.2f%% (70 / 30 +- 1 point)"
+                 "%s; %s" % (100 * typed, 100 * (1 - typed),
+                             "" if good else "  <- OFF", ", ".join(
+                                 "%s %.1f%%" % (k, 100.0 * v / max(
+                                     1, len(train)))
+                                 for k, v in sorted(shares.items()))))
     for target in ("products", "services"):
         rows = sorted(t["n_rows"] for t in train if t["answer"] == target)
         if rows:
@@ -194,6 +214,8 @@ def run(preset, token_counts=None):
                      for a in D.activities())
     for split, tasks in splits.items():
         for t in tasks:
+            if t.get("multi"):
+                continue
             # recomputed, not the task's own label: the header texts the
             # sheet shows (NFKC, case-folded), its family, its activity
             groups = set(t["shown"])
@@ -202,7 +224,8 @@ def run(preset, token_counts=None):
                 if g != "train":
                     groups.add(g)
             if split in ("train", "val", "test_seen", "traps",
-                         "test_locale") and groups:
+                         "test_locale", "test_files",
+                         "test_layouts") and groups:
                 problems["%s has hold-out items" % split] += 1
             if split == "dev_heldout" and ("D" not in groups or
                                            "T" in groups):
@@ -231,11 +254,13 @@ def run(preset, token_counts=None):
                                  "detail": "checked by the tokenizer "
                                            "stage (pack)"})
     # 8. NFKC and lookup keys
-    bad_nfkc = sum(1 for t in everything
-                   if unicodedata.normalize("NFKC", t["program"]) !=
+    bad_nfkc = sum(1 for t in everything if t["program"] is not None and
+                   unicodedata.normalize("NFKC", t["program"]) !=
                    t["program"])
     bad_keys = 0
     for t in everything:
+        if t["program"] is None:
+            continue
         keys = lookup_keys(t["program"])
         if keys:
             shown = t["values"]

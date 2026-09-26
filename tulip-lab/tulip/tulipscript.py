@@ -104,9 +104,12 @@ SCHEMAS = {
 # tax_included, which produces a boolean.
 HELPERS = ('text', 'amount', 'currency', 'integer', 'percent', 'date',
            'time', 'hours', 'weekday', 'boolean', 'phone', 'email',
-           'duration', 'tax_included')
+           'duration', 'tax_included', 'weekdays')
 HELPER_KIND = dict((h, h) for h in HELPERS)
 HELPER_KIND['tax_included'] = 'boolean'
+# weekdays() (Tulip 1.1) reads several days in one cell ("Lun-Ven"): a
+# weekday field may take it, and its row becomes one row per day
+MANY = {'weekdays': 'weekday'}
 
 PREDICATES = ('filled', 'is_number', 'is_date', 'not_total', 'not_value')
 REFUSAL = re.compile(r'^(no_matching_target|not_a_table|too_wide|'
@@ -315,7 +318,7 @@ def parse(text):
                 if kind != 'enum' or not _lookup_values(stmt.value) \
                         <= set(allowed):
                     raise TulipError('wrong_kind', tgt.attr, line)
-            elif kind != ftype:
+            elif kind != ftype and MANY.get(kind) != ftype:
                 raise TulipError('wrong_kind', '%s needs %s, got %s'
                                  % (tgt.attr, ftype, kind), line)
             assigned.append(tgt.attr)
@@ -770,9 +773,19 @@ def run(prog, sheet, helpers, locale=None, targets=None, totals=None,
             else:
                 res.empty.append(row.number)
             continue
-        res.rows.append(record)
-        res.sources.append(sources)
-        res.row_numbers.append(row.number)
+        # several days in one cell (weekdays): one row per day, each
+        # traced to the same cells
+        many = [f for f, v in record.items() if isinstance(v, tuple)]
+        if many:
+            f = many[0]
+            for day in record[f]:
+                res.rows.append(dict(record, **{f: day}))
+                res.sources.append(sources)
+                res.row_numbers.append(row.number)
+        else:
+            res.rows.append(record)
+            res.sources.append(sources)
+            res.row_numbers.append(row.number)
         if is_totals_row(row.cells.values(), totals):
             totals_imported.append(row.number)
 

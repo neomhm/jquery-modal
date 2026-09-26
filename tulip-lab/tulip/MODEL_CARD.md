@@ -1,4 +1,4 @@
-# Model card — Tulip 1, the Importer
+# Model card — Tulip 1.1, the Importer
 
 **What it does.** Reads the preview of one spreadsheet sheet (the first 16
 and last 4 non-empty rows, column types, number formats and the repeating
@@ -18,7 +18,7 @@ downloaded model, no external model or API to write data.
 |---|---|---|---|---|---|---|
 | smoke | 4,000 | 128 | 3 | 4 | 1.1 M | tulip-smoke.pt |
 | pilot | 16,000 | 256 | 6 | 4 | 8.9 M | tulip-pilot.pt |
-| full | 24,000 | 512 | 8 | 8 | 38.0 M | tulip-1.0.0.pt |
+| full | 24,000 | 512 | 8 | 8 | 38.0 M | tulip-1.1.0.pt (Tulip 1: tulip-1.0.0.pt) |
 
 **Training data.** Entirely synthetic: sheets drawn by the generator in
 `gen/` from word lists written natively for ten languages and 33 locales,
@@ -40,9 +40,19 @@ language, target and trap, on held-out layouts, headers and activities
 (`test_heldout`), held-out locales (`test_locale`) and 30 handwritten real
 files.
 
-**Limits.** Trained on synthetic sheets only. Reads `.xlsx`, `.xlsm` and
-`.csv` (not `.xls` or `.ods`). One table per sheet, at most 26 non-empty
-columns. A row covering several days ("Lun–Ven 9h–18h") is not read.
+**Tulip 1.1.** The code around the model (every model file): one
+declared format per column (`tables.schema.json`), a confidence band per
+mapped column, the sheets compared with each other, updates with their
+history, the owner's corrections kept as lessons; `.xls`, `.ods` and the
+text tables of PDFs are read, and a sheet of several tables is cut into
+one import per table. The model (tulip-1.1.0.pt, generator 1.2.0) also
+learns `weekdays()` - several days in one cell - and sees training
+sheets that went through the .xls, .ods and PDF readers.
+
+**Limits.** Trained on synthetic sheets only. At most 26 non-empty
+columns per table. A PDF is read from the positions of its text: a
+scanned PDF (no text) is not read (no OCR), and right-to-left text is
+assumed to be stored in visual order, as PDF writers store it.
 Formulas saved without a cached value arrive empty. A product whose name
 begins with a totals word, on a row with only numbers besides it, is taken
 for a totals row. Sheets whose preview does not fit in 4,096 tokens go to

@@ -499,6 +499,283 @@ way to undo it.
     `days[v]` and read every column by the schema's format alone
     (README, "Reading Tulip's output"). *Undo: n/a.*
 
+### C. How sure she is, column by column (`confidence.py`)
+
+1. **The band is per mapped field** (`out.price = …`), shown for each
+   column of the schema it fills (opening hours: `opens`, `closes` and
+   `closed` share the band of Tulip's `hours`), with the sheet's own
+   column letters (after `compact()` removed empty columns). *Undo: n/a.*
+2. **The score** (version 2) is the share of the 8 candidates that map
+   the field the same way (same table, same expression), times the
+   weakest token probability of the field's line, times the share of the
+   field's cells the runtime could read. The token probabilities come from
+   one teacher-forced pass over the winning program (temperature 1), not
+   from the sampling. Version 1 also took the weakest token of the
+   program's structure (target, header, keep...); on the pilot model's
+   first 200 held-out tasks of the collection it was low for every column
+   (mostly the header row's digit) and did not separate right columns
+   from wrong ones (agreement did: all 8 candidates agreeing, 97% right),
+   so it was left out; those 200 tasks are then used neither to fit nor
+   to measure the bands. *Undo: change `confidence.score()` and bump
+   `SCORE_VERSION` (older calibrations are then ignored).*
+3. **The 7 sampled programs are always written when bands are wanted**
+   (the API and `import_sheets.py`; not the evaluation's loop, whose cost
+   is unchanged), with the loop's own seed: they are the very programs the
+   loop would have tried, so the import itself never changes (tested).
+   This costs time on sheets whose greedy program passes. *Undo:
+   `import_sheets.py --no-confidence`, or `confidence=False` in the API.*
+4. **Calibration.** `sure` is the lowest score from which the columns are
+   right at least 99% of the time by the one-sided 95% lower bound of
+   the share (so new columns are very likely at least 99% right); `check`
+   the lowest score whose own chance of being right, by an isotonic fit,
+   is at least 80%; below it `unsure`. A column is right when the import
+   chose the task's table and, on every sheet row both the import and the
+   truth imported, the column holds the truth's values. *Undo: the
+   `sure=`, `check=` and `rule=` arguments of `confidence.calibrate()`.*
+5. **Where the thresholds live.** `build.py` fits them on the first 2,000
+   tasks of dev_heldout, measures them on the first 2,000 of test_heldout
+   (with `--dev-only`: even and odd dev_heldout tasks) and writes them
+   into the model file (`meta["confidence"]`). A model file made before -
+   Tulip 1 - gets them from `py calibrate.py tulip-1.0.0.pt`, which writes
+   `tulip-1.0.0.confidence.json` next to it (with the model file's sha256,
+   so it is never used for another file) and never changes the model file.
+   **Without a calibration, no column is ever "sure".** *Undo: delete the
+   `.confidence.json` file.*
+
+### B. Compare sheets against each other (`compare.py`, `keys.py`)
+
+1. **Same thing = same table and same normalised key**: products by
+   name and variant, services, staff and clients by name, opening hours by
+   day (all of a sheet's ranges for that day as one source), bookings by
+   date, start time and client, invoices by number. The key is NFKC, case
+   folded, without the accents of Latin, Greek and Cyrillic letters and
+   the short vowels of Arabic (never Hindi vowel signs or Japanese voicing
+   marks, which change the word), punctuation as spaces, and quantities in
+   one unit (grams or millilitres, the unit words of the ten languages).
+   *Undo: edit `keys.GROUP_KEY`.*
+2. **One question per group**, in `tulip_conflicts`: a duplicate (every
+   value the same) or a contradiction (the columns that differ, each
+   source's value and cells). Differences in the key's own spelling
+   ("CROISSANT" / "Croissant") are not contradictions. Duplicates within
+   one sheet are reported too. *Undo: n/a.*
+3. **The preferred source**, in this order: the newest document date
+   (a date the sheet states in its title or footer rows, its name or its
+   file name; used only when every source states one, and compared at the
+   precision of the less precise, so "Carte 2026" is level with
+   "01/03/2026"), then the newest file date (modification time), then the
+   business's own file over a supplier's (a file inside a folder named
+   "suppliers" in one of the ten languages), else a tie that the owner
+   decides. The rule that decided is stored with the question. *Undo: the
+   order is the `for rule, field in` loop of `compare.prefer()`.*
+4. **Never merge or drop.** The comparison only writes `tulip_conflicts`;
+   the rows of `tulip_<table>` are untouched (tested byte for byte). A
+   question whose rows changed is marked `gone` (kept) and the new state
+   asked; an answered question is kept while its rows stay the same.
+   *Undo: n/a.*
+5. **A CSV reader fix the messy example found.** `csv.Sniffer` took the
+   decimal commas of "BAGUETTE 0,25 kg;1,20" for the delimiter and split
+   the price list into garbage; `sheets.csv_delimiter()` now picks the
+   delimiter that gives the most lines the same number of cells (on a
+   tie `;`, tab, `|`, then `,`). This changes the preview only of CSV
+   files the sniffer misread. *Undo: put the `csv.Sniffer()` line back in
+   `sheets.read_csv()`.*
+
+### E. Update instead of replace, with history (`history.py`)
+
+1. **A re-imported sheet is paired row by row by key** (products by SKU
+   when every row of both versions has one, else barcode, else name and
+   variant; staff by e-mail, else name; clients by registration number,
+   e-mail, else name; an opening range by its day and its rank in the day;
+   rows with the same key in their order). *Undo: edit
+   `keys.MATCH_KEYS`.*
+2. **Added rows are inserted, changed rows updated in place, missing rows
+   marked removed** (`_removed` = when), never deleted; one
+   `tulip_history` row per added row, per changed column (old and new
+   value) and per removed row, with the import, the file, the sheet row
+   and the time. *Undo: n/a.*
+3. **A sheet that is now refused or needs review keeps its rows** (Tulip
+   1 deleted them before trying): a failed import says nothing about the
+   business. A sheet imported into another table has its rows marked
+   removed in the old one. *Undo: n/a.*
+4. **An unchanged file is not imported again** (same sha1, model and
+   schema version), so it changes nothing (tested on the whole database).
+   *Undo: n/a.*
+5. **Tables made before this** get `_key` and `_removed` added in place
+   (their rows stay). *Undo: n/a.*
+
+### D. The owner's corrections as future lessons (`corrections.py`)
+
+1. **Five kinds of correction**, one row each in `tulip_corrections` with
+   the sheet's preview (what the model read), its cells (compacted, so
+   a lesson never needs the file again), the program Tulip wrote and the
+   corrected mapping or program: `remap` (a field read from another
+   column, in the sheet's own letters), `unrefuse` (a table, a header row
+   and a mapping), `refuse` (a reason), `program` (a whole program), and
+   `value` (one value fixed). A mapping gives each field its kind's cell
+   reader (`amount` for a price...); an enum field needs a lookup, so a
+   whole program. *Undo: n/a.*
+2. **A correction is checked with the runtime when it is recorded** and
+   kept even when the runtime rejects it (`checked = 0`, its problems),
+   but only a correction whose lesson passes the generator's self-check is
+   ever exported. A file that changed since its import is not corrected
+   (import it again first). *Undo: n/a.*
+3. **Privacy (opt in):** corrections stay in documents.db; `export`
+   writes only those the owner shared (`corrections.py share <id>`)
+   unless `--private` is given for a training run on the owner's own PC.
+   *Undo: `corrections.py share --undo <id>`.*
+4. **Lessons are tasks of the generator's format** (the keys of
+   `gen/tasks.task_dict`, `split` "train", `family` "correction:<kind>")
+   and pass its self-check with the real runtime: a canonical program, no
+   runtime problem, the rows equal to the truth, lookup keys in the
+   preview, the preview equal to the sheet's. A lesson whose cells are an
+   evaluation sheet's (the handwritten set, `real_eval/`, and the
+   generated test splits found on the machine) is never exported. *Undo:
+   n/a.*
+5. **Value fixes are not program lessons**: they go to
+   `<lessons>.values.jsonl` as cases for the cell readers (helper, cell,
+   locale, the right value), like the cases of Appendix I. *Undo: n/a.*
+6. **Lessons join the next training round.** `gen/make.py` looks for
+   `*.jsonl` lessons in a `lessons/` folder next to build.py or in the
+   `/train` card's data upload (`.jsonl` files up to 10 MB are accepted)
+   and adds each to the training split only if it passes the generator's
+   self-check again, is no evaluation sheet (the handwritten sets,
+   `real_eval/`, the preset's evaluation splits) and shows no held-out
+   header text (it would leak into test_heldout); the counts are in
+   `data/<preset>/stats.json` ("lessons"). *Undo: set
+   `make.LESSON_FOLDERS = ()`.*
+
+### G. More kinds of files and layouts (code; the training data is item G's second half)
+
+1. **PDF tables with pypdf** (vendor/, BSD-3-Clause, pure Python, no
+   required dependency on Python 3.12). pdfminer.six (MIT) and pdfplumber,
+   which builds on it, were not taken: pdfminer.six requires the compiled
+   `cryptography` package, so it is not pure Python. pypdf is imported
+   with the crypto packages blocked (`pdftable._pypdf`): this machine's
+   system `cryptography` crashed pypdf's import with a Rust panic, and an
+   unencrypted PDF needs no crypto. *Undo: remove the `.pdf` branch of
+   `sheets.load()`.*
+2. **How a PDF table is rebuilt** (`pdftable.py`): every text show
+   operation with its start and end x (the end from the font's own
+   widths, through pypdf's layout-mode internals, pinned by the vendored
+   version; pypdf's plain extraction as the fallback for text inside form
+   objects); pieces at one height are a line; pieces closer than 1.6
+   spaces are one cell; the columns are the merged extents of the cells
+   of every line with two cells or more; a one-cell line (a title, a
+   note) goes to the column where it starts; a gap of 1.7 lines or more
+   is an empty row; pages whose columns fit the table so far continue it
+   (one sheet), others start a new sheet ("<file> p3"). Right-to-left
+   text is stored in visual order by PDF writers: each cell is turned
+   back into reading order (runs of Arabic reversed, numbers and Latin
+   words kept). Cells are texts, like a CSV file. *Undo: n/a.*
+3. **A scanned PDF (no text) needs review**, reason `scanned_pdf`: there
+   is no OCR (work order). *Undo: n/a.*
+4. **.xls with xlrd 2.0.2** (vendor/, BSD): the values and number formats
+   as for .xlsx (a whole number is an int, a date a datetime, a duration
+   format `[h]:mm` a timedelta, a time of day a time). **.ods with the
+   standard library** (a zip of XML): currency and percentage cells get a
+   format that names them (`#,##0.00 [$EUR]`, `0.00%`); a duration and a
+   time of day are the same kind of ODS cell, read as a time of day under
+   24 hours; hidden sheets are marked; repeated empty rows and columns
+   (LibreOffice writes a million) are never expanded. *Undo: remove the
+   `.xls` / `.ods` branches of `sheets.load()`.*
+5. **Writers for the generator only**: xlwt 1.3.0 (vendor/, BSD; the
+   wheel carries no licence file, the licence is in its metadata and its
+   sources) writes .xls; `gen/realfile.write_ods` and `gen/pdfwrite.py`
+   write .ods and PDF with the standard library. The PDF writer uses a
+   Type0 font with a ToUnicode map and does not embed the font, so every
+   script is written without a font file. *Undo: n/a.*
+6. **Several tables on one sheet** (`blocks.py`, before the model): a new
+   table starts after an empty row, or beside an empty column, where a
+   header row starts (two cells or more, all texts, no number, and known
+   header words - the generator's lists, never the held-out ones - or
+   numbers under it), maybe under up to 3 one-cell rows (a title, a
+   name, a date); a blank row inside a table, notes and totals after it,
+   the same header repeated stay with it, and a title run goes with the
+   table under it. A sheet with one table is returned unchanged: 0 of
+   1,500 generated single-table sheets (val, dev_heldout, test_seen,
+   test_heldout, traps) and 0 of the 32 handwritten sheets are cut. Each
+   table is read from its own R1 and named "<sheet> #2"; its rows and
+   cells are moved back to the sheet's own numbers and letters. It works
+   with the Tulip 1 model. On 40 generated sheets of two or three tables
+   the cut is right for 34 (85%); the others count as wrong in
+   test_layouts. *Undo: remove the `blocks.split()` loops in
+   `tulip.import_file` and `import_sheets.import_path`.*
+7. **Several days in one cell**: a new cell reader `weekdays()` (all ten
+   languages: ranges "Lun–Ven", "月～金", "с пн по пт", "من الاثنين إلى
+   الجمعة", ranges that wrap round the week "Sat–Mon", lists "Sat & Sun",
+   groups "en semaine", "weekend", "tous les jours") and one change to
+   TulipScript: a `day` field may take `weekdays()`, and its row becomes
+   one row per day, each traced to the same cells. Programs with
+   `weekday()` read exactly as before; the Tulip 1 model never writes
+   `weekdays()`, so it needs Tulip 1.1's training. *Undo: remove
+   `weekdays` from `tulipscript.HELPERS`.*
+8. **Generator 1.2.0, model file tulip-1.1.0.pt.** The six evaluation
+   splits Tulip 1 was scored on (val, dev_heldout, test_seen,
+   test_heldout, test_locale, traps) are drawn exactly as by generator
+   1.1.0: `tests/test_same_heldout_sets.py` checks 96 of their tasks
+   byte for byte against the base tree's, and a family added since
+   (`SINCE`) is never drawn for them. Only the training split and two
+   new splits change:
+   * `test_files` (full: 2,000): tasks drawn as for test_seen, each
+     written as a real file and read back: an .xlsx task as .xls or .ods
+     (alternately), a .csv task as a PDF (numbers written flush right).
+     A task whose file does not give it back (its program no longer
+     passes the self-check) is dropped and counted.
+   * `test_layouts` (full: 1,000): even tasks have several days in one
+     cell (the new family `opening_hours.day_ranges`), odd ones are
+     sheets of two or three tables of different targets (one locale, one
+     format), stacked with 1-3 empty rows or side by side, each table
+     with a header row; a sheet counts as right only if every table is
+     imported right, and a wrong cut is a wrong sheet, not a dropped one.
+   * train: 8% of the .xlsx tasks become .xls or .ods and 20% of the .csv
+     tasks PDFs (a task whose file does not give it back stays as it
+     was), and `opening_hours.day_ranges` (weight 1.5: about a fifth of
+     the opening-hours tasks) teaches `weekdays()`.
+   The data self-checks count typed formats (.xlsx, .xls, .ods) against
+   text formats (.csv, PDF) for the 70 / 30 rule, and Tulip 1's trap
+   rates on Tulip 1's families. Duplicates of training previews are
+   dropped from every evaluation split, as before; the training split
+   changes, so a handful of evaluation tasks may be dropped differently
+   than in Tulip 1's run. *Undo: set `GENERATOR_VERSION` back and remove
+   the `SINCE` family and the two splits from `config.SPLITS`.*
+9. **A handwritten set of Tulip 1.1** (`handwritten_1_1/`, 13 files, 15
+   tables; Tulip 1's `handwritten/` is unchanged, so the two versions
+   are compared on it): five PDFs written by another program than
+   Tulip's own writer (reportlab 5.0.1 with embedded DejaVu, WenQuanYi
+   and standard fonts - French prices right-aligned, a two-page English
+   supplier list with page labels, Arabic services drawn right to left,
+   Chinese hours with a day range, a Russian staff list), two .xls
+   (xlwt: a merged title and dates; euro formats), two .ods (JPY prices;
+   Hindi bookings with dates and times), two sheets of two tables (French
+   .xlsx, Korean .csv) and three sheets of day ranges ("Mon - Fri",
+   "Sat & Sun", "من الأحد إلى الخميس", "Mardi au samedi", "월~금",
+   "周一至周五"). The truth was written by hand, then checked with a
+   canonical program (`programs.json`) through the real readers and
+   runtime; `tests/test_handwritten_1_1.py` keeps both. Frozen sha256:
+   * `hw11-ar-hours.xlsx` e5805072cde12fec878813a73cc46c435b49c8e58e2a10cb9334670d40c3c12e
+   * `hw11-ar-services.pdf` e042f1a8139d8cd5319b889062e1f1501fe1c59501991c59e93cc10b03449f25
+   * `hw11-en-hours.xlsx` 5d9b5e7ac2b5c5bea936cbd470a0958b753e81f137131dd05a9e48f75503e3ae
+   * `hw11-en-supplier.pdf` 245bf4935062d40f13a5375c9d6d2642602e373e1564c2773e8c9ae0d32f28b7
+   * `hw11-es-clientes.xls` 70448befa5c6b5a404b6aa1c5e357f28775d9e30879c1920863d16749a93e711
+   * `hw11-fr-boutique.xlsx` 7303d16150812196470921aa3fc9a00f639a8508ec3f93427a895f81a91bf9c2
+   * `hw11-fr-tarifs.pdf` 3e36bd06980fbbbbc9fadeb9fb165e097fcfa6e8dac86730facdc62f40c3bf8c
+   * `hw11-hi-bookings.ods` d03e7a852ef503c41d2af69b3cca7bad90718b308ce5b1538e39d9f6950d7009
+   * `hw11-it-listino.xls` c809aaf98ccd9c5a7fbd66d0cc65fede7bcacd8e81d3526bdcfd83eb6e2b08e5
+   * `hw11-ja-menu.ods` 837958bbd8560fff5cbae916509df8619a6b7be8862c8f10bb4e8baa8bd17ae8
+   * `hw11-ko-cafe.csv` 9b4eb0524312a7d21d6679ac11e6031d340eeae65e8beacb9f015fab7d3710f7
+   * `hw11-ru-staff.pdf` f5ef3ed1b735464680a434858443b255fe467f5daf7d6b6453e9367b2f4f217b
+   * `hw11-zh-hours.pdf` 4bb771159ab75550de9df68aafff8a8d7be89fad6a29c2778e6abd6555514e4f
+   * `programs.json` 911e3ca40b2461f8b58286b7b2ba7eae642fbec8a8efd9523ab68290c52d1ea0
+   * `truth.jsonl` 66b082517254ea7d122a5f0731cd835da718b89dd00922944eb8e716ef128ed1
+10. **vendor/ sha256** (checked against PyPI when downloaded):
+   `pypdf-6.19.0-py3-none-any.whl`
+   7e5d6e730e7dae87d560a2cee218b852f6498c8be61966f3cd02ead971e48d14;
+   `xlrd-2.0.2-py2.py3-none-any.whl`
+   ea762c3d29f4cca48d82df517b6d89fbce4db3107f9d78713e48cd321d5c9aa9;
+   `xlwt-1.3.0-py2.py3-none-any.whl`
+   a082260524678ba48a297d922cc385f58278b8aa68741596a87de01a9c628b2e.
+   *Undo: delete the wheel.*
+
 ## Suggestions
 
 (Ideas that would change a FIXED section; not applied.)

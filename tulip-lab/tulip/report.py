@@ -466,11 +466,87 @@ def group_table(ev, key, legacy, label):
                                        for n in names]), counts
 
 
+# Tulip 1.1 against Tulip 1 (work order, section 5): the splits both
+# were scored on - drawn the same by generators 1.1.0 and 1.2.0
+COMPARE_SPLITS = ("test_heldout", "test_seen", "traps", "test_locale",
+                  "dev_heldout", "val")
+COMPARE_KEYS = (("pass1", "pass@1"), ("loop", "loop"),
+                ("loop_importable", "loop (importable)"),
+                ("false_accept_share", "false accepts / imports"),
+                ("refusal_precision", "refusal precision"),
+                ("refusal_recall", "refusal recall"),
+                ("target_accuracy", "target accuracy"))
+
+
+def find_tulip1_eval(preset):
+    """Tulip 1's eval.json for this preset - returned by its own /train
+    run, and given to this one with the training data (a .json is a data
+    file the card accepts), or named by TULIP1_EVAL. -> (eval, path)."""
+    import os
+    own = (config.runs_dir(preset) / "eval.json").resolve()
+    found = []
+    if os.environ.get("TULIP1_EVAL"):
+        found.append(pathlib.Path(os.environ["TULIP1_EVAL"]))
+    found.append(HERE / "tulip1_eval.json")
+    for folder in (HERE / "data", HERE / "previous", HERE / "upload",
+                   HERE / "uploads", HERE.parent / "data"):
+        if folder.is_dir():
+            found += sorted(x for x in folder.rglob("*.json")
+                            if x.stat().st_size < 50 * 1024 * 1024)
+    for path in found:
+        try:
+            if path.resolve() == own:
+                continue
+            ev = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            continue
+        if isinstance(ev, dict) and ev.get("preset") == preset and \
+                isinstance(ev.get("splits"), dict) and \
+                ev.get("model") in ("tulip-1.0.0.pt", "best.pt") and \
+                "confidence" not in ev:
+            return ev, path
+    return None, None
+
+
+def compare_section(preset, ev):
+    """The same held-out sets, Tulip 1.1 against Tulip 1."""
+    old, path = find_tulip1_eval(preset)
+    lines = ["#### Tulip 1.1 against Tulip 1 (the same held-out sets)", ""]
+    if old is None:
+        return lines + [
+            "Tulip 1's eval.json for the %s preset was not given to this "
+            "run, so this table has Tulip 1.1's numbers only. Its splits "
+            "are Tulip 1's very tasks (generator 1.2.0 draws them as "
+            "1.1.0 did; tests/test_same_heldout_sets.py): upload Tulip "
+            "1's runs/%s/eval.json with the training data, or run `py "
+            "report.py %s` with TULIP1_EVAL naming it." % (
+                preset, preset, preset), ""]
+    rows = []
+    for split in COMPARE_SPLITS:
+        new_s = scored(ev, split)
+        old_s = scored(old, split)
+        if not new_s and not old_s:
+            continue
+        for key, label in COMPARE_KEYS:
+            a = (new_s or {}).get(key)
+            b = (old_s or {}).get(key)
+            diff = "" if a is None or b is None else "%+.4f" % (a - b)
+            rows.append([split, label, num(a) if a is not None else "-",
+                         num(b) if b is not None else "-", diff])
+    lines += ["Tulip 1's numbers from `%s`. Duplicates of each run's own "
+              "training previews were dropped from its splits." % path.name,
+              "", md_table(["split", "measure", "Tulip 1.1", "Tulip 1",
+                            "difference"], rows), ""]
+    return lines
+
+
 def results_section(preset, gate):
     ev = read_json(config.runs_dir(preset) / "eval.json")
     if not ev:
         return "Not evaluated yet."
-    lines = []
+    lines = compare_section(preset, ev)
+    import evaluate
+    conf = evaluate.confidence_lines(ev.get("confidence"))
     if ev.get("dev_only"):
         lines += ["_Only val and dev_heldout were scored (the improvement "
                   "rounds); the test splits are scored once at the end._",
@@ -514,7 +590,9 @@ def results_section(preset, gate):
             ("lang", "loop_by_lang", "language", "By language"),
             ("answer", "loop_by_answer", "target", "By target"),
             ("family", None, "family", "By family"),
-            ("trap", "loop_by_trap", "trap", "By trap")):
+            ("trap", "loop_by_trap", "trap", "By trap"),
+            ("format", None, "file type", "By file type (Tulip 1.1: "
+             ".xls, .ods, PDF in test_files)")):
         t = group_table(ev, key, legacy, label)
         lines += ["#### %s (loop%s)" % (title, ", tasks in brackets"
                                         if t and t[1] else ""), ""]
@@ -551,7 +629,7 @@ def results_section(preset, gate):
                         "loop results"], rows), ""]
     # handwritten, real_eval, test_locale
     lines += ["#### Handwritten files, real_eval and test_locale", ""]
-    for name in ("handwritten", "real_eval"):
+    for name in ("handwritten", "real_eval", "handwritten_1_1"):
         h = ev.get(name)
         if h is None:
             lines.append("* %s: %s" % (name, "not run (dev-only)" if
@@ -559,12 +637,20 @@ def results_section(preset, gate):
         elif not h.get("sheets"):
             lines.append("* %s: no sheets" % name)
         else:
-            lines.append("* %s: loop %s over %d sheets%s" % (
+            lines.append("* %s: loop %s over %d sheets%s%s" % (
                 name, num(h.get("loop")), h["sheets"],
                 "; by language: " + ", ".join(
                     "%s %s" % (k, num(v, "%.2f"))
                     for k, v in h["by_lang"].items())
-                if h.get("by_lang") else ""))
+                if h.get("by_lang") else "",
+                "; by file type: " + ", ".join(
+                    "%s %s" % (k, num(v, "%.2f"))
+                    for k, v in h["by_type"].items())
+                if h.get("by_type") else ""))
+    if ev.get("handwritten_1_1"):
+        lines.append("* handwritten_1_1 is Tulip 1.1's own set (PDF, .xls, "
+                     ".ods, several tables on one sheet, several days in "
+                     "one cell); Tulip 1's handwritten set is unchanged.")
     tl = scored(ev, "test_locale")
     lines.append("* test_locale: %s" % (
         "pass@1 %s, loop %s over %d tasks" % (num(tl["pass1"]),
@@ -589,6 +675,8 @@ def results_section(preset, gate):
     lines.append(md_table(["split", "greedy median / p95",
                            "loop median / p95", "wall s, whole split"],
                           rows) if rows else "No split scored.")
+    if conf:
+        lines += ["", "#### " + conf[1].lstrip("# ")] + conf[2:]
     return "\n".join(lines)
 
 
@@ -708,9 +796,11 @@ def decisions_headings(text):
 
 
 KNOWN_LIMITS = """* Training data is synthetic.
-* `.xls` / `.ods` files are not read.
-* At most 26 non-empty columns; one table per sheet.
-* One row covering several days ("Lun–Ven 9h–18h") is not read.
+* At most 26 non-empty columns per table.
+* A scanned PDF (no text) is not read: there is no OCR. Right-to-left
+  text in a PDF is assumed to be stored in visual order.
+* A sheet of several tables is cut only where a header row starts after
+  an empty row or beside an empty column.
 * Formulas saved without a cached value arrive as empty.
 * A product whose name begins with a totals word ("Total Care …") on a row
   with only numbers besides it is taken for a totals row."""
@@ -750,7 +840,9 @@ def write(preset=None, log=print):
     gates = {}
     for p in shown:
         gates[p] = gate_of(read_json(config.runs_dir(p) / "eval.json"))
-    parts = ["# Tulip 1 — the Importer: build report", ""]
+    parts = ["# Tulip %s — the Importer: build report" % (
+        ".".join(config.VERSION.split(".")[:2]).rstrip(".0") or
+        config.VERSION), ""]
     parts += ["## 1. Summary", ""] + summary_lines(preset, gates[preset])
     parts += ["", "## 2. Environment", "", env_section()]
     for number, title, fn in (

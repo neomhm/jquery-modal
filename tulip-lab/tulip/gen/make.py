@@ -139,7 +139,8 @@ def make_split(preset, split, n, workers, train_keys, log):
             if task is None:
                 stats["failed"] += 1
                 continue
-            key = preview_key(task["preview"])
+            key = preview_key(task["preview"] or json.dumps(
+                task["sheet"], ensure_ascii=False, sort_keys=True))
             if split == "train":
                 train_keys.add(key)
             elif key in train_keys:
@@ -199,11 +200,74 @@ def make(preset, workers=None, log=print):
     for split in config.SPLITS:
         all_stats["splits"][split] = make_split(preset, split, sizes[split],
                                                 workers, train_keys, log)
+    all_stats["lessons"] = add_lessons(preset, log)
     all_stats["seconds"] = round(time.time() - started, 1)
     (folder / "stats.json").write_text(
         json.dumps(all_stats, ensure_ascii=False, indent=1),
         encoding="utf-8")
     return all_stats
+
+
+# where the owner's lessons may be (corrections.py export, Tulip 1.1
+# item D): a lessons/ folder next to build.py, or the /train card's data
+# upload (.jsonl is a data file it accepts)
+LESSON_FOLDERS = ("lessons", "data", "upload", "uploads")
+
+
+def lesson_files():
+    out = []
+    for name in LESSON_FOLDERS:
+        folder = config.HERE / name
+        if folder.is_dir():
+            out += sorted(p for p in folder.rglob("*.jsonl")
+                          if p.is_file())
+    return out
+
+
+def add_lessons(preset, log):
+    """The owner's corrections, exported as lessons, join the training
+    split - each only if it passes the generator's self-check with the
+    real runtime again, is no evaluation sheet (the handwritten sets,
+    real_eval/, this preset's evaluation splits) and shows no held-out
+    header text. -> {"files", "lessons", "rejected": {reason: n}}."""
+    import collections
+    import corrections as R
+    from gen import tasks as T
+    files = lesson_files()
+    stats = {"files": len(files), "lessons": 0,
+             "rejected": collections.Counter()}
+    if not files:
+        return dict(stats, rejected={})
+    forbidden = R.evaluation_hashes(presets=[preset])
+    path = config.data_dir(preset) / "train.jsonl.gz"
+    seen = set()
+    with gzip.open(path, "at", encoding="utf-8") as f:
+        for lesson_file in files:
+            for line in lesson_file.read_text(encoding="utf-8").splitlines():
+                try:
+                    lesson = json.loads(line)
+                except ValueError:
+                    continue
+                if not isinstance(lesson, dict) or not str(
+                        lesson.get("family", "")).startswith("correction:"):
+                    continue
+                problems = R.lesson_problems(lesson, forbidden)
+                if not problems and T.task_shown_groups(lesson):
+                    problems = ["holdout_header"]
+                key = preview_key(lesson["preview"])
+                if not problems and key in seen:
+                    problems = ["duplicate"]
+                if problems:
+                    stats["rejected"][problems[0].split(":")[0]] += 1
+                    continue
+                seen.add(key)
+                f.write(json.dumps(dict(lesson, split="train"),
+                                   ensure_ascii=False) + "\n")
+                stats["lessons"] += 1
+    log("  lessons: %d from %d file(s) joined the training split; "
+        "rejected: %s" % (stats["lessons"], len(files),
+                          dict(stats["rejected"]) or "none"))
+    return dict(stats, rejected=dict(stats["rejected"]))
 
 
 def main():

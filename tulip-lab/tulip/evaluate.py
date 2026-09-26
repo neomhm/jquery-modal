@@ -160,10 +160,18 @@ def error_group(task, greedy, loop):
 # ---------------------------------------------------------------------
 #  one split
 # ---------------------------------------------------------------------
-def evaluate_split(runner, split, tasks, keep_examples, log):
+def evaluate_split(runner, split, tasks, keep_examples, log,
+                   confidence=False):
+    """confidence: also give every imported column its confidence
+    signals and score, and whether it is right (confidence.py), for the
+    calibration of the bands. The loop's result does not change."""
+    import confidence as C
     per = []
     started = time.time()
     for k, t in enumerate(tasks):
+        if t.get("answer") == "multi":            # several tables (G)
+            per.append(multi_record(runner, t))
+            continue
         sheet = sheet_from_task(t)
         answer_refusal = refusal_of(t["program"])
         t0 = time.process_time()
@@ -175,7 +183,8 @@ def evaluate_split(runner, split, tasks, keep_examples, log):
         p1 = pass_at_1(t, greedy, sheet) if greedy else False
         t1 = time.process_time()
         loop = runner._import_sheet(sheet, t["targets"], t["locale"],
-                                    greedy=greedy or None)
+                                    greedy=greedy or None,
+                                    confidence=confidence)
         loop_cpu = greedy_cpu + time.process_time() - t1
         imported = loop["status"] in ("imported", "imported_with_warnings")
         rows = clean(loop["rows"]) if imported else None
@@ -196,6 +205,7 @@ def evaluate_split(runner, split, tasks, keep_examples, log):
         except Exception:
             got_target = None
         rec = {"id": t["id"], "lang": t["lang"], "family": t["family"],
+               "format": t.get("format"),
                "answer": t["answer"], "traps": t["traps"],
                "refusal_task": bool(answer_refusal),
                "pass1": bool(p1), "loop_ok": bool(loop_ok),
@@ -207,6 +217,21 @@ def evaluate_split(runner, split, tasks, keep_examples, log):
                "invented": invented, "candidates": loop["candidates_tried"],
                "greedy_cpu": round(greedy_cpu, 3),
                "loop_cpu": round(loop_cpu, 3)}
+        if confidence and imported and loop.get("confidence"):
+            try:
+                rights = C.field_rights(t, loop, sheet)
+            except Exception:
+                rights = {}
+            seen = set()
+            rec["confidence"] = []
+            for col in loop["confidence"]["columns"]:
+                if col["field"] in seen or col["field"] not in rights:
+                    continue
+                seen.add(col["field"])
+                rec["confidence"].append({
+                    "field": col["field"], "score": col["score"],
+                    "signals": col["signals"],
+                    "right": rights[col["field"]]})
         if keep_examples and not (p1 and loop_ok):
             rec["group"] = error_group(t, greedy, loop)
             rec["greedy"] = greedy
@@ -216,6 +241,55 @@ def evaluate_split(runner, split, tasks, keep_examples, log):
             log("  %s: %d / %d (%.0f s)" % (split, k + 1, len(tasks),
                                             time.time() - started))
     return per
+
+
+def multi_record(runner, t):
+    """A sheet of several tables (test_layouts): blocks.split() cuts it,
+    and every table must be imported right on its own. -> one record, as
+    evaluate_split() writes for one sheet; its parts in "parts"."""
+    import blocks
+    sheet = sheet_from_task(t)
+    cut = blocks.split(sheet)
+    parts = []
+    greedy_cpu = loop_cpu = 0.0
+    for block, part in zip(cut, t["parts"]):
+        small, _ = sheets.compact(block)
+        preview = sheets.preview(small, t["targets"], t["locale"])
+        t0 = time.process_time()
+        greedy = runner._write(preview, 0, greedy_only=True)[0] \
+            if runner.fits(preview) else ""
+        greedy_cpu += time.process_time() - t0
+        as_task = {"program": part["program"], "truth": part["truth"],
+                   "targets": t["targets"], "locale": t["locale"]}
+        p1 = pass_at_1(as_task, greedy, block) if greedy else False
+        t1 = time.process_time()
+        loop = runner._import_sheet(block, t["targets"], t["locale"],
+                                    greedy=greedy or None)
+        loop_cpu += time.process_time() - t1
+        imported = loop["status"] in ("imported", "imported_with_warnings")
+        ok = imported and clean(loop["rows"]) == truth_rows(part["answer"],
+                                                            part["truth"])
+        parts.append({"answer": part["answer"], "pass1": bool(p1),
+                      "loop_ok": bool(ok), "imported": imported,
+                      "target": loop["target"],
+                      "candidates": loop["candidates_tried"]})
+    whole = len(cut) == len(t["parts"])
+    loop_ok = whole and all(x["loop_ok"] for x in parts)
+    imported = whole and all(x["imported"] for x in parts)
+    return {"id": t["id"], "lang": t["lang"], "family": t["family"],
+            "format": t.get("format"), "answer": "multi",
+            "traps": t.get("traps") or [], "refusal_task": False,
+            "pass1": whole and all(x["pass1"] for x in parts),
+            "loop_ok": loop_ok,
+            "status": "imported" if imported else "needs_review",
+            "reason": None if whole else "tables_%d_of_%d" % (
+                len(cut), len(t["parts"])),
+            "imported": imported, "false_accept": imported and not loop_ok,
+            "target_ok": whole and all(x["target"] == x["answer"]
+                                       for x in parts),
+            "invented": 0, "candidates": sum(x["candidates"] for x in parts),
+            "greedy_cpu": round(greedy_cpu, 3),
+            "loop_cpu": round(loop_cpu, 3), "parts": parts}
 
 
 def summarize(per):
@@ -268,9 +342,11 @@ def summarize(per):
     by = {"lang": collections.defaultdict(list),
           "answer": collections.defaultdict(list),
           "family": collections.defaultdict(list),
-          "trap": collections.defaultdict(list)}
+          "trap": collections.defaultdict(list),
+          "format": collections.defaultdict(list)}
     for r in per:
         by["lang"][r.get("lang")].append(r)
+        by["format"][r.get("format") or "?"].append(r)
         by["answer"][r["answer"] if not r["refusal_task"]
                      else "refusal"].append(r)
         by["family"][r.get("family") or "?"].append(r)
@@ -328,12 +404,17 @@ def evaluate_folder(runner, folder, log):
         encoding="utf-8").splitlines() if x.strip()]
     if not lines:
         return {"sheets": 0}
+    import blocks
     ok = []
     per_lang = collections.defaultdict(list)
+    per_type = collections.defaultdict(list)
     for item in lines:
         path = folder / item["file"]
-        found = [s for s in sheets.load(path, item["locale"])
-                 if s.name == item["sheet"]]
+        # a sheet of several tables is cut as Tulip cuts it: its tables
+        # are "<sheet> #1", "<sheet> #2" (the handwritten set of Tulip 1
+        # has none)
+        found = [part for s in sheets.load(path, item["locale"])
+                 for part in blocks.split(s) if part.name == item["sheet"]]
         if not found:
             ok.append(False)
             continue
@@ -350,9 +431,12 @@ def evaluate_folder(runner, folder, log):
                 res["reason"] == item["answer"]
         ok.append(bool(good))
         per_lang[item["locale"].split("-")[0]].append(bool(good))
+        per_type[path.suffix.lower().lstrip(".")].append(bool(good))
     return {"sheets": len(lines), "loop": mean(ok),
             "by_lang": dict((k, mean(v)) for k, v in sorted(
-                per_lang.items()))}
+                per_lang.items())),
+            "by_type": dict((k, mean(v)) for k, v in sorted(
+                per_type.items()))}
 
 
 # ---------------------------------------------------------------------
@@ -363,8 +447,8 @@ _RUNNER = None
 
 # The order the splits are scored in: the gate's own splits first, so a
 # run that runs out of time loses the least important ones.
-EVAL_ORDER = ["test_heldout", "test_seen", "traps", "dev_heldout", "val",
-              "test_locale"]
+EVAL_ORDER = ["test_heldout", "test_seen", "traps", "dev_heldout",
+              "test_files", "test_layouts", "val", "test_locale"]
 # at most this many processes share the GPU (each loads torch and the
 # model; the /train unit has 12 GB of RAM for all of them)
 GPU_WORKERS = 2
@@ -372,6 +456,46 @@ GPU_WORKERS = 2
 
 class OutOfTime(Exception):
     pass
+
+
+# The confidence bands (Tulip 1.1, item C): fitted on the first
+# CONFIDENCE_TASKS tasks of dev_heldout, measured on the first
+# CONFIDENCE_TASKS of test_heldout (with --dev-only: fitted on the even
+# and measured on the odd tasks of dev_heldout). Those tasks write their
+# 8 candidates even when the greedy program passes, so they cost more.
+CONFIDENCE_TASKS = 2000
+CONFIDENCE_FIT, CONFIDENCE_MEASURE = "dev_heldout", "test_heldout"
+
+
+def confidence_result(pairs, dev_only):
+    """{split: [(score, right)]} -> the bands and their measured rates
+    (eval.json "confidence"; build.py puts the bands into the model
+    file)."""
+    import confidence as C
+    fit = pairs.get(CONFIDENCE_FIT) or []
+    if not fit:
+        return {"bands": None, "why": "%s was not scored" % CONFIDENCE_FIT}
+    out = {"score_version": C.SCORE_VERSION,
+           "sure_target": C.SURE_PRECISION}
+    measure = pairs.get(CONFIDENCE_MEASURE)
+    if measure and not dev_only:
+        bands = C.calibrate([p[:2] for p in fit])
+        out.update(fit_on="%s (%d columns)" % (CONFIDENCE_FIT, len(fit)),
+                   measured_on="%s (%d columns)" % (CONFIDENCE_MEASURE,
+                                                    len(measure)),
+                   fit=C.measure([p[:2] for p in fit], bands),
+                   measured=C.measure([p[:2] for p in measure], bands))
+    else:
+        even = [p[:2] for p in fit if p[2] % 2 == 0]
+        odd = [p[:2] for p in fit if p[2] % 2 == 1]
+        bands = C.calibrate(even)
+        out.update(fit_on="%s, even tasks (%d columns)" % (
+            CONFIDENCE_FIT, len(even)),
+            measured_on="%s, odd tasks (%d columns)" % (CONFIDENCE_FIT,
+                                                        len(odd)),
+            fit=C.measure(even, bands), measured=C.measure(odd, bands))
+    out["bands"] = bands
+    return out
 
 
 def eval_device():
@@ -388,33 +512,41 @@ def _worker_init(path, device="cpu"):
 
 
 def _worker_job(job):
-    split, tasks, keep = job
-    return evaluate_split(_RUNNER, split, tasks, keep, lambda *a: None)
+    split, tasks, keep, confidence = job
+    return evaluate_split(_RUNNER, split, tasks, keep, lambda *a: None,
+                          confidence)
 
 
 def evaluate_parallel(path, split, tasks, keep, workers, log, device="cpu",
-                      deadline=None):
+                      deadline=None, confidence=False):
     """Several processes (spawned, never forked: CUDA/ROCm cannot be
     forked), each with its own copy of the model. Raises OutOfTime when
     the deadline passes before the split is finished; a part-scored split
-    is never reported."""
+    is never reported. confidence: True, or the number of tasks (the
+    first ones) that also get the confidence bands' signals."""
     import multiprocessing
     started = time.time()
+    n_conf = len(tasks) if confidence is True else int(confidence or 0)
     if workers <= 1 or len(tasks) < 8:
         _worker_init(path, device)
         per = []
         for k in range(0, len(tasks), 50):
             if deadline and time.time() > deadline:
                 raise OutOfTime(split)
-            per += evaluate_split(_RUNNER, split, tasks[k:k + 50], keep,
-                                  lambda *a: None)
+            for a, b, conf in ((k, min(k + 50, n_conf), True),
+                               (max(k, n_conf), k + 50, False)):
+                if a < b:
+                    per += evaluate_split(_RUNNER, split, tasks[a:b], keep,
+                                          lambda *x: None, conf)
             log("  %s: %d / %d (%.0f s); evaluate progress %d%%" % (
                 split, len(per), len(tasks), time.time() - started,
                 100 * len(per) // max(1, len(tasks))))
         return per
     size = max(1, min(100, len(tasks) // (workers * 6)))
-    jobs = [(split, tasks[k:k + size], keep)
-            for k in range(0, len(tasks), size)]
+    jobs = [(split, tasks[k:min(k + size, n_conf)], keep, True)
+            for k in range(0, n_conf, size)]
+    jobs += [(split, tasks[k:k + size], keep, False)
+             for k in range(n_conf, len(tasks), size)]
     per = []
     with multiprocessing.get_context("spawn").Pool(
             workers, initializer=_worker_init,
@@ -452,6 +584,7 @@ def run(preset, dev_only=False, model_path=None, log=print, workers=None,
         pathlib.Path(path).name), "device": device, "workers": workers,
         "splits": {}, "errors": {}, "not_run": {}, "seconds": {}}
     rate = None                     # seconds per task, measured
+    pairs = {}                      # the confidence bands' columns
     for split in splits:
         tasks = read_tasks(preset, split)
         if deadline and (time.time() > deadline or (
@@ -464,10 +597,12 @@ def run(preset, dev_only=False, model_path=None, log=print, workers=None,
         log("evaluating %s (%d tasks, %d processes, %s)" % (
             split, len(tasks), workers, device))
         t0 = time.time()
+        n_conf = min(len(tasks), CONFIDENCE_TASKS) if split in (
+            CONFIDENCE_FIT, CONFIDENCE_MEASURE) else 0
         try:
             per = evaluate_parallel(path, split, tasks,
                                     split in ERROR_SPLITS, workers, log,
-                                    device, deadline)
+                                    device, deadline, n_conf)
         except OutOfTime:
             result["not_run"][split] = "time"
             log("STOPPED evaluating %s: the run's time budget ran out" %
@@ -477,6 +612,10 @@ def run(preset, dev_only=False, model_path=None, log=print, workers=None,
         if tasks:
             rate = (time.time() - t0) / len(tasks)
         result["splits"][split] = summarize(per)
+        if n_conf:
+            pairs[split] = [(c["score"], bool(c["right"]),
+                             int(r["id"].rsplit("-", 1)[1]))
+                            for r in per for c in r.get("confidence", [])]
         if split in ERROR_SPLITS:
             groups = collections.Counter(r["group"] for r in per
                                          if "group" in r)
@@ -487,12 +626,17 @@ def run(preset, dev_only=False, model_path=None, log=print, workers=None,
     # the splits were scored in
     result["splits"] = dict((s, result["splits"][s]) for s in wanted
                             if s in result["splits"])
+    result["confidence"] = confidence_result(pairs, dev_only)
     if not dev_only:
         runner = Tulip(path, device=device)
         result["handwritten"] = evaluate_folder(runner, HERE / "handwritten",
                                                 log)
         result["real_eval"] = evaluate_folder(runner, HERE / "real_eval",
                                               log)
+        # Tulip 1.1's handwritten cases (item G): PDF, .xls, .ods,
+        # several tables on one sheet, several days in one cell
+        result["handwritten_1_1"] = evaluate_folder(
+            runner, HERE / "handwritten_1_1", log)
     (out / "eval.json").write_text(json.dumps(result, indent=1,
                                               ensure_ascii=False),
                                    encoding="utf-8")
@@ -692,6 +836,32 @@ def gate_rows(result):
     return rows
 
 
+def confidence_lines(conf):
+    """The confidence bands' table (eval_tables.md and REPORT.md)."""
+    if not conf:
+        return []
+    lines = ["", "## Confidence bands (Tulip 1.1, item C)", ""]
+    bands = conf.get("bands")
+    if not bands:
+        return lines + ["No calibration: %s. This model never says "
+                        "'sure'." % (conf.get("why") or "too few right "
+                                     "columns for a 99% band"), ""]
+    lines += ["Thresholds, fitted on %s: sure >= %.4f, check >= %.4f "
+              "(score version %s). Measured on %s:" % (
+                  conf["fit_on"], bands["sure"], bands["check"],
+                  conf.get("score_version"), conf["measured_on"]), "",
+              "| band | columns | right | rate | 95% lower bound |",
+              "|---|---|---|---|---|"]
+    for band in ("sure", "check", "unsure"):
+        m = (conf.get("measured") or {}).get(band) or {}
+        lines.append("| %s | %s | %s | %s | %s |" % (
+            band, m.get("columns", 0), m.get("right", 0),
+            "-" if m.get("rate") is None else "%.2f%%" % (100 * m["rate"]),
+            "-" if m.get("low95") is None else "%.2f%%" % (
+                100 * m["low95"])))
+    return lines + [""]
+
+
 def tables(result):
     lines = ["# Tulip evaluation - preset %s%s" % (
         result["preset"], " (dev splits only)" if result["dev_only"] else ""),
@@ -740,7 +910,8 @@ def tables(result):
         groups = s.get("groups")
         if groups:
             for key, label in (("lang", "languages"), ("answer", "targets"),
-                               ("family", "families"), ("trap", "traps")):
+                               ("family", "families"), ("trap", "traps"),
+                               ("format", "file types")):
                 lines.append("%s: %s" % (label, ", ".join(
                     "%s %s (%d)" % (g, v["loop"], v["tasks"])
                     for g, v in groups.get(key, {}).items())))
@@ -754,13 +925,14 @@ def tables(result):
             lines.append("")
             lines.append("traps: " + ", ".join(
                 "%s %s" % kv for kv in s["loop_by_trap"].items()))
+    lines += confidence_lines(result.get("confidence"))
     if result.get("errors"):
         lines += ["", "## Error groups (val and dev_heldout only)", ""]
         for split, e in result["errors"].items():
             lines.append("%s: %s" % (split, ", ".join(
                 "%s %d" % kv for kv in e["groups"].items()) or "none"))
             lines.append("")
-    for name in ("handwritten", "real_eval"):
+    for name in ("handwritten", "real_eval", "handwritten_1_1"):
         h = result.get(name)
         if h is not None:
             lines += ["", "## %s" % name, "",
@@ -770,6 +942,10 @@ def tables(result):
                 lines.append("")
                 lines.append("by language: " + ", ".join(
                     "%s %s" % kv for kv in h["by_lang"].items()))
+            if h.get("by_type"):
+                lines.append("")
+                lines.append("by file type: " + ", ".join(
+                    "%s %s" % kv for kv in h["by_type"].items()))
     return "\n".join(lines) + "\n"
 
 

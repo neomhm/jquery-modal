@@ -16,8 +16,8 @@ import pathlib
 import sys
 from datetime import date
 
-VERSION = "1.0.0"              # version of the model file (tulip-1.0.0.pt)
-GENERATOR_VERSION = "1.1.0"    # bump when the synthetic data changes on purpose
+VERSION = "1.1.0"              # version of the model file (tulip-1.1.0.pt)
+GENERATOR_VERSION = "1.2.0"    # bump when the synthetic data changes on purpose
 
 HERE = pathlib.Path(__file__).resolve().parent
 
@@ -95,9 +95,13 @@ TARGETS = ["products", "services", "opening_hours", "staff", "clients",
 
 # The data splits, in the order they are generated (section 11)
 SPLITS = ["train", "val", "dev_heldout", "test_seen", "test_heldout",
-          "test_locale", "traps"]
+          "test_locale", "traps", "test_files", "test_layouts"]
 EVAL_SPLITS = ["val", "dev_heldout", "test_seen", "test_heldout",
-               "test_locale", "traps"]
+               "test_locale", "traps", "test_files", "test_layouts"]
+# Tulip 1.1 (item G): test_files - tasks written as real .xls, .ods and
+# PDF files and read back; test_layouts - sheets with several tables and
+# cells with several days. The other evaluation splits are drawn exactly
+# as for Tulip 1 (tests/test_same_heldout_sets.py).
 DEV_SPLITS = ["val", "dev_heldout"]          # the only ones ever read
 
 # The candidate loop of section 7.2 (also stored in the model file)
@@ -124,7 +128,7 @@ PRESETS = {
         # generator, 2026-09-27)
         "tasks": {"train": 3000, "val": 50, "dev_heldout": 50,
                   "test_seen": 50, "test_heldout": 50, "test_locale": 20,
-                  "traps": 30},
+                  "traps": 30, "test_files": 30, "test_layouts": 30},
         "train": {"steps": 40, "epochs": None, "minutes": None,
                   "lr": 2e-3, "tokens_per_batch": 8000, "eval": "end"},
     },
@@ -133,7 +137,7 @@ PRESETS = {
         "ffn_hidden": 352, "max_len": 2048, "dropout": 0.0,
         "tasks": {"train": 1000, "val": 50, "dev_heldout": 50,
                   "test_seen": 50, "test_heldout": 50, "test_locale": 20,
-                  "traps": 30},
+                  "traps": 30, "test_files": 30, "test_layouts": 30},
         "train": {"steps": 1200, "epochs": None, "minutes": None,
                   "lr": 2e-3, "tokens_per_batch": 8000, "eval": "end"},
     },
@@ -145,7 +149,7 @@ PRESETS = {
         # train 60,000 = 2x, improvement round 1 (DECISIONS.md)
         "tasks": {"train": 60000, "val": 500, "dev_heldout": 500,
                   "test_seen": 500, "test_heldout": 500, "test_locale": 200,
-                  "traps": 300},
+                  "traps": 300, "test_files": 300, "test_layouts": 200},
         "train": {"steps": None, "epochs": 1, "minutes": 90,
                   "lr": 1e-3, "tokens_per_batch": 16000,
                   "eval": "every_15_min"},
@@ -155,7 +159,8 @@ PRESETS = {
         "ffn_hidden": 1408, "max_len": 4096, "dropout": 0.1,
         "tasks": {"train": 400000, "val": 4000, "dev_heldout": 4000,
                   "test_seen": 4000, "test_heldout": 4000,
-                  "test_locale": 2000, "traps": 3000},
+                  "test_locale": 2000, "traps": 3000, "test_files": 2000,
+                  "test_layouts": 1000},
         "train": {"steps": None, "epochs": 3, "minutes": 360,
                   "lr": 6e-4, "tokens_per_batch": 64000,
                   "eval": "quarter_epoch"},

@@ -16,7 +16,7 @@ Stages, in order:
     train      section 14 -> runs/<preset>/.work/best.pt, then the model
                file at once (without evaluation numbers)
     evaluate   section 16 (--dev-only: val and dev_heldout only)
-    export     the model file next to this script: tulip-1.0.0.pt (full),
+    export     the model file next to this script: tulip-1.1.0.pt (full),
                tulip-pilot.pt or tulip-smoke.pt
     report     writes this preset's part of REPORT.md
 
@@ -213,6 +213,9 @@ def write_model_file(preset, ev, log):
         "sampling": config.SAMPLING,
         "totals": list(H.TOTALS),
         "evaluation": key_numbers(ev) if ev is not None else None,
+        # the confidence bands' thresholds, calibrated by the evaluation
+        # (Tulip 1.1, item C); None: this model never says "sure"
+        "confidence": model_bands(ev),
         "generator_version": config.GENERATOR_VERSION,
         "holdout_sha1": hashlib.sha1(hold).hexdigest(),
         "reference_date": config.REFERENCE_DATE.isoformat(),
@@ -248,6 +251,18 @@ def write_stages(preset):
                 pass
     (config.runs_dir(preset) / "stages.json").write_text(json.dumps(
         stages, indent=1, ensure_ascii=False, default=str), encoding="utf-8")
+
+
+def model_bands(ev):
+    """The bands for the model file's meta, from eval.json."""
+    conf = (ev or {}).get("confidence") or {}
+    if not conf.get("bands"):
+        return None
+    out = dict(conf["bands"])
+    out.update((k, conf.get(k)) for k in ("score_version", "sure_target",
+                                          "fit_on", "measured_on",
+                                          "measured"))
+    return out
 
 
 def key_numbers(ev):

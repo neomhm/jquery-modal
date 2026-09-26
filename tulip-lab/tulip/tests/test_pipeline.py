@@ -106,8 +106,9 @@ class FakeTulip:
         obj.max_len = 10 ** 6
         obj._lock = threading.Lock()
         obj.fits = lambda preview: True
-        obj._write = lambda preview, n=7, greedy_only=False: \
-            programs[:1] if greedy_only else programs[:1 + n]
+        obj._write = lambda preview, n=7, greedy_only=False, \
+            sampled_only=False: programs[:1] if greedy_only else \
+            [None] + programs[1:1 + n] if sampled_only else programs[:1 + n]
         return obj
 
 

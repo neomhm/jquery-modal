@@ -236,9 +236,17 @@ class Sheet:
 
 
 def clean_rows(rows):
-    """Remove None keys - the comparison of section 10.6."""
-    return [dict((k, v) for k, v in r.items() if v is not None)
-            for r in rows]
+    """Remove None keys - the comparison of section 10.6. A record whose
+    day is a tuple of days (a "Lun–Ven" row, read with weekdays()) is one
+    row per day, as the runtime gives it."""
+    out = []
+    for r in rows:
+        many = [k for k, v in r.items() if isinstance(v, tuple)]
+        for one in (r[many[0]] if many else [None]):
+            row = dict(r, **{many[0]: one}) if many else r
+            out.append(dict((k, v) for k, v in row.items()
+                            if v is not None))
+    return out
 
 
 def self_check(program, sheet, locale, targets):

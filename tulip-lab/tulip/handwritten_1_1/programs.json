@@ -1,0 +1,17 @@
+{
+ "hw11-fr-tarifs.pdf|hw11-fr-tarifs": "target('products')\nheader(4)\nout.name = text(col('A'))\nout.variant = text(col('B'))\nout.price = amount(col('C'))\nout.currency = currency(col('C'))\nout.tax_included = tax_included(header_of('C'))",
+ "hw11-en-supplier.pdf|hw11-en-supplier": "target('products')\nheader(4)\nout.sku = text(col('A'))\nout.name = text(col('B'))\nout.variant = text(col('C'))\nout.price = amount(col('D'))\nout.currency = currency(header_of('D'))",
+ "hw11-ar-services.pdf|hw11-ar-services": "target('services')\nheader(3)\nout.name = text(col('C'))\nout.price = amount(col('A'))\nout.currency = currency(header_of('A'))\nout.duration_min = duration(col('B'))",
+ "hw11-zh-hours.pdf|hw11-zh-hours": "target('opening_hours')\nheader(3)\nout.day = weekdays(col('A'))\nout.hours = hours(col('B'))",
+ "hw11-ru-staff.pdf|hw11-ru-staff": "target('staff')\nheader(4)\nout.name = text(col('A'))\nout.role = text(col('B'))\nout.email = email(col('D'))\nout.phone = phone(col('C'))",
+ "hw11-es-clientes.xls|Clientes": "target('clients')\nheader(3)\nout.name = text(col('A'))\nout.contact_person = text(col('B'))\nout.phone = phone(col('C'))\nout.client_since = date(col('D'))",
+ "hw11-it-listino.xls|Listino": "target('products')\nheader(1)\nout.sku = text(col('A'))\nout.name = text(col('B'))\nout.variant = text(col('C'))\nout.price = amount(col('D'))\nout.currency = currency(format_of('D'))",
+ "hw11-ja-menu.ods|メニュー": "target('products')\nheader(3)\nout.name = text(col('A'))\nout.variant = text(col('B'))\nout.price = amount(col('C'))\nout.currency = currency(format_of('C'))",
+ "hw11-hi-bookings.ods|बुकिंग": "target('bookings')\nheader(3)\nout.date = date(col('A'))\nout.start_time = time(col('B'))\nout.client = text(col('C'))\nout.service = text(col('D'))",
+ "hw11-fr-boutique.xlsx|Boutique #1": "target('products')\nheader(3)\nout.name = text(col('A'))\nout.price = amount(col('B'))\nout.currency = currency(format_of('B'))",
+ "hw11-fr-boutique.xlsx|Boutique #2": "target('opening_hours')\nheader(2)\nout.day = weekdays(col('A'))\nout.hours = hours(col('B'))",
+ "hw11-ko-cafe.csv|hw11-ko-cafe #1": "target('products')\nheader(1)\nout.name = text(col('A'))\nout.price = amount(col('B'))",
+ "hw11-ko-cafe.csv|hw11-ko-cafe #2": "target('opening_hours')\nheader(2)\nout.day = weekdays(col('A'))\nout.hours = hours(col('B'))",
+ "hw11-en-hours.xlsx|Hours": "target('opening_hours')\nheader(2)\nout.day = weekdays(col('A'))\nout.hours = hours(col('B'))",
+ "hw11-ar-hours.xlsx|أوقات الدوام": "target('opening_hours')\nheader(1)\nout.day = weekdays(col('A'))\nout.hours = hours(col('B'))"
+}

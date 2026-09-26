@@ -104,3 +104,17 @@ def test_compact_removes_empty_columns():
     small, letters = sheets.compact(sheets.Sheet('Export', rows))
     assert small.rows == [['Nom', 'Prix'], ['Pain', 1.3]]
     assert letters == ['A', 'AF']
+
+
+def test_csv_delimiter_is_not_a_decimal_comma():
+    """csv.Sniffer took "," for the delimiter of a French price list
+    whose rows hold decimal commas (found by the messy example of
+    Tulip 1.1's item B)."""
+    import sheets
+    text = ("Tarifs au 01/03/2026\nProduit;Prix\nCROISSANT;1,25\n"
+            "Pain au chocolat;1,30\nBAGUETTE 0,25 kg;1,20\n")
+    assert sheets.csv_delimiter(text) == ";"
+    assert sheets.csv_delimiter("Name,Price\nBread,1.20\nCake,\"1,50\"\n") \
+        == ","
+    assert sheets.csv_delimiter("Nom\tPrix\nPain\t1,20\n") == "\t"
+    assert sheets.csv_delimiter("Nom|Prix\nPain|1,20\n") == "|"

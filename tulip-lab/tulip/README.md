@@ -1,6 +1,7 @@
-# Tulip 1 — the Importer
+# Tulip 1.1 — the Importer
 
-Tulip reads a spreadsheet (`.xlsx` or `.csv`) and imports its rows into one
+Tulip reads a spreadsheet (`.xlsx`, `.xlsm`, `.xls`, `.ods`, `.csv`) or the
+tables of a PDF and imports its rows into one
 of seven tables of your back-end: products, services, opening hours, staff,
 clients, bookings or the invoice ledger — or it refuses the sheet and says
 why. A small model trained from scratch writes a short program
@@ -45,7 +46,7 @@ On MEGA9: upload `tulip-package.zip` to the /train card as the program,
 no training data, the words `full`, and choose MEGA9. The run has no
 network: nothing is installed, the small packages come from `vendor/`.
 It shows each stage ("Stage 5/8: train") and the training percentage, and
-sends back `tulip-1.0.0.pt`, `REPORT.md`, `runs/full/eval_tables.md`, the
+sends back `tulip-1.1.0.pt`, `REPORT.md`, `runs/full/eval_tables.md`, the
 `runs/full/*.json` records and `runs/full/build.log`. The model file is
 written as soon as training ends, and again with the evaluation numbers.
 To check the plumbing first (a few minutes, a useless model), use the
@@ -59,7 +60,7 @@ python3 build.py full
 
 ## Step 3 — keep the model file
 
-The build writes `tulip-1.0.0.pt` next to `build.py`. That one file is the
+The build writes `tulip-1.1.0.pt` next to `build.py`. That one file is the
 model: weights, tokenizer and settings. Keep it; `REPORT.md` says how good
 it is.
 
@@ -85,7 +86,36 @@ py import_sheets.py "C:\Users\Laurent\documents to publish" --db "C:\Users\Laure
 The rows go into the tables `tulip_products`, `tulip_services`… of
 `documents.db`, and one line per sheet into `tulip_imports` (status, reason,
 program, problems). Sheets already imported from an unchanged file are
-skipped; a changed file replaces its earlier rows.
+skipped, so an unchanged file changes nothing. A changed file UPDATES its
+sheet's rows: new rows are added, changed rows updated, rows no longer in
+the sheet are marked removed (never deleted), and every change is kept in
+`tulip_history`:
+
+```
+croissant | price | 1.1 -> 1.2 | 2026-03-03 09:12 | tarifs.xlsx row 12
+```
+
+After the folder, the sheets are compared with each other (`compare.py`):
+a product listed in several menus and price lists is reported once, as a
+question in `tulip_conflicts` — a duplicate, or a contradiction with every
+value and the cells it came from ("croissant: 1.10 in carte-ete.csv B3 vs
+1.25 in tarifs.csv B3") and the preferred source: the newest date the
+documents state, then the newest file, then your own file over a
+supplier's (a file in a `fournisseurs`/`suppliers` folder). Nothing is
+merged or dropped; you decide. To list the open questions:
+
+```powershell
+py compare.py --db "C:\Users\Laurent\new model\documents.db" --show
+```
+
+A sheet that holds several tables is cut into one import per table
+("Tarifs #1", "Tarifs #2"); a PDF gives its text tables (a scanned PDF
+needs review: there is no OCR); a cell with several days ("Lun–Ven")
+gives one row per day with a Tulip 1.1 model.
+
+The Tulip 1 model file (`tulip-1.0.0.pt`) works with this code too (give
+it with `--model`, or it is found next to the script): everything but
+several days in one cell, which it never learned.
 
 Every column has ONE declared format, written in `tables.schema.json`
 (see "Reading Tulip's output" below). A `documents.db` made by Tulip 1
@@ -93,13 +123,66 @@ is migrated the first time: its tables with the old columns are renamed
 `tulip_<table>_before_0_4_draft_tulip_1_1` (nothing is deleted) and every
 sheet is imported again in the new format.
 
+## Correcting an import (future lessons)
+
+When an import is wrong, record the correction; it is kept in
+`documents.db` (table `tulip_corrections`) and can become a lesson for a
+later training round. The import's number is the `id` of its line in
+`tulip_imports`:
+
+```powershell
+py corrections.py record --db "C:\Users\Laurent\new model\documents.db" --import 12 --map price=D
+py corrections.py record --db "C:\Users\Laurent\new model\documents.db" --import 13 --unrefuse products --header 1 --map name=A --map price=C
+py corrections.py list --db "C:\Users\Laurent\new model\documents.db"
+```
+
+Corrections never leave your PC unless you share them (`py corrections.py
+share --db ... 12`); `py corrections.py export --db ... --out
+lessons.jsonl` writes the shared ones as lessons, each checked with the
+real runtime (and never one of the evaluation sheets).
+
+## How sure is Tulip? (the bands)
+
+For every column an import maps, `--show` prints a band:
+
+```
+  how sure (calibrated for this model):
+    column A -> name: sure (0.993)
+    column C -> price: sure (0.991)
+    column F -> vat_rate: check (0.612)
+```
+
+* **sure** — right at least 99% of the time on held-out sheets (the
+  measured rate is in `REPORT.md`);
+* **check** — probably right (80% or more): glance at it;
+* **unsure** — look at this column first.
+
+The band comes from what Tulip already does: how probable the model found
+the line that maps the column, how many of the 8 candidate programs map
+it the same way, and how many of its cells the runtime could not read.
+The same bands are stored in `tulip_imports.confidence` (JSON). They cost
+time: the 7 sampled programs are written for every sheet, not only when
+the first one fails (`--no-confidence` turns them off).
+
+The thresholds are calibrated for each model file. A model built with
+Tulip 1.1 carries its own. For the Tulip 1 model file, run once (it
+imports 2,000 held-out generated sheets, so it takes a while: about an
+hour on a GPU, several on a CPU):
+
+```powershell
+py calibrate.py tulip-1.0.0.pt
+```
+
+It writes `tulip-1.0.0.confidence.json` next to the model file and never
+changes the model file. Without a calibration, no column is ever "sure".
+
 ## The plan.py snippet
 
 ```python
 import threading, torch
 from tulip import Tulip
 torch.set_num_threads(8)                    # once per process; shared by every model in it
-tulip = Tulip(r"C:\Users\Laurent\new model\tulip\tulip-1.0.0.pt")
+tulip = Tulip(r"C:\Users\Laurent\new model\tulip\tulip-1.1.0.pt")
 tulip_lock = threading.Lock()               # one lock per model
 with tulip_lock:
     results = tulip.import_file(path, targets=["products", "services"], locale="fr-FR")
@@ -152,6 +235,11 @@ Put a sheet and the rows you approved in `real_eval/` — see
 * `tulip.py` — the API; `import_sheets.py` — the command line
 * `tables.schema.json` — the declared format of every column;
   `contract.py` — the conversion into it, and its checks
+* `confidence.py` — the bands; `calibrate.py` — their thresholds for a
+  model file
+* `compare.py` — the sheets against each other; `history.py` — updates
+  and their history; `keys.py` — when two rows are the same thing;
+  `corrections.py` — the owner's corrections and their lessons
 * `tulipscript.py` — the language, its checks and its interpreter
 * `sheets.py` — reading files and writing the preview; `helpers.py` — the
   cell readers (numbers, dates, times... in ten languages)

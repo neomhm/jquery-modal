@@ -2,7 +2,7 @@
 tulip.py - the Tulip API (section 15.1): give it a sheet, get the rows.
 
     from tulip import Tulip
-    tulip = Tulip("tulip-1.0.0.pt")
+    tulip = Tulip("tulip-1.1.0.pt")
     results = tulip.import_file("tarifs.xlsx", ["products", "services"],
                                 "fr-FR")
 
@@ -26,6 +26,16 @@ opens / closes / closed, a VAT rate is a percent, dates are ISO 8601.
 "rows" and "sources" use the schema's column names; "contract" is the
 schema's version.
 
+"confidence" (import_sheet / import_file, not the evaluation's loop)
+gives each column the program fills a band - sure, check or unsure -
+with the sheet columns it reads (confidence.py): from the model's
+probability of the line that maps it, the agreement of the 8 candidate
+programs (the 7 sampled ones are then always written, with the loop's
+seed, so the import itself does not change) and the runtime's checks.
+The thresholds are the model's calibration (calibrate.py): in the model
+file, or in <model>.confidence.json next to it; without one, no column
+is ever "sure".
+
 Every data row read and not imported is in "skipped" as (row, reason):
 unreadable:<fields>, empty_required, totals_row or removed_by_keep.
 targets must be 1 to 4 known names (ValueError otherwise). import_file()
@@ -44,6 +54,8 @@ import time
 import torch
 from tokenizers import Tokenizer
 
+import blocks
+import confidence as C
 import config
 import contract
 import helpers as H
@@ -92,7 +104,8 @@ def empty_result(file, sheet, status, reason, problems=()):
             "target": None, "reason": reason, "program": None,
             "candidates_tried": 0, "rows": [], "sources": [],
             "row_numbers": [], "skipped": [], "problems": list(problems),
-            "warnings": [], "hidden": False, "seconds": 0.0}
+            "warnings": [], "hidden": False, "seconds": 0.0,
+            "contract": contract.version(), "confidence": None}
 
 
 def unreadable_file(path, exc):
@@ -101,11 +114,37 @@ def unreadable_file(path, exc):
     because the owner has to open or re-save it; the model never saw
     it. The sheet name is "" - nothing inside the file was read."""
     name = type(exc).__name__
+    if name == "ScannedPDF":            # pdftable.py: no text, no OCR
+        return empty_result(str(path), "", "needs_review", "scanned_pdf",
+                            ["scanned_pdf: the PDF has no text (scanned "
+                             "pages need OCR, which Tulip does not do)"])
     if name == "Error":                 # csv.Error: say whose Error
         name = type(exc).__module__.strip("_").split(".")[0] + ".Error"
     return empty_result(str(path), "", "needs_review",
                         "unreadable_file:" + name,
                         ["unreadable_file:%s:%s" % (name, str(exc)[:200])])
+
+
+def shifted(out, rows, columns):
+    """A result of a table that lies `rows` rows down and `columns`
+    columns right in its sheet -> the sheet's own row numbers and
+    letters (blocks.py)."""
+    if not rows and not columns:
+        return out
+
+    def letter(x):
+        if x in ts.LETTERS and ts.LETTERS.index(x) + columns < \
+                len(ts.LETTERS):
+            return ts.LETTERS[ts.LETTERS.index(x) + columns]
+        return x
+    out["row_numbers"] = [n + rows for n in out["row_numbers"]]
+    out["sources"] = [dict((f, [(r + rows, letter(c)) for r, c in srcs])
+                           for f, srcs in record.items())
+                      for record in out["sources"]]
+    out["skipped"] = [(n + rows, why) for n, why in out["skipped"]]
+    for col in (out.get("confidence") or {}).get("columns", []):
+        col["sheet_columns"] = [letter(x) for x in col["sheet_columns"]]
+    return out
 
 
 def skipped_rows(res, sheet, totals):
@@ -150,6 +189,7 @@ class Tulip:
         self.model_id = self.meta.get("model_id") or str(path)
         self.max_len = self.model.config.max_len
         self._lock = threading.Lock()
+        self.bands = C.load_bands(path, self.meta)
 
     @classmethod
     def from_model(cls, net, tokenizer, meta=None):
@@ -163,6 +203,7 @@ class Tulip:
         self.model_id = self.meta.get("model_id") or "in-memory"
         self.max_len = net.config.max_len
         self._lock = threading.Lock()
+        self.bands = C.bands_from_meta(self.meta)
         return self
 
     # ----------------------------------------------------------- writing
@@ -178,13 +219,20 @@ class Tulip:
         with self._lock:
             return self._write(preview, n_sampled)
 
-    def _write(self, preview, n_sampled=7, greedy_only=False):
+    def _write(self, preview, n_sampled=7, greedy_only=False,
+               sampled_only=False):
+        """-> [greedy, sampled...]; sampled_only: [None, sampled...] (the
+        greedy program is not written again; the sampled ones do not
+        depend on it)."""
         prompt = self.prompt(preview)
         room = self.max_len - len(prompt) - 1
         max_new = max(1, min(self.sampling["max_new_tokens"], room))
-        out = self.model.generate(prompt, TK.END, max_new=max_new, n=1,
-                                  temperature=0.0)
-        programs = [TK.decode(self.tokenizer, out[0])]
+        if sampled_only:
+            programs = [None]
+        else:
+            out = self.model.generate(prompt, TK.END, max_new=max_new, n=1,
+                                      temperature=0.0)
+            programs = [TK.decode(self.tokenizer, out[0])]
         if greedy_only or n_sampled <= 0:
             return programs
         seed = int(hashlib.sha1(preview.encode("utf-8")).hexdigest()[:15],
@@ -231,17 +279,30 @@ class Tulip:
         return res, prog, None
 
     # ----------------------------------------------------------- the loop
-    def import_sheet(self, sheet, targets, locale):
+    def import_sheet(self, sheet, targets, locale, confidence=True):
         """ValueError when targets are missing, empty, unknown or more
         than 4 (check_targets)."""
         targets = check_targets(targets)
         with self._lock:
-            return self._import_sheet(sheet, targets, locale)
+            return self._import_sheet(sheet, targets, locale,
+                                      confidence=confidence)
 
     def _import_sheet(self, sheet, targets, locale, n_sampled=None,
-                      greedy=None):
+                      greedy=None, confidence=False):
         """greedy: the greedy program when it was already written (the
-        evaluation writes it once for pass@1 and for the loop)."""
+        evaluation writes it once for pass@1 and for the loop).
+        confidence: also give each mapped column its band (the 7 sampled
+        programs are then written even when the greedy one passed).
+        A table cut from a sheet by blocks.split() is read from its own
+        R1; its rows and cells are given back in the sheet's own
+        numbers and letters."""
+        out = self._import_one(sheet, targets, locale, n_sampled, greedy,
+                               confidence)
+        return shifted(out, getattr(sheet, "row_offset", 0),
+                       getattr(sheet, "column_offset", 0))
+
+    def _import_one(self, sheet, targets, locale, n_sampled=None,
+                    greedy=None, confidence=False):
         started = time.time()
         small, letters = sheets.compact(sheet)
         out = {"file": getattr(sheet, "file", "") or "",
@@ -250,7 +311,8 @@ class Tulip:
                "candidates_tried": 0, "rows": [], "sources": [],
                "row_numbers": [], "skipped": [], "problems": [],
                "warnings": [], "hidden": bool(getattr(sheet, "hidden",
-                                                      False))}
+                                                      False)),
+               "contract": contract.version(), "confidence": None}
         if not small.rows:
             out.update(status="refused", reason="not_a_table",
                        problems=["empty_sheet"])
@@ -273,13 +335,16 @@ class Tulip:
                        program=ts.canonical(greedy))
             out["seconds"] = round(time.time() - started, 3)
             return out
+        seen = {"preview": preview, "n_sampled": n_sampled,
+                "candidates": [greedy], "confidence": confidence}
         if why is None:
             return self._done(out, res, prog, greedy, small, letters,
-                              started)
+                              started, seen)
         reasons = [why]
         refusals = []
         # 2. seven sampled candidates, one shared cache of the preview
-        programs = self._write(preview, n_sampled)[1:]
+        programs = self._write(preview, n_sampled, sampled_only=True)[1:]
+        seen["candidates"] += programs
         for text in programs:
             out["candidates_tried"] += 1
             res, prog, why = self.check(text, small, targets, locale)
@@ -288,7 +353,7 @@ class Tulip:
                 continue
             if why is None:
                 return self._done(out, res, prog, text, small, letters,
-                                  started)
+                                  started, seen)
             reasons.append(why)
         # 3. nothing passed
         if len(refusals) >= 4:
@@ -302,12 +367,14 @@ class Tulip:
         out["seconds"] = round(time.time() - started, 3)
         return out
 
-    def _done(self, out, res, prog, text, small, letters, started):
+    def _done(self, out, res, prog, text, small, letters, started,
+              seen=None):
         """Report with the ORIGINAL column letters (section 8), the rows
         in the declared format of tables.schema.json (contract.py: day
         names, opens / closes, VAT in percent...). A value that is not in
         its declared format is a bug somewhere: the sheet goes to review
-        and nothing is written."""
+        and nothing is written. seen: what the loop wrote (the preview,
+        the candidates), for the confidence bands."""
         def original(src):
             row, col = src
             if col in ts.LETTERS and ts.LETTERS.index(col) < len(letters):
@@ -318,7 +385,6 @@ class Tulip:
                    for record in res.sources]
         rows, sources, numbers = contract.convert(prog.target, res.rows,
                                                   sources, res.row_numbers)
-        out["contract"] = contract.version()
         wrong = contract.check_rows(prog.target, rows)
         if wrong:
             out.update(status="needs_review", reason="contract_format",
@@ -331,10 +397,41 @@ class Tulip:
                    row_numbers=numbers,
                    skipped=skipped_rows(res, small, self.totals),
                    warnings=res.warnings, problems=res.problems)
+        if seen and seen.get("confidence"):
+            out["confidence"] = self._confidence(res, prog, text, seen,
+                                                 original)
         out["seconds"] = round(time.time() - started, 3)
         return out
 
-    def import_file(self, path, targets, locale):
+    def _confidence(self, res, prog, text, seen, original):
+        """{"calibrated", "columns": [{column, field, sheet_columns,
+        band, score, signals}]} for the winning program (confidence.py).
+        The candidates are the greedy program and the 7 sampled ones:
+        when the greedy program won, the sampled ones are written now,
+        with the loop's seed - the very programs the loop would have
+        tried."""
+        candidates = list(seen["candidates"])
+        if len(candidates) == 1 and seen["n_sampled"] > 0:
+            candidates += self._write(seen["preview"], seen["n_sampled"],
+                                      sampled_only=True)[1:]
+        lines = self._line_probabilities(seen["preview"], text)
+        signals = C.signals(text, candidates, res, lines)
+        bands = getattr(self, "bands", None)
+        return {"calibrated": bool(bands),
+                "candidates": len(candidates),
+                "columns": C.columns(prog.target, prog, signals,
+                                     lambda x: original((0, x))[1], bands)}
+
+    def _line_probabilities(self, preview, text):
+        """The model's probability of each line of the program (None
+        without a model)."""
+        model = getattr(self, "model", None)
+        if model is None:
+            return None
+        return C.line_probabilities(self.tokenizer, text, model=model,
+                                    prompt_ids=self.prompt(preview))
+
+    def import_file(self, path, targets, locale, confidence=True):
         """-> one result per sheet of the file (a CSV has one).
 
         ValueError when targets are missing, empty, unknown or more than
@@ -349,19 +446,22 @@ class Tulip:
         except Exception as e:
             return [unreadable_file(path, e)]
         results = []
-        for sheet in loaded:
+        for sheet in (part for whole in loaded
+                      for part in blocks.split(whole)):
             if not sheet.file:
                 sheet.file = str(path)
-            results.append(self.import_sheet_safely(sheet, targets, locale))
+            results.append(self.import_sheet_safely(sheet, targets, locale,
+                                                    confidence))
         return results
 
-    def import_sheet_safely(self, sheet, targets, locale):
+    def import_sheet_safely(self, sheet, targets, locale, confidence=True):
         """import_sheet() for targets already checked, with any exception
         turned into needs_review (reason exception:<type>) for that sheet
         alone."""
         try:
             with self._lock:
-                return self._import_sheet(sheet, targets, locale)
+                return self._import_sheet(sheet, targets, locale,
+                                          confidence=confidence)
         except Exception as e:
             out = empty_result(str(getattr(sheet, "file", "") or ""),
                                getattr(sheet, "name", ""), "needs_review",

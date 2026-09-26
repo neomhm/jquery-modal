@@ -1099,6 +1099,144 @@ def weekday(value, locale=None):
     return FAIL
 
 
+# ---------------------------------------------------------------------
+#  several days in one cell (Tulip 1.1, item G): "Lun–Ven", "Mon-Fri",
+#  "月～金", "du lundi au vendredi", "Sat & Sun", "en semaine"
+# ---------------------------------------------------------------------
+DAY_GROUPS = {
+    # every day of the week
+    (0, 1, 2, 3, 4, 5, 6): [
+        "every day", "everyday", "daily", "all week", "7 days a week",
+        "7/7", "7j/7", "tous les jours", "toute la semaine",
+        "todos los días", "todos los dias", "diario", "diariamente",
+        "tutti i giorni", "ogni giorno", "tutta la settimana",
+        "ежедневно", "каждый день", "без выходных", "يوميا", "يومياً",
+        "كل يوم", "كل الأيام", "طوال الأسبوع", "每天", "每日", "天天",
+        "全周", "一周七天", "毎日", "年中無休", "매일", "연중무휴",
+        "रोज़", "रोज", "प्रतिदिन", "हर दिन", "रोजाना"],
+    # Monday to Friday
+    (0, 1, 2, 3, 4): [
+        "weekdays", "week days", "working days", "business days",
+        "en semaine", "jours ouvrés", "jours ouvrables", "semaine",
+        "entre semana", "días laborables", "dias laborables",
+        "días hábiles", "dias habiles", "feriali", "giorni feriali",
+        "lavorativi", "giorni lavorativi", "будни", "в будни",
+        "будние дни", "рабочие дни", "أيام العمل", "أيام الأسبوع",
+        "工作日", "周一至周五", "平日", "평일", "주중", "कार्यदिवस",
+        "सप्ताह के दिन"],
+    # Saturday and Sunday
+    (5, 6): ["weekend", "weekends", "week-end", "week-ends",
+             "fin de semana", "fines de semana", "fine settimana",
+             "weekend e festivi", "выходные", "в выходные",
+             "عطلة نهاية الأسبوع", "نهاية الأسبوع", "周末", "週末", "土日",
+             "土日祝", "주말", "सप्ताहांत"],
+}
+# the words that join the two ends of a range, and those around it
+RANGE_WORDS = ["-", "–", "—", "~", "〜", "～", "~", "→", "to", "thru",
+               "through", "until", "till", "au", "à", "jusqu'au", "a",
+               "al", "hasta", "fino a", "по", "до", "إلى", "الى", "حتى",
+               "至", "到", "から", "まで", "부터", "까지", "से", "तक"]
+FRAME_WORDS = ["du", "from", "de", "desde", "dal", "da", "с", "من",
+               "从", "自", "の", "까지", "まで", "तक"]
+LIST_SPLIT = re.compile(r"\s*(?:,|、|，|;|/|&|\+|・|\band\b|\bet\b|\by\b|"
+                        r"\be\b|\bи\b|(?<!\S)و(?!\S)|और|及|和)\s*")
+# Russian cases of the day names ("с понедельника по пятницу")
+RU_CASES = {"понедельника": "понедельник", "вторника": "вторник",
+            "среды": "среда", "среду": "среда", "четверга": "четверг",
+            "пятницы": "пятница", "пятницу": "пятница",
+            "субботы": "суббота", "субботу": "суббота",
+            "воскресенья": "воскресенье"}
+KO_JA_TAILS = ("부터", "까지", "から", "まで", "요일", "曜日", "曜")
+
+
+def _one_day(part, locale):
+    """A single day, forgiving the particles around it."""
+    t = part.strip().strip("()（）").strip()
+    if not t:
+        return None
+    ok, day = weekday(t, locale)
+    if ok:
+        return day
+    low = key(t)
+    for w in FRAME_WORDS + RANGE_WORDS:
+        w = key(w)
+        if low.startswith(w + " "):
+            low = low[len(w) + 1:]
+        if low.endswith(" " + w):
+            low = low[:-len(w) - 1]
+    low = RU_CASES.get(low, low)
+    for tail in KO_JA_TAILS:
+        if low.endswith(tail) and len(low) > len(tail):
+            ok, day = weekday(low[:-len(tail)] + (
+                "요일" if tail == "요일" else ""), locale)
+            if ok:
+                return day
+            low = low[:-len(tail)]
+    ok, day = weekday(low, locale)
+    return day if ok else None
+
+
+def _day_range(text, locale):
+    """"lundi au vendredi" -> (0, 1, 2, 3, 4); a range may wrap round the
+    end of the week ("Sat-Mon")."""
+    low = key(text)
+    for w in FRAME_WORDS:
+        w = key(w)
+        if low.startswith(w + " "):
+            low = low[len(w) + 1:]
+            break
+    for joiner in sorted(RANGE_WORDS, key=len, reverse=True):
+        j = key(joiner)
+        if j.isalpha() and not all(ord(c) > 0x2e80 for c in j):
+            pieces = re.split(r"(?<!\S)%s(?!\S)" % re.escape(j), low)
+        else:
+            pieces = low.split(j)
+        if len(pieces) != 2:
+            continue
+        a, b = _one_day(pieces[0], locale), _one_day(pieces[1], locale)
+        if a is None or b is None or a == b:
+            continue
+        days, d = [a], a
+        while d != b:
+            d = (d + 1) % 7
+            days.append(d)
+        return tuple(days)
+    return None
+
+
+@_guard
+def weekdays(value, locale=None):
+    """One or several days in one cell -> a tuple of days (0 = Monday) in
+    the order written: a day, a range ("Lun-Ven", "月～金", "с пн по
+    пт"), a list ("Sat & Sun", "lundi, mercredi") or a group ("en
+    semaine", "weekend", "tous les jours")."""
+    if not isinstance(value, str):
+        return FAIL
+    t = single_spaces(clean(value)).strip(" :.")
+    if not t:
+        return FAIL
+    low = key(t)
+    for days, words in DAY_GROUPS.items():
+        if low in (key(w) for w in words):
+            return True, days
+    one = _one_day(t, locale)
+    if one is not None:
+        return True, (one,)
+    found = _day_range(t, locale)
+    if found:
+        return True, found
+    out = []
+    for part in LIST_SPLIT.split(t):
+        if not part.strip():
+            continue
+        one = _one_day(part, locale)
+        days = (one,) if one is not None else _day_range(part, locale)
+        if not days:
+            return FAIL
+        out += [d for d in days if d not in out]
+    return (True, tuple(out)) if len(out) > 1 else FAIL
+
+
 TRUE_MARKS = {"cjk": set("○◯〇Oo√✓✔"), "ru": set("✓✔√xXхХ"),
               "other": set("✓✔√xX")}
 FALSE_MARKS = {"cjk": set("×✕Xx✗✘"), "ru": set("✗✘"), "other": set("✗✘")}
@@ -1299,7 +1437,8 @@ def text(value, locale=None):
 HELPERS = {
     "text": text, "amount": amount, "currency": currency,
     "integer": integer, "percent": percent, "date": date, "time": time,
-    "hours": hours, "weekday": weekday, "boolean": boolean, "phone": phone,
+    "hours": hours, "weekday": weekday, "weekdays": weekdays,
+    "boolean": boolean, "phone": phone,
     "email": email, "duration": duration, "tax_included": tax_included,
 }
 TOTALS = _totals()

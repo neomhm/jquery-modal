@@ -75,6 +75,8 @@ def length_report(preset, tok, log=print):
     over = total = 0
     for split in config.SPLITS:
         for t in iter_split(preset, split):
+            if t.get("answer") == "multi":
+                continue           # several tables: each is cut first
             n_prev = len(TK.encode(tok, t["preview"]))
             n = n_prev + len(TK.encode(tok, t["program"])) + 2
             counts[t["id"]] = n
