@@ -113,14 +113,25 @@ def epoch_batches(lengths, tokens_per_batch, rng):
     return batches
 
 
-def micro_batches(rows, parts):
+# On a CPU with dropout, PyTorch's attention keeps a T x T matrix per
+# head and layer, and running out of memory there is not an error but the
+# end of the process: micro-batches are then also kept under this sum of
+# squared lengths (about 5 GB of attention for the pilot model).
+ATTENTION_BUDGET = 2.0e7
+
+
+def micro_batches(rows, parts, attention_budget=None):
     """Cut a batch into micro-batches of at most MICRO_TOKENS tokens
     (padding included), then into `parts` times more after an
     out-of-memory error."""
     out, cur, cur_max = [], [], 0
     for r in rows:
         n = len(r[0])
-        if cur and max(cur_max, n) * (len(cur) + 1) > config.MICRO_TOKENS:
+        too_big = max(cur_max, n) * (len(cur) + 1) > config.MICRO_TOKENS
+        if attention_budget:
+            too_big = too_big or \
+                max(cur_max, n) ** 2 * (len(cur) + 1) > attention_budget
+        if cur and too_big:
             out.append(cur)
             cur, cur_max = [], 0
         cur.append(r)
@@ -155,8 +166,10 @@ def forward_backward(net, rows, device, dtype, scaler, state, log):
     while True:
         parts = state.get("parts", 1)
         loss_sum = 0.0
+        budget = ATTENTION_BUDGET if device.type == "cpu" and \
+            net.config.dropout > 0 else None
         try:
-            for mb in micro_batches(rows, parts):
+            for mb in micro_batches(rows, parts, budget):
                 ids, labels = to_tensors(mb, device)
                 count = int((labels[:, 1:] != M.IGNORE).sum())
                 if count == 0:

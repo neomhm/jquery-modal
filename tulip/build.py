@@ -214,8 +214,20 @@ STAGE_FUNCS = {name: globals()["stage_" + name] for name in STAGES}
 #  bookkeeping
 # =====================================================================
 def fingerprint(preset, stage, args):
-    """What a stage depends on: the preset's settings, the versions, and
-    for 'evaluate' whether it scored everything or only the dev sets."""
+    """What a stage depends on. The data stages depend only on the
+    settings they use (the task counts, the vocabulary, max_len), so a
+    change of training settings does not make the data again; the later
+    stages depend on the whole preset, and 'evaluate' on whether it scored
+    everything or only the dev sets."""
+    s = config.PRESETS[preset]
+    uses = {"check": [], "generate": [s["tasks"]],
+            "tokenizer": [s["tasks"], s["vocab_size"]],
+            "pack": [s["tasks"], s["vocab_size"], s["max_len"]]}
+    if stage in uses:
+        blob = json.dumps([preset, stage, config.VERSION,
+                           config.GENERATOR_VERSION] + uses[stage],
+                          sort_keys=True)
+        return hashlib.sha1(blob.encode("utf-8")).hexdigest()[:12]
     extra = [stage]
     if stage in ("evaluate", "export", "report"):
         extra.append("dev_only" if args.dev_only else "all")

@@ -60,8 +60,10 @@ PRESETS = {
                   "lr": 2e-3, "tokens_per_batch": 8000, "eval": "end"},
     },
     "pilot": {
+        # dropout 0.0, not 0.1: see DECISIONS.md (on a CPU, dropout makes
+        # PyTorch use its slow attention; one epoch never repeats data)
         "vocab_size": 16000, "d_model": 256, "n_layer": 6, "n_head": 4,
-        "ffn_hidden": 704, "max_len": 4096, "dropout": 0.1,
+        "ffn_hidden": 704, "max_len": 4096, "dropout": 0.0,
         "tasks": {"train": 30000, "val": 500, "dev_heldout": 500,
                   "test_seen": 500, "test_heldout": 500, "test_locale": 200,
                   "traps": 300},

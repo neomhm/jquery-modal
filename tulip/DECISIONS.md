@@ -119,6 +119,17 @@ added at the end of each part.
     `pack` and counted.
 30. At runtime a preview is `too_long` (needs_review) when fewer than 64
     tokens of room are left for the program.
+32. **Pilot dropout 0.0 instead of 0.1** (section 13's table is not a
+    FIXED section). Measured on this CPU (torch 2.14): with dropout, PyTorch's
+    attention falls back to its slow path that keeps a T x T matrix per head
+    and layer — a 2,048-token sequence takes 2.25 s forward + backward
+    instead of 0.36 s, and the first pilot run was killed by the kernel at
+    14 GB. With the 90-minute cap the pilot would have seen a third of an
+    epoch; the pilot trains at most one epoch, so no example is seen twice
+    and dropout has nothing to regularize. The full preset (GPU kernels
+    support dropout) keeps 0.1. `train.py` also keeps CPU micro-batches
+    under a sum of squared lengths when dropout is on, so a CPU run can
+    never be killed that way.
 31. Refusal precision and recall, and the per-language / target / trap
     scores, are measured on the loop; target accuracy on the greedy
     program.
