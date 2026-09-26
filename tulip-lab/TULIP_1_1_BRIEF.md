@@ -27,7 +27,7 @@ first.
 **Base to start from:** the `tulip-lab` tree **as Tulip 1 is being trained on MEGA9**. It
 includes a local preparation pass that made the package conform to the training service
 (section 6), capped its worker pools after an out-of-memory incident, and fixed the
-generator and the evaluation. That tree is `tulip-lab` commit **1f0bf23** (the zip the owner gives you); its program package is `tulip-package-offline.zip`, sha256 01762d63…07fd, rehearsed on CPU (exit 0, peak 1.17 GB) and tested (55 passed). **Do
+generator and the evaluation. That tree is `tulip-lab` commit **d64d6c8** (the zip the owner gives you). Tulip 1 is training from exactly this tree as /train run 8b51c1ecae5e9f9c (package `tulip-package-offline-2.zip`, sha256 12d6d620…ec58). It was rehearsed on CPU and on the GPU (both exit 0) and tested (55 passed). d64d6c8 includes the fix to `check.py` (wait for each product in the GPU speed test), without which the first MEGA9 run segfaulted in ROCm's runtime. **Do
 not start from the older `tulip-package.zip` (sha256 8ef28d3a…3518)**: it lacks those fixes.
 
 **Tulip 1 is trained unchanged, in parallel with this work.** Tulip 1.1 is the next
