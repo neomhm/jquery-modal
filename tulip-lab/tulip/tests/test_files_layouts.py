@@ -401,3 +401,22 @@ def test_each_table_is_imported_on_its_own():
     assert out[1]["sources"][0]["opens"] == [(3, "E")]
     assert out[2]["row_numbers"] == [9, 10]
     assert out[2]["sources"][1]["email"] == [(10, "B")]
+
+
+def test_typed_rows_after_a_blank_row_are_data():
+    """A bookings sheet by day: after a blank row, a row of a time, a
+    duration and texts is data, not the header of a new table (it was
+    cut in two before headers had to be texts)."""
+    import blocks
+    import datetime
+    t = datetime.time
+    rows = [["Hora", "Duración", "Especialista", "Servicio", "Estado"],
+            ["17 de junio de 2026"],
+            [t(8, 0), "30 min", "Ángel Soler", "Corte", "Realizada"],
+            [t(9, 30), "30 min", "Ángel Soler", "Depilación", "Realizada"],
+            [],
+            [t(11, 0), datetime.timedelta(minutes=30), "Ángel Soler",
+             "Depilación de piernas", "Reservada"],
+            [t(12, 0), 30, "Ángel Soler", "Corte infantil", "Cancelada"],
+            [t(12, 30), "30 min", "Elena Mas", "Corte", "Reservada"]]
+    assert len(blocks.split(sheets.Sheet("Citas", rows))) == 1

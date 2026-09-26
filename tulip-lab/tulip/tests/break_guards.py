@@ -331,8 +331,8 @@ GUARDS = [
      ["test_files_layouts.test_several_days_in_one_cell_in_every_language"]),
     ("G10", "a new table starts at a header row, not at every blank row",
      "blocks.py",
-     "        new = h is not None and not (\n",
-     "        new = not (\n",
+     "        if _is_header(rows, i, b):\n            return i\n",
+     "        return i\n",
      ["test_files_layouts.test_tables_on_one_sheet_are_found",
       "test_files_layouts.test_single_table_sheets_are_never_cut"]),
     ("G11", "the tables' rows and cells are the sheet's own", "tulip.py",
@@ -342,9 +342,14 @@ GUARDS = [
      ["test_files_layouts.test_each_table_is_imported_on_its_own"]),
     ("G12", "a header repeated after a blank row is the same table",
      "blocks.py",
-     "            _signature(rows[h]) == _signature(rows[blocks[-1][2]]))\n",
-     "            False)\n",
+     "                _signature(rows[h]) == _signature(rows[last_table[2]]):\n",
+     "                False:\n",
      ["test_files_layouts.test_tables_on_one_sheet_are_found"]),
+    ("G13", "a header row is texts: a row of times or durations is data",
+     "blocks.py",
+     "    if any(not isinstance(v, str) or _numberish(v) or len(v) > 40\n",
+     "    if any(_numberish(v) or len(str(v)) > 40\n",
+     ["test_files_layouts.test_typed_rows_after_a_blank_row_are_data"]),
 ]
 
 
