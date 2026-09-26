@@ -1,0 +1,12501 @@
+{
+ "bakery": {
+  "categories": [
+   "食パン",
+   "菓子パン",
+   "惣菜パン",
+   "ハード系",
+   "ケーキ",
+   "焼き菓子"
+  ],
+  "roles": [
+   "店長",
+   "パン職人",
+   "パティシエ",
+   "製造スタッフ",
+   "販売スタッフ",
+   "見習い",
+   "アルバイト"
+  ],
+  "departments": [
+   "製造",
+   "店舗販売",
+   "事務"
+  ],
+  "items": [
+   {
+    "name": "食パン",
+    "kind": "product",
+    "category": "食パン",
+    "usd": [
+     2.0,
+     3.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "1斤",
+     "1.5斤",
+     "2斤"
+    ]
+   },
+   {
+    "name": "高級食パン（2斤）",
+    "kind": "product",
+    "category": "食パン",
+    "usd": [
+     5.33,
+     8.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "レーズン食パン",
+    "kind": "product",
+    "category": "食パン",
+    "usd": [
+     2.53,
+     3.67
+    ],
+    "unit": "piece",
+    "variants": [
+     "1斤",
+     "2斤"
+    ]
+   },
+   {
+    "name": "バターロール（5個入）",
+    "kind": "product",
+    "category": "食パン",
+    "usd": [
+     1.87,
+     3.0
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "クロワッサン",
+    "kind": "product",
+    "category": "菓子パン",
+    "usd": [
+     1.2,
+     2.33
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "メロンパン",
+    "kind": "product",
+    "category": "菓子パン",
+    "usd": [
+     1.0,
+     1.87
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "あんぱん",
+    "kind": "product",
+    "category": "菓子パン",
+    "usd": [
+     1.0,
+     1.87
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "クリームパン",
+    "kind": "product",
+    "category": "菓子パン",
+    "usd": [
+     1.07,
+     1.87
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "チョコデニッシュ",
+    "kind": "product",
+    "category": "菓子パン",
+    "usd": [
+     1.33,
+     2.13
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "カレーパン",
+    "kind": "product",
+    "category": "惣菜パン",
+    "usd": [
+     1.2,
+     2.13
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "焼きそばパン",
+    "kind": "product",
+    "category": "惣菜パン",
+    "usd": [
+     1.33,
+     2.13
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "ミックスサンド",
+    "kind": "product",
+    "category": "惣菜パン",
+    "usd": [
+     2.33,
+     3.67
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "ベーコンエピ",
+    "kind": "product",
+    "category": "ハード系",
+    "usd": [
+     1.67,
+     2.53
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "バゲット",
+    "kind": "product",
+    "category": "ハード系",
+    "usd": [
+     1.87,
+     3.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "ハーフ",
+     "1本"
+    ]
+   },
+   {
+    "name": "カンパーニュ",
+    "kind": "product",
+    "category": "ハード系",
+    "usd": [
+     2.67,
+     5.33
+    ],
+    "unit": "piece",
+    "variants": [
+     "ハーフ",
+     "ホール"
+    ]
+   },
+   {
+    "name": "ショートケーキ",
+    "kind": "product",
+    "category": "ケーキ",
+    "usd": [
+     2.67,
+     4.33
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "デコレーションケーキ",
+    "kind": "product",
+    "category": "ケーキ",
+    "usd": [
+     20.0,
+     30.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "4号",
+     "5号",
+     "6号",
+     "7号"
+    ]
+   },
+   {
+    "name": "チーズケーキ",
+    "kind": "product",
+    "category": "ケーキ",
+    "usd": [
+     2.67,
+     4.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "シュークリーム",
+    "kind": "product",
+    "category": "ケーキ",
+    "usd": [
+     1.2,
+     2.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "フィナンシェ",
+    "kind": "product",
+    "category": "焼き菓子",
+    "usd": [
+     1.2,
+     1.87
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "マドレーヌ",
+    "kind": "product",
+    "category": "焼き菓子",
+    "usd": [
+     1.0,
+     1.67
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "ラスク",
+    "kind": "product",
+    "category": "焼き菓子",
+    "usd": [
+     2.0,
+     3.33
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "焼き菓子詰め合わせ",
+    "kind": "product",
+    "category": "焼き菓子",
+    "usd": [
+     10.0,
+     23.3
+    ],
+    "unit": "box",
+    "variants": [
+     "S",
+     "M",
+     "L"
+    ]
+   }
+  ]
+ },
+ "restaurant": {
+  "categories": [
+   "ランチ",
+   "定食",
+   "一品料理",
+   "コース",
+   "ドリンク",
+   "テイクアウト"
+  ],
+  "roles": [
+   "店長",
+   "料理長",
+   "板前",
+   "調理スタッフ",
+   "ホールスタッフ",
+   "副店長",
+   "アルバイト"
+  ],
+  "departments": [
+   "厨房",
+   "ホール",
+   "本部"
+  ],
+  "items": [
+   {
+    "name": "日替わりランチ",
+    "kind": "product",
+    "category": "ランチ",
+    "usd": [
+     5.67,
+     8.67
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "パスタランチセット",
+    "kind": "product",
+    "category": "ランチ",
+    "usd": [
+     6.67,
+     10.7
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "ハンバーグランチ",
+    "kind": "product",
+    "category": "ランチ",
+    "usd": [
+     6.67,
+     10.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "お子様ランチ",
+    "kind": "product",
+    "category": "ランチ",
+    "usd": [
+     4.0,
+     6.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "刺身定食",
+    "kind": "product",
+    "category": "定食",
+    "usd": [
+     8.0,
+     13.3
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "唐揚げ定食",
+    "kind": "product",
+    "category": "定食",
+    "usd": [
+     5.67,
+     8.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "生姜焼き定食",
+    "kind": "product",
+    "category": "定食",
+    "usd": [
+     6.0,
+     8.67
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "天ぷら御膳",
+    "kind": "product",
+    "category": "定食",
+    "usd": [
+     10.0,
+     18.7
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "焼き鳥盛り合わせ",
+    "kind": "product",
+    "category": "一品料理",
+    "usd": [
+     5.33,
+     10.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "5本",
+     "8本",
+     "10本"
+    ]
+   },
+   {
+    "name": "刺身盛り合わせ",
+    "kind": "product",
+    "category": "一品料理",
+    "usd": [
+     8.0,
+     16.7
+    ],
+    "unit": "piece",
+    "variants": [
+     "2人前",
+     "3人前",
+     "4人前"
+    ]
+   },
+   {
+    "name": "だし巻き玉子",
+    "kind": "product",
+    "category": "一品料理",
+    "usd": [
+     3.33,
+     5.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "シーザーサラダ",
+    "kind": "product",
+    "category": "一品料理",
+    "usd": [
+     4.67,
+     7.33
+    ],
+    "unit": "piece",
+    "variants": [
+     "ハーフ",
+     "レギュラー"
+    ]
+   },
+   {
+    "name": "枝豆",
+    "kind": "product",
+    "category": "一品料理",
+    "usd": [
+     2.33,
+     3.33
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "会席コース",
+    "kind": "product",
+    "category": "コース",
+    "usd": [
+     33.3,
+     80.0
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "ディナーコース",
+    "kind": "product",
+    "category": "コース",
+    "usd": [
+     33.3,
+     66.7
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "宴会コース（飲み放題付き）",
+    "kind": "product",
+    "category": "コース",
+    "usd": [
+     26.7,
+     43.3
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "貸切パーティープラン",
+    "kind": "service",
+    "category": "コース",
+    "usd": [
+     26.7,
+     53.3
+    ],
+    "unit": "person",
+    "minutes": [
+     120,
+     180
+    ]
+   },
+   {
+    "name": "生ビール",
+    "kind": "product",
+    "category": "ドリンク",
+    "usd": [
+     3.33,
+     5.33
+    ],
+    "unit": "piece",
+    "variants": [
+     "小",
+     "中",
+     "大"
+    ]
+   },
+   {
+    "name": "日本酒",
+    "kind": "product",
+    "category": "ドリンク",
+    "usd": [
+     4.0,
+     8.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "1合",
+     "2合"
+    ]
+   },
+   {
+    "name": "ハイボール",
+    "kind": "product",
+    "category": "ドリンク",
+    "usd": [
+     3.0,
+     4.33
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "ソフトドリンク",
+    "kind": "product",
+    "category": "ドリンク",
+    "usd": [
+     2.0,
+     3.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "飲み放題（2時間）",
+    "kind": "product",
+    "category": "ドリンク",
+    "usd": [
+     10.0,
+     16.7
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "唐揚げ弁当",
+    "kind": "product",
+    "category": "テイクアウト",
+    "usd": [
+     4.0,
+     6.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "幕の内弁当",
+    "kind": "product",
+    "category": "テイクアウト",
+    "usd": [
+     5.33,
+     8.0
+    ],
+    "unit": "piece"
+   }
+  ]
+ },
+ "cafe_bar": {
+  "categories": [
+   "コーヒー",
+   "ドリンク",
+   "フード",
+   "スイーツ",
+   "アルコール",
+   "物販"
+  ],
+  "roles": [
+   "店長",
+   "バリスタ",
+   "キッチンスタッフ",
+   "ホールスタッフ",
+   "バーテンダー",
+   "アルバイト"
+  ],
+  "departments": [
+   "ホール",
+   "キッチン",
+   "バーカウンター"
+  ],
+  "items": [
+   {
+    "name": "ブレンドコーヒー",
+    "kind": "product",
+    "category": "コーヒー",
+    "usd": [
+     3.0,
+     4.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "S",
+     "M",
+     "L"
+    ]
+   },
+   {
+    "name": "カフェラテ",
+    "kind": "product",
+    "category": "コーヒー",
+    "usd": [
+     3.2,
+     4.33
+    ],
+    "unit": "piece",
+    "variants": [
+     "S",
+     "M",
+     "L"
+    ]
+   },
+   {
+    "name": "アイスコーヒー",
+    "kind": "product",
+    "category": "コーヒー",
+    "usd": [
+     3.0,
+     4.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "レギュラー",
+     "ラージ"
+    ]
+   },
+   {
+    "name": "カプチーノ",
+    "kind": "product",
+    "category": "コーヒー",
+    "usd": [
+     3.2,
+     4.33
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "エスプレッソ",
+    "kind": "product",
+    "category": "コーヒー",
+    "usd": [
+     2.33,
+     3.33
+    ],
+    "unit": "piece",
+    "variants": [
+     "シングル",
+     "ダブル"
+    ]
+   },
+   {
+    "name": "紅茶（ポット）",
+    "kind": "product",
+    "category": "ドリンク",
+    "usd": [
+     3.67,
+     5.67
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "抹茶ラテ",
+    "kind": "product",
+    "category": "ドリンク",
+    "usd": [
+     3.33,
+     4.67
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "オレンジジュース",
+    "kind": "product",
+    "category": "ドリンク",
+    "usd": [
+     3.0,
+     4.33
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "モーニングセット",
+    "kind": "product",
+    "category": "フード",
+    "usd": [
+     3.67,
+     6.33
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "ナポリタン",
+    "kind": "product",
+    "category": "フード",
+    "usd": [
+     5.67,
+     8.67
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "ミックスサンド",
+    "kind": "product",
+    "category": "フード",
+    "usd": [
+     4.33,
+     7.33
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "ピザトースト",
+    "kind": "product",
+    "category": "フード",
+    "usd": [
+     4.0,
+     6.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "ケーキセット",
+    "kind": "product",
+    "category": "スイーツ",
+    "usd": [
+     5.67,
+     9.33
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "チーズケーキ",
+    "kind": "product",
+    "category": "スイーツ",
+    "usd": [
+     3.0,
+     4.67
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "ホットケーキ",
+    "kind": "product",
+    "category": "スイーツ",
+    "usd": [
+     4.33,
+     6.67
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "クラフトビール",
+    "kind": "product",
+    "category": "アルコール",
+    "usd": [
+     4.67,
+     8.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "ハイボール",
+    "kind": "product",
+    "category": "アルコール",
+    "usd": [
+     3.0,
+     4.67
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "カクテル",
+    "kind": "product",
+    "category": "アルコール",
+    "usd": [
+     4.67,
+     8.67
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "グラスワイン",
+    "kind": "product",
+    "category": "アルコール",
+    "usd": [
+     4.0,
+     6.67
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "自家焙煎コーヒー豆",
+    "kind": "product",
+    "category": "物販",
+    "usd": [
+     6.0,
+     10.0
+    ],
+    "unit": "pack",
+    "variants": [
+     "100g",
+     "200g",
+     "500g"
+    ]
+   },
+   {
+    "name": "ドリップバッグ（10袋入）",
+    "kind": "product",
+    "category": "物販",
+    "usd": [
+     8.0,
+     13.3
+    ],
+    "unit": "box"
+   }
+  ]
+ },
+ "hotel": {
+  "categories": [
+   "客室",
+   "宿泊プラン",
+   "お食事",
+   "日帰り",
+   "宴会・会議",
+   "オプション"
+  ],
+  "roles": [
+   "支配人",
+   "フロントスタッフ",
+   "予約係",
+   "客室係",
+   "仲居",
+   "調理長",
+   "営業担当",
+   "清掃スタッフ"
+  ],
+  "departments": [
+   "フロント",
+   "客室",
+   "料飲部",
+   "営業部"
+  ],
+  "items": [
+   {
+    "name": "シングルルーム（素泊まり）",
+    "kind": "service",
+    "category": "客室",
+    "usd": [
+     46.7,
+     107
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "ツインルーム",
+    "kind": "service",
+    "category": "客室",
+    "usd": [
+     93.3,
+     200
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "ダブルルーム",
+    "kind": "service",
+    "category": "客室",
+    "usd": [
+     80.0,
+     167
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "和室（10畳）",
+    "kind": "service",
+    "category": "客室",
+    "usd": [
+     120,
+     267
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "露天風呂付き客室",
+    "kind": "service",
+    "category": "客室",
+    "usd": [
+     200,
+     400
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "素泊まりプラン",
+    "kind": "service",
+    "category": "宿泊プラン",
+    "usd": [
+     40.0,
+     80.0
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "1泊朝食付きプラン",
+    "kind": "service",
+    "category": "宿泊プラン",
+    "usd": [
+     60.0,
+     120
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "1泊2食付きプラン",
+    "kind": "service",
+    "category": "宿泊プラン",
+    "usd": [
+     100,
+     233
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "連泊プラン",
+    "kind": "service",
+    "category": "宿泊プラン",
+    "usd": [
+     46.7,
+     86.7
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "記念日プラン（ケーキ付き）",
+    "kind": "service",
+    "category": "宿泊プラン",
+    "usd": [
+     133,
+     267
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "朝食ビュッフェ",
+    "kind": "product",
+    "category": "お食事",
+    "usd": [
+     10.0,
+     20.0
+    ],
+    "unit": "person",
+    "variants": [
+     "小学生",
+     "大人"
+    ]
+   },
+   {
+    "name": "夕食会席",
+    "kind": "product",
+    "category": "お食事",
+    "usd": [
+     33.3,
+     66.7
+    ],
+    "unit": "person",
+    "variants": [
+     "梅",
+     "竹",
+     "松"
+    ]
+   },
+   {
+    "name": "地酒",
+    "kind": "product",
+    "category": "お食事",
+    "usd": [
+     8.0,
+     20.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "300ml",
+     "720ml"
+    ]
+   },
+   {
+    "name": "お土産菓子",
+    "kind": "product",
+    "category": "オプション",
+    "usd": [
+     5.33,
+     10.0
+    ],
+    "unit": "box",
+    "variants": [
+     "8個入",
+     "16個入"
+    ]
+   },
+   {
+    "name": "日帰り入浴",
+    "kind": "service",
+    "category": "日帰り",
+    "usd": [
+     5.33,
+     10.0
+    ],
+    "unit": "person",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "デイユースプラン",
+    "kind": "service",
+    "category": "日帰り",
+    "usd": [
+     20.0,
+     40.0
+    ],
+    "unit": "session",
+    "minutes": [
+     180,
+     360
+    ]
+   },
+   {
+    "name": "宴会プラン",
+    "kind": "service",
+    "category": "宴会・会議",
+    "usd": [
+     33.3,
+     66.7
+    ],
+    "unit": "person",
+    "minutes": [
+     120,
+     150
+    ]
+   },
+   {
+    "name": "会議室レンタル",
+    "kind": "service",
+    "category": "宴会・会議",
+    "usd": [
+     133,
+     533
+    ],
+    "unit": "day",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "貸切風呂（50分）",
+    "kind": "service",
+    "category": "オプション",
+    "usd": [
+     13.3,
+     26.7
+    ],
+    "unit": "session",
+    "minutes": [
+     50,
+     50
+    ]
+   },
+   {
+    "name": "アーリーチェックイン",
+    "kind": "service",
+    "category": "オプション",
+    "usd": [
+     6.67,
+     20.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "レイトチェックアウト",
+    "kind": "service",
+    "category": "オプション",
+    "usd": [
+     6.67,
+     20.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "駐車場（1泊）",
+    "kind": "service",
+    "category": "オプション",
+    "usd": [
+     3.33,
+     10.0
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   }
+  ]
+ },
+ "plumbing_hvac": {
+  "categories": [
+   "水まわり修理",
+   "給湯器",
+   "空調",
+   "配管工事",
+   "リフォーム",
+   "保守点検"
+  ],
+  "roles": [
+   "代表取締役",
+   "工事部長",
+   "配管工",
+   "空調設備工",
+   "施工管理",
+   "見習い",
+   "営業",
+   "事務"
+  ],
+  "departments": [
+   "工事部",
+   "営業部",
+   "総務部"
+  ],
+  "items": [
+   {
+    "name": "水漏れ修理",
+    "kind": "service",
+    "category": "水まわり修理",
+    "usd": [
+     53.3,
+     167
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "トイレつまり解消",
+    "kind": "service",
+    "category": "水まわり修理",
+    "usd": [
+     53.3,
+     133
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "排水口つまり除去",
+    "kind": "service",
+    "category": "水まわり修理",
+    "usd": [
+     53.3,
+     120
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "蛇口交換",
+    "kind": "service",
+    "category": "水まわり修理",
+    "usd": [
+     66.7,
+     167
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "混合水栓",
+    "kind": "product",
+    "category": "水まわり修理",
+    "usd": [
+     80.0,
+     200
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "ガス給湯器",
+    "kind": "product",
+    "category": "給湯器",
+    "usd": [
+     533,
+     1000
+    ],
+    "unit": "piece",
+    "variants": [
+     "16号",
+     "20号",
+     "24号"
+    ]
+   },
+   {
+    "name": "ガス給湯器交換工事",
+    "kind": "service",
+    "category": "給湯器",
+    "usd": [
+     333,
+     667
+    ],
+    "unit": "set",
+    "minutes": [
+     180,
+     360
+    ]
+   },
+   {
+    "name": "エコキュート交換工事",
+    "kind": "service",
+    "category": "給湯器",
+    "usd": [
+     2670,
+     4670
+    ],
+    "unit": "set",
+    "minutes": [
+     300,
+     480
+    ]
+   },
+   {
+    "name": "給湯器修理",
+    "kind": "service",
+    "category": "給湯器",
+    "usd": [
+     100,
+     333
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "ルームエアコン",
+    "kind": "product",
+    "category": "空調",
+    "usd": [
+     400,
+     800
+    ],
+    "unit": "piece",
+    "variants": [
+     "6畳用",
+     "10畳用",
+     "14畳用"
+    ]
+   },
+   {
+    "name": "エアコン取付工事",
+    "kind": "service",
+    "category": "空調",
+    "usd": [
+     100,
+     200
+    ],
+    "unit": "piece",
+    "minutes": [
+     90,
+     180
+    ]
+   },
+   {
+    "name": "業務用エアコン設置工事",
+    "kind": "service",
+    "category": "空調",
+    "usd": [
+     2000,
+     10000
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "換気扇交換",
+    "kind": "service",
+    "category": "空調",
+    "usd": [
+     133,
+     300
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     150
+    ]
+   },
+   {
+    "name": "排水管高圧洗浄",
+    "kind": "service",
+    "category": "配管工事",
+    "usd": [
+     133,
+     333
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "給排水配管工事",
+    "kind": "service",
+    "category": "配管工事",
+    "usd": [
+     33.3,
+     100
+    ],
+    "unit": "m",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "ガス配管工事",
+    "kind": "service",
+    "category": "配管工事",
+    "usd": [
+     40.0,
+     100
+    ],
+    "unit": "m",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "温水洗浄便座",
+    "kind": "product",
+    "category": "リフォーム",
+    "usd": [
+     167,
+     400
+    ],
+    "unit": "piece",
+    "variants": [
+     "貯湯式",
+     "瞬間式"
+    ]
+   },
+   {
+    "name": "トイレ交換工事",
+    "kind": "service",
+    "category": "リフォーム",
+    "usd": [
+     1000,
+     2330
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     300
+    ]
+   },
+   {
+    "name": "ユニットバス交換工事",
+    "kind": "service",
+    "category": "リフォーム",
+    "usd": [
+     4000,
+     10000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "床暖房設置工事",
+    "kind": "service",
+    "category": "リフォーム",
+    "usd": [
+     66.7,
+     133
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "エアコンクリーニング",
+    "kind": "service",
+    "category": "保守点検",
+    "usd": [
+     66.7,
+     120
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     150
+    ]
+   },
+   {
+    "name": "空調設備保守点検（月額）",
+    "kind": "service",
+    "category": "保守点検",
+    "usd": [
+     66.7,
+     333
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "給水ポンプ点検",
+    "kind": "service",
+    "category": "保守点検",
+    "usd": [
+     133,
+     333
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   }
+  ]
+ },
+ "electrical": {
+  "categories": [
+   "電気工事",
+   "照明",
+   "空調・換気",
+   "通信・防犯",
+   "太陽光・蓄電池",
+   "保安点検"
+  ],
+  "roles": [
+   "代表取締役",
+   "電気工事士",
+   "現場代理人",
+   "施工管理技士",
+   "見習い",
+   "営業",
+   "事務"
+  ],
+  "departments": [
+   "工事部",
+   "営業部",
+   "総務部"
+  ],
+  "items": [
+   {
+    "name": "コンセント増設工事",
+    "kind": "service",
+    "category": "電気工事",
+    "usd": [
+     53.3,
+     133
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "スイッチ交換",
+    "kind": "service",
+    "category": "電気工事",
+    "usd": [
+     20.0,
+     53.3
+    ],
+    "unit": "piece",
+    "minutes": [
+     15,
+     45
+    ]
+   },
+   {
+    "name": "分電盤交換工事",
+    "kind": "service",
+    "category": "電気工事",
+    "usd": [
+     400,
+     1000
+    ],
+    "unit": "set",
+    "minutes": [
+     180,
+     360
+    ]
+   },
+   {
+    "name": "アンペア変更工事",
+    "kind": "service",
+    "category": "電気工事",
+    "usd": [
+     66.7,
+     200
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "幹線ケーブル敷設工事",
+    "kind": "service",
+    "category": "電気工事",
+    "usd": [
+     20.0,
+     66.7
+    ],
+    "unit": "m",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "VVFケーブル（100m巻）",
+    "kind": "product",
+    "category": "電気工事",
+    "usd": [
+     53.3,
+     100
+    ],
+    "unit": "piece",
+    "variants": [
+     "1.6mm 2芯",
+     "1.6mm 3芯",
+     "2.0mm 3芯"
+    ]
+   },
+   {
+    "name": "LED照明器具取付",
+    "kind": "service",
+    "category": "照明",
+    "usd": [
+     33.3,
+     100
+    ],
+    "unit": "piece",
+    "minutes": [
+     20,
+     60
+    ]
+   },
+   {
+    "name": "LEDシーリングライト",
+    "kind": "product",
+    "category": "照明",
+    "usd": [
+     53.3,
+     133
+    ],
+    "unit": "piece",
+    "variants": [
+     "6畳用",
+     "8畳用",
+     "12畳用"
+    ]
+   },
+   {
+    "name": "LEDダウンライト",
+    "kind": "product",
+    "category": "照明",
+    "usd": [
+     20.0,
+     40.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "60形",
+     "100形"
+    ]
+   },
+   {
+    "name": "エアコン専用回路工事",
+    "kind": "service",
+    "category": "空調・換気",
+    "usd": [
+     100,
+     233
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "換気扇配線工事",
+    "kind": "service",
+    "category": "空調・換気",
+    "usd": [
+     66.7,
+     167
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "LAN配線工事",
+    "kind": "service",
+    "category": "通信・防犯",
+    "usd": [
+     66.7,
+     200
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "インターホン交換工事",
+    "kind": "service",
+    "category": "通信・防犯",
+    "usd": [
+     133,
+     400
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "防犯カメラ設置工事",
+    "kind": "service",
+    "category": "通信・防犯",
+    "usd": [
+     333,
+     1330
+    ],
+    "unit": "set",
+    "minutes": [
+     180,
+     480
+    ]
+   },
+   {
+    "name": "防犯カメラ",
+    "kind": "product",
+    "category": "通信・防犯",
+    "usd": [
+     100,
+     267
+    ],
+    "unit": "piece",
+    "variants": [
+     "屋内用",
+     "屋外用"
+    ]
+   },
+   {
+    "name": "人感センサーライト",
+    "kind": "product",
+    "category": "通信・防犯",
+    "usd": [
+     26.7,
+     80.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "太陽光発電システム設置工事",
+    "kind": "service",
+    "category": "太陽光・蓄電池",
+    "usd": [
+     6670,
+     13300
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "家庭用蓄電池設置工事",
+    "kind": "service",
+    "category": "太陽光・蓄電池",
+    "usd": [
+     5330,
+     12000
+    ],
+    "unit": "set",
+    "minutes": [
+     360,
+     480
+    ]
+   },
+   {
+    "name": "EV充電用コンセント設置",
+    "kind": "service",
+    "category": "太陽光・蓄電池",
+    "usd": [
+     533,
+     1330
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     300
+    ]
+   },
+   {
+    "name": "漏電調査",
+    "kind": "service",
+    "category": "保安点検",
+    "usd": [
+     66.7,
+     200
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "高圧受変電設備年次点検",
+    "kind": "service",
+    "category": "保安点検",
+    "usd": [
+     333,
+     1000
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "電気設備保安管理（月額）",
+    "kind": "service",
+    "category": "保安点検",
+    "usd": [
+     66.7,
+     200
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     120
+    ]
+   }
+  ]
+ },
+ "building_contractor": {
+  "categories": [
+   "新築工事",
+   "リフォーム",
+   "外構工事",
+   "解体工事",
+   "仮設工事",
+   "調査・設計"
+  ],
+  "roles": [
+   "代表取締役",
+   "現場監督",
+   "施工管理技士",
+   "大工",
+   "見習い大工",
+   "設計担当",
+   "営業",
+   "事務"
+  ],
+  "departments": [
+   "工事部",
+   "設計部",
+   "営業部",
+   "総務部"
+  ],
+  "items": [
+   {
+    "name": "木造住宅新築工事",
+    "kind": "service",
+    "category": "新築工事",
+    "usd": [
+     1200,
+     1800
+    ],
+    "unit": "m2",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "基礎工事",
+    "kind": "service",
+    "category": "新築工事",
+    "usd": [
+     100,
+     200
+    ],
+    "unit": "m2",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "増築工事",
+    "kind": "service",
+    "category": "リフォーム",
+    "usd": [
+     13300,
+     40000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "耐震補強工事",
+    "kind": "service",
+    "category": "リフォーム",
+    "usd": [
+     6670,
+     20000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "キッチンリフォーム",
+    "kind": "service",
+    "category": "リフォーム",
+    "usd": [
+     5330,
+     13300
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "浴室リフォーム",
+    "kind": "service",
+    "category": "リフォーム",
+    "usd": [
+     5330,
+     12000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "トイレリフォーム",
+    "kind": "service",
+    "category": "リフォーム",
+    "usd": [
+     1330,
+     3330
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "内装リフォーム工事",
+    "kind": "service",
+    "category": "リフォーム",
+    "usd": [
+     66.7,
+     200
+    ],
+    "unit": "m2",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "屋根葺き替え工事",
+    "kind": "service",
+    "category": "リフォーム",
+    "usd": [
+     66.7,
+     167
+    ],
+    "unit": "m2",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "店舗内装工事",
+    "kind": "service",
+    "category": "リフォーム",
+    "usd": [
+     333,
+     1000
+    ],
+    "unit": "m2",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "大工手間（1人工）",
+    "kind": "service",
+    "category": "リフォーム",
+    "usd": [
+     133,
+     200
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "外構工事",
+    "kind": "service",
+    "category": "外構工事",
+    "usd": [
+     3330,
+     13300
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "カーポート設置",
+    "kind": "service",
+    "category": "外構工事",
+    "usd": [
+     1000,
+     2670
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "ウッドデッキ設置",
+    "kind": "service",
+    "category": "外構工事",
+    "usd": [
+     133,
+     267
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "木造家屋解体工事",
+    "kind": "service",
+    "category": "解体工事",
+    "usd": [
+     60.0,
+     120
+    ],
+    "unit": "m2",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "ブロック塀撤去",
+    "kind": "service",
+    "category": "解体工事",
+    "usd": [
+     53.3,
+     100
+    ],
+    "unit": "m",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "仮設足場",
+    "kind": "service",
+    "category": "仮設工事",
+    "usd": [
+     5.33,
+     10.0
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "仮設トイレ設置",
+    "kind": "service",
+    "category": "仮設工事",
+    "usd": [
+     200,
+     400
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "住宅診断（ホームインスペクション）",
+    "kind": "service",
+    "category": "調査・設計",
+    "usd": [
+     333,
+     667
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "設計図面作成",
+    "kind": "service",
+    "category": "調査・設計",
+    "usd": [
+     667,
+     3330
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "現地調査",
+    "kind": "service",
+    "category": "調査・設計",
+    "usd": [
+     33.3,
+     133
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   }
+  ]
+ },
+ "painting": {
+  "categories": [
+   "外壁塗装",
+   "屋根塗装",
+   "防水工事",
+   "付帯部・シーリング",
+   "内装",
+   "その他"
+  ],
+  "roles": [
+   "代表",
+   "職長",
+   "塗装職人",
+   "見習い",
+   "現場管理",
+   "営業担当",
+   "事務"
+  ],
+  "departments": [
+   "工事部",
+   "営業部",
+   "事務所"
+  ],
+  "items": [
+   {
+    "name": "外壁塗装（シリコン）",
+    "kind": "service",
+    "category": "外壁塗装",
+    "usd": [
+     15.3,
+     23.3
+    ],
+    "unit": "m2",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "外壁塗装（ラジカル）",
+    "kind": "service",
+    "category": "外壁塗装",
+    "usd": [
+     16.7,
+     25.3
+    ],
+    "unit": "m2",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "外壁塗装（フッ素）",
+    "kind": "service",
+    "category": "外壁塗装",
+    "usd": [
+     23.3,
+     33.3
+    ],
+    "unit": "m2",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "外壁塗装工事一式（30坪）",
+    "kind": "service",
+    "category": "外壁塗装",
+    "usd": [
+     5330,
+     8670
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "屋根塗装",
+    "kind": "service",
+    "category": "屋根塗装",
+    "usd": [
+     13.3,
+     26.7
+    ],
+    "unit": "m2",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "屋根遮熱塗装",
+    "kind": "service",
+    "category": "屋根塗装",
+    "usd": [
+     18.7,
+     30.0
+    ],
+    "unit": "m2",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "ベランダ防水工事（FRP）",
+    "kind": "service",
+    "category": "防水工事",
+    "usd": [
+     33.3,
+     53.3
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "屋上防水（ウレタン）",
+    "kind": "service",
+    "category": "防水工事",
+    "usd": [
+     26.7,
+     46.7
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "シーリング打ち替え",
+    "kind": "service",
+    "category": "付帯部・シーリング",
+    "usd": [
+     6.0,
+     10.0
+    ],
+    "unit": "m",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "シーリング増し打ち",
+    "kind": "service",
+    "category": "付帯部・シーリング",
+    "usd": [
+     3.33,
+     6.0
+    ],
+    "unit": "m",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "鉄部塗装",
+    "kind": "service",
+    "category": "付帯部・シーリング",
+    "usd": [
+     6.67,
+     16.7
+    ],
+    "unit": "m",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "雨樋塗装",
+    "kind": "service",
+    "category": "付帯部・シーリング",
+    "usd": [
+     5.33,
+     10.0
+    ],
+    "unit": "m",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "破風板塗装",
+    "kind": "service",
+    "category": "付帯部・シーリング",
+    "usd": [
+     6.67,
+     12.0
+    ],
+    "unit": "m",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "室内壁塗装",
+    "kind": "service",
+    "category": "内装",
+    "usd": [
+     10.0,
+     20.0
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "天井塗装",
+    "kind": "service",
+    "category": "内装",
+    "usd": [
+     10.0,
+     20.0
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "クロス張替え",
+    "kind": "service",
+    "category": "内装",
+    "usd": [
+     5.33,
+     10.0
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "高圧洗浄",
+    "kind": "service",
+    "category": "その他",
+    "usd": [
+     1.0,
+     2.0
+    ],
+    "unit": "m2",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "足場設置",
+    "kind": "service",
+    "category": "その他",
+    "usd": [
+     4.67,
+     8.0
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "養生",
+    "kind": "service",
+    "category": "その他",
+    "usd": [
+     2.0,
+     3.33
+    ],
+    "unit": "m2",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "ケレン作業",
+    "kind": "service",
+    "category": "その他",
+    "usd": [
+     2.0,
+     5.33
+    ],
+    "unit": "m2",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "塗装工（1人工）",
+    "kind": "service",
+    "category": "その他",
+    "usd": [
+     133,
+     187
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   }
+  ]
+ },
+ "car_repair": {
+  "categories": [
+   "車検・点検",
+   "オイル・消耗品",
+   "タイヤ",
+   "修理・板金",
+   "コーティング・洗車",
+   "カー用品"
+  ],
+  "roles": [
+   "工場長",
+   "整備士",
+   "自動車検査員",
+   "板金塗装工",
+   "フロント",
+   "見習い整備士",
+   "事務"
+  ],
+  "departments": [
+   "整備部",
+   "板金塗装部",
+   "フロント",
+   "事務所"
+  ],
+  "items": [
+   {
+    "name": "車検整備（軽自動車）",
+    "kind": "service",
+    "category": "車検・点検",
+    "usd": [
+     133,
+     300
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "車検整備（普通車）",
+    "kind": "service",
+    "category": "車検・点検",
+    "usd": [
+     200,
+     467
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "12か月点検",
+    "kind": "service",
+    "category": "車検・点検",
+    "usd": [
+     66.7,
+     133
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "エンジンオイル交換",
+    "kind": "service",
+    "category": "オイル・消耗品",
+    "usd": [
+     20.0,
+     40.0
+    ],
+    "unit": "session",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "オイルエレメント交換",
+    "kind": "service",
+    "category": "オイル・消耗品",
+    "usd": [
+     10.0,
+     20.0
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     20
+    ]
+   },
+   {
+    "name": "エンジンオイル",
+    "kind": "product",
+    "category": "オイル・消耗品",
+    "usd": [
+     10.0,
+     20.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "1L缶",
+     "4L缶"
+    ]
+   },
+   {
+    "name": "カーバッテリー",
+    "kind": "product",
+    "category": "オイル・消耗品",
+    "usd": [
+     40.0,
+     80.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "40B19L",
+     "60B24L",
+     "80D23L"
+    ]
+   },
+   {
+    "name": "ワイパーブレード",
+    "kind": "product",
+    "category": "オイル・消耗品",
+    "usd": [
+     10.0,
+     16.7
+    ],
+    "unit": "piece",
+    "variants": [
+     "350mm",
+     "450mm",
+     "600mm"
+    ]
+   },
+   {
+    "name": "バッテリー交換工賃",
+    "kind": "service",
+    "category": "オイル・消耗品",
+    "usd": [
+     6.67,
+     20.0
+    ],
+    "unit": "session",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "タイヤ交換（4本）",
+    "kind": "service",
+    "category": "タイヤ",
+    "usd": [
+     26.7,
+     66.7
+    ],
+    "unit": "set",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "夏タイヤ（4本セット）",
+    "kind": "product",
+    "category": "タイヤ",
+    "usd": [
+     200,
+     400
+    ],
+    "unit": "set",
+    "variants": [
+     "14インチ",
+     "15インチ",
+     "16インチ",
+     "17インチ"
+    ]
+   },
+   {
+    "name": "スタッドレスタイヤ（4本セット）",
+    "kind": "product",
+    "category": "タイヤ",
+    "usd": [
+     267,
+     467
+    ],
+    "unit": "set",
+    "variants": [
+     "14インチ",
+     "15インチ",
+     "16インチ"
+    ]
+   },
+   {
+    "name": "ブレーキパッド交換",
+    "kind": "service",
+    "category": "修理・板金",
+    "usd": [
+     66.7,
+     167
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "エアコンガス補充",
+    "kind": "service",
+    "category": "修理・板金",
+    "usd": [
+     33.3,
+     80.0
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "バンパー板金塗装",
+    "kind": "service",
+    "category": "修理・板金",
+    "usd": [
+     200,
+     533
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "ドア板金塗装",
+    "kind": "service",
+    "category": "修理・板金",
+    "usd": [
+     267,
+     667
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "一般整備工賃",
+    "kind": "service",
+    "category": "修理・板金",
+    "usd": [
+     46.7,
+     80.0
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "ガラスコーティング",
+    "kind": "service",
+    "category": "コーティング・洗車",
+    "usd": [
+     200,
+     667
+    ],
+    "unit": "set",
+    "minutes": [
+     180,
+     480
+    ]
+   },
+   {
+    "name": "手洗い洗車",
+    "kind": "service",
+    "category": "コーティング・洗車",
+    "usd": [
+     13.3,
+     33.3
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "室内クリーニング",
+    "kind": "service",
+    "category": "コーティング・洗車",
+    "usd": [
+     66.7,
+     167
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "ドライブレコーダー",
+    "kind": "product",
+    "category": "カー用品",
+    "usd": [
+     100,
+     200
+    ],
+    "unit": "piece",
+    "variants": [
+     "前方のみ",
+     "前後2カメラ"
+    ]
+   },
+   {
+    "name": "ドライブレコーダー取付",
+    "kind": "service",
+    "category": "カー用品",
+    "usd": [
+     53.3,
+     100
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   }
+  ]
+ },
+ "clothing_shop": {
+  "categories": [
+   "トップス",
+   "ボトムス",
+   "アウター",
+   "ワンピース・セットアップ",
+   "シューズ・バッグ",
+   "小物・その他"
+  ],
+  "roles": [
+   "店長",
+   "副店長",
+   "販売スタッフ",
+   "スタイリスト",
+   "バイヤー",
+   "在庫管理",
+   "アルバイト"
+  ],
+  "departments": [
+   "店舗",
+   "ネットショップ",
+   "事務所"
+  ],
+  "items": [
+   {
+    "name": "Tシャツ",
+    "kind": "product",
+    "category": "トップス",
+    "usd": [
+     13.2,
+     32.7
+    ],
+    "unit": "piece",
+    "variants": [
+     "S",
+     "M",
+     "L",
+     "XL"
+    ]
+   },
+   {
+    "name": "ブラウス",
+    "kind": "product",
+    "category": "トップス",
+    "usd": [
+     26.0,
+     66.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "ニットセーター",
+    "kind": "product",
+    "category": "トップス",
+    "usd": [
+     32.7,
+     86.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "S",
+     "M",
+     "L"
+    ]
+   },
+   {
+    "name": "ワイシャツ",
+    "kind": "product",
+    "category": "トップス",
+    "usd": [
+     19.3,
+     46.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "S",
+     "M",
+     "L",
+     "LL"
+    ]
+   },
+   {
+    "name": "パーカー",
+    "kind": "product",
+    "category": "トップス",
+    "usd": [
+     26.0,
+     59.3
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "カーディガン",
+    "kind": "product",
+    "category": "トップス",
+    "usd": [
+     26.0,
+     59.3
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "デニムパンツ",
+    "kind": "product",
+    "category": "ボトムス",
+    "usd": [
+     39.3,
+     99.3
+    ],
+    "unit": "piece",
+    "variants": [
+     "S",
+     "M",
+     "L"
+    ]
+   },
+   {
+    "name": "チノパン",
+    "kind": "product",
+    "category": "ボトムス",
+    "usd": [
+     26.0,
+     52.7
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "スカート",
+    "kind": "product",
+    "category": "ボトムス",
+    "usd": [
+     26.0,
+     66.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "ダウンジャケット",
+    "kind": "product",
+    "category": "アウター",
+    "usd": [
+     100,
+     260
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "トレンチコート",
+    "kind": "product",
+    "category": "アウター",
+    "usd": [
+     80.0,
+     193
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "ワンピース",
+    "kind": "product",
+    "category": "ワンピース・セットアップ",
+    "usd": [
+     39.3,
+     106
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "セットアップ",
+    "kind": "product",
+    "category": "ワンピース・セットアップ",
+    "usd": [
+     66.0,
+     166
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "スニーカー",
+    "kind": "product",
+    "category": "シューズ・バッグ",
+    "usd": [
+     39.3,
+     99.3
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "パンプス",
+    "kind": "product",
+    "category": "シューズ・バッグ",
+    "usd": [
+     32.7,
+     86.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "トートバッグ",
+    "kind": "product",
+    "category": "シューズ・バッグ",
+    "usd": [
+     19.3,
+     66.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "ストール",
+    "kind": "product",
+    "category": "小物・その他",
+    "usd": [
+     19.3,
+     52.7
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "靴下（3足組）",
+    "kind": "product",
+    "category": "小物・その他",
+    "usd": [
+     6.6,
+     10.0
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "浴衣セット",
+    "kind": "product",
+    "category": "小物・その他",
+    "usd": [
+     39.3,
+     132
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "パンツ裾上げ",
+    "kind": "service",
+    "category": "小物・その他",
+    "usd": [
+     3.33,
+     10.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "ギフトラッピング",
+    "kind": "service",
+    "category": "小物・その他",
+    "usd": [
+     1.33,
+     3.33
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     10
+    ]
+   }
+  ]
+ },
+ "florist": {
+  "categories": [
+   "花束",
+   "アレンジメント",
+   "鉢物・観葉植物",
+   "お供え",
+   "スタンド・装花",
+   "切り花"
+  ],
+  "roles": [
+   "店長",
+   "フローリスト",
+   "販売スタッフ",
+   "装花デザイナー",
+   "配達スタッフ",
+   "アルバイト"
+  ],
+  "departments": [
+   "店舗",
+   "制作",
+   "配達"
+  ],
+  "items": [
+   {
+    "name": "花束",
+    "kind": "product",
+    "category": "花束",
+    "usd": [
+     20.0,
+     33.3
+    ],
+    "unit": "piece",
+    "variants": [
+     "S",
+     "M",
+     "L"
+    ]
+   },
+   {
+    "name": "ミニブーケ",
+    "kind": "product",
+    "category": "花束",
+    "usd": [
+     6.67,
+     13.3
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "バラの花束（10本）",
+    "kind": "product",
+    "category": "花束",
+    "usd": [
+     33.3,
+     53.3
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "ブライダルブーケ",
+    "kind": "product",
+    "category": "花束",
+    "usd": [
+     133,
+     333
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "フラワーアレンジメント",
+    "kind": "product",
+    "category": "アレンジメント",
+    "usd": [
+     20.0,
+     33.3
+    ],
+    "unit": "piece",
+    "variants": [
+     "S",
+     "M",
+     "L"
+    ]
+   },
+   {
+    "name": "プリザーブドフラワー",
+    "kind": "product",
+    "category": "アレンジメント",
+    "usd": [
+     26.7,
+     80.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "母の日ギフト（カーネーション）",
+    "kind": "product",
+    "category": "アレンジメント",
+    "usd": [
+     20.0,
+     40.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "胡蝶蘭",
+    "kind": "product",
+    "category": "鉢物・観葉植物",
+    "usd": [
+     133,
+     233
+    ],
+    "unit": "piece",
+    "variants": [
+     "3本立ち",
+     "5本立ち"
+    ]
+   },
+   {
+    "name": "観葉植物",
+    "kind": "product",
+    "category": "鉢物・観葉植物",
+    "usd": [
+     20.0,
+     53.3
+    ],
+    "unit": "piece",
+    "variants": [
+     "6号鉢",
+     "8号鉢",
+     "10号鉢"
+    ]
+   },
+   {
+    "name": "季節の鉢植え",
+    "kind": "product",
+    "category": "鉢物・観葉植物",
+    "usd": [
+     10.0,
+     33.3
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "観葉植物レンタル",
+    "kind": "service",
+    "category": "鉢物・観葉植物",
+    "usd": [
+     20.0,
+     66.7
+    ],
+    "unit": "month",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "供花",
+    "kind": "product",
+    "category": "お供え",
+    "usd": [
+     66.7,
+     133
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "枕花",
+    "kind": "product",
+    "category": "お供え",
+    "usd": [
+     33.3,
+     100
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "仏花（一対）",
+    "kind": "product",
+    "category": "お供え",
+    "usd": [
+     6.67,
+     20.0
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "スタンド花",
+    "kind": "product",
+    "category": "スタンド・装花",
+    "usd": [
+     100,
+     167
+    ],
+    "unit": "piece",
+    "variants": [
+     "1段",
+     "2段"
+    ]
+   },
+   {
+    "name": "会場装花",
+    "kind": "service",
+    "category": "スタンド・装花",
+    "usd": [
+     333,
+     2000
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     300
+    ]
+   },
+   {
+    "name": "店舗装花（定期交換）",
+    "kind": "service",
+    "category": "スタンド・装花",
+    "usd": [
+     66.7,
+     200
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "バラ（1本）",
+    "kind": "product",
+    "category": "切り花",
+    "usd": [
+     2.0,
+     5.33
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "カーネーション（1本）",
+    "kind": "product",
+    "category": "切り花",
+    "usd": [
+     1.33,
+     2.67
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "ガーベラ（1本）",
+    "kind": "product",
+    "category": "切り花",
+    "usd": [
+     1.33,
+     2.33
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "かすみ草（1束）",
+    "kind": "product",
+    "category": "切り花",
+    "usd": [
+     3.33,
+     8.0
+    ],
+    "unit": "piece"
+   }
+  ]
+ },
+ "pharmacy": {
+  "categories": [
+   "医薬品",
+   "健康食品",
+   "衛生用品",
+   "化粧品",
+   "介護・ベビー用品",
+   "健康機器"
+  ],
+  "roles": [
+   "管理薬剤師",
+   "薬剤師",
+   "登録販売者",
+   "医療事務",
+   "販売スタッフ",
+   "店長",
+   "アルバイト"
+  ],
+  "departments": [
+   "調剤",
+   "OTC売場",
+   "事務"
+  ],
+  "items": [
+   {
+    "name": "総合かぜ薬",
+    "kind": "product",
+    "category": "医薬品",
+    "usd": [
+     6.67,
+     13.3
+    ],
+    "unit": "box",
+    "variants": [
+     "12錠",
+     "24錠",
+     "36錠"
+    ]
+   },
+   {
+    "name": "解熱鎮痛薬",
+    "kind": "product",
+    "category": "医薬品",
+    "usd": [
+     4.0,
+     10.0
+    ],
+    "unit": "box",
+    "variants": [
+     "12錠",
+     "24錠",
+     "48錠"
+    ]
+   },
+   {
+    "name": "胃腸薬",
+    "kind": "product",
+    "category": "医薬品",
+    "usd": [
+     5.33,
+     13.3
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "目薬",
+    "kind": "product",
+    "category": "医薬品",
+    "usd": [
+     3.33,
+     10.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "湿布薬",
+    "kind": "product",
+    "category": "医薬品",
+    "usd": [
+     5.33,
+     13.3
+    ],
+    "unit": "box",
+    "variants": [
+     "7枚入",
+     "14枚入",
+     "21枚入"
+    ]
+   },
+   {
+    "name": "鼻炎薬",
+    "kind": "product",
+    "category": "医薬品",
+    "usd": [
+     8.0,
+     18.7
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "漢方薬",
+    "kind": "product",
+    "category": "医薬品",
+    "usd": [
+     10.0,
+     26.7
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "ビタミン剤",
+    "kind": "product",
+    "category": "健康食品",
+    "usd": [
+     6.67,
+     20.0
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "青汁",
+    "kind": "product",
+    "category": "健康食品",
+    "usd": [
+     13.3,
+     26.7
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "栄養ドリンク",
+    "kind": "product",
+    "category": "健康食品",
+    "usd": [
+     1.0,
+     2.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "1本",
+     "3本パック",
+     "10本パック"
+    ]
+   },
+   {
+    "name": "乳酸菌サプリ",
+    "kind": "product",
+    "category": "健康食品",
+    "usd": [
+     10.0,
+     23.3
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "絆創膏",
+    "kind": "product",
+    "category": "衛生用品",
+    "usd": [
+     2.0,
+     4.67
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "マスク",
+    "kind": "product",
+    "category": "衛生用品",
+    "usd": [
+     2.67,
+     8.0
+    ],
+    "unit": "box",
+    "variants": [
+     "7枚入",
+     "30枚入",
+     "50枚入"
+    ]
+   },
+   {
+    "name": "消毒用アルコール",
+    "kind": "product",
+    "category": "衛生用品",
+    "usd": [
+     3.33,
+     8.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "化粧水",
+    "kind": "product",
+    "category": "化粧品",
+    "usd": [
+     6.67,
+     20.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "日焼け止め",
+    "kind": "product",
+    "category": "化粧品",
+    "usd": [
+     5.33,
+     16.7
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "ハンドクリーム",
+    "kind": "product",
+    "category": "化粧品",
+    "usd": [
+     3.33,
+     8.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "大人用紙おむつ",
+    "kind": "product",
+    "category": "介護・ベビー用品",
+    "usd": [
+     8.0,
+     16.7
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "粉ミルク",
+    "kind": "product",
+    "category": "介護・ベビー用品",
+    "usd": [
+     10.0,
+     20.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "血圧計",
+    "kind": "product",
+    "category": "健康機器",
+    "usd": [
+     26.7,
+     66.7
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "体温計",
+    "kind": "product",
+    "category": "健康機器",
+    "usd": [
+     6.67,
+     16.7
+    ],
+    "unit": "piece"
+   }
+  ]
+ },
+ "grocery": {
+  "categories": [
+   "青果",
+   "精肉・鮮魚",
+   "日配・加工食品",
+   "惣菜・弁当",
+   "飲料・酒類",
+   "日用品"
+  ],
+  "roles": [
+   "店長",
+   "副店長",
+   "青果担当",
+   "精肉担当",
+   "鮮魚担当",
+   "レジ担当",
+   "品出しスタッフ",
+   "パート"
+  ],
+  "departments": [
+   "生鮮部門",
+   "グロサリー部門",
+   "レジ",
+   "管理"
+  ],
+  "items": [
+   {
+    "name": "キャベツ",
+    "kind": "product",
+    "category": "青果",
+    "usd": [
+     1.0,
+     2.33
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "玉ねぎ（3個入）",
+    "kind": "product",
+    "category": "青果",
+    "usd": [
+     1.33,
+     2.33
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "トマト",
+    "kind": "product",
+    "category": "青果",
+    "usd": [
+     0.667,
+     1.67
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "バナナ（1房）",
+    "kind": "product",
+    "category": "青果",
+    "usd": [
+     1.0,
+     2.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "りんご",
+    "kind": "product",
+    "category": "青果",
+    "usd": [
+     1.0,
+     2.67
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "国産豚こま切れ肉",
+    "kind": "product",
+    "category": "精肉・鮮魚",
+    "usd": [
+     10.0,
+     16.7
+    ],
+    "unit": "kg"
+   },
+   {
+    "name": "鶏むね肉",
+    "kind": "product",
+    "category": "精肉・鮮魚",
+    "usd": [
+     4.0,
+     6.67
+    ],
+    "unit": "kg"
+   },
+   {
+    "name": "牛切り落とし",
+    "kind": "product",
+    "category": "精肉・鮮魚",
+    "usd": [
+     16.7,
+     30.0
+    ],
+    "unit": "kg"
+   },
+   {
+    "name": "生鮭切り身",
+    "kind": "product",
+    "category": "精肉・鮮魚",
+    "usd": [
+     1.0,
+     2.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "刺身盛り合わせ",
+    "kind": "product",
+    "category": "精肉・鮮魚",
+    "usd": [
+     5.33,
+     10.0
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "牛乳",
+    "kind": "product",
+    "category": "日配・加工食品",
+    "usd": [
+     0.867,
+     1.2
+    ],
+    "unit": "piece",
+    "variants": [
+     "500ml",
+     "1L"
+    ]
+   },
+   {
+    "name": "卵（10個入）",
+    "kind": "product",
+    "category": "日配・加工食品",
+    "usd": [
+     1.47,
+     2.33
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "豆腐",
+    "kind": "product",
+    "category": "日配・加工食品",
+    "usd": [
+     0.533,
+     1.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "納豆（3パック）",
+    "kind": "product",
+    "category": "日配・加工食品",
+    "usd": [
+     0.533,
+     1.0
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "食パン（6枚切）",
+    "kind": "product",
+    "category": "日配・加工食品",
+    "usd": [
+     1.0,
+     2.0
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "コシヒカリ",
+    "kind": "product",
+    "category": "日配・加工食品",
+    "usd": [
+     10.0,
+     16.7
+    ],
+    "unit": "pack",
+    "variants": [
+     "2kg",
+     "5kg",
+     "10kg"
+    ]
+   },
+   {
+    "name": "醤油",
+    "kind": "product",
+    "category": "日配・加工食品",
+    "usd": [
+     1.33,
+     2.33
+    ],
+    "unit": "piece",
+    "variants": [
+     "500ml",
+     "1L"
+    ]
+   },
+   {
+    "name": "おにぎり",
+    "kind": "product",
+    "category": "惣菜・弁当",
+    "usd": [
+     0.8,
+     1.53
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "幕の内弁当",
+    "kind": "product",
+    "category": "惣菜・弁当",
+    "usd": [
+     3.33,
+     5.33
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "鶏の唐揚げ（5個入）",
+    "kind": "product",
+    "category": "惣菜・弁当",
+    "usd": [
+     2.33,
+     3.33
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "缶ビール",
+    "kind": "product",
+    "category": "飲料・酒類",
+    "usd": [
+     1.33,
+     1.67
+    ],
+    "unit": "piece",
+    "variants": [
+     "350ml",
+     "500ml"
+    ]
+   },
+   {
+    "name": "ミネラルウォーター",
+    "kind": "product",
+    "category": "飲料・酒類",
+    "usd": [
+     0.533,
+     0.8
+    ],
+    "unit": "piece",
+    "variants": [
+     "500ml",
+     "2L"
+    ]
+   },
+   {
+    "name": "緑茶（2L）",
+    "kind": "product",
+    "category": "飲料・酒類",
+    "usd": [
+     1.0,
+     1.67
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "ティッシュペーパー（5箱組）",
+    "kind": "product",
+    "category": "日用品",
+    "usd": [
+     1.67,
+     3.0
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "トイレットペーパー（12ロール）",
+    "kind": "product",
+    "category": "日用品",
+    "usd": [
+     2.67,
+     4.67
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "食器用洗剤",
+    "kind": "product",
+    "category": "日用品",
+    "usd": [
+     1.0,
+     2.0
+    ],
+    "unit": "piece"
+   }
+  ]
+ },
+ "ecommerce": {
+  "categories": [
+   "ガジェット",
+   "生活雑貨",
+   "美容・健康",
+   "食品",
+   "ペット用品",
+   "ギフト"
+  ],
+  "roles": [
+   "店長",
+   "EC運営担当",
+   "商品企画",
+   "カスタマーサポート",
+   "出荷スタッフ",
+   "Webデザイナー",
+   "マーケティング担当"
+  ],
+  "departments": [
+   "EC運営部",
+   "物流",
+   "カスタマーサポート"
+  ],
+  "items": [
+   {
+    "name": "ワイヤレスイヤホン",
+    "kind": "product",
+    "category": "ガジェット",
+    "usd": [
+     20.0,
+     100
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "スマホケース",
+    "kind": "product",
+    "category": "ガジェット",
+    "usd": [
+     10.0,
+     26.7
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "モバイルバッテリー",
+    "kind": "product",
+    "category": "ガジェット",
+    "usd": [
+     13.3,
+     26.7
+    ],
+    "unit": "piece",
+    "variants": [
+     "5000mAh",
+     "10000mAh",
+     "20000mAh"
+    ]
+   },
+   {
+    "name": "USB充電器",
+    "kind": "product",
+    "category": "ガジェット",
+    "usd": [
+     10.0,
+     16.7
+    ],
+    "unit": "piece",
+    "variants": [
+     "20W",
+     "35W",
+     "65W"
+    ]
+   },
+   {
+    "name": "収納ボックス",
+    "kind": "product",
+    "category": "生活雑貨",
+    "usd": [
+     6.67,
+     13.3
+    ],
+    "unit": "piece",
+    "variants": [
+     "S",
+     "M",
+     "L"
+    ]
+   },
+   {
+    "name": "ステンレスタンブラー",
+    "kind": "product",
+    "category": "生活雑貨",
+    "usd": [
+     13.3,
+     20.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "350ml",
+     "500ml"
+    ]
+   },
+   {
+    "name": "低反発枕",
+    "kind": "product",
+    "category": "生活雑貨",
+    "usd": [
+     20.0,
+     53.3
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "アロマディフューザー",
+    "kind": "product",
+    "category": "生活雑貨",
+    "usd": [
+     20.0,
+     53.3
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "美容液",
+    "kind": "product",
+    "category": "美容・健康",
+    "usd": [
+     20.0,
+     40.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "30ml",
+     "50ml"
+    ]
+   },
+   {
+    "name": "オーガニックシャンプー",
+    "kind": "product",
+    "category": "美容・健康",
+    "usd": [
+     10.0,
+     26.7
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "プロテイン",
+    "kind": "product",
+    "category": "美容・健康",
+    "usd": [
+     20.0,
+     33.3
+    ],
+    "unit": "piece",
+    "variants": [
+     "1kg",
+     "3kg"
+    ]
+   },
+   {
+    "name": "国産はちみつ",
+    "kind": "product",
+    "category": "食品",
+    "usd": [
+     8.0,
+     13.3
+    ],
+    "unit": "piece",
+    "variants": [
+     "300g",
+     "500g",
+     "1kg"
+    ]
+   },
+   {
+    "name": "ドリップコーヒー（30袋）",
+    "kind": "product",
+    "category": "食品",
+    "usd": [
+     10.0,
+     20.0
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "コーヒー豆定期便",
+    "kind": "product",
+    "category": "食品",
+    "usd": [
+     16.7,
+     33.3
+    ],
+    "unit": "month"
+   },
+   {
+    "name": "ドッグフード",
+    "kind": "product",
+    "category": "ペット用品",
+    "usd": [
+     10.0,
+     20.0
+    ],
+    "unit": "pack",
+    "variants": [
+     "1kg",
+     "3kg",
+     "6kg"
+    ]
+   },
+   {
+    "name": "猫砂",
+    "kind": "product",
+    "category": "ペット用品",
+    "usd": [
+     5.33,
+     13.3
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "ペット用ベッド",
+    "kind": "product",
+    "category": "ペット用品",
+    "usd": [
+     16.7,
+     40.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "今治タオルギフトセット",
+    "kind": "product",
+    "category": "ギフト",
+    "usd": [
+     20.0,
+     40.0
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "名入れボールペン",
+    "kind": "product",
+    "category": "ギフト",
+    "usd": [
+     10.0,
+     33.3
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "福袋",
+    "kind": "product",
+    "category": "ギフト",
+    "usd": [
+     20.0,
+     66.7
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "ギフトラッピング",
+    "kind": "service",
+    "category": "ギフト",
+    "usd": [
+     1.33,
+     3.33
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     10
+    ]
+   }
+  ]
+ },
+ "wholesale_electronics": {
+  "categories": [
+   "パソコン",
+   "周辺機器",
+   "ネットワーク機器",
+   "ストレージ",
+   "サプライ",
+   "ソフト・サービス"
+  ],
+  "roles": [
+   "営業部長",
+   "法人営業",
+   "営業事務",
+   "購買担当",
+   "倉庫管理",
+   "テクニカルサポート",
+   "経理"
+  ],
+  "departments": [
+   "営業部",
+   "購買部",
+   "物流センター",
+   "管理部"
+  ],
+  "items": [
+   {
+    "name": "ノートパソコン",
+    "kind": "product",
+    "category": "パソコン",
+    "usd": [
+     533,
+     1000
+    ],
+    "unit": "piece",
+    "variants": [
+     "Core i3",
+     "Core i5",
+     "Core i7"
+    ]
+   },
+   {
+    "name": "デスクトップパソコン",
+    "kind": "product",
+    "category": "パソコン",
+    "usd": [
+     467,
+     867
+    ],
+    "unit": "piece",
+    "variants": [
+     "8GB",
+     "16GB",
+     "32GB"
+    ]
+   },
+   {
+    "name": "タブレット端末",
+    "kind": "product",
+    "category": "パソコン",
+    "usd": [
+     267,
+     533
+    ],
+    "unit": "piece",
+    "variants": [
+     "64GB",
+     "128GB",
+     "256GB"
+    ]
+   },
+   {
+    "name": "液晶モニター",
+    "kind": "product",
+    "category": "周辺機器",
+    "usd": [
+     100,
+     167
+    ],
+    "unit": "piece",
+    "variants": [
+     "21.5型",
+     "23.8型",
+     "27型"
+    ]
+   },
+   {
+    "name": "レーザープリンター",
+    "kind": "product",
+    "category": "周辺機器",
+    "usd": [
+     200,
+     1000
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "カラー複合機",
+    "kind": "product",
+    "category": "周辺機器",
+    "usd": [
+     2000,
+     10000
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "ワイヤレスマウス",
+    "kind": "product",
+    "category": "周辺機器",
+    "usd": [
+     10.0,
+     26.7
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "キーボード",
+    "kind": "product",
+    "category": "周辺機器",
+    "usd": [
+     13.3,
+     53.3
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Webカメラ",
+    "kind": "product",
+    "category": "周辺機器",
+    "usd": [
+     20.0,
+     66.7
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "UPS（無停電電源装置）",
+    "kind": "product",
+    "category": "周辺機器",
+    "usd": [
+     133,
+     667
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "ネットワークスイッチ",
+    "kind": "product",
+    "category": "ネットワーク機器",
+    "usd": [
+     66.7,
+     267
+    ],
+    "unit": "piece",
+    "variants": [
+     "8ポート",
+     "16ポート",
+     "24ポート"
+    ]
+   },
+   {
+    "name": "無線LANアクセスポイント",
+    "kind": "product",
+    "category": "ネットワーク機器",
+    "usd": [
+     100,
+     333
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "VPNルーター",
+    "kind": "product",
+    "category": "ネットワーク機器",
+    "usd": [
+     133,
+     533
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "NAS",
+    "kind": "product",
+    "category": "ストレージ",
+    "usd": [
+     333,
+     667
+    ],
+    "unit": "piece",
+    "variants": [
+     "2ベイ",
+     "4ベイ"
+    ]
+   },
+   {
+    "name": "SSD",
+    "kind": "product",
+    "category": "ストレージ",
+    "usd": [
+     40.0,
+     66.7
+    ],
+    "unit": "piece",
+    "variants": [
+     "500GB",
+     "1TB",
+     "2TB"
+    ]
+   },
+   {
+    "name": "USBメモリ",
+    "kind": "product",
+    "category": "ストレージ",
+    "usd": [
+     5.33,
+     10.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "32GB",
+     "64GB",
+     "128GB"
+    ]
+   },
+   {
+    "name": "外付けHDD",
+    "kind": "product",
+    "category": "ストレージ",
+    "usd": [
+     53.3,
+     133
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "LANケーブル",
+    "kind": "product",
+    "category": "サプライ",
+    "usd": [
+     2.0,
+     4.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "1m",
+     "3m",
+     "10m"
+    ]
+   },
+   {
+    "name": "トナーカートリッジ",
+    "kind": "product",
+    "category": "サプライ",
+    "usd": [
+     53.3,
+     133
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "コピー用紙（A4・5000枚）",
+    "kind": "product",
+    "category": "サプライ",
+    "usd": [
+     20.0,
+     33.3
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "ウイルス対策ソフト（1年版）",
+    "kind": "product",
+    "category": "ソフト・サービス",
+    "usd": [
+     20.0,
+     53.3
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "オフィスソフト（永続版）",
+    "kind": "product",
+    "category": "ソフト・サービス",
+    "usd": [
+     200,
+     300
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "PCキッティング",
+    "kind": "service",
+    "category": "ソフト・サービス",
+    "usd": [
+     20.0,
+     53.3
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "オンサイト設置作業",
+    "kind": "service",
+    "category": "ソフト・サービス",
+    "usd": [
+     66.7,
+     200
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   }
+  ]
+ },
+ "software": {
+  "categories": [
+   "受託開発",
+   "設計・要件定義",
+   "保守・運用",
+   "ライセンス・SaaS",
+   "SES",
+   "デザイン"
+  ],
+  "roles": [
+   "代表取締役",
+   "プロジェクトマネージャー",
+   "システムエンジニア",
+   "プログラマー",
+   "インフラエンジニア",
+   "UIデザイナー",
+   "テストエンジニア",
+   "営業"
+  ],
+  "departments": [
+   "開発部",
+   "インフラ部",
+   "営業部",
+   "管理部"
+  ],
+  "items": [
+   {
+    "name": "業務システム開発",
+    "kind": "service",
+    "category": "受託開発",
+    "usd": [
+     20000,
+     133000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Webアプリケーション開発",
+    "kind": "service",
+    "category": "受託開発",
+    "usd": [
+     6670,
+     53300
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "スマートフォンアプリ開発",
+    "kind": "service",
+    "category": "受託開発",
+    "usd": [
+     13300,
+     66700
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "ECサイト構築",
+    "kind": "service",
+    "category": "受託開発",
+    "usd": [
+     6670,
+     33300
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "機能追加・改修",
+    "kind": "service",
+    "category": "受託開発",
+    "usd": [
+     53.3,
+     100
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "結合テスト・総合テスト",
+    "kind": "service",
+    "category": "受託開発",
+    "usd": [
+     2000,
+     13300
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "データ移行",
+    "kind": "service",
+    "category": "受託開発",
+    "usd": [
+     1330,
+     6670
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "要件定義",
+    "kind": "service",
+    "category": "設計・要件定義",
+    "usd": [
+     3330,
+     20000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "基本設計",
+    "kind": "service",
+    "category": "設計・要件定義",
+    "usd": [
+     3330,
+     20000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "詳細設計",
+    "kind": "service",
+    "category": "設計・要件定義",
+    "usd": [
+     3330,
+     16700
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "保守・運用サポート",
+    "kind": "service",
+    "category": "保守・運用",
+    "usd": [
+     333,
+     2000
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "サーバー運用監視",
+    "kind": "service",
+    "category": "保守・運用",
+    "usd": [
+     200,
+     1000
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     240
+    ]
+   },
+   {
+    "name": "障害対応（スポット）",
+    "kind": "service",
+    "category": "保守・運用",
+    "usd": [
+     100,
+     200
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "販売管理パッケージ",
+    "kind": "product",
+    "category": "ライセンス・SaaS",
+    "usd": [
+     2000,
+     5330
+    ],
+    "unit": "piece",
+    "variants": [
+     "スタンダード版",
+     "プロ版",
+     "エンタープライズ版"
+    ]
+   },
+   {
+    "name": "パッケージソフトライセンス",
+    "kind": "product",
+    "category": "ライセンス・SaaS",
+    "usd": [
+     333,
+     2000
+    ],
+    "unit": "piece",
+    "variants": [
+     "5ユーザー",
+     "10ユーザー",
+     "無制限"
+    ]
+   },
+   {
+    "name": "クラウド勤怠管理（1ユーザー）",
+    "kind": "product",
+    "category": "ライセンス・SaaS",
+    "usd": [
+     2.0,
+     5.33
+    ],
+    "unit": "month",
+    "variants": [
+     "ライト",
+     "スタンダード",
+     "プレミアム"
+    ]
+   },
+   {
+    "name": "システムエンジニア（1人月）",
+    "kind": "service",
+    "category": "SES",
+    "usd": [
+     4000,
+     8000
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "プログラマー（1人月）",
+    "kind": "service",
+    "category": "SES",
+    "usd": [
+     3000,
+     5330
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "PMO支援（1人月）",
+    "kind": "service",
+    "category": "SES",
+    "usd": [
+     5330,
+     10000
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "UI・UXデザイン",
+    "kind": "service",
+    "category": "デザイン",
+    "usd": [
+     2000,
+     10000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "画面デザイン（1画面）",
+    "kind": "service",
+    "category": "デザイン",
+    "usd": [
+     200,
+     533
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "ロゴ・アイコン制作",
+    "kind": "service",
+    "category": "デザイン",
+    "usd": [
+     333,
+     1330
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   }
+  ]
+ },
+ "it_consulting": {
+  "categories": [
+   "コンサルティング",
+   "導入支援",
+   "保守・サポート",
+   "ネットワーク構築",
+   "研修",
+   "セキュリティ"
+  ],
+  "roles": [
+   "代表",
+   "ITコンサルタント",
+   "システムエンジニア",
+   "ネットワークエンジニア",
+   "サポート担当",
+   "営業",
+   "事務"
+  ],
+  "departments": [
+   "コンサルティング部",
+   "技術部",
+   "サポート部",
+   "管理部"
+  ],
+  "items": [
+   {
+    "name": "ITコンサルティング",
+    "kind": "service",
+    "category": "コンサルティング",
+    "usd": [
+     100,
+     200
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "IT顧問契約",
+    "kind": "service",
+    "category": "コンサルティング",
+    "usd": [
+     200,
+     1000
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "DX推進支援",
+    "kind": "service",
+    "category": "コンサルティング",
+    "usd": [
+     1330,
+     5330
+    ],
+    "unit": "month",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "システム選定支援",
+    "kind": "service",
+    "category": "コンサルティング",
+    "usd": [
+     1330,
+     4000
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "パソコン初期設定",
+    "kind": "service",
+    "category": "導入支援",
+    "usd": [
+     33.3,
+     100
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "データ移行作業",
+    "kind": "service",
+    "category": "導入支援",
+    "usd": [
+     66.7,
+     200
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "Microsoft 365導入支援",
+    "kind": "service",
+    "category": "導入支援",
+    "usd": [
+     667,
+     3330
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "RPA導入支援",
+    "kind": "service",
+    "category": "導入支援",
+    "usd": [
+     2000,
+     10000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "ヘルプデスク代行",
+    "kind": "service",
+    "category": "保守・サポート",
+    "usd": [
+     333,
+     1330
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "リモートサポート",
+    "kind": "service",
+    "category": "保守・サポート",
+    "usd": [
+     33.3,
+     80.0
+    ],
+    "unit": "hour",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "オンサイト保守",
+    "kind": "service",
+    "category": "保守・サポート",
+    "usd": [
+     66.7,
+     200
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "データバックアップ運用",
+    "kind": "service",
+    "category": "保守・サポート",
+    "usd": [
+     66.7,
+     333
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "社内ネットワーク構築",
+    "kind": "service",
+    "category": "ネットワーク構築",
+    "usd": [
+     1330,
+     6670
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "サーバー構築",
+    "kind": "service",
+    "category": "ネットワーク構築",
+    "usd": [
+     2000,
+     10000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "無線LAN構築",
+    "kind": "service",
+    "category": "ネットワーク構築",
+    "usd": [
+     667,
+     2670
+    ],
+    "unit": "set",
+    "minutes": [
+     180,
+     480
+    ]
+   },
+   {
+    "name": "情報セキュリティ診断",
+    "kind": "service",
+    "category": "セキュリティ",
+    "usd": [
+     2000,
+     10000
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "UTM導入",
+    "kind": "service",
+    "category": "セキュリティ",
+    "usd": [
+     1000,
+     3330
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     300
+    ]
+   },
+   {
+    "name": "標的型メール訓練",
+    "kind": "service",
+    "category": "セキュリティ",
+    "usd": [
+     667,
+     2670
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "ITリテラシー研修",
+    "kind": "service",
+    "category": "研修",
+    "usd": [
+     667,
+     2000
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     360
+    ]
+   },
+   {
+    "name": "情報セキュリティ研修",
+    "kind": "service",
+    "category": "研修",
+    "usd": [
+     533,
+     1670
+    ],
+    "unit": "session",
+    "minutes": [
+     90,
+     240
+    ]
+   }
+  ]
+ },
+ "web_hosting": {
+  "categories": [
+   "レンタルサーバー",
+   "VPS・専用サーバー",
+   "ドメイン・SSL",
+   "メール・ストレージ",
+   "保守・運用",
+   "データ処理"
+  ],
+  "roles": [
+   "代表",
+   "インフラエンジニア",
+   "サーバー管理者",
+   "カスタマーサポート",
+   "営業",
+   "データ入力オペレーター"
+  ],
+  "departments": [
+   "技術部",
+   "サポート部",
+   "営業部",
+   "データ入力センター"
+  ],
+  "items": [
+   {
+    "name": "レンタルサーバー",
+    "kind": "product",
+    "category": "レンタルサーバー",
+    "usd": [
+     3.33,
+     10.0
+    ],
+    "unit": "month",
+    "variants": [
+     "ライト",
+     "スタンダード",
+     "ビジネス"
+    ]
+   },
+   {
+    "name": "WordPress専用サーバー",
+    "kind": "product",
+    "category": "レンタルサーバー",
+    "usd": [
+     6.67,
+     13.3
+    ],
+    "unit": "month",
+    "variants": [
+     "ベーシック",
+     "プロ"
+    ]
+   },
+   {
+    "name": "VPS",
+    "kind": "product",
+    "category": "VPS・専用サーバー",
+    "usd": [
+     6.67,
+     13.3
+    ],
+    "unit": "month",
+    "variants": [
+     "2GB",
+     "4GB",
+     "8GB",
+     "16GB"
+    ]
+   },
+   {
+    "name": "専用サーバー",
+    "kind": "product",
+    "category": "VPS・専用サーバー",
+    "usd": [
+     133,
+     533
+    ],
+    "unit": "month"
+   },
+   {
+    "name": "ハウジング（1Uラック）",
+    "kind": "product",
+    "category": "VPS・専用サーバー",
+    "usd": [
+     100,
+     267
+    ],
+    "unit": "month"
+   },
+   {
+    "name": "独自ドメイン（.com・1年）",
+    "kind": "product",
+    "category": "ドメイン・SSL",
+    "usd": [
+     10.0,
+     16.7
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "独自ドメイン（.co.jp・1年）",
+    "kind": "product",
+    "category": "ドメイン・SSL",
+    "usd": [
+     26.7,
+     53.3
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "SSL証明書（ドメイン認証）",
+    "kind": "product",
+    "category": "ドメイン・SSL",
+    "usd": [
+     6.67,
+     33.3
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "SSL証明書（企業認証）",
+    "kind": "product",
+    "category": "ドメイン・SSL",
+    "usd": [
+     200,
+     533
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "法人向けメール（1ユーザー）",
+    "kind": "product",
+    "category": "メール・ストレージ",
+    "usd": [
+     2.0,
+     5.33
+    ],
+    "unit": "month"
+   },
+   {
+    "name": "クラウドストレージ",
+    "kind": "product",
+    "category": "メール・ストレージ",
+    "usd": [
+     10.0,
+     20.0
+    ],
+    "unit": "month",
+    "variants": [
+     "500GB",
+     "1TB",
+     "5TB"
+    ]
+   },
+   {
+    "name": "バックアップサービス",
+    "kind": "product",
+    "category": "メール・ストレージ",
+    "usd": [
+     20.0,
+     133
+    ],
+    "unit": "month"
+   },
+   {
+    "name": "サーバー監視サービス",
+    "kind": "service",
+    "category": "保守・運用",
+    "usd": [
+     66.7,
+     333
+    ],
+    "unit": "month",
+    "minutes": [
+     15,
+     60
+    ]
+   },
+   {
+    "name": "Webサイト保守",
+    "kind": "service",
+    "category": "保守・運用",
+    "usd": [
+     66.7,
+     333
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     240
+    ]
+   },
+   {
+    "name": "サーバー移行作業",
+    "kind": "service",
+    "category": "保守・運用",
+    "usd": [
+     333,
+     2000
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "初期設定代行",
+    "kind": "service",
+    "category": "保守・運用",
+    "usd": [
+     33.3,
+     133
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "データ入力代行",
+    "kind": "service",
+    "category": "データ処理",
+    "usd": [
+     0.333,
+     1.33
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     15
+    ]
+   },
+   {
+    "name": "名刺データ化",
+    "kind": "service",
+    "category": "データ処理",
+    "usd": [
+     0.133,
+     0.333
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     10
+    ]
+   },
+   {
+    "name": "書類スキャン（PDF化）",
+    "kind": "service",
+    "category": "データ処理",
+    "usd": [
+     0.0667,
+     0.2
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     10
+    ]
+   },
+   {
+    "name": "アンケート集計",
+    "kind": "service",
+    "category": "データ処理",
+    "usd": [
+     200,
+     1000
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     480
+    ]
+   }
+  ]
+ },
+ "accounting": {
+  "categories": [
+   "顧問契約",
+   "決算・申告",
+   "記帳・給与",
+   "個人の申告",
+   "相続・贈与",
+   "相談・その他"
+  ],
+  "roles": [
+   "所長",
+   "税理士",
+   "公認会計士",
+   "税理士補助",
+   "記帳担当",
+   "給与計算担当",
+   "事務"
+  ],
+  "departments": [
+   "監査部",
+   "資産税部",
+   "総務部"
+  ],
+  "items": [
+   {
+    "name": "税務顧問",
+    "kind": "service",
+    "category": "顧問契約",
+    "usd": [
+     133,
+     400
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "会計顧問（記帳代行込み）",
+    "kind": "service",
+    "category": "顧問契約",
+    "usd": [
+     200,
+     533
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "決算申告書作成（法人）",
+    "kind": "service",
+    "category": "決算・申告",
+    "usd": [
+     1000,
+     2670
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "決算のみプラン",
+    "kind": "service",
+    "category": "決算・申告",
+    "usd": [
+     1000,
+     2000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "消費税申告書作成",
+    "kind": "service",
+    "category": "決算・申告",
+    "usd": [
+     333,
+     1000
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "償却資産申告",
+    "kind": "service",
+    "category": "決算・申告",
+    "usd": [
+     66.7,
+     200
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "法定調書作成",
+    "kind": "service",
+    "category": "決算・申告",
+    "usd": [
+     66.7,
+     200
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "記帳代行",
+    "kind": "service",
+    "category": "記帳・給与",
+    "usd": [
+     66.7,
+     267
+    ],
+    "unit": "month",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "給与計算代行",
+    "kind": "service",
+    "category": "記帳・給与",
+    "usd": [
+     3.33,
+     10.0
+    ],
+    "unit": "person",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "年末調整（1名あたり）",
+    "kind": "service",
+    "category": "記帳・給与",
+    "usd": [
+     6.67,
+     20.0
+    ],
+    "unit": "person",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "確定申告書作成（個人）",
+    "kind": "service",
+    "category": "個人の申告",
+    "usd": [
+     200,
+     667
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "青色申告決算書作成",
+    "kind": "service",
+    "category": "個人の申告",
+    "usd": [
+     333,
+     1000
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "医療費控除の申告",
+    "kind": "service",
+    "category": "個人の申告",
+    "usd": [
+     66.7,
+     200
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "相続税申告",
+    "kind": "service",
+    "category": "相続・贈与",
+    "usd": [
+     2000,
+     10000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "贈与税申告",
+    "kind": "service",
+    "category": "相続・贈与",
+    "usd": [
+     200,
+     667
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "相続税シミュレーション",
+    "kind": "service",
+    "category": "相続・贈与",
+    "usd": [
+     333,
+     1000
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "税務相談",
+    "kind": "service",
+    "category": "相談・その他",
+    "usd": [
+     33.3,
+     100
+    ],
+    "unit": "hour",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "税務調査立会い",
+    "kind": "service",
+    "category": "相談・その他",
+    "usd": [
+     333,
+     667
+    ],
+    "unit": "day",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "会社設立支援",
+    "kind": "service",
+    "category": "相談・その他",
+    "usd": [
+     333,
+     1000
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "インボイス制度対応支援",
+    "kind": "service",
+    "category": "相談・その他",
+    "usd": [
+     200,
+     667
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "融資申請サポート",
+    "kind": "service",
+    "category": "相談・その他",
+    "usd": [
+     333,
+     1330
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     480
+    ]
+   }
+  ]
+ },
+ "law_firm": {
+  "categories": [
+   "法律相談",
+   "顧問契約",
+   "企業法務",
+   "民事・家事",
+   "債務整理",
+   "刑事事件"
+  ],
+  "roles": [
+   "代表弁護士",
+   "パートナー弁護士",
+   "アソシエイト弁護士",
+   "パラリーガル",
+   "秘書",
+   "事務員"
+  ],
+  "departments": [
+   "企業法務",
+   "一般民事",
+   "事務局"
+  ],
+  "items": [
+   {
+    "name": "法律相談（30分）",
+    "kind": "service",
+    "category": "法律相談",
+    "usd": [
+     33.3,
+     73.3
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     30
+    ]
+   },
+   {
+    "name": "法律相談（1時間）",
+    "kind": "service",
+    "category": "法律相談",
+    "usd": [
+     66.7,
+     147
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "オンライン法律相談",
+    "kind": "service",
+    "category": "法律相談",
+    "usd": [
+     33.3,
+     73.3
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "顧問契約（中小企業）",
+    "kind": "service",
+    "category": "顧問契約",
+    "usd": [
+     200,
+     667
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "顧問契約（個人事業主）",
+    "kind": "service",
+    "category": "顧問契約",
+    "usd": [
+     66.7,
+     200
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "契約書作成",
+    "kind": "service",
+    "category": "企業法務",
+    "usd": [
+     333,
+     2000
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "契約書リーガルチェック",
+    "kind": "service",
+    "category": "企業法務",
+    "usd": [
+     200,
+     1000
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "内容証明郵便作成",
+    "kind": "service",
+    "category": "企業法務",
+    "usd": [
+     200,
+     333
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "債権回収",
+    "kind": "service",
+    "category": "企業法務",
+    "usd": [
+     667,
+     2000
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "企業法務（タイムチャージ）",
+    "kind": "service",
+    "category": "企業法務",
+    "usd": [
+     133,
+     333
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "民事訴訟代理（着手金）",
+    "kind": "service",
+    "category": "民事・家事",
+    "usd": [
+     1330,
+     6670
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "離婚調停代理",
+    "kind": "service",
+    "category": "民事・家事",
+    "usd": [
+     2000,
+     4000
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "遺言書作成",
+    "kind": "service",
+    "category": "民事・家事",
+    "usd": [
+     667,
+     2000
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "遺産分割協議",
+    "kind": "service",
+    "category": "民事・家事",
+    "usd": [
+     2000,
+     6670
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "交通事故示談交渉",
+    "kind": "service",
+    "category": "民事・家事",
+    "usd": [
+     1330,
+     4000
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "労働審判代理",
+    "kind": "service",
+    "category": "民事・家事",
+    "usd": [
+     2000,
+     5330
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "自己破産申立て",
+    "kind": "service",
+    "category": "債務整理",
+    "usd": [
+     2000,
+     4000
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "個人再生申立て",
+    "kind": "service",
+    "category": "債務整理",
+    "usd": [
+     2000,
+     4000
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "任意整理（1社あたり）",
+    "kind": "service",
+    "category": "債務整理",
+    "usd": [
+     200,
+     333
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "刑事弁護（起訴前）",
+    "kind": "service",
+    "category": "刑事事件",
+    "usd": [
+     2000,
+     4000
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "接見（1回）",
+    "kind": "service",
+    "category": "刑事事件",
+    "usd": [
+     200,
+     333
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   }
+  ]
+ },
+ "management_consulting": {
+  "categories": [
+   "経営顧問",
+   "経営計画",
+   "人事・組織",
+   "研修・セミナー",
+   "M&A・事業承継",
+   "調査・分析"
+  ],
+  "roles": [
+   "代表",
+   "シニアコンサルタント",
+   "コンサルタント",
+   "アナリスト",
+   "中小企業診断士",
+   "研修講師",
+   "アシスタント"
+  ],
+  "departments": [
+   "コンサルティング部",
+   "研修事業部",
+   "管理部"
+  ],
+  "items": [
+   {
+    "name": "経営顧問",
+    "kind": "service",
+    "category": "経営顧問",
+    "usd": [
+     667,
+     3330
+    ],
+    "unit": "month",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "スポットコンサルティング",
+    "kind": "service",
+    "category": "経営顧問",
+    "usd": [
+     133,
+     333
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "経営診断",
+    "kind": "service",
+    "category": "経営計画",
+    "usd": [
+     2000,
+     6670
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "事業計画書作成支援",
+    "kind": "service",
+    "category": "経営計画",
+    "usd": [
+     1330,
+     5330
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "中期経営計画策定支援",
+    "kind": "service",
+    "category": "経営計画",
+    "usd": [
+     3330,
+     13300
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "補助金申請書作成支援",
+    "kind": "service",
+    "category": "経営計画",
+    "usd": [
+     667,
+     2000
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "資金繰り改善支援",
+    "kind": "service",
+    "category": "経営計画",
+    "usd": [
+     667,
+     2000
+    ],
+    "unit": "month",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "業務改善プロジェクト支援",
+    "kind": "service",
+    "category": "経営計画",
+    "usd": [
+     3330,
+     13300
+    ],
+    "unit": "month",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "人事評価制度構築",
+    "kind": "service",
+    "category": "人事・組織",
+    "usd": [
+     6670,
+     20000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "賃金制度設計",
+    "kind": "service",
+    "category": "人事・組織",
+    "usd": [
+     5330,
+     13300
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "組織診断",
+    "kind": "service",
+    "category": "人事・組織",
+    "usd": [
+     2000,
+     6670
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "管理職研修",
+    "kind": "service",
+    "category": "研修・セミナー",
+    "usd": [
+     1330,
+     3330
+    ],
+    "unit": "session",
+    "minutes": [
+     180,
+     480
+    ]
+   },
+   {
+    "name": "新入社員研修",
+    "kind": "service",
+    "category": "研修・セミナー",
+    "usd": [
+     133,
+     400
+    ],
+    "unit": "person",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "営業力強化研修",
+    "kind": "service",
+    "category": "研修・セミナー",
+    "usd": [
+     1330,
+     3330
+    ],
+    "unit": "session",
+    "minutes": [
+     180,
+     480
+    ]
+   },
+   {
+    "name": "経営セミナー",
+    "kind": "service",
+    "category": "研修・セミナー",
+    "usd": [
+     33.3,
+     200
+    ],
+    "unit": "person",
+    "minutes": [
+     90,
+     180
+    ]
+   },
+   {
+    "name": "M&Aアドバイザリー",
+    "kind": "service",
+    "category": "M&A・事業承継",
+    "usd": [
+     13300,
+     66700
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "事業承継コンサルティング",
+    "kind": "service",
+    "category": "M&A・事業承継",
+    "usd": [
+     3330,
+     13300
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "企業価値評価",
+    "kind": "service",
+    "category": "M&A・事業承継",
+    "usd": [
+     3330,
+     10000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "市場調査レポート",
+    "kind": "service",
+    "category": "調査・分析",
+    "usd": [
+     2000,
+     10000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "顧客満足度調査",
+    "kind": "service",
+    "category": "調査・分析",
+    "usd": [
+     2000,
+     6670
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "競合分析",
+    "kind": "service",
+    "category": "調査・分析",
+    "usd": [
+     1330,
+     4000
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   }
+  ]
+ },
+ "architecture": {
+  "categories": [
+   "設計",
+   "監理",
+   "申請・届出",
+   "調査・診断",
+   "インテリア",
+   "CG・模型"
+  ],
+  "roles": [
+   "所長",
+   "一級建築士",
+   "二級建築士",
+   "設計スタッフ",
+   "CADオペレーター",
+   "インテリアコーディネーター",
+   "事務"
+  ],
+  "departments": [
+   "設計部",
+   "監理部",
+   "総務"
+  ],
+  "items": [
+   {
+    "name": "注文住宅設計",
+    "kind": "service",
+    "category": "設計",
+    "usd": [
+     10000,
+     26700
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "基本設計",
+    "kind": "service",
+    "category": "設計",
+    "usd": [
+     3330,
+     13300
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "実施設計",
+    "kind": "service",
+    "category": "設計",
+    "usd": [
+     5330,
+     20000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "リノベーション設計",
+    "kind": "service",
+    "category": "設計",
+    "usd": [
+     3330,
+     13300
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "店舗設計",
+    "kind": "service",
+    "category": "設計",
+    "usd": [
+     66.7,
+     200
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "工事監理",
+    "kind": "service",
+    "category": "監理",
+    "usd": [
+     3330,
+     10000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "現場定例会議",
+    "kind": "service",
+    "category": "監理",
+    "usd": [
+     133,
+     333
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "確認申請図書作成",
+    "kind": "service",
+    "category": "申請・届出",
+    "usd": [
+     1330,
+     3330
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "構造計算",
+    "kind": "service",
+    "category": "申請・届出",
+    "usd": [
+     1330,
+     5330
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "省エネ計算",
+    "kind": "service",
+    "category": "申請・届出",
+    "usd": [
+     667,
+     2000
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "長期優良住宅申請",
+    "kind": "service",
+    "category": "申請・届出",
+    "usd": [
+     667,
+     2000
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "耐震診断",
+    "kind": "service",
+    "category": "調査・診断",
+    "usd": [
+     1330,
+     4000
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "現地調査",
+    "kind": "service",
+    "category": "調査・診断",
+    "usd": [
+     200,
+     533
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "設計相談",
+    "kind": "service",
+    "category": "調査・診断",
+    "usd": [
+     33.3,
+     100
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "インテリアコーディネート",
+    "kind": "service",
+    "category": "インテリア",
+    "usd": [
+     667,
+     3330
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "店舗内装デザイン",
+    "kind": "service",
+    "category": "インテリア",
+    "usd": [
+     66.7,
+     200
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "照明計画",
+    "kind": "service",
+    "category": "インテリア",
+    "usd": [
+     333,
+     1330
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "CAD図面作成",
+    "kind": "service",
+    "category": "CG・模型",
+    "usd": [
+     66.7,
+     333
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "3Dパース作成",
+    "kind": "service",
+    "category": "CG・模型",
+    "usd": [
+     200,
+     667
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "建築模型製作",
+    "kind": "service",
+    "category": "CG・模型",
+    "usd": [
+     667,
+     2000
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   }
+  ]
+ },
+ "advertising": {
+  "categories": [
+   "Web広告",
+   "SNS",
+   "デザイン制作",
+   "Webサイト",
+   "販促",
+   "調査・分析"
+  ],
+  "roles": [
+   "代表",
+   "ディレクター",
+   "アートディレクター",
+   "デザイナー",
+   "コピーライター",
+   "Webマーケター",
+   "SNS担当",
+   "営業"
+  ],
+  "departments": [
+   "制作部",
+   "営業部",
+   "デジタルマーケティング部",
+   "管理部"
+  ],
+  "items": [
+   {
+    "name": "リスティング広告運用代行",
+    "kind": "service",
+    "category": "Web広告",
+    "usd": [
+     333,
+     1330
+    ],
+    "unit": "month",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "SNS広告運用代行",
+    "kind": "service",
+    "category": "Web広告",
+    "usd": [
+     333,
+     1330
+    ],
+    "unit": "month",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "MEO対策",
+    "kind": "service",
+    "category": "Web広告",
+    "usd": [
+     133,
+     333
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "SEOコンサルティング",
+    "kind": "service",
+    "category": "Web広告",
+    "usd": [
+     333,
+     2000
+    ],
+    "unit": "month",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "SNS運用代行",
+    "kind": "service",
+    "category": "SNS",
+    "usd": [
+     667,
+     2670
+    ],
+    "unit": "month",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Instagram投稿制作",
+    "kind": "service",
+    "category": "SNS",
+    "usd": [
+     66.7,
+     200
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "インフルエンサー施策",
+    "kind": "service",
+    "category": "SNS",
+    "usd": [
+     1330,
+     6670
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "チラシデザイン",
+    "kind": "service",
+    "category": "デザイン制作",
+    "usd": [
+     200,
+     667
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "ロゴデザイン",
+    "kind": "service",
+    "category": "デザイン制作",
+    "usd": [
+     333,
+     2000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "名刺デザイン",
+    "kind": "service",
+    "category": "デザイン制作",
+    "usd": [
+     33.3,
+     133
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "キャッチコピー制作",
+    "kind": "service",
+    "category": "デザイン制作",
+    "usd": [
+     200,
+     1330
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "動画広告制作",
+    "kind": "service",
+    "category": "デザイン制作",
+    "usd": [
+     2000,
+     13300
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "広告撮影",
+    "kind": "service",
+    "category": "デザイン制作",
+    "usd": [
+     667,
+     2670
+    ],
+    "unit": "day",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "ホームページ制作",
+    "kind": "service",
+    "category": "Webサイト",
+    "usd": [
+     2000,
+     10000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "ランディングページ制作",
+    "kind": "service",
+    "category": "Webサイト",
+    "usd": [
+     1330,
+     5330
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "バナー制作",
+    "kind": "service",
+    "category": "Webサイト",
+    "usd": [
+     33.3,
+     200
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "新聞折込チラシ配布（1,000部）",
+    "kind": "service",
+    "category": "販促",
+    "usd": [
+     20.0,
+     40.0
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "ポスティング（1,000枚）",
+    "kind": "service",
+    "category": "販促",
+    "usd": [
+     26.7,
+     66.7
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "展示会ブース企画・施工",
+    "kind": "service",
+    "category": "販促",
+    "usd": [
+     3330,
+     20000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "市場調査・アンケート調査",
+    "kind": "service",
+    "category": "調査・分析",
+    "usd": [
+     2000,
+     10000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "広告効果レポート",
+    "kind": "service",
+    "category": "調査・分析",
+    "usd": [
+     200,
+     667
+    ],
+    "unit": "month",
+    "minutes": [
+     120,
+     240
+    ]
+   }
+  ]
+ },
+ "photography": {
+  "categories": [
+   "証明写真",
+   "記念撮影",
+   "ブライダル",
+   "ビジネス撮影",
+   "出張撮影",
+   "プリント・アルバム"
+  ],
+  "roles": [
+   "代表",
+   "フォトグラファー",
+   "カメラマン",
+   "撮影アシスタント",
+   "ヘアメイク",
+   "着付け師",
+   "受付"
+  ],
+  "departments": [
+   "撮影",
+   "編集",
+   "受付・営業"
+  ],
+  "items": [
+   {
+    "name": "証明写真",
+    "kind": "service",
+    "category": "証明写真",
+    "usd": [
+     10.0,
+     20.0
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     20
+    ]
+   },
+   {
+    "name": "就活用証明写真（データ付き）",
+    "kind": "service",
+    "category": "証明写真",
+    "usd": [
+     20.0,
+     40.0
+    ],
+    "unit": "session",
+    "minutes": [
+     20,
+     40
+    ]
+   },
+   {
+    "name": "パスポート写真",
+    "kind": "service",
+    "category": "証明写真",
+    "usd": [
+     10.0,
+     16.7
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     15
+    ]
+   },
+   {
+    "name": "七五三撮影プラン",
+    "kind": "service",
+    "category": "記念撮影",
+    "usd": [
+     133,
+     400
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "成人式前撮りプラン",
+    "kind": "service",
+    "category": "記念撮影",
+    "usd": [
+     200,
+     667
+    ],
+    "unit": "session",
+    "minutes": [
+     90,
+     180
+    ]
+   },
+   {
+    "name": "お宮参り撮影",
+    "kind": "service",
+    "category": "記念撮影",
+    "usd": [
+     100,
+     267
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "家族写真撮影",
+    "kind": "service",
+    "category": "記念撮影",
+    "usd": [
+     66.7,
+     200
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "入学記念撮影",
+    "kind": "service",
+    "category": "記念撮影",
+    "usd": [
+     66.7,
+     200
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "ブライダル前撮り",
+    "kind": "service",
+    "category": "ブライダル",
+    "usd": [
+     333,
+     1330
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     300
+    ]
+   },
+   {
+    "name": "結婚式当日撮影",
+    "kind": "service",
+    "category": "ブライダル",
+    "usd": [
+     533,
+     1670
+    ],
+    "unit": "session",
+    "minutes": [
+     180,
+     480
+    ]
+   },
+   {
+    "name": "プロフィール写真撮影",
+    "kind": "service",
+    "category": "ビジネス撮影",
+    "usd": [
+     53.3,
+     167
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "商品撮影（1カット）",
+    "kind": "service",
+    "category": "ビジネス撮影",
+    "usd": [
+     6.67,
+     33.3
+    ],
+    "unit": "piece",
+    "minutes": [
+     10,
+     30
+    ]
+   },
+   {
+    "name": "社員集合写真",
+    "kind": "service",
+    "category": "ビジネス撮影",
+    "usd": [
+     200,
+     533
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "出張撮影（1時間）",
+    "kind": "service",
+    "category": "出張撮影",
+    "usd": [
+     66.7,
+     167
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "企業イベント撮影",
+    "kind": "service",
+    "category": "出張撮影",
+    "usd": [
+     333,
+     1000
+    ],
+    "unit": "day",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "写真プリント（台紙付き）",
+    "kind": "product",
+    "category": "プリント・アルバム",
+    "usd": [
+     13.3,
+     26.7
+    ],
+    "unit": "piece",
+    "variants": [
+     "キャビネ",
+     "六つ切り",
+     "四つ切り"
+    ]
+   },
+   {
+    "name": "フォトアルバム",
+    "kind": "product",
+    "category": "プリント・アルバム",
+    "usd": [
+     133,
+     267
+    ],
+    "unit": "piece",
+    "variants": [
+     "10ページ",
+     "20ページ",
+     "30ページ"
+    ]
+   },
+   {
+    "name": "フォトフレーム",
+    "kind": "product",
+    "category": "プリント・アルバム",
+    "usd": [
+     13.3,
+     26.7
+    ],
+    "unit": "piece",
+    "variants": [
+     "L判",
+     "2L判",
+     "A4"
+    ]
+   },
+   {
+    "name": "撮影データ（全カット）",
+    "kind": "product",
+    "category": "プリント・アルバム",
+    "usd": [
+     66.7,
+     200
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "追加データ（1カット）",
+    "kind": "product",
+    "category": "プリント・アルバム",
+    "usd": [
+     6.67,
+     20.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "卒業アルバム",
+    "kind": "product",
+    "category": "プリント・アルバム",
+    "usd": [
+     53.3,
+     100
+    ],
+    "unit": "piece"
+   }
+  ]
+ },
+ "translation": {
+  "categories": [
+   "英語翻訳",
+   "多言語翻訳",
+   "専門翻訳",
+   "通訳",
+   "チェック・校正",
+   "ローカライズ"
+  ],
+  "roles": [
+   "代表",
+   "翻訳者",
+   "通訳者",
+   "チェッカー",
+   "翻訳コーディネーター",
+   "プロジェクトマネージャー",
+   "営業"
+  ],
+  "departments": [
+   "翻訳部",
+   "通訳部",
+   "営業部"
+  ],
+  "items": [
+   {
+    "name": "英日翻訳（A4・1ページ）",
+    "kind": "service",
+    "category": "英語翻訳",
+    "usd": [
+     26.7,
+     53.3
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "日英翻訳（A4・1ページ）",
+    "kind": "service",
+    "category": "英語翻訳",
+    "usd": [
+     33.3,
+     66.7
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "英文メール翻訳",
+    "kind": "service",
+    "category": "英語翻訳",
+    "usd": [
+     13.3,
+     33.3
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "中日翻訳",
+    "kind": "service",
+    "category": "多言語翻訳",
+    "usd": [
+     23.3,
+     46.7
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "日中翻訳",
+    "kind": "service",
+    "category": "多言語翻訳",
+    "usd": [
+     26.7,
+     53.3
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "韓日翻訳",
+    "kind": "service",
+    "category": "多言語翻訳",
+    "usd": [
+     23.3,
+     46.7
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "ベトナム語翻訳",
+    "kind": "service",
+    "category": "多言語翻訳",
+    "usd": [
+     33.3,
+     66.7
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "契約書翻訳",
+    "kind": "service",
+    "category": "専門翻訳",
+    "usd": [
+     40.0,
+     80.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "技術文書翻訳",
+    "kind": "service",
+    "category": "専門翻訳",
+    "usd": [
+     40.0,
+     80.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "特許明細書翻訳",
+    "kind": "service",
+    "category": "専門翻訳",
+    "usd": [
+     53.3,
+     107
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "医薬翻訳",
+    "kind": "service",
+    "category": "専門翻訳",
+    "usd": [
+     53.3,
+     100
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "戸籍謄本翻訳",
+    "kind": "service",
+    "category": "専門翻訳",
+    "usd": [
+     20.0,
+     40.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "逐次通訳（半日）",
+    "kind": "service",
+    "category": "通訳",
+    "usd": [
+     267,
+     533
+    ],
+    "unit": "session",
+    "minutes": [
+     180,
+     240
+    ]
+   },
+   {
+    "name": "同時通訳（1日）",
+    "kind": "service",
+    "category": "通訳",
+    "usd": [
+     667,
+     1330
+    ],
+    "unit": "day",
+    "minutes": [
+     360,
+     480
+    ]
+   },
+   {
+    "name": "アテンド通訳",
+    "kind": "service",
+    "category": "通訳",
+    "usd": [
+     167,
+     333
+    ],
+    "unit": "day",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "オンライン通訳",
+    "kind": "service",
+    "category": "通訳",
+    "usd": [
+     53.3,
+     133
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "ネイティブチェック",
+    "kind": "service",
+    "category": "チェック・校正",
+    "usd": [
+     10.0,
+     20.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "翻訳校正",
+    "kind": "service",
+    "category": "チェック・校正",
+    "usd": [
+     13.3,
+     26.7
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "動画字幕翻訳（10分）",
+    "kind": "service",
+    "category": "ローカライズ",
+    "usd": [
+     133,
+     333
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "Webサイトローカライズ",
+    "kind": "service",
+    "category": "ローカライズ",
+    "usd": [
+     667,
+     6670
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "アプリローカライズ",
+    "kind": "service",
+    "category": "ローカライズ",
+    "usd": [
+     333,
+     3330
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "DTP編集",
+    "kind": "service",
+    "category": "ローカライズ",
+    "usd": [
+     13.3,
+     33.3
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     120
+    ]
+   }
+  ]
+ },
+ "road_freight": {
+  "categories": [
+   "チャーター便",
+   "路線・混載便",
+   "特殊輸送",
+   "倉庫・保管",
+   "引越し",
+   "定期便"
+  ],
+  "roles": [
+   "代表取締役",
+   "運行管理者",
+   "配車係",
+   "ドライバー",
+   "倉庫作業員",
+   "フォークリフトオペレーター",
+   "整備管理者",
+   "事務"
+  ],
+  "departments": [
+   "輸送部",
+   "倉庫部",
+   "配車センター",
+   "総務部"
+  ],
+  "items": [
+   {
+    "name": "2トン車チャーター",
+    "kind": "service",
+    "category": "チャーター便",
+    "usd": [
+     167,
+     300
+    ],
+    "unit": "day",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "4トン車チャーター",
+    "kind": "service",
+    "category": "チャーター便",
+    "usd": [
+     267,
+     467
+    ],
+    "unit": "day",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "10トン車チャーター",
+    "kind": "service",
+    "category": "チャーター便",
+    "usd": [
+     400,
+     667
+    ],
+    "unit": "day",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "冷凍車チャーター",
+    "kind": "service",
+    "category": "チャーター便",
+    "usd": [
+     333,
+     600
+    ],
+    "unit": "day",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "長距離幹線輸送（東京⇔大阪）",
+    "kind": "service",
+    "category": "チャーター便",
+    "usd": [
+     533,
+     1000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "倉庫間横持ち輸送",
+    "kind": "service",
+    "category": "チャーター便",
+    "usd": [
+     66.7,
+     200
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "路線便（混載）",
+    "kind": "service",
+    "category": "路線・混載便",
+    "usd": [
+     0.2,
+     0.667
+    ],
+    "unit": "kg",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "パレット輸送（1パレット）",
+    "kind": "service",
+    "category": "路線・混載便",
+    "usd": [
+     53.3,
+     133
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "トレーラー輸送",
+    "kind": "service",
+    "category": "特殊輸送",
+    "usd": [
+     667,
+     1330
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "重量物輸送",
+    "kind": "service",
+    "category": "特殊輸送",
+    "usd": [
+     667,
+     3330
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "美術品輸送",
+    "kind": "service",
+    "category": "特殊輸送",
+    "usd": [
+     333,
+     2000
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "倉庫保管（1パレット）",
+    "kind": "service",
+    "category": "倉庫・保管",
+    "usd": [
+     20.0,
+     40.0
+    ],
+    "unit": "month",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "坪貸し保管",
+    "kind": "service",
+    "category": "倉庫・保管",
+    "usd": [
+     20.0,
+     46.7
+    ],
+    "unit": "month",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "入出庫作業",
+    "kind": "service",
+    "category": "倉庫・保管",
+    "usd": [
+     0.333,
+     1.33
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     10
+    ]
+   },
+   {
+    "name": "ピッキング・梱包作業",
+    "kind": "service",
+    "category": "倉庫・保管",
+    "usd": [
+     0.2,
+     1.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     15
+    ]
+   },
+   {
+    "name": "流通加工（ラベル貼り）",
+    "kind": "service",
+    "category": "倉庫・保管",
+    "usd": [
+     0.0667,
+     0.333
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     10
+    ]
+   },
+   {
+    "name": "附帯作業（1時間）",
+    "kind": "service",
+    "category": "倉庫・保管",
+    "usd": [
+     20.0,
+     33.3
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "単身引越しプラン",
+    "kind": "service",
+    "category": "引越し",
+    "usd": [
+     200,
+     467
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "家族引越しプラン",
+    "kind": "service",
+    "category": "引越し",
+    "usd": [
+     533,
+     1330
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "引越し作業員追加",
+    "kind": "service",
+    "category": "引越し",
+    "usd": [
+     100,
+     167
+    ],
+    "unit": "person",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "定期便（月極契約）",
+    "kind": "service",
+    "category": "定期便",
+    "usd": [
+     2000,
+     6670
+    ],
+    "unit": "month",
+    "minutes": [
+     240,
+     480
+    ]
+   }
+  ]
+ },
+ "courier": {
+  "categories": [
+   "バイク便",
+   "軽貨物",
+   "宅配",
+   "企業配送",
+   "生活サポート",
+   "オプション"
+  ],
+  "roles": [
+   "代表",
+   "配車担当",
+   "バイク便ライダー",
+   "軽貨物ドライバー",
+   "受付オペレーター",
+   "事務"
+  ],
+  "departments": [
+   "配送部",
+   "配車センター",
+   "営業部"
+  ],
+  "items": [
+   {
+    "name": "バイク便（都内）",
+    "kind": "service",
+    "category": "バイク便",
+    "usd": [
+     10.0,
+     26.7
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "バイク便（近距離）",
+    "kind": "service",
+    "category": "バイク便",
+    "usd": [
+     6.67,
+     13.3
+    ],
+    "unit": "session",
+    "minutes": [
+     15,
+     45
+    ]
+   },
+   {
+    "name": "自転車便",
+    "kind": "service",
+    "category": "バイク便",
+    "usd": [
+     6.67,
+     16.7
+    ],
+    "unit": "session",
+    "minutes": [
+     20,
+     60
+    ]
+   },
+   {
+    "name": "軽貨物チャーター（1日）",
+    "kind": "service",
+    "category": "軽貨物",
+    "usd": [
+     100,
+     167
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "軽貨物チャーター（時間制）",
+    "kind": "service",
+    "category": "軽貨物",
+    "usd": [
+     20.0,
+     33.3
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "軽貨物長距離便（100kmまで）",
+    "kind": "service",
+    "category": "軽貨物",
+    "usd": [
+     66.7,
+     133
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "当日配送",
+    "kind": "service",
+    "category": "宅配",
+    "usd": [
+     10.0,
+     20.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "宅配便（60サイズ）",
+    "kind": "service",
+    "category": "宅配",
+    "usd": [
+     5.33,
+     10.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "宅配便（100サイズ）",
+    "kind": "service",
+    "category": "宅配",
+    "usd": [
+     8.67,
+     14.7
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "フードデリバリー代行",
+    "kind": "service",
+    "category": "宅配",
+    "usd": [
+     3.33,
+     6.67
+    ],
+    "unit": "session",
+    "minutes": [
+     20,
+     45
+    ]
+   },
+   {
+    "name": "書類配送（区内）",
+    "kind": "service",
+    "category": "企業配送",
+    "usd": [
+     6.67,
+     16.7
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "ルート配送（月極）",
+    "kind": "service",
+    "category": "企業配送",
+    "usd": [
+     1670,
+     3000
+    ],
+    "unit": "month",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "夜間緊急便",
+    "kind": "service",
+    "category": "企業配送",
+    "usd": [
+     33.3,
+     100
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "買い物代行",
+    "kind": "service",
+    "category": "生活サポート",
+    "usd": [
+     13.3,
+     26.7
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "軽トラック単身引越し",
+    "kind": "service",
+    "category": "生活サポート",
+    "usd": [
+     100,
+     267
+    ],
+    "unit": "set",
+    "minutes": [
+     90,
+     240
+    ]
+   },
+   {
+    "name": "家具・家電配送設置",
+    "kind": "service",
+    "category": "生活サポート",
+    "usd": [
+     33.3,
+     100
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "不用品回収",
+    "kind": "service",
+    "category": "生活サポート",
+    "usd": [
+     33.3,
+     200
+    ],
+    "unit": "set",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "休日配送",
+    "kind": "service",
+    "category": "オプション",
+    "usd": [
+     13.3,
+     33.3
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "待機料金（30分）",
+    "kind": "service",
+    "category": "オプション",
+    "usd": [
+     6.67,
+     13.3
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     30
+    ]
+   },
+   {
+    "name": "梱包用段ボール",
+    "kind": "product",
+    "category": "オプション",
+    "usd": [
+     1.33,
+     2.67
+    ],
+    "unit": "piece",
+    "variants": [
+     "60サイズ",
+     "80サイズ",
+     "100サイズ"
+    ]
+   }
+  ]
+ },
+ "travel_agency": {
+  "categories": [
+   "国内旅行",
+   "海外旅行",
+   "航空券・JR",
+   "宿泊",
+   "団体旅行",
+   "オプション"
+  ],
+  "roles": [
+   "店長",
+   "旅行カウンセラー",
+   "ツアープランナー",
+   "添乗員",
+   "法人営業",
+   "旅行業務取扱管理者",
+   "事務"
+  ],
+  "departments": [
+   "個人旅行課",
+   "法人・団体課",
+   "仕入・企画課"
+  ],
+  "items": [
+   {
+    "name": "国内パッケージツアー（2泊3日）",
+    "kind": "service",
+    "category": "国内旅行",
+    "usd": [
+     267,
+     800
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "日帰りバスツアー",
+    "kind": "service",
+    "category": "国内旅行",
+    "usd": [
+     53.3,
+     120
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "新幹線＋ホテルパック",
+    "kind": "service",
+    "category": "国内旅行",
+    "usd": [
+     167,
+     400
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "沖縄ツアー（3泊4日）",
+    "kind": "service",
+    "category": "国内旅行",
+    "usd": [
+     400,
+     1000
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "北海道ツアー（2泊3日）",
+    "kind": "service",
+    "category": "国内旅行",
+    "usd": [
+     333,
+     800
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "ハワイ旅行（5日間）",
+    "kind": "service",
+    "category": "海外旅行",
+    "usd": [
+     1000,
+     2670
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "ソウル3日間ツアー",
+    "kind": "service",
+    "category": "海外旅行",
+    "usd": [
+     267,
+     667
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "台湾周遊ツアー（4日間）",
+    "kind": "service",
+    "category": "海外旅行",
+    "usd": [
+     400,
+     1000
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "ヨーロッパ周遊（8日間）",
+    "kind": "service",
+    "category": "海外旅行",
+    "usd": [
+     1670,
+     4000
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "クルーズツアー",
+    "kind": "service",
+    "category": "海外旅行",
+    "usd": [
+     667,
+     3330
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "国内線航空券",
+    "kind": "service",
+    "category": "航空券・JR",
+    "usd": [
+     66.7,
+     267
+    ],
+    "unit": "person",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "国際線航空券",
+    "kind": "service",
+    "category": "航空券・JR",
+    "usd": [
+     333,
+     2000
+    ],
+    "unit": "person",
+    "minutes": [
+     180,
+     480
+    ]
+   },
+   {
+    "name": "JR乗車券・特急券",
+    "kind": "service",
+    "category": "航空券・JR",
+    "usd": [
+     20.0,
+     200
+    ],
+    "unit": "person",
+    "minutes": [
+     30,
+     240
+    ]
+   },
+   {
+    "name": "温泉旅館宿泊プラン",
+    "kind": "service",
+    "category": "宿泊",
+    "usd": [
+     100,
+     267
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "ビジネスホテル手配",
+    "kind": "service",
+    "category": "宿泊",
+    "usd": [
+     40.0,
+     100
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "社員旅行プラン",
+    "kind": "service",
+    "category": "団体旅行",
+    "usd": [
+     200,
+     667
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "修学旅行プラン",
+    "kind": "service",
+    "category": "団体旅行",
+    "usd": [
+     333,
+     800
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "貸切バス（1日）",
+    "kind": "service",
+    "category": "団体旅行",
+    "usd": [
+     667,
+     1670
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "海外視察ツアー",
+    "kind": "service",
+    "category": "団体旅行",
+    "usd": [
+     2000,
+     5330
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "海外旅行保険",
+    "kind": "service",
+    "category": "オプション",
+    "usd": [
+     6.67,
+     33.3
+    ],
+    "unit": "person",
+    "minutes": [
+     5,
+     15
+    ]
+   },
+   {
+    "name": "空港送迎",
+    "kind": "service",
+    "category": "オプション",
+    "usd": [
+     20.0,
+     66.7
+    ],
+    "unit": "person",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "手配手数料",
+    "kind": "service",
+    "category": "オプション",
+    "usd": [
+     6.67,
+     33.3
+    ],
+    "unit": "session",
+    "minutes": [
+     15,
+     30
+    ]
+   }
+  ]
+ },
+ "real_estate": {
+  "categories": [
+   "売買",
+   "賃貸",
+   "賃貸管理",
+   "駐車場",
+   "鑑定・コンサル"
+  ],
+  "roles": [
+   "代表取締役",
+   "店長",
+   "宅地建物取引士",
+   "売買営業",
+   "賃貸仲介担当",
+   "物件管理担当",
+   "事務"
+  ],
+  "departments": [
+   "売買仲介部",
+   "賃貸部",
+   "管理部",
+   "総務部"
+  ],
+  "items": [
+   {
+    "name": "新築分譲マンション",
+    "kind": "product",
+    "category": "売買",
+    "usd": [
+     267000,
+     400000
+    ],
+    "unit": "piece",
+    "variants": [
+     "2LDK",
+     "3LDK",
+     "4LDK"
+    ]
+   },
+   {
+    "name": "中古マンション",
+    "kind": "product",
+    "category": "売買",
+    "usd": [
+     100000,
+     200000
+    ],
+    "unit": "piece",
+    "variants": [
+     "1LDK",
+     "2LDK",
+     "3LDK"
+    ]
+   },
+   {
+    "name": "中古戸建て",
+    "kind": "product",
+    "category": "売買",
+    "usd": [
+     100000,
+     267000
+    ],
+    "unit": "piece",
+    "variants": [
+     "3LDK",
+     "4LDK"
+    ]
+   },
+   {
+    "name": "分譲地",
+    "kind": "product",
+    "category": "売買",
+    "usd": [
+     667,
+     3330
+    ],
+    "unit": "m2"
+   },
+   {
+    "name": "売買仲介",
+    "kind": "service",
+    "category": "売買",
+    "usd": [
+     3330,
+     20000
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "賃貸仲介",
+    "kind": "service",
+    "category": "賃貸",
+    "usd": [
+     333,
+     1000
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "賃貸マンション（1LDK）",
+    "kind": "service",
+    "category": "賃貸",
+    "usd": [
+     533,
+     1200
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "賃貸アパート（1K）",
+    "kind": "service",
+    "category": "賃貸",
+    "usd": [
+     333,
+     600
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "貸事務所",
+    "kind": "service",
+    "category": "賃貸",
+    "usd": [
+     667,
+     3330
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "貸店舗",
+    "kind": "service",
+    "category": "賃貸",
+    "usd": [
+     1000,
+     4000
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "入居者募集（広告料）",
+    "kind": "service",
+    "category": "賃貸",
+    "usd": [
+     333,
+     1000
+    ],
+    "unit": "set",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "契約更新事務手数料",
+    "kind": "service",
+    "category": "賃貸",
+    "usd": [
+     66.7,
+     200
+    ],
+    "unit": "set",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "鍵交換",
+    "kind": "service",
+    "category": "賃貸",
+    "usd": [
+     100,
+     167
+    ],
+    "unit": "set",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "賃貸管理業務（1戸あたり）",
+    "kind": "service",
+    "category": "賃貸管理",
+    "usd": [
+     20.0,
+     53.3
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "建物管理",
+    "kind": "service",
+    "category": "賃貸管理",
+    "usd": [
+     200,
+     1000
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "空き家管理サービス",
+    "kind": "service",
+    "category": "賃貸管理",
+    "usd": [
+     33.3,
+     66.7
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "月極駐車場",
+    "kind": "service",
+    "category": "駐車場",
+    "usd": [
+     66.7,
+     267
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "バイク駐輪場",
+    "kind": "service",
+    "category": "駐車場",
+    "usd": [
+     13.3,
+     33.3
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "不動産鑑定評価",
+    "kind": "service",
+    "category": "鑑定・コンサル",
+    "usd": [
+     1330,
+     3330
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "土地活用コンサルティング",
+    "kind": "service",
+    "category": "鑑定・コンサル",
+    "usd": [
+     667,
+     3330
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "相続不動産相談",
+    "kind": "service",
+    "category": "鑑定・コンサル",
+    "usd": [
+     33.3,
+     66.7
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   }
+  ]
+ },
+ "cleaning": {
+  "categories": [
+   "定期清掃",
+   "ハウスクリーニング",
+   "エアコン・水まわり",
+   "ガラス・床",
+   "特殊清掃",
+   "その他"
+  ],
+  "roles": [
+   "代表",
+   "現場責任者",
+   "清掃スタッフ",
+   "パートスタッフ",
+   "ビルクリーニング技能士",
+   "営業",
+   "事務"
+  ],
+  "departments": [
+   "清掃事業部",
+   "営業部",
+   "総務部"
+  ],
+  "items": [
+   {
+    "name": "日常清掃（オフィス）",
+    "kind": "service",
+    "category": "定期清掃",
+    "usd": [
+     200,
+     1000
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "定期清掃（月1回）",
+    "kind": "service",
+    "category": "定期清掃",
+    "usd": [
+     133,
+     533
+    ],
+    "unit": "month",
+    "minutes": [
+     120,
+     360
+    ]
+   },
+   {
+    "name": "マンション共用部清掃",
+    "kind": "service",
+    "category": "定期清掃",
+    "usd": [
+     100,
+     333
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "ハウスクリーニング（3LDK）",
+    "kind": "service",
+    "category": "ハウスクリーニング",
+    "usd": [
+     333,
+     600
+    ],
+    "unit": "set",
+    "minutes": [
+     300,
+     480
+    ]
+   },
+   {
+    "name": "退去後クリーニング（1K）",
+    "kind": "service",
+    "category": "ハウスクリーニング",
+    "usd": [
+     133,
+     267
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     300
+    ]
+   },
+   {
+    "name": "家事代行（2時間）",
+    "kind": "service",
+    "category": "ハウスクリーニング",
+    "usd": [
+     40.0,
+     66.7
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     120
+    ]
+   },
+   {
+    "name": "エアコンクリーニング",
+    "kind": "service",
+    "category": "エアコン・水まわり",
+    "usd": [
+     60.0,
+     120
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "お掃除機能付きエアコンクリーニング",
+    "kind": "service",
+    "category": "エアコン・水まわり",
+    "usd": [
+     120,
+     187
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     180
+    ]
+   },
+   {
+    "name": "レンジフードクリーニング",
+    "kind": "service",
+    "category": "エアコン・水まわり",
+    "usd": [
+     80.0,
+     133
+    ],
+    "unit": "piece",
+    "minutes": [
+     90,
+     180
+    ]
+   },
+   {
+    "name": "浴室クリーニング",
+    "kind": "service",
+    "category": "エアコン・水まわり",
+    "usd": [
+     80.0,
+     133
+    ],
+    "unit": "piece",
+    "minutes": [
+     90,
+     180
+    ]
+   },
+   {
+    "name": "トイレクリーニング",
+    "kind": "service",
+    "category": "エアコン・水まわり",
+    "usd": [
+     46.7,
+     80.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     45,
+     90
+    ]
+   },
+   {
+    "name": "床面定期清掃（ワックス仕上げ）",
+    "kind": "service",
+    "category": "ガラス・床",
+    "usd": [
+     1.0,
+     2.67
+    ],
+    "unit": "m2",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "カーペット洗浄",
+    "kind": "service",
+    "category": "ガラス・床",
+    "usd": [
+     2.0,
+     5.33
+    ],
+    "unit": "m2",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "窓ガラス清掃",
+    "kind": "service",
+    "category": "ガラス・床",
+    "usd": [
+     1.33,
+     3.33
+    ],
+    "unit": "m2",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "高所ガラス清掃（ゴンドラ）",
+    "kind": "service",
+    "category": "ガラス・床",
+    "usd": [
+     667,
+     3330
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "ゴミ屋敷清掃",
+    "kind": "service",
+    "category": "特殊清掃",
+    "usd": [
+     333,
+     2000
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "遺品整理",
+    "kind": "service",
+    "category": "特殊清掃",
+    "usd": [
+     333,
+     2000
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "新築美装工事",
+    "kind": "service",
+    "category": "その他",
+    "usd": [
+     2.0,
+     5.33
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "貯水槽清掃",
+    "kind": "service",
+    "category": "その他",
+    "usd": [
+     200,
+     533
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     300
+    ]
+   },
+   {
+    "name": "害虫駆除",
+    "kind": "service",
+    "category": "その他",
+    "usd": [
+     100,
+     333
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "清掃スタッフ派遣",
+    "kind": "service",
+    "category": "その他",
+    "usd": [
+     16.7,
+     26.7
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     480
+    ]
+   }
+  ]
+ },
+ "security": {
+  "categories": [
+   "施設警備",
+   "交通誘導警備",
+   "イベント警備",
+   "機械警備",
+   "身辺警護",
+   "防犯設備"
+  ],
+  "roles": [
+   "代表取締役",
+   "警備隊長",
+   "警備員",
+   "指導教育責任者",
+   "管制員",
+   "機械警備員",
+   "営業"
+  ],
+  "departments": [
+   "警備部",
+   "機械警備部",
+   "営業部",
+   "総務部"
+  ],
+  "items": [
+   {
+    "name": "施設警備（常駐）",
+    "kind": "service",
+    "category": "施設警備",
+    "usd": [
+     16.7,
+     26.7
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "受付警備",
+    "kind": "service",
+    "category": "施設警備",
+    "usd": [
+     14.7,
+     23.3
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "巡回警備",
+    "kind": "service",
+    "category": "施設警備",
+    "usd": [
+     20.0,
+     66.7
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "夜間巡回（月極）",
+    "kind": "service",
+    "category": "施設警備",
+    "usd": [
+     200,
+     667
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "交通誘導警備（日勤）",
+    "kind": "service",
+    "category": "交通誘導警備",
+    "usd": [
+     100,
+     147
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "交通誘導警備（夜勤）",
+    "kind": "service",
+    "category": "交通誘導警備",
+    "usd": [
+     120,
+     180
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "交通誘導警備（検定合格者）",
+    "kind": "service",
+    "category": "交通誘導警備",
+    "usd": [
+     133,
+     187
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "駐車場誘導警備",
+    "kind": "service",
+    "category": "交通誘導警備",
+    "usd": [
+     100,
+     133
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "イベント雑踏警備",
+    "kind": "service",
+    "category": "イベント警備",
+    "usd": [
+     120,
+     200
+    ],
+    "unit": "day",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "手荷物検査",
+    "kind": "service",
+    "category": "イベント警備",
+    "usd": [
+     120,
+     187
+    ],
+    "unit": "day",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "警備計画書作成",
+    "kind": "service",
+    "category": "イベント警備",
+    "usd": [
+     200,
+     667
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "機械警備サービス",
+    "kind": "service",
+    "category": "機械警備",
+    "usd": [
+     66.7,
+     333
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "ホームセキュリティ",
+    "kind": "service",
+    "category": "機械警備",
+    "usd": [
+     26.7,
+     53.3
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "緊急駆けつけサービス",
+    "kind": "service",
+    "category": "機械警備",
+    "usd": [
+     33.3,
+     100
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "身辺警護",
+    "kind": "service",
+    "category": "身辺警護",
+    "usd": [
+     33.3,
+     100
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "貴重品運搬警備",
+    "kind": "service",
+    "category": "身辺警護",
+    "usd": [
+     133,
+     333
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "防犯カメラ設置",
+    "kind": "service",
+    "category": "防犯設備",
+    "usd": [
+     667,
+     3330
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "入退室管理システム導入",
+    "kind": "service",
+    "category": "防犯設備",
+    "usd": [
+     2000,
+     10000
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "防犯診断",
+    "kind": "service",
+    "category": "防犯設備",
+    "usd": [
+     66.7,
+     200
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "防犯カメラ（屋外用）",
+    "kind": "product",
+    "category": "防犯設備",
+    "usd": [
+     133,
+     267
+    ],
+    "unit": "piece",
+    "variants": [
+     "200万画素",
+     "400万画素",
+     "800万画素"
+    ]
+   }
+  ]
+ },
+ "language_school": {
+  "categories": [
+   "英会話",
+   "キッズ",
+   "学習塾",
+   "講習・対策講座",
+   "その他言語",
+   "教材"
+  ],
+  "roles": [
+   "校長",
+   "教室長",
+   "講師",
+   "ネイティブ講師",
+   "チューター",
+   "カウンセラー",
+   "受付スタッフ"
+  ],
+  "departments": [
+   "英会話部門",
+   "学習塾部門",
+   "事務局"
+  ],
+  "items": [
+   {
+    "name": "英会話グループレッスン（月4回）",
+    "kind": "service",
+    "category": "英会話",
+    "usd": [
+     53.3,
+     100
+    ],
+    "unit": "month",
+    "minutes": [
+     50,
+     60
+    ]
+   },
+   {
+    "name": "マンツーマンレッスン（50分）",
+    "kind": "service",
+    "category": "英会話",
+    "usd": [
+     26.7,
+     53.3
+    ],
+    "unit": "session",
+    "minutes": [
+     50,
+     50
+    ]
+   },
+   {
+    "name": "オンライン英会話",
+    "kind": "service",
+    "category": "英会話",
+    "usd": [
+     33.3,
+     66.7
+    ],
+    "unit": "month",
+    "minutes": [
+     25,
+     50
+    ]
+   },
+   {
+    "name": "ビジネス英会話",
+    "kind": "service",
+    "category": "英会話",
+    "usd": [
+     66.7,
+     133
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "キッズ英会話",
+    "kind": "service",
+    "category": "キッズ",
+    "usd": [
+     46.7,
+     80.0
+    ],
+    "unit": "month",
+    "minutes": [
+     45,
+     50
+    ]
+   },
+   {
+    "name": "幼児英語クラス",
+    "kind": "service",
+    "category": "キッズ",
+    "usd": [
+     40.0,
+     66.7
+    ],
+    "unit": "month",
+    "minutes": [
+     40,
+     50
+    ]
+   },
+   {
+    "name": "個別指導（中学生・週1回）",
+    "kind": "service",
+    "category": "学習塾",
+    "usd": [
+     100,
+     200
+    ],
+    "unit": "month",
+    "minutes": [
+     80,
+     90
+    ]
+   },
+   {
+    "name": "集団授業（小学生）",
+    "kind": "service",
+    "category": "学習塾",
+    "usd": [
+     66.7,
+     133
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "高校受験コース",
+    "kind": "service",
+    "category": "学習塾",
+    "usd": [
+     133,
+     233
+    ],
+    "unit": "month",
+    "minutes": [
+     90,
+     180
+    ]
+   },
+   {
+    "name": "大学受験コース",
+    "kind": "service",
+    "category": "学習塾",
+    "usd": [
+     167,
+     300
+    ],
+    "unit": "month",
+    "minutes": [
+     90,
+     180
+    ]
+   },
+   {
+    "name": "夏期講習",
+    "kind": "service",
+    "category": "講習・対策講座",
+    "usd": [
+     200,
+     667
+    ],
+    "unit": "set",
+    "minutes": [
+     90,
+     180
+    ]
+   },
+   {
+    "name": "冬期講習",
+    "kind": "service",
+    "category": "講習・対策講座",
+    "usd": [
+     133,
+     467
+    ],
+    "unit": "set",
+    "minutes": [
+     90,
+     180
+    ]
+   },
+   {
+    "name": "TOEIC対策講座",
+    "kind": "service",
+    "category": "講習・対策講座",
+    "usd": [
+     200,
+     533
+    ],
+    "unit": "set",
+    "minutes": [
+     90,
+     120
+    ]
+   },
+   {
+    "name": "英検対策講座",
+    "kind": "service",
+    "category": "講習・対策講座",
+    "usd": [
+     133,
+     333
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "模擬試験",
+    "kind": "service",
+    "category": "講習・対策講座",
+    "usd": [
+     20.0,
+     40.0
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "中国語レッスン（60分）",
+    "kind": "service",
+    "category": "その他言語",
+    "usd": [
+     23.3,
+     40.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "韓国語レッスン（60分）",
+    "kind": "service",
+    "category": "その他言語",
+    "usd": [
+     23.3,
+     40.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "日本語レッスン（60分）",
+    "kind": "service",
+    "category": "その他言語",
+    "usd": [
+     20.0,
+     33.3
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "テキスト教材",
+    "kind": "product",
+    "category": "教材",
+    "usd": [
+     13.3,
+     23.3
+    ],
+    "unit": "piece",
+    "variants": [
+     "初級",
+     "中級",
+     "上級"
+    ]
+   },
+   {
+    "name": "問題集",
+    "kind": "product",
+    "category": "教材",
+    "usd": [
+     6.67,
+     12.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "小学生用",
+     "中学生用",
+     "高校生用"
+    ]
+   },
+   {
+    "name": "教材セット",
+    "kind": "product",
+    "category": "教材",
+    "usd": [
+     33.3,
+     66.7
+    ],
+    "unit": "set",
+    "variants": [
+     "ベーシック",
+     "スタンダード"
+    ]
+   },
+   {
+    "name": "電子辞書",
+    "kind": "product",
+    "category": "教材",
+    "usd": [
+     100,
+     200
+    ],
+    "unit": "piece"
+   }
+  ]
+ },
+ "driving_school": {
+  "categories": [
+   "普通車",
+   "二輪",
+   "中型・大型",
+   "特殊・けん引",
+   "講習",
+   "検定・その他"
+  ],
+  "roles": [
+   "校長",
+   "管理者",
+   "技能検定員",
+   "指導員",
+   "学科教習指導員",
+   "受付",
+   "送迎ドライバー",
+   "事務"
+  ],
+  "departments": [
+   "教習部",
+   "受付・営業",
+   "総務部"
+  ],
+  "items": [
+   {
+    "name": "普通車AT教習（通学）",
+    "kind": "service",
+    "category": "普通車",
+    "usd": [
+     1800,
+     2200
+    ],
+    "unit": "person",
+    "minutes": [
+     50,
+     50
+    ]
+   },
+   {
+    "name": "普通車MT教習（通学）",
+    "kind": "service",
+    "category": "普通車",
+    "usd": [
+     1930,
+     2330
+    ],
+    "unit": "person",
+    "minutes": [
+     50,
+     50
+    ]
+   },
+   {
+    "name": "合宿免許（普通車AT）",
+    "kind": "service",
+    "category": "普通車",
+    "usd": [
+     1330,
+     2000
+    ],
+    "unit": "person",
+    "minutes": [
+     50,
+     50
+    ]
+   },
+   {
+    "name": "AT限定解除審査",
+    "kind": "service",
+    "category": "普通車",
+    "usd": [
+     267,
+     400
+    ],
+    "unit": "person",
+    "minutes": [
+     50,
+     50
+    ]
+   },
+   {
+    "name": "準中型免許教習",
+    "kind": "service",
+    "category": "中型・大型",
+    "usd": [
+     1670,
+     2330
+    ],
+    "unit": "person",
+    "minutes": [
+     50,
+     50
+    ]
+   },
+   {
+    "name": "中型自動車教習",
+    "kind": "service",
+    "category": "中型・大型",
+    "usd": [
+     1330,
+     2330
+    ],
+    "unit": "person",
+    "minutes": [
+     50,
+     50
+    ]
+   },
+   {
+    "name": "大型自動車教習",
+    "kind": "service",
+    "category": "中型・大型",
+    "usd": [
+     2000,
+     3000
+    ],
+    "unit": "person",
+    "minutes": [
+     50,
+     50
+    ]
+   },
+   {
+    "name": "普通二輪教習",
+    "kind": "service",
+    "category": "二輪",
+    "usd": [
+     800,
+     1200
+    ],
+    "unit": "person",
+    "minutes": [
+     50,
+     50
+    ]
+   },
+   {
+    "name": "大型二輪教習",
+    "kind": "service",
+    "category": "二輪",
+    "usd": [
+     667,
+     1070
+    ],
+    "unit": "person",
+    "minutes": [
+     50,
+     50
+    ]
+   },
+   {
+    "name": "小型二輪AT教習",
+    "kind": "service",
+    "category": "二輪",
+    "usd": [
+     467,
+     733
+    ],
+    "unit": "person",
+    "minutes": [
+     50,
+     50
+    ]
+   },
+   {
+    "name": "大型特殊免許教習",
+    "kind": "service",
+    "category": "特殊・けん引",
+    "usd": [
+     667,
+     1200
+    ],
+    "unit": "person",
+    "minutes": [
+     50,
+     50
+    ]
+   },
+   {
+    "name": "けん引免許教習",
+    "kind": "service",
+    "category": "特殊・けん引",
+    "usd": [
+     800,
+     1330
+    ],
+    "unit": "person",
+    "minutes": [
+     50,
+     50
+    ]
+   },
+   {
+    "name": "ペーパードライバー講習",
+    "kind": "service",
+    "category": "講習",
+    "usd": [
+     33.3,
+     46.7
+    ],
+    "unit": "session",
+    "minutes": [
+     50,
+     100
+    ]
+   },
+   {
+    "name": "高齢者講習",
+    "kind": "service",
+    "category": "講習",
+    "usd": [
+     40.0,
+     53.3
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     180
+    ]
+   },
+   {
+    "name": "企業向け安全運転講習",
+    "kind": "service",
+    "category": "講習",
+    "usd": [
+     66.7,
+     200
+    ],
+    "unit": "person",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "運転適性診断",
+    "kind": "service",
+    "category": "講習",
+    "usd": [
+     13.3,
+     33.3
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "追加技能教習",
+    "kind": "service",
+    "category": "検定・その他",
+    "usd": [
+     33.3,
+     43.3
+    ],
+    "unit": "session",
+    "minutes": [
+     50,
+     50
+    ]
+   },
+   {
+    "name": "修了検定",
+    "kind": "service",
+    "category": "検定・その他",
+    "usd": [
+     33.3,
+     66.7
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "卒業検定（再検定）",
+    "kind": "service",
+    "category": "検定・その他",
+    "usd": [
+     33.3,
+     53.3
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "教習原簿再発行",
+    "kind": "service",
+    "category": "検定・その他",
+    "usd": [
+     6.67,
+     20.0
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     15
+    ]
+   }
+  ]
+ },
+ "fitness": {
+  "categories": [
+   "会員プラン",
+   "パーソナル",
+   "スクール・レッスン",
+   "スイミング",
+   "施設利用",
+   "物販"
+  ],
+  "roles": [
+   "店長",
+   "トレーナー",
+   "パーソナルトレーナー",
+   "インストラクター",
+   "スイミングコーチ",
+   "フロントスタッフ",
+   "アルバイト"
+  ],
+  "departments": [
+   "フロント",
+   "ジム",
+   "スタジオ",
+   "プール"
+  ],
+  "items": [
+   {
+    "name": "レギュラー会員（月額）",
+    "kind": "service",
+    "category": "会員プラン",
+    "usd": [
+     53.3,
+     93.3
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "デイタイム会員（月額）",
+    "kind": "service",
+    "category": "会員プラン",
+    "usd": [
+     40.0,
+     60.0
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "ナイト会員（月額）",
+    "kind": "service",
+    "category": "会員プラン",
+    "usd": [
+     33.3,
+     53.3
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "学生会員（月額）",
+    "kind": "service",
+    "category": "会員プラン",
+    "usd": [
+     26.7,
+     46.7
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "法人会員（1名）",
+    "kind": "service",
+    "category": "会員プラン",
+    "usd": [
+     33.3,
+     66.7
+    ],
+    "unit": "person",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "入会金",
+    "kind": "service",
+    "category": "会員プラン",
+    "usd": [
+     20.0,
+     66.7
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     30
+    ]
+   },
+   {
+    "name": "パーソナルトレーニング（60分）",
+    "kind": "service",
+    "category": "パーソナル",
+    "usd": [
+     40.0,
+     80.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "2か月集中ボディメイクコース",
+    "kind": "service",
+    "category": "パーソナル",
+    "usd": [
+     1330,
+     2330
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "加圧トレーニング（30分）",
+    "kind": "service",
+    "category": "パーソナル",
+    "usd": [
+     33.3,
+     53.3
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     30
+    ]
+   },
+   {
+    "name": "ストレッチ施術（40分）",
+    "kind": "service",
+    "category": "パーソナル",
+    "usd": [
+     26.7,
+     46.7
+    ],
+    "unit": "session",
+    "minutes": [
+     40,
+     40
+    ]
+   },
+   {
+    "name": "ヨガレッスン",
+    "kind": "service",
+    "category": "スクール・レッスン",
+    "usd": [
+     13.3,
+     23.3
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     75
+    ]
+   },
+   {
+    "name": "ピラティス回数券（10回）",
+    "kind": "service",
+    "category": "スクール・レッスン",
+    "usd": [
+     133,
+     233
+    ],
+    "unit": "set",
+    "minutes": [
+     50,
+     60
+    ]
+   },
+   {
+    "name": "ホットヨガ（月4回）",
+    "kind": "service",
+    "category": "スクール・レッスン",
+    "usd": [
+     53.3,
+     80.0
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "ジュニアスイミング（週1回）",
+    "kind": "service",
+    "category": "スイミング",
+    "usd": [
+     40.0,
+     60.0
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "大人水泳教室",
+    "kind": "service",
+    "category": "スイミング",
+    "usd": [
+     46.7,
+     66.7
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "ビジター利用",
+    "kind": "service",
+    "category": "施設利用",
+    "usd": [
+     13.3,
+     23.3
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "体組成測定",
+    "kind": "service",
+    "category": "施設利用",
+    "usd": [
+     6.67,
+     20.0
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     15
+    ]
+   },
+   {
+    "name": "レンタルタオル",
+    "kind": "product",
+    "category": "施設利用",
+    "usd": [
+     1.33,
+     2.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "フェイスタオル",
+     "バスタオル"
+    ]
+   },
+   {
+    "name": "ホエイプロテイン",
+    "kind": "product",
+    "category": "物販",
+    "usd": [
+     23.3,
+     33.3
+    ],
+    "unit": "piece",
+    "variants": [
+     "1kg",
+     "3kg"
+    ]
+   },
+   {
+    "name": "プロテインドリンク",
+    "kind": "product",
+    "category": "物販",
+    "usd": [
+     2.0,
+     2.67
+    ],
+    "unit": "piece",
+    "variants": [
+     "300ml",
+     "500ml"
+    ]
+   },
+   {
+    "name": "トレーニンググローブ",
+    "kind": "product",
+    "category": "物販",
+    "usd": [
+     13.3,
+     33.3
+    ],
+    "unit": "piece",
+    "variants": [
+     "S",
+     "M",
+     "L"
+    ]
+   },
+   {
+    "name": "BCAA",
+    "kind": "product",
+    "category": "物販",
+    "usd": [
+     16.7,
+     33.3
+    ],
+    "unit": "piece"
+   }
+  ]
+ },
+ "hair_beauty": {
+  "categories": [
+   "カット",
+   "カラー",
+   "パーマ・矯正",
+   "ケア・スパ",
+   "ネイル・マツエク",
+   "店販"
+  ],
+  "roles": [
+   "店長",
+   "トップスタイリスト",
+   "スタイリスト",
+   "アシスタント",
+   "ネイリスト",
+   "アイリスト",
+   "理容師",
+   "レセプション"
+  ],
+  "departments": [
+   "ヘア",
+   "ネイル",
+   "アイラッシュ",
+   "受付"
+  ],
+  "items": [
+   {
+    "name": "カット",
+    "kind": "service",
+    "category": "カット",
+    "usd": [
+     23.3,
+     43.3
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "前髪カット",
+    "kind": "service",
+    "category": "カット",
+    "usd": [
+     5.33,
+     10.0
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     15
+    ]
+   },
+   {
+    "name": "メンズカット",
+    "kind": "service",
+    "category": "カット",
+    "usd": [
+     23.3,
+     36.7
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     45
+    ]
+   },
+   {
+    "name": "キッズカット",
+    "kind": "service",
+    "category": "カット",
+    "usd": [
+     13.3,
+     23.3
+    ],
+    "unit": "session",
+    "minutes": [
+     20,
+     30
+    ]
+   },
+   {
+    "name": "理容カット（顔そり付き）",
+    "kind": "service",
+    "category": "カット",
+    "usd": [
+     23.3,
+     33.3
+    ],
+    "unit": "session",
+    "minutes": [
+     45,
+     60
+    ]
+   },
+   {
+    "name": "ヘアセット",
+    "kind": "service",
+    "category": "カット",
+    "usd": [
+     23.3,
+     40.0
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "カット＋カラー",
+    "kind": "service",
+    "category": "カラー",
+    "usd": [
+     53.3,
+     93.3
+    ],
+    "unit": "session",
+    "minutes": [
+     90,
+     150
+    ]
+   },
+   {
+    "name": "リタッチカラー",
+    "kind": "service",
+    "category": "カラー",
+    "usd": [
+     30.0,
+     46.7
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "白髪染め",
+    "kind": "service",
+    "category": "カラー",
+    "usd": [
+     33.3,
+     60.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "ハイライト",
+    "kind": "service",
+    "category": "カラー",
+    "usd": [
+     40.0,
+     80.0
+    ],
+    "unit": "session",
+    "minutes": [
+     90,
+     150
+    ]
+   },
+   {
+    "name": "パーマ",
+    "kind": "service",
+    "category": "パーマ・矯正",
+    "usd": [
+     53.3,
+     100
+    ],
+    "unit": "session",
+    "minutes": [
+     90,
+     150
+    ]
+   },
+   {
+    "name": "デジタルパーマ",
+    "kind": "service",
+    "category": "パーマ・矯正",
+    "usd": [
+     80.0,
+     133
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     180
+    ]
+   },
+   {
+    "name": "縮毛矯正",
+    "kind": "service",
+    "category": "パーマ・矯正",
+    "usd": [
+     100,
+     167
+    ],
+    "unit": "session",
+    "minutes": [
+     150,
+     240
+    ]
+   },
+   {
+    "name": "トリートメント",
+    "kind": "service",
+    "category": "ケア・スパ",
+    "usd": [
+     20.0,
+     40.0
+    ],
+    "unit": "session",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "ヘッドスパ",
+    "kind": "service",
+    "category": "ケア・スパ",
+    "usd": [
+     20.0,
+     40.0
+    ],
+    "unit": "session",
+    "minutes": [
+     20,
+     45
+    ]
+   },
+   {
+    "name": "ジェルネイル（ワンカラー）",
+    "kind": "service",
+    "category": "ネイル・マツエク",
+    "usd": [
+     33.3,
+     53.3
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "ネイルアート",
+    "kind": "service",
+    "category": "ネイル・マツエク",
+    "usd": [
+     46.7,
+     80.0
+    ],
+    "unit": "session",
+    "minutes": [
+     90,
+     120
+    ]
+   },
+   {
+    "name": "ジェルオフ",
+    "kind": "service",
+    "category": "ネイル・マツエク",
+    "usd": [
+     10.0,
+     20.0
+    ],
+    "unit": "session",
+    "minutes": [
+     20,
+     30
+    ]
+   },
+   {
+    "name": "まつげエクステ（120本）",
+    "kind": "service",
+    "category": "ネイル・マツエク",
+    "usd": [
+     40.0,
+     66.7
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "まつげパーマ",
+    "kind": "service",
+    "category": "ネイル・マツエク",
+    "usd": [
+     30.0,
+     46.7
+    ],
+    "unit": "session",
+    "minutes": [
+     45,
+     60
+    ]
+   },
+   {
+    "name": "サロン専売シャンプー",
+    "kind": "product",
+    "category": "店販",
+    "usd": [
+     16.7,
+     23.3
+    ],
+    "unit": "piece",
+    "variants": [
+     "250ml",
+     "500ml",
+     "1000ml"
+    ]
+   },
+   {
+    "name": "ホームケアトリートメント",
+    "kind": "product",
+    "category": "店販",
+    "usd": [
+     16.7,
+     23.3
+    ],
+    "unit": "piece",
+    "variants": [
+     "200g",
+     "500g"
+    ]
+   },
+   {
+    "name": "ヘアオイル",
+    "kind": "product",
+    "category": "店販",
+    "usd": [
+     13.3,
+     20.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "50ml",
+     "100ml"
+    ]
+   },
+   {
+    "name": "スタイリング剤",
+    "kind": "product",
+    "category": "店販",
+    "usd": [
+     10.0,
+     23.3
+    ],
+    "unit": "piece"
+   }
+  ]
+ },
+ "dental": {
+  "categories": [
+   "一般歯科",
+   "予防歯科",
+   "審美歯科",
+   "矯正歯科",
+   "インプラント",
+   "物販"
+  ],
+  "roles": [
+   "院長",
+   "歯科医師",
+   "歯科衛生士",
+   "歯科助手",
+   "歯科技工士",
+   "受付",
+   "事務長"
+  ],
+  "departments": [
+   "診療室",
+   "受付",
+   "技工室"
+  ],
+  "items": [
+   {
+    "name": "定期検診",
+    "kind": "service",
+    "category": "予防歯科",
+    "usd": [
+     20.0,
+     33.3
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "歯のクリーニング（PMTC）",
+    "kind": "service",
+    "category": "予防歯科",
+    "usd": [
+     33.3,
+     66.7
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "フッ素塗布",
+    "kind": "service",
+    "category": "予防歯科",
+    "usd": [
+     6.67,
+     20.0
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     15
+    ]
+   },
+   {
+    "name": "オフィスホワイトニング",
+    "kind": "service",
+    "category": "審美歯科",
+    "usd": [
+     133,
+     333
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "ホームホワイトニング",
+    "kind": "service",
+    "category": "審美歯科",
+    "usd": [
+     133,
+     267
+    ],
+    "unit": "set",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "セラミッククラウン",
+    "kind": "service",
+    "category": "審美歯科",
+    "usd": [
+     533,
+     1000
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "セラミックインレー",
+    "kind": "service",
+    "category": "審美歯科",
+    "usd": [
+     267,
+     533
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "ジルコニアクラウン",
+    "kind": "service",
+    "category": "審美歯科",
+    "usd": [
+     667,
+     1200
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "矯正相談",
+    "kind": "service",
+    "category": "矯正歯科",
+    "usd": [
+     20.0,
+     33.3
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "マウスピース矯正",
+    "kind": "service",
+    "category": "矯正歯科",
+    "usd": [
+     4000,
+     6670
+    ],
+    "unit": "set",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "ワイヤー矯正",
+    "kind": "service",
+    "category": "矯正歯科",
+    "usd": [
+     4670,
+     8000
+    ],
+    "unit": "set",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "部分矯正",
+    "kind": "service",
+    "category": "矯正歯科",
+    "usd": [
+     1330,
+     3330
+    ],
+    "unit": "set",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "インプラント（1本）",
+    "kind": "service",
+    "category": "インプラント",
+    "usd": [
+     2000,
+     3330
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "CT撮影",
+    "kind": "service",
+    "category": "インプラント",
+    "usd": [
+     66.7,
+     133
+    ],
+    "unit": "session",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "根管治療（自費）",
+    "kind": "service",
+    "category": "一般歯科",
+    "usd": [
+     333,
+     1000
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "金属床義歯",
+    "kind": "service",
+    "category": "一般歯科",
+    "usd": [
+     2000,
+     4000
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "ナイトガード",
+    "kind": "service",
+    "category": "一般歯科",
+    "usd": [
+     66.7,
+     200
+    ],
+    "unit": "piece",
+    "minutes": [
+     20,
+     40
+    ]
+   },
+   {
+    "name": "スポーツ用マウスガード",
+    "kind": "service",
+    "category": "一般歯科",
+    "usd": [
+     66.7,
+     167
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "歯科専売歯ブラシ",
+    "kind": "product",
+    "category": "物販",
+    "usd": [
+     1.33,
+     3.33
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "歯間ブラシ",
+    "kind": "product",
+    "category": "物販",
+    "usd": [
+     2.67,
+     5.33
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "フッ素ジェル",
+    "kind": "product",
+    "category": "物販",
+    "usd": [
+     6.67,
+     10.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "50g",
+     "100g"
+    ]
+   },
+   {
+    "name": "デンタルフロス",
+    "kind": "product",
+    "category": "物販",
+    "usd": [
+     2.67,
+     4.67
+    ],
+    "unit": "piece",
+    "variants": [
+     "40m",
+     "50m"
+    ]
+   },
+   {
+    "name": "洗口液",
+    "kind": "product",
+    "category": "物販",
+    "usd": [
+     5.33,
+     8.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "250ml",
+     "500ml"
+    ]
+   }
+  ]
+ },
+ "veterinary": {
+  "categories": [
+   "診察",
+   "予防",
+   "手術",
+   "検査",
+   "ホテル・トリミング",
+   "フード・お薬"
+  ],
+  "roles": [
+   "院長",
+   "獣医師",
+   "動物看護師",
+   "トリマー",
+   "受付",
+   "アシスタント"
+  ],
+  "departments": [
+   "診療",
+   "トリミング",
+   "受付"
+  ],
+  "items": [
+   {
+    "name": "初診料",
+    "kind": "service",
+    "category": "診察",
+    "usd": [
+     10.0,
+     20.0
+    ],
+    "unit": "session",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "再診料",
+    "kind": "service",
+    "category": "診察",
+    "usd": [
+     5.33,
+     10.0
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     20
+    ]
+   },
+   {
+    "name": "夜間診察",
+    "kind": "service",
+    "category": "診察",
+    "usd": [
+     33.3,
+     66.7
+    ],
+    "unit": "session",
+    "minutes": [
+     15,
+     45
+    ]
+   },
+   {
+    "name": "往診",
+    "kind": "service",
+    "category": "診察",
+    "usd": [
+     20.0,
+     53.3
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "狂犬病予防注射",
+    "kind": "service",
+    "category": "予防",
+    "usd": [
+     20.0,
+     23.3
+    ],
+    "unit": "session",
+    "minutes": [
+     5,
+     10
+    ]
+   },
+   {
+    "name": "混合ワクチン（5種）",
+    "kind": "service",
+    "category": "予防",
+    "usd": [
+     33.3,
+     60.0
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     15
+    ]
+   },
+   {
+    "name": "マイクロチップ装着",
+    "kind": "service",
+    "category": "予防",
+    "usd": [
+     20.0,
+     46.7
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     15
+    ]
+   },
+   {
+    "name": "避妊手術（犬）",
+    "kind": "service",
+    "category": "手術",
+    "usd": [
+     200,
+     400
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "去勢手術（猫）",
+    "kind": "service",
+    "category": "手術",
+    "usd": [
+     100,
+     167
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "歯石除去（全身麻酔下）",
+    "kind": "service",
+    "category": "手術",
+    "usd": [
+     200,
+     400
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "腫瘍摘出手術",
+    "kind": "service",
+    "category": "手術",
+    "usd": [
+     333,
+     1000
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "血液検査",
+    "kind": "service",
+    "category": "検査",
+    "usd": [
+     33.3,
+     100
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     30
+    ]
+   },
+   {
+    "name": "レントゲン検査",
+    "kind": "service",
+    "category": "検査",
+    "usd": [
+     26.7,
+     53.3
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     20
+    ]
+   },
+   {
+    "name": "尿検査",
+    "kind": "service",
+    "category": "検査",
+    "usd": [
+     10.0,
+     20.0
+    ],
+    "unit": "session",
+    "minutes": [
+     5,
+     15
+    ]
+   },
+   {
+    "name": "健康診断（ペットドック）",
+    "kind": "service",
+    "category": "検査",
+    "usd": [
+     66.7,
+     200
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "ペットホテル（小型犬）",
+    "kind": "service",
+    "category": "ホテル・トリミング",
+    "usd": [
+     20.0,
+     33.3
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "トリミング（シャンプー・カット）",
+    "kind": "service",
+    "category": "ホテル・トリミング",
+    "usd": [
+     33.3,
+     66.7
+    ],
+    "unit": "session",
+    "minutes": [
+     90,
+     180
+    ]
+   },
+   {
+    "name": "シャンプーコース",
+    "kind": "service",
+    "category": "ホテル・トリミング",
+    "usd": [
+     20.0,
+     40.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "爪切り",
+    "kind": "service",
+    "category": "ホテル・トリミング",
+    "usd": [
+     3.33,
+     6.67
+    ],
+    "unit": "session",
+    "minutes": [
+     5,
+     10
+    ]
+   },
+   {
+    "name": "フィラリア予防薬（1か月分）",
+    "kind": "product",
+    "category": "フード・お薬",
+    "usd": [
+     6.67,
+     10.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "小型犬用",
+     "中型犬用",
+     "大型犬用"
+    ]
+   },
+   {
+    "name": "ノミ・ダニ予防薬",
+    "kind": "product",
+    "category": "フード・お薬",
+    "usd": [
+     10.0,
+     16.7
+    ],
+    "unit": "piece",
+    "variants": [
+     "超小型犬用",
+     "小型犬用",
+     "中型犬用",
+     "大型犬用"
+    ]
+   },
+   {
+    "name": "療法食",
+    "kind": "product",
+    "category": "フード・お薬",
+    "usd": [
+     20.0,
+     30.0
+    ],
+    "unit": "pack",
+    "variants": [
+     "1kg",
+     "2kg",
+     "4kg"
+    ]
+   },
+   {
+    "name": "関節ケアサプリメント",
+    "kind": "product",
+    "category": "フード・お薬",
+    "usd": [
+     16.7,
+     33.3
+    ],
+    "unit": "piece"
+   }
+  ]
+ },
+ "printing": {
+  "categories": [
+   "名刺・はがき",
+   "チラシ・ポスター",
+   "冊子・パンフレット",
+   "封筒・伝票・シール",
+   "大判・のぼり",
+   "デザイン・コピー"
+  ],
+  "roles": [
+   "代表取締役",
+   "工場長",
+   "印刷オペレーター",
+   "DTPデザイナー",
+   "製本スタッフ",
+   "営業",
+   "受付スタッフ"
+  ],
+  "departments": [
+   "制作部",
+   "印刷部",
+   "製本部",
+   "営業部"
+  ],
+  "items": [
+   {
+    "name": "名刺印刷",
+    "kind": "product",
+    "category": "名刺・はがき",
+    "usd": [
+     13.3,
+     26.7
+    ],
+    "unit": "set",
+    "variants": [
+     "100枚",
+     "200枚",
+     "500枚"
+    ]
+   },
+   {
+    "name": "ショップカード印刷",
+    "kind": "product",
+    "category": "名刺・はがき",
+    "usd": [
+     20.0,
+     40.0
+    ],
+    "unit": "set",
+    "variants": [
+     "100枚",
+     "500枚",
+     "1,000枚"
+    ]
+   },
+   {
+    "name": "年賀状印刷",
+    "kind": "product",
+    "category": "名刺・はがき",
+    "usd": [
+     0.333,
+     1.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "チラシ印刷（A4カラー）",
+    "kind": "product",
+    "category": "チラシ・ポスター",
+    "usd": [
+     53.3,
+     100
+    ],
+    "unit": "set",
+    "variants": [
+     "1,000枚",
+     "3,000枚",
+     "5,000枚"
+    ]
+   },
+   {
+    "name": "ポスター印刷",
+    "kind": "product",
+    "category": "チラシ・ポスター",
+    "usd": [
+     13.3,
+     26.7
+    ],
+    "unit": "piece",
+    "variants": [
+     "B3",
+     "B2",
+     "B1"
+    ]
+   },
+   {
+    "name": "パンフレット印刷（A4・8ページ）",
+    "kind": "product",
+    "category": "冊子・パンフレット",
+    "usd": [
+     0.333,
+     1.33
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "中綴じ冊子印刷",
+    "kind": "product",
+    "category": "冊子・パンフレット",
+    "usd": [
+     1.0,
+     5.33
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "無線綴じ冊子印刷",
+    "kind": "product",
+    "category": "冊子・パンフレット",
+    "usd": [
+     2.0,
+     10.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "製本加工",
+    "kind": "service",
+    "category": "冊子・パンフレット",
+    "usd": [
+     3.33,
+     20.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "封筒印刷（長3）",
+    "kind": "product",
+    "category": "封筒・伝票・シール",
+    "usd": [
+     66.7,
+     133
+    ],
+    "unit": "set",
+    "variants": [
+     "500枚",
+     "1,000枚",
+     "2,000枚"
+    ]
+   },
+   {
+    "name": "複写伝票印刷（1,000組）",
+    "kind": "product",
+    "category": "封筒・伝票・シール",
+    "usd": [
+     100,
+     267
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "シール・ラベル印刷",
+    "kind": "product",
+    "category": "封筒・伝票・シール",
+    "usd": [
+     0.0333,
+     0.2
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "のぼり旗",
+    "kind": "product",
+    "category": "大判・のぼり",
+    "usd": [
+     13.3,
+     33.3
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "横断幕",
+    "kind": "product",
+    "category": "大判・のぼり",
+    "usd": [
+     66.7,
+     133
+    ],
+    "unit": "piece",
+    "variants": [
+     "3m",
+     "5m",
+     "10m"
+    ]
+   },
+   {
+    "name": "タペストリー",
+    "kind": "product",
+    "category": "大判・のぼり",
+    "usd": [
+     33.3,
+     100
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "A型看板",
+    "kind": "product",
+    "category": "大判・のぼり",
+    "usd": [
+     100,
+     267
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "大判出力（B0）",
+    "kind": "product",
+    "category": "大判・のぼり",
+    "usd": [
+     20.0,
+     53.3
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "DTPデザイン",
+    "kind": "service",
+    "category": "デザイン・コピー",
+    "usd": [
+     20.0,
+     66.7
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "ロゴデータ作成",
+    "kind": "service",
+    "category": "デザイン・コピー",
+    "usd": [
+     66.7,
+     200
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "カラーコピー",
+    "kind": "product",
+    "category": "デザイン・コピー",
+    "usd": [
+     0.2,
+     0.333
+    ],
+    "unit": "piece",
+    "variants": [
+     "A4",
+     "A3"
+    ]
+   },
+   {
+    "name": "モノクロコピー",
+    "kind": "product",
+    "category": "デザイン・コピー",
+    "usd": [
+     0.0667,
+     0.133
+    ],
+    "unit": "piece",
+    "variants": [
+     "A4",
+     "A3"
+    ]
+   }
+  ]
+ },
+ "furniture_maker": {
+  "categories": [
+   "テーブル・デスク",
+   "椅子",
+   "収納家具",
+   "ベッド",
+   "特注・造作",
+   "修理・サービス"
+  ],
+  "roles": [
+   "代表",
+   "家具職人",
+   "木工職人",
+   "塗装担当",
+   "設計担当",
+   "見習い",
+   "販売スタッフ"
+  ],
+  "departments": [
+   "工房",
+   "塗装場",
+   "ショールーム"
+  ],
+  "items": [
+   {
+    "name": "無垢材ダイニングテーブル",
+    "kind": "product",
+    "category": "テーブル・デスク",
+    "usd": [
+     1000,
+     1670
+    ],
+    "unit": "piece",
+    "variants": [
+     "幅1200",
+     "幅1500",
+     "幅1800"
+    ]
+   },
+   {
+    "name": "一枚板テーブル",
+    "kind": "product",
+    "category": "テーブル・デスク",
+    "usd": [
+     1330,
+     5330
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "ケヤキ座卓",
+    "kind": "product",
+    "category": "テーブル・デスク",
+    "usd": [
+     667,
+     1330
+    ],
+    "unit": "piece",
+    "variants": [
+     "4尺",
+     "5尺",
+     "6尺"
+    ]
+   },
+   {
+    "name": "ローテーブル",
+    "kind": "product",
+    "category": "テーブル・デスク",
+    "usd": [
+     333,
+     800
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "学習机",
+    "kind": "product",
+    "category": "テーブル・デスク",
+    "usd": [
+     333,
+     1000
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "ダイニングチェア",
+    "kind": "product",
+    "category": "椅子",
+    "usd": [
+     200,
+     533
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "アームチェア",
+    "kind": "product",
+    "category": "椅子",
+    "usd": [
+     333,
+     800
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "スツール",
+    "kind": "product",
+    "category": "椅子",
+    "usd": [
+     100,
+     200
+    ],
+    "unit": "piece",
+    "variants": [
+     "ロー",
+     "ハイ"
+    ]
+   },
+   {
+    "name": "オーダー本棚",
+    "kind": "product",
+    "category": "収納家具",
+    "usd": [
+     533,
+     1000
+    ],
+    "unit": "piece",
+    "variants": [
+     "幅600",
+     "幅900",
+     "幅1200"
+    ]
+   },
+   {
+    "name": "テレビボード",
+    "kind": "product",
+    "category": "収納家具",
+    "usd": [
+     533,
+     1000
+    ],
+    "unit": "piece",
+    "variants": [
+     "幅1500",
+     "幅1800",
+     "幅2100"
+    ]
+   },
+   {
+    "name": "食器棚",
+    "kind": "product",
+    "category": "収納家具",
+    "usd": [
+     1000,
+     2670
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "桐箪笥",
+    "kind": "product",
+    "category": "収納家具",
+    "usd": [
+     2000,
+     6670
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "木製ベッドフレーム",
+    "kind": "product",
+    "category": "ベッド",
+    "usd": [
+     533,
+     1000
+    ],
+    "unit": "piece",
+    "variants": [
+     "シングル",
+     "セミダブル",
+     "ダブル"
+    ]
+   },
+   {
+    "name": "すのこベッド",
+    "kind": "product",
+    "category": "ベッド",
+    "usd": [
+     267,
+     667
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "造作キッチン収納",
+    "kind": "product",
+    "category": "特注・造作",
+    "usd": [
+     2000,
+     6670
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "店舗カウンター製作",
+    "kind": "product",
+    "category": "特注・造作",
+    "usd": [
+     533,
+     1330
+    ],
+    "unit": "m"
+   },
+   {
+    "name": "陳列什器",
+    "kind": "product",
+    "category": "特注・造作",
+    "usd": [
+     333,
+     1330
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "出張採寸",
+    "kind": "service",
+    "category": "特注・造作",
+    "usd": [
+     20.0,
+     53.3
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "家具修理・再塗装",
+    "kind": "service",
+    "category": "修理・サービス",
+    "usd": [
+     133,
+     667
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "椅子張替え",
+    "kind": "service",
+    "category": "修理・サービス",
+    "usd": [
+     100,
+     267
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "オイルメンテナンス",
+    "kind": "service",
+    "category": "修理・サービス",
+    "usd": [
+     33.3,
+     100
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "配送・組立",
+    "kind": "service",
+    "category": "修理・サービス",
+    "usd": [
+     33.3,
+     133
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     120
+    ]
+   }
+  ]
+ },
+ "event_catering": {
+  "categories": [
+   "パーティープラン",
+   "オードブル・寿司",
+   "お弁当",
+   "仕出し・法事",
+   "ドリンク",
+   "スタッフ・備品"
+  ],
+  "roles": [
+   "代表",
+   "料理長",
+   "調理スタッフ",
+   "配膳スタッフ",
+   "ケータリングディレクター",
+   "配送ドライバー",
+   "営業"
+  ],
+  "departments": [
+   "調理部",
+   "サービス部",
+   "営業部"
+  ],
+  "items": [
+   {
+    "name": "立食パーティープラン",
+    "kind": "product",
+    "category": "パーティープラン",
+    "usd": [
+     20.0,
+     33.3
+    ],
+    "unit": "person",
+    "variants": [
+     "梅",
+     "竹",
+     "松"
+    ]
+   },
+   {
+    "name": "着席ビュッフェプラン",
+    "kind": "product",
+    "category": "パーティープラン",
+    "usd": [
+     26.7,
+     60.0
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "フィンガーフードプラン",
+    "kind": "product",
+    "category": "パーティープラン",
+    "usd": [
+     16.7,
+     33.3
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "ウェディングパーティー料理",
+    "kind": "product",
+    "category": "パーティープラン",
+    "usd": [
+     53.3,
+     100
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "オードブル盛り合わせ",
+    "kind": "product",
+    "category": "オードブル・寿司",
+    "usd": [
+     33.3,
+     53.3
+    ],
+    "unit": "piece",
+    "variants": [
+     "3〜4人前",
+     "5〜6人前",
+     "8〜10人前"
+    ]
+   },
+   {
+    "name": "寿司桶",
+    "kind": "product",
+    "category": "オードブル・寿司",
+    "usd": [
+     33.3,
+     53.3
+    ],
+    "unit": "piece",
+    "variants": [
+     "3人前",
+     "5人前",
+     "8人前"
+    ]
+   },
+   {
+    "name": "サンドイッチプレート",
+    "kind": "product",
+    "category": "オードブル・寿司",
+    "usd": [
+     20.0,
+     53.3
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "会議用弁当",
+    "kind": "product",
+    "category": "お弁当",
+    "usd": [
+     5.33,
+     13.3
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "松花堂弁当",
+    "kind": "product",
+    "category": "お弁当",
+    "usd": [
+     10.0,
+     23.3
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "ロケ弁当",
+    "kind": "product",
+    "category": "お弁当",
+    "usd": [
+     4.67,
+     10.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "幕の内弁当",
+    "kind": "product",
+    "category": "お弁当",
+    "usd": [
+     6.67,
+     13.3
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "法事用仕出し膳",
+    "kind": "product",
+    "category": "仕出し・法事",
+    "usd": [
+     20.0,
+     53.3
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "精進料理",
+    "kind": "product",
+    "category": "仕出し・法事",
+    "usd": [
+     20.0,
+     40.0
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "お祝い用赤飯",
+    "kind": "product",
+    "category": "仕出し・法事",
+    "usd": [
+     20.0,
+     26.7
+    ],
+    "unit": "piece",
+    "variants": [
+     "5合",
+     "1升"
+    ]
+   },
+   {
+    "name": "フリードリンクプラン",
+    "kind": "product",
+    "category": "ドリンク",
+    "usd": [
+     10.0,
+     20.0
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "瓶ビール（中瓶）",
+    "kind": "product",
+    "category": "ドリンク",
+    "usd": [
+     3.33,
+     5.33
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "ソフトドリンク（1.5L）",
+    "kind": "product",
+    "category": "ドリンク",
+    "usd": [
+     2.67,
+     4.67
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "出張シェフ（3時間）",
+    "kind": "service",
+    "category": "スタッフ・備品",
+    "usd": [
+     200,
+     533
+    ],
+    "unit": "session",
+    "minutes": [
+     180,
+     180
+    ]
+   },
+   {
+    "name": "配膳スタッフ派遣",
+    "kind": "service",
+    "category": "スタッフ・備品",
+    "usd": [
+     16.7,
+     26.7
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "会場設営",
+    "kind": "service",
+    "category": "スタッフ・備品",
+    "usd": [
+     133,
+     533
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "食器レンタル（1名分）",
+    "kind": "service",
+    "category": "スタッフ・備品",
+    "usd": [
+     2.0,
+     5.33
+    ],
+    "unit": "person",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "キッチンカー出張販売（1日）",
+    "kind": "service",
+    "category": "スタッフ・備品",
+    "usd": [
+     333,
+     1000
+    ],
+    "unit": "day",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "配送料",
+    "kind": "service",
+    "category": "スタッフ・備品",
+    "usd": [
+     6.67,
+     33.3
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     90
+    ]
+   }
+  ]
+ }
+}

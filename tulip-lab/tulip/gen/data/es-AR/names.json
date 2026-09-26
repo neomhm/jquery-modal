@@ -1,0 +1,34 @@
+{
+  "given_male": [
+    "Juan", "Carlos", "Jorge", "Luis", "Daniel", "Roberto", "Alejandro", "Sergio",
+    "Diego", "Marcelo", "Gustavo", "Pablo", "Martín", "Fernando", "Ricardo", "Claudio",
+    "Gabriel", "Hernán", "Leandro", "Matías", "Nicolás", "Facundo", "Federico", "Sebastián",
+    "Santiago", "Tomás", "Lucas", "Mariano", "Gonzalo", "Maximiliano", "Ezequiel", "Rodrigo",
+    "Walter", "Héctor", "Osvaldo", "Rubén", "Néstor", "Hugo", "Emiliano", "Agustín",
+    "Joaquín", "Ignacio", "Franco", "Bruno", "Germán", "Cristian", "Damián", "Esteban",
+    "Horacio", "Guillermo", "Juan Pablo", "Juan Manuel", "Juan Cruz"
+  ],
+  "given_female": [
+    "María", "Laura", "Silvia", "Graciela", "Mónica", "Claudia", "Patricia", "Marcela",
+    "Andrea", "Gabriela", "Verónica", "Natalia", "Carolina", "Florencia", "Lucía", "Sofía",
+    "Valentina", "Camila", "Agustina", "Julieta", "Micaela", "Romina", "Soledad", "Paula",
+    "Cecilia", "Mariana", "Lorena", "Alejandra", "Silvina", "Liliana", "Susana", "Norma",
+    "Adriana", "Viviana", "Daniela", "Victoria", "Milagros", "Rocío", "Belén", "Josefina",
+    "Martina", "Guadalupe", "Luciana", "Vanesa", "Analía",
+    "María Laura", "María José", "Ana Laura", "María Eugenia", "María Soledad"
+  ],
+  "family": [
+    "González", "Rodríguez", "Gómez", "Fernández", "López", "Díaz", "Martínez", "Pérez",
+    "García", "Sánchez", "Romero", "Sosa", "Álvarez", "Torres", "Ruiz", "Ramírez",
+    "Flores", "Acosta", "Benítez", "Medina", "Suárez", "Herrera", "Aguirre", "Pereyra",
+    "Gutiérrez", "Giménez", "Molina", "Silva", "Castro", "Rojas", "Ortiz", "Núñez",
+    "Luna", "Juárez", "Cabrera", "Ríos", "Ferreyra", "Godoy", "Morales", "Domínguez",
+    "Moreno", "Peralta", "Vega", "Carrizo", "Quiroga", "Castillo", "Ledesma", "Muñoz",
+    "Ojeda", "Ponce", "Vera", "Cardozo", "Villalba", "Figueroa", "Navarro", "Paz",
+    "Correa", "Arias", "Coronel", "Maldonado", "Rossi", "Russo", "Ferrari", "Romano",
+    "Bianchi", "Costa", "Lombardi", "Colombo", "Greco", "Bruno", "Mancini", "Ricci",
+    "Marino", "Esposito", "Gallo", "Conti", "De Luca", "Rinaldi", "Moretti", "Fontana",
+    "Barbieri", "Blanco", "Iglesias", "Otero", "Vázquez", "Varela", "Méndez", "Sáenz",
+    "Echeverría", "Iturralde", "Bustos", "Villegas", "Toledo", "Lucero", "Miranda", "Ibarra"
+  ]
+}

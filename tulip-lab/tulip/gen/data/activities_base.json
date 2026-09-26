@@ -1,0 +1,365 @@
+{
+ "_about": "The 40 activities of Appendix J (the same catalogue as the Extractor). 'holdout': D = only in dev_heldout, T = only in test_heldout (fixed in Appendix J, not drawn). The words of each activity, per language, are in <lang>/activities.json; gen/merge_data.py combines them into activities.json.",
+ "activities": [
+  {
+   "id": "bakery",
+   "n": 1,
+   "en": "bakery / pastry shop",
+   "isic": "1071",
+   "customers": "B2C",
+   "hours": true,
+   "holdout": null
+  },
+  {
+   "id": "restaurant",
+   "n": 2,
+   "en": "restaurant",
+   "isic": "5610",
+   "customers": "B2C",
+   "hours": true,
+   "holdout": null
+  },
+  {
+   "id": "cafe_bar",
+   "n": 3,
+   "en": "cafe / bar",
+   "isic": "5630",
+   "customers": "B2C",
+   "hours": true,
+   "holdout": "D"
+  },
+  {
+   "id": "hotel",
+   "n": 4,
+   "en": "hotel",
+   "isic": "5510",
+   "customers": "B2C",
+   "hours": false,
+   "holdout": null
+  },
+  {
+   "id": "plumbing_hvac",
+   "n": 5,
+   "en": "plumbing, heating and air-conditioning",
+   "isic": "4322",
+   "customers": "both",
+   "hours": false,
+   "holdout": null
+  },
+  {
+   "id": "electrical",
+   "n": 6,
+   "en": "electrical installation",
+   "isic": "4321",
+   "customers": "both",
+   "hours": false,
+   "holdout": null
+  },
+  {
+   "id": "building_contractor",
+   "n": 7,
+   "en": "general building contractor",
+   "isic": "4100",
+   "customers": "both",
+   "hours": false,
+   "holdout": null
+  },
+  {
+   "id": "painting",
+   "n": 8,
+   "en": "painting and decorating",
+   "isic": "4330",
+   "customers": "both",
+   "hours": false,
+   "holdout": null
+  },
+  {
+   "id": "car_repair",
+   "n": 9,
+   "en": "car repair garage",
+   "isic": "4520",
+   "customers": "B2C",
+   "hours": true,
+   "holdout": null
+  },
+  {
+   "id": "clothing_shop",
+   "n": 10,
+   "en": "clothing shop",
+   "isic": "4771",
+   "customers": "B2C",
+   "hours": true,
+   "holdout": null
+  },
+  {
+   "id": "florist",
+   "n": 11,
+   "en": "florist",
+   "isic": "4773",
+   "customers": "B2C",
+   "hours": true,
+   "holdout": "T"
+  },
+  {
+   "id": "pharmacy",
+   "n": 12,
+   "en": "pharmacy",
+   "isic": "4772",
+   "customers": "B2C",
+   "hours": true,
+   "holdout": null
+  },
+  {
+   "id": "grocery",
+   "n": 13,
+   "en": "grocery / convenience store",
+   "isic": "4711",
+   "customers": "B2C",
+   "hours": true,
+   "holdout": null
+  },
+  {
+   "id": "ecommerce",
+   "n": 14,
+   "en": "online shop (e-commerce)",
+   "isic": "4791",
+   "customers": "B2C",
+   "hours": false,
+   "holdout": null
+  },
+  {
+   "id": "wholesale_electronics",
+   "n": 15,
+   "en": "wholesale of computers and electronics",
+   "isic": "4651",
+   "customers": "B2B",
+   "hours": false,
+   "holdout": null
+  },
+  {
+   "id": "software",
+   "n": 16,
+   "en": "software development",
+   "isic": "6201",
+   "customers": "B2B",
+   "hours": false,
+   "holdout": null
+  },
+  {
+   "id": "it_consulting",
+   "n": 17,
+   "en": "IT consulting and support",
+   "isic": "6202",
+   "customers": "B2B",
+   "hours": false,
+   "holdout": null
+  },
+  {
+   "id": "web_hosting",
+   "n": 18,
+   "en": "web hosting and data processing",
+   "isic": "6311",
+   "customers": "B2B",
+   "hours": false,
+   "holdout": "D"
+  },
+  {
+   "id": "accounting",
+   "n": 19,
+   "en": "accounting and tax advice",
+   "isic": "6920",
+   "customers": "both",
+   "hours": false,
+   "holdout": null
+  },
+  {
+   "id": "law_firm",
+   "n": 20,
+   "en": "law firm",
+   "isic": "6910",
+   "customers": "both",
+   "hours": false,
+   "holdout": null
+  },
+  {
+   "id": "management_consulting",
+   "n": 21,
+   "en": "management consulting",
+   "isic": "7020",
+   "customers": "B2B",
+   "hours": false,
+   "holdout": null
+  },
+  {
+   "id": "architecture",
+   "n": 22,
+   "en": "architecture office",
+   "isic": "7110",
+   "customers": "both",
+   "hours": false,
+   "holdout": "T"
+  },
+  {
+   "id": "advertising",
+   "n": 23,
+   "en": "advertising / marketing agency",
+   "isic": "7310",
+   "customers": "B2B",
+   "hours": false,
+   "holdout": null
+  },
+  {
+   "id": "photography",
+   "n": 24,
+   "en": "photography studio",
+   "isic": "7420",
+   "customers": "both",
+   "hours": true,
+   "holdout": null
+  },
+  {
+   "id": "translation",
+   "n": 25,
+   "en": "translation and interpreting",
+   "isic": "7490",
+   "customers": "both",
+   "hours": false,
+   "holdout": null
+  },
+  {
+   "id": "road_freight",
+   "n": 26,
+   "en": "road freight and logistics",
+   "isic": "4923",
+   "customers": "B2B",
+   "hours": false,
+   "holdout": null
+  },
+  {
+   "id": "courier",
+   "n": 27,
+   "en": "courier and delivery",
+   "isic": "5320",
+   "customers": "both",
+   "hours": false,
+   "holdout": null
+  },
+  {
+   "id": "travel_agency",
+   "n": 28,
+   "en": "travel agency",
+   "isic": "7911",
+   "customers": "B2C",
+   "hours": true,
+   "holdout": "D"
+  },
+  {
+   "id": "real_estate",
+   "n": 29,
+   "en": "real-estate agency",
+   "isic": "6820",
+   "customers": "both",
+   "hours": true,
+   "holdout": null
+  },
+  {
+   "id": "cleaning",
+   "n": 30,
+   "en": "cleaning services",
+   "isic": "8121",
+   "customers": "both",
+   "hours": false,
+   "holdout": null
+  },
+  {
+   "id": "security",
+   "n": 31,
+   "en": "security services",
+   "isic": "8010",
+   "customers": "B2B",
+   "hours": false,
+   "holdout": null
+  },
+  {
+   "id": "language_school",
+   "n": 32,
+   "en": "language school / tutoring",
+   "isic": "8549",
+   "customers": "B2C",
+   "hours": true,
+   "holdout": null
+  },
+  {
+   "id": "driving_school",
+   "n": 33,
+   "en": "driving school",
+   "isic": "8549",
+   "customers": "B2C",
+   "hours": true,
+   "holdout": "T"
+  },
+  {
+   "id": "fitness",
+   "n": 34,
+   "en": "fitness centre",
+   "isic": "9311",
+   "customers": "B2C",
+   "hours": true,
+   "holdout": null
+  },
+  {
+   "id": "hair_beauty",
+   "n": 35,
+   "en": "hairdresser and beauty salon",
+   "isic": "9602",
+   "customers": "B2C",
+   "hours": true,
+   "holdout": null
+  },
+  {
+   "id": "dental",
+   "n": 36,
+   "en": "dental practice",
+   "isic": "8620",
+   "customers": "B2C",
+   "hours": true,
+   "holdout": null
+  },
+  {
+   "id": "veterinary",
+   "n": 37,
+   "en": "veterinary clinic",
+   "isic": "7500",
+   "customers": "B2C",
+   "hours": true,
+   "holdout": "D"
+  },
+  {
+   "id": "printing",
+   "n": 38,
+   "en": "printing shop",
+   "isic": "1811",
+   "customers": "both",
+   "hours": true,
+   "holdout": null
+  },
+  {
+   "id": "furniture_maker",
+   "n": 39,
+   "en": "furniture maker",
+   "isic": "3100",
+   "customers": "both",
+   "hours": false,
+   "holdout": "T"
+  },
+  {
+   "id": "event_catering",
+   "n": 40,
+   "en": "event catering",
+   "isic": "5621",
+   "customers": "both",
+   "hours": false,
+   "holdout": null
+  }
+ ]
+}

@@ -1,0 +1,413 @@
+{
+ "_about": "Words for company names and countries (from the PLAN's shared data, written natively for the Extractor): name_patterns use {family} {given} {brand} {activity_word} {city} {initials}.",
+ "name_patterns": [
+  "{activity_word} {family}",
+  "{family} {activity_word}",
+  "{activity_word} {brand}",
+  "{brand} {activity_word}",
+  "{brand}",
+  "{family} & Figli",
+  "F.lli {family}",
+  "Fratelli {family}",
+  "{activity_word} F.lli {family}",
+  "{family} {given}",
+  "{activity_word} {family} {given}",
+  "{family} {given} & C.",
+  "{brand} di {family} {given}",
+  "{family} & C.",
+  "{initials} {activity_word}",
+  "{activity_word} {city}",
+  "{brand} {city}"
+ ],
+ "brand_words": [
+  "Girasole",
+  "Quadrifoglio",
+  "Glicine",
+  "Gelsomino",
+  "Mimosa",
+  "Lavanda",
+  "Ginestra",
+  "Primula",
+  "Magnolia",
+  "Melograno",
+  "Mandorlo",
+  "Ulivo",
+  "Castagno",
+  "Rovere",
+  "Edera",
+  "Ortensia",
+  "Camelia",
+  "Genziana",
+  "Fiordaliso",
+  "Stella Alpina",
+  "Maestrale",
+  "Libeccio",
+  "Scirocco",
+  "Grecale",
+  "Levante",
+  "Ponente",
+  "Zefiro",
+  "Tramontana",
+  "Aurora",
+  "Orizzonte",
+  "Arcobaleno",
+  "Cometa",
+  "Sirio",
+  "Orione",
+  "Vega",
+  "Altair",
+  "Astra",
+  "Polaris",
+  "Aurea",
+  "Lumen",
+  "Fides",
+  "Virtus",
+  "Domus",
+  "Opus",
+  "Ars Nova",
+  "Nexus",
+  "Concordia",
+  "Minerva",
+  "Vesta",
+  "Fenice",
+  "Pegaso",
+  "Iride",
+  "Partenope",
+  "Galatea",
+  "Ermes",
+  "Atena",
+  "Icaro",
+  "Dedalo",
+  "Ulisse",
+  "Eridano",
+  "Arcadia",
+  "Elettra",
+  "Futura",
+  "Prisma",
+  "Quasar",
+  "Zenit",
+  "Nadir",
+  "Kairos",
+  "Sinergia",
+  "Armonia",
+  "Omega",
+  "Sigma",
+  "Kappa",
+  "Delta",
+  "Gamma",
+  "Axia",
+  "Novaluce",
+  "Novalia",
+  "Sidera",
+  "Solaria",
+  "Luminaria",
+  "Eurosud",
+  "Italnord",
+  "Mediterranea",
+  "Alpina",
+  "Lariana",
+  "Ceresio",
+  "Verbano",
+  "Dolomia",
+  "Monviso",
+  "Tirreno",
+  "Adriatica",
+  "Bellavista",
+  "Belvedere",
+  "Miramonti",
+  "Miralago",
+  "Bellosguardo",
+  "Ca' Bianca",
+  "Corte Antica",
+  "Borgo Antico",
+  "Vecchio Mulino",
+  "Antica Fornace",
+  "Due Torri",
+  "Quattro Venti",
+  "La Pergola",
+  "La Lanterna",
+  "Il Faro",
+  "La Rotonda",
+  "Il Portico",
+  "La Loggia",
+  "Il Cortile",
+  "La Fontana",
+  "La Quercia",
+  "Il Gabbiano",
+  "La Bussola",
+  "Il Veliero",
+  "La Perla",
+  "Il Giardino",
+  "Airone",
+  "Aquilone",
+  "Libellula",
+  "Delfino",
+  "Falco"
+ ],
+ "country_names": {
+  "SA": "Arabia Saudita",
+  "AE": "Emirati Arabi Uniti",
+  "EG": "Egitto",
+  "MA": "Marocco",
+  "CN": "Cina",
+  "TW": "Taiwan",
+  "HK": "Hong Kong",
+  "SG": "Singapore",
+  "US": "Stati Uniti",
+  "GB": "Regno Unito",
+  "IN": "India",
+  "AU": "Australia",
+  "CA": "Canada",
+  "NG": "Nigeria",
+  "FR": "Francia",
+  "BE": "Belgio",
+  "CH": "Svizzera",
+  "SN": "Senegal",
+  "RU": "Russia",
+  "KZ": "Kazakistan",
+  "BY": "Bielorussia",
+  "ES": "Spagna",
+  "MX": "Messico",
+  "AR": "Argentina",
+  "CO": "Colombia",
+  "CL": "Cile",
+  "IT": "Italia",
+  "JP": "Giappone",
+  "KR": "Corea del Sud"
+ },
+ "activity_words": {
+  "bakery": [
+   "Panificio",
+   "Forno",
+   "Pasticceria",
+   "Panetteria"
+  ],
+  "restaurant": [
+   "Ristorante",
+   "Trattoria",
+   "Osteria",
+   "Pizzeria"
+  ],
+  "cafe_bar": [
+   "Bar",
+   "Caffè",
+   "Caffetteria"
+  ],
+  "hotel": [
+   "Hotel",
+   "Albergo",
+   "Locanda",
+   "Residence"
+  ],
+  "plumbing_hvac": [
+   "Termoidraulica",
+   "Idraulica",
+   "Impianti Termoidraulici",
+   "Termoimpianti"
+  ],
+  "electrical": [
+   "Elettroimpianti",
+   "Impianti Elettrici",
+   "Elettrica",
+   "Elettrotecnica"
+  ],
+  "building_contractor": [
+   "Costruzioni",
+   "Edilizia",
+   "Impresa Edile",
+   "Edil"
+  ],
+  "painting": [
+   "Tinteggiature",
+   "Decorazioni",
+   "Pitture Edili",
+   "Imbiancature"
+  ],
+  "car_repair": [
+   "Autofficina",
+   "Officina Meccanica",
+   "Autoriparazioni",
+   "Car Service"
+  ],
+  "clothing_shop": [
+   "Abbigliamento",
+   "Boutique",
+   "Moda",
+   "Confezioni"
+  ],
+  "florist": [
+   "Fioreria",
+   "Fiori",
+   "Fiori e Piante",
+   "Floricoltura"
+  ],
+  "pharmacy": [
+   "Farmacia"
+  ],
+  "grocery": [
+   "Alimentari",
+   "Market",
+   "Minimarket",
+   "Bottega"
+  ],
+  "ecommerce": [
+   "Shop",
+   "Store",
+   "Commerce",
+   "Web Store"
+  ],
+  "wholesale_electronics": [
+   "Informatica",
+   "Computer",
+   "Elettronica",
+   "Distribuzione"
+  ],
+  "software": [
+   "Software",
+   "Sistemi",
+   "Solutions",
+   "Lab"
+  ],
+  "it_consulting": [
+   "Informatica",
+   "Consulting",
+   "Computer Service",
+   "Sistemi Informatici"
+  ],
+  "web_hosting": [
+   "Hosting",
+   "Data Center",
+   "Cloud",
+   "Web Services"
+  ],
+  "accounting": [
+   "Studio",
+   "Studio Associato",
+   "Studio Commerciale",
+   "Servizi Contabili"
+  ],
+  "law_firm": [
+   "Studio Legale",
+   "Avvocati Associati",
+   "Legal"
+  ],
+  "management_consulting": [
+   "Consulting",
+   "Consulenze",
+   "Advisory",
+   "Management"
+  ],
+  "architecture": [
+   "Studio di Architettura",
+   "Architetti",
+   "Architetti Associati",
+   "Progetti"
+  ],
+  "advertising": [
+   "Comunicazione",
+   "Adv",
+   "Agency",
+   "Marketing"
+  ],
+  "photography": [
+   "Foto",
+   "Studio Fotografico",
+   "Fotografia",
+   "Photo"
+  ],
+  "translation": [
+   "Traduzioni",
+   "Translations",
+   "Interpreti",
+   "Language Services"
+  ],
+  "road_freight": [
+   "Trasporti",
+   "Autotrasporti",
+   "Logistica",
+   "Spedizioni"
+  ],
+  "courier": [
+   "Express",
+   "Corriere",
+   "Pony Express",
+   "Consegne"
+  ],
+  "travel_agency": [
+   "Viaggi",
+   "Agenzia Viaggi",
+   "Travel",
+   "Tour"
+  ],
+  "real_estate": [
+   "Immobiliare",
+   "Immobili",
+   "Gestioni Immobiliari",
+   "Real Estate"
+  ],
+  "cleaning": [
+   "Pulizie",
+   "Multiservizi",
+   "Servizi Integrati",
+   "Service"
+  ],
+  "security": [
+   "Vigilanza",
+   "Security",
+   "Sicurezza",
+   "Servizi Fiduciari"
+  ],
+  "language_school": [
+   "Scuola di Lingue",
+   "Language School",
+   "Centro Studi",
+   "Academy"
+  ],
+  "driving_school": [
+   "Autoscuola",
+   "Scuola Guida"
+  ],
+  "fitness": [
+   "Palestra",
+   "Fitness",
+   "Gym",
+   "Wellness"
+  ],
+  "hair_beauty": [
+   "Parrucchieri",
+   "Acconciature",
+   "Estetica",
+   "Hair Studio"
+  ],
+  "dental": [
+   "Studio Dentistico",
+   "Studio Odontoiatrico",
+   "Dental",
+   "Centro Dentale"
+  ],
+  "veterinary": [
+   "Clinica Veterinaria",
+   "Ambulatorio Veterinario",
+   "Studio Veterinario",
+   "Veterinaria"
+  ],
+  "printing": [
+   "Tipografia",
+   "Arti Grafiche",
+   "Grafica",
+   "Print"
+  ],
+  "furniture_maker": [
+   "Falegnameria",
+   "Mobilificio",
+   "Arredamenti",
+   "Mobili"
+  ],
+  "event_catering": [
+   "Catering",
+   "Banqueting",
+   "Ricevimenti",
+   "Eventi"
+  ]
+ }
+}

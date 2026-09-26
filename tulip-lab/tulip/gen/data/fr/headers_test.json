@@ -1,0 +1,184 @@
+{
+ "fields": {
+  "active": [
+   "Activé"
+  ],
+  "address": [
+   "Adresse (complète)"
+  ],
+  "afternoon": [
+   "Plage après-midi"
+  ],
+  "barcode": [
+   "EAN"
+  ],
+  "booking_client": [
+   "Patient(e)"
+  ],
+  "booking_date": [
+   "Date du RDV"
+  ],
+  "booking_datetime": [
+   "Date/heure"
+  ],
+  "booking_service": [
+   "Type de RDV"
+  ],
+  "booking_status": [
+   "Statut RDV"
+  ],
+  "category": [
+   "Rayon"
+  ],
+  "city": [
+   "Bureau distributeur"
+  ],
+  "client_name": [
+   "Nom / Raison sociale"
+  ],
+  "client_since": [
+   "Inscrit le"
+  ],
+  "closes": [
+   "Heure fermeture"
+  ],
+  "company": [
+   "Société"
+  ],
+  "contact_person": [
+   "Personne-ressource"
+  ],
+  "country": [
+   "Pays de facturation"
+  ],
+  "currency": [
+   "Devise de vente"
+  ],
+  "day": [
+   "Jours d'ouverture"
+  ],
+  "department": [
+   "Département"
+  ],
+  "description": [
+   "Description produit"
+  ],
+  "due_date": [
+   "Éch."
+  ],
+  "duration": [
+   "Durée approx."
+  ],
+  "email": [
+   "Adresse mail"
+  ],
+  "end_time": [
+   "H. fin"
+  ],
+  "first_name": [
+   "Prénom(s)"
+  ],
+  "hours": [
+   "Horaires d'ouverture"
+  ],
+  "hours_note": [
+   "Précisions"
+  ],
+  "invoice_client": [
+   "Destinataire"
+  ],
+  "invoice_date": [
+   "Date de la facture"
+  ],
+  "invoice_number": [
+   "N° pièce"
+  ],
+  "invoice_status": [
+   "Règlement"
+  ],
+  "last_name": [
+   "Nom de naissance"
+  ],
+  "morning": [
+   "Le matin"
+  ],
+  "opens": [
+   "Ouverture"
+  ],
+  "paid_date": [
+   "Date du paiement"
+  ],
+  "performer": [
+   "Réalisé par"
+  ],
+  "person_name": [
+   "Nom du collaborateur"
+  ],
+  "phone": [
+   "Tél."
+  ],
+  "postcode": [
+   "Code postal / NPA"
+  ],
+  "price": [
+   "Tarif ({cur})"
+  ],
+  "price_excl": [
+   "Prix HT ({cur})"
+  ],
+  "price_incl": [
+   "Prix de vente TTC"
+  ],
+  "product_name": [
+   "Désignation"
+  ],
+  "reg_id": [
+   "NEQ"
+  ],
+  "role": [
+   "Rôle"
+  ],
+  "service_name": [
+   "Désignation prestation"
+  ],
+  "sku": [
+   "Réf."
+  ],
+  "start_date": [
+   "Date entrée"
+  ],
+  "start_time": [
+   "Heure de la séance"
+  ],
+  "stock": [
+   "Qté en inventaire"
+  ],
+  "street": [
+   "Adr."
+  ],
+  "tax_amount": [
+   "TVA collectée"
+  ],
+  "time_range": [
+   "Créneau horaire"
+  ],
+  "total": [
+   "Total ({cur})"
+  ],
+  "total_excl": [
+   "Mt HT"
+  ],
+  "total_incl": [
+   "Total TVA incluse"
+  ],
+  "unit": [
+   "Unité de facturation"
+  ],
+  "variant": [
+   "Tailles"
+  ],
+  "vat_rate": [
+   "TVA (%)"
+  ]
+ }
+}

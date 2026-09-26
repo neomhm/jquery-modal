@@ -1,0 +1,32 @@
+{
+  "given_male": [
+    "Jean", "Pierre", "Michel", "Philippe", "Alain", "Nicolas", "Christophe", "Laurent",
+    "Frédéric", "Stéphane", "Olivier", "Julien", "Thomas", "Sébastien", "Antoine", "Guillaume",
+    "David", "François", "Éric", "Patrick", "Pascal", "Thierry", "Vincent", "Mathieu",
+    "Romain", "Alexandre", "Maxime", "Hugo", "Lucas", "Louis", "Benoît", "Damien",
+    "Jérôme", "Cédric", "Arnaud", "Bruno", "Gilles", "Yann", "Karim", "Mehdi",
+    "Kévin", "Jean-Marc", "Jean-Luc", "Gabriel", "Théo"
+  ],
+  "given_female": [
+    "Marie", "Nathalie", "Isabelle", "Sylvie", "Catherine", "Françoise", "Sophie", "Valérie",
+    "Christine", "Sandrine", "Stéphanie", "Céline", "Aurélie", "Émilie", "Julie", "Camille",
+    "Laura", "Pauline", "Manon", "Chloé", "Léa", "Anne", "Hélène", "Caroline",
+    "Véronique", "Virginie", "Delphine", "Élodie", "Claire", "Mathilde", "Agnès", "Béatrice",
+    "Laetitia", "Nadia", "Sarah", "Charlotte", "Juliette", "Inès", "Marie-Christine", "Anne-Sophie"
+  ],
+  "family": [
+    "Martin", "Bernard", "Thomas", "Petit", "Robert", "Richard", "Durand", "Dubois",
+    "Moreau", "Laurent", "Simon", "Michel", "Lefebvre", "Leroy", "Roux", "David",
+    "Bertrand", "Morel", "Fournier", "Girard", "Bonnet", "Dupont", "Lambert", "Fontaine",
+    "Rousseau", "Vincent", "Muller", "Lefèvre", "Faure", "André", "Mercier", "Blanc",
+    "Guérin", "Boyer", "Garnier", "Chevalier", "François", "Legrand", "Gauthier", "Garcia",
+    "Perrin", "Robin", "Clément", "Morin", "Nicolas", "Henry", "Roussel", "Mathieu",
+    "Masson", "Marchand", "Duval", "Denis", "Dumont", "Lemaire", "Noël", "Meyer",
+    "Dufour", "Meunier", "Brun", "Blanchard", "Giraud", "Joly", "Rivière", "Lucas",
+    "Brunet", "Gaillard", "Barbier", "Arnaud", "Martinez", "Gérard", "Roche", "Renard",
+    "Schmitt", "Roy", "Leroux", "Colin", "Vidal", "Caron", "Picard", "Fabre",
+    "Aubert", "Lemoine", "Renaud", "Dumas", "Lacroix", "Bourgeois", "Rolland", "Leclerc",
+    "Le Gall", "Le Goff", "Da Silva", "Benali", "Hoarau", "Nguyen", "Pelletier", "Lebrun",
+    "Charpentier", "Delaunay", "Tessier", "Maréchal", "Besson", "Guillot", "Poirier", "Berger"
+  ]
+}

@@ -1,0 +1,11840 @@
+{
+ "bakery": {
+  "categories": [
+   "식빵·건강빵",
+   "과자빵",
+   "케이크",
+   "구움과자",
+   "샌드위치",
+   "음료"
+  ],
+  "roles": [
+   "제빵사",
+   "제과사",
+   "파티시에",
+   "매장 직원",
+   "제빵 보조",
+   "점장",
+   "대표"
+  ],
+  "departments": [
+   "생산팀",
+   "매장",
+   "경영지원"
+  ],
+  "items": [
+   {
+    "name": "소금빵",
+    "kind": "product",
+    "category": "과자빵",
+    "usd": [
+     2.2,
+     2.8
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "단팥빵",
+    "kind": "product",
+    "category": "과자빵",
+    "usd": [
+     1.85,
+     2.6
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "소보로빵",
+    "kind": "product",
+    "category": "과자빵",
+    "usd": [
+     1.5,
+     2.2
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "크루아상",
+    "kind": "product",
+    "category": "과자빵",
+    "usd": [
+     2.6,
+     3.55
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "크림치즈 베이글",
+    "kind": "product",
+    "category": "과자빵",
+    "usd": [
+     3.0,
+     4.1
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "우유식빵",
+    "kind": "product",
+    "category": "식빵·건강빵",
+    "usd": [
+     3.3,
+     4.8
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "쌀식빵",
+    "kind": "product",
+    "category": "식빵·건강빵",
+    "usd": [
+     3.7,
+     5.2
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "모닝빵 (6개입)",
+    "kind": "product",
+    "category": "식빵·건강빵",
+    "usd": [
+     3.0,
+     4.4
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "바게트",
+    "kind": "product",
+    "category": "식빵·건강빵",
+    "usd": [
+     2.95,
+     4.1
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "치아바타",
+    "kind": "product",
+    "category": "식빵·건강빵",
+    "usd": [
+     2.6,
+     3.7
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "통밀 캄파뉴",
+    "kind": "product",
+    "category": "식빵·건강빵",
+    "usd": [
+     4.8,
+     7.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "에그타르트",
+    "kind": "product",
+    "category": "구움과자",
+    "usd": [
+     1.85,
+     2.6
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "휘낭시에",
+    "kind": "product",
+    "category": "구움과자",
+    "usd": [
+     2.1,
+     2.8
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "수제 쿠키",
+    "kind": "product",
+    "category": "구움과자",
+    "usd": [
+     1.5,
+     2.6
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "마들렌 선물세트",
+    "kind": "product",
+    "category": "구움과자",
+    "usd": [
+     13.3,
+     20.7
+    ],
+    "unit": "box",
+    "variants": [
+     "6구",
+     "10구",
+     "15구"
+    ]
+   },
+   {
+    "name": "생크림 케이크",
+    "kind": "product",
+    "category": "케이크",
+    "usd": [
+     20.7,
+     28.1
+    ],
+    "unit": "piece",
+    "variants": [
+     "1호",
+     "2호",
+     "3호"
+    ]
+   },
+   {
+    "name": "딸기 생크림 케이크",
+    "kind": "product",
+    "category": "케이크",
+    "usd": [
+     31.1,
+     43.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "1호",
+     "2호",
+     "3호"
+    ]
+   },
+   {
+    "name": "레터링 케이크",
+    "kind": "product",
+    "category": "케이크",
+    "usd": [
+     28.1,
+     48.1
+    ],
+    "unit": "piece",
+    "variants": [
+     "미니",
+     "1호",
+     "2호"
+    ]
+   },
+   {
+    "name": "롤케이크",
+    "kind": "product",
+    "category": "케이크",
+    "usd": [
+     11.9,
+     17.8
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "치즈케이크 조각",
+    "kind": "product",
+    "category": "케이크",
+    "usd": [
+     4.4,
+     5.9
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "햄치즈 샌드위치",
+    "kind": "product",
+    "category": "샌드위치",
+    "usd": [
+     4.1,
+     5.9
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "에그마요 샌드위치",
+    "kind": "product",
+    "category": "샌드위치",
+    "usd": [
+     3.7,
+     5.2
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "아메리카노",
+    "kind": "product",
+    "category": "음료",
+    "usd": [
+     2.2,
+     3.3
+    ],
+    "unit": "piece",
+    "variants": [
+     "레귤러",
+     "라지"
+    ]
+   },
+   {
+    "name": "카페라테",
+    "kind": "product",
+    "category": "음료",
+    "usd": [
+     3.0,
+     4.1
+    ],
+    "unit": "piece",
+    "variants": [
+     "레귤러",
+     "라지"
+    ]
+   }
+  ]
+ },
+ "restaurant": {
+  "categories": [
+   "식사",
+   "구이",
+   "요리·안주",
+   "코스",
+   "주류",
+   "음료"
+  ],
+  "roles": [
+   "주방장",
+   "조리사",
+   "주방 보조",
+   "홀 매니저",
+   "홀 직원",
+   "점장",
+   "사장"
+  ],
+  "departments": [
+   "주방",
+   "홀",
+   "카운터"
+  ],
+  "items": [
+   {
+    "name": "김치찌개",
+    "kind": "product",
+    "category": "식사",
+    "usd": [
+     6.7,
+     8.1
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "된장찌개",
+    "kind": "product",
+    "category": "식사",
+    "usd": [
+     6.7,
+     8.1
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "제육볶음 정식",
+    "kind": "product",
+    "category": "식사",
+    "usd": [
+     7.4,
+     9.6
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "갈비탕",
+    "kind": "product",
+    "category": "식사",
+    "usd": [
+     9.6,
+     12.6
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "물냉면",
+    "kind": "product",
+    "category": "식사",
+    "usd": [
+     7.4,
+     10.4
+    ],
+    "unit": "piece",
+    "variants": [
+     "보통",
+     "곱빼기"
+    ]
+   },
+   {
+    "name": "비빔냉면",
+    "kind": "product",
+    "category": "식사",
+    "usd": [
+     7.4,
+     10.4
+    ],
+    "unit": "piece",
+    "variants": [
+     "보통",
+     "곱빼기"
+    ]
+   },
+   {
+    "name": "점심 특선 백반",
+    "kind": "product",
+    "category": "식사",
+    "usd": [
+     5.9,
+     7.4
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "공깃밥",
+    "kind": "product",
+    "category": "식사",
+    "usd": [
+     0.74,
+     1.48
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "돼지갈비",
+    "kind": "product",
+    "category": "구이",
+    "usd": [
+     11.9,
+     16.3
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "삼겹살",
+    "kind": "product",
+    "category": "구이",
+    "usd": [
+     11.9,
+     15.6
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "목살",
+    "kind": "product",
+    "category": "구이",
+    "usd": [
+     11.9,
+     15.6
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "한우 등심",
+    "kind": "product",
+    "category": "구이",
+    "usd": [
+     33.3,
+     48.1
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "해물파전",
+    "kind": "product",
+    "category": "요리·안주",
+    "usd": [
+     11.1,
+     16.3
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "계란말이",
+    "kind": "product",
+    "category": "요리·안주",
+    "usd": [
+     5.9,
+     8.9
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "보쌈",
+    "kind": "product",
+    "category": "요리·안주",
+    "usd": [
+     22.2,
+     37.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "소",
+     "중",
+     "대"
+    ]
+   },
+   {
+    "name": "닭볶음탕",
+    "kind": "product",
+    "category": "요리·안주",
+    "usd": [
+     22.2,
+     33.3
+    ],
+    "unit": "piece",
+    "variants": [
+     "소",
+     "중",
+     "대"
+    ]
+   },
+   {
+    "name": "한정식 코스",
+    "kind": "product",
+    "category": "코스",
+    "usd": [
+     25.9,
+     59.3
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "단체 회식 코스",
+    "kind": "product",
+    "category": "코스",
+    "usd": [
+     22.2,
+     37.0
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "소주",
+    "kind": "product",
+    "category": "주류",
+    "usd": [
+     3.7,
+     4.45
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "맥주",
+    "kind": "product",
+    "category": "주류",
+    "usd": [
+     3.7,
+     5.2
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "막걸리",
+    "kind": "product",
+    "category": "주류",
+    "usd": [
+     3.0,
+     4.4
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "음료수",
+    "kind": "product",
+    "category": "음료",
+    "usd": [
+     1.48,
+     2.22
+    ],
+    "unit": "piece"
+   }
+  ]
+ },
+ "cafe_bar": {
+  "categories": [
+   "커피",
+   "논커피",
+   "에이드·티",
+   "디저트",
+   "주류",
+   "대관"
+  ],
+  "roles": [
+   "바리스타",
+   "매니저",
+   "점장",
+   "바텐더",
+   "홀 직원",
+   "아르바이트",
+   "대표"
+  ],
+  "departments": [
+   "매장",
+   "바",
+   "주방"
+  ],
+  "items": [
+   {
+    "name": "아메리카노",
+    "kind": "product",
+    "category": "커피",
+    "usd": [
+     2.6,
+     3.7
+    ],
+    "unit": "piece",
+    "variants": [
+     "레귤러",
+     "라지"
+    ]
+   },
+   {
+    "name": "카페라테",
+    "kind": "product",
+    "category": "커피",
+    "usd": [
+     3.3,
+     4.3
+    ],
+    "unit": "piece",
+    "variants": [
+     "레귤러",
+     "라지"
+    ]
+   },
+   {
+    "name": "바닐라 라테",
+    "kind": "product",
+    "category": "커피",
+    "usd": [
+     3.7,
+     4.7
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "카푸치노",
+    "kind": "product",
+    "category": "커피",
+    "usd": [
+     3.3,
+     4.3
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "콜드브루",
+    "kind": "product",
+    "category": "커피",
+    "usd": [
+     3.7,
+     4.45
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "아인슈페너",
+    "kind": "product",
+    "category": "커피",
+    "usd": [
+     4.1,
+     5.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "핸드드립 커피",
+    "kind": "product",
+    "category": "커피",
+    "usd": [
+     4.45,
+     6.3
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "원두 (하우스 블렌드)",
+    "kind": "product",
+    "category": "커피",
+    "usd": [
+     9.6,
+     16.3
+    ],
+    "unit": "pack",
+    "variants": [
+     "200g",
+     "500g",
+     "1kg"
+    ]
+   },
+   {
+    "name": "말차 라테",
+    "kind": "product",
+    "category": "논커피",
+    "usd": [
+     4.1,
+     4.8
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "초코 라테",
+    "kind": "product",
+    "category": "논커피",
+    "usd": [
+     3.7,
+     4.4
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "딸기 스무디",
+    "kind": "product",
+    "category": "논커피",
+    "usd": [
+     4.4,
+     5.2
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "자몽에이드",
+    "kind": "product",
+    "category": "에이드·티",
+    "usd": [
+     4.1,
+     4.8
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "레몬에이드",
+    "kind": "product",
+    "category": "에이드·티",
+    "usd": [
+     4.1,
+     4.8
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "캐모마일 티",
+    "kind": "product",
+    "category": "에이드·티",
+    "usd": [
+     3.3,
+     4.1
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "크로플",
+    "kind": "product",
+    "category": "디저트",
+    "usd": [
+     3.3,
+     5.2
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "티라미수",
+    "kind": "product",
+    "category": "디저트",
+    "usd": [
+     4.8,
+     5.9
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "바스크 치즈케이크",
+    "kind": "product",
+    "category": "디저트",
+    "usd": [
+     4.8,
+     5.9
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "생맥주",
+    "kind": "product",
+    "category": "주류",
+    "usd": [
+     3.3,
+     4.45
+    ],
+    "unit": "piece",
+    "variants": [
+     "300cc",
+     "500cc",
+     "1000cc"
+    ]
+   },
+   {
+    "name": "하이볼",
+    "kind": "product",
+    "category": "주류",
+    "usd": [
+     5.9,
+     8.9
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "칵테일",
+    "kind": "product",
+    "category": "주류",
+    "usd": [
+     8.9,
+     13.3
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "하우스 와인",
+    "kind": "product",
+    "category": "주류",
+    "usd": [
+     6.7,
+     9.6
+    ],
+    "unit": "piece",
+    "variants": [
+     "글라스",
+     "보틀"
+    ]
+   },
+   {
+    "name": "공간 대관",
+    "kind": "service",
+    "category": "대관",
+    "usd": [
+     55.0,
+     148.0
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     240
+    ]
+   }
+  ]
+ },
+ "hotel": {
+  "categories": [
+   "객실",
+   "식음료",
+   "부대시설",
+   "연회·행사",
+   "기타 서비스"
+  ],
+  "roles": [
+   "프런트 데스크",
+   "하우스키퍼",
+   "벨맨",
+   "컨시어지",
+   "예약 담당",
+   "조리장",
+   "지배인",
+   "총지배인"
+  ],
+  "departments": [
+   "객실부",
+   "식음료부",
+   "관리부",
+   "영업부"
+  ],
+  "items": [
+   {
+    "name": "스탠다드 더블룸",
+    "kind": "service",
+    "category": "객실",
+    "usd": [
+     66.7,
+     119.0
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "디럭스 트윈룸",
+    "kind": "service",
+    "category": "객실",
+    "usd": [
+     88.9,
+     163.0
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "패밀리룸",
+    "kind": "service",
+    "category": "객실",
+    "usd": [
+     119.0,
+     207.0
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "주니어 스위트룸",
+    "kind": "service",
+    "category": "객실",
+    "usd": [
+     207.0,
+     407.0
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "조식 포함 객실 패키지",
+    "kind": "service",
+    "category": "객실",
+    "usd": [
+     111.0,
+     222.0
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "데이유즈 (6시간)",
+    "kind": "service",
+    "category": "객실",
+    "usd": [
+     44.4,
+     74.1
+    ],
+    "unit": "session",
+    "minutes": [
+     360,
+     360
+    ]
+   },
+   {
+    "name": "엑스트라 베드",
+    "kind": "service",
+    "category": "객실",
+    "usd": [
+     22.2,
+     37.0
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "장기 투숙 (월)",
+    "kind": "service",
+    "category": "객실",
+    "usd": [
+     1333.0,
+     2593.0
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "레이트 체크아웃",
+    "kind": "service",
+    "category": "객실",
+    "usd": [
+     18.5,
+     37.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "얼리 체크인",
+    "kind": "service",
+    "category": "객실",
+    "usd": [
+     18.5,
+     37.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "조식 뷔페",
+    "kind": "product",
+    "category": "식음료",
+    "usd": [
+     13.3,
+     25.9
+    ],
+    "unit": "person",
+    "variants": [
+     "소인",
+     "대인"
+    ]
+   },
+   {
+    "name": "룸서비스 세트",
+    "kind": "product",
+    "category": "식음료",
+    "usd": [
+     18.5,
+     33.3
+    ],
+    "unit": "piece",
+    "variants": [
+     "1인",
+     "2인"
+    ]
+   },
+   {
+    "name": "라운지 하우스 와인",
+    "kind": "product",
+    "category": "식음료",
+    "usd": [
+     11.1,
+     18.5
+    ],
+    "unit": "piece",
+    "variants": [
+     "글라스",
+     "보틀"
+    ]
+   },
+   {
+    "name": "미니바 음료",
+    "kind": "product",
+    "category": "식음료",
+    "usd": [
+     3.0,
+     5.9
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "사우나 이용권",
+    "kind": "service",
+    "category": "부대시설",
+    "usd": [
+     11.1,
+     18.5
+    ],
+    "unit": "person",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "피트니스 센터 이용",
+    "kind": "service",
+    "category": "부대시설",
+    "usd": [
+     7.4,
+     14.8
+    ],
+    "unit": "person",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "발레파킹",
+    "kind": "service",
+    "category": "부대시설",
+    "usd": [
+     7.4,
+     14.8
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     20
+    ]
+   },
+   {
+    "name": "연회장 대관 (4시간)",
+    "kind": "service",
+    "category": "연회·행사",
+    "usd": [
+     593.0,
+     2222.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     240
+    ]
+   },
+   {
+    "name": "세미나실 대관",
+    "kind": "service",
+    "category": "연회·행사",
+    "usd": [
+     222.0,
+     593.0
+    ],
+    "unit": "day",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "웨딩 연회 (1인)",
+    "kind": "service",
+    "category": "연회·행사",
+    "usd": [
+     59.3,
+     111.0
+    ],
+    "unit": "person",
+    "minutes": [
+     120,
+     180
+    ]
+   },
+   {
+    "name": "공항 픽업 서비스",
+    "kind": "service",
+    "category": "기타 서비스",
+    "usd": [
+     44.4,
+     88.9
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "세탁 서비스",
+    "kind": "service",
+    "category": "기타 서비스",
+    "usd": [
+     3.7,
+     11.1
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     480
+    ]
+   }
+  ]
+ },
+ "plumbing_hvac": {
+  "categories": [
+   "보일러",
+   "냉난방",
+   "배관·누수",
+   "욕실·주방 설비",
+   "점검·유지보수"
+  ],
+  "roles": [
+   "설비기사",
+   "배관공",
+   "보일러 기사",
+   "에어컨 설치기사",
+   "현장 소장",
+   "견적 담당",
+   "대표"
+  ],
+  "departments": [
+   "시공팀",
+   "A/S팀",
+   "사무실"
+  ],
+  "items": [
+   {
+    "name": "콘덴싱 보일러 (설치 포함)",
+    "kind": "product",
+    "category": "보일러",
+    "usd": [
+     593.0,
+     1111.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "20평형",
+     "30평형",
+     "40평형"
+    ]
+   },
+   {
+    "name": "보일러 출장 수리",
+    "kind": "service",
+    "category": "보일러",
+    "usd": [
+     37.0,
+     111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "보일러 정기 점검",
+    "kind": "service",
+    "category": "보일러",
+    "usd": [
+     22.2,
+     44.4
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "난방 배관 청소",
+    "kind": "service",
+    "category": "보일러",
+    "usd": [
+     111.0,
+     222.0
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "벽걸이 에어컨",
+    "kind": "product",
+    "category": "냉난방",
+    "usd": [
+     370.0,
+     740.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "6평형",
+     "9평형",
+     "13평형"
+    ]
+   },
+   {
+    "name": "벽걸이 에어컨 설치",
+    "kind": "service",
+    "category": "냉난방",
+    "usd": [
+     111.0,
+     185.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "천장형 시스템 에어컨 설치",
+    "kind": "service",
+    "category": "냉난방",
+    "usd": [
+     889.0,
+     1852.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "에어컨 냉매 충전",
+    "kind": "service",
+    "category": "냉난방",
+    "usd": [
+     44.4,
+     111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "에어컨 이전 설치",
+    "kind": "service",
+    "category": "냉난방",
+    "usd": [
+     111.0,
+     222.0
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "누수 탐지",
+    "kind": "service",
+    "category": "배관·누수",
+    "usd": [
+     111.0,
+     296.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "하수구 막힘 고압 세척",
+    "kind": "service",
+    "category": "배관·누수",
+    "usd": [
+     59.3,
+     185.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "급수 배관 교체 공사",
+    "kind": "service",
+    "category": "배관·누수",
+    "usd": [
+     22.2,
+     44.4
+    ],
+    "unit": "m",
+    "minutes": [
+     20,
+     60
+    ]
+   },
+   {
+    "name": "동파 해빙 작업",
+    "kind": "service",
+    "category": "배관·누수",
+    "usd": [
+     59.3,
+     148.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "싱크대 배수관 교체",
+    "kind": "service",
+    "category": "욕실·주방 설비",
+    "usd": [
+     44.4,
+     111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "수전 교체 (주방·욕실)",
+    "kind": "service",
+    "category": "욕실·주방 설비",
+    "usd": [
+     37.0,
+     88.9
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "양변기 (설치 포함)",
+    "kind": "product",
+    "category": "욕실·주방 설비",
+    "usd": [
+     148.0,
+     296.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "일반형",
+     "절수형",
+     "비데일체형"
+    ]
+   },
+   {
+    "name": "전기온수기 (설치 포함)",
+    "kind": "product",
+    "category": "욕실·주방 설비",
+    "usd": [
+     185.0,
+     370.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "15L",
+     "30L",
+     "50L"
+    ]
+   },
+   {
+    "name": "상가 설비 정기 점검",
+    "kind": "service",
+    "category": "점검·유지보수",
+    "usd": [
+     111.0,
+     370.0
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "배관공 1일 작업",
+    "kind": "service",
+    "category": "점검·유지보수",
+    "usd": [
+     185.0,
+     296.0
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "기본 출장비",
+    "kind": "service",
+    "category": "점검·유지보수",
+    "usd": [
+     18.5,
+     37.0
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   }
+  ]
+ },
+ "electrical": {
+  "categories": [
+   "조명",
+   "배선·콘센트",
+   "분전반·전력",
+   "신재생·충전",
+   "점검·관리"
+  ],
+  "roles": [
+   "전기기사",
+   "전기기능사",
+   "전기공사 기술자",
+   "현장 소장",
+   "보조 기사",
+   "견적 담당",
+   "대표"
+  ],
+  "departments": [
+   "공사팀",
+   "설계팀",
+   "관리팀"
+  ],
+  "items": [
+   {
+    "name": "LED 평판등 (설치 포함)",
+    "kind": "product",
+    "category": "조명",
+    "usd": [
+     29.6,
+     74.1
+    ],
+    "unit": "piece",
+    "variants": [
+     "30W",
+     "40W",
+     "50W"
+    ]
+   },
+   {
+    "name": "LED 조명 교체",
+    "kind": "service",
+    "category": "조명",
+    "usd": [
+     22.2,
+     74.1
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "비상조명등",
+    "kind": "product",
+    "category": "조명",
+    "usd": [
+     37.0,
+     88.9
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "매입 콘센트",
+    "kind": "product",
+    "category": "배선·콘센트",
+    "usd": [
+     3.7,
+     7.4
+    ],
+    "unit": "piece",
+    "variants": [
+     "1구",
+     "2구",
+     "3구"
+    ]
+   },
+   {
+    "name": "콘센트 증설",
+    "kind": "service",
+    "category": "배선·콘센트",
+    "usd": [
+     22.2,
+     59.3
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "아파트 전체 배선 교체",
+    "kind": "service",
+    "category": "배선·콘센트",
+    "usd": [
+     2222.0,
+     5926.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "상가 전기 인테리어 공사",
+    "kind": "service",
+    "category": "배선·콘센트",
+    "usd": [
+     29.6,
+     66.7
+    ],
+    "unit": "m2",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "CCTV 배선 공사",
+    "kind": "service",
+    "category": "배선·콘센트",
+    "usd": [
+     222.0,
+     1111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "인터넷·통신 배선",
+    "kind": "service",
+    "category": "배선·콘센트",
+    "usd": [
+     74.1,
+     222.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "누전차단기",
+    "kind": "product",
+    "category": "분전반·전력",
+    "usd": [
+     14.8,
+     37.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "20A",
+     "30A",
+     "50A"
+    ]
+   },
+   {
+    "name": "분전반 교체",
+    "kind": "service",
+    "category": "분전반·전력",
+    "usd": [
+     185.0,
+     444.0
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "계약전력 증설 공사",
+    "kind": "service",
+    "category": "분전반·전력",
+    "usd": [
+     370.0,
+     1852.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "접지 공사",
+    "kind": "service",
+    "category": "분전반·전력",
+    "usd": [
+     148.0,
+     593.0
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "전기차 완속 충전기",
+    "kind": "product",
+    "category": "신재생·충전",
+    "usd": [
+     741.0,
+     1481.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "7kW",
+     "11kW"
+    ]
+   },
+   {
+    "name": "주택용 태양광 발전 설비",
+    "kind": "product",
+    "category": "신재생·충전",
+    "usd": [
+     3704.0,
+     5556.0
+    ],
+    "unit": "set",
+    "variants": [
+     "3kW",
+     "5kW",
+     "7kW"
+    ]
+   },
+   {
+    "name": "누전 점검 및 수리",
+    "kind": "service",
+    "category": "점검·관리",
+    "usd": [
+     37.0,
+     148.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "전기기사 출장 점검",
+    "kind": "service",
+    "category": "점검·관리",
+    "usd": [
+     37.0,
+     59.3
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "전기안전관리 대행",
+    "kind": "service",
+    "category": "점검·관리",
+    "usd": [
+     74.1,
+     296.0
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "전기 설비 설계 도면 작성",
+    "kind": "service",
+    "category": "점검·관리",
+    "usd": [
+     370.0,
+     2222.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "전기공 1일 인건비",
+    "kind": "service",
+    "category": "점검·관리",
+    "usd": [
+     185.0,
+     259.0
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   }
+  ]
+ },
+ "building_contractor": {
+  "categories": [
+   "신축 공사",
+   "리모델링",
+   "골조·기초",
+   "방수·단열",
+   "설계·관리"
+  ],
+  "roles": [
+   "현장소장",
+   "공무 담당",
+   "건축기사",
+   "목수",
+   "철근공",
+   "안전관리자",
+   "견적 담당",
+   "대표이사"
+  ],
+  "departments": [
+   "공사부",
+   "공무팀",
+   "설계팀",
+   "경영지원팀"
+  ],
+  "items": [
+   {
+    "name": "단독주택 신축 공사 (철근콘크리트조)",
+    "kind": "service",
+    "category": "신축 공사",
+    "usd": [
+     1556.0,
+     2222.0
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "근린생활시설 신축 공사",
+    "kind": "service",
+    "category": "신축 공사",
+    "usd": [
+     1407.0,
+     2000.0
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "경량철골 창고 신축",
+    "kind": "service",
+    "category": "신축 공사",
+    "usd": [
+     519.0,
+     889.0
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "증축 공사",
+    "kind": "service",
+    "category": "신축 공사",
+    "usd": [
+     1111.0,
+     1852.0
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "아파트 전체 리모델링 (32평)",
+    "kind": "service",
+    "category": "리모델링",
+    "usd": [
+     29630.0,
+     51852.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "욕실 리모델링",
+    "kind": "service",
+    "category": "리모델링",
+    "usd": [
+     3704.0,
+     6667.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "주방 리모델링",
+    "kind": "service",
+    "category": "리모델링",
+    "usd": [
+     4444.0,
+     8889.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "내부 철거 공사",
+    "kind": "service",
+    "category": "리모델링",
+    "usd": [
+     22.2,
+     51.9
+    ],
+    "unit": "m2",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "시스템 창호 교체",
+    "kind": "service",
+    "category": "리모델링",
+    "usd": [
+     1111.0,
+     2593.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "타일 공사",
+    "kind": "service",
+    "category": "리모델링",
+    "usd": [
+     29.6,
+     51.9
+    ],
+    "unit": "m2",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "목공 공사 (천장·벽체)",
+    "kind": "service",
+    "category": "리모델링",
+    "usd": [
+     29.6,
+     59.3
+    ],
+    "unit": "m2",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "건설폐기물 처리 (1톤)",
+    "kind": "service",
+    "category": "리모델링",
+    "usd": [
+     111.0,
+     185.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "기초 콘크리트 타설",
+    "kind": "service",
+    "category": "골조·기초",
+    "usd": [
+     59.3,
+     111.0
+    ],
+    "unit": "m2",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "조적 공사",
+    "kind": "service",
+    "category": "골조·기초",
+    "usd": [
+     37.0,
+     66.7
+    ],
+    "unit": "m2",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "비계 설치 및 해체",
+    "kind": "service",
+    "category": "골조·기초",
+    "usd": [
+     7.4,
+     14.8
+    ],
+    "unit": "m2",
+    "minutes": [
+     10,
+     30
+    ]
+   },
+   {
+    "name": "기능공 1일 노무비",
+    "kind": "service",
+    "category": "골조·기초",
+    "usd": [
+     185.0,
+     259.0
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "옥상 방수 공사",
+    "kind": "service",
+    "category": "방수·단열",
+    "usd": [
+     18.5,
+     37.0
+    ],
+    "unit": "m2",
+    "minutes": [
+     20,
+     40
+    ]
+   },
+   {
+    "name": "외벽 단열 공사",
+    "kind": "service",
+    "category": "방수·단열",
+    "usd": [
+     44.4,
+     88.9
+    ],
+    "unit": "m2",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "건축 설계 및 인허가 대행",
+    "kind": "service",
+    "category": "설계·관리",
+    "usd": [
+     3704.0,
+     14815.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "공사 현장 관리",
+    "kind": "service",
+    "category": "설계·관리",
+    "usd": [
+     2222.0,
+     4444.0
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   }
+  ]
+ },
+ "painting": {
+  "categories": [
+   "실내 도장",
+   "외부 도장",
+   "도배",
+   "방수·특수 도장",
+   "자재"
+  ],
+  "roles": [
+   "도장공",
+   "도배사",
+   "방수 기술자",
+   "현장 반장",
+   "견적 담당",
+   "보조 인력",
+   "대표"
+  ],
+  "departments": [
+   "시공팀",
+   "견적·영업",
+   "사무실"
+  ],
+  "items": [
+   {
+    "name": "실내 벽면 페인트 시공",
+    "kind": "service",
+    "category": "실내 도장",
+    "usd": [
+     8.9,
+     18.5
+    ],
+    "unit": "m2",
+    "minutes": [
+     20,
+     40
+    ]
+   },
+   {
+    "name": "천장 도장",
+    "kind": "service",
+    "category": "실내 도장",
+    "usd": [
+     7.4,
+     14.8
+    ],
+    "unit": "m2",
+    "minutes": [
+     20,
+     40
+    ]
+   },
+   {
+    "name": "방문 페인트 도장",
+    "kind": "service",
+    "category": "실내 도장",
+    "usd": [
+     59.3,
+     111.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "몰딩·걸레받이 도장",
+    "kind": "service",
+    "category": "실내 도장",
+    "usd": [
+     3.7,
+     7.4
+    ],
+    "unit": "m",
+    "minutes": [
+     10,
+     30
+    ]
+   },
+   {
+    "name": "상가 인테리어 도장",
+    "kind": "service",
+    "category": "실내 도장",
+    "usd": [
+     11.1,
+     22.2
+    ],
+    "unit": "m2",
+    "minutes": [
+     20,
+     40
+    ]
+   },
+   {
+    "name": "인테리어 필름 시공",
+    "kind": "service",
+    "category": "실내 도장",
+    "usd": [
+     22.2,
+     44.4
+    ],
+    "unit": "m2",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "도장공 1일 작업",
+    "kind": "service",
+    "category": "실내 도장",
+    "usd": [
+     185.0,
+     259.0
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "아파트 외벽 재도장",
+    "kind": "service",
+    "category": "외부 도장",
+    "usd": [
+     5.9,
+     13.3
+    ],
+    "unit": "m2",
+    "minutes": [
+     10,
+     30
+    ]
+   },
+   {
+    "name": "철재 방청 도장",
+    "kind": "service",
+    "category": "외부 도장",
+    "usd": [
+     11.1,
+     22.2
+    ],
+    "unit": "m2",
+    "minutes": [
+     20,
+     40
+    ]
+   },
+   {
+    "name": "샷시 페인트 도장",
+    "kind": "service",
+    "category": "외부 도장",
+    "usd": [
+     111.0,
+     296.0
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     360
+    ]
+   },
+   {
+    "name": "주차 라인 도색",
+    "kind": "service",
+    "category": "외부 도장",
+    "usd": [
+     1.11,
+     2.22
+    ],
+    "unit": "m",
+    "minutes": [
+     5,
+     10
+    ]
+   },
+   {
+    "name": "실크벽지 도배 (아파트 전체)",
+    "kind": "service",
+    "category": "도배",
+    "usd": [
+     1852.0,
+     2963.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "합지벽지 도배",
+    "kind": "service",
+    "category": "도배",
+    "usd": [
+     5.2,
+     8.9
+    ],
+    "unit": "m2",
+    "minutes": [
+     10,
+     20
+    ]
+   },
+   {
+    "name": "에폭시 바닥 코팅",
+    "kind": "service",
+    "category": "방수·특수 도장",
+    "usd": [
+     18.5,
+     37.0
+    ],
+    "unit": "m2",
+    "minutes": [
+     20,
+     40
+    ]
+   },
+   {
+    "name": "베란다 탄성코트 시공",
+    "kind": "service",
+    "category": "방수·특수 도장",
+    "usd": [
+     222.0,
+     444.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "곰팡이 제거 및 결로 방지 도장",
+    "kind": "service",
+    "category": "방수·특수 도장",
+    "usd": [
+     148.0,
+     370.0
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     300
+    ]
+   },
+   {
+    "name": "옥상 우레탄 방수",
+    "kind": "service",
+    "category": "방수·특수 도장",
+    "usd": [
+     18.5,
+     33.3
+    ],
+    "unit": "m2",
+    "minutes": [
+     20,
+     40
+    ]
+   },
+   {
+    "name": "친환경 수성페인트",
+    "kind": "product",
+    "category": "자재",
+    "usd": [
+     22.2,
+     74.1
+    ],
+    "unit": "piece",
+    "variants": [
+     "1L",
+     "4L",
+     "18L"
+    ]
+   },
+   {
+    "name": "실크벽지 (1롤)",
+    "kind": "product",
+    "category": "자재",
+    "usd": [
+     22.2,
+     37.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "소폭",
+     "광폭"
+    ]
+   },
+   {
+    "name": "합지벽지 (1롤)",
+    "kind": "product",
+    "category": "자재",
+    "usd": [
+     11.1,
+     18.5
+    ],
+    "unit": "piece",
+    "variants": [
+     "소폭",
+     "광폭"
+    ]
+   }
+  ]
+ },
+ "car_repair": {
+  "categories": [
+   "엔진·오일",
+   "타이어·휠",
+   "브레이크·하체",
+   "판금·도장",
+   "점검·기타",
+   "부품"
+  ],
+  "roles": [
+   "정비사",
+   "수석 정비사",
+   "판금사",
+   "도장사",
+   "공장장",
+   "접수 담당",
+   "대표"
+  ],
+  "departments": [
+   "정비팀",
+   "판금·도장팀",
+   "접수·사무"
+  ],
+  "items": [
+   {
+    "name": "엔진오일 교환 (합성유)",
+    "kind": "service",
+    "category": "엔진·오일",
+    "usd": [
+     44.4,
+     88.9
+    ],
+    "unit": "session",
+    "minutes": [
+     20,
+     40
+    ]
+   },
+   {
+    "name": "미션오일 교환",
+    "kind": "service",
+    "category": "엔진·오일",
+    "usd": [
+     74.1,
+     185.0
+    ],
+    "unit": "session",
+    "minutes": [
+     40,
+     90
+    ]
+   },
+   {
+    "name": "냉각수 교환",
+    "kind": "service",
+    "category": "엔진·오일",
+    "usd": [
+     37.0,
+     74.1
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "타이밍벨트 교환",
+    "kind": "service",
+    "category": "엔진·오일",
+    "usd": [
+     296.0,
+     667.0
+    ],
+    "unit": "session",
+    "minutes": [
+     180,
+     300
+    ]
+   },
+   {
+    "name": "점화플러그 교환",
+    "kind": "service",
+    "category": "엔진·오일",
+    "usd": [
+     44.4,
+     96.3
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "타이어 탈착 공임",
+    "kind": "service",
+    "category": "타이어·휠",
+    "usd": [
+     7.4,
+     14.8
+    ],
+    "unit": "piece",
+    "minutes": [
+     10,
+     20
+    ]
+   },
+   {
+    "name": "휠 얼라인먼트",
+    "kind": "service",
+    "category": "타이어·휠",
+    "usd": [
+     29.6,
+     59.3
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "브레이크 패드 교환 (앞)",
+    "kind": "service",
+    "category": "브레이크·하체",
+    "usd": [
+     44.4,
+     111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "쇼크업소버 교환",
+    "kind": "service",
+    "category": "브레이크·하체",
+    "usd": [
+     222.0,
+     444.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "판금 도장 (도어 1판)",
+    "kind": "service",
+    "category": "판금·도장",
+    "usd": [
+     148.0,
+     333.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "앞범퍼 교체",
+    "kind": "service",
+    "category": "판금·도장",
+    "usd": [
+     222.0,
+     519.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "사고 차량 수리 (보험 처리)",
+    "kind": "service",
+    "category": "판금·도장",
+    "usd": [
+     370.0,
+     2222.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "광택 및 유리막 코팅",
+    "kind": "service",
+    "category": "판금·도장",
+    "usd": [
+     185.0,
+     444.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "에어컨 가스 충전",
+    "kind": "service",
+    "category": "점검·기타",
+    "usd": [
+     37.0,
+     74.1
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "차량 종합 점검",
+    "kind": "service",
+    "category": "점검·기타",
+    "usd": [
+     22.2,
+     44.4
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "일반 정비 공임",
+    "kind": "service",
+    "category": "점검·기타",
+    "usd": [
+     37.0,
+     66.7
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "배터리",
+    "kind": "product",
+    "category": "부품",
+    "usd": [
+     74.1,
+     163.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "60Ah",
+     "80Ah",
+     "100Ah"
+    ]
+   },
+   {
+    "name": "타이어 (1본)",
+    "kind": "product",
+    "category": "부품",
+    "usd": [
+     74.1,
+     185.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "16인치",
+     "17인치",
+     "18인치"
+    ]
+   },
+   {
+    "name": "합성 엔진오일",
+    "kind": "product",
+    "category": "부품",
+    "usd": [
+     37.0,
+     66.7
+    ],
+    "unit": "piece",
+    "variants": [
+     "4L",
+     "5L",
+     "6L"
+    ]
+   },
+   {
+    "name": "와이퍼 블레이드",
+    "kind": "product",
+    "category": "부품",
+    "usd": [
+     14.8,
+     29.6
+    ],
+    "unit": "set",
+    "variants": [
+     "소형",
+     "중형",
+     "대형"
+    ]
+   },
+   {
+    "name": "에어컨 필터",
+    "kind": "product",
+    "category": "부품",
+    "usd": [
+     11.1,
+     22.2
+    ],
+    "unit": "piece"
+   }
+  ]
+ },
+ "clothing_shop": {
+  "categories": [
+   "상의",
+   "하의",
+   "아우터",
+   "원피스",
+   "잡화",
+   "수선"
+  ],
+  "roles": [
+   "매장 매니저",
+   "판매 직원",
+   "점장",
+   "MD",
+   "VMD",
+   "수선사",
+   "아르바이트"
+  ],
+  "departments": [
+   "매장",
+   "온라인팀",
+   "창고"
+  ],
+  "items": [
+   {
+    "name": "무지 반팔 티셔츠",
+    "kind": "product",
+    "category": "상의",
+    "usd": [
+     14.1,
+     28.9
+    ],
+    "unit": "piece",
+    "variants": [
+     "1장",
+     "2장 세트",
+     "3장 세트"
+    ]
+   },
+   {
+    "name": "맨투맨",
+    "kind": "product",
+    "category": "상의",
+    "usd": [
+     21.5,
+     43.7
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "옥스퍼드 셔츠",
+    "kind": "product",
+    "category": "상의",
+    "usd": [
+     25.9,
+     51.1
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "니트 가디건",
+    "kind": "product",
+    "category": "상의",
+    "usd": [
+     28.9,
+     58.5
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "스트라이프 긴팔 티셔츠",
+    "kind": "product",
+    "category": "상의",
+    "usd": [
+     18.5,
+     33.3
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "슬랙스",
+    "kind": "product",
+    "category": "하의",
+    "usd": [
+     28.9,
+     65.9
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "데님 팬츠",
+    "kind": "product",
+    "category": "하의",
+    "usd": [
+     36.3,
+     88.1
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "플리츠 스커트",
+    "kind": "product",
+    "category": "하의",
+    "usd": [
+     28.9,
+     51.9
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "기모 레깅스",
+    "kind": "product",
+    "category": "하의",
+    "usd": [
+     11.1,
+     22.2
+    ],
+    "unit": "piece",
+    "variants": [
+     "1매",
+     "2매 세트"
+    ]
+   },
+   {
+    "name": "후드 집업",
+    "kind": "product",
+    "category": "아우터",
+    "usd": [
+     36.3,
+     65.9
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "트렌치코트",
+    "kind": "product",
+    "category": "아우터",
+    "usd": [
+     95.6,
+     214.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "울 코트",
+    "kind": "product",
+    "category": "아우터",
+    "usd": [
+     140.0,
+     340.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "롱패딩",
+    "kind": "product",
+    "category": "아우터",
+    "usd": [
+     118.0,
+     296.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "경량 패딩 조끼",
+    "kind": "product",
+    "category": "아우터",
+    "usd": [
+     36.3,
+     73.3
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "롱 원피스",
+    "kind": "product",
+    "category": "원피스",
+    "usd": [
+     43.7,
+     95.6
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "셔츠 원피스",
+    "kind": "product",
+    "category": "원피스",
+    "usd": [
+     36.3,
+     73.3
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "실크 스카프",
+    "kind": "product",
+    "category": "잡화",
+    "usd": [
+     14.1,
+     36.3
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "가죽 벨트",
+    "kind": "product",
+    "category": "잡화",
+    "usd": [
+     21.5,
+     58.5
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "양말 세트",
+    "kind": "product",
+    "category": "잡화",
+    "usd": [
+     7.4,
+     14.8
+    ],
+    "unit": "pack",
+    "variants": [
+     "3족",
+     "5족",
+     "10족"
+    ]
+   },
+   {
+    "name": "에코백",
+    "kind": "product",
+    "category": "잡화",
+    "usd": [
+     11.1,
+     22.2
+    ],
+    "unit": "piece",
+    "variants": [
+     "소",
+     "대"
+    ]
+   },
+   {
+    "name": "바지 기장 수선",
+    "kind": "service",
+    "category": "수선",
+    "usd": [
+     3.7,
+     7.4
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     30
+    ]
+   },
+   {
+    "name": "소매 기장 수선",
+    "kind": "service",
+    "category": "수선",
+    "usd": [
+     7.4,
+     14.8
+    ],
+    "unit": "session",
+    "minutes": [
+     20,
+     40
+    ]
+   }
+  ]
+ },
+ "florist": {
+  "categories": [
+   "꽃다발",
+   "꽃바구니",
+   "화환",
+   "화분·식물",
+   "기타 서비스"
+  ],
+  "roles": [
+   "플로리스트",
+   "플라워 디자이너",
+   "매장 직원",
+   "배송 기사",
+   "원장",
+   "보조 플로리스트"
+  ],
+  "departments": [
+   "매장",
+   "작업실",
+   "배송"
+  ],
+  "items": [
+   {
+    "name": "장미 꽃다발",
+    "kind": "product",
+    "category": "꽃다발",
+    "usd": [
+     29.6,
+     66.7
+    ],
+    "unit": "piece",
+    "variants": [
+     "S",
+     "M",
+     "L"
+    ]
+   },
+   {
+    "name": "계절 꽃다발",
+    "kind": "product",
+    "category": "꽃다발",
+    "usd": [
+     22.2,
+     51.9
+    ],
+    "unit": "piece",
+    "variants": [
+     "소",
+     "중",
+     "대"
+    ]
+   },
+   {
+    "name": "장미 한 송이",
+    "kind": "product",
+    "category": "꽃다발",
+    "usd": [
+     2.2,
+     4.4
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "프러포즈 100송이 꽃다발",
+    "kind": "product",
+    "category": "꽃다발",
+    "usd": [
+     148.0,
+     259.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "졸업식 꽃다발",
+    "kind": "product",
+    "category": "꽃다발",
+    "usd": [
+     22.2,
+     44.4
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "웨딩 부케",
+    "kind": "product",
+    "category": "꽃다발",
+    "usd": [
+     111.0,
+     296.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "정기 꽃 구독 (월 4회)",
+    "kind": "product",
+    "category": "꽃다발",
+    "usd": [
+     44.4,
+     111.0
+    ],
+    "unit": "month"
+   },
+   {
+    "name": "꽃바구니",
+    "kind": "product",
+    "category": "꽃바구니",
+    "usd": [
+     37.0,
+     88.9
+    ],
+    "unit": "piece",
+    "variants": [
+     "소",
+     "중",
+     "대"
+    ]
+   },
+   {
+    "name": "과일 꽃바구니",
+    "kind": "product",
+    "category": "꽃바구니",
+    "usd": [
+     59.3,
+     111.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "프리저브드 플라워 박스",
+    "kind": "product",
+    "category": "꽃바구니",
+    "usd": [
+     33.3,
+     88.9
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "축하 화환 (3단)",
+    "kind": "product",
+    "category": "화환",
+    "usd": [
+     59.3,
+     88.9
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "근조 화환 (3단)",
+    "kind": "product",
+    "category": "화환",
+    "usd": [
+     59.3,
+     96.3
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "근조 바구니",
+    "kind": "product",
+    "category": "화환",
+    "usd": [
+     44.4,
+     74.1
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "동양란 화분",
+    "kind": "product",
+    "category": "화분·식물",
+    "usd": [
+     37.0,
+     111.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "호접란 화분",
+    "kind": "product",
+    "category": "화분·식물",
+    "usd": [
+     44.4,
+     148.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "2대",
+     "3대",
+     "5대"
+    ]
+   },
+   {
+    "name": "개업 축하 금전수",
+    "kind": "product",
+    "category": "화분·식물",
+    "usd": [
+     74.1,
+     148.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "대형 관엽식물 (몬스테라)",
+    "kind": "product",
+    "category": "화분·식물",
+    "usd": [
+     37.0,
+     133.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "공기정화식물 소형 화분",
+    "kind": "product",
+    "category": "화분·식물",
+    "usd": [
+     7.4,
+     22.2
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "다육식물",
+    "kind": "product",
+    "category": "화분·식물",
+    "usd": [
+     3.7,
+     11.1
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "행사장 꽃 장식",
+    "kind": "service",
+    "category": "기타 서비스",
+    "usd": [
+     370.0,
+     2222.0
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     360
+    ]
+   },
+   {
+    "name": "원데이 플라워 클래스",
+    "kind": "service",
+    "category": "기타 서비스",
+    "usd": [
+     37.0,
+     66.7
+    ],
+    "unit": "person",
+    "minutes": [
+     90,
+     120
+    ]
+   },
+   {
+    "name": "꽃 배달 (시내)",
+    "kind": "service",
+    "category": "기타 서비스",
+    "usd": [
+     3.7,
+     7.4
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     90
+    ]
+   }
+  ]
+ },
+ "pharmacy": {
+  "categories": [
+   "조제",
+   "일반의약품",
+   "건강기능식품",
+   "의약외품",
+   "의료기기",
+   "생활용품"
+  ],
+  "roles": [
+   "약국장",
+   "근무약사",
+   "전산원",
+   "판매 직원",
+   "약국 보조원",
+   "파트타임 약사"
+  ],
+  "departments": [
+   "조제실",
+   "매장",
+   "사무"
+  ],
+  "items": [
+   {
+    "name": "처방전 조제",
+    "kind": "service",
+    "category": "조제",
+    "usd": [
+     2.2,
+     11.1
+    ],
+    "unit": "session",
+    "minutes": [
+     5,
+     20
+    ]
+   },
+   {
+    "name": "종합감기약",
+    "kind": "product",
+    "category": "일반의약품",
+    "usd": [
+     2.2,
+     4.4
+    ],
+    "unit": "box",
+    "variants": [
+     "10정",
+     "20정"
+    ]
+   },
+   {
+    "name": "해열진통제",
+    "kind": "product",
+    "category": "일반의약품",
+    "usd": [
+     1.85,
+     3.3
+    ],
+    "unit": "box",
+    "variants": [
+     "10정",
+     "30정"
+    ]
+   },
+   {
+    "name": "소화제 (10정)",
+    "kind": "product",
+    "category": "일반의약품",
+    "usd": [
+     2.2,
+     3.7
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "인공눈물",
+    "kind": "product",
+    "category": "일반의약품",
+    "usd": [
+     5.9,
+     11.1
+    ],
+    "unit": "box",
+    "variants": [
+     "30개입",
+     "60개입"
+    ]
+   },
+   {
+    "name": "파스 (5매)",
+    "kind": "product",
+    "category": "일반의약품",
+    "usd": [
+     3.0,
+     5.9
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "상처 연고",
+    "kind": "product",
+    "category": "일반의약품",
+    "usd": [
+     3.7,
+     6.7
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "쌍화탕",
+    "kind": "product",
+    "category": "일반의약품",
+    "usd": [
+     0.74,
+     1.11
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "멀미약",
+    "kind": "product",
+    "category": "일반의약품",
+    "usd": [
+     1.85,
+     3.7
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "종합비타민",
+    "kind": "product",
+    "category": "건강기능식품",
+    "usd": [
+     18.5,
+     44.4
+    ],
+    "unit": "box",
+    "variants": [
+     "30정",
+     "60정",
+     "90정"
+    ]
+   },
+   {
+    "name": "유산균",
+    "kind": "product",
+    "category": "건강기능식품",
+    "usd": [
+     18.5,
+     33.3
+    ],
+    "unit": "box",
+    "variants": [
+     "30포",
+     "60포"
+    ]
+   },
+   {
+    "name": "오메가3 (90캡슐)",
+    "kind": "product",
+    "category": "건강기능식품",
+    "usd": [
+     18.5,
+     37.0
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "마그네슘",
+    "kind": "product",
+    "category": "건강기능식품",
+    "usd": [
+     11.1,
+     22.2
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "밴드 (30매)",
+    "kind": "product",
+    "category": "의약외품",
+    "usd": [
+     1.48,
+     2.96
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "KF94 마스크 (5매)",
+    "kind": "product",
+    "category": "의약외품",
+    "usd": [
+     2.2,
+     4.4
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "피로회복제 (10병)",
+    "kind": "product",
+    "category": "의약외품",
+    "usd": [
+     5.2,
+     8.9
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "손소독제",
+    "kind": "product",
+    "category": "의약외품",
+    "usd": [
+     2.2,
+     4.4
+    ],
+    "unit": "piece",
+    "variants": [
+     "60ml",
+     "500ml"
+    ]
+   },
+   {
+    "name": "임신테스트기",
+    "kind": "product",
+    "category": "의료기기",
+    "usd": [
+     2.2,
+     5.9
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "전자 체온계",
+    "kind": "product",
+    "category": "의료기기",
+    "usd": [
+     11.1,
+     22.2
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "자동 혈압계",
+    "kind": "product",
+    "category": "의료기기",
+    "usd": [
+     37.0,
+     74.1
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "잇몸 치약",
+    "kind": "product",
+    "category": "생활용품",
+    "usd": [
+     3.0,
+     5.9
+    ],
+    "unit": "piece"
+   }
+  ]
+ },
+ "grocery": {
+  "categories": [
+   "농산물",
+   "축산·계란",
+   "가공식품",
+   "음료·주류",
+   "생활용품",
+   "즉석식품"
+  ],
+  "roles": [
+   "점장",
+   "부점장",
+   "캐셔",
+   "진열 담당",
+   "정육 담당",
+   "아르바이트",
+   "배달 기사"
+  ],
+  "departments": [
+   "매장",
+   "정육코너",
+   "물류·창고"
+  ],
+  "items": [
+   {
+    "name": "백미",
+    "kind": "product",
+    "category": "농산물",
+    "usd": [
+     22.2,
+     31.1
+    ],
+    "unit": "piece",
+    "variants": [
+     "4kg",
+     "10kg",
+     "20kg"
+    ]
+   },
+   {
+    "name": "사과",
+    "kind": "product",
+    "category": "농산물",
+    "usd": [
+     8.9,
+     14.8
+    ],
+    "unit": "box",
+    "variants": [
+     "5입",
+     "10입"
+    ]
+   },
+   {
+    "name": "대파 (1단)",
+    "kind": "product",
+    "category": "농산물",
+    "usd": [
+     1.48,
+     2.96
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "양파 (1.5kg)",
+    "kind": "product",
+    "category": "농산물",
+    "usd": [
+     2.96,
+     4.44
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "계란",
+    "kind": "product",
+    "category": "축산·계란",
+    "usd": [
+     5.2,
+     7.4
+    ],
+    "unit": "box",
+    "variants": [
+     "10구",
+     "15구",
+     "30구"
+    ]
+   },
+   {
+    "name": "국산 삼겹살",
+    "kind": "product",
+    "category": "축산·계란",
+    "usd": [
+     14.8,
+     25.9
+    ],
+    "unit": "kg"
+   },
+   {
+    "name": "한우 불고기용",
+    "kind": "product",
+    "category": "축산·계란",
+    "usd": [
+     37.0,
+     59.3
+    ],
+    "unit": "kg"
+   },
+   {
+    "name": "흰우유",
+    "kind": "product",
+    "category": "음료·주류",
+    "usd": [
+     2.07,
+     2.6
+    ],
+    "unit": "piece",
+    "variants": [
+     "500ml",
+     "1L",
+     "2.3L"
+    ]
+   },
+   {
+    "name": "생수 (2L×6병)",
+    "kind": "product",
+    "category": "음료·주류",
+    "usd": [
+     2.96,
+     5.2
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "캔커피",
+    "kind": "product",
+    "category": "음료·주류",
+    "usd": [
+     0.89,
+     1.33
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "소주",
+    "kind": "product",
+    "category": "음료·주류",
+    "usd": [
+     1.3,
+     1.63
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "캔맥주 (500ml)",
+    "kind": "product",
+    "category": "음료·주류",
+    "usd": [
+     2.2,
+     3.3
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "두부",
+    "kind": "product",
+    "category": "가공식품",
+    "usd": [
+     1.11,
+     2.22
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "배추김치",
+    "kind": "product",
+    "category": "가공식품",
+    "usd": [
+     5.9,
+     11.1
+    ],
+    "unit": "kg"
+   },
+   {
+    "name": "라면 (5개입)",
+    "kind": "product",
+    "category": "가공식품",
+    "usd": [
+     2.96,
+     4.07
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "식용유 (1.8L)",
+    "kind": "product",
+    "category": "가공식품",
+    "usd": [
+     4.4,
+     6.7
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "삼각김밥",
+    "kind": "product",
+    "category": "즉석식품",
+    "usd": [
+     0.96,
+     1.33
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "도시락",
+    "kind": "product",
+    "category": "즉석식품",
+    "usd": [
+     3.3,
+     4.8
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "컵라면",
+    "kind": "product",
+    "category": "즉석식품",
+    "usd": [
+     0.96,
+     1.48
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "화장지 (30롤)",
+    "kind": "product",
+    "category": "생활용품",
+    "usd": [
+     8.9,
+     16.3
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "주방세제",
+    "kind": "product",
+    "category": "생활용품",
+    "usd": [
+     2.96,
+     5.2
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "종량제 봉투 (20L 10매)",
+    "kind": "product",
+    "category": "생활용품",
+    "usd": [
+     3.7,
+     5.2
+    ],
+    "unit": "pack"
+   }
+  ]
+ },
+ "ecommerce": {
+  "categories": [
+   "홈·리빙",
+   "디지털·가전",
+   "뷰티",
+   "패션잡화",
+   "반려동물",
+   "식품"
+  ],
+  "roles": [
+   "MD",
+   "CS 상담원",
+   "온라인 마케터",
+   "상세페이지 디자이너",
+   "물류 담당",
+   "운영 매니저",
+   "대표"
+  ],
+  "departments": [
+   "운영팀",
+   "마케팅팀",
+   "CS팀",
+   "물류팀"
+  ],
+  "items": [
+   {
+    "name": "스테인리스 텀블러",
+    "kind": "product",
+    "category": "홈·리빙",
+    "usd": [
+     11.1,
+     25.9
+    ],
+    "unit": "piece",
+    "variants": [
+     "350ml",
+     "500ml",
+     "750ml"
+    ]
+   },
+   {
+    "name": "극세사 이불 세트",
+    "kind": "product",
+    "category": "홈·리빙",
+    "usd": [
+     36.3,
+     88.1
+    ],
+    "unit": "set",
+    "variants": [
+     "싱글",
+     "퀸",
+     "킹"
+    ]
+   },
+   {
+    "name": "3단 수납 정리함",
+    "kind": "product",
+    "category": "홈·리빙",
+    "usd": [
+     14.7,
+     33.3
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "주방 칼 세트",
+    "kind": "product",
+    "category": "홈·리빙",
+    "usd": [
+     28.9,
+     73.3
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "캠핑 의자",
+    "kind": "product",
+    "category": "홈·리빙",
+    "usd": [
+     21.5,
+     58.5
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "요가 매트",
+    "kind": "product",
+    "category": "홈·리빙",
+    "usd": [
+     14.1,
+     33.3
+    ],
+    "unit": "piece",
+    "variants": [
+     "6mm",
+     "10mm",
+     "16mm"
+    ]
+   },
+   {
+    "name": "LED 무드등",
+    "kind": "product",
+    "category": "홈·리빙",
+    "usd": [
+     11.8,
+     28.9
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "차량용 방향제",
+    "kind": "product",
+    "category": "홈·리빙",
+    "usd": [
+     7.3,
+     14.7
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "무선 이어폰",
+    "kind": "product",
+    "category": "디지털·가전",
+    "usd": [
+     21.5,
+     65.9
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "스마트폰 케이스",
+    "kind": "product",
+    "category": "디지털·가전",
+    "usd": [
+     7.3,
+     18.5
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "고속 충전기",
+    "kind": "product",
+    "category": "디지털·가전",
+    "usd": [
+     11.1,
+     25.9
+    ],
+    "unit": "piece",
+    "variants": [
+     "20W",
+     "45W",
+     "65W"
+    ]
+   },
+   {
+    "name": "무선 청소기",
+    "kind": "product",
+    "category": "디지털·가전",
+    "usd": [
+     95.6,
+     296.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "핸드크림 선물세트",
+    "kind": "product",
+    "category": "뷰티",
+    "usd": [
+     11.1,
+     25.9
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "마스크팩 (10매)",
+    "kind": "product",
+    "category": "뷰티",
+    "usd": [
+     7.3,
+     18.5
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "선크림",
+    "kind": "product",
+    "category": "뷰티",
+    "usd": [
+     11.1,
+     22.2
+    ],
+    "unit": "piece",
+    "variants": [
+     "50ml",
+     "100ml"
+    ]
+   },
+   {
+    "name": "미니 크로스백",
+    "kind": "product",
+    "category": "패션잡화",
+    "usd": [
+     22.2,
+     44.4
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "캔버스 에코백",
+    "kind": "product",
+    "category": "패션잡화",
+    "usd": [
+     9.6,
+     18.5
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "반려견 간식",
+    "kind": "product",
+    "category": "반려동물",
+    "usd": [
+     9.6,
+     22.1
+    ],
+    "unit": "pack",
+    "variants": [
+     "300g",
+     "1kg"
+    ]
+   },
+   {
+    "name": "고양이 모래 (6L)",
+    "kind": "product",
+    "category": "반려동물",
+    "usd": [
+     7.4,
+     14.8
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "제철 과일 선물세트",
+    "kind": "product",
+    "category": "식품",
+    "usd": [
+     28.9,
+     73.3
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "하루견과 (30봉)",
+    "kind": "product",
+    "category": "식품",
+    "usd": [
+     14.8,
+     25.9
+    ],
+    "unit": "box"
+   }
+  ]
+ },
+ "wholesale_electronics": {
+  "categories": [
+   "PC·노트북",
+   "모니터·주변기기",
+   "부품",
+   "네트워크",
+   "소프트웨어",
+   "소모품"
+  ],
+  "roles": [
+   "영업사원",
+   "기술영업",
+   "구매 담당",
+   "물류 담당",
+   "납품 기사",
+   "영업관리",
+   "대표이사"
+  ],
+  "departments": [
+   "영업팀",
+   "구매팀",
+   "물류팀",
+   "경영지원팀"
+  ],
+  "items": [
+   {
+    "name": "사무용 노트북 (15.6형)",
+    "kind": "product",
+    "category": "PC·노트북",
+    "usd": [
+     630.0,
+     963.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "i5 8GB",
+     "i5 16GB",
+     "i7 16GB"
+    ]
+   },
+   {
+    "name": "사무용 데스크톱 PC",
+    "kind": "product",
+    "category": "PC·노트북",
+    "usd": [
+     519.0,
+     889.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "i3",
+     "i5",
+     "i7"
+    ]
+   },
+   {
+    "name": "태블릿 PC",
+    "kind": "product",
+    "category": "PC·노트북",
+    "usd": [
+     333.0,
+     889.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "64GB",
+     "128GB",
+     "256GB"
+    ]
+   },
+   {
+    "name": "PC 설치 및 세팅",
+    "kind": "service",
+    "category": "PC·노트북",
+    "usd": [
+     22.2,
+     44.4
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "27인치 QHD 모니터",
+    "kind": "product",
+    "category": "모니터·주변기기",
+    "usd": [
+     185.0,
+     333.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "24인치 FHD 모니터",
+    "kind": "product",
+    "category": "모니터·주변기기",
+    "usd": [
+     111.0,
+     185.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "무선 키보드·마우스 세트",
+    "kind": "product",
+    "category": "모니터·주변기기",
+    "usd": [
+     18.5,
+     44.4
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "레이저 복합기",
+    "kind": "product",
+    "category": "모니터·주변기기",
+    "usd": [
+     259.0,
+     889.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "NVMe SSD",
+    "kind": "product",
+    "category": "부품",
+    "usd": [
+     66.7,
+     119.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "512GB",
+     "1TB",
+     "2TB"
+    ]
+   },
+   {
+    "name": "DDR5 메모리",
+    "kind": "product",
+    "category": "부품",
+    "usd": [
+     44.4,
+     74.1
+    ],
+    "unit": "piece",
+    "variants": [
+     "8GB",
+     "16GB",
+     "32GB"
+    ]
+   },
+   {
+    "name": "외장하드",
+    "kind": "product",
+    "category": "부품",
+    "usd": [
+     66.7,
+     104.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "1TB",
+     "2TB",
+     "4TB"
+    ]
+   },
+   {
+    "name": "그래픽카드",
+    "kind": "product",
+    "category": "부품",
+    "usd": [
+     296.0,
+     741.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "24포트 기가비트 스위치",
+    "kind": "product",
+    "category": "네트워크",
+    "usd": [
+     185.0,
+     667.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "기업용 무선 AP",
+    "kind": "product",
+    "category": "네트워크",
+    "usd": [
+     111.0,
+     333.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "유무선 공유기",
+    "kind": "product",
+    "category": "네트워크",
+    "usd": [
+     37.0,
+     111.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "CAT.6 랜케이블 (305m)",
+    "kind": "product",
+    "category": "네트워크",
+    "usd": [
+     74.1,
+     148.0
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "무정전전원장치 (UPS 1kVA)",
+    "kind": "product",
+    "category": "네트워크",
+    "usd": [
+     185.0,
+     370.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "1U 랙 서버",
+    "kind": "product",
+    "category": "네트워크",
+    "usd": [
+     2963.0,
+     8889.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "윈도우 11 Pro 라이선스",
+    "kind": "product",
+    "category": "소프트웨어",
+    "usd": [
+     148.0,
+     222.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "MS 오피스 (기업용)",
+    "kind": "product",
+    "category": "소프트웨어",
+    "usd": [
+     185.0,
+     296.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "백신 프로그램 (1년)",
+    "kind": "product",
+    "category": "소프트웨어",
+    "usd": [
+     22.2,
+     37.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "정품 토너 카트리지",
+    "kind": "product",
+    "category": "소모품",
+    "usd": [
+     44.4,
+     133.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "A4 복사용지 (2500매)",
+    "kind": "product",
+    "category": "소모품",
+    "usd": [
+     18.5,
+     25.9
+    ],
+    "unit": "box"
+   }
+  ]
+ },
+ "software": {
+  "categories": [
+   "웹·앱 개발",
+   "맞춤 개발",
+   "유지보수",
+   "라이선스·구독",
+   "디자인·기획",
+   "교육·지원"
+  ],
+  "roles": [
+   "PM",
+   "백엔드 개발자",
+   "프론트엔드 개발자",
+   "앱 개발자",
+   "UI/UX 디자이너",
+   "QA 엔지니어",
+   "기획자",
+   "CTO"
+  ],
+  "departments": [
+   "개발팀",
+   "기획팀",
+   "디자인팀",
+   "경영지원팀"
+  ],
+  "items": [
+   {
+    "name": "반응형 홈페이지 제작",
+    "kind": "service",
+    "category": "웹·앱 개발",
+    "usd": [
+     2222.0,
+     11111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "모바일 앱 개발 (iOS·안드로이드)",
+    "kind": "service",
+    "category": "웹·앱 개발",
+    "usd": [
+     14815.0,
+     59259.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "쇼핑몰 구축",
+    "kind": "service",
+    "category": "웹·앱 개발",
+    "usd": [
+     3704.0,
+     18519.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "앱 스토어 등록 대행",
+    "kind": "service",
+    "category": "웹·앱 개발",
+    "usd": [
+     148.0,
+     370.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "ERP 맞춤 개발",
+    "kind": "service",
+    "category": "맞춤 개발",
+    "usd": [
+     7407.0,
+     44444.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "외부 API 연동 개발",
+    "kind": "service",
+    "category": "맞춤 개발",
+    "usd": [
+     1481.0,
+     5926.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "기능 추가 개발",
+    "kind": "service",
+    "category": "맞춤 개발",
+    "usd": [
+     741.0,
+     3704.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "챗봇 구축",
+    "kind": "service",
+    "category": "맞춤 개발",
+    "usd": [
+     2222.0,
+     7407.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "개발 용역 (중급 개발자)",
+    "kind": "service",
+    "category": "맞춤 개발",
+    "usd": [
+     4815.0,
+     7037.0
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "개발 용역 (고급 개발자)",
+    "kind": "service",
+    "category": "맞춤 개발",
+    "usd": [
+     6667.0,
+     9630.0
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "유지보수 계약",
+    "kind": "service",
+    "category": "유지보수",
+    "usd": [
+     370.0,
+     2222.0
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "서버 구축 및 배포",
+    "kind": "service",
+    "category": "유지보수",
+    "usd": [
+     741.0,
+     3704.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "클라우드 운영 대행",
+    "kind": "service",
+    "category": "유지보수",
+    "usd": [
+     148.0,
+     741.0
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "소스코드 보안 약점 진단",
+    "kind": "service",
+    "category": "유지보수",
+    "usd": [
+     1481.0,
+     5185.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "SaaS 구독 (사용자 1인)",
+    "kind": "product",
+    "category": "라이선스·구독",
+    "usd": [
+     7.4,
+     22.2
+    ],
+    "unit": "month",
+    "variants": [
+     "베이직",
+     "스탠다드",
+     "프리미엄"
+    ]
+   },
+   {
+    "name": "소프트웨어 영구 라이선스",
+    "kind": "product",
+    "category": "라이선스·구독",
+    "usd": [
+     741.0,
+     7407.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "1PC",
+     "5PC",
+     "10PC"
+    ]
+   },
+   {
+    "name": "POS 연동 모듈",
+    "kind": "product",
+    "category": "라이선스·구독",
+    "usd": [
+     370.0,
+     1111.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "기본형",
+     "확장형"
+    ]
+   },
+   {
+    "name": "UI/UX 디자인",
+    "kind": "service",
+    "category": "디자인·기획",
+    "usd": [
+     2222.0,
+     11111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "요구사항 분석 및 기획",
+    "kind": "service",
+    "category": "디자인·기획",
+    "usd": [
+     1481.0,
+     5926.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "기술 지원",
+    "kind": "service",
+    "category": "교육·지원",
+    "usd": [
+     59.3,
+     111.0
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "사용자 교육",
+    "kind": "service",
+    "category": "교육·지원",
+    "usd": [
+     222.0,
+     741.0
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     240
+    ]
+   }
+  ]
+ },
+ "it_consulting": {
+  "categories": [
+   "유지보수",
+   "구축",
+   "보안",
+   "컨설팅",
+   "기술지원",
+   "장비·라이선스"
+  ],
+  "roles": [
+   "IT 컨설턴트",
+   "시스템 엔지니어",
+   "네트워크 엔지니어",
+   "보안 컨설턴트",
+   "헬프데스크",
+   "영업 담당",
+   "대표"
+  ],
+  "departments": [
+   "기술지원팀",
+   "컨설팅팀",
+   "영업팀"
+  ],
+  "items": [
+   {
+    "name": "전산 유지보수 (PC 20대 기준)",
+    "kind": "service",
+    "category": "유지보수",
+    "usd": [
+     222.0,
+     593.0
+    ],
+    "unit": "month",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "헬프데스크 상주 인력",
+    "kind": "service",
+    "category": "유지보수",
+    "usd": [
+     2593.0,
+     4074.0
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "PC 출장 수리",
+    "kind": "service",
+    "category": "기술지원",
+    "usd": [
+     22.2,
+     59.3
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "원격 기술 지원",
+    "kind": "service",
+    "category": "기술지원",
+    "usd": [
+     37.0,
+     74.1
+    ],
+    "unit": "hour",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "사무실 이전 전산 세팅",
+    "kind": "service",
+    "category": "기술지원",
+    "usd": [
+     370.0,
+     2222.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "사무실 네트워크 구축",
+    "kind": "service",
+    "category": "구축",
+    "usd": [
+     1111.0,
+     5926.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "서버 구축 및 설정",
+    "kind": "service",
+    "category": "구축",
+    "usd": [
+     741.0,
+     3704.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "백업 시스템 구축",
+    "kind": "service",
+    "category": "구축",
+    "usd": [
+     741.0,
+     2963.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "랜 포설 공사 (포트당)",
+    "kind": "service",
+    "category": "구축",
+    "usd": [
+     22.2,
+     51.9
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "보안 관제 서비스",
+    "kind": "service",
+    "category": "보안",
+    "usd": [
+     741.0,
+     3704.0
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "웹 취약점 점검",
+    "kind": "service",
+    "category": "보안",
+    "usd": [
+     1481.0,
+     5185.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "개인정보보호 컨설팅",
+    "kind": "service",
+    "category": "보안",
+    "usd": [
+     2222.0,
+     7407.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "ISMS 인증 컨설팅",
+    "kind": "service",
+    "category": "보안",
+    "usd": [
+     7407.0,
+     29630.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "클라우드 전환 컨설팅",
+    "kind": "service",
+    "category": "컨설팅",
+    "usd": [
+     3704.0,
+     22222.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "그룹웨어 도입 컨설팅",
+    "kind": "service",
+    "category": "컨설팅",
+    "usd": [
+     1481.0,
+     5926.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "IT 인프라 진단",
+    "kind": "service",
+    "category": "컨설팅",
+    "usd": [
+     1111.0,
+     3704.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "IT 컨설턴트 투입",
+    "kind": "service",
+    "category": "컨설팅",
+    "usd": [
+     519.0,
+     1111.0
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "백신 라이선스 (PC 1대)",
+    "kind": "product",
+    "category": "장비·라이선스",
+    "usd": [
+     22.2,
+     44.4
+    ],
+    "unit": "piece",
+    "variants": [
+     "1년",
+     "2년",
+     "3년"
+    ]
+   },
+   {
+    "name": "UTM 방화벽 장비",
+    "kind": "product",
+    "category": "장비·라이선스",
+    "usd": [
+     741.0,
+     2222.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "50인 이하",
+     "100인 이하",
+     "300인 이하"
+    ]
+   },
+   {
+    "name": "NAS 스토리지",
+    "kind": "product",
+    "category": "장비·라이선스",
+    "usd": [
+     444.0,
+     1481.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "2베이",
+     "4베이",
+     "8베이"
+    ]
+   }
+  ]
+ },
+ "web_hosting": {
+  "categories": [
+   "웹호스팅",
+   "서버",
+   "클라우드",
+   "도메인·SSL",
+   "보안",
+   "관리 서비스"
+  ],
+  "roles": [
+   "시스템 엔지니어",
+   "서버 관리자",
+   "네트워크 엔지니어",
+   "기술지원 담당",
+   "고객센터 상담원",
+   "영업 담당",
+   "IDC 운영 담당"
+  ],
+  "departments": [
+   "기술지원팀",
+   "IDC 운영팀",
+   "고객센터",
+   "영업팀"
+  ],
+  "items": [
+   {
+    "name": "웹호스팅",
+    "kind": "product",
+    "category": "웹호스팅",
+    "usd": [
+     2.44,
+     8.15
+    ],
+    "unit": "month",
+    "variants": [
+     "베이직",
+     "스탠다드",
+     "프리미엄"
+    ]
+   },
+   {
+    "name": "비즈니스 웹호스팅",
+    "kind": "product",
+    "category": "웹호스팅",
+    "usd": [
+     16.3,
+     40.7
+    ],
+    "unit": "month"
+   },
+   {
+    "name": "쇼핑몰 호스팅",
+    "kind": "product",
+    "category": "웹호스팅",
+    "usd": [
+     14.8,
+     59.3
+    ],
+    "unit": "month",
+    "variants": [
+     "일반형",
+     "비즈니스형"
+    ]
+   },
+   {
+    "name": "비즈니스 메일 (1계정)",
+    "kind": "product",
+    "category": "웹호스팅",
+    "usd": [
+     1.48,
+     4.44
+    ],
+    "unit": "month"
+   },
+   {
+    "name": "단독 서버 호스팅",
+    "kind": "product",
+    "category": "서버",
+    "usd": [
+     81.5,
+     244.0
+    ],
+    "unit": "month",
+    "variants": [
+     "기본형",
+     "고급형",
+     "최고급형"
+    ]
+   },
+   {
+    "name": "서버 코로케이션 (1U)",
+    "kind": "product",
+    "category": "서버",
+    "usd": [
+     74.1,
+     185.0
+    ],
+    "unit": "month"
+   },
+   {
+    "name": "전용 회선 (100Mbps)",
+    "kind": "product",
+    "category": "서버",
+    "usd": [
+     111.0,
+     296.0
+    ],
+    "unit": "month"
+   },
+   {
+    "name": "클라우드 서버",
+    "kind": "product",
+    "category": "클라우드",
+    "usd": [
+     22.2,
+     66.7
+    ],
+    "unit": "month",
+    "variants": [
+     "2코어 4GB",
+     "4코어 8GB",
+     "8코어 16GB"
+    ]
+   },
+   {
+    "name": "클라우드 백업 (100GB)",
+    "kind": "product",
+    "category": "클라우드",
+    "usd": [
+     7.4,
+     29.6
+    ],
+    "unit": "month"
+   },
+   {
+    "name": "도메인 등록 (.co.kr)",
+    "kind": "product",
+    "category": "도메인·SSL",
+    "usd": [
+     11.1,
+     18.5
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "도메인 기간 연장 (1년)",
+    "kind": "product",
+    "category": "도메인·SSL",
+    "usd": [
+     11.1,
+     18.5
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "SSL 인증서 (1년)",
+    "kind": "product",
+    "category": "도메인·SSL",
+    "usd": [
+     22.2,
+     222.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "DV",
+     "OV",
+     "EV"
+    ]
+   },
+   {
+    "name": "DDoS 방어 서비스",
+    "kind": "service",
+    "category": "보안",
+    "usd": [
+     222.0,
+     1481.0
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "웹 방화벽 서비스",
+    "kind": "service",
+    "category": "보안",
+    "usd": [
+     74.1,
+     222.0
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "서버 관리 대행",
+    "kind": "service",
+    "category": "관리 서비스",
+    "usd": [
+     74.1,
+     296.0
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "서버 이전 작업",
+    "kind": "service",
+    "category": "관리 서비스",
+    "usd": [
+     74.1,
+     519.0
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "워드프레스 설치 대행",
+    "kind": "service",
+    "category": "관리 서비스",
+    "usd": [
+     22.2,
+     74.1
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "데이터 복구 작업",
+    "kind": "service",
+    "category": "관리 서비스",
+    "usd": [
+     74.1,
+     370.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "긴급 기술 지원",
+    "kind": "service",
+    "category": "관리 서비스",
+    "usd": [
+     59.3,
+     111.0
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     120
+    ]
+   }
+  ]
+ },
+ "accounting": {
+  "categories": [
+   "기장 대리",
+   "세무 신고",
+   "세무 조정·결산",
+   "컨설팅",
+   "기타 업무"
+  ],
+  "roles": [
+   "대표 세무사",
+   "세무사",
+   "공인회계사",
+   "사무장",
+   "실장",
+   "기장 담당",
+   "신고 담당"
+  ],
+  "departments": [
+   "기장팀",
+   "신고팀",
+   "컨설팅팀",
+   "총무"
+  ],
+  "items": [
+   {
+    "name": "개인사업자 기장 대리",
+    "kind": "service",
+    "category": "기장 대리",
+    "usd": [
+     74.1,
+     148.0
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "법인 기장 대리",
+    "kind": "service",
+    "category": "기장 대리",
+    "usd": [
+     111.0,
+     296.0
+    ],
+    "unit": "month",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "원천세 신고 및 4대보험 관리",
+    "kind": "service",
+    "category": "기장 대리",
+    "usd": [
+     37.0,
+     111.0
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "급여 계산 대행 (1인)",
+    "kind": "service",
+    "category": "기장 대리",
+    "usd": [
+     7.4,
+     14.8
+    ],
+    "unit": "person",
+    "minutes": [
+     10,
+     30
+    ]
+   },
+   {
+    "name": "부가가치세 신고 대리",
+    "kind": "service",
+    "category": "세무 신고",
+    "usd": [
+     74.1,
+     222.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "종합소득세 신고 대리",
+    "kind": "service",
+    "category": "세무 신고",
+    "usd": [
+     111.0,
+     370.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "양도소득세 신고 대리",
+    "kind": "service",
+    "category": "세무 신고",
+    "usd": [
+     222.0,
+     1111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "상속세 신고 대리",
+    "kind": "service",
+    "category": "세무 신고",
+    "usd": [
+     1481.0,
+     7407.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "증여세 신고 대리",
+    "kind": "service",
+    "category": "세무 신고",
+    "usd": [
+     370.0,
+     1481.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "연말정산 대행",
+    "kind": "service",
+    "category": "세무 신고",
+    "usd": [
+     7.4,
+     22.2
+    ],
+    "unit": "person",
+    "minutes": [
+     15,
+     60
+    ]
+   },
+   {
+    "name": "법인세 세무조정",
+    "kind": "service",
+    "category": "세무 조정·결산",
+    "usd": [
+     370.0,
+     2222.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "결산 및 재무제표 작성",
+    "kind": "service",
+    "category": "세무 조정·결산",
+    "usd": [
+     370.0,
+     1481.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "성실신고확인 대리",
+    "kind": "service",
+    "category": "세무 조정·결산",
+    "usd": [
+     741.0,
+     2222.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "경정청구 대리",
+    "kind": "service",
+    "category": "세무 조정·결산",
+    "usd": [
+     222.0,
+     741.0
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "세무 상담",
+    "kind": "service",
+    "category": "컨설팅",
+    "usd": [
+     74.1,
+     222.0
+    ],
+    "unit": "hour",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "세무조사 대응",
+    "kind": "service",
+    "category": "컨설팅",
+    "usd": [
+     2222.0,
+     11111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "가업승계 세무 컨설팅",
+    "kind": "service",
+    "category": "컨설팅",
+    "usd": [
+     1481.0,
+     7407.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "법인 설립 지원",
+    "kind": "service",
+    "category": "기타 업무",
+    "usd": [
+     148.0,
+     519.0
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "사업자등록 대행",
+    "kind": "service",
+    "category": "기타 업무",
+    "usd": [
+     37.0,
+     111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "4대보험 취득·상실 신고",
+    "kind": "service",
+    "category": "기타 업무",
+    "usd": [
+     11.1,
+     29.6
+    ],
+    "unit": "session",
+    "minutes": [
+     15,
+     60
+    ]
+   }
+  ]
+ },
+ "law_firm": {
+  "categories": [
+   "상담·자문",
+   "민사",
+   "형사",
+   "가사",
+   "기업법무"
+  ],
+  "roles": [
+   "대표 변호사",
+   "파트너 변호사",
+   "변호사",
+   "사무장",
+   "법률 비서",
+   "송무 담당",
+   "패러리걸"
+  ],
+  "departments": [
+   "송무팀",
+   "자문팀",
+   "사무국"
+  ],
+  "items": [
+   {
+    "name": "법률 상담",
+    "kind": "service",
+    "category": "상담·자문",
+    "usd": [
+     74.1,
+     222.0
+    ],
+    "unit": "hour",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "변호사 자문 (타임차지)",
+    "kind": "service",
+    "category": "상담·자문",
+    "usd": [
+     222.0,
+     519.0
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "법률 자문 계약",
+    "kind": "service",
+    "category": "상담·자문",
+    "usd": [
+     741.0,
+     3704.0
+    ],
+    "unit": "month",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "계약서 검토",
+    "kind": "service",
+    "category": "상담·자문",
+    "usd": [
+     222.0,
+     1111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "내용증명 작성",
+    "kind": "service",
+    "category": "상담·자문",
+    "usd": [
+     148.0,
+     370.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "민사소송 대리 (1심)",
+    "kind": "service",
+    "category": "민사",
+    "usd": [
+     3704.0,
+     11111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "민사 항소심 대리",
+    "kind": "service",
+    "category": "민사",
+    "usd": [
+     3704.0,
+     11111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "지급명령 신청 대리",
+    "kind": "service",
+    "category": "민사",
+    "usd": [
+     222.0,
+     741.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "가압류 신청 대리",
+    "kind": "service",
+    "category": "민사",
+    "usd": [
+     741.0,
+     2222.0
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "임대차 분쟁 소송",
+    "kind": "service",
+    "category": "민사",
+    "usd": [
+     2222.0,
+     7407.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "형사사건 변호 (1심)",
+    "kind": "service",
+    "category": "형사",
+    "usd": [
+     3704.0,
+     14815.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "고소장 작성 및 제출",
+    "kind": "service",
+    "category": "형사",
+    "usd": [
+     741.0,
+     2222.0
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "형사 합의 대행",
+    "kind": "service",
+    "category": "형사",
+    "usd": [
+     741.0,
+     2222.0
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "이혼 소송 대리",
+    "kind": "service",
+    "category": "가사",
+    "usd": [
+     3704.0,
+     11111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "협의이혼 절차 대행",
+    "kind": "service",
+    "category": "가사",
+    "usd": [
+     741.0,
+     1852.0
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "상속재산분할 청구 소송",
+    "kind": "service",
+    "category": "가사",
+    "usd": [
+     7407.0,
+     22222.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "계약서 작성",
+    "kind": "service",
+    "category": "기업법무",
+    "usd": [
+     370.0,
+     1481.0
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "부당해고 구제신청 대리",
+    "kind": "service",
+    "category": "기업법무",
+    "usd": [
+     2222.0,
+     5926.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "법인 설립 등기",
+    "kind": "service",
+    "category": "기업법무",
+    "usd": [
+     370.0,
+     1111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "기업 인수합병 법률 실사",
+    "kind": "service",
+    "category": "기업법무",
+    "usd": [
+     14815.0,
+     111111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   }
+  ]
+ },
+ "management_consulting": {
+  "categories": [
+   "경영 진단·전략",
+   "인사·조직",
+   "정책자금·인증",
+   "교육·코칭",
+   "자문"
+  ],
+  "roles": [
+   "대표 컨설턴트",
+   "수석 컨설턴트",
+   "책임 컨설턴트",
+   "선임 컨설턴트",
+   "컨설턴트",
+   "연구원",
+   "PM"
+  ],
+  "departments": [
+   "컨설팅본부",
+   "연구소",
+   "경영지원팀"
+  ],
+  "items": [
+   {
+    "name": "경영 진단",
+    "kind": "service",
+    "category": "경영 진단·전략",
+    "usd": [
+     3704.0,
+     14815.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "중장기 경영 전략 수립",
+    "kind": "service",
+    "category": "경영 진단·전략",
+    "usd": [
+     14815.0,
+     74074.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "사업계획서 작성",
+    "kind": "service",
+    "category": "경영 진단·전략",
+    "usd": [
+     741.0,
+     3704.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "시장 조사 보고서",
+    "kind": "service",
+    "category": "경영 진단·전략",
+    "usd": [
+     2222.0,
+     11111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "원가 분석",
+    "kind": "service",
+    "category": "경영 진단·전략",
+    "usd": [
+     2222.0,
+     7407.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "스타트업 IR 자료 작성",
+    "kind": "service",
+    "category": "경영 진단·전략",
+    "usd": [
+     1111.0,
+     3704.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "인사평가 제도 설계",
+    "kind": "service",
+    "category": "인사·조직",
+    "usd": [
+     7407.0,
+     29630.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "직무분석 및 임금체계 설계",
+    "kind": "service",
+    "category": "인사·조직",
+    "usd": [
+     7407.0,
+     22222.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "조직문화 진단",
+    "kind": "service",
+    "category": "인사·조직",
+    "usd": [
+     3704.0,
+     11111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "정책자금 신청 컨설팅",
+    "kind": "service",
+    "category": "정책자금·인증",
+    "usd": [
+     741.0,
+     3704.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "벤처기업 인증 컨설팅",
+    "kind": "service",
+    "category": "정책자금·인증",
+    "usd": [
+     741.0,
+     2222.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "이노비즈 인증 컨설팅",
+    "kind": "service",
+    "category": "정책자금·인증",
+    "usd": [
+     741.0,
+     2222.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "기업부설연구소 설립 컨설팅",
+    "kind": "service",
+    "category": "정책자금·인증",
+    "usd": [
+     741.0,
+     2222.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "ISO 인증 컨설팅",
+    "kind": "service",
+    "category": "정책자금·인증",
+    "usd": [
+     2222.0,
+     5926.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "임원 코칭",
+    "kind": "service",
+    "category": "교육·코칭",
+    "usd": [
+     222.0,
+     741.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "리더십 교육",
+    "kind": "service",
+    "category": "교육·코칭",
+    "usd": [
+     370.0,
+     1481.0
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "임직원 워크숍 진행",
+    "kind": "service",
+    "category": "교육·코칭",
+    "usd": [
+     741.0,
+     2963.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "경영 자문 (월 정기)",
+    "kind": "service",
+    "category": "자문",
+    "usd": [
+     741.0,
+     3704.0
+    ],
+    "unit": "month",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "가업 승계 컨설팅",
+    "kind": "service",
+    "category": "자문",
+    "usd": [
+     3704.0,
+     22222.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "컨설턴트 투입",
+    "kind": "service",
+    "category": "자문",
+    "usd": [
+     444.0,
+     1111.0
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   }
+  ]
+ },
+ "architecture": {
+  "categories": [
+   "건축 설계",
+   "인허가",
+   "감리",
+   "기획·검토",
+   "인테리어·기타"
+  ],
+  "roles": [
+   "대표 건축사",
+   "건축사",
+   "실장",
+   "설계 팀장",
+   "설계 담당",
+   "감리원",
+   "3D 디자이너"
+  ],
+  "departments": [
+   "설계팀",
+   "감리팀",
+   "인허가팀"
+  ],
+  "items": [
+   {
+    "name": "단독주택 설계",
+    "kind": "service",
+    "category": "건축 설계",
+    "usd": [
+     37.0,
+     111.0
+    ],
+    "unit": "m2",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "근린생활시설 설계",
+    "kind": "service",
+    "category": "건축 설계",
+    "usd": [
+     29.6,
+     74.1
+    ],
+    "unit": "m2",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "다세대주택 설계",
+    "kind": "service",
+    "category": "건축 설계",
+    "usd": [
+     22.2,
+     51.9
+    ],
+    "unit": "m2",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "용도변경 설계",
+    "kind": "service",
+    "category": "건축 설계",
+    "usd": [
+     1111.0,
+     4444.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "대수선 설계",
+    "kind": "service",
+    "category": "건축 설계",
+    "usd": [
+     1481.0,
+     7407.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "설계 변경",
+    "kind": "service",
+    "category": "건축 설계",
+    "usd": [
+     370.0,
+     2222.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "건축 인허가 대행",
+    "kind": "service",
+    "category": "인허가",
+    "usd": [
+     1481.0,
+     7407.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "사용승인 신청 대행",
+    "kind": "service",
+    "category": "인허가",
+    "usd": [
+     741.0,
+     2222.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "에너지 절약 계획서 작성",
+    "kind": "service",
+    "category": "인허가",
+    "usd": [
+     370.0,
+     1111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "공사 감리",
+    "kind": "service",
+    "category": "감리",
+    "usd": [
+     2222.0,
+     5185.0
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "구조 검토 협력",
+    "kind": "service",
+    "category": "감리",
+    "usd": [
+     741.0,
+     2222.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "기본 계획 및 배치 검토",
+    "kind": "service",
+    "category": "기획·검토",
+    "usd": [
+     741.0,
+     3704.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "사업성 검토 및 건축 기획",
+    "kind": "service",
+    "category": "기획·검토",
+    "usd": [
+     1481.0,
+     7407.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "가설계 도면",
+    "kind": "service",
+    "category": "기획·검토",
+    "usd": [
+     370.0,
+     1111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "현황 실측 및 도면 작성",
+    "kind": "service",
+    "category": "기획·검토",
+    "usd": [
+     370.0,
+     1481.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "건축 자문",
+    "kind": "service",
+    "category": "기획·검토",
+    "usd": [
+     148.0,
+     370.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "인테리어 설계",
+    "kind": "service",
+    "category": "인테리어·기타",
+    "usd": [
+     22.2,
+     59.3
+    ],
+    "unit": "m2",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "조경 설계",
+    "kind": "service",
+    "category": "인테리어·기타",
+    "usd": [
+     11.1,
+     29.6
+    ],
+    "unit": "m2",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "3D 투시도 제작",
+    "kind": "service",
+    "category": "인테리어·기타",
+    "usd": [
+     222.0,
+     1111.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "건축 모형 제작",
+    "kind": "service",
+    "category": "인테리어·기타",
+    "usd": [
+     741.0,
+     3704.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   }
+  ]
+ },
+ "advertising": {
+  "categories": [
+   "온라인 광고",
+   "SNS 마케팅",
+   "브랜딩·디자인",
+   "영상 제작",
+   "PR·기획"
+  ],
+  "roles": [
+   "AE",
+   "마케터",
+   "디자이너",
+   "영상 PD",
+   "카피라이터",
+   "콘텐츠 에디터",
+   "팀장",
+   "대표"
+  ],
+  "departments": [
+   "기획팀",
+   "디자인팀",
+   "영상팀",
+   "퍼포먼스팀"
+  ],
+  "items": [
+   {
+    "name": "검색광고 운영 대행",
+    "kind": "service",
+    "category": "온라인 광고",
+    "usd": [
+     222.0,
+     1111.0
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "메타 광고 운영 대행",
+    "kind": "service",
+    "category": "온라인 광고",
+    "usd": [
+     370.0,
+     1481.0
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "퍼포먼스 마케팅 컨설팅",
+    "kind": "service",
+    "category": "온라인 광고",
+    "usd": [
+     741.0,
+     3704.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "네이버 플레이스 최적화",
+    "kind": "service",
+    "category": "온라인 광고",
+    "usd": [
+     222.0,
+     741.0
+    ],
+    "unit": "month",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "광고 성과 분석 리포트",
+    "kind": "service",
+    "category": "온라인 광고",
+    "usd": [
+     370.0,
+     1481.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "인스타그램 계정 운영 대행",
+    "kind": "service",
+    "category": "SNS 마케팅",
+    "usd": [
+     593.0,
+     2222.0
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "블로그 체험단 마케팅",
+    "kind": "service",
+    "category": "SNS 마케팅",
+    "usd": [
+     370.0,
+     2222.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "인플루언서 협찬 캠페인",
+    "kind": "service",
+    "category": "SNS 마케팅",
+    "usd": [
+     1481.0,
+     14815.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "카드뉴스 제작 (10장)",
+    "kind": "service",
+    "category": "SNS 마케팅",
+    "usd": [
+     148.0,
+     444.0
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     360
+    ]
+   },
+   {
+    "name": "브랜드 아이덴티티(BI) 개발",
+    "kind": "service",
+    "category": "브랜딩·디자인",
+    "usd": [
+     2222.0,
+     11111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "로고 디자인",
+    "kind": "service",
+    "category": "브랜딩·디자인",
+    "usd": [
+     370.0,
+     2222.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "브랜드 네이밍",
+    "kind": "service",
+    "category": "브랜딩·디자인",
+    "usd": [
+     741.0,
+     3704.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "상세페이지 디자인",
+    "kind": "service",
+    "category": "브랜딩·디자인",
+    "usd": [
+     222.0,
+     1111.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "전단지·포스터 디자인",
+    "kind": "service",
+    "category": "브랜딩·디자인",
+    "usd": [
+     111.0,
+     370.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     360
+    ]
+   },
+   {
+    "name": "홍보 영상 제작",
+    "kind": "service",
+    "category": "영상 제작",
+    "usd": [
+     2222.0,
+     11111.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "숏폼 영상 제작",
+    "kind": "service",
+    "category": "영상 제작",
+    "usd": [
+     296.0,
+     1111.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "유튜브 채널 운영 대행",
+    "kind": "service",
+    "category": "영상 제작",
+    "usd": [
+     1481.0,
+     4444.0
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "보도자료 작성 및 배포",
+    "kind": "service",
+    "category": "PR·기획",
+    "usd": [
+     222.0,
+     741.0
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "옥외광고 기획",
+    "kind": "service",
+    "category": "PR·기획",
+    "usd": [
+     1481.0,
+     7407.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "광고 카피라이팅",
+    "kind": "service",
+    "category": "PR·기획",
+    "usd": [
+     222.0,
+     1111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   }
+  ]
+ },
+ "photography": {
+  "categories": [
+   "증명·여권",
+   "프로필·가족",
+   "웨딩·행사",
+   "상업 촬영",
+   "인화·액자"
+  ],
+  "roles": [
+   "대표 작가",
+   "포토그래퍼",
+   "촬영 보조",
+   "보정 디자이너",
+   "헤어·메이크업 아티스트",
+   "상담 실장",
+   "영상 PD"
+  ],
+  "departments": [
+   "촬영팀",
+   "보정팀",
+   "상담·예약"
+  ],
+  "items": [
+   {
+    "name": "증명사진",
+    "kind": "service",
+    "category": "증명·여권",
+    "usd": [
+     11.1,
+     22.2
+    ],
+    "unit": "session",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "여권사진",
+    "kind": "service",
+    "category": "증명·여권",
+    "usd": [
+     11.1,
+     18.5
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     20
+    ]
+   },
+   {
+    "name": "증명사진 재인화",
+    "kind": "product",
+    "category": "증명·여권",
+    "usd": [
+     3.7,
+     7.4
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "프로필 사진 촬영",
+    "kind": "service",
+    "category": "프로필·가족",
+    "usd": [
+     44.4,
+     148.0
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "가족사진 촬영",
+    "kind": "service",
+    "category": "프로필·가족",
+    "usd": [
+     111.0,
+     370.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "커플 사진 촬영",
+    "kind": "service",
+    "category": "프로필·가족",
+    "usd": [
+     74.1,
+     185.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "바디프로필 촬영",
+    "kind": "service",
+    "category": "프로필·가족",
+    "usd": [
+     185.0,
+     370.0
+    ],
+    "unit": "session",
+    "minutes": [
+     90,
+     180
+    ]
+   },
+   {
+    "name": "반려동물 사진 촬영",
+    "kind": "service",
+    "category": "프로필·가족",
+    "usd": [
+     59.3,
+     148.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "졸업사진 촬영",
+    "kind": "service",
+    "category": "프로필·가족",
+    "usd": [
+     44.4,
+     111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "웨딩 스냅 촬영",
+    "kind": "service",
+    "category": "웨딩·행사",
+    "usd": [
+     519.0,
+     1481.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "돌잔치 스냅 촬영",
+    "kind": "service",
+    "category": "웨딩·행사",
+    "usd": [
+     222.0,
+     444.0
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     180
+    ]
+   },
+   {
+    "name": "행사 영상 촬영",
+    "kind": "service",
+    "category": "웨딩·행사",
+    "usd": [
+     370.0,
+     1481.0
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "제품 사진 촬영 (컷당)",
+    "kind": "service",
+    "category": "상업 촬영",
+    "usd": [
+     7.4,
+     37.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     10,
+     30
+    ]
+   },
+   {
+    "name": "쇼핑몰 모델 촬영 (반일)",
+    "kind": "service",
+    "category": "상업 촬영",
+    "usd": [
+     370.0,
+     1111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     240
+    ]
+   },
+   {
+    "name": "스튜디오 대여",
+    "kind": "service",
+    "category": "상업 촬영",
+    "usd": [
+     22.2,
+     59.3
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "사진 보정 (추가 1컷)",
+    "kind": "service",
+    "category": "상업 촬영",
+    "usd": [
+     7.4,
+     22.2
+    ],
+    "unit": "piece",
+    "minutes": [
+     10,
+     30
+    ]
+   },
+   {
+    "name": "사진 인화",
+    "kind": "product",
+    "category": "인화·액자",
+    "usd": [
+     0.22,
+     0.74
+    ],
+    "unit": "piece",
+    "variants": [
+     "4x6",
+     "5x7",
+     "8x10"
+    ]
+   },
+   {
+    "name": "액자 제작",
+    "kind": "product",
+    "category": "인화·액자",
+    "usd": [
+     22.2,
+     74.1
+    ],
+    "unit": "piece",
+    "variants": [
+     "8x10",
+     "11x14",
+     "16x20"
+    ]
+   },
+   {
+    "name": "포토앨범 제작",
+    "kind": "product",
+    "category": "인화·액자",
+    "usd": [
+     111.0,
+     370.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "20페이지",
+     "30페이지",
+     "40페이지"
+    ]
+   },
+   {
+    "name": "원본 파일 전체 제공",
+    "kind": "product",
+    "category": "인화·액자",
+    "usd": [
+     37.0,
+     74.1
+    ],
+    "unit": "piece"
+   }
+  ]
+ },
+ "translation": {
+  "categories": [
+   "번역",
+   "감수·교정",
+   "통역",
+   "공증·현지화"
+  ],
+  "roles": [
+   "번역가",
+   "통역사",
+   "감수자",
+   "원어민 감수자",
+   "PM",
+   "코디네이터",
+   "대표"
+  ],
+  "departments": [
+   "번역팀",
+   "통역팀",
+   "PM팀"
+  ],
+  "items": [
+   {
+    "name": "영한 번역 일반문서 (A4 1매)",
+    "kind": "service",
+    "category": "번역",
+    "usd": [
+     15.0,
+     29.6
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "한영 번역 일반문서 (A4 1매)",
+    "kind": "service",
+    "category": "번역",
+    "usd": [
+     22.2,
+     44.4
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "한영 번역 기술문서 (A4 1매)",
+    "kind": "service",
+    "category": "번역",
+    "usd": [
+     29.6,
+     59.3
+    ],
+    "unit": "piece",
+    "minutes": [
+     90,
+     180
+    ]
+   },
+   {
+    "name": "한중 번역 (A4 1매)",
+    "kind": "service",
+    "category": "번역",
+    "usd": [
+     22.2,
+     44.4
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "한일 번역 (A4 1매)",
+    "kind": "service",
+    "category": "번역",
+    "usd": [
+     18.5,
+     40.7
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "법률 문서 번역",
+    "kind": "service",
+    "category": "번역",
+    "usd": [
+     37.0,
+     74.1
+    ],
+    "unit": "piece",
+    "minutes": [
+     90,
+     180
+    ]
+   },
+   {
+    "name": "의료 문서 번역",
+    "kind": "service",
+    "category": "번역",
+    "usd": [
+     37.0,
+     74.1
+    ],
+    "unit": "piece",
+    "minutes": [
+     90,
+     180
+    ]
+   },
+   {
+    "name": "증명서 번역 (가족관계증명서 등)",
+    "kind": "service",
+    "category": "번역",
+    "usd": [
+     22.2,
+     37.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "이력서·자기소개서 영문 번역",
+    "kind": "service",
+    "category": "번역",
+    "usd": [
+     37.0,
+     111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "영상 자막 번역 (10분 분량)",
+    "kind": "service",
+    "category": "번역",
+    "usd": [
+     59.3,
+     148.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "원어민 감수",
+    "kind": "service",
+    "category": "감수·교정",
+    "usd": [
+     11.1,
+     29.6
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "논문 영문 교정",
+    "kind": "service",
+    "category": "감수·교정",
+    "usd": [
+     11.1,
+     22.2
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "수행 통역",
+    "kind": "service",
+    "category": "통역",
+    "usd": [
+     222.0,
+     519.0
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "순차 통역 (반일)",
+    "kind": "service",
+    "category": "통역",
+    "usd": [
+     296.0,
+     593.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     240
+    ]
+   },
+   {
+    "name": "동시통역",
+    "kind": "service",
+    "category": "통역",
+    "usd": [
+     889.0,
+     1481.0
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "전화 통역",
+    "kind": "service",
+    "category": "통역",
+    "usd": [
+     37.0,
+     88.9
+    ],
+    "unit": "hour",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "화상회의 통역",
+    "kind": "service",
+    "category": "통역",
+    "usd": [
+     74.1,
+     148.0
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "번역 공증 대행",
+    "kind": "service",
+    "category": "공증·현지화",
+    "usd": [
+     37.0,
+     111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "아포스티유 대행",
+    "kind": "service",
+    "category": "공증·현지화",
+    "usd": [
+     37.0,
+     74.1
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "웹사이트 현지화",
+    "kind": "service",
+    "category": "공증·현지화",
+    "usd": [
+     741.0,
+     5926.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   }
+  ]
+ },
+ "road_freight": {
+  "categories": [
+   "용달·소형",
+   "중대형 화물",
+   "특수 운송",
+   "보관·하역",
+   "물류 대행"
+  ],
+  "roles": [
+   "화물차 기사",
+   "배차 담당",
+   "물류 관리자",
+   "지게차 기사",
+   "상하차 인력",
+   "영업 담당",
+   "대표"
+  ],
+  "departments": [
+   "운송팀",
+   "배차팀",
+   "물류센터",
+   "영업관리"
+  ],
+  "items": [
+   {
+    "name": "1톤 용달 운송 (시내)",
+    "kind": "service",
+    "category": "용달·소형",
+    "usd": [
+     37.0,
+     74.1
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "지방 편도 운송 (1톤)",
+    "kind": "service",
+    "category": "용달·소형",
+    "usd": [
+     185.0,
+     333.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "사무실 이전 운송",
+    "kind": "service",
+    "category": "용달·소형",
+    "usd": [
+     370.0,
+     1111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "긴급 화물 (당일 배송)",
+    "kind": "service",
+    "category": "용달·소형",
+    "usd": [
+     148.0,
+     370.0
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     360
+    ]
+   },
+   {
+    "name": "2.5톤 화물 운송 (수도권)",
+    "kind": "service",
+    "category": "중대형 화물",
+    "usd": [
+     111.0,
+     185.0
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     300
+    ]
+   },
+   {
+    "name": "5톤 윙바디 운송 (서울-부산)",
+    "kind": "service",
+    "category": "중대형 화물",
+    "usd": [
+     444.0,
+     630.0
+    ],
+    "unit": "session",
+    "minutes": [
+     300,
+     480
+    ]
+   },
+   {
+    "name": "11톤 카고 전세 운송",
+    "kind": "service",
+    "category": "중대형 화물",
+    "usd": [
+     593.0,
+     963.0
+    ],
+    "unit": "session",
+    "minutes": [
+     300,
+     480
+    ]
+   },
+   {
+    "name": "25톤 트레일러 운송",
+    "kind": "service",
+    "category": "중대형 화물",
+    "usd": [
+     889.0,
+     1481.0
+    ],
+    "unit": "session",
+    "minutes": [
+     360,
+     480
+    ]
+   },
+   {
+    "name": "혼적 화물 운송 (파렛트당)",
+    "kind": "service",
+    "category": "중대형 화물",
+    "usd": [
+     22.2,
+     59.3
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "경유지 추가",
+    "kind": "service",
+    "category": "중대형 화물",
+    "usd": [
+     14.8,
+     29.6
+    ],
+    "unit": "session",
+    "minutes": [
+     15,
+     60
+    ]
+   },
+   {
+    "name": "냉동·냉장 탑차 운송",
+    "kind": "service",
+    "category": "특수 운송",
+    "usd": [
+     185.0,
+     519.0
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "40피트 컨테이너 내륙 운송",
+    "kind": "service",
+    "category": "특수 운송",
+    "usd": [
+     519.0,
+     963.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "중량물 운송",
+    "kind": "service",
+    "category": "특수 운송",
+    "usd": [
+     741.0,
+     3704.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "파렛트 보관",
+    "kind": "service",
+    "category": "보관·하역",
+    "usd": [
+     11.1,
+     22.2
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "상하차 작업 인력",
+    "kind": "service",
+    "category": "보관·하역",
+    "usd": [
+     111.0,
+     148.0
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "지게차 작업",
+    "kind": "service",
+    "category": "보관·하역",
+    "usd": [
+     37.0,
+     66.7
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "하역비 (파렛트당)",
+    "kind": "service",
+    "category": "보관·하역",
+    "usd": [
+     3.7,
+     7.4
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     15
+    ]
+   },
+   {
+    "name": "화물 대기료",
+    "kind": "service",
+    "category": "보관·하역",
+    "usd": [
+     22.2,
+     37.0
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "3PL 물류 대행",
+    "kind": "service",
+    "category": "물류 대행",
+    "usd": [
+     741.0,
+     7407.0
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "정기 배차 계약",
+    "kind": "service",
+    "category": "물류 대행",
+    "usd": [
+     2593.0,
+     4444.0
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   }
+  ]
+ },
+ "courier": {
+  "categories": [
+   "퀵서비스",
+   "택배",
+   "배송 대행",
+   "기업 서비스"
+  ],
+  "roles": [
+   "퀵 기사",
+   "택배 기사",
+   "배차 상담원",
+   "집하 담당",
+   "물류 관리자",
+   "영업 담당",
+   "대표"
+  ],
+  "departments": [
+   "배차실",
+   "집배송팀",
+   "영업관리팀"
+  ],
+  "items": [
+   {
+    "name": "오토바이 퀵 (서울 시내)",
+    "kind": "service",
+    "category": "퀵서비스",
+    "usd": [
+     11.1,
+     25.9
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "다마스 퀵",
+    "kind": "service",
+    "category": "퀵서비스",
+    "usd": [
+     22.2,
+     44.4
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "라보 퀵",
+    "kind": "service",
+    "category": "퀵서비스",
+    "usd": [
+     29.6,
+     59.3
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "1톤 용달 퀵",
+    "kind": "service",
+    "category": "퀵서비스",
+    "usd": [
+     37.0,
+     88.9
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "지하철 퀵 (서류)",
+    "kind": "service",
+    "category": "퀵서비스",
+    "usd": [
+     7.4,
+     14.8
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "서류 왕복 퀵",
+    "kind": "service",
+    "category": "퀵서비스",
+    "usd": [
+     18.5,
+     37.0
+    ],
+    "unit": "session",
+    "minutes": [
+     90,
+     180
+    ]
+   },
+   {
+    "name": "지방 퀵 (서울-대전)",
+    "kind": "service",
+    "category": "퀵서비스",
+    "usd": [
+     74.1,
+     111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "소형 택배 (5kg 이하)",
+    "kind": "service",
+    "category": "택배",
+    "usd": [
+     2.6,
+     4.44
+    ],
+    "unit": "box",
+    "minutes": [
+     10,
+     30
+    ]
+   },
+   {
+    "name": "중형 택배 (10kg 이하)",
+    "kind": "service",
+    "category": "택배",
+    "usd": [
+     4.44,
+     6.67
+    ],
+    "unit": "box",
+    "minutes": [
+     10,
+     30
+    ]
+   },
+   {
+    "name": "대형 택배 (20kg 이하)",
+    "kind": "service",
+    "category": "택배",
+    "usd": [
+     6.67,
+     10.4
+    ],
+    "unit": "box",
+    "minutes": [
+     10,
+     30
+    ]
+   },
+   {
+    "name": "제주 택배",
+    "kind": "service",
+    "category": "택배",
+    "usd": [
+     5.2,
+     8.9
+    ],
+    "unit": "box",
+    "minutes": [
+     10,
+     30
+    ]
+   },
+   {
+    "name": "반품 회수 택배",
+    "kind": "service",
+    "category": "택배",
+    "usd": [
+     3.0,
+     5.2
+    ],
+    "unit": "box",
+    "minutes": [
+     10,
+     30
+    ]
+   },
+   {
+    "name": "해외 특송 (EMS 대행)",
+    "kind": "service",
+    "category": "택배",
+    "usd": [
+     22.2,
+     74.1
+    ],
+    "unit": "box",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "쇼핑몰 당일 배송 대행",
+    "kind": "service",
+    "category": "배송 대행",
+    "usd": [
+     3.7,
+     7.4
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "새벽 배송 대행",
+    "kind": "service",
+    "category": "배송 대행",
+    "usd": [
+     2.96,
+     5.93
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "음식 배달 대행",
+    "kind": "service",
+    "category": "배송 대행",
+    "usd": [
+     2.96,
+     4.44
+    ],
+    "unit": "session",
+    "minutes": [
+     20,
+     40
+    ]
+   },
+   {
+    "name": "꽃·케이크 배달 대행",
+    "kind": "service",
+    "category": "배송 대행",
+    "usd": [
+     7.4,
+     14.8
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "기업 정기 수거",
+    "kind": "service",
+    "category": "기업 서비스",
+    "usd": [
+     148.0,
+     593.0
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "풀필먼트 입출고 대행",
+    "kind": "service",
+    "category": "기업 서비스",
+    "usd": [
+     1.11,
+     2.22
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     15
+    ]
+   }
+  ]
+ },
+ "travel_agency": {
+  "categories": [
+   "해외 패키지",
+   "자유여행",
+   "국내 여행",
+   "항공·숙박",
+   "단체·기업",
+   "부가 서비스"
+  ],
+  "roles": [
+   "여행 상담원",
+   "OP",
+   "인솔자",
+   "가이드",
+   "항공 발권 담당",
+   "팀장",
+   "대표"
+  ],
+  "departments": [
+   "상담팀",
+   "OP팀",
+   "항공팀",
+   "기업영업팀"
+  ],
+  "items": [
+   {
+    "name": "다낭 4박 5일 패키지",
+    "kind": "product",
+    "category": "해외 패키지",
+    "usd": [
+     519.0,
+     1111.0
+    ],
+    "unit": "person",
+    "variants": [
+     "3성급",
+     "4성급",
+     "5성급"
+    ]
+   },
+   {
+    "name": "서유럽 3개국 10일 패키지",
+    "kind": "product",
+    "category": "해외 패키지",
+    "usd": [
+     1852.0,
+     3333.0
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "괌 허니문 패키지 (4박 5일)",
+    "kind": "product",
+    "category": "해외 패키지",
+    "usd": [
+     1111.0,
+     2222.0
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "태국 골프 투어 (4박 6일)",
+    "kind": "product",
+    "category": "해외 패키지",
+    "usd": [
+     667.0,
+     1333.0
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "효도 관광 패키지",
+    "kind": "product",
+    "category": "해외 패키지",
+    "usd": [
+     370.0,
+     1111.0
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "지중해 크루즈 (7박)",
+    "kind": "product",
+    "category": "해외 패키지",
+    "usd": [
+     1852.0,
+     3704.0
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "일본 온천 료칸 투어 (2박 3일)",
+    "kind": "product",
+    "category": "해외 패키지",
+    "usd": [
+     555.0,
+     1111.0
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "오사카 3박 4일 자유여행",
+    "kind": "product",
+    "category": "자유여행",
+    "usd": [
+     444.0,
+     889.0
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "하와이 6박 8일 자유여행",
+    "kind": "product",
+    "category": "자유여행",
+    "usd": [
+     1481.0,
+     2963.0
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "제주도 2박 3일 패키지",
+    "kind": "product",
+    "category": "국내 여행",
+    "usd": [
+     222.0,
+     519.0
+    ],
+    "unit": "person",
+    "variants": [
+     "비수기",
+     "성수기"
+    ]
+   },
+   {
+    "name": "국내 당일 버스 투어",
+    "kind": "product",
+    "category": "국내 여행",
+    "usd": [
+     37.0,
+     88.9
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "인천-방콕 왕복 항공권",
+    "kind": "product",
+    "category": "항공·숙박",
+    "usd": [
+     259.0,
+     519.0
+    ],
+    "unit": "person",
+    "variants": [
+     "이코노미",
+     "비즈니스"
+    ]
+   },
+   {
+    "name": "해외 호텔 예약",
+    "kind": "product",
+    "category": "항공·숙박",
+    "usd": [
+     74.1,
+     259.0
+    ],
+    "unit": "day"
+   },
+   {
+    "name": "기업 워크숍 여행",
+    "kind": "product",
+    "category": "단체·기업",
+    "usd": [
+     111.0,
+     296.0
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "전세버스 대절",
+    "kind": "service",
+    "category": "단체·기업",
+    "usd": [
+     519.0,
+     963.0
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "현지 가이드 동행",
+    "kind": "service",
+    "category": "단체·기업",
+    "usd": [
+     148.0,
+     370.0
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "비자 발급 대행",
+    "kind": "service",
+    "category": "부가 서비스",
+    "usd": [
+     37.0,
+     111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "공항 픽업·샌딩",
+    "kind": "service",
+    "category": "부가 서비스",
+    "usd": [
+     37.0,
+     74.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "여행자 보험",
+    "kind": "product",
+    "category": "부가 서비스",
+    "usd": [
+     7.4,
+     29.6
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "해외 유심",
+    "kind": "product",
+    "category": "부가 서비스",
+    "usd": [
+     7.4,
+     22.2
+    ],
+    "unit": "piece",
+    "variants": [
+     "5일",
+     "10일",
+     "30일"
+    ]
+   }
+  ]
+ },
+ "real_estate": {
+  "categories": [
+   "주거용 중개",
+   "상업용 중개",
+   "토지·건물",
+   "관리·컨설팅"
+  ],
+  "roles": [
+   "대표 공인중개사",
+   "소속 공인중개사",
+   "중개보조원",
+   "실장",
+   "상담 실장",
+   "임대관리 담당"
+  ],
+  "departments": [
+   "중개팀",
+   "임대관리팀",
+   "사무실"
+  ],
+  "items": [
+   {
+    "name": "아파트 매매 중개",
+    "kind": "service",
+    "category": "주거용 중개",
+    "usd": [
+     1481.0,
+     6667.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "아파트 전세 중개",
+    "kind": "service",
+    "category": "주거용 중개",
+    "usd": [
+     741.0,
+     2963.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "빌라 매매 중개",
+    "kind": "service",
+    "category": "주거용 중개",
+    "usd": [
+     741.0,
+     2222.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "원룸 월세 중개",
+    "kind": "service",
+    "category": "주거용 중개",
+    "usd": [
+     148.0,
+     370.0
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "오피스텔 전월세 중개",
+    "kind": "service",
+    "category": "주거용 중개",
+    "usd": [
+     222.0,
+     593.0
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "분양 대행 (세대당)",
+    "kind": "service",
+    "category": "주거용 중개",
+    "usd": [
+     741.0,
+     3704.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "상가 임대 중개",
+    "kind": "service",
+    "category": "상업용 중개",
+    "usd": [
+     741.0,
+     3704.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "사무실 임대 중개",
+    "kind": "service",
+    "category": "상업용 중개",
+    "usd": [
+     741.0,
+     4444.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "상가 권리금 컨설팅",
+    "kind": "service",
+    "category": "상업용 중개",
+    "usd": [
+     370.0,
+     1481.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "토지 매매 중개",
+    "kind": "service",
+    "category": "토지·건물",
+    "usd": [
+     2222.0,
+     14815.0
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "상가건물 매매 중개",
+    "kind": "service",
+    "category": "토지·건물",
+    "usd": [
+     7407.0,
+     37037.0
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "공장·창고 임대 중개",
+    "kind": "service",
+    "category": "토지·건물",
+    "usd": [
+     1481.0,
+     5926.0
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     300
+    ]
+   },
+   {
+    "name": "경매 컨설팅",
+    "kind": "service",
+    "category": "토지·건물",
+    "usd": [
+     741.0,
+     3704.0
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "부동산 투자 컨설팅",
+    "kind": "service",
+    "category": "관리·컨설팅",
+    "usd": [
+     370.0,
+     2222.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "임대 관리 대행",
+    "kind": "service",
+    "category": "관리·컨설팅",
+    "usd": [
+     148.0,
+     741.0
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "권리 분석 및 시세 조사",
+    "kind": "service",
+    "category": "관리·컨설팅",
+    "usd": [
+     222.0,
+     741.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "계약서 작성 대행",
+    "kind": "service",
+    "category": "관리·컨설팅",
+    "usd": [
+     74.1,
+     222.0
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "주택 임대사업자 등록 대행",
+    "kind": "service",
+    "category": "관리·컨설팅",
+    "usd": [
+     111.0,
+     296.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   }
+  ]
+ },
+ "cleaning": {
+  "categories": [
+   "입주·이사 청소",
+   "정기 청소",
+   "가전 청소",
+   "특수 청소",
+   "방역·소독"
+  ],
+  "roles": [
+   "청소 팀장",
+   "청소원",
+   "미화원",
+   "현장 관리자",
+   "상담 실장",
+   "방역 기사",
+   "대표"
+  ],
+  "departments": [
+   "현장팀",
+   "방역팀",
+   "상담·예약"
+  ],
+  "items": [
+   {
+    "name": "입주 청소 (32평 기준)",
+    "kind": "service",
+    "category": "입주·이사 청소",
+    "usd": [
+     259.0,
+     407.0
+    ],
+    "unit": "session",
+    "minutes": [
+     300,
+     480
+    ]
+   },
+   {
+    "name": "이사 청소 (24평 기준)",
+    "kind": "service",
+    "category": "입주·이사 청소",
+    "usd": [
+     185.0,
+     333.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "거주 청소 (30평 기준)",
+    "kind": "service",
+    "category": "입주·이사 청소",
+    "usd": [
+     222.0,
+     333.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "준공 청소",
+    "kind": "service",
+    "category": "입주·이사 청소",
+    "usd": [
+     3.7,
+     8.9
+    ],
+    "unit": "m2",
+    "minutes": [
+     5,
+     15
+    ]
+   },
+   {
+    "name": "사무실 정기 청소 (주 3회)",
+    "kind": "service",
+    "category": "정기 청소",
+    "usd": [
+     296.0,
+     1111.0
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "계단 청소 (월 4회)",
+    "kind": "service",
+    "category": "정기 청소",
+    "usd": [
+     44.4,
+     111.0
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "가사 도우미 (4시간)",
+    "kind": "service",
+    "category": "정기 청소",
+    "usd": [
+     44.4,
+     59.3
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     240
+    ]
+   },
+   {
+    "name": "외벽 유리창 청소",
+    "kind": "service",
+    "category": "정기 청소",
+    "usd": [
+     2.22,
+     5.93
+    ],
+    "unit": "m2",
+    "minutes": [
+     5,
+     15
+    ]
+   },
+   {
+    "name": "바닥 왁스 코팅",
+    "kind": "service",
+    "category": "정기 청소",
+    "usd": [
+     3.7,
+     8.9
+    ],
+    "unit": "m2",
+    "minutes": [
+     5,
+     15
+    ]
+   },
+   {
+    "name": "사무실 카펫 청소",
+    "kind": "service",
+    "category": "정기 청소",
+    "usd": [
+     2.2,
+     4.4
+    ],
+    "unit": "m2",
+    "minutes": [
+     5,
+     15
+    ]
+   },
+   {
+    "name": "벽걸이 에어컨 분해 청소",
+    "kind": "service",
+    "category": "가전 청소",
+    "usd": [
+     51.9,
+     88.9
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "시스템 에어컨 세척",
+    "kind": "service",
+    "category": "가전 청소",
+    "usd": [
+     74.1,
+     133.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "세탁기 분해 청소",
+    "kind": "service",
+    "category": "가전 청소",
+    "usd": [
+     74.1,
+     133.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     90,
+     180
+    ]
+   },
+   {
+    "name": "주방 후드 청소",
+    "kind": "service",
+    "category": "가전 청소",
+    "usd": [
+     59.3,
+     148.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "매트리스 케어",
+    "kind": "service",
+    "category": "특수 청소",
+    "usd": [
+     37.0,
+     111.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "소파 청소",
+    "kind": "service",
+    "category": "특수 청소",
+    "usd": [
+     44.4,
+     111.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "욕실 집중 청소",
+    "kind": "service",
+    "category": "특수 청소",
+    "usd": [
+     37.0,
+     74.1
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "특수 청소",
+    "kind": "service",
+    "category": "특수 청소",
+    "usd": [
+     370.0,
+     2222.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "방역 소독",
+    "kind": "service",
+    "category": "방역·소독",
+    "usd": [
+     22.2,
+     74.1
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "해충 방제 (월 정기)",
+    "kind": "service",
+    "category": "방역·소독",
+    "usd": [
+     37.0,
+     111.0
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     60
+    ]
+   }
+  ]
+ },
+ "security": {
+  "categories": [
+   "인력 경비",
+   "기계 경비",
+   "경호",
+   "보안 장비",
+   "컨설팅·교육"
+  ],
+  "roles": [
+   "경비원",
+   "보안요원",
+   "경호원",
+   "관제요원",
+   "현장 소장",
+   "영업 담당",
+   "대표"
+  ],
+  "departments": [
+   "경비팀",
+   "관제센터",
+   "기술팀",
+   "영업팀"
+  ],
+  "items": [
+   {
+    "name": "시설 경비원 파견 (1인)",
+    "kind": "service",
+    "category": "인력 경비",
+    "usd": [
+     1852.0,
+     2593.0
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "야간 경비 (1인)",
+    "kind": "service",
+    "category": "인력 경비",
+    "usd": [
+     1704.0,
+     2370.0
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "아파트 경비 용역 (24시간 교대)",
+    "kind": "service",
+    "category": "인력 경비",
+    "usd": [
+     2963.0,
+     4444.0
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "주차 관리 요원 (1인)",
+    "kind": "service",
+    "category": "인력 경비",
+    "usd": [
+     1630.0,
+     2222.0
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "행사 안전 요원 (1인)",
+    "kind": "service",
+    "category": "인력 경비",
+    "usd": [
+     111.0,
+     185.0
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "화재 감시 요원",
+    "kind": "service",
+    "category": "인력 경비",
+    "usd": [
+     148.0,
+     222.0
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "무인 경비 시스템",
+    "kind": "service",
+    "category": "기계 경비",
+    "usd": [
+     37.0,
+     111.0
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "출동 경비 서비스",
+    "kind": "service",
+    "category": "기계 경비",
+    "usd": [
+     44.4,
+     148.0
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "원격 영상 관제",
+    "kind": "service",
+    "category": "기계 경비",
+    "usd": [
+     74.1,
+     296.0
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "순찰 서비스",
+    "kind": "service",
+    "category": "기계 경비",
+    "usd": [
+     37.0,
+     111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "신변 보호 경호",
+    "kind": "service",
+    "category": "경호",
+    "usd": [
+     222.0,
+     593.0
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "수행 경호 (반일)",
+    "kind": "service",
+    "category": "경호",
+    "usd": [
+     148.0,
+     370.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     240
+    ]
+   },
+   {
+    "name": "CCTV 세트 (설치 포함)",
+    "kind": "product",
+    "category": "보안 장비",
+    "usd": [
+     444.0,
+     1111.0
+    ],
+    "unit": "set",
+    "variants": [
+     "4채널",
+     "8채널",
+     "16채널"
+    ]
+   },
+   {
+    "name": "출입통제 시스템",
+    "kind": "product",
+    "category": "보안 장비",
+    "usd": [
+     741.0,
+     3704.0
+    ],
+    "unit": "set",
+    "variants": [
+     "카드키",
+     "지문인식",
+     "얼굴인식"
+    ]
+   },
+   {
+    "name": "비상벨",
+    "kind": "product",
+    "category": "보안 장비",
+    "usd": [
+     111.0,
+     296.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "유선",
+     "무선"
+    ]
+   },
+   {
+    "name": "디지털 도어락",
+    "kind": "product",
+    "category": "보안 장비",
+    "usd": [
+     111.0,
+     259.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "번호키",
+     "지문인식"
+    ]
+   },
+   {
+    "name": "보안 컨설팅",
+    "kind": "service",
+    "category": "컨설팅·교육",
+    "usd": [
+     1481.0,
+     7407.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "정기 보안 점검",
+    "kind": "service",
+    "category": "컨설팅·교육",
+    "usd": [
+     741.0,
+     2963.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "기업 보안 교육",
+    "kind": "service",
+    "category": "컨설팅·교육",
+    "usd": [
+     370.0,
+     1111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   }
+  ]
+ },
+ "language_school": {
+  "categories": [
+   "성인 영어",
+   "초중등 정규반",
+   "제2외국어",
+   "시험 대비",
+   "특강·기업교육",
+   "교재·기타"
+  ],
+  "roles": [
+   "원장",
+   "부원장",
+   "강사",
+   "원어민 강사",
+   "상담 실장",
+   "데스크 직원",
+   "학원 차량 기사"
+  ],
+  "departments": [
+   "교무팀",
+   "상담실",
+   "행정실"
+  ],
+  "items": [
+   {
+    "name": "성인 영어회화 (주 2회)",
+    "kind": "service",
+    "category": "성인 영어",
+    "usd": [
+     111.0,
+     222.0
+    ],
+    "unit": "month",
+    "minutes": [
+     50,
+     100
+    ]
+   },
+   {
+    "name": "원어민 1:1 회화 (50분)",
+    "kind": "service",
+    "category": "성인 영어",
+    "usd": [
+     29.6,
+     59.3
+    ],
+    "unit": "session",
+    "minutes": [
+     50,
+     50
+    ]
+   },
+   {
+    "name": "화상 영어 (월 8회)",
+    "kind": "service",
+    "category": "성인 영어",
+    "usd": [
+     74.1,
+     148.0
+    ],
+    "unit": "month",
+    "minutes": [
+     25,
+     50
+    ]
+   },
+   {
+    "name": "초등 영어 정규반",
+    "kind": "service",
+    "category": "초중등 정규반",
+    "usd": [
+     185.0,
+     333.0
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "중등 영어 내신반",
+    "kind": "service",
+    "category": "초중등 정규반",
+    "usd": [
+     222.0,
+     370.0
+    ],
+    "unit": "month",
+    "minutes": [
+     90,
+     120
+    ]
+   },
+   {
+    "name": "중등 수학",
+    "kind": "service",
+    "category": "초중등 정규반",
+    "usd": [
+     222.0,
+     444.0
+    ],
+    "unit": "month",
+    "minutes": [
+     90,
+     150
+    ]
+   },
+   {
+    "name": "중국어 입문반",
+    "kind": "service",
+    "category": "제2외국어",
+    "usd": [
+     111.0,
+     185.0
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "일본어 JLPT 대비반",
+    "kind": "service",
+    "category": "제2외국어",
+    "usd": [
+     111.0,
+     207.0
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "스페인어 기초반",
+    "kind": "service",
+    "category": "제2외국어",
+    "usd": [
+     111.0,
+     185.0
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "토익 실전반",
+    "kind": "service",
+    "category": "시험 대비",
+    "usd": [
+     111.0,
+     222.0
+    ],
+    "unit": "month",
+    "minutes": [
+     90,
+     120
+    ]
+   },
+   {
+    "name": "오픽 대비반 (4주)",
+    "kind": "service",
+    "category": "시험 대비",
+    "usd": [
+     148.0,
+     296.0
+    ],
+    "unit": "person",
+    "minutes": [
+     90,
+     120
+    ]
+   },
+   {
+    "name": "레벨 테스트",
+    "kind": "service",
+    "category": "시험 대비",
+    "usd": [
+     7.4,
+     22.2
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "입시 상담 (1:1)",
+    "kind": "service",
+    "category": "시험 대비",
+    "usd": [
+     74.1,
+     222.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "방학 특강 (4주)",
+    "kind": "service",
+    "category": "특강·기업교육",
+    "usd": [
+     222.0,
+     519.0
+    ],
+    "unit": "person",
+    "minutes": [
+     90,
+     180
+    ]
+   },
+   {
+    "name": "영어 스피치 특강",
+    "kind": "service",
+    "category": "특강·기업교육",
+    "usd": [
+     37.0,
+     74.1
+    ],
+    "unit": "session",
+    "minutes": [
+     90,
+     120
+    ]
+   },
+   {
+    "name": "기업 출강 어학 교육",
+    "kind": "service",
+    "category": "특강·기업교육",
+    "usd": [
+     44.4,
+     88.9
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "영어 에세이 첨삭 (1편)",
+    "kind": "service",
+    "category": "교재·기타",
+    "usd": [
+     22.2,
+     59.3
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "학원 차량 운행비",
+    "kind": "service",
+    "category": "교재·기타",
+    "usd": [
+     22.2,
+     37.0
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "교재",
+    "kind": "product",
+    "category": "교재·기타",
+    "usd": [
+     11.1,
+     25.9
+    ],
+    "unit": "piece",
+    "variants": [
+     "본책",
+     "본책+워크북"
+    ]
+   },
+   {
+    "name": "토익 모의고사 문제집",
+    "kind": "product",
+    "category": "교재·기타",
+    "usd": [
+     7.4,
+     18.5
+    ],
+    "unit": "piece",
+    "variants": [
+     "1회분",
+     "5회분",
+     "10회분"
+    ]
+   },
+   {
+    "name": "영단어장",
+    "kind": "product",
+    "category": "교재·기타",
+    "usd": [
+     7.4,
+     14.8
+    ],
+    "unit": "piece",
+    "variants": [
+     "기본",
+     "심화"
+    ]
+   }
+  ]
+ },
+ "driving_school": {
+  "categories": [
+   "면허 취득",
+   "기능·도로 교육",
+   "운전 연수",
+   "대형·특수 면허"
+  ],
+  "roles": [
+   "원장",
+   "기능강사",
+   "도로주행 강사",
+   "연수 강사",
+   "학과 강사",
+   "상담 직원",
+   "차량 정비 담당"
+  ],
+  "departments": [
+   "교육팀",
+   "상담실",
+   "차량관리"
+  ],
+  "items": [
+   {
+    "name": "2종 보통 면허 취득 과정",
+    "kind": "service",
+    "category": "면허 취득",
+    "usd": [
+     481.0,
+     593.0
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "1종 보통 면허 취득 과정",
+    "kind": "service",
+    "category": "면허 취득",
+    "usd": [
+     519.0,
+     630.0
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "2종 소형 (이륜차) 면허 과정",
+    "kind": "service",
+    "category": "면허 취득",
+    "usd": [
+     296.0,
+     444.0
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "원동기 면허 과정",
+    "kind": "service",
+    "category": "면허 취득",
+    "usd": [
+     148.0,
+     222.0
+    ],
+    "unit": "person",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "외국인 운전면허 교육",
+    "kind": "service",
+    "category": "면허 취득",
+    "usd": [
+     370.0,
+     519.0
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "기능 교육 (4시간)",
+    "kind": "service",
+    "category": "기능·도로 교육",
+    "usd": [
+     111.0,
+     163.0
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     240
+    ]
+   },
+   {
+    "name": "도로 주행 교육 (6시간)",
+    "kind": "service",
+    "category": "기능·도로 교육",
+    "usd": [
+     185.0,
+     259.0
+    ],
+    "unit": "session",
+    "minutes": [
+     360,
+     360
+    ]
+   },
+   {
+    "name": "추가 교육",
+    "kind": "service",
+    "category": "기능·도로 교육",
+    "usd": [
+     29.6,
+     44.4
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "재응시 추가 교육 (기능)",
+    "kind": "service",
+    "category": "기능·도로 교육",
+    "usd": [
+     37.0,
+     59.3
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "장롱면허 연수 (10시간)",
+    "kind": "service",
+    "category": "운전 연수",
+    "usd": [
+     185.0,
+     296.0
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "방문 운전 연수",
+    "kind": "service",
+    "category": "운전 연수",
+    "usd": [
+     22.2,
+     37.0
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "주차 집중 연수 (2시간)",
+    "kind": "service",
+    "category": "운전 연수",
+    "usd": [
+     51.9,
+     88.9
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     120
+    ]
+   },
+   {
+    "name": "고속도로 주행 연수",
+    "kind": "service",
+    "category": "운전 연수",
+    "usd": [
+     74.1,
+     148.0
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     180
+    ]
+   },
+   {
+    "name": "여성 강사 1:1 연수",
+    "kind": "service",
+    "category": "운전 연수",
+    "usd": [
+     25.9,
+     40.7
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "야간 도로 연수",
+    "kind": "service",
+    "category": "운전 연수",
+    "usd": [
+     25.9,
+     40.7
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "1종 수동 연수",
+    "kind": "service",
+    "category": "운전 연수",
+    "usd": [
+     29.6,
+     44.4
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "1종 대형 면허 과정",
+    "kind": "service",
+    "category": "대형·특수 면허",
+    "usd": [
+     667.0,
+     889.0
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "1종 특수 (트레일러) 과정",
+    "kind": "service",
+    "category": "대형·특수 면허",
+    "usd": [
+     741.0,
+     1111.0
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "지게차 운전기능사 과정",
+    "kind": "service",
+    "category": "대형·특수 면허",
+    "usd": [
+     296.0,
+     444.0
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   }
+  ]
+ },
+ "fitness": {
+  "categories": [
+   "회원권",
+   "PT",
+   "필라테스·요가",
+   "GX 수업",
+   "부가 서비스"
+  ],
+  "roles": [
+   "트레이너",
+   "팀장 트레이너",
+   "필라테스 강사",
+   "요가 강사",
+   "FC",
+   "인포 데스크",
+   "센터장"
+  ],
+  "departments": [
+   "PT팀",
+   "GX팀",
+   "운영팀"
+  ],
+  "items": [
+   {
+    "name": "헬스 회원권",
+    "kind": "product",
+    "category": "회원권",
+    "usd": [
+     37.0,
+     74.1
+    ],
+    "unit": "person",
+    "variants": [
+     "1개월",
+     "3개월",
+     "6개월",
+     "12개월"
+    ]
+   },
+   {
+    "name": "일일 이용권",
+    "kind": "product",
+    "category": "회원권",
+    "usd": [
+     7.4,
+     14.8
+    ],
+    "unit": "day"
+   },
+   {
+    "name": "기업 단체 회원권 (1인)",
+    "kind": "product",
+    "category": "회원권",
+    "usd": [
+     29.6,
+     51.9
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "PT (1회)",
+    "kind": "service",
+    "category": "PT",
+    "usd": [
+     37.0,
+     66.7
+    ],
+    "unit": "session",
+    "minutes": [
+     50,
+     60
+    ]
+   },
+   {
+    "name": "PT 패키지",
+    "kind": "product",
+    "category": "PT",
+    "usd": [
+     370.0,
+     593.0
+    ],
+    "unit": "set",
+    "variants": [
+     "10회",
+     "20회",
+     "30회"
+    ]
+   },
+   {
+    "name": "PT 체험 수업",
+    "kind": "service",
+    "category": "PT",
+    "usd": [
+     14.8,
+     29.6
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     50
+    ]
+   },
+   {
+    "name": "그룹 PT (4인)",
+    "kind": "service",
+    "category": "PT",
+    "usd": [
+     18.5,
+     29.6
+    ],
+    "unit": "session",
+    "minutes": [
+     50,
+     60
+    ]
+   },
+   {
+    "name": "체형 교정 프로그램 (8회)",
+    "kind": "service",
+    "category": "PT",
+    "usd": [
+     296.0,
+     519.0
+    ],
+    "unit": "set",
+    "minutes": [
+     50,
+     60
+    ]
+   },
+   {
+    "name": "필라테스 그룹 레슨 (월 8회)",
+    "kind": "service",
+    "category": "필라테스·요가",
+    "usd": [
+     111.0,
+     185.0
+    ],
+    "unit": "month",
+    "minutes": [
+     50,
+     50
+    ]
+   },
+   {
+    "name": "필라테스 1:1 개인 레슨",
+    "kind": "service",
+    "category": "필라테스·요가",
+    "usd": [
+     44.4,
+     74.1
+    ],
+    "unit": "session",
+    "minutes": [
+     50,
+     50
+    ]
+   },
+   {
+    "name": "기구 필라테스 듀엣",
+    "kind": "service",
+    "category": "필라테스·요가",
+    "usd": [
+     29.6,
+     51.9
+    ],
+    "unit": "session",
+    "minutes": [
+     50,
+     50
+    ]
+   },
+   {
+    "name": "필라테스 체험 레슨",
+    "kind": "service",
+    "category": "필라테스·요가",
+    "usd": [
+     14.8,
+     29.6
+    ],
+    "unit": "session",
+    "minutes": [
+     50,
+     50
+    ]
+   },
+   {
+    "name": "요가 클래스",
+    "kind": "service",
+    "category": "필라테스·요가",
+    "usd": [
+     66.7,
+     111.0
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "스피닝",
+    "kind": "service",
+    "category": "GX 수업",
+    "usd": [
+     59.3,
+     96.3
+    ],
+    "unit": "month",
+    "minutes": [
+     45,
+     50
+    ]
+   },
+   {
+    "name": "크로스핏",
+    "kind": "service",
+    "category": "GX 수업",
+    "usd": [
+     111.0,
+     185.0
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "줌바 댄스",
+    "kind": "service",
+    "category": "GX 수업",
+    "usd": [
+     44.4,
+     74.1
+    ],
+    "unit": "month",
+    "minutes": [
+     50,
+     60
+    ]
+   },
+   {
+    "name": "인바디 측정",
+    "kind": "service",
+    "category": "부가 서비스",
+    "usd": [
+     3.7,
+     7.4
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     15
+    ]
+   },
+   {
+    "name": "운동복 대여",
+    "kind": "product",
+    "category": "부가 서비스",
+    "usd": [
+     7.4,
+     11.1
+    ],
+    "unit": "month"
+   },
+   {
+    "name": "개인 사물함",
+    "kind": "product",
+    "category": "부가 서비스",
+    "usd": [
+     7.4,
+     11.1
+    ],
+    "unit": "month"
+   },
+   {
+    "name": "프로틴 쉐이크",
+    "kind": "product",
+    "category": "부가 서비스",
+    "usd": [
+     3.7,
+     5.9
+    ],
+    "unit": "piece",
+    "variants": [
+     "레귤러",
+     "라지"
+    ]
+   }
+  ]
+ },
+ "hair_beauty": {
+  "categories": [
+   "커트",
+   "펌",
+   "염색",
+   "클리닉·케어",
+   "네일·속눈썹",
+   "피부·메이크업"
+  ],
+  "roles": [
+   "원장",
+   "실장",
+   "디자이너",
+   "인턴",
+   "스태프",
+   "네일리스트",
+   "피부관리사"
+  ],
+  "departments": [
+   "헤어",
+   "네일",
+   "피부관리실"
+  ],
+  "items": [
+   {
+    "name": "여성 커트",
+    "kind": "service",
+    "category": "커트",
+    "usd": [
+     14.8,
+     29.6
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "남성 커트",
+    "kind": "service",
+    "category": "커트",
+    "usd": [
+     11.1,
+     18.5
+    ],
+    "unit": "session",
+    "minutes": [
+     20,
+     40
+    ]
+   },
+   {
+    "name": "아동 커트",
+    "kind": "service",
+    "category": "커트",
+    "usd": [
+     7.4,
+     11.1
+    ],
+    "unit": "session",
+    "minutes": [
+     20,
+     30
+    ]
+   },
+   {
+    "name": "앞머리 커트",
+    "kind": "service",
+    "category": "커트",
+    "usd": [
+     3.7,
+     7.4
+    ],
+    "unit": "session",
+    "minutes": [
+     5,
+     15
+    ]
+   },
+   {
+    "name": "일반 펌",
+    "kind": "service",
+    "category": "펌",
+    "usd": [
+     44.4,
+     88.9
+    ],
+    "unit": "session",
+    "minutes": [
+     90,
+     150
+    ]
+   },
+   {
+    "name": "셋팅펌",
+    "kind": "service",
+    "category": "펌",
+    "usd": [
+     88.9,
+     185.0
+    ],
+    "unit": "session",
+    "minutes": [
+     150,
+     240
+    ]
+   },
+   {
+    "name": "매직 스트레이트",
+    "kind": "service",
+    "category": "펌",
+    "usd": [
+     88.9,
+     185.0
+    ],
+    "unit": "session",
+    "minutes": [
+     150,
+     240
+    ]
+   },
+   {
+    "name": "남성 펌",
+    "kind": "service",
+    "category": "펌",
+    "usd": [
+     37.0,
+     74.1
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "다운펌",
+    "kind": "service",
+    "category": "펌",
+    "usd": [
+     14.8,
+     29.6
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "뿌리 염색",
+    "kind": "service",
+    "category": "염색",
+    "usd": [
+     29.6,
+     51.9
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "전체 염색",
+    "kind": "service",
+    "category": "염색",
+    "usd": [
+     51.9,
+     111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     90,
+     150
+    ]
+   },
+   {
+    "name": "탈색",
+    "kind": "service",
+    "category": "염색",
+    "usd": [
+     51.9,
+     111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     90,
+     180
+    ]
+   },
+   {
+    "name": "헤어 클리닉",
+    "kind": "service",
+    "category": "클리닉·케어",
+    "usd": [
+     37.0,
+     111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "두피 스케일링",
+    "kind": "service",
+    "category": "클리닉·케어",
+    "usd": [
+     22.2,
+     44.4
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "드라이",
+    "kind": "service",
+    "category": "클리닉·케어",
+    "usd": [
+     14.8,
+     25.9
+    ],
+    "unit": "session",
+    "minutes": [
+     20,
+     40
+    ]
+   },
+   {
+    "name": "홈케어 샴푸",
+    "kind": "product",
+    "category": "클리닉·케어",
+    "usd": [
+     22.2,
+     37.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "300ml",
+     "500ml",
+     "1000ml"
+    ]
+   },
+   {
+    "name": "트리트먼트",
+    "kind": "product",
+    "category": "클리닉·케어",
+    "usd": [
+     18.5,
+     33.3
+    ],
+    "unit": "piece",
+    "variants": [
+     "200ml",
+     "500ml"
+    ]
+   },
+   {
+    "name": "헤어 에센스",
+    "kind": "product",
+    "category": "클리닉·케어",
+    "usd": [
+     14.8,
+     29.6
+    ],
+    "unit": "piece",
+    "variants": [
+     "50ml",
+     "100ml"
+    ]
+   },
+   {
+    "name": "젤네일 (기본)",
+    "kind": "service",
+    "category": "네일·속눈썹",
+    "usd": [
+     29.6,
+     44.4
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "젤네일 제거",
+    "kind": "service",
+    "category": "네일·속눈썹",
+    "usd": [
+     7.4,
+     11.1
+    ],
+    "unit": "session",
+    "minutes": [
+     20,
+     30
+    ]
+   },
+   {
+    "name": "속눈썹 연장",
+    "kind": "service",
+    "category": "네일·속눈썹",
+    "usd": [
+     29.6,
+     59.3
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "속눈썹 펌",
+    "kind": "service",
+    "category": "네일·속눈썹",
+    "usd": [
+     29.6,
+     44.4
+    ],
+    "unit": "session",
+    "minutes": [
+     40,
+     60
+    ]
+   },
+   {
+    "name": "기본 피부 관리 (60분)",
+    "kind": "service",
+    "category": "피부·메이크업",
+    "usd": [
+     44.4,
+     88.9
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "눈썹 왁싱",
+    "kind": "service",
+    "category": "피부·메이크업",
+    "usd": [
+     11.1,
+     18.5
+    ],
+    "unit": "session",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "신부 헤어·메이크업",
+    "kind": "service",
+    "category": "피부·메이크업",
+    "usd": [
+     222.0,
+     519.0
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     180
+    ]
+   }
+  ]
+ },
+ "dental": {
+  "categories": [
+   "보존 치료",
+   "보철",
+   "임플란트·발치",
+   "교정",
+   "예방·검진",
+   "미백·기타"
+  ],
+  "roles": [
+   "대표원장",
+   "치과의사",
+   "치과위생사",
+   "치과기공사",
+   "상담실장",
+   "데스크 직원",
+   "간호조무사"
+  ],
+  "departments": [
+   "진료실",
+   "상담실",
+   "기공실",
+   "데스크"
+  ],
+  "items": [
+   {
+    "name": "레진 충전",
+    "kind": "service",
+    "category": "보존 치료",
+    "usd": [
+     59.3,
+     111.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "금 인레이",
+    "kind": "service",
+    "category": "보존 치료",
+    "usd": [
+     222.0,
+     370.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "세라믹 인레이",
+    "kind": "service",
+    "category": "보존 치료",
+    "usd": [
+     185.0,
+     296.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "신경 치료 (1회)",
+    "kind": "service",
+    "category": "보존 치료",
+    "usd": [
+     37.0,
+     111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     40,
+     60
+    ]
+   },
+   {
+    "name": "잇몸 치료",
+    "kind": "service",
+    "category": "보존 치료",
+    "usd": [
+     22.2,
+     74.1
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "지르코니아 크라운",
+    "kind": "service",
+    "category": "보철",
+    "usd": [
+     296.0,
+     519.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "부분 틀니",
+    "kind": "service",
+    "category": "보철",
+    "usd": [
+     889.0,
+     1481.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "완전 틀니",
+    "kind": "service",
+    "category": "보철",
+    "usd": [
+     1111.0,
+     1852.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "임플란트 (1개)",
+    "kind": "service",
+    "category": "임플란트·발치",
+    "usd": [
+     741.0,
+     1111.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "뼈이식",
+    "kind": "service",
+    "category": "임플란트·발치",
+    "usd": [
+     296.0,
+     741.0
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "사랑니 발치",
+    "kind": "service",
+    "category": "임플란트·발치",
+    "usd": [
+     22.2,
+     111.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "일반 발치",
+    "kind": "service",
+    "category": "임플란트·발치",
+    "usd": [
+     7.4,
+     22.2
+    ],
+    "unit": "piece",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "투명 교정",
+    "kind": "service",
+    "category": "교정",
+    "usd": [
+     2222.0,
+     4444.0
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "메탈 브래킷 교정",
+    "kind": "service",
+    "category": "교정",
+    "usd": [
+     2593.0,
+     4444.0
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "교정 월 조정비",
+    "kind": "service",
+    "category": "교정",
+    "usd": [
+     37.0,
+     74.1
+    ],
+    "unit": "month",
+    "minutes": [
+     20,
+     30
+    ]
+   },
+   {
+    "name": "스케일링",
+    "kind": "service",
+    "category": "예방·검진",
+    "usd": [
+     11.1,
+     14.8
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     40
+    ]
+   },
+   {
+    "name": "구강 검진",
+    "kind": "service",
+    "category": "예방·검진",
+    "usd": [
+     7.4,
+     22.2
+    ],
+    "unit": "session",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "불소 도포",
+    "kind": "service",
+    "category": "예방·검진",
+    "usd": [
+     14.8,
+     29.6
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     20
+    ]
+   },
+   {
+    "name": "치아 홈 메우기 (실란트)",
+    "kind": "service",
+    "category": "예방·검진",
+    "usd": [
+     14.8,
+     29.6
+    ],
+    "unit": "piece",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "파노라마 촬영",
+    "kind": "service",
+    "category": "예방·검진",
+    "usd": [
+     11.1,
+     22.2
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     10
+    ]
+   },
+   {
+    "name": "전문가 치아 미백",
+    "kind": "service",
+    "category": "미백·기타",
+    "usd": [
+     148.0,
+     370.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "이갈이 마우스피스",
+    "kind": "service",
+    "category": "미백·기타",
+    "usd": [
+     148.0,
+     296.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   }
+  ]
+ },
+ "veterinary": {
+  "categories": [
+   "진료·검사",
+   "예방접종",
+   "수술",
+   "입원·케어",
+   "용품·사료"
+  ],
+  "roles": [
+   "원장",
+   "수의사",
+   "동물보건사",
+   "테크니션",
+   "데스크 직원",
+   "미용사"
+  ],
+  "departments": [
+   "진료실",
+   "수술실",
+   "입원실",
+   "접수"
+  ],
+  "items": [
+   {
+    "name": "기본 진료",
+    "kind": "service",
+    "category": "진료·검사",
+    "usd": [
+     7.4,
+     14.8
+    ],
+    "unit": "session",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "혈액 검사",
+    "kind": "service",
+    "category": "진료·검사",
+    "usd": [
+     37.0,
+     111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "엑스레이 촬영",
+    "kind": "service",
+    "category": "진료·검사",
+    "usd": [
+     22.2,
+     59.3
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     20
+    ]
+   },
+   {
+    "name": "복부 초음파 검사",
+    "kind": "service",
+    "category": "진료·검사",
+    "usd": [
+     37.0,
+     111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     20,
+     40
+    ]
+   },
+   {
+    "name": "종합 건강검진",
+    "kind": "service",
+    "category": "진료·검사",
+    "usd": [
+     148.0,
+     444.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "귀 세정",
+    "kind": "service",
+    "category": "진료·검사",
+    "usd": [
+     7.4,
+     14.8
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     20
+    ]
+   },
+   {
+    "name": "종합백신 접종",
+    "kind": "service",
+    "category": "예방접종",
+    "usd": [
+     18.5,
+     29.6
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     20
+    ]
+   },
+   {
+    "name": "광견병 예방접종",
+    "kind": "service",
+    "category": "예방접종",
+    "usd": [
+     14.8,
+     25.9
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     20
+    ]
+   },
+   {
+    "name": "켄넬코프 접종",
+    "kind": "service",
+    "category": "예방접종",
+    "usd": [
+     14.8,
+     25.9
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     20
+    ]
+   },
+   {
+    "name": "내장형 동물등록",
+    "kind": "service",
+    "category": "예방접종",
+    "usd": [
+     14.8,
+     29.6
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     15
+    ]
+   },
+   {
+    "name": "수컷 중성화 수술",
+    "kind": "service",
+    "category": "수술",
+    "usd": [
+     148.0,
+     296.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "암컷 중성화 수술",
+    "kind": "service",
+    "category": "수술",
+    "usd": [
+     222.0,
+     444.0
+    ],
+    "unit": "session",
+    "minutes": [
+     90,
+     150
+    ]
+   },
+   {
+    "name": "스케일링 (마취 포함)",
+    "kind": "service",
+    "category": "수술",
+    "usd": [
+     185.0,
+     370.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "슬개골 탈구 수술",
+    "kind": "service",
+    "category": "수술",
+    "usd": [
+     741.0,
+     1852.0
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     180
+    ]
+   },
+   {
+    "name": "입원 치료",
+    "kind": "service",
+    "category": "입원·케어",
+    "usd": [
+     37.0,
+     111.0
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "호텔링",
+    "kind": "service",
+    "category": "입원·케어",
+    "usd": [
+     22.2,
+     37.0
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "위생 미용",
+    "kind": "service",
+    "category": "입원·케어",
+    "usd": [
+     22.2,
+     37.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "심장사상충 예방약 (1개월분)",
+    "kind": "product",
+    "category": "용품·사료",
+    "usd": [
+     7.4,
+     14.8
+    ],
+    "unit": "box",
+    "variants": [
+     "소형견",
+     "중형견",
+     "대형견"
+    ]
+   },
+   {
+    "name": "처방 사료",
+    "kind": "product",
+    "category": "용품·사료",
+    "usd": [
+     25.9,
+     44.4
+    ],
+    "unit": "piece",
+    "variants": [
+     "2kg",
+     "4kg",
+     "8kg"
+    ]
+   },
+   {
+    "name": "구충제",
+    "kind": "product",
+    "category": "용품·사료",
+    "usd": [
+     3.7,
+     7.4
+    ],
+    "unit": "piece",
+    "variants": [
+     "소형견",
+     "대형견"
+    ]
+   },
+   {
+    "name": "넥카라",
+    "kind": "product",
+    "category": "용품·사료",
+    "usd": [
+     7.4,
+     14.8
+    ],
+    "unit": "piece",
+    "variants": [
+     "S",
+     "M",
+     "L"
+    ]
+   }
+  ]
+ },
+ "printing": {
+  "categories": [
+   "명함·판촉물",
+   "전단·리플렛",
+   "책자·제본",
+   "실사 출력",
+   "디자인",
+   "출력·복사"
+  ],
+  "roles": [
+   "인쇄 기장",
+   "편집 디자이너",
+   "출력 담당",
+   "제본 담당",
+   "영업 담당",
+   "실장",
+   "대표"
+  ],
+  "departments": [
+   "디자인실",
+   "인쇄실",
+   "후가공",
+   "영업"
+  ],
+  "items": [
+   {
+    "name": "일반 명함",
+    "kind": "product",
+    "category": "명함·판촉물",
+    "usd": [
+     7.4,
+     18.5
+    ],
+    "unit": "box",
+    "variants": [
+     "200매",
+     "500매",
+     "1000매"
+    ]
+   },
+   {
+    "name": "고급 수입지 명함",
+    "kind": "product",
+    "category": "명함·판촉물",
+    "usd": [
+     18.5,
+     37.0
+    ],
+    "unit": "box",
+    "variants": [
+     "200매",
+     "500매"
+    ]
+   },
+   {
+    "name": "스티커 인쇄 (1,000매)",
+    "kind": "product",
+    "category": "명함·판촉물",
+    "usd": [
+     37.0,
+     111.0
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "쿠폰 인쇄 (1,000매)",
+    "kind": "product",
+    "category": "명함·판촉물",
+    "usd": [
+     29.6,
+     59.3
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "종이 쇼핑백 인쇄 (500개)",
+    "kind": "product",
+    "category": "명함·판촉물",
+    "usd": [
+     370.0,
+     889.0
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "A4 전단지",
+    "kind": "product",
+    "category": "전단·리플렛",
+    "usd": [
+     111.0,
+     222.0
+    ],
+    "unit": "set",
+    "variants": [
+     "2000매",
+     "4000매",
+     "8000매"
+    ]
+   },
+   {
+    "name": "3단 리플렛",
+    "kind": "product",
+    "category": "전단·리플렛",
+    "usd": [
+     148.0,
+     333.0
+    ],
+    "unit": "set",
+    "variants": [
+     "500부",
+     "1000부",
+     "2000부"
+    ]
+   },
+   {
+    "name": "대봉투 인쇄 (1,000매)",
+    "kind": "product",
+    "category": "전단·리플렛",
+    "usd": [
+     111.0,
+     222.0
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "간이영수증 인쇄 (10권)",
+    "kind": "product",
+    "category": "전단·리플렛",
+    "usd": [
+     22.2,
+     44.4
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "카탈로그 인쇄 (16쪽, 500부)",
+    "kind": "product",
+    "category": "책자·제본",
+    "usd": [
+     593.0,
+     1481.0
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "무선 제본",
+    "kind": "service",
+    "category": "책자·제본",
+    "usd": [
+     2.22,
+     7.4
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     15
+    ]
+   },
+   {
+    "name": "스프링 제본",
+    "kind": "service",
+    "category": "책자·제본",
+    "usd": [
+     1.48,
+     3.7
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     10
+    ]
+   },
+   {
+    "name": "현수막",
+    "kind": "product",
+    "category": "실사 출력",
+    "usd": [
+     22.2,
+     51.9
+    ],
+    "unit": "piece",
+    "variants": [
+     "3m",
+     "5m",
+     "7m"
+    ]
+   },
+   {
+    "name": "실사 출력 (배너)",
+    "kind": "product",
+    "category": "실사 출력",
+    "usd": [
+     11.1,
+     29.6
+    ],
+    "unit": "m2"
+   },
+   {
+    "name": "X배너 (거치대 포함)",
+    "kind": "product",
+    "category": "실사 출력",
+    "usd": [
+     29.6,
+     51.9
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "A2 포스터",
+    "kind": "product",
+    "category": "실사 출력",
+    "usd": [
+     3.7,
+     11.1
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "편집 디자인",
+    "kind": "service",
+    "category": "디자인",
+    "usd": [
+     14.8,
+     37.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "명함 디자인",
+    "kind": "service",
+    "category": "디자인",
+    "usd": [
+     7.4,
+     22.2
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "흑백 출력 (A4)",
+    "kind": "product",
+    "category": "출력·복사",
+    "usd": [
+     0.04,
+     0.074
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "컬러 출력 (A4)",
+    "kind": "product",
+    "category": "출력·복사",
+    "usd": [
+     0.22,
+     0.74
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "코팅 (A4)",
+    "kind": "service",
+    "category": "출력·복사",
+    "usd": [
+     0.74,
+     1.48
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     10
+    ]
+   }
+  ]
+ },
+ "furniture_maker": {
+  "categories": [
+   "주방·식탁",
+   "침실",
+   "수납",
+   "사무·상업용",
+   "소품·클래스",
+   "수리·설치"
+  ],
+  "roles": [
+   "목수",
+   "가구 디자이너",
+   "공방장",
+   "도장 기사",
+   "설치 기사",
+   "견적 상담",
+   "대표"
+  ],
+  "departments": [
+   "제작실",
+   "도장실",
+   "설치팀",
+   "사무실"
+  ],
+  "items": [
+   {
+    "name": "원목 식탁",
+    "kind": "product",
+    "category": "주방·식탁",
+    "usd": [
+     593.0,
+     1333.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "2인용",
+     "4인용",
+     "6인용"
+    ]
+   },
+   {
+    "name": "원목 의자",
+    "kind": "product",
+    "category": "주방·식탁",
+    "usd": [
+     111.0,
+     296.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "원목 벤치",
+    "kind": "product",
+    "category": "주방·식탁",
+    "usd": [
+     185.0,
+     370.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "주방 싱크대 (ㄱ자형)",
+    "kind": "product",
+    "category": "주방·식탁",
+    "usd": [
+     2222.0,
+     5185.0
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "원목 침대 프레임",
+    "kind": "product",
+    "category": "침실",
+    "usd": [
+     593.0,
+     1481.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "슈퍼싱글",
+     "퀸",
+     "킹"
+    ]
+   },
+   {
+    "name": "원목 협탁",
+    "kind": "product",
+    "category": "침실",
+    "usd": [
+     148.0,
+     296.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "원목 서랍장",
+    "kind": "product",
+    "category": "침실",
+    "usd": [
+     444.0,
+     889.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "3단",
+     "4단",
+     "5단"
+    ]
+   },
+   {
+    "name": "붙박이장 제작·설치",
+    "kind": "product",
+    "category": "수납",
+    "usd": [
+     370.0,
+     593.0
+    ],
+    "unit": "m"
+   },
+   {
+    "name": "맞춤 책장",
+    "kind": "product",
+    "category": "수납",
+    "usd": [
+     222.0,
+     741.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "3단",
+     "5단"
+    ]
+   },
+   {
+    "name": "현관 신발장",
+    "kind": "product",
+    "category": "수납",
+    "usd": [
+     222.0,
+     667.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "거실장",
+    "kind": "product",
+    "category": "수납",
+    "usd": [
+     370.0,
+     1111.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "맞춤 사무용 책상",
+    "kind": "product",
+    "category": "사무·상업용",
+    "usd": [
+     296.0,
+     741.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "카페 테이블 (업소용)",
+    "kind": "product",
+    "category": "사무·상업용",
+    "usd": [
+     111.0,
+     296.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "매장 진열대 제작",
+    "kind": "product",
+    "category": "사무·상업용",
+    "usd": [
+     370.0,
+     1481.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "원목 도마",
+    "kind": "product",
+    "category": "소품·클래스",
+    "usd": [
+     22.2,
+     59.3
+    ],
+    "unit": "piece",
+    "variants": [
+     "소",
+     "중",
+     "대"
+    ]
+   },
+   {
+    "name": "원목 트레이",
+    "kind": "product",
+    "category": "소품·클래스",
+    "usd": [
+     22.2,
+     44.4
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "원데이 목공 클래스",
+    "kind": "service",
+    "category": "소품·클래스",
+    "usd": [
+     44.4,
+     111.0
+    ],
+    "unit": "person",
+    "minutes": [
+     180,
+     240
+    ]
+   },
+   {
+    "name": "가구 수리 및 리폼",
+    "kind": "service",
+    "category": "수리·설치",
+    "usd": [
+     37.0,
+     222.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "원목 가구 재도장",
+    "kind": "service",
+    "category": "수리·설치",
+    "usd": [
+     74.1,
+     222.0
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "설치 및 배송",
+    "kind": "service",
+    "category": "수리·설치",
+    "usd": [
+     37.0,
+     111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   }
+  ]
+ },
+ "event_catering": {
+  "categories": [
+   "출장 뷔페",
+   "도시락",
+   "핑거푸드·다과",
+   "음료",
+   "대여·인력"
+  ],
+  "roles": [
+   "총괄 셰프",
+   "조리사",
+   "조리 보조",
+   "서빙 매니저",
+   "서빙 직원",
+   "행사 코디네이터",
+   "배송 기사",
+   "대표"
+  ],
+  "departments": [
+   "조리팀",
+   "서비스팀",
+   "영업·행사팀"
+  ],
+  "items": [
+   {
+    "name": "한식 출장 뷔페",
+    "kind": "product",
+    "category": "출장 뷔페",
+    "usd": [
+     18.5,
+     37.0
+    ],
+    "unit": "person",
+    "variants": [
+     "실속형",
+     "일반형",
+     "고급형"
+    ]
+   },
+   {
+    "name": "기업 행사 케이터링",
+    "kind": "product",
+    "category": "출장 뷔페",
+    "usd": [
+     22.2,
+     51.9
+    ],
+    "unit": "person",
+    "variants": [
+     "기본",
+     "스탠다드",
+     "프리미엄"
+    ]
+   },
+   {
+    "name": "돌잔치 출장 뷔페",
+    "kind": "product",
+    "category": "출장 뷔페",
+    "usd": [
+     22.2,
+     40.7
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "바비큐 파티 출장",
+    "kind": "product",
+    "category": "출장 뷔페",
+    "usd": [
+     25.9,
+     51.9
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "코스 요리 출장",
+    "kind": "product",
+    "category": "출장 뷔페",
+    "usd": [
+     51.9,
+     111.0
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "고급 한식 도시락",
+    "kind": "product",
+    "category": "도시락",
+    "usd": [
+     8.9,
+     18.5
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "단체 도시락",
+    "kind": "product",
+    "category": "도시락",
+    "usd": [
+     5.2,
+     8.9
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "과일 도시락",
+    "kind": "product",
+    "category": "도시락",
+    "usd": [
+     5.2,
+     8.9
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "단체 김밥",
+    "kind": "product",
+    "category": "도시락",
+    "usd": [
+     2.59,
+     3.7
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "샌드위치 박스",
+    "kind": "product",
+    "category": "도시락",
+    "usd": [
+     5.9,
+     11.1
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "핑거푸드 세트",
+    "kind": "product",
+    "category": "핑거푸드·다과",
+    "usd": [
+     296.0,
+     667.0
+    ],
+    "unit": "set",
+    "variants": [
+     "20인분",
+     "30인분",
+     "50인분"
+    ]
+   },
+   {
+    "name": "다과 세트 (1인)",
+    "kind": "product",
+    "category": "핑거푸드·다과",
+    "usd": [
+     3.7,
+     8.9
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "떡 답례품 세트",
+    "kind": "product",
+    "category": "핑거푸드·다과",
+    "usd": [
+     3.7,
+     11.1
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "커피 케이터링 (100잔)",
+    "kind": "product",
+    "category": "음료",
+    "usd": [
+     222.0,
+     519.0
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "음료 무제한 (1인)",
+    "kind": "product",
+    "category": "음료",
+    "usd": [
+     2.96,
+     5.9
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "서빙 인력 (1인, 4시간)",
+    "kind": "service",
+    "category": "대여·인력",
+    "usd": [
+     59.3,
+     96.3
+    ],
+    "unit": "person",
+    "minutes": [
+     240,
+     240
+    ]
+   },
+   {
+    "name": "테이블·의자 세트 대여",
+    "kind": "service",
+    "category": "대여·인력",
+    "usd": [
+     7.4,
+     14.8
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "행사장 세팅 및 철수",
+    "kind": "service",
+    "category": "대여·인력",
+    "usd": [
+     148.0,
+     370.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "지방 출장비",
+    "kind": "service",
+    "category": "대여·인력",
+    "usd": [
+     37.0,
+     111.0
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     240
+    ]
+   }
+  ]
+ }
+}

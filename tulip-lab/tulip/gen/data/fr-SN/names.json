@@ -1,0 +1,27 @@
+{
+  "given_male": [
+    "Mamadou", "Moussa", "Ibrahima", "Abdoulaye", "Cheikh", "Ousmane", "Modou", "Amadou",
+    "Babacar", "Aliou", "Mouhamed", "Serigne", "Malick", "Pape", "Alioune", "Lamine",
+    "Souleymane", "Boubacar", "Omar", "Assane", "Ousseynou", "Mbaye", "Saliou", "Djibril",
+    "Idrissa", "Samba", "Demba", "Khadim", "Moustapha", "El Hadji", "Ababacar", "Fallou",
+    "Aly", "Thierno", "Mansour", "Daouda", "Seydou", "Youssou", "Pathé", "Birame"
+  ],
+  "given_female": [
+    "Aïssatou", "Fatou", "Aminata", "Mariama", "Awa", "Khady", "Ndèye", "Adama",
+    "Rokhaya", "Coumba", "Astou", "Bineta", "Dieynaba", "Fatoumata", "Mame Diarra", "Marième",
+    "Sokhna", "Yacine", "Maïmouna", "Oumy", "Ramatoulaye", "Seynabou", "Penda", "Nafissatou",
+    "Anta", "Ngoné", "Arame", "Codou", "Ndèye Fatou", "Marie", "Thérèse", "Absa",
+    "Khadidiatou", "Soda", "Binta"
+  ],
+  "family": [
+    "Diop", "Ndiaye", "Fall", "Sow", "Diallo", "Gueye", "Faye", "Seck",
+    "Ba", "Sarr", "Mbaye", "Ndoye", "Cissé", "Sy", "Kane", "Diouf",
+    "Thiam", "Niang", "Diagne", "Dieng", "Sène", "Camara", "Touré", "Samb",
+    "Wade", "Mbengue", "Diatta", "Badji", "Sagna", "Goudiaby", "Mendy", "Gomis",
+    "Coly", "Diédhiou", "Sané", "Ndour", "Tine", "Sylla", "Dia", "Diaw",
+    "Lô", "Mbodj", "Ly", "Tall", "Dramé", "Konaté", "Kébé", "Diakhaté",
+    "Ndao", "Loum", "Seye", "Cissokho", "Tamba", "Traoré", "Coulibaly", "Baldé",
+    "Barry", "Sall", "Niasse", "Dione", "Senghor", "Sonko", "Mboup", "Sambou",
+    "Manga", "Faty", "Kandé", "Ciss", "Ndiongue", "Thioune", "Sakho"
+  ]
+}

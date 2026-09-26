@@ -1,0 +1,601 @@
+{
+ "weekdays": {
+  "full": [
+   "lunedì",
+   "martedì",
+   "mercoledì",
+   "giovedì",
+   "venerdì",
+   "sabato",
+   "domenica"
+  ],
+  "short": [
+   "lun",
+   "mar",
+   "mer",
+   "gio",
+   "ven",
+   "sab",
+   "dom"
+  ],
+  "other": [
+   [
+    "lunedi",
+    "lunedi'",
+    "lun.",
+    "lu"
+   ],
+   [
+    "martedi",
+    "martedi'",
+    "mar.",
+    "ma"
+   ],
+   [
+    "mercoledi",
+    "mercoledi'",
+    "mer.",
+    "me"
+   ],
+   [
+    "giovedi",
+    "giovedi'",
+    "gio.",
+    "gi"
+   ],
+   [
+    "venerdi",
+    "venerdi'",
+    "ven.",
+    "ve"
+   ],
+   [
+    "sab.",
+    "sa"
+   ],
+   [
+    "dom.",
+    "do"
+   ]
+  ]
+ },
+ "months": {
+  "full": [
+   "gennaio",
+   "febbraio",
+   "marzo",
+   "aprile",
+   "maggio",
+   "giugno",
+   "luglio",
+   "agosto",
+   "settembre",
+   "ottobre",
+   "novembre",
+   "dicembre"
+  ],
+  "short": [
+   "gen",
+   "feb",
+   "mar",
+   "apr",
+   "mag",
+   "giu",
+   "lug",
+   "ago",
+   "set",
+   "ott",
+   "nov",
+   "dic"
+  ]
+ },
+ "closed": [
+  "Chiuso",
+  "Chiusi",
+  "Chiusura settimanale",
+  "Riposo",
+  "Riposo settimanale",
+  "Giorno di riposo",
+  "Giorno di chiusura",
+  "Turno di riposo"
+ ],
+ "yes": [
+  "Sì",
+  "Si",
+  "S",
+  "x",
+  "Vero",
+  "✓"
+ ],
+ "no": [
+  "No",
+  "N",
+  "Falso"
+ ],
+ "totals": [
+  "Totale",
+  "Totale generale",
+  "Totale complessivo",
+  "Tot.",
+  "Tot. generale",
+  "Totali"
+ ],
+ "subtotals": [
+  "Subtotale",
+  "Sub-totale",
+  "Totale parziale",
+  "Parziale",
+  "Tot. parziale",
+  "Subtot."
+ ],
+ "invoice_status": {
+  "paid": [
+   "Pagata",
+   "Pagato",
+   "Saldata",
+   "Saldato",
+   "Incassata",
+   "Incassato"
+  ],
+  "unpaid": [
+   "Da pagare",
+   "Non pagata",
+   "Da incassare",
+   "Aperta",
+   "Non saldata",
+   "In attesa di pagamento",
+   "Da saldare"
+  ],
+  "partial": [
+   "Pagata parzialmente",
+   "Parz. pagata",
+   "Pagata in parte",
+   "Pagamento parziale",
+   "Incassata parzialmente",
+   "Acconto ricevuto"
+  ],
+  "overdue": [
+   "Scaduta",
+   "Scaduto",
+   "Insoluta",
+   "In ritardo",
+   "Sollecitata"
+  ],
+  "cancelled": [
+   "Annullata",
+   "Annullato",
+   "Stornata",
+   "Stornato",
+   "Cancellata"
+  ],
+  "other": [
+   "Bozza",
+   "Proforma",
+   "Preventivo",
+   "Da emettere",
+   "Scartata SdI"
+  ]
+ },
+ "booking_status": {
+  "confirmed": [
+   "Confermata",
+   "Confermato",
+   "Prenotato",
+   "Prenotata",
+   "Fissato",
+   "Conf."
+  ],
+  "pending": [
+   "In attesa",
+   "Da confermare",
+   "In attesa di conferma",
+   "In sospeso",
+   "Richiesta",
+   "In opzione",
+   "Provvisoria"
+  ],
+  "completed": [
+   "Completata",
+   "Completato",
+   "Eseguito",
+   "Eseguita",
+   "Effettuato",
+   "Svolto",
+   "Concluso",
+   "Fatto"
+  ],
+  "cancelled": [
+   "Annullata",
+   "Annullato",
+   "Disdetta",
+   "Disdetto",
+   "Cancellata",
+   "Cancellato"
+  ],
+  "no_show": [
+   "Non presentato",
+   "Non presentata",
+   "Non si è presentato",
+   "Assente",
+   "No-show",
+   "Mancata presentazione"
+  ],
+  "other": [
+   "Spostato",
+   "Rinviato",
+   "Da riprogrammare"
+  ]
+ },
+ "tax_included": [
+  "IVA inclusa",
+  "IVA compresa",
+  "IVA incl.",
+  "incl. IVA",
+  "compresa IVA",
+  "comprensivo di IVA",
+  "con IVA",
+  "ivato"
+ ],
+ "tax_excluded": [
+  "IVA esclusa",
+  "IVA non inclusa",
+  "+ IVA",
+  "oltre IVA",
+  "IVA escl.",
+  "escl. IVA",
+  "senza IVA",
+  "esclusa IVA",
+  "al netto di IVA",
+  "netto IVA",
+  "+ IVA di legge",
+  "imponibile"
+ ],
+ "from_words": [
+  "a partire da",
+  "da",
+  "prezzi da",
+  "da soli"
+ ],
+ "units": {
+  "piece": [
+   "pz",
+   "pz.",
+   "pezzo",
+   "pezzi",
+   "cad.",
+   "cadauno",
+   "nr"
+  ],
+  "kg": [
+   "kg",
+   "chilo",
+   "al kg"
+  ],
+  "g": [
+   "g",
+   "gr",
+   "gr.",
+   "grammi"
+  ],
+  "l": [
+   "l",
+   "lt",
+   "lt.",
+   "litro",
+   "litri"
+  ],
+  "ml": [
+   "ml",
+   "millilitri"
+  ],
+  "box": [
+   "conf.",
+   "confezione",
+   "scatola",
+   "cartone",
+   "scat."
+  ],
+  "pack": [
+   "pacco",
+   "pacchetto",
+   "busta",
+   "sacchetto",
+   "blister"
+  ],
+  "hour": [
+   "ora",
+   "ore",
+   "h",
+   "all'ora"
+  ],
+  "day": [
+   "giorno",
+   "giorni",
+   "gg",
+   "giornata",
+   "gg/uomo",
+   "al giorno"
+  ],
+  "month": [
+   "mese",
+   "mesi",
+   "mensile",
+   "al mese"
+  ],
+  "person": [
+   "persona",
+   "a persona",
+   "pax",
+   "coperto",
+   "p.p.",
+   "a testa"
+  ],
+  "session": [
+   "seduta",
+   "sessione",
+   "incontro",
+   "ingresso",
+   "lezione"
+  ],
+  "set": [
+   "set",
+   "kit",
+   "serie"
+  ],
+  "m": [
+   "m",
+   "mt",
+   "metro",
+   "metri",
+   "metro lineare"
+  ],
+  "m2": [
+   "mq",
+   "m²",
+   "metro quadro",
+   "metri quadri",
+   "mq."
+  ]
+ },
+ "minute_words": [
+  "min",
+  "min.",
+  "minuti",
+  "minuto",
+  "'"
+ ],
+ "hour_words": [
+  "h",
+  "ore",
+  "ora"
+ ],
+ "am_pm": [],
+ "notes_rows": [
+  "Prezzi IVA inclusa, validi fino al {date}",
+  "* I prezzi possono variare senza preavviso",
+  "Listino valido dal 1° gennaio {year}",
+  "Aggiornato al {date}",
+  "N.B. Le tariffe si intendono IVA esclusa",
+  "Per informazioni e prenotazioni contattare il negozio",
+  "Salvo errori e omissioni",
+  "I dati si riferiscono al {date}",
+  "Orari soggetti a variazioni nei giorni festivi",
+  "Estrazione dal gestionale del {date}",
+  "(*) Prezzo indicativo, da confermare con preventivo",
+  "Documento ad uso interno",
+  "Pagamento a 30 gg data fattura fine mese",
+  "Gli importi sono espressi al netto di sconti"
+ ],
+ "title_rows": {
+  "products": [
+   "Listino prezzi {year}",
+   "Listino prezzi – {business}",
+   "Elenco articoli",
+   "Catalogo prodotti {year}",
+   "Listino al pubblico",
+   "Prezzi di vendita {year}",
+   "Anagrafica articoli"
+  ],
+  "services": [
+   "Listino servizi {year}",
+   "Tariffe {year}",
+   "Listino prestazioni – {business}",
+   "I nostri servizi",
+   "Tariffario {year}",
+   "Prezzi dei trattamenti"
+  ],
+  "opening_hours": [
+   "Orari di apertura",
+   "Orario di apertura – {business}",
+   "Orari {year}",
+   "Orario settimanale",
+   "Orari del negozio",
+   "Orari al pubblico"
+  ],
+  "staff": [
+   "Elenco dipendenti",
+   "Organico {year}",
+   "Elenco del personale",
+   "Anagrafica dipendenti – {business}",
+   "Rubrica interna",
+   "Staff {year}"
+  ],
+  "clients": [
+   "Elenco clienti",
+   "Anagrafica clienti",
+   "Rubrica clienti – {business}",
+   "Clienti {year}",
+   "Portafoglio clienti"
+  ],
+  "bookings": [
+   "Agenda appuntamenti – {month} {year}",
+   "Prenotazioni {month} {year}",
+   "Elenco appuntamenti",
+   "Planning settimanale",
+   "Registro prenotazioni {year}",
+   "Appuntamenti del mese"
+  ],
+  "invoice_ledger": [
+   "Registro fatture {year}",
+   "Registro fatture emesse {year}",
+   "Fatture emesse – {business}",
+   "Scadenzario clienti {year}",
+   "Elenco fatture {month} {year}",
+   "Registro IVA vendite {year}"
+  ]
+ },
+ "sheet_names": {
+  "products": [
+   "Listino",
+   "Prodotti",
+   "Articoli",
+   "Listino {year}",
+   "Catalogo",
+   "Magazzino"
+  ],
+  "services": [
+   "Servizi",
+   "Tariffe",
+   "Prestazioni",
+   "Listino servizi",
+   "Tariffario"
+  ],
+  "opening_hours": [
+   "Orari",
+   "Orario",
+   "Orari apertura",
+   "Apertura"
+  ],
+  "staff": [
+   "Personale",
+   "Dipendenti",
+   "Staff",
+   "Organico",
+   "Team"
+  ],
+  "clients": [
+   "Clienti",
+   "Anagrafica clienti",
+   "Rubrica",
+   "Clienti {year}"
+  ],
+  "bookings": [
+   "Appuntamenti",
+   "Prenotazioni",
+   "Agenda",
+   "Planning",
+   "Calendario"
+  ],
+  "invoice_ledger": [
+   "Fatture",
+   "Fatture {year}",
+   "Registro fatture",
+   "Scadenzario",
+   "Fatturato"
+  ],
+  "other": [
+   "Foglio1",
+   "Foglio2",
+   "Foglio3",
+   "Note",
+   "Riepilogo",
+   "Grafico",
+   "Dati",
+   "Istruzioni"
+  ]
+ },
+ "hours_notes": [
+  "su appuntamento",
+  "solo su appuntamento",
+  "previo appuntamento",
+  "su prenotazione",
+  "orario continuato",
+  "orario estivo",
+  "orario invernale",
+  "festivi esclusi",
+  "chiuso per ferie ad agosto",
+  "solo mattina",
+  "aperto anche nei festivi"
+ ],
+ "balance_rows": [
+  "Riporto",
+  "Saldo iniziale",
+  "Saldo precedente",
+  "Saldo riportato"
+ ],
+ "credit_note": [
+  "Nota di credito",
+  "Nota credito",
+  "NC",
+  "N.C."
+ ],
+ "not_a_table": {
+  "notes_page": [
+   "Ricordarsi di inviare il listino aggiornato ai clienti entro fine mese.",
+   "Chiamare il fornitore per riordinare le confezioni regalo.",
+   "Da lunedì prossimo il sabato si apre alle 8:30 invece che alle 9.",
+   "Verificare con il commercialista la scadenza del versamento IVA.",
+   "Le ferie estive vanno comunicate in ufficio entro il 30 aprile.",
+   "Il nuovo gestionale verrà installato a partire dal mese prossimo.",
+   "Controllare le giacenze di magazzino prima dell'inventario di fine anno.",
+   "Rinnovare il dominio e il certificato SSL del sito entro dicembre.",
+   "Per i clienti abituali lo sconto massimo resta del 10%.",
+   "Riunione del personale giovedì alle 18:00 in sede."
+  ],
+  "summary": [
+   "Fatturato",
+   "Ricavi",
+   "Costi",
+   "Spese generali",
+   "Costo del personale",
+   "Utile netto",
+   "Margine lordo",
+   "Incassi",
+   "Uscite",
+   "IVA a debito",
+   "IVA a credito"
+  ],
+  "chart": [
+   "Vendite",
+   "Visite",
+   "Ordini",
+   "Incassi",
+   "Nuovi clienti",
+   "Presenze",
+   "Prenotazioni"
+  ]
+ },
+ "budget": {
+  "headers": [
+   "Voce",
+   "Budget",
+   "Preventivo",
+   "Consuntivo",
+   "Scostamento",
+   "Scostamento %",
+   "Previsione",
+   "Anno precedente",
+   "Differenza"
+  ],
+  "lines": [
+   "Affitto locale",
+   "Utenze (luce, gas, acqua)",
+   "Stipendi e contributi",
+   "Acquisto merci",
+   "Materie prime",
+   "Pubblicità e marketing",
+   "Assicurazioni",
+   "Consulenze",
+   "Commercialista",
+   "Manutenzioni",
+   "Telefono e internet",
+   "Carburante",
+   "Leasing automezzi",
+   "Spese bancarie",
+   "Formazione",
+   "Cancelleria",
+   "Imposte e tasse",
+   "Software e abbonamenti"
+  ]
+ }
+}

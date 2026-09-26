@@ -1,0 +1,12265 @@
+{
+ "bakery": {
+  "categories": [
+   "Panes",
+   "Bollería",
+   "Pastelería",
+   "Tartas y pasteles",
+   "Salados"
+  ],
+  "roles": [
+   "Panadero",
+   "Maestro panadero",
+   "Pastelero",
+   "Ayudante de obrador",
+   "Dependienta",
+   "Encargada de tienda",
+   "Repartidor"
+  ],
+  "departments": [
+   "Obrador",
+   "Tienda",
+   "Reparto",
+   "Administración"
+  ],
+  "items": [
+   {
+    "name": "Barra de pan",
+    "kind": "product",
+    "category": "Panes",
+    "usd": [
+     0.65,
+     1.2
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Baguette de masa madre",
+    "kind": "product",
+    "category": "Panes",
+    "usd": [
+     1.3,
+     2.2
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Hogaza de pueblo",
+    "kind": "product",
+    "category": "Panes",
+    "usd": [
+     3.0,
+     5.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "500 g",
+     "1 kg"
+    ]
+   },
+   {
+    "name": "Pan integral de centeno",
+    "kind": "product",
+    "category": "Panes",
+    "usd": [
+     2.8,
+     4.9
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Pan de molde artesano",
+    "kind": "product",
+    "category": "Panes",
+    "usd": [
+     2.5,
+     4.5
+    ],
+    "unit": "piece",
+    "variants": [
+     "Pequeño",
+     "Grande"
+    ]
+   },
+   {
+    "name": "Chapata",
+    "kind": "product",
+    "category": "Panes",
+    "usd": [
+     1.0,
+     1.8
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Bolillo",
+    "kind": "product",
+    "category": "Panes",
+    "usd": [
+     0.2,
+     0.4
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Croissant de mantequilla",
+    "kind": "product",
+    "category": "Bollería",
+    "usd": [
+     1.2,
+     2.2
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Napolitana de chocolate",
+    "kind": "product",
+    "category": "Bollería",
+    "usd": [
+     1.3,
+     2.3
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Docena de medialunas de manteca",
+    "kind": "product",
+    "category": "Bollería",
+    "usd": [
+     6.5,
+     12
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "Concha de vainilla",
+    "kind": "product",
+    "category": "Bollería",
+    "usd": [
+     0.6,
+     1.2
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Magdalenas caseras (6 uds.)",
+    "kind": "product",
+    "category": "Bollería",
+    "usd": [
+     3.5,
+     6
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "Ensaimada",
+    "kind": "product",
+    "category": "Bollería",
+    "usd": [
+     1.8,
+     3.5
+    ],
+    "unit": "piece",
+    "variants": [
+     "Individual",
+     "Mediana",
+     "Grande"
+    ]
+   },
+   {
+    "name": "Tarta de Santiago",
+    "kind": "product",
+    "category": "Tartas y pasteles",
+    "usd": [
+     14,
+     26
+    ],
+    "unit": "piece",
+    "variants": [
+     "6 raciones",
+     "8 raciones",
+     "12 raciones"
+    ]
+   },
+   {
+    "name": "Roscón de Reyes con nata",
+    "kind": "product",
+    "category": "Tartas y pasteles",
+    "usd": [
+     16,
+     35
+    ],
+    "unit": "piece",
+    "variants": [
+     "Pequeño",
+     "Mediano",
+     "Grande"
+    ]
+   },
+   {
+    "name": "Pastel de tres leches",
+    "kind": "product",
+    "category": "Tartas y pasteles",
+    "usd": [
+     20,
+     38
+    ],
+    "unit": "piece",
+    "variants": [
+     "Chico",
+     "Mediano",
+     "Grande"
+    ]
+   },
+   {
+    "name": "Tarta de cumpleaños a medida",
+    "kind": "product",
+    "category": "Tartas y pasteles",
+    "usd": [
+     28,
+     70
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Pastas de té surtidas",
+    "kind": "product",
+    "category": "Pastelería",
+    "usd": [
+     17,
+     30
+    ],
+    "unit": "kg"
+   },
+   {
+    "name": "Palmera de hojaldre",
+    "kind": "product",
+    "category": "Pastelería",
+    "usd": [
+     1.2,
+     2.5
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Alfajores de maicena (12 uds.)",
+    "kind": "product",
+    "category": "Pastelería",
+    "usd": [
+     9,
+     16
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "Empanada gallega de atún",
+    "kind": "product",
+    "category": "Salados",
+    "usd": [
+     13,
+     21
+    ],
+    "unit": "kg"
+   },
+   {
+    "name": "Docena de empanadas de carne",
+    "kind": "product",
+    "category": "Salados",
+    "usd": [
+     10,
+     18
+    ],
+    "unit": "box"
+   }
+  ]
+ },
+ "restaurant": {
+  "categories": [
+   "Entrantes",
+   "Principales",
+   "Menús",
+   "Postres",
+   "Bebidas"
+  ],
+  "roles": [
+   "Jefe de cocina",
+   "Cocinero",
+   "Ayudante de cocina",
+   "Camarero",
+   "Mesero",
+   "Jefe de sala",
+   "Friegaplatos",
+   "Encargado"
+  ],
+  "departments": [
+   "Cocina",
+   "Sala",
+   "Barra",
+   "Administración"
+  ],
+  "items": [
+   {
+    "name": "Menú del día",
+    "kind": "product",
+    "category": "Menús",
+    "usd": [
+     12,
+     20
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "Menú degustación",
+    "kind": "product",
+    "category": "Menús",
+    "usd": [
+     50,
+     110
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "Menú infantil",
+    "kind": "product",
+    "category": "Menús",
+    "usd": [
+     9,
+     16
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "Menú para grupos",
+    "kind": "product",
+    "category": "Menús",
+    "usd": [
+     35,
+     65
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "Croquetas caseras de jamón",
+    "kind": "product",
+    "category": "Entrantes",
+    "usd": [
+     8,
+     14
+    ],
+    "unit": "piece",
+    "variants": [
+     "Media ración",
+     "Ración"
+    ]
+   },
+   {
+    "name": "Ensalada mixta",
+    "kind": "product",
+    "category": "Entrantes",
+    "usd": [
+     7,
+     12
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Tabla de ibéricos y quesos",
+    "kind": "product",
+    "category": "Entrantes",
+    "usd": [
+     17,
+     30
+    ],
+    "unit": "piece",
+    "variants": [
+     "Media tabla",
+     "Tabla entera"
+    ]
+   },
+   {
+    "name": "Ceviche de pescado blanco",
+    "kind": "product",
+    "category": "Entrantes",
+    "usd": [
+     15,
+     26
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Guacamole con totopos",
+    "kind": "product",
+    "category": "Entrantes",
+    "usd": [
+     7,
+     12
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Paella valenciana",
+    "kind": "product",
+    "category": "Principales",
+    "usd": [
+     14,
+     25
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "Arroz negro con alioli",
+    "kind": "product",
+    "category": "Principales",
+    "usd": [
+     14,
+     24
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "Chuletón de vaca a la brasa",
+    "kind": "product",
+    "category": "Principales",
+    "usd": [
+     50,
+     85
+    ],
+    "unit": "kg"
+   },
+   {
+    "name": "Entraña con papas fritas",
+    "kind": "product",
+    "category": "Principales",
+    "usd": [
+     18,
+     32
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Parrillada de carnes para dos",
+    "kind": "product",
+    "category": "Principales",
+    "usd": [
+     34,
+     62
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Orden de tacos al pastor",
+    "kind": "product",
+    "category": "Principales",
+    "usd": [
+     9,
+     16
+    ],
+    "unit": "piece",
+    "variants": [
+     "3 tacos",
+     "5 tacos"
+    ]
+   },
+   {
+    "name": "Merluza a la plancha",
+    "kind": "product",
+    "category": "Principales",
+    "usd": [
+     18,
+     28
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Postre casero del día",
+    "kind": "product",
+    "category": "Postres",
+    "usd": [
+     5.5,
+     9
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Flan de huevo",
+    "kind": "product",
+    "category": "Postres",
+    "usd": [
+     4.5,
+     7
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Tarta de queso",
+    "kind": "product",
+    "category": "Postres",
+    "usd": [
+     6,
+     9
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Vino tinto crianza",
+    "kind": "product",
+    "category": "Bebidas",
+    "usd": [
+     4,
+     45
+    ],
+    "unit": "piece",
+    "variants": [
+     "Copa",
+     "Media botella",
+     "Botella"
+    ]
+   },
+   {
+    "name": "Agua mineral",
+    "kind": "product",
+    "category": "Bebidas",
+    "usd": [
+     1.5,
+     3
+    ],
+    "unit": "piece",
+    "variants": [
+     "50 cl",
+     "1 l"
+    ]
+   },
+   {
+    "name": "Refresco",
+    "kind": "product",
+    "category": "Bebidas",
+    "usd": [
+     2,
+     3.5
+    ],
+    "unit": "piece"
+   }
+  ]
+ },
+ "cafe_bar": {
+  "categories": [
+   "Cafés e infusiones",
+   "Desayunos",
+   "Bocadillos y tapas",
+   "Bebidas",
+   "Cervezas y vinos",
+   "Dulces"
+  ],
+  "roles": [
+   "Camarero",
+   "Camarera de sala",
+   "Barista",
+   "Cocinero",
+   "Encargado",
+   "Ayudante de cocina"
+  ],
+  "departments": [
+   "Barra",
+   "Cocina",
+   "Terraza"
+  ],
+  "items": [
+   {
+    "name": "Café solo",
+    "kind": "product",
+    "category": "Cafés e infusiones",
+    "usd": [
+     1.2,
+     2.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Cortado",
+    "kind": "product",
+    "category": "Cafés e infusiones",
+    "usd": [
+     1.3,
+     2.3
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Café con leche",
+    "kind": "product",
+    "category": "Cafés e infusiones",
+    "usd": [
+     1.5,
+     2.7
+    ],
+    "unit": "piece",
+    "variants": [
+     "Pequeño",
+     "Grande"
+    ]
+   },
+   {
+    "name": "Café americano",
+    "kind": "product",
+    "category": "Cafés e infusiones",
+    "usd": [
+     1.6,
+     3.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "Chico",
+     "Mediano",
+     "Grande"
+    ]
+   },
+   {
+    "name": "Capuchino",
+    "kind": "product",
+    "category": "Cafés e infusiones",
+    "usd": [
+     2.2,
+     3.9
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Té o infusión",
+    "kind": "product",
+    "category": "Cafés e infusiones",
+    "usd": [
+     1.4,
+     2.5
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Tostada con tomate y aceite",
+    "kind": "product",
+    "category": "Desayunos",
+    "usd": [
+     2.2,
+     4.0
+    ],
+    "unit": "piece",
+    "variants": [
+     "Media",
+     "Entera"
+    ]
+   },
+   {
+    "name": "Desayuno completo con zumo",
+    "kind": "product",
+    "category": "Desayunos",
+    "usd": [
+     4.5,
+     8
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "Café con leche y dos medialunas",
+    "kind": "product",
+    "category": "Desayunos",
+    "usd": [
+     3.8,
+     6.5
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "Chocolate con churros",
+    "kind": "product",
+    "category": "Desayunos",
+    "usd": [
+     3.8,
+     6.5
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "Pincho de tortilla de patatas",
+    "kind": "product",
+    "category": "Bocadillos y tapas",
+    "usd": [
+     2.7,
+     4.9
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Patatas bravas",
+    "kind": "product",
+    "category": "Bocadillos y tapas",
+    "usd": [
+     5.5,
+     9
+    ],
+    "unit": "piece",
+    "variants": [
+     "Media ración",
+     "Ración"
+    ]
+   },
+   {
+    "name": "Bocadillo de jamón serrano",
+    "kind": "product",
+    "category": "Bocadillos y tapas",
+    "usd": [
+     4.5,
+     8
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Sándwich mixto",
+    "kind": "product",
+    "category": "Bocadillos y tapas",
+    "usd": [
+     3,
+     5
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Cerveza de barril",
+    "kind": "product",
+    "category": "Cervezas y vinos",
+    "usd": [
+     2.0,
+     5.5
+    ],
+    "unit": "piece",
+    "variants": [
+     "Caña",
+     "Tubo",
+     "Jarra"
+    ]
+   },
+   {
+    "name": "Vermut de grifo",
+    "kind": "product",
+    "category": "Cervezas y vinos",
+    "usd": [
+     2.7,
+     5
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Copa de vino de la casa",
+    "kind": "product",
+    "category": "Cervezas y vinos",
+    "usd": [
+     2.5,
+     4.5
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Zumo de naranja natural",
+    "kind": "product",
+    "category": "Bebidas",
+    "usd": [
+     2.7,
+     4.5
+    ],
+    "unit": "piece",
+    "variants": [
+     "Pequeño",
+     "Grande"
+    ]
+   },
+   {
+    "name": "Agua mineral",
+    "kind": "product",
+    "category": "Bebidas",
+    "usd": [
+     1.2,
+     2.2
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Refresco",
+    "kind": "product",
+    "category": "Bebidas",
+    "usd": [
+     1.8,
+     3.0
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Porción de tarta casera",
+    "kind": "product",
+    "category": "Dulces",
+    "usd": [
+     3.8,
+     6.2
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Ración de churros",
+    "kind": "product",
+    "category": "Dulces",
+    "usd": [
+     2.5,
+     4.5
+    ],
+    "unit": "piece"
+   }
+  ]
+ },
+ "hotel": {
+  "categories": [
+   "Habitaciones",
+   "Pensión y comidas",
+   "Servicios",
+   "Paquetes",
+   "Salones"
+  ],
+  "roles": [
+   "Recepcionista",
+   "Jefe de recepción",
+   "Director de hotel",
+   "Gobernanta",
+   "Camarera de pisos",
+   "Botones",
+   "Conserje",
+   "Técnico de mantenimiento"
+  ],
+  "departments": [
+   "Recepción",
+   "Pisos",
+   "Restauración",
+   "Mantenimiento"
+  ],
+  "items": [
+   {
+    "name": "Habitación individual",
+    "kind": "service",
+    "category": "Habitaciones",
+    "usd": [
+     60,
+     115
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Habitación doble estándar",
+    "kind": "service",
+    "category": "Habitaciones",
+    "usd": [
+     75,
+     155
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Habitación doble superior",
+    "kind": "service",
+    "category": "Habitaciones",
+    "usd": [
+     110,
+     230
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Habitación triple",
+    "kind": "service",
+    "category": "Habitaciones",
+    "usd": [
+     100,
+     190
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Habitación familiar",
+    "kind": "service",
+    "category": "Habitaciones",
+    "usd": [
+     120,
+     240
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Junior suite",
+    "kind": "service",
+    "category": "Habitaciones",
+    "usd": [
+     165,
+     340
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Suite con vistas al mar",
+    "kind": "service",
+    "category": "Habitaciones",
+    "usd": [
+     220,
+     450
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Cama supletoria",
+    "kind": "service",
+    "category": "Servicios",
+    "usd": [
+     16,
+     35
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Cuna para bebé",
+    "kind": "service",
+    "category": "Servicios",
+    "usd": [
+     8,
+     18
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Desayuno buffet",
+    "kind": "product",
+    "category": "Pensión y comidas",
+    "usd": [
+     10,
+     20
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "Media pensión",
+    "kind": "product",
+    "category": "Pensión y comidas",
+    "usd": [
+     22,
+     45
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "Pensión completa",
+    "kind": "product",
+    "category": "Pensión y comidas",
+    "usd": [
+     38,
+     70
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "Plaza de garaje",
+    "kind": "service",
+    "category": "Servicios",
+    "usd": [
+     13,
+     28
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Acceso al circuito de spa",
+    "kind": "service",
+    "category": "Servicios",
+    "usd": [
+     20,
+     40
+    ],
+    "unit": "person",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "Masaje relajante",
+    "kind": "service",
+    "category": "Servicios",
+    "usd": [
+     45,
+     90
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "Traslado aeropuerto-hotel",
+    "kind": "service",
+    "category": "Servicios",
+    "usd": [
+     33,
+     70
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "Lavandería (por prenda)",
+    "kind": "service",
+    "category": "Servicios",
+    "usd": [
+     3.3,
+     9
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "Salida tardía (late check-out)",
+    "kind": "service",
+    "category": "Servicios",
+    "usd": [
+     15,
+     40
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "Sala de reuniones media jornada",
+    "kind": "service",
+    "category": "Salones",
+    "usd": [
+     165,
+     450
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     240
+    ]
+   },
+   {
+    "name": "Salón para banquetes",
+    "kind": "service",
+    "category": "Salones",
+    "usd": [
+     400,
+     1500
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Escapada romántica (2 noches)",
+    "kind": "service",
+    "category": "Paquetes",
+    "usd": [
+     270,
+     500
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   }
+  ]
+ },
+ "plumbing_hvac": {
+  "categories": [
+   "Fontanería",
+   "Calefacción",
+   "Climatización",
+   "Mano de obra",
+   "Material"
+  ],
+  "roles": [
+   "Fontanero",
+   "Oficial fontanero",
+   "Plomero",
+   "Técnico de calefacción",
+   "Técnico frigorista",
+   "Ayudante",
+   "Jefe de obra",
+   "Administrativa"
+  ],
+  "departments": [
+   "Taller",
+   "Instalaciones",
+   "Servicio técnico",
+   "Oficina"
+  ],
+  "items": [
+   {
+    "name": "Hora de oficial fontanero",
+    "kind": "service",
+    "category": "Mano de obra",
+    "usd": [
+     33,
+     50
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "Hora de ayudante",
+    "kind": "service",
+    "category": "Mano de obra",
+    "usd": [
+     20,
+     32
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "Desplazamiento",
+    "kind": "service",
+    "category": "Mano de obra",
+    "usd": [
+     15,
+     35
+    ],
+    "unit": "piece",
+    "minutes": [
+     15,
+     45
+    ]
+   },
+   {
+    "name": "Reparación de fuga de agua",
+    "kind": "service",
+    "category": "Fontanería",
+    "usd": [
+     85,
+     270
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "Desatasco de tuberías",
+    "kind": "service",
+    "category": "Fontanería",
+    "usd": [
+     85,
+     220
+    ],
+    "unit": "piece",
+    "minutes": [
+     45,
+     120
+    ]
+   },
+   {
+    "name": "Cambio de grifo monomando",
+    "kind": "service",
+    "category": "Fontanería",
+    "usd": [
+     60,
+     140
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "Cambio bañera por plato ducha",
+    "kind": "service",
+    "category": "Fontanería",
+    "usd": [
+     980,
+     2400
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Sustitución de termo eléctrico",
+    "kind": "service",
+    "category": "Fontanería",
+    "usd": [
+     380,
+     650
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "Revisión anual de caldera de gas",
+    "kind": "service",
+    "category": "Calefacción",
+    "usd": [
+     65,
+     130
+    ],
+    "unit": "piece",
+    "minutes": [
+     45,
+     90
+    ]
+   },
+   {
+    "name": "Instalación de caldera",
+    "kind": "service",
+    "category": "Calefacción",
+    "usd": [
+     300,
+     700
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Instalación de calentador de gas",
+    "kind": "service",
+    "category": "Calefacción",
+    "usd": [
+     380,
+     820
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "Reparación de boiler",
+    "kind": "service",
+    "category": "Calefacción",
+    "usd": [
+     75,
+     200
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "Instalación de suelo radiante",
+    "kind": "service",
+    "category": "Calefacción",
+    "usd": [
+     44,
+     90
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Contrato de mantenimiento",
+    "kind": "service",
+    "category": "Calefacción",
+    "usd": [
+     10,
+     25
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "Montaje de aire acondicionado",
+    "kind": "service",
+    "category": "Climatización",
+    "usd": [
+     870,
+     1650
+    ],
+    "unit": "piece",
+    "minutes": [
+     180,
+     360
+    ]
+   },
+   {
+    "name": "Mantenimiento de minisplit",
+    "kind": "service",
+    "category": "Climatización",
+    "usd": [
+     65,
+     130
+    ],
+    "unit": "piece",
+    "minutes": [
+     45,
+     90
+    ]
+   },
+   {
+    "name": "Recarga de gas refrigerante",
+    "kind": "service",
+    "category": "Climatización",
+    "usd": [
+     98,
+     220
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "Instalación de aerotermia",
+    "kind": "service",
+    "category": "Climatización",
+    "usd": [
+     6500,
+     13000
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Caldera de condensación",
+    "kind": "product",
+    "category": "Material",
+    "usd": [
+     1400,
+     2600
+    ],
+    "unit": "piece",
+    "variants": [
+     "24 kW",
+     "28 kW",
+     "35 kW"
+    ]
+   },
+   {
+    "name": "Termo eléctrico",
+    "kind": "product",
+    "category": "Material",
+    "usd": [
+     180,
+     350
+    ],
+    "unit": "piece",
+    "variants": [
+     "50 l",
+     "80 l",
+     "100 l"
+    ]
+   },
+   {
+    "name": "Elemento de radiador de aluminio",
+    "kind": "product",
+    "category": "Material",
+    "usd": [
+     33,
+     65
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Tubería multicapa",
+    "kind": "product",
+    "category": "Material",
+    "usd": [
+     2.5,
+     6
+    ],
+    "unit": "m",
+    "variants": [
+     "16 mm",
+     "20 mm",
+     "26 mm"
+    ]
+   },
+   {
+    "name": "Grifo monomando de lavabo",
+    "kind": "product",
+    "category": "Material",
+    "usd": [
+     35,
+     120
+    ],
+    "unit": "piece"
+   }
+  ]
+ },
+ "electrical": {
+  "categories": [
+   "Instalaciones",
+   "Reparaciones",
+   "Iluminación",
+   "Energía solar",
+   "Mano de obra",
+   "Material eléctrico"
+  ],
+  "roles": [
+   "Electricista",
+   "Oficial electricista",
+   "Ayudante electricista",
+   "Técnico instalador",
+   "Jefe de obra",
+   "Ingeniero eléctrico",
+   "Administrativo"
+  ],
+  "departments": [
+   "Instalaciones",
+   "Mantenimiento",
+   "Oficina técnica",
+   "Administración"
+  ],
+  "items": [
+   {
+    "name": "Hora de oficial electricista",
+    "kind": "service",
+    "category": "Mano de obra",
+    "usd": [
+     30,
+     50
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "Desplazamiento urgente",
+    "kind": "service",
+    "category": "Mano de obra",
+    "usd": [
+     30,
+     80
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "Reparación de avería eléctrica",
+    "kind": "service",
+    "category": "Reparaciones",
+    "usd": [
+     65,
+     200
+    ],
+    "unit": "piece",
+    "minutes": [
+     45,
+     180
+    ]
+   },
+   {
+    "name": "Boletín eléctrico (CIE)",
+    "kind": "service",
+    "category": "Instalaciones",
+    "usd": [
+     98,
+     220
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "Cambio de cuadro eléctrico",
+    "kind": "service",
+    "category": "Instalaciones",
+    "usd": [
+     380,
+     980
+    ],
+    "unit": "piece",
+    "minutes": [
+     180,
+     480
+    ]
+   },
+   {
+    "name": "Instalación de punto de luz",
+    "kind": "service",
+    "category": "Instalaciones",
+    "usd": [
+     38,
+     76
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "Instalación de enchufe",
+    "kind": "service",
+    "category": "Instalaciones",
+    "usd": [
+     33,
+     65
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "Punto de red (cableado)",
+    "kind": "service",
+    "category": "Instalaciones",
+    "usd": [
+     55,
+     120
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "Punto de recarga para coche",
+    "kind": "service",
+    "category": "Instalaciones",
+    "usd": [
+     870,
+     1750
+    ],
+    "unit": "piece",
+    "minutes": [
+     180,
+     480
+    ]
+   },
+   {
+    "name": "Armado de tablero trifásico",
+    "kind": "service",
+    "category": "Instalaciones",
+    "usd": [
+     760,
+     1950
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Inspección de instalación",
+    "kind": "service",
+    "category": "Instalaciones",
+    "usd": [
+     165,
+     380
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "Instalación de videoportero",
+    "kind": "service",
+    "category": "Instalaciones",
+    "usd": [
+     270,
+     650
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "Instalación eléctrica vivienda",
+    "kind": "service",
+    "category": "Instalaciones",
+    "usd": [
+     38,
+     65
+    ],
+    "unit": "m2",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Mantenimiento de comunidad",
+    "kind": "service",
+    "category": "Reparaciones",
+    "usd": [
+     65,
+     200
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "Proyecto de iluminación LED",
+    "kind": "service",
+    "category": "Iluminación",
+    "usd": [
+     650,
+     2700
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Downlight LED empotrable",
+    "kind": "product",
+    "category": "Iluminación",
+    "usd": [
+     8,
+     25
+    ],
+    "unit": "piece",
+    "variants": [
+     "7 W",
+     "12 W",
+     "18 W"
+    ]
+   },
+   {
+    "name": "Instalación fotovoltaica 5 kWp",
+    "kind": "service",
+    "category": "Energía solar",
+    "usd": [
+     6000,
+     9200
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Panel solar monocristalino",
+    "kind": "product",
+    "category": "Energía solar",
+    "usd": [
+     150,
+     280
+    ],
+    "unit": "piece",
+    "variants": [
+     "400 W",
+     "450 W",
+     "550 W"
+    ]
+   },
+   {
+    "name": "Inversor híbrido",
+    "kind": "product",
+    "category": "Energía solar",
+    "usd": [
+     700,
+     1600
+    ],
+    "unit": "piece",
+    "variants": [
+     "3 kW",
+     "5 kW",
+     "6 kW"
+    ]
+   },
+   {
+    "name": "Cable eléctrico flexible",
+    "kind": "product",
+    "category": "Material eléctrico",
+    "usd": [
+     0.8,
+     1.6
+    ],
+    "unit": "m",
+    "variants": [
+     "1,5 mm²",
+     "2,5 mm²",
+     "4 mm²",
+     "6 mm²"
+    ]
+   },
+   {
+    "name": "Interruptor diferencial",
+    "kind": "product",
+    "category": "Material eléctrico",
+    "usd": [
+     30,
+     90
+    ],
+    "unit": "piece",
+    "variants": [
+     "25 A",
+     "40 A",
+     "63 A"
+    ]
+   },
+   {
+    "name": "Interruptor magnetotérmico",
+    "kind": "product",
+    "category": "Material eléctrico",
+    "usd": [
+     8,
+     25
+    ],
+    "unit": "piece",
+    "variants": [
+     "10 A",
+     "16 A",
+     "25 A",
+     "32 A"
+    ]
+   }
+  ]
+ },
+ "building_contractor": {
+  "categories": [
+   "Reformas",
+   "Obra nueva",
+   "Albañilería",
+   "Cubiertas y fachadas",
+   "Mano de obra",
+   "Varios"
+  ],
+  "roles": [
+   "Jefe de obra",
+   "Encargado de obra",
+   "Maestro de obras",
+   "Albañil",
+   "Oficial de primera",
+   "Peón",
+   "Aparejador",
+   "Arquitecto técnico"
+  ],
+  "departments": [
+   "Obra",
+   "Oficina técnica",
+   "Compras",
+   "Administración"
+  ],
+  "items": [
+   {
+    "name": "Reforma integral de vivienda",
+    "kind": "service",
+    "category": "Reformas",
+    "usd": [
+     435,
+     980
+    ],
+    "unit": "m2",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Reforma de baño completo",
+    "kind": "service",
+    "category": "Reformas",
+    "usd": [
+     4350,
+     9800
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Reforma de cocina",
+    "kind": "service",
+    "category": "Reformas",
+    "usd": [
+     6500,
+     16500
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Construcción de vivienda",
+    "kind": "service",
+    "category": "Obra nueva",
+    "usd": [
+     1300,
+     2400
+    ],
+    "unit": "m2",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Ampliación de vivienda",
+    "kind": "service",
+    "category": "Obra nueva",
+    "usd": [
+     980,
+     1750
+    ],
+    "unit": "m2",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Construcción de piscina",
+    "kind": "service",
+    "category": "Obra nueva",
+    "usd": [
+     16500,
+     38000
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Losa de hormigón armado",
+    "kind": "service",
+    "category": "Obra nueva",
+    "usd": [
+     65,
+     130
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Muro de bloque de hormigón",
+    "kind": "service",
+    "category": "Albañilería",
+    "usd": [
+     33,
+     60
+    ],
+    "unit": "m2",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "Tabique de ladrillo",
+    "kind": "service",
+    "category": "Albañilería",
+    "usd": [
+     30,
+     55
+    ],
+    "unit": "m2",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "Tabiquería de pladur",
+    "kind": "service",
+    "category": "Albañilería",
+    "usd": [
+     27,
+     50
+    ],
+    "unit": "m2",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "Colocación de piso cerámico",
+    "kind": "service",
+    "category": "Albañilería",
+    "usd": [
+     27,
+     50
+    ],
+    "unit": "m2",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "Alicatado de paredes",
+    "kind": "service",
+    "category": "Albañilería",
+    "usd": [
+     27,
+     50
+    ],
+    "unit": "m2",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "Demolición de tabiques",
+    "kind": "service",
+    "category": "Albañilería",
+    "usd": [
+     16,
+     38
+    ],
+    "unit": "m2",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "Rehabilitación de fachada",
+    "kind": "service",
+    "category": "Cubiertas y fachadas",
+    "usd": [
+     65,
+     165
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Impermeabilización de cubierta",
+    "kind": "service",
+    "category": "Cubiertas y fachadas",
+    "usd": [
+     38,
+     90
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Retejado de cubierta",
+    "kind": "service",
+    "category": "Cubiertas y fachadas",
+    "usd": [
+     45,
+     95
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Hora de oficial de primera",
+    "kind": "service",
+    "category": "Mano de obra",
+    "usd": [
+     24,
+     38
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "Hora de peón",
+    "kind": "service",
+    "category": "Mano de obra",
+    "usd": [
+     16,
+     26
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "Alquiler de contenedor",
+    "kind": "service",
+    "category": "Varios",
+    "usd": [
+     180,
+     350
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "Gestión de licencia de obra",
+    "kind": "service",
+    "category": "Varios",
+    "usd": [
+     150,
+     600
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     480
+    ]
+   }
+  ]
+ },
+ "painting": {
+  "categories": [
+   "Interiores",
+   "Exteriores",
+   "Tratamientos",
+   "Barnices y lacados",
+   "Mano de obra",
+   "Material"
+  ],
+  "roles": [
+   "Pintor",
+   "Oficial pintor",
+   "Ayudante de pintor",
+   "Encargado",
+   "Empapelador",
+   "Presupuestista"
+  ],
+  "departments": [
+   "Obras",
+   "Taller",
+   "Oficina"
+  ],
+  "items": [
+   {
+    "name": "Pintura plástica de paredes",
+    "kind": "service",
+    "category": "Interiores",
+    "usd": [
+     6.5,
+     13
+    ],
+    "unit": "m2",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "Pintura de techos",
+    "kind": "service",
+    "category": "Interiores",
+    "usd": [
+     7,
+     14
+    ],
+    "unit": "m2",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "Pintar piso completo (90 m²)",
+    "kind": "service",
+    "category": "Interiores",
+    "usd": [
+     980,
+     2000
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Eliminación de gotelé",
+    "kind": "service",
+    "category": "Interiores",
+    "usd": [
+     9,
+     18
+    ],
+    "unit": "m2",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "Empapelado de paredes",
+    "kind": "service",
+    "category": "Interiores",
+    "usd": [
+     13,
+     28
+    ],
+    "unit": "m2",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "Estuco veneciano",
+    "kind": "service",
+    "category": "Interiores",
+    "usd": [
+     33,
+     65
+    ],
+    "unit": "m2",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "Pintura de escalera de comunidad",
+    "kind": "service",
+    "category": "Interiores",
+    "usd": [
+     870,
+     2200
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Pintura de fachada",
+    "kind": "service",
+    "category": "Exteriores",
+    "usd": [
+     16,
+     38
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Pintura de rejas y barandillas",
+    "kind": "service",
+    "category": "Exteriores",
+    "usd": [
+     13,
+     28
+    ],
+    "unit": "m",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "Revestimiento texturizado",
+    "kind": "service",
+    "category": "Exteriores",
+    "usd": [
+     11,
+     22
+    ],
+    "unit": "m2",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "Impermeabilización de azotea",
+    "kind": "service",
+    "category": "Tratamientos",
+    "usd": [
+     20,
+     45
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Tratamiento antihumedad",
+    "kind": "service",
+    "category": "Tratamientos",
+    "usd": [
+     16,
+     38
+    ],
+    "unit": "m2",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "Pintura epoxi para garaje",
+    "kind": "service",
+    "category": "Tratamientos",
+    "usd": [
+     20,
+     45
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Lacado de puertas",
+    "kind": "service",
+    "category": "Barnices y lacados",
+    "usd": [
+     87,
+     200
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "Barnizado de puertas de madera",
+    "kind": "service",
+    "category": "Barnices y lacados",
+    "usd": [
+     65,
+     140
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "Barnizado de parqué",
+    "kind": "service",
+    "category": "Barnices y lacados",
+    "usd": [
+     12,
+     25
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Hora de oficial pintor",
+    "kind": "service",
+    "category": "Mano de obra",
+    "usd": [
+     22,
+     33
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "Pintura plástica blanca mate",
+    "kind": "product",
+    "category": "Material",
+    "usd": [
+     25,
+     70
+    ],
+    "unit": "piece",
+    "variants": [
+     "4 l",
+     "10 l",
+     "15 l"
+    ]
+   },
+   {
+    "name": "Esmalte sintético",
+    "kind": "product",
+    "category": "Material",
+    "usd": [
+     12,
+     30
+    ],
+    "unit": "piece",
+    "variants": [
+     "750 ml",
+     "4 l"
+    ]
+   },
+   {
+    "name": "Imprimación selladora",
+    "kind": "product",
+    "category": "Material",
+    "usd": [
+     15,
+     40
+    ],
+    "unit": "piece",
+    "variants": [
+     "4 l",
+     "15 l"
+    ]
+   }
+  ]
+ },
+ "car_repair": {
+  "categories": [
+   "Mantenimiento",
+   "Frenos",
+   "Neumáticos",
+   "Motor",
+   "Chapa y pintura",
+   "Recambios"
+  ],
+  "roles": [
+   "Mecánico",
+   "Oficial de primera",
+   "Electromecánico",
+   "Chapista",
+   "Pintor de automóviles",
+   "Recepcionista de taller",
+   "Jefe de taller",
+   "Aprendiz"
+  ],
+  "departments": [
+   "Taller mecánico",
+   "Chapa y pintura",
+   "Recambios",
+   "Recepción"
+  ],
+  "items": [
+   {
+    "name": "Cambio de aceite y filtro",
+    "kind": "service",
+    "category": "Mantenimiento",
+    "usd": [
+     65,
+     130
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "Revisión de mantenimiento",
+    "kind": "service",
+    "category": "Mantenimiento",
+    "usd": [
+     130,
+     330
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "Hora de mano de obra mecánica",
+    "kind": "service",
+    "category": "Mantenimiento",
+    "usd": [
+     44,
+     72
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "Carga de aire acondicionado",
+    "kind": "service",
+    "category": "Mantenimiento",
+    "usd": [
+     55,
+     120
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "Revisión pre-ITV",
+    "kind": "service",
+    "category": "Mantenimiento",
+    "usd": [
+     44,
+     98
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "Afinación mayor",
+    "kind": "service",
+    "category": "Motor",
+    "usd": [
+     165,
+     330
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "Diagnosis electrónica",
+    "kind": "service",
+    "category": "Motor",
+    "usd": [
+     44,
+     98
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "Cambio de kit de distribución",
+    "kind": "service",
+    "category": "Motor",
+    "usd": [
+     380,
+     820
+    ],
+    "unit": "piece",
+    "minutes": [
+     180,
+     360
+    ]
+   },
+   {
+    "name": "Cambio de embrague",
+    "kind": "service",
+    "category": "Motor",
+    "usd": [
+     540,
+     1200
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Cambio de pastillas delanteras",
+    "kind": "service",
+    "category": "Frenos",
+    "usd": [
+     98,
+     200
+    ],
+    "unit": "piece",
+    "minutes": [
+     45,
+     90
+    ]
+   },
+   {
+    "name": "Cambio de discos y pastillas",
+    "kind": "service",
+    "category": "Frenos",
+    "usd": [
+     196,
+     380
+    ],
+    "unit": "piece",
+    "minutes": [
+     90,
+     150
+    ]
+   },
+   {
+    "name": "Cambio de líquido de frenos",
+    "kind": "service",
+    "category": "Frenos",
+    "usd": [
+     45,
+     90
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "Alineación y balanceo",
+    "kind": "service",
+    "category": "Neumáticos",
+    "usd": [
+     33,
+     65
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "Montaje y equilibrado (rueda)",
+    "kind": "service",
+    "category": "Neumáticos",
+    "usd": [
+     8,
+     18
+    ],
+    "unit": "piece",
+    "minutes": [
+     10,
+     20
+    ]
+   },
+   {
+    "name": "Reparación de pinchazo",
+    "kind": "service",
+    "category": "Neumáticos",
+    "usd": [
+     12,
+     25
+    ],
+    "unit": "piece",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "Neumático turismo montado",
+    "kind": "product",
+    "category": "Neumáticos",
+    "usd": [
+     76,
+     140
+    ],
+    "unit": "piece",
+    "variants": [
+     "R15",
+     "R16",
+     "R17",
+     "R18"
+    ]
+   },
+   {
+    "name": "Pintura de pieza",
+    "kind": "service",
+    "category": "Chapa y pintura",
+    "usd": [
+     165,
+     440
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Desabollado sin pintura",
+    "kind": "service",
+    "category": "Chapa y pintura",
+    "usd": [
+     60,
+     180
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "Pulido de faros",
+    "kind": "service",
+    "category": "Chapa y pintura",
+    "usd": [
+     30,
+     60
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "Batería de coche",
+    "kind": "product",
+    "category": "Recambios",
+    "usd": [
+     98,
+     200
+    ],
+    "unit": "piece",
+    "variants": [
+     "60 Ah",
+     "70 Ah",
+     "95 Ah"
+    ]
+   },
+   {
+    "name": "Aceite de motor 5W-30",
+    "kind": "product",
+    "category": "Recambios",
+    "usd": [
+     25,
+     60
+    ],
+    "unit": "piece",
+    "variants": [
+     "1 l",
+     "4 l",
+     "5 l"
+    ]
+   },
+   {
+    "name": "Escobillas limpiaparabrisas",
+    "kind": "product",
+    "category": "Recambios",
+    "usd": [
+     15,
+     40
+    ],
+    "unit": "set",
+    "variants": [
+     "Delanteras",
+     "Juego completo"
+    ]
+   },
+   {
+    "name": "Filtro de aire",
+    "kind": "product",
+    "category": "Recambios",
+    "usd": [
+     10,
+     25
+    ],
+    "unit": "piece"
+   }
+  ]
+ },
+ "clothing_shop": {
+  "categories": [
+   "Mujer",
+   "Hombre",
+   "Niños",
+   "Accesorios",
+   "Arreglos"
+  ],
+  "roles": [
+   "Dependienta",
+   "Vendedora",
+   "Encargada de tienda",
+   "Cajera",
+   "Visual merchandiser",
+   "Responsable de almacén",
+   "Costurera"
+  ],
+  "departments": [
+   "Tienda",
+   "Almacén",
+   "Taller de arreglos",
+   "Administración"
+  ],
+  "items": [
+   {
+    "name": "Camiseta básica de algodón",
+    "kind": "product",
+    "category": "Hombre",
+    "usd": [
+     11,
+     27
+    ],
+    "unit": "piece",
+    "variants": [
+     "S",
+     "M",
+     "L",
+     "XL"
+    ]
+   },
+   {
+    "name": "Vaqueros de corte recto",
+    "kind": "product",
+    "category": "Hombre",
+    "usd": [
+     38,
+     87
+    ],
+    "unit": "piece",
+    "variants": [
+     "38",
+     "40",
+     "42",
+     "44"
+    ]
+   },
+   {
+    "name": "Camisa de lino",
+    "kind": "product",
+    "category": "Hombre",
+    "usd": [
+     38,
+     82
+    ],
+    "unit": "piece",
+    "variants": [
+     "S",
+     "M",
+     "L",
+     "XL"
+    ]
+   },
+   {
+    "name": "Pantalón chino",
+    "kind": "product",
+    "category": "Hombre",
+    "usd": [
+     33,
+     65
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Sudadera con capucha",
+    "kind": "product",
+    "category": "Hombre",
+    "usd": [
+     33,
+     70
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Jersey de lana merino",
+    "kind": "product",
+    "category": "Hombre",
+    "usd": [
+     44,
+     98
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Traje de caballero",
+    "kind": "product",
+    "category": "Hombre",
+    "usd": [
+     196,
+     490
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Vestido de fiesta",
+    "kind": "product",
+    "category": "Mujer",
+    "usd": [
+     65,
+     200
+    ],
+    "unit": "piece",
+    "variants": [
+     "36",
+     "38",
+     "40",
+     "42"
+    ]
+   },
+   {
+    "name": "Blusa estampada",
+    "kind": "product",
+    "category": "Mujer",
+    "usd": [
+     27,
+     60
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Falda midi plisada",
+    "kind": "product",
+    "category": "Mujer",
+    "usd": [
+     33,
+     65
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Chaqueta de punto",
+    "kind": "product",
+    "category": "Mujer",
+    "usd": [
+     33,
+     76
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Abrigo de paño",
+    "kind": "product",
+    "category": "Mujer",
+    "usd": [
+     98,
+     240
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Jeans skinny tiro alto",
+    "kind": "product",
+    "category": "Mujer",
+    "usd": [
+     33,
+     76
+    ],
+    "unit": "piece",
+    "variants": [
+     "26",
+     "28",
+     "30",
+     "32"
+    ]
+   },
+   {
+    "name": "Leggings deportivos",
+    "kind": "product",
+    "category": "Mujer",
+    "usd": [
+     15,
+     35
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Conjunto de bebé",
+    "kind": "product",
+    "category": "Niños",
+    "usd": [
+     18,
+     40
+    ],
+    "unit": "piece",
+    "variants": [
+     "0-3 meses",
+     "3-6 meses",
+     "6-12 meses"
+    ]
+   },
+   {
+    "name": "Pijama infantil",
+    "kind": "product",
+    "category": "Niños",
+    "usd": [
+     14,
+     30
+    ],
+    "unit": "piece",
+    "variants": [
+     "2 años",
+     "4 años",
+     "6 años",
+     "8 años"
+    ]
+   },
+   {
+    "name": "Chándal infantil",
+    "kind": "product",
+    "category": "Niños",
+    "usd": [
+     22,
+     45
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Bolso de piel",
+    "kind": "product",
+    "category": "Accesorios",
+    "usd": [
+     55,
+     165
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Cinturón de cuero",
+    "kind": "product",
+    "category": "Accesorios",
+    "usd": [
+     18,
+     45
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Bufanda de lana",
+    "kind": "product",
+    "category": "Accesorios",
+    "usd": [
+     15,
+     35
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Gorra bordada",
+    "kind": "product",
+    "category": "Accesorios",
+    "usd": [
+     12,
+     28
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Tarjeta regalo",
+    "kind": "product",
+    "category": "Accesorios",
+    "usd": [
+     20,
+     100
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Arreglo de bajo de pantalón",
+    "kind": "service",
+    "category": "Arreglos",
+    "usd": [
+     5.5,
+     13
+    ],
+    "unit": "piece",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "Ajuste de cintura",
+    "kind": "service",
+    "category": "Arreglos",
+    "usd": [
+     8,
+     18
+    ],
+    "unit": "piece",
+    "minutes": [
+     20,
+     40
+    ]
+   }
+  ]
+ },
+ "florist": {
+  "categories": [
+   "Ramos",
+   "Plantas",
+   "Arreglos florales",
+   "Eventos",
+   "Funerales",
+   "Suscripciones"
+  ],
+  "roles": [
+   "Florista",
+   "Maestra florista",
+   "Ayudante de floristería",
+   "Decorador floral",
+   "Dependienta",
+   "Repartidor"
+  ],
+  "departments": [
+   "Taller",
+   "Tienda",
+   "Reparto"
+  ],
+  "items": [
+   {
+    "name": "Ramo de rosas rojas",
+    "kind": "product",
+    "category": "Ramos",
+    "usd": [
+     38,
+     70
+    ],
+    "unit": "piece",
+    "variants": [
+     "6 rosas",
+     "12 rosas",
+     "24 rosas"
+    ]
+   },
+   {
+    "name": "Ramo de flores de temporada",
+    "kind": "product",
+    "category": "Ramos",
+    "usd": [
+     27,
+     55
+    ],
+    "unit": "piece",
+    "variants": [
+     "Pequeño",
+     "Mediano",
+     "Grande"
+    ]
+   },
+   {
+    "name": "Ramo de girasoles",
+    "kind": "product",
+    "category": "Ramos",
+    "usd": [
+     27,
+     50
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Ramo de tulipanes",
+    "kind": "product",
+    "category": "Ramos",
+    "usd": [
+     25,
+     45
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Rosa roja suelta",
+    "kind": "product",
+    "category": "Ramos",
+    "usd": [
+     2.7,
+     5.5
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Centro de mesa floral",
+    "kind": "product",
+    "category": "Arreglos florales",
+    "usd": [
+     33,
+     76
+    ],
+    "unit": "piece",
+    "variants": [
+     "Pequeño",
+     "Mediano",
+     "Grande"
+    ]
+   },
+   {
+    "name": "Arreglo floral de cumpleaños",
+    "kind": "product",
+    "category": "Arreglos florales",
+    "usd": [
+     33,
+     76
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Caja de rosas preservadas",
+    "kind": "product",
+    "category": "Arreglos florales",
+    "usd": [
+     44,
+     98
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "Cesta de flores",
+    "kind": "product",
+    "category": "Arreglos florales",
+    "usd": [
+     35,
+     80
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Orquídea phalaenopsis",
+    "kind": "product",
+    "category": "Plantas",
+    "usd": [
+     20,
+     44
+    ],
+    "unit": "piece",
+    "variants": [
+     "1 vara",
+     "2 varas"
+    ]
+   },
+   {
+    "name": "Planta de interior en maceta",
+    "kind": "product",
+    "category": "Plantas",
+    "usd": [
+     11,
+     38
+    ],
+    "unit": "piece",
+    "variants": [
+     "Maceta 12 cm",
+     "Maceta 17 cm",
+     "Maceta 24 cm"
+    ]
+   },
+   {
+    "name": "Suculenta en maceta",
+    "kind": "product",
+    "category": "Plantas",
+    "usd": [
+     5,
+     15
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Bonsái",
+    "kind": "product",
+    "category": "Plantas",
+    "usd": [
+     30,
+     90
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Ramo de novia",
+    "kind": "product",
+    "category": "Eventos",
+    "usd": [
+     87,
+     220
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Decoración floral de ceremonia",
+    "kind": "service",
+    "category": "Eventos",
+    "usd": [
+     330,
+     980
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "Decoración floral de iglesia",
+    "kind": "service",
+    "category": "Eventos",
+    "usd": [
+     250,
+     800
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     300
+    ]
+   },
+   {
+    "name": "Corona fúnebre",
+    "kind": "product",
+    "category": "Funerales",
+    "usd": [
+     98,
+     270
+    ],
+    "unit": "piece",
+    "variants": [
+     "Pequeña",
+     "Mediana",
+     "Grande"
+    ]
+   },
+   {
+    "name": "Cruz de flores para funeral",
+    "kind": "product",
+    "category": "Funerales",
+    "usd": [
+     130,
+     330
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Centro para tanatorio",
+    "kind": "product",
+    "category": "Funerales",
+    "usd": [
+     60,
+     150
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Suscripción semanal de flores",
+    "kind": "service",
+    "category": "Suscripciones",
+    "usd": [
+     87,
+     270
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "Mantenimiento de plantas",
+    "kind": "service",
+    "category": "Suscripciones",
+    "usd": [
+     65,
+     220
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     120
+    ]
+   }
+  ]
+ },
+ "pharmacy": {
+  "categories": [
+   "Medicamentos",
+   "Dermocosmética",
+   "Infantil",
+   "Ortopedia",
+   "Higiene",
+   "Servicios"
+  ],
+  "roles": [
+   "Farmacéutico titular",
+   "Farmacéutico adjunto",
+   "Químico farmacéutico",
+   "Regente de farmacia",
+   "Técnico en farmacia",
+   "Auxiliar de farmacia",
+   "Cajera"
+  ],
+  "departments": [
+   "Mostrador",
+   "Almacén",
+   "Laboratorio",
+   "Administración"
+  ],
+  "items": [
+   {
+    "name": "Paracetamol 1 g",
+    "kind": "product",
+    "category": "Medicamentos",
+    "usd": [
+     2.2,
+     4.4
+    ],
+    "unit": "box",
+    "variants": [
+     "20 comp.",
+     "40 comp."
+    ]
+   },
+   {
+    "name": "Ibuprofeno 400 mg",
+    "kind": "product",
+    "category": "Medicamentos",
+    "usd": [
+     2.7,
+     5.5
+    ],
+    "unit": "box",
+    "variants": [
+     "20 comp.",
+     "30 comp."
+    ]
+   },
+   {
+    "name": "Omeprazol 20 mg",
+    "kind": "product",
+    "category": "Medicamentos",
+    "usd": [
+     2.5,
+     6
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "Jarabe para la tos",
+    "kind": "product",
+    "category": "Medicamentos",
+    "usd": [
+     6,
+     14
+    ],
+    "unit": "piece",
+    "variants": [
+     "120 ml",
+     "200 ml"
+    ]
+   },
+   {
+    "name": "Suero oral de rehidratación",
+    "kind": "product",
+    "category": "Medicamentos",
+    "usd": [
+     4.4,
+     10
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "Colirio lubricante",
+    "kind": "product",
+    "category": "Medicamentos",
+    "usd": [
+     6.5,
+     15
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Complejo multivitamínico",
+    "kind": "product",
+    "category": "Medicamentos",
+    "usd": [
+     11,
+     27
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "Protector solar SPF 50+",
+    "kind": "product",
+    "category": "Dermocosmética",
+    "usd": [
+     13,
+     28
+    ],
+    "unit": "piece",
+    "variants": [
+     "50 ml",
+     "200 ml"
+    ]
+   },
+   {
+    "name": "Crema hidratante facial",
+    "kind": "product",
+    "category": "Dermocosmética",
+    "usd": [
+     16,
+     38
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Sérum antiarrugas",
+    "kind": "product",
+    "category": "Dermocosmética",
+    "usd": [
+     20,
+     45
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Leche infantil de inicio",
+    "kind": "product",
+    "category": "Infantil",
+    "usd": [
+     15,
+     28
+    ],
+    "unit": "box",
+    "variants": [
+     "400 g",
+     "800 g"
+    ]
+   },
+   {
+    "name": "Pañales infantiles",
+    "kind": "product",
+    "category": "Infantil",
+    "usd": [
+     10,
+     22
+    ],
+    "unit": "pack",
+    "variants": [
+     "Talla 3",
+     "Talla 4",
+     "Talla 5"
+    ]
+   },
+   {
+    "name": "Toallitas húmedas",
+    "kind": "product",
+    "category": "Infantil",
+    "usd": [
+     2,
+     5
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "Pañales de adulto (20 uds.)",
+    "kind": "product",
+    "category": "Higiene",
+    "usd": [
+     13,
+     28
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "Mascarillas FFP2 (20 uds.)",
+    "kind": "product",
+    "category": "Higiene",
+    "usd": [
+     9,
+     22
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "Test de embarazo",
+    "kind": "product",
+    "category": "Higiene",
+    "usd": [
+     5.5,
+     13
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Termómetro digital",
+    "kind": "product",
+    "category": "Ortopedia",
+    "usd": [
+     5.5,
+     16
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Tensiómetro de brazo",
+    "kind": "product",
+    "category": "Ortopedia",
+    "usd": [
+     33,
+     76
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Medias de compresión",
+    "kind": "product",
+    "category": "Ortopedia",
+    "usd": [
+     20,
+     45
+    ],
+    "unit": "piece",
+    "variants": [
+     "S",
+     "M",
+     "L"
+    ]
+   },
+   {
+    "name": "Rodillera elástica",
+    "kind": "product",
+    "category": "Ortopedia",
+    "usd": [
+     12,
+     28
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Control de glucosa y colesterol",
+    "kind": "service",
+    "category": "Servicios",
+    "usd": [
+     3.3,
+     9
+    ],
+    "unit": "session",
+    "minutes": [
+     5,
+     15
+    ]
+   },
+   {
+    "name": "Toma de tensión arterial",
+    "kind": "service",
+    "category": "Servicios",
+    "usd": [
+     1,
+     4
+    ],
+    "unit": "session",
+    "minutes": [
+     5,
+     10
+    ]
+   },
+   {
+    "name": "Preparación de pastillero (SPD)",
+    "kind": "service",
+    "category": "Servicios",
+    "usd": [
+     9,
+     22
+    ],
+    "unit": "month",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "Aplicación de inyección",
+    "kind": "service",
+    "category": "Servicios",
+    "usd": [
+     3,
+     8
+    ],
+    "unit": "session",
+    "minutes": [
+     5,
+     15
+    ]
+   }
+  ]
+ },
+ "grocery": {
+  "categories": [
+   "Alimentación",
+   "Frescos",
+   "Charcutería y quesos",
+   "Bebidas",
+   "Droguería"
+  ],
+  "roles": [
+   "Dependiente",
+   "Cajero",
+   "Reponedor",
+   "Encargado de tienda",
+   "Charcutero",
+   "Frutero",
+   "Repartidor"
+  ],
+  "departments": [
+   "Tienda",
+   "Almacén",
+   "Caja"
+  ],
+  "items": [
+   {
+    "name": "Aceite de oliva virgen extra",
+    "kind": "product",
+    "category": "Alimentación",
+    "usd": [
+     7.6,
+     13
+    ],
+    "unit": "piece",
+    "variants": [
+     "1 l",
+     "3 l",
+     "5 l"
+    ]
+   },
+   {
+    "name": "Leche entera",
+    "kind": "product",
+    "category": "Alimentación",
+    "usd": [
+     1.0,
+     1.5
+    ],
+    "unit": "piece",
+    "variants": [
+     "1 l",
+     "Pack 6 x 1 l"
+    ]
+   },
+   {
+    "name": "Pan de molde integral",
+    "kind": "product",
+    "category": "Alimentación",
+    "usd": [
+     1.6,
+     3.2
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Arroz redondo",
+    "kind": "product",
+    "category": "Alimentación",
+    "usd": [
+     1.3,
+     2.8
+    ],
+    "unit": "piece",
+    "variants": [
+     "1 kg",
+     "5 kg"
+    ]
+   },
+   {
+    "name": "Frijoles negros",
+    "kind": "product",
+    "category": "Alimentación",
+    "usd": [
+     2.2,
+     4.4
+    ],
+    "unit": "piece",
+    "variants": [
+     "500 g",
+     "1 kg"
+    ]
+   },
+   {
+    "name": "Lentejas pardinas",
+    "kind": "product",
+    "category": "Alimentación",
+    "usd": [
+     1.5,
+     3
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Espaguetis",
+    "kind": "product",
+    "category": "Alimentación",
+    "usd": [
+     0.9,
+     2
+    ],
+    "unit": "piece",
+    "variants": [
+     "500 g",
+     "1 kg"
+    ]
+   },
+   {
+    "name": "Yerba mate",
+    "kind": "product",
+    "category": "Alimentación",
+    "usd": [
+     7.6,
+     15
+    ],
+    "unit": "piece",
+    "variants": [
+     "500 g",
+     "1 kg"
+    ]
+   },
+   {
+    "name": "Café molido natural",
+    "kind": "product",
+    "category": "Alimentación",
+    "usd": [
+     2.7,
+     5.5
+    ],
+    "unit": "piece",
+    "variants": [
+     "250 g",
+     "500 g"
+    ]
+   },
+   {
+    "name": "Huevos frescos",
+    "kind": "product",
+    "category": "Frescos",
+    "usd": [
+     2.7,
+     4.6
+    ],
+    "unit": "box",
+    "variants": [
+     "Media docena",
+     "Docena",
+     "30 uds."
+    ]
+   },
+   {
+    "name": "Tomates de temporada",
+    "kind": "product",
+    "category": "Frescos",
+    "usd": [
+     2.2,
+     4.0
+    ],
+    "unit": "kg"
+   },
+   {
+    "name": "Plátanos de Canarias",
+    "kind": "product",
+    "category": "Frescos",
+    "usd": [
+     2.2,
+     3.5
+    ],
+    "unit": "kg"
+   },
+   {
+    "name": "Aguacate Hass",
+    "kind": "product",
+    "category": "Frescos",
+    "usd": [
+     3,
+     6
+    ],
+    "unit": "kg"
+   },
+   {
+    "name": "Manzanas golden",
+    "kind": "product",
+    "category": "Frescos",
+    "usd": [
+     1.8,
+     3.2
+    ],
+    "unit": "kg"
+   },
+   {
+    "name": "Jamón cocido extra",
+    "kind": "product",
+    "category": "Charcutería y quesos",
+    "usd": [
+     13,
+     22
+    ],
+    "unit": "kg"
+   },
+   {
+    "name": "Queso manchego curado",
+    "kind": "product",
+    "category": "Charcutería y quesos",
+    "usd": [
+     17,
+     30
+    ],
+    "unit": "kg"
+   },
+   {
+    "name": "Chorizo ibérico",
+    "kind": "product",
+    "category": "Charcutería y quesos",
+    "usd": [
+     16,
+     28
+    ],
+    "unit": "kg"
+   },
+   {
+    "name": "Agua mineral 1,5 l (pack de 6)",
+    "kind": "product",
+    "category": "Bebidas",
+    "usd": [
+     2.2,
+     4.4
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "Refresco de cola",
+    "kind": "product",
+    "category": "Bebidas",
+    "usd": [
+     1.6,
+     2.9
+    ],
+    "unit": "piece",
+    "variants": [
+     "500 ml",
+     "1,5 l",
+     "2 l"
+    ]
+   },
+   {
+    "name": "Cerveza en lata",
+    "kind": "product",
+    "category": "Bebidas",
+    "usd": [
+     0.9,
+     1.8
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Vino tinto joven",
+    "kind": "product",
+    "category": "Bebidas",
+    "usd": [
+     3.5,
+     8
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Detergente líquido",
+    "kind": "product",
+    "category": "Droguería",
+    "usd": [
+     6.5,
+     13
+    ],
+    "unit": "piece",
+    "variants": [
+     "1,5 l",
+     "3 l"
+    ]
+   },
+   {
+    "name": "Papel higiénico",
+    "kind": "product",
+    "category": "Droguería",
+    "usd": [
+     3,
+     7
+    ],
+    "unit": "pack",
+    "variants": [
+     "4 rollos",
+     "12 rollos"
+    ]
+   },
+   {
+    "name": "Lavavajillas concentrado",
+    "kind": "product",
+    "category": "Droguería",
+    "usd": [
+     1.5,
+     3.5
+    ],
+    "unit": "piece"
+   }
+  ]
+ },
+ "ecommerce": {
+  "categories": [
+   "Electrónica",
+   "Hogar",
+   "Moda y deporte",
+   "Belleza",
+   "Regalos"
+  ],
+  "roles": [
+   "Responsable de e-commerce",
+   "Especialista en marketing digital",
+   "Community manager",
+   "Diseñador gráfico",
+   "Atención al cliente",
+   "Responsable de logística",
+   "Mozo de almacén"
+  ],
+  "departments": [
+   "Tienda online",
+   "Logística",
+   "Atención al cliente",
+   "Marketing"
+  ],
+  "items": [
+   {
+    "name": "Auriculares Bluetooth",
+    "kind": "product",
+    "category": "Electrónica",
+    "usd": [
+     22,
+     87
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Funda de silicona para móvil",
+    "kind": "product",
+    "category": "Electrónica",
+    "usd": [
+     9,
+     22
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Cargador rápido USB-C",
+    "kind": "product",
+    "category": "Electrónica",
+    "usd": [
+     13,
+     28
+    ],
+    "unit": "piece",
+    "variants": [
+     "20 W",
+     "35 W",
+     "65 W"
+    ]
+   },
+   {
+    "name": "Batería externa",
+    "kind": "product",
+    "category": "Electrónica",
+    "usd": [
+     18,
+     45
+    ],
+    "unit": "piece",
+    "variants": [
+     "10.000 mAh",
+     "20.000 mAh"
+    ]
+   },
+   {
+    "name": "Reloj inteligente deportivo",
+    "kind": "product",
+    "category": "Electrónica",
+    "usd": [
+     44,
+     165
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Lámpara de mesa LED",
+    "kind": "product",
+    "category": "Hogar",
+    "usd": [
+     22,
+     55
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Juego de sábanas de algodón",
+    "kind": "product",
+    "category": "Hogar",
+    "usd": [
+     33,
+     76
+    ],
+    "unit": "set",
+    "variants": [
+     "90 cm",
+     "135 cm",
+     "150 cm"
+    ]
+   },
+   {
+    "name": "Set de sartenes antiadherentes",
+    "kind": "product",
+    "category": "Hogar",
+    "usd": [
+     38,
+     98
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "Pack de velas aromáticas",
+    "kind": "product",
+    "category": "Hogar",
+    "usd": [
+     16,
+     38
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "Botella térmica de acero",
+    "kind": "product",
+    "category": "Hogar",
+    "usd": [
+     16,
+     33
+    ],
+    "unit": "piece",
+    "variants": [
+     "500 ml",
+     "750 ml",
+     "1 l"
+    ]
+   },
+   {
+    "name": "Mochila para portátil",
+    "kind": "product",
+    "category": "Moda y deporte",
+    "usd": [
+     33,
+     76
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Zapatillas de running",
+    "kind": "product",
+    "category": "Moda y deporte",
+    "usd": [
+     44,
+     130
+    ],
+    "unit": "piece",
+    "variants": [
+     "38",
+     "40",
+     "42",
+     "44"
+    ]
+   },
+   {
+    "name": "Esterilla de yoga",
+    "kind": "product",
+    "category": "Moda y deporte",
+    "usd": [
+     15,
+     40
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Gafas de sol polarizadas",
+    "kind": "product",
+    "category": "Moda y deporte",
+    "usd": [
+     20,
+     60
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Sérum facial de vitamina C",
+    "kind": "product",
+    "category": "Belleza",
+    "usd": [
+     16,
+     38
+    ],
+    "unit": "piece",
+    "variants": [
+     "15 ml",
+     "30 ml"
+    ]
+   },
+   {
+    "name": "Kit de brochas de maquillaje",
+    "kind": "product",
+    "category": "Belleza",
+    "usd": [
+     15,
+     35
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "Crema corporal",
+    "kind": "product",
+    "category": "Belleza",
+    "usd": [
+     10,
+     25
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Tarjeta regalo",
+    "kind": "product",
+    "category": "Regalos",
+    "usd": [
+     22,
+     110
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Lote gourmet artesano",
+    "kind": "product",
+    "category": "Regalos",
+    "usd": [
+     33,
+     90
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "Caja sorpresa mensual",
+    "kind": "product",
+    "category": "Regalos",
+    "usd": [
+     22,
+     44
+    ],
+    "unit": "month"
+   },
+   {
+    "name": "Taza personalizada",
+    "kind": "product",
+    "category": "Regalos",
+    "usd": [
+     10,
+     20
+    ],
+    "unit": "piece"
+   }
+  ]
+ },
+ "wholesale_electronics": {
+  "categories": [
+   "Portátiles y PC",
+   "Monitores",
+   "Componentes",
+   "Redes",
+   "Impresión",
+   "Periféricos"
+  ],
+  "roles": [
+   "Comercial",
+   "Key account manager",
+   "Jefe de ventas",
+   "Técnico de preventa",
+   "Responsable de compras",
+   "Administrativo de ventas",
+   "Mozo de almacén"
+  ],
+  "departments": [
+   "Ventas",
+   "Compras",
+   "Almacén",
+   "Administración"
+  ],
+  "items": [
+   {
+    "name": "Portátil Core i5 15,6 pulgadas",
+    "kind": "product",
+    "category": "Portátiles y PC",
+    "usd": [
+     600,
+     870
+    ],
+    "unit": "piece",
+    "variants": [
+     "8 GB RAM",
+     "16 GB RAM",
+     "32 GB RAM"
+    ]
+   },
+   {
+    "name": "Laptop Core i7 14 pulgadas",
+    "kind": "product",
+    "category": "Portátiles y PC",
+    "usd": [
+     850,
+     1300
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Computadora de escritorio i7",
+    "kind": "product",
+    "category": "Portátiles y PC",
+    "usd": [
+     700,
+     1200
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Mini PC",
+    "kind": "product",
+    "category": "Portátiles y PC",
+    "usd": [
+     300,
+     600
+    ],
+    "unit": "piece",
+    "variants": [
+     "16 GB",
+     "32 GB"
+    ]
+   },
+   {
+    "name": "Tableta de 10 pulgadas",
+    "kind": "product",
+    "category": "Portátiles y PC",
+    "usd": [
+     165,
+     380
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Monitor LED",
+    "kind": "product",
+    "category": "Monitores",
+    "usd": [
+     120,
+     330
+    ],
+    "unit": "piece",
+    "variants": [
+     "22 pulgadas",
+     "24 pulgadas",
+     "27 pulgadas"
+    ]
+   },
+   {
+    "name": "Monitor curvo 34 pulgadas",
+    "kind": "product",
+    "category": "Monitores",
+    "usd": [
+     300,
+     550
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Disco SSD NVMe",
+    "kind": "product",
+    "category": "Componentes",
+    "usd": [
+     60,
+     120
+    ],
+    "unit": "piece",
+    "variants": [
+     "500 GB",
+     "1 TB",
+     "2 TB"
+    ]
+   },
+   {
+    "name": "Memoria RAM DDR4",
+    "kind": "product",
+    "category": "Componentes",
+    "usd": [
+     38,
+     76
+    ],
+    "unit": "piece",
+    "variants": [
+     "8 GB",
+     "16 GB",
+     "32 GB"
+    ]
+   },
+   {
+    "name": "Disco duro externo",
+    "kind": "product",
+    "category": "Componentes",
+    "usd": [
+     55,
+     120
+    ],
+    "unit": "piece",
+    "variants": [
+     "1 TB",
+     "2 TB",
+     "4 TB"
+    ]
+   },
+   {
+    "name": "Router wifi 6 doble banda",
+    "kind": "product",
+    "category": "Redes",
+    "usd": [
+     55,
+     165
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Switch gestionable 24 puertos",
+    "kind": "product",
+    "category": "Redes",
+    "usd": [
+     165,
+     490
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Punto de acceso wifi",
+    "kind": "product",
+    "category": "Redes",
+    "usd": [
+     60,
+     150
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Bobina cable UTP Cat6 305 m",
+    "kind": "product",
+    "category": "Redes",
+    "usd": [
+     90,
+     180
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Impresora multifunción láser",
+    "kind": "product",
+    "category": "Impresión",
+    "usd": [
+     196,
+     490
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Tóner negro alta capacidad",
+    "kind": "product",
+    "category": "Impresión",
+    "usd": [
+     44,
+     120
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Cartucho de tinta",
+    "kind": "product",
+    "category": "Impresión",
+    "usd": [
+     15,
+     45
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Teclado y mouse inalámbricos",
+    "kind": "product",
+    "category": "Periféricos",
+    "usd": [
+     22,
+     55
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "Cámara web Full HD",
+    "kind": "product",
+    "category": "Periféricos",
+    "usd": [
+     33,
+     87
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Auriculares con micrófono",
+    "kind": "product",
+    "category": "Periféricos",
+    "usd": [
+     18,
+     60
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Cable HDMI 2 m (caja 10 uds.)",
+    "kind": "product",
+    "category": "Periféricos",
+    "usd": [
+     27,
+     65
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "SAI (UPS) de 1500 VA",
+    "kind": "product",
+    "category": "Periféricos",
+    "usd": [
+     165,
+     380
+    ],
+    "unit": "piece"
+   }
+  ]
+ },
+ "software": {
+  "categories": [
+   "Desarrollo",
+   "Licencias",
+   "Mantenimiento",
+   "Consultoría",
+   "Diseño"
+  ],
+  "roles": [
+   "Desarrollador full stack",
+   "Programador senior",
+   "Jefe de proyecto",
+   "Analista funcional",
+   "Diseñador UX/UI",
+   "Tester QA",
+   "Arquitecto de software",
+   "CTO"
+  ],
+  "departments": [
+   "Desarrollo",
+   "Producto",
+   "Soporte",
+   "Comercial"
+  ],
+  "items": [
+   {
+    "name": "Aplicación web a medida",
+    "kind": "service",
+    "category": "Desarrollo",
+    "usd": [
+     8700,
+     43500
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "App móvil iOS y Android",
+    "kind": "service",
+    "category": "Desarrollo",
+    "usd": [
+     13000,
+     54000
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Hora de desarrollo senior",
+    "kind": "service",
+    "category": "Desarrollo",
+    "usd": [
+     49,
+     92
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "Hora de desarrollo junior",
+    "kind": "service",
+    "category": "Desarrollo",
+    "usd": [
+     25,
+     45
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "Jornada de programador",
+    "kind": "service",
+    "category": "Desarrollo",
+    "usd": [
+     330,
+     600
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Integración con API de terceros",
+    "kind": "service",
+    "category": "Desarrollo",
+    "usd": [
+     1300,
+     5400
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Tienda online con WooCommerce",
+    "kind": "service",
+    "category": "Desarrollo",
+    "usd": [
+     2200,
+     7600
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Despliegue en la nube",
+    "kind": "service",
+    "category": "Desarrollo",
+    "usd": [
+     300,
+     1500
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "Análisis funcional y requisitos",
+    "kind": "service",
+    "category": "Consultoría",
+    "usd": [
+     1650,
+     6500
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Migración de datos",
+    "kind": "service",
+    "category": "Consultoría",
+    "usd": [
+     1100,
+     6500
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Implantación de ERP",
+    "kind": "service",
+    "category": "Consultoría",
+    "usd": [
+     5400,
+     33000
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Auditoría de código",
+    "kind": "service",
+    "category": "Consultoría",
+    "usd": [
+     1650,
+     6500
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Diseño de interfaces UX/UI",
+    "kind": "service",
+    "category": "Diseño",
+    "usd": [
+     2200,
+     9800
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Prototipo interactivo",
+    "kind": "service",
+    "category": "Diseño",
+    "usd": [
+     800,
+     3000
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Licencia anual software gestión",
+    "kind": "product",
+    "category": "Licencias",
+    "usd": [
+     435,
+     2700
+    ],
+    "unit": "piece",
+    "variants": [
+     "Básica",
+     "Profesional",
+     "Empresa"
+    ]
+   },
+   {
+    "name": "Suscripción SaaS (usuario/mes)",
+    "kind": "product",
+    "category": "Licencias",
+    "usd": [
+     11,
+     49
+    ],
+    "unit": "month",
+    "variants": [
+     "Básico",
+     "Pro",
+     "Enterprise"
+    ]
+   },
+   {
+    "name": "Licencia de TPV",
+    "kind": "product",
+    "category": "Licencias",
+    "usd": [
+     200,
+     600
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Módulo facturación electrónica",
+    "kind": "product",
+    "category": "Licencias",
+    "usd": [
+     300,
+     1200
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Mantenimiento evolutivo",
+    "kind": "service",
+    "category": "Mantenimiento",
+    "usd": [
+     330,
+     1650
+    ],
+    "unit": "month",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Soporte y corrección de errores",
+    "kind": "service",
+    "category": "Mantenimiento",
+    "usd": [
+     220,
+     980
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "Bolsa de 10 horas de soporte",
+    "kind": "service",
+    "category": "Mantenimiento",
+    "usd": [
+     400,
+     800
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   }
+  ]
+ },
+ "it_consulting": {
+  "categories": [
+   "Soporte",
+   "Redes y servidores",
+   "Ciberseguridad",
+   "Nube",
+   "Formación y consultoría"
+  ],
+  "roles": [
+   "Técnico de soporte",
+   "Técnico de sistemas",
+   "Administrador de sistemas",
+   "Consultor TI",
+   "Responsable de ciberseguridad",
+   "Técnico de campo",
+   "Jefe de proyectos"
+  ],
+  "departments": [
+   "Soporte",
+   "Sistemas",
+   "Proyectos",
+   "Comercial"
+  ],
+  "items": [
+   {
+    "name": "Mantenimiento informático",
+    "kind": "service",
+    "category": "Soporte",
+    "usd": [
+     165,
+     490
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "Hora de técnico informático",
+    "kind": "service",
+    "category": "Soporte",
+    "usd": [
+     38,
+     65
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "Soporte remoto por usuario",
+    "kind": "service",
+    "category": "Soporte",
+    "usd": [
+     16,
+     44
+    ],
+    "unit": "month",
+    "minutes": [
+     15,
+     60
+    ]
+   },
+   {
+    "name": "Reparación de equipo informático",
+    "kind": "service",
+    "category": "Soporte",
+    "usd": [
+     55,
+     130
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "Alta de puesto de trabajo",
+    "kind": "service",
+    "category": "Soporte",
+    "usd": [
+     65,
+     165
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "Desplazamiento a cliente",
+    "kind": "service",
+    "category": "Soporte",
+    "usd": [
+     25,
+     60
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "Portátil configurado",
+    "kind": "product",
+    "category": "Soporte",
+    "usd": [
+     650,
+     1200
+    ],
+    "unit": "piece",
+    "variants": [
+     "Core i5",
+     "Core i7"
+    ]
+   },
+   {
+    "name": "SSD instalado con clonado",
+    "kind": "product",
+    "category": "Soporte",
+    "usd": [
+     80,
+     180
+    ],
+    "unit": "piece",
+    "variants": [
+     "500 GB",
+     "1 TB"
+    ]
+   },
+   {
+    "name": "Configuración de red y wifi",
+    "kind": "service",
+    "category": "Redes y servidores",
+    "usd": [
+     330,
+     980
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "Instalación de servidor",
+    "kind": "service",
+    "category": "Redes y servidores",
+    "usd": [
+     650,
+     2200
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Cableado de red (por punto)",
+    "kind": "service",
+    "category": "Redes y servidores",
+    "usd": [
+     50,
+     110
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "Auditoría de ciberseguridad",
+    "kind": "service",
+    "category": "Ciberseguridad",
+    "usd": [
+     1650,
+     6500
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Configuración de cortafuegos",
+    "kind": "service",
+    "category": "Ciberseguridad",
+    "usd": [
+     435,
+     1650
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "Plan de continuidad (DRP)",
+    "kind": "service",
+    "category": "Ciberseguridad",
+    "usd": [
+     2200,
+     8700
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Antivirus gestionado (equipo)",
+    "kind": "product",
+    "category": "Ciberseguridad",
+    "usd": [
+     3,
+     8
+    ],
+    "unit": "month"
+   },
+   {
+    "name": "Copia de seguridad en la nube",
+    "kind": "service",
+    "category": "Nube",
+    "usd": [
+     22,
+     130
+    ],
+    "unit": "month",
+    "minutes": [
+     15,
+     60
+    ]
+   },
+   {
+    "name": "Migración a Microsoft 365",
+    "kind": "service",
+    "category": "Nube",
+    "usd": [
+     540,
+     2700
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Licencia Microsoft 365 Business",
+    "kind": "product",
+    "category": "Nube",
+    "usd": [
+     6,
+     22
+    ],
+    "unit": "month",
+    "variants": [
+     "Basic",
+     "Standard",
+     "Premium"
+    ]
+   },
+   {
+    "name": "Jornada de consultoría TI",
+    "kind": "service",
+    "category": "Formación y consultoría",
+    "usd": [
+     540,
+     1100
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Formación en ciberseguridad",
+    "kind": "service",
+    "category": "Formación y consultoría",
+    "usd": [
+     330,
+     980
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "Curso de Excel para empresas",
+    "kind": "service",
+    "category": "Formación y consultoría",
+    "usd": [
+     300,
+     900
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   }
+  ]
+ },
+ "web_hosting": {
+  "categories": [
+   "Hosting",
+   "Servidores",
+   "Dominios",
+   "Correo",
+   "Seguridad",
+   "Servicios técnicos"
+  ],
+  "roles": [
+   "Administrador de sistemas",
+   "Técnico de soporte",
+   "Ingeniero DevOps",
+   "Técnico de redes",
+   "Responsable de centro de datos",
+   "Comercial"
+  ],
+  "departments": [
+   "Sistemas",
+   "Soporte",
+   "Comercial",
+   "Centro de datos"
+  ],
+  "items": [
+   {
+    "name": "Hosting compartido",
+    "kind": "product",
+    "category": "Hosting",
+    "usd": [
+     3.3,
+     11
+    ],
+    "unit": "month",
+    "variants": [
+     "Básico",
+     "Profesional",
+     "Business"
+    ]
+   },
+   {
+    "name": "Hosting WordPress optimizado",
+    "kind": "product",
+    "category": "Hosting",
+    "usd": [
+     9,
+     28
+    ],
+    "unit": "month",
+    "variants": [
+     "1 sitio",
+     "5 sitios",
+     "Ilimitado"
+    ]
+   },
+   {
+    "name": "Hosting e-commerce",
+    "kind": "product",
+    "category": "Hosting",
+    "usd": [
+     15,
+     40
+    ],
+    "unit": "month"
+   },
+   {
+    "name": "Servidor VPS",
+    "kind": "product",
+    "category": "Servidores",
+    "usd": [
+     22,
+     65
+    ],
+    "unit": "month",
+    "variants": [
+     "2 vCPU",
+     "4 vCPU",
+     "8 vCPU"
+    ]
+   },
+   {
+    "name": "Servidor dedicado",
+    "kind": "product",
+    "category": "Servidores",
+    "usd": [
+     87,
+     330
+    ],
+    "unit": "month"
+   },
+   {
+    "name": "Housing de servidor (1U)",
+    "kind": "product",
+    "category": "Servidores",
+    "usd": [
+     65,
+     165
+    ],
+    "unit": "month"
+   },
+   {
+    "name": "Almacenamiento en la nube",
+    "kind": "product",
+    "category": "Servidores",
+    "usd": [
+     9,
+     22
+    ],
+    "unit": "month",
+    "variants": [
+     "500 GB",
+     "1 TB",
+     "2 TB"
+    ]
+   },
+   {
+    "name": "Balanceador de carga",
+    "kind": "product",
+    "category": "Servidores",
+    "usd": [
+     22,
+     87
+    ],
+    "unit": "month"
+   },
+   {
+    "name": "Registro de dominio .es",
+    "kind": "product",
+    "category": "Dominios",
+    "usd": [
+     9,
+     16
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Renovación de dominio .com",
+    "kind": "product",
+    "category": "Dominios",
+    "usd": [
+     11,
+     20
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Registro de dominio .com.mx",
+    "kind": "product",
+    "category": "Dominios",
+    "usd": [
+     15,
+     30
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Transferencia de dominio",
+    "kind": "service",
+    "category": "Dominios",
+    "usd": [
+     8,
+     15
+    ],
+    "unit": "piece",
+    "minutes": [
+     15,
+     60
+    ]
+   },
+   {
+    "name": "Cuenta de correo profesional",
+    "kind": "product",
+    "category": "Correo",
+    "usd": [
+     2.2,
+     6.5
+    ],
+    "unit": "month",
+    "variants": [
+     "10 GB",
+     "25 GB",
+     "50 GB"
+    ]
+   },
+   {
+    "name": "Buzón de correo adicional",
+    "kind": "product",
+    "category": "Correo",
+    "usd": [
+     1.5,
+     4
+    ],
+    "unit": "month"
+   },
+   {
+    "name": "Certificado SSL",
+    "kind": "product",
+    "category": "Seguridad",
+    "usd": [
+     44,
+     165
+    ],
+    "unit": "piece",
+    "variants": [
+     "DV",
+     "OV",
+     "EV"
+    ]
+   },
+   {
+    "name": "Protección anti-DDoS",
+    "kind": "product",
+    "category": "Seguridad",
+    "usd": [
+     22,
+     110
+    ],
+    "unit": "month"
+   },
+   {
+    "name": "Copias de seguridad gestionadas",
+    "kind": "product",
+    "category": "Seguridad",
+    "usd": [
+     11,
+     44
+    ],
+    "unit": "month"
+   },
+   {
+    "name": "Migración de sitio web",
+    "kind": "service",
+    "category": "Servicios técnicos",
+    "usd": [
+     55,
+     220
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "Administración de sistemas Linux",
+    "kind": "service",
+    "category": "Servicios técnicos",
+    "usd": [
+     44,
+     76
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "Instalación de WordPress",
+    "kind": "service",
+    "category": "Servicios técnicos",
+    "usd": [
+     30,
+     90
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "Restauración de backup",
+    "kind": "service",
+    "category": "Servicios técnicos",
+    "usd": [
+     30,
+     80
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     120
+    ]
+   }
+  ]
+ },
+ "accounting": {
+  "categories": [
+   "Contabilidad",
+   "Impuestos",
+   "Laboral",
+   "Sociedades",
+   "Auditoría"
+  ],
+  "roles": [
+   "Asesor fiscal",
+   "Contable",
+   "Contador público",
+   "Auxiliar contable",
+   "Técnico laboral",
+   "Gestor administrativo",
+   "Auditor",
+   "Socio director"
+  ],
+  "departments": [
+   "Contabilidad",
+   "Fiscal",
+   "Laboral",
+   "Administración"
+  ],
+  "items": [
+   {
+    "name": "Contabilidad para autónomos",
+    "kind": "service",
+    "category": "Contabilidad",
+    "usd": [
+     55,
+     130
+    ],
+    "unit": "month",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "Contabilidad para sociedades",
+    "kind": "service",
+    "category": "Contabilidad",
+    "usd": [
+     130,
+     380
+    ],
+    "unit": "month",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Llevanza de libros contables",
+    "kind": "service",
+    "category": "Contabilidad",
+    "usd": [
+     87,
+     270
+    ],
+    "unit": "month",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "Elaboración de cuentas anuales",
+    "kind": "service",
+    "category": "Contabilidad",
+    "usd": [
+     220,
+     650
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Declaración de la renta (IRPF)",
+    "kind": "service",
+    "category": "Impuestos",
+    "usd": [
+     44,
+     130
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "Presentación trimestral de IVA",
+    "kind": "service",
+    "category": "Impuestos",
+    "usd": [
+     44,
+     110
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "Declaración anual persona moral",
+    "kind": "service",
+    "category": "Impuestos",
+    "usd": [
+     87,
+     270
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "Declaración de renta",
+    "kind": "service",
+    "category": "Impuestos",
+    "usd": [
+     60,
+     200
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "Facturación electrónica (CFDI)",
+    "kind": "service",
+    "category": "Impuestos",
+    "usd": [
+     33,
+     110
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "Consulta fiscal",
+    "kind": "service",
+    "category": "Impuestos",
+    "usd": [
+     55,
+     130
+    ],
+    "unit": "hour",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "Planificación fiscal",
+    "kind": "service",
+    "category": "Impuestos",
+    "usd": [
+     330,
+     1650
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "Representación ante Hacienda",
+    "kind": "service",
+    "category": "Impuestos",
+    "usd": [
+     165,
+     650
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "Nómina y seguros sociales",
+    "kind": "service",
+    "category": "Laboral",
+    "usd": [
+     16,
+     38
+    ],
+    "unit": "person",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "Alta de trabajador",
+    "kind": "service",
+    "category": "Laboral",
+    "usd": [
+     20,
+     45
+    ],
+    "unit": "piece",
+    "minutes": [
+     15,
+     45
+    ]
+   },
+   {
+    "name": "Cálculo de finiquito",
+    "kind": "service",
+    "category": "Laboral",
+    "usd": [
+     30,
+     80
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "Alta de autónomo",
+    "kind": "service",
+    "category": "Sociedades",
+    "usd": [
+     65,
+     220
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "Constitución de sociedad (S.L.)",
+    "kind": "service",
+    "category": "Sociedades",
+    "usd": [
+     330,
+     870
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "Alta en monotributo",
+    "kind": "service",
+    "category": "Sociedades",
+    "usd": [
+     40,
+     100
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "Auditoría de cuentas anuales",
+    "kind": "service",
+    "category": "Auditoría",
+    "usd": [
+     2700,
+     11000
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Revisoría fiscal",
+    "kind": "service",
+    "category": "Auditoría",
+    "usd": [
+     400,
+     1500
+    ],
+    "unit": "month",
+    "minutes": [
+     240,
+     480
+    ]
+   }
+  ]
+ },
+ "law_firm": {
+  "categories": [
+   "Consultas",
+   "Civil y familia",
+   "Mercantil",
+   "Laboral",
+   "Penal"
+  ],
+  "roles": [
+   "Abogado",
+   "Abogado asociado",
+   "Socio director",
+   "Procurador",
+   "Paralegal",
+   "Pasante",
+   "Secretaria jurídica",
+   "Asistente legal"
+  ],
+  "departments": [
+   "Área civil",
+   "Área mercantil",
+   "Área laboral",
+   "Secretaría"
+  ],
+  "items": [
+   {
+    "name": "Consulta jurídica",
+    "kind": "service",
+    "category": "Consultas",
+    "usd": [
+     65,
+     165
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "Consulta jurídica online",
+    "kind": "service",
+    "category": "Consultas",
+    "usd": [
+     40,
+     100
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     45
+    ]
+   },
+   {
+    "name": "Hora de abogado",
+    "kind": "service",
+    "category": "Consultas",
+    "usd": [
+     110,
+     270
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "Iguala mensual",
+    "kind": "service",
+    "category": "Consultas",
+    "usd": [
+     165,
+     650
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "Redacción de contrato mercantil",
+    "kind": "service",
+    "category": "Mercantil",
+    "usd": [
+     330,
+     1300
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "Constitución de sociedad",
+    "kind": "service",
+    "category": "Mercantil",
+    "usd": [
+     540,
+     1650
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Registro de marca",
+    "kind": "service",
+    "category": "Mercantil",
+    "usd": [
+     330,
+     980
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "Due diligence legal",
+    "kind": "service",
+    "category": "Mercantil",
+    "usd": [
+     3300,
+     16500
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Reclamación judicial de deuda",
+    "kind": "service",
+    "category": "Mercantil",
+    "usd": [
+     435,
+     1650
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Divorcio de mutuo acuerdo",
+    "kind": "service",
+    "category": "Civil y familia",
+    "usd": [
+     650,
+     1650
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Divorcio contencioso",
+    "kind": "service",
+    "category": "Civil y familia",
+    "usd": [
+     1500,
+     4500
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Tramitación de herencia",
+    "kind": "service",
+    "category": "Civil y familia",
+    "usd": [
+     870,
+     3300
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Redacción de testamento",
+    "kind": "service",
+    "category": "Civil y familia",
+    "usd": [
+     165,
+     540
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "Demanda de pensión alimenticia",
+    "kind": "service",
+    "category": "Civil y familia",
+    "usd": [
+     500,
+     1500
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Carta documento",
+    "kind": "service",
+    "category": "Civil y familia",
+    "usd": [
+     110,
+     330
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "Requerimiento por burofax",
+    "kind": "service",
+    "category": "Civil y familia",
+    "usd": [
+     90,
+     250
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "Defensa en juicio laboral",
+    "kind": "service",
+    "category": "Laboral",
+    "usd": [
+     870,
+     3300
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Reclamación por despido",
+    "kind": "service",
+    "category": "Laboral",
+    "usd": [
+     600,
+     2000
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Asistencia letrada en juicio",
+    "kind": "service",
+    "category": "Penal",
+    "usd": [
+     330,
+     1100
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "Asistencia en comisaría",
+    "kind": "service",
+    "category": "Penal",
+    "usd": [
+     150,
+     400
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "Recurso de apelación",
+    "kind": "service",
+    "category": "Penal",
+    "usd": [
+     870,
+     2700
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   }
+  ]
+ },
+ "management_consulting": {
+  "categories": [
+   "Estrategia",
+   "Organización",
+   "Procesos y calidad",
+   "Formación",
+   "Financiación"
+  ],
+  "roles": [
+   "Socio director",
+   "Consultor sénior",
+   "Consultor júnior",
+   "Gerente de proyecto",
+   "Analista de negocio",
+   "Coach ejecutivo",
+   "Asistente administrativa"
+  ],
+  "departments": [
+   "Consultoría",
+   "Formación",
+   "Administración"
+  ],
+  "items": [
+   {
+    "name": "Elaboración de plan estratégico",
+    "kind": "service",
+    "category": "Estrategia",
+    "usd": [
+     5400,
+     27000
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Plan de negocio y viabilidad",
+    "kind": "service",
+    "category": "Estrategia",
+    "usd": [
+     1650,
+     6500
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Estudio de mercado",
+    "kind": "service",
+    "category": "Estrategia",
+    "usd": [
+     2700,
+     11000
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Plan de internacionalización",
+    "kind": "service",
+    "category": "Estrategia",
+    "usd": [
+     3300,
+     13000
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Jornada de consultoría",
+    "kind": "service",
+    "category": "Estrategia",
+    "usd": [
+     650,
+     1300
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Hora de consultor sénior",
+    "kind": "service",
+    "category": "Estrategia",
+    "usd": [
+     87,
+     165
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "Diagnóstico organizacional",
+    "kind": "service",
+    "category": "Organización",
+    "usd": [
+     2200,
+     7600
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Protocolo familiar",
+    "kind": "service",
+    "category": "Organización",
+    "usd": [
+     3300,
+     11000
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Selección de personal directivo",
+    "kind": "service",
+    "category": "Organización",
+    "usd": [
+     4350,
+     16500
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Plan de igualdad",
+    "kind": "service",
+    "category": "Organización",
+    "usd": [
+     1500,
+     5000
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Implantación ISO 9001",
+    "kind": "service",
+    "category": "Procesos y calidad",
+    "usd": [
+     3300,
+     8700
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Rediseño de procesos Lean",
+    "kind": "service",
+    "category": "Procesos y calidad",
+    "usd": [
+     4350,
+     16500
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Cuadro de mando integral",
+    "kind": "service",
+    "category": "Procesos y calidad",
+    "usd": [
+     3300,
+     9800
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Sesión de coaching ejecutivo",
+    "kind": "service",
+    "category": "Formación",
+    "usd": [
+     130,
+     330
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "Taller de liderazgo",
+    "kind": "service",
+    "category": "Formación",
+    "usd": [
+     870,
+     2700
+    ],
+    "unit": "session",
+    "minutes": [
+     180,
+     480
+    ]
+   },
+   {
+    "name": "Taller de gestión del tiempo",
+    "kind": "service",
+    "category": "Formación",
+    "usd": [
+     600,
+     1800
+    ],
+    "unit": "session",
+    "minutes": [
+     180,
+     360
+    ]
+   },
+   {
+    "name": "Tramitación de subvenciones",
+    "kind": "service",
+    "category": "Financiación",
+    "usd": [
+     650,
+     3300
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Búsqueda de financiación",
+    "kind": "service",
+    "category": "Financiación",
+    "usd": [
+     1500,
+     6000
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Valoración de empresa",
+    "kind": "service",
+    "category": "Financiación",
+    "usd": [
+     2500,
+     9000
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   }
+  ]
+ },
+ "architecture": {
+  "categories": [
+   "Proyectos",
+   "Dirección de obra",
+   "Certificados",
+   "Interiorismo",
+   "Urbanismo"
+  ],
+  "roles": [
+   "Arquitecto",
+   "Arquitecta técnica",
+   "Aparejador",
+   "Delineante",
+   "Proyectista",
+   "Dibujante técnico",
+   "Interiorista",
+   "Jefe de estudio"
+  ],
+  "departments": [
+   "Proyectos",
+   "Obra",
+   "Administración"
+  ],
+  "items": [
+   {
+    "name": "Proyecto vivienda unifamiliar",
+    "kind": "service",
+    "category": "Proyectos",
+    "usd": [
+     8700,
+     27000
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Anteproyecto arquitectónico",
+    "kind": "service",
+    "category": "Proyectos",
+    "usd": [
+     1650,
+     5400
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Proyecto de reforma de local",
+    "kind": "service",
+    "category": "Proyectos",
+    "usd": [
+     2200,
+     6500
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Levantamiento de planos",
+    "kind": "service",
+    "category": "Proyectos",
+    "usd": [
+     3.3,
+     9
+    ],
+    "unit": "m2",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "Hora de arquitecto",
+    "kind": "service",
+    "category": "Proyectos",
+    "usd": [
+     50,
+     110
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "Dirección de obra",
+    "kind": "service",
+    "category": "Dirección de obra",
+    "usd": [
+     3300,
+     13000
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Visita de obra",
+    "kind": "service",
+    "category": "Dirección de obra",
+    "usd": [
+     120,
+     300
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "Visita e informe de patologías",
+    "kind": "service",
+    "category": "Dirección de obra",
+    "usd": [
+     165,
+     435
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "Certificado energético",
+    "kind": "service",
+    "category": "Certificados",
+    "usd": [
+     87,
+     270
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "Informe de evaluación (IEE)",
+    "kind": "service",
+    "category": "Certificados",
+    "usd": [
+     330,
+     980
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Cédula de habitabilidad",
+    "kind": "service",
+    "category": "Certificados",
+    "usd": [
+     165,
+     435
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "Certificado de antigüedad",
+    "kind": "service",
+    "category": "Certificados",
+    "usd": [
+     150,
+     400
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "Proyecto de interiorismo",
+    "kind": "service",
+    "category": "Interiorismo",
+    "usd": [
+     33,
+     87
+    ],
+    "unit": "m2",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Render 3D fotorrealista",
+    "kind": "service",
+    "category": "Interiorismo",
+    "usd": [
+     220,
+     650
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Paisajismo y jardines",
+    "kind": "service",
+    "category": "Interiorismo",
+    "usd": [
+     11,
+     38
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Proyecto de licencia actividad",
+    "kind": "service",
+    "category": "Urbanismo",
+    "usd": [
+     870,
+     2700
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Legalización de ampliación",
+    "kind": "service",
+    "category": "Urbanismo",
+    "usd": [
+     1100,
+     4350
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Viabilidad urbanística",
+    "kind": "service",
+    "category": "Urbanismo",
+    "usd": [
+     870,
+     3300
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Licencia de construcción",
+    "kind": "service",
+    "category": "Urbanismo",
+    "usd": [
+     800,
+     3000
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   }
+  ]
+ },
+ "advertising": {
+  "categories": [
+   "Redes sociales",
+   "Publicidad online",
+   "Branding",
+   "Diseño web",
+   "Producción audiovisual",
+   "Imprenta y exterior"
+  ],
+  "roles": [
+   "Director creativo",
+   "Director de arte",
+   "Diseñador gráfico",
+   "Copywriter",
+   "Community manager",
+   "Especialista SEO",
+   "Ejecutivo de cuentas",
+   "Media planner"
+  ],
+  "departments": [
+   "Creatividad",
+   "Cuentas",
+   "Digital",
+   "Producción"
+  ],
+  "items": [
+   {
+    "name": "Gestión mensual de redes",
+    "kind": "service",
+    "category": "Redes sociales",
+    "usd": [
+     330,
+     1300
+    ],
+    "unit": "month",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Jornada de community manager",
+    "kind": "service",
+    "category": "Redes sociales",
+    "usd": [
+     165,
+     330
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Pack de 12 publicaciones",
+    "kind": "service",
+    "category": "Redes sociales",
+    "usd": [
+     250,
+     700
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Campaña con influencers",
+    "kind": "service",
+    "category": "Redes sociales",
+    "usd": [
+     1100,
+     8700
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Gestión de Google Ads",
+    "kind": "service",
+    "category": "Publicidad online",
+    "usd": [
+     270,
+     1100
+    ],
+    "unit": "month",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "Posicionamiento SEO mensual",
+    "kind": "service",
+    "category": "Publicidad online",
+    "usd": [
+     330,
+     1300
+    ],
+    "unit": "month",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Campaña de email marketing",
+    "kind": "service",
+    "category": "Publicidad online",
+    "usd": [
+     330,
+     1300
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "Plan de marketing digital",
+    "kind": "service",
+    "category": "Publicidad online",
+    "usd": [
+     1100,
+     4350
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Artículo para blog",
+    "kind": "service",
+    "category": "Publicidad online",
+    "usd": [
+     65,
+     220
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "Diseño de logotipo",
+    "kind": "service",
+    "category": "Branding",
+    "usd": [
+     300,
+     1500
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Identidad corporativa completa",
+    "kind": "service",
+    "category": "Branding",
+    "usd": [
+     650,
+     3300
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Manual de identidad de marca",
+    "kind": "service",
+    "category": "Branding",
+    "usd": [
+     870,
+     3300
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Auditoría de marca",
+    "kind": "service",
+    "category": "Branding",
+    "usd": [
+     870,
+     3300
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Diseño de página web corporativa",
+    "kind": "service",
+    "category": "Diseño web",
+    "usd": [
+     1300,
+     5400
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Diseño de landing page",
+    "kind": "service",
+    "category": "Diseño web",
+    "usd": [
+     400,
+     1500
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Producción de spot publicitario",
+    "kind": "service",
+    "category": "Producción audiovisual",
+    "usd": [
+     1650,
+     8700
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Vídeo corporativo",
+    "kind": "service",
+    "category": "Producción audiovisual",
+    "usd": [
+     1200,
+     5000
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Fotografía de producto",
+    "kind": "service",
+    "category": "Producción audiovisual",
+    "usd": [
+     300,
+     1200
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Cuña de radio (producción)",
+    "kind": "service",
+    "category": "Producción audiovisual",
+    "usd": [
+     300,
+     1200
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "Diseño de folleto díptico",
+    "kind": "service",
+    "category": "Imprenta y exterior",
+    "usd": [
+     165,
+     540
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "Valla publicitaria (espacio)",
+    "kind": "product",
+    "category": "Imprenta y exterior",
+    "usd": [
+     435,
+     2200
+    ],
+    "unit": "month"
+   }
+  ]
+ },
+ "photography": {
+  "categories": [
+   "Bodas y eventos",
+   "Retratos",
+   "Estudio",
+   "Empresa",
+   "Impresión y álbumes"
+  ],
+  "roles": [
+   "Fotógrafo",
+   "Fotógrafa",
+   "Videógrafo",
+   "Asistente de fotografía",
+   "Editor de vídeo",
+   "Retocador",
+   "Maquilladora"
+  ],
+  "departments": [
+   "Estudio",
+   "Laboratorio",
+   "Edición"
+  ],
+  "items": [
+   {
+    "name": "Reportaje de boda completo",
+    "kind": "service",
+    "category": "Bodas y eventos",
+    "usd": [
+     1300,
+     3300
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Vídeo de boda editado",
+    "kind": "service",
+    "category": "Bodas y eventos",
+    "usd": [
+     870,
+     2700
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Reportaje de primera comunión",
+    "kind": "service",
+    "category": "Bodas y eventos",
+    "usd": [
+     270,
+     760
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "Sesión de fotos de XV años",
+    "kind": "service",
+    "category": "Bodas y eventos",
+    "usd": [
+     165,
+     435
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "Sesión familiar en exteriores",
+    "kind": "service",
+    "category": "Retratos",
+    "usd": [
+     130,
+     330
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "Sesión de embarazo",
+    "kind": "service",
+    "category": "Retratos",
+    "usd": [
+     110,
+     270
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "Sesión de recién nacido",
+    "kind": "service",
+    "category": "Retratos",
+    "usd": [
+     130,
+     300
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "Book fotográfico",
+    "kind": "service",
+    "category": "Estudio",
+    "usd": [
+     165,
+     490
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "Fotos de carnet (6 copias)",
+    "kind": "service",
+    "category": "Estudio",
+    "usd": [
+     9,
+     16
+    ],
+    "unit": "set",
+    "minutes": [
+     5,
+     15
+    ]
+   },
+   {
+    "name": "Foto para pasaporte o visa",
+    "kind": "service",
+    "category": "Estudio",
+    "usd": [
+     10,
+     20
+    ],
+    "unit": "set",
+    "minutes": [
+     5,
+     15
+    ]
+   },
+   {
+    "name": "Alquiler de estudio (hora)",
+    "kind": "service",
+    "category": "Estudio",
+    "usd": [
+     30,
+     80
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "Retrato corporativo",
+    "kind": "service",
+    "category": "Empresa",
+    "usd": [
+     87,
+     270
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "Fotografía de producto",
+    "kind": "service",
+    "category": "Empresa",
+    "usd": [
+     16,
+     55
+    ],
+    "unit": "piece",
+    "minutes": [
+     10,
+     30
+    ]
+   },
+   {
+    "name": "Cobertura de evento",
+    "kind": "service",
+    "category": "Empresa",
+    "usd": [
+     87,
+     200
+    ],
+    "unit": "hour",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "Fotografía aérea con dron",
+    "kind": "service",
+    "category": "Empresa",
+    "usd": [
+     220,
+     760
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "Ampliación fotográfica",
+    "kind": "product",
+    "category": "Impresión y álbumes",
+    "usd": [
+     13,
+     38
+    ],
+    "unit": "piece",
+    "variants": [
+     "20x30 cm",
+     "30x40 cm",
+     "50x70 cm"
+    ]
+   },
+   {
+    "name": "Álbum de fotos personalizado",
+    "kind": "product",
+    "category": "Impresión y álbumes",
+    "usd": [
+     165,
+     540
+    ],
+    "unit": "piece",
+    "variants": [
+     "20 páginas",
+     "30 páginas",
+     "40 páginas"
+    ]
+   },
+   {
+    "name": "Impresión en lienzo",
+    "kind": "product",
+    "category": "Impresión y álbumes",
+    "usd": [
+     35,
+     120
+    ],
+    "unit": "piece",
+    "variants": [
+     "30x40 cm",
+     "50x70 cm",
+     "60x90 cm"
+    ]
+   },
+   {
+    "name": "Copias en papel 10x15",
+    "kind": "product",
+    "category": "Impresión y álbumes",
+    "usd": [
+     0.2,
+     0.6
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Restauración de foto antigua",
+    "kind": "service",
+    "category": "Impresión y álbumes",
+    "usd": [
+     22,
+     65
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     120
+    ]
+   }
+  ]
+ },
+ "translation": {
+  "categories": [
+   "Traducción",
+   "Traducción jurada",
+   "Interpretación",
+   "Revisión",
+   "Multimedia"
+  ],
+  "roles": [
+   "Traductor",
+   "Traductora jurada",
+   "Traductor público",
+   "Perito traductor",
+   "Intérprete",
+   "Revisor",
+   "Gestor de proyectos",
+   "Maquetador"
+  ],
+  "departments": [
+   "Traducción",
+   "Interpretación",
+   "Gestión de proyectos"
+  ],
+  "items": [
+   {
+    "name": "Traducción 1.000 palabras",
+    "kind": "service",
+    "category": "Traducción",
+    "usd": [
+     65,
+     130
+    ],
+    "unit": "piece",
+    "minutes": [
+     180,
+     360
+    ]
+   },
+   {
+    "name": "Traducción técnica (1.000 pal.)",
+    "kind": "service",
+    "category": "Traducción",
+    "usd": [
+     87,
+     170
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     420
+    ]
+   },
+   {
+    "name": "Traducción de contrato (página)",
+    "kind": "service",
+    "category": "Traducción",
+    "usd": [
+     22,
+     44
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "Traducción jurada (por página)",
+    "kind": "service",
+    "category": "Traducción jurada",
+    "usd": [
+     33,
+     65
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "Traducción jurada de título",
+    "kind": "service",
+    "category": "Traducción jurada",
+    "usd": [
+     44,
+     98
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "Traducción de acta de nacimiento",
+    "kind": "service",
+    "category": "Traducción jurada",
+    "usd": [
+     33,
+     76
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "Traducción de notas académicas",
+    "kind": "service",
+    "category": "Traducción jurada",
+    "usd": [
+     40,
+     120
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "Gestión de apostilla",
+    "kind": "service",
+    "category": "Traducción jurada",
+    "usd": [
+     40,
+     120
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "Interpretación simultánea",
+    "kind": "service",
+    "category": "Interpretación",
+    "usd": [
+     490,
+     870
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Interpretación consecutiva",
+    "kind": "service",
+    "category": "Interpretación",
+    "usd": [
+     65,
+     130
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "Interpretación de enlace",
+    "kind": "service",
+    "category": "Interpretación",
+    "usd": [
+     50,
+     110
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "Interpretación telefónica",
+    "kind": "service",
+    "category": "Interpretación",
+    "usd": [
+     40,
+     90
+    ],
+    "unit": "hour",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "Alquiler de cabina y equipo",
+    "kind": "service",
+    "category": "Interpretación",
+    "usd": [
+     540,
+     1650
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Corrección (1.000 palabras)",
+    "kind": "service",
+    "category": "Revisión",
+    "usd": [
+     22,
+     55
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "Revisión de traducción ajena",
+    "kind": "service",
+    "category": "Revisión",
+    "usd": [
+     30,
+     70
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "Maquetación (por página)",
+    "kind": "service",
+    "category": "Revisión",
+    "usd": [
+     3.3,
+     11
+    ],
+    "unit": "piece",
+    "minutes": [
+     10,
+     30
+    ]
+   },
+   {
+    "name": "Subtitulado de vídeo corporativo",
+    "kind": "service",
+    "category": "Multimedia",
+    "usd": [
+     165,
+     650
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "Transcripción de audio",
+    "kind": "service",
+    "category": "Multimedia",
+    "usd": [
+     65,
+     165
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "Localización de sitio web",
+    "kind": "service",
+    "category": "Multimedia",
+    "usd": [
+     400,
+     1500
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Localización de app móvil",
+    "kind": "service",
+    "category": "Multimedia",
+    "usd": [
+     500,
+     2000
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   }
+  ]
+ },
+ "road_freight": {
+  "categories": [
+   "Carga completa",
+   "Grupaje",
+   "Distribución",
+   "Almacenaje",
+   "Servicios especiales"
+  ],
+  "roles": [
+   "Conductor",
+   "Chofer de tráiler",
+   "Jefe de tráfico",
+   "Despachador",
+   "Mozo de almacén",
+   "Carretillero",
+   "Responsable de logística",
+   "Administrativo de tráfico"
+  ],
+  "departments": [
+   "Tráfico",
+   "Almacén",
+   "Flota",
+   "Administración"
+  ],
+  "items": [
+   {
+    "name": "Carga completa nacional",
+    "kind": "service",
+    "category": "Carga completa",
+    "usd": [
+     900,
+     2500
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Carga completa internacional",
+    "kind": "service",
+    "category": "Carga completa",
+    "usd": [
+     1300,
+     3800
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Viaje en caja seca de 53 pies",
+    "kind": "service",
+    "category": "Carga completa",
+    "usd": [
+     900,
+     2500
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Transporte frigorífico",
+    "kind": "service",
+    "category": "Carga completa",
+    "usd": [
+     1000,
+     3000
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Grupaje nacional por palé",
+    "kind": "service",
+    "category": "Grupaje",
+    "usd": [
+     44,
+     130
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Grupaje internacional (palé)",
+    "kind": "service",
+    "category": "Grupaje",
+    "usd": [
+     90,
+     250
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Cross-docking por palé",
+    "kind": "service",
+    "category": "Grupaje",
+    "usd": [
+     5.5,
+     16
+    ],
+    "unit": "piece",
+    "minutes": [
+     15,
+     60
+    ]
+   },
+   {
+    "name": "Furgoneta con conductor (día)",
+    "kind": "service",
+    "category": "Distribución",
+    "usd": [
+     196,
+     380
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Alquiler de camión con conductor",
+    "kind": "service",
+    "category": "Distribución",
+    "usd": [
+     38,
+     65
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "Ruta de reparto (por parada)",
+    "kind": "service",
+    "category": "Distribución",
+    "usd": [
+     3,
+     8
+    ],
+    "unit": "piece",
+    "minutes": [
+     10,
+     20
+    ]
+   },
+   {
+    "name": "Almacenaje por palé",
+    "kind": "service",
+    "category": "Almacenaje",
+    "usd": [
+     5.5,
+     13
+    ],
+    "unit": "month",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "Preparación de pedidos (picking)",
+    "kind": "service",
+    "category": "Almacenaje",
+    "usd": [
+     0.6,
+     2.2
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     15
+    ]
+   },
+   {
+    "name": "Carga y descarga con carretilla",
+    "kind": "service",
+    "category": "Almacenaje",
+    "usd": [
+     33,
+     55
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "Paletizado y retractilado",
+    "kind": "service",
+    "category": "Almacenaje",
+    "usd": [
+     3.3,
+     9
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     15
+    ]
+   },
+   {
+    "name": "Palé europeo",
+    "kind": "product",
+    "category": "Almacenaje",
+    "usd": [
+     8,
+     15
+    ],
+    "unit": "piece",
+    "variants": [
+     "Usado",
+     "Nuevo"
+    ]
+   },
+   {
+    "name": "Film estirable (bobina)",
+    "kind": "product",
+    "category": "Almacenaje",
+    "usd": [
+     10,
+     25
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Transporte ADR",
+    "kind": "service",
+    "category": "Servicios especiales",
+    "usd": [
+     1200,
+     3500
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Traslado de maquinaria pesada",
+    "kind": "service",
+    "category": "Servicios especiales",
+    "usd": [
+     870,
+     3300
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Mudanza de oficina",
+    "kind": "service",
+    "category": "Servicios especiales",
+    "usd": [
+     650,
+     2700
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Seguro de mercancía",
+    "kind": "service",
+    "category": "Servicios especiales",
+    "usd": [
+     30,
+     120
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     15
+    ]
+   }
+  ]
+ },
+ "courier": {
+  "categories": [
+   "Mensajería urgente",
+   "Paquetería",
+   "Internacional",
+   "Servicios a empresas",
+   "Última milla"
+  ],
+  "roles": [
+   "Mensajero",
+   "Repartidor",
+   "Motorista",
+   "Conductor de furgoneta",
+   "Jefe de ruta",
+   "Operador de tráfico",
+   "Atención al cliente"
+  ],
+  "departments": [
+   "Tráfico",
+   "Reparto",
+   "Nave de clasificación",
+   "Atención al cliente"
+  ],
+  "items": [
+   {
+    "name": "Mensajería urgente en el día",
+    "kind": "service",
+    "category": "Mensajería urgente",
+    "usd": [
+     9,
+     22
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "Entrega exprés en 2 horas",
+    "kind": "service",
+    "category": "Mensajería urgente",
+    "usd": [
+     13,
+     33
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "Motorista a disposición (hora)",
+    "kind": "service",
+    "category": "Mensajería urgente",
+    "usd": [
+     20,
+     33
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "Mensajería en bicicleta",
+    "kind": "service",
+    "category": "Mensajería urgente",
+    "usd": [
+     5.5,
+     13
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "Recogida y entrega de documentos",
+    "kind": "service",
+    "category": "Mensajería urgente",
+    "usd": [
+     6.5,
+     16
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "Traslado urgente de muestras",
+    "kind": "service",
+    "category": "Mensajería urgente",
+    "usd": [
+     16,
+     44
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "Paquete 24 h (hasta 5 kg)",
+    "kind": "service",
+    "category": "Paquetería",
+    "usd": [
+     6.5,
+     15
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Paquete económico 48-72 h",
+    "kind": "service",
+    "category": "Paquetería",
+    "usd": [
+     5.5,
+     13
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Envío refrigerado",
+    "kind": "service",
+    "category": "Paquetería",
+    "usd": [
+     13,
+     33
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Envío de sobre urgente",
+    "kind": "service",
+    "category": "Paquetería",
+    "usd": [
+     5,
+     12
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "Envío contra reembolso",
+    "kind": "service",
+    "category": "Paquetería",
+    "usd": [
+     3,
+     8
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     15
+    ]
+   },
+   {
+    "name": "Caja de cartón para envío",
+    "kind": "product",
+    "category": "Paquetería",
+    "usd": [
+     1,
+     4
+    ],
+    "unit": "piece",
+    "variants": [
+     "Pequeña",
+     "Mediana",
+     "Grande"
+    ]
+   },
+   {
+    "name": "Envío internacional Europa",
+    "kind": "service",
+    "category": "Internacional",
+    "usd": [
+     27,
+     65
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Envío internacional América",
+    "kind": "service",
+    "category": "Internacional",
+    "usd": [
+     40,
+     110
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Gestión de aduanas",
+    "kind": "service",
+    "category": "Internacional",
+    "usd": [
+     30,
+     90
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "Furgoneta con conductor",
+    "kind": "service",
+    "category": "Servicios a empresas",
+    "usd": [
+     165,
+     330
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Valija interna entre sedes",
+    "kind": "service",
+    "category": "Servicios a empresas",
+    "usd": [
+     165,
+     650
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "Gestión de devoluciones",
+    "kind": "service",
+    "category": "Servicios a empresas",
+    "usd": [
+     55,
+     330
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "Entrega de última milla",
+    "kind": "service",
+    "category": "Última milla",
+    "usd": [
+     2.7,
+     6.5
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     15
+    ]
+   },
+   {
+    "name": "Entrega con franja horaria",
+    "kind": "service",
+    "category": "Última milla",
+    "usd": [
+     9,
+     17
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "Entrega en sábado",
+    "kind": "service",
+    "category": "Última milla",
+    "usd": [
+     8,
+     18
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     240
+    ]
+   }
+  ]
+ },
+ "travel_agency": {
+  "categories": [
+   "Paquetes vacacionales",
+   "Circuitos",
+   "Cruceros",
+   "Vuelos y traslados",
+   "Excursiones",
+   "Seguros y extras"
+  ],
+  "roles": [
+   "Agente de viajes",
+   "Asesora de viajes",
+   "Agente de reservas",
+   "Guía turístico",
+   "Responsable de grupos",
+   "Jefe de agencia",
+   "Coordinador de eventos"
+  ],
+  "departments": [
+   "Mostrador",
+   "Grupos",
+   "Empresas",
+   "Administración"
+  ],
+  "items": [
+   {
+    "name": "Riviera Maya (7 noches)",
+    "kind": "product",
+    "category": "Paquetes vacacionales",
+    "usd": [
+     1300,
+     2700
+    ],
+    "unit": "person",
+    "variants": [
+     "Temporada baja",
+     "Temporada media",
+     "Temporada alta"
+    ]
+   },
+   {
+    "name": "Escapada de fin de semana",
+    "kind": "product",
+    "category": "Paquetes vacacionales",
+    "usd": [
+     165,
+     435
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "Luna de miel en Tailandia",
+    "kind": "product",
+    "category": "Paquetes vacacionales",
+    "usd": [
+     1950,
+     3800
+    ],
+    "unit": "person",
+    "variants": [
+     "Temporada baja",
+     "Temporada alta"
+    ]
+   },
+   {
+    "name": "3 noches en hotel 4 estrellas",
+    "kind": "product",
+    "category": "Paquetes vacacionales",
+    "usd": [
+     220,
+     490
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "Viaje de fin de curso",
+    "kind": "product",
+    "category": "Paquetes vacacionales",
+    "usd": [
+     330,
+     760
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "Viaje de incentivos (empresa)",
+    "kind": "service",
+    "category": "Paquetes vacacionales",
+    "usd": [
+     5400,
+     33000
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Circuito Andalucía (5 días)",
+    "kind": "product",
+    "category": "Circuitos",
+    "usd": [
+     490,
+     980
+    ],
+    "unit": "person",
+    "variants": [
+     "Temporada baja",
+     "Temporada media",
+     "Temporada alta"
+    ]
+   },
+   {
+    "name": "Machu Picchu (4 días)",
+    "kind": "product",
+    "category": "Circuitos",
+    "usd": [
+     650,
+     1300
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "Circuito Europa (12 días)",
+    "kind": "product",
+    "category": "Circuitos",
+    "usd": [
+     1500,
+     3000
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "Crucero por el Mediterráneo",
+    "kind": "product",
+    "category": "Cruceros",
+    "usd": [
+     760,
+     1950
+    ],
+    "unit": "person",
+    "variants": [
+     "Interior",
+     "Exterior",
+     "Balcón",
+     "Suite"
+    ]
+   },
+   {
+    "name": "Crucero por el Caribe",
+    "kind": "product",
+    "category": "Cruceros",
+    "usd": [
+     900,
+     2200
+    ],
+    "unit": "person",
+    "variants": [
+     "Interior",
+     "Exterior",
+     "Balcón"
+    ]
+   },
+   {
+    "name": "Vuelo Madrid-Buenos Aires i/v",
+    "kind": "product",
+    "category": "Vuelos y traslados",
+    "usd": [
+     760,
+     1500
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "Vuelo nacional ida y vuelta",
+    "kind": "product",
+    "category": "Vuelos y traslados",
+    "usd": [
+     80,
+     300
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "Traslado aeropuerto-hotel",
+    "kind": "service",
+    "category": "Vuelos y traslados",
+    "usd": [
+     16,
+     44
+    ],
+    "unit": "person",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "Alquiler de coche (7 días)",
+    "kind": "product",
+    "category": "Vuelos y traslados",
+    "usd": [
+     220,
+     540
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Excursión de día completo",
+    "kind": "service",
+    "category": "Excursiones",
+    "usd": [
+     44,
+     130
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Visita guiada por el centro",
+    "kind": "service",
+    "category": "Excursiones",
+    "usd": [
+     13,
+     33
+    ],
+    "unit": "person",
+    "minutes": [
+     90,
+     180
+    ]
+   },
+   {
+    "name": "Paseo en barco",
+    "kind": "service",
+    "category": "Excursiones",
+    "usd": [
+     25,
+     70
+    ],
+    "unit": "person",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "Entrada a parque temático",
+    "kind": "product",
+    "category": "Excursiones",
+    "usd": [
+     45,
+     110
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "Seguro de viaje y cancelación",
+    "kind": "product",
+    "category": "Seguros y extras",
+    "usd": [
+     27,
+     87
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "Gestión de visado",
+    "kind": "service",
+    "category": "Seguros y extras",
+    "usd": [
+     40,
+     120
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     120
+    ]
+   }
+  ]
+ },
+ "real_estate": {
+  "categories": [
+   "Compraventa",
+   "Alquiler",
+   "Administración",
+   "Tasaciones",
+   "Servicios adicionales"
+  ],
+  "roles": [
+   "Agente inmobiliario",
+   "Asesor inmobiliario",
+   "Corredor de propiedades",
+   "Captador",
+   "Administrador de fincas",
+   "Tasador",
+   "Gerente de oficina",
+   "Asistente comercial"
+  ],
+  "departments": [
+   "Ventas",
+   "Alquileres",
+   "Administración de fincas",
+   "Oficina"
+  ],
+  "items": [
+   {
+    "name": "Comisión por venta de vivienda",
+    "kind": "service",
+    "category": "Compraventa",
+    "usd": [
+     3300,
+     13000
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Búsqueda de vivienda a medida",
+    "kind": "service",
+    "category": "Compraventa",
+    "usd": [
+     870,
+     3300
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Visita acompañada al inmueble",
+    "kind": "service",
+    "category": "Compraventa",
+    "usd": [
+     30,
+     80
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "Redacción de contrato de arras",
+    "kind": "service",
+    "category": "Compraventa",
+    "usd": [
+     165,
+     435
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "Asesoramiento hipotecario",
+    "kind": "service",
+    "category": "Compraventa",
+    "usd": [
+     540,
+     2200
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "Gestión de escrituras",
+    "kind": "service",
+    "category": "Compraventa",
+    "usd": [
+     200,
+     600
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "Gestión integral de alquiler",
+    "kind": "service",
+    "category": "Alquiler",
+    "usd": [
+     650,
+     1650
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Búsqueda de inquilino",
+    "kind": "service",
+    "category": "Alquiler",
+    "usd": [
+     400,
+     1200
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Estudio de solvencia",
+    "kind": "service",
+    "category": "Alquiler",
+    "usd": [
+     50,
+     150
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "Gestión de alquiler vacacional",
+    "kind": "service",
+    "category": "Alquiler",
+    "usd": [
+     165,
+     650
+    ],
+    "unit": "month",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "Administración de alquileres",
+    "kind": "service",
+    "category": "Administración",
+    "usd": [
+     44,
+     130
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "Administración de comunidad",
+    "kind": "service",
+    "category": "Administración",
+    "usd": [
+     5.5,
+     16
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "Tasación de inmueble",
+    "kind": "service",
+    "category": "Tasaciones",
+    "usd": [
+     270,
+     540
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "Avalúo comercial",
+    "kind": "service",
+    "category": "Tasaciones",
+    "usd": [
+     330,
+     760
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "Valoración de mercado",
+    "kind": "service",
+    "category": "Tasaciones",
+    "usd": [
+     110,
+     330
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "Certificado energético",
+    "kind": "service",
+    "category": "Servicios adicionales",
+    "usd": [
+     87,
+     220
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "Home staging",
+    "kind": "service",
+    "category": "Servicios adicionales",
+    "usd": [
+     540,
+     2700
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Fotos y visita virtual 360°",
+    "kind": "service",
+    "category": "Servicios adicionales",
+    "usd": [
+     130,
+     435
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "Solicitud de nota simple",
+    "kind": "service",
+    "category": "Servicios adicionales",
+    "usd": [
+     15,
+     35
+    ],
+    "unit": "piece",
+    "minutes": [
+     15,
+     30
+    ]
+   }
+  ]
+ },
+ "cleaning": {
+  "categories": [
+   "Oficinas y locales",
+   "Hogar",
+   "Comunidades",
+   "Limpiezas especiales",
+   "Cristales",
+   "Productos"
+  ],
+  "roles": [
+   "Limpiadora",
+   "Operario de limpieza",
+   "Auxiliar de aseo",
+   "Cristalero",
+   "Encargada",
+   "Supervisor de limpieza",
+   "Especialista en limpieza industrial"
+  ],
+  "departments": [
+   "Operaciones",
+   "Supervisión",
+   "Administración"
+  ],
+  "items": [
+   {
+    "name": "Limpieza de oficinas (mensual)",
+    "kind": "service",
+    "category": "Oficinas y locales",
+    "usd": [
+     330,
+     1650
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "Operaria de aseo por jornada",
+    "kind": "service",
+    "category": "Oficinas y locales",
+    "usd": [
+     87,
+     165
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Reposición de consumibles",
+    "kind": "service",
+    "category": "Oficinas y locales",
+    "usd": [
+     33,
+     130
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "Hora de limpieza",
+    "kind": "service",
+    "category": "Hogar",
+    "usd": [
+     14,
+     22
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "Limpieza a fondo de vivienda",
+    "kind": "service",
+    "category": "Hogar",
+    "usd": [
+     130,
+     330
+    ],
+    "unit": "piece",
+    "minutes": [
+     180,
+     480
+    ]
+   },
+   {
+    "name": "Limpieza de mudanza",
+    "kind": "service",
+    "category": "Hogar",
+    "usd": [
+     150,
+     400
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Limpieza de sofá a domicilio",
+    "kind": "service",
+    "category": "Hogar",
+    "usd": [
+     55,
+     110
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "Limpieza de colchón",
+    "kind": "service",
+    "category": "Hogar",
+    "usd": [
+     40,
+     90
+    ],
+    "unit": "piece",
+    "minutes": [
+     45,
+     90
+    ]
+   },
+   {
+    "name": "Limpieza de comunidad de vecinos",
+    "kind": "service",
+    "category": "Comunidades",
+    "usd": [
+     165,
+     540
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "Limpieza de garaje",
+    "kind": "service",
+    "category": "Comunidades",
+    "usd": [
+     0.55,
+     1.6
+    ],
+    "unit": "m2",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "Limpieza de final de obra",
+    "kind": "service",
+    "category": "Limpiezas especiales",
+    "usd": [
+     3.3,
+     7.6
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Desinfección de locales",
+    "kind": "service",
+    "category": "Limpiezas especiales",
+    "usd": [
+     1.1,
+     3.3
+    ],
+    "unit": "m2",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "Limpieza de campana industrial",
+    "kind": "service",
+    "category": "Limpiezas especiales",
+    "usd": [
+     165,
+     490
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     300
+    ]
+   },
+   {
+    "name": "Abrillantado de suelos",
+    "kind": "service",
+    "category": "Limpiezas especiales",
+    "usd": [
+     3.3,
+     9
+    ],
+    "unit": "m2",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "Limpieza de moqueta",
+    "kind": "service",
+    "category": "Limpiezas especiales",
+    "usd": [
+     3.3,
+     7.6
+    ],
+    "unit": "m2",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "Limpieza de cristales",
+    "kind": "service",
+    "category": "Cristales",
+    "usd": [
+     1.6,
+     4.4
+    ],
+    "unit": "m2",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "Limpieza de vidrios en altura",
+    "kind": "service",
+    "category": "Cristales",
+    "usd": [
+     27,
+     55
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "Limpieza de escaparates",
+    "kind": "service",
+    "category": "Cristales",
+    "usd": [
+     15,
+     40
+    ],
+    "unit": "piece",
+    "minutes": [
+     15,
+     45
+    ]
+   },
+   {
+    "name": "Papel higiénico industrial",
+    "kind": "product",
+    "category": "Productos",
+    "usd": [
+     15,
+     35
+    ],
+    "unit": "pack",
+    "variants": [
+     "6 rollos",
+     "12 rollos",
+     "18 rollos"
+    ]
+   },
+   {
+    "name": "Gel hidroalcohólico",
+    "kind": "product",
+    "category": "Productos",
+    "usd": [
+     5,
+     25
+    ],
+    "unit": "piece",
+    "variants": [
+     "500 ml",
+     "1 l",
+     "5 l"
+    ]
+   },
+   {
+    "name": "Lejía",
+    "kind": "product",
+    "category": "Productos",
+    "usd": [
+     2,
+     8
+    ],
+    "unit": "piece",
+    "variants": [
+     "1 l",
+     "2 l",
+     "5 l"
+    ]
+   }
+  ]
+ },
+ "security": {
+  "categories": [
+   "Vigilancia",
+   "Alarmas",
+   "Videovigilancia",
+   "Eventos",
+   "Consultoría"
+  ],
+  "roles": [
+   "Vigilante de seguridad",
+   "Guardia de seguridad",
+   "Jefe de seguridad",
+   "Escolta",
+   "Operador de CRA",
+   "Técnico de sistemas de seguridad",
+   "Auxiliar de servicios",
+   "Supervisor"
+  ],
+  "departments": [
+   "Operaciones",
+   "Centro de control",
+   "Instalaciones",
+   "Administración"
+  ],
+  "items": [
+   {
+    "name": "Vigilante de seguridad (día)",
+    "kind": "service",
+    "category": "Vigilancia",
+    "usd": [
+     18,
+     27
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "Vigilante de seguridad (noche)",
+    "kind": "service",
+    "category": "Vigilancia",
+    "usd": [
+     20,
+     30
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "Servicio de vigilancia 24 horas",
+    "kind": "service",
+    "category": "Vigilancia",
+    "usd": [
+     10900,
+     17500
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Auxiliar de control de accesos",
+    "kind": "service",
+    "category": "Vigilancia",
+    "usd": [
+     14,
+     20
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "Guardia de seguridad con perro",
+    "kind": "service",
+    "category": "Vigilancia",
+    "usd": [
+     24,
+     38
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "Ronda de vigilancia en vehículo",
+    "kind": "service",
+    "category": "Vigilancia",
+    "usd": [
+     22,
+     55
+    ],
+    "unit": "piece",
+    "minutes": [
+     15,
+     45
+    ]
+   },
+   {
+    "name": "Escolta privado",
+    "kind": "service",
+    "category": "Vigilancia",
+    "usd": [
+     33,
+     65
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "Instalación de sistema de alarma",
+    "kind": "service",
+    "category": "Alarmas",
+    "usd": [
+     435,
+     1300
+    ],
+    "unit": "piece",
+    "minutes": [
+     180,
+     480
+    ]
+   },
+   {
+    "name": "Conexión a central de alarmas",
+    "kind": "service",
+    "category": "Alarmas",
+    "usd": [
+     27,
+     55
+    ],
+    "unit": "month",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "Monitoreo de alarmas 24/7",
+    "kind": "service",
+    "category": "Alarmas",
+    "usd": [
+     22,
+     49
+    ],
+    "unit": "month",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "Servicio de acuda",
+    "kind": "service",
+    "category": "Alarmas",
+    "usd": [
+     55,
+     110
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "Kit de alarma inalámbrica",
+    "kind": "product",
+    "category": "Alarmas",
+    "usd": [
+     250,
+     600
+    ],
+    "unit": "set",
+    "variants": [
+     "Básico",
+     "Plus",
+     "Premium"
+    ]
+   },
+   {
+    "name": "Instalación de 4 cámaras",
+    "kind": "service",
+    "category": "Videovigilancia",
+    "usd": [
+     650,
+     1650
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Cámara IP de exterior",
+    "kind": "product",
+    "category": "Videovigilancia",
+    "usd": [
+     60,
+     180
+    ],
+    "unit": "piece",
+    "variants": [
+     "2 MP",
+     "4 MP",
+     "8 MP"
+    ]
+   },
+   {
+    "name": "Grabador NVR",
+    "kind": "product",
+    "category": "Videovigilancia",
+    "usd": [
+     120,
+     350
+    ],
+    "unit": "piece",
+    "variants": [
+     "4 canales",
+     "8 canales",
+     "16 canales"
+    ]
+   },
+   {
+    "name": "Mantenimiento de CCTV",
+    "kind": "service",
+    "category": "Videovigilancia",
+    "usd": [
+     33,
+     110
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "Vigilante para eventos",
+    "kind": "service",
+    "category": "Eventos",
+    "usd": [
+     20,
+     33
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "Control de acceso en eventos",
+    "kind": "service",
+    "category": "Eventos",
+    "usd": [
+     18,
+     30
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "Plan de seguridad",
+    "kind": "service",
+    "category": "Consultoría",
+    "usd": [
+     870,
+     3300
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Auditoría de seguridad",
+    "kind": "service",
+    "category": "Consultoría",
+    "usd": [
+     600,
+     2500
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   }
+  ]
+ },
+ "language_school": {
+  "categories": [
+   "Cursos de inglés",
+   "Otros idiomas",
+   "Clases particulares",
+   "Empresas",
+   "Material"
+  ],
+  "roles": [
+   "Profesor de inglés",
+   "Profesora nativa",
+   "Profesor de apoyo",
+   "Tutor",
+   "Coordinador académico",
+   "Director de estudios",
+   "Recepcionista"
+  ],
+  "departments": [
+   "Docencia",
+   "Secretaría",
+   "Dirección académica"
+  ],
+  "items": [
+   {
+    "name": "Curso trimestral de inglés",
+    "kind": "service",
+    "category": "Cursos de inglés",
+    "usd": [
+     196,
+     380
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "Curso intensivo de verano",
+    "kind": "service",
+    "category": "Cursos de inglés",
+    "usd": [
+     270,
+     650
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "Preparación examen B2",
+    "kind": "service",
+    "category": "Cursos de inglés",
+    "usd": [
+     330,
+     650
+    ],
+    "unit": "piece",
+    "minutes": [
+     90,
+     120
+    ]
+   },
+   {
+    "name": "Curso de inglés para niños",
+    "kind": "service",
+    "category": "Cursos de inglés",
+    "usd": [
+     55,
+     98
+    ],
+    "unit": "month",
+    "minutes": [
+     45,
+     60
+    ]
+   },
+   {
+    "name": "Campamento de inglés",
+    "kind": "service",
+    "category": "Cursos de inglés",
+    "usd": [
+     435,
+     980
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Prueba de nivel",
+    "kind": "service",
+    "category": "Cursos de inglés",
+    "usd": [
+     10,
+     30
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     45
+    ]
+   },
+   {
+    "name": "Matrícula",
+    "kind": "product",
+    "category": "Cursos de inglés",
+    "usd": [
+     30,
+     80
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Curso de alemán (mensualidad)",
+    "kind": "service",
+    "category": "Otros idiomas",
+    "usd": [
+     76,
+     150
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "Curso de francés (trimestre)",
+    "kind": "service",
+    "category": "Otros idiomas",
+    "usd": [
+     180,
+     350
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "Español para extranjeros",
+    "kind": "service",
+    "category": "Otros idiomas",
+    "usd": [
+     220,
+     490
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "Curso de portugués",
+    "kind": "service",
+    "category": "Otros idiomas",
+    "usd": [
+     70,
+     140
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "Clase particular de inglés",
+    "kind": "service",
+    "category": "Clases particulares",
+    "usd": [
+     20,
+     38
+    ],
+    "unit": "session",
+    "minutes": [
+     45,
+     60
+    ]
+   },
+   {
+    "name": "Clase online de francés",
+    "kind": "service",
+    "category": "Clases particulares",
+    "usd": [
+     16,
+     33
+    ],
+    "unit": "session",
+    "minutes": [
+     45,
+     60
+    ]
+   },
+   {
+    "name": "Clase de conversación en grupo",
+    "kind": "service",
+    "category": "Clases particulares",
+    "usd": [
+     11,
+     22
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "Refuerzo escolar de matemáticas",
+    "kind": "service",
+    "category": "Clases particulares",
+    "usd": [
+     13,
+     27
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "Preparación de selectividad",
+    "kind": "service",
+    "category": "Clases particulares",
+    "usd": [
+     87,
+     175
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "Taller de técnicas de estudio",
+    "kind": "service",
+    "category": "Clases particulares",
+    "usd": [
+     55,
+     130
+    ],
+    "unit": "piece",
+    "minutes": [
+     90,
+     180
+    ]
+   },
+   {
+    "name": "Inglés in company",
+    "kind": "service",
+    "category": "Empresas",
+    "usd": [
+     33,
+     60
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "Inglés de negocios (grupo)",
+    "kind": "service",
+    "category": "Empresas",
+    "usd": [
+     150,
+     400
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "Libro de texto y cuaderno",
+    "kind": "product",
+    "category": "Material",
+    "usd": [
+     27,
+     50
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "Diccionario bilingüe",
+    "kind": "product",
+    "category": "Material",
+    "usd": [
+     15,
+     40
+    ],
+    "unit": "piece"
+   }
+  ]
+ },
+ "driving_school": {
+  "categories": [
+   "Permiso B",
+   "Moto",
+   "Profesionales",
+   "Clases prácticas",
+   "Cursos y tasas"
+  ],
+  "roles": [
+   "Profesor de autoescuela",
+   "Instructor de manejo",
+   "Profesor de teoría",
+   "Instructor de moto",
+   "Director de autoescuela",
+   "Administrativa"
+  ],
+  "departments": [
+   "Teoría",
+   "Prácticas",
+   "Secretaría"
+  ],
+  "items": [
+   {
+    "name": "Clase práctica de conducción",
+    "kind": "service",
+    "category": "Clases prácticas",
+    "usd": [
+     30,
+     50
+    ],
+    "unit": "session",
+    "minutes": [
+     45,
+     60
+    ]
+   },
+   {
+    "name": "Pack de 10 clases prácticas",
+    "kind": "service",
+    "category": "Clases prácticas",
+    "usd": [
+     300,
+     460
+    ],
+    "unit": "set",
+    "minutes": [
+     450,
+     480
+    ]
+   },
+   {
+    "name": "Clase de conducción en autopista",
+    "kind": "service",
+    "category": "Clases prácticas",
+    "usd": [
+     38,
+     60
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "Clase con coche automático",
+    "kind": "service",
+    "category": "Clases prácticas",
+    "usd": [
+     33,
+     55
+    ],
+    "unit": "session",
+    "minutes": [
+     45,
+     60
+    ]
+   },
+   {
+    "name": "Clases de manejo a domicilio",
+    "kind": "service",
+    "category": "Clases prácticas",
+    "usd": [
+     33,
+     60
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "Curso teórico del permiso B",
+    "kind": "service",
+    "category": "Permiso B",
+    "usd": [
+     165,
+     380
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "Curso intensivo del permiso B",
+    "kind": "service",
+    "category": "Permiso B",
+    "usd": [
+     540,
+     980
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "Curso de manejo principiantes",
+    "kind": "service",
+    "category": "Permiso B",
+    "usd": [
+     220,
+     435
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "Matrícula",
+    "kind": "product",
+    "category": "Permiso B",
+    "usd": [
+     60,
+     150
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Curso del permiso de moto A2",
+    "kind": "service",
+    "category": "Moto",
+    "usd": [
+     435,
+     760
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "Clase práctica de moto",
+    "kind": "service",
+    "category": "Moto",
+    "usd": [
+     33,
+     55
+    ],
+    "unit": "session",
+    "minutes": [
+     45,
+     60
+    ]
+   },
+   {
+    "name": "Permiso AM (ciclomotor)",
+    "kind": "service",
+    "category": "Moto",
+    "usd": [
+     150,
+     300
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "Curso del permiso C de camión",
+    "kind": "service",
+    "category": "Profesionales",
+    "usd": [
+     1300,
+     2200
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "Curso CAP inicial",
+    "kind": "service",
+    "category": "Profesionales",
+    "usd": [
+     435,
+     980
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Curso para licencia profesional",
+    "kind": "service",
+    "category": "Profesionales",
+    "usd": [
+     300,
+     700
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "Curso de recuperación de puntos",
+    "kind": "service",
+    "category": "Cursos y tasas",
+    "usd": [
+     165,
+     270
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Curso de conducción defensiva",
+    "kind": "service",
+    "category": "Cursos y tasas",
+    "usd": [
+     110,
+     330
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "Tasas de examen (DGT)",
+    "kind": "product",
+    "category": "Cursos y tasas",
+    "usd": [
+     90,
+     110
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Presentación a examen",
+    "kind": "service",
+    "category": "Cursos y tasas",
+    "usd": [
+     50,
+     120
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "Acceso a test online (mes)",
+    "kind": "product",
+    "category": "Cursos y tasas",
+    "usd": [
+     16,
+     33
+    ],
+    "unit": "month"
+   },
+   {
+    "name": "Manual del conductor",
+    "kind": "product",
+    "category": "Cursos y tasas",
+    "usd": [
+     15,
+     35
+    ],
+    "unit": "piece"
+   }
+  ]
+ },
+ "fitness": {
+  "categories": [
+   "Cuotas",
+   "Entrenamiento personal",
+   "Clases dirigidas",
+   "Bienestar",
+   "Tienda"
+  ],
+  "roles": [
+   "Entrenador personal",
+   "Monitor de sala",
+   "Instructor de spinning",
+   "Profesora de yoga",
+   "Nutricionista",
+   "Fisioterapeuta",
+   "Recepcionista",
+   "Gerente del gimnasio"
+  ],
+  "departments": [
+   "Sala de musculación",
+   "Actividades dirigidas",
+   "Recepción",
+   "Administración"
+  ],
+  "items": [
+   {
+    "name": "Cuota mensual",
+    "kind": "product",
+    "category": "Cuotas",
+    "usd": [
+     33,
+     65
+    ],
+    "unit": "month",
+    "variants": [
+     "Solo mañanas",
+     "Completa",
+     "Premium"
+    ]
+   },
+   {
+    "name": "Abono trimestral",
+    "kind": "product",
+    "category": "Cuotas",
+    "usd": [
+     87,
+     175
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Membresía anual",
+    "kind": "product",
+    "category": "Cuotas",
+    "usd": [
+     330,
+     650
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Pase de un día",
+    "kind": "product",
+    "category": "Cuotas",
+    "usd": [
+     9,
+     16
+    ],
+    "unit": "day"
+   },
+   {
+    "name": "Matrícula de alta",
+    "kind": "product",
+    "category": "Cuotas",
+    "usd": [
+     20,
+     60
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Alquiler de taquilla",
+    "kind": "product",
+    "category": "Cuotas",
+    "usd": [
+     5.5,
+     13
+    ],
+    "unit": "month"
+   },
+   {
+    "name": "Sesión de entrenamiento personal",
+    "kind": "service",
+    "category": "Entrenamiento personal",
+    "usd": [
+     33,
+     65
+    ],
+    "unit": "session",
+    "minutes": [
+     45,
+     60
+    ]
+   },
+   {
+    "name": "Bono 10 sesiones de personal",
+    "kind": "service",
+    "category": "Entrenamiento personal",
+    "usd": [
+     270,
+     540
+    ],
+    "unit": "set",
+    "minutes": [
+     450,
+     480
+    ]
+   },
+   {
+    "name": "Entrenamiento en pareja",
+    "kind": "service",
+    "category": "Entrenamiento personal",
+    "usd": [
+     45,
+     80
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "Valoración física",
+    "kind": "service",
+    "category": "Entrenamiento personal",
+    "usd": [
+     22,
+     55
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "Pilates reformer",
+    "kind": "service",
+    "category": "Clases dirigidas",
+    "usd": [
+     16,
+     33
+    ],
+    "unit": "session",
+    "minutes": [
+     50,
+     55
+    ]
+   },
+   {
+    "name": "Clase de yoga",
+    "kind": "service",
+    "category": "Clases dirigidas",
+    "usd": [
+     11,
+     20
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     75
+    ]
+   },
+   {
+    "name": "Clase de zumba",
+    "kind": "service",
+    "category": "Clases dirigidas",
+    "usd": [
+     8,
+     15
+    ],
+    "unit": "session",
+    "minutes": [
+     45,
+     60
+    ]
+   },
+   {
+    "name": "Mensualidad de spinning",
+    "kind": "service",
+    "category": "Clases dirigidas",
+    "usd": [
+     27,
+     50
+    ],
+    "unit": "month",
+    "minutes": [
+     45,
+     60
+    ]
+   },
+   {
+    "name": "Mensualidad de crossfit",
+    "kind": "service",
+    "category": "Clases dirigidas",
+    "usd": [
+     65,
+     120
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "Plan de nutrición personalizado",
+    "kind": "service",
+    "category": "Bienestar",
+    "usd": [
+     55,
+     130
+    ],
+    "unit": "piece",
+    "minutes": [
+     45,
+     60
+    ]
+   },
+   {
+    "name": "Masaje deportivo",
+    "kind": "service",
+    "category": "Bienestar",
+    "usd": [
+     38,
+     65
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "Sesión de fisioterapia",
+    "kind": "service",
+    "category": "Bienestar",
+    "usd": [
+     35,
+     60
+    ],
+    "unit": "session",
+    "minutes": [
+     45,
+     60
+    ]
+   },
+   {
+    "name": "Batido de proteínas",
+    "kind": "product",
+    "category": "Tienda",
+    "usd": [
+     3.3,
+     5.5
+    ],
+    "unit": "piece",
+    "variants": [
+     "Pequeño",
+     "Grande"
+    ]
+   },
+   {
+    "name": "Proteína whey",
+    "kind": "product",
+    "category": "Tienda",
+    "usd": [
+     30,
+     60
+    ],
+    "unit": "piece",
+    "variants": [
+     "1 kg",
+     "2 kg"
+    ]
+   },
+   {
+    "name": "Toalla de microfibra",
+    "kind": "product",
+    "category": "Tienda",
+    "usd": [
+     10,
+     20
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Guantes de entrenamiento",
+    "kind": "product",
+    "category": "Tienda",
+    "usd": [
+     12,
+     28
+    ],
+    "unit": "piece",
+    "variants": [
+     "S",
+     "M",
+     "L"
+    ]
+   }
+  ]
+ },
+ "hair_beauty": {
+  "categories": [
+   "Peluquería",
+   "Color",
+   "Barbería",
+   "Estética",
+   "Manos y pies",
+   "Productos"
+  ],
+  "roles": [
+   "Estilista",
+   "Peluquera",
+   "Colorista",
+   "Barbero",
+   "Esteticista",
+   "Manicurista",
+   "Recepcionista",
+   "Aprendiz de peluquería"
+  ],
+  "departments": [
+   "Peluquería",
+   "Cabina de estética",
+   "Recepción"
+  ],
+  "items": [
+   {
+    "name": "Corte y peinado de señora",
+    "kind": "service",
+    "category": "Peluquería",
+    "usd": [
+     22,
+     45
+    ],
+    "unit": "session",
+    "minutes": [
+     45,
+     60
+    ]
+   },
+   {
+    "name": "Corte infantil",
+    "kind": "service",
+    "category": "Peluquería",
+    "usd": [
+     9,
+     16
+    ],
+    "unit": "session",
+    "minutes": [
+     20,
+     30
+    ]
+   },
+   {
+    "name": "Lavar y marcar",
+    "kind": "service",
+    "category": "Peluquería",
+    "usd": [
+     15,
+     28
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     45
+    ]
+   },
+   {
+    "name": "Brushing",
+    "kind": "service",
+    "category": "Peluquería",
+    "usd": [
+     18,
+     30
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     45
+    ]
+   },
+   {
+    "name": "Recogido de fiesta",
+    "kind": "service",
+    "category": "Peluquería",
+    "usd": [
+     35,
+     70
+    ],
+    "unit": "session",
+    "minutes": [
+     45,
+     90
+    ]
+   },
+   {
+    "name": "Alisado de keratina",
+    "kind": "service",
+    "category": "Peluquería",
+    "usd": [
+     87,
+     220
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     180
+    ]
+   },
+   {
+    "name": "Tratamiento capilar reparador",
+    "kind": "service",
+    "category": "Peluquería",
+    "usd": [
+     22,
+     49
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     45
+    ]
+   },
+   {
+    "name": "Tinte de raíz",
+    "kind": "service",
+    "category": "Color",
+    "usd": [
+     27,
+     50
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "Mechas balayage",
+    "kind": "service",
+    "category": "Color",
+    "usd": [
+     65,
+     165
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     180
+    ]
+   },
+   {
+    "name": "Corte de caballero",
+    "kind": "service",
+    "category": "Barbería",
+    "usd": [
+     11,
+     20
+    ],
+    "unit": "session",
+    "minutes": [
+     20,
+     30
+    ]
+   },
+   {
+    "name": "Arreglo de barba",
+    "kind": "service",
+    "category": "Barbería",
+    "usd": [
+     9,
+     16
+    ],
+    "unit": "session",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "Afeitado con navaja",
+    "kind": "service",
+    "category": "Barbería",
+    "usd": [
+     12,
+     22
+    ],
+    "unit": "session",
+    "minutes": [
+     20,
+     30
+    ]
+   },
+   {
+    "name": "Peinado y maquillaje de novia",
+    "kind": "service",
+    "category": "Estética",
+    "usd": [
+     165,
+     380
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     180
+    ]
+   },
+   {
+    "name": "Limpieza facial profunda",
+    "kind": "service",
+    "category": "Estética",
+    "usd": [
+     38,
+     65
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     75
+    ]
+   },
+   {
+    "name": "Depilación de piernas (cera)",
+    "kind": "service",
+    "category": "Estética",
+    "usd": [
+     22,
+     38
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     45
+    ]
+   },
+   {
+    "name": "Depilación de cejas con hilo",
+    "kind": "service",
+    "category": "Estética",
+    "usd": [
+     8,
+     15
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     15
+    ]
+   },
+   {
+    "name": "Diseño de cejas con henna",
+    "kind": "service",
+    "category": "Estética",
+    "usd": [
+     16,
+     33
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     45
+    ]
+   },
+   {
+    "name": "Lifting de pestañas",
+    "kind": "service",
+    "category": "Estética",
+    "usd": [
+     35,
+     60
+    ],
+    "unit": "session",
+    "minutes": [
+     45,
+     60
+    ]
+   },
+   {
+    "name": "Manicura semipermanente",
+    "kind": "service",
+    "category": "Manos y pies",
+    "usd": [
+     16,
+     28
+    ],
+    "unit": "session",
+    "minutes": [
+     45,
+     60
+    ]
+   },
+   {
+    "name": "Uñas acrílicas",
+    "kind": "service",
+    "category": "Manos y pies",
+    "usd": [
+     27,
+     55
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "Pedicura completa",
+    "kind": "service",
+    "category": "Manos y pies",
+    "usd": [
+     27,
+     45
+    ],
+    "unit": "session",
+    "minutes": [
+     45,
+     60
+    ]
+   },
+   {
+    "name": "Champú profesional",
+    "kind": "product",
+    "category": "Productos",
+    "usd": [
+     13,
+     28
+    ],
+    "unit": "piece",
+    "variants": [
+     "250 ml",
+     "500 ml",
+     "1000 ml"
+    ]
+   },
+   {
+    "name": "Mascarilla capilar",
+    "kind": "product",
+    "category": "Productos",
+    "usd": [
+     15,
+     35
+    ],
+    "unit": "piece",
+    "variants": [
+     "200 ml",
+     "500 ml"
+    ]
+   },
+   {
+    "name": "Aceite capilar de argán",
+    "kind": "product",
+    "category": "Productos",
+    "usd": [
+     15,
+     40
+    ],
+    "unit": "piece",
+    "variants": [
+     "50 ml",
+     "100 ml"
+    ]
+   }
+  ]
+ },
+ "dental": {
+  "categories": [
+   "Odontología general",
+   "Endodoncia",
+   "Implantes y prótesis",
+   "Ortodoncia",
+   "Estética dental",
+   "Cirugía"
+  ],
+  "roles": [
+   "Odontólogo",
+   "Dentista",
+   "Ortodoncista",
+   "Endodoncista",
+   "Higienista dental",
+   "Asistente dental",
+   "Auxiliar de clínica",
+   "Recepcionista"
+  ],
+  "departments": [
+   "Clínica",
+   "Recepción",
+   "Laboratorio",
+   "Administración"
+  ],
+  "items": [
+   {
+    "name": "Primera visita y diagnóstico",
+    "kind": "service",
+    "category": "Odontología general",
+    "usd": [
+     33,
+     65
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     45
+    ]
+   },
+   {
+    "name": "Consulta de urgencia",
+    "kind": "service",
+    "category": "Odontología general",
+    "usd": [
+     40,
+     90
+    ],
+    "unit": "session",
+    "minutes": [
+     20,
+     45
+    ]
+   },
+   {
+    "name": "Limpieza dental (profilaxis)",
+    "kind": "service",
+    "category": "Odontología general",
+    "usd": [
+     44,
+     87
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "Empaste de composite",
+    "kind": "service",
+    "category": "Odontología general",
+    "usd": [
+     55,
+     98
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "Radiografía panorámica",
+    "kind": "service",
+    "category": "Odontología general",
+    "usd": [
+     27,
+     55
+    ],
+    "unit": "piece",
+    "minutes": [
+     10,
+     15
+    ]
+   },
+   {
+    "name": "Sellador de fosas y fisuras",
+    "kind": "service",
+    "category": "Odontología general",
+    "usd": [
+     20,
+     40
+    ],
+    "unit": "piece",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "Aplicación de flúor",
+    "kind": "service",
+    "category": "Odontología general",
+    "usd": [
+     15,
+     35
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     20
+    ]
+   },
+   {
+    "name": "Endodoncia unirradicular",
+    "kind": "service",
+    "category": "Endodoncia",
+    "usd": [
+     165,
+     330
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "Endodoncia multirradicular",
+    "kind": "service",
+    "category": "Endodoncia",
+    "usd": [
+     250,
+     480
+    ],
+    "unit": "piece",
+    "minutes": [
+     90,
+     120
+    ]
+   },
+   {
+    "name": "Implante dental de titanio",
+    "kind": "service",
+    "category": "Implantes y prótesis",
+    "usd": [
+     870,
+     1650
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "Corona de zirconio",
+    "kind": "service",
+    "category": "Implantes y prótesis",
+    "usd": [
+     435,
+     870
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "Prótesis removible completa",
+    "kind": "service",
+    "category": "Implantes y prótesis",
+    "usd": [
+     540,
+     1300
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "Férula de descarga",
+    "kind": "service",
+    "category": "Implantes y prótesis",
+    "usd": [
+     165,
+     380
+    ],
+    "unit": "piece",
+    "minutes": [
+     20,
+     30
+    ]
+   },
+   {
+    "name": "Brackets metálicos (tratamiento)",
+    "kind": "service",
+    "category": "Ortodoncia",
+    "usd": [
+     1950,
+     3800
+    ],
+    "unit": "piece",
+    "minutes": [
+     45,
+     60
+    ]
+   },
+   {
+    "name": "Ortodoncia invisible",
+    "kind": "service",
+    "category": "Ortodoncia",
+    "usd": [
+     2700,
+     6000
+    ],
+    "unit": "piece",
+    "minutes": [
+     45,
+     60
+    ]
+   },
+   {
+    "name": "Control de ortodoncia",
+    "kind": "service",
+    "category": "Ortodoncia",
+    "usd": [
+     30,
+     70
+    ],
+    "unit": "session",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "Blanqueamiento dental en clínica",
+    "kind": "service",
+    "category": "Estética dental",
+    "usd": [
+     270,
+     540
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "Carilla de porcelana",
+    "kind": "service",
+    "category": "Estética dental",
+    "usd": [
+     330,
+     650
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "Extracción simple",
+    "kind": "service",
+    "category": "Cirugía",
+    "usd": [
+     44,
+     98
+    ],
+    "unit": "piece",
+    "minutes": [
+     20,
+     40
+    ]
+   },
+   {
+    "name": "Extracción de muela del juicio",
+    "kind": "service",
+    "category": "Cirugía",
+    "usd": [
+     110,
+     270
+    ],
+    "unit": "piece",
+    "minutes": [
+     45,
+     90
+    ]
+   },
+   {
+    "name": "Injerto óseo",
+    "kind": "service",
+    "category": "Cirugía",
+    "usd": [
+     300,
+     900
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   }
+  ]
+ },
+ "veterinary": {
+  "categories": [
+   "Consultas",
+   "Vacunas",
+   "Cirugía",
+   "Diagnóstico",
+   "Peluquería canina",
+   "Tienda"
+  ],
+  "roles": [
+   "Veterinario",
+   "Veterinaria",
+   "Cirujano veterinario",
+   "Auxiliar veterinario",
+   "ATV",
+   "Peluquera canina",
+   "Recepcionista"
+  ],
+  "departments": [
+   "Consultas",
+   "Quirófano",
+   "Peluquería",
+   "Recepción"
+  ],
+  "items": [
+   {
+    "name": "Consulta veterinaria",
+    "kind": "service",
+    "category": "Consultas",
+    "usd": [
+     33,
+     55
+    ],
+    "unit": "session",
+    "minutes": [
+     20,
+     30
+    ]
+   },
+   {
+    "name": "Consulta de urgencia",
+    "kind": "service",
+    "category": "Consultas",
+    "usd": [
+     65,
+     130
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "Revisión geriátrica",
+    "kind": "service",
+    "category": "Consultas",
+    "usd": [
+     40,
+     80
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     45
+    ]
+   },
+   {
+    "name": "Hospitalización por día",
+    "kind": "service",
+    "category": "Consultas",
+    "usd": [
+     44,
+     98
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Vacuna antirrábica",
+    "kind": "service",
+    "category": "Vacunas",
+    "usd": [
+     27,
+     50
+    ],
+    "unit": "piece",
+    "minutes": [
+     10,
+     15
+    ]
+   },
+   {
+    "name": "Vacuna polivalente canina",
+    "kind": "service",
+    "category": "Vacunas",
+    "usd": [
+     33,
+     60
+    ],
+    "unit": "piece",
+    "minutes": [
+     10,
+     15
+    ]
+   },
+   {
+    "name": "Vacuna trivalente felina",
+    "kind": "service",
+    "category": "Vacunas",
+    "usd": [
+     30,
+     55
+    ],
+    "unit": "piece",
+    "minutes": [
+     10,
+     15
+    ]
+   },
+   {
+    "name": "Desparasitación interna",
+    "kind": "service",
+    "category": "Vacunas",
+    "usd": [
+     9,
+     22
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     10
+    ]
+   },
+   {
+    "name": "Implantación de microchip",
+    "kind": "service",
+    "category": "Vacunas",
+    "usd": [
+     33,
+     55
+    ],
+    "unit": "piece",
+    "minutes": [
+     10,
+     15
+    ]
+   },
+   {
+    "name": "Esterilización de gata",
+    "kind": "service",
+    "category": "Cirugía",
+    "usd": [
+     130,
+     270
+    ],
+    "unit": "piece",
+    "minutes": [
+     45,
+     90
+    ]
+   },
+   {
+    "name": "Castración de perro",
+    "kind": "service",
+    "category": "Cirugía",
+    "usd": [
+     165,
+     380
+    ],
+    "unit": "piece",
+    "minutes": [
+     45,
+     90
+    ]
+   },
+   {
+    "name": "Limpieza dental con ultrasonidos",
+    "kind": "service",
+    "category": "Cirugía",
+    "usd": [
+     130,
+     330
+    ],
+    "unit": "piece",
+    "minutes": [
+     45,
+     90
+    ]
+   },
+   {
+    "name": "Analítica de sangre completa",
+    "kind": "service",
+    "category": "Diagnóstico",
+    "usd": [
+     55,
+     110
+    ],
+    "unit": "piece",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "Ecografía abdominal",
+    "kind": "service",
+    "category": "Diagnóstico",
+    "usd": [
+     55,
+     110
+    ],
+    "unit": "piece",
+    "minutes": [
+     20,
+     40
+    ]
+   },
+   {
+    "name": "Radiografía",
+    "kind": "service",
+    "category": "Diagnóstico",
+    "usd": [
+     38,
+     76
+    ],
+    "unit": "piece",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "Baño y corte (perro)",
+    "kind": "service",
+    "category": "Peluquería canina",
+    "usd": [
+     27,
+     55
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "Baño y secado",
+    "kind": "service",
+    "category": "Peluquería canina",
+    "usd": [
+     18,
+     35
+    ],
+    "unit": "session",
+    "minutes": [
+     45,
+     60
+    ]
+   },
+   {
+    "name": "Corte de uñas",
+    "kind": "service",
+    "category": "Peluquería canina",
+    "usd": [
+     5,
+     12
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     15
+    ]
+   },
+   {
+    "name": "Pienso perro adulto",
+    "kind": "product",
+    "category": "Tienda",
+    "usd": [
+     20,
+     76
+    ],
+    "unit": "piece",
+    "variants": [
+     "3 kg",
+     "7 kg",
+     "12 kg"
+    ]
+   },
+   {
+    "name": "Pienso gato esterilizado",
+    "kind": "product",
+    "category": "Tienda",
+    "usd": [
+     15,
+     50
+    ],
+    "unit": "piece",
+    "variants": [
+     "1,5 kg",
+     "4 kg",
+     "10 kg"
+    ]
+   },
+   {
+    "name": "Comida húmeda (lata)",
+    "kind": "product",
+    "category": "Tienda",
+    "usd": [
+     1.5,
+     4
+    ],
+    "unit": "piece",
+    "variants": [
+     "85 g",
+     "400 g"
+    ]
+   },
+   {
+    "name": "Pipeta antiparasitaria",
+    "kind": "product",
+    "category": "Tienda",
+    "usd": [
+     8,
+     20
+    ],
+    "unit": "piece",
+    "variants": [
+     "Gato",
+     "Perro pequeño",
+     "Perro grande"
+    ]
+   },
+   {
+    "name": "Collar antiparasitario",
+    "kind": "product",
+    "category": "Tienda",
+    "usd": [
+     15,
+     35
+    ],
+    "unit": "piece"
+   }
+  ]
+ },
+ "printing": {
+  "categories": [
+   "Papelería comercial",
+   "Publicidad impresa",
+   "Gran formato",
+   "Copistería",
+   "Acabados",
+   "Diseño"
+  ],
+  "roles": [
+   "Impresor",
+   "Operario de imprenta",
+   "Preimpresor",
+   "Diseñador gráfico",
+   "Técnico de gran formato",
+   "Encargado de copistería",
+   "Comercial"
+  ],
+  "departments": [
+   "Taller",
+   "Diseño y preimpresión",
+   "Tienda",
+   "Administración"
+  ],
+  "items": [
+   {
+    "name": "Tarjetas de visita",
+    "kind": "product",
+    "category": "Papelería comercial",
+    "usd": [
+     22,
+     55
+    ],
+    "unit": "box",
+    "variants": [
+     "250 uds.",
+     "500 uds.",
+     "1.000 uds."
+    ]
+   },
+   {
+    "name": "Sobres con logotipo",
+    "kind": "product",
+    "category": "Papelería comercial",
+    "usd": [
+     65,
+     150
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "Talonarios autocopiativos",
+    "kind": "product",
+    "category": "Papelería comercial",
+    "usd": [
+     16,
+     38
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Sello automático",
+    "kind": "product",
+    "category": "Papelería comercial",
+    "usd": [
+     15,
+     35
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Invitaciones de boda",
+    "kind": "product",
+    "category": "Papelería comercial",
+    "usd": [
+     1.6,
+     4.4
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Flyers A5 a todo color",
+    "kind": "product",
+    "category": "Publicidad impresa",
+    "usd": [
+     44,
+     98
+    ],
+    "unit": "box",
+    "variants": [
+     "500 uds.",
+     "1.000 uds.",
+     "5.000 uds."
+    ]
+   },
+   {
+    "name": "Dípticos A4",
+    "kind": "product",
+    "category": "Publicidad impresa",
+    "usd": [
+     130,
+     270
+    ],
+    "unit": "box",
+    "variants": [
+     "500 uds.",
+     "1.000 uds."
+    ]
+   },
+   {
+    "name": "Catálogo grapado (24 págs.)",
+    "kind": "product",
+    "category": "Publicidad impresa",
+    "usd": [
+     650,
+     1500
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "Pegatinas troqueladas",
+    "kind": "product",
+    "category": "Publicidad impresa",
+    "usd": [
+     44,
+     110
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "Lona publicitaria",
+    "kind": "product",
+    "category": "Gran formato",
+    "usd": [
+     11,
+     27
+    ],
+    "unit": "m2"
+   },
+   {
+    "name": "Roll-up 85x200 cm",
+    "kind": "product",
+    "category": "Gran formato",
+    "usd": [
+     55,
+     120
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Vinilo de escaparate",
+    "kind": "product",
+    "category": "Gran formato",
+    "usd": [
+     22,
+     50
+    ],
+    "unit": "m2"
+   },
+   {
+    "name": "Impresión de planos",
+    "kind": "product",
+    "category": "Gran formato",
+    "usd": [
+     1.6,
+     4.4
+    ],
+    "unit": "piece",
+    "variants": [
+     "A2",
+     "A1",
+     "A0"
+    ]
+   },
+   {
+    "name": "Cartel en cartón pluma",
+    "kind": "product",
+    "category": "Gran formato",
+    "usd": [
+     20,
+     60
+    ],
+    "unit": "piece",
+    "variants": [
+     "A3",
+     "A2",
+     "A1"
+    ]
+   },
+   {
+    "name": "Fotocopia B/N",
+    "kind": "product",
+    "category": "Copistería",
+    "usd": [
+     0.05,
+     0.15
+    ],
+    "unit": "piece",
+    "variants": [
+     "A4",
+     "A3"
+    ]
+   },
+   {
+    "name": "Impresión a color A4",
+    "kind": "product",
+    "category": "Copistería",
+    "usd": [
+     0.22,
+     0.6
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Impresión de tesis",
+    "kind": "product",
+    "category": "Copistería",
+    "usd": [
+     15,
+     45
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Escaneado de documentos",
+    "kind": "service",
+    "category": "Copistería",
+    "usd": [
+     0.2,
+     0.8
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     15
+    ]
+   },
+   {
+    "name": "Encuadernación en espiral",
+    "kind": "service",
+    "category": "Acabados",
+    "usd": [
+     2.2,
+     5.5
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     15
+    ]
+   },
+   {
+    "name": "Encuadernación tapa dura",
+    "kind": "service",
+    "category": "Acabados",
+    "usd": [
+     15,
+     35
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "Plastificado A4",
+    "kind": "service",
+    "category": "Acabados",
+    "usd": [
+     0.8,
+     2
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     10
+    ]
+   },
+   {
+    "name": "Hora de diseño gráfico",
+    "kind": "service",
+    "category": "Diseño",
+    "usd": [
+     25,
+     50
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "Diseño de logotipo sencillo",
+    "kind": "service",
+    "category": "Diseño",
+    "usd": [
+     80,
+     250
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     240
+    ]
+   }
+  ]
+ },
+ "furniture_maker": {
+  "categories": [
+   "Muebles a medida",
+   "Cocinas",
+   "Armarios",
+   "Restauración",
+   "Montaje"
+  ],
+  "roles": [
+   "Carpintero",
+   "Ebanista",
+   "Oficial de carpintería",
+   "Barnizador",
+   "Tapicero",
+   "Montador",
+   "Diseñador de interiores",
+   "Aprendiz"
+  ],
+  "departments": [
+   "Taller",
+   "Montaje",
+   "Oficina técnica"
+  ],
+  "items": [
+   {
+    "name": "Armario empotrado a medida",
+    "kind": "product",
+    "category": "Armarios",
+    "usd": [
+     330,
+     760
+    ],
+    "unit": "m"
+   },
+   {
+    "name": "Clóset de melamina",
+    "kind": "product",
+    "category": "Armarios",
+    "usd": [
+     220,
+     490
+    ],
+    "unit": "m"
+   },
+   {
+    "name": "Vestidor a medida",
+    "kind": "product",
+    "category": "Armarios",
+    "usd": [
+     400,
+     900
+    ],
+    "unit": "m"
+   },
+   {
+    "name": "Mueble de cocina a medida",
+    "kind": "product",
+    "category": "Cocinas",
+    "usd": [
+     435,
+     1100
+    ],
+    "unit": "m"
+   },
+   {
+    "name": "Encimera de madera",
+    "kind": "product",
+    "category": "Cocinas",
+    "usd": [
+     150,
+     400
+    ],
+    "unit": "m"
+   },
+   {
+    "name": "Isla de cocina",
+    "kind": "product",
+    "category": "Cocinas",
+    "usd": [
+     1200,
+     3500
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Mesa de comedor de madera",
+    "kind": "product",
+    "category": "Muebles a medida",
+    "usd": [
+     650,
+     1950
+    ],
+    "unit": "piece",
+    "variants": [
+     "4 plazas",
+     "6 plazas",
+     "8 plazas"
+    ]
+   },
+   {
+    "name": "Silla de roble",
+    "kind": "product",
+    "category": "Muebles a medida",
+    "usd": [
+     98,
+     270
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Cama con cabecero tapizado",
+    "kind": "product",
+    "category": "Muebles a medida",
+    "usd": [
+     435,
+     1300
+    ],
+    "unit": "piece",
+    "variants": [
+     "135 cm",
+     "150 cm",
+     "180 cm"
+    ]
+   },
+   {
+    "name": "Estantería de pared a medida",
+    "kind": "product",
+    "category": "Muebles a medida",
+    "usd": [
+     220,
+     760
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Mesa de centro de nogal",
+    "kind": "product",
+    "category": "Muebles a medida",
+    "usd": [
+     270,
+     760
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Escritorio de oficina",
+    "kind": "product",
+    "category": "Muebles a medida",
+    "usd": [
+     330,
+     980
+    ],
+    "unit": "piece",
+    "variants": [
+     "120 cm",
+     "140 cm",
+     "160 cm"
+    ]
+   },
+   {
+    "name": "Mueble de baño lacado",
+    "kind": "product",
+    "category": "Muebles a medida",
+    "usd": [
+     330,
+     870
+    ],
+    "unit": "piece",
+    "variants": [
+     "60 cm",
+     "80 cm",
+     "100 cm"
+    ]
+   },
+   {
+    "name": "Puerta de paso de madera",
+    "kind": "product",
+    "category": "Muebles a medida",
+    "usd": [
+     196,
+     490
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Barra de bar para hostelería",
+    "kind": "product",
+    "category": "Muebles a medida",
+    "usd": [
+     435,
+     1100
+    ],
+    "unit": "m"
+   },
+   {
+    "name": "Restauración de mueble antiguo",
+    "kind": "service",
+    "category": "Restauración",
+    "usd": [
+     165,
+     650
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Tapizado de sillón",
+    "kind": "service",
+    "category": "Restauración",
+    "usd": [
+     165,
+     435
+    ],
+    "unit": "piece",
+    "minutes": [
+     180,
+     480
+    ]
+   },
+   {
+    "name": "Lacado de mueble",
+    "kind": "service",
+    "category": "Restauración",
+    "usd": [
+     120,
+     400
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Montaje de mobiliario",
+    "kind": "service",
+    "category": "Montaje",
+    "usd": [
+     27,
+     50
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "Toma de medidas en domicilio",
+    "kind": "service",
+    "category": "Montaje",
+    "usd": [
+     30,
+     80
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "Diseño 3D del proyecto",
+    "kind": "service",
+    "category": "Montaje",
+    "usd": [
+     80,
+     300
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   }
+  ]
+ },
+ "event_catering": {
+  "categories": [
+   "Bodas",
+   "Empresas",
+   "Cócteles",
+   "Postres",
+   "Bebidas",
+   "Menaje y montaje"
+  ],
+  "roles": [
+   "Jefe de cocina",
+   "Cocinero",
+   "Ayudante de cocina",
+   "Maître",
+   "Camarero de eventos",
+   "Mesero",
+   "Barman",
+   "Coordinadora de eventos"
+  ],
+  "departments": [
+   "Cocina",
+   "Sala",
+   "Logística",
+   "Comercial"
+  ],
+  "items": [
+   {
+    "name": "Menú de boda",
+    "kind": "product",
+    "category": "Bodas",
+    "usd": [
+     87,
+     175
+    ],
+    "unit": "person",
+    "variants": [
+     "Menú clásico",
+     "Menú premium"
+    ]
+   },
+   {
+    "name": "Paella para eventos",
+    "kind": "product",
+    "category": "Bodas",
+    "usd": [
+     11,
+     22
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "Asado criollo",
+    "kind": "product",
+    "category": "Bodas",
+    "usd": [
+     22,
+     44
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "Taquiza",
+    "kind": "product",
+    "category": "Bodas",
+    "usd": [
+     11,
+     22
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "Prueba de menú",
+    "kind": "service",
+    "category": "Bodas",
+    "usd": [
+     40,
+     120
+    ],
+    "unit": "session",
+    "minutes": [
+     90,
+     120
+    ]
+   },
+   {
+    "name": "Cena de gala",
+    "kind": "product",
+    "category": "Empresas",
+    "usd": [
+     65,
+     130
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "Coffee break",
+    "kind": "product",
+    "category": "Empresas",
+    "usd": [
+     6.5,
+     16
+    ],
+    "unit": "person",
+    "variants": [
+     "Básico",
+     "Completo"
+    ]
+   },
+   {
+    "name": "Almuerzo de trabajo tipo bufé",
+    "kind": "product",
+    "category": "Empresas",
+    "usd": [
+     22,
+     44
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "Box lunch",
+    "kind": "product",
+    "category": "Empresas",
+    "usd": [
+     12,
+     22
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Cóctel de bienvenida",
+    "kind": "product",
+    "category": "Cócteles",
+    "usd": [
+     16,
+     38
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "Bandeja de canapés variados",
+    "kind": "product",
+    "category": "Cócteles",
+    "usd": [
+     38,
+     76
+    ],
+    "unit": "piece",
+    "variants": [
+     "30 uds.",
+     "50 uds.",
+     "100 uds."
+    ]
+   },
+   {
+    "name": "Sándwiches de miga (docena)",
+    "kind": "product",
+    "category": "Cócteles",
+    "usd": [
+     12,
+     25
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "Mesa de quesos",
+    "kind": "product",
+    "category": "Cócteles",
+    "usd": [
+     8,
+     18
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "Tarta nupcial",
+    "kind": "product",
+    "category": "Postres",
+    "usd": [
+     165,
+     540
+    ],
+    "unit": "piece",
+    "variants": [
+     "2 pisos",
+     "3 pisos",
+     "4 pisos"
+    ]
+   },
+   {
+    "name": "Mesa dulce para eventos",
+    "kind": "product",
+    "category": "Postres",
+    "usd": [
+     220,
+     760
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "Barra libre",
+    "kind": "product",
+    "category": "Bebidas",
+    "usd": [
+     16,
+     33
+    ],
+    "unit": "person",
+    "variants": [
+     "2 horas",
+     "3 horas",
+     "4 horas"
+    ]
+   },
+   {
+    "name": "Bodega de vinos y cava",
+    "kind": "product",
+    "category": "Bebidas",
+    "usd": [
+     10,
+     25
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "Refrescos y agua",
+    "kind": "product",
+    "category": "Bebidas",
+    "usd": [
+     3,
+     7
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "Servicio de camareros",
+    "kind": "service",
+    "category": "Menaje y montaje",
+    "usd": [
+     20,
+     33
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "Alquiler de vajilla y mantelería",
+    "kind": "service",
+    "category": "Menaje y montaje",
+    "usd": [
+     3.3,
+     9
+    ],
+    "unit": "person",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "Alquiler de carpa",
+    "kind": "service",
+    "category": "Menaje y montaje",
+    "usd": [
+     540,
+     2200
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "Montaje y decoración",
+    "kind": "service",
+    "category": "Menaje y montaje",
+    "usd": [
+     200,
+     800
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     240
+    ]
+   }
+  ]
+ }
+}

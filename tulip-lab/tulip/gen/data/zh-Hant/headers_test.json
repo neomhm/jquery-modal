@@ -1,0 +1,184 @@
+{
+ "fields": {
+  "active": [
+   "是否販售"
+  ],
+  "address": [
+   "Address"
+  ],
+  "afternoon": [
+   "下午門診"
+  ],
+  "barcode": [
+   "EAN碼"
+  ],
+  "booking_client": [
+   "學員姓名"
+  ],
+  "booking_date": [
+   "日期"
+  ],
+  "booking_datetime": [
+   "Appointment"
+  ],
+  "booking_service": [
+   "預約服務"
+  ],
+  "booking_status": [
+   "預約情況"
+  ],
+  "category": [
+   "種類"
+  ],
+  "city": [
+   "縣市"
+  ],
+  "client_name": [
+   "客戶姓名"
+  ],
+  "client_since": [
+   "開戶日期"
+  ],
+  "closes": [
+   "至"
+  ],
+  "company": [
+   "機構名稱"
+  ],
+  "contact_person": [
+   "Contact"
+  ],
+  "country": [
+   "國家"
+  ],
+  "currency": [
+   "貨幣種類"
+  ],
+  "day": [
+   "Day"
+  ],
+  "department": [
+   "Dept."
+  ],
+  "description": [
+   "服務內容"
+  ],
+  "due_date": [
+   "最後付款日"
+  ],
+  "duration": [
+   "時長"
+  ],
+  "email": [
+   "電子郵件地址"
+  ],
+  "end_time": [
+   "完成時間"
+  ],
+  "first_name": [
+   "名字"
+  ],
+  "hours": [
+   "營業時段"
+  ],
+  "hours_note": [
+   "備註"
+  ],
+  "invoice_client": [
+   "Bill To"
+  ],
+  "invoice_date": [
+   "請款日期"
+  ],
+  "invoice_number": [
+   "統一發票號碼"
+  ],
+  "invoice_status": [
+   "結帳狀態"
+  ],
+  "last_name": [
+   "姓氏"
+  ],
+  "morning": [
+   "早診"
+  ],
+  "opens": [
+   "開店時間"
+  ],
+  "paid_date": [
+   "付款日"
+  ],
+  "performer": [
+   "教練"
+  ],
+  "person_name": [
+   "員工"
+  ],
+  "phone": [
+   "流動電話"
+  ],
+  "postcode": [
+   "郵編"
+  ],
+  "price": [
+   "售價({cur})"
+  ],
+  "price_excl": [
+   "單價（未稅）"
+  ],
+  "price_incl": [
+   "含稅價格"
+  ],
+  "product_name": [
+   "名稱"
+  ],
+  "reg_id": [
+   "BR No."
+  ],
+  "role": [
+   "Position"
+  ],
+  "service_name": [
+   "療程"
+  ],
+  "sku": [
+   "產品代號"
+  ],
+  "start_date": [
+   "受僱日期"
+  ],
+  "start_time": [
+   "時間"
+  ],
+  "stock": [
+   "庫存量"
+  ],
+  "street": [
+   "Street Address"
+  ],
+  "tax_amount": [
+   "營業稅"
+  ],
+  "time_range": [
+   "上課時段"
+  ],
+  "total": [
+   "單據金額"
+  ],
+  "total_excl": [
+   "稅前金額"
+  ],
+  "total_incl": [
+   "含稅總額"
+  ],
+  "unit": [
+   "Unit"
+  ],
+  "variant": [
+   "容量"
+  ],
+  "vat_rate": [
+   "稅%"
+  ]
+ }
+}

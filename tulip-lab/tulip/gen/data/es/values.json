@@ -1,0 +1,665 @@
+{
+ "weekdays": {
+  "full": [
+   "lunes",
+   "martes",
+   "miércoles",
+   "jueves",
+   "viernes",
+   "sábado",
+   "domingo"
+  ],
+  "short": [
+   "lun",
+   "mar",
+   "mié",
+   "jue",
+   "vie",
+   "sáb",
+   "dom"
+  ],
+  "other": [
+   [
+    "L",
+    "lu",
+    "lun."
+   ],
+   [
+    "M",
+    "ma",
+    "mar.",
+    "mart."
+   ],
+   [
+    "X",
+    "mi",
+    "mie",
+    "mié.",
+    "miér.",
+    "mier.",
+    "miercoles"
+   ],
+   [
+    "J",
+    "ju",
+    "jue.",
+    "juev."
+   ],
+   [
+    "V",
+    "vi",
+    "vie.",
+    "vier."
+   ],
+   [
+    "S",
+    "sa",
+    "sá",
+    "sab",
+    "sáb.",
+    "sabado"
+   ],
+   [
+    "D",
+    "do",
+    "dom."
+   ]
+  ]
+ },
+ "months": {
+  "full": [
+   "enero",
+   "febrero",
+   "marzo",
+   "abril",
+   "mayo",
+   "junio",
+   "julio",
+   "agosto",
+   "septiembre",
+   "octubre",
+   "noviembre",
+   "diciembre"
+  ],
+  "short": [
+   "ene",
+   "feb",
+   "mar",
+   "abr",
+   "may",
+   "jun",
+   "jul",
+   "ago",
+   "sep",
+   "oct",
+   "nov",
+   "dic"
+  ]
+ },
+ "closed": [
+  "Cerrado",
+  "Descanso",
+  "Descanso semanal",
+  "Sin atención",
+  "No hay atención",
+  "No abrimos",
+  "Cerrado al público"
+ ],
+ "yes": [
+  "Sí",
+  "Si",
+  "S",
+  "X",
+  "✓",
+  "VERDADERO",
+  "OK"
+ ],
+ "no": [
+  "No",
+  "N",
+  "FALSO",
+  "✗"
+ ],
+ "totals": [
+  "Total",
+  "Total general",
+  "Totales",
+  "Suma total",
+  "Gran total",
+  "Suma"
+ ],
+ "subtotals": [
+  "Subtotal",
+  "Sub-total",
+  "Sub total",
+  "Subtotales",
+  "Total parcial",
+  "Suma parcial"
+ ],
+ "invoice_status": {
+  "paid": [
+   "Pagada",
+   "Pagado",
+   "Cobrada",
+   "Cobrado",
+   "Liquidada",
+   "Saldada",
+   "Pag."
+  ],
+  "unpaid": [
+   "Pendiente de pago",
+   "Pendiente",
+   "No pagada",
+   "Sin pagar",
+   "Pendiente de cobro",
+   "Por cobrar",
+   "No cobrada",
+   "Impagada",
+   "Por pagar"
+  ],
+  "partial": [
+   "Pago parcial",
+   "Parcial",
+   "Pagada parcialmente",
+   "Parcialmente pagada",
+   "Cobro parcial",
+   "Cobrada parcialmente",
+   "Pagada en parte"
+  ],
+  "overdue": [
+   "Vencida",
+   "Vencido",
+   "Atrasada",
+   "En mora",
+   "Morosa",
+   "Fuera de plazo",
+   "Retrasada",
+   "Plazo vencido"
+  ],
+  "cancelled": [
+   "Anulada",
+   "Anulado",
+   "Cancelada",
+   "Cancelado",
+   "Sin efecto",
+   "Rectificada"
+  ],
+  "other": [
+   "Borrador",
+   "Presupuesto",
+   "Proforma",
+   "Cotización",
+   "Pendiente de emitir",
+   "En revisión",
+   "Vigente"
+  ]
+ },
+ "booking_status": {
+  "confirmed": [
+   "Confirmada",
+   "Confirmado",
+   "Reservada",
+   "Reservado",
+   "Agendada",
+   "Agendado",
+   "Conf."
+  ],
+  "pending": [
+   "Por confirmar",
+   "Pendiente",
+   "Pendiente de confirmar",
+   "Sin confirmar",
+   "A confirmar",
+   "En espera",
+   "Solicitada",
+   "Pte. confirmar"
+  ],
+  "completed": [
+   "Realizada",
+   "Realizado",
+   "Completada",
+   "Completado",
+   "Finalizada",
+   "Atendida",
+   "Atendido",
+   "Asistió",
+   "Hecho",
+   "Terminada"
+  ],
+  "cancelled": [
+   "Cancelada",
+   "Cancelado",
+   "Anulada",
+   "Anulado",
+   "Canc.",
+   "Cancelada por el cliente",
+   "Cancelada por el centro"
+  ],
+  "no_show": [
+   "No se presentó",
+   "No asistió",
+   "No vino",
+   "No acudió",
+   "Ausente",
+   "No show",
+   "No-show",
+   "Falta",
+   "No presentado"
+  ],
+  "other": [
+   "Reprogramada",
+   "Aplazada",
+   "Cambio de fecha",
+   "Reagendada",
+   "Movida",
+   "En lista de espera"
+  ]
+ },
+ "tax_included": [
+  "IVA incluido",
+  "IVA incl.",
+  "IVA inc.",
+  "con IVA",
+  "c/IVA",
+  "incluye IVA",
+  "impuestos incluidos",
+  "con impuestos",
+  "PVP",
+  "P.V.P."
+ ],
+ "tax_excluded": [
+  "sin IVA",
+  "IVA no incluido",
+  "+ IVA",
+  "+IVA",
+  "más IVA",
+  "s/IVA",
+  "IVA aparte",
+  "no incluye IVA",
+  "antes de IVA",
+  "IVA excluido",
+  "impuestos no incluidos",
+  "neto",
+  "base imponible",
+  "base imp.",
+  "base gravable"
+ ],
+ "from_words": [
+  "desde",
+  "a partir de",
+  "precios desde"
+ ],
+ "units": {
+  "piece": [
+   "ud.",
+   "ud",
+   "uds.",
+   "unidad",
+   "unidades",
+   "u.",
+   "und.",
+   "unid.",
+   "pieza",
+   "pza.",
+   "pz"
+  ],
+  "kg": [
+   "kg",
+   "kg.",
+   "kilo",
+   "kilos",
+   "kilogramo"
+  ],
+  "g": [
+   "g",
+   "gr",
+   "gr.",
+   "grs.",
+   "gramo",
+   "gramos"
+  ],
+  "l": [
+   "l",
+   "lt",
+   "lt.",
+   "lts.",
+   "litro",
+   "litros"
+  ],
+  "ml": [
+   "ml",
+   "ml.",
+   "cc",
+   "mililitros"
+  ],
+  "box": [
+   "caja",
+   "cajas",
+   "cja."
+  ],
+  "pack": [
+   "pack",
+   "paquete",
+   "paq.",
+   "lote"
+  ],
+  "hour": [
+   "hora",
+   "horas",
+   "h",
+   "hr",
+   "hr.",
+   "hs.",
+   "hrs."
+  ],
+  "day": [
+   "día",
+   "días",
+   "dia",
+   "jornada"
+  ],
+  "month": [
+   "mes",
+   "meses",
+   "mensual",
+   "mensualidad"
+  ],
+  "person": [
+   "persona",
+   "personas",
+   "pax",
+   "por persona"
+  ],
+  "session": [
+   "sesión",
+   "sesiones",
+   "ses."
+  ],
+  "set": [
+   "juego",
+   "set",
+   "kit",
+   "conjunto",
+   "jgo."
+  ],
+  "m": [
+   "m",
+   "mt",
+   "mts",
+   "metro",
+   "metros",
+   "metro lineal"
+  ],
+  "m2": [
+   "m2",
+   "mt2",
+   "mts2",
+   "metro cuadrado",
+   "metros cuadrados"
+  ]
+ },
+ "minute_words": [
+  "min",
+  "min.",
+  "minutos",
+  "mins",
+  "minuto"
+ ],
+ "hour_words": [
+  "h",
+  "hora",
+  "horas",
+  "hs",
+  "hs.",
+  "hrs",
+  "hr"
+ ],
+ "am_pm": [
+  [
+   "a.m.",
+   "p.m."
+  ],
+  [
+   "a. m.",
+   "p. m."
+  ],
+  [
+   "AM",
+   "PM"
+  ]
+ ],
+ "notes_rows": [
+  "Precios válidos hasta el {date}",
+  "* Precios con IVA incluido",
+  "Los precios no incluyen IVA",
+  "Precios sujetos a cambio sin previo aviso",
+  "Tarifas vigentes desde el {date}",
+  "* Consultar disponibilidad",
+  "Oferta válida hasta agotar existencias",
+  "Actualizado el {date}",
+  "Imágenes y precios orientativos",
+  "Formas de pago: efectivo, tarjeta y transferencia",
+  "Pedidos por teléfono o WhatsApp",
+  "Tarifas {year} sujetas a modificaciones",
+  "Las cancelaciones con menos de 24 h se cobran",
+  "(*) Servicio con cita previa",
+  "IVA incluido en todos los precios"
+ ],
+ "title_rows": {
+  "products": [
+   "Lista de precios {year}",
+   "Tarifa de precios {year}",
+   "Catálogo de productos – {business}",
+   "Listado de artículos",
+   "Lista de precios – {business}",
+   "Precios {month} {year}",
+   "Inventario de productos"
+  ],
+  "services": [
+   "Tarifas {year}",
+   "Lista de servicios y precios",
+   "Carta de servicios – {business}",
+   "Nuestros servicios",
+   "Precios de servicios {year}",
+   "Tarifas de tratamientos"
+  ],
+  "opening_hours": [
+   "Horario de atención",
+   "Horario de apertura",
+   "Horarios {year}",
+   "Horario comercial – {business}",
+   "Horario de atención al público",
+   "Horario de verano {year}"
+  ],
+  "staff": [
+   "Listado de personal",
+   "Plantilla {year}",
+   "Equipo – {business}",
+   "Directorio de empleados",
+   "Nómina de personal",
+   "Relación de trabajadores"
+  ],
+  "clients": [
+   "Listado de clientes",
+   "Cartera de clientes",
+   "Base de datos de clientes",
+   "Clientes {year}",
+   "Directorio de clientes – {business}",
+   "Relación de clientes"
+  ],
+  "bookings": [
+   "Agenda de citas – {month} {year}",
+   "Reservas {month} {year}",
+   "Planning de citas",
+   "Turnos de la semana",
+   "Agenda semanal",
+   "Registro de reservas {year}"
+  ],
+  "invoice_ledger": [
+   "Registro de facturas {year}",
+   "Libro de facturas emitidas {year}",
+   "Facturación {month} {year}",
+   "Control de facturas – {business}",
+   "Relación de facturas emitidas",
+   "Libro de ventas {year}"
+  ]
+ },
+ "sheet_names": {
+  "products": [
+   "Productos",
+   "Tarifas",
+   "Lista de precios",
+   "Artículos",
+   "Catálogo",
+   "Precios {year}",
+   "Inventario"
+  ],
+  "services": [
+   "Servicios",
+   "Tarifas servicios",
+   "Precios",
+   "Tratamientos",
+   "Carta de servicios",
+   "Tarifas {year}"
+  ],
+  "opening_hours": [
+   "Horario",
+   "Horarios",
+   "Horario atención",
+   "Apertura",
+   "Horario {year}"
+  ],
+  "staff": [
+   "Personal",
+   "Empleados",
+   "Equipo",
+   "Plantilla",
+   "Trabajadores",
+   "RRHH"
+  ],
+  "clients": [
+   "Clientes",
+   "Cartera",
+   "Base clientes",
+   "Contactos",
+   "Clientes {year}"
+  ],
+  "bookings": [
+   "Citas",
+   "Reservas",
+   "Agenda",
+   "Turnos",
+   "Agenda {year}"
+  ],
+  "invoice_ledger": [
+   "Facturas",
+   "Facturación",
+   "Registro facturas",
+   "Emitidas {year}",
+   "Libro ventas",
+   "Facturas {year}"
+  ],
+  "other": [
+   "Hoja1",
+   "Hoja 1",
+   "Hoja2",
+   "Datos",
+   "Resumen",
+   "Notas",
+   "Gráfico"
+  ]
+ },
+ "hours_notes": [
+  "con cita previa",
+  "solo con cita",
+  "previa cita",
+  "con turno previo",
+  "festivos cerrado",
+  "abierto festivos",
+  "horario de verano",
+  "jornada continua",
+  "horario corrido",
+  "sábados alternos",
+  "cerrado por vacaciones"
+ ],
+ "balance_rows": [
+  "Saldo anterior",
+  "Saldo inicial",
+  "Suma y sigue",
+  "Suma anterior",
+  "Saldo al inicio del periodo"
+ ],
+ "credit_note": [
+  "Abono",
+  "Nota de crédito",
+  "Factura rectificativa",
+  "Rectificativa",
+  "NC",
+  "N/C"
+ ],
+ "not_a_table": {
+  "notes_page": [
+   "Llamar al proveedor el lunes para confirmar el pedido.",
+   "Revisar los precios de la tarifa antes de subirla a la web.",
+   "Pendiente: renovar el seguro del local antes de fin de mes.",
+   "La reunión con el gestor es el jueves a las 10:00.",
+   "Avisar a los clientes de que en agosto cerramos por vacaciones.",
+   "Pedir presupuesto a dos proveedores más antes de decidir.",
+   "El técnico viene a revisar el aire acondicionado la próxima semana.",
+   "Actualizar las fichas de los empleados con los teléfonos nuevos.",
+   "Preparar la documentación del trimestre para la asesoría.",
+   "Subir los precios un 3 % el mes que viene, salvo las ofertas."
+  ],
+  "summary": [
+   "Ingresos",
+   "Facturación",
+   "Ventas netas",
+   "Compras",
+   "Gastos",
+   "Gastos de personal",
+   "Alquiler",
+   "Margen bruto",
+   "Resultado",
+   "Beneficio neto",
+   "Utilidad neta"
+  ],
+  "chart": [
+   "Ventas",
+   "Visitas",
+   "Pedidos",
+   "Clientes nuevos",
+   "Reservas",
+   "Ingresos mensuales"
+  ]
+ },
+ "budget": {
+  "headers": [
+   "Concepto",
+   "Partida",
+   "Presupuestado",
+   "Previsto",
+   "Real",
+   "Ejecutado",
+   "Desviación",
+   "% Desviación",
+   "Diferencia",
+   "Mes"
+  ],
+  "lines": [
+   "Alquiler del local",
+   "Sueldos y salarios",
+   "Seguridad Social",
+   "Luz",
+   "Agua",
+   "Internet y teléfono",
+   "Publicidad",
+   "Seguros",
+   "Material de oficina",
+   "Mantenimiento",
+   "Gestoría",
+   "Impuestos",
+   "Combustible",
+   "Compra de mercadería"
+  ]
+ }
+}

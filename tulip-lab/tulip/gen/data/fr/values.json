@@ -1,0 +1,651 @@
+{
+ "weekdays": {
+  "full": [
+   "lundi",
+   "mardi",
+   "mercredi",
+   "jeudi",
+   "vendredi",
+   "samedi",
+   "dimanche"
+  ],
+  "short": [
+   "lun.",
+   "mar.",
+   "mer.",
+   "jeu.",
+   "ven.",
+   "sam.",
+   "dim."
+  ],
+  "other": [
+   [
+    "lun",
+    "lu",
+    "L"
+   ],
+   [
+    "mar",
+    "ma"
+   ],
+   [
+    "mer",
+    "me",
+    "merc.",
+    "mercr."
+   ],
+   [
+    "jeu",
+    "je",
+    "J"
+   ],
+   [
+    "ven",
+    "ve",
+    "vend.",
+    "V"
+   ],
+   [
+    "sam",
+    "sa",
+    "S"
+   ],
+   [
+    "dim",
+    "di",
+    "D"
+   ]
+  ]
+ },
+ "months": {
+  "full": [
+   "janvier",
+   "février",
+   "mars",
+   "avril",
+   "mai",
+   "juin",
+   "juillet",
+   "août",
+   "septembre",
+   "octobre",
+   "novembre",
+   "décembre"
+  ],
+  "short": [
+   "janv.",
+   "févr.",
+   "mars",
+   "avr.",
+   "mai",
+   "juin",
+   "juil.",
+   "août",
+   "sept.",
+   "oct.",
+   "nov.",
+   "déc."
+  ]
+ },
+ "closed": [
+  "Fermé",
+  "Fermée",
+  "Fermeture",
+  "Fermeture hebdomadaire",
+  "Jour de fermeture",
+  "Fermé toute la journée",
+  "Fermé au public",
+  "Repos",
+  "Clos",
+  "Relâche"
+ ],
+ "yes": [
+  "Oui",
+  "O",
+  "x",
+  "Vrai",
+  "✓",
+  "OK"
+ ],
+ "no": [
+  "Non",
+  "N",
+  "Faux"
+ ],
+ "totals": [
+  "Total",
+  "Total général",
+  "Totaux",
+  "Total TTC",
+  "Total HT",
+  "Montant total",
+  "Total annuel"
+ ],
+ "subtotals": [
+  "Sous-total",
+  "Sous total",
+  "S/total",
+  "S-total",
+  "Sous-totaux",
+  "Total partiel",
+  "Total intermédiaire"
+ ],
+ "invoice_status": {
+  "paid": [
+   "Payée",
+   "Payé",
+   "Réglée",
+   "Réglé",
+   "Soldée",
+   "Acquittée",
+   "Encaissée",
+   "Paiement reçu"
+  ],
+  "unpaid": [
+   "Impayée",
+   "Impayé",
+   "Non réglée",
+   "Non réglé",
+   "Non payée",
+   "À payer",
+   "À régler",
+   "À encaisser",
+   "En attente de paiement",
+   "Ouverte"
+  ],
+  "partial": [
+   "Partiellement payée",
+   "Partiellement réglée",
+   "Payée en partie",
+   "Réglée partiellement",
+   "Paiement partiel",
+   "Acompte reçu",
+   "Partiel"
+  ],
+  "overdue": [
+   "En retard",
+   "Échue",
+   "Echue",
+   "Échéance dépassée",
+   "Retard de paiement",
+   "En souffrance",
+   "Relancée",
+   "2e relance",
+   "En recouvrement"
+  ],
+  "cancelled": [
+   "Annulée",
+   "Annulé",
+   "Annulée par avoir",
+   "Avoir émis",
+   "Supprimée",
+   "Extournée"
+  ],
+  "other": [
+   "Brouillon",
+   "Devis",
+   "Pro forma",
+   "Proforma",
+   "À valider",
+   "Non envoyée",
+   "En litige",
+   "Contestée"
+  ]
+ },
+ "booking_status": {
+  "confirmed": [
+   "Confirmé",
+   "Confirmée",
+   "Réservé",
+   "Réservée",
+   "Validé",
+   "RDV confirmé",
+   "Conf."
+  ],
+  "pending": [
+   "En attente",
+   "À confirmer",
+   "A confirmer",
+   "Non confirmé",
+   "En attente de confirmation",
+   "Provisoire",
+   "Option",
+   "Demande"
+  ],
+  "completed": [
+   "Terminé",
+   "Terminée",
+   "Effectué",
+   "Réalisé",
+   "Honoré",
+   "Venu",
+   "Présent",
+   "Fait"
+  ],
+  "cancelled": [
+   "Annulé",
+   "Annulée",
+   "Annulation",
+   "Annulé par le client",
+   "Décommandé",
+   "Désistement"
+  ],
+  "no_show": [
+   "Absent",
+   "Absente",
+   "Non venu",
+   "Pas venu",
+   "Non présenté",
+   "RDV non honoré",
+   "Absent non excusé",
+   "No-show",
+   "Lapin"
+  ],
+  "other": [
+   "Déplacé",
+   "Reporté",
+   "Reprogrammé",
+   "Modifié",
+   "Liste d'attente",
+   "En cours"
+  ]
+ },
+ "tax_included": [
+  "TTC",
+  "T.T.C.",
+  "TVAC",
+  "TVA comprise",
+  "TVA incluse",
+  "TVA incl.",
+  "toutes taxes comprises",
+  "taxes incluses",
+  "taxes comprises"
+ ],
+ "tax_excluded": [
+  "HT",
+  "H.T.",
+  "HTVA",
+  "hors taxes",
+  "hors TVA",
+  "TVA non comprise",
+  "TVA en sus",
+  "TVA exclue",
+  "taxes en sus",
+  "avant taxes",
+  "+ TVA",
+  "+ taxes"
+ ],
+ "from_words": [
+  "à partir de",
+  "dès",
+  "a partir de"
+ ],
+ "units": {
+  "piece": [
+   "pièce",
+   "pce",
+   "pc",
+   "u",
+   "unité"
+  ],
+  "kg": [
+   "kg",
+   "kilo",
+   "le kilo",
+   "kilogramme"
+  ],
+  "g": [
+   "g",
+   "gr",
+   "gramme",
+   "grammes"
+  ],
+  "l": [
+   "L",
+   "litre",
+   "litres"
+  ],
+  "ml": [
+   "ml",
+   "millilitre",
+   "millilitres"
+  ],
+  "box": [
+   "boîte",
+   "bte",
+   "carton",
+   "coffret"
+  ],
+  "pack": [
+   "paquet",
+   "pqt",
+   "pack",
+   "sachet"
+  ],
+  "hour": [
+   "heure",
+   "h",
+   "heures",
+   "l'heure"
+  ],
+  "day": [
+   "jour",
+   "j",
+   "journée",
+   "jours"
+  ],
+  "month": [
+   "mois",
+   "par mois",
+   "mensuel"
+  ],
+  "person": [
+   "personne",
+   "pers.",
+   "par personne",
+   "couvert",
+   "participant"
+  ],
+  "session": [
+   "séance",
+   "prestation",
+   "forfait",
+   "intervention"
+  ],
+  "set": [
+   "lot",
+   "ensemble",
+   "ens.",
+   "jeu",
+   "kit"
+  ],
+  "m": [
+   "m",
+   "mètre",
+   "mètre linéaire",
+   "m.l."
+  ],
+  "m2": [
+   "m²",
+   "mètre carré",
+   "mètres carrés"
+  ]
+ },
+ "minute_words": [
+  "min",
+  "min.",
+  "mn",
+  "minutes",
+  "minute"
+ ],
+ "hour_words": [
+  "h",
+  "heure",
+  "heures"
+ ],
+ "am_pm": [],
+ "notes_rows": [
+  "Prix valables jusqu'au {date}",
+  "* Tarifs indicatifs, nous consulter",
+  "Tarifs en vigueur au {date}",
+  "Mis à jour le {date}",
+  "Tarifs {year} susceptibles d'évoluer sans préavis",
+  "Prix TTC, TVA au taux en vigueur",
+  "Photos non contractuelles",
+  "Sous réserve d'erreurs ou d'omissions",
+  "* Hors frais de livraison",
+  "TVA non applicable, art. 293 B du CGI",
+  "Taxes en sus (TPS 5 %, TVQ 9,975 %)",
+  "Règlement à réception de facture",
+  "Paiement à 30 jours fin de mois",
+  "Pénalités de retard : trois fois le taux d'intérêt légal",
+  "Horaires modifiés pendant les vacances scolaires",
+  "Document interne, ne pas diffuser",
+  "Export du logiciel de caisse, {date}",
+  "Tout rendez-vous non annulé 24 h avant est dû"
+ ],
+ "title_rows": {
+  "products": [
+   "Tarifs {year}",
+   "Liste des prix – {business}",
+   "Catalogue produits {year}",
+   "Tarif public {year}",
+   "Tarifs au 1er {month} {year}",
+   "Grille tarifaire {year}",
+   "Nos produits",
+   "Liste des articles"
+  ],
+  "services": [
+   "Nos prestations et tarifs",
+   "Carte des soins {year}",
+   "Tarifs des prestations {year}",
+   "Grille tarifaire des prestations",
+   "{business} – Nos tarifs",
+   "Liste des prestations",
+   "Tarifs {year} – {business}"
+  ],
+  "opening_hours": [
+   "Horaires d'ouverture",
+   "Nos horaires",
+   "Heures d'ouverture",
+   "Horaires {year}",
+   "{business} – Horaires d'ouverture",
+   "Horaires d'été {year}",
+   "Horaires du magasin"
+  ],
+  "staff": [
+   "Liste du personnel",
+   "Annuaire interne",
+   "Équipe {business}",
+   "Registre du personnel {year}",
+   "Effectif au {month} {year}",
+   "Coordonnées de l'équipe",
+   "Liste des salariés"
+  ],
+  "clients": [
+   "Fichier clients",
+   "Liste des clients {year}",
+   "Base clients – {business}",
+   "Répertoire clients",
+   "Carnet d'adresses clients",
+   "Clients actifs au {month} {year}"
+  ],
+  "bookings": [
+   "Planning des rendez-vous – {month} {year}",
+   "Agenda {month} {year}",
+   "Planning des RDV",
+   "Rendez-vous de la semaine",
+   "Réservations – {business}",
+   "Carnet de rendez-vous {year}"
+  ],
+  "invoice_ledger": [
+   "Registre des factures {year}",
+   "Journal des ventes {year}",
+   "Suivi des factures",
+   "Factures émises – {month} {year}",
+   "Suivi des encaissements {year}",
+   "Livre des recettes {year}",
+   "Relevé des factures clients"
+  ]
+ },
+ "sheet_names": {
+  "products": [
+   "Tarifs",
+   "Produits",
+   "Articles",
+   "Catalogue",
+   "Tarifs {year}",
+   "Liste de prix",
+   "Stock"
+  ],
+  "services": [
+   "Prestations",
+   "Services",
+   "Tarifs prestations",
+   "Soins",
+   "Carte des soins",
+   "Nos tarifs",
+   "Grille tarifaire"
+  ],
+  "opening_hours": [
+   "Horaires",
+   "Heures d'ouverture",
+   "Ouverture",
+   "Horaires {year}",
+   "Horaires magasin"
+  ],
+  "staff": [
+   "Personnel",
+   "Équipe",
+   "Salariés",
+   "Collaborateurs",
+   "Annuaire",
+   "RH",
+   "Effectif"
+  ],
+  "clients": [
+   "Clients",
+   "Fichier clients",
+   "Base clients",
+   "Contacts",
+   "Clients {year}",
+   "Répertoire"
+  ],
+  "bookings": [
+   "RDV",
+   "Rendez-vous",
+   "Planning",
+   "Agenda",
+   "Réservations",
+   "Planning {year}"
+  ],
+  "invoice_ledger": [
+   "Factures",
+   "Factures {year}",
+   "Journal des ventes",
+   "Suivi factures",
+   "Registre factures",
+   "Ventes {year}",
+   "Recettes"
+  ],
+  "other": [
+   "Feuil1",
+   "Feuil2",
+   "Feuil3",
+   "Feuille1",
+   "Feuille 1",
+   "Données",
+   "Paramètres",
+   "Listes",
+   "Brouillon",
+   "Notes",
+   "Récap"
+  ]
+ },
+ "hours_notes": [
+  "sur rendez-vous",
+  "sur RDV",
+  "uniquement sur rendez-vous",
+  "sans interruption",
+  "journée continue",
+  "non-stop",
+  "fermé les jours fériés",
+  "ouvert les jours fériés",
+  "sauf jours fériés",
+  "horaires d'été",
+  "nocturne jusqu'à 21 h",
+  "fermé pendant les vacances",
+  "fermeture annuelle en août",
+  "permanence téléphonique",
+  "dernier RDV à 18 h"
+ ],
+ "balance_rows": [
+  "Report",
+  "Report à nouveau",
+  "À reporter",
+  "Solde reporté",
+  "Solde antérieur",
+  "Solde précédent",
+  "Report du mois précédent"
+ ],
+ "credit_note": [
+  "Avoir",
+  "Note de crédit",
+  "Facture d'avoir"
+ ],
+ "not_a_table": {
+  "notes_page": [
+   "Penser à relancer les clients en retard de paiement avant le 15 du mois.",
+   "Commander les sacs kraft chez le fournisseur, le stock est presque épuisé.",
+   "Réunion d'équipe tous les lundis à 9 h, présence obligatoire.",
+   "Les congés d'été sont à poser avant le 31 mars, merci de noter vos dates sur le planning.",
+   "Faire la caisse chaque soir et noter les écarts dans le cahier.",
+   "Le nouveau terminal de paiement sera installé la semaine prochaine.",
+   "Appeler le comptable pour la déclaration de TVA du trimestre.",
+   "Le code du Wi-Fi clients est affiché à l'accueil.",
+   "Prévoir l'inventaire annuel le dernier samedi de décembre.",
+   "Ne pas oublier de mettre à jour les tarifs sur le site internet.",
+   "Le contrat d'entretien de la chaudière est à renouveler en octobre."
+  ],
+  "summary": [
+   "Chiffre d'affaires",
+   "Achats",
+   "Charges",
+   "Salaires",
+   "Loyer",
+   "Marge brute",
+   "Résultat",
+   "Bénéfice net",
+   "Nombre de clients",
+   "Panier moyen",
+   "Trésorerie"
+  ],
+  "chart": [
+   "Ventes",
+   "Visites",
+   "Chiffre d'affaires",
+   "Commandes",
+   "Nouveaux clients",
+   "Objectif",
+   "Réservations",
+   "Fréquentation"
+  ]
+ },
+ "budget": {
+  "headers": [
+   "Poste",
+   "Poste budgétaire",
+   "Budget",
+   "Budget annuel",
+   "Prévu",
+   "Prévisionnel",
+   "Réalisé",
+   "Réel",
+   "Écart",
+   "Écart (%)",
+   "N-1",
+   "Reste disponible"
+  ],
+  "lines": [
+   "Loyer",
+   "Électricité",
+   "Eau",
+   "Chauffage",
+   "Assurances",
+   "Salaires",
+   "Charges sociales",
+   "Fournitures de bureau",
+   "Téléphone et internet",
+   "Publicité",
+   "Honoraires comptables",
+   "Frais bancaires",
+   "Carburant",
+   "Entretien et réparations",
+   "Achats de marchandises",
+   "Formation",
+   "Impôts et taxes",
+   "Déplacements",
+   "Abonnements logiciels"
+  ]
+ }
+}

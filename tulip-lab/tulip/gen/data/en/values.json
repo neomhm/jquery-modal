@@ -1,0 +1,708 @@
+{
+ "weekdays": {
+  "full": [
+   "Monday",
+   "Tuesday",
+   "Wednesday",
+   "Thursday",
+   "Friday",
+   "Saturday",
+   "Sunday"
+  ],
+  "short": [
+   "Mon",
+   "Tue",
+   "Wed",
+   "Thu",
+   "Fri",
+   "Sat",
+   "Sun"
+  ],
+  "other": [
+   [
+    "Mon.",
+    "Mo",
+    "Mondays"
+   ],
+   [
+    "Tues",
+    "Tue.",
+    "Tues.",
+    "Tu",
+    "Tuesdays"
+   ],
+   [
+    "Weds",
+    "Wed.",
+    "We",
+    "Wednesdays"
+   ],
+   [
+    "Thur",
+    "Thurs",
+    "Thu.",
+    "Thurs.",
+    "Th",
+    "Thursdays"
+   ],
+   [
+    "Fri.",
+    "Fr",
+    "Fridays"
+   ],
+   [
+    "Sat.",
+    "Sa",
+    "Saturdays"
+   ],
+   [
+    "Sun.",
+    "Su",
+    "Sundays"
+   ]
+  ]
+ },
+ "months": {
+  "full": [
+   "January",
+   "February",
+   "March",
+   "April",
+   "May",
+   "June",
+   "July",
+   "August",
+   "September",
+   "October",
+   "November",
+   "December"
+  ],
+  "short": [
+   "Jan",
+   "Feb",
+   "Mar",
+   "Apr",
+   "May",
+   "Jun",
+   "Jul",
+   "Aug",
+   "Sep",
+   "Oct",
+   "Nov",
+   "Dec"
+  ]
+ },
+ "closed": [
+  "Closed",
+  "Closed all day",
+  "Shut",
+  "Not open",
+  "Holiday",
+  "Weekly off",
+  "Day off"
+ ],
+ "yes": [
+  "Yes",
+  "Y",
+  "✓",
+  "✔",
+  "TRUE"
+ ],
+ "no": [
+  "No",
+  "N",
+  "✗",
+  "✘",
+  "FALSE"
+ ],
+ "totals": [
+  "Total",
+  "Grand Total",
+  "Totals",
+  "Overall Total",
+  "Sum Total"
+ ],
+ "subtotals": [
+  "Subtotal",
+  "Sub-total",
+  "Sub Total",
+  "Subtotal for",
+  "Section subtotal"
+ ],
+ "invoice_status": {
+  "paid": [
+   "Paid",
+   "Paid in full",
+   "Settled",
+   "Payment received",
+   "Cleared"
+  ],
+  "unpaid": [
+   "Unpaid",
+   "Outstanding",
+   "Due",
+   "Open",
+   "Awaiting payment",
+   "Not paid",
+   "Pending payment"
+  ],
+  "partial": [
+   "Partially paid",
+   "Part paid",
+   "Part-paid",
+   "Partial",
+   "Partial payment",
+   "Deposit paid"
+  ],
+  "overdue": [
+   "Overdue",
+   "Past due",
+   "Late",
+   "In arrears",
+   "Payment overdue"
+  ],
+  "cancelled": [
+   "Cancelled",
+   "Canceled",
+   "Void",
+   "Voided"
+  ],
+  "other": [
+   "Draft",
+   "Quote",
+   "Pro forma",
+   "Proforma",
+   "Estimate",
+   "Disputed",
+   "On hold",
+   "Written off"
+  ]
+ },
+ "booking_status": {
+  "confirmed": [
+   "Confirmed",
+   "Booked",
+   "Conf.",
+   "Scheduled",
+   "Accepted",
+   "Reserved"
+  ],
+  "pending": [
+   "Pending",
+   "Unconfirmed",
+   "Awaiting confirmation",
+   "Tentative",
+   "Requested",
+   "To confirm",
+   "Provisional"
+  ],
+  "completed": [
+   "Completed",
+   "Done",
+   "Attended",
+   "Complete",
+   "Checked out",
+   "Finished",
+   "Seen"
+  ],
+  "cancelled": [
+   "Cancelled",
+   "Canceled",
+   "Cxl",
+   "Cancelled by client",
+   "Client cancelled",
+   "Late cancellation"
+  ],
+  "no_show": [
+   "No-show",
+   "No show",
+   "DNA",
+   "Did not attend",
+   "Did not show",
+   "Absent",
+   "Missed"
+  ],
+  "other": [
+   "Rescheduled",
+   "Moved",
+   "Waitlist",
+   "Waitlisted",
+   "On hold"
+  ]
+ },
+ "tax_included": [
+  "incl. VAT",
+  "VAT included",
+  "including GST",
+  "inc. GST",
+  "MRP",
+  "inc VAT",
+  "inc GST",
+  "incl. GST",
+  "incl. tax",
+  "tax included",
+  "tax incl.",
+  "inclusive of all taxes",
+  "incl. of all taxes",
+  "incl. HST",
+  "VAT inclusive",
+  "GST inclusive",
+  "including VAT"
+ ],
+ "tax_excluded": [
+  "excl. VAT",
+  "excluding VAT",
+  "VAT not included",
+  "+ VAT",
+  "plus GST",
+  "ex VAT",
+  "ex GST",
+  "excl. GST",
+  "excl. tax",
+  "+ GST",
+  "plus VAT",
+  "plus tax",
+  "before tax",
+  "pre-tax",
+  "+ HST",
+  "GST extra",
+  "taxes extra",
+  "excl. HST",
+  "excluding GST"
+ ],
+ "from_words": [
+  "From",
+  "Starting at",
+  "Starting from",
+  "Prices from",
+  "As low as"
+ ],
+ "units": {
+  "piece": [
+   "pc",
+   "pcs",
+   "each",
+   "ea",
+   "unit",
+   "item",
+   "Nos."
+  ],
+  "kg": [
+   "kg",
+   "kgs",
+   "kilo",
+   "kilogram"
+  ],
+  "g": [
+   "g",
+   "gm",
+   "gms",
+   "grams"
+  ],
+  "l": [
+   "L",
+   "ltr",
+   "litre",
+   "liter"
+  ],
+  "ml": [
+   "ml",
+   "millilitre"
+  ],
+  "box": [
+   "box",
+   "carton",
+   "case"
+  ],
+  "pack": [
+   "pack",
+   "pkt",
+   "packet",
+   "pk"
+  ],
+  "hour": [
+   "hr",
+   "hour",
+   "hrs",
+   "h",
+   "hours"
+  ],
+  "day": [
+   "day",
+   "days"
+  ],
+  "month": [
+   "month",
+   "mo",
+   "mth",
+   "months"
+  ],
+  "person": [
+   "person",
+   "pax",
+   "head",
+   "guest",
+   "pp",
+   "people"
+  ],
+  "session": [
+   "session",
+   "sessions",
+   "class",
+   "lesson",
+   "visit"
+  ],
+  "set": [
+   "set",
+   "sets",
+   "kit"
+  ],
+  "m": [
+   "m",
+   "metre",
+   "meter",
+   "mtr",
+   "lm"
+  ],
+  "m2": [
+   "m2",
+   "sq m",
+   "sqm",
+   "sq. m.",
+   "sq metre"
+  ]
+ },
+ "minute_words": [
+  "min",
+  "mins",
+  "minutes",
+  "minute"
+ ],
+ "hour_words": [
+  "h",
+  "hr",
+  "hrs",
+  "hours",
+  "hour"
+ ],
+ "am_pm": [
+  [
+   "AM",
+   "PM"
+  ],
+  [
+   "am",
+   "pm"
+  ],
+  [
+   "a.m.",
+   "p.m."
+  ],
+  [
+   "A.M.",
+   "P.M."
+  ]
+ ],
+ "notes_rows": [
+  "Prices valid until {date}",
+  "* Prices subject to change without notice",
+  "Prices correct as of {date}",
+  "Last updated: {date}",
+  "E&OE",
+  "Please call for a quote on larger orders",
+  "All prices are subject to availability",
+  "Payment terms: 30 days from invoice date",
+  "Thank you for your business!",
+  "Price list {year}, supersedes all previous lists",
+  "Delivery charges extra where applicable",
+  "* Price on request for bespoke work",
+  "Errors and omissions excepted",
+  "Rates effective from {date}"
+ ],
+ "title_rows": {
+  "products": [
+   "Price List {year}",
+   "Product Price List – {business}",
+   "{business} – Price List",
+   "Product List",
+   "Stock List – {month} {year}",
+   "Wholesale Price List {year}",
+   "Retail Price List",
+   "Product Catalogue {year}",
+   "Rate List {year}",
+   "Stock Take – {month} {year}"
+  ],
+  "services": [
+   "Service Menu",
+   "Services & Prices",
+   "Price List – Services",
+   "{business} Service Menu {year}",
+   "Our Services {year}",
+   "Treatment Menu",
+   "Schedule of Fees",
+   "Fee Schedule {year}",
+   "Rate Card {year}",
+   "Services and Rates – {business}"
+  ],
+  "opening_hours": [
+   "Opening Hours",
+   "Opening Times",
+   "Business Hours",
+   "Trading Hours",
+   "{business} – Opening Hours",
+   "Store Hours",
+   "Office Hours",
+   "Opening Hours {year}",
+   "Holiday Opening Hours {year}",
+   "Shop Timings"
+  ],
+  "staff": [
+   "Staff List",
+   "Employee List",
+   "Staff Directory",
+   "Team List {year}",
+   "{business} – Staff",
+   "Employee Register",
+   "Staff Contact List",
+   "Our Team",
+   "Employee Directory {year}",
+   "Staff Details – {month} {year}"
+  ],
+  "clients": [
+   "Client List",
+   "Customer List",
+   "Customer Database",
+   "{business} – Client List",
+   "Client Contacts {year}",
+   "Customer Details",
+   "Client Register",
+   "Mailing List",
+   "Customer Master",
+   "Key Accounts {year}"
+  ],
+  "bookings": [
+   "Appointments",
+   "Bookings",
+   "Appointment Schedule – {month} {year}",
+   "Booking List {month} {year}",
+   "Diary – {month} {year}",
+   "Reservations {month} {year}",
+   "Appointment Book",
+   "Bookings for {month}",
+   "{business} – Appointments",
+   "Weekly Schedule"
+  ],
+  "invoice_ledger": [
+   "Invoice Register {year}",
+   "Sales Ledger {year}",
+   "Invoices {year}",
+   "Sales Invoices – {month} {year}",
+   "Invoice Log",
+   "Sales Day Book",
+   "Sales Register {year}",
+   "Invoice Tracker",
+   "Accounts Receivable",
+   "Outstanding Invoices – {business}"
+  ]
+ },
+ "sheet_names": {
+  "products": [
+   "Products",
+   "Price List",
+   "Prices",
+   "Stock",
+   "Inventory",
+   "Products {year}",
+   "Price List {year}",
+   "Items",
+   "Catalogue",
+   "Rate List"
+  ],
+  "services": [
+   "Services",
+   "Service Menu",
+   "Treatments",
+   "Fees",
+   "Rates",
+   "Services {year}",
+   "Service Prices",
+   "Price List"
+  ],
+  "opening_hours": [
+   "Hours",
+   "Opening Hours",
+   "Opening Times",
+   "Timings",
+   "Store Hours",
+   "Business Hours"
+  ],
+  "staff": [
+   "Staff",
+   "Employees",
+   "Team",
+   "Staff List",
+   "Directory",
+   "HR",
+   "Staff {year}"
+  ],
+  "clients": [
+   "Clients",
+   "Customers",
+   "Client List",
+   "Contacts",
+   "Customer List",
+   "CRM",
+   "Accounts"
+  ],
+  "bookings": [
+   "Bookings",
+   "Appointments",
+   "Diary",
+   "Schedule",
+   "Calendar",
+   "Reservations",
+   "Appts",
+   "Bookings {year}"
+  ],
+  "invoice_ledger": [
+   "Invoices",
+   "Sales Ledger",
+   "Invoice Register",
+   "Sales",
+   "Invoices {year}",
+   "Receivables",
+   "Sales Register",
+   "Ledger"
+  ],
+  "other": [
+   "Sheet1",
+   "Sheet2",
+   "Sheet3",
+   "Sheet 1",
+   "Notes",
+   "Summary",
+   "Data",
+   "Lookup",
+   "Settings",
+   "Instructions",
+   "Dashboard",
+   "Old"
+  ]
+ },
+ "hours_notes": [
+  "By appointment",
+  "By appointment only",
+  "Closed on public holidays",
+  "Closed bank holidays",
+  "Holiday hours may vary",
+  "Kitchen closes at 9 pm",
+  "Summer hours",
+  "Late night opening",
+  "Walk-ins welcome",
+  "Emergency call-outs 24/7",
+  "Last orders 30 min before close",
+  "Lunch break 1–2 pm",
+  "Except public holidays",
+  "Seasonal hours",
+  "Takeaway only",
+  "Appointments recommended"
+ ],
+ "balance_rows": [
+  "Balance brought forward",
+  "Balance b/f",
+  "Brought forward",
+  "B/F",
+  "Opening balance",
+  "Balance carried forward",
+  "Carried forward",
+  "Balance c/f"
+ ],
+ "credit_note": [
+  "Credit note",
+  "Credit memo",
+  "CN",
+  "Cr. note"
+ ],
+ "not_a_table": {
+  "notes_page": [
+   "Remember to order more flour before the long weekend.",
+   "Call the landlord about the leaking tap in the back office.",
+   "New price list goes live on the first of next month.",
+   "Ask the accountant whether we need to register for GST this year.",
+   "Staff meeting moved to Thursday at 8:30, before opening.",
+   "Card machine contract renews in March, compare other providers first.",
+   "Chase the two invoices that are more than 60 days overdue.",
+   "Order new business cards with the updated phone number.",
+   "Insurance renewal is due at the end of the quarter, get three quotes.",
+   "Holiday rota: everyone please add your leave dates by Friday.",
+   "Back up the laptop to the external drive every Friday afternoon.",
+   "Supplier is raising prices by 5% from next month, review our margins."
+  ],
+  "summary": [
+   "Revenue",
+   "Turnover",
+   "Cost of Sales",
+   "Gross Profit",
+   "Overheads",
+   "Wages",
+   "Net Profit",
+   "Cash at Bank",
+   "Average Sale",
+   "No. of Customers"
+  ],
+  "chart": [
+   "Sales",
+   "Visits",
+   "Orders",
+   "Revenue",
+   "New Customers",
+   "Bookings",
+   "Website Visitors",
+   "Last Year",
+   "This Year",
+   "Target"
+  ]
+ },
+ "budget": {
+  "headers": [
+   "Line Item",
+   "Budget",
+   "Actual",
+   "Variance",
+   "Var %",
+   "Forecast",
+   "Prior Year",
+   "Q1",
+   "Q2",
+   "Q3",
+   "Q4",
+   "Full Year",
+   "Monthly Budget",
+   "Annual Budget"
+  ],
+  "lines": [
+   "Rent",
+   "Business Rates",
+   "Electricity",
+   "Gas",
+   "Water",
+   "Wages and Salaries",
+   "Insurance",
+   "Advertising and Marketing",
+   "Telephone and Internet",
+   "Accountancy Fees",
+   "Bank Charges",
+   "Repairs and Maintenance",
+   "Motor Expenses",
+   "Stationery and Postage",
+   "Software Subscriptions",
+   "Travel",
+   "Training",
+   "Stock Purchases",
+   "Card Machine Fees",
+   "Cleaning",
+   "Loan Repayments",
+   "Professional Fees"
+  ]
+ }
+}

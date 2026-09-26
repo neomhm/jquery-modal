@@ -1,0 +1,12293 @@
+{
+ "bakery": {
+  "categories": [
+   "麵包",
+   "吐司",
+   "蛋糕",
+   "西點",
+   "中式糕餅",
+   "禮盒"
+  ],
+  "roles": [
+   "麵包師傅",
+   "西點師傅",
+   "烘焙助理",
+   "學徒",
+   "門市人員",
+   "包裝人員",
+   "店長"
+  ],
+  "departments": [
+   "烘焙廚房",
+   "門市",
+   "行政部"
+  ],
+  "items": [
+   {
+    "name": "菠蘿麵包",
+    "kind": "product",
+    "category": "麵包",
+    "usd": [
+     0.9,
+     1.4
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "肉鬆麵包",
+    "kind": "product",
+    "category": "麵包",
+    "usd": [
+     1.1,
+     1.7
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "紅豆麵包",
+    "kind": "product",
+    "category": "麵包",
+    "usd": [
+     0.9,
+     1.4
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "雞尾包",
+    "kind": "product",
+    "category": "麵包",
+    "usd": [
+     0.8,
+     1.3
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "腸仔包",
+    "kind": "product",
+    "category": "麵包",
+    "usd": [
+     0.9,
+     1.4
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "奶油可頌",
+    "kind": "product",
+    "category": "麵包",
+    "usd": [
+     1.3,
+     2.5
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "法式長棍麵包",
+    "kind": "product",
+    "category": "麵包",
+    "usd": [
+     1.6,
+     2.6
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "鮮奶吐司",
+    "kind": "product",
+    "category": "吐司",
+    "usd": [
+     2.2,
+     3.8
+    ],
+    "unit": "piece",
+    "variants": [
+     "半條",
+     "一條"
+    ]
+   },
+   {
+    "name": "生吐司",
+    "kind": "product",
+    "category": "吐司",
+    "usd": [
+     3.0,
+     5.2
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "全麥吐司",
+    "kind": "product",
+    "category": "吐司",
+    "usd": [
+     2.0,
+     3.5
+    ],
+    "unit": "piece",
+    "variants": [
+     "半條",
+     "一條"
+    ]
+   },
+   {
+    "name": "鮮奶油水果蛋糕",
+    "kind": "product",
+    "category": "蛋糕",
+    "usd": [
+     14,
+     40
+    ],
+    "unit": "piece",
+    "variants": [
+     "6吋",
+     "8吋",
+     "10吋"
+    ]
+   },
+   {
+    "name": "生日蛋糕",
+    "kind": "product",
+    "category": "蛋糕",
+    "usd": [
+     18,
+     55
+    ],
+    "unit": "piece",
+    "variants": [
+     "6吋",
+     "8吋",
+     "10吋",
+     "12吋"
+    ]
+   },
+   {
+    "name": "重乳酪蛋糕",
+    "kind": "product",
+    "category": "蛋糕",
+    "usd": [
+     15,
+     30
+    ],
+    "unit": "piece",
+    "variants": [
+     "6吋",
+     "8吋"
+    ]
+   },
+   {
+    "name": "瑞士捲",
+    "kind": "product",
+    "category": "蛋糕",
+    "usd": [
+     6,
+     12
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "葡式蛋塔",
+    "kind": "product",
+    "category": "西點",
+    "usd": [
+     1.1,
+     1.7
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "檸檬塔",
+    "kind": "product",
+    "category": "西點",
+    "usd": [
+     1.9,
+     3.4
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "卡士達泡芙",
+    "kind": "product",
+    "category": "西點",
+    "usd": [
+     1.2,
+     2.2
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "老婆餅",
+    "kind": "product",
+    "category": "中式糕餅",
+    "usd": [
+     0.8,
+     1.5
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "蛋黃酥",
+    "kind": "product",
+    "category": "中式糕餅",
+    "usd": [
+     1.3,
+     2.2
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "鳳梨酥禮盒（12入）",
+    "kind": "product",
+    "category": "禮盒",
+    "usd": [
+     9,
+     19
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "中式喜餅禮盒",
+    "kind": "product",
+    "category": "禮盒",
+    "usd": [
+     12,
+     28
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "手工餅乾禮盒",
+    "kind": "product",
+    "category": "禮盒",
+    "usd": [
+     8,
+     16
+    ],
+    "unit": "box",
+    "variants": [
+     "小盒",
+     "大盒"
+    ]
+   },
+   {
+    "name": "雙黃白蓮蓉月餅（4個裝）",
+    "kind": "product",
+    "category": "禮盒",
+    "usd": [
+     25,
+     50
+    ],
+    "unit": "box"
+   }
+  ]
+ },
+ "restaurant": {
+  "categories": [
+   "主餐",
+   "麵飯類",
+   "熱炒",
+   "湯品",
+   "點心",
+   "飲料"
+  ],
+  "roles": [
+   "主廚",
+   "廚師",
+   "廚房助手",
+   "外場服務員",
+   "樓面經理",
+   "領班",
+   "收銀員",
+   "店長"
+  ],
+  "departments": [
+   "廚房",
+   "外場",
+   "行政"
+  ],
+  "items": [
+   {
+    "name": "商業午餐套餐",
+    "kind": "product",
+    "category": "主餐",
+    "usd": [
+     4.5,
+     9.5
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "燒味雙拼飯",
+    "kind": "product",
+    "category": "主餐",
+    "usd": [
+     3.8,
+     6
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "清蒸石斑魚",
+    "kind": "product",
+    "category": "主餐",
+    "usd": [
+     25,
+     50
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "十人合菜桌餐",
+    "kind": "product",
+    "category": "主餐",
+    "usd": [
+     190,
+     470
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "尾牙春酒包桌",
+    "kind": "product",
+    "category": "主餐",
+    "usd": [
+     250,
+     620
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "紅燒牛肉麵",
+    "kind": "product",
+    "category": "麵飯類",
+    "usd": [
+     5,
+     9
+    ],
+    "unit": "piece",
+    "variants": [
+     "小碗",
+     "大碗"
+    ]
+   },
+   {
+    "name": "滷肉飯",
+    "kind": "product",
+    "category": "麵飯類",
+    "usd": [
+     1.1,
+     2.2
+    ],
+    "unit": "piece",
+    "variants": [
+     "小碗",
+     "中碗",
+     "大碗"
+    ]
+   },
+   {
+    "name": "雞肉飯",
+    "kind": "product",
+    "category": "麵飯類",
+    "usd": [
+     1.2,
+     2.2
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "乾炒牛河",
+    "kind": "product",
+    "category": "麵飯類",
+    "usd": [
+     4.5,
+     8
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "揚州炒飯",
+    "kind": "product",
+    "category": "麵飯類",
+    "usd": [
+     4,
+     7.5
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "三杯雞",
+    "kind": "product",
+    "category": "熱炒",
+    "usd": [
+     8.5,
+     13
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "宮保雞丁",
+    "kind": "product",
+    "category": "熱炒",
+    "usd": [
+     7.5,
+     12
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "麻婆豆腐",
+    "kind": "product",
+    "category": "熱炒",
+    "usd": [
+     5.5,
+     9
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "蔥爆牛肉",
+    "kind": "product",
+    "category": "熱炒",
+    "usd": [
+     8.5,
+     13
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "炒時蔬",
+    "kind": "product",
+    "category": "熱炒",
+    "usd": [
+     4,
+     7
+    ],
+    "unit": "piece",
+    "variants": [
+     "小盤",
+     "大盤"
+    ]
+   },
+   {
+    "name": "酸菜白肉鍋",
+    "kind": "product",
+    "category": "湯品",
+    "usd": [
+     18,
+     30
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "貢丸湯",
+    "kind": "product",
+    "category": "湯品",
+    "usd": [
+     1.2,
+     2
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "港式點心拼盤",
+    "kind": "product",
+    "category": "點心",
+    "usd": [
+     8,
+     15
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "蝦餃",
+    "kind": "product",
+    "category": "點心",
+    "usd": [
+     3.5,
+     6
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "燒賣",
+    "kind": "product",
+    "category": "點心",
+    "usd": [
+     3,
+     5.5
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "古早味紅茶",
+    "kind": "product",
+    "category": "飲料",
+    "usd": [
+     1,
+     2
+    ],
+    "unit": "piece",
+    "variants": [
+     "中杯",
+     "大杯"
+    ]
+   },
+   {
+    "name": "凍檸茶",
+    "kind": "product",
+    "category": "飲料",
+    "usd": [
+     2,
+     3.5
+    ],
+    "unit": "piece"
+   }
+  ]
+ },
+ "cafe_bar": {
+  "categories": [
+   "咖啡",
+   "茶飲",
+   "酒類",
+   "輕食",
+   "甜點"
+  ],
+  "roles": [
+   "咖啡師",
+   "調酒師",
+   "吧台人員",
+   "外場服務生",
+   "廚房助手",
+   "店長",
+   "兼職人員"
+  ],
+  "departments": [
+   "吧台",
+   "外場",
+   "廚房"
+  ],
+  "items": [
+   {
+    "name": "美式咖啡",
+    "kind": "product",
+    "category": "咖啡",
+    "usd": [
+     1.9,
+     3.8
+    ],
+    "unit": "piece",
+    "variants": [
+     "中杯",
+     "大杯"
+    ]
+   },
+   {
+    "name": "拿鐵咖啡",
+    "kind": "product",
+    "category": "咖啡",
+    "usd": [
+     2.8,
+     5
+    ],
+    "unit": "piece",
+    "variants": [
+     "中杯",
+     "大杯",
+     "特大杯"
+    ]
+   },
+   {
+    "name": "卡布奇諾",
+    "kind": "product",
+    "category": "咖啡",
+    "usd": [
+     2.8,
+     5
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "手沖單品咖啡",
+    "kind": "product",
+    "category": "咖啡",
+    "usd": [
+     4.5,
+     9
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "冰滴咖啡",
+    "kind": "product",
+    "category": "咖啡",
+    "usd": [
+     4,
+     7
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "自家烘焙咖啡豆",
+    "kind": "product",
+    "category": "咖啡",
+    "usd": [
+     11,
+     20
+    ],
+    "unit": "pack",
+    "variants": [
+     "半磅",
+     "一磅"
+    ]
+   },
+   {
+    "name": "珍珠奶茶",
+    "kind": "product",
+    "category": "茶飲",
+    "usd": [
+     1.6,
+     2.4
+    ],
+    "unit": "piece",
+    "variants": [
+     "中杯",
+     "大杯"
+    ]
+   },
+   {
+    "name": "港式凍檸茶",
+    "kind": "product",
+    "category": "茶飲",
+    "usd": [
+     1.6,
+     2.8
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "鴛鴦奶茶",
+    "kind": "product",
+    "category": "茶飲",
+    "usd": [
+     1.9,
+     3.1
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "伯爵紅茶",
+    "kind": "product",
+    "category": "茶飲",
+    "usd": [
+     3,
+     5
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "經典調酒",
+    "kind": "product",
+    "category": "酒類",
+    "usd": [
+     9,
+     14
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "琴通寧",
+    "kind": "product",
+    "category": "酒類",
+    "usd": [
+     8,
+     12
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "精釀生啤酒",
+    "kind": "product",
+    "category": "酒類",
+    "usd": [
+     5.5,
+     9
+    ],
+    "unit": "piece",
+    "variants": [
+     "半品脫",
+     "一品脫"
+    ]
+   },
+   {
+    "name": "瓶裝啤酒",
+    "kind": "product",
+    "category": "酒類",
+    "usd": [
+     3.5,
+     6
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "單一麥芽威士忌（單杯）",
+    "kind": "product",
+    "category": "酒類",
+    "usd": [
+     8,
+     19
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "法式吐司早午餐",
+    "kind": "product",
+    "category": "輕食",
+    "usd": [
+     7.5,
+     12
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "總匯三明治",
+    "kind": "product",
+    "category": "輕食",
+    "usd": [
+     4,
+     7
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "凱薩沙拉",
+    "kind": "product",
+    "category": "輕食",
+    "usd": [
+     5,
+     8
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "菠蘿油",
+    "kind": "product",
+    "category": "輕食",
+    "usd": [
+     1.3,
+     2.2
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "重乳酪蛋糕",
+    "kind": "product",
+    "category": "甜點",
+    "usd": [
+     3.8,
+     5.6
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "提拉米蘇",
+    "kind": "product",
+    "category": "甜點",
+    "usd": [
+     4,
+     6.5
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "比利時鬆餅",
+    "kind": "product",
+    "category": "甜點",
+    "usd": [
+     5,
+     8
+    ],
+    "unit": "piece"
+   }
+  ]
+ },
+ "hotel": {
+  "categories": [
+   "客房",
+   "餐飲",
+   "會議宴會",
+   "休閒設施",
+   "其他服務"
+  ],
+  "roles": [
+   "櫃檯接待",
+   "訂房專員",
+   "房務員",
+   "房務領班",
+   "行李員",
+   "餐飲服務員",
+   "工務人員",
+   "大廳經理"
+  ],
+  "departments": [
+   "客務部",
+   "房務部",
+   "餐飲部",
+   "工務部"
+  ],
+  "items": [
+   {
+    "name": "標準雙人房",
+    "kind": "service",
+    "category": "客房",
+    "usd": [
+     65,
+     120
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "豪華雙人房",
+    "kind": "service",
+    "category": "客房",
+    "usd": [
+     90,
+     175
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "商務單人房",
+    "kind": "service",
+    "category": "客房",
+    "usd": [
+     55,
+     100
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "家庭四人房",
+    "kind": "service",
+    "category": "客房",
+    "usd": [
+     105,
+     200
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "行政套房",
+    "kind": "service",
+    "category": "客房",
+    "usd": [
+     185,
+     380
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "住宿含早餐專案",
+    "kind": "service",
+    "category": "客房",
+    "usd": [
+     85,
+     145
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "平日休息（3小時）",
+    "kind": "service",
+    "category": "客房",
+    "usd": [
+     30,
+     60
+    ],
+    "unit": "session",
+    "minutes": [
+     180,
+     180
+    ]
+   },
+   {
+    "name": "加床",
+    "kind": "service",
+    "category": "客房",
+    "usd": [
+     15,
+     30
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "延遲退房",
+    "kind": "service",
+    "category": "客房",
+    "usd": [
+     8,
+     20
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "自助式早餐",
+    "kind": "product",
+    "category": "餐飲",
+    "usd": [
+     11,
+     21
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "英式下午茶",
+    "kind": "product",
+    "category": "餐飲",
+    "usd": [
+     14,
+     45
+    ],
+    "unit": "set",
+    "variants": [
+     "單人套餐",
+     "雙人套餐"
+    ]
+   },
+   {
+    "name": "會議茶點",
+    "kind": "product",
+    "category": "餐飲",
+    "usd": [
+     6,
+     12
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "迷你吧飲料",
+    "kind": "product",
+    "category": "餐飲",
+    "usd": [
+     2,
+     5
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "會議室租借（半日）",
+    "kind": "service",
+    "category": "會議宴會",
+    "usd": [
+     150,
+     470
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     240
+    ]
+   },
+   {
+    "name": "會議室租借（全日）",
+    "kind": "service",
+    "category": "會議宴會",
+    "usd": [
+     280,
+     800
+    ],
+    "unit": "session",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "宴會廳包場",
+    "kind": "service",
+    "category": "會議宴會",
+    "usd": [
+     950,
+     3800
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "SPA芳療按摩",
+    "kind": "service",
+    "category": "休閒設施",
+    "usd": [
+     55,
+     110
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "溫泉湯屋（90分鐘）",
+    "kind": "service",
+    "category": "休閒設施",
+    "usd": [
+     25,
+     60
+    ],
+    "unit": "session",
+    "minutes": [
+     90,
+     90
+    ]
+   },
+   {
+    "name": "機場接送",
+    "kind": "service",
+    "category": "其他服務",
+    "usd": [
+     35,
+     80
+    ],
+    "unit": "session",
+    "minutes": [
+     45,
+     120
+    ]
+   },
+   {
+    "name": "衣物送洗",
+    "kind": "service",
+    "category": "其他服務",
+    "usd": [
+     2,
+     6
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   }
+  ]
+ },
+ "plumbing_hvac": {
+  "categories": [
+   "冷氣空調",
+   "給排水",
+   "衛浴設備",
+   "熱水器",
+   "維修工資"
+  ],
+  "roles": [
+   "水電師傅",
+   "冷氣技師",
+   "水喉師傅",
+   "助手",
+   "工地主任",
+   "估價人員",
+   "客服專員",
+   "會計"
+  ],
+  "departments": [
+   "工程部",
+   "維修部",
+   "行政部"
+  ],
+  "items": [
+   {
+    "name": "分離式冷氣安裝",
+    "kind": "service",
+    "category": "冷氣空調",
+    "usd": [
+     90,
+     190
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     300
+    ]
+   },
+   {
+    "name": "吊隱式冷氣安裝",
+    "kind": "service",
+    "category": "冷氣空調",
+    "usd": [
+     250,
+     470
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "窗型冷氣安裝",
+    "kind": "service",
+    "category": "冷氣空調",
+    "usd": [
+     60,
+     120
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "冷氣清洗保養",
+    "kind": "service",
+    "category": "冷氣空調",
+    "usd": [
+     45,
+     95
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "冷氣冷媒補充",
+    "kind": "service",
+    "category": "冷氣空調",
+    "usd": [
+     45,
+     110
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "全熱交換器安裝",
+    "kind": "service",
+    "category": "冷氣空調",
+    "usd": [
+     780,
+     1900
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "變頻分離式冷氣（一對一）",
+    "kind": "product",
+    "category": "冷氣空調",
+    "usd": [
+     700,
+     1600
+    ],
+    "unit": "set",
+    "variants": [
+     "2.8kW",
+     "3.6kW",
+     "5.0kW",
+     "7.1kW"
+    ]
+   },
+   {
+    "name": "窗型冷氣機",
+    "kind": "product",
+    "category": "冷氣空調",
+    "usd": [
+     350,
+     700
+    ],
+    "unit": "set",
+    "variants": [
+     "3-4坪",
+     "5-6坪",
+     "7-8坪"
+    ]
+   },
+   {
+    "name": "漏水檢測",
+    "kind": "service",
+    "category": "給排水",
+    "usd": [
+     45,
+     125
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "馬桶疏通",
+    "kind": "service",
+    "category": "給排水",
+    "usd": [
+     30,
+     80
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "廚廁通渠",
+    "kind": "service",
+    "category": "給排水",
+    "usd": [
+     40,
+     110
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "給水管更換",
+    "kind": "service",
+    "category": "給排水",
+    "usd": [
+     25,
+     55
+    ],
+    "unit": "m",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "排水管更換",
+    "kind": "service",
+    "category": "給排水",
+    "usd": [
+     30,
+     65
+    ],
+    "unit": "m",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "水塔清洗消毒",
+    "kind": "service",
+    "category": "給排水",
+    "usd": [
+     75,
+     155
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "抽水馬達更換",
+    "kind": "service",
+    "category": "給排水",
+    "usd": [
+     150,
+     375
+    ],
+    "unit": "set",
+    "minutes": [
+     90,
+     180
+    ]
+   },
+   {
+    "name": "浴室防水工程",
+    "kind": "service",
+    "category": "衛浴設備",
+    "usd": [
+     75,
+     155
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "水龍頭更換",
+    "kind": "service",
+    "category": "衛浴設備",
+    "usd": [
+     25,
+     60
+    ],
+    "unit": "piece",
+    "minutes": [
+     20,
+     60
+    ]
+   },
+   {
+    "name": "省水馬桶",
+    "kind": "product",
+    "category": "衛浴設備",
+    "usd": [
+     150,
+     450
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "電熱水器安裝",
+    "kind": "service",
+    "category": "熱水器",
+    "usd": [
+     45,
+     110
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     150
+    ]
+   },
+   {
+    "name": "瓦斯熱水器更換",
+    "kind": "service",
+    "category": "熱水器",
+    "usd": [
+     250,
+     560
+    ],
+    "unit": "set",
+    "minutes": [
+     90,
+     180
+    ]
+   },
+   {
+    "name": "儲熱式電熱水器",
+    "kind": "product",
+    "category": "熱水器",
+    "usd": [
+     180,
+     450
+    ],
+    "unit": "set",
+    "variants": [
+     "8加侖",
+     "12加侖",
+     "20加侖"
+    ]
+   },
+   {
+    "name": "水電師傅工資",
+    "kind": "service",
+    "category": "維修工資",
+    "usd": [
+     75,
+     125
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "出車檢查費",
+    "kind": "service",
+    "category": "維修工資",
+    "usd": [
+     15,
+     30
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   }
+  ]
+ },
+ "electrical": {
+  "categories": [
+   "配線工程",
+   "照明",
+   "配電設備",
+   "檢測維修",
+   "太陽能"
+  ],
+  "roles": [
+   "電工師傅",
+   "電機技師",
+   "註冊電業工程人員",
+   "配線助手",
+   "工地主任",
+   "估價員",
+   "業務專員",
+   "行政助理"
+  ],
+  "departments": [
+   "工程部",
+   "設計部",
+   "行政部"
+  ],
+  "items": [
+   {
+    "name": "全室電線重新配置",
+    "kind": "service",
+    "category": "配線工程",
+    "usd": [
+     20,
+     45
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "插座迴路新增",
+    "kind": "service",
+    "category": "配線工程",
+    "usd": [
+     25,
+     50
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "開關插座面板更換",
+    "kind": "service",
+    "category": "配線工程",
+    "usd": [
+     9,
+     19
+    ],
+    "unit": "piece",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "冷氣專用迴路配線",
+    "kind": "service",
+    "category": "配線工程",
+    "usd": [
+     75,
+     160
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "網路線佈線",
+    "kind": "service",
+    "category": "配線工程",
+    "usd": [
+     35,
+     80
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "弱電配管",
+    "kind": "service",
+    "category": "配線工程",
+    "usd": [
+     8,
+     18
+    ],
+    "unit": "m",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "LED崁燈安裝",
+    "kind": "service",
+    "category": "照明",
+    "usd": [
+     12,
+     25
+    ],
+    "unit": "piece",
+    "minutes": [
+     15,
+     45
+    ]
+   },
+   {
+    "name": "LED崁燈",
+    "kind": "product",
+    "category": "照明",
+    "usd": [
+     6,
+     18
+    ],
+    "unit": "piece",
+    "variants": [
+     "9cm",
+     "12cm",
+     "15cm"
+    ]
+   },
+   {
+    "name": "LED燈管",
+    "kind": "product",
+    "category": "照明",
+    "usd": [
+     3,
+     8
+    ],
+    "unit": "piece",
+    "variants": [
+     "2呎",
+     "4呎"
+    ]
+   },
+   {
+    "name": "LED吸頂燈",
+    "kind": "product",
+    "category": "照明",
+    "usd": [
+     30,
+     120
+    ],
+    "unit": "piece",
+    "variants": [
+     "30W",
+     "45W",
+     "60W"
+    ]
+   },
+   {
+    "name": "總開關箱更換",
+    "kind": "service",
+    "category": "配電設備",
+    "usd": [
+     155,
+     380
+    ],
+    "unit": "set",
+    "minutes": [
+     180,
+     360
+    ]
+   },
+   {
+    "name": "漏電斷路器安裝",
+    "kind": "service",
+    "category": "配電設備",
+    "usd": [
+     45,
+     95
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "無熔絲開關",
+    "kind": "product",
+    "category": "配電設備",
+    "usd": [
+     10,
+     35
+    ],
+    "unit": "piece",
+    "variants": [
+     "20A",
+     "30A",
+     "50A"
+    ]
+   },
+   {
+    "name": "電錶增設申請代辦",
+    "kind": "service",
+    "category": "配電設備",
+    "usd": [
+     250,
+     650
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "電動車充電樁安裝",
+    "kind": "service",
+    "category": "配電設備",
+    "usd": [
+     300,
+     900
+    ],
+    "unit": "set",
+    "minutes": [
+     180,
+     480
+    ]
+   },
+   {
+    "name": "用電安全檢測",
+    "kind": "service",
+    "category": "檢測維修",
+    "usd": [
+     45,
+     110
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "停電緊急搶修",
+    "kind": "service",
+    "category": "檢測維修",
+    "usd": [
+     60,
+     160
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "高壓電氣設備定期檢驗",
+    "kind": "service",
+    "category": "檢測維修",
+    "usd": [
+     250,
+     800
+    ],
+    "unit": "session",
+    "minutes": [
+     180,
+     480
+    ]
+   },
+   {
+    "name": "電工技師工資",
+    "kind": "service",
+    "category": "檢測維修",
+    "usd": [
+     75,
+     130
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "太陽能光電系統建置",
+    "kind": "service",
+    "category": "太陽能",
+    "usd": [
+     3500,
+     9500
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "太陽能板清洗",
+    "kind": "service",
+    "category": "太陽能",
+    "usd": [
+     80,
+     200
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     300
+    ]
+   }
+  ]
+ },
+ "building_contractor": {
+  "categories": [
+   "結構工程",
+   "新建工程",
+   "拆除工程",
+   "修繕工程",
+   "假設工程",
+   "工程管理"
+  ],
+  "roles": [
+   "工地主任",
+   "土木工程師",
+   "地盤總管",
+   "品管人員",
+   "職安衛管理員",
+   "工料測量師",
+   "採購專員",
+   "工務助理"
+  ],
+  "departments": [
+   "工務部",
+   "設計部",
+   "採購部",
+   "行政部"
+  ],
+  "items": [
+   {
+    "name": "鋼筋混凝土結構體工程",
+    "kind": "service",
+    "category": "結構工程",
+    "usd": [
+     450,
+     1000
+    ],
+    "unit": "m2",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "混凝土地坪施作",
+    "kind": "service",
+    "category": "結構工程",
+    "usd": [
+     12,
+     28
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "結構補強工程",
+    "kind": "service",
+    "category": "結構工程",
+    "usd": [
+     9000,
+     47000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "擋土牆施作",
+    "kind": "service",
+    "category": "結構工程",
+    "usd": [
+     470,
+     1250
+    ],
+    "unit": "m",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "鋼筋加工綁紮",
+    "kind": "service",
+    "category": "結構工程",
+    "usd": [
+     0.4,
+     0.8
+    ],
+    "unit": "kg",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "模板組立",
+    "kind": "service",
+    "category": "結構工程",
+    "usd": [
+     15,
+     30
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "透天住宅新建",
+    "kind": "service",
+    "category": "新建工程",
+    "usd": [
+     650,
+     1200
+    ],
+    "unit": "m2",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "鋼構廠房工程",
+    "kind": "service",
+    "category": "新建工程",
+    "usd": [
+     280,
+     560
+    ],
+    "unit": "m2",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "舊屋拆除",
+    "kind": "service",
+    "category": "拆除工程",
+    "usd": [
+     28,
+     60
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "室內拆除清運",
+    "kind": "service",
+    "category": "拆除工程",
+    "usd": [
+     300,
+     900
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "廢棄物清運",
+    "kind": "service",
+    "category": "拆除工程",
+    "usd": [
+     150,
+     350
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     300
+    ]
+   },
+   {
+    "name": "外牆磁磚修繕",
+    "kind": "service",
+    "category": "修繕工程",
+    "usd": [
+     45,
+     110
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "屋頂防水隔熱",
+    "kind": "service",
+    "category": "修繕工程",
+    "usd": [
+     35,
+     80
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "輕隔間牆施作",
+    "kind": "service",
+    "category": "修繕工程",
+    "usd": [
+     30,
+     70
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "樓宇外牆維修",
+    "kind": "service",
+    "category": "修繕工程",
+    "usd": [
+     50,
+     125
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "浴室翻新",
+    "kind": "service",
+    "category": "修繕工程",
+    "usd": [
+     2500,
+     6500
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "施工架搭設",
+    "kind": "service",
+    "category": "假設工程",
+    "usd": [
+     4.5,
+     11
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "工地圍籬設置",
+    "kind": "service",
+    "category": "假設工程",
+    "usd": [
+     25,
+     60
+    ],
+    "unit": "m",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "工地施工管理",
+    "kind": "service",
+    "category": "工程管理",
+    "usd": [
+     2500,
+     6500
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "工程估價",
+    "kind": "service",
+    "category": "工程管理",
+    "usd": [
+     150,
+     500
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "點工工資",
+    "kind": "service",
+    "category": "工程管理",
+    "usd": [
+     80,
+     130
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   }
+  ]
+ },
+ "painting": {
+  "categories": [
+   "室內油漆",
+   "外牆塗裝",
+   "特殊塗料",
+   "壁紙",
+   "裝修工程",
+   "油漆材料"
+  ],
+  "roles": [
+   "油漆師傅",
+   "油漆工",
+   "學徒",
+   "工班領班",
+   "估價員",
+   "室內設計師",
+   "監工",
+   "行政助理"
+  ],
+  "departments": [
+   "工程部",
+   "設計部",
+   "行政部"
+  ],
+  "items": [
+   {
+    "name": "室內牆面乳膠漆",
+    "kind": "service",
+    "category": "室內油漆",
+    "usd": [
+     4.5,
+     11
+    ],
+    "unit": "m2",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "天花板批土油漆",
+    "kind": "service",
+    "category": "室內油漆",
+    "usd": [
+     6,
+     13
+    ],
+    "unit": "m2",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "全室油漆翻新",
+    "kind": "service",
+    "category": "室內油漆",
+    "usd": [
+     1250,
+     3800
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "單一房間油漆",
+    "kind": "service",
+    "category": "室內油漆",
+    "usd": [
+     150,
+     400
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "木作噴漆",
+    "kind": "service",
+    "category": "室內油漆",
+    "usd": [
+     25,
+     50
+    ],
+    "unit": "m2",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "門框門片上漆",
+    "kind": "service",
+    "category": "室內油漆",
+    "usd": [
+     40,
+     90
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "外牆防水漆",
+    "kind": "service",
+    "category": "外牆塗裝",
+    "usd": [
+     11,
+     25
+    ],
+    "unit": "m2",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "外牆高壓清洗",
+    "kind": "service",
+    "category": "外牆塗裝",
+    "usd": [
+     3,
+     8
+    ],
+    "unit": "m2",
+    "minutes": [
+     15,
+     45
+    ]
+   },
+   {
+    "name": "鐵件防鏽漆",
+    "kind": "service",
+    "category": "外牆塗裝",
+    "usd": [
+     9,
+     19
+    ],
+    "unit": "m2",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "鐵窗除鏽上漆",
+    "kind": "service",
+    "category": "外牆塗裝",
+    "usd": [
+     30,
+     80
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "壁癌處理",
+    "kind": "service",
+    "category": "特殊塗料",
+    "usd": [
+     25,
+     56
+    ],
+    "unit": "m2",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "矽藻土塗裝",
+    "kind": "service",
+    "category": "特殊塗料",
+    "usd": [
+     45,
+     95
+    ],
+    "unit": "m2",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "特殊藝術漆",
+    "kind": "service",
+    "category": "特殊塗料",
+    "usd": [
+     35,
+     95
+    ],
+    "unit": "m2",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "環氧樹脂地坪",
+    "kind": "service",
+    "category": "特殊塗料",
+    "usd": [
+     19,
+     47
+    ],
+    "unit": "m2",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "壁紙施工",
+    "kind": "service",
+    "category": "壁紙",
+    "usd": [
+     11,
+     28
+    ],
+    "unit": "m2",
+    "minutes": [
+     20,
+     60
+    ]
+   },
+   {
+    "name": "舊壁紙拆除",
+    "kind": "service",
+    "category": "壁紙",
+    "usd": [
+     3,
+     8
+    ],
+    "unit": "m2",
+    "minutes": [
+     15,
+     45
+    ]
+   },
+   {
+    "name": "全屋裝修工程",
+    "kind": "service",
+    "category": "裝修工程",
+    "usd": [
+     9000,
+     45000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "室內設計規劃",
+    "kind": "service",
+    "category": "裝修工程",
+    "usd": [
+     28,
+     75
+    ],
+    "unit": "m2",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "油漆師傅工資",
+    "kind": "service",
+    "category": "裝修工程",
+    "usd": [
+     75,
+     110
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "乳膠漆",
+    "kind": "product",
+    "category": "油漆材料",
+    "usd": [
+     12,
+     120
+    ],
+    "unit": "piece",
+    "variants": [
+     "1公升",
+     "1加侖",
+     "5加侖"
+    ]
+   },
+   {
+    "name": "防水塗料",
+    "kind": "product",
+    "category": "油漆材料",
+    "usd": [
+     40,
+     180
+    ],
+    "unit": "piece",
+    "variants": [
+     "1加侖",
+     "5加侖"
+    ]
+   },
+   {
+    "name": "水性批土",
+    "kind": "product",
+    "category": "油漆材料",
+    "usd": [
+     8,
+     25
+    ],
+    "unit": "piece",
+    "variants": [
+     "1公斤",
+     "5公斤",
+     "20公斤"
+    ]
+   }
+  ]
+ },
+ "car_repair": {
+  "categories": [
+   "定期保養",
+   "引擎維修",
+   "底盤煞車",
+   "輪胎電瓶",
+   "鈑金烤漆",
+   "汽車美容"
+  ],
+  "roles": [
+   "保修技師",
+   "技師",
+   "鈑金師傅",
+   "烤漆師傅",
+   "學徒",
+   "服務專員",
+   "廠長",
+   "零件管理員"
+  ],
+  "departments": [
+   "維修部",
+   "鈑噴部",
+   "零件部",
+   "櫃檯"
+  ],
+  "items": [
+   {
+    "name": "機油更換",
+    "kind": "service",
+    "category": "定期保養",
+    "usd": [
+     25,
+     65
+    ],
+    "unit": "session",
+    "minutes": [
+     20,
+     40
+    ]
+   },
+   {
+    "name": "一萬公里定期保養",
+    "kind": "service",
+    "category": "定期保養",
+    "usd": [
+     75,
+     160
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "四萬公里大保養",
+    "kind": "service",
+    "category": "定期保養",
+    "usd": [
+     250,
+     500
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "冷氣濾網更換",
+    "kind": "service",
+    "category": "定期保養",
+    "usd": [
+     15,
+     40
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     20
+    ]
+   },
+   {
+    "name": "變速箱油更換",
+    "kind": "service",
+    "category": "定期保養",
+    "usd": [
+     75,
+     160
+    ],
+    "unit": "session",
+    "minutes": [
+     40,
+     90
+    ]
+   },
+   {
+    "name": "全合成機油",
+    "kind": "product",
+    "category": "定期保養",
+    "usd": [
+     8,
+     40
+    ],
+    "unit": "piece",
+    "variants": [
+     "1公升",
+     "4公升"
+    ]
+   },
+   {
+    "name": "空氣濾清器",
+    "kind": "product",
+    "category": "定期保養",
+    "usd": [
+     8,
+     25
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "引擎電腦診斷",
+    "kind": "service",
+    "category": "引擎維修",
+    "usd": [
+     15,
+     47
+    ],
+    "unit": "session",
+    "minutes": [
+     20,
+     60
+    ]
+   },
+   {
+    "name": "正時皮帶更換",
+    "kind": "service",
+    "category": "引擎維修",
+    "usd": [
+     250,
+     560
+    ],
+    "unit": "set",
+    "minutes": [
+     180,
+     360
+    ]
+   },
+   {
+    "name": "火星塞更換",
+    "kind": "service",
+    "category": "引擎維修",
+    "usd": [
+     40,
+     120
+    ],
+    "unit": "set",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "維修工資",
+    "kind": "service",
+    "category": "引擎維修",
+    "usd": [
+     25,
+     47
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "煞車來令片更換",
+    "kind": "service",
+    "category": "底盤煞車",
+    "usd": [
+     45,
+     110
+    ],
+    "unit": "set",
+    "minutes": [
+     45,
+     90
+    ]
+   },
+   {
+    "name": "煞車油更換",
+    "kind": "service",
+    "category": "底盤煞車",
+    "usd": [
+     25,
+     50
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "避震器更換",
+    "kind": "service",
+    "category": "底盤煞車",
+    "usd": [
+     250,
+     620
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "四輪定位",
+    "kind": "service",
+    "category": "底盤煞車",
+    "usd": [
+     25,
+     47
+    ],
+    "unit": "session",
+    "minutes": [
+     40,
+     60
+    ]
+   },
+   {
+    "name": "輪胎",
+    "kind": "product",
+    "category": "輪胎電瓶",
+    "usd": [
+     60,
+     160
+    ],
+    "unit": "piece",
+    "variants": [
+     "15吋",
+     "16吋",
+     "17吋",
+     "18吋"
+    ]
+   },
+   {
+    "name": "輪胎拆裝平衡",
+    "kind": "service",
+    "category": "輪胎電瓶",
+    "usd": [
+     8,
+     15
+    ],
+    "unit": "piece",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "汽車電瓶",
+    "kind": "product",
+    "category": "輪胎電瓶",
+    "usd": [
+     60,
+     140
+    ],
+    "unit": "piece",
+    "variants": [
+     "55B24L",
+     "75D23L",
+     "80D26L"
+    ]
+   },
+   {
+    "name": "鈑金烤漆（單片）",
+    "kind": "service",
+    "category": "鈑金烤漆",
+    "usd": [
+     90,
+     190
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "保險桿修復",
+    "kind": "service",
+    "category": "鈑金烤漆",
+    "usd": [
+     60,
+     150
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     300
+    ]
+   },
+   {
+    "name": "汽車美容打蠟",
+    "kind": "service",
+    "category": "汽車美容",
+    "usd": [
+     45,
+     110
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "車內清潔",
+    "kind": "service",
+    "category": "汽車美容",
+    "usd": [
+     40,
+     100
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   }
+  ]
+ },
+ "clothing_shop": {
+  "categories": [
+   "上衣",
+   "褲裝",
+   "洋裝裙裝",
+   "外套",
+   "童裝",
+   "配件"
+  ],
+  "roles": [
+   "店長",
+   "副店長",
+   "門市人員",
+   "售貨員",
+   "兼職店員",
+   "倉管人員",
+   "網拍客服",
+   "採購"
+  ],
+  "departments": [
+   "門市部",
+   "倉儲部",
+   "電商部",
+   "行政部"
+  ],
+  "items": [
+   {
+    "name": "純棉素色T恤",
+    "kind": "product",
+    "category": "上衣",
+    "usd": [
+     9,
+     19
+    ],
+    "unit": "piece",
+    "variants": [
+     "S",
+     "M",
+     "L",
+     "XL"
+    ]
+   },
+   {
+    "name": "印花短袖上衣",
+    "kind": "product",
+    "category": "上衣",
+    "usd": [
+     12,
+     22
+    ],
+    "unit": "piece",
+    "variants": [
+     "S",
+     "M",
+     "L"
+    ]
+   },
+   {
+    "name": "休閒襯衫",
+    "kind": "product",
+    "category": "上衣",
+    "usd": [
+     22,
+     40
+    ],
+    "unit": "piece",
+    "variants": [
+     "S",
+     "M",
+     "L",
+     "XL"
+    ]
+   },
+   {
+    "name": "男士POLO衫",
+    "kind": "product",
+    "category": "上衣",
+    "usd": [
+     19,
+     40
+    ],
+    "unit": "piece",
+    "variants": [
+     "M",
+     "L",
+     "XL",
+     "2XL"
+    ]
+   },
+   {
+    "name": "羊毛針織衫",
+    "kind": "product",
+    "category": "上衣",
+    "usd": [
+     31,
+     62
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "寬版帽T",
+    "kind": "product",
+    "category": "上衣",
+    "usd": [
+     25,
+     45
+    ],
+    "unit": "piece",
+    "variants": [
+     "M",
+     "L",
+     "XL"
+    ]
+   },
+   {
+    "name": "直筒牛仔褲",
+    "kind": "product",
+    "category": "褲裝",
+    "usd": [
+     28,
+     53
+    ],
+    "unit": "piece",
+    "variants": [
+     "28腰",
+     "30腰",
+     "32腰",
+     "34腰"
+    ]
+   },
+   {
+    "name": "寬褲",
+    "kind": "product",
+    "category": "褲裝",
+    "usd": [
+     20,
+     38
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "西裝褲",
+    "kind": "product",
+    "category": "褲裝",
+    "usd": [
+     30,
+     60
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "運動短褲",
+    "kind": "product",
+    "category": "褲裝",
+    "usd": [
+     12,
+     22
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "雪紡洋裝",
+    "kind": "product",
+    "category": "洋裝裙裝",
+    "usd": [
+     31,
+     59
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "百褶長裙",
+    "kind": "product",
+    "category": "洋裝裙裝",
+    "usd": [
+     25,
+     47
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "針織開襟外套",
+    "kind": "product",
+    "category": "外套",
+    "usd": [
+     28,
+     50
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "輕量羽絨外套",
+    "kind": "product",
+    "category": "外套",
+    "usd": [
+     62,
+     125
+    ],
+    "unit": "piece",
+    "variants": [
+     "S",
+     "M",
+     "L",
+     "XL"
+    ]
+   },
+   {
+    "name": "西裝外套",
+    "kind": "product",
+    "category": "外套",
+    "usd": [
+     78,
+     156
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "牛仔外套",
+    "kind": "product",
+    "category": "外套",
+    "usd": [
+     40,
+     75
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "兒童連帽外套",
+    "kind": "product",
+    "category": "童裝",
+    "usd": [
+     19,
+     37
+    ],
+    "unit": "piece",
+    "variants": [
+     "100",
+     "110",
+     "120",
+     "130"
+    ]
+   },
+   {
+    "name": "嬰兒包屁衣",
+    "kind": "product",
+    "category": "童裝",
+    "usd": [
+     9,
+     18
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "帆布托特包",
+    "kind": "product",
+    "category": "配件",
+    "usd": [
+     15,
+     31
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "棒球帽",
+    "kind": "product",
+    "category": "配件",
+    "usd": [
+     10,
+     22
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "圍巾",
+    "kind": "product",
+    "category": "配件",
+    "usd": [
+     12,
+     30
+    ],
+    "unit": "piece"
+   }
+  ]
+ },
+ "florist": {
+  "categories": [
+   "花束",
+   "盆栽",
+   "花籃",
+   "婚禮佈置",
+   "乾燥花與永生花",
+   "課程及服務"
+  ],
+  "roles": [
+   "花藝設計師",
+   "花藝師",
+   "花藝助理",
+   "門市人員",
+   "送貨員",
+   "店長"
+  ],
+  "departments": [
+   "花藝工作室",
+   "門市",
+   "外送組"
+  ],
+  "items": [
+   {
+    "name": "玫瑰花束",
+    "kind": "product",
+    "category": "花束",
+    "usd": [
+     25,
+     120
+    ],
+    "unit": "piece",
+    "variants": [
+     "11朵",
+     "33朵",
+     "99朵"
+    ]
+   },
+   {
+    "name": "繡球花束",
+    "kind": "product",
+    "category": "花束",
+    "usd": [
+     31,
+     62
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "向日葵花束",
+    "kind": "product",
+    "category": "花束",
+    "usd": [
+     20,
+     45
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "康乃馨花束",
+    "kind": "product",
+    "category": "花束",
+    "usd": [
+     20,
+     50
+    ],
+    "unit": "piece",
+    "variants": [
+     "小",
+     "中",
+     "大"
+    ]
+   },
+   {
+    "name": "單枝玫瑰包裝",
+    "kind": "product",
+    "category": "花束",
+    "usd": [
+     3,
+     6
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "蝴蝶蘭盆栽",
+    "kind": "product",
+    "category": "盆栽",
+    "usd": [
+     47,
+     160
+    ],
+    "unit": "piece",
+    "variants": [
+     "3梗",
+     "5梗",
+     "10梗"
+    ]
+   },
+   {
+    "name": "桌上型盆花",
+    "kind": "product",
+    "category": "盆栽",
+    "usd": [
+     25,
+     56
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "多肉植物組盆",
+    "kind": "product",
+    "category": "盆栽",
+    "usd": [
+     11,
+     28
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "發財樹盆栽",
+    "kind": "product",
+    "category": "盆栽",
+    "usd": [
+     30,
+     90
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "賀年桔盆栽",
+    "kind": "product",
+    "category": "盆栽",
+    "usd": [
+     25,
+     80
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "開幕花籃",
+    "kind": "product",
+    "category": "花籃",
+    "usd": [
+     47,
+     110
+    ],
+    "unit": "piece",
+    "variants": [
+     "單層",
+     "雙層"
+    ]
+   },
+   {
+    "name": "喪禮花籃",
+    "kind": "product",
+    "category": "花籃",
+    "usd": [
+     47,
+     95
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "新娘捧花",
+    "kind": "product",
+    "category": "婚禮佈置",
+    "usd": [
+     56,
+     125
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "胸花",
+    "kind": "product",
+    "category": "婚禮佈置",
+    "usd": [
+     4.5,
+     11
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "婚禮會場佈置",
+    "kind": "service",
+    "category": "婚禮佈置",
+    "usd": [
+     950,
+     3800
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "永生花玻璃盅",
+    "kind": "product",
+    "category": "乾燥花與永生花",
+    "usd": [
+     37,
+     88
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "乾燥花束",
+    "kind": "product",
+    "category": "乾燥花與永生花",
+    "usd": [
+     19,
+     47
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "花藝體驗課",
+    "kind": "service",
+    "category": "課程及服務",
+    "usd": [
+     37,
+     78
+    ],
+    "unit": "session",
+    "minutes": [
+     90,
+     150
+    ]
+   },
+   {
+    "name": "辦公室每週插花",
+    "kind": "service",
+    "category": "課程及服務",
+    "usd": [
+     95,
+     250
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "花禮外送",
+    "kind": "service",
+    "category": "課程及服務",
+    "usd": [
+     6,
+     15
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     90
+    ]
+   }
+  ]
+ },
+ "pharmacy": {
+  "categories": [
+   "處方調劑",
+   "成藥",
+   "保健食品",
+   "醫療器材",
+   "嬰幼兒用品",
+   "個人護理"
+  ],
+  "roles": [
+   "藥師",
+   "藥劑師",
+   "藥劑師助理",
+   "門市人員",
+   "店長",
+   "倉管人員",
+   "採購專員"
+  ],
+  "departments": [
+   "調劑室",
+   "門市",
+   "倉儲"
+  ],
+  "items": [
+   {
+    "name": "處方箋調劑",
+    "kind": "service",
+    "category": "處方調劑",
+    "usd": [
+     1.5,
+     6
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     20
+    ]
+   },
+   {
+    "name": "退燒止痛錠",
+    "kind": "product",
+    "category": "成藥",
+    "usd": [
+     2.5,
+     6.5
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "綜合感冒膠囊",
+    "kind": "product",
+    "category": "成藥",
+    "usd": [
+     3.5,
+     8
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "胃腸藥",
+    "kind": "product",
+    "category": "成藥",
+    "usd": [
+     4,
+     9
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "止咳糖漿",
+    "kind": "product",
+    "category": "成藥",
+    "usd": [
+     4,
+     9
+    ],
+    "unit": "piece",
+    "variants": [
+     "60ml",
+     "120ml"
+    ]
+   },
+   {
+    "name": "驅風油",
+    "kind": "product",
+    "category": "成藥",
+    "usd": [
+     3,
+     7
+    ],
+    "unit": "piece",
+    "variants": [
+     "3ml",
+     "12ml",
+     "28ml"
+    ]
+   },
+   {
+    "name": "酸痛貼布",
+    "kind": "product",
+    "category": "成藥",
+    "usd": [
+     4.5,
+     11
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "人工淚液",
+    "kind": "product",
+    "category": "成藥",
+    "usd": [
+     4.5,
+     11
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "綜合維他命",
+    "kind": "product",
+    "category": "保健食品",
+    "usd": [
+     11,
+     25
+    ],
+    "unit": "box",
+    "variants": [
+     "30錠",
+     "60錠",
+     "120錠"
+    ]
+   },
+   {
+    "name": "魚油軟膠囊",
+    "kind": "product",
+    "category": "保健食品",
+    "usd": [
+     15,
+     38
+    ],
+    "unit": "box",
+    "variants": [
+     "60粒",
+     "120粒"
+    ]
+   },
+   {
+    "name": "葉黃素膠囊",
+    "kind": "product",
+    "category": "保健食品",
+    "usd": [
+     19,
+     40
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "益生菌粉包",
+    "kind": "product",
+    "category": "保健食品",
+    "usd": [
+     19,
+     47
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "醫用口罩（50入）",
+    "kind": "product",
+    "category": "醫療器材",
+    "usd": [
+     4.5,
+     11
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "電子血壓計",
+    "kind": "product",
+    "category": "醫療器材",
+    "usd": [
+     47,
+     110
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "額溫槍",
+    "kind": "product",
+    "category": "醫療器材",
+    "usd": [
+     25,
+     56
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "血糖試紙（50片）",
+    "kind": "product",
+    "category": "醫療器材",
+    "usd": [
+     19,
+     38
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "嬰兒配方奶粉",
+    "kind": "product",
+    "category": "嬰幼兒用品",
+    "usd": [
+     22,
+     40
+    ],
+    "unit": "piece",
+    "variants": [
+     "400公克",
+     "900公克"
+    ]
+   },
+   {
+    "name": "嬰兒紙尿褲",
+    "kind": "product",
+    "category": "嬰幼兒用品",
+    "usd": [
+     12,
+     25
+    ],
+    "unit": "pack",
+    "variants": [
+     "S",
+     "M",
+     "L",
+     "XL"
+    ]
+   },
+   {
+    "name": "成人紙尿褲",
+    "kind": "product",
+    "category": "個人護理",
+    "usd": [
+     9,
+     19
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "抗菌洗手乳",
+    "kind": "product",
+    "category": "個人護理",
+    "usd": [
+     3,
+     7
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "防曬乳",
+    "kind": "product",
+    "category": "個人護理",
+    "usd": [
+     10,
+     25
+    ],
+    "unit": "piece"
+   }
+  ]
+ },
+ "grocery": {
+  "categories": [
+   "米糧乾貨",
+   "飲料",
+   "零食",
+   "生鮮冷凍",
+   "鮮食",
+   "日用品"
+  ],
+  "roles": [
+   "店長",
+   "副店長",
+   "店員",
+   "收銀員",
+   "理貨員",
+   "大夜班店員",
+   "兼職人員"
+  ],
+  "departments": [
+   "門市",
+   "倉庫",
+   "採購"
+  ],
+  "items": [
+   {
+    "name": "白米",
+    "kind": "product",
+    "category": "米糧乾貨",
+    "usd": [
+     4,
+     11
+    ],
+    "unit": "pack",
+    "variants": [
+     "1.5公斤",
+     "3公斤",
+     "5公斤"
+    ]
+   },
+   {
+    "name": "醬油",
+    "kind": "product",
+    "category": "米糧乾貨",
+    "usd": [
+     1.9,
+     4.7
+    ],
+    "unit": "piece",
+    "variants": [
+     "500毫升",
+     "1公升"
+    ]
+   },
+   {
+    "name": "沙拉油",
+    "kind": "product",
+    "category": "米糧乾貨",
+    "usd": [
+     3,
+     9
+    ],
+    "unit": "piece",
+    "variants": [
+     "1公升",
+     "2公升",
+     "3公升"
+    ]
+   },
+   {
+    "name": "泡麵（5包入）",
+    "kind": "product",
+    "category": "米糧乾貨",
+    "usd": [
+     3.1,
+     5.6
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "杯麵",
+    "kind": "product",
+    "category": "米糧乾貨",
+    "usd": [
+     0.9,
+     1.8
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "鮮乳",
+    "kind": "product",
+    "category": "飲料",
+    "usd": [
+     1,
+     3.5
+    ],
+    "unit": "piece",
+    "variants": [
+     "290毫升",
+     "936毫升",
+     "1857毫升"
+    ]
+   },
+   {
+    "name": "礦泉水",
+    "kind": "product",
+    "category": "飲料",
+    "usd": [
+     0.5,
+     1
+    ],
+    "unit": "piece",
+    "variants": [
+     "600毫升",
+     "1500毫升"
+    ]
+   },
+   {
+    "name": "礦泉水（24瓶）",
+    "kind": "product",
+    "category": "飲料",
+    "usd": [
+     4.5,
+     9
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "罐裝汽水",
+    "kind": "product",
+    "category": "飲料",
+    "usd": [
+     0.6,
+     1.1
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "無糖綠茶",
+    "kind": "product",
+    "category": "飲料",
+    "usd": [
+     0.8,
+     1.3
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "三合一即溶咖啡",
+    "kind": "product",
+    "category": "飲料",
+    "usd": [
+     3.8,
+     7.8
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "洋芋片",
+    "kind": "product",
+    "category": "零食",
+    "usd": [
+     1,
+     2.5
+    ],
+    "unit": "pack",
+    "variants": [
+     "小包",
+     "大包"
+    ]
+   },
+   {
+    "name": "蘇打餅乾",
+    "kind": "product",
+    "category": "零食",
+    "usd": [
+     1,
+     2.5
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "巧克力",
+    "kind": "product",
+    "category": "零食",
+    "usd": [
+     1,
+     3
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "雞蛋（10入）",
+    "kind": "product",
+    "category": "生鮮冷凍",
+    "usd": [
+     1.9,
+     3.1
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "香蕉",
+    "kind": "product",
+    "category": "生鮮冷凍",
+    "usd": [
+     1.5,
+     2.8
+    ],
+    "unit": "kg"
+   },
+   {
+    "name": "冷凍水餃",
+    "kind": "product",
+    "category": "生鮮冷凍",
+    "usd": [
+     4.5,
+     9
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "茶葉蛋",
+    "kind": "product",
+    "category": "鮮食",
+    "usd": [
+     0.3,
+     0.5
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "御飯糰",
+    "kind": "product",
+    "category": "鮮食",
+    "usd": [
+     0.9,
+     1.5
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "微波便當",
+    "kind": "product",
+    "category": "鮮食",
+    "usd": [
+     2.2,
+     3.5
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "抽取式衛生紙（12包）",
+    "kind": "product",
+    "category": "日用品",
+    "usd": [
+     4.5,
+     9
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "洗衣精",
+    "kind": "product",
+    "category": "日用品",
+    "usd": [
+     4.5,
+     9.5
+    ],
+    "unit": "piece",
+    "variants": [
+     "1.5公斤",
+     "3公斤"
+    ]
+   },
+   {
+    "name": "垃圾袋",
+    "kind": "product",
+    "category": "日用品",
+    "usd": [
+     1.5,
+     3.5
+    ],
+    "unit": "pack"
+   }
+  ]
+ },
+ "ecommerce": {
+  "categories": [
+   "3C配件",
+   "居家生活",
+   "廚房用品",
+   "美妝保養",
+   "寵物用品",
+   "食品"
+  ],
+  "roles": [
+   "電商營運",
+   "網路行銷專員",
+   "客服專員",
+   "美編",
+   "商品企劃",
+   "出貨人員",
+   "倉管人員"
+  ],
+  "departments": [
+   "營運部",
+   "行銷部",
+   "客服部",
+   "物流倉儲"
+  ],
+  "items": [
+   {
+    "name": "藍牙無線耳機",
+    "kind": "product",
+    "category": "3C配件",
+    "usd": [
+     25,
+     62
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "手機防摔殼",
+    "kind": "product",
+    "category": "3C配件",
+    "usd": [
+     9,
+     19
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "行動電源",
+    "kind": "product",
+    "category": "3C配件",
+    "usd": [
+     19,
+     40
+    ],
+    "unit": "piece",
+    "variants": [
+     "10000mAh",
+     "20000mAh"
+    ]
+   },
+   {
+    "name": "快充充電線",
+    "kind": "product",
+    "category": "3C配件",
+    "usd": [
+     6,
+     15
+    ],
+    "unit": "piece",
+    "variants": [
+     "1公尺",
+     "2公尺"
+    ]
+   },
+   {
+    "name": "手機螢幕保護貼",
+    "kind": "product",
+    "category": "3C配件",
+    "usd": [
+     5,
+     15
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "LED護眼檯燈",
+    "kind": "product",
+    "category": "居家生活",
+    "usd": [
+     22,
+     50
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "記憶枕",
+    "kind": "product",
+    "category": "居家生活",
+    "usd": [
+     28,
+     62
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "純棉床包組",
+    "kind": "product",
+    "category": "居家生活",
+    "usd": [
+     31,
+     78
+    ],
+    "unit": "set",
+    "variants": [
+     "單人",
+     "雙人",
+     "雙人加大"
+    ]
+   },
+   {
+    "name": "收納箱三入組",
+    "kind": "product",
+    "category": "居家生活",
+    "usd": [
+     12,
+     28
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "除濕盒",
+    "kind": "product",
+    "category": "居家生活",
+    "usd": [
+     5,
+     12
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "運動水壺",
+    "kind": "product",
+    "category": "居家生活",
+    "usd": [
+     8,
+     19
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "不鏽鋼保溫瓶",
+    "kind": "product",
+    "category": "廚房用品",
+    "usd": [
+     15,
+     37
+    ],
+    "unit": "piece",
+    "variants": [
+     "350ml",
+     "500ml",
+     "750ml"
+    ]
+   },
+   {
+    "name": "不沾平底鍋",
+    "kind": "product",
+    "category": "廚房用品",
+    "usd": [
+     28,
+     78
+    ],
+    "unit": "piece",
+    "variants": [
+     "24公分",
+     "28公分"
+    ]
+   },
+   {
+    "name": "保濕面膜（10片）",
+    "kind": "product",
+    "category": "美妝保養",
+    "usd": [
+     9,
+     19
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "胺基酸洗髮精",
+    "kind": "product",
+    "category": "美妝保養",
+    "usd": [
+     11,
+     24
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "卸妝油",
+    "kind": "product",
+    "category": "美妝保養",
+    "usd": [
+     10,
+     25
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "寵物乾飼料",
+    "kind": "product",
+    "category": "寵物用品",
+    "usd": [
+     15,
+     60
+    ],
+    "unit": "pack",
+    "variants": [
+     "1.5公斤",
+     "3公斤",
+     "7公斤"
+    ]
+   },
+   {
+    "name": "貓砂",
+    "kind": "product",
+    "category": "寵物用品",
+    "usd": [
+     8,
+     18
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "寵物外出提籠",
+    "kind": "product",
+    "category": "寵物用品",
+    "usd": [
+     20,
+     45
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "濾掛咖啡（20入）",
+    "kind": "product",
+    "category": "食品",
+    "usd": [
+     9,
+     19
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "堅果隨手包",
+    "kind": "product",
+    "category": "食品",
+    "usd": [
+     8,
+     18
+    ],
+    "unit": "box"
+   }
+  ]
+ },
+ "wholesale_electronics": {
+  "categories": [
+   "電腦主機",
+   "螢幕及周邊",
+   "伺服器網通",
+   "儲存裝置",
+   "零組件及線材"
+  ],
+  "roles": [
+   "業務經理",
+   "業務專員",
+   "產品經理",
+   "採購專員",
+   "倉管人員",
+   "技術支援工程師",
+   "會計",
+   "業務助理"
+  ],
+  "departments": [
+   "業務部",
+   "採購部",
+   "倉儲物流部",
+   "財務部"
+  ],
+  "items": [
+   {
+    "name": "商用筆記型電腦",
+    "kind": "product",
+    "category": "電腦主機",
+    "usd": [
+     690,
+     1250
+    ],
+    "unit": "piece",
+    "variants": [
+     "i5 8GB",
+     "i5 16GB",
+     "i7 16GB"
+    ]
+   },
+   {
+    "name": "桌上型電腦主機",
+    "kind": "product",
+    "category": "電腦主機",
+    "usd": [
+     470,
+     1100
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "迷你電腦",
+    "kind": "product",
+    "category": "電腦主機",
+    "usd": [
+     250,
+     600
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "液晶螢幕",
+    "kind": "product",
+    "category": "螢幕及周邊",
+    "usd": [
+     120,
+     450
+    ],
+    "unit": "piece",
+    "variants": [
+     "24吋",
+     "27吋",
+     "32吋"
+    ]
+   },
+   {
+    "name": "雷射印表機",
+    "kind": "product",
+    "category": "螢幕及周邊",
+    "usd": [
+     155,
+     470
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "無線鍵盤滑鼠組",
+    "kind": "product",
+    "category": "螢幕及周邊",
+    "usd": [
+     19,
+     47
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "USB-C擴充基座",
+    "kind": "product",
+    "category": "螢幕及周邊",
+    "usd": [
+     47,
+     125
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "網路攝影機",
+    "kind": "product",
+    "category": "螢幕及周邊",
+    "usd": [
+     30,
+     90
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "機架式伺服器",
+    "kind": "product",
+    "category": "伺服器網通",
+    "usd": [
+     2500,
+     9500
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "網路交換器",
+    "kind": "product",
+    "category": "伺服器網通",
+    "usd": [
+     60,
+     620
+    ],
+    "unit": "piece",
+    "variants": [
+     "8埠",
+     "16埠",
+     "24埠",
+     "48埠"
+    ]
+   },
+   {
+    "name": "企業級無線基地台",
+    "kind": "product",
+    "category": "伺服器網通",
+    "usd": [
+     78,
+     250
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "防火牆設備",
+    "kind": "product",
+    "category": "伺服器網通",
+    "usd": [
+     400,
+     2000
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "不斷電系統",
+    "kind": "product",
+    "category": "伺服器網通",
+    "usd": [
+     110,
+     380
+    ],
+    "unit": "piece",
+    "variants": [
+     "1KVA",
+     "2KVA",
+     "3KVA"
+    ]
+   },
+   {
+    "name": "固態硬碟",
+    "kind": "product",
+    "category": "儲存裝置",
+    "usd": [
+     35,
+     180
+    ],
+    "unit": "piece",
+    "variants": [
+     "512GB",
+     "1TB",
+     "2TB"
+    ]
+   },
+   {
+    "name": "記憶體模組",
+    "kind": "product",
+    "category": "儲存裝置",
+    "usd": [
+     25,
+     110
+    ],
+    "unit": "piece",
+    "variants": [
+     "8GB",
+     "16GB",
+     "32GB"
+    ]
+   },
+   {
+    "name": "NAS網路儲存設備",
+    "kind": "product",
+    "category": "儲存裝置",
+    "usd": [
+     300,
+     1200
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "企業級硬碟",
+    "kind": "product",
+    "category": "儲存裝置",
+    "usd": [
+     120,
+     400
+    ],
+    "unit": "piece",
+    "variants": [
+     "8TB",
+     "12TB",
+     "16TB"
+    ]
+   },
+   {
+    "name": "工業用主機板",
+    "kind": "product",
+    "category": "零組件及線材",
+    "usd": [
+     155,
+     470
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "電源供應器",
+    "kind": "product",
+    "category": "零組件及線材",
+    "usd": [
+     40,
+     150
+    ],
+    "unit": "piece",
+    "variants": [
+     "550W",
+     "750W",
+     "1000W"
+    ]
+   },
+   {
+    "name": "積層陶瓷電容（整捲）",
+    "kind": "product",
+    "category": "零組件及線材",
+    "usd": [
+     20,
+     80
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "Cat6網路線",
+    "kind": "product",
+    "category": "零組件及線材",
+    "usd": [
+     0.3,
+     0.8
+    ],
+    "unit": "m"
+   }
+  ]
+ },
+ "software": {
+  "categories": [
+   "系統開發",
+   "網站建置",
+   "App開發",
+   "維護服務",
+   "軟體授權",
+   "顧問服務"
+  ],
+  "roles": [
+   "專案經理",
+   "系統分析師",
+   "前端工程師",
+   "後端工程師",
+   "軟件工程師",
+   "UI/UX設計師",
+   "QA測試工程師",
+   "業務經理"
+  ],
+  "departments": [
+   "研發部",
+   "專案管理部",
+   "業務部",
+   "行政部"
+  ],
+  "items": [
+   {
+    "name": "客製化系統開發",
+    "kind": "service",
+    "category": "系統開發",
+    "usd": [
+     9400,
+     62000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "ERP系統導入",
+    "kind": "service",
+    "category": "系統開發",
+    "usd": [
+     15000,
+     94000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "系統需求分析暨規格書",
+    "kind": "service",
+    "category": "系統開發",
+    "usd": [
+     940,
+     3800
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "API串接開發",
+    "kind": "service",
+    "category": "系統開發",
+    "usd": [
+     940,
+     4700
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "資料庫移轉",
+    "kind": "service",
+    "category": "系統開發",
+    "usd": [
+     1500,
+     6000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "軟體測試",
+    "kind": "service",
+    "category": "系統開發",
+    "usd": [
+     155,
+     280
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "企業形象網站建置",
+    "kind": "service",
+    "category": "網站建置",
+    "usd": [
+     1500,
+     6200
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "購物網站開發",
+    "kind": "service",
+    "category": "網站建置",
+    "usd": [
+     4700,
+     25000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "響應式網頁改版",
+    "kind": "service",
+    "category": "網站建置",
+    "usd": [
+     1200,
+     5000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "網站頁面新增",
+    "kind": "service",
+    "category": "網站建置",
+    "usd": [
+     100,
+     400
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "iOS及Android App開發",
+    "kind": "service",
+    "category": "App開發",
+    "usd": [
+     15000,
+     78000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "App上架代辦",
+    "kind": "service",
+    "category": "App開發",
+    "usd": [
+     150,
+     500
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "UI介面設計",
+    "kind": "service",
+    "category": "App開發",
+    "usd": [
+     1500,
+     9400
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "系統維護合約",
+    "kind": "service",
+    "category": "維護服務",
+    "usd": [
+     300,
+     1900
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "工程師駐點開發",
+    "kind": "service",
+    "category": "維護服務",
+    "usd": [
+     3700,
+     6900
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "程式修改工時",
+    "kind": "service",
+    "category": "維護服務",
+    "usd": [
+     37,
+     78
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "POS收銀系統授權",
+    "kind": "product",
+    "category": "軟體授權",
+    "usd": [
+     470,
+     1250
+    ],
+    "unit": "set",
+    "variants": [
+     "單機版",
+     "多店版"
+    ]
+   },
+   {
+    "name": "雲端進銷存系統月租",
+    "kind": "product",
+    "category": "軟體授權",
+    "usd": [
+     9,
+     38
+    ],
+    "unit": "month",
+    "variants": [
+     "基本版",
+     "進階版",
+     "企業版"
+    ]
+   },
+   {
+    "name": "防毒軟體企業授權",
+    "kind": "product",
+    "category": "軟體授權",
+    "usd": [
+     20,
+     60
+    ],
+    "unit": "set",
+    "variants": [
+     "1年",
+     "2年",
+     "3年"
+    ]
+   },
+   {
+    "name": "資訊系統教育訓練",
+    "kind": "service",
+    "category": "顧問服務",
+    "usd": [
+     300,
+     900
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     360
+    ]
+   },
+   {
+    "name": "技術諮詢",
+    "kind": "service",
+    "category": "顧問服務",
+    "usd": [
+     60,
+     150
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   }
+  ]
+ },
+ "it_consulting": {
+  "categories": [
+   "電腦維護",
+   "網路建置",
+   "資訊安全",
+   "雲端服務",
+   "顧問諮詢"
+  ],
+  "roles": [
+   "資訊顧問",
+   "系統工程師",
+   "網路工程師",
+   "技術支援人員",
+   "資安工程師",
+   "專案經理",
+   "業務專員",
+   "客服人員"
+  ],
+  "departments": [
+   "技術服務部",
+   "顧問部",
+   "業務部"
+  ],
+  "items": [
+   {
+    "name": "電腦維護月約",
+    "kind": "service",
+    "category": "電腦維護",
+    "usd": [
+     95,
+     470
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "到府電腦維修",
+    "kind": "service",
+    "category": "電腦維護",
+    "usd": [
+     30,
+     80
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "電腦重灌",
+    "kind": "service",
+    "category": "電腦維護",
+    "usd": [
+     30,
+     60
+    ],
+    "unit": "piece",
+    "minutes": [
+     90,
+     180
+    ]
+   },
+   {
+    "name": "印表機安裝設定",
+    "kind": "service",
+    "category": "電腦維護",
+    "usd": [
+     25,
+     50
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "企業網路架設",
+    "kind": "service",
+    "category": "網路建置",
+    "usd": [
+     620,
+     3100
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "無線網路規劃",
+    "kind": "service",
+    "category": "網路建置",
+    "usd": [
+     300,
+     1200
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "VPN遠端連線建置",
+    "kind": "service",
+    "category": "網路建置",
+    "usd": [
+     310,
+     1250
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     360
+    ]
+   },
+   {
+    "name": "伺服器建置設定",
+    "kind": "service",
+    "category": "網路建置",
+    "usd": [
+     470,
+     1900
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "網路交換器",
+    "kind": "product",
+    "category": "網路建置",
+    "usd": [
+     60,
+     400
+    ],
+    "unit": "piece",
+    "variants": [
+     "8埠",
+     "16埠",
+     "24埠"
+    ]
+   },
+   {
+    "name": "UPS不斷電系統",
+    "kind": "product",
+    "category": "網路建置",
+    "usd": [
+     110,
+     380
+    ],
+    "unit": "piece",
+    "variants": [
+     "1KVA",
+     "2KVA"
+    ]
+   },
+   {
+    "name": "資安健檢",
+    "kind": "service",
+    "category": "資訊安全",
+    "usd": [
+     940,
+     4700
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "防火牆管理",
+    "kind": "service",
+    "category": "資訊安全",
+    "usd": [
+     62,
+     250
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "弱點掃描",
+    "kind": "service",
+    "category": "資訊安全",
+    "usd": [
+     500,
+     2500
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "資安教育訓練",
+    "kind": "service",
+    "category": "資訊安全",
+    "usd": [
+     470,
+     1250
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "ISO 27001導入輔導",
+    "kind": "service",
+    "category": "資訊安全",
+    "usd": [
+     6200,
+     19000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Microsoft 365導入設定",
+    "kind": "service",
+    "category": "雲端服務",
+    "usd": [
+     15,
+     47
+    ],
+    "unit": "person",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "雲端備份建置",
+    "kind": "service",
+    "category": "雲端服務",
+    "usd": [
+     250,
+     940
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     360
+    ]
+   },
+   {
+    "name": "郵件系統移轉",
+    "kind": "service",
+    "category": "雲端服務",
+    "usd": [
+     300,
+     1200
+    ],
+    "unit": "set",
+    "minutes": [
+     180,
+     480
+    ]
+   },
+   {
+    "name": "NAS備份主機",
+    "kind": "product",
+    "category": "雲端服務",
+    "usd": [
+     300,
+     900
+    ],
+    "unit": "piece",
+    "variants": [
+     "2槽",
+     "4槽",
+     "8槽"
+    ]
+   },
+   {
+    "name": "遠端技術支援",
+    "kind": "service",
+    "category": "顧問諮詢",
+    "usd": [
+     25,
+     62
+    ],
+    "unit": "hour",
+    "minutes": [
+     15,
+     60
+    ]
+   },
+   {
+    "name": "資訊顧問諮詢",
+    "kind": "service",
+    "category": "顧問諮詢",
+    "usd": [
+     62,
+     156
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "駐點資訊工程師",
+    "kind": "service",
+    "category": "顧問諮詢",
+    "usd": [
+     1500,
+     2800
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "資訊設備採購評估",
+    "kind": "service",
+    "category": "顧問諮詢",
+    "usd": [
+     150,
+     600
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     240
+    ]
+   }
+  ]
+ },
+ "web_hosting": {
+  "categories": [
+   "虛擬主機",
+   "雲端主機",
+   "網域與憑證",
+   "企業郵件",
+   "備份與資安",
+   "資料處理"
+  ],
+  "roles": [
+   "系統管理員",
+   "網路工程師",
+   "機房維運人員",
+   "技術支援專員",
+   "客服專員",
+   "業務專員",
+   "資料處理員"
+  ],
+  "departments": [
+   "技術部",
+   "機房維運部",
+   "客服部",
+   "業務部"
+  ],
+  "items": [
+   {
+    "name": "虛擬主機",
+    "kind": "product",
+    "category": "虛擬主機",
+    "usd": [
+     4,
+     30
+    ],
+    "unit": "month",
+    "variants": [
+     "入門型",
+     "標準型",
+     "進階型"
+    ]
+   },
+   {
+    "name": "WordPress主機",
+    "kind": "product",
+    "category": "虛擬主機",
+    "usd": [
+     6,
+     35
+    ],
+    "unit": "month",
+    "variants": [
+     "基本",
+     "專業",
+     "商務"
+    ]
+   },
+   {
+    "name": "雲端VPS主機",
+    "kind": "product",
+    "category": "雲端主機",
+    "usd": [
+     15,
+     78
+    ],
+    "unit": "month",
+    "variants": [
+     "1核1GB",
+     "2核4GB",
+     "4核8GB"
+    ]
+   },
+   {
+    "name": "獨立伺服器租用",
+    "kind": "product",
+    "category": "雲端主機",
+    "usd": [
+     125,
+     470
+    ],
+    "unit": "month"
+   },
+   {
+    "name": "主機代管（1U）",
+    "kind": "service",
+    "category": "雲端主機",
+    "usd": [
+     78,
+     190
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "資料庫代管",
+    "kind": "service",
+    "category": "雲端主機",
+    "usd": [
+     50,
+     300
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "系統監控服務",
+    "kind": "service",
+    "category": "雲端主機",
+    "usd": [
+     30,
+     150
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "網站搬移",
+    "kind": "service",
+    "category": "雲端主機",
+    "usd": [
+     94,
+     470
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "技術支援工時",
+    "kind": "service",
+    "category": "雲端主機",
+    "usd": [
+     40,
+     90
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "網域註冊（.com）",
+    "kind": "product",
+    "category": "網域與憑證",
+    "usd": [
+     12,
+     22
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "網域註冊（.com.tw）",
+    "kind": "product",
+    "category": "網域與憑證",
+    "usd": [
+     25,
+     38
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "網域註冊（.hk）",
+    "kind": "product",
+    "category": "網域與憑證",
+    "usd": [
+     25,
+     45
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "SSL憑證",
+    "kind": "product",
+    "category": "網域與憑證",
+    "usd": [
+     47,
+     470
+    ],
+    "unit": "piece",
+    "variants": [
+     "DV",
+     "OV",
+     "EV"
+    ]
+   },
+   {
+    "name": "企業郵件信箱",
+    "kind": "product",
+    "category": "企業郵件",
+    "usd": [
+     1.5,
+     6
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "每日異地備份",
+    "kind": "service",
+    "category": "備份與資安",
+    "usd": [
+     15,
+     94
+    ],
+    "unit": "month",
+    "minutes": [
+     15,
+     60
+    ]
+   },
+   {
+    "name": "CDN網站加速",
+    "kind": "service",
+    "category": "備份與資安",
+    "usd": [
+     31,
+     250
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "DDoS防護",
+    "kind": "service",
+    "category": "備份與資安",
+    "usd": [
+     94,
+     620
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "網站弱點掃描",
+    "kind": "service",
+    "category": "備份與資安",
+    "usd": [
+     150,
+     600
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "雲端儲存空間",
+    "kind": "product",
+    "category": "備份與資安",
+    "usd": [
+     9,
+     60
+    ],
+    "unit": "month",
+    "variants": [
+     "1TB",
+     "5TB",
+     "10TB"
+    ]
+   },
+   {
+    "name": "資料鍵入處理",
+    "kind": "service",
+    "category": "資料處理",
+    "usd": [
+     0.3,
+     1.2
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     15
+    ]
+   },
+   {
+    "name": "紙本文件掃描建檔",
+    "kind": "service",
+    "category": "資料處理",
+    "usd": [
+     0.1,
+     0.3
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     10
+    ]
+   }
+  ]
+ },
+ "accounting": {
+  "categories": [
+   "記帳服務",
+   "稅務申報",
+   "工商登記",
+   "財務簽證",
+   "顧問諮詢",
+   "人事薪資"
+  ],
+  "roles": [
+   "會計師",
+   "記帳士",
+   "核數師",
+   "審計助理",
+   "記帳員",
+   "稅務專員",
+   "會計助理",
+   "行政秘書"
+  ],
+  "departments": [
+   "審計部",
+   "記帳部",
+   "稅務部",
+   "行政部"
+  ],
+  "items": [
+   {
+    "name": "每月記帳",
+    "kind": "service",
+    "category": "記帳服務",
+    "usd": [
+     60,
+     156
+    ],
+    "unit": "month",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "帳務整理（補帳）",
+    "kind": "service",
+    "category": "記帳服務",
+    "usd": [
+     300,
+     1200
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "雙月營業稅申報",
+    "kind": "service",
+    "category": "稅務申報",
+    "usd": [
+     30,
+     90
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "營利事業所得稅結算申報",
+    "kind": "service",
+    "category": "稅務申報",
+    "usd": [
+     250,
+     940
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "個人綜合所得稅申報",
+    "kind": "service",
+    "category": "稅務申報",
+    "usd": [
+     31,
+     95
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "扣繳憑單申報",
+    "kind": "service",
+    "category": "稅務申報",
+    "usd": [
+     47,
+     155
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "利得稅報稅",
+    "kind": "service",
+    "category": "稅務申報",
+    "usd": [
+     250,
+     780
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "薪俸稅報稅",
+    "kind": "service",
+    "category": "稅務申報",
+    "usd": [
+     40,
+     120
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "財務簽證",
+    "kind": "service",
+    "category": "財務簽證",
+    "usd": [
+     940,
+     4700
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "核數服務",
+    "kind": "service",
+    "category": "財務簽證",
+    "usd": [
+     700,
+     3500
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "年度財務報表編製",
+    "kind": "service",
+    "category": "財務簽證",
+    "usd": [
+     310,
+     1250
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "公司設立登記",
+    "kind": "service",
+    "category": "工商登記",
+    "usd": [
+     155,
+     470
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "公司變更登記",
+    "kind": "service",
+    "category": "工商登記",
+    "usd": [
+     95,
+     250
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "商業登記續期代辦",
+    "kind": "service",
+    "category": "工商登記",
+    "usd": [
+     30,
+     95
+    ],
+    "unit": "set",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "公司秘書服務（年費）",
+    "kind": "service",
+    "category": "工商登記",
+    "usd": [
+     95,
+     310
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "稅務諮詢",
+    "kind": "service",
+    "category": "顧問諮詢",
+    "usd": [
+     62,
+     156
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "國稅局查帳陪同",
+    "kind": "service",
+    "category": "顧問諮詢",
+    "usd": [
+     150,
+     500
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "勞健保代辦",
+    "kind": "service",
+    "category": "人事薪資",
+    "usd": [
+     31,
+     95
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "薪資計算代辦",
+    "kind": "service",
+    "category": "人事薪資",
+    "usd": [
+     5,
+     15
+    ],
+    "unit": "person",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "強積金申報代辦",
+    "kind": "service",
+    "category": "人事薪資",
+    "usd": [
+     30,
+     90
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     120
+    ]
+   }
+  ]
+ },
+ "law_firm": {
+  "categories": [
+   "法律諮詢",
+   "訴訟代理",
+   "契約文件",
+   "企業法務",
+   "家事案件",
+   "非訟事件"
+  ],
+  "roles": [
+   "主持律師",
+   "合夥律師",
+   "受僱律師",
+   "見習律師",
+   "法務助理",
+   "律師助理",
+   "秘書",
+   "行政人員"
+  ],
+  "departments": [
+   "訴訟部",
+   "企業法務部",
+   "行政部"
+  ],
+  "items": [
+   {
+    "name": "法律諮詢",
+    "kind": "service",
+    "category": "法律諮詢",
+    "usd": [
+     94,
+     250
+    ],
+    "unit": "hour",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "電話法律諮詢",
+    "kind": "service",
+    "category": "法律諮詢",
+    "usd": [
+     30,
+     80
+    ],
+    "unit": "session",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "民事訴訟代理（每審級）",
+    "kind": "service",
+    "category": "訴訟代理",
+    "usd": [
+     1900,
+     6200
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "刑事案件辯護（每審級）",
+    "kind": "service",
+    "category": "訴訟代理",
+    "usd": [
+     2500,
+     7800
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "行政訴訟代理",
+    "kind": "service",
+    "category": "訴訟代理",
+    "usd": [
+     2500,
+     7000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "開庭出庭費",
+    "kind": "service",
+    "category": "訴訟代理",
+    "usd": [
+     300,
+     900
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "合約審閱",
+    "kind": "service",
+    "category": "契約文件",
+    "usd": [
+     155,
+     940
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "合約擬定",
+    "kind": "service",
+    "category": "契約文件",
+    "usd": [
+     310,
+     1560
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "存證信函撰寫",
+    "kind": "service",
+    "category": "契約文件",
+    "usd": [
+     94,
+     250
+    ],
+    "unit": "set",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "律師函",
+    "kind": "service",
+    "category": "契約文件",
+    "usd": [
+     155,
+     470
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "企業常年法律顧問",
+    "kind": "service",
+    "category": "企業法務",
+    "usd": [
+     310,
+     1560
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "商標註冊申請",
+    "kind": "service",
+    "category": "企業法務",
+    "usd": [
+     250,
+     620
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "併購法律盡職調查",
+    "kind": "service",
+    "category": "企業法務",
+    "usd": [
+     9400,
+     47000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "勞資爭議處理",
+    "kind": "service",
+    "category": "企業法務",
+    "usd": [
+     620,
+     2500
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "公司章程修訂",
+    "kind": "service",
+    "category": "企業法務",
+    "usd": [
+     300,
+     900
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     360
+    ]
+   },
+   {
+    "name": "離婚協議書擬定",
+    "kind": "service",
+    "category": "家事案件",
+    "usd": [
+     300,
+     1000
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "遺囑擬定見證",
+    "kind": "service",
+    "category": "家事案件",
+    "usd": [
+     470,
+     1900
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "遺產繼承辦理",
+    "kind": "service",
+    "category": "家事案件",
+    "usd": [
+     900,
+     3000
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "調解與和解協商",
+    "kind": "service",
+    "category": "非訟事件",
+    "usd": [
+     310,
+     1250
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "物業買賣轉易手續",
+    "kind": "service",
+    "category": "非訟事件",
+    "usd": [
+     300,
+     1200
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "文件公證認證代辦",
+    "kind": "service",
+    "category": "非訟事件",
+    "usd": [
+     60,
+     200
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     90
+    ]
+   }
+  ]
+ },
+ "management_consulting": {
+  "categories": [
+   "經營診斷",
+   "策略規劃",
+   "教育訓練",
+   "輔導專案",
+   "顧問服務"
+  ],
+  "roles": [
+   "資深顧問",
+   "顧問",
+   "專案經理",
+   "研究分析師",
+   "講師",
+   "業務開發經理",
+   "行政專員"
+  ],
+  "departments": [
+   "顧問部",
+   "培訓部",
+   "研究部",
+   "行政部"
+  ],
+  "items": [
+   {
+    "name": "企業經營診斷",
+    "kind": "service",
+    "category": "經營診斷",
+    "usd": [
+     1500,
+     6200
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "財務健檢",
+    "kind": "service",
+    "category": "經營診斷",
+    "usd": [
+     1200,
+     4500
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "市場調查研究",
+    "kind": "service",
+    "category": "經營診斷",
+    "usd": [
+     3100,
+     15600
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "顧客滿意度調查",
+    "kind": "service",
+    "category": "經營診斷",
+    "usd": [
+     1500,
+     6000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "策略規劃專案",
+    "kind": "service",
+    "category": "策略規劃",
+    "usd": [
+     6200,
+     31000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "營運計畫書撰寫",
+    "kind": "service",
+    "category": "策略規劃",
+    "usd": [
+     900,
+     3500
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "家族企業傳承規劃",
+    "kind": "service",
+    "category": "策略規劃",
+    "usd": [
+     6200,
+     25000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "組織架構與績效制度設計",
+    "kind": "service",
+    "category": "策略規劃",
+    "usd": [
+     4700,
+     19000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "企業內訓課程",
+    "kind": "service",
+    "category": "教育訓練",
+    "usd": [
+     620,
+     1900
+    ],
+    "unit": "session",
+    "minutes": [
+     180,
+     420
+    ]
+   },
+   {
+    "name": "主管領導力培訓",
+    "kind": "service",
+    "category": "教育訓練",
+    "usd": [
+     155,
+     470
+    ],
+    "unit": "person",
+    "minutes": [
+     360,
+     480
+    ]
+   },
+   {
+    "name": "新進人員訓練",
+    "kind": "service",
+    "category": "教育訓練",
+    "usd": [
+     400,
+     1200
+    ],
+    "unit": "session",
+    "minutes": [
+     180,
+     480
+    ]
+   },
+   {
+    "name": "公開班課程",
+    "kind": "service",
+    "category": "教育訓練",
+    "usd": [
+     100,
+     300
+    ],
+    "unit": "person",
+    "minutes": [
+     180,
+     420
+    ]
+   },
+   {
+    "name": "ISO 9001輔導",
+    "kind": "service",
+    "category": "輔導專案",
+    "usd": [
+     2500,
+     7800
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "政府補助計畫申請輔導",
+    "kind": "service",
+    "category": "輔導專案",
+    "usd": [
+     1500,
+     6200
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "數位轉型輔導",
+    "kind": "service",
+    "category": "輔導專案",
+    "usd": [
+     3000,
+     12000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "營運流程改善",
+    "kind": "service",
+    "category": "輔導專案",
+    "usd": [
+     3100,
+     12500
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "顧問駐廠輔導",
+    "kind": "service",
+    "category": "輔導專案",
+    "usd": [
+     470,
+     1250
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "顧問諮詢",
+    "kind": "service",
+    "category": "顧問服務",
+    "usd": [
+     94,
+     250
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "月度顧問服務",
+    "kind": "service",
+    "category": "顧問服務",
+    "usd": [
+     940,
+     3800
+    ],
+    "unit": "month",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "董事會簡報準備",
+    "kind": "service",
+    "category": "顧問服務",
+    "usd": [
+     500,
+     2000
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   }
+  ]
+ },
+ "architecture": {
+  "categories": [
+   "建築設計",
+   "執照申請",
+   "監造服務",
+   "室內設計",
+   "圖面製作",
+   "規劃諮詢"
+  ],
+  "roles": [
+   "主持建築師",
+   "建築師",
+   "設計師",
+   "繪圖員",
+   "3D建模師",
+   "專案經理",
+   "監造人員",
+   "行政助理"
+  ],
+  "departments": [
+   "設計部",
+   "工務部",
+   "行政部"
+  ],
+  "items": [
+   {
+    "name": "建築規劃設計",
+    "kind": "service",
+    "category": "建築設計",
+    "usd": [
+     9400,
+     94000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "透天住宅設計",
+    "kind": "service",
+    "category": "建築設計",
+    "usd": [
+     5000,
+     20000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "變更設計",
+    "kind": "service",
+    "category": "建築設計",
+    "usd": [
+     1500,
+     6000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "建造執照申請",
+    "kind": "service",
+    "category": "執照申請",
+    "usd": [
+     3100,
+     15600
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "使用執照申請",
+    "kind": "service",
+    "category": "執照申請",
+    "usd": [
+     1500,
+     6200
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "室內裝修許可申請",
+    "kind": "service",
+    "category": "執照申請",
+    "usd": [
+     940,
+     3100
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "綠建築標章申請",
+    "kind": "service",
+    "category": "執照申請",
+    "usd": [
+     4700,
+     15600
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "施工監造",
+    "kind": "service",
+    "category": "監造服務",
+    "usd": [
+     940,
+     3100
+    ],
+    "unit": "month",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "工地巡查",
+    "kind": "service",
+    "category": "監造服務",
+    "usd": [
+     150,
+     400
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "室內設計",
+    "kind": "service",
+    "category": "室內設計",
+    "usd": [
+     28,
+     75
+    ],
+    "unit": "m2",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "室內平面配置",
+    "kind": "service",
+    "category": "室內設計",
+    "usd": [
+     300,
+     1200
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "軟裝搭配規劃",
+    "kind": "service",
+    "category": "室內設計",
+    "usd": [
+     500,
+     2000
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "3D透視圖",
+    "kind": "service",
+    "category": "圖面製作",
+    "usd": [
+     155,
+     620
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "建築模型製作",
+    "kind": "service",
+    "category": "圖面製作",
+    "usd": [
+     620,
+     3100
+    ],
+    "unit": "piece",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "竣工圖繪製",
+    "kind": "service",
+    "category": "圖面製作",
+    "usd": [
+     620,
+     2500
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "現況丈量繪圖",
+    "kind": "service",
+    "category": "圖面製作",
+    "usd": [
+     200,
+     800
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "基地開發可行性評估",
+    "kind": "service",
+    "category": "規劃諮詢",
+    "usd": [
+     1500,
+     6200
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "危老重建整合規劃",
+    "kind": "service",
+    "category": "規劃諮詢",
+    "usd": [
+     15600,
+     94000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "都市更新規劃",
+    "kind": "service",
+    "category": "規劃諮詢",
+    "usd": [
+     20000,
+     120000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "設計諮詢",
+    "kind": "service",
+    "category": "規劃諮詢",
+    "usd": [
+     62,
+     156
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     120
+    ]
+   }
+  ]
+ },
+ "advertising": {
+  "categories": [
+   "品牌設計",
+   "平面設計",
+   "數位廣告",
+   "社群經營",
+   "影音製作",
+   "活動公關"
+  ],
+  "roles": [
+   "創意總監",
+   "專案經理",
+   "AE業務",
+   "平面設計師",
+   "文案企劃",
+   "社群小編",
+   "數位廣告投手",
+   "影片剪輯師"
+  ],
+  "departments": [
+   "創意部",
+   "客戶服務部",
+   "數位行銷部",
+   "影音部"
+  ],
+  "items": [
+   {
+    "name": "品牌識別CI設計",
+    "kind": "service",
+    "category": "品牌設計",
+    "usd": [
+     1500,
+     9400
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "Logo設計",
+    "kind": "service",
+    "category": "品牌設計",
+    "usd": [
+     310,
+     1900
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "包裝設計",
+    "kind": "service",
+    "category": "品牌設計",
+    "usd": [
+     800,
+     3500
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "名片設計",
+    "kind": "service",
+    "category": "平面設計",
+    "usd": [
+     30,
+     90
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "DM文宣設計",
+    "kind": "service",
+    "category": "平面設計",
+    "usd": [
+     94,
+     310
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "海報設計",
+    "kind": "service",
+    "category": "平面設計",
+    "usd": [
+     150,
+     500
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "戶外廣告看板設計",
+    "kind": "service",
+    "category": "平面設計",
+    "usd": [
+     250,
+     940
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "FB及IG廣告代操",
+    "kind": "service",
+    "category": "數位廣告",
+    "usd": [
+     310,
+     1560
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "Google關鍵字廣告代操",
+    "kind": "service",
+    "category": "數位廣告",
+    "usd": [
+     310,
+     1560
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "SEO搜尋引擎優化",
+    "kind": "service",
+    "category": "數位廣告",
+    "usd": [
+     470,
+     1900
+    ],
+    "unit": "month",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "EDM電子報設計",
+    "kind": "service",
+    "category": "數位廣告",
+    "usd": [
+     94,
+     310
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "廣告文案撰寫",
+    "kind": "service",
+    "category": "數位廣告",
+    "usd": [
+     94,
+     470
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "社群代操",
+    "kind": "service",
+    "category": "社群經營",
+    "usd": [
+     470,
+     1900
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "社群貼文設計",
+    "kind": "service",
+    "category": "社群經營",
+    "usd": [
+     30,
+     90
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "網紅合作企劃",
+    "kind": "service",
+    "category": "社群經營",
+    "usd": [
+     940,
+     9400
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "品牌形象影片製作",
+    "kind": "service",
+    "category": "影音製作",
+    "usd": [
+     2500,
+     15600
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "短影音製作",
+    "kind": "service",
+    "category": "影音製作",
+    "usd": [
+     300,
+     1200
+    ],
+    "unit": "piece",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "商品攝影",
+    "kind": "service",
+    "category": "影音製作",
+    "usd": [
+     15,
+     40
+    ],
+    "unit": "piece",
+    "minutes": [
+     15,
+     60
+    ]
+   },
+   {
+    "name": "記者會活動企劃",
+    "kind": "service",
+    "category": "活動公關",
+    "usd": [
+     3100,
+     15600
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "新聞稿撰寫發佈",
+    "kind": "service",
+    "category": "活動公關",
+    "usd": [
+     155,
+     620
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     240
+    ]
+   }
+  ]
+ },
+ "photography": {
+  "categories": [
+   "證件照",
+   "形象寫真",
+   "婚紗婚禮",
+   "商業攝影",
+   "活動攝影",
+   "沖印裱框"
+  ],
+  "roles": [
+   "攝影師",
+   "攝影助理",
+   "修圖師",
+   "造型師",
+   "婚紗顧問",
+   "錄影師",
+   "門市接待"
+  ],
+  "departments": [
+   "攝影部",
+   "後製部",
+   "門市部"
+  ],
+  "items": [
+   {
+    "name": "證件照",
+    "kind": "service",
+    "category": "證件照",
+    "usd": [
+     9,
+     19
+    ],
+    "unit": "set",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "護照簽證照",
+    "kind": "service",
+    "category": "證件照",
+    "usd": [
+     8,
+     15
+    ],
+    "unit": "set",
+    "minutes": [
+     10,
+     20
+    ]
+   },
+   {
+    "name": "韓式證件照",
+    "kind": "service",
+    "category": "證件照",
+    "usd": [
+     20,
+     40
+    ],
+    "unit": "set",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "形象照拍攝",
+    "kind": "service",
+    "category": "形象寫真",
+    "usd": [
+     94,
+     250
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "個人寫真",
+    "kind": "service",
+    "category": "形象寫真",
+    "usd": [
+     120,
+     350
+    ],
+    "unit": "session",
+    "minutes": [
+     90,
+     180
+    ]
+   },
+   {
+    "name": "全家福拍攝",
+    "kind": "service",
+    "category": "形象寫真",
+    "usd": [
+     94,
+     250
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "新生兒寫真",
+    "kind": "service",
+    "category": "形象寫真",
+    "usd": [
+     155,
+     375
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "孕婦寫真",
+    "kind": "service",
+    "category": "形象寫真",
+    "usd": [
+     155,
+     470
+    ],
+    "unit": "session",
+    "minutes": [
+     90,
+     180
+    ]
+   },
+   {
+    "name": "寵物寫真",
+    "kind": "service",
+    "category": "形象寫真",
+    "usd": [
+     80,
+     200
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "婚紗攝影方案",
+    "kind": "service",
+    "category": "婚紗婚禮",
+    "usd": [
+     780,
+     2500
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "婚禮平面紀錄（半日）",
+    "kind": "service",
+    "category": "婚紗婚禮",
+    "usd": [
+     250,
+     620
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     300
+    ]
+   },
+   {
+    "name": "婚禮動態錄影",
+    "kind": "service",
+    "category": "婚紗婚禮",
+    "usd": [
+     470,
+     1250
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "商品去背攝影",
+    "kind": "service",
+    "category": "商業攝影",
+    "usd": [
+     9,
+     25
+    ],
+    "unit": "piece",
+    "minutes": [
+     10,
+     30
+    ]
+   },
+   {
+    "name": "餐飲美食攝影",
+    "kind": "service",
+    "category": "商業攝影",
+    "usd": [
+     300,
+     900
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     300
+    ]
+   },
+   {
+    "name": "空拍攝影",
+    "kind": "service",
+    "category": "商業攝影",
+    "usd": [
+     250,
+     780
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "攝影棚租借",
+    "kind": "service",
+    "category": "商業攝影",
+    "usd": [
+     25,
+     62
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "活動攝影",
+    "kind": "service",
+    "category": "活動攝影",
+    "usd": [
+     62,
+     156
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "活動錄影剪輯",
+    "kind": "service",
+    "category": "活動攝影",
+    "usd": [
+     300,
+     1000
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "相片沖印",
+    "kind": "product",
+    "category": "沖印裱框",
+    "usd": [
+     0.15,
+     1.5
+    ],
+    "unit": "piece",
+    "variants": [
+     "4×6吋",
+     "5×7吋",
+     "8×10吋"
+    ]
+   },
+   {
+    "name": "相片放大裱框",
+    "kind": "product",
+    "category": "沖印裱框",
+    "usd": [
+     25,
+     94
+    ],
+    "unit": "piece",
+    "variants": [
+     "A4",
+     "A3",
+     "A2"
+    ]
+   },
+   {
+    "name": "木質相框",
+    "kind": "product",
+    "category": "沖印裱框",
+    "usd": [
+     8,
+     30
+    ],
+    "unit": "piece",
+    "variants": [
+     "5×7吋",
+     "8×10吋",
+     "A4"
+    ]
+   },
+   {
+    "name": "精裝相本",
+    "kind": "product",
+    "category": "沖印裱框",
+    "usd": [
+     60,
+     200
+    ],
+    "unit": "piece",
+    "variants": [
+     "20頁",
+     "30頁",
+     "40頁"
+    ]
+   }
+  ]
+ },
+ "translation": {
+  "categories": [
+   "筆譯",
+   "證件翻譯",
+   "校稿潤飾",
+   "口譯",
+   "字幕聽打"
+  ],
+  "roles": [
+   "專職譯者",
+   "特約譯者",
+   "口譯員",
+   "審稿編輯",
+   "專案經理",
+   "業務專員",
+   "行政助理"
+  ],
+  "departments": [
+   "筆譯部",
+   "口譯部",
+   "行政部"
+  ],
+  "items": [
+   {
+    "name": "中翻英筆譯（每千字）",
+    "kind": "service",
+    "category": "筆譯",
+    "usd": [
+     50,
+     100
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     300
+    ]
+   },
+   {
+    "name": "英翻中筆譯（每千字）",
+    "kind": "service",
+    "category": "筆譯",
+    "usd": [
+     30,
+     80
+    ],
+    "unit": "piece",
+    "minutes": [
+     90,
+     240
+    ]
+   },
+   {
+    "name": "日翻中筆譯（每千字）",
+    "kind": "service",
+    "category": "筆譯",
+    "usd": [
+     40,
+     80
+    ],
+    "unit": "piece",
+    "minutes": [
+     90,
+     240
+    ]
+   },
+   {
+    "name": "韓翻中筆譯（每千字）",
+    "kind": "service",
+    "category": "筆譯",
+    "usd": [
+     40,
+     85
+    ],
+    "unit": "piece",
+    "minutes": [
+     90,
+     240
+    ]
+   },
+   {
+    "name": "專利說明書翻譯（每千字）",
+    "kind": "service",
+    "category": "筆譯",
+    "usd": [
+     60,
+     130
+    ],
+    "unit": "piece",
+    "minutes": [
+     180,
+     360
+    ]
+   },
+   {
+    "name": "技術手冊翻譯（每千字）",
+    "kind": "service",
+    "category": "筆譯",
+    "usd": [
+     50,
+     110
+    ],
+    "unit": "piece",
+    "minutes": [
+     150,
+     300
+    ]
+   },
+   {
+    "name": "網站在地化翻譯（每千字）",
+    "kind": "service",
+    "category": "筆譯",
+    "usd": [
+     50,
+     100
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     300
+    ]
+   },
+   {
+    "name": "法律文件翻譯（每頁）",
+    "kind": "service",
+    "category": "證件翻譯",
+    "usd": [
+     25,
+     62
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "畢業證書翻譯",
+    "kind": "service",
+    "category": "證件翻譯",
+    "usd": [
+     15,
+     38
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "成績單翻譯",
+    "kind": "service",
+    "category": "證件翻譯",
+    "usd": [
+     15,
+     40
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "戶籍謄本翻譯",
+    "kind": "service",
+    "category": "證件翻譯",
+    "usd": [
+     15,
+     35
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "翻譯公證代辦",
+    "kind": "service",
+    "category": "證件翻譯",
+    "usd": [
+     30,
+     80
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "文件校稿潤飾（每千字）",
+    "kind": "service",
+    "category": "校稿潤飾",
+    "usd": [
+     15,
+     50
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "英文論文潤稿（每千字）",
+    "kind": "service",
+    "category": "校稿潤飾",
+    "usd": [
+     25,
+     70
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "逐步口譯",
+    "kind": "service",
+    "category": "口譯",
+    "usd": [
+     94,
+     190
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "會議同步口譯（全日）",
+    "kind": "service",
+    "category": "口譯",
+    "usd": [
+     780,
+     1400
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "會議同步口譯（半日）",
+    "kind": "service",
+    "category": "口譯",
+    "usd": [
+     450,
+     800
+    ],
+    "unit": "session",
+    "minutes": [
+     180,
+     240
+    ]
+   },
+   {
+    "name": "商務陪同口譯",
+    "kind": "service",
+    "category": "口譯",
+    "usd": [
+     250,
+     620
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "同步口譯設備租賃",
+    "kind": "service",
+    "category": "口譯",
+    "usd": [
+     250,
+     620
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "影片字幕翻譯",
+    "kind": "service",
+    "category": "字幕聽打",
+    "usd": [
+     155,
+     470
+    ],
+    "unit": "hour",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "逐字稿聽打",
+    "kind": "service",
+    "category": "字幕聽打",
+    "usd": [
+     47,
+     125
+    ],
+    "unit": "hour",
+    "minutes": [
+     120,
+     300
+    ]
+   }
+  ]
+ },
+ "road_freight": {
+  "categories": [
+   "整車運輸",
+   "零擔配送",
+   "冷鏈運輸",
+   "倉儲作業",
+   "跨境運輸",
+   "專案搬遷"
+  ],
+  "roles": [
+   "貨車司機",
+   "聯結車司機",
+   "跟車助手",
+   "調度員",
+   "倉管人員",
+   "堆高機操作員",
+   "業務專員",
+   "會計"
+  ],
+  "departments": [
+   "車隊調度部",
+   "倉儲部",
+   "業務部",
+   "財務行政部"
+  ],
+  "items": [
+   {
+    "name": "3.5噸貨車運輸（市區）",
+    "kind": "service",
+    "category": "整車運輸",
+    "usd": [
+     60,
+     150
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "3.5噸貨車包車",
+    "kind": "service",
+    "category": "整車運輸",
+    "usd": [
+     150,
+     300
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "17噸大貨車包車",
+    "kind": "service",
+    "category": "整車運輸",
+    "usd": [
+     250,
+     470
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "升降尾門車運輸",
+    "kind": "service",
+    "category": "整車運輸",
+    "usd": [
+     190,
+     310
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "40呎貨櫃拖運",
+    "kind": "service",
+    "category": "整車運輸",
+    "usd": [
+     190,
+     470
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "20呎貨櫃拖運",
+    "kind": "service",
+    "category": "整車運輸",
+    "usd": [
+     150,
+     380
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "危險品運輸",
+    "kind": "service",
+    "category": "整車運輸",
+    "usd": [
+     200,
+     600
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "零擔貨物配送",
+    "kind": "service",
+    "category": "零擔配送",
+    "usd": [
+     0.1,
+     0.3
+    ],
+    "unit": "kg",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "棧板貨物配送",
+    "kind": "service",
+    "category": "零擔配送",
+    "usd": [
+     25,
+     60
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "專車直送",
+    "kind": "service",
+    "category": "零擔配送",
+    "usd": [
+     62,
+     190
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     300
+    ]
+   },
+   {
+    "name": "冷凍冷藏運輸",
+    "kind": "service",
+    "category": "冷鏈運輸",
+    "usd": [
+     120,
+     350
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "冷藏車包車",
+    "kind": "service",
+    "category": "冷鏈運輸",
+    "usd": [
+     250,
+     500
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "棧板倉儲保管",
+    "kind": "service",
+    "category": "倉儲作業",
+    "usd": [
+     9,
+     19
+    ],
+    "unit": "month",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "理貨貼標作業",
+    "kind": "service",
+    "category": "倉儲作業",
+    "usd": [
+     0.06,
+     0.25
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     10
+    ]
+   },
+   {
+    "name": "揀貨包裝",
+    "kind": "service",
+    "category": "倉儲作業",
+    "usd": [
+     0.3,
+     1
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     15
+    ]
+   },
+   {
+    "name": "貨物裝卸",
+    "kind": "service",
+    "category": "倉儲作業",
+    "usd": [
+     15,
+     31
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "物流中心委外營運",
+    "kind": "service",
+    "category": "倉儲作業",
+    "usd": [
+     3100,
+     15600
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "中港跨境陸運",
+    "kind": "service",
+    "category": "跨境運輸",
+    "usd": [
+     300,
+     900
+    ],
+    "unit": "session",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "報關代理",
+    "kind": "service",
+    "category": "跨境運輸",
+    "usd": [
+     30,
+     100
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "廠房設備搬遷",
+    "kind": "service",
+    "category": "專案搬遷",
+    "usd": [
+     940,
+     4700
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "辦公室搬遷",
+    "kind": "service",
+    "category": "專案搬遷",
+    "usd": [
+     500,
+     2500
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   }
+  ]
+ },
+ "courier": {
+  "categories": [
+   "同城急件",
+   "宅配",
+   "國際快遞",
+   "企業月結",
+   "代收服務",
+   "包材"
+  ],
+  "roles": [
+   "快遞員",
+   "速遞員",
+   "機車騎士",
+   "貨車司機",
+   "調度員",
+   "客服專員",
+   "理貨員",
+   "站所主管"
+  ],
+  "departments": [
+   "收派部",
+   "調度中心",
+   "客服部",
+   "營業部"
+  ],
+  "items": [
+   {
+    "name": "機車快遞（市區）",
+    "kind": "service",
+    "category": "同城急件",
+    "usd": [
+     4.5,
+     12.5
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "一小時急件專送",
+    "kind": "service",
+    "category": "同城急件",
+    "usd": [
+     9,
+     25
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "文件快遞",
+    "kind": "service",
+    "category": "同城急件",
+    "usd": [
+     3,
+     8
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     180
+    ]
+   },
+   {
+    "name": "同城貨車急送",
+    "kind": "service",
+    "category": "同城急件",
+    "usd": [
+     25,
+     62
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "長途專車急送",
+    "kind": "service",
+    "category": "同城急件",
+    "usd": [
+     150,
+     400
+    ],
+    "unit": "session",
+    "minutes": [
+     180,
+     480
+    ]
+   },
+   {
+    "name": "即日速遞（港九新界）",
+    "kind": "service",
+    "category": "同城急件",
+    "usd": [
+     5,
+     15
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "常溫宅配（60公分）",
+    "kind": "service",
+    "category": "宅配",
+    "usd": [
+     4,
+     6.5
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "常溫宅配（90公分）",
+    "kind": "service",
+    "category": "宅配",
+    "usd": [
+     5.5,
+     8.5
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "常溫宅配（120公分）",
+    "kind": "service",
+    "category": "宅配",
+    "usd": [
+     7,
+     11
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "冷藏宅配（60公分）",
+    "kind": "service",
+    "category": "宅配",
+    "usd": [
+     5,
+     8
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "冷凍宅配（90公分）",
+    "kind": "service",
+    "category": "宅配",
+    "usd": [
+     6,
+     9.5
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "電商包裹配送",
+    "kind": "service",
+    "category": "宅配",
+    "usd": [
+     1.9,
+     3.8
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "店到店寄件",
+    "kind": "service",
+    "category": "宅配",
+    "usd": [
+     2,
+     3
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "國際快遞（文件）",
+    "kind": "service",
+    "category": "國際快遞",
+    "usd": [
+     25,
+     47
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "國際快遞（包裹）",
+    "kind": "service",
+    "category": "國際快遞",
+    "usd": [
+     12,
+     28
+    ],
+    "unit": "kg",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "進口報關代理",
+    "kind": "service",
+    "category": "國際快遞",
+    "usd": [
+     31,
+     94
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "企業月結收送",
+    "kind": "service",
+    "category": "企業月結",
+    "usd": [
+     155,
+     940
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "定時定點收送",
+    "kind": "service",
+    "category": "企業月結",
+    "usd": [
+     94,
+     310
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "貨到付款代收",
+    "kind": "service",
+    "category": "代收服務",
+    "usd": [
+     0.5,
+     1.5
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     15
+    ]
+   },
+   {
+    "name": "簽收單回傳",
+    "kind": "service",
+    "category": "代收服務",
+    "usd": [
+     0.5,
+     1.5
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     15
+    ]
+   },
+   {
+    "name": "紙箱",
+    "kind": "product",
+    "category": "包材",
+    "usd": [
+     0.5,
+     2
+    ],
+    "unit": "piece",
+    "variants": [
+     "小",
+     "中",
+     "大"
+    ]
+   },
+   {
+    "name": "氣泡袋",
+    "kind": "product",
+    "category": "包材",
+    "usd": [
+     0.2,
+     0.8
+    ],
+    "unit": "piece",
+    "variants": [
+     "小",
+     "中",
+     "大"
+    ]
+   },
+   {
+    "name": "防水快遞袋",
+    "kind": "product",
+    "category": "包材",
+    "usd": [
+     0.2,
+     0.6
+    ],
+    "unit": "piece",
+    "variants": [
+     "A4",
+     "A3"
+    ]
+   }
+  ]
+ },
+ "travel_agency": {
+  "categories": [
+   "日韓",
+   "東南亞",
+   "歐美長線",
+   "國內及港澳",
+   "機票訂房",
+   "代辦服務"
+  ],
+  "roles": [
+   "領隊",
+   "導遊",
+   "旅遊顧問",
+   "線控",
+   "OP人員",
+   "票務專員",
+   "客服專員",
+   "經理人"
+  ],
+  "departments": [
+   "團體部",
+   "票務部",
+   "國內旅遊部",
+   "財務部"
+  ],
+  "items": [
+   {
+    "name": "東京五日遊",
+    "kind": "service",
+    "category": "日韓",
+    "usd": [
+     875,
+     1400
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "大阪京都五日遊",
+    "kind": "service",
+    "category": "日韓",
+    "usd": [
+     850,
+     1350
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "北海道六日遊",
+    "kind": "service",
+    "category": "日韓",
+    "usd": [
+     1250,
+     2200
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "首爾五日遊",
+    "kind": "service",
+    "category": "日韓",
+    "usd": [
+     620,
+     1100
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "沖繩四日遊",
+    "kind": "service",
+    "category": "日韓",
+    "usd": [
+     600,
+     1000
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "曼谷芭達雅五日遊",
+    "kind": "service",
+    "category": "東南亞",
+    "usd": [
+     560,
+     940
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "峇里島五日遊",
+    "kind": "service",
+    "category": "東南亞",
+    "usd": [
+     700,
+     1200
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "越南峴港五日遊",
+    "kind": "service",
+    "category": "東南亞",
+    "usd": [
+     600,
+     1000
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "郵輪假期",
+    "kind": "service",
+    "category": "東南亞",
+    "usd": [
+     620,
+     1900
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "西歐十日遊",
+    "kind": "service",
+    "category": "歐美長線",
+    "usd": [
+     2800,
+     4700
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "美西十日遊",
+    "kind": "service",
+    "category": "歐美長線",
+    "usd": [
+     2500,
+     4200
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "花東三日遊",
+    "kind": "service",
+    "category": "國內及港澳",
+    "usd": [
+     250,
+     470
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "阿里山日月潭二日遊",
+    "kind": "service",
+    "category": "國內及港澳",
+    "usd": [
+     180,
+     350
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "澳門一日遊",
+    "kind": "service",
+    "category": "國內及港澳",
+    "usd": [
+     120,
+     250
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "包車旅遊（含司機）",
+    "kind": "service",
+    "category": "國內及港澳",
+    "usd": [
+     190,
+     375
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "來回經濟艙機票",
+    "kind": "service",
+    "category": "機票訂房",
+    "usd": [
+     250,
+     1250
+    ],
+    "unit": "person",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "日本自由行機加酒",
+    "kind": "service",
+    "category": "機票訂房",
+    "usd": [
+     470,
+     1100
+    ],
+    "unit": "person",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "飯店代訂",
+    "kind": "service",
+    "category": "機票訂房",
+    "usd": [
+     62,
+     190
+    ],
+    "unit": "day",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "簽證代辦",
+    "kind": "service",
+    "category": "代辦服務",
+    "usd": [
+     47,
+     125
+    ],
+    "unit": "person",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "台胞證代辦",
+    "kind": "service",
+    "category": "代辦服務",
+    "usd": [
+     40,
+     70
+    ],
+    "unit": "person",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "旅遊平安保險",
+    "kind": "service",
+    "category": "代辦服務",
+    "usd": [
+     10,
+     40
+    ],
+    "unit": "person",
+    "minutes": [
+     10,
+     20
+    ]
+   },
+   {
+    "name": "員工旅遊規劃",
+    "kind": "service",
+    "category": "代辦服務",
+    "usd": [
+     155,
+     620
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   }
+  ]
+ },
+ "real_estate": {
+  "categories": [
+   "買賣仲介",
+   "租賃仲介",
+   "代租代管",
+   "估價鑑定",
+   "代辦服務"
+  ],
+  "roles": [
+   "不動產經紀人",
+   "經紀營業員",
+   "地產代理",
+   "分行經理",
+   "店長",
+   "秘書",
+   "地政士",
+   "租賃專員"
+  ],
+  "departments": [
+   "買賣部",
+   "租賃部",
+   "物業管理部",
+   "行政部"
+  ],
+  "items": [
+   {
+    "name": "房屋買賣仲介（賣方）",
+    "kind": "service",
+    "category": "買賣仲介",
+    "usd": [
+     6000,
+     40000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "房屋買賣仲介（買方）",
+    "kind": "service",
+    "category": "買賣仲介",
+    "usd": [
+     3000,
+     20000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "店面買賣仲介",
+    "kind": "service",
+    "category": "買賣仲介",
+    "usd": [
+     8000,
+     50000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "土地買賣仲介",
+    "kind": "service",
+    "category": "買賣仲介",
+    "usd": [
+     10000,
+     80000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "預售屋代銷企劃",
+    "kind": "service",
+    "category": "買賣仲介",
+    "usd": [
+     15600,
+     156000
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "住宅租賃仲介",
+    "kind": "service",
+    "category": "租賃仲介",
+    "usd": [
+     310,
+     940
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "店面租賃代理",
+    "kind": "service",
+    "category": "租賃仲介",
+    "usd": [
+     470,
+     3100
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "辦公室租賃代理",
+    "kind": "service",
+    "category": "租賃仲介",
+    "usd": [
+     800,
+     5000
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "包租代管",
+    "kind": "service",
+    "category": "代租代管",
+    "usd": [
+     47,
+     190
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "租金代收",
+    "kind": "service",
+    "category": "代租代管",
+    "usd": [
+     20,
+     60
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "大樓物業管理",
+    "kind": "service",
+    "category": "代租代管",
+    "usd": [
+     0.5,
+     1.1
+    ],
+    "unit": "m2",
+    "minutes": [
+     60,
+     480
+    ]
+   },
+   {
+    "name": "空屋巡檢",
+    "kind": "service",
+    "category": "代租代管",
+    "usd": [
+     30,
+     80
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "不動產估價報告",
+    "kind": "service",
+    "category": "估價鑑定",
+    "usd": [
+     310,
+     1560
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "屋況檢測",
+    "kind": "service",
+    "category": "估價鑑定",
+    "usd": [
+     155,
+     470
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "海砂屋氯離子檢測",
+    "kind": "service",
+    "category": "估價鑑定",
+    "usd": [
+     150,
+     400
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "產權調查",
+    "kind": "service",
+    "category": "代辦服務",
+    "usd": [
+     94,
+     250
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "產權過戶代辦",
+    "kind": "service",
+    "category": "代辦服務",
+    "usd": [
+     470,
+     780
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "租賃契約代擬",
+    "kind": "service",
+    "category": "代辦服務",
+    "usd": [
+     31,
+     94
+    ],
+    "unit": "set",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "實價登錄代辦",
+    "kind": "service",
+    "category": "代辦服務",
+    "usd": [
+     30,
+     80
+    ],
+    "unit": "set",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "海外物業投資諮詢",
+    "kind": "service",
+    "category": "代辦服務",
+    "usd": [
+     62,
+     190
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     120
+    ]
+   }
+  ]
+ },
+ "cleaning": {
+  "categories": [
+   "居家清潔",
+   "辦公室清潔",
+   "專業清洗",
+   "裝潢細清",
+   "消毒除蟲"
+  ],
+  "roles": [
+   "清潔人員",
+   "清潔組長",
+   "家事服務員",
+   "駐點清潔員",
+   "現場督導",
+   "客服專員",
+   "調度專員"
+  ],
+  "departments": [
+   "居家服務部",
+   "商業清潔部",
+   "客服部"
+  ],
+  "items": [
+   {
+    "name": "居家清潔（鐘點）",
+    "kind": "service",
+    "category": "居家清潔",
+    "usd": [
+     15,
+     25
+    ],
+    "unit": "hour",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "全屋大掃除",
+    "kind": "service",
+    "category": "居家清潔",
+    "usd": [
+     150,
+     400
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "退租清潔",
+    "kind": "service",
+    "category": "居家清潔",
+    "usd": [
+     94,
+     250
+    ],
+    "unit": "set",
+    "minutes": [
+     180,
+     480
+    ]
+   },
+   {
+    "name": "冰箱清潔",
+    "kind": "service",
+    "category": "居家清潔",
+    "usd": [
+     30,
+     60
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "辦公室定期清潔",
+    "kind": "service",
+    "category": "辦公室清潔",
+    "usd": [
+     250,
+     940
+    ],
+    "unit": "month",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "駐點清潔人員",
+    "kind": "service",
+    "category": "辦公室清潔",
+    "usd": [
+     1000,
+     1400
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "地板打蠟",
+    "kind": "service",
+    "category": "辦公室清潔",
+    "usd": [
+     1.9,
+     4.7
+    ],
+    "unit": "m2",
+    "minutes": [
+     120,
+     360
+    ]
+   },
+   {
+    "name": "石材研磨晶化",
+    "kind": "service",
+    "category": "辦公室清潔",
+    "usd": [
+     4.5,
+     12.5
+    ],
+    "unit": "m2",
+    "minutes": [
+     180,
+     480
+    ]
+   },
+   {
+    "name": "抽油煙機清洗",
+    "kind": "service",
+    "category": "專業清洗",
+    "usd": [
+     47,
+     94
+    ],
+    "unit": "set",
+    "minutes": [
+     90,
+     150
+    ]
+   },
+   {
+    "name": "冷氣清洗",
+    "kind": "service",
+    "category": "專業清洗",
+    "usd": [
+     40,
+     90
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "洗衣機清洗",
+    "kind": "service",
+    "category": "專業清洗",
+    "usd": [
+     50,
+     100
+    ],
+    "unit": "set",
+    "minutes": [
+     90,
+     150
+    ]
+   },
+   {
+    "name": "布沙發清洗（每人座）",
+    "kind": "service",
+    "category": "專業清洗",
+    "usd": [
+     15,
+     28
+    ],
+    "unit": "piece",
+    "minutes": [
+     20,
+     40
+    ]
+   },
+   {
+    "name": "床墊除蟎清潔",
+    "kind": "service",
+    "category": "專業清洗",
+    "usd": [
+     31,
+     78
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "地毯清洗",
+    "kind": "service",
+    "category": "專業清洗",
+    "usd": [
+     1.9,
+     4.7
+    ],
+    "unit": "m2",
+    "minutes": [
+     60,
+     240
+    ]
+   },
+   {
+    "name": "外牆清洗",
+    "kind": "service",
+    "category": "專業清洗",
+    "usd": [
+     3,
+     9.5
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "玻璃帷幕清洗",
+    "kind": "service",
+    "category": "專業清洗",
+    "usd": [
+     2.5,
+     8
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "裝潢後細清",
+    "kind": "service",
+    "category": "裝潢細清",
+    "usd": [
+     2.3,
+     3.8
+    ],
+    "unit": "m2",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "裝潢後粗清",
+    "kind": "service",
+    "category": "裝潢細清",
+    "usd": [
+     1.2,
+     2.5
+    ],
+    "unit": "m2",
+    "minutes": [
+     180,
+     480
+    ]
+   },
+   {
+    "name": "環境消毒",
+    "kind": "service",
+    "category": "消毒除蟲",
+    "usd": [
+     0.6,
+     1.9
+    ],
+    "unit": "m2",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "除蟲除蟻",
+    "kind": "service",
+    "category": "消毒除蟲",
+    "usd": [
+     60,
+     180
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "白蟻防治",
+    "kind": "service",
+    "category": "消毒除蟲",
+    "usd": [
+     250,
+     800
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     300
+    ]
+   }
+  ]
+ },
+ "security": {
+  "categories": [
+   "駐衛保全",
+   "系統保全",
+   "監控門禁",
+   "活動保全",
+   "人身及運送"
+  ],
+  "roles": [
+   "保全員",
+   "保安員",
+   "保全隊長",
+   "巡邏員",
+   "監控中心值機員",
+   "系統工程師",
+   "督導",
+   "業務經理"
+  ],
+  "departments": [
+   "駐衛部",
+   "系統保全部",
+   "工程部",
+   "業務部"
+  ],
+  "items": [
+   {
+    "name": "駐衛保全（24小時）",
+    "kind": "service",
+    "category": "駐衛保全",
+    "usd": [
+     1500,
+     3800
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "日間駐衛保全",
+    "kind": "service",
+    "category": "駐衛保全",
+    "usd": [
+     900,
+     1800
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "保全人員派駐",
+    "kind": "service",
+    "category": "駐衛保全",
+    "usd": [
+     6,
+     9.5
+    ],
+    "unit": "hour",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "社區大樓管理服務",
+    "kind": "service",
+    "category": "駐衛保全",
+    "usd": [
+     1560,
+     4700
+    ],
+    "unit": "month",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "住家系統保全",
+    "kind": "service",
+    "category": "系統保全",
+    "usd": [
+     31,
+     78
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "店面系統保全",
+    "kind": "service",
+    "category": "系統保全",
+    "usd": [
+     47,
+     125
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "夜間巡邏",
+    "kind": "service",
+    "category": "系統保全",
+    "usd": [
+     155,
+     470
+    ],
+    "unit": "month",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "保全系統維護保養",
+    "kind": "service",
+    "category": "系統保全",
+    "usd": [
+     25,
+     78
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "監視攝影系統安裝",
+    "kind": "service",
+    "category": "監控門禁",
+    "usd": [
+     470,
+     1560
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "門禁刷卡系統",
+    "kind": "service",
+    "category": "監控門禁",
+    "usd": [
+     620,
+     2500
+    ],
+    "unit": "set",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "防盜警報系統",
+    "kind": "service",
+    "category": "監控門禁",
+    "usd": [
+     250,
+     780
+    ],
+    "unit": "set",
+    "minutes": [
+     120,
+     300
+    ]
+   },
+   {
+    "name": "網路攝影機",
+    "kind": "product",
+    "category": "監控門禁",
+    "usd": [
+     50,
+     200
+    ],
+    "unit": "piece",
+    "variants": [
+     "200萬畫素",
+     "400萬畫素",
+     "800萬畫素"
+    ]
+   },
+   {
+    "name": "硬碟錄影主機",
+    "kind": "product",
+    "category": "監控門禁",
+    "usd": [
+     150,
+     500
+    ],
+    "unit": "piece",
+    "variants": [
+     "4路",
+     "8路",
+     "16路"
+    ]
+   },
+   {
+    "name": "門禁感應卡",
+    "kind": "product",
+    "category": "監控門禁",
+    "usd": [
+     1,
+     40
+    ],
+    "unit": "pack",
+    "variants": [
+     "10張",
+     "50張",
+     "100張"
+    ]
+   },
+   {
+    "name": "活動現場保全",
+    "kind": "service",
+    "category": "活動保全",
+    "usd": [
+     94,
+     190
+    ],
+    "unit": "day",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "演唱會人流管制",
+    "kind": "service",
+    "category": "活動保全",
+    "usd": [
+     8,
+     15
+    ],
+    "unit": "hour",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "停車場交通指揮",
+    "kind": "service",
+    "category": "活動保全",
+    "usd": [
+     7,
+     12
+    ],
+    "unit": "hour",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "現金運送",
+    "kind": "service",
+    "category": "人身及運送",
+    "usd": [
+     47,
+     125
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "人身隨扈",
+    "kind": "service",
+    "category": "人身及運送",
+    "usd": [
+     250,
+     620
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "貴重物品押運",
+    "kind": "service",
+    "category": "人身及運送",
+    "usd": [
+     150,
+     500
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     240
+    ]
+   }
+  ]
+ },
+ "language_school": {
+  "categories": [
+   "兒童美語",
+   "成人英語",
+   "日韓語",
+   "檢定考試",
+   "課後輔導",
+   "教材"
+  ],
+  "roles": [
+   "英文老師",
+   "外籍老師",
+   "日語老師",
+   "補習導師",
+   "班導師",
+   "教務行政",
+   "課程顧問",
+   "主任"
+  ],
+  "departments": [
+   "教學部",
+   "教務部",
+   "招生部"
+  ],
+  "items": [
+   {
+    "name": "兒童美語團體班",
+    "kind": "service",
+    "category": "兒童美語",
+    "usd": [
+     110,
+     190
+    ],
+    "unit": "month",
+    "minutes": [
+     90,
+     120
+    ]
+   },
+   {
+    "name": "幼兒英語律動課",
+    "kind": "service",
+    "category": "兒童美語",
+    "usd": [
+     12,
+     25
+    ],
+    "unit": "session",
+    "minutes": [
+     45,
+     60
+    ]
+   },
+   {
+    "name": "自然發音班",
+    "kind": "service",
+    "category": "兒童美語",
+    "usd": [
+     100,
+     180
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "暑期英語夏令營",
+    "kind": "service",
+    "category": "兒童美語",
+    "usd": [
+     250,
+     560
+    ],
+    "unit": "person",
+    "minutes": [
+     360,
+     480
+    ]
+   },
+   {
+    "name": "成人英語會話課",
+    "kind": "service",
+    "category": "成人英語",
+    "usd": [
+     12,
+     25
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "一對一英文家教",
+    "kind": "service",
+    "category": "成人英語",
+    "usd": [
+     19,
+     47
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "商用英文寫作班",
+    "kind": "service",
+    "category": "成人英語",
+    "usd": [
+     200,
+     450
+    ],
+    "unit": "person",
+    "minutes": [
+     90,
+     120
+    ]
+   },
+   {
+    "name": "企業英語包班",
+    "kind": "service",
+    "category": "成人英語",
+    "usd": [
+     47,
+     110
+    ],
+    "unit": "hour",
+    "minutes": [
+     90,
+     120
+    ]
+   },
+   {
+    "name": "線上英文課",
+    "kind": "service",
+    "category": "成人英語",
+    "usd": [
+     9,
+     22
+    ],
+    "unit": "session",
+    "minutes": [
+     25,
+     50
+    ]
+   },
+   {
+    "name": "英文作文批改",
+    "kind": "service",
+    "category": "成人英語",
+    "usd": [
+     4.5,
+     12.5
+    ],
+    "unit": "piece",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "日語五十音入門班",
+    "kind": "service",
+    "category": "日韓語",
+    "usd": [
+     125,
+     250
+    ],
+    "unit": "person",
+    "minutes": [
+     90,
+     120
+    ]
+   },
+   {
+    "name": "日語N3衝刺班",
+    "kind": "service",
+    "category": "日韓語",
+    "usd": [
+     200,
+     400
+    ],
+    "unit": "person",
+    "minutes": [
+     120,
+     180
+    ]
+   },
+   {
+    "name": "韓語初級班",
+    "kind": "service",
+    "category": "日韓語",
+    "usd": [
+     125,
+     250
+    ],
+    "unit": "person",
+    "minutes": [
+     90,
+     120
+    ]
+   },
+   {
+    "name": "多益衝刺班",
+    "kind": "service",
+    "category": "檢定考試",
+    "usd": [
+     250,
+     620
+    ],
+    "unit": "person",
+    "minutes": [
+     120,
+     180
+    ]
+   },
+   {
+    "name": "雅思寫作課程",
+    "kind": "service",
+    "category": "檢定考試",
+    "usd": [
+     300,
+     700
+    ],
+    "unit": "person",
+    "minutes": [
+     90,
+     120
+    ]
+   },
+   {
+    "name": "全民英檢中級班",
+    "kind": "service",
+    "category": "檢定考試",
+    "usd": [
+     200,
+     450
+    ],
+    "unit": "person",
+    "minutes": [
+     90,
+     150
+    ]
+   },
+   {
+    "name": "DSE英文補習",
+    "kind": "service",
+    "category": "檢定考試",
+    "usd": [
+     15,
+     40
+    ],
+    "unit": "session",
+    "minutes": [
+     90,
+     120
+    ]
+   },
+   {
+    "name": "國中數理輔導",
+    "kind": "service",
+    "category": "課後輔導",
+    "usd": [
+     125,
+     250
+    ],
+    "unit": "month",
+    "minutes": [
+     90,
+     120
+    ]
+   },
+   {
+    "name": "安親課後照顧",
+    "kind": "service",
+    "category": "課後輔導",
+    "usd": [
+     190,
+     375
+    ],
+    "unit": "month",
+    "minutes": [
+     180,
+     300
+    ]
+   },
+   {
+    "name": "英文課本",
+    "kind": "product",
+    "category": "教材",
+    "usd": [
+     15,
+     40
+    ],
+    "unit": "piece",
+    "variants": [
+     "單冊",
+     "全套"
+    ]
+   },
+   {
+    "name": "檢定模擬試題",
+    "kind": "product",
+    "category": "教材",
+    "usd": [
+     8,
+     30
+    ],
+    "unit": "piece",
+    "variants": [
+     "單回",
+     "5回",
+     "10回"
+    ]
+   },
+   {
+    "name": "英文單字卡",
+    "kind": "product",
+    "category": "教材",
+    "usd": [
+     5,
+     15
+    ],
+    "unit": "box",
+    "variants": [
+     "1000字",
+     "2000字",
+     "4000字"
+    ]
+   }
+  ]
+ },
+ "driving_school": {
+  "categories": [
+   "汽車班",
+   "機車班",
+   "職業駕照",
+   "加強課程",
+   "考照服務"
+  ],
+  "roles": [
+   "駕駛教練",
+   "汽車教練",
+   "機車教練",
+   "大車教練",
+   "櫃檯行政",
+   "招生專員",
+   "班主任"
+  ],
+  "departments": [
+   "教練組",
+   "行政櫃檯",
+   "招生部"
+  ],
+  "items": [
+   {
+    "name": "小型車手排班",
+    "kind": "service",
+    "category": "汽車班",
+    "usd": [
+     470,
+     690
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "小型車自排班",
+    "kind": "service",
+    "category": "汽車班",
+    "usd": [
+     440,
+     650
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "私家車學車課程",
+    "kind": "service",
+    "category": "汽車班",
+    "usd": [
+     20,
+     45
+    ],
+    "unit": "session",
+    "minutes": [
+     45,
+     60
+    ]
+   },
+   {
+    "name": "私家車學車套餐（20堂）",
+    "kind": "service",
+    "category": "汽車班",
+    "usd": [
+     600,
+     900
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "普通重型機車班",
+    "kind": "service",
+    "category": "機車班",
+    "usd": [
+     94,
+     190
+    ],
+    "unit": "person",
+    "minutes": [
+     240,
+     480
+    ]
+   },
+   {
+    "name": "機車考照輔導",
+    "kind": "service",
+    "category": "機車班",
+    "usd": [
+     30,
+     60
+    ],
+    "unit": "person",
+    "minutes": [
+     120,
+     240
+    ]
+   },
+   {
+    "name": "職業大貨車班",
+    "kind": "service",
+    "category": "職業駕照",
+    "usd": [
+     875,
+     1250
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "大客車駕駛訓練",
+    "kind": "service",
+    "category": "職業駕照",
+    "usd": [
+     1100,
+     1560
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "聯結車駕駛訓練",
+    "kind": "service",
+    "category": "職業駕照",
+    "usd": [
+     1400,
+     1900
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "堆高機操作訓練",
+    "kind": "service",
+    "category": "職業駕照",
+    "usd": [
+     190,
+     310
+    ],
+    "unit": "person",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "道路駕駛加強課",
+    "kind": "service",
+    "category": "加強課程",
+    "usd": [
+     25,
+     47
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "新手上路陪駕",
+    "kind": "service",
+    "category": "加強課程",
+    "usd": [
+     25,
+     47
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "考前場地練習",
+    "kind": "service",
+    "category": "加強課程",
+    "usd": [
+     25,
+     47
+    ],
+    "unit": "session",
+    "minutes": [
+     50,
+     60
+    ]
+   },
+   {
+    "name": "停車技巧加強",
+    "kind": "service",
+    "category": "加強課程",
+    "usd": [
+     25,
+     45
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "防禦駕駛講習",
+    "kind": "service",
+    "category": "加強課程",
+    "usd": [
+     47,
+     94
+    ],
+    "unit": "session",
+    "minutes": [
+     180,
+     240
+    ]
+   },
+   {
+    "name": "練車場地租借",
+    "kind": "service",
+    "category": "加強課程",
+    "usd": [
+     15,
+     30
+    ],
+    "unit": "hour",
+    "minutes": [
+     60,
+     60
+    ]
+   },
+   {
+    "name": "交通法規筆試輔導",
+    "kind": "service",
+    "category": "考照服務",
+    "usd": [
+     10,
+     25
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "代辦考照報名",
+    "kind": "service",
+    "category": "考照服務",
+    "usd": [
+     10,
+     30
+    ],
+    "unit": "person",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "駕照體檢代辦",
+    "kind": "service",
+    "category": "考照服務",
+    "usd": [
+     10,
+     20
+    ],
+    "unit": "person",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "駕照換發代辦",
+    "kind": "service",
+    "category": "考照服務",
+    "usd": [
+     10,
+     25
+    ],
+    "unit": "person",
+    "minutes": [
+     15,
+     30
+    ]
+   }
+  ]
+ },
+ "fitness": {
+  "categories": [
+   "會員方案",
+   "私人教練",
+   "團體課程",
+   "體態檢測",
+   "運動商品"
+  ],
+  "roles": [
+   "健身教練",
+   "私人教練",
+   "團課老師",
+   "瑜伽老師",
+   "會籍顧問",
+   "櫃檯人員",
+   "物理治療師",
+   "店長"
+  ],
+  "departments": [
+   "教練部",
+   "會籍部",
+   "櫃檯"
+  ],
+  "items": [
+   {
+    "name": "健身會員（月繳）",
+    "kind": "service",
+    "category": "會員方案",
+    "usd": [
+     31,
+     78
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "年度會員",
+    "kind": "service",
+    "category": "會員方案",
+    "usd": [
+     375,
+     780
+    ],
+    "unit": "person",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "單次入場",
+    "kind": "service",
+    "category": "會員方案",
+    "usd": [
+     4.5,
+     12.5
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "學生月費方案",
+    "kind": "service",
+    "category": "會員方案",
+    "usd": [
+     20,
+     45
+    ],
+    "unit": "month",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "置物櫃月租",
+    "kind": "service",
+    "category": "會員方案",
+    "usd": [
+     6,
+     12
+    ],
+    "unit": "month",
+    "minutes": [
+     5,
+     10
+    ]
+   },
+   {
+    "name": "一對一私人教練課",
+    "kind": "service",
+    "category": "私人教練",
+    "usd": [
+     37,
+     78
+    ],
+    "unit": "session",
+    "minutes": [
+     50,
+     60
+    ]
+   },
+   {
+    "name": "私人教練十堂課程",
+    "kind": "service",
+    "category": "私人教練",
+    "usd": [
+     375,
+     780
+    ],
+    "unit": "set",
+    "minutes": [
+     50,
+     60
+    ]
+   },
+   {
+    "name": "雙人教練課",
+    "kind": "service",
+    "category": "私人教練",
+    "usd": [
+     55,
+     110
+    ],
+    "unit": "session",
+    "minutes": [
+     50,
+     60
+    ]
+   },
+   {
+    "name": "瑜伽團體課",
+    "kind": "service",
+    "category": "團體課程",
+    "usd": [
+     9,
+     19
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     75
+    ]
+   },
+   {
+    "name": "皮拉提斯器械課",
+    "kind": "service",
+    "category": "團體課程",
+    "usd": [
+     47,
+     94
+    ],
+    "unit": "session",
+    "minutes": [
+     50,
+     60
+    ]
+   },
+   {
+    "name": "飛輪課",
+    "kind": "service",
+    "category": "團體課程",
+    "usd": [
+     9,
+     16
+    ],
+    "unit": "session",
+    "minutes": [
+     45,
+     50
+    ]
+   },
+   {
+    "name": "拳擊有氧",
+    "kind": "service",
+    "category": "團體課程",
+    "usd": [
+     9,
+     19
+    ],
+    "unit": "session",
+    "minutes": [
+     50,
+     60
+    ]
+   },
+   {
+    "name": "兒童體適能班",
+    "kind": "service",
+    "category": "團體課程",
+    "usd": [
+     94,
+     190
+    ],
+    "unit": "month",
+    "minutes": [
+     50,
+     60
+    ]
+   },
+   {
+    "name": "企業健身課程",
+    "kind": "service",
+    "category": "團體課程",
+    "usd": [
+     155,
+     470
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "身體組成分析檢測",
+    "kind": "service",
+    "category": "體態檢測",
+    "usd": [
+     9,
+     25
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     20
+    ]
+   },
+   {
+    "name": "運動按摩",
+    "kind": "service",
+    "category": "體態檢測",
+    "usd": [
+     37,
+     78
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "乳清蛋白",
+    "kind": "product",
+    "category": "運動商品",
+    "usd": [
+     30,
+     94
+    ],
+    "unit": "piece",
+    "variants": [
+     "1磅",
+     "2磅",
+     "5磅"
+    ]
+   },
+   {
+    "name": "運動毛巾",
+    "kind": "product",
+    "category": "運動商品",
+    "usd": [
+     8,
+     18
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "瑜伽墊",
+    "kind": "product",
+    "category": "運動商品",
+    "usd": [
+     20,
+     50
+    ],
+    "unit": "piece",
+    "variants": [
+     "6mm",
+     "8mm",
+     "10mm"
+    ]
+   },
+   {
+    "name": "運動水壺",
+    "kind": "product",
+    "category": "運動商品",
+    "usd": [
+     8,
+     20
+    ],
+    "unit": "piece",
+    "variants": [
+     "500ml",
+     "750ml",
+     "1000ml"
+    ]
+   }
+  ]
+ },
+ "hair_beauty": {
+  "categories": [
+   "剪髮",
+   "染燙",
+   "護髮",
+   "美甲美睫",
+   "臉部保養",
+   "髮品販售"
+  ],
+  "roles": [
+   "髮型設計師",
+   "髮型師",
+   "設計師助理",
+   "洗頭助理",
+   "美甲師",
+   "美睫師",
+   "美容師",
+   "店長"
+  ],
+  "departments": [
+   "美髮部",
+   "美容部",
+   "櫃檯"
+  ],
+  "items": [
+   {
+    "name": "洗剪吹",
+    "kind": "service",
+    "category": "剪髮",
+    "usd": [
+     12,
+     31
+    ],
+    "unit": "session",
+    "minutes": [
+     45,
+     60
+    ]
+   },
+   {
+    "name": "設計師剪髮",
+    "kind": "service",
+    "category": "剪髮",
+    "usd": [
+     19,
+     47
+    ],
+    "unit": "session",
+    "minutes": [
+     45,
+     60
+    ]
+   },
+   {
+    "name": "男士剪髮",
+    "kind": "service",
+    "category": "剪髮",
+    "usd": [
+     9,
+     19
+    ],
+    "unit": "session",
+    "minutes": [
+     20,
+     40
+    ]
+   },
+   {
+    "name": "兒童剪髮",
+    "kind": "service",
+    "category": "剪髮",
+    "usd": [
+     8,
+     15
+    ],
+    "unit": "session",
+    "minutes": [
+     20,
+     30
+    ]
+   },
+   {
+    "name": "瀏海修剪",
+    "kind": "service",
+    "category": "剪髮",
+    "usd": [
+     3,
+     6
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     15
+    ]
+   },
+   {
+    "name": "洗髮造型",
+    "kind": "service",
+    "category": "剪髮",
+    "usd": [
+     8,
+     16
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     45
+    ]
+   },
+   {
+    "name": "單色染髮",
+    "kind": "service",
+    "category": "染燙",
+    "usd": [
+     47,
+     110
+    ],
+    "unit": "session",
+    "minutes": [
+     90,
+     150
+    ]
+   },
+   {
+    "name": "漂髮挑染",
+    "kind": "service",
+    "category": "染燙",
+    "usd": [
+     78,
+     156
+    ],
+    "unit": "session",
+    "minutes": [
+     150,
+     240
+    ]
+   },
+   {
+    "name": "溫塑燙",
+    "kind": "service",
+    "category": "染燙",
+    "usd": [
+     78,
+     156
+    ],
+    "unit": "session",
+    "minutes": [
+     150,
+     210
+    ]
+   },
+   {
+    "name": "縮毛矯正",
+    "kind": "service",
+    "category": "染燙",
+    "usd": [
+     100,
+     200
+    ],
+    "unit": "session",
+    "minutes": [
+     180,
+     240
+    ]
+   },
+   {
+    "name": "結構式護髮",
+    "kind": "service",
+    "category": "護髮",
+    "usd": [
+     31,
+     78
+    ],
+    "unit": "session",
+    "minutes": [
+     45,
+     60
+    ]
+   },
+   {
+    "name": "頭皮養護療程",
+    "kind": "service",
+    "category": "護髮",
+    "usd": [
+     37,
+     78
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "凝膠美甲",
+    "kind": "service",
+    "category": "美甲美睫",
+    "usd": [
+     25,
+     47
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "手部保養",
+    "kind": "service",
+    "category": "美甲美睫",
+    "usd": [
+     15,
+     30
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     45
+    ]
+   },
+   {
+    "name": "日式美睫嫁接",
+    "kind": "service",
+    "category": "美甲美睫",
+    "usd": [
+     37,
+     78
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "韓式霧眉",
+    "kind": "service",
+    "category": "美甲美睫",
+    "usd": [
+     190,
+     470
+    ],
+    "unit": "session",
+    "minutes": [
+     120,
+     180
+    ]
+   },
+   {
+    "name": "臉部深層清潔",
+    "kind": "service",
+    "category": "臉部保養",
+    "usd": [
+     47,
+     94
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "熱蠟除毛",
+    "kind": "service",
+    "category": "臉部保養",
+    "usd": [
+     15,
+     47
+    ],
+    "unit": "session",
+    "minutes": [
+     15,
+     45
+    ]
+   },
+   {
+    "name": "新娘秘書（全日）",
+    "kind": "service",
+    "category": "臉部保養",
+    "usd": [
+     250,
+     620
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "洗髮精",
+    "kind": "product",
+    "category": "髮品販售",
+    "usd": [
+     12,
+     35
+    ],
+    "unit": "piece",
+    "variants": [
+     "300ml",
+     "500ml",
+     "1000ml"
+    ]
+   },
+   {
+    "name": "護髮素",
+    "kind": "product",
+    "category": "髮品販售",
+    "usd": [
+     12,
+     35
+    ],
+    "unit": "piece",
+    "variants": [
+     "250ml",
+     "500ml"
+    ]
+   },
+   {
+    "name": "造型髮蠟",
+    "kind": "product",
+    "category": "髮品販售",
+    "usd": [
+     10,
+     25
+    ],
+    "unit": "piece",
+    "variants": [
+     "50g",
+     "100g"
+    ]
+   }
+  ]
+ },
+ "dental": {
+  "categories": [
+   "預防保健",
+   "一般治療",
+   "兒童牙科",
+   "美容牙科",
+   "植牙",
+   "矯正"
+  ],
+  "roles": [
+   "牙醫師",
+   "主治醫師",
+   "牙科助理",
+   "牙科衞生員",
+   "護理師",
+   "牙技師",
+   "櫃檯人員",
+   "診所經理"
+  ],
+  "departments": [
+   "診療部",
+   "櫃檯",
+   "技工室"
+  ],
+  "items": [
+   {
+    "name": "洗牙",
+    "kind": "service",
+    "category": "預防保健",
+    "usd": [
+     25,
+     50
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     45
+    ]
+   },
+   {
+    "name": "口腔檢查",
+    "kind": "service",
+    "category": "預防保健",
+    "usd": [
+     19,
+     50
+    ],
+    "unit": "session",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "全口X光檢查",
+    "kind": "service",
+    "category": "預防保健",
+    "usd": [
+     25,
+     60
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     20
+    ]
+   },
+   {
+    "name": "電動牙刷",
+    "kind": "product",
+    "category": "預防保健",
+    "usd": [
+     40,
+     150
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "牙間刷",
+    "kind": "product",
+    "category": "預防保健",
+    "usd": [
+     3,
+     8
+    ],
+    "unit": "pack"
+   },
+   {
+    "name": "樹脂補牙",
+    "kind": "service",
+    "category": "一般治療",
+    "usd": [
+     47,
+     125
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "根管治療",
+    "kind": "service",
+    "category": "一般治療",
+    "usd": [
+     155,
+     470
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "拔除智齒",
+    "kind": "service",
+    "category": "一般治療",
+    "usd": [
+     94,
+     250
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "牙周病治療",
+    "kind": "service",
+    "category": "一般治療",
+    "usd": [
+     94,
+     250
+    ],
+    "unit": "session",
+    "minutes": [
+     45,
+     90
+    ]
+   },
+   {
+    "name": "活動假牙",
+    "kind": "service",
+    "category": "一般治療",
+    "usd": [
+     620,
+     1900
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "夜間咬合板",
+    "kind": "service",
+    "category": "一般治療",
+    "usd": [
+     150,
+     400
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     60
+    ]
+   },
+   {
+    "name": "兒童塗氟",
+    "kind": "service",
+    "category": "兒童牙科",
+    "usd": [
+     9,
+     25
+    ],
+    "unit": "session",
+    "minutes": [
+     10,
+     20
+    ]
+   },
+   {
+    "name": "窩溝封填",
+    "kind": "service",
+    "category": "兒童牙科",
+    "usd": [
+     15,
+     31
+    ],
+    "unit": "piece",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "乳牙拔除",
+    "kind": "service",
+    "category": "兒童牙科",
+    "usd": [
+     15,
+     40
+    ],
+    "unit": "piece",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "全瓷牙冠",
+    "kind": "service",
+    "category": "美容牙科",
+    "usd": [
+     470,
+     780
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "陶瓷貼片",
+    "kind": "service",
+    "category": "美容牙科",
+    "usd": [
+     500,
+     900
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "冷光美白",
+    "kind": "service",
+    "category": "美容牙科",
+    "usd": [
+     250,
+     470
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "單顆植牙",
+    "kind": "service",
+    "category": "植牙",
+    "usd": [
+     2200,
+     3800
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "骨粉補骨",
+    "kind": "service",
+    "category": "植牙",
+    "usd": [
+     300,
+     800
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "傳統矯正",
+    "kind": "service",
+    "category": "矯正",
+    "usd": [
+     3100,
+     5600
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "隱形牙套矯正",
+    "kind": "service",
+    "category": "矯正",
+    "usd": [
+     4700,
+     7800
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     90
+    ]
+   },
+   {
+    "name": "矯正維持器製作",
+    "kind": "service",
+    "category": "矯正",
+    "usd": [
+     150,
+     350
+    ],
+    "unit": "set",
+    "minutes": [
+     30,
+     60
+    ]
+   }
+  ]
+ },
+ "veterinary": {
+  "categories": [
+   "門診",
+   "預防注射",
+   "手術",
+   "檢驗",
+   "住院美容",
+   "寵物用品"
+  ],
+  "roles": [
+   "獸醫師",
+   "主治獸醫師",
+   "獸醫助理",
+   "獸醫護士",
+   "寵物美容師",
+   "櫃檯人員",
+   "院長"
+  ],
+  "departments": [
+   "診療部",
+   "美容部",
+   "櫃檯"
+  ],
+  "items": [
+   {
+    "name": "一般門診診療",
+    "kind": "service",
+    "category": "門診",
+    "usd": [
+     9,
+     19
+    ],
+    "unit": "session",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "夜間急診",
+    "kind": "service",
+    "category": "門診",
+    "usd": [
+     30,
+     80
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "犬貓綜合疫苗",
+    "kind": "service",
+    "category": "預防注射",
+    "usd": [
+     25,
+     47
+    ],
+    "unit": "piece",
+    "minutes": [
+     15,
+     20
+    ]
+   },
+   {
+    "name": "狂犬病疫苗",
+    "kind": "service",
+    "category": "預防注射",
+    "usd": [
+     9,
+     16
+    ],
+    "unit": "piece",
+    "minutes": [
+     10,
+     15
+    ]
+   },
+   {
+    "name": "寵物晶片植入",
+    "kind": "service",
+    "category": "預防注射",
+    "usd": [
+     9,
+     19
+    ],
+    "unit": "piece",
+    "minutes": [
+     10,
+     15
+    ]
+   },
+   {
+    "name": "犬隻結紮手術",
+    "kind": "service",
+    "category": "手術",
+    "usd": [
+     125,
+     310
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "貓咪結紮手術",
+    "kind": "service",
+    "category": "手術",
+    "usd": [
+     94,
+     190
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "麻醉洗牙",
+    "kind": "service",
+    "category": "手術",
+    "usd": [
+     125,
+     250
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "腫瘤切除手術",
+    "kind": "service",
+    "category": "手術",
+    "usd": [
+     300,
+     1200
+    ],
+    "unit": "piece",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "寵物健康檢查套組",
+    "kind": "service",
+    "category": "檢驗",
+    "usd": [
+     94,
+     250
+    ],
+    "unit": "set",
+    "minutes": [
+     45,
+     90
+    ]
+   },
+   {
+    "name": "血液生化檢驗",
+    "kind": "service",
+    "category": "檢驗",
+    "usd": [
+     47,
+     110
+    ],
+    "unit": "session",
+    "minutes": [
+     20,
+     40
+    ]
+   },
+   {
+    "name": "X光檢查",
+    "kind": "service",
+    "category": "檢驗",
+    "usd": [
+     25,
+     47
+    ],
+    "unit": "session",
+    "minutes": [
+     15,
+     30
+    ]
+   },
+   {
+    "name": "腹部超音波",
+    "kind": "service",
+    "category": "檢驗",
+    "usd": [
+     31,
+     62
+    ],
+    "unit": "session",
+    "minutes": [
+     20,
+     40
+    ]
+   },
+   {
+    "name": "住院照護",
+    "kind": "service",
+    "category": "住院美容",
+    "usd": [
+     25,
+     62
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "寵物洗澡美容",
+    "kind": "service",
+    "category": "住院美容",
+    "usd": [
+     19,
+     47
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     120
+    ]
+   },
+   {
+    "name": "寵物住宿",
+    "kind": "service",
+    "category": "住院美容",
+    "usd": [
+     15,
+     35
+    ],
+    "unit": "day",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "體外驅蟲滴劑",
+    "kind": "product",
+    "category": "寵物用品",
+    "usd": [
+     12,
+     25
+    ],
+    "unit": "box",
+    "variants": [
+     "小型犬",
+     "中型犬",
+     "大型犬"
+    ]
+   },
+   {
+    "name": "心絲蟲預防藥",
+    "kind": "product",
+    "category": "寵物用品",
+    "usd": [
+     8,
+     20
+    ],
+    "unit": "box",
+    "variants": [
+     "小型犬",
+     "中型犬",
+     "大型犬"
+    ]
+   },
+   {
+    "name": "處方飼料",
+    "kind": "product",
+    "category": "寵物用品",
+    "usd": [
+     25,
+     90
+    ],
+    "unit": "pack",
+    "variants": [
+     "1.5公斤",
+     "3公斤",
+     "7.5公斤"
+    ]
+   },
+   {
+    "name": "伊莉莎白頭套",
+    "kind": "product",
+    "category": "寵物用品",
+    "usd": [
+     5,
+     15
+    ],
+    "unit": "piece",
+    "variants": [
+     "S",
+     "M",
+     "L"
+    ]
+   }
+  ]
+ },
+ "printing": {
+  "categories": [
+   "名片",
+   "DM海報",
+   "大圖輸出",
+   "書冊裝訂",
+   "包裝貼紙",
+   "影印"
+  ],
+  "roles": [
+   "印刷師傅",
+   "美編設計",
+   "印前製作",
+   "門市接待",
+   "業務專員",
+   "裝訂人員",
+   "送貨司機",
+   "廠長"
+  ],
+  "departments": [
+   "印前部",
+   "印刷部",
+   "後加工部",
+   "門市"
+  ],
+  "items": [
+   {
+    "name": "名片印刷",
+    "kind": "product",
+    "category": "名片",
+    "usd": [
+     7.5,
+     19
+    ],
+    "unit": "box",
+    "variants": [
+     "單面黑白",
+     "單面彩色",
+     "雙面彩色"
+    ]
+   },
+   {
+    "name": "燙金名片",
+    "kind": "product",
+    "category": "名片",
+    "usd": [
+     20,
+     45
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "A4彩色DM",
+    "kind": "product",
+    "category": "DM海報",
+    "usd": [
+     0.03,
+     0.2
+    ],
+    "unit": "piece",
+    "variants": [
+     "單面",
+     "雙面"
+    ]
+   },
+   {
+    "name": "海報印刷",
+    "kind": "product",
+    "category": "DM海報",
+    "usd": [
+     3,
+     15
+    ],
+    "unit": "piece",
+    "variants": [
+     "A3",
+     "A2",
+     "A1"
+    ]
+   },
+   {
+    "name": "年曆印製",
+    "kind": "product",
+    "category": "DM海報",
+    "usd": [
+     0.9,
+     3.8
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "印前排版設計",
+    "kind": "service",
+    "category": "DM海報",
+    "usd": [
+     9,
+     31
+    ],
+    "unit": "piece",
+    "minutes": [
+     30,
+     120
+    ]
+   },
+   {
+    "name": "海報大圖輸出",
+    "kind": "product",
+    "category": "大圖輸出",
+    "usd": [
+     15,
+     38
+    ],
+    "unit": "m2"
+   },
+   {
+    "name": "帆布旗幟輸出",
+    "kind": "product",
+    "category": "大圖輸出",
+    "usd": [
+     9,
+     25
+    ],
+    "unit": "m2"
+   },
+   {
+    "name": "易拉展",
+    "kind": "product",
+    "category": "大圖輸出",
+    "usd": [
+     30,
+     80
+    ],
+    "unit": "set",
+    "variants": [
+     "60×160cm",
+     "80×200cm",
+     "100×200cm"
+    ]
+   },
+   {
+    "name": "珍珠板輸出",
+    "kind": "product",
+    "category": "大圖輸出",
+    "usd": [
+     10,
+     30
+    ],
+    "unit": "piece",
+    "variants": [
+     "A2",
+     "A1",
+     "A0"
+    ]
+   },
+   {
+    "name": "書籍印刷裝訂",
+    "kind": "product",
+    "category": "書冊裝訂",
+    "usd": [
+     2.5,
+     7.8
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "騎馬釘裝訂",
+    "kind": "service",
+    "category": "書冊裝訂",
+    "usd": [
+     0.15,
+     0.6
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     15
+    ]
+   },
+   {
+    "name": "膠裝",
+    "kind": "service",
+    "category": "書冊裝訂",
+    "usd": [
+     1,
+     3
+    ],
+    "unit": "piece",
+    "minutes": [
+     10,
+     30
+    ]
+   },
+   {
+    "name": "客製化紅包袋",
+    "kind": "product",
+    "category": "包裝貼紙",
+    "usd": [
+     30,
+     100
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "貼紙標籤印刷",
+    "kind": "product",
+    "category": "包裝貼紙",
+    "usd": [
+     30,
+     120
+    ],
+    "unit": "box"
+   },
+   {
+    "name": "包裝紙盒印製",
+    "kind": "product",
+    "category": "包裝貼紙",
+    "usd": [
+     0.15,
+     0.9
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "公司信封印製",
+    "kind": "product",
+    "category": "包裝貼紙",
+    "usd": [
+     0.03,
+     0.12
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "彩色影印",
+    "kind": "service",
+    "category": "影印",
+    "usd": [
+     0.06,
+     0.16
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     10
+    ]
+   },
+   {
+    "name": "黑白影印",
+    "kind": "service",
+    "category": "影印",
+    "usd": [
+     0.015,
+     0.05
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     10
+    ]
+   },
+   {
+    "name": "護貝",
+    "kind": "service",
+    "category": "影印",
+    "usd": [
+     0.6,
+     1.9
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     10
+    ]
+   },
+   {
+    "name": "文件掃描",
+    "kind": "service",
+    "category": "影印",
+    "usd": [
+     0.1,
+     0.5
+    ],
+    "unit": "piece",
+    "minutes": [
+     5,
+     10
+    ]
+   }
+  ]
+ },
+ "furniture_maker": {
+  "categories": [
+   "客廳家具",
+   "臥室家具",
+   "餐廳家具",
+   "辦公家具",
+   "系統櫃",
+   "修繕服務"
+  ],
+  "roles": [
+   "木工師傅",
+   "家具設計師",
+   "油漆師傅",
+   "組裝人員",
+   "學徒",
+   "業務專員",
+   "工廠主任",
+   "送貨安裝員"
+  ],
+  "departments": [
+   "設計部",
+   "生產工廠",
+   "業務部",
+   "安裝部"
+  ],
+  "items": [
+   {
+    "name": "三人座布沙發",
+    "kind": "product",
+    "category": "客廳家具",
+    "usd": [
+     780,
+     1900
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "L型沙發",
+    "kind": "product",
+    "category": "客廳家具",
+    "usd": [
+     1200,
+     3000
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "電視櫃",
+    "kind": "product",
+    "category": "客廳家具",
+    "usd": [
+     250,
+     780
+    ],
+    "unit": "piece",
+    "variants": [
+     "150公分",
+     "180公分",
+     "210公分"
+    ]
+   },
+   {
+    "name": "實木茶几",
+    "kind": "product",
+    "category": "客廳家具",
+    "usd": [
+     150,
+     500
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "實木床架",
+    "kind": "product",
+    "category": "臥室家具",
+    "usd": [
+     375,
+     1100
+    ],
+    "unit": "piece",
+    "variants": [
+     "單人3.5尺",
+     "雙人5尺",
+     "加大6尺"
+    ]
+   },
+   {
+    "name": "床頭櫃",
+    "kind": "product",
+    "category": "臥室家具",
+    "usd": [
+     80,
+     250
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "兒童成長書桌",
+    "kind": "product",
+    "category": "臥室家具",
+    "usd": [
+     125,
+     375
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "實木餐桌",
+    "kind": "product",
+    "category": "餐廳家具",
+    "usd": [
+     470,
+     1400
+    ],
+    "unit": "piece",
+    "variants": [
+     "4人座",
+     "6人座",
+     "8人座"
+    ]
+   },
+   {
+    "name": "實木餐椅",
+    "kind": "product",
+    "category": "餐廳家具",
+    "usd": [
+     78,
+     190
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "餐邊櫃",
+    "kind": "product",
+    "category": "餐廳家具",
+    "usd": [
+     300,
+     900
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "辦公桌",
+    "kind": "product",
+    "category": "辦公家具",
+    "usd": [
+     155,
+     470
+    ],
+    "unit": "piece",
+    "variants": [
+     "120公分",
+     "140公分",
+     "160公分"
+    ]
+   },
+   {
+    "name": "會議桌",
+    "kind": "product",
+    "category": "辦公家具",
+    "usd": [
+     620,
+     1900
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "系統衣櫃",
+    "kind": "product",
+    "category": "系統櫃",
+    "usd": [
+     310,
+     620
+    ],
+    "unit": "m"
+   },
+   {
+    "name": "系統廚具",
+    "kind": "product",
+    "category": "系統櫃",
+    "usd": [
+     2500,
+     7800
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "玄關鞋櫃",
+    "kind": "product",
+    "category": "系統櫃",
+    "usd": [
+     250,
+     620
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "書櫃",
+    "kind": "product",
+    "category": "系統櫃",
+    "usd": [
+     190,
+     620
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "家具修補翻新",
+    "kind": "service",
+    "category": "修繕服務",
+    "usd": [
+     62,
+     250
+    ],
+    "unit": "piece",
+    "minutes": [
+     120,
+     480
+    ]
+   },
+   {
+    "name": "沙發換皮",
+    "kind": "service",
+    "category": "修繕服務",
+    "usd": [
+     470,
+     1250
+    ],
+    "unit": "set",
+    "minutes": [
+     480,
+     480
+    ]
+   },
+   {
+    "name": "到府丈量",
+    "kind": "service",
+    "category": "修繕服務",
+    "usd": [
+     20,
+     60
+    ],
+    "unit": "session",
+    "minutes": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "組裝安裝費",
+    "kind": "service",
+    "category": "修繕服務",
+    "usd": [
+     30,
+     120
+    ],
+    "unit": "session",
+    "minutes": [
+     60,
+     240
+    ]
+   }
+  ]
+ },
+ "event_catering": {
+  "categories": [
+   "辦桌宴席",
+   "自助餐",
+   "餐盒便當",
+   "茶會點心",
+   "飲品吧台",
+   "佈置及人員"
+  ],
+  "roles": [
+   "總鋪師",
+   "廚師",
+   "廚房助手",
+   "外場服務員",
+   "宴會領班",
+   "活動企劃",
+   "業務專員",
+   "司機"
+  ],
+  "departments": [
+   "廚房",
+   "外場服務部",
+   "業務企劃部"
+  ],
+  "items": [
+   {
+    "name": "辦桌宴席（十人桌）",
+    "kind": "product",
+    "category": "辦桌宴席",
+    "usd": [
+     190,
+     470
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "喜宴桌菜",
+    "kind": "product",
+    "category": "辦桌宴席",
+    "usd": [
+     375,
+     780
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "尾牙外燴桌菜",
+    "kind": "product",
+    "category": "辦桌宴席",
+    "usd": [
+     250,
+     620
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "精緻自助餐",
+    "kind": "product",
+    "category": "自助餐",
+    "usd": [
+     15,
+     38
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "到會自助餐（20人份）",
+    "kind": "product",
+    "category": "自助餐",
+    "usd": [
+     250,
+     600
+    ],
+    "unit": "set"
+   },
+   {
+    "name": "BBQ烤肉派對",
+    "kind": "product",
+    "category": "自助餐",
+    "usd": [
+     19,
+     38
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "會議便當",
+    "kind": "product",
+    "category": "餐盒便當",
+    "usd": [
+     3,
+     6.5
+    ],
+    "unit": "piece",
+    "variants": [
+     "經濟",
+     "精緻",
+     "豪華"
+    ]
+   },
+   {
+    "name": "西式餐盒",
+    "kind": "product",
+    "category": "餐盒便當",
+    "usd": [
+     4.5,
+     9.5
+    ],
+    "unit": "box",
+    "variants": [
+     "經典",
+     "精緻"
+    ]
+   },
+   {
+    "name": "素食便當",
+    "kind": "product",
+    "category": "餐盒便當",
+    "usd": [
+     3,
+     6
+    ],
+    "unit": "piece"
+   },
+   {
+    "name": "茶會點心",
+    "kind": "product",
+    "category": "茶會點心",
+    "usd": [
+     6,
+     14
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "雞尾酒會小點",
+    "kind": "product",
+    "category": "茶會點心",
+    "usd": [
+     12,
+     28
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "精緻小點盒",
+    "kind": "product",
+    "category": "茶會點心",
+    "usd": [
+     3,
+     7
+    ],
+    "unit": "box",
+    "variants": [
+     "6入",
+     "9入",
+     "12入"
+    ]
+   },
+   {
+    "name": "鮮奶油蛋糕",
+    "kind": "product",
+    "category": "茶會點心",
+    "usd": [
+     25,
+     60
+    ],
+    "unit": "piece",
+    "variants": [
+     "6吋",
+     "8吋",
+     "10吋"
+    ]
+   },
+   {
+    "name": "咖啡茶水吧",
+    "kind": "product",
+    "category": "飲品吧台",
+    "usd": [
+     2.5,
+     6.5
+    ],
+    "unit": "person"
+   },
+   {
+    "name": "果汁桶",
+    "kind": "product",
+    "category": "飲品吧台",
+    "usd": [
+     15,
+     35
+    ],
+    "unit": "piece",
+    "variants": [
+     "5公升",
+     "10公升"
+    ]
+   },
+   {
+    "name": "現場廚師料理",
+    "kind": "service",
+    "category": "佈置及人員",
+    "usd": [
+     31,
+     78
+    ],
+    "unit": "hour",
+    "minutes": [
+     120,
+     300
+    ]
+   },
+   {
+    "name": "外燴服務人員",
+    "kind": "service",
+    "category": "佈置及人員",
+    "usd": [
+     8,
+     12.5
+    ],
+    "unit": "hour",
+    "minutes": [
+     180,
+     360
+    ]
+   },
+   {
+    "name": "餐檯佈置",
+    "kind": "service",
+    "category": "佈置及人員",
+    "usd": [
+     310,
+     1560
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "桌椅帳篷租借",
+    "kind": "service",
+    "category": "佈置及人員",
+    "usd": [
+     150,
+     600
+    ],
+    "unit": "set",
+    "minutes": [
+     60,
+     180
+    ]
+   },
+   {
+    "name": "餐具租借",
+    "kind": "service",
+    "category": "佈置及人員",
+    "usd": [
+     1,
+     3
+    ],
+    "unit": "person",
+    "minutes": [
+     30,
+     60
+    ]
+   }
+  ]
+ }
+}

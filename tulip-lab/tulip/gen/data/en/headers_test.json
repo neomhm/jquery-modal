@@ -1,0 +1,184 @@
+{
+ "fields": {
+  "active": [
+   "Published"
+  ],
+  "address": [
+   "Addr."
+  ],
+  "afternoon": [
+   "Afternoon Session"
+  ],
+  "barcode": [
+   "Bar Code"
+  ],
+  "booking_client": [
+   "Booked By"
+  ],
+  "booking_date": [
+   "Booked For"
+  ],
+  "booking_datetime": [
+   "Appt Date/Time"
+  ],
+  "booking_service": [
+   "Reason for Visit"
+  ],
+  "booking_status": [
+   "Booking State"
+  ],
+  "category": [
+   "Cat."
+  ],
+  "city": [
+   "City/Town"
+  ],
+  "client_name": [
+   "Customers"
+  ],
+  "client_since": [
+   "First Purchase Date"
+  ],
+  "closes": [
+   "Close"
+  ],
+  "company": [
+   "Business Name"
+  ],
+  "contact_person": [
+   "Attention"
+  ],
+  "country": [
+   "Country/Region"
+  ],
+  "currency": [
+   "Transaction Currency"
+  ],
+  "day": [
+   "Opening Day"
+  ],
+  "department": [
+   "Department Name"
+  ],
+  "description": [
+   "Details"
+  ],
+  "due_date": [
+   "Payment Due"
+  ],
+  "duration": [
+   "Duration (min)"
+  ],
+  "email": [
+   "Email"
+  ],
+  "end_time": [
+   "Ends"
+  ],
+  "first_name": [
+   "Name (First)"
+  ],
+  "hours": [
+   "Opening Hours"
+  ],
+  "hours_note": [
+   "Note"
+  ],
+  "invoice_client": [
+   "Bill To"
+  ],
+  "invoice_date": [
+   "Date Invoiced"
+  ],
+  "invoice_number": [
+   "Inv #"
+  ],
+  "invoice_status": [
+   "Pmt Status"
+  ],
+  "last_name": [
+   "Last Name/Surname"
+  ],
+  "morning": [
+   "Mornings"
+  ],
+  "opens": [
+   "Open From"
+  ],
+  "paid_date": [
+   "Paid On"
+  ],
+  "performer": [
+   "Practitioner"
+  ],
+  "person_name": [
+   "Name of Staff"
+  ],
+  "phone": [
+   "Cell Phone"
+  ],
+  "postcode": [
+   "P/Code"
+  ],
+  "price": [
+   "Rate"
+  ],
+  "price_excl": [
+   "Price ex GST ({cur})"
+  ],
+  "price_incl": [
+   "Price incl. Tax"
+  ],
+  "product_name": [
+   "Product/Item"
+  ],
+  "reg_id": [
+   "RC Number"
+  ],
+  "role": [
+   "Desig."
+  ],
+  "service_name": [
+   "Job"
+  ],
+  "sku": [
+   "Code"
+  ],
+  "start_date": [
+   "Date Joined"
+  ],
+  "start_time": [
+   "Appointment Time"
+  ],
+  "stock": [
+   "Inventory"
+  ],
+  "street": [
+   "House No. & Street"
+  ],
+  "tax_amount": [
+   "GST ({cur})"
+  ],
+  "time_range": [
+   "Schedule"
+  ],
+  "total": [
+   "Amount ({cur})"
+  ],
+  "total_excl": [
+   "Total (ex. GST)"
+  ],
+  "total_incl": [
+   "Total incl. VAT"
+  ],
+  "unit": [
+   "Unit"
+  ],
+  "variant": [
+   "Pkg. Size"
+  ],
+  "vat_rate": [
+   "Tax Rate"
+  ]
+ }
+}

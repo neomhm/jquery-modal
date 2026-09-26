@@ -1,0 +1,184 @@
+{
+ "fields": {
+  "active": [
+   "Visibile online"
+  ],
+  "address": [
+   "Indirizzo di fatturazione"
+  ],
+  "afternoon": [
+   "Orario serale"
+  ],
+  "barcode": [
+   "Cod. a barre"
+  ],
+  "booking_client": [
+   "Proprietario"
+  ],
+  "booking_date": [
+   "Giorno appuntamento"
+  ],
+  "booking_datetime": [
+   "Data e ora"
+  ],
+  "booking_service": [
+   "Prestazione richiesta"
+  ],
+  "booking_status": [
+   "Stato app.to"
+  ],
+  "category": [
+   "Gruppo"
+  ],
+  "city": [
+   "Comune/Località"
+  ],
+  "client_name": [
+   "Nominativo cliente"
+  ],
+  "client_since": [
+   "Data acquisizione"
+  ],
+  "closes": [
+   "Alle ore"
+  ],
+  "company": [
+   "Nome società"
+  ],
+  "contact_person": [
+   "Referente"
+  ],
+  "country": [
+   "Paese di residenza"
+  ],
+  "currency": [
+   "Valuta (ISO)"
+  ],
+  "day": [
+   "Giorno settimanale"
+  ],
+  "department": [
+   "Divisione"
+  ],
+  "description": [
+   "Descrizione breve"
+  ],
+  "due_date": [
+   "Scadenza"
+  ],
+  "duration": [
+   "Tempo"
+  ],
+  "email": [
+   "Indirizzo mail"
+  ],
+  "end_time": [
+   "Orario fine"
+  ],
+  "first_name": [
+   "Nome referente"
+  ],
+  "hours": [
+   "Orario di apertura"
+  ],
+  "hours_note": [
+   "Eccezioni"
+  ],
+  "invoice_client": [
+   "Destinatario"
+  ],
+  "invoice_date": [
+   "Data fattura emessa"
+  ],
+  "invoice_number": [
+   "Fattura nr."
+  ],
+  "invoice_status": [
+   "Stato riscossione"
+  ],
+  "last_name": [
+   "Cogn."
+  ],
+  "morning": [
+   "Fascia mattina"
+  ],
+  "opens": [
+   "Apre alle"
+  ],
+  "paid_date": [
+   "Saldata il"
+  ],
+  "performer": [
+   "Risorsa"
+  ],
+  "person_name": [
+   "Collaboratore"
+  ],
+  "phone": [
+   "Telefono"
+  ],
+  "postcode": [
+   "CAP"
+  ],
+  "price": [
+   "Prezzo unit."
+  ],
+  "price_excl": [
+   "Prezzo IVA esclusa"
+  ],
+  "price_incl": [
+   "Prezzo IVA inclusa"
+  ],
+  "product_name": [
+   "Descrizione articolo"
+  ],
+  "reg_id": [
+   "N. IDI"
+  ],
+  "role": [
+   "Mansione"
+  ],
+  "service_name": [
+   "Prestazioni"
+  ],
+  "sku": [
+   "Codice articolo"
+  ],
+  "start_date": [
+   "Data ingresso"
+  ],
+  "start_time": [
+   "Ora"
+  ],
+  "stock": [
+   "Stock"
+  ],
+  "street": [
+   "Strada"
+  ],
+  "tax_amount": [
+   "Imposta ({cur})"
+  ],
+  "time_range": [
+   "Dalle-alle"
+  ],
+  "total": [
+   "Importo totale"
+  ],
+  "total_excl": [
+   "Totale imponibile"
+  ],
+  "total_incl": [
+   "Totale con IVA"
+  ],
+  "unit": [
+   "Unità vendita"
+  ],
+  "variant": [
+   "Confezione"
+  ],
+  "vat_rate": [
+   "Aliquota"
+  ]
+ }
+}

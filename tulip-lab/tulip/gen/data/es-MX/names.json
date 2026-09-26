@@ -1,0 +1,35 @@
+{
+  "given_male": [
+    "José", "Juan", "Luis", "Carlos", "Jorge", "Miguel", "Francisco", "Alejandro",
+    "Ricardo", "Fernando", "Eduardo", "Roberto", "Javier", "Arturo", "Sergio", "Raúl",
+    "Héctor", "Óscar", "Alberto", "Jesús", "Manuel", "Pedro", "Enrique", "Daniel",
+    "Mario", "Rafael", "Gerardo", "Armando", "Víctor", "Guillermo", "Rodrigo", "Gustavo",
+    "Alfredo", "Ernesto", "Salvador", "Ramón", "Hugo", "Martín", "Emiliano", "Santiago",
+    "Diego", "Leonardo", "Iván", "Ulises", "Octavio", "Rogelio", "Abraham", "Adrián",
+    "José Luis", "Juan Carlos", "Luis Fernando", "Jorge Alberto", "Juan Pablo", "Miguel Ángel", "José Antonio"
+  ],
+  "given_female": [
+    "María", "Guadalupe", "Juana", "Margarita", "Verónica", "Leticia", "Rosa", "Patricia",
+    "Alejandra", "Gabriela", "Claudia", "Adriana", "Mónica", "Sandra", "Laura", "Lucía",
+    "Fernanda", "Daniela", "Ximena", "Valeria", "Mariana", "Karla", "Diana", "Brenda",
+    "Araceli", "Yolanda", "Silvia", "Norma", "Elizabeth", "Martha", "Lorena", "Carmen",
+    "Beatriz", "Andrea", "Paola", "Itzel", "Citlali", "Alma", "Rocío", "Blanca",
+    "Teresa", "Liliana", "Erika", "Josefina", "Regina", "Sofía",
+    "María Guadalupe", "María Fernanda", "Ana María", "María José", "Rosa María", "Ana Laura"
+  ],
+  "family": [
+    "Hernández", "García", "Martínez", "López", "González", "Pérez", "Rodríguez", "Sánchez",
+    "Ramírez", "Cruz", "Flores", "Gómez", "Morales", "Vázquez", "Reyes", "Jiménez",
+    "Torres", "Díaz", "Gutiérrez", "Ruiz", "Mendoza", "Aguilar", "Ortiz", "Moreno",
+    "Castillo", "Romero", "Álvarez", "Méndez", "Chávez", "Rivera", "Juárez", "Ramos",
+    "Domínguez", "Herrera", "Medina", "Castro", "Vargas", "Guzmán", "Velázquez", "Muñoz",
+    "Rojas", "Contreras", "Salazar", "Luna", "Ortega", "Guerrero", "Estrada", "Bautista",
+    "Cortés", "Soto", "Alvarado", "Espinoza", "Lara", "Ávila", "Ríos", "Cervantes",
+    "Silva", "Delgado", "Vega", "Márquez", "Sandoval", "Fernández", "Carrillo", "León",
+    "Mejía", "Solís", "Ibarra", "Robles", "Rosales", "Navarro", "Campos", "Zúñiga",
+    "Cárdenas", "Valdez", "Salinas", "Pacheco", "Trejo", "Fuentes", "Villarreal", "Garza",
+    "Treviño", "Cantú", "Montemayor", "Villanueva", "Escobar", "Nava", "Olvera", "Maldonado",
+    "Acosta", "Peña", "Galván", "Ochoa", "Zamora", "Tapia", "Arellano", "Téllez",
+    "Huerta", "Quintero", "Barrera", "Cabrera", "Ponce", "Padilla", "Figueroa", "Sosa"
+  ]
+}

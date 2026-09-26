@@ -1,0 +1,28 @@
+{
+  "given_male": [
+    "Mohamed", "Mohammed", "Ahmed", "Youssef", "Hassan", "Omar", "Rachid", "Karim",
+    "Mustapha", "Abdellah", "Said", "Hamid", "Khalid", "Driss", "Mehdi", "Hicham",
+    "Noureddine", "Abdelaziz", "Jamal", "Mourad", "Brahim", "Anas", "Amine", "Othmane",
+    "Ayoub", "Soufiane", "Adil", "Tarik", "Nabil", "Yassine", "Hamza", "Ismail",
+    "Zakaria", "Redouane", "Abderrahim", "Abdelilah", "Mounir", "Badr", "Ilyas", "Ali",
+    "Abdelkader", "Aziz"
+  ],
+  "given_female": [
+    "Fatima", "Fatima Zahra", "Khadija", "Aicha", "Meryem", "Salma", "Nadia", "Latifa",
+    "Samira", "Naima", "Zineb", "Hajar", "Imane", "Houda", "Asmae", "Hanane",
+    "Loubna", "Siham", "Sanae", "Kaoutar", "Ghizlane", "Rajae", "Nawal", "Souad",
+    "Malika", "Hind", "Btissam", "Ikram", "Oumaima", "Yasmine", "Rim", "Amal",
+    "Laila", "Wafae", "Najat", "Saida", "Nisrine", "Chaimae"
+  ],
+  "family": [
+    "El Amrani", "Bennani", "Alaoui", "El Idrissi", "Tazi", "Berrada", "Benjelloun", "Chraibi",
+    "Fassi Fihri", "Lahlou", "Sqalli", "Benkirane", "El Fassi", "Kettani", "Benchekroun", "Guessous",
+    "Ouazzani", "Filali", "El Mansouri", "Bouzidi", "Ait Ali", "Ait Taleb", "Benali", "Benmoussa",
+    "Belhaj", "Belkadi", "Boukhari", "Cherkaoui", "Chaoui", "Daoudi", "Drissi", "El Alami",
+    "El Hassani", "El Khatib", "Ennaji", "Essaidi", "Hajji", "Hamdaoui", "Jabri", "Karimi",
+    "Lamrani", "Lazrak", "Moussaoui", "Naciri", "Rahmouni", "Sabri", "Saidi", "Slaoui",
+    "Tahiri", "Touzani", "Zerouali", "Ziani", "Zniber", "Benabdellah", "Bensaid", "Bennis",
+    "Bouhlal", "El Ghazi", "El Omari", "Hilali", "Kabbaj", "Mekouar", "Naji", "Sebti",
+    "Ouahbi", "Raji", "Bakkali", "Tounsi", "Sefrioui", "Amzil"
+  ]
+}

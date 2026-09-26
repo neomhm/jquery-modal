@@ -1,0 +1,3497 @@
+{
+ "_about": "Appendix F of the build instructions as data: number, date, currency and name formats per locale, plus the weights of section 3 (held-out locales: weight 0, test_locale only). 'money': how an amount is written in a text cell ({n} = the number); 'money_formats': Excel number formats that show the currency; 'dates': the date styles the generator writes (D M Y = day month year, MON = a month name, ERA = a Japanese era); 'name_order': how split name columns are joined (section 6); 'usd_rate' and 'price_level' turn the activities' USD prices into local prices.",
+ "locales": {
+  "ar-SA": {
+   "lang": "ar",
+   "country": "SA",
+   "data": "ar",
+   "heldout": false,
+   "weight": 0.4,
+   "currency": "SAR",
+   "cents": true,
+   "decimal": ".",
+   "thousands": [
+    ","
+   ],
+   "dates": [
+    "D/M/Y",
+    "Y/M/D"
+   ],
+   "money": [
+    "{n} ر.س",
+    "{n} ريال",
+    "SAR {n}",
+    "{n} SAR"
+   ],
+   "money_formats": [
+    "#,##0.00 \"ر.س\"",
+    "#,##0.00 \"SAR\""
+   ],
+   "name_order": "given_family",
+   "phone_region": "SA",
+   "usd_rate": 3.75,
+   "price_level": 0.6,
+   "vat": [
+    15
+   ],
+   "digits": {
+    "arab": 0.5
+   },
+   "csv_delimiter": ",",
+   "legal_forms": [
+    {
+     "code": "SA_LLC",
+     "class": "company",
+     "forms": [
+      "ذ.م.م",
+      "شركة ذات مسؤولية محدودة"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.6,
+     "attach": true,
+     "long": [
+      "شركة ذات مسؤولية محدودة"
+     ]
+    },
+    {
+     "code": "SA_JSC",
+     "class": "company",
+     "forms": [
+      "شركة مساهمة",
+      "شركة مساهمة مقفلة"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.15,
+     "attach": true
+    },
+    {
+     "code": "SA_EST",
+     "class": "sole_trader",
+     "forms": [
+      "مؤسسة فردية"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.25,
+     "attach": false
+    }
+   ],
+   "reg_ids": [
+    {
+     "type": "SA_CR",
+     "weight": 1.0
+    },
+    {
+     "type": "SA_VAT",
+     "weight": 1.0
+    }
+   ]
+  },
+  "ar-AE": {
+   "lang": "ar",
+   "country": "AE",
+   "data": "ar",
+   "heldout": false,
+   "weight": 0.3,
+   "currency": "AED",
+   "cents": true,
+   "decimal": ".",
+   "thousands": [
+    ","
+   ],
+   "dates": [
+    "D/M/Y",
+    "D-M-Y"
+   ],
+   "money": [
+    "{n} د.إ",
+    "{n} درهم",
+    "AED {n}",
+    "{n} AED"
+   ],
+   "money_formats": [
+    "#,##0.00 \"د.إ\"",
+    "\"AED\" #,##0.00"
+   ],
+   "name_order": "given_family",
+   "phone_region": "AE",
+   "usd_rate": 3.67,
+   "price_level": 0.8,
+   "vat": [
+    5
+   ],
+   "digits": {
+    "arab": 0.2
+   },
+   "csv_delimiter": ",",
+   "legal_forms": [
+    {
+     "code": "AE_LLC",
+     "class": "company",
+     "forms": [
+      "ذ.م.م",
+      "L.L.C",
+      "LLC"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.45,
+     "attach": true,
+     "long": [
+      "شركة ذات مسؤولية محدودة"
+     ]
+    },
+    {
+     "code": "AE_FZE",
+     "class": "company",
+     "forms": [
+      "م.م.ح",
+      "FZE"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.1,
+     "attach": true
+    },
+    {
+     "code": "AE_FZCO",
+     "class": "company",
+     "forms": [
+      "FZCO",
+      "ش.م.ح"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.1,
+     "attach": true
+    },
+    {
+     "code": "AE_FZLLC",
+     "class": "company",
+     "forms": [
+      "FZ-LLC",
+      "FZ LLC"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.1,
+     "attach": true
+    },
+    {
+     "code": "AE_EST",
+     "class": "sole_trader",
+     "forms": [
+      "مؤسسة فردية"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.25,
+     "attach": false
+    }
+   ],
+   "reg_ids": [
+    {
+     "type": "AE_LICENSE",
+     "weight": 1.0
+    },
+    {
+     "type": "AE_TRN",
+     "weight": 1.0
+    }
+   ]
+  },
+  "ar-EG": {
+   "lang": "ar",
+   "country": "EG",
+   "data": "ar",
+   "heldout": false,
+   "weight": 0.3,
+   "currency": "EGP",
+   "cents": true,
+   "decimal": ".",
+   "thousands": [
+    ","
+   ],
+   "dates": [
+    "D/M/Y",
+    "D-M-Y"
+   ],
+   "money": [
+    "{n} ج.م",
+    "{n} جنيه",
+    "EGP {n}",
+    "{n} EGP"
+   ],
+   "money_formats": [
+    "#,##0.00 \"ج.م\"",
+    "#,##0.00 \"EGP\""
+   ],
+   "name_order": "given_family",
+   "phone_region": "EG",
+   "usd_rate": 48,
+   "price_level": 0.25,
+   "vat": [
+    14
+   ],
+   "digits": {
+    "arab": 0.6
+   },
+   "csv_delimiter": ",",
+   "legal_forms": [
+    {
+     "code": "EG_SAE",
+     "class": "company",
+     "forms": [
+      "ش.م.م",
+      "شركة مساهمة مصرية"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.3,
+     "attach": true
+    },
+    {
+     "code": "EG_LLC",
+     "class": "company",
+     "forms": [
+      "ذ.م.م",
+      "شركة ذات مسؤولية محدودة"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.45,
+     "attach": true
+    },
+    {
+     "code": "EG_SOLE",
+     "class": "sole_trader",
+     "forms": [
+      "منشأة فردية"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.25,
+     "attach": false
+    }
+   ],
+   "reg_ids": [
+    {
+     "type": "EG_CR",
+     "weight": 1.0
+    },
+    {
+     "type": "EG_TAX",
+     "weight": 1.0
+    }
+   ]
+  },
+  "ar-MA": {
+   "lang": "ar",
+   "country": "MA",
+   "data": "ar",
+   "heldout": true,
+   "weight": 0,
+   "currency": "MAD",
+   "cents": true,
+   "decimal": ",",
+   "thousands": [
+    ".",
+    " "
+   ],
+   "dates": [
+    "D/M/Y"
+   ],
+   "money": [
+    "{n} درهم",
+    "{n} DH",
+    "{n} MAD"
+   ],
+   "money_formats": [
+    "#,##0.00 \"DH\"",
+    "#,##0.00 \"MAD\""
+   ],
+   "name_order": "given_family",
+   "phone_region": "MA",
+   "usd_rate": 10,
+   "price_level": 0.35,
+   "vat": [
+    20
+   ],
+   "digits": {},
+   "csv_delimiter": ",",
+   "legal_forms": [
+    {
+     "code": "MA_SARL",
+     "class": "company",
+     "forms": [
+      "ش.م.م",
+      "SARL"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.5,
+     "attach": true
+    },
+    {
+     "code": "MA_SA",
+     "class": "company",
+     "forms": [
+      "ش.م",
+      "SA"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.1,
+     "attach": true
+    },
+    {
+     "code": "MA_SARLAU",
+     "class": "company",
+     "forms": [
+      "SARL AU",
+      "ش.م.م.ش.و"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.15,
+     "attach": true
+    },
+    {
+     "code": "MA_PP",
+     "class": "sole_trader",
+     "forms": [
+      "شخص ذاتي"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.25,
+     "attach": false
+    }
+   ],
+   "reg_ids": [
+    {
+     "type": "MA_ICE",
+     "weight": 1.0
+    },
+    {
+     "type": "MA_RC",
+     "weight": 1.0
+    },
+    {
+     "type": "MA_IF",
+     "weight": 1.0
+    }
+   ]
+  },
+  "zh-CN": {
+   "lang": "zh",
+   "country": "CN",
+   "data": "zh",
+   "heldout": false,
+   "weight": 0.6,
+   "currency": "CNY",
+   "cents": true,
+   "decimal": ".",
+   "thousands": [
+    ","
+   ],
+   "dates": [
+    "Y-M-D",
+    "Y年M月D日",
+    "Y/M/D"
+   ],
+   "money": [
+    "¥{n}",
+    "￥{n}",
+    "{n}元",
+    "RMB {n}"
+   ],
+   "money_formats": [
+    "\"¥\"#,##0.00",
+    "[$¥-804]#,##0.00",
+    "#,##0.00\"元\""
+   ],
+   "name_order": "family_given",
+   "phone_region": "CN",
+   "usd_rate": 7.2,
+   "price_level": 0.5,
+   "vat": [
+    13,
+    6,
+    9
+   ],
+   "digits": {},
+   "csv_delimiter": ",",
+   "legal_forms": [
+    {
+     "code": "CN_LTD",
+     "class": "company",
+     "forms": [
+      "有限公司",
+      "有限责任公司"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.6,
+     "attach": true
+    },
+    {
+     "code": "CN_JSC",
+     "class": "company",
+     "forms": [
+      "股份有限公司"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.15,
+     "attach": true
+    },
+    {
+     "code": "CN_IND",
+     "class": "sole_trader",
+     "forms": [
+      "个体工商户"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.2,
+     "attach": false
+    },
+    {
+     "code": "CN_PART",
+     "class": "partnership",
+     "forms": [
+      "合伙企业（有限合伙）",
+      "（有限合伙）"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.05,
+     "attach": true
+    }
+   ],
+   "reg_ids": [
+    {
+     "type": "CN_USCC",
+     "weight": 1.0
+    }
+   ]
+  },
+  "zh-TW": {
+   "lang": "zh",
+   "country": "TW",
+   "data": "zh-Hant",
+   "heldout": false,
+   "weight": 0.25,
+   "currency": "TWD",
+   "cents": false,
+   "decimal": ".",
+   "thousands": [
+    ","
+   ],
+   "dates": [
+    "Y/M/D",
+    "民國Y/M/D",
+    "Y年M月D日"
+   ],
+   "money": [
+    "NT${n}",
+    "{n}元",
+    "NT$ {n}"
+   ],
+   "money_formats": [
+    "\"NT$\"#,##0",
+    "[$NT$-404]#,##0"
+   ],
+   "name_order": "family_given",
+   "phone_region": "TW",
+   "usd_rate": 32,
+   "price_level": 0.55,
+   "vat": [
+    5
+   ],
+   "digits": {},
+   "csv_delimiter": ",",
+   "legal_forms": [
+    {
+     "code": "TW_CORP",
+     "class": "company",
+     "forms": [
+      "股份有限公司"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.4,
+     "attach": true
+    },
+    {
+     "code": "TW_LTD",
+     "class": "company",
+     "forms": [
+      "有限公司"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.35,
+     "attach": true
+    },
+    {
+     "code": "TW_SOLE",
+     "class": "sole_trader",
+     "forms": [
+      "獨資商號",
+      "行號"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.25,
+     "attach": false
+    }
+   ],
+   "reg_ids": [
+    {
+     "type": "TW_UBN",
+     "weight": 1.0
+    }
+   ]
+  },
+  "zh-HK": {
+   "lang": "zh",
+   "country": "HK",
+   "data": "zh-Hant",
+   "heldout": false,
+   "weight": 0.15,
+   "currency": "HKD",
+   "cents": true,
+   "decimal": ".",
+   "thousands": [
+    ","
+   ],
+   "dates": [
+    "D/M/Y",
+    "Y年M月D日"
+   ],
+   "money": [
+    "HK${n}",
+    "HK$ {n}",
+    "{n}港元"
+   ],
+   "money_formats": [
+    "\"HK$\"#,##0.00",
+    "[$HK$-C04]#,##0.00"
+   ],
+   "name_order": "family_given",
+   "phone_region": "HK",
+   "usd_rate": 7.8,
+   "price_level": 0.8,
+   "vat": [],
+   "digits": {},
+   "csv_delimiter": ",",
+   "legal_forms": [
+    {
+     "code": "HK_LTD",
+     "class": "company",
+     "forms": [
+      "有限公司",
+      "Limited",
+      "Ltd."
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.75,
+     "attach": true
+    },
+    {
+     "code": "HK_SOLE",
+     "class": "sole_trader",
+     "forms": [
+      "獨資經營"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.25,
+     "attach": false
+    }
+   ],
+   "reg_ids": [
+    {
+     "type": "HK_BR",
+     "weight": 1.0
+    },
+    {
+     "type": "HK_CR",
+     "weight": 0.6
+    }
+   ]
+  },
+  "zh-SG": {
+   "lang": "zh",
+   "country": "SG",
+   "data": "zh",
+   "heldout": true,
+   "weight": 0,
+   "currency": "SGD",
+   "cents": true,
+   "decimal": ".",
+   "thousands": [
+    ","
+   ],
+   "dates": [
+    "D/M/Y"
+   ],
+   "money": [
+    "S${n}",
+    "S$ {n}",
+    "{n} SGD"
+   ],
+   "money_formats": [
+    "\"S$\"#,##0.00",
+    "[$S$-1004]#,##0.00"
+   ],
+   "name_order": "family_given",
+   "phone_region": "SG",
+   "usd_rate": 1.35,
+   "price_level": 0.9,
+   "vat": [
+    9
+   ],
+   "digits": {},
+   "csv_delimiter": ",",
+   "legal_forms": [
+    {
+     "code": "SG_PTE",
+     "class": "company",
+     "forms": [
+      "私人有限公司",
+      "Pte. Ltd.",
+      "Pte Ltd"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.75,
+     "attach": true
+    },
+    {
+     "code": "SG_SOLE",
+     "class": "sole_trader",
+     "forms": [
+      "独资企业"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.25,
+     "attach": false
+    }
+   ],
+   "reg_ids": [
+    {
+     "type": "SG_UEN",
+     "weight": 1.0
+    }
+   ]
+  },
+  "en-US": {
+   "lang": "en",
+   "country": "US",
+   "data": "en",
+   "heldout": false,
+   "weight": 0.3,
+   "currency": "USD",
+   "cents": true,
+   "decimal": ".",
+   "thousands": [
+    ","
+   ],
+   "dates": [
+    "M/D/Y",
+    "MON D, Y"
+   ],
+   "money": [
+    "${n}",
+    "$ {n}",
+    "US${n}",
+    "{n} USD"
+   ],
+   "money_formats": [
+    "\"$\"#,##0.00",
+    "[$$-409]#,##0.00"
+   ],
+   "name_order": "given_family",
+   "phone_region": "US",
+   "usd_rate": 1.0,
+   "price_level": 1.0,
+   "vat": [
+    6,
+    7,
+    8.25
+   ],
+   "digits": {},
+   "csv_delimiter": ",",
+   "legal_forms": [
+    {
+     "code": "US_LLC",
+     "class": "company",
+     "forms": [
+      "LLC",
+      "L.L.C."
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.45,
+     "attach": true
+    },
+    {
+     "code": "US_INC",
+     "class": "company",
+     "forms": [
+      "Inc.",
+      "Corp.",
+      "Corporation",
+      "Incorporated"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.3,
+     "attach": true
+    },
+    {
+     "code": "US_LLP",
+     "class": "partnership",
+     "forms": [
+      "LLP"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.05,
+     "attach": true
+    },
+    {
+     "code": "US_SOLE",
+     "class": "sole_trader",
+     "forms": [
+      "Sole Proprietorship"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.2,
+     "attach": false
+    }
+   ],
+   "reg_ids": [
+    {
+     "type": "US_EIN",
+     "weight": 1.0
+    },
+    {
+     "type": "US_STATE",
+     "weight": 0.5
+    }
+   ]
+  },
+  "en-GB": {
+   "lang": "en",
+   "country": "GB",
+   "data": "en",
+   "heldout": false,
+   "weight": 0.2,
+   "currency": "GBP",
+   "cents": true,
+   "decimal": ".",
+   "thousands": [
+    ","
+   ],
+   "dates": [
+    "D/M/Y",
+    "D MON Y"
+   ],
+   "money": [
+    "£{n}",
+    "£ {n}",
+    "{n} GBP"
+   ],
+   "money_formats": [
+    "\"£\"#,##0.00",
+    "[$£-809]#,##0.00"
+   ],
+   "name_order": "given_family",
+   "phone_region": "GB",
+   "usd_rate": 0.79,
+   "price_level": 0.85,
+   "vat": [
+    20
+   ],
+   "digits": {},
+   "csv_delimiter": ",",
+   "legal_forms": [
+    {
+     "code": "GB_LTD",
+     "class": "company",
+     "forms": [
+      "Ltd",
+      "Limited",
+      "Ltd."
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.65,
+     "attach": true,
+     "capital": {
+      "range": [
+       1,
+       100000
+      ]
+     }
+    },
+    {
+     "code": "GB_PLC",
+     "class": "company",
+     "forms": [
+      "PLC",
+      "plc"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.1,
+     "attach": true,
+     "capital": {
+      "range": [
+       50000,
+       2000000
+      ]
+     }
+    },
+    {
+     "code": "GB_LLP",
+     "class": "partnership",
+     "forms": [
+      "LLP"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.05,
+     "attach": true
+    },
+    {
+     "code": "GB_SOLE",
+     "class": "sole_trader",
+     "forms": [
+      "sole trader"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.2,
+     "attach": false
+    }
+   ],
+   "reg_ids": [
+    {
+     "type": "GB_CRN",
+     "weight": 1.0
+    },
+    {
+     "type": "GB_VAT",
+     "weight": 1.0
+    }
+   ]
+  },
+  "en-IN": {
+   "lang": "en",
+   "country": "IN",
+   "data": "en",
+   "heldout": false,
+   "weight": 0.25,
+   "currency": "INR",
+   "cents": true,
+   "decimal": ".",
+   "thousands": [
+    ","
+   ],
+   "dates": [
+    "D/M/Y",
+    "D-M-Y",
+    "D MON Y"
+   ],
+   "money": [
+    "₹{n}",
+    "₹ {n}",
+    "Rs. {n}",
+    "Rs {n}",
+    "INR {n}"
+   ],
+   "money_formats": [
+    "\"₹\"#,##,##0.00",
+    "[$₹-4009]#,##0.00"
+   ],
+   "name_order": "given_family",
+   "phone_region": "IN",
+   "usd_rate": 83,
+   "price_level": 0.25,
+   "vat": [
+    18,
+    12,
+    5
+   ],
+   "digits": {},
+   "csv_delimiter": ",",
+   "legal_forms": [
+    {
+     "code": "IN_PVT",
+     "class": "company",
+     "forms": [
+      "Pvt. Ltd.",
+      "Private Limited",
+      "Pvt Ltd"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.6,
+     "attach": true
+    },
+    {
+     "code": "IN_LTD",
+     "class": "company",
+     "forms": [
+      "Ltd.",
+      "Limited"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.15,
+     "attach": true
+    },
+    {
+     "code": "IN_LLP",
+     "class": "partnership",
+     "forms": [
+      "LLP"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.05,
+     "attach": true
+    },
+    {
+     "code": "IN_PROP",
+     "class": "sole_trader",
+     "forms": [
+      "Proprietorship",
+      "Sole Proprietorship"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.2,
+     "attach": false
+    }
+   ],
+   "reg_ids": [
+    {
+     "type": "IN_GSTIN",
+     "weight": 1.0
+    },
+    {
+     "type": "IN_PAN",
+     "weight": 0.6
+    },
+    {
+     "type": "IN_CIN",
+     "weight": 0.5
+    },
+    {
+     "type": "IN_UDYAM",
+     "weight": 0.3
+    }
+   ]
+  },
+  "en-AU": {
+   "lang": "en",
+   "country": "AU",
+   "data": "en",
+   "heldout": false,
+   "weight": 0.1,
+   "currency": "AUD",
+   "cents": true,
+   "decimal": ".",
+   "thousands": [
+    ","
+   ],
+   "dates": [
+    "D/M/Y",
+    "D MON Y"
+   ],
+   "money": [
+    "${n}",
+    "A${n}",
+    "{n} AUD"
+   ],
+   "money_formats": [
+    "\"$\"#,##0.00",
+    "[$$-C09]#,##0.00"
+   ],
+   "name_order": "given_family",
+   "phone_region": "AU",
+   "usd_rate": 1.5,
+   "price_level": 0.9,
+   "vat": [
+    10
+   ],
+   "digits": {},
+   "csv_delimiter": ",",
+   "legal_forms": [
+    {
+     "code": "AU_PTY",
+     "class": "company",
+     "forms": [
+      "Pty Ltd",
+      "Pty. Ltd.",
+      "Proprietary Limited"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.65,
+     "attach": true
+    },
+    {
+     "code": "AU_LTD",
+     "class": "company",
+     "forms": [
+      "Ltd",
+      "Limited"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.1,
+     "attach": true
+    },
+    {
+     "code": "AU_PART",
+     "class": "partnership",
+     "forms": [
+      "Partnership"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.05,
+     "attach": false
+    },
+    {
+     "code": "AU_SOLE",
+     "class": "sole_trader",
+     "forms": [
+      "sole trader"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.2,
+     "attach": false
+    }
+   ],
+   "reg_ids": [
+    {
+     "type": "AU_ABN",
+     "weight": 1.0
+    },
+    {
+     "type": "AU_ACN",
+     "weight": 0.5
+    }
+   ]
+  },
+  "en-CA": {
+   "lang": "en",
+   "country": "CA",
+   "data": "en",
+   "heldout": false,
+   "weight": 0.15,
+   "currency": "CAD",
+   "cents": true,
+   "decimal": ".",
+   "thousands": [
+    ","
+   ],
+   "dates": [
+    "Y-M-D",
+    "D/M/Y"
+   ],
+   "money": [
+    "${n}",
+    "C${n}",
+    "{n} CAD"
+   ],
+   "money_formats": [
+    "\"$\"#,##0.00",
+    "[$$-1009]#,##0.00"
+   ],
+   "name_order": "given_family",
+   "phone_region": "CA",
+   "usd_rate": 1.36,
+   "price_level": 0.85,
+   "vat": [
+    5,
+    13
+   ],
+   "digits": {},
+   "csv_delimiter": ",",
+   "legal_forms": [
+    {
+     "code": "CA_INC",
+     "class": "company",
+     "forms": [
+      "Inc.",
+      "Ltd.",
+      "Corp.",
+      "Limited",
+      "Incorporated"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.8,
+     "attach": true
+    },
+    {
+     "code": "CA_SOLE",
+     "class": "sole_trader",
+     "forms": [
+      "sole proprietorship"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.2,
+     "attach": false
+    }
+   ],
+   "reg_ids": [
+    {
+     "type": "CA_BN",
+     "weight": 1.0
+    }
+   ]
+  },
+  "en-NG": {
+   "lang": "en",
+   "country": "NG",
+   "data": "en",
+   "heldout": true,
+   "weight": 0,
+   "currency": "NGN",
+   "cents": true,
+   "decimal": ".",
+   "thousands": [
+    ","
+   ],
+   "dates": [
+    "D/M/Y",
+    "D MON Y"
+   ],
+   "money": [
+    "₦{n}",
+    "₦ {n}",
+    "NGN {n}"
+   ],
+   "money_formats": [
+    "\"₦\"#,##0.00",
+    "[$₦-466]#,##0.00"
+   ],
+   "name_order": "given_family",
+   "phone_region": "NG",
+   "usd_rate": 1500,
+   "price_level": 0.25,
+   "vat": [
+    7.5
+   ],
+   "digits": {},
+   "csv_delimiter": ",",
+   "legal_forms": [
+    {
+     "code": "NG_LTD",
+     "class": "company",
+     "forms": [
+      "Ltd",
+      "Limited",
+      "Nigeria Limited"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.75,
+     "attach": true
+    },
+    {
+     "code": "NG_ENT",
+     "class": "sole_trader",
+     "forms": [
+      "Enterprises",
+      "Ventures"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.25,
+     "attach": true
+    }
+   ],
+   "reg_ids": [
+    {
+     "type": "NG_RC",
+     "weight": 1.0
+    },
+    {
+     "type": "NG_TIN",
+     "weight": 1.0
+    }
+   ]
+  },
+  "fr-FR": {
+   "lang": "fr",
+   "country": "FR",
+   "data": "fr",
+   "heldout": false,
+   "weight": 0.5,
+   "currency": "EUR",
+   "cents": true,
+   "decimal": ",",
+   "thousands": [
+    " ",
+    " ",
+    " "
+   ],
+   "dates": [
+    "D/M/Y",
+    "D MON Y"
+   ],
+   "money": [
+    "{n} €",
+    "{n}€",
+    "€ {n}",
+    "{n} EUR"
+   ],
+   "money_formats": [
+    "#,##0.00 \"€\"",
+    "#,##0.00 [$€-40C]"
+   ],
+   "name_order": "given_family",
+   "phone_region": "FR",
+   "usd_rate": 0.92,
+   "price_level": 0.85,
+   "vat": [
+    20,
+    10,
+    5.5
+   ],
+   "digits": {},
+   "csv_delimiter": ";",
+   "legal_forms": [
+    {
+     "code": "FR_SARL",
+     "class": "company",
+     "forms": [
+      "SARL",
+      "S.A.R.L."
+     ],
+     "position": [
+      "suffix",
+      "prefix"
+     ],
+     "weight": 0.3,
+     "attach": true,
+     "long": [
+      "société à responsabilité limitée"
+     ],
+     "capital": {
+      "range": [
+       1000,
+       50000
+      ]
+     }
+    },
+    {
+     "code": "FR_EURL",
+     "class": "company",
+     "forms": [
+      "EURL"
+     ],
+     "position": [
+      "suffix",
+      "prefix"
+     ],
+     "weight": 0.1,
+     "attach": true,
+     "capital": {
+      "range": [
+       1000,
+       30000
+      ]
+     }
+    },
+    {
+     "code": "FR_SAS",
+     "class": "company",
+     "forms": [
+      "SAS",
+      "S.A.S."
+     ],
+     "position": [
+      "suffix",
+      "prefix"
+     ],
+     "weight": 0.22,
+     "attach": true,
+     "long": [
+      "société par actions simplifiée"
+     ],
+     "capital": {
+      "range": [
+       1000,
+       200000
+      ]
+     }
+    },
+    {
+     "code": "FR_SASU",
+     "class": "company",
+     "forms": [
+      "SASU"
+     ],
+     "position": [
+      "suffix",
+      "prefix"
+     ],
+     "weight": 0.08,
+     "attach": true,
+     "capital": {
+      "range": [
+       1000,
+       50000
+      ]
+     }
+    },
+    {
+     "code": "FR_SA",
+     "class": "company",
+     "forms": [
+      "SA",
+      "S.A."
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.05,
+     "attach": true,
+     "long": [
+      "société anonyme"
+     ],
+     "capital": {
+      "range": [
+       37000,
+       2000000
+      ]
+     }
+    },
+    {
+     "code": "FR_SNC",
+     "class": "partnership",
+     "forms": [
+      "SNC"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.03,
+     "attach": true
+    },
+    {
+     "code": "FR_SCI",
+     "class": "other",
+     "forms": [
+      "SCI"
+     ],
+     "position": [
+      "prefix"
+     ],
+     "weight": 0.02,
+     "attach": true
+    },
+    {
+     "code": "FR_EI",
+     "class": "sole_trader",
+     "forms": [
+      "EI",
+      "Entreprise individuelle"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.1,
+     "attach": false
+    },
+    {
+     "code": "FR_MICRO",
+     "class": "sole_trader",
+     "forms": [
+      "micro-entreprise",
+      "auto-entrepreneur"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.1,
+     "attach": false
+    }
+   ],
+   "reg_ids": [
+    {
+     "type": "FR_SIRET",
+     "weight": 1.0
+    },
+    {
+     "type": "FR_SIREN",
+     "weight": 0.8
+    },
+    {
+     "type": "FR_TVA",
+     "weight": 0.8
+    }
+   ]
+  },
+  "fr-BE": {
+   "lang": "fr",
+   "country": "BE",
+   "data": "fr",
+   "heldout": false,
+   "weight": 0.12,
+   "currency": "EUR",
+   "cents": true,
+   "decimal": ",",
+   "thousands": [
+    ".",
+    " "
+   ],
+   "dates": [
+    "D/M/Y"
+   ],
+   "money": [
+    "{n} €",
+    "€ {n}",
+    "{n} EUR"
+   ],
+   "money_formats": [
+    "#,##0.00 \"€\"",
+    "[$€-80C] #,##0.00"
+   ],
+   "name_order": "given_family",
+   "phone_region": "BE",
+   "usd_rate": 0.92,
+   "price_level": 0.85,
+   "vat": [
+    21,
+    6
+   ],
+   "digits": {},
+   "csv_delimiter": ";",
+   "legal_forms": [
+    {
+     "code": "BE_SRL",
+     "class": "company",
+     "forms": [
+      "SRL",
+      "srl"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.55,
+     "attach": true
+    },
+    {
+     "code": "BE_SA",
+     "class": "company",
+     "forms": [
+      "SA",
+      "S.A."
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.12,
+     "attach": true
+    },
+    {
+     "code": "BE_SC",
+     "class": "company",
+     "forms": [
+      "SC",
+      "scrl"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.08,
+     "attach": true
+    },
+    {
+     "code": "BE_SCOMM",
+     "class": "partnership",
+     "forms": [
+      "SComm"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.05,
+     "attach": true
+    },
+    {
+     "code": "BE_EI",
+     "class": "sole_trader",
+     "forms": [
+      "entreprise individuelle",
+      "personne physique"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.2,
+     "attach": false
+    }
+   ],
+   "reg_ids": [
+    {
+     "type": "BE_BCE",
+     "weight": 1.0
+    },
+    {
+     "type": "BE_TVA",
+     "weight": 0.8
+    }
+   ]
+  },
+  "fr-CH": {
+   "lang": "fr",
+   "country": "CH",
+   "data": "fr",
+   "heldout": false,
+   "weight": 0.12,
+   "currency": "CHF",
+   "cents": true,
+   "decimal": ".",
+   "thousands": [
+    "'",
+    "’",
+    " "
+   ],
+   "dates": [
+    "D.M.Y"
+   ],
+   "money": [
+    "CHF {n}",
+    "{n} CHF",
+    "Fr. {n}"
+   ],
+   "money_formats": [
+    "\"CHF\" #,##0.00",
+    "[$CHF-100C] #,##0.00"
+   ],
+   "name_order": "given_family",
+   "phone_region": "CH",
+   "usd_rate": 0.88,
+   "price_level": 1.2,
+   "vat": [
+    8.1,
+    2.6
+   ],
+   "digits": {},
+   "csv_delimiter": ";",
+   "legal_forms": [
+    {
+     "code": "CH_SARL",
+     "class": "company",
+     "forms": [
+      "Sàrl",
+      "S.à r.l."
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.45,
+     "attach": true,
+     "capital": {
+      "range": [
+       20000,
+       100000
+      ]
+     }
+    },
+    {
+     "code": "CH_SA",
+     "class": "company",
+     "forms": [
+      "SA"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.3,
+     "attach": true,
+     "capital": {
+      "range": [
+       100000,
+       1000000
+      ]
+     }
+    },
+    {
+     "code": "CH_SNC",
+     "class": "partnership",
+     "forms": [
+      "SNC"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.05,
+     "attach": true
+    },
+    {
+     "code": "CH_RI",
+     "class": "sole_trader",
+     "forms": [
+      "raison individuelle",
+      "entreprise individuelle"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.2,
+     "attach": false
+    }
+   ],
+   "reg_ids": [
+    {
+     "type": "CH_UID",
+     "weight": 1.0
+    },
+    {
+     "type": "CH_TVA",
+     "weight": 0.6
+    }
+   ]
+  },
+  "fr-CA": {
+   "lang": "fr",
+   "country": "CA",
+   "data": "fr",
+   "heldout": false,
+   "weight": 0.14,
+   "currency": "CAD",
+   "cents": true,
+   "decimal": ",",
+   "thousands": [
+    " ",
+    " "
+   ],
+   "dates": [
+    "Y-M-D",
+    "D/M/Y"
+   ],
+   "money": [
+    "{n} $",
+    "{n}$",
+    "{n} CAD"
+   ],
+   "money_formats": [
+    "#,##0.00 \"$\"",
+    "#,##0.00 [$$-C0C]"
+   ],
+   "name_order": "given_family",
+   "phone_region": "CA",
+   "usd_rate": 1.36,
+   "price_level": 0.85,
+   "vat": [
+    5,
+    9.975
+   ],
+   "digits": {},
+   "csv_delimiter": ";",
+   "legal_forms": [
+    {
+     "code": "CA_INC_FR",
+     "class": "company",
+     "forms": [
+      "inc.",
+      "Inc."
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.55,
+     "attach": true
+    },
+    {
+     "code": "CA_LTEE",
+     "class": "company",
+     "forms": [
+      "ltée",
+      "Ltée"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.2,
+     "attach": true
+    },
+    {
+     "code": "CA_SENC",
+     "class": "partnership",
+     "forms": [
+      "S.E.N.C.",
+      "SENC"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.05,
+     "attach": true
+    },
+    {
+     "code": "CA_EI",
+     "class": "sole_trader",
+     "forms": [
+      "entreprise individuelle"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.2,
+     "attach": false
+    }
+   ],
+   "reg_ids": [
+    {
+     "type": "CA_NEQ",
+     "weight": 1.0
+    },
+    {
+     "type": "CA_TPS",
+     "weight": 0.7
+    },
+    {
+     "type": "CA_TVQ",
+     "weight": 0.7
+    }
+   ]
+  },
+  "fr-MA": {
+   "lang": "fr",
+   "country": "MA",
+   "data": "fr",
+   "heldout": false,
+   "weight": 0.12,
+   "currency": "MAD",
+   "cents": true,
+   "decimal": ",",
+   "thousands": [
+    " ",
+    "."
+   ],
+   "dates": [
+    "D/M/Y"
+   ],
+   "money": [
+    "{n} DH",
+    "{n} MAD",
+    "{n} Dhs"
+   ],
+   "money_formats": [
+    "#,##0.00 \"DH\"",
+    "#,##0.00 \"MAD\""
+   ],
+   "name_order": "given_family",
+   "phone_region": "MA",
+   "usd_rate": 10,
+   "price_level": 0.35,
+   "vat": [
+    20,
+    10
+   ],
+   "digits": {},
+   "csv_delimiter": ";",
+   "legal_forms": [
+    {
+     "code": "MA_SARL",
+     "class": "company",
+     "forms": [
+      "SARL"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.5,
+     "attach": true,
+     "capital": {
+      "range": [
+       10000,
+       500000
+      ]
+     }
+    },
+    {
+     "code": "MA_SARLAU",
+     "class": "company",
+     "forms": [
+      "SARL AU",
+      "SARL A.U."
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.15,
+     "attach": true,
+     "capital": {
+      "range": [
+       10000,
+       200000
+      ]
+     }
+    },
+    {
+     "code": "MA_SA",
+     "class": "company",
+     "forms": [
+      "SA",
+      "S.A."
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.1,
+     "attach": true,
+     "capital": {
+      "range": [
+       300000,
+       5000000
+      ]
+     }
+    },
+    {
+     "code": "MA_PP",
+     "class": "sole_trader",
+     "forms": [
+      "personne physique"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.25,
+     "attach": false
+    }
+   ],
+   "reg_ids": [
+    {
+     "type": "MA_ICE",
+     "weight": 1.0
+    },
+    {
+     "type": "MA_RC",
+     "weight": 0.8
+    },
+    {
+     "type": "MA_IF",
+     "weight": 0.7
+    },
+    {
+     "type": "MA_PATENTE",
+     "weight": 0.5
+    },
+    {
+     "type": "MA_CNSS",
+     "weight": 0.4
+    }
+   ]
+  },
+  "fr-SN": {
+   "lang": "fr",
+   "country": "SN",
+   "data": "fr",
+   "heldout": true,
+   "weight": 0,
+   "currency": "XOF",
+   "cents": false,
+   "decimal": ",",
+   "thousands": [
+    " ",
+    "."
+   ],
+   "dates": [
+    "D/M/Y"
+   ],
+   "money": [
+    "{n} FCFA",
+    "{n} F CFA",
+    "{n} XOF"
+   ],
+   "money_formats": [
+    "#,##0 \"FCFA\"",
+    "#,##0 \"XOF\""
+   ],
+   "name_order": "given_family",
+   "phone_region": "SN",
+   "usd_rate": 605,
+   "price_level": 0.35,
+   "vat": [
+    18
+   ],
+   "digits": {},
+   "csv_delimiter": ";",
+   "legal_forms": [
+    {
+     "code": "SN_SARL",
+     "class": "company",
+     "forms": [
+      "SARL"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.45,
+     "attach": true
+    },
+    {
+     "code": "SN_SUARL",
+     "class": "company",
+     "forms": [
+      "SUARL"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.15,
+     "attach": true
+    },
+    {
+     "code": "SN_SA",
+     "class": "company",
+     "forms": [
+      "SA"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.15,
+     "attach": true
+    },
+    {
+     "code": "SN_EI",
+     "class": "sole_trader",
+     "forms": [
+      "entreprise individuelle"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.25,
+     "attach": false
+    }
+   ],
+   "reg_ids": [
+    {
+     "type": "SN_NINEA",
+     "weight": 1.0
+    },
+    {
+     "type": "SN_RCCM",
+     "weight": 1.0
+    }
+   ]
+  },
+  "ru-RU": {
+   "lang": "ru",
+   "country": "RU",
+   "data": "ru",
+   "heldout": false,
+   "weight": 0.75,
+   "currency": "RUB",
+   "cents": true,
+   "decimal": ",",
+   "thousands": [
+    " ",
+    " "
+   ],
+   "dates": [
+    "D.M.Y",
+    "D MON Y"
+   ],
+   "money": [
+    "{n} ₽",
+    "{n} руб.",
+    "{n} р.",
+    "{n} RUB"
+   ],
+   "money_formats": [
+    "#,##0.00 \"₽\"",
+    "#,##0.00 [$₽-419]",
+    "#,##0.00 \"руб.\""
+   ],
+   "name_order": "family_given_space",
+   "phone_region": "RU",
+   "usd_rate": 90,
+   "price_level": 0.4,
+   "vat": [
+    20,
+    22,
+    10
+   ],
+   "digits": {},
+   "csv_delimiter": ";",
+   "legal_forms": [
+    {
+     "code": "RU_OOO",
+     "class": "company",
+     "forms": [
+      "ООО"
+     ],
+     "position": [
+      "prefix"
+     ],
+     "weight": 0.6,
+     "attach": true,
+     "long": [
+      "Общество с ограниченной ответственностью"
+     ],
+     "capital": {
+      "range": [
+       10000,
+       1000000
+      ]
+     }
+    },
+    {
+     "code": "RU_AO",
+     "class": "company",
+     "forms": [
+      "АО"
+     ],
+     "position": [
+      "prefix"
+     ],
+     "weight": 0.1,
+     "attach": true,
+     "long": [
+      "Акционерное общество"
+     ],
+     "capital": {
+      "range": [
+       100000,
+       10000000
+      ]
+     }
+    },
+    {
+     "code": "RU_PAO",
+     "class": "company",
+     "forms": [
+      "ПАО"
+     ],
+     "position": [
+      "prefix"
+     ],
+     "weight": 0.05,
+     "attach": true,
+     "capital": {
+      "range": [
+       1000000,
+       50000000
+      ]
+     }
+    },
+    {
+     "code": "RU_IP",
+     "class": "sole_trader",
+     "forms": [
+      "ИП"
+     ],
+     "position": [
+      "prefix"
+     ],
+     "weight": 0.25,
+     "attach": true,
+     "long": [
+      "Индивидуальный предприниматель"
+     ]
+    }
+   ],
+   "reg_ids": [
+    {
+     "type": "RU_INN",
+     "weight": 1.0
+    },
+    {
+     "type": "RU_OGRN",
+     "weight": 0.8
+    },
+    {
+     "type": "RU_KPP",
+     "weight": 0.6
+    }
+   ]
+  },
+  "ru-KZ": {
+   "lang": "ru",
+   "country": "KZ",
+   "data": "ru",
+   "heldout": false,
+   "weight": 0.25,
+   "currency": "KZT",
+   "cents": true,
+   "decimal": ",",
+   "thousands": [
+    " ",
+    " "
+   ],
+   "dates": [
+    "D.M.Y"
+   ],
+   "money": [
+    "{n} ₸",
+    "{n} тенге",
+    "{n} KZT",
+    "{n} тг"
+   ],
+   "money_formats": [
+    "#,##0.00 \"₸\"",
+    "#,##0.00 [$₸-43F]"
+   ],
+   "name_order": "family_given_space",
+   "phone_region": "KZ",
+   "usd_rate": 470,
+   "price_level": 0.35,
+   "vat": [
+    12,
+    16
+   ],
+   "digits": {},
+   "csv_delimiter": ";",
+   "legal_forms": [
+    {
+     "code": "KZ_TOO",
+     "class": "company",
+     "forms": [
+      "ТОО"
+     ],
+     "position": [
+      "prefix"
+     ],
+     "weight": 0.65,
+     "attach": true,
+     "long": [
+      "Товарищество с ограниченной ответственностью"
+     ]
+    },
+    {
+     "code": "KZ_AO",
+     "class": "company",
+     "forms": [
+      "АО"
+     ],
+     "position": [
+      "prefix"
+     ],
+     "weight": 0.1,
+     "attach": true
+    },
+    {
+     "code": "KZ_IP",
+     "class": "sole_trader",
+     "forms": [
+      "ИП"
+     ],
+     "position": [
+      "prefix"
+     ],
+     "weight": 0.25,
+     "attach": true
+    }
+   ],
+   "reg_ids": [
+    {
+     "type": "KZ_BIN",
+     "weight": 1.0
+    },
+    {
+     "type": "KZ_IIN",
+     "weight": 1.0
+    }
+   ]
+  },
+  "ru-BY": {
+   "lang": "ru",
+   "country": "BY",
+   "data": "ru",
+   "heldout": true,
+   "weight": 0,
+   "currency": "BYN",
+   "cents": true,
+   "decimal": ",",
+   "thousands": [
+    " "
+   ],
+   "dates": [
+    "D.M.Y"
+   ],
+   "money": [
+    "{n} руб.",
+    "{n} BYN",
+    "{n} бел. руб."
+   ],
+   "money_formats": [
+    "#,##0.00 \"руб.\"",
+    "#,##0.00 \"BYN\""
+   ],
+   "name_order": "family_given_space",
+   "phone_region": "BY",
+   "usd_rate": 3.2,
+   "price_level": 0.35,
+   "vat": [
+    20
+   ],
+   "digits": {},
+   "csv_delimiter": ";",
+   "legal_forms": [
+    {
+     "code": "BY_OOO",
+     "class": "company",
+     "forms": [
+      "ООО"
+     ],
+     "position": [
+      "prefix"
+     ],
+     "weight": 0.45,
+     "attach": true
+    },
+    {
+     "code": "BY_OAO",
+     "class": "company",
+     "forms": [
+      "ОАО"
+     ],
+     "position": [
+      "prefix"
+     ],
+     "weight": 0.1,
+     "attach": true
+    },
+    {
+     "code": "BY_ZAO",
+     "class": "company",
+     "forms": [
+      "ЗАО"
+     ],
+     "position": [
+      "prefix"
+     ],
+     "weight": 0.05,
+     "attach": true
+    },
+    {
+     "code": "BY_CHUP",
+     "class": "company",
+     "forms": [
+      "ЧУП",
+      "ЧТУП"
+     ],
+     "position": [
+      "prefix"
+     ],
+     "weight": 0.15,
+     "attach": true
+    },
+    {
+     "code": "BY_IP",
+     "class": "sole_trader",
+     "forms": [
+      "ИП"
+     ],
+     "position": [
+      "prefix"
+     ],
+     "weight": 0.25,
+     "attach": true
+    }
+   ],
+   "reg_ids": [
+    {
+     "type": "BY_UNP",
+     "weight": 1.0
+    }
+   ]
+  },
+  "es-ES": {
+   "lang": "es",
+   "country": "ES",
+   "data": "es",
+   "heldout": false,
+   "weight": 0.35,
+   "currency": "EUR",
+   "cents": true,
+   "decimal": ",",
+   "thousands": [
+    "."
+   ],
+   "dates": [
+    "D/M/Y",
+    "D-M-Y",
+    "D de MON de Y"
+   ],
+   "money": [
+    "{n} €",
+    "{n}€",
+    "€ {n}",
+    "{n} EUR"
+   ],
+   "money_formats": [
+    "#,##0.00 \"€\"",
+    "#,##0.00 [$€-C0A]"
+   ],
+   "name_order": "given_family",
+   "phone_region": "ES",
+   "usd_rate": 0.92,
+   "price_level": 0.7,
+   "vat": [
+    21,
+    10,
+    4
+   ],
+   "digits": {},
+   "csv_delimiter": ";",
+   "legal_forms": [
+    {
+     "code": "ES_SL",
+     "class": "company",
+     "forms": [
+      "S.L.",
+      "SL",
+      "S.L"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.5,
+     "attach": true,
+     "long": [
+      "Sociedad Limitada"
+     ],
+     "capital": {
+      "range": [
+       3000,
+       100000
+      ]
+     }
+    },
+    {
+     "code": "ES_SLU",
+     "class": "company",
+     "forms": [
+      "S.L.U.",
+      "SLU"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.12,
+     "attach": true,
+     "capital": {
+      "range": [
+       3000,
+       60000
+      ]
+     }
+    },
+    {
+     "code": "ES_SA",
+     "class": "company",
+     "forms": [
+      "S.A.",
+      "SA"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.13,
+     "attach": true,
+     "long": [
+      "Sociedad Anónima"
+     ],
+     "capital": {
+      "range": [
+       60000,
+       2000000
+      ]
+     }
+    },
+    {
+     "code": "ES_AUTONOMO",
+     "class": "sole_trader",
+     "forms": [
+      "autónomo",
+      "empresario individual"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.25,
+     "attach": false
+    }
+   ],
+   "reg_ids": [
+    {
+     "type": "ES_NIF",
+     "weight": 1.0
+    }
+   ]
+  },
+  "es-MX": {
+   "lang": "es",
+   "country": "MX",
+   "data": "es",
+   "heldout": false,
+   "weight": 0.3,
+   "currency": "MXN",
+   "cents": true,
+   "decimal": ".",
+   "thousands": [
+    ","
+   ],
+   "dates": [
+    "D/M/Y",
+    "Y-M-D"
+   ],
+   "money": [
+    "${n}",
+    "$ {n}",
+    "{n} MXN",
+    "MX${n}"
+   ],
+   "money_formats": [
+    "\"$\"#,##0.00",
+    "[$$-80A]#,##0.00"
+   ],
+   "name_order": "given_family",
+   "phone_region": "MX",
+   "usd_rate": 17.5,
+   "price_level": 0.45,
+   "vat": [
+    16
+   ],
+   "digits": {},
+   "csv_delimiter": ";",
+   "legal_forms": [
+    {
+     "code": "MX_SACV",
+     "class": "company",
+     "forms": [
+      "S.A. de C.V.",
+      "SA de CV"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.5,
+     "attach": true
+    },
+    {
+     "code": "MX_SRLCV",
+     "class": "company",
+     "forms": [
+      "S. de R.L. de C.V."
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.15,
+     "attach": true
+    },
+    {
+     "code": "MX_SAPI",
+     "class": "company",
+     "forms": [
+      "S.A.P.I. de C.V."
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.1,
+     "attach": true
+    },
+    {
+     "code": "MX_PF",
+     "class": "sole_trader",
+     "forms": [
+      "persona física con actividad empresarial",
+      "persona física"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.25,
+     "attach": false
+    }
+   ],
+   "reg_ids": [
+    {
+     "type": "MX_RFC",
+     "weight": 1.0
+    }
+   ]
+  },
+  "es-AR": {
+   "lang": "es",
+   "country": "AR",
+   "data": "es",
+   "heldout": false,
+   "weight": 0.2,
+   "currency": "ARS",
+   "cents": true,
+   "decimal": ",",
+   "thousands": [
+    "."
+   ],
+   "dates": [
+    "D/M/Y"
+   ],
+   "money": [
+    "${n}",
+    "$ {n}",
+    "{n} ARS"
+   ],
+   "money_formats": [
+    "\"$\" #,##0.00",
+    "[$$-2C0A] #,##0.00"
+   ],
+   "name_order": "given_family",
+   "phone_region": "AR",
+   "usd_rate": 1000,
+   "price_level": 0.4,
+   "vat": [
+    21,
+    10.5
+   ],
+   "digits": {},
+   "csv_delimiter": ";",
+   "legal_forms": [
+    {
+     "code": "AR_SA",
+     "class": "company",
+     "forms": [
+      "S.A.",
+      "SA"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.3,
+     "attach": true
+    },
+    {
+     "code": "AR_SRL",
+     "class": "company",
+     "forms": [
+      "S.R.L.",
+      "SRL"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.35,
+     "attach": true
+    },
+    {
+     "code": "AR_SAS",
+     "class": "company",
+     "forms": [
+      "S.A.S."
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.1,
+     "attach": true
+    },
+    {
+     "code": "AR_MONO",
+     "class": "sole_trader",
+     "forms": [
+      "monotributista",
+      "Responsable Monotributo"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.25,
+     "attach": false
+    }
+   ],
+   "reg_ids": [
+    {
+     "type": "AR_CUIT",
+     "weight": 1.0
+    }
+   ]
+  },
+  "es-CO": {
+   "lang": "es",
+   "country": "CO",
+   "data": "es",
+   "heldout": false,
+   "weight": 0.15,
+   "currency": "COP",
+   "cents": false,
+   "decimal": ",",
+   "thousands": [
+    "."
+   ],
+   "dates": [
+    "D/M/Y",
+    "Y-M-D"
+   ],
+   "money": [
+    "${n}",
+    "$ {n}",
+    "{n} COP"
+   ],
+   "money_formats": [
+    "\"$\" #,##0",
+    "[$$-240A] #,##0"
+   ],
+   "name_order": "given_family",
+   "phone_region": "CO",
+   "usd_rate": 4000,
+   "price_level": 0.35,
+   "vat": [
+    19
+   ],
+   "digits": {},
+   "csv_delimiter": ";",
+   "legal_forms": [
+    {
+     "code": "CO_SAS",
+     "class": "company",
+     "forms": [
+      "S.A.S.",
+      "SAS"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.55,
+     "attach": true
+    },
+    {
+     "code": "CO_LTDA",
+     "class": "company",
+     "forms": [
+      "Ltda.",
+      "LTDA"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.1,
+     "attach": true
+    },
+    {
+     "code": "CO_SA",
+     "class": "company",
+     "forms": [
+      "S.A."
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.1,
+     "attach": true
+    },
+    {
+     "code": "CO_PN",
+     "class": "sole_trader",
+     "forms": [
+      "persona natural"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.25,
+     "attach": false
+    }
+   ],
+   "reg_ids": [
+    {
+     "type": "CO_NIT",
+     "weight": 1.0
+    }
+   ]
+  },
+  "es-CL": {
+   "lang": "es",
+   "country": "CL",
+   "data": "es",
+   "heldout": true,
+   "weight": 0,
+   "currency": "CLP",
+   "cents": false,
+   "decimal": ",",
+   "thousands": [
+    "."
+   ],
+   "dates": [
+    "D-M-Y",
+    "D/M/Y"
+   ],
+   "money": [
+    "${n}",
+    "$ {n}",
+    "{n} CLP"
+   ],
+   "money_formats": [
+    "\"$\" #,##0",
+    "[$$-340A] #,##0"
+   ],
+   "name_order": "given_family",
+   "phone_region": "CL",
+   "usd_rate": 930,
+   "price_level": 0.55,
+   "vat": [
+    19
+   ],
+   "digits": {},
+   "csv_delimiter": ";",
+   "legal_forms": [
+    {
+     "code": "CL_SPA",
+     "class": "company",
+     "forms": [
+      "SpA"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.35,
+     "attach": true
+    },
+    {
+     "code": "CL_LTDA",
+     "class": "company",
+     "forms": [
+      "Ltda."
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.2,
+     "attach": true
+    },
+    {
+     "code": "CL_SA",
+     "class": "company",
+     "forms": [
+      "S.A."
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.1,
+     "attach": true
+    },
+    {
+     "code": "CL_EIRL",
+     "class": "company",
+     "forms": [
+      "E.I.R.L."
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.1,
+     "attach": true
+    },
+    {
+     "code": "CL_PN",
+     "class": "sole_trader",
+     "forms": [
+      "persona natural con giro"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.25,
+     "attach": false
+    }
+   ],
+   "reg_ids": [
+    {
+     "type": "CL_RUT",
+     "weight": 1.0
+    }
+   ]
+  },
+  "it-IT": {
+   "lang": "it",
+   "country": "IT",
+   "data": "it",
+   "heldout": false,
+   "weight": 1.0,
+   "currency": "EUR",
+   "cents": true,
+   "decimal": ",",
+   "thousands": [
+    "."
+   ],
+   "dates": [
+    "D/M/Y",
+    "D-M-Y",
+    "D MON Y"
+   ],
+   "money": [
+    "€ {n}",
+    "{n} €",
+    "{n} EUR",
+    "EUR {n}"
+   ],
+   "money_formats": [
+    "\"€\" #,##0.00",
+    "[$€-410] #,##0.00"
+   ],
+   "name_order": "given_family",
+   "phone_region": "IT",
+   "usd_rate": 0.92,
+   "price_level": 0.75,
+   "vat": [
+    22,
+    10,
+    4
+   ],
+   "digits": {},
+   "csv_delimiter": ";",
+   "legal_forms": [
+    {
+     "code": "IT_SRL",
+     "class": "company",
+     "forms": [
+      "S.r.l.",
+      "Srl",
+      "SRL",
+      "s.r.l."
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.45,
+     "attach": true,
+     "capital": {
+      "range": [
+       10000,
+       100000
+      ]
+     }
+    },
+    {
+     "code": "IT_SRLS",
+     "class": "company",
+     "forms": [
+      "S.r.l.s.",
+      "Srls"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.1,
+     "attach": true,
+     "capital": {
+      "range": [
+       1,
+       10000
+      ]
+     }
+    },
+    {
+     "code": "IT_SPA",
+     "class": "company",
+     "forms": [
+      "S.p.A.",
+      "SpA"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.1,
+     "attach": true,
+     "capital": {
+      "range": [
+       50000,
+       5000000
+      ]
+     }
+    },
+    {
+     "code": "IT_SNC",
+     "class": "partnership",
+     "forms": [
+      "S.n.c.",
+      "snc",
+      "S.N.C."
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.05,
+     "attach": true
+    },
+    {
+     "code": "IT_SAS",
+     "class": "partnership",
+     "forms": [
+      "S.a.s.",
+      "sas"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.05,
+     "attach": true
+    },
+    {
+     "code": "IT_DI",
+     "class": "sole_trader",
+     "forms": [
+      "ditta individuale",
+      "impresa individuale"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.25,
+     "attach": false
+    }
+   ],
+   "reg_ids": [
+    {
+     "type": "IT_PIVA",
+     "weight": 1.0
+    },
+    {
+     "type": "IT_CF",
+     "weight": 0.5
+    },
+    {
+     "type": "IT_REA",
+     "weight": 0.4
+    }
+   ]
+  },
+  "it-CH": {
+   "lang": "it",
+   "country": "CH",
+   "data": "it",
+   "heldout": true,
+   "weight": 0,
+   "currency": "CHF",
+   "cents": true,
+   "decimal": ".",
+   "thousands": [
+    "'",
+    "’"
+   ],
+   "dates": [
+    "D.M.Y"
+   ],
+   "money": [
+    "CHF {n}",
+    "{n} CHF",
+    "Fr. {n}"
+   ],
+   "money_formats": [
+    "\"CHF\" #,##0.00",
+    "[$CHF-810] #,##0.00"
+   ],
+   "name_order": "given_family",
+   "phone_region": "CH",
+   "usd_rate": 0.88,
+   "price_level": 1.2,
+   "vat": [
+    8.1
+   ],
+   "digits": {},
+   "csv_delimiter": ";",
+   "legal_forms": [
+    {
+     "code": "CH_SAGL",
+     "class": "company",
+     "forms": [
+      "Sagl"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.45,
+     "attach": true
+    },
+    {
+     "code": "CH_SA_IT",
+     "class": "company",
+     "forms": [
+      "SA"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.3,
+     "attach": true
+    },
+    {
+     "code": "CH_DI",
+     "class": "sole_trader",
+     "forms": [
+      "ditta individuale"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.25,
+     "attach": false
+    }
+   ],
+   "reg_ids": [
+    {
+     "type": "CH_UID",
+     "weight": 1.0
+    }
+   ]
+  },
+  "hi-IN": {
+   "lang": "hi",
+   "country": "IN",
+   "data": "hi",
+   "heldout": false,
+   "weight": 1.0,
+   "currency": "INR",
+   "cents": true,
+   "decimal": ".",
+   "thousands": [
+    ","
+   ],
+   "dates": [
+    "D/M/Y",
+    "D-M-Y",
+    "D MON Y"
+   ],
+   "money": [
+    "₹{n}",
+    "₹ {n}",
+    "रु. {n}",
+    "{n} रुपये",
+    "Rs. {n}"
+   ],
+   "money_formats": [
+    "\"₹\"#,##,##0.00",
+    "[$₹-4009]#,##0.00"
+   ],
+   "name_order": "given_family",
+   "phone_region": "IN",
+   "usd_rate": 83,
+   "price_level": 0.25,
+   "vat": [
+    18,
+    12,
+    5
+   ],
+   "digits": {},
+   "csv_delimiter": ",",
+   "legal_forms": [
+    {
+     "code": "IN_PVT",
+     "class": "company",
+     "forms": [
+      "प्राइवेट लिमिटेड",
+      "प्रा. लि.",
+      "Pvt. Ltd.",
+      "Private Limited"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.6,
+     "attach": true
+    },
+    {
+     "code": "IN_LTD",
+     "class": "company",
+     "forms": [
+      "लिमिटेड",
+      "Ltd."
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.15,
+     "attach": true
+    },
+    {
+     "code": "IN_LLP",
+     "class": "partnership",
+     "forms": [
+      "एलएलपी",
+      "LLP"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.05,
+     "attach": true
+    },
+    {
+     "code": "IN_PROP",
+     "class": "sole_trader",
+     "forms": [
+      "प्रोप्राइटरशिप",
+      "एकल स्वामित्व"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.2,
+     "attach": false
+    }
+   ],
+   "reg_ids": [
+    {
+     "type": "IN_GSTIN",
+     "weight": 1.0
+    },
+    {
+     "type": "IN_PAN",
+     "weight": 0.6
+    },
+    {
+     "type": "IN_CIN",
+     "weight": 0.5
+    },
+    {
+     "type": "IN_UDYAM",
+     "weight": 0.3
+    }
+   ]
+  },
+  "ja-JP": {
+   "lang": "ja",
+   "country": "JP",
+   "data": "ja",
+   "heldout": false,
+   "weight": 1.0,
+   "currency": "JPY",
+   "cents": false,
+   "decimal": ".",
+   "thousands": [
+    ","
+   ],
+   "dates": [
+    "Y/M/D",
+    "Y年M月D日",
+    "ERA"
+   ],
+   "money": [
+    "¥{n}",
+    "￥{n}",
+    "{n}円"
+   ],
+   "money_formats": [
+    "\"¥\"#,##0",
+    "[$¥-411]#,##0",
+    "#,##0\"円\""
+   ],
+   "name_order": "family_given_space",
+   "phone_region": "JP",
+   "usd_rate": 150,
+   "price_level": 0.7,
+   "vat": [
+    10,
+    8
+   ],
+   "digits": {
+    "full": 0.25
+   },
+   "csv_delimiter": ",",
+   "legal_forms": [
+    {
+     "code": "JP_KK",
+     "class": "company",
+     "forms": [
+      "株式会社",
+      "(株)",
+      "㈱"
+     ],
+     "position": [
+      "prefix",
+      "suffix"
+     ],
+     "weight": 0.6,
+     "attach": true,
+     "capital": {
+      "range": [
+       1000000,
+       100000000
+      ]
+     }
+    },
+    {
+     "code": "JP_GK",
+     "class": "company",
+     "forms": [
+      "合同会社"
+     ],
+     "position": [
+      "prefix",
+      "suffix"
+     ],
+     "weight": 0.1,
+     "attach": true,
+     "capital": {
+      "range": [
+       100000,
+       10000000
+      ]
+     }
+    },
+    {
+     "code": "JP_YK",
+     "class": "company",
+     "forms": [
+      "有限会社",
+      "(有)"
+     ],
+     "position": [
+      "prefix",
+      "suffix"
+     ],
+     "weight": 0.05,
+     "attach": true,
+     "capital": {
+      "range": [
+       3000000,
+       10000000
+      ]
+     }
+    },
+    {
+     "code": "JP_GMK",
+     "class": "partnership",
+     "forms": [
+      "合名会社"
+     ],
+     "position": [
+      "prefix"
+     ],
+     "weight": 0.02,
+     "attach": true
+    },
+    {
+     "code": "JP_GSK",
+     "class": "partnership",
+     "forms": [
+      "合資会社"
+     ],
+     "position": [
+      "prefix"
+     ],
+     "weight": 0.03,
+     "attach": true
+    },
+    {
+     "code": "JP_KOJIN",
+     "class": "sole_trader",
+     "forms": [
+      "個人事業主",
+      "個人事業"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.2,
+     "attach": false
+    }
+   ],
+   "reg_ids": [
+    {
+     "type": "JP_CORP",
+     "weight": 1.0
+    },
+    {
+     "type": "JP_TNUM",
+     "weight": 1.0
+    }
+   ]
+  },
+  "ko-KR": {
+   "lang": "ko",
+   "country": "KR",
+   "data": "ko",
+   "heldout": false,
+   "weight": 1.0,
+   "currency": "KRW",
+   "cents": false,
+   "decimal": ".",
+   "thousands": [
+    ","
+   ],
+   "dates": [
+    "Y.M.D.",
+    "Y-M-D",
+    "Y년 M월 D일"
+   ],
+   "money": [
+    "₩{n}",
+    "{n}원",
+    "₩ {n}"
+   ],
+   "money_formats": [
+    "\"₩\"#,##0",
+    "[$₩-412]#,##0",
+    "#,##0\"원\""
+   ],
+   "name_order": "family_given",
+   "phone_region": "KR",
+   "usd_rate": 1350,
+   "price_level": 0.65,
+   "vat": [
+    10
+   ],
+   "digits": {},
+   "csv_delimiter": ",",
+   "legal_forms": [
+    {
+     "code": "KR_JSH",
+     "class": "company",
+     "forms": [
+      "주식회사",
+      "(주)",
+      "㈜"
+     ],
+     "position": [
+      "prefix",
+      "suffix"
+     ],
+     "weight": 0.65,
+     "attach": true,
+     "capital": {
+      "range": [
+       10000000,
+       1000000000
+      ]
+     }
+    },
+    {
+     "code": "KR_YH",
+     "class": "company",
+     "forms": [
+      "유한회사"
+     ],
+     "position": [
+      "prefix",
+      "suffix"
+     ],
+     "weight": 0.08,
+     "attach": true
+    },
+    {
+     "code": "KR_HMH",
+     "class": "partnership",
+     "forms": [
+      "합명회사"
+     ],
+     "position": [
+      "prefix"
+     ],
+     "weight": 0.02,
+     "attach": true
+    },
+    {
+     "code": "KR_HJH",
+     "class": "partnership",
+     "forms": [
+      "합자회사"
+     ],
+     "position": [
+      "prefix"
+     ],
+     "weight": 0.03,
+     "attach": true
+    },
+    {
+     "code": "KR_GAEIN",
+     "class": "sole_trader",
+     "forms": [
+      "개인사업자"
+     ],
+     "position": [
+      "suffix"
+     ],
+     "weight": 0.22,
+     "attach": false
+    }
+   ],
+   "reg_ids": [
+    {
+     "type": "KR_BRN",
+     "weight": 1.0
+    },
+    {
+     "type": "KR_CRN",
+     "weight": 0.5
+    }
+   ]
+  }
+ }
+}

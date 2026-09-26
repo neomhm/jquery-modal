@@ -1,0 +1,16 @@
+# Tulip - the Python packages it needs. Nothing here is installed by
+# build.py or check.py:
+#   * torch, tokenizers and numpy are the machine's own (torch in
+#     particular: MEGA9 has a ROCm build, the desktop a CUDA build);
+#   * openpyxl (+ et_xmlfile), phonenumbers and hijridate ship as wheels
+#     in vendor/ and are imported from there (config.use_vendor), so the
+#     MEGA9 /train run needs no network.
+torch>=2.4
+tokenizers>=0.20
+numpy
+# in vendor/ (pinned):
+openpyxl==3.1.5
+et_xmlfile==2.0.0
+phonenumbers==9.0.40
+# optional: Hijri dates in Arabic sheets (in vendor/)
+hijridate==2.6.0
