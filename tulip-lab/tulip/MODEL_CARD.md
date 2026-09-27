@@ -52,7 +52,10 @@ sheets that went through the .xls, .ods and PDF readers.
 **Limits.** Trained on synthetic sheets only. At most 26 non-empty
 columns per table. A PDF is read from the positions of its text: a
 scanned PDF (no text) is not read (no OCR), and right-to-left text is
-assumed to be stored in visual order, as PDF writers store it.
+assumed to be stored in visual order, as PDF writers store it. A sheet
+of several tables is cut right for 33 of the first 40 generated test
+sheets (a table whose header row is quantities, such as "50 ud.", is not
+found; DECISIONS.md G6).
 Formulas saved without a cached value arrive empty. A product whose name
 begins with a totals word, on a row with only numbers besides it, is taken
 for a totals row. Sheets whose preview does not fit in 4,096 tokens go to

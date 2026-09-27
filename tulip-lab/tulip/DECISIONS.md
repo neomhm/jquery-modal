@@ -541,6 +541,22 @@ way to undo it.
    so it is never used for another file) and never changes the model file.
    **Without a calibration, no column is ever "sure".** *Undo: delete the
    `.confidence.json` file.*
+6. **Measured on the pilot model** (`tulip-pilot.pt`, Tulip 1's pilot:
+   the Tulip 1 model file is not in this environment), on dev_heldout
+   tasks 200,200-201,999 (1,800 held-out tasks of generator 1.2.0; the
+   first 200 chose the score's form and are left out). The pilot imported
+   459 of them: 1,612 mapped columns, 72% right. Fitted on the even
+   tasks (776 columns), measured on the odd ones (836): **no threshold
+   reaches "sure"** - 99% by the 95% lower bound needs about 270 columns
+   in a row right, and the pilot's 300 best-scored columns were 96.7%
+   right (its 50 best, all right) - so the pilot never says "sure", as
+   intended for a model that is not right often enough. Without fitted
+   thresholds the bands fall back to check (score >= 0.5) and unsure: on
+   the odd tasks check was right for 321 of 355 columns (90.4%), unsure
+   for 284 of 481 (59.0%). The score does sort the columns: 43% right in
+   its lowest tenth, 98% in its highest. Time: 2,000 tasks in 6,674 s
+   with 4 processes on a 4-core CPU, other jobs running alongside; 100
+   tasks took 197-416 s depending on them. *Undo: n/a (a measurement).*
 
 ### B. Compare sheets against each other (`compare.py`, `keys.py`)
 

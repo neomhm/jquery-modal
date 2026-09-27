@@ -24,9 +24,10 @@ model file made before - Tulip 1 - has none, and then no column is ever
 
 Time: every task writes 8 programs (the greedy one and 7 sampled ones)
 and scores one. Measured for the pilot model (d_model 256, 6 layers) on
-a 4-core CPU with 4 processes: 100 tasks in 214 s, so about 70 minutes
-for the default 2,000. The Tulip 1 model is larger (d_model 512, 8
-layers) and was not timed. On a GPU it uses 2 processes.
+a 4-core CPU with 4 processes: 197-416 s per 100 tasks (depending on
+other jobs running alongside); the default 2,000 took 6,674 s. The Tulip
+1 model is larger (d_model 512, 8 layers) and was not timed. On a GPU it
+uses 2 processes.
 """
 import argparse
 import datetime

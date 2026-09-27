@@ -43,8 +43,14 @@ stops, run the same command again: finished stages are skipped and training
 resumes from its last checkpoint.
 
 On MEGA9: upload `tulip-package.zip` to the /train card as the program,
-no training data, the words `full`, and choose MEGA9. The run has no
-network: nothing is installed, the small packages come from `vendor/`.
+the words `full`, and choose MEGA9; start from zero (Tulip always trains
+from zero). As training data, upload a zip holding Tulip 1's own
+`runs/full/eval.json` (renamed `tulip1_eval.json`), so that `REPORT.md`
+compares Tulip 1.1 with Tulip 1 on the same held-out sets, and any
+`lessons.jsonl` exported by `corrections.py`; both are optional. If the
+report says Tulip 1's eval.json was not found, run `py report.py full`
+afterwards with `TULIP1_EVAL` naming it. The run has no network:
+nothing is installed, the small packages come from `vendor/`.
 It shows each stage ("Stage 5/8: train") and the training percentage, and
 sends back `tulip-1.1.0.pt`, `REPORT.md`, `runs/full/eval_tables.md`, the
 `runs/full/*.json` records and `runs/full/build.log`. The model file is
@@ -167,8 +173,9 @@ the first one fails (`--no-confidence` turns them off).
 The thresholds are calibrated for each model file. A model built with
 Tulip 1.1 carries its own. For the Tulip 1 model file, run once (it
 imports 2,000 held-out generated sheets, so it takes a while: the much
-smaller pilot model took 214 s per 100 sheets on a 4-core CPU, about 70
-minutes for 2,000; the Tulip 1 model is larger and was not timed):
+smaller pilot model took 197-416 s per 100 sheets on a 4-core CPU, and
+111 minutes for the 2,000 with other jobs running; the Tulip 1 model is
+larger and was not timed):
 
 ```powershell
 py calibrate.py tulip-1.0.0.pt
