@@ -533,6 +533,15 @@ def compare_section(preset, ev):
             diff = "" if a is None or b is None else "%+.4f" % (a - b)
             rows.append([split, label, num(a) if a is not None else "-",
                          num(b) if b is not None else "-", diff])
+    # Tulip 1's handwritten set is unchanged (Tulip 1.1's own set is
+    # handwritten_1_1, new cases only)
+    new_h, old_h = ev.get("handwritten") or {}, old.get("handwritten") or {}
+    if new_h.get("sheets") or old_h.get("sheets"):
+        a, b = new_h.get("loop"), old_h.get("loop")
+        rows.append(["handwritten (%d sheets)" % (
+            new_h.get("sheets") or old_h.get("sheets")), "loop",
+            "-" if a is None else num(a), "-" if b is None else num(b),
+            "" if a is None or b is None else "%+.4f" % (a - b)])
     lines += ["Tulip 1's numbers from `%s`. Duplicates of each run's own "
               "training previews were dropped from its splits." % path.name,
               "", md_table(["split", "measure", "Tulip 1.1", "Tulip 1",

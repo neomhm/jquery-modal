@@ -381,6 +381,16 @@ GUARDS = [
      "    if not pairs.get(CONFIDENCE_FIT):\n",
      ["test_confidence.test_a_model_that_imports_nothing_says_why_it_has_no_"
       "bands"]),
+    ("G20", "REPORT.md never takes a Tulip 1.1 eval.json for Tulip 1's",
+     "report.py",
+     "                \"confidence\" not in ev:\n",
+     "                True:\n",
+     ["test_same_heldout_sets.test_the_report_compares_with_tulip_1"]),
+    ("G21", "the comparison shows Tulip 1's unchanged handwritten set",
+     "report.py",
+     "    if new_h.get(\"sheets\") or old_h.get(\"sheets\"):\n",
+     "    if False:\n",
+     ["test_same_heldout_sets.test_the_report_compares_with_tulip_1"]),
 ]
 
 
