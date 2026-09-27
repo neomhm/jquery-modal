@@ -696,10 +696,15 @@ way to undo it.
    test_heldout, traps) and 0 of the 32 handwritten sheets are cut. Each
    table is read from its own R1 and named "<sheet> #2"; its rows and
    cells are moved back to the sheet's own numbers and letters. It works
-   with the Tulip 1 model. On 40 generated sheets of two or three tables
-   the cut is right for 34 (85%); the others count as wrong in
-   test_layouts. *Undo: remove the `blocks.split()` loops in
-   `tulip.import_file` and `import_sheets.import_path`.*
+   with the Tulip 1 model. Measured on the 40 multi-table sheets among
+   the first 80 tasks of test_layouts: the cut is right for 33 (82.5%);
+   on 80 more drawn the same way under a scratch split name, for 66
+   (82.5%): two tables one under the other 39 of 43, three 23 of 29,
+   side by side 4 of 8. The two causes seen: a table whose header row is
+   quantities ("50 ud.", "4個") is not taken for a header, and a sheet is
+   cut only when two of its tables have a header row. A wrong cut counts
+   as a wrong sheet in test_layouts. *Undo: remove the `blocks.split()`
+   loops in `tulip.import_file` and `import_sheets.import_path`.*
 7. **Several days in one cell**: a new cell reader `weekdays()` (all ten
    languages: ranges "Lun–Ven", "月～金", "с пн по пт", "من الاثنين إلى
    الجمعة", ranges that wrap round the week "Sat–Mon", lists "Sat & Sun",
@@ -718,17 +723,29 @@ way to undo it.
    new splits change:
    * `test_files` (full: 2,000): tasks drawn as for test_seen, each
      written as a real file and read back: an .xlsx task as .xls or .ods
-     (alternately), a .csv task as a PDF (numbers written flush right).
-     A task whose file does not give it back (its program no longer
-     passes the self-check) is dropped and counted.
+     (by a hash of the task, `tasks.file_kind`), a .csv task as a PDF
+     (numbers written flush right). A task whose file does not give it
+     back (its program no longer passes the self-check) is dropped and
+     counted.
    * `test_layouts` (full: 1,000): even tasks have several days in one
      cell (the new family `opening_hours.day_ranges`), odd ones are
      sheets of two or three tables of different targets (one locale, one
      format), stacked with 1-3 empty rows or side by side, each table
      with a header row; a sheet counts as right only if every table is
      imported right, and a wrong cut is a wrong sheet, not a dropped one.
-   * train: 8% of the .xlsx tasks become .xls or .ods and 20% of the .csv
-     tasks PDFs (a task whose file does not give it back stays as it
+     Each half goes round the ten languages (`tasks.layout_locale`).
+   * **A language fix found by the rehearsal** (2026-09-27): a task's
+     language is its index modulo 10, so the first draw of these splits
+     gave each half of test_layouts five languages (the multi-table
+     sheets nearly all Arabic) and alternating .xls / .ods gave .xls to
+     five languages and .ods to the other five (in train too). Fixed as
+     above; the data self-check 3 now fails a split, a test_layouts half
+     or a test_files file kind that misses a language (when it holds at
+     least two tasks per language), and two tests pin both rules.
+     Measured after the fix: the first 80 tasks of test_layouts are all
+     made, 4 of each language in each half.
+   * train: 8% of the .xlsx tasks become .xls or .ods (by the same hash)
+     and 20% of the .csv tasks PDFs (a task whose file does not give it back stays as it
      was), and `opening_hours.day_ranges` (weight 1.5: about a fifth of
      the opening-hours tasks) teaches `weekdays()`.
    The data self-checks count typed formats (.xlsx, .xls, .ods) against

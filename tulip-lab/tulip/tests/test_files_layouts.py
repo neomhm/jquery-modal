@@ -287,6 +287,55 @@ def test_a_day_range_row_becomes_one_row_per_day():
     assert ts.canonical(HOURS_PROGRAM) == HOURS_PROGRAM
 
 
+def test_the_new_splits_go_round_every_language():
+    """A task's language is index % 10. Each half of test_layouts (even
+    indexes: several days in one cell; odd: several tables) must still
+    have all ten, and the .xls / .ods choice must not follow the index
+    (it gave .xls to five languages and .ods to the other five)."""
+    for half in (0, 1):
+        langs = set(T.D.locale(T.layout_locale("test_layouts", 2 * i + half))
+                    ["lang"] for i in range(20))
+        assert langs == set(config.LANGS), (half, sorted(langs))
+    for split in ("test_files", "train"):
+        seen = set((i % 10, T.file_kind(split, i, "xlsx"))
+                   for i in range(400))
+        assert seen == set((slot, kind) for slot in range(10)
+                           for kind in ("xls", "ods")), split
+    assert T.file_kind("train", 7, "csv") == "pdf"
+    # the drawn sheets (and every table of a multi-table sheet) are in
+    # that language
+    for i in (4, 5, 6, 7):
+        task, _ = T.make_task("test_layouts", i)
+        assert task is not None, i
+        assert task["locale"] == T.layout_locale("test_layouts", i), i
+
+
+def test_the_data_checks_find_a_missing_language():
+    from gen import checks
+
+    def fake(lang, fmt="xlsx", **more):
+        return dict({"lang": lang, "format": fmt}, **more)
+    every = [fake(l) for l in config.LANGS for _ in range(3)]
+    splits = dict((s, list(every)) for s in config.SPLITS)
+    splits["test_layouts"] = every + [fake(l, multi=True) for l in
+                                      config.LANGS for _ in range(3)]
+    assert checks.language_gaps(splits) == []
+    # the day-range half of test_layouts in five languages only
+    splits["test_layouts"] = [fake(l) for l in config.LANGS[::2]
+                              for _ in range(6)] + \
+        [fake(l, multi=True) for l in config.LANGS for _ in range(3)]
+    assert checks.language_gaps(splits) == [
+        "test_layouts, several days: no zh, fr, es, hi, ko"]
+    # .xls in five languages only
+    splits["test_layouts"] = every + [fake(l, multi=True) for l in
+                                      config.LANGS for _ in range(3)]
+    splits["test_files"] = [fake(l, "xls") for l in config.LANGS[::2]
+                            for _ in range(6)] + \
+        [fake(l, "ods") for l in config.LANGS for _ in range(3)]
+    assert checks.language_gaps(splits) == [
+        "test_files .xls: no zh, fr, es, hi, ko"]
+
+
 def test_weekdays_only_fills_a_day():
     try:
         ts.parse("target('products')\nheader(1)\n"

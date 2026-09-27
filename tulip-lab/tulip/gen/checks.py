@@ -71,6 +71,37 @@ def values_line(preview):
                      if line.startswith("VALUES "))
 
 
+def language_gaps(splits):
+    """Every language in every evaluation split, in each half of
+    test_layouts and in each file kind of test_files -> ["<part>: no
+    <languages>"]. A task's language is index % 10: a split that takes
+    every other index, or a file kind chosen by index % 2, leaves half of
+    them out. test_locale has its own locales; a part too small to hold
+    every language twice is not checked."""
+    gaps = []
+    for split in config.SPLITS:
+        if split in ("train", "test_locale") or split not in splits:
+            continue
+        parts = [(split, splits[split])]
+        if split == "test_layouts":
+            parts = [("test_layouts, several tables",
+                      [t for t in splits[split] if t.get("multi")]),
+                     ("test_layouts, several days",
+                      [t for t in splits[split] if not t.get("multi")])]
+        if split == "test_files":
+            parts += [("test_files .%s" % kind,
+                       [t for t in splits[split] if t["format"] == kind])
+                      for kind in ("xls", "ods", "pdf")]
+        for name, tasks in parts:
+            if len(tasks) < 2 * len(config.LANGS):
+                continue
+            absent = [l for l in config.LANGS
+                      if not any(t["lang"] == l for t in tasks)]
+            if absent:
+                gaps.append("%s: no %s" % (name, ", ".join(absent)))
+    return gaps
+
+
 def run(preset, token_counts=None):
     """-> report dict. token_counts: {task id: tokens} once the
     tokenizer exists (check 7)."""
@@ -193,6 +224,10 @@ def run(preset, token_counts=None):
     ok3 = ok3 and lang_ok
     lines.append("languages: " + ", ".join("%s %.1f%%" % (l, 100 * v)
                                            for l, v in langs.items()))
+    gaps = language_gaps(splits)
+    ok3 = ok3 and not gaps
+    lines.append("languages missing: " + "; ".join(gaps) if gaps else
+                 "every language in every evaluation split")
     check("3 traps, families, languages", ok3, "\n".join(lines))
     # 4. round trips
     n_rt = sum(v["round_trips"] for v in stats["splits"].values())

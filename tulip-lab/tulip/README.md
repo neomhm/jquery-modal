@@ -166,8 +166,9 @@ the first one fails (`--no-confidence` turns them off).
 
 The thresholds are calibrated for each model file. A model built with
 Tulip 1.1 carries its own. For the Tulip 1 model file, run once (it
-imports 2,000 held-out generated sheets, so it takes a while: about an
-hour on a GPU, several on a CPU):
+imports 2,000 held-out generated sheets, so it takes a while: the much
+smaller pilot model took 214 s per 100 sheets on a 4-core CPU, about 70
+minutes for 2,000; the Tulip 1 model is larger and was not timed):
 
 ```powershell
 py calibrate.py tulip-1.0.0.pt

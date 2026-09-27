@@ -335,3 +335,16 @@ def test_the_build_calibrates_and_the_model_file_carries_it():
     assert Tulip.from_model(net, tiny_tokenizer(), {}).bands is None
     lines = E.confidence_lines(conf)
     assert any(x.startswith("| sure |") for x in lines)
+
+
+def test_a_model_that_imports_nothing_says_why_it_has_no_bands():
+    """A split that was scored but gave no column (a model that imported
+    none of its tables: the tiny rehearsal) is not "not scored"."""
+    import evaluate as E
+    none = E.confidence_result({}, False)
+    assert none["bands"] is None and none["why"] == "dev_heldout was not scored"
+    empty = E.confidence_result({"dev_heldout": [], "test_heldout": []}, False)
+    assert empty["bands"] is None
+    assert empty["why"] == "no column of dev_heldout was imported"
+    assert "no column of dev_heldout was imported" in \
+        " ".join(E.confidence_lines(empty))

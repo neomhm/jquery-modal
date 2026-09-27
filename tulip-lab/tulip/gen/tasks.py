@@ -291,10 +291,7 @@ def _as_file(task, split, index, reasons):
     from gen import filetypes as F
     x = int(hashlib.sha1(("file-%s-%d" % (split, index)).encode())
             .hexdigest()[:8], 16) / float(0xFFFFFFFF)
-    if task["format"] == "xlsx":
-        kind = "xls" if index % 2 == 0 else "ods"
-    else:
-        kind = "pdf"
+    kind = file_kind(split, index, task["format"])
     if split == "train" and x >= F.TRAIN_SHARE[kind]:
         return task, reasons
     if not F.convertible(task, kind):
@@ -309,13 +306,38 @@ def _as_file(task, split, index, reasons):
     return out, reasons
 
 
+def file_kind(split, index, fmt):
+    """The file a task is written as: a .csv task a PDF, an .xlsx task
+    an .xls or an .ods file - chosen by a hash of the task, never by
+    index % 2: a task's language is index % 10 (choose_locale), so
+    alternating gave .xls to five languages and .ods to the other five."""
+    if fmt != "xlsx":
+        return "pdf"
+    h = int(hashlib.sha1(("kind-%s-%d" % (split, index)).encode())
+            .hexdigest()[:8], 16)
+    return "xls" if h % 2 == 0 else "ods"
+
+
+def layout_locale(split, index, folders=None):
+    """test_layouts: the locale of task `index`. The split's two halves
+    (even indexes: several days in one cell; odd: several tables) each go
+    round the ten languages. A task's language is otherwise index % 10,
+    which gave each half only five languages, and the first table of a
+    multi-table sheet (drawn at 100 * index + j) nearly always Arabic."""
+    rng = random.Random(seed_of(split, index) + 104729)
+    return choose_locale(rng, split, index // 2,
+                         folders or D.folders_ready())
+
+
 def _layout_task(split, index, folders, tries, hold):
     """test_layouts: even indexes a sheet with several days in one cell,
-    odd ones a sheet of two or three tables (gen/multitable.py)."""
+    odd ones a sheet of two or three tables (gen/multitable.py); both in
+    the language of layout_locale()."""
     if index % 2:
         from gen import multitable
         return multitable.make(split, index)
     return _make_task(split, index, folders, tries, hold,
+                      locale=layout_locale(split, index, folders),
                       kind="opening_hours", only_new=True)
 
 

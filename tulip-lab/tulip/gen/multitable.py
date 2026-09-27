@@ -79,8 +79,12 @@ def make(split, index):
         return task is not None and task["answer"] in config.TARGETS and \
             "\nheader(0)" not in task["program"]
     first = None
+    # the sheet's language goes round the ten (tasks.layout_locale), and
+    # every table of the sheet is drawn in it
+    code = T.layout_locale(split, index)
     for j in range(4):
-        task, why = T.make_task(split + "-part", 100 * index + j)
+        task, why = T.make_task(split + "-part", 100 * index + j,
+                                locale=code)
         reasons += why
         if fair(task):
             first = task

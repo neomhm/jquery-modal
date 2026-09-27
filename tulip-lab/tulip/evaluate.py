@@ -472,9 +472,13 @@ def confidence_result(pairs, dev_only):
     (eval.json "confidence"; build.py puts the bands into the model
     file)."""
     import confidence as C
-    fit = pairs.get(CONFIDENCE_FIT) or []
-    if not fit:
+    if CONFIDENCE_FIT not in pairs:
         return {"bands": None, "why": "%s was not scored" % CONFIDENCE_FIT}
+    fit = pairs[CONFIDENCE_FIT]
+    if not fit:
+        # scored, but the model imported none of its tables
+        return {"bands": None,
+                "why": "no column of %s was imported" % CONFIDENCE_FIT}
     out = {"score_version": C.SCORE_VERSION,
            "sure_target": C.SURE_PRECISION}
     measure = pairs.get(CONFIDENCE_MEASURE)
