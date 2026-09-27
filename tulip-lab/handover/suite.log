@@ -1,0 +1,169 @@
+imported               grossiste.csv | grossiste - rows: 1 added
+imported               carte-ete.csv | carte-ete - rows: 4 added
+imported               carte-hiver.csv | carte-hiver - rows: 3 added
+imported               menu-brunch.csv | menu-brunch - rows: 2 added
+imported               tarifs.csv | tarifs - rows: 3 added
+imported               menu-brunch.csv | menu-brunch - rows: 1 changed
+  ok    test_compare.test_a_question_is_asked_once_and_follows_the_data  (0.1s)
+  ok    test_compare.test_dates_and_origins_in_every_language  (0.0s)
+imported               grossiste.csv | grossiste - rows: 1 added
+imported               carte-ete.csv | carte-ete - rows: 4 added
+imported               carte-hiver.csv | carte-hiver - rows: 3 added
+imported               menu-brunch.csv | menu-brunch - rows: 2 added
+imported               tarifs.csv | tarifs - rows: 3 added
+imported               grossiste.csv | grossiste - rows: 1 added, 1 removed
+  ok    test_compare.test_removed_rows_are_not_compared  (0.0s)
+imported               grossiste.csv | grossiste - rows: 1 added
+imported               carte-ete.csv | carte-ete - rows: 4 added
+imported               carte-hiver.csv | carte-hiver - rows: 3 added
+imported               menu-brunch.csv | menu-brunch - rows: 2 added
+imported               tarifs.csv | tarifs - rows: 3 added
+  ok    test_compare.test_the_messy_example  (0.0s)
+  ok    test_compare.test_the_preferred_source_rule  (0.0s)
+  ok    test_confidence.test_a_calibration_file_is_used_for_its_own_model_only  (0.0s)
+  ok    test_confidence.test_a_column_is_right_when_its_values_are_the_truths  (0.0s)
+  ok    test_confidence.test_a_model_that_imports_nothing_says_why_it_has_no_bands  (0.0s)
+  ok    test_confidence.test_a_sampled_winner_uses_the_loops_own_candidates  (0.0s)
+  ok    test_confidence.test_agreement_counts_same_target_and_same_expression  (0.0s)
+  ok    test_confidence.test_calibrate_py_fits_on_even_and_measures_on_odd  (0.1s)
+  ok    test_confidence.test_calibration_holds_on_new_columns  (0.1s)
+  ok    test_confidence.test_each_token_belongs_to_its_statement  (0.0s)
+  ok    test_confidence.test_import_gives_each_mapped_column_a_band  (0.0s)
+  ok    test_confidence.test_opening_hours_columns_share_the_hours_band  (0.0s)
+  ok    test_confidence.test_score_uses_all_three_signals  (0.0s)
+  ok    test_confidence.test_the_band_reaches_tulip_imports_and_the_preview  (0.0s)
+  ok    test_confidence.test_the_build_calibrates_and_the_model_file_carries_it  (0.0s)
+  ok    test_confidence.test_the_evaluation_records_the_bands_signals  (1.8s)
+  ok    test_confidence.test_token_logprobs_are_the_full_pass_scores  (0.0s)
+  ok    test_confidence.test_unreadable_share_comes_from_the_runtime  (0.0s)
+  ok    test_confidence.test_without_calibration_never_sure  (0.0s)
+  ok    test_contract.test_a_tulip_1_database_is_migrated_not_lost  (0.0s)
+  ok    test_contract.test_a_value_outside_its_format_goes_to_review  (0.0s)
+  ok    test_contract.test_check_value_rejects_the_old_formats  (0.0s)
+  ok    test_contract.test_database_columns_and_types_follow_the_schema  (0.0s)
+  ok    test_contract.test_enum_values_are_the_runtime_enums  (0.0s)
+  ok    test_contract.test_evaluation_compares_in_the_declared_format  (0.0s)
+  ok    test_contract.test_every_column_has_a_known_format  (0.0s)
+  ok    test_contract.test_every_column_is_pinned_on_generated_rows  (11.9s)
+  ok    test_contract.test_import_sheet_writes_the_declared_format  (0.0s)
+  ok    test_contract.test_nothing_is_lost  (0.2s)
+  ok    test_contract.test_schema_names_every_table_and_every_field_once  (0.0s)
+  ok    test_contract.test_text_is_nfkc_even_after_a_direction_mark  (0.0s)
+  ok    test_contract.test_the_conversions_the_skeleton_needed  (0.0s)
+  ok    test_contract.test_types_per_format_on_generated_rows  (4.4s)
+  ok    test_contract.test_unassigned_fields_stay_out_and_empty_values_stay_none  (0.0s)
+imported               tarifs.csv | tarifs - rows: 3 added
+  ok    test_corrections.test_a_changed_file_is_not_corrected_blindly  (0.0s)
+imported               tarifs.csv | tarifs - rows: 3 added
+  ok    test_corrections.test_a_correction_the_runtime_rejects_is_never_a_lesson  (0.0s)
+imported               tarifs.csv | tarifs - rows: 3 added
+  ok    test_corrections.test_a_fixed_value_is_a_case_for_the_cell_readers  (0.0s)
+refused                tarifs.csv | tarifs (not_a_table)
+  ok    test_corrections.test_a_refused_sheet_is_unrefused_with_a_mapping  (0.0s)
+imported               tarifs.csv | tarifs - rows: 3 added
+  ok    test_corrections.test_a_remapped_column_round_trips_into_a_lesson  (0.0s)
+imported               tarifs.csv | tarifs - rows: 3 added
+  ok    test_corrections.test_an_evaluation_sheet_is_never_a_lesson  (1.0s)
+imported               tarifs.csv | tarifs - rows: 3 added
+  ok    test_corrections.test_an_import_that_should_have_been_refused  (0.0s)
+imported               tarifs.csv | tarifs - rows: 3 added
+  ok    test_corrections.test_corrections_stay_on_the_pc_unless_shared  (0.0s)
+imported               tarifs.csv | tarifs - rows: 3 added
+  ok    test_corrections.test_exported_lessons_join_the_next_training_round  (0.0s)
+imported               tarifs.csv | tarifs - rows: 2 added
+  ok    test_corrections.test_the_owner_names_the_sheets_own_letters  (0.0s)
+  ok    test_digits.test_appendix_i_cases_read_other_digits  (0.1s)
+  ok    test_digits.test_every_kind_of_cell_reads_other_digits  (0.0s)
+  ok    test_digits.test_failures_stay_failures  (0.0s)
+  ok    test_digits.test_text_keeps_arabic_digits_and_folds_full_width  (0.0s)
+  ok    test_files_layouts.test_a_day_range_row_becomes_one_row_per_day  (0.0s)
+  ok    test_files_layouts.test_a_pdf_table_goes_on_over_pages  (0.0s)
+  ok    test_files_layouts.test_a_scanned_pdf_needs_review  (0.0s)
+  ok    test_files_layouts.test_each_table_is_imported_on_its_own  (0.0s)
+  ok    test_files_layouts.test_every_readable_file_type_is_imported  (0.0s)
+  ok    test_files_layouts.test_ods_keeps_every_value  (2.3s)
+  ok    test_files_layouts.test_ods_repeats_are_not_expanded  (0.0s)
+  ok    test_files_layouts.test_pdf_gives_back_the_table  (1.1s)
+  ok    test_files_layouts.test_pdf_in_every_script  (0.0s)
+  ok    test_files_layouts.test_several_days_in_one_cell_in_every_language  (0.0s)
+  ok    test_files_layouts.test_single_table_sheets_are_never_cut  (0.1s)
+  ok    test_files_layouts.test_tables_on_one_sheet_are_found  (0.0s)
+  ok    test_files_layouts.test_the_data_checks_find_a_missing_language  (0.0s)
+  ok    test_files_layouts.test_the_new_splits_go_round_every_language  (0.3s)
+  ok    test_files_layouts.test_typed_rows_after_a_blank_row_are_data  (0.0s)
+  ok    test_files_layouts.test_weekdays_only_fills_a_day  (0.0s)
+  ok    test_files_layouts.test_xls_gives_the_xlsx_preview  (0.9s)
+  ok    test_handwritten_1_1.test_every_truth_is_read_from_its_file  (0.1s)
+  ok    test_handwritten_1_1.test_the_set_is_frozen  (0.0s)
+  ok    test_helpers.test_appendix_i_cases  (0.0s)
+  ok    test_helpers.test_helpers_never_raise  (0.1s)
+  ok    test_helpers.test_totals_words_cover_every_language  (0.0s)
+  ok    test_history.test_a_failed_reimport_keeps_the_rows  (0.0s)
+  ok    test_history.test_a_sheet_that_moves_to_another_table  (0.0s)
+  ok    test_history.test_a_table_made_before_the_history_gets_its_columns  (0.0s)
+  ok    test_history.test_an_edited_price_list_gives_exactly_its_differences  (0.0s)
+imported               tarifs.csv | tarifs - rows: 3 added
+  ok    test_history.test_an_unchanged_file_changes_nothing  (0.0s)
+  ok    test_history.test_opening_hours_pair_by_day_and_rank  (0.0s)
+  ok    test_history.test_rows_are_paired_by_sku_when_every_row_has_one  (0.0s)
+  ok    test_history.test_rows_with_the_same_key_pair_in_their_order  (0.0s)
+  ok    test_history.test_the_history_values_are_json  (0.0s)
+  ok    test_model.test_cache_matches_full_pass  (0.2s)
+  ok    test_model.test_generation_stops_at_end  (0.2s)
+  ok    test_model.test_loss_only_counts_the_program  (0.0s)
+    toy: 60/60 programs exactly right after 118s, loss 0.001
+  ok    test_model.test_toy_task_is_learned  (119.3s)
+  ok    test_pipeline.test_batches_cover_everything_within_budget  (0.0s)
+  ok    test_pipeline.test_evaluation_summary_counts  (0.0s)
+  ok    test_pipeline.test_generated_tasks_pass_their_own_program  (4.1s)
+  ok    test_pipeline.test_import_sheets_database_and_reimport  (0.0s)
+  ok    test_pipeline.test_learning_rate_schedule  (0.0s)
+  ok    test_pipeline.test_loop_greedy_import_and_refusal_is_final  (0.0s)
+  ok    test_pipeline.test_loop_refuses_with_majority_else_needs_review  (0.0s)
+  ok    test_pipeline.test_loop_takes_first_sampled_candidate_that_passes  (0.0s)
+  ok    test_pipeline.test_micro_batches_add_up_to_the_batch  (0.0s)
+  ok    test_pipeline.test_real_file_round_trip  (0.9s)
+  ok    test_runtime_extra.test_a_notes_row_alone_is_listed  (0.0s)
+  ok    test_runtime_extra.test_arabic_tax_words  (0.0s)
+  ok    test_runtime_extra.test_clean_sheet_has_no_skipped_rows  (0.0s)
+  ok    test_runtime_extra.test_command_line_requires_targets  (1.9s)
+  ok    test_runtime_extra.test_every_skipped_row_is_listed_with_its_reason  (0.0s)
+  ok    test_runtime_extra.test_first_locale_table_matches_locales_json  (0.0s)
+  ok    test_runtime_extra.test_import_file_never_raises_on_a_bad_file  (0.0s)
+imported               a_good.csv | a_good - rows: 3 added
+needs_review           b_truncated.xlsx |  (unreadable_file:BadZipFile)
+needs_review           c_binary.csv |  (unreadable_file:csv.Error)
+imported               c_binary.csv | c_binary - rows: 3 added
+  ok    test_runtime_extra.test_import_sheets_records_a_bad_file_and_goes_on  (0.0s)
+  ok    test_runtime_extra.test_locale_outside_appendix_f_reads_dates_like_the_first_locale  (0.0s)
+  ok    test_runtime_extra.test_long_cells_are_cheap  (0.4s)
+  ok    test_runtime_extra.test_one_exception_on_a_sheet_is_that_sheet_only  (0.0s)
+  ok    test_runtime_extra.test_targets_must_be_one_to_four_known_names  (0.0s)
+  ok    test_same_heldout_sets.test_the_evaluation_splits_are_tulip_1s  (4.1s)
+  ok    test_same_heldout_sets.test_the_report_compares_with_tulip_1  (0.0s)
+  ok    test_sheets.test_compact_removes_empty_columns  (0.0s)
+  ok    test_sheets.test_csv_any_encoding_and_delimiter  (0.0s)
+  ok    test_sheets.test_csv_delimiter_is_not_a_decimal_comma  (0.0s)
+  ok    test_sheets.test_csv_legacy_code_pages_follow_the_locale  (0.0s)
+  ok    test_sheets.test_long_sheets_show_head_and_tail  (0.0s)
+  ok    test_sheets.test_values_line_shows_every_status_word  (0.0s)
+  ok    test_sheets.test_xlsx_and_preview  (0.0s)
+  ok    test_tok.test_round_trip  (0.0s)
+  ok    test_tulipscript.test_dropping_real_data_is_caught  (0.0s)
+  ok    test_tulipscript.test_format_of_and_first_do_not_count_replaced_failures  (0.0s)
+  ok    test_tulipscript.test_grammar_rejects_everything_else  (0.0s)
+  ok    test_tulipscript.test_imports_the_right_rows  (0.0s)
+  ok    test_tulipscript.test_notes_rows_need_no_filter_but_wrong_columns_are_caught  (0.0s)
+  ok    test_tulipscript.test_parse_failures_are_counted  (0.0s)
+  ok    test_tulipscript.test_part_join_first_lookup  (0.0s)
+  ok    test_tulipscript.test_part_reads_the_nfkc_form  (0.0s)
+  ok    test_tulipscript.test_plausibility_rules  (0.0s)
+  ok    test_tulipscript.test_refusal_and_offered_targets  (0.0s)
+  ok    test_tulipscript.test_round_trip  (0.0s)
+  ok    test_tulipscript.test_section_rows_must_be_consistent  (0.0s)
+  ok    test_tulipscript.test_sections_and_unpivot  (0.0s)
+  ok    test_tulipscript.test_totals_row_is_caught_without_answer_key  (0.0s)
+  ok    test_tulipscript.test_totals_words_respect_word_boundaries  (0.0s)
+
+133 passed, 0 skipped, 0 failed
+== exit 0 after 159 s on 6adfea1

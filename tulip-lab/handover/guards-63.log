@@ -1,0 +1,66 @@
+A1   caught   day of the week as a lower-case English name (contract.py): test_every_column_is_pinned_on_generated_rows, test_import_sheet_writes_the_declared_format, test_the_conversions_the_skeleton_needed
+A2   caught   a VAT rate as a percent, not Tulip's fraction (contract.py): test_nothing_is_lost, test_the_conversions_the_skeleton_needed
+A3   caught   one opening_hours row per range (a lunch break keeps its afternoon) (contract.py): test_import_sheet_writes_the_declared_format, test_nothing_is_lost, test_the_conversions_the_skeleton_needed
+A4   caught   a value outside its declared format sends the sheet to review (tulip.py): test_a_value_outside_its_format_goes_to_review
+A5   caught   check_value refuses a boolean that is not a boolean (contract.py): test_check_value_rejects_the_old_formats
+A6   caught   the schema file is what the rows are pinned against (tables.schema.json): test_every_column_is_pinned_on_generated_rows, test_types_per_format_on_generated_rows
+A7   caught   a Tulip 1 table is renamed, never deleted (import_sheets.py): test_a_tulip_1_database_is_migrated_not_lost
+A8   caught   a sheet imported under an older schema version is imported again (import_sheets.py): test_a_tulip_1_database_is_migrated_not_lost
+A9   caught   the evaluation converts a truth written in Tulip's field kinds (evaluate.py): test_evaluation_compares_in_the_declared_format
+A11  caught   text is NFKC at output, even after a direction mark (contract.py): test_text_is_nfkc_even_after_a_direction_mark
+A10  caught   the database's column types come from the schema (import_sheets.py): test_database_columns_and_types_follow_the_schema
+C1   caught   a model with no calibration never says sure (confidence.py): test_import_gives_each_mapped_column_a_band, test_without_calibration_never_sure
+C2   caught   agreement counts only candidates for the same table (confidence.py): test_agreement_counts_same_target_and_same_expression, test_import_gives_each_mapped_column_a_band
+C3   caught   a program token's score is read at the position before it (confidence.py): test_token_logprobs_are_the_full_pass_scores
+C4   caught   sure is fitted on the 95% lower bound of its rate (confidence.py): test_calibration_holds_on_new_columns
+C5   caught   when the greedy program wins, the 7 sampled ones are still written for the agreement (tulip.py): test_import_gives_each_mapped_column_a_band
+C6   caught   the bands name the sheet's own column letters (tulip.py): test_import_gives_each_mapped_column_a_band, test_the_band_reaches_tulip_imports_and_the_preview
+C7   caught   a calibration file is only used for the model file it names (confidence.py): test_a_calibration_file_is_used_for_its_own_model_only
+C8   caught   a column of an import into the wrong table is wrong (confidence.py): test_a_column_is_right_when_its_values_are_the_truths
+C9   caught   the bands are stored in tulip_imports (import_sheets.py): test_the_band_reaches_tulip_imports_and_the_preview
+C10  caught   the runtime's unreadable cells lower the score (confidence.py): test_unreadable_share_comes_from_the_runtime
+C11  caught   the evaluation records the bands' signals for the calibration (evaluate.py): test_the_evaluation_records_the_bands_signals
+C12  caught   the build puts the calibration into the model file (build.py): test_the_build_calibrates_and_the_model_file_carries_it
+C13  caught   the build measures the bands on test_heldout, which the fit never saw (evaluate.py): test_the_build_calibrates_and_the_model_file_carries_it
+E1   caught   a removed row is marked, never deleted (history.py): test_a_sheet_that_moves_to_another_table, test_an_edited_price_list_gives_exactly_its_differences
+E2   caught   a row whose key is known is updated in place, not added again (history.py): test_an_edited_price_list_gives_exactly_its_differences
+E3   caught   a sheet that now fails to import keeps its rows (import_sheets.py): test_a_failed_reimport_keeps_the_rows
+E4   caught   products are paired by SKU when every row has one (keys.py): test_rows_are_paired_by_sku_when_every_row_has_one
+E5   caught   the history keeps the old and the new value (history.py): test_an_edited_price_list_gives_exactly_its_differences
+E6   caught   an unchanged file is not imported again (import_sheets.py): test_an_unchanged_file_changes_nothing
+E7   caught   a table made before the history gets its columns in place (import_sheets.py): test_a_table_made_before_the_history_gets_its_columns
+E8   caught   rows with the same key pair in their order (keys.py): test_rows_with_the_same_key_pair_in_their_order
+B1   caught   the comparison never changes or drops a row (compare.py): test_the_messy_example
+B2   caught   the document date comes before the file date (compare.py): test_the_messy_example, test_the_preferred_source_rule
+B3   caught   two dates are compared at the precision of the less precise (compare.py): test_the_preferred_source_rule
+B4   caught   quantities are one unit in the key (0,25 kg = 250 g) (keys.py): test_the_messy_example
+B5   caught   keys are case folded (keys.py): test_the_messy_example
+B6   caught   rows marked removed are no source (compare.py): test_removed_rows_are_not_compared
+B7   caught   a question is asked once (compare.py): test_a_question_is_asked_once_and_follows_the_data
+B8   caught   a file in a suppliers' folder is a supplier's (compare.py): test_dates_and_origins_in_every_language, test_the_messy_example
+B9   caught   a spelling of the key is not a contradiction (compare.py): test_the_messy_example
+B10  caught   a French CSV with decimal commas splits on ; (sheets.py): test_the_messy_example
+D1   caught   a lesson's rows must be the runtime's rows (corrections.py): test_a_remapped_column_round_trips_into_a_lesson
+D2   caught   a correction leaves the PC only when shared (corrections.py): test_corrections_stay_on_the_pc_unless_shared
+D3   caught   an evaluation sheet is never a lesson (corrections.py): test_an_evaluation_sheet_is_never_a_lesson
+D4   caught   the owner's letters are the sheet's own (corrections.py): test_the_owner_names_the_sheets_own_letters
+D5   caught   a file changed since its import is not corrected blindly (corrections.py): test_a_changed_file_is_not_corrected_blindly
+D6   caught   a lesson's program is canonical (corrections.py): test_a_remapped_column_round_trips_into_a_lesson
+D7   caught   a lesson's preview is the sheet's preview (corrections.py): test_a_remapped_column_round_trips_into_a_lesson
+D8   caught   a correction the runtime rejects is marked (corrections.py): test_a_correction_the_runtime_rejects_is_never_a_lesson
+G1   caught   right-to-left text of a PDF is put back in reading order (pdftable.py): test_pdf_in_every_script
+G2   caught   a PDF note that runs on stays in the column it starts in (pdftable.py): test_pdf_gives_back_the_table
+G3   caught   an empty line of a PDF is an empty row (pdftable.py): test_pdf_in_every_script
+G4   caught   a PDF table goes on over pages (pdftable.py): test_a_pdf_table_goes_on_over_pages
+G5   caught   a scanned PDF needs review (no OCR) (tulip.py): test_a_scanned_pdf_needs_review
+G6   caught   an ODS empty repeat is never expanded (sheets.py): test_ods_repeats_are_not_expanded
+G7   caught   an .xls duration is a duration (sheets.py): test_xls_gives_the_xlsx_preview
+G8   caught   a day range is one row per day (tulipscript.py): test_a_day_range_row_becomes_one_row_per_day
+G9   caught   a day range may wrap round the week (helpers.py): test_several_days_in_one_cell_in_every_language
+G10  caught   a new table starts at a header row, not at every blank row (blocks.py): test_single_table_sheets_are_never_cut, test_tables_on_one_sheet_are_found
+G11  caught   the tables' rows and cells are the sheet's own (tulip.py): test_each_table_is_imported_on_its_own
+G12  caught   a header repeated after a blank row is the same table (blocks.py): test_tables_on_one_sheet_are_found
+G13  caught   a header row is texts: a row of times or durations is data (blocks.py): test_typed_rows_after_a_blank_row_are_data
+
+63 guards broken one at a time: 63 caught, 0 not guarded
+exit 0

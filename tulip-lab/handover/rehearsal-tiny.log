@@ -1,0 +1,568 @@
+[01:15:59] build tiny
+Stage 1/8: check
+[01:15:59] check      ...
+[01:16:02] vendor/: et_xmlfile-2.0.0-py3-none-any.whl, hijridate-2.6.0-py3-none-any.whl, openpyxl-3.1.5-py2.py3-none-any.whl, phonenumbers-9.0.40-py2.py3-none-any.whl, pypdf-6.19.0-py3-none-any.whl, xlrd-2.0.2-py2.py3-none-any.whl, xlwt-1.3.0-py2.py3-none-any.whl
+[01:16:02] processes 4, torch threads 4 (of 4 CPUs)
+----------------------------------------------------------------
+Operating system       Linux 6.18.44-fc-v37 / x86_64
+Python                 3.11.15
+torch                  2.14.0+cu130
+GPU                    none - CPU only
+bf16                   no
+CPUs                   4 (this build uses 4 processes, 4 torch threads)
+vendor/                et_xmlfile-2.0.0-py3-none-any.whl, hijridate-2.6.0-py3-none-any.whl, openpyxl-3.1.5-py2.py3-none-any.whl, phonenumbers-9.0.40-py2.py3-none-any.whl, pypdf-6.19.0-py3-none-any.whl, xlrd-2.0.2-py2.py3-none-any.whl, xlwt-1.3.0-py2.py3-none-any.whl
+RAM                    16.9 GB
+Free disk              20.2 GB
+speed cpu_fp32         0.417 TFLOPS
+speed cpu_bf16         2.095 TFLOPS
+  torch                2.14.0+cu130
+  tokenizers           0.23.2
+  openpyxl             3.1.5
+  phonenumbers         9.0.40
+  numpy                2.4.6
+  hijridate            2.6.0
+build.py would choose  pilot
+----------------------------------------------------------------
+[01:16:02] check      done in 0.1 min
+Stage 2/8: generate
+[01:16:02] generate   ...
+[01:16:04] generating with 4 processes
+[01:16:06]   train: 150 / 3000 tasks (3 s), progress 5%
+[01:16:09]   train: 300 / 3000 tasks (6 s), progress 10%
+[01:16:12]   train: 450 / 3000 tasks (8 s), progress 15%
+[01:16:13]   train: 600 / 3000 tasks (10 s), progress 20%
+[01:16:16]   train: 750 / 3000 tasks (12 s), progress 25%
+[01:16:18]   train: 900 / 3000 tasks (14 s), progress 30%
+[01:16:20]   train: 1050 / 3000 tasks (16 s), progress 35%
+[01:16:21]   train: 1200 / 3000 tasks (17 s), progress 40%
+[01:16:23]   train: 1350 / 3000 tasks (19 s), progress 45%
+[01:16:25]   train: 1500 / 3000 tasks (21 s), progress 50%
+[01:16:27]   train: 1650 / 3000 tasks (23 s), progress 55%
+[01:16:29]   train: 1800 / 3000 tasks (25 s), progress 60%
+[01:16:30]   train: 1950 / 3000 tasks (27 s), progress 65%
+[01:16:33]   train: 2100 / 3000 tasks (29 s), progress 70%
+[01:16:35]   train: 2250 / 3000 tasks (31 s), progress 75%
+[01:16:36]   train: 2400 / 3000 tasks (33 s), progress 80%
+[01:16:39]   train: 2550 / 3000 tasks (35 s), progress 85%
+[01:16:40]   train: 2700 / 3000 tasks (37 s), progress 90%
+[01:16:44]   train: 2850 / 3000 tasks (40 s), progress 95%
+[01:16:46]   train: 3000 / 3000 tasks (42 s), progress 100%
+[01:16:46]   train: 3000 tasks, 0 discards, 0 duplicates dropped, 42 s
+[01:16:46]   val: 2 / 50 tasks (1 s), progress 4%
+[01:16:46]   val: 4 / 50 tasks (1 s), progress 8%
+[01:16:46]   val: 6 / 50 tasks (1 s), progress 12%
+[01:16:46]   val: 8 / 50 tasks (1 s), progress 16%
+[01:16:46]   val: 10 / 50 tasks (1 s), progress 20%
+[01:16:46]   val: 12 / 50 tasks (1 s), progress 24%
+[01:16:46]   val: 14 / 50 tasks (1 s), progress 28%
+[01:16:46]   val: 16 / 50 tasks (1 s), progress 32%
+[01:16:46]   val: 18 / 50 tasks (1 s), progress 36%
+[01:16:46]   val: 20 / 50 tasks (1 s), progress 40%
+[01:16:46]   val: 22 / 50 tasks (1 s), progress 44%
+[01:16:46]   val: 24 / 50 tasks (1 s), progress 48%
+[01:16:46]   val: 26 / 50 tasks (1 s), progress 52%
+[01:16:46]   val: 28 / 50 tasks (1 s), progress 56%
+[01:16:46]   val: 30 / 50 tasks (1 s), progress 60%
+[01:16:46]   val: 32 / 50 tasks (1 s), progress 64%
+[01:16:47]   val: 34 / 50 tasks (1 s), progress 68%
+[01:16:47]   val: 36 / 50 tasks (1 s), progress 72%
+[01:16:47]   val: 38 / 50 tasks (1 s), progress 76%
+[01:16:47]   val: 40 / 50 tasks (1 s), progress 80%
+[01:16:47]   val: 42 / 50 tasks (1 s), progress 84%
+[01:16:47]   val: 44 / 50 tasks (1 s), progress 88%
+[01:16:47]   val: 46 / 50 tasks (1 s), progress 92%
+[01:16:47]   val: 48 / 50 tasks (1 s), progress 96%
+[01:16:47]   val: 50 / 50 tasks (1 s), progress 100%
+[01:16:47]   val: 50 tasks, 0 discards, 0 duplicates dropped, 1 s
+[01:16:48]   dev_heldout: 2 / 50 tasks (1 s), progress 4%
+[01:16:48]   dev_heldout: 4 / 50 tasks (1 s), progress 8%
+[01:16:48]   dev_heldout: 6 / 50 tasks (1 s), progress 12%
+[01:16:48]   dev_heldout: 8 / 50 tasks (1 s), progress 16%
+[01:16:48]   dev_heldout: 10 / 50 tasks (1 s), progress 20%
+[01:16:48]   dev_heldout: 12 / 50 tasks (1 s), progress 24%
+[01:16:48]   dev_heldout: 14 / 50 tasks (1 s), progress 28%
+[01:16:48]   dev_heldout: 16 / 50 tasks (1 s), progress 32%
+[01:16:48]   dev_heldout: 18 / 50 tasks (1 s), progress 36%
+[01:16:48]   dev_heldout: 20 / 50 tasks (1 s), progress 40%
+[01:16:48]   dev_heldout: 22 / 50 tasks (1 s), progress 44%
+[01:16:48]   dev_heldout: 24 / 50 tasks (1 s), progress 48%
+[01:16:48]   dev_heldout: 26 / 50 tasks (1 s), progress 52%
+[01:16:48]   dev_heldout: 28 / 50 tasks (1 s), progress 56%
+[01:16:48]   dev_heldout: 30 / 50 tasks (1 s), progress 60%
+[01:16:48]   dev_heldout: 32 / 50 tasks (1 s), progress 64%
+[01:16:48]   dev_heldout: 34 / 50 tasks (1 s), progress 68%
+[01:16:48]   dev_heldout: 36 / 50 tasks (1 s), progress 72%
+[01:16:48]   dev_heldout: 38 / 50 tasks (1 s), progress 76%
+[01:16:48]   dev_heldout: 40 / 50 tasks (1 s), progress 80%
+[01:16:48]   dev_heldout: 42 / 50 tasks (1 s), progress 84%
+[01:16:48]   dev_heldout: 44 / 50 tasks (1 s), progress 88%
+[01:16:48]   dev_heldout: 46 / 50 tasks (1 s), progress 92%
+[01:16:48]   dev_heldout: 48 / 50 tasks (1 s), progress 96%
+[01:16:48]   dev_heldout: 50 / 50 tasks (1 s), progress 100%
+[01:16:48]   dev_heldout: 50 tasks, 0 discards, 0 duplicates dropped, 1 s
+[01:16:48]   test_seen: 2 / 50 tasks (0 s), progress 4%
+[01:16:48]   test_seen: 4 / 50 tasks (0 s), progress 8%
+[01:16:48]   test_seen: 6 / 50 tasks (0 s), progress 12%
+[01:16:48]   test_seen: 8 / 50 tasks (0 s), progress 16%
+[01:16:49]   test_seen: 10 / 50 tasks (1 s), progress 20%
+[01:16:49]   test_seen: 12 / 50 tasks (1 s), progress 24%
+[01:16:49]   test_seen: 14 / 50 tasks (1 s), progress 28%
+[01:16:49]   test_seen: 16 / 50 tasks (1 s), progress 32%
+[01:16:49]   test_seen: 18 / 50 tasks (1 s), progress 36%
+[01:16:49]   test_seen: 20 / 50 tasks (1 s), progress 40%
+[01:16:49]   test_seen: 22 / 50 tasks (1 s), progress 44%
+[01:16:49]   test_seen: 24 / 50 tasks (1 s), progress 48%
+[01:16:49]   test_seen: 26 / 50 tasks (1 s), progress 52%
+[01:16:49]   test_seen: 28 / 50 tasks (1 s), progress 56%
+[01:16:49]   test_seen: 30 / 50 tasks (1 s), progress 60%
+[01:16:49]   test_seen: 32 / 50 tasks (1 s), progress 64%
+[01:16:49]   test_seen: 34 / 50 tasks (1 s), progress 68%
+[01:16:49]   test_seen: 36 / 50 tasks (1 s), progress 72%
+[01:16:49]   test_seen: 38 / 50 tasks (1 s), progress 76%
+[01:16:49]   test_seen: 40 / 50 tasks (1 s), progress 80%
+[01:16:49]   test_seen: 42 / 50 tasks (1 s), progress 84%
+[01:16:49]   test_seen: 44 / 50 tasks (1 s), progress 88%
+[01:16:49]   test_seen: 46 / 50 tasks (1 s), progress 92%
+[01:16:49]   test_seen: 48 / 50 tasks (1 s), progress 96%
+[01:16:49]   test_seen: 50 / 50 tasks (1 s), progress 100%
+[01:16:49]   test_seen: 50 tasks, 0 discards, 0 duplicates dropped, 1 s
+[01:16:49]   test_heldout: 2 / 50 tasks (0 s), progress 4%
+[01:16:49]   test_heldout: 4 / 50 tasks (0 s), progress 8%
+[01:16:49]   test_heldout: 6 / 50 tasks (1 s), progress 12%
+[01:16:49]   test_heldout: 8 / 50 tasks (1 s), progress 16%
+[01:16:50]   test_heldout: 10 / 50 tasks (1 s), progress 20%
+[01:16:50]   test_heldout: 12 / 50 tasks (1 s), progress 24%
+[01:16:50]   test_heldout: 14 / 50 tasks (1 s), progress 28%
+[01:16:50]   test_heldout: 16 / 50 tasks (1 s), progress 32%
+[01:16:50]   test_heldout: 18 / 50 tasks (1 s), progress 36%
+[01:16:50]   test_heldout: 20 / 50 tasks (1 s), progress 40%
+[01:16:50]   test_heldout: 22 / 50 tasks (1 s), progress 44%
+[01:16:50]   test_heldout: 24 / 50 tasks (1 s), progress 48%
+[01:16:50]   test_heldout: 26 / 50 tasks (1 s), progress 52%
+[01:16:50]   test_heldout: 28 / 50 tasks (1 s), progress 56%
+[01:16:50]   test_heldout: 30 / 50 tasks (1 s), progress 60%
+[01:16:50]   test_heldout: 32 / 50 tasks (1 s), progress 64%
+[01:16:50]   test_heldout: 34 / 50 tasks (1 s), progress 68%
+[01:16:50]   test_heldout: 36 / 50 tasks (1 s), progress 72%
+[01:16:50]   test_heldout: 38 / 50 tasks (1 s), progress 76%
+[01:16:50]   test_heldout: 40 / 50 tasks (1 s), progress 80%
+[01:16:50]   test_heldout: 42 / 50 tasks (1 s), progress 84%
+[01:16:50]   test_heldout: 44 / 50 tasks (1 s), progress 88%
+[01:16:50]   test_heldout: 46 / 50 tasks (1 s), progress 92%
+[01:16:50]   test_heldout: 48 / 50 tasks (1 s), progress 96%
+[01:16:50]   test_heldout: 50 / 50 tasks (1 s), progress 100%
+[01:16:50]   test_heldout: 50 tasks, 0 discards, 0 duplicates dropped, 1 s
+[01:16:50]   test_locale: 1 / 20 tasks (0 s), progress 5%
+[01:16:50]   test_locale: 2 / 20 tasks (0 s), progress 10%
+[01:16:50]   test_locale: 3 / 20 tasks (0 s), progress 15%
+[01:16:50]   test_locale: 4 / 20 tasks (0 s), progress 20%
+[01:16:50]   test_locale: 5 / 20 tasks (0 s), progress 25%
+[01:16:50]   test_locale: 6 / 20 tasks (0 s), progress 30%
+[01:16:50]   test_locale: 7 / 20 tasks (0 s), progress 35%
+[01:16:50]   test_locale: 8 / 20 tasks (0 s), progress 40%
+[01:16:50]   test_locale: 9 / 20 tasks (0 s), progress 45%
+[01:16:50]   test_locale: 10 / 20 tasks (0 s), progress 50%
+[01:16:50]   test_locale: 11 / 20 tasks (0 s), progress 55%
+[01:16:50]   test_locale: 12 / 20 tasks (0 s), progress 60%
+[01:16:50]   test_locale: 13 / 20 tasks (0 s), progress 65%
+[01:16:50]   test_locale: 14 / 20 tasks (0 s), progress 70%
+[01:16:50]   test_locale: 15 / 20 tasks (0 s), progress 75%
+[01:16:50]   test_locale: 16 / 20 tasks (0 s), progress 80%
+[01:16:50]   test_locale: 17 / 20 tasks (0 s), progress 85%
+[01:16:50]   test_locale: 18 / 20 tasks (1 s), progress 90%
+[01:16:50]   test_locale: 19 / 20 tasks (1 s), progress 95%
+[01:16:50]   test_locale: 20 / 20 tasks (1 s), progress 100%
+[01:16:50]   test_locale: 20 tasks, 0 discards, 0 duplicates dropped, 0 s
+[01:16:51]   traps: 1 / 30 tasks (0 s), progress 3%
+[01:16:51]   traps: 2 / 30 tasks (0 s), progress 6%
+[01:16:51]   traps: 3 / 30 tasks (0 s), progress 10%
+[01:16:51]   traps: 4 / 30 tasks (0 s), progress 13%
+[01:16:51]   traps: 5 / 30 tasks (0 s), progress 16%
+[01:16:51]   traps: 6 / 30 tasks (0 s), progress 20%
+[01:16:51]   traps: 7 / 30 tasks (0 s), progress 23%
+[01:16:51]   traps: 8 / 30 tasks (0 s), progress 26%
+[01:16:51]   traps: 9 / 30 tasks (1 s), progress 30%
+[01:16:51]   traps: 10 / 30 tasks (1 s), progress 33%
+[01:16:51]   traps: 11 / 30 tasks (1 s), progress 36%
+[01:16:51]   traps: 12 / 30 tasks (1 s), progress 40%
+[01:16:51]   traps: 13 / 30 tasks (1 s), progress 43%
+[01:16:51]   traps: 14 / 30 tasks (1 s), progress 46%
+[01:16:51]   traps: 15 / 30 tasks (1 s), progress 50%
+[01:16:51]   traps: 16 / 30 tasks (1 s), progress 53%
+[01:16:51]   traps: 17 / 30 tasks (1 s), progress 56%
+[01:16:51]   traps: 18 / 30 tasks (1 s), progress 60%
+[01:16:51]   traps: 19 / 30 tasks (1 s), progress 63%
+[01:16:51]   traps: 20 / 30 tasks (1 s), progress 66%
+[01:16:51]   traps: 21 / 30 tasks (1 s), progress 70%
+[01:16:51]   traps: 22 / 30 tasks (1 s), progress 73%
+[01:16:51]   traps: 23 / 30 tasks (1 s), progress 76%
+[01:16:51]   traps: 24 / 30 tasks (1 s), progress 80%
+[01:16:51]   traps: 25 / 30 tasks (1 s), progress 83%
+[01:16:51]   traps: 26 / 30 tasks (1 s), progress 86%
+[01:16:51]   traps: 27 / 30 tasks (1 s), progress 90%
+[01:16:51]   traps: 28 / 30 tasks (1 s), progress 93%
+[01:16:51]   traps: 29 / 30 tasks (1 s), progress 96%
+[01:16:51]   traps: 30 / 30 tasks (1 s), progress 100%
+[01:16:51]   traps: 30 tasks, 0 discards, 0 duplicates dropped, 1 s
+[01:16:52]   test_files: 1 / 30 tasks (1 s), progress 3%
+[01:16:52]   test_files: 2 / 30 tasks (1 s), progress 6%
+[01:16:52]   test_files: 3 / 30 tasks (1 s), progress 10%
+[01:16:52]   test_files: 4 / 30 tasks (1 s), progress 13%
+[01:16:52]   test_files: 5 / 30 tasks (1 s), progress 16%
+[01:16:52]   test_files: 6 / 30 tasks (1 s), progress 20%
+[01:16:52]   test_files: 7 / 30 tasks (1 s), progress 23%
+[01:16:52]   test_files: 8 / 30 tasks (1 s), progress 26%
+[01:16:52]   test_files: 9 / 30 tasks (1 s), progress 30%
+[01:16:52]   test_files: 10 / 30 tasks (1 s), progress 33%
+[01:16:52]   test_files: 11 / 30 tasks (1 s), progress 36%
+[01:16:52]   test_files: 12 / 30 tasks (1 s), progress 40%
+[01:16:52]   test_files: 13 / 30 tasks (1 s), progress 43%
+[01:16:52]   test_files: 14 / 30 tasks (1 s), progress 46%
+[01:16:52]   test_files: 15 / 30 tasks (1 s), progress 50%
+[01:16:52]   test_files: 16 / 30 tasks (1 s), progress 53%
+[01:16:53]   test_files: 17 / 30 tasks (2 s), progress 56%
+[01:16:53]   test_files: 18 / 30 tasks (2 s), progress 60%
+[01:16:53]   test_files: 19 / 30 tasks (2 s), progress 63%
+[01:16:53]   test_files: 20 / 30 tasks (2 s), progress 66%
+[01:16:53]   test_files: 21 / 30 tasks (2 s), progress 70%
+[01:16:53]   test_files: 22 / 30 tasks (2 s), progress 73%
+[01:16:53]   test_files: 23 / 30 tasks (2 s), progress 76%
+[01:16:53]   test_files: 24 / 30 tasks (2 s), progress 80%
+[01:16:53]   test_files: 25 / 30 tasks (2 s), progress 83%
+[01:16:53]   test_files: 26 / 30 tasks (2 s), progress 86%
+[01:16:53]   test_files: 27 / 30 tasks (2 s), progress 90%
+[01:16:53]   test_files: 28 / 30 tasks (2 s), progress 93%
+[01:16:53]   test_files: 29 / 30 tasks (2 s), progress 96%
+[01:16:53]   test_files: 30 / 30 tasks (2 s), progress 100%
+[01:16:53]   test_files: 28 tasks, 0 discards, 0 duplicates dropped, 2 s
+[01:16:54]   test_layouts: 1 / 30 tasks (1 s), progress 3%
+[01:16:54]   test_layouts: 2 / 30 tasks (1 s), progress 6%
+[01:16:54]   test_layouts: 3 / 30 tasks (1 s), progress 10%
+[01:16:54]   test_layouts: 4 / 30 tasks (1 s), progress 13%
+[01:16:54]   test_layouts: 5 / 30 tasks (1 s), progress 16%
+[01:16:54]   test_layouts: 6 / 30 tasks (1 s), progress 20%
+[01:16:54]   test_layouts: 7 / 30 tasks (1 s), progress 23%
+[01:16:54]   test_layouts: 8 / 30 tasks (1 s), progress 26%
+[01:16:54]   test_layouts: 9 / 30 tasks (1 s), progress 30%
+[01:16:54]   test_layouts: 10 / 30 tasks (1 s), progress 33%
+[01:16:54]   test_layouts: 11 / 30 tasks (1 s), progress 36%
+[01:16:54]   test_layouts: 12 / 30 tasks (1 s), progress 40%
+[01:16:54]   test_layouts: 13 / 30 tasks (1 s), progress 43%
+[01:16:54]   test_layouts: 14 / 30 tasks (1 s), progress 46%
+[01:16:54]   test_layouts: 15 / 30 tasks (1 s), progress 50%
+[01:16:54]   test_layouts: 16 / 30 tasks (1 s), progress 53%
+[01:16:54]   test_layouts: 17 / 30 tasks (1 s), progress 56%
+[01:16:54]   test_layouts: 18 / 30 tasks (1 s), progress 60%
+[01:16:54]   test_layouts: 19 / 30 tasks (1 s), progress 63%
+[01:16:54]   test_layouts: 20 / 30 tasks (1 s), progress 66%
+[01:16:54]   test_layouts: 21 / 30 tasks (1 s), progress 70%
+[01:16:54]   test_layouts: 22 / 30 tasks (1 s), progress 73%
+[01:16:54]   test_layouts: 23 / 30 tasks (1 s), progress 76%
+[01:16:54]   test_layouts: 24 / 30 tasks (1 s), progress 80%
+[01:16:54]   test_layouts: 25 / 30 tasks (1 s), progress 83%
+[01:16:54]   test_layouts: 26 / 30 tasks (1 s), progress 86%
+[01:16:54]   test_layouts: 27 / 30 tasks (1 s), progress 90%
+[01:16:54]   test_layouts: 28 / 30 tasks (1 s), progress 93%
+[01:16:54]   test_layouts: 29 / 30 tasks (1 s), progress 96%
+[01:16:54]   test_layouts: 30 / 30 tasks (1 s), progress 100%
+[01:16:54]   test_layouts: 30 tasks, 0 discards, 0 duplicates dropped, 1 s
+[01:16:55]   lessons: 1 from 1 file(s) joined the training split; rejected: none
+[01:16:58] Generator self-checks (section 10.8), preset tiny
+[01:16:58] PASS  1 self-check discards <= 0.5%
+[01:16:58]         0 discards of 3308 tasks (0.00%); 2 tasks could not be made
+[01:16:58] PASS  2 programs canonical
+[01:16:58]         0 not canonical
+[01:16:58] PASS  3 traps, families, languages
+[01:16:58]         T1 34% of products (needs 30%)
+[01:16:58]         T2 23% of products and services (needs 20%)
+[01:16:58]         T3 13% of products (needs 10%)
+[01:16:58]         T4 47% of tables with >= 8 rows (needs 40%)
+[01:16:58]         T5 57% of tables (needs 50%)
+[01:16:58]         T6 15% of tables (needs 10%)
+[01:16:58]         T7 30% of products and services (needs 25%)
+[01:16:58]         T8 21% of products (needs 15%)
+[01:16:58]         T8 51% of opening_hours (needs 40%)
+[01:16:58]         T9 18% of tables (needs 15%)
+[01:16:58]         T10 52% of staff (needs 50%)
+[01:16:58]         T10 56% of clients (needs 30%)
+[01:16:58]         T11 40% of bookings (needs 40%)
+[01:16:58]         T12 80% of bookings and ledgers (needs 70%)
+[01:16:58]         T13 38% of amount tables (needs 30%)
+[01:16:58]         T14 29% of tables (needs 20%)
+[01:16:58]         missing_required (T15) 3.47% of tasks (3.5%)
+[01:16:58]         no_matching_target 6.00% of tasks (6.0%)
+[01:16:58]         not_a_table 1.97% of tasks (2.0%)
+[01:16:58]         too_wide 0.50% of tasks (0.5%)
+[01:16:58]         formats: typed 69.91%, text 30.09% (70 / 30 +- 1 point); csv 24.8%, ods 2.5%, pdf 5.3%, xls 2.4%, xlsx 65.0%
+[01:16:58]         products rows: >30 40.2%, >100 17.4%, max 400 (3-400, log-uniform)
+[01:16:58]         services rows: >30 54.5%, >100 26.2%, max 396 (3-400, log-uniform)
+[01:16:58]         every family appears in its splits
+[01:16:58]         languages: ar 10.0%, zh 10.0%, en 10.0%, fr 10.0%, ru 10.0%, es 10.0%, it 10.0%, hi 10.0%, ja 10.0%, ko 10.0%
+[01:16:58]         every language in every evaluation split
+[01:16:58] PASS  4 real-file round trip (1%)
+[01:16:58]         38 files, 0 with a different preview
+[01:16:58] PASS  5 helpers give the truth >= 99.5%
+[01:16:58]         100.000% of 1127527 values
+[01:16:58] PASS  6 hold-out rules
+[01:16:58]         all kept
+[01:16:58]         violations per split (header texts compared after NFKC + case folding): train 0, val 0, dev_heldout 0, test_seen 0, test_heldout 0, test_locale 0, traps 0, test_files 0, test_layouts 0
+[01:16:58] PASS  7 token lengths
+[01:16:58]         checked by the tokenizer stage (pack)
+[01:16:58] PASS  8 NFKC programs, lookup keys in the preview
+[01:16:58]         0 programs not NFKC, 0 lookup keys not in VALUES
+[01:16:58] ALL PASSED
+[01:16:58] generate   done in 0.9 min
+Stage 3/8: tokenizer
+[01:16:58] tokenizer  ...
+[01:17:08] tokenizer: vocab 4000, 10 of 3294 tasks over 4096 tokens, round trip failures 0
+[01:17:11] 7 preview + program <= 4,096 tokens for >= 99%: 10 of 3294 over (0.30%)
+[01:17:11] tokenizer  done in 0.2 min
+Stage 4/8: pack
+[01:17:11] pack       ...
+[01:17:17] pack train: 2727 sequences, 2773772 tokens, 274 too long (dropped)
+[01:17:17] pack val: 47 sequences, 53559 tokens, 3 too long (dropped)
+[01:17:17] pack       done in 0.1 min
+Stage 5/8: train
+[01:17:17] train      ...
+[01:17:18] model: 1115008 parameters (603008 outside the embedding); 2727 sequences, 383 batches per epoch; device cpu
+[01:17:26] 0.35 s per step -> 40 steps (383 per epoch)
+[01:17:32] step 40/40 loss 3.9596 lr 2.90e-04 (0.2 min)
+[01:18:13] dev sample execution match 0.0000, val loss 1.9039 at step 40 (42 s)
+[01:18:14] training done: step 40 chosen, dev sample execution match 0.0000
+[01:18:14] model file: tulip-tiny.pt (4.6 MB) - without evaluation numbers yet
+[01:18:14] train      done in 0.9 min
+Stage 6/8: evaluate
+[01:18:14] evaluate   ...
+[01:18:14] evaluating test_heldout (50 tasks, 4 processes, cpu)
+[01:18:24]   test_heldout: 2 / 50 (11 s); evaluate progress 4%
+[01:18:27]   test_heldout: 4 / 50 (13 s); evaluate progress 8%
+[01:18:27]   test_heldout: 6 / 50 (13 s); evaluate progress 12%
+[01:18:27]   test_heldout: 8 / 50 (13 s); evaluate progress 16%
+[01:18:27]   test_heldout: 10 / 50 (13 s); evaluate progress 20%
+[01:18:32]   test_heldout: 12 / 50 (19 s); evaluate progress 24%
+[01:18:34]   test_heldout: 14 / 50 (21 s); evaluate progress 28%
+[01:18:35]   test_heldout: 16 / 50 (21 s); evaluate progress 32%
+[01:18:35]   test_heldout: 18 / 50 (22 s); evaluate progress 36%
+[01:18:43]   test_heldout: 20 / 50 (30 s); evaluate progress 40%
+[01:18:43]   test_heldout: 22 / 50 (30 s); evaluate progress 44%
+[01:18:46]   test_heldout: 24 / 50 (32 s); evaluate progress 48%
+[01:18:46]   test_heldout: 26 / 50 (32 s); evaluate progress 52%
+[01:18:46]   test_heldout: 28 / 50 (32 s); evaluate progress 56%
+[01:18:55]   test_heldout: 30 / 50 (41 s); evaluate progress 60%
+[01:18:55]   test_heldout: 32 / 50 (41 s); evaluate progress 64%
+[01:18:55]   test_heldout: 34 / 50 (41 s); evaluate progress 68%
+[01:18:55]   test_heldout: 36 / 50 (41 s); evaluate progress 72%
+[01:19:02]   test_heldout: 38 / 50 (48 s); evaluate progress 76%
+[01:19:04]   test_heldout: 40 / 50 (50 s); evaluate progress 80%
+[01:19:07]   test_heldout: 42 / 50 (53 s); evaluate progress 84%
+[01:19:07]   test_heldout: 44 / 50 (54 s); evaluate progress 88%
+[01:19:08]   test_heldout: 46 / 50 (54 s); evaluate progress 92%
+[01:19:12]   test_heldout: 48 / 50 (59 s); evaluate progress 96%
+[01:19:19]   test_heldout: 50 / 50 (65 s); evaluate progress 100%
+[01:19:19] evaluating test_seen (50 tasks, 4 processes, cpu)
+[01:19:33]   test_seen: 2 / 50 (14 s); evaluate progress 4%
+[01:19:33]   test_seen: 4 / 50 (14 s); evaluate progress 8%
+[01:19:33]   test_seen: 6 / 50 (14 s); evaluate progress 12%
+[01:19:33]   test_seen: 8 / 50 (14 s); evaluate progress 16%
+[01:19:38]   test_seen: 10 / 50 (19 s); evaluate progress 20%
+[01:19:44]   test_seen: 12 / 50 (25 s); evaluate progress 24%
+[01:19:46]   test_seen: 14 / 50 (27 s); evaluate progress 28%
+[01:19:46]   test_seen: 16 / 50 (27 s); evaluate progress 32%
+[01:19:48]   test_seen: 18 / 50 (29 s); evaluate progress 36%
+[01:19:49]   test_seen: 20 / 50 (30 s); evaluate progress 40%
+[01:19:53]   test_seen: 22 / 50 (34 s); evaluate progress 44%
+[01:20:01]   test_seen: 24 / 50 (42 s); evaluate progress 48%
+[01:20:01]   test_seen: 26 / 50 (42 s); evaluate progress 52%
+[01:20:01]   test_seen: 28 / 50 (42 s); evaluate progress 56%
+[01:20:01]   test_seen: 30 / 50 (42 s); evaluate progress 60%
+[01:20:05]   test_seen: 32 / 50 (46 s); evaluate progress 64%
+[01:20:05]   test_seen: 34 / 50 (46 s); evaluate progress 68%
+[01:20:06]   test_seen: 36 / 50 (47 s); evaluate progress 72%
+[01:20:11]   test_seen: 38 / 50 (52 s); evaluate progress 76%
+[01:20:11]   test_seen: 40 / 50 (53 s); evaluate progress 80%
+[01:20:14]   test_seen: 42 / 50 (55 s); evaluate progress 84%
+[01:20:14]   test_seen: 44 / 50 (55 s); evaluate progress 88%
+[01:20:21]   test_seen: 46 / 50 (62 s); evaluate progress 92%
+[01:20:21]   test_seen: 48 / 50 (62 s); evaluate progress 96%
+[01:20:24]   test_seen: 50 / 50 (65 s); evaluate progress 100%
+[01:20:24] evaluating traps (30 tasks, 4 processes, cpu)
+[01:20:29]   traps: 1 / 30 (6 s); evaluate progress 3%
+[01:20:30]   traps: 2 / 30 (6 s); evaluate progress 6%
+[01:20:30]   traps: 3 / 30 (6 s); evaluate progress 10%
+[01:20:30]   traps: 4 / 30 (6 s); evaluate progress 13%
+[01:20:33]   traps: 5 / 30 (10 s); evaluate progress 16%
+[01:20:33]   traps: 6 / 30 (10 s); evaluate progress 20%
+[01:20:36]   traps: 7 / 30 (12 s); evaluate progress 23%
+[01:20:36]   traps: 8 / 30 (12 s); evaluate progress 26%
+[01:20:38]   traps: 9 / 30 (14 s); evaluate progress 30%
+[01:20:38]   traps: 10 / 30 (14 s); evaluate progress 33%
+[01:20:39]   traps: 11 / 30 (15 s); evaluate progress 36%
+[01:20:40]   traps: 12 / 30 (16 s); evaluate progress 40%
+[01:20:41]   traps: 13 / 30 (17 s); evaluate progress 43%
+[01:20:41]   traps: 14 / 30 (18 s); evaluate progress 46%
+[01:20:43]   traps: 15 / 30 (19 s); evaluate progress 50%
+[01:20:43]   traps: 16 / 30 (19 s); evaluate progress 53%
+[01:20:47]   traps: 17 / 30 (23 s); evaluate progress 56%
+[01:20:47]   traps: 18 / 30 (23 s); evaluate progress 60%
+[01:20:49]   traps: 19 / 30 (25 s); evaluate progress 63%
+[01:20:49]   traps: 20 / 30 (25 s); evaluate progress 66%
+[01:20:51]   traps: 21 / 30 (28 s); evaluate progress 70%
+[01:20:54]   traps: 22 / 30 (30 s); evaluate progress 73%
+[01:20:54]   traps: 23 / 30 (30 s); evaluate progress 76%
+[01:20:55]   traps: 24 / 30 (32 s); evaluate progress 80%
+[01:20:55]   traps: 25 / 30 (32 s); evaluate progress 83%
+[01:20:58]   traps: 26 / 30 (35 s); evaluate progress 86%
+[01:20:58]   traps: 27 / 30 (35 s); evaluate progress 90%
+[01:21:00]   traps: 28 / 30 (37 s); evaluate progress 93%
+[01:21:00]   traps: 29 / 30 (37 s); evaluate progress 96%
+[01:21:00]   traps: 30 / 30 (37 s); evaluate progress 100%
+[01:21:00] evaluating dev_heldout (50 tasks, 4 processes, cpu)
+[01:21:10]   dev_heldout: 2 / 50 (9 s); evaluate progress 4%
+[01:21:10]   dev_heldout: 4 / 50 (9 s); evaluate progress 8%
+[01:21:11]   dev_heldout: 6 / 50 (11 s); evaluate progress 12%
+[01:21:11]   dev_heldout: 8 / 50 (11 s); evaluate progress 16%
+[01:21:11]   dev_heldout: 10 / 50 (11 s); evaluate progress 20%
+[01:21:18]   dev_heldout: 12 / 50 (18 s); evaluate progress 24%
+[01:21:18]   dev_heldout: 14 / 50 (18 s); evaluate progress 28%
+[01:21:21]   dev_heldout: 16 / 50 (20 s); evaluate progress 32%
+[01:21:25]   dev_heldout: 18 / 50 (25 s); evaluate progress 36%
+[01:21:25]   dev_heldout: 20 / 50 (25 s); evaluate progress 40%
+[01:21:25]   dev_heldout: 22 / 50 (25 s); evaluate progress 44%
+[01:21:31]   dev_heldout: 24 / 50 (30 s); evaluate progress 48%
+[01:21:32]   dev_heldout: 26 / 50 (32 s); evaluate progress 52%
+[01:21:32]   dev_heldout: 28 / 50 (32 s); evaluate progress 56%
+[01:21:35]   dev_heldout: 30 / 50 (35 s); evaluate progress 60%
+[01:21:38]   dev_heldout: 32 / 50 (38 s); evaluate progress 64%
+[01:21:39]   dev_heldout: 34 / 50 (39 s); evaluate progress 68%
+[01:21:39]   dev_heldout: 36 / 50 (39 s); evaluate progress 72%
+[01:21:39]   dev_heldout: 38 / 50 (39 s); evaluate progress 76%
+[01:21:45]   dev_heldout: 40 / 50 (45 s); evaluate progress 80%
+[01:21:45]   dev_heldout: 42 / 50 (45 s); evaluate progress 84%
+[01:21:50]   dev_heldout: 44 / 50 (49 s); evaluate progress 88%
+[01:21:52]   dev_heldout: 46 / 50 (52 s); evaluate progress 92%
+[01:21:52]   dev_heldout: 48 / 50 (52 s); evaluate progress 96%
+[01:21:56]   dev_heldout: 50 / 50 (56 s); evaluate progress 100%
+[01:21:56] evaluating test_files (28 tasks, 4 processes, cpu)
+[01:22:03]   test_files: 1 / 28 (7 s); evaluate progress 3%
+[01:22:03]   test_files: 2 / 28 (7 s); evaluate progress 7%
+[01:22:03]   test_files: 3 / 28 (7 s); evaluate progress 10%
+[01:22:03]   test_files: 4 / 28 (7 s); evaluate progress 14%
+[01:22:05]   test_files: 5 / 28 (9 s); evaluate progress 17%
+[01:22:05]   test_files: 6 / 28 (9 s); evaluate progress 21%
+[01:22:09]   test_files: 7 / 28 (13 s); evaluate progress 25%
+[01:22:09]   test_files: 8 / 28 (13 s); evaluate progress 28%
+[01:22:09]   test_files: 9 / 28 (13 s); evaluate progress 32%
+[01:22:09]   test_files: 10 / 28 (13 s); evaluate progress 35%
+[01:22:09]   test_files: 11 / 28 (13 s); evaluate progress 39%
+[01:22:09]   test_files: 12 / 28 (13 s); evaluate progress 42%
+[01:22:13]   test_files: 13 / 28 (16 s); evaluate progress 46%
+[01:22:14]   test_files: 14 / 28 (17 s); evaluate progress 50%
+[01:22:14]   test_files: 15 / 28 (17 s); evaluate progress 53%
+[01:22:14]   test_files: 16 / 28 (17 s); evaluate progress 57%
+[01:22:19]   test_files: 17 / 28 (23 s); evaluate progress 60%
+[01:22:19]   test_files: 18 / 28 (23 s); evaluate progress 64%
+[01:22:19]   test_files: 19 / 28 (23 s); evaluate progress 67%
+[01:22:19]   test_files: 20 / 28 (23 s); evaluate progress 71%
+[01:22:21]   test_files: 21 / 28 (25 s); evaluate progress 75%
+[01:22:23]   test_files: 22 / 28 (27 s); evaluate progress 78%
+[01:22:23]   test_files: 23 / 28 (27 s); evaluate progress 82%
+[01:22:27]   test_files: 24 / 28 (30 s); evaluate progress 85%
+[01:22:27]   test_files: 25 / 28 (30 s); evaluate progress 89%
+[01:22:30]   test_files: 26 / 28 (33 s); evaluate progress 92%
+[01:22:30]   test_files: 27 / 28 (33 s); evaluate progress 96%
+[01:22:30]   test_files: 28 / 28 (33 s); evaluate progress 100%
+[01:22:30] evaluating test_layouts (30 tasks, 4 processes, cpu)
+[01:22:35]   test_layouts: 1 / 30 (5 s); evaluate progress 3%
+[01:22:35]   test_layouts: 2 / 30 (5 s); evaluate progress 6%
+[01:22:36]   test_layouts: 3 / 30 (7 s); evaluate progress 10%
+[01:22:38]   test_layouts: 4 / 30 (8 s); evaluate progress 13%
+[01:22:38]   test_layouts: 5 / 30 (8 s); evaluate progress 16%
+[01:22:42]   test_layouts: 6 / 30 (12 s); evaluate progress 20%
+[01:22:42]   test_layouts: 7 / 30 (12 s); evaluate progress 23%
+[01:22:49]   test_layouts: 8 / 30 (19 s); evaluate progress 26%
+[01:22:49]   test_layouts: 9 / 30 (19 s); evaluate progress 30%
+[01:22:49]   test_layouts: 10 / 30 (19 s); evaluate progress 33%
+[01:22:49]   test_layouts: 11 / 30 (19 s); evaluate progress 36%
+[01:22:49]   test_layouts: 12 / 30 (19 s); evaluate progress 40%
+[01:22:49]   test_layouts: 13 / 30 (19 s); evaluate progress 43%
+[01:23:00]   test_layouts: 14 / 30 (30 s); evaluate progress 46%
+[01:23:00]   test_layouts: 15 / 30 (30 s); evaluate progress 50%
+[01:23:00]   test_layouts: 16 / 30 (30 s); evaluate progress 53%
+[01:23:00]   test_layouts: 17 / 30 (30 s); evaluate progress 56%
+[01:23:01]   test_layouts: 18 / 30 (31 s); evaluate progress 60%
+[01:23:01]   test_layouts: 19 / 30 (31 s); evaluate progress 63%
+[01:23:07]   test_layouts: 20 / 30 (37 s); evaluate progress 66%
+[01:23:07]   test_layouts: 21 / 30 (37 s); evaluate progress 70%
+[01:23:10]   test_layouts: 22 / 30 (40 s); evaluate progress 73%
+[01:23:10]   test_layouts: 23 / 30 (40 s); evaluate progress 76%
+[01:23:12]   test_layouts: 24 / 30 (42 s); evaluate progress 80%
+[01:23:12]   test_layouts: 25 / 30 (42 s); evaluate progress 83%
+[01:23:12]   test_layouts: 26 / 30 (42 s); evaluate progress 86%
+[01:23:12]   test_layouts: 27 / 30 (42 s); evaluate progress 90%
+[01:23:23]   test_layouts: 28 / 30 (53 s); evaluate progress 93%
+[01:23:23]   test_layouts: 29 / 30 (53 s); evaluate progress 96%
+[01:23:23]   test_layouts: 30 / 30 (53 s); evaluate progress 100%
+[01:23:23] evaluating val (50 tasks, 4 processes, cpu)
+[01:23:30]   val: 2 / 50 (7 s); evaluate progress 4%
+[01:23:34]   val: 4 / 50 (11 s); evaluate progress 8%
+[01:23:37]   val: 6 / 50 (14 s); evaluate progress 12%
+[01:23:37]   val: 8 / 50 (14 s); evaluate progress 16%
+[01:23:37]   val: 10 / 50 (14 s); evaluate progress 20%
+[01:23:40]   val: 12 / 50 (17 s); evaluate progress 24%
+[01:23:46]   val: 14 / 50 (23 s); evaluate progress 28%
+[01:23:46]   val: 16 / 50 (23 s); evaluate progress 32%
+[01:23:46]   val: 18 / 50 (23 s); evaluate progress 36%
+[01:23:49]   val: 20 / 50 (27 s); evaluate progress 40%
+[01:23:55]   val: 22 / 50 (33 s); evaluate progress 44%
+[01:23:58]   val: 24 / 50 (35 s); evaluate progress 48%
+[01:23:58]   val: 26 / 50 (35 s); evaluate progress 52%
+[01:23:58]   val: 28 / 50 (35 s); evaluate progress 56%
+[01:24:01]   val: 30 / 50 (38 s); evaluate progress 60%
+[01:24:04]   val: 32 / 50 (41 s); evaluate progress 64%
+[01:24:05]   val: 34 / 50 (42 s); evaluate progress 68%
+[01:24:07]   val: 36 / 50 (44 s); evaluate progress 72%
+[01:24:09]   val: 38 / 50 (46 s); evaluate progress 76%
+[01:24:15]   val: 40 / 50 (52 s); evaluate progress 80%
+[01:24:15]   val: 42 / 50 (52 s); evaluate progress 84%
+[01:24:16]   val: 44 / 50 (53 s); evaluate progress 88%
+[01:24:16]   val: 46 / 50 (53 s); evaluate progress 92%
+[01:24:25]   val: 48 / 50 (62 s); evaluate progress 96%
+[01:24:26]   val: 50 / 50 (63 s); evaluate progress 100%
+[01:24:26] evaluating test_locale (20 tasks, 4 processes, cpu)
+[01:24:31]   test_locale: 1 / 20 (6 s); evaluate progress 5%
+[01:24:31]   test_locale: 2 / 20 (6 s); evaluate progress 10%
+[01:24:32]   test_locale: 3 / 20 (6 s); evaluate progress 15%
+[01:24:32]   test_locale: 4 / 20 (7 s); evaluate progress 20%
+[01:24:32]   test_locale: 5 / 20 (7 s); evaluate progress 25%
+[01:24:37]   test_locale: 6 / 20 (11 s); evaluate progress 30%
+[01:24:40]   test_locale: 7 / 20 (14 s); evaluate progress 35%
+[01:24:42]   test_locale: 8 / 20 (16 s); evaluate progress 40%
+[01:24:42]   test_locale: 9 / 20 (16 s); evaluate progress 45%
+[01:24:42]   test_locale: 10 / 20 (16 s); evaluate progress 50%
+[01:24:45]   test_locale: 11 / 20 (20 s); evaluate progress 55%
+[01:24:45]   test_locale: 12 / 20 (20 s); evaluate progress 60%
+[01:24:45]   test_locale: 13 / 20 (20 s); evaluate progress 65%
+[01:24:46]   test_locale: 14 / 20 (20 s); evaluate progress 70%
+[01:24:48]   test_locale: 15 / 20 (23 s); evaluate progress 75%
+[01:24:51]   test_locale: 16 / 20 (25 s); evaluate progress 80%
+[01:24:51]   test_locale: 17 / 20 (25 s); evaluate progress 85%
+[01:24:53]   test_locale: 18 / 20 (27 s); evaluate progress 90%
+[01:24:53]   test_locale: 19 / 20 (27 s); evaluate progress 95%
+[01:24:54]   test_locale: 20 / 20 (28 s); evaluate progress 100%
+[01:27:07] evaluate   done in 8.9 min
+Stage 7/8: export
+[01:27:07] export     ...
+[01:27:07] model file: tulip-tiny.pt (4.6 MB)
+[01:27:07] export     done in 0.0 min
+Stage 8/8: report
+[01:27:07] report     ...
+[01:27:08] wrote REPORT.md (tiny; other presets: none)
+[01:27:08] report     done in 0.0 min
+[01:27:08] build tiny finished in 11.2 min
+== exit 0 after 670 s
+== cgroup memory peak (max_usage_in_bytes, with page cache): 2547093504
+== cgroup resident peak (total_rss, sampled each second): 2395901952
+== memory limit hits (failcnt): 0
+== oom_kill_disable 0
+== oom_kill 0
+== pids peak: 36

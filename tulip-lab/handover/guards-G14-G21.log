@@ -1,0 +1,10 @@
+G14  caught   each half of test_layouts goes round the ten languages (gen/tasks.py): test_the_new_splits_go_round_every_language
+G15  caught   .xls or .ods by a hash of the task, not by the language's index (gen/tasks.py): test_the_new_splits_go_round_every_language
+G16  caught   a several-days sheet of test_layouts is drawn in its language (gen/tasks.py): test_the_new_splits_go_round_every_language
+G17  caught   every table of a multi-table sheet is drawn in its language (gen/multitable.py): test_the_new_splits_go_round_every_language
+G18  caught   the data checks find a language missing from a split (gen/checks.py): test_the_data_checks_find_a_missing_language
+G19  caught   no bands because nothing was imported is not 'not scored' (evaluate.py): test_a_model_that_imports_nothing_says_why_it_has_no_bands
+G20  caught   REPORT.md never takes a Tulip 1.1 eval.json for Tulip 1's (report.py): test_the_report_compares_with_tulip_1
+G21  caught   the comparison shows Tulip 1's unchanged handwritten set (report.py): test_the_report_compares_with_tulip_1
+
+8 guards broken one at a time: 8 caught, 0 not guarded

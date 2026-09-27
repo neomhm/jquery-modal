@@ -1,0 +1,15 @@
+made or changed by the run: 34 files (5 in hidden folders, not sent)
+sent back (allowed kinds): 12 of at most 60
+  REPORT.md                                             42309 bytes  (changed)
+  data/tiny/stats.json                                   3016 bytes
+  runs/env.json                                          1035 bytes
+  runs/tiny/build.log                                   31808 bytes
+  runs/tiny/eval.json                                  212189 bytes
+  runs/tiny/eval_tables.md                              13746 bytes
+  runs/tiny/generator_checks.json                        2469 bytes
+  runs/tiny/stages.json                                  2761 bytes
+  runs/tiny/tokenizer.json                             115195 bytes
+  runs/tiny/tokenizer_report.json                         791 bytes
+  runs/tiny/train_result.json                             449 bytes
+  tulip-tiny.pt                                       4590645 bytes
+not sent (kind not allowed): data/tiny/dev_heldout.jsonl.gz, data/tiny/test_files.jsonl.gz, data/tiny/test_heldout.jsonl.gz, data/tiny/test_layouts.jsonl.gz, data/tiny/test_locale.jsonl.gz, data/tiny/test_seen.jsonl.gz, data/tiny/train.jsonl.gz, data/tiny/traps.jsonl.gz, data/tiny/val.jsonl.gz, runs/tiny/check.done, runs/tiny/evaluate.done, runs/tiny/export.done, runs/tiny/generate.done, runs/tiny/pack.done, runs/tiny/report.done, runs/tiny/tokenizer.done, runs/tiny/train.done
